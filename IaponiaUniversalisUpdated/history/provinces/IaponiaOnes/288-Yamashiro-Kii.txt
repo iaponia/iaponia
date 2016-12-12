@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = HSK
+owner = HSK
+controller = HSK
+
+culture = kinai
+religion = shinto
+capital = "Fushimi"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = metal
+
+
+1550.11.19 = {
+    add_core = MYI
+    controller = MYI
+    owner = MYI
+}
+1568.9.26 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

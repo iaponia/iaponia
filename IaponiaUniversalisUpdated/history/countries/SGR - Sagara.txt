@@ -1,0 +1,261 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 23	# Kuma
+
+1417.4.20 = { 
+	monarch = {
+		name = "Sakitsugu"
+		dynasty = "Sagara"
+#		birth_date = 1400.1.1
+#		death_date = 1443.7.23
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+	
+1433.1.1 = {
+	heir = {
+		name = "Akiyori"
+		monarch_name = "Akiyori"
+		dynasty = "Sagara"
+		birth_date = 1433.1.1
+		death_date = 1448.5.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1443.7.23 = { 
+	monarch = {
+		name = "Akiyori"
+		dynasty = "Sagara"
+#		birth_date = 1433.1.1
+#		death_date = 1448.5.1
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+	}
+	
+1443.7.23 = {
+	heir = {
+		name = "Nagatsugu"
+		monarch_name = "Nagatsugu"
+		dynasty = "Sagara"
+		birth_date = 1411.1.1
+		death_date = 1468.3.9
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1448.5.1 = { 
+	monarch = {
+		name = "Nagatsugu"
+		dynasty = "Sagara"
+#		birth_date = 1411.1.1
+#		death_date = 1468.3.9
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+	}
+	
+1448.5.1 = {
+	heir = {
+		name = "Tametsugu"
+		monarch_name = "Tametsugu"
+		dynasty = "Sagara"
+		birth_date = 1447.1.1
+		death_date = 1500.6.30
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+	
+1468.3.9 = { 
+	monarch = {
+		name = "Tametsugu"
+		dynasty = "Sagara"
+#		birth_date = 1447.1.1
+#		death_date = 1500.6.30
+		adm = 5
+		dip = 4
+		mil = 3
+		}
+	}
+
+1469.1.1 = {
+	heir = {
+		name = "Nagatsune"
+		monarch_name = "Nagatsune"
+		dynasty = "Sagara"
+		birth_date = 1469.1.1
+		death_date = 1518.6.18
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1499.1.1 = { 
+	monarch = {
+		name = "Nagatsune"
+		dynasty = "Sagara"
+#		birth_date = 1469.1.1
+#		death_date = 1518.6.18	
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+	}
+
+1501.1.1 = {
+	heir = {
+		name = "Nagamasa"
+		monarch_name = "Nagamasa"
+		dynasty = "Sagara"
+		birth_date = 1501.1.1
+		death_date = 1525.1.31
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1512.1.1 = { 
+	monarch = {
+		name = "Nagamasa"
+		dynasty = "Sagara"
+#		birth_date = 1501.1.1
+#		death_date = 1525.1.31
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+	}
+		
+1525.1.31 = { 
+	monarch = {
+		name = "Nagasada"
+		dynasty = "Sagara"
+#		birth_date = 1490.1.1
+#		death_date = 1531.12.19
+		adm = 3
+		dip = 4
+		mil = 4
+		}
+	}
+
+1526.1.1 = { 
+	monarch = {
+		name = "Yoshishige"
+		dynasty = "Sagara"
+#		birth_date = 1491.1.1
+#		death_date = 1546.9.19
+		adm = 5
+		dip = 6
+		mil = 6
+		}
+	}
+
+1530.1.1 = {
+	heir = {
+		name = "Haruhiro"
+		monarch_name = "Haruhiro"
+		dynasty = "Sagara"
+		birth_date = 1513.10.13
+		death_date = 1555.8.28
+		claim = 80
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+}
+	
+1546.9.19 = { 
+	monarch = {
+		name = "Haruhiro"
+		dynasty = "Sagara"
+#		birth_date = 1513.10.13
+#		death_date = 1555.8.28
+		adm = 6
+		dip = 5
+		mil = 6
+		}
+	}
+
+1546.9.19 = {
+	heir = {
+		name = "Yoshihi"
+		monarch_name = "Yoshihi"
+		dynasty = "Sagara"
+		birth_date = 1544.3.1
+		death_date = 1581.12.27
+		claim = 80
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1555.8.20 = { 
+	monarch = {
+		name = "Yoshihi"
+		dynasty = "Sagara"
+#		birth_date = 1544.3.1
+#		death_date = 1581.12.27
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+	
+1572.4.20 = {
+	heir = {
+		name = "Tadafusa"
+		monarch_name = "Tadafusa"
+		dynasty = "Sagara"
+		birth_date = 1572.4.20
+		death_date = 1585.3.16
+		claim = 80
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1581.12.27 = { 
+	monarch = {
+		name = "Tadafusa"
+		dynasty = "Sagara"
+#		birth_date = 1572.4.20
+#		death_date = 1585.3.16
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+	
+1585.3.16 = { 
+	monarch = {
+		name = "Yorifusa"
+		dynasty = "Sagara"
+#		birth_date = 1574.5.24
+#		death_date = 1636.7.15
+		adm = 6
+		dip = 5
+		mil = 5
+		}
+	}

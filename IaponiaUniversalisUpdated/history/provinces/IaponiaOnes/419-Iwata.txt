@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = SBA
+add_core = KAI
+owner = SBA
+controller = SBA
+
+culture = tokai
+religion = shinto
+capital = "Yashiroyama"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = fish
+
+
+1501.1.1 = {
+    controller = IMG
+    owner = IMG
+}
+1568.12.1 = {
+    add_core = TKG
+    owner = TKG
+    controller = TKG
+}
+

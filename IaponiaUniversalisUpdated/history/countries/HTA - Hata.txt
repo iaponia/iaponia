@@ -1,0 +1,121 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 91	# Iki
+
+1430.1.1 = { 
+	monarch = {
+		name = "Hisashi"
+		dynasty = "Hata"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1445.1.1 = {
+	heir = {
+		name = "Yasushi"
+		monarch_name = "Yasushi"
+		dynasty = "Hata"
+		birth_date = 1445.1.1
+		death_date = 1500.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1460.1.1 = { 
+	monarch = {
+		name = "Yasushi"
+		dynasty = "Hata"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1470.1.1 = {
+	heir = {
+		name = "Tadasu"
+		monarch_name = "Tadasu"
+		dynasty = "Hata"
+		birth_date = 1470.1.1
+		death_date = 1520.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1490.1.1 = { 
+	monarch = {
+		name = "Tadasu"
+		dynasty = "Hata"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1490.1.1 = {
+	heir = {
+		name = "Takashi"
+		monarch_name = "Takashi"
+		dynasty = "Hata"
+		birth_date = 1490.1.1
+		death_date = 1540.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1520.1.1 = { 
+	monarch = {
+		name = "Takashi"
+		dynasty = "Hata"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1520.1.1 = {
+	heir = {
+		name = "Sakou"
+		monarch_name = "Sakou"
+		dynasty = "Hata"
+		birth_date = 1520.1.1
+		death_date = 1547.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1540.1.1 = { 
+	monarch = {
+		name = "Sakou"
+		dynasty = "Hata"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1547.1.1 = { 
+	monarch = {
+		name = "Chikashi"
+		dynasty = "Hata"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}	

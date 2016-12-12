@@ -1,0 +1,83 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 362	# Atsumi
+	
+1414.4.23 = { 
+	monarch = {
+		name = "Mochimasu"
+		dynasty = "Toki"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1456.1.1 = { 
+	monarch = {
+		name = "Shigeyori"
+		dynasty = "Toki"
+		adm = 4
+		dip = 5
+		mil = 4
+		}
+	}
+
+1467.1.1 = {
+	heir = {
+		name = "Nasafusa"
+		monarch_name = "Masafusa"
+		dynasty = "Toki"
+		birth_date = 1457.1.1
+		death_date = 1519.7.12
+		claim = 70
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1495.1.1 = { 
+	monarch = {
+		name = "Masafusa"
+		dynasty = "Toki"
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+	}
+	
+1498.1.1 = {
+	heir = {
+		name = "Yoritake"
+		monarch_name = "Yoritake"
+		dynasty = "Toki"
+		birth_date = 1498.1.1
+		death_date = 1547.1.1
+		claim = 50
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+	
+1517.12.27 = { 
+	monarch = {
+		name = "Yoritake"
+		dynasty = "Toki"
+		adm = 3
+		dip = 3
+		mil = 4
+		}
+	}
+	
+1535.6.1 = { 
+	monarch = {
+		name = "Yorinori"
+		dynasty = "Toki"
+		adm = 3
+		dip = 3
+		mil = 3
+		}
+	}

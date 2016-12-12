@@ -1,0 +1,36 @@
+hre = no
+discovered_by = chinese
+
+add_core = HSK
+owner = HSK
+controller = HSK
+
+culture = kinai
+religion = shinto
+capital = "Ameyama"
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = bamboo
+
+
+1454.4.3 = {
+    add_core = SHK
+}
+1491.1.21 = {
+    remove_core = SHK
+}
+1550.11.19 = {
+    add_core = MYI
+    controller = MYI
+    owner = MYI
+}
+1568.9.26 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

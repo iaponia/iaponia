@@ -1,0 +1,31 @@
+hre = no
+discovered_by = chinese
+
+add_core = EGU
+add_core = NGO
+owner = EGU
+controller = EGU
+
+culture = hokuriku
+religion = shinto
+capital = "Shitagura"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = lacquerware
+
+
+1507.8.7 = {
+    controller = NGO
+    owner = NGO
+}
+1561.3.16 = {
+    add_core = UES
+    remove_core = NGO
+    owner = UES
+    controller = UES
+}
+

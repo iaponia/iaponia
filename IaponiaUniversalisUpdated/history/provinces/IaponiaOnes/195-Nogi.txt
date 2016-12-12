@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = KGK
+add_core = AMA
+owner = KGK
+controller = KGK
+
+culture = sanin
+religion = shinto
+capital = "Toda"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = rice
+
+
+1486.1.1 = {
+    controller = AMA
+    owner = AMA
+}
+1566.11.19 = {
+    add_core = MRI
+    owner = MRI
+    controller = MRI
+}
+

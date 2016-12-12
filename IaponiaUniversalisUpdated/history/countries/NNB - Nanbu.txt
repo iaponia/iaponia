@@ -1,0 +1,204 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 663	# Sannohe
+	
+1430.1.1 = { 
+	monarch = {
+		name = "Tokimasa"
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Michitsugu"
+		monarch_name = "Michitsugu"
+		dynasty = "Nanbu"
+		birth_date = 1440.1.1
+		death_date = 1490.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1473.4.2 = { 
+	monarch = {
+		name = "Michitsugu"
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+
+1473.4.2 = {
+	heir = {
+		name = "Nobutoki"
+		monarch_name = "Nobutoki"
+		dynasty = "Nanbu"
+		birth_date = 1442.1.1
+		death_date = 1502.1.11
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1490.1.1 = { 
+	monarch = {
+		name = "Nobutoki"
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Nobuyoshi"
+		monarch_name = "Nobuyoshi"
+		dynasty = "Nanbu"
+		birth_date = 1462.1.1
+		death_date = 1503.6.18
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1502.1.1 = { 
+	monarch = {
+		name = "Nobuyoshi"
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1503.6.18 = { 
+	monarch = {
+		name = "Masayasu"
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1503.6.18 = {
+	heir = {
+		name = "Yasunobu"
+		monarch_name = "Yasunobu"
+		dynasty = "Nanbu"
+		birth_date = 1493.1.1
+		death_date = 1541.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1507.3.23 = { 
+	monarch = {
+		name = "Yasunobu"
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1517.1.1 = {
+	heir = {
+		name = "Harumasa"
+		monarch_name = "Harumasa"
+		dynasty = "Nanbu"
+		birth_date = 1517.1.1
+		death_date = 1582.1.27
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1539.1.1 = { 
+	monarch = {
+		name = "Harumasa"
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1570.1.1 = {
+	heir = {
+		name = "Harutsugu"
+		monarch_name = "Harutsugu"
+		dynasty = "Nanbu"
+		birth_date = 1570.1.1
+		death_date = 1582.2.16
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1582.1.1 = { 
+	monarch = {
+		name = "Harutsugu"
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1582.2.16 = { 
+	monarch = {
+		name = "Nobunao"
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1582.2.16 = {
+	heir = {
+		name = "Toshinao"
+		monarch_name = "Toshinao"
+		dynasty = "Nanbu"
+		birth_date = 1576.4.13
+		death_date = 1632.10.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1599.1.1 = { 
+	monarch = {
+		name = "Toshinao"
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

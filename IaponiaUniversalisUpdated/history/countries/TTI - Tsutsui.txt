@@ -1,0 +1,163 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = OTI
+capital = 308	# Soejimo
+	
+1443.1.1 = { 
+	monarch = {
+		name = "Jun'ei"
+		dynasty = "Tsutsui"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1451.1.1 = {
+	heir = {
+		name = "Junson"
+		monarch_name = "Junson"
+		dynasty = "Tsutsui"
+		birth_date = 1451.1.1
+		death_date = 1489.8.27
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1455.8.19 = {capital = 318} #Soekami
+1459.6.15 = {capital = 308} #Soejimo
+
+1476.5.7 = { 
+	monarch = {
+		name = "Junson"
+		dynasty = "Tsutsui"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Junken"
+		monarch_name = "Junken"
+		dynasty = "Tsutsui"
+		birth_date = 1480.1.1
+		death_date = 1521.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1489.8.27 = { 
+	monarch = {
+		name = "Junken"
+		dynasty = "Tsutsui"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1489.8.27 = {
+	heir = {
+		name = "Junko"
+		monarch_name = "Junko"
+		dynasty = "Tsutsui"
+		birth_date = 1484.1.1
+		death_date = 1535.8.3
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1521.1.1 = { 
+	monarch = {
+		name = "Junko"
+		dynasty = "Tsutsui"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1523.3.2 = {
+	heir = {
+		name = "Junsho"
+		monarch_name = "Junsho"
+		dynasty = "Tsutsui"
+		birth_date = 1523.3.2
+		death_date = 1550.8.2
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1535.8.3 = { 
+	monarch = {
+		name = "Junsho"
+		dynasty = "Tsutsui"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1549.3.31 = {
+	heir = {
+		name = "Junkei"
+		monarch_name = "Junkei"
+		dynasty = "Tsutsui"
+		birth_date = 1549.3.31
+		death_date = 1584.9.15
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1550.8.2 = { 
+	monarch = {
+		name = "Junkei"
+		dynasty = "Tsutsui"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1562.6.6 = {
+	heir = {
+		name = "Sadatsugu"
+		monarch_name = "Sadatsugu"
+		dynasty = "Tsutsui"
+		birth_date = 1562.6.6
+		death_date = 1615.4.2
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1548.9.15 = { 
+	monarch = {
+		name = "Sadatsugu"
+		dynasty = "Tsutsui"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

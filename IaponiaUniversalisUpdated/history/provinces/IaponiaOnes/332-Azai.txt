@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = KGK
+add_core = AZI
+owner = KGK
+controller = KGK
+
+culture = kinai
+religion = shinto
+capital = "Isono"
+is_city = yes
+
+base_tax = 8
+base_production = 8
+base_manpower = 3
+
+trade_goods = cloth
+
+
+1534.1.1 = {
+    controller = AZI
+    owner = AZI
+}
+1573.8.27 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

@@ -1,0 +1,149 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+amaterasu =
+{
+global_missionary_strength = 0.02
+stability_cost_modifier = -0.1
+
+allow = { religion = shinto }
+sprite = 3
+
+ai_will_do = {
+factor = 1
+modifier = {
+factor = 2
+personality = ai_balanced
+}
+modifier = {
+factor = 0.5
+personality = ai_militarist
+}
+}
+}
+
+bishamonten =
+{
+discipline = 0.05
+ae_impact = -0.05
+
+allow = { religion = shinto }
+sprite = 6
+
+ai_will_do = {
+factor = 1
+modifier = {
+factor = 2
+personality = ai_militarist
+}
+modifier = {
+factor = 0.5
+personality = ai_capitalist
+}
+}
+}
+
+okuninushi =
+{
+build_cost = -0.10
+production_efficiency = 0.10
+
+allow = { religion = shinto }
+sprite = 1
+
+ai_will_do = {
+factor = 1
+modifier = {
+factor = 2
+NOT = { num_of_cities = 5 }
+}
+modifier = {
+factor = 2
+NOT = { num_of_cities = 10 }
+}
+modifier = {
+factor = 0.5
+num_of_cities = 30
+}
+modifier = {
+factor = 2
+personality = ai_capitalist
+}
+modifier = {
+factor = 0.5
+personality = ai_militarist
+}
+}
+}
+
+susanoo =
+{
+core_creation = -0.10
+diplomatic_reputation = 1
+
+allow = { religion = shinto }
+sprite = 4
+
+ai_will_do = {
+factor = 1
+modifier = {
+factor = 2
+personality = ai_balanced
+}
+modifier = {
+factor = 2
+personality = ai_diplomat
+}
+modifier = {
+factor = 0.5
+personality = ai_capitalist
+}
+}
+}
+
+benzaiten =
+{
+trade_efficiency = 0.1
+defensiveness = 0.15
+
+allow = { religion = shinto }
+sprite = 2
+
+ai_will_do = {
+factor = 1
+modifier = {
+factor = 2
+personality = ai_capitalist
+}
+modifier = {
+factor = 2
+personality = ai_militarist
+}
+modifier = {
+factor = 0.5
+personality = ai_balanced
+}
+}
+}
+
+
+inari =
+{
+global_manpower_modifier = 0.1
+global_trade_goods_size_modifier = 0.1
+
+allow = { religion = shinto }
+sprite = 5
+
+ai_will_do = {
+factor = 1
+modifier = {
+factor = 2
+personality = ai_militarist
+}
+modifier = {
+factor = 0.5
+personality = ai_diplomat
+}
+}
+}
+

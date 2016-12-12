@@ -1,0 +1,45 @@
+hre = no
+discovered_by = chinese
+
+add_core = AHK
+add_core = KIR
+owner = AHK
+controller = AHK
+
+culture = tokai
+religion = shinto
+capital = "Honshoji"
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = rice
+
+
+1535.1.1 = {
+    add_core = MDR
+    controller = MDR
+    owner = MDR
+}
+1540.6.6 = {
+    owner = KOD
+    controller = KOD
+}
+1552.1.1 = {
+    add_core = IMG
+    controller = IMG
+    owner = IMG
+}
+1560.5.23 = {
+    controller = MDR
+    owner = MDR
+}
+1566.12.29 = {
+    add_core = TKG
+    remove_core = MDR
+    owner = TKG
+    controller = TKG
+}
+

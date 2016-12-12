@@ -1,0 +1,136 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = ADO
+capital = 574	# Akita
+	
+1425.1.1 = { 
+	monarch = {
+		name = "Narisue"
+		dynasty = "Ando"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1425.1.1 = {
+	heir = {
+		name = "Koresue"
+		monarch_name = "Koresue"
+		dynasty = "Ando"
+		birth_date = 1400.1.1
+		death_date = 1445.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1445.1.1 = { 
+	monarch = {
+		name = "Koresue"
+		dynasty = "Ando"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1445.1.1 = {
+	heir = {
+		name = "Akisue"
+		monarch_name = "Akisue"
+		dynasty = "Ando"
+		birth_date = 1445.1.1
+		death_date = 1485.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1462.1.1 = { 
+	monarch = {
+		name = "Akisue"
+		dynasty = "Ando"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1462.1.1 = {
+	heir = {
+		name = "Munesue"
+		monarch_name = "Munesue"
+		dynasty = "Ando"
+		birth_date = 1460.1.1
+		death_date = 1510.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1485.1.1 = { 
+	monarch = {
+		name = "Munesue"
+		dynasty = "Ando"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1485.1.1 = {
+	heir = {
+		name = "Nobusue"
+		monarch_name = "Nobusue"
+		dynasty = "Ando"
+		birth_date = 1485.1.1
+		death_date = 1530.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1510.1.1 = { 
+	monarch = {
+		name = "Nobusue"
+		dynasty = "Ando"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Takasue"
+		monarch_name = "Takasue"
+		dynasty = "Ando"
+		birth_date = 1510.1.1
+		death_date = 1551.10.12
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1530.1.1 = { 
+	monarch = {
+		name = "Takasue"
+		dynasty = "Ando"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

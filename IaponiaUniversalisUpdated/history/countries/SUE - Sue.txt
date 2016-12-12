@@ -1,0 +1,40 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = MRI
+capital = 113	# Yoshiki
+	
+1540.1.1 = { 
+	monarch = {
+		name = "Harukata"
+		dynasty = "Sue"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1540.1.1 = {
+	heir = {
+		name = "Nagafusa"
+		monarch_name = "Nagafusa"
+		dynasty = "Sue"
+		birth_date = 1540.1.1
+		death_date = 1557.4.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1555.10.16 = { 
+	monarch = {
+		name = "Nagafusa"
+		dynasty = "Sue"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = OGS
+owner = OGS
+controller = OGS
+
+culture = tosan
+religion = shinto
+capital = "Shiozaki"
+is_city = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+trade_goods = lumber
+
+
+1552.8.1 = {
+    add_core = TKD
+    owner = TKD
+    controller = TKD
+}
+1582.3.11 = {
+    add_core = SNA
+    owner = SNA
+    controller = SNA
+}
+

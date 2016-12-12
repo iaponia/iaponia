@@ -1,0 +1,49 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 439	# Suwa
+	
+1440.1.1 = { 
+	monarch = {
+		name = "Nobumitsu"
+		dynasty = "Suwa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1483.1.1 = { 
+	monarch = {
+		name = "Yorimitsu"
+		dynasty = "Suwa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1516.1.1 = {
+	heir = {
+		name = "Yorishige"
+		monarch_name = "Yorishige"
+		dynasty = "Suwa"
+		birth_date = 1516.1.1
+		death_date = 1542.8.31
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+14.1.1 = { 
+	monarch = {
+		name = "Yorishige"
+		dynasty = "Suwa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

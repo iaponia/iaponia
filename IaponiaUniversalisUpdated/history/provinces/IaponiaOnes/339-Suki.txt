@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = KGK
+owner = KGK
+controller = KGK
+
+culture = sanin
+religion = shinto
+capital = "Kono"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = grain
+
+
+1517.1.1 = {
+    add_core = AMA
+    controller = AMA
+    owner = AMA
+}
+1566.11.19 = {
+    add_core = MRI
+    owner = MRI
+    controller = MRI
+}
+

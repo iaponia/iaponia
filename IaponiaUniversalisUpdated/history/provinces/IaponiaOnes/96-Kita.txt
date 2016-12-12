@@ -1,0 +1,29 @@
+hre = no
+discovered_by = chinese
+
+add_core = KNO
+add_core = IUM
+owner = KNO
+controller = KNO
+
+culture = setouchi
+religion = shinto
+capital = "Ozu"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = rice
+
+
+1507.1.1 = {
+    controller = IUM
+    owner = IUM
+}
+1568.1.1 = {
+    owner = KNO
+    controller = KNO
+}
+

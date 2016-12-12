@@ -1,0 +1,39 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 219	# Katsuta
+	
+1494.1.1 = { 
+	monarch = {
+		name = "Katsukuni"
+		dynasty = "Goto"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1538.1.1 = {
+	heir = {
+		name = "Katsumoto"
+		monarch_name = "Katsumoto"
+		dynasty = "Goto"
+		birth_date = 1538.1.1
+		death_date = 1579.5.27
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1550.1.1 = { 
+	monarch = {
+		name = "Katsumoto"
+		dynasty = "Goto"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

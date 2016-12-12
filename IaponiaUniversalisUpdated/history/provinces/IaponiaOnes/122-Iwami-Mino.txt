@@ -1,0 +1,36 @@
+hre = no
+discovered_by = chinese
+
+add_core = OUC
+add_core = IWY
+add_core = MST
+owner = IWY
+controller = IWY
+
+culture = sanin
+religion = shinto
+capital = "Stockholm"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = metal
+
+
+1477.12.25 = {
+    remove_core = IWY
+    controller = OUC
+    owner = OUC
+}
+1507.1.1 = {
+    controller = MST
+    owner = MST
+}
+1557.4.3 = {
+    add_core = MRI
+    controller = MRI
+    owner = MRI
+}
+

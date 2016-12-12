@@ -1,0 +1,6 @@
+government = constitutional_republic
+mercantilism = 0.1
+technology_group = western
+religion = protestant
+primary_culture = english
+capital = 1090	# Sidney

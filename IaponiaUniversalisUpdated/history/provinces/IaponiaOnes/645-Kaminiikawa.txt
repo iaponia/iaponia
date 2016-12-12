@@ -1,0 +1,46 @@
+hre = no
+discovered_by = chinese
+
+add_core = HTK
+add_core = JNB
+owner = HTK
+controller = HTK
+
+culture = hokuriku
+religion = shinto
+capital = "Matsukura"
+is_city = yes
+
+base_tax = 6 
+ fort_15th = yes
+base_production = 6
+base_manpower = 3
+
+trade_goods = fish
+
+
+1454.4.3 = {
+    add_core = SHK
+}
+1460.9.16 = {
+    remove_core = HTK
+    add_core = BHY
+    controller = BHY
+    owner = BHY
+}
+1520.1.1 = {
+    owner = NGO
+    controller = NGO
+}
+1542.3.17 = {
+    remove_core = SHK
+    remove_core = BHY
+    add_core = HTK
+}
+1561.3.16 = {
+    add_core = UES
+    remove_core = NGO
+    owner = UES
+    controller = UES
+}
+

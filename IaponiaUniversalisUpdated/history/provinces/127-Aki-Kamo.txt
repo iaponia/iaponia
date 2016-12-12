@@ -1,0 +1,28 @@
+hre = no
+discovered_by = chinese
+
+add_core = YMN
+owner = YMN
+controller = YMN
+
+culture = setouchi
+religion = shinto
+capital = "Kagamiyama"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = fish
+
+
+1507.1.1 = {
+    controller = OUC
+    owner = OUC
+}
+1551.10.1 = {
+    controller = MRI
+    owner = MRI
+}
+

@@ -1,0 +1,36 @@
+hre = no
+discovered_by = chinese
+
+add_core = HSK
+owner = HSK
+controller = HSK
+
+culture = kinai
+religion = shinto
+capital = "Sakai"
+is_city = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+trade_goods = metal
+
+
+1454.4.3 = {
+    add_core = SHK
+}
+1491.1.21 = {
+    remove_core = SHK
+}
+1550.11.19 = {
+    add_core = MYI
+    controller = MYI
+    owner = MYI
+}
+1568.9.26 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

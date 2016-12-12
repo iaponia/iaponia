@@ -1,0 +1,26 @@
+hre = no
+discovered_by = chinese
+
+add_core = RKK
+owner = RKK
+controller = RKK
+
+culture = kinai
+religion = shinto
+capital = "Kakimi"
+is_city = yes
+
+base_tax = 6 
+ fort_15th = yes
+base_production = 6
+base_manpower = 3
+
+trade_goods = sake
+
+
+1568.9.13 = {
+    add_core = ODA
+    owner = ODA
+    controller = ODA
+}
+

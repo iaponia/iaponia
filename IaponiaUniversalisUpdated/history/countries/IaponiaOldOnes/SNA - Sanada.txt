@@ -1,0 +1,30 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 441	# Chiisagata
+	
+1575.1.1 = { 
+	monarch = {
+		name = "Masayuki"
+		dynasty = "Sanada"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1575.1.1 = {
+	heir = {
+		name = "Nobuyuki"
+		monarch_name = "Nobuyuki"
+		dynasty = "Sanada"
+		birth_date = 1566.1.1
+		death_date = 1658.11.12
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	

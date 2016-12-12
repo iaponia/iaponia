@@ -1,0 +1,87 @@
+country_decisions = {
+
+	yamana_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = YMN }
+			OR = {
+			tag = IYN
+			tag = IWY
+			tag = HYN
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			
+				OR = {
+						AND = {
+						tag = IYN
+						NOT = { exists = IWY }
+						NOT = { exists = HYN }
+						}
+				 
+						AND = {
+						tag = IWY
+						NOT = { exists = IYN }
+						NOT = { exists = HYN }
+						}
+						
+						AND = {
+						tag = HYN
+						NOT = { exists = IWY }
+						NOT = { exists = IYN }
+						}
+				}
+			
+		}
+		effect = {
+			change_tag = YMN
+			inaba = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			harima = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			hoki = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			mimasaka = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			bizen = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			tajima = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

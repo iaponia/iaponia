@@ -1,0 +1,39 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 123	# Kanoashi
+	
+1490.1.1 = { 
+	monarch = {
+		name = "Yorioki"
+		dynasty = "Yoshimi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1513.1.1 = {
+	heir = {
+		name = "Masayori"
+		monarch_name = "Masayori"
+		dynasty = "Yoshimi"
+		birth_date = 1513.1.1
+		death_date = 1588.6.15
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1532.5.26 = { 
+	monarch = {
+		name = "Masayori"
+		dynasty = "Yoshimi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

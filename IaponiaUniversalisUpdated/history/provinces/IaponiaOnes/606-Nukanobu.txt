@@ -1,0 +1,21 @@
+hre = no
+discovered_by = chinese
+
+add_core = NMK
+add_core = HNB
+owner = HNB
+controller = HNB
+
+culture = tohoku
+religion = shinto
+capital = "Shichinohe"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = metal
+
+
+

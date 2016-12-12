@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = RKK
+owner = RKK
+controller = RKK
+
+culture = kinai
+religion = shinto
+capital = "Seta"
+is_city = yes
+
+base_tax = 7
+base_production = 7
+base_manpower = 3
+
+trade_goods = rice
+
+
+1568.9.13 = {
+    add_core = ODA
+    owner = ODA
+    controller = ODA
+}
+

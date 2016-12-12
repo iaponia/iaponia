@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = STM
+owner = STM
+controller = STM
+
+culture = kanto
+religion = shinto
+capital = "Hyakushu"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = fish
+
+
+

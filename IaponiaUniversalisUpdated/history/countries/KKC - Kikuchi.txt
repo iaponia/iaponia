@@ -1,0 +1,187 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 32	# Kikuchi
+
+1409.1.1 = {
+	heir = {
+		name = "Mochitomo"
+		monarch_name = "Mochitomo"
+		dynasty = "Kikuchi"
+		birth_date = 1409.1.1
+		death_date = 1446.1.1
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+	
+1431.1.1 = { 
+	monarch = {
+		name = "Mochitomo"
+		dynasty = "Kikuchi"
+#		birth_date = 1409.1.1
+#		death_date = 1446.1.1
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+	}
+	
+1444.3.27 = {
+	heir = {
+		name = "Tamekuni"
+		monarch_name = "Tamekuni"
+		dynasty = "Kikuchi"
+		birth_date = 1430.1.1
+		death_date = 1488.1.1
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+	
+1446.1.1 = { 
+	monarch = {
+		name = "Tamekuni"
+		dynasty = "Kikuchi"
+#		birth_date = 1430.1.1
+#		death_date = 1488.1.1
+		adm = 5
+		dip = 4
+		mil = 4
+		}
+	}
+	
+1449.1.1 = {
+	heir = {
+		name = "Shigetomo"
+		monarch_name = "Shigetomo"
+		dynasty = "Kikuchi"
+		birth_date = 1449.1.1
+		death_date = 1493.12.7
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1466.1.1 = { 
+	monarch = {
+		name = "Shigetomo"
+		dynasty = "Kikuchi"
+#		birth_date = 1449.1.1
+#		death_date = 1493.12.7
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+	
+1483.1.1 = {
+	heir = {
+		name = "Yoshiyuki"
+		monarch_name = "Yoshiyuki"
+		dynasty = "Kikuchi"
+		birth_date = 1483.1.1
+		death_date = 1504.3.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1493.12.7 = { 
+	monarch = {
+		name = "Yoshiyuki"
+		dynasty = "Kikuchi"
+#		birth_date = 1483.1.1
+#		death_date = 1504.3.1
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1491.1.1 = {
+	heir = {
+		name = "Masataka"
+		monarch_name = "Masataka"
+		dynasty = "Kikuchi"
+		birth_date = 1491.1.1
+		death_date = 1509.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1504.3.1 = { 
+	monarch = {
+		name = "Masataka"
+		dynasty = "Kikuchi"
+#		birth_date = 1491.1.1
+#		death_date = 1509.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+# Aso Korenaga seizes control of clan
+
+1504.3.1 = { 
+	monarch = {
+		name = "Taketsune"
+		dynasty = "Kikuchi"
+#		birth_date = 1480.1.1
+#		death_date = 1537.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1513.1.1 = { 
+	monarch = {
+		name = "Takekane"
+		dynasty = "Kikuchi"
+#		birth_date = 1480.1.1
+#		death_date = 1532.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1513.1.1 = { 
+	heir = {
+		name = "Yoshitake"
+		monarch_name = "Yoshitake"
+		dynasty = "Kikuchi"
+		birth_date = 1505.1.1
+		death_date = 1554.12.14
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1520.1.1 = { 
+	monarch = {
+		name = "Yoshitake"
+		dynasty = "Kikuchi"
+#		birth_date = 1505.1.1
+#		death_date = 1554.12.14
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}

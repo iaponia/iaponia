@@ -1,0 +1,1122 @@
+# effect is both in immediate and in option!
+
+#######################################
+#		GRAIN		      #
+#######################################
+
+province_event = {
+	id = 9500
+	title = "EVTNAME9500"
+	desc = "EVTDESC9500"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 0.5
+			region = la_plata_region
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				region = western_siberia
+				region = eastern_siberia
+			}
+		}
+		
+		modifier = {
+			factor = 1.2
+			region = indonesian_region
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = grain
+			set_province_flag = received_trade_goods
+		}
+	}
+
+	option = {
+		name = "EVTOPTA9500"
+		change_trade_goods = grain
+	}
+}
+
+#######################################
+#		FISH		      #
+#######################################
+
+province_event = {
+	id = 9501
+	title = "EVTNAME9501"
+	desc = "EVTDESC9501"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		has_port = yes
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.2
+			any_neighbor_province = {
+				trade_goods = fish
+			}
+		}
+		modifier = {
+			factor = 1.2
+			region = mascarene_islands
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = fish
+			set_province_flag = received_trade_goods
+		}
+	}
+
+	option = {
+		name = "EVTOPTA9501"
+		change_trade_goods = fish
+	}
+}
+
+#######################################
+#		WINE		      #
+#######################################
+
+province_event = {
+	id = 9502
+	title = "EVTNAME9502"
+	desc = "EVTDESC9502"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = wine
+			set_province_flag = received_trade_goods
+		}
+	}
+	option = {
+		name = "EVTOPTA9502"
+		change_trade_goods = wine
+	}
+}
+
+#######################################
+#		WOOL		      #
+#######################################
+
+province_event = {
+	id = 9503
+	title = "EVTNAME9503"
+	desc = "EVTDESC9503"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 0.7
+			region = new_zealand_region
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = wool
+			set_province_flag = received_trade_goods
+		}
+	}
+	option = {
+		name = "EVTOPTA9503"
+		change_trade_goods = wool
+	}
+}
+
+#######################################
+#		CLOTH		      #
+#######################################
+
+province_event = {
+	id = 9504
+	title = "EVTNAME9504"
+	desc = "EVTDESC9504"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = cloth
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9504"
+		change_trade_goods = cloth
+	}
+}
+
+#######################################
+#		FUR		      #
+#######################################
+
+province_event = {
+	id = 9505
+	title = "EVTNAME9505"
+	desc = "EVTDESC9505"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 0.7
+			region = northern_america
+		}
+		modifier = {
+			factor = 1.5
+			owner = { fur = 10 }
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = fur
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9505"
+		change_trade_goods = fur
+	}
+}
+
+#######################################
+#		SALT		      #
+#######################################
+
+province_event = {
+	id = 9506
+	title = "EVTNAME9506"
+	desc = "EVTDESC9506"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+	}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = salt
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9506"
+		change_trade_goods = salt
+	}
+}
+
+#######################################
+#	    NAVAL SUPPLIES	      #
+#######################################
+
+province_event = {
+	id = 9507
+	title = "EVTNAME9507"
+	desc = "EVTDESC9507"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		has_port = yes
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.2
+			region = atlantic_ocean_islands
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				trade_goods = naval_supplies
+			}
+		}
+		modifier = {
+			factor = 1.5
+			owner = { naval_supplies = 10 }
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = naval_supplies
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9507"
+		change_trade_goods = naval_supplies
+	}
+}
+
+#######################################
+#		COPPER		      #
+#######################################
+
+province_event = {
+	id = 9508
+	title = "EVTNAME9508"
+	desc = "EVTDESC9508"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				trade_goods = copper
+			}
+		}
+		modifier = {
+			factor = 1.5
+			owner = { copper = 10 }
+		}
+	}
+
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = copper
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9508"
+		change_trade_goods = copper
+	}
+}
+
+#######################################
+#		GOLD		      #
+#######################################
+
+province_event = {
+	id = 9509
+	title = "EVTNAME9509"
+	desc = "EVTDESC9509"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 3.0
+			any_neighbor_province = {
+				trade_goods = gold
+			}
+		}
+		modifier = {
+			factor = 3.0
+			owner = { gold = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			owner = { gold = 2 }
+		}		
+		modifier = {
+			factor = 0.7
+			region = the_andes
+		}
+		modifier = {
+			factor = 0.6
+			OR = {
+			region = hokkaido
+			}
+		}	
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = gold
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9509"
+		change_trade_goods = gold
+	}
+}
+
+#######################################
+#		IRON		      #
+#######################################
+
+province_event = {
+	id = 9510
+	title = "EVTNAME9510"
+	desc = "EVTDESC9510"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				trade_goods = iron
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = iron
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9510"
+		change_trade_goods = iron
+	}
+}
+
+#######################################
+#		SLAVES		      #
+#######################################
+
+province_event = {
+	id = 9511
+	title = "EVTNAME9511"
+	desc = "EVTDESC9511"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		owner = { NOT = { has_country_modifier = the_abolish_slavery_act } }
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.5
+			owner = { slaves = 5 }
+		}
+		modifier = {
+			factor = 1.3
+			owner = { plutocracy_ideas = 3 }
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = slaves
+			set_province_flag = received_trade_goods
+		}
+	}
+	option = {
+		name = "EVTOPTA9511"
+		change_trade_goods = slaves
+	}
+}
+
+#######################################
+#		IVORY		      #
+#######################################
+
+province_event = {
+	id = 9512
+	title = "EVTNAME9512"
+	desc = "EVTDESC9512"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.5
+			owner = { ivory = 3 }
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = ivory
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9512"
+		change_trade_goods = ivory
+	}
+}
+
+#######################################
+#		TEA		      #
+#######################################
+
+province_event = {
+	id = 9513
+	title = "EVTNAME9513"
+	desc = "EVTDESC9513"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				trade_goods = tea
+			}
+		}
+	}
+
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = tea
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9513"
+		change_trade_goods = tea
+	}
+}
+
+#######################################
+#	       CHINAWARE	      #
+#######################################
+
+province_event = {
+	id = 9514
+	title = "EVTNAME9514"
+	desc = "EVTDESC9514"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				trade_goods = chinaware
+			}
+		}
+	}
+
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = chinaware
+			set_province_flag = received_trade_goods
+		}
+	}
+	option = {
+		name = "EVTOPTA9514"
+		change_trade_goods = chinaware
+	}
+}
+
+#######################################
+#		SPICES		      #
+#######################################
+
+province_event = {
+	id = 9515
+	title = "EVTNAME9515"
+	desc = "EVTDESC9515"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.2
+			region = indian_ocean_islands
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				trade_goods = spices
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = spices
+			set_province_flag = received_trade_goods
+		}
+	}
+	option = {
+		name = "EVTOPTA9515"
+		change_trade_goods = spices
+	}
+}
+
+#######################################
+#		COFFEE		      #
+#######################################
+
+province_event = {
+	id = 9516
+	title = "EVTNAME9516"
+	desc = "EVTDESC9516"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			AND = {
+				is_year = 1550
+				region = indonesian_region
+				region = west_imperiumland
+				region = east_imperiumland
+				region = aragonese_imperiumland
+				region = spanish_imperiumland
+				region = swedish_imperiumland
+				region = french_imperiumland
+			}
+			AND = {
+				is_year = 1600
+				OR = {
+					region = la_plata_region
+					region = the_andes
+					region = amazonas
+					region = brazil_region
+					region = the_carribean
+					region = central_america
+					region = the_spanish_main
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				trade_goods = coffee
+			}
+		}
+		modifier = {
+			factor = 0.8
+			region = the_spanish_main
+		}
+	}
+
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = coffee
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9516"
+		change_trade_goods = coffee
+	}
+}
+
+#######################################
+#		COTTON		      #
+#######################################
+
+province_event = {
+	id = 9517
+	title = "EVTNAME9517"
+	desc = "EVTDESC9517"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				trade_goods = cotton
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = cotton
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9517"
+		change_trade_goods = cotton
+	}
+}
+
+#######################################
+#		SUGAR		      #
+#######################################
+
+province_event = {
+	id = 9518
+	title = "EVTNAME9518"
+	desc = "EVTDESC9518"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 5
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.2
+			owner = { sugar = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			owner = { sugar = 10 }
+		}
+		modifier = {
+			factor = 0.7
+			OR = {
+				region = the_carribean
+				region = amazonas
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = sugar
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9518"
+		change_trade_goods = sugar
+	}
+}
+
+#######################################
+#		TOBACCO		      #
+#######################################
+
+province_event = {
+	id = 9519
+	title = "EVTNAME9519"
+	desc = "EVTDESC9519"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				trade_goods = tobacco
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = tobacco
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9519"
+		change_trade_goods = tobacco
+	}
+}
+
+#######################################
+#		COCOA		      #
+#######################################
+
+province_event = {
+	id = 9522
+	title = "EVTNAME9522"
+	desc = "EVTDESC9522"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		trade_goods = unknown
+		OR = {
+			colonysize = 300
+			is_city = yes
+		}
+		OR = {
+			region = hokkaido
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+		
+		modifier = {
+			factor = 0.5
+			colonysize = 500
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_province = {
+				trade_goods = cocoa
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			change_trade_goods = cocoa
+			set_province_flag = received_trade_goods
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9522"
+		change_trade_goods = cocoa
+	}
+}
+
+
+#######################################
+#		SLAVES	NO MORE!      #
+#######################################
+
+province_event = {
+	id = 9520
+	title = "EVTNAME9520"
+	desc = "EVTDESC9520"
+	picture = TRADEGOODS_eventPicture
+
+	trigger = {
+		owner = { has_country_modifier = the_abolish_slavery_act }
+		trade_goods = slaves
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA9520"
+		change_trade_goods = unknown
+		remove_building = tradecompany
+	}
+}

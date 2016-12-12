@@ -1,0 +1,185 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 377	# Noto
+	
+1432.1.1 = { 
+	monarch = {
+		name = "Yoshitada"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1455.1.1 = { 
+	monarch = {
+		name = "Yoshimune"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Yoshimoto"
+		monarch_name = "Yoshimoto"
+		dynasty = "Hatakeyama"
+		birth_date = 1490.1.1
+		death_date = 1515.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1497.9.16 = { 
+	monarch = {
+		name = "Yoshimoto"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1500.1.1 = { 
+	monarch = {
+		name = "Yoshimune"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1508.1.1 = { 
+	monarch = {
+		name = "Yoshimoto"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1515.1.1 = { 
+	monarch = {
+		name = "Yoshifusa"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1525.1.1 = {
+	heir = {
+		name = "Yoshitsugu"
+		monarch_name = "Yoshitsugu"
+		dynasty = "Hatakeyama"
+		birth_date = 1515.1.1
+		death_date = 1590.4.16
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1545.8.19 = { 
+	monarch = {
+		name = "Yoshitsugu"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1545.8.19 = {
+	heir = {
+		name = "Yoshitsuna"
+		monarch_name = "Yoshitsuna"
+		dynasty = "Hatakeyama"
+		birth_date = 1535.1.1
+		death_date = 1594.2.11
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1551.1.1 = { 
+	monarch = {
+		name = "Yoshitsuna"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1554.1.1 = {
+	heir = {
+		name = "Yoshinori"
+		monarch_name = "Yoshinori"
+		dynasty = "Hatakeyama"
+		birth_date = 1554.1.1
+		death_date = 1574.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1566.1.1 = { 
+	monarch = {
+		name = "Yoshinori"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1574.1.1 = { 
+	monarch = {
+		name = "Yoshitaka"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1574.1.1 = {
+	heir = {
+		name = "Haruomaru"
+		monarch_name = "Haruomaru"
+		dynasty = "Hatakeyama"
+		birth_date = 1572.1.1
+		death_date = 1577.8.7
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1576.3.4 = { 
+	monarch = {
+		name = "Haruomaru"
+		dynasty = "Hatakeyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

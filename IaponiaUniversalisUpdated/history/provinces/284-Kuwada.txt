@@ -1,0 +1,32 @@
+hre = no
+discovered_by = chinese
+
+add_core = HSK
+add_core = HTN
+owner = HSK
+controller = HSK
+
+culture = sanin
+religion = shinto
+capital = "Utsu"
+is_city = yes
+
+base_tax = 6 
+ fort_15th = yes
+base_production = 6
+base_manpower = 3
+
+trade_goods = lumber
+
+
+1550.11.19 = {
+    add_core = MYI
+    controller = MYI
+    owner = MYI
+}
+1568.9.26 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

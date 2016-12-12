@@ -1,0 +1,186 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 47	# Takaku
+
+1430.1.1 = { 
+	monarch = {
+		name = "Mitsuzumi"
+		dynasty = "Arima"
+#		birth_date = 1410.1.1
+#		death_date = 1450.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+	}
+
+1430.1.1 = {
+	heir = {
+		name = "Ujizumi"
+		monarch_name = "Ujizumi"
+		dynasty = "Arima"
+		birth_date = 1430.1.1
+		death_date = 1480.1.1
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+	
+1450.1.1 = { 
+	monarch = {
+		name = "Ujizumi"
+		dynasty = "Arima"
+#		birth_date = 1430.1.1
+#		death_date = 1480.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+	}
+	
+1450.1.1 = {
+	heir = {
+		name = "Takazumi"
+		monarch_name = "Takazumi"
+		dynasty = "Arima"
+		birth_date = 1450.1.1
+		death_date = 1500.1.1
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1480.1.1 = { 
+	monarch = {
+		name = "Takazumi"
+		dynasty = "Arima"
+#		birth_date = 1450.1.1
+#		death_date = 1500.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+	}
+	
+1470.1.1 = {
+	heir = {
+		name = "Sumikane"
+		monarch_name = "Sumikane"
+		dynasty = "Arima"
+		birth_date = 1470.1.1
+		death_date = 1520.1.1
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+1500.1.1 = { 
+	monarch = {
+		name = "Sumikane"
+		dynasty = "Arima"
+#		birth_date = 1470.1.1
+#		death_date = 1520.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+	}
+
+1500.1.1 = {
+	heir = {
+		name = "Haruzumi"
+		monarch_name = "Haruzumi"
+		dynasty = "Arima"
+		birth_date = 1483.1.1
+		death_date = 1566.1.1
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+	
+1520.1.1 = { 
+	monarch = {
+		name = "Haruzumi"
+		dynasty = "Arima"
+#		birth_date = 1483.1.1
+#		death_date = 1566.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+	}
+
+1521.1.1 = {
+	heir = {
+		name = "Yoshisada"
+		monarch_name = "Yoshisada"
+		dynasty = "Arima"
+		birth_date = 1521.1.1
+		death_date = 1577.1.1
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+	
+1552.1.1 = { 
+	monarch = {
+		name = "Yoshisada"
+		dynasty = "Arima"
+#		birth_date = 1521.1.1
+#		death_date = 1577.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+	}
+
+1550.1.1 = {
+	heir = {
+		name = "Yoshizumi"
+		monarch_name = "Yoshizumi"
+		dynasty = "Arima"
+		birth_date = 1550.1.1
+		death_date = 1571.1.1
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+	
+1570.1.1 = { 
+	monarch = {
+		name = "Yoshizumi"
+		dynasty = "Arima"
+#		birth_date = 1550.1.1
+#		death_date = 1571.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+	}
+	
+1571.1.1 = { 
+	monarch = {
+		name = "Koresato"
+		dynasty = "Arima"
+#		birth_date = 1567.1.1
+#		death_date = 1612.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+		}
+	}
+	

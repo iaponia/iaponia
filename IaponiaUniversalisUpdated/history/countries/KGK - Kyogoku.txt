@@ -1,0 +1,118 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = RKK
+capital = 334	# Inukami
+	
+1441.1.1 = { 
+	monarch = {
+		name = "Mochikiyo"
+		dynasty = "Kyogoku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1466.1.1 = {
+	heir = {
+		name = "Magodojimaru"
+		monarch_name = "Magodojimaru"
+		dynasty = "Kyogoku"
+		birth_date = 1466.1.1
+		death_date = 1471.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1470.8.30 = { 
+	monarch = {
+		name = "Magodojimaru"
+		dynasty = "Kyogoku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1471.1.1 = { 
+	monarch = {
+		name = "Masatsune"
+		dynasty = "Kyogoku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1505.1.1 = { 
+	monarch = {
+		name = "Takakiyo"
+		dynasty = "Kyogoku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Takanobu"
+		monarch_name = "Takanobu"
+		dynasty = "Kyogoku"
+		birth_date = 1490.1.1
+		death_date = 1553.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1523.1.1 = { 
+	monarch = {
+		name = "Takanobu"
+		dynasty = "Kyogoku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1553.1.1 = { 
+	monarch = {
+		name = "Takayoshi"
+		dynasty = "Kyogoku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1563.1.1 = {
+	heir = {
+		name = "Takatsugu"
+		monarch_name = "Takatsugu"
+		dynasty = "Kyogoku"
+		birth_date = 1563.1.1
+		death_date = 1609.6.4
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1581.2.28 = { 
+	monarch = {
+		name = "Takatsugu"
+		dynasty = "Kyogoku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

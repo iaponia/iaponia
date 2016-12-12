@@ -1,0 +1,111 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 125	# Saeki
+	
+1422.1.1 = { 
+	monarch = {
+		name = "Nobushige"
+		dynasty = "Takeda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1441.6.20 = {
+	heir = {
+		name = "Mototsuna"
+		monarch_name = "Mototsuna"
+		dynasty = "Takeda"
+		birth_date = 1441.6.20
+		death_date = 1505.3.30
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1465.11.28 = { 
+	monarch = {
+		name = "Mototsuna"
+		dynasty = "Takeda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1471.1.1 = {
+	heir = {
+		name = "Motoshige"
+		monarch_name = "Motoshige"
+		dynasty = "Takeda"
+		birth_date = 1467.1.1
+		death_date = 1517.11.5
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1505.3.30 = { 
+	monarch = {
+		name = "Motoshige"
+		dynasty = "Takeda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1505.3.30 = {
+	heir = {
+		name = "Mitsukazu"
+		monarch_name = "Mitsukazu"
+		dynasty = "Takeda"
+		birth_date = 1503.1.1
+		death_date = 1540.6.9
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1517.11.5 = { 
+	monarch = {
+		name = "Mitsukazu"
+		dynasty = "Takeda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1524.8.17 = {
+	heir = {
+		name = "Nobuzane"
+		monarch_name = "Nobuzane"
+		dynasty = "Takeda"
+		birth_date = 1524.8.17
+		death_date = 1555.10.21
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1540.1.1 = { 
+	monarch = {
+		name = "Nobuzane"
+		dynasty = "Takeda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

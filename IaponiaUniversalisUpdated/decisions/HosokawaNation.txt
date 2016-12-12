@@ -1,0 +1,107 @@
+country_decisions = {
+
+	hosokawa_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = HSK }
+			OR = {
+			tag = BHK
+			tag = AHK
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			
+				OR = {
+						AND = {
+						tag = BHK
+						NOT = { exists = SMZ }
+						NOT = { exists = AHK }
+						}
+				 
+						AND = {
+						tag = AHK
+						NOT = { exists = SMZ }
+						NOT = { exists = BHK }
+						}
+					
+				}
+			
+		}
+		effect = {
+			change_tag = HSK
+			sanuki = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			tosa = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			awaji = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			izumi = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			settsu = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			tanba = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			yamashiro = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			awa = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			bitchu = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			mikawa = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			add_claim = 138
+			add_claim = 139
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = AHK
+add_core = MYI
+owner = AHK
+controller = AHK
+
+culture = nankai
+religion = shinto
+capital = "Tokusato"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = dye
+
+
+1507.1.1 = {
+    controller = MYI
+    owner = MYI
+}
+

@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = OTM
+owner = OTM
+controller = OTM
+
+culture = saikai
+religion = shinto
+capital = "Kusu"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = rice
+
+
+

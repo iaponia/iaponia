@@ -1,0 +1,21 @@
+hre = no
+discovered_by = chinese
+
+add_core = NSU
+owner = NSU
+controller = NSU
+
+culture = kanto
+religion = shinto
+capital = "Karasuyama"
+is_city = yes
+
+base_tax = 6 
+ fort_15th = yes
+base_production = 6
+base_manpower = 3
+
+trade_goods = metal
+
+
+

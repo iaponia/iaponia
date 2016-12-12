@@ -1,0 +1,34 @@
+hre = no
+discovered_by = chinese
+
+add_core = OUC
+add_core = AKZ
+add_core = SGI
+owner = OUC
+controller = OUC
+
+culture = saikai
+religion = shinto
+capital = "Amagi"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = cloth
+
+
+1469.5.15 = {
+    controller = SHN
+    owner = SHN
+}
+1478.9.16 = {
+    controller = OUC
+    owner = OUC
+}
+1493.1.1 = {
+    controller = AKZ
+    owner = AKZ
+}
+

@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = MGM
+owner = MGM
+controller = MGM
+
+culture = tohoku
+religion = shinto
+capital = "Shimizu"
+is_city = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+trade_goods = rice
+
+
+

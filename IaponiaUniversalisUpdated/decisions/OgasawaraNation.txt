@@ -1,0 +1,33 @@
+country_decisions = {
+
+	ogasawara_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = OGS }
+			tag = SOG
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			tag = SOG		
+		}
+		effect = {
+			change_tag = OGS
+			add_claim = 442
+			add_claim = 444
+			add_claim = 644
+			add_claim = 437
+			add_claim = 438
+			add_claim = 641
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

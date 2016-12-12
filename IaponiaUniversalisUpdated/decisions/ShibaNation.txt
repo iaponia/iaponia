@@ -1,0 +1,46 @@
+country_decisions = {
+
+	shiba_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = SBA }
+			tag = OSB
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			tag = OSB		
+		}
+		effect = {
+			change_tag = SBA
+			echizen = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = SBA
+			}
+			owari = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = SBA
+			}
+			totomi = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = SBA
+			}
+			add_claim = 602
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

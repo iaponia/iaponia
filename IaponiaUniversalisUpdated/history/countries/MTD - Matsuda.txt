@@ -1,0 +1,39 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 211	# Mino
+	
+1540.1.1 = { 
+	monarch = {
+		name = "Mototeru"
+		dynasty = "Matsuda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1540.1.1 = {
+	heir = {
+		name = "Motokata"
+		monarch_name = "Motokata"
+		dynasty = "Matsuda"
+		birth_date = 1520.1.1
+		death_date = 1568.7.31
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1568.7.28 = { 
+	monarch = {
+		name = "Motokata"
+		dynasty = "Matsuda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,26 @@
+bookmark =
+{
+	name = "ONIN_JAP"
+	desc = "ONIN_DESC"
+	date = 1467.6.15
+	
+	country = AKM
+	country = HSK
+	country = YMN
+	country = SHK
+	country = OUC
+	country = UES
+	country = KGA
+	
+#	effect = {
+#		#Country 1
+#		SWE = {
+#			add_stability = 4
+#		}
+#		
+#		#Province 1
+#		1 = {
+#			add_base_tax = 5
+#		}
+#	}
+}

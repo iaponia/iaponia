@@ -1,0 +1,37 @@
+country_decisions = {
+
+	enlist_privateers = {
+		potential = {
+			NOT = { has_country_modifier = hire_privateers }
+			OR = {
+				technology_group = western
+				technology_group = eastern
+				technology_group = ottoman
+				technology_group = muslim
+			}
+
+			num_of_ports = 1
+			dip_tech = 8
+		}
+		allow = {
+			navy_size_percentage = 0.5
+			full_idea_group = maritime_ideas
+			mil = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = "hire_privateers"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			# England, France, Barbary Coast
+		}
+	}
+	
+	
+
+
+
+}

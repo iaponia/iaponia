@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = OSZ
+owner = OSZ
+controller = OSZ
+
+culture = saikai
+religion = shinto
+capital = "Hirakawa"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = metal
+
+
+1539.3.13 = {
+    add_core = SMZ
+    owner = SMZ
+    controller = SMZ
+}
+

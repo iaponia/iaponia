@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = HKR
+owner = HKR
+controller = HKR
+
+culture = saikai
+religion = shinto
+capital = "Tara"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = rice
+
+
+1569.1.1 = {
+    add_core = SMZ
+    owner = SMZ
+    controller = SMZ
+}
+

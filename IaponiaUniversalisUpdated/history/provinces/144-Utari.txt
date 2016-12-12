@@ -1,0 +1,40 @@
+hre = no
+discovered_by = chinese
+
+add_core = HSK
+add_core = YTM
+add_core = KGW
+owner = HSK
+controller = HSK
+
+culture = setouchi
+religion = shinto
+capital = "Shotsuji"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = rice
+
+
+1507.1.1 = {
+    controller = KGW
+    owner = KGW
+}
+1558.1.1 = {
+    add_core = MYI
+    owner = MYI
+    controller = MYI
+}
+1574.1.1 = {
+    owner = KGW
+    controller = KGW
+}
+1578.1.1 = {
+    add_core = CSK
+    controller = CSK
+    owner = CSK
+}
+

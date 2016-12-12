@@ -1,0 +1,75 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = RKK
+historical_friend = ASA
+capital = 332	# Azai
+	
+1510.1.1 = { 
+	monarch = {
+		name = "Naomasa"
+		dynasty = "Azai"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1540.6.1 = { 
+	monarch = {
+		name = "Sukemasa"
+		dynasty = "Azai"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1540.6.1 = {
+	heir = {
+		name = "Hisamasa"
+		monarch_name = "Hisamasa"
+		dynasty = "Azai"
+		birth_date = 1526.1.1
+		death_date = 1573.9.26
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1560.1.1 = { 
+	monarch = {
+		name = "Hisamasa"
+		dynasty = "Azai"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1560.1.1 = {
+	heir = {
+		name = "Nagamasa"
+		monarch_name = "Nagamasa"
+		dynasty = "Azai"
+		birth_date = 1545.1.1
+		death_date = 1573.9.26
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1560.1.1 = { 
+	monarch = {
+		name = "Nagamasa"
+		dynasty = "Azai"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

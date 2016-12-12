@@ -1,0 +1,135 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 321	# Uda
+	
+1440.1.1 = { 
+	monarch = {
+		name = "Norizane"
+		dynasty = "Akiyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1445.1.1 = {
+	heir = {
+		name = "Zaneie"
+		monarch_name = "Zaneie"
+		dynasty = "Akiyama"
+		birth_date = 1445.1.1
+		death_date = 1490.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1470.1.1 = { 
+	monarch = {
+		name = "Zaneie"
+		dynasty = "Akiyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1470.1.1 = {
+	heir = {
+		name = "Kunikata"
+		monarch_name = "Kunikata"
+		dynasty = "Akiyama"
+		birth_date = 1470.1.1
+		death_date = 1525.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1490.1.1 = { 
+	monarch = {
+		name = "Kunikata"
+		dynasty = "Akiyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1495.1.1 = {
+	heir = {
+		name = "Munetami"
+		monarch_name = "Munetami"
+		dynasty = "Akiyama"
+		birth_date = 1495.1.1
+		death_date = 1559.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1525.1.1 = { 
+	monarch = {
+		name = "Munetami"
+		dynasty = "Akiyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1525.1.1 = {
+	heir = {
+		name = "Noriie"
+		monarch_name = "Noriie"
+		dynasty = "Akiyama"
+		birth_date = 1525.1.1
+		death_date = 1565.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1559.1.1 = { 
+	monarch = {
+		name = "Noriie"
+		dynasty = "Akiyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1559.1.1 = {
+	heir = {
+		name = "Naokuni"
+		monarch_name = "Naokuni"
+		dynasty = "Akiyama"
+		birth_date = 1540.1.1
+		death_date = 1615.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1565.1.1 = { 
+	monarch = {
+		name = "Naokuni"
+		dynasty = "Akiyama"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

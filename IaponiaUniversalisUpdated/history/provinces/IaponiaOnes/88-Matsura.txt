@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = MTA
+owner = MTA
+controller = MTA
+
+culture = saikai
+religion = shinto
+capital = "Nagoya"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = pottery
+
+
+1576.5.6 = {
+    add_core = RZJ
+    controller = RZJ
+    owner = RZJ
+}
+

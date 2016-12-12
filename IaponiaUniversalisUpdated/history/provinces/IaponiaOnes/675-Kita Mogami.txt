@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = MGM
+owner = MGM
+controller = MGM
+
+culture = tohoku
+religion = shinto
+capital = "Nagatoro"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = rice
+
+
+

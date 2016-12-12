@@ -1,0 +1,35 @@
+hre = no
+discovered_by = chinese
+
+add_core = SOG
+add_core = OGS
+owner = SOG
+controller = SOG
+
+culture = tosan
+religion = shinto
+capital = "Oshima"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = grain
+
+
+1534.1.1 = {
+    controller = OGS
+    owner = OGS
+}
+1552.8.1 = {
+    add_core = TKD
+    owner = TKD
+    controller = TKD
+}
+1582.3.11 = {
+    add_core = ODA
+    owner = ODA
+    controller = ODA
+}
+

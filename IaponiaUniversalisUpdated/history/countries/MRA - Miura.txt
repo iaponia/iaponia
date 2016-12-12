@@ -1,0 +1,121 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 221	# Mashima
+	
+1480.1.1 = { 
+	monarch = {
+		name = "Sadatsura"
+		dynasty = "Miura"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Sadakuni"
+		monarch_name = "Sadakuni"
+		dynasty = "Miura"
+		birth_date = 1480.1.1
+		death_date = 1532.7.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1500.1.1 = { 
+	monarch = {
+		name = "Sadakuni"
+		dynasty = "Miura"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1510.1.1 = {
+	heir = {
+		name = "Sadahisa"
+		monarch_name = "Sadahisa"
+		dynasty = "Miura"
+		birth_date = 1510.1.1
+		death_date = 1548.10.17
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1532.7.1 = { 
+	monarch = {
+		name = "Sadahisa"
+		dynasty = "Miura"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1535.1.1 = {
+	heir = {
+		name = "Sadahiro"
+		monarch_name = "Sadahiro"
+		dynasty = "Miura"
+		birth_date = 1535.1.1
+		death_date = 1582.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1548.1.1 = { 
+	monarch = {
+		name = "Sadahiro"
+		dynasty = "Miura"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1559.2.1 = { 
+	monarch = {
+		name = "Sadakatsu"
+		dynasty = "Miura"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1561.1.1 = {
+	heir = {
+		name = "Dojumaru"
+		monarch_name = "Dojumaru"
+		dynasty = "Miura"
+		birth_date = 1561.1.1
+		death_date = 1584.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1565.1.1 = { 
+	monarch = {
+		name = "Dojumaru"
+		dynasty = "Miura"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

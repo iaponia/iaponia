@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = KSI
+owner = KSI
+controller = KSI
+
+culture = tohoku
+religion = shinto
+capital = "Iwayado"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = rice
+
+
+

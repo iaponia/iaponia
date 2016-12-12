@@ -1,0 +1,142 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = TTI
+capital = 319	# Takaichi
+	
+1439.1.1 = { 
+	monarch = {
+		name = "Iehide"
+		dynasty = "Ochi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1446.1.1 = {
+	heir = {
+		name = "Ienori"
+		monarch_name = "Ienori"
+		dynasty = "Ochi"
+		birth_date = 1446.1.1
+		death_date = 1507.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1500.4.4 = { 
+	monarch = {
+		name = "Ienori"
+		dynasty = "Ochi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Ienori"
+		monarch_name = "Ienori"
+		dynasty = "Ochi"
+		birth_date = 1470.1.1
+		death_date = 1517.5.7
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1507.5.7 = { 
+	monarch = {
+		name = "Ienori"
+		dynasty = "Ochi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1507.5.7 = {
+	heir = {
+		name = "Iehide"
+		monarch_name = "Iehide"
+		dynasty = "Ochi"
+		birth_date = 1490.1.1
+		death_date = 1530.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1517.1.1 = { 
+	monarch = {
+		name = "Iehide"
+		dynasty = "Ochi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1517.1.1 = {
+	heir = {
+		name = "Iehiro"
+		monarch_name = "Iehiro"
+		dynasty = "Ochi"
+		birth_date = 1510.1.1
+		death_date = 1569.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1530.1.1 = { 
+	monarch = {
+		name = "Iehiro"
+		dynasty = "Ochi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1569.1.1 = { 
+	monarch = {
+		name = "Ietaka"
+		dynasty = "Ochi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1571.1.1 = { 
+	monarch = {
+		name = "Iemasa"
+		dynasty = "Ochi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1577.1.1 = { 
+	monarch = {
+		name = "Iehide"
+		dynasty = "Ochi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

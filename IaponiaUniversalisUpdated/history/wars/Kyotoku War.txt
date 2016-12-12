@@ -1,0 +1,65 @@
+name = "Early Kyotoku War"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 510 # Tama
+}
+
+#Shigeuji assassinates Noritada, defeats Nagao, Oda
+1454.12.27 = {
+	add_attacker = KGA	
+	add_attacker = STM	
+	add_attacker = HOD
+	add_attacker = KTK
+	add_attacker = NSU
+	add_defender = OUE
+	add_defender = UES
+}
+
+#Shogunate orders suppression of Shigeuji
+1455.3.15 = {
+	add_defender = OGS
+	add_defender = IMG
+	add_defender = EGU
+	add_defender = CBA
+	add_defender = UMY
+}
+
+#Shigeuji driven to Koga, Imagawa burn Kamakura
+1455.6.16 = {			
+	rem_defender = OGS
+	rem_defender = IMG
+	rem_defender = EGU
+}
+
+#Pro-Shigeuji forces seize control of Chiba
+1455.9.26 = {
+	rem_defender = CBA
+	add_attacker = CBA
+	add_attacker = KSM
+}
+
+#Shigeuji defeats Utsunomiya, they join him
+1456.6.15 = {
+	rem_defender = UMY
+	add_attacker = UMY
+}
+
+#Masatomo dispatched as new Kanto Kubo
+1457.12.19 = {
+	add_defender = HAK
+}
+
+#Shigeuji makes peace with Uesugi
+1487.1.5 = {
+	rem_attacker = KGA	
+	rem_attacker = STM	
+	rem_attacker = HOD
+	rem_attacker = KTK
+	rem_attacker = NSU
+	rem_defender = OUE
+	rem_defender = UES	
+	rem_attacker = CBA
+	rem_attacker = UMY
+	rem_defender = HAK
+}

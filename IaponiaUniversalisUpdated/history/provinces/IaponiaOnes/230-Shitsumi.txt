@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = YMN
+owner = YMN
+controller = YMN
+
+culture = sanin
+religion = shinto
+capital = "Nagasaka"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = silk
+
+
+1581.10.25 = {
+    owner = ODA
+    controller = ODA
+    add_core = ODA
+}
+

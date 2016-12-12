@@ -1,0 +1,145 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 16	# Hishikari
+	
+1440.1.1 = { 
+	monarch = {
+		name = "Ujishige"
+		dynasty = "Hishikari"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Tadauji"
+		monarch_name = "Tadauji"
+		dynasty = "Hishikari"
+		birth_date = 1435.1.1
+		death_date = 1489.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1475.1.1 = { 
+	monarch = {
+		name = "Tadauji"
+		dynasty = "Hishikari"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1475.1.1 = {
+	heir = {
+		name = "Shigetoki"
+		monarch_name = "Shigetoki"
+		dynasty = "Hishikari"
+		birth_date = 1455.1.1
+		death_date = 1509.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1489.1.1 = { 
+	monarch = {
+		name = "Shigetoki"
+		dynasty = "Hishikari"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1489.1.1 = {
+	heir = {
+		name = "Shigefuku"
+		monarch_name = "Shigefuku"
+		dynasty = "Hishikari"
+		birth_date = 1475.1.1
+		death_date = 1529.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1509.1.1 = { 
+	monarch = {
+		name = "Shigefuku"
+		dynasty = "Hishikari"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1509.1.1 = {
+	heir = {
+		name = "Atsukuni"
+		monarch_name = "Atsukuni"
+		dynasty = "Hishikari"
+		birth_date = 1495.1.1
+		death_date = 1550.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1529.1.1 = { 
+	monarch = {
+		name = "Atsukuni"
+		dynasty = "Hishikari"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1529.1.1 = {
+	heir = {
+		name = "Shigetoyo"
+		monarch_name = "Shigetoyo"
+		dynasty = "Hishikari"
+		birth_date = 1520.1.1
+		death_date = 1557.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1550.1.1 = { 
+	monarch = {
+		name = "Shigetoyo"
+		dynasty = "Hishikari"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1557.1.1 = { 
+	monarch = {
+		name = "Shigehiro"
+		dynasty = "Hishikari"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

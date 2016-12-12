@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = OSK
+owner = OSK
+controller = OSK
+
+culture = tohoku
+religion = shinto
+capital = "Masaka"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = dye
+
+
+

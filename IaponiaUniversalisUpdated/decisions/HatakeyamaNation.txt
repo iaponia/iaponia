@@ -1,0 +1,40 @@
+country_decisions = {
+
+	hatakeyama_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = HTK }
+			tag = NHK
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			tag = NHK
+		}
+		effect = {
+			change_tag = HTK
+			kii = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HTK
+			}
+			noto = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HTK
+			}
+			add_claim = 315
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

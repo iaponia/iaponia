@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = TGS
+owner = TGS
+controller = TGS
+
+culture = hokuriku
+religion = shinto
+capital = "IMAA"
+is_city = yes
+
+base_tax = 12
+base_production = 12
+base_manpower = 3
+
+trade_goods = silk
+
+
+1488.6.9 = {
+    add_core = HGJ
+    controller = HGJ
+    owner = HGJ
+}
+1580.11.1 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

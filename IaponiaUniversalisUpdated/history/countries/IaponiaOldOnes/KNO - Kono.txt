@@ -1,0 +1,107 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 100	# Onsen
+	
+1435.7.24 = { 
+	monarch = {
+		name = "Norimichi"
+		dynasty = "Kono"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+	}
+
+1450.1.1 = {
+	heir = {
+		name = "Michinobu"
+		monarch_name = "Michinobu"
+		dynasty = "Kono"
+		birth_date = 1450.1.1
+		death_date = 1519.1.1
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1500.2.19 = { 
+	monarch = {
+		name = "Michinobu"
+		dynasty = "Kono"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+	}
+
+1500.2.19 = {
+	heir = {
+		name = "Michinobu"
+		monarch_name = "Michinobu"
+		dynasty = "Kono"
+		birth_date = 1500.1.1
+		death_date = 1572.10.3
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1519.1.1 = { 
+	monarch = {
+		name = "Michinao"
+		dynasty = "Michinao"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1541.1.1 = { 
+	monarch = {
+		name = "Harumichi"
+		dynasty = "Kono"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+	}
+	
+1543.1.1 = { 
+	monarch = {
+		name = "Michinobu"
+		dynasty = "Kono"
+		adm = 5
+		dip = 5
+		mil = 4
+		}
+	}
+	
+1564.1.1 = {
+	heir = {
+		name = "Michinobu"
+		monarch_name = "Michinobu"
+		dynasty = "Kono"
+		birth_date = 1564.1.1
+		death_date = 1587.8.17
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1568.1.1 = { 
+	monarch = {
+		name = "Michinao"
+		dynasty = "Kono"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+	}

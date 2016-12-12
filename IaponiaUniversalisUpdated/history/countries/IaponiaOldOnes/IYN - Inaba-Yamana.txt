@@ -1,0 +1,204 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_friend = YMN
+capital = 182	# Omi
+
+1412.1.1 = { 
+	monarch = {
+		name = "Hirotaka"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1412.1.1 = {
+	heir = {
+		name = "Hiroyuki"
+		monarch_name = "Hiroyuki"
+		dynasty = "Yamana"
+		birth_date = 1400.1.1
+		death_date = 1459.1.1
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1453.1.1 = { 
+	monarch = {
+		name = "Hiroyuki"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1459.1.1 = { 
+	monarch = {
+		name = "Toyouji"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1459.1.1 = {
+	heir = {
+		name = "Toyotoki"
+		monarch_name = "Toyotoki"
+		dynasty = "Yamana"
+		birth_date = 1440.1.1
+		death_date = 1506.1.1
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1461.1.1 = { 
+	monarch = {
+		name = "Toyotoki"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1475.1.1 = {
+	heir = {
+		name = "Toyoshige"
+		monarch_name = "Toyoshige"
+		dynasty = "Yamana"
+		birth_date = 1475.1.1
+		death_date = 1512.12.1
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1506.1.1 = { 
+	monarch = {
+		name = "Toyoshige"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1506.1.1 = {
+	heir = {
+		name = "Toyoharu"
+		monarch_name = "Toyoharu"
+		dynasty = "Yamana"
+		birth_date = 1490.1.1
+		death_date = 1527.1.1
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1521.1.1 = { 
+	monarch = {
+		name = "Toyoharu"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1527.1.1 = { 
+	monarch = {
+		name = "Nobumichi"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1548.1.1 = { 
+	monarch = {
+		name = "Toyosada"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1548.1.1 = {
+	heir = {
+		name = "Toyokazu"
+		monarch_name = "Toyokazu"
+		dynasty = "Yamana"
+		birth_date = 1530.1.1
+		death_date = 1564.1.1
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1560.3.29 = { 
+	monarch = {
+		name = "Toyokazu"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1560.3.29 = {
+	heir = {
+		name = "Toyokuni"
+		monarch_name = "Toyokuni"
+		dynasty = "Yamana"
+		birth_date = 1548.1.1
+		death_date = 1626.11.25
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1564.1.1 = { 
+	monarch = {
+		name = "Toyokuni"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1571.1.1 = {
+	heir = {
+		name = "Toyomasa"
+		monarch_name = "Toyomasa"
+		dynasty = "Yamana"
+		birth_date = 1571.1.1
+		death_date = 1630.8.6
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

@@ -1,0 +1,26 @@
+hre = no
+discovered_by = chinese
+
+add_core = OUE
+add_core = SOD
+owner = OUE
+controller = OUE
+
+culture = kanto
+religion = shinto
+capital = "Iwahara"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = metal
+
+
+1498.1.1 = {
+    add_core = HJO
+    controller = HJO
+    owner = HJO
+}
+

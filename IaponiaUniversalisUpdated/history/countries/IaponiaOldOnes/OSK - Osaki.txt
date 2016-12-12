@@ -1,0 +1,145 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = MGM
+capital = 587	# Kurihara
+	
+1420.1.1 = { 
+	monarch = {
+		name = "Mochiakira"
+		dynasty = "Osaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1420.1.1 = {
+	heir = {
+		name = "Norikane"
+		monarch_name = "Norikane"
+		dynasty = "Osaki"
+		birth_date = 1411.1.1
+		death_date = 1477.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1450.1.1 = { 
+	monarch = {
+		name = "Norikane"
+		dynasty = "Osaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1450.1.1 = {
+	heir = {
+		name = "Masakane"
+		monarch_name = "Masakane"
+		dynasty = "Osaki"
+		birth_date = 1433.1.1
+		death_date = 1488.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1477.1.1 = { 
+	monarch = {
+		name = "Masakane"
+		dynasty = "Osaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1477.1.1 = {
+	heir = {
+		name = "Yoshikane"
+		monarch_name = "Yoshikane"
+		dynasty = "Osaki"
+		birth_date = 1460.1.1
+		death_date = 1529.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1488.1.1 = { 
+	monarch = {
+		name = "Yoshikane"
+		dynasty = "Osaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1490.1.1 = {
+	heir = {
+		name = "Takakane"
+		monarch_name = "Takakane"
+		dynasty = "Osaki"
+		birth_date = 1490.1.1
+		death_date = 1530.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1529.1.1 = { 
+	monarch = {
+		name = "Takakane"
+		dynasty = "Osaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1530.1.1 = { 
+	monarch = {
+		name = "Yoshinao"
+		dynasty = "Osaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1548.1.1 = {
+	heir = {
+		name = "Yoshitaka"
+		monarch_name = "Yoshitaka"
+		dynasty = "Osaki"
+		birth_date = 1548.1.1
+		death_date = 1603.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1577.1.1 = { 
+	monarch = {
+		name = "Yoshitaka"
+		dynasty = "Osaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

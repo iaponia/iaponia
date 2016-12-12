@@ -1,0 +1,34 @@
+hre = no
+discovered_by = chinese
+
+add_core = ISK
+owner = ISK
+controller = ISK
+
+culture = tokai
+religion = shinto
+capital = "Chikusa"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = salt
+
+
+1477.11.1 = {
+    add_core = KBK
+    controller = KBK
+    owner = KBK
+}
+1540.1.1 = {
+    controller = RKK
+    owner = RKK
+}
+1568.2.1 = {
+    add_core = ODA
+    owner = ODA
+    controller = ODA
+}
+

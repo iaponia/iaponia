@@ -1,0 +1,189 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 572	# Yamamoto
+	
+1420.1.1 = { 
+	monarch = {
+		name = "Iemori"
+		dynasty = "Tozawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1420.1.1 = {
+	heir = {
+		name = "Hisamori"
+		monarch_name = "Hisamori"
+		dynasty = "Tozawa"
+		birth_date = 1406.1.1
+		death_date = 1460.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1440.1.1 = { 
+	monarch = {
+		name = "Hisamori"
+		dynasty = "Tozawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Sumimori"
+		monarch_name = "Sumimori"
+		dynasty = "Tozawa"
+		birth_date = 1426.1.1
+		death_date = 1480.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1460.1.1 = { 
+	monarch = {
+		name = "Sumimori"
+		dynasty = "Tozawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Masamori"
+		monarch_name = "Masamori"
+		dynasty = "Tozawa"
+		birth_date = 1446.1.1
+		death_date = 1496.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1480.1.1 = { 
+	monarch = {
+		name = "Masamori"
+		dynasty = "Tozawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Hidemori"
+		monarch_name = "Hidemori"
+		dynasty = "Tozawa"
+		birth_date = 1466.1.1
+		death_date = 1529.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1496.1.1 = { 
+	monarch = {
+		name = "Hidemori"
+		dynasty = "Tozawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1524.1.1 = {
+	heir = {
+		name = "Michimori"
+		monarch_name = "Michimori"
+		dynasty = "Tozawa"
+		birth_date = 1524.1.1
+		death_date = 1604.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1529.1.1 = { 
+	monarch = {
+		name = "Michimori"
+		dynasty = "Tozawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1551.1.1 = {
+	heir = {
+		name = "Morishige"
+		monarch_name = "Morishige"
+		dynasty = "Tozawa"
+		birth_date = 1551.1.1
+		death_date = 1592.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1550.1.1 = { 
+	monarch = {
+		name = "Morishige"
+		dynasty = "Tozawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1578.1.1 = { 
+	monarch = {
+		name = "Moriyasu"
+		dynasty = "Tozawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1590.1.1 = { 
+	monarch = {
+		name = "Mitsumori"
+		dynasty = "Tozawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1592.1.1 = { 
+	monarch = {
+		name = "Masamori"
+		dynasty = "Tozawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

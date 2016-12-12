@@ -1,0 +1,141 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 545	# Iwaki
+	
+1442.1.1 = { 
+	monarch = {
+		name = "Takatada"
+		dynasty = "Iwaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1442.1.1 = {
+	heir = {
+		name = "Chikataka"
+		monarch_name = "Chikataka"
+		dynasty = "Iwaki"
+		birth_date = 1427.1.1
+		death_date = 1480.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1460.1.1 = { 
+	monarch = {
+		name = "Chikataka"
+		dynasty = "Iwaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Tsunetaka"
+		monarch_name = "Tsunetaka"
+		dynasty = "Iwaki"
+		birth_date = 1457.1.1
+		death_date = 1511.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1480.1.1 = { 
+	monarch = {
+		name = "Tsunetaka"
+		dynasty = "Iwaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1487.1.1 = {
+	heir = {
+		name = "Yoshitaka"
+		monarch_name = "Yoshitaka"
+		dynasty = "Iwaki"
+		birth_date = 1487.1.1
+		death_date = 1542.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1511.1.1 = { 
+	monarch = {
+		name = "Yoshitaka"
+		dynasty = "Iwaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1542.1.1 = { 
+	monarch = {
+		name = "Shigetaka"
+		dynasty = "Iwaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1569.1.1 = { 
+	monarch = {
+		name = "Chikataka"
+		dynasty = "Iwaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1569.1.1 = {
+	heir = {
+		name = "Tsunetaka"
+		monarch_name = "Tsunetaka"
+		dynasty = "Iwaki"
+		birth_date = 1567.1.1
+		death_date = 1590.8.21
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1578.1.1 = { 
+	monarch = {
+		name = "Tsunetaka"
+		dynasty = "Iwaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1590.8.21 = { 
+	monarch = {
+		name = "Sadataka"
+		dynasty = "Iwaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

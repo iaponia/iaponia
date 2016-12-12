@@ -1,0 +1,159 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 543	# Iwase
+	
+1434.1.1 = { 
+	monarch = {
+		name = "Yukimitsu"
+		dynasty = "Nikaido"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1434.1.1 = {
+	heir = {
+		name = "Yukiaki"
+		monarch_name = "Yukiaki"
+		dynasty = "Nikaido"
+		birth_date = 1424.1.1
+		death_date = 1495.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1465.1.1 = { 
+	monarch = {
+		name = "Yukiaki"
+		dynasty = "Nikaido"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1465.1.1 = {
+	heir = {
+		name = "Yukikage"
+		monarch_name = "Yukikage"
+		dynasty = "Nikaido"
+		birth_date = 1464.1.1
+		death_date = 1504.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1495.1.1 = { 
+	monarch = {
+		name = "Yukikage"
+		dynasty = "Nikaido"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1495.1.1 = {
+	heir = {
+		name = "Haruyuki"
+		monarch_name = "Haruyuki"
+		dynasty = "Nikaido"
+		birth_date = 1484.1.1
+		death_date = 1542.7.2
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1504.1.1 = { 
+	monarch = {
+		name = "Haruyuki"
+		dynasty = "Nikaido"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1524.1.1 = {
+	heir = {
+		name = "Teruyuki"
+		monarch_name = "Teruyuki"
+		dynasty = "Nikaido"
+		birth_date = 1524.1.1
+		death_date = 1564.10.22
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1542.7.2 = { 
+	monarch = {
+		name = "Teruyuki"
+		dynasty = "Nikaido"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1544.1.1 = {
+	heir = {
+		name = "Moriyoshi"
+		monarch_name = "Moriyoshi"
+		dynasty = "Nikaido"
+		birth_date = 1544.1.1
+		death_date = 1581.9.23
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1564.10.22 = { 
+	monarch = {
+		name = "Moriyoshi"
+		dynasty = "Nikaido"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1570.1.1 = {
+	heir = {
+		name = "Yukichika"
+		monarch_name = "Yukichika"
+		dynasty = "Nikaido"
+		birth_date = 1570.1.1
+		death_date = 1582.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1581.9.23 = { 
+	monarch = {
+		name = "Yukichika"
+		dynasty = "Nikaido"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

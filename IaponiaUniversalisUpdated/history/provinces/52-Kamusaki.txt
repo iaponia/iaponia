@@ -1,0 +1,33 @@
+hre = no
+discovered_by = chinese
+
+add_core = SHN
+owner = SHN
+controller = SHN
+
+culture = saikai
+religion = shinto
+capital = "Seifukuji"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = sake
+
+
+1533.12.1 = {
+    controller = OUC
+    owner = OUC
+}
+1540.1.1 = {
+    controller = SHN
+    owner = SHN
+}
+1547.1.1 = {
+    owner = RZJ
+    controller = RZJ
+    add_core = RZJ
+}
+

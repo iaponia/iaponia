@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = HIO
+owner = HIO
+controller = HIO
+
+culture = kanto
+religion = shinto
+capital = "Tsuchiura"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = rice
+
+
+

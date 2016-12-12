@@ -1,0 +1,26 @@
+hre = no
+discovered_by = chinese
+
+add_core = OUE
+add_core = SOD
+owner = OUE
+controller = OUE
+
+culture = kanto
+religion = shinto
+capital = "Masugatayama"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = silk
+
+
+1524.1.13 = {
+    owner = HJO
+    controller = HJO
+    add_core = HJO
+}
+

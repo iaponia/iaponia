@@ -1,0 +1,25 @@
+bookmark =
+{
+	name = "OKEHAZAMA_JAP"
+	desc = "OKEHAZAMA_DESC"
+	date = 1560.5.23
+	
+	country = KOD
+	country = MDR
+	country = MYI
+	country = HJO
+	country = TKD
+	country = MRI
+	
+#	effect = {
+#		#Country 1
+#		SWE = {
+#			add_stability = 4
+#		}
+#		
+#		#Province 1
+#		1 = {
+#			add_base_tax = 5
+#		}
+#	}
+}

@@ -1,0 +1,64 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = URA
+capital = 256	# Mino
+	
+1520.1.1 = { 
+	monarch = {
+		name = "Nariharu"
+		dynasty = "Bessho"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1532.1.1 = {
+	heir = {
+		name = "Yasuharu"
+		monarch_name = "Yasuharu"
+		dynasty = "Bessho"
+		birth_date = 1532.1.1
+		death_date = 1570.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1556.1.1 = { 
+	monarch = {
+		name = "Yasuharu"
+		dynasty = "Bessho"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1558.1.1 = {
+	heir = {
+		name = "Nagaharu"
+		monarch_name = "Nagaharu"
+		dynasty = "Bessho"
+		birth_date = 1558.1.1
+		death_date = 1580.2.2
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1570.1.1 = { 
+	monarch = {
+		name = "Nagaharu"
+		dynasty = "Bessho"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

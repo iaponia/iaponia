@@ -1,0 +1,87 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 440	# Saku
+	
+1430.1.1 = { 
+	monarch = {
+		name = "Yukikazu"
+		dynasty = "Unno"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1435.1.1 = {
+	heir = {
+		name = "Mochiyuki"
+		monarch_name = "Mochiyuki"
+		dynasty = "Unno"
+		birth_date = 1435.1.1
+		death_date = 1460.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1460.1.1 = { 
+	monarch = {
+		name = "Mochiyuki"
+		dynasty = "Unno"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1465.1.1 = {
+	heir = {
+		name = "Ujiyuki"
+		monarch_name = "Ujiyuki"
+		dynasty = "Unno"
+		birth_date = 1465.1.1
+		death_date = 1520.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1490.1.1 = { 
+	monarch = {
+		name = "Ujiyuki"
+		dynasty = "Unno"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1502.1.1 = {
+	heir = {
+		name = "Munetsune"
+		monarch_name = "Munetsune"
+		dynasty = "Unno"
+		birth_date = 1502.1.1
+		death_date = 1560.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1527.1.1 = { 
+	monarch = {
+		name = "Munetsune"
+		dynasty = "Unno"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

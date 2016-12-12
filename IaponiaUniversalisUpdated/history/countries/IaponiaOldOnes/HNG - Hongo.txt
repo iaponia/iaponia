@@ -1,0 +1,111 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 19	# Morokata
+	
+1440.1.1 = { 
+	monarch = {
+		name = "Mochihisa"
+		dynasty = "Hongo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Toshihisa"
+		monarch_name = "Toshihisa"
+		dynasty = "Hongo"
+		birth_date = 1430.1.1
+		death_date = 1500.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1470.1.1 = { 
+	monarch = {
+		name = "Toshihisa"
+		dynasty = "Hongo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1470.1.1 = {
+	heir = {
+		name = "Kazuhisa"
+		monarch_name = "Kazuhisa"
+		dynasty = "Hongo"
+		birth_date = 1460.1.1
+		death_date = 1521.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1500.1.1 = { 
+	monarch = {
+		name = "Kazuhisa"
+		dynasty = "Hongo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Tadasuke"
+		monarch_name = "Tadasuke"
+		dynasty = "Hongo"
+		birth_date = 1487.1.1
+		death_date = 1559.12.14
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1521.1.1 = { 
+	monarch = {
+		name = "Tadasuke"
+		dynasty = "Hongo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Tokihisa"
+		monarch_name = "Tokihisa"
+		dynasty = "Hongo"
+		birth_date = 1530.1.1
+		death_date = 1596.3.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1559.12.14 = { 
+	monarch = {
+		name = "Tokihisa"
+		dynasty = "Hongo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

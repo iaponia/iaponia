@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = OUC
+add_core = SUE
+owner = OUC
+controller = OUC
+
+culture = setouchi
+religion = shinto
+capital = "Katada"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = rice
+
+
+1551.9.1 = {
+    controller = SUE
+    owner = SUE
+}
+1557.4.3 = {
+    add_core = MRI
+    controller = MRI
+    owner = MRI
+}
+

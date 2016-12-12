@@ -1,0 +1,282 @@
+restore_stability = {
+
+	type = country
+	
+	category = ADM
+	
+	allow = {
+		primary_culture = japanese
+		NOT = {
+			stability = 1
+		}
+	}
+	success = {
+		stability = 1
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 2
+			NOT = {
+				stability = -2
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				stability = -1
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				stability = 0
+			}
+		}
+	}
+	effect = {
+		add_prestige = 5
+		add_years_of_income = 0.1
+	}
+}
+
+
+view_the_hanami = {
+
+	type = country
+
+	category = ADM
+	
+	allow = {
+		primary_culture = japanese
+		NOT = {
+			prestige = 30
+		}
+	}
+	success = {
+		prestige = 50
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			NOT = {
+				stability = -2
+			}
+		}
+		modifier = {
+			factor = 0.5
+			war_exhaustion = 5
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				stability = -1
+			}
+		}
+	}
+	effect = {
+		add_prestige = 15
+	}
+}
+
+
+strengthen_the_bushido = {
+
+	type = country
+
+	category = MIL
+	
+	allow = {
+		primary_culture = japanese
+		NOT = {
+			army_tradition = 25
+		}
+	}
+	success = {
+		army_tradition = 25
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			army_tradition = 15
+		}
+		modifier = {
+			factor = 0.5
+			overextension_percentage = 0.05
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				legitimacy = 50
+			}
+		}
+	}
+	effect = {
+		add_prestige = 5
+		add_legitimacy = 5
+	}
+}
+
+
+support_the_kabuki = {
+
+	type = country
+
+	category = ADM
+	
+	allow = {
+		primary_culture = japanese
+		OR = {
+			legitimacy = 75
+			stability = 3
+			prestige = 75
+		}
+		is_year = 1600
+		NOT = { advisor = artist }
+	}
+	success = {
+		advisor = artist
+	}
+	chance = {
+		factor = 1000
+	}
+	effect = {
+		add_legitimacy = 5
+		add_prestige = 5
+	}
+}
+
+
+#the_red_seal_ships = {
+#	type = country
+#	
+#	allow = {
+#		government = daimyo
+#		shogun_exists = yes
+#		NOT = {
+#			num_of_placed_merchants = 15
+#		}
+#		NOT = {
+#			has_idea = merchant_adventures
+#		}
+#	}
+#	
+#	success = {
+#		OR = {
+#			AND = {
+#				num_of_placed_merchants = 15
+#				has_idea = merchant_adventures
+#			}
+#			AND = {
+#				num_of_placed_merchants = 15
+#				advisor = trader
+#			}
+#		}
+#	}
+#	
+#	chance = {
+#		factor = 1000
+##		modifier = {
+##			factor = 2
+##			num_of_cots = 2
+##		}
+#		modifier = {
+#			factor = 2
+#			num_of_placed_merchants = 10
+#		}
+#		modifier = {
+#			factor = 0.5
+#			overextension_percentage = 0.05
+#		}
+#	}
+#	
+#	effect = {
+#		add_years_of_income = 0.3
+#		merchants = 5
+#		add_navy_tradition = 10
+#	}
+#}
+
+
+strengthen_the_shinobi = {
+
+	type = country
+
+	category = ADM
+	
+	allow = {
+		primary_culture = japanese
+		NOT = {
+			advisor = spymaster
+		}
+		any_owned_province = {
+			NOT = {
+				is_core = ROOT
+			}
+		}
+		NOT = {
+			has_idea = vetting
+		}
+	}
+	success = {
+		advisor = spymaster
+		has_idea = vetting
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			overextension_percentage = 0.045
+		}
+		modifier = {
+			factor = 0.5
+			overextension_percentage = 0.10
+		}
+	}
+	effect = {
+#		spies = 5
+		add_legitimacy = 5
+		add_prestige = 5
+	}
+}
+
+
+the_divine_wind = {
+
+	type = country
+	
+	category = ADM
+	
+	allow = {
+		naval_forcelimit = 20
+		primary_culture = japanese
+		NOT = {
+			num_of_heavy_ship = 10
+			has_idea = grand_navy
+		}
+	}
+	success = {
+		OR = {
+			num_of_heavy_ship = 15
+			has_idea = grand_navy
+		}
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 0.8
+			num_of_ports = 10
+		}
+		modifier = {
+			factor = 0.8
+			num_of_ports = 15
+		}
+	}
+	effect = {
+		add_navy_tradition = 20
+		add_prestige = 10
+		add_adm_power = 30
+	}
+}

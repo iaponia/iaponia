@@ -1,0 +1,157 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = UES
+historical_rival = HJO
+capital = 512	# Iruma
+	
+1419.1.1 = { 
+	monarch = {
+		name = "Mochitomo"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1435.1.1 = {
+	heir = {
+		name = "Akifusa"
+		monarch_name = "Akifusa"
+		dynasty = "Uesugi"
+		birth_date = 1435.1.1
+		death_date = 1455.2.10
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1449.1.1 = { 
+	monarch = {
+		name = "Akifusa"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1455.2.10 = { 
+	monarch = {
+		name = "Mochitomo"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1455.2.10 = {
+	heir = {
+		name = "Masazane"
+		monarch_name = "Masazane"
+		dynasty = "Uesugi"
+		birth_date = 1451.1.1
+		death_date = 1473.12.22
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1467.10.4 = { 
+	monarch = {
+		name = "Masazane"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1473.12.22 = { 
+	monarch = {
+		name = "Sadamasa"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1473.12.22 = {
+	heir = {
+		name = "Tomoyoshi"
+		monarch_name = "Tomoyoshi"
+		dynasty = "Uesugi"
+		birth_date = 1473.1.1
+		death_date = 1518.5.30
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1494.11.2 = { 
+	monarch = {
+		name = "Tomoyoshi"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1494.11.2 = {
+	heir = {
+		name = "Tomooki"
+		monarch_name = "Tomooki"
+		dynasty = "Uesugi"
+		birth_date = 1488.1.1
+		death_date = 1537.6.4
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1518.5.30 = { 
+	monarch = {
+		name = "Tomooki"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1525.1.1 = {
+	heir = {
+		name = "Tomosada"
+		monarch_name = "Tomosada"
+		dynasty = "Uesugi"
+		birth_date = 1525.1.1
+		death_date = 1546.5.19
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1537.6.4 = { 
+	monarch = {
+		name = "Tomosada"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

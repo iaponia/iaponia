@@ -1,0 +1,32 @@
+hre = no
+discovered_by = chinese
+
+add_core = NHK
+add_core = JNB
+owner = NHK
+controller = NHK
+
+culture = hokuriku
+religion = shinto
+capital = "Matsunami"
+is_city = yes
+
+base_tax = 6 
+ fort_15th = yes
+base_production = 6
+base_manpower = 3
+
+trade_goods = fish
+
+
+1577.9.15 = {
+    add_core = UES
+    controller = UES
+    owner = UES
+}
+1580.11.1 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

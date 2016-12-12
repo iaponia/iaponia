@@ -1,0 +1,26 @@
+hre = no
+discovered_by = chinese
+
+add_core = IYN
+add_core = TGM
+owner = IYN
+controller = IYN
+
+culture = sanin
+religion = shinto
+capital = "Wakasaoni"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = rice
+
+
+1581.10.25 = {
+    owner = ODA
+    controller = ODA
+    add_core = ODA
+}
+

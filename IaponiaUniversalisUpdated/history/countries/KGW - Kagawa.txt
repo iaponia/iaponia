@@ -1,0 +1,39 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 143	# Tado
+	
+1500.1.1 = { 
+	monarch = {
+		name = "Motokage"
+		dynasty = "Kagawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1527.1.1 = {
+	heir = {
+		name = "Yukikage"
+		monarch_name = "Yukikage"
+		dynasty = "Kagawa"
+		birth_date = 1527.1.1
+		death_date = 1600.8.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1550.1.1 = { 
+	monarch = {
+		name = "Yukikage"
+		dynasty = "Kagawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

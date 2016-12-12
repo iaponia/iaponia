@@ -1,0 +1,43 @@
+hre = no
+discovered_by = chinese
+
+add_core = IMG
+owner = IMG
+controller = IMG
+
+culture = tokai
+religion = shinto
+capital = "Numatsu"
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = grain
+
+
+1537.1.1 = {
+    owner = HJO
+    controller = HJO
+}
+1554.1.1 = {
+    owner = IMG
+    controller = IMG
+}
+1568.1.1 = {
+    add_core = HJO
+    owner = HJO
+    controller = HJO
+}
+1571.1.1 = {
+    add_core = TKD
+    owner = TKD
+    controller = TKD
+}
+1582.3.1 = {
+    add_core = TKG
+    controller = TKG
+    owner = TKG
+}
+

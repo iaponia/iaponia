@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = ISZ
+owner = ISZ
+controller = ISZ
+
+culture = saikai
+religion = shinto
+capital = "Bonotsu"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = cloth
+
+
+1539.3.13 = {
+    add_core = SMZ
+    owner = SMZ
+    controller = SMZ
+}
+

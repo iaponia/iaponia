@@ -1,0 +1,184 @@
+country_decisions = {
+
+	plutocratic_administration_rep = {
+		major = yes
+		potential = {
+			NOT = { government = merchant_republic }
+			OR = {
+				technology_group = western
+				technology_group = eastern
+				technology_group = ottoman
+				technology_group = muslim
+			}
+			government = republic
+			NOT = { num_of_cities = 20 }
+		}
+		allow =  {
+			stability = 1	
+			NOT = { num_of_cities = 20 }
+			trade_income_percentage = 0.4
+			full_idea_group = trade_ideas
+			full_idea_group = economic_ideas
+			is_at_war = no 
+			is_subject = false
+		}
+		effect = {
+			change_government = merchant_republic
+			add_stability = -1
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				num_of_cities = 5
+			}
+		}
+	}
+	
+	plutocratic_administration = {
+		major = yes
+		potential = {
+			NOT = { government = merchant_republic }
+			OR = {
+				technology_group = western
+				technology_group = eastern
+				technology_group = ottoman
+				technology_group = muslim
+			}
+			government = monarchy
+			NOT = { num_of_cities = 20 }
+		}
+		allow =  {
+			stability = 1	
+			NOT = { num_of_cities = 20 }		
+			trade_income_percentage = 0.4
+			full_idea_group = trade_ideas
+			full_idea_group = economic_ideas
+			is_at_war = no 
+			is_subject = false
+		}
+		effect = {
+			change_government = merchant_republic
+			add_stability = -4
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					adm = 2
+					dip = 2
+					mil = 2
+				}
+			}
+			modifier = {
+				factor = 0
+				num_of_cities = 5
+			}
+		}
+	}
+	
+	aristocratic_administration = {
+		major = yes
+		potential = {
+			NOT = { government = merchant_republic }
+			OR = {
+				technology_group = western
+				technology_group = eastern
+				technology_group = ottoman
+				technology_group = muslim
+			}
+			government = monarchy
+			NOT = { num_of_cities = 20 }
+		}
+		allow =  {
+			stability = 1	
+			NOT = { num_of_cities = 20 }		
+			NOT = { trade_income_percentage = 0.2 }
+			full_idea_group = aristocracy_ideas
+			full_idea_group = influence_ideas
+			is_at_war = no 
+			is_subject = false
+		}
+		effect = {
+			change_government = noble_republic
+			add_stability = -4
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					adm = 2
+					dip = 2
+					mil = 2
+				}
+			}
+			modifier = {
+				factor = 0
+				num_of_cities = 5
+			}
+		}
+	}	
+	
+	formalize_separation_of_powers = {
+		potential = {
+			government = constitutional_monarchy
+			NOT = {
+				has_country_modifier = separation_of_powers
+			}
+		}
+		allow = {
+			stability = 2
+			advisor = statesman
+			is_at_war = no
+		}
+		effect = {
+			add_country_modifier = {
+				name = "separation_of_powers"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	go_cult_of_reason = {
+		potential = {
+			government = revolutionary_republic
+			NOT = {
+				has_country_modifier = cult_of_reason
+			}
+		}
+		allow = {
+			NOT = { stability = -1 }
+		}
+		effect = {
+			add_country_modifier = {
+				name = "cult_of_reason"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	iqta_reform = {
+		major = yes
+		potential = {
+			government = iqta
+		}
+		allow = {
+			adm_tech = 12
+			technology_group = western
+			legitimacy = 90
+			adm_power = 100
+		}
+		effect = {
+			change_government = administrative_monarchy
+			add_adm_power = -100
+		}
+	}
+}

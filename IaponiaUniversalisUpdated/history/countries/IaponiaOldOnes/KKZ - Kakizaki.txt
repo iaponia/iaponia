@@ -1,0 +1,135 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 607	# Oshima
+	
+1420.1.1 = { 
+	monarch = {
+		name = "Sueshige"
+		dynasty = "Kakizaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1431.1.1 = {
+	heir = {
+		name = "Nobuhiro"
+		monarch_name = "Nobuhiro"
+		dynasty = "Kakizaki"
+		birth_date = 1431.1.1
+		death_date = 1494.6.23
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1462.1.1 = { 
+	monarch = {
+		name = "Nobuhiro"
+		dynasty = "Kakizaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1462.1.1 = {
+	heir = {
+		name = "Mitsuhiro"
+		monarch_name = "Mitsuhiro"
+		dynasty = "Kakizaki"
+		birth_date = 1456.1.1
+		death_date = 1518.8.18
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1494.6.23 = { 
+	monarch = {
+		name = "Mitsuhiro"
+		dynasty = "Kakizaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1494.6.23 = {
+	heir = {
+		name = "Yoshihiro"
+		monarch_name = "Yoshihiro"
+		dynasty = "Kakizaki"
+		birth_date = 1479.1.1
+		death_date = 1545.9.24
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1518.8.18 = { 
+	monarch = {
+		name = "Yoshihiro"
+		dynasty = "Kakizaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1518.8.18 = {
+	heir = {
+		name = "Suehiro"
+		monarch_name = "Suehiro"
+		dynasty = "Kakizaki"
+		birth_date = 1507.1.1
+		death_date = 1595.5.29
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1545.9.24 = { 
+	monarch = {
+		name = "Suehiro"
+		dynasty = "Kakizaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1548.10.4 = {
+	heir = {
+		name = "Yoshihiro"
+		monarch_name = "Yoshihiro"
+		dynasty = "Kakizaki"
+		birth_date = 1548.10.4
+		death_date = 1616.11.20
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1583.1.1 = { 
+	monarch = {
+		name = "Yoshihiro"
+		dynasty = "Kakizaki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

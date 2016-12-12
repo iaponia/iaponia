@@ -1,0 +1,51 @@
+hre = no
+discovered_by = chinese
+
+add_core = HSO
+owner = HSO
+controller = HSO
+
+culture = kinai
+religion = shinto
+capital = "Takada"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = silk
+
+
+1455.8.10 = {
+    controller = OTI
+}
+1459.6.15 = {
+    owner = HSO
+}
+1477.1.11 = {
+    add_core = OTI
+    controller = OTI
+    owner = OTI
+}
+1497.10.23 = {
+    remove_core = OTI
+    controller = HSO
+    owner = HSO
+}
+1547.5.1 = {
+    add_core = TTI
+    controller = TTI
+    owner = TTI
+}
+1569.12.1 = {
+    add_core = MNA
+    controller = MNA
+    owner = MNA
+}
+1573.12.26 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

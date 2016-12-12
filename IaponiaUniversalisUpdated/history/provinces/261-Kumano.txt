@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = ISK
+owner = ISK
+controller = ISK
+
+culture = sanin
+religion = shinto
+capital = "Kumihama"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = cloth
+
+
+1581.10.25 = {
+    owner = ODA
+    controller = ODA
+    add_core = ODA
+}
+

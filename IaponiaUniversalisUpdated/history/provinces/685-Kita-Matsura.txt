@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = MTA
+owner = MTA
+controller = MTA
+
+culture = saikai
+religion = shinto
+capital = "Hirado"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = fish
+
+
+1576.5.6 = {
+    add_core = RZJ
+    controller = RZJ
+    owner = RZJ
+}
+

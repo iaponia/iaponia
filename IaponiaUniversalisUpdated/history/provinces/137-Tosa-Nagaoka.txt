@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = HSK
+add_core = CSK
+owner = HSK
+controller = HSK
+
+culture = nankai
+religion = shinto
+capital = "Oko"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = fish
+
+
+1507.1.1 = {
+    controller = CSK
+    owner = CSK
+}
+

@@ -1,0 +1,33 @@
+hre = no
+discovered_by = chinese
+
+add_core = SBA
+add_core = IOD
+add_core = KOD
+owner = SBA
+controller = SBA
+
+culture = tokai
+religion = shinto
+capital = "Kinoshita"
+is_city = yes
+
+base_tax = 6 
+ fort_15th = yes
+base_production = 6
+base_manpower = 3
+
+trade_goods = rice
+
+
+1511.1.1 = {
+    controller = IOD
+    owner = IOD
+}
+1565.1.1 = {
+    add_core = ODA
+    remove_core = KOD
+    controller = ODA
+    owner = ODA
+}
+

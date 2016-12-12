@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = OGS
+owner = OGS
+controller = OGS
+
+culture = tosan
+religion = shinto
+capital = "Mori"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = lumber
+
+
+1550.7.15 = {
+    add_core = TKD
+    controller = TKD
+    owner = TKD
+}
+1582.3.11 = {
+    add_core = ODA
+    owner = ODA
+    controller = ODA
+}
+

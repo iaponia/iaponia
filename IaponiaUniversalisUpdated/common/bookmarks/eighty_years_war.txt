@@ -1,0 +1,25 @@
+bookmark =
+{
+	name = "ASSASSINATION_JAP"
+	desc = "ASSASSINATION_DESC"
+	date = 1507.08.7
+	
+	country = NGO
+	country = MYI
+	country = AMA
+	country = OUC
+	country = IMG
+	country = HGJ
+	
+#	effect = {
+#		#Country 1
+#		SWE = {
+#			add_stability = 4
+#		}
+#		
+#		#Province 1
+#		1 = {
+#			add_base_tax = 5
+#		}
+#	}
+}

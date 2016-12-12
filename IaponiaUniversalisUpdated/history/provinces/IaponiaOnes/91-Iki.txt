@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = HTA
+owner = HTA
+controller = HTA
+
+culture = saikai
+religion = shinto
+capital = "Katsumoto"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = fish
+
+
+1563.1.1 = {
+    add_core = MTA
+    controller = MTA
+    owner = MTA
+}
+1576.5.6 = {
+    add_core = RZJ
+    controller = RZJ
+    owner = RZJ
+}
+

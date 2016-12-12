@@ -1,0 +1,76 @@
+government = theocratic_government
+primary_culture = japaneseculture_group_union = japanese_g
+religion = mahayana
+technology_group = chinese
+historical_rival = ODA
+historical_rival = ASA
+historical_rival = JNB
+capital = 381	# Nomi
+	
+1457.7.18 = { 
+	monarch = {
+		name = "Rennyo"
+		dynasty = "Honganji"
+		adm = 4
+		dip = 6
+		mil = 2
+	}
+}
+
+1458.9.26 = {
+	heir = {
+		name = "Jitsunyo"
+		monarch_name = "Jitsunyo"
+		dynasty = "Honganji"
+		birth_date = 1458.9.26
+		death_date = 1525.3.5
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1499.5.14 = { 
+	monarch = {
+		name = "Jitsunyo"
+		dynasty = "Honganji"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1525.3.5 = { 
+	monarch = {
+		name = "Shonyo"
+		dynasty = "Honganji"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1543.2.20 = {
+	heir = {
+		name = "Kennyo"
+		monarch_name = "Kennyo"
+		dynasty = "Honganji"
+		birth_date = 1543.2.20
+		death_date = 1592.12.27
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1554.9.19 = { 
+	monarch = {
+		name = "Kennyo"
+		dynasty = "Honganji"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

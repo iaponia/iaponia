@@ -1,0 +1,121 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 602	# Shiba
+
+1430.1.1 = { 
+	monarch = {
+		name = "Akikatsu"
+		dynasty = "Shiba"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Akishige"
+		monarch_name = "Akishige"
+		dynasty = "Shiba"
+		birth_date = 1440.1.1
+		death_date = 1492.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1460.1.1 = { 
+	monarch = {
+		name = "Akishige"
+		dynasty = "Shiba"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1492.1.1 = { 
+	monarch = {
+		name = "Akitaka"
+		dynasty = "Shiba"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1496.1.1 = {
+	heir = {
+		name = "Tsuneaki"
+		monarch_name = "Tsuneaki"
+		dynasty = "Shiba"
+		birth_date = 1496.1.1
+		death_date = 1565.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1549.1.1 = { 
+	monarch = {
+		name = "Tsuneaki"
+		dynasty = "Shiba"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1549.1.1 = {
+	heir = {
+		name = "Akizane"
+		monarch_name = "Akizane"
+		dynasty = "Shiba"
+		birth_date = 1525.1.1
+		death_date = 1585.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1565.1.1 = { 
+	monarch = {
+		name = "Akizane"
+		dynasty = "Shiba"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1565.1.1 = {
+	heir = {
+		name = "Akinao"
+		monarch_name = "Akinao"
+		dynasty = "Shiba"
+		birth_date = 1548.1.1
+		death_date = 1597.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1585.1.1 = { 
+	monarch = {
+		name = "Akinao"
+		dynasty = "Shiba"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = KKC
+owner = KKC
+controller = KKC
+
+culture = saikai
+religion = shinto
+capital = "Otsuyama"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = fish
+
+
+1543.1.1 = {
+    add_core = OTM
+    controller = OTM
+    owner = OTM
+}
+1581.1.1 = {
+    add_core = RZJ
+    controller = RZJ
+    owner = RZJ
+}
+

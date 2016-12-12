@@ -1,0 +1,48 @@
+hre = no
+discovered_by = chinese
+
+add_core = OUC
+add_core = SGI
+owner = OUC
+controller = OUC
+
+culture = saikai
+religion = shinto
+capital = "Kasagi"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = rice
+
+
+1469.5.15 = {
+    controller = SHN
+    owner = SHN
+}
+1478.9.16 = {
+    controller = OUC
+    owner = OUC
+}
+1551.9.1 = {
+    add_core = SUE
+    controller = SUE
+    owner = SUE
+}
+1557.7.1 = {
+    add_core = OTM
+    controller = OTM
+    owner = OTM
+}
+1562.1.1 = {
+    add_core = MRI
+    controller = MRI
+    owner = MRI
+}
+1569.1.1 = {
+    controller = OTM
+    owner = OTM
+}
+

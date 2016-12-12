@@ -1,0 +1,112 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = TKD
+capital = 441	# Chiisagata
+	
+1438.1.1 = { 
+	monarch = {
+		name = "Kunikiyo"
+		dynasty = "Murakami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1438.1.1 = {
+	heir = {
+		name = "Masakiyo"
+		monarch_name = "Masakiyo"
+		dynasty = "Murakami"
+		birth_date = 1430.1.1
+		death_date = 1477.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1458.1.1 = { 
+	monarch = {
+		name = "Masakiyo"
+		dynasty = "Murakami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1455.1.1 = {
+	heir = {
+		name = "Masakuni"
+		monarch_name = "Masakuni"
+		dynasty = "Murakami"
+		birth_date = 1455.1.1
+		death_date = 1490.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1477.1.1 = { 
+	monarch = {
+		name = "Masakuni"
+		dynasty = "Murakami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Akikuni"
+		monarch_name = "Akikuni"
+		dynasty = "Murakami"
+		birth_date = 1480.1.1
+		death_date = 1520.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1490.1.1 = { 
+	monarch = {
+		name = "Akikuni"
+		dynasty = "Murakami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1501.3.29 = {
+	heir = {
+		name = "Yoshikiyo"
+		monarch_name = "Yoshikiyo"
+		dynasty = "Murakami"
+		birth_date = 1501.3.29
+		death_date = 1573.2.3
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1520.1.1 = { 
+	monarch = {
+		name = "Yoshikiyo"
+		dynasty = "Murakami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

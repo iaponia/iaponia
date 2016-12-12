@@ -1,0 +1,141 @@
+# Japanese vassal
+
+alliance = {
+	first = KOD
+	second = MDR
+	start_date = 1562.1.1
+	end_date = 1565.1.1
+}
+
+alliance = {
+	first = ODA
+	second = MDR
+	start_date = 1565.1.1
+	end_date = 1566.12.29
+}
+
+alliance = {
+	first = ODA
+	second = TKG
+	start_date = 1566.12.29
+	end_date = 1600.1.1
+}
+
+#vassal = {
+#	first = IMG
+#	second = TKG
+#	start_date = 1549.11.27
+#	end_date = 1560.6.30
+#}
+
+#vassal = {
+#	first = UES
+#	second = EGU
+#	start_date = 1444.11.11
+#	end_date = 1574.1.1
+#}
+
+alliance = {
+	first = HSK
+	second = AHK
+	start_date = 1444.1.1
+	end_date = 1477.1.1
+}
+
+alliance = {
+	first = HSK
+	second = BHK
+	start_date = 1444.1.1
+	end_date = 1477.1.1
+}
+
+alliance = {
+	first = BHK
+	second = AHK
+	start_date = 1444.1.1
+	end_date = 1477.1.1
+}
+
+alliance = {
+	first = YMN
+	second = IYN
+	start_date = 1444.1.1
+	end_date = 1477.1.1
+}
+
+alliance = {
+	first = YMN
+	second = IWY
+	start_date = 1444.1.1
+	end_date = 1477.1.1
+}
+
+alliance = {
+	first = HYN
+	second = IYN
+	start_date = 1444.1.1
+	end_date = 1477.1.1
+}
+
+alliance = {
+	first = YMN
+	second = HYN
+	start_date = 1444.1.1
+	end_date = 1477.1.1
+}
+
+alliance = {
+	first = OTI
+	second = HSO
+	start_date = 1444.1.1
+	end_date = 1477.1.1
+}
+
+alliance = {
+	first = TTI
+	second = TII
+	start_date = 1444.1.1
+	end_date = 1477.1.1
+}
+
+alliance = {
+	first = HJO
+	second = IMG
+	start_date = 1554.1.1
+	end_date = 1568.1.1
+}
+
+alliance = {
+	first = HJO
+	second = TKD
+	start_date = 1554.1.1
+	end_date = 1568.1.1
+}
+
+alliance = {
+	first = IMG
+	second = TKD
+	start_date = 1554.1.1
+	end_date = 1568.1.1
+}
+
+royal_marriage = {
+	first = IMG
+	second = TKD
+	start_date = 1552.1.1
+	end_date = 1568.1.1
+}
+
+royal_marriage = {
+	first = HJO
+	second = TKD
+	start_date = 1553.1.1
+	end_date = 1568.1.1
+}
+
+royal_marriage = {
+	first = HJO
+	second = IMG
+	start_date = 1554.1.1
+	end_date = 1568.1.1
+}

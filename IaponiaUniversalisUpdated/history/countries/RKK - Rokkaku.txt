@@ -1,0 +1,144 @@
+government = feudal_monarchy
+primary_culture = japanese
+culture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = KGK
+historical_rival = KBK
+capital = 335	# Gamo
+	
+1441.1.1 = { 
+	monarch = {
+		name = "Mochitsuna"
+		dynasty = "Rokkaku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1446.1.1 = { 
+	monarch = {
+		name = "Hisayori"
+		dynasty = "Rokkaku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1446.1.1 = {
+	heir = {
+		name = "Takayori"
+		monarch_name = "Takayori"
+		dynasty = "Rokkaku"
+		birth_date = 1440.1.1
+		death_date = 1520.12.9
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1456.1.1 = { 
+	monarch = {
+		name = "Takayori"
+		dynasty = "Rokkaku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1492.1.1 = {
+	heir = {
+		name = "Ujitsuna"
+		monarch_name = "Ujitsuna"
+		dynasty = "Rokkaku"
+		birth_date = 1492.1.1
+		death_date = 1518.8.25
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1506.1.1 = { 
+	monarch = {
+		name = "Ujitsuna"
+		dynasty = "Rokkaku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1518.1.1 = { 
+	monarch = {
+		name = "Sadayori"
+		dynasty = "Rokkaku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1521.1.1 = {
+	heir = {
+		name = "Yoshikata"
+		monarch_name = "Yoshikata"
+		dynasty = "Rokkaku"
+		birth_date = 1521.1.1
+		death_date = 1598.4.19
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1552.1.1 = { 
+	monarch = {
+		name = "Yoshikata"
+		dynasty = "Rokkaku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1552.1.1 = {
+	heir = {
+		name = "Yoshiharu"
+		monarch_name = "Yoshiharu"
+		dynasty = "Rokkaku"
+		birth_date = 1545.1.1
+		death_date = 1612.11.14
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1559.1.1 = { 
+	monarch = {
+		name = "Yoshiharu"
+		dynasty = "Rokkaku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1567.1.1 = { 
+	monarch = {
+		name = "Yoshisada"
+		dynasty = "Rokkaku"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = NKI
+owner = NKI
+controller = NKI
+
+culture = tokai
+religion = shinto
+capital = "Ueno"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = pottery
+
+
+1478.1.1 = {
+    add_core = HTR
+    controller = HTR
+    owner = HTR
+}
+1581.9.3 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

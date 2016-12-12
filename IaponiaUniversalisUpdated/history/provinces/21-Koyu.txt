@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = ITO
+owner = ITO
+controller = ITO
+
+culture = saikai
+religion = shinto
+capital = "Tonokori"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+trade_goods = fish
+
+
+1578.11.12 = {
+    add_core = SMZ
+    controller = SMZ
+    owner = SMZ
+}
+

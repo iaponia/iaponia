@@ -1,0 +1,65 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 553	# Kubiki
+	
+1506.1.1 = { 
+	monarch = {
+		name = "Tamekage"
+		dynasty = "Nagao"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1509.1.1 = {
+	heir = {
+		name = "Harukage"
+		monarch_name = "Harukage"
+		dynasty = "Nagao"
+		birth_date = 1509.1.1
+		death_date = 1553.3.23
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1536.1.1 = { 
+	monarch = {
+		name = "Harukage"
+		dynasty = "Nagao"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1536.1.1 = {
+	heir = {
+		name = "Kagetora"
+		monarch_name = "Kagetora"
+		dynasty = "Nagao"
+		birth_date = 1530.2.18
+		death_date = 1578.4.19
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+# Uesugi Kenshin
+	
+1548.1.1 = { 
+	monarch = {
+		name = "Kagetora"
+		dynasty = "Nagao"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

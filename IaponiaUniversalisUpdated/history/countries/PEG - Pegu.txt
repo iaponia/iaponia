@@ -1,0 +1,25 @@
+government = despotic_monarchy
+#aristocracy_plutocracy = -3
+#centralization_decentralization = 0
+#innovative_narrowminded = 0
+mercantilism = 0.1
+#offensive_defensive = -2
+#land_naval = -1
+#quality_quantity = -1
+#serfdom_freesubjects = -1
+primary_culture = mon
+religion = buddhism
+technology_group = chinese
+capital = 586	# Pegu
+
+
+1384.1.23 = {
+	monarch = {
+		name = "Razadarit"
+		dynasty = "Wareru"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+

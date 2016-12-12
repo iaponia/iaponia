@@ -1,0 +1,35 @@
+hre = no
+discovered_by = chinese
+
+add_core = KKC
+owner = KKC
+controller = KKC
+
+culture = saikai
+religion = shinto
+capital = "Yatushiro"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = cloth
+
+
+1505.1.1 = {
+    add_core = SGR
+    controller = SGR
+    owner = SGR
+}
+1543.1.1 = {
+    add_core = OTM
+    controller = OTM
+    owner = OTM
+}
+1581.1.1 = {
+    add_core = SMZ
+    controller = SMZ
+    owner = SMZ
+}
+

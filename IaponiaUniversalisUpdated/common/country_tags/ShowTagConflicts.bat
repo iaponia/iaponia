@@ -1,0 +1,2 @@
+tagcheck.py "C:\Users\Ivan\Documents\Paradox Interactive\Europa Universalis IV\mod\IaponiaUniversalisUpdated\common\country_tags\00_countries.txt" "C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\country_tags\00_countries.txt"
+pause

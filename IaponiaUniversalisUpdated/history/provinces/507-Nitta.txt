@@ -1,0 +1,34 @@
+hre = no
+discovered_by = chinese
+
+add_core = UES
+add_core = NGO
+owner = UES
+controller = UES
+
+culture = kanto
+religion = shinto
+capital = "Kanayama"
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = rice
+
+
+1552.1.10 = {
+    add_core = HJO
+    controller = HJO
+    owner = HJO
+}
+1561.5.30 = {
+    owner = UES
+    controller = UES
+}
+1563.2.4 = {
+    owner = HJO
+    controller = HJO
+}
+

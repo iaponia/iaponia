@@ -1,0 +1,45 @@
+hre = no
+discovered_by = chinese
+
+add_core = HTK
+add_core = JNB
+owner = HTK
+controller = HTK
+
+culture = hokuriku
+religion = shinto
+capital = "Zuisenji"
+is_city = yes
+
+base_tax = 9
+base_production = 9
+base_manpower = 3
+
+trade_goods = metal
+
+
+1454.4.3 = {
+    add_core = SHK
+}
+1460.9.16 = {
+    remove_core = HTK
+    add_core = BHY
+    controller = BHY
+    owner = BHY
+}
+1488.6.9 = {
+    add_core = HGJ
+    controller = HGJ
+    owner = HGJ
+}
+1542.3.17 = {
+    remove_core = SHK
+    remove_core = BHY
+    add_core = HTK
+}
+1580.11.1 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

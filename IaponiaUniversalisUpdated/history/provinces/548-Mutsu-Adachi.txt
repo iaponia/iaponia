@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = DTE
+owner = DTE
+controller = DTE
+
+culture = tohoku
+religion = shinto
+capital = "Nihonmatsu"
+is_city = yes
+
+base_tax = 8
+base_production = 8
+base_manpower = 3
+
+trade_goods = metal
+
+
+

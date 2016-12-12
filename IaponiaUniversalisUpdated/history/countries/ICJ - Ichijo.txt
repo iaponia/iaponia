@@ -1,0 +1,87 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 107	# Hata
+	
+1477.1.1 = { 
+	monarch = {
+		name = "Fusaie"
+		dynasty = "Ichijo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1498.1.1 = {
+	heir = {
+		name = "Fusafuyu"
+		monarch_name = "Fusafuyu"
+		dynasty = "Ichijo"
+		birth_date = 1498.1.1
+		death_date = 1541.11.23
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1539.1.1 = { 
+	monarch = {
+		name = "Fusafuyu"
+		dynasty = "Ichijo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1539.1.1 = {
+	heir = {
+		name = "Fusamoto"
+		monarch_name = "Fusamoto"
+		dynasty = "Ichijo"
+		birth_date = 1522.1.1
+		death_date = 1549.5.9
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1541.11.23 = { 
+	monarch = {
+		name = "Fusamoto"
+		dynasty = "Ichijo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1543.1.1 = {
+	heir = {
+		name = "Kanesada"
+		monarch_name = "Kanesada"
+		dynasty = "Ichijo"
+		birth_date = 1543.1.1
+		death_date = 1585.7.27
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1549.1.1 = { 
+	monarch = {
+		name = "Kanesada"
+		dynasty = "Ichijo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

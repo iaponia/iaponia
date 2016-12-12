@@ -1,0 +1,75 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = STK
+capital = 483	# Tsukuba	
+	
+1440.1.1 = { 
+	monarch = {
+		name = "Tomohisa"
+		dynasty = "Oda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1449.7.12 = {
+	heir = {
+		name = "Shigeharu"
+		monarch_name = "Shigeharu"
+		dynasty = "Oda"
+		birth_date = 1449.7.12
+		death_date = 1514.5.15
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1455.1.1 = { 
+	monarch = {
+		name = "Shigeharu"
+		dynasty = "Oda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+
+1514.1.1 = { 
+	monarch = {
+		name = "Masaharu"
+		dynasty = "Oda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1531.2.24 = {
+	heir = {
+		name = "Ujiharu"
+		monarch_name = "Ujiharu"
+		dynasty = "Oda"
+		birth_date = 1531.2.24
+		death_date = 1602.11.13
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1548.1.1 = { 
+	monarch = {
+		name = "Ujiharu"
+		dynasty = "Oda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}	

@@ -1,0 +1,169 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 266	# Kasa
+
+1440.5.15 = {
+	monarch = {
+		name = "Norichika" 
+		dynasty = "Issiki"
+#		birth_date = 1431.1.1
+#		death_date = 1494.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1451.12.21 = {
+	monarch = {
+		name = "Yoshinao" 
+		dynasty = "Issiki"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1466.1.1 = {
+	heir = {
+		name = "Yoshiharu"
+		monarch_name = "Yoshiharu"
+		dynasty = "Issiki"
+		birth_date = 1466.1.1
+		death_date = 1484.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1474.1.1 = {
+	monarch = {
+		name = "Yoshiharu" 
+		dynasty = "Issiki"
+#		birth_date = 1466.1.1
+#		death_date = 1484.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+}
+
+1483.1.1 = {
+	heir = {
+		name = "Yoshihide"
+		monarch_name = "Yoshihide"
+		dynasty = "Issiki"
+		birth_date = 1483.1.1
+		death_date = 1498.6.18
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1484.1.1 = {
+	monarch = {
+		name = "Yoshihide" 
+		dynasty = "Issiki"
+#		birth_date = 1483.1.1
+#		death_date = 1498.6.18
+		adm = 4
+		dip = 4
+		mil = 3
+		}
+}
+
+1498.6.18 = {
+	monarch = {
+		name = "Yoshiari" 
+		dynasty = "Issiki"
+#		birth_date = 1480.1.1
+#		death_date = 1510.1.1
+		adm = 3
+		dip = 4
+		mil = 4
+		}
+}
+
+1505.1.1 = {
+	heir = {
+		name = "Yoshikiyo"
+		monarch_name = "Yoshikiyo"
+		dynasty = "Issiki"
+		birth_date = 1505.1.1
+		death_date = 1540.1.11
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1510.1.1 = {
+	monarch = {
+		name = "Yoshikiyo" 
+		dynasty = "Issiki"
+#		birth_date = 1505.1.1
+#		death_date = 1540.1.1
+		adm = 4
+		dip = 4
+		mil = 3
+		}
+}
+
+1523.1.1 = {
+	heir = {
+		name = "Yoshiyuki"
+		monarch_name = "Yoshiyuki"
+		dynasty = "Issiki"
+		birth_date = 1523.1.1
+		death_date = 1570.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1540.1.1 = {
+	monarch = {
+		name = "Yoshiyuki" 
+		dynasty = "Issiki"
+#		birth_date = 1523.1.1
+#		death_date = 1570.1.1
+		adm = 4
+		dip = 4
+		mil = 3
+		}
+} 
+
+1540.1.1 = {
+	heir = {
+		name = "Yoshimichi"
+		monarch_name = "Yoshimichi"
+		dynasty = "Issiki"
+		birth_date = 1530.1.1
+		death_date = 1579.1.1
+		claim = 90
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1558.1.1 = {
+	monarch = {
+		name = "Yoshimichi" 
+		dynasty = "Issiki"
+#		birth_date = 1530.1.1
+#		death_date = 1579.1.1
+		adm = 3
+		dip = 4
+		mil = 3
+		}
+}

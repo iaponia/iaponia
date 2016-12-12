@@ -1,0 +1,5 @@
+government = noble_republic
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 357	# Inabe

@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = OUC
+add_core = SUE
+owner = OUC
+controller = OUC
+
+culture = setouchi
+religion = shinto
+capital = "Takamori"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = metal
+
+
+1551.9.1 = {
+    controller = SUE
+    owner = SUE
+}
+1555.1.1 = {
+    add_core = MRI
+    controller = MRI
+    owner = MRI
+}
+

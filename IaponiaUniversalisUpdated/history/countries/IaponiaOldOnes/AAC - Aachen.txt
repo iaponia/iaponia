@@ -1,0 +1,19 @@
+government = administrative_republic
+mercantilism = 0.2
+technology_group = western
+religion = catholic
+primary_culture = rheinlaender
+capital = 1878	# Aachen
+fixed_capital = 1878 # Cannot move capital away from this province & no power cost to move to it
+
+1399.1.1 = {
+	monarch = {
+		name = "Stadtrat"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+
+1798.1.1 = { government = constitutional_republic }

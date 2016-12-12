@@ -1,0 +1,135 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 605	# Tsugaru
+
+1435.1.1 = { 
+	monarch = {
+		name = "Akikuni"
+		dynasty = "Kitabatake"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1435.1.1 = {
+	heir = {
+		name = "Akiyoshi"
+		monarch_name = "Akiyoshi"
+		dynasty = "Kitabatake"
+		birth_date = 1430.1.1
+		death_date = 1480.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1460.1.1 = { 
+	monarch = {
+		name = "Akiyoshi"
+		dynasty = "Kitabatake"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Akitomo"
+		monarch_name = "Akitomo"
+		dynasty = "Kitabatake"
+		birth_date = 1460.1.1
+		death_date = 1520.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1480.1.1 = { 
+	monarch = {
+		name = "Akitomo"
+		dynasty = "Kitabatake"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1487.1.1 = {
+	heir = {
+		name = "Tomonaga"
+		monarch_name = "Tomonaga"
+		dynasty = "Kitabatake"
+		birth_date = 1487.1.1
+		death_date = 1555.6.13
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1520.1.1 = { 
+	monarch = {
+		name = "Tomonaga"
+		dynasty = "Kitabatake"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1532.1.1 = {
+	heir = {
+		name = "Tomokazu"
+		monarch_name = "Tomokazu"
+		dynasty = "Kitabatake"
+		birth_date = 1532.1.1
+		death_date = 1562.2.6
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1555.6.13 = { 
+	monarch = {
+		name = "Tomokazu"
+		dynasty = "Kitabatake"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1555.6.13 = {
+	heir = {
+		name = "Akimura"
+		monarch_name = "Akimura"
+		dynasty = "Kitabatake"
+		birth_date = 1555.1.1
+		death_date = 1578.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1562.2.6 = { 
+	monarch = {
+		name = "Akimura"
+		dynasty = "Kitabatake"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,26 @@
+hre = no
+discovered_by = chinese
+
+add_core = NMK
+add_core = HNB
+owner = HNB
+controller = HNB
+
+culture = tohoku
+religion = shinto
+capital = "Oura"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = dye
+
+
+1571.1.1 = {
+    owner = OUR
+    controller = OUR
+    add_core = OUR
+}
+

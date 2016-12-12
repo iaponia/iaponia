@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = MKM
+owner = MKM
+controller = MKM
+
+culture = tosan
+religion = shinto
+capital = "Shioda"
+is_city = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+trade_goods = rice
+
+
+1552.8.1 = {
+    add_core = TKD
+    owner = TKD
+    controller = TKD
+}
+1582.3.11 = {
+    add_core = SNA
+    owner = SNA
+    controller = SNA
+}
+

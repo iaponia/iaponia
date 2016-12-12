@@ -1,0 +1,101 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = YMN
+historical_rival = IWY
+historical_friend = HSK
+capital = 250	# Itto
+
+1458.1.1 = { 
+	monarch = {
+		name = "Masanori"
+		dynasty = "Akamatsu"
+		adm = 5
+		dip = 5
+		mil = 5
+		}
+	}
+	
+1496.6.6 = { 
+	monarch = {
+		name = "Yoshimura"
+		dynasty = "Akamatsu"
+		adm = 4
+		dip = 3
+		mil = 3
+		}
+	}
+	
+1513.1.1 = {
+	heir = {
+		name = "Harumasa"
+		monarch_name = "Harumasa"
+		dynasty = "Akamatsu"
+		birth_date = 1513.1.1
+		death_date = 1565.2.16
+		claim = 70
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1521.10.7 = { 
+	monarch = {
+		name = "Harumasa"
+		dynasty = "Akamatsu"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+		
+1537.1.1 = {
+	heir = {
+		name = "Yoshisuke"
+		monarch_name = "Yoshisuke"
+		dynasty = "Akamatsu"
+		birth_date = 1537.1.1
+		death_date = 1576.3.15
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1558.1.1 = { 
+	monarch = {
+		name = "Yoshisuke"
+		dynasty = "Akamatsu"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+
+1559.1.1 = {
+	heir = {
+		name = "Norifusa"
+		monarch_name = "Norifusa"
+		dynasty = "Akamatsu"
+		birth_date = 1559.1.1
+		death_date = 1598.8.18
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1570.1.1 = { 
+	monarch = {
+		name = "Yoshisuke"
+		dynasty = "Akamatsu"
+		adm = 4
+		dip = 4
+		mil = 4
+		}
+	}
+

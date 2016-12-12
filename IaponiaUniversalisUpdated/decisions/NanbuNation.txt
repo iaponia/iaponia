@@ -1,0 +1,62 @@
+country_decisions = {
+
+	nanbu_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = NNB }
+			OR = {
+			tag = SNB
+			tag = HNB 
+			}
+			
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			
+				OR = {
+						AND = {
+						tag = SNB
+						NOT = { exists = HNB }
+						}
+				 
+						AND = {
+						tag = HNB
+						NOT = { exists = SNB }
+						}
+				}
+			
+		}
+		effect = {
+			change_tag = NNB
+			add_claim = 659
+			add_claim = 605
+			add_claim = 660
+			add_claim = 661
+			add_claim = 662
+			add_claim = 606
+			add_claim = 663
+			add_claim = 665
+			add_claim = 664
+			add_claim = 666
+			add_claim = 667
+			add_claim = 601
+			add_claim = 668
+			add_claim = 599
+			add_claim = 670
+			add_claim = 669
+			add_claim = 602
+			add_claim = 603
+			add_claim = 598
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

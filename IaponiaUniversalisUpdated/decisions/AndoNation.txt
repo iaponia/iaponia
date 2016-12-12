@@ -1,0 +1,31 @@
+country_decisions = {
+
+	ando_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ADO }
+			tag = MNO
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			tag = MAN		
+		}
+		effect = {
+			change_tag = ADO
+			add_claim = 575
+			add_claim = 574
+			add_claim = 573
+			add_claim = 658
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

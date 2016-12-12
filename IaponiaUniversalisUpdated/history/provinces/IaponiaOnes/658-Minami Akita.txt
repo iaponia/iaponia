@@ -1,0 +1,28 @@
+hre = no
+discovered_by = chinese
+
+add_core = MNO
+add_core = ADO
+owner = MNO
+controller = MNO
+
+culture = tohoku
+religion = shinto
+capital = "Akita"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = grain
+
+
+1553.1.1 = {
+    owner = ADO
+    controller = ADO
+}
+
+marketplace = yes
+temple = yes
+workshop = yes

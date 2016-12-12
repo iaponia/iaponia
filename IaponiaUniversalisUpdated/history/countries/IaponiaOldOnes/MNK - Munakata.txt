@@ -1,0 +1,215 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 67	# Munakata
+	
+1444.6.1 = { 
+	monarch = {
+		name = "Ujihiro"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1446.5.1 = { 
+	monarch = {
+		name = "Ujimasa"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1446.1.1 = {
+	heir = {
+		name = "Ujisato"
+		monarch_name = "Ujisato"
+		dynasty = "Munakata"
+		birth_date = 1432.1.1
+		death_date = 1478.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1458.1.1 = { 
+	monarch = {
+		name = "Ujisato"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1458.1.1 = {
+	heir = {
+		name = "Ujikuni"
+		monarch_name = "Ujikuni"
+		dynasty = "Munakata"
+		birth_date = 1450.1.1
+		death_date = 1504.11.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1478.1.1 = { 
+	monarch = {
+		name = "Ujikuni"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1478.9.1 = { 
+	monarch = {
+		name = "Ujisada"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1480.1.1 = {
+	heir = {
+		name = "Okiuji"
+		monarch_name = "Okiuji"
+		dynasty = "Munakata"
+		birth_date = 1480.1.1
+		death_date = 1511.8.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1487.3.1 = { 
+	monarch = {
+		name = "Okiuji"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1497.1.1 = { 
+	monarch = {
+		name = "Ujikuni"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1500.1.1 = { 
+	monarch = {
+		name = "Okiuji"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1502.1.1 = { 
+	monarch = {
+		name = "Ujikuni"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1504.11.1 = { 
+	monarch = {
+		name = "Okiuji"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1504.1.1 = {
+	heir = {
+		name = "Masauji"
+		monarch_name = "Masauji"
+		dynasty = "Munakata"
+		birth_date = 1500.1.1
+		death_date = 1547.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1508.1.1 = { 
+	monarch = {
+		name = "Masauji"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1527.1.1 = { 
+	monarch = {
+		name = "Ujitsugu"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1547.5.1 = { 
+	monarch = {
+		name = "Ujio"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1547.5.1 = {
+	heir = {
+		name = "Ujisada"
+		monarch_name = "Ujisada"
+		dynasty = "Munakata"
+		birth_date = 1545.1.1
+		death_date = 1586.4.22
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1551.1.1 = { 
+	monarch = {
+		name = "Ujisada"
+		dynasty = "Munakata"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = EGU
+add_core = HNM
+owner = EGU
+controller = EGU
+
+culture = hokuriku
+religion = shinto
+capital = "Yoshioka"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = silver
+
+
+1507.8.7 = {
+    controller = HNM
+    owner = HNM
+}
+

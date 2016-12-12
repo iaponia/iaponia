@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = KNO
+owner = KNO
+controller = KNO
+
+culture = setouchi
+religion = shinto
+capital = "Setasan"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = rice
+
+
+

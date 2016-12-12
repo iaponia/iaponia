@@ -1,0 +1,37 @@
+# This file contains the default idea group in order to make sure it is loaded last.
+
+
+default_ideas = {
+	start = {
+		fabricate_claims_time = -0.25
+		spy_offence = 0.2
+	}
+	
+	bonus = {
+		army_tradition = 1
+	}
+	
+	free = yes
+	
+	bushido = {
+		discipline = 0.05
+	}
+	bun_and_bu = {
+		idea_cost = -0.1
+	}
+	honor_ancestors = {
+		legitimacy = 1
+	}
+	five_rings = {
+		land_morale = 0.10
+	}
+	wandering_ronin = {
+		merc_maintenance_modifier = -0.25
+	}
+	daimyo_idea = {
+		land_forcelimit_modifier = 0.1
+	}
+	honor_unto_death = {
+		prestige = 1
+	}
+}

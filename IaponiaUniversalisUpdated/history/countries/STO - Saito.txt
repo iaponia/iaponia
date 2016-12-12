@@ -1,0 +1,63 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 362	# Atsumi
+	
+1525.1.1 = { 
+	monarch = {
+		name = "Toshimasa"
+		dynasty = "Saito"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1527.7.8 = {
+	heir = {
+		name = "Yoshitatsu"
+		monarch_name = "Yoshitatsu"
+		dynasty = "Saito"
+		birth_date = 1527.7.8
+		death_date = 1561.6.23
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1554.1.1 = { 
+	monarch = {
+		name = "Yoshitatsu"
+		dynasty = "Saito"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1554.1.1 = {
+	heir = {
+		name = "Tatsuoki"
+		monarch_name = "Tatsuoki"
+		dynasty = "Saito"
+		birth_date = 1548.1.1
+		death_date = 1573.9.10
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1561.6.23 = { 
+	monarch = {
+		name = "Tatsuoki"
+		dynasty = "Saito"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

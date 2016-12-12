@@ -1,0 +1,18 @@
+hre = no
+discovered_by = chinese
+
+
+culture = ainu
+religion = shinto
+capital = "Teshio"
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+trade_goods = unknown
+
+
+native_ferocity = 1
+native_hostileness = 1
+native_size = 5

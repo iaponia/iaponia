@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = EGU
+add_core = NGO
+add_core = HNJ
+owner = EGU
+controller = EGU
+
+culture = hokuriku
+religion = shinto
+capital = "Honjo"
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = rice
+
+
+1507.1.1 = {
+    controller = HNJ
+    owner = HNJ
+}
+1561.3.16 = {
+    add_core = UES
+    remove_core = NGO
+}
+

@@ -1,0 +1,50 @@
+government = daimyo
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = KOD
+capital = 367	# Kasugai
+	
+1481.3.1 = { 
+	monarch = {
+		name = "Tohiro"
+		dynasty = "Oda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1485.1.1 = {
+	heir = {
+		name = "Hirotaka"
+		monarch_name = "Hirotaka"
+		dynasty = "Oda"
+		birth_date = 1485.1.1
+		death_date = 1550.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1537.1.1 = { 
+	monarch = {
+		name = "Hirotaka"
+		dynasty = "Oda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1550.1.1 = { 
+	monarch = {
+		name = "Nobuyasu"
+		dynasty = "Oda"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

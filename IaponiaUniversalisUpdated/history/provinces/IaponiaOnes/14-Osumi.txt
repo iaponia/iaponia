@@ -1,0 +1,26 @@
+hre = no
+discovered_by = chinese
+
+add_core = KMK
+add_core = NJM
+owner = KMK
+controller = KMK
+
+culture = saikai
+religion = shinto
+capital = "Tomita"
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = rice
+
+
+1568.1.1 = {
+    add_core = SMZ
+    controller = SMZ
+    owner = SMZ
+}
+

@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = RKK
+owner = RKK
+controller = RKK
+
+culture = kinai
+religion = shinto
+capital = "Takikita"
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = rice
+
+
+1571.1.1 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

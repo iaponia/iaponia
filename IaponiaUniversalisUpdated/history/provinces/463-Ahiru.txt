@@ -1,0 +1,33 @@
+hre = no
+discovered_by = chinese
+
+add_core = KTK
+owner = KTK
+controller = KTK
+
+culture = kanto
+religion = shinto
+capital = "Kururi"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = metal
+
+
+1517.10.15 = {
+    add_core = OAK
+    controller = OAK
+    owner = OAK
+}
+1537.1.1 = {
+    add_core = STM
+    owner = STM
+    controller = STM
+}
+1538.10.7 = {
+    remove_core = OAK
+}
+

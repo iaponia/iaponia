@@ -1,0 +1,165 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 459	# Asai
+	
+1444.1.1 = { 
+	monarch = {
+		name = "Yoshizane"
+		dynasty = "Satomi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1448.1.1 = {
+	heir = {
+		name = "Shigeyoshi"
+		monarch_name = "Shigeyoshi"
+		dynasty = "Satomi"
+		birth_date = 1448.1.1
+		death_date = 1505.5.18
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1488.1.1 = { 
+	monarch = {
+		name = "Shigeyoshi"
+		dynasty = "Satomi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1488.1.1 = {
+	heir = {
+		name = "Yoshimichi"
+		monarch_name = "Yoshimichi"
+		dynasty = "Satomi"
+		birth_date = 1481.1.1
+		death_date = 1518.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1505.1.1 = { 
+	monarch = {
+		name = "Yoshimichi"
+		dynasty = "Satomi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1505.1.1 = {
+	heir = {
+		name = "Yoshitoyo"
+		monarch_name = "Yoshitoyo"
+		dynasty = "Satomi"
+		birth_date = 1500.1.1
+		death_date = 1534.5.18
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1518.1.1 = { 
+	monarch = {
+		name = "Yoshitoyo"
+		dynasty = "Satomi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1534.5.18 = { 
+	monarch = {
+		name = "Yoshitaka"
+		dynasty = "Satomi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1534.5.18 = {
+	heir = {
+		name = "Yoshihiro"
+		monarch_name = "Yoshihiro"
+		dynasty = "Satomi"
+		birth_date = 1530.1.1
+		death_date = 1578.7.5
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1562.1.1 = { 
+	monarch = {
+		name = "Yoshihiro"
+		dynasty = "Satomi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1578.7.5 = { 
+	monarch = {
+		name = "Yoshishige"
+		dynasty = "Satomi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1580.1.1 = { 
+	monarch = {
+		name = "Yoshiyori"
+		dynasty = "Satomi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1580.1.1 = {
+	heir = {
+		name = "Yoshiyasu"
+		monarch_name = "Yoshiyasu"
+		dynasty = "Satomi"
+		birth_date = 1573.1.1
+		death_date = 1603.12.18
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1587.11.26 = { 
+	monarch = {
+		name = "Yoshiyasu"
+		dynasty = "Satomi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,111 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 542	# Shirakawa
+	
+1432.1.1 = { 
+	monarch = {
+		name = "Naotomo"
+		dynasty = "Yuki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Masatomo"
+		monarch_name = "Masatomo"
+		dynasty = "Yuki"
+		birth_date = 1440.1.1
+		death_date = 1510.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1454.1.1 = { 
+	monarch = {
+		name = "Masatomo"
+		dynasty = "Yuki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1470.1.1 = {
+	heir = {
+		name = "Akiyori"
+		monarch_name = "Akiyori"
+		dynasty = "Yuki"
+		birth_date = 1470.1.1
+		death_date = 1543.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1510.1.1 = { 
+	monarch = {
+		name = "Akiyori"
+		dynasty = "Yuki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1510.1.1 = {
+	heir = {
+		name = "Yoshitsuna"
+		monarch_name = "Yoshitsuna"
+		dynasty = "Yuki"
+		birth_date = 1500.1.1
+		death_date = 1559.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1522.1.1 = { 
+	monarch = {
+		name = "Yoshitsuna"
+		dynasty = "Yuki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1522.1.1 = {
+	heir = {
+		name = "Harutsuna"
+		monarch_name = "Harutsuna"
+		dynasty = "Yuki"
+		birth_date = 1520.1.1
+		death_date = 1573.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1542.1.1 = { 
+	monarch = {
+		name = "Harutsuna"
+		dynasty = "Yuki"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

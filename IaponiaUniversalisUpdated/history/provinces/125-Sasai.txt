@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = ATK
+owner = ATK
+controller = ATK
+
+culture = setouchi
+religion = shinto
+capital = "Sakurao"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = salt
+
+
+1541.1.13 = {
+    controller = OUC
+    owner = OUC
+    add_core = OUC
+}
+1550.1.1 = {
+    add_core = MRI
+    controller = MRI
+    owner = MRI
+}
+

@@ -1,0 +1,40 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = OGS
+capital = 438	# Ina
+	
+1442.1.1 = { 
+	monarch = {
+		name = "Muneyasu"
+		dynasty = "Ogasawara"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1442.1.1 = {
+	heir = {
+		name = "Masahide"
+		monarch_name = "Masahide"
+		dynasty = "Ogasawara"
+		birth_date = 1425.1.1
+		death_date = 1493.1.30
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1446.1.1 = { 
+	monarch = {
+		name = "Masahide"
+		dynasty = "Ogasawara"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

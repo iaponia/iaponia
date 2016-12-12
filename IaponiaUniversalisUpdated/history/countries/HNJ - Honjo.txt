@@ -1,0 +1,63 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 558	# Nutari
+	
+1500.1.1 = { 
+	monarch = {
+		name = "Tokinaga"
+		dynasty = "Honjo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1505.1.12 = {
+	heir = {
+		name = "Fusanaga"
+		monarch_name = "Fusanaga"
+		dynasty = "Honjo"
+		birth_date = 1505.1.12
+		death_date = 1614.1.29
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1509.1.1 = { 
+	monarch = {
+		name = "Fusanaga"
+		dynasty = "Honjo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1540.1.12 = {
+	heir = {
+		name = "Shigenaga"
+		monarch_name = "Shigenaga"
+		dynasty = "Honjo"
+		birth_date = 1540.1.12
+		death_date = 1614.1.29
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1539.1.1 = { 
+	monarch = {
+		name = "Shigenaga"
+		dynasty = "Honjo"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

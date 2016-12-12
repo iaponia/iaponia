@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = KNO
+owner = KNO
+controller = KNO
+
+culture = setouchi
+religion = shinto
+capital = "Kurishima"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = rice
+
+
+

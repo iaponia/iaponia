@@ -1,0 +1,51 @@
+# The Protestant Reformation
+country_event = {
+	id = 10001
+	title = "EVTNAME10001"
+	desc = "EVTDESC10001"
+	picture = RELIGION_eventPicture
+	
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+	
+	OR = { 
+			factor = 0.40
+			hizen = {
+			owned_by =  ROOT
+			}
+			factor 0.002
+			satsuma = {
+			owned_by =  ROOT
+			}
+		}
+		NOT = { tag = UKU }
+		NOT = { 
+			any_province = {
+				religion = catholic
+			}
+			any_country = {
+				religion = catholic
+			}	
+			any_province = {
+				has_province_modifier = religious_center
+			}	
+		}
+		is_religion_enabled = catholic
+		has_country_flag = accepted_catholics
+	}
+		
+
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "EVTOPTA10001"
+			
+	}
+}
+

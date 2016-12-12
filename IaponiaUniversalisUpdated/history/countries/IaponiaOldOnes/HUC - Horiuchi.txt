@@ -1,0 +1,39 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 617	# Muro
+
+1534.1.1 = { 
+	monarch = {
+		name = "Ujitora"
+		dynasty = "Horiuchi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1549.1.1 = {
+	heir = {
+		name = "Ujiyoshi"
+		monarch_name = "Ujiyoshi"
+		dynasty = "Horiuchi"
+		birth_date = 1549.1.1
+		death_date = 1615.5.7
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1574.1.1 = { 
+	monarch = {
+		name = "Ujiyoshi"
+		dynasty = "Horiuchi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

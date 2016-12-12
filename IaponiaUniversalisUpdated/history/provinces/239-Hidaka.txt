@@ -1,0 +1,39 @@
+hre = no
+discovered_by = chinese
+
+add_core = HTK
+add_core = YKW
+owner = HTK
+controller = HTK
+
+culture = nankai
+religion = shinto
+capital = "Gobo"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = rice
+
+
+1454.4.3 = {
+    add_core = SHK
+}
+1460.9.16 = {
+    remove_core = HTK
+    add_core = BHY
+    controller = BHY
+    owner = BHY
+}
+1538.1.1 = {
+    owner = YKW
+    controller = YKW
+}
+1542.3.17 = {
+    remove_core = SHK
+    remove_core = BHY
+    add_core = HTK
+}
+

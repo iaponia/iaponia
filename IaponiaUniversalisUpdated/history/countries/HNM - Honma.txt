@@ -1,0 +1,87 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 561	# Hamochi
+	
+1500.1.1 = { 
+	monarch = {
+		name = "Yasutoki"
+		dynasty = "Honma"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Ariyasu"
+		monarch_name = "Ariyasu"
+		dynasty = "Honma"
+		birth_date = 1500.1.1
+		death_date = 1552.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1530.1.1 = { 
+	monarch = {
+		name = "Ariyasu"
+		dynasty = "Honma"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1530.1.1 = {
+	heir = {
+		name = "Yasutaka"
+		monarch_name = "Yasutaka"
+		dynasty = "Honma"
+		birth_date = 1525.1.1
+		death_date = 1587.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1552.1.1 = { 
+	monarch = {
+		name = "Yasutaka"
+		dynasty = "Honma"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1552.1.1 = {
+	heir = {
+		name = "Noriyasu"
+		monarch_name = "Noriyasu"
+		dynasty = "Honma"
+		birth_date = 1550.1.1
+		death_date = 1623.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1587.1.1 = { 
+	monarch = {
+		name = "Noriyasu"
+		dynasty = "Honma"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

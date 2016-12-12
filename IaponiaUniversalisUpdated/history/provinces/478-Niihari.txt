@@ -1,0 +1,25 @@
+hre = no
+discovered_by = chinese
+
+add_core = HIO
+owner = HIO
+controller = HIO
+
+culture = kanto
+religion = shinto
+capital = "Fuchu"
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = rice
+
+
+1569.1.1 = {
+    owner = STK
+    controller = STK
+    add_core = STK
+}
+

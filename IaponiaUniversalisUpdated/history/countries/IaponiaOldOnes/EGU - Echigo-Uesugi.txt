@@ -1,0 +1,88 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = NGO
+capital = 553	# Kubiki
+	
+1431.1.1 = { 
+	monarch = {
+		name = "Fusatomo"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1431.1.1 = {
+	heir = {
+		name = "Fusasada"
+		monarch_name = "Fusasada"
+		dynasty = "Uesugi"
+		birth_date = 1421.1.1
+		death_date = 1449.3.21
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1449.3.21 = { 
+	monarch = {
+		name = "Fusasada"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1474.1.1 = {
+	heir = {
+		name = "Fusayoshi"
+		monarch_name = "Fusayoshi"
+		dynasty = "Uesugi"
+		birth_date = 1474.1.1
+		death_date = 1507.9.13
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1494.1.1 = { 
+	monarch = {
+		name = "Fusayoshi"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1494.1.1 = {
+	heir = {
+		name = "Sadazane"
+		monarch_name = "Sadazane"
+		dynasty = "Uesugi"
+		birth_date = 1478.1.1
+		death_date = 1550.3.14
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1508.1.1 = { 
+	monarch = {
+		name = "Sadazane"
+		dynasty = "Uesugi"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

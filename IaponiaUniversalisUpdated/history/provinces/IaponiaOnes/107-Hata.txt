@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = HSK
+add_core = ICJ
+owner = HSK
+controller = HSK
+
+culture = nankai
+religion = shinto
+capital = "Nakamura"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = lumber
+
+
+1507.1.1 = {
+    controller = ICJ
+    owner = ICJ
+}
+1575.7.17 = {
+    add_core = CSK
+    owner = CSK
+    controller = CSK
+}
+

@@ -1,0 +1,63 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 239	# Hidaka
+	
+1534.1.1 = { 
+	monarch = {
+		name = "Masaharu"
+		dynasty = "Yukawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1534.1.1 = {
+	heir = {
+		name = "Naomitsu"
+		monarch_name = "Naomitsu"
+		dynasty = "Yukawa"
+		birth_date = 1520.1.1
+		death_date = 1562.6.20
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1550.1.1 = { 
+	monarch = {
+		name = "Naomitsu"
+		dynasty = "Yukawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Naoharu"
+		monarch_name = "Naoharu"
+		dynasty = "Yukawa"
+		birth_date = 1540.1.1
+		death_date = 1600.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1562.1.1 = { 
+	monarch = {
+		name = "Naoharu"
+		dynasty = "Yukawa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

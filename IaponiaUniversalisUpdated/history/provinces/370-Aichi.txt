@@ -1,0 +1,32 @@
+hre = no
+discovered_by = chinese
+
+add_core = SBA
+add_core = IOD
+add_core = KOD
+owner = SBA
+controller = SBA
+
+culture = tokai
+religion = shinto
+capital = "Inabaji"
+is_city = yes
+
+base_tax = 10
+base_production = 10
+base_manpower = 3
+
+trade_goods = rice
+
+
+1511.1.1 = {
+    controller = KOD
+    owner = KOD
+}
+1565.1.1 = {
+    add_core = ODA
+    remove_core = KOD
+    controller = ODA
+    owner = ODA
+}
+

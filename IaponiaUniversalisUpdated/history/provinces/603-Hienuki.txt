@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = HIE
+owner = HIE
+controller = HIE
+
+culture = tohoku
+religion = shinto
+capital = "Hanamaki"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+trade_goods = rice
+
+
+

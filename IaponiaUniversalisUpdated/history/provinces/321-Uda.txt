@@ -1,0 +1,30 @@
+hre = no
+discovered_by = chinese
+
+add_core = AKY
+owner = AKY
+controller = AKY
+
+culture = kinai
+religion = shinto
+capital = "Akiyama"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = rice
+
+
+1547.5.1 = {
+    add_core = TTI
+    controller = TTI
+    owner = TTI
+}
+1573.12.26 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

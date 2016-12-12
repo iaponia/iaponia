@@ -1,0 +1,36 @@
+hre = no
+discovered_by = chinese
+
+add_core = OUC
+add_core = SGI
+owner = OUC
+controller = OUC
+
+culture = saikai
+religion = shinto
+capital = "Matsuyama"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = metal
+
+
+1551.9.1 = {
+    add_core = SUE
+    controller = SUE
+    owner = SUE
+}
+1557.7.1 = {
+    add_core = OTM
+    controller = OTM
+    owner = OTM
+}
+1580.1.1 = {
+    add_core = RZJ
+    controller = RZJ
+    owner = RZJ
+}
+

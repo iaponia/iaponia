@@ -1,0 +1,81 @@
+name = "Onin War"
+#casus_belli = cb_conquest
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 289 # Uji
+}
+
+1467.5.27 = {	
+	add_attacker = YMN
+	add_attacker = OUC
+	add_attacker = SBA
+	add_attacker = IYN
+	add_attacker = IWY
+	add_attacker = HYN
+	add_attacker = KNO
+	add_attacker = ISK
+	add_attacker = NHK	
+	add_attacker = SHK
+	add_attacker = NKI
+	add_attacker = RKK
+	add_defender = HSK
+	add_defender = TKD
+	add_defender = TGS
+	add_defender = IMG
+	add_defender = AHK
+	add_defender = BHK
+	add_defender = KGK
+	add_defender = ATK
+	add_defender = WTK
+	add_defender = HTK
+}
+
+1467.5.15 = {
+	add_defender = AKM
+}
+
+1469.5.1 = {
+	add_defender = SHN
+	add_defender = OTM
+}
+
+1471.5.21 = {
+	add_defender = ASA
+}
+
+1475.5.14 = {
+	add_attacker = TII
+	add_defender = OTI
+}
+	
+1477.11.11 = {
+	rem_attacker = YMN
+	rem_attacker = OUC
+	rem_attacker = SBA
+	rem_attacker = IYN
+	rem_attacker = IWY
+	rem_attacker = HYN
+	rem_attacker = KNO
+	rem_attacker = ISK
+	rem_attacker = NHK	
+	rem_attacker = SHK
+	rem_attacker = NKI
+	rem_attacker = RKK
+	rem_defender = HSK
+	rem_defender = TKD
+	rem_defender = TGS
+	rem_defender = IMG
+	rem_defender = AHK
+	rem_defender = BHK
+	rem_defender = KGK
+	rem_defender = ATK
+	rem_defender = WTK
+	rem_defender = AKM
+	rem_defender = SHN
+	rem_defender = OTM	
+	rem_defender = ASA	
+	rem_attacker = TII
+	rem_defender = OTI
+	rem_defender = HTK
+}

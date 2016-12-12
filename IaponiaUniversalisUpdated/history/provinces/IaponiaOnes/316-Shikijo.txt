@@ -1,0 +1,45 @@
+hre = no
+discovered_by = chinese
+
+add_core = TII
+owner = TII
+controller = TII
+
+culture = kinai
+religion = shinto
+capital = "Obu"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = rice
+
+
+1477.1.11 = {
+    add_core = OTI
+    controller = OTI
+    owner = OTI
+}
+1497.10.23 = {
+    remove_core = OTI
+    controller = TII
+    owner = TII
+}
+1546.11.2 = {
+    add_core = TTI
+    controller = TTI
+    owner = TTI
+}
+1569.12.1 = {
+    add_core = MNA
+    controller = MNA
+    owner = MNA
+}
+1573.12.26 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

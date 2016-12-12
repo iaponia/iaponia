@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = SOO
+owner = SOO
+controller = SOO
+
+culture = saikai
+religion = shinto
+capital = "Kanaishi"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = mainland_trade
+
+
+

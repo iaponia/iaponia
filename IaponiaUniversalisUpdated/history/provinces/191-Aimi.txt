@@ -1,0 +1,31 @@
+hre = no
+discovered_by = chinese
+
+add_core = HYN
+add_core = NNJ
+owner = HYN
+controller = HYN
+
+culture = sanin
+religion = shinto
+capital = "Yonago"
+is_city = yes
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+trade_goods = rice
+
+
+1524.1.1 = {
+    controller = AMA
+    owner = AMA
+    add_core = AMA
+}
+1566.11.19 = {
+    add_core = MRI
+    owner = MRI
+    controller = MRI
+}
+

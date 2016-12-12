@@ -1,0 +1,42 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_friend = YMN
+capital = 120	# Nima
+
+1441.1.1 = { 
+	monarch = {
+		name = "Norikiyo"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Masakiyo"
+		monarch_name = "Masakiyo"
+		dynasty = "Yamana"
+		birth_date = 1440.1.1
+		death_date = 1480.1.1
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1465.1.1 = { 
+	monarch = {
+		name = "Masakiyo"
+		dynasty = "Yamana"
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+}
+
+#lose Iwami in 1477, Mimasaka in 1467

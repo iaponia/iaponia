@@ -1,0 +1,199 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 540	# Yama
+	
+1424.1.1 = { 
+	monarch = {
+		name = "Morihisa"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1424.1.1 = {
+	heir = {
+		name = "Morinobu"
+		monarch_name = "Morinobu"
+		dynasty = "Ashina"
+		birth_date = 1408.1.1
+		death_date = 1451.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1444.1.1 = { 
+	monarch = {
+		name = "Morinobu"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1441.1.1 = {
+	heir = {
+		name = "Moriakira"
+		monarch_name = "Moriakira"
+		dynasty = "Ashina"
+		birth_date = 1431.1.1
+		death_date = 1466.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1451.1.1 = { 
+	monarch = {
+		name = "Moriakira"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1451.1.1 = {
+	heir = {
+		name = "Moritaka"
+		monarch_name = "Moritaka"
+		dynasty = "Ashina"
+		birth_date = 1448.1.1
+		death_date = 1518.1.19
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1466.1.1 = { 
+	monarch = {
+		name = "Moritaka"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1482.1.1 = {
+	heir = {
+		name = "Morishige"
+		monarch_name = "Morishige"
+		dynasty = "Ashina"
+		birth_date = 1482.1.1
+		death_date = 1521.3.14
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1518.1.1 = { 
+	monarch = {
+		name = "Morishige"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1521.1.1 = { 
+	monarch = {
+		name = "Morikiyo"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1521.1.1 = {
+	heir = {
+		name = "Moriuji"
+		monarch_name = "Moriuji"
+		dynasty = "Ashina"
+		birth_date = 1521.1.1
+		death_date = 1580.7.28
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1541.1.1 = { 
+	monarch = {
+		name = "Moriuji"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1561.1.1 = { 
+	monarch = {
+		name = "Shigeoki"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1575.1.1 = { 
+	monarch = {
+		name = "Moritaka"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1584.10.7 = {
+	heir = {
+		name = "Kaneomaru"
+		monarch_name = "Kaneomaru"
+		dynasty = "Ashina"
+		birth_date = 1584.10.7
+		death_date = 1586.12.31
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1584.1.1 = { 
+	monarch = {
+		name = "Kaneomaru"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1586.12.31 = { 
+	monarch = {
+		name = "Yoshihiro"
+		dynasty = "Ashina"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

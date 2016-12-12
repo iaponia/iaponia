@@ -1,0 +1,142 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+historical_rival = OSK
+capital = 567	# Mogami
+	
+1416.1.1 = { 
+	monarch = {
+		name = "Mitsuie"
+		dynasty = "Mogami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1420.1.1 = {
+	heir = {
+		name = "Yoshiharu"
+		monarch_name = "Yoshiharu"
+		dynasty = "Mogami"
+		birth_date = 1420.1.1
+		death_date = 1474.4.7
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1443.4.23 = { 
+	monarch = {
+		name = "Yoshiharu"
+		dynasty = "Mogami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1474.4.7 = { 
+	monarch = {
+		name = "Yoshiaki"
+		dynasty = "Mogami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1479.1.1 = { 
+	monarch = {
+		name = "Yoshiuji"
+		dynasty = "Mogami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1479.1.1 = {
+	heir = {
+		name = "Yoshiatsu"
+		monarch_name = "Yoshiatsu"
+		dynasty = "Mogami"
+		birth_date = 1470.1.1
+		death_date = 1504.10.16
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1494.8.14 = { 
+	monarch = {
+		name = "Yoshiatsu"
+		dynasty = "Mogami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1494.8.14 = {
+	heir = {
+		name = "Yoshisada"
+		monarch_name = "Yoshisada"
+		dynasty = "Mogami"
+		birth_date = 1492.1.1
+		death_date = 1520.2.20
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1504.10.16 = { 
+	monarch = {
+		name = "Yoshisada"
+		dynasty = "Mogami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1522.1.1 = { 
+	monarch = {
+		name = "Yoshimori"
+		dynasty = "Mogami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1546.2.1 = {
+	heir = {
+		name = "Yoshiaki"
+		monarch_name = "Yoshiaki"
+		dynasty = "Mogami"
+		birth_date = 1546.2.1
+		death_date = 1614.2.26
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1570.1.1 = { 
+	monarch = {
+		name = "Yoshiaki"
+		dynasty = "Mogami"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

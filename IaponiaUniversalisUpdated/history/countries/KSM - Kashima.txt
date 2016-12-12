@@ -1,0 +1,157 @@
+government = feudal_monarchy
+primary_culture = japaneseculture_group_union = japanese_g
+religion = shinto
+technology_group = chinese
+capital = 481	# Kashima
+	
+1407.1.1 = { 
+	monarch = {
+		name = "Norimiki"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1410.1.1 = {
+	heir = {
+		name = "Sanemiki"
+		monarch_name = "Sanemiki"
+		dynasty = "Kashima"
+		birth_date = 1410.1.1
+		death_date = 1486.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1450.1.1 = { 
+	monarch = {
+		name = "Sanemiki"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1486.1.1 = { 
+	monarch = {
+		name = "Chikamiki"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1486.1.1 = {
+	heir = {
+		name = "Kagemiki"
+		monarch_name = "Kagemiki"
+		dynasty = "Kashima"
+		birth_date = 1480.1.1
+		death_date = 1512.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1500.1.1 = { 
+	monarch = {
+		name = "Kagemiki"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1512.1.1 = { 
+	monarch = {
+		name = "Yoshimiki"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1550.1.1 = { 
+	monarch = {
+		name = "Harutoki"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1550.1.1 = {
+	heir = {
+		name = "Ujimiki"
+		monarch_name = "Ujimiki"
+		dynasty = "Kashima"
+		birth_date = 1525.1.1
+		death_date = 1569.10.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1569.1.1 = { 
+	monarch = {
+		name = "Ujimiki"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1569.10.1 = { 
+	monarch = {
+		name = "Yoshikiyo"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1579.1.1 = { 
+	monarch = {
+		name = "Kiyohide"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1582.1.1 = { 
+	monarch = {
+		name = "Michiharu"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1586.1.1 = { 
+	monarch = {
+		name = "Kiyohide"
+		dynasty = "Kashima"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,31 @@
+name = "Hatakeyama Civil War"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 302 # Wakae
+}
+
+1454.4.3 = {
+	add_attacker = HSK
+	add_attacker = OTI
+	add_defender = TTI
+	add_defender = HSO
+	add_defender = SHK
+}
+
+#fighting in Yamato
+1455.7.2 = {
+	add_attacker = OTI
+	add_defender = TTI
+	add_defender = HSO
+}
+
+# Peace
+1463.12.24 = {
+	rem_attacker = HSK
+	rem_attacker = OTI
+	rem_defender = TTI
+	rem_defender = HSO
+	rem_defender = SHK
+}
+

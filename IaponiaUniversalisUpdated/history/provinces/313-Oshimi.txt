@@ -1,0 +1,35 @@
+hre = no
+discovered_by = chinese
+
+add_core = OTI
+owner = OTI
+controller = OTI
+
+culture = kinai
+religion = shinto
+capital = "Shinjo"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+trade_goods = dye
+
+
+1546.11.2 = {
+    add_core = TTI
+    controller = TTI
+    owner = TTI
+}
+1569.12.1 = {
+    add_core = MNA
+    controller = MNA
+    owner = MNA
+}
+1573.12.26 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+

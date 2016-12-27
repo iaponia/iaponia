@@ -4,11 +4,11 @@ bookmark =
 	desc = "DECLINE_DESC"
 	date = 1444.11.11
 	
-	country = HTK
 	country = HSK
 	country = YMN
 	country = OUC
 	country = SBA
+	country = HTK
 	country = UES
 	
 #	effect = {

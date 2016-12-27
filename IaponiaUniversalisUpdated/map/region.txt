@@ -4,6 +4,18 @@
 random_new_world_region = {
 }
 
+
+kyushu_region = {
+	areas = {
+		kagoshima_area
+		south_satsuma_area
+		satsuma_area
+		north_osumi_area
+		south_osumi_area
+		kuwahara_area
+	}
+}
+
 ########################################
 # EUROPE                               #
 ########################################

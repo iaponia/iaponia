@@ -5,7 +5,7 @@ random_new_world_region = {
 }
 
 
-kyushu_region = {
+southern_kyushu_region = {
 	areas = {
 		kagoshima_area
 		south_satsuma_area
@@ -13,6 +13,85 @@ kyushu_region = {
 		north_osumi_area
 		south_osumi_area
 		kuwahara_area
+		usuki_area
+		southern_islands_area
+	}
+}
+
+northern_kyushu_region = {
+	areas = {
+		ashikita_area
+		uto_area
+		tamana_area
+		nagasaki_area
+		matsura_area
+		yamato_area
+		bungo_area
+		kunisaki_area
+		saga_area
+		yabu_area
+		takeno_area
+		chikuzen_area
+		mikasa_area
+		koge_area
+		munakata_area
+		kama_area
+		strait_islands_area
+	}
+}
+
+shikoku_region = {
+	areas = {
+		uwa_area
+		iwo_area
+		niihama_area
+		tosa_area
+		aki_area
+		tado_area
+		kagawa_area
+		sanuki_area
+		miyoshi_area
+		itano_area
+		katsuura_area
+	}
+}
+
+hokkaido_region = {
+	areas = {
+		shiribeshi_area
+		kamikawa_area
+		tokachi_area
+	}
+}
+
+chugoku_region = {
+	areas = {
+		oki_islands_area
+		nagato_area
+		abu_area
+		kumage_area
+		masuda_area
+		nima_area
+		shimane_area
+		kando_area
+		sasai_area
+		takata_area
+		mikami_area
+		sera_area
+		mitsugi_area
+		numakuma_area
+	}
+}
+
+chubu_region = {
+	areas = {
+		sado_area
+	}
+}
+
+kansai_region = {
+	areas = {
+		setouchi_islands_area
 	}
 }
 

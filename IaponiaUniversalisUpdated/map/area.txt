@@ -285,6 +285,10 @@ kagoshima_area = {
 	4 6 7 8 9
 }
 
+kuwahara_area = {
+	12 634 638
+}
+
 south_satsuma_area = {
 	1 2 3 5 637
 }
@@ -298,15 +302,224 @@ south_osumi_area = {
 }
 
 north_osumi_area = {
-	12 15 19 631
+	15 19 631
 }
 
-kuwahara_area = {
-	12 634 638
+southern_islands_area = {
+	89 94
+}
+
+strait_islands_area = {
+	90 91 92 93
 }
 
 ashikita_area = {
-	22 23 26 ...?
+	22 23 24 26
+}
+
+uto_area = {
+	25 27 28 29 30
+}
+
+tamana_area = {
+	31 32 33 34 35
+}
+
+usuki_area = {
+	20 21 36 633 636
+}
+
+nagasaki_area = {
+	47 48 56 639
+}
+
+matsura_area = {
+	54 55 88 685
+}
+
+yamato_area = {
+	57 58 59 60
+}
+
+bungo_area = {
+	37 38 39 40
+}
+
+kunisaki_area = {
+	41 42 43 45 46
+}
+
+saga_area = {
+	51 52 53
+}
+
+yabu_area = {
+	49 50 82 83
+}
+
+takeno_area = {
+	78 79 80 81
+}
+
+chikuzen_area = {
+	61 62 63 64
+}
+
+mikasa_area = {
+	84 85 86 87
+}
+
+koge_area = {
+	44 73 74 75 76
+}
+
+munakata_area = {
+	66 67 68 69 72
+}
+
+kama_area = {
+	65 70 71 77
+}
+
+########################################
+# Shikoku					 		   #
+########################################
+
+uwa_area = {
+	95 96 97 98
+}
+
+iwo_area = {
+	99 100 102 103 105
+}
+
+niihama_area = {
+	101 104 106 138 139
+}
+
+tosa_area = {
+	107 161 162 163
+}
+
+aki_area = {
+	135 136 137
+}
+
+tado_area = {
+	140 141 142 143
+}
+
+kagawa_area = {
+	144 145 146
+}
+
+sanuki_area = {
+	147 148 149 150
+}
+
+miyoshi_area = {
+	151 152 159
+}
+
+itano_area = {
+	153 154 157 158
+}
+
+katsuura_area = {
+	155 156 160
+}
+
+########################################
+# hokkaido					 		   #
+########################################
+
+shiribeshi_area = {
+	607 608 609
+}
+
+kamikawa_area = {
+	610 611 612
+}
+
+tokachi_area = {
+	613 614 615 616
+}
+
+########################################
+# chugoku					 		   #
+########################################
+
+oki_islands_area = {
+	339 340 341 342
+}
+
+nagato_area = {
+	108 109 110 111
+}
+
+abu_area = {
+	112 113 114
+}
+
+kumage_area = {
+	115 116 117 118
+}
+
+masuda_area = {
+	121 122 123
+}
+
+nima_area = {
+	119 120 124
+}
+
+shimane_area = {
+	192 194 197 198 199
+}
+
+kando_area = {
+	133 134 193 195 196
+}
+
+sasai_area = {
+	125 126 132 627 628
+}
+
+takata_area = { 
+	127 129 130 164
+}
+
+mikami_area = {
+	170 171 177
+}
+
+sera_area = {
+	169 174 175 176
+}
+
+mitsugi_area = {
+	165 172 173
+}
+
+numakuma_area = {
+	166 167 168
+}
+
+########################################
+# chubu 					 		   #
+########################################
+
+sado_area = {
+	560 561 562
+}
+
+
+########################################
+# ? near osaka				 		   #
+########################################
+
+setouchi_islands_area = {
+	231 232 233
 }
 
 #FRANCE
@@ -533,7 +746,7 @@ mercia_area = { #four
 }
 
 wessex_area = { #three
-	233 234 235 4130
+	234 235 4130
 }
 
 east_anglia_area = { #three
@@ -786,9 +999,9 @@ galich_area = { #three
 	306 1079 1083 1957
 }
 
-kama_area = { #three
-	305 1962 1972
-}
+#kama_area = { #three
+#	305 1962 1972
+#}
 
 tambov_area = { #four
 	302 304 2408 2415 

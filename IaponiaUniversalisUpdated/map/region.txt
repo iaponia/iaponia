@@ -5,7 +5,7 @@ random_new_world_region = {
 }
 
 
-southern_kyushu_region = {
+kyushu_region = {
 	areas = {
 		kagoshima_area
 		south_satsuma_area
@@ -15,11 +15,6 @@ southern_kyushu_region = {
 		kuwahara_area
 		usuki_area
 		southern_islands_area
-	}
-}
-
-northern_kyushu_region = {
-	areas = {
 		ashikita_area
 		uto_area
 		tamana_area
@@ -80,6 +75,22 @@ chugoku_region = {
 		sera_area
 		mitsugi_area
 		numakuma_area
+		chizu_area
+		tottori_area
+		kawamura_area
+		hino_area
+		mimasaka_area
+		mashima_area
+		bizen_area
+		kojima_area
+		asakuchi_area
+		kawakami_area
+	}
+}
+
+kansai_region = {
+	areas = {
+		setouchi_islands_area
 	}
 }
 
@@ -89,11 +100,6 @@ chubu_region = {
 	}
 }
 
-kansai_region = {
-	areas = {
-		setouchi_islands_area
-	}
-}
 
 ########################################
 # EUROPE                               #

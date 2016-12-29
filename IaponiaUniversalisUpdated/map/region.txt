@@ -131,6 +131,32 @@ kansai_region = {
 
 chubu_region = {
 	areas = {
+		oi_area
+		echizen_area
+		sakai_area
+		ishikawa_area
+		noto_area
+		etchu_area
+		kubiki_area
+		uonuma_area
+		mishima_area
+		shibata_area
+		aichi_area
+		owari_area
+		kamo_area
+		nukata_area
+		mikawa_area
+		izu_area
+		fuji_area
+		mashizu_area
+		yamaka_area
+		iwata_area
+		hamana_area
+		hida_area
+		toki_area
+		mino_area
+		motosu_area
+		tagi_area
 		sado_area
 	}
 }

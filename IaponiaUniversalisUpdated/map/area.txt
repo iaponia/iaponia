@@ -817,7 +817,20 @@ saku_area = {
 }
 
 takai_area = {
-	444 445 446 642
+	445 446 642
+}
+
+kiso_area = {
+	438 619 641
+}
+
+azumi_area = {
+	437 442 444 644
+}
+
+#yamanashi pref
+kai_area = {
+	447 448 449 450
 }
 
 sado_area = {

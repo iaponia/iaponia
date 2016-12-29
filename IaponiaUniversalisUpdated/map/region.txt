@@ -157,6 +157,11 @@ chubu_region = {
 		mino_area
 		motosu_area
 		tagi_area
+		saku_area
+		takai_area
+		kiso_area
+		azumi_area
+		kai_area
 		sado_area
 	}
 }

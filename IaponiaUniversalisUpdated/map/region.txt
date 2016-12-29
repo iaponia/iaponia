@@ -18,7 +18,7 @@ kyushu_region = {
 		ashikita_area
 		uto_area
 		tamana_area
-		nagasaki_area
+		shimabara_area
 		matsura_area
 		yamato_area
 		bungo_area
@@ -91,6 +91,41 @@ chugoku_region = {
 kansai_region = {
 	areas = {
 		setouchi_islands_area
+		toyooka_area
+		miikumi_area
+		ako_area
+		asago_area
+		himeji_area
+		tanba_area
+		kawabe_area
+		yatabe_area
+		akashi_area
+		yosa_area
+		ikaruga_area
+		kuwada_area
+		kyoto_area
+		soraku_area
+		nose_area
+		osaka_area
+		izumi_area
+		kawachi_area
+		katano_area
+		furuichi_area
+		nishigori_area
+		nagusa_area
+		hidaka_area
+		nara_area
+		yoshino_area
+		katsuge_area
+		toichi_area
+		watarai_area
+		taki_area
+		mie_area
+		inabe_area
+		iga_area
+		shiga_area
+		koga_area
+		inukami_area
 	}
 }
 

@@ -189,8 +189,8 @@ kanto_region = {
 		oura_area
 		gunma_area
 		tago_area
-		nasu_area
 		tochigi_area
+		nasu_area
 	}
 }
 

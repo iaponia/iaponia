@@ -918,6 +918,15 @@ hara_area = {
 	517 518 519 520 521
 }
 
+#tochigi pref
+nasu_area = {
+	487 488 489 490
+}
+
+tochigi_area = {
+	486 491 492 493 494
+}
+
 #gunma pref
 oura_area = {
 	505 506 507 508
@@ -931,14 +940,6 @@ tago_area = {
 	497 498 499 500 501
 }
 
-#tochigi pref
-nasu_area = {
-	487 488 489 490
-}
-
-tochigi_area = {
-	486 491 492 493 494
-}
 
 ########################################
 # tohoku 					 		   #

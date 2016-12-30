@@ -148,10 +148,10 @@ chubu_region = {
 		mikawa_area
 		izu_area
 		fuji_area
+		hamana_area
 		mashizu_area
 		yamaka_area
 		iwata_area
-		hamana_area
 		hida_area
 		toki_area
 		mino_area
@@ -166,6 +166,58 @@ chubu_region = {
 	}
 }
 
+kanto_region = {
+	areas = {
+		ashikami_area
+		koza_area
+		kamakura_area
+		awa_area
+		kazusa_area
+		nagara_area
+		katori_area
+		chiba_area
+		sashima_area
+		tsukuba_area
+		makabe_area
+		ibaraki_area
+		hitachi_area
+		edo_area
+		saitama_area
+		chichibu_area
+		hiki_area
+		hara_area
+		oura_area
+		gunma_area
+		tago_area
+		nasu_area
+		tochigi_area
+	}
+}
+
+tohoku_region = {
+	areas = {
+		aizu_area
+		date_area
+		soma_area
+		iwaki_area
+		shirakawa_area
+		watari_area
+		miyagi_area
+		kurihara_area
+		motoyoshi_area
+		mutsu_area
+		tsugaru_area
+		kesen_area
+		iwate_area
+		hei_area
+		kunohe_area
+		akita_area
+		hiraka_area
+		mogami_area
+		sakata_area
+		okitama_area
+	}
+}
 
 ########################################
 # EUROPE                               #

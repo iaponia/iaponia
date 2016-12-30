@@ -550,6 +550,7 @@ kawakami_area = {
 ########################################
 
 
+
 setouchi_islands_area = {
 	231 232 233
 }
@@ -837,8 +838,196 @@ sado_area = {
 	560 561 562
 }
 
+########################################
+# kanto 					 		   #
+########################################
+#kanagawa pref
+ashikami_area = {
+	451 452 454
+}
 
+koza_area = {
+	453 455 456 629
+}
 
+kamakura_area = {
+	461 536 537 538 539
+}
+
+#chiba pref
+awa_area = {
+	457 458 459 460
+}
+
+kazusa_area = {
+	463 464 465 466 467
+}
+
+nagara_area = {
+	462 468 469 470
+}
+
+katori_area = {
+	471 472 479 480 527
+}
+
+chiba_area = {
+	528 529 530
+}
+
+sashima_area = {
+	531 532 533
+}
+
+#ibaraki pref
+tsukuba_area = {
+	478 483 484 485
+}
+
+makabe_area = {
+	477 525 526
+}
+
+ibaraki_area = {
+	476 481 482 676 677
+}
+
+hitachi_area = {
+	473 474 475
+}
+
+#edo
+edo_area = {
+	510 534 535 678 679
+}
+
+#saitama pref
+saitama_area = {
+	522 523 524
+}
+
+chichibu_area = {
+	509 511 512
+}
+
+hiki_area = {
+	513 514 515 516
+}
+
+hara_area = {
+	517 518 519 520 521
+}
+
+#gunma pref
+oura_area = {
+	505 506 507 508
+}
+
+gunma_area = {
+	495 496 502 503 504
+}
+
+tago_area = {
+	497 498 499 500 501
+}
+
+#tochigi pref
+nasu_area = {
+	487 488 489 490
+}
+
+tochigi_area = {
+	486 491 492 493 494
+}
+
+########################################
+# tohoku 					 		   #
+########################################
+#fukushima pref
+aizu_area = {
+	540 541 653 654
+}
+
+date_area = {
+	548 551 552
+}
+
+soma_area = {
+	546 549 550
+}
+
+iwaki_area = {
+	544 545 656 657
+}
+
+shirakawa_area = {
+	542 543 547 655
+}
+
+#miyagi pref
+watari_area = {
+	576 577 578 579
+}
+
+miyagi_area = {
+	580 581 582 583 584
+}
+
+kurihara_area = {
+	586 587 592 594
+}
+
+motoyoshi_area = {
+	590 591 671
+}
+
+#aomori pref
+mutsu_area = {
+	606 662 663
+}
+
+tsugaru_area = {
+	605 659 660 661
+}
+
+#iwate pref
+kesen_area = {
+	595 596 597 600
+}
+
+iwate_area = {
+	598 601 602 603
+}
+
+hei_area = {
+	599 667 668 669 670
+}
+
+kunohe_area = {
+	663 664 665 666
+}
+
+#akita pref
+akita_area = {
+	573 574 575 604 658
+}
+
+hiraka_area = {
+	569 570 571 572
+}
+
+#yamagata pref
+mogami_area = {
+	563 672 673
+}
+
+sakata_area = {
+	564 565 566
+}
+
+okitama_area = {
+	567 568 674 675
+}
 
 #FRANCE
 
@@ -1232,6 +1421,7 @@ yedisan_area = { #three
 }
 
 zaporizhia_area = { #three
+
 	283 2411 2412
 }
 

@@ -1,7 +1,0 @@
-discovered_by = chinese
-
-
-
-
-
-

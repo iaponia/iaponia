@@ -1,0 +1,8 @@
+# Ignore everything in the root
+/*
+# Un-ignore all of IaponiaUniversalisUpdated
+!/IaponiaUniversalisUpdated/
+# Un-ignore the mod descriptor
+!/IaponiaUniversalisUpdated.mod
+!.gitignore
+

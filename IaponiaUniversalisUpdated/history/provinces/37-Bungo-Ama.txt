@@ -10,8 +10,8 @@ religion = shinto
 capital = "Saganoseki"
 is_city = yes
 
-base_tax = 12
-base_production = 12
+base_tax = 3
+base_production = 3
 base_manpower = 3
 
 trade_goods = fish

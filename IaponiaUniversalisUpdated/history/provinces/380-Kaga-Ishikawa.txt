@@ -10,8 +10,8 @@ religion = shinto
 capital = "Kuragadake"
 is_city = yes
 
-base_tax = 11
-base_production = 11
+base_tax = 3
+base_production = 3
 base_manpower = 3
 
 trade_goods = metal

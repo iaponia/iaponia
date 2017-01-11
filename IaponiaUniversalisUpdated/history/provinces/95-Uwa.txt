@@ -11,8 +11,8 @@ religion = shinto
 capital = "Kurose"
 is_city = yes
 
-base_tax = 10
-base_production = 10
+base_tax = 3
+base_production = 3
 base_manpower = 3
 
 trade_goods = lumber

@@ -2,6 +2,256 @@
 # If adding new resources, make sure they are uniquely named.
 # Please add price definitions to prices.txt as well.
 
+#Vanilla resources
+grain = {
+	color = { 0.96 0.93 0.58 }
+	modifier = {
+		land_forcelimit_modifier = 0.20
+	}
+	province = {
+		land_forcelimit = 0.5
+	}
+}
+
+wine = {
+	color = { 0.36 0.13 0.28 }
+	modifier = {
+		global_unrest = -1
+	}
+	province = {
+		local_unrest = -1
+	}
+}
+
+wool = {
+	color = { 0.72 0.49 0.44 }
+	modifier = {
+		global_ship_cost = -0.05
+	}
+	province = {
+		local_ship_cost = -0.1
+	}
+}
+
+cloth = {
+	color = { 0.86 0.19 0.19 }
+	modifier = {
+		merc_maintenance_modifier = -0.15
+	}
+	province = {
+		local_development_cost = -0.1
+	}
+}
+
+fish = {
+	color = { 0.55 0.82 0.97 }
+	modifier = {
+		global_sailors_modifier = 0.25
+	}
+	province = {
+		local_sailors_modifier = 0.25
+	}
+}
+
+fur = {
+	color = { 0.54 0.40 0.31 }
+	modifier = {
+		prestige = 1
+	}
+	province = {
+		 province_trade_power_modifier = 0.10
+	}
+}
+
+salt = {
+	color = { 0.93 0.98 0.98 }
+	modifier = {
+		land_maintenance_modifier = -0.10
+	}
+	province = {
+		local_defensiveness = 0.15
+	}
+}
+
+naval_supplies = {
+	color = { 0.11 0.17 0.4 }
+	modifier = {
+		naval_forcelimit_modifier = 0.20
+	}
+	province = {
+		naval_forcelimit = 0.5
+	}
+}
+
+
+# metals
+copper = {
+	color = { 0.85 0.46 0.15 }
+	modifier = {
+		global_regiment_recruit_speed = -0.2
+	}
+	province = {
+		regiment_recruit_speed = -0.2
+	}
+}
+
+gold = {
+	color = { 1.0 0.84 0.19 }
+	#no modifiers
+}
+
+iron = {
+	color = { 0.2 0.2 0.2 }
+	modifier = {
+		global_regiment_cost = -0.05
+	}
+	province = {
+		local_build_time = -0.2
+	}
+}
+
+
+#African Resources
+slaves = {
+	color = { 0.0 0.0 0.0 }
+	modifier = {
+		global_tariffs = 0.25
+	}
+	province = {
+		local_missionary_strength = 0.01
+	}
+}
+
+ivory = {
+	color = { 0.75 0.7 0.63 }
+	modifier = {
+		diplomatic_reputation = 2
+	}
+	province = {
+		local_state_maintenance_modifier = -0.2
+	}
+}
+
+
+#Eastern Resources
+tea = {
+	color = { 0.07 0.33 0.09 }
+	modifier = {
+		advisor_cost = -0.10
+	}
+	province = {
+		garrison_growth = 0.25
+	}
+}
+
+chinaware = {
+	color = { 0.18 0.57 0.8 }
+	modifier = {
+		legitimacy = 0.25
+	}
+	province = {
+		local_autonomy = -0.1
+	}
+}
+
+spices = {
+	color = { 0.4 0.65 0.38 }
+	modifier = {
+		spy_offence = 0.25
+	}
+	province = {
+		local_core_creation = 0.20
+	}
+}
+
+
+#New World Resources
+coffee = {
+	color = { 0.22 0.15 0.09 }
+	modifier = {
+		global_institution_spread = 0.05
+	}
+	province = {
+		local_institution_spread = 0.1
+	}
+}
+
+cotton = {
+	color = { 0.52 0.68 0.6 }
+	modifier = {
+		global_colonial_growth = 20
+	}
+	province = {
+		local_development_cost = -0.1
+	}
+}
+
+sugar = {
+	color = { 0.74 0.95 0.68 }
+	modifier = {
+		war_exhaustion_cost = -0.2
+	}
+	province = {
+		local_unrest = -1
+	}
+}
+
+tobacco = {
+	color = { 0.33 0.56 0.38 }
+	modifier = {
+		global_spy_defence = 0.25
+	}
+	province = {
+		 province_trade_power_modifier = 0.10
+	}
+}
+
+cocoa = {
+	color = { 0.45 0.21 0.09 }
+	modifier = {
+		manpower_recovery_speed = 0.05
+	}
+	province = {
+		local_manpower_modifier = 0.10
+	}
+}
+
+silk = {
+	color = { 0.72 0.10 0.10 }
+	modifier = {
+		num_accepted_cultures = 1
+	}
+	province = {
+		province_trade_power_value = 2
+	}
+}
+
+dyes = {
+	color = { 0.63 0.17 0.50 }
+	modifier = {
+		heir_chance = 0.33
+	}
+	province = {
+		 province_trade_power_modifier = 0.10
+	}
+}
+
+tropical_wood = {
+	color = { 0.45 0.47 0.09 }
+	modifier = {
+		development_cost = -0.05
+	}
+	province = {
+		local_build_cost = -0.2
+	}
+}
+
+
+unknown = {
+	color = { 0.5 0.5 0.5 }
+}
+
+#Iaponia
 #Base resources
 rice = {
 	color = { 0.7 0.7 0 }
@@ -17,13 +267,7 @@ sake = {
 	}
 }
 
-grain = {
-	color = { 0.96 0.93 0.58 }
-	modifier = {
-		land_forcelimit_modifier = 0.10
-	}
-}
-
+#remove this later
 dye = {
 	color = { 0.7 0.4 0 }
 	modifier = {
@@ -51,8 +295,6 @@ lumber = {
 		global_regiment_recruit_speed = -0.1
 	}
 }
-
-
 
 metal = {
 	color = { 0.0 1.0 0.0 }
@@ -101,175 +343,4 @@ horses = {
 	modifier = {
 		war_exhaustion_cost = -0.1
 	}
-}
-
-wine = {
-	color = { 0.36 0.13 0.28 }
-	modifier = {
-		stability_cost_modifier = -0.25
-	}
-}
-
-wool = {
-	color = { 0.72 0.49 0.44 }
-	modifier = {
-		global_ship_cost=  -0.05
-	}
-}
-
-cloth = {
-	color = { 0.7 1.0 1.0 }
-	modifier = {
-		merc_maintenance_modifier = -0.25
-	}
-}
-
-fish = {
-	color = { 0.0 1.0 0 }
-	modifier = {
-		global_unrest = -1
-	}
-}
-
-fur = {
-	color = { 0.54 0.40 0.31 }
-	modifier = {
-		prestige = 1
-	}
-}
-
-salt = {
-	color = { 1.0 0.0 1 }
-	modifier = {
-		land_maintenance_modifier = -0.10
-	}
-}
-
-naval_supplies = {
-	color = { 0.11 0.17 0.4 }
-	modifier = {
-		naval_forcelimit_modifier = 0.10
-	}
-}
-
-
-# metals
-copper = {
-	color = { 0.85 0.46 0.15 }
-	modifier = {
-		global_regiment_recruit_speed = -0.1
-	}
-}
-
-gold = {
-	color = { 0.0 0.0 0.4 }
-}
-
-iron = {
-	color = { 0.6 0.62 0.65 }
-	modifier = {
-		global_regiment_cost = -0.05
-	}
-}
-
-
-#African Resources
-slaves = {
-	color = { 0.0 0.0 0.0 }
-	modifier = {
-		global_tariffs = 0.10
-	}
-}
-
-ivory = {
-	color = { 0.75 0.7 0.63 }
-	modifier = {
-		diplomatic_reputation = 1
-	}
-}
-
-
-#Eastern Resources
-tea = {
-	color = { 1.0 1.0 1.0 }
-	modifier = {
-		advisor_cost = -0.33
-	}
-}
-
-chinaware = {
-	color = { 0.18 0.57 0.8 }
-	modifier = {
-		legitimacy = 0.25
-	}
-}
-
-spices = {
-	color = { 0.4 0.65 0.38 }
-	modifier = {
-		spy_offence = 0.10
-	}
-}
-
-
-#New World Resources
-coffee = {
-	color = { 0.22 0.15 0.09 }
-	modifier = {
-		defensiveness = 0.1
-	}
-}
-
-cotton = {
-	color = { 0.52 0.68 0.6 }
-	modifier = {
-		colonist_placement_chance = 0.05
-	}
-}
-
-sugar = {
-	color = { 0.74 0.95 0.68 }
-	modifier = {
-		war_exhaustion_cost = -0.1
-	}
-}
-
-tobacco = {
-	color = { 0.33 0.56 0.38 }
-	modifier = {
-		global_spy_defence = 0.25
-	}
-}
-
-cocoa = {
-	color = { 0.45 0.21 0.09 }
-	modifier = {
-		manpower_recovery_speed = 0.05
-	}
-}
-
-silk = {
-	color = { 0.0 0.7 0.5 }
-	modifier = {
-		global_spy_defence = 0.25
-	}
-}
-
-dyes = {
-	color = { 0.63 0.17 0.50 }
-	modifier = {
-		heir_chance = 0.10
-	}
-}
-
-tropical_wood = {
-	color = { 0.45 0.47 0.09 }
-	modifier = {
-		build_power_cost = -0.1
-	}
-}
-
-
-unknown = {
-	color = { 0.5 0.5 0.5 }
 }

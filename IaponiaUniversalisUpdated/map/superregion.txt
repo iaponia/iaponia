@@ -1,0 +1,4 @@
+# A region can only belong to one super region.
+
+new_world_superregion ={
+}

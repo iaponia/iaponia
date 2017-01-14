@@ -1143,11 +1143,13 @@ karma_just_right =
 
 karma_too_high =
 {
+	idea_cost = -0.1
 	discipline = -0.05
 }
 
 karma_too_low =
 {
+	land_morale = 0.1
 	diplomatic_reputation = -1
 }
 

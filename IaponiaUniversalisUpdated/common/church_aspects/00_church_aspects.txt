@@ -1,6 +1,6 @@
-organised_through_bishops_aspect = {
+jesuit_missions_aspect = {
 	effect = {
-		development_cost = -0.05
+		development_cost = -0.1
 	}
 	ai_will_do = {
 		factor = 15
@@ -11,25 +11,7 @@ organised_through_bishops_aspect = {
 	}
 }
 
-priests_may_marry_aspect = {
-	effect = {
-		stability_cost_modifier = -0.10
-	}
-	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 2
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 2
-			unrest = 4
-			NOT = { stability = 0 }
-		}
-	}
-}
-
-adult_baptism_aspect = {
+found_seminaries_aspect = {
 	effect = { 
 		global_missionary_strength = 0.01
 	}
@@ -42,9 +24,9 @@ adult_baptism_aspect = {
 	}
 }
 
-holy_sacraments_aspect = {
+request_armaments_aspect = {
 	effect = { 
-		discipline = 0.025
+		discipline = 0.05
 	}
 	ai_will_do = {
 		factor = 12
@@ -55,21 +37,7 @@ holy_sacraments_aspect = {
 	}
 }
 
-saints_accept_prayers_aspect = {
-	effect = { 
-		land_morale = 0.05
-		naval_morale = 0.05
-	}
-	ai_will_do = {
-		factor = 12
-		modifier = {
-			factor = 2
-			is_at_war = yes
-		}
-	}
-}
-
-icons_images_aspect = {
+organize_dioceses_aspect = {
 	effect = { 
 		prestige = 0.5
 	}
@@ -82,39 +50,7 @@ icons_images_aspect = {
 	}
 }
 
-legalised_divorces_aspect = {
-	effect = {
-		legitimacy = 0.25
-		devotion = 0.25
-		republican_tradition = 0.001
-	}
-	ai_will_do = {
-		factor = 12
-		modifier = {
-			factor = 2
-			NOT = { legitimacy = 60 }
-		}
-	}
-}
-
-heretics_deported_aspect = {
-	effect = {
-		global_colonial_growth = 15
-	}
-	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 2
-			num_of_colonies = 1
-		}
-		modifier = {
-			factor = 2
-			num_of_colonists = 2
-		}
-	}
-}
-
-parish_registers_aspect = {
+patronize_hospitals_aspect = {
 	effect = {
 		manpower_recovery_speed = 0.1
 	}
@@ -132,7 +68,7 @@ parish_registers_aspect = {
 	}
 }
 
-individual_creeds_aspect = {
+send_envoys_aspect = {
 	effect = { 
 		idea_cost = -0.05
 	}
@@ -141,9 +77,9 @@ individual_creeds_aspect = {
 	}
 }
 
-allow_usury_aspect = {
+grant_trading_rights_aspect = {
 	effect = { 
-		production_efficiency = 0.1
+		trade_efficiency = 0.1
 	}
 	ai_will_do = {
 		factor = 17
@@ -158,7 +94,7 @@ allow_usury_aspect = {
 	}
 }
 
-translated_bibles_aspect = {
+franciscan_monastaries_aspect = {
 	effect = {
 		global_unrest = -1
 	}
@@ -175,172 +111,19 @@ translated_bibles_aspect = {
 	}
 }
 
-western_shipbuilding_aspect = {
-effect = {
-ship_durability = 0.05
+import_printing_presses_aspect = {
+	effect = {
+		global_institution_spread = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+	}
 }
-ai_will_do = {
-factor = 12
-modifier = {
-factor = 2
-is_at_war = yes
-}
-}
-}
-
-western_armaments_aspect = {
-effect = {
-discipline = 0.05
-}
-ai_will_do = {
-factor = 12
-modifier = {
-factor = 2
-is_at_war = yes
-}
-}
-}
-
-patronize_hospitals_aspect = {
-effect = { 
-manpower_recovery_speed = 0.1
-}
-ai_will_do = {
-factor = 10
-modifier = {
-factor = 2
-is_at_war = yes
-NOT = { manpower_percentage = 0.9 }
-}
-modifier = {
-factor = 2
-NOT = { manpower_percentage = 0.5 }
-}
-}
-}
-
-jesuit_seminaries_aspect = {
-effect = { 
-global_missionary_strength = 0.02
-}
-ai_will_do = {
-factor = 12
-modifier = {
-factor = 2
-NOT = { religious_unity = 0.8 }
-}
-}
-}
-
-jesuit_missions_aspect = {
-effect = { 
-development_cost = -0.05
-}
-ai_will_do = {
-factor = 15
-modifier = {
-factor = 1
-is_at_war = no
-}
-}
-
-establish_printing_presses_aspect = {
-effect = { 
-idea_cost = -0.05
-}
-ai_will_do = {
-factor = 15
-}
-}
-
-organize_dioceses_aspect = {
-effect = {
-stability_cost_modifier = -0.1
-}
-ai_will_do = {
-factor = 10
-modifier = {
-factor = 2
-NOT = { religious_unity = 0.8 }
-}
-modifier = {
-factor = 2
-unrest = 4
-NOT = { stability = 0 }
-}
-}
-}
-
-patronize_icons_aspect = {
-effect = {
-prestige = 0.5
-}
-ai_will_do = {
-factor = 12
-modifier = {
-factor = 2
-NOT = { prestige = -40 }
-}
-}
-}
-
-papal_blessing_aspect = {
-effect = {
-legitimacy = 0.025
-}
-ai_will_do = {
-factor = 12
-modifier = {
-factor = 2
-NOT = { legitimacy = 60 }
-}
-}
-}
-
-medicant_orders_aspect = {
-effect = { 
-global_unrest = -1
-}
-ai_will_do = {
-factor = 10
-modifier = {
-factor = 2
-unrest = 2
-}
-modifier = {
-factor = 2
-num_of_rebel_controlled_provinces = 1
-}
-}
-}
-
-trade_brokers_aspect = {
-effect = { 
-trade_efficiency = 0.1
-}
-ai_will_do = {
-factor = 17
-modifier = {
-factor = 0.5
-treasury = 500
-}
-modifier = {
-factor = 0
-treasury = 2500
-}
-}
-}
-
-diplomatic_envoys_aspect = {
-effect = {
-diplomatic_reputation = 1
-}
-ai_will_do = {
-factor = 12
-modifier = {
-factor = 3
-is_at_war = no
-}
-}
-}
-

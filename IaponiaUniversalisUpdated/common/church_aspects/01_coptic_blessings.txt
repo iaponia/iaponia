@@ -1,0 +1,94 @@
+imperial_patronage = {
+	is_blessing = yes
+
+	effect = {
+		legitimacy = 0.5
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			NOT = {
+				OR = {
+					legitimacy = 70
+				}
+			}
+		}
+	}
+}
+
+hold_festivals = {
+	is_blessing = yes
+
+	effect = {
+		global_tax_modifier = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			NOT = {
+				treasury = 500
+			}
+		}
+	}
+}
+
+confucian_education = {
+	is_blessing = yes
+
+	effect = {
+		global_missionary_strength = 0.02
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.9
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.7
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.5
+			}
+		}
+	}
+}
+
+shogunal_patronage = {
+	is_blessing = yes
+
+	effect = {
+		core_creation = -0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			overextension_percentage = 0.7
+		}
+		modifier = {
+			factor = 3
+			overextension_percentage = 0.5
+		}
+	}
+}
+
+warrior_code = {
+	is_blessing = yes
+
+	effect = {
+		infantry_power = 0.1
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}

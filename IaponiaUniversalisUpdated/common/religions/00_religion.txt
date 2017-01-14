@@ -208,26 +208,23 @@ christian = {
 		}
 		country = {
 			tolerance_own = 1
-			technology_cost = -0.05
+			technology_cost = -0.1
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.02
 		}
 		
 		uses_church_power = yes # Uses church power/aspect mechanics
 		aspects = {
-			western_shipbuilding_aspect
-			western_armaments_aspect
-			patronize_hospitals_aspect
-			jesuit_seminaries_aspect
 			jesuit_missions_aspect
-			establish_printing_presses_aspect
+			franciscan_monastaries_aspect
+			found_seminaries_aspect
 			organize_dioceses_aspect
-			patronize_icons_aspect
-			papal_blessing_aspect
-			medicant_orders_aspect
-			trade_brokers_aspect
-			diplomatic_envoys_aspect
+			patronize_hospitals_aspect
+			grant_trading_rights_aspect
+			import_printing_presses_aspect
+			send_envoys_aspect
+			request_armaments_aspect
 		}
 		hre_heretic_religion = yes
 		
@@ -315,7 +312,7 @@ christian = {
 			}
 		}
 		
-		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
+		heretic = { CALVINIST }
 		
 		date = 1546.10.31
 	}
@@ -338,7 +335,15 @@ christian = {
 			local_missionary_strength = -0.01
 		}
 
-		personal_deity = yes
+		holy_sites = { 43 125 198 318 344 }
+		
+		blessings = {
+			imperial_patronage
+			hold_festivals
+			confucian_education
+			shogunal_patronage
+			warrior_code
+		}
 
 		on_convert = {
 			change_religion = shinto
@@ -699,10 +704,10 @@ japanese_religions = {
 			icon = 23
 		country = {
 			tolerance_own = 1
-			defensiveness = 0.1
+			stability_cost_modifier = -0.2
 		}
 		province = {
-		local_missionary_strength = -0.01
+		local_missionary_strength = -0.02
 		}
 
 			heretic = { ZEN }

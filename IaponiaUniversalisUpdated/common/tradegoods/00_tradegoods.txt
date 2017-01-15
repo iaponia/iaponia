@@ -217,7 +217,7 @@ cocoa = {
 }
 
 silk = {
-	color = { 0.72 0.10 0.10 }
+	color = { 0.64 0.10 0.64 }
 	modifier = {
 		num_accepted_cultures = 1
 	}
@@ -227,7 +227,7 @@ silk = {
 }
 
 dyes = {
-	color = { 0.63 0.17 0.50 }
+	color = { 0.73 0.34 0.50 }
 	modifier = {
 		heir_chance = 0.33
 	}

@@ -267,14 +267,6 @@ sake = {
 	}
 }
 
-#remove this later
-dye = {
-	color = { 0.7 0.4 0 }
-	modifier = {
-		global_ship_cost=  -0.05
-	}
-}
-
 silver = {
 	color = { 1.0 1.0 1 }
 	modifier = {
@@ -311,7 +303,7 @@ mainland_trade = {
 }
 
 lacquerware = {
-	color = { 1.0 1.0 1.0 }
+	color = { 0.6 0.35 0.15 }
 	modifier = {
 		legitimacy = 0.25
 	}

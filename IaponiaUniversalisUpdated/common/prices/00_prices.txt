@@ -11,10 +11,6 @@ sake = {
 	base_price = 3
 }
 
-dye = {
-	base_price = 2
-}
-
 silver = {
 	base_price = 3
 }

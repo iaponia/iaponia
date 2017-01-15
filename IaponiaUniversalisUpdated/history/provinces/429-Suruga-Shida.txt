@@ -14,7 +14,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 
-trade_goods = dye
+trade_goods = dyes
 
 
 1568.6.1 = {

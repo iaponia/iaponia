@@ -11,10 +11,6 @@ sake = {
 	base_price = 3
 }
 
-silver = {
-	base_price = 3
-}
-
 lumber = {
 	base_price = 2
 }
@@ -89,7 +85,7 @@ copper = {
 	base_price = 3
 }
 
-gold = {
+precious_metals = {
 	base_price = 0
 	goldtype = yes
 }

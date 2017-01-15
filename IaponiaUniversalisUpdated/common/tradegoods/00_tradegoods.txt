@@ -95,7 +95,7 @@ copper = {
 	}
 }
 
-gold = {
+precious_metals = {
 	color = { 1.0 0.84 0.19 }
 	#no modifiers
 }
@@ -267,13 +267,6 @@ sake = {
 	}
 }
 
-silver = {
-	color = { 1.0 1.0 1 }
-	modifier = {
-		prestige = 1
-	}
-}
-
 bamboo = {
 	color = { 1.0 0.4 0.4 }
 	modifier = {
@@ -303,7 +296,7 @@ mainland_trade = {
 }
 
 lacquerware = {
-	color = { 0.6 0.35 0.15 }
+	color = { 0.6 0.25 0.15 }
 	modifier = {
 		legitimacy = 0.25
 	}

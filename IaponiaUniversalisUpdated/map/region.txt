@@ -218,6 +218,25 @@ tohoku_region = {
 	}
 }
 
+#Sea Regions
+inland_sea_region = {
+	western_inland_sea_area
+	eastern_inland_sea_area
+}
+
+pacific_region = {
+	northern_pacific_area
+	central_pacific_area
+	southern_pacific_area
+}
+
+sea_of_japan_region = {
+	east_china_sea_area
+	northern_sea_of_japan_area
+	central_sea_of_japan_area
+	southern_sea_of_japan_area
+}
+
 ########################################
 # EUROPE                               #
 ########################################

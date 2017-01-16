@@ -298,15 +298,11 @@ satsuma_area = {
 }
 
 south_osumi_area = {
-	14 17 18 635
+	14 17 18 94 635
 }
 
 north_osumi_area = {
 	15 19 631
-}
-
-southern_islands_area = {
-	89 94
 }
 
 strait_islands_area = {
@@ -330,7 +326,7 @@ usuki_area = {
 }
 
 shimabara_area = {
-	47 48 56 639
+	47 48 56 89 639
 }
 
 matsura_area = {
@@ -548,6 +544,7 @@ kawakami_area = {
 ########################################
 # kansai					 		   #
 ########################################
+
 
 
 

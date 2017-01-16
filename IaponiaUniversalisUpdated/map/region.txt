@@ -14,7 +14,6 @@ kyushu_region = {
 		south_osumi_area
 		kuwahara_area
 		usuki_area
-		southern_islands_area
 		ashikita_area
 		uto_area
 		tamana_area

@@ -1,4 +1,24 @@
 # A region can only belong to one super region.
 
+kyushu_superregion = {
+	kyushu_region
+}
+
+shikoku_superregion = {
+	shikoku_region
+}
+
+hokkaido_superregion = {
+	hokkaido_region
+}
+
+honshu_superregion = {
+	chugoku_region
+	kansai_region
+	chubu_region
+	kanto_region
+	tohoku_region
+}
+
 new_world_superregion ={
 }

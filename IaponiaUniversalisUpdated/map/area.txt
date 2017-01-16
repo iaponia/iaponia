@@ -27,15 +27,15 @@ east_china_sea_area = {
 }
 
 southern_sea_of_japan_area = {
-
+	1313 1330 1283 1309 1306 1316 1305 1302 1303 1254 1258
 }
 
 central_sea_of_japan_area = {
-
+	1297 1299 1300 1301 1310
 }
 
 northern_sea_of_japan_area = {
-
+	1295 1298 1290 1294 1317 1296
 }
 
 #Land Areas:
@@ -751,6 +751,7 @@ mutsu_area = {
 tsugaru_area = {
 	605 659 660 661
 }
+
 
 #iwate pref
 kesen_area = {

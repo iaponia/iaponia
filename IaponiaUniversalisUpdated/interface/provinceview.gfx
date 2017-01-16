@@ -659,6 +659,7 @@ spriteTypes = {
 	}
 
 
+
 	spriteType = {
 		name = "GFX_building_canbuild"
 		texturefile = "gfx//interface//building_canbuild.dds"
@@ -719,21 +720,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_resource_icon"
 		texturefile = "gfx//interface//resources.tga"
-		noOfFrames = 26
+		noOfFrames = 36
 		loadType = "INGAME"
 	}
 	
 	spriteType = {
 		name = "GFX_resource_icon_small"
 		texturefile = "gfx//interface//resources_small.dds"
-		noOfFrames = 26
+		noOfFrames = 36
 		loadType = "INGAME"
 	}	
 	
 	spriteType = {
 		name = "GFX_resource_icon_transparent"
 		texturefile = "gfx//interface//resources.tga"
-		noOfFrames = 26
+		noOfFrames = 36
 		loadType = "INGAME"
 		
 		allwaystransparent = yes

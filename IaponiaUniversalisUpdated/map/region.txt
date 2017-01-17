@@ -220,21 +220,27 @@ tohoku_region = {
 
 #Sea Regions
 inland_sea_region = {
-	western_inland_sea_area
-	eastern_inland_sea_area
+	areas = {
+		western_inland_sea_area
+		eastern_inland_sea_area
+	}
 }
 
 pacific_region = {
-	northern_pacific_area
-	central_pacific_area
-	southern_pacific_area
+	areas = {
+		northern_pacific_area
+		central_pacific_area
+		southern_pacific_area
+	}
 }
 
 sea_of_japan_region = {
-	east_china_sea_area
-	northern_sea_of_japan_area
-	central_sea_of_japan_area
-	southern_sea_of_japan_area
+	areas = {
+		east_china_sea_area
+		northern_sea_of_japan_area
+		central_sea_of_japan_area
+		southern_sea_of_japan_area
+	}
 }
 
 ########################################
@@ -1133,6 +1139,7 @@ indo_china_region = {
 	areas = {
 		vietnam_area
 		south_laos_area
+
 		north_laos_area
 		central_thai_area
 		northern_thai_area
@@ -1305,158 +1312,3 @@ carribeans_region = {
 	}
 }
 
-#Sea Regions
-baltic_sea_region = {
-	areas = {
-		baltic_area
-		kattegat_area
-	}
-}
-
-north_atlantic_region = {
-	areas = {
-		north_sea_area
-		norwegian_sea_area
-		white_sea_area
-		celtic_sea_area
-		english_channel_area
-		bay_of_biscay_area
-		north_atlantic_area
-		denmark_strait_area
-	}
-}
-
-american_east_coast_region = {
-	areas = {
-		sea_of_labrador_area
-		hudson_bay_sea_area
-		gulf_of_st_lawrence_area
-		gulf_stream_area
-	}
-}
-
-mediterrenean_region = {
-	areas = {
-		eastern_mediterrenean_area
-		western_mediterrenean_area
-		black_sea_area
-	}
-}
-
-caribbean_sea_region = {
-	areas = {
-		bahama_channel_area
-		coast_of_guyana_area
-		caribbean_sea_area
-		gulf_of_mexico_area
-		sargasso_sea_area
-	}
-}
-
-
-west_african_sea_region = {
-	areas = {
-		west_african_coast_sea_area
-		gulf_of_guinea_sea_area
-	}
-}
-
-west_indian_ocean_region = {
-	areas = {
-		western_indian_ocean_area
-		swahili_coast_sea_area
-	}
-}
-
-arabian_sea_region = {
-	areas = {
-		arabian_sea_area
-		persian_gulf_area
-		red_sea_area
-	}
-}
-
-east_indian_ocean_region = {
-	areas = {
-		eastern_indian_ocean_area
-		bay_of_bengal_area
-		andaman_sea_area
-	}
-}
-
-south_indian_ocean_region = {
-	areas = {
-		south_indian_ocean_area
-	}
-}
-
-south_china_sea_region = {
-	areas = {
-		java_sea_area
-		south_china_sea_area
-		celebes_sea_area
-		banda_arafura_seas_area
-	}
-}
-
-east_china_sea_region = {
-	areas = {
-		east_china_sea_area
-		philipine_sea_area
-		sea_of_japan_area
-		sea_of_okhotsk_area
-	}
-}
-
-north_west_pacific_region = {
-	areas = {
-		east_pacific_ocean_area
-	}
-}
-
-south_west_pacific_region = {
-	areas = {
-		coral_sea_area
-		tasman_sea_area
-		great_australian_bight_area
-	}
-}
-
-south_east_pacific_region = {
-	areas = {
-		south_pacific_area
-		polynesian_triangle_area
-	}
-}
-
-north_east_pacific_region = {
-	areas = {
-		north_pacific_area
-		north_pacific_coast_area
-		berring_sea_area
-		gulf_of_alaska_area
-	}
-}
-
-pacific_south_america_region = {
-	areas = {
-		chilean_sea_area
-		sea_of_grau_area
-		gulf_of_panama_area
-	}
-}
-
-atlantic_south_america_region = {
-	areas = {
-		coast_of_brazil_sea_area
-		argentine_sea_area
-	}
-}
-
-south_atlantic_region = {
-	areas = {
-		south_atlantic_area
-		skeleton_coast_area
-		cape_of_storms_area
-	}
-}

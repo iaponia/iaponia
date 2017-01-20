@@ -12,6 +12,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 146;208;sea;1264;1587;1144;1588;1149;Kagawa-Kojima
 146;231;sea;1264;1580;1120;1587;1123;Kagawa-Shozu
 153;232;sea;1263;1628;976;1636;976;Itano-Mihara
+191;199;sea;1258;1705;1468;1708;1473;Aimi-Shimane
+197;199;sea;1254;1652;1479;1656;1481;Ou-Shimane
 233;251;sea;1262;1768;978;1778;979;Tsuna-Akashi
 481;527;sea;1259;2940;178;2943;184;Katori-Kashima
 482;527;sea;1259;2936;220;2940;224;Katori-Hitachi

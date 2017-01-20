@@ -6,7 +6,7 @@ Bonotsu=		#name of node
 			name="Aburatsu"		#name of other node
 			path=		#province ids on way to node
 			{
-				3 19
+				1 19
 			}
 			control=
 			{
@@ -17,7 +17,7 @@ Bonotsu=		#name of node
 			name="Yatsushiro"		#name of other node
 			path=		#province ids on way to node
 			{
-				3 24
+				6 22 24
 			}
 			control=
 			{
@@ -37,7 +37,7 @@ Yatsushiro=		#name of node
 		name="Hakata"		#name of other node
 			path=		#province ids on way to node
 			{
-				24 66
+				27 34 66
 			}
 			control=
 			{
@@ -48,7 +48,7 @@ Yatsushiro=		#name of node
 		name="Aburatsu"		#name of other node
 			path=		#province ids on way to node
 			{
-				24 15
+				23 15
 			}
 			control=
 			{
@@ -68,7 +68,7 @@ Aburatsu= 	#name of node
 			name="Saganoseki"		#name of other node
 			path=		#province ids on way to node
 			{
-				15 37
+				20 37
 			}
 			control=
 			{
@@ -88,7 +88,7 @@ Nagasaki=		#name of node
 		name="Hakata"		#name of other node
 			path=		#province ids on way to node
 			{
-				48 66
+				47 62 66
 			}
 			control=
 			{
@@ -108,7 +108,7 @@ Tsushima=		#name of node
 		name="Hakata"		#name of other node
 			path=		#province ids on way to node
 			{
-				92 66
+				1330 66
 			}
 			control=
 			{
@@ -128,7 +128,7 @@ Saganoseki=		#name of node
 		name="Hakata"		#name of other node
 			path=		#province ids on way to node
 			{
-				37 66
+				40 70 66
 			}
 			control=
 			{
@@ -139,7 +139,7 @@ Saganoseki=		#name of node
 			name="Urado"		#name of other node
 			path=		#province ids on way to node
 			{
-				37 161
+				1276 95 161
 			}
 			control=
 			{
@@ -159,7 +159,7 @@ Hakata=		#name of node
 		name="Yamaguchi"		#name of other node
 			path=		#province ids on way to node
 			{
-				66 113
+				67 111 113
 			}
 			control=
 			{
@@ -210,7 +210,7 @@ Urado= 	#name of node
 			name="Tadotsu"		#name of other node
 			path=		#province ids on way to node
 			{
-				161 141
+				139 141
 			}
 			control=
 			{
@@ -221,7 +221,7 @@ Urado= 	#name of node
 			name="Muya"		#name of other node
 			path=		#province ids on way to node
 			{
-				161 153
+				137 153
 			}
 			control=
 			{
@@ -241,7 +241,7 @@ Tadotsu= 	#name of node
 			name="Muya"		#name of other node
 			path=		#province ids on way to node
 			{
-				141 153
+				142 153
 			}
 			control=
 			{
@@ -261,7 +261,7 @@ Muya= 	#name of node
 			name="Kii"		#name of other node
 			path=		#province ids on way to node
 			{
-				153 236
+				1272 236
 			}
 			control=
 			{
@@ -412,7 +412,7 @@ Sakai= 	#name of node
 			name="Kyoto"		#name of other node
 			path=		#province ids on way to node
 			{
-				278 289
+				684 289
 			}
 			control=
 			{
@@ -432,7 +432,7 @@ Ominato= 	#name of node
 			name="Kuwana"		#name of other node
 			path=		#province ids on way to node
 			{
-				347 353
+				352 353
 			}
 			control=
 			{
@@ -492,7 +492,7 @@ Kii= 	#name of node
 			name="Sakai"		#name of other node
 			path=		#province ids on way to node
 			{
-				236 278
+				274 278
 			}
 			control=
 			{
@@ -503,7 +503,7 @@ Kii= 	#name of node
 			name="Ominato"		#name of other node
 			path=		#province ids on way to node
 			{
-				236 347
+				235 347
 			}
 			control=
 			{
@@ -758,7 +758,7 @@ Suwa= 	#name of node
 			name="Imahama"		#name of other node
 			path=		#province ids on way to node
 			{
-				439 332
+				438 398 403 333
 			}
 			control=
 			{
@@ -809,7 +809,7 @@ Kiyosu= 	#name of node
 			name="Imahama"		#name of other node
 			path=		#province ids on way to node
 			{
-				370 332
+				370 333
 			}
 			control=
 			{
@@ -823,13 +823,13 @@ Kiyosu= 	#name of node
 	
 Kuwana= 	#name of node
 	{
-		location=353			#province location of box
+		location=350			#province location of box
 		outgoing=
 		{
 			name="Kyoto"		#name of other node
 			path=		#province ids on way to node
 			{
-				353 289
+				338 289
 			}
 			control=
 			{
@@ -843,13 +843,13 @@ Kuwana= 	#name of node
 	
 Imahama= 	#name of node
 	{
-		location=332			#province location of box
+		location=333			#province location of box
 		outgoing=
 		{
 			name="Kyoto"		#name of other node
 			path=		#province ids on way to node
 			{
-				332 289
+				1250 289
 			}
 			control=
 			{

@@ -335,7 +335,7 @@ christian = {
 			local_missionary_strength = -0.01
 		}
 
-		holy_sites = { 43 125 198 318 344 }
+		holy_sites = { 43 125 198 344 536 }
 		
 		blessings = {
 			imperial_patronage

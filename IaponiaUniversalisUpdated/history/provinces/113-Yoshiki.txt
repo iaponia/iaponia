@@ -11,9 +11,9 @@ religion = shinto
 capital = "Yamaguchi"
 is_city = yes
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 11
+base_production = 11
+base_manpower = 8
 
 trade_goods = paper
 

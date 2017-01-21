@@ -179,7 +179,7 @@ Yamaguchi=		#name of node
 		name="Mihonoseki"		#name of other node
 			path=		#province ids on way to node
 			{
-				113 199
+				112 133 199
 			}
 			control=
 			{
@@ -190,7 +190,7 @@ Yamaguchi=		#name of node
 		name="Onomichi"		#name of other node
 			path=		#province ids on way to node
 			{
-				113 165
+				114 165
 			}
 			control=
 			{

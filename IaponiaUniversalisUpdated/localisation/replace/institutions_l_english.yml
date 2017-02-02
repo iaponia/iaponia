@@ -84,6 +84,7 @@
  #~ tooltip_development_20_capital:0 "European 20 development capital"
  tooltip_development_5_post_1500:0 "Province with at least 5 development - post 1500"
  tooltip_nearby_renaissance_20:0 "Nearby province has at least 20% support of Renaissance"
+ tooltip_friendly_nearby_renaissance_20:0 "Friendly nearby province has at least 20% support of Renaissance"
  tooltip_artist_capital_dip4:0 "Capital of DIP tech 4 Country with an Artist"
  #~ tooltip_flanders_tuscany_venetia:0 "Province in the Flanders, Tuscany or Venetia Area"
  #~ tooltip_dip_tech15_capital:0 "Capital of country with DIP Tech 15"

@@ -4,6 +4,7 @@ Bonotsu=		#name of node
 		outgoing={
 		name="Nagasaki"
 		path={
+			5 8 26
 		}
 		control={
 		}
@@ -51,6 +52,7 @@ Saganoseki=		#name of node
 		outgoing={
 		name="Urado"
 		path={
+			1276 163
 		}
 		control={
 		}
@@ -79,6 +81,7 @@ Urado= 	#name of node
 		outgoing={
 		name="Ushimado"
 		path={
+			1271 208 213
 		}
 		control={
 		}
@@ -86,6 +89,7 @@ Urado= 	#name of node
 		outgoing={
 		name="Sakai"
 		path={
+			137 156 235 277
 		}
 		control={
 		}
@@ -179,6 +183,7 @@ Ominato= 	#name of node
 		outgoing={
 		name="Urado"
 		path={
+			322 239 135 161
 		}
 		control={
 		}
@@ -251,6 +256,7 @@ Ejiri= 	#name of node
 		outgoing={
 		name="Ominato"
 		path={
+			1278 344
 		}
 		control={
 		}
@@ -378,11 +384,12 @@ Naka= 	#name of node
 	
 Kurokawa= 	#name of node
 	{
-		location=540			#province location of box	
+		location=1253			#province location of box	
 		inland=yes
 		outgoing={
 		name="Naoetsu"
 		path={
+			653 651
 		}
 		control={
 		}
@@ -390,13 +397,14 @@ Kurokawa= 	#name of node
 		outgoing={
 		name="Naka"
 		path={
+			543 474
 		}
 		control={
 		}
 		}
 		members=		#provinces belonging to node
 		{
-			488 489 540 541 542 543 547 548 551 552 563 653 654 655 672 673
+			488 489 540 541 542 543 547 548 551 552 563 653 654 655 673
 		}
 	}	
 
@@ -419,7 +427,7 @@ Sakata= 	#name of node
 		}
 		members=		#provinces belonging to node
 		{
-			559 564 565 566 567 568 569 570 571 572 597 598 600 672 673 674 675
+			559 564 565 566 567 568 569 570 571 572 597 598 600 672 674 675
 		}
 	}	
 	
@@ -429,6 +437,7 @@ Shiogama= 	#name of node
 		outgoing={
 		name="Kurokawa"
 		path={
+			577 548
 		}
 		control={
 		}

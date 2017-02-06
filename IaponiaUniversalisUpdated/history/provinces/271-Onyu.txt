@@ -2,7 +2,6 @@ hre = no
 discovered_by = chinese
 
 add_core = WTK
-add_core = HME
 owner = WTK
 controller = WTK
 

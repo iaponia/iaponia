@@ -10,7 +10,7 @@ religion = shinto
 capital = "Odaka"
 is_city = yes
 
-base_tax = 4
+base_tax = 5
 base_production = 4
 base_manpower = 4
 

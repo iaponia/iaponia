@@ -8,12 +8,12 @@ controller = HTK
 
 culture = kinai
 religion = shinto
-capital = "IKAjiri"
+capital = "Ikajiri"
 is_city = yes
 
-base_tax = 2
-base_production = 2
-base_manpower = 1
+base_tax = 5
+base_production = 5
+base_manpower = 4
 
 trade_goods = sake
 

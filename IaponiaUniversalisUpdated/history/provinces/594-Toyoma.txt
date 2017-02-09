@@ -7,12 +7,12 @@ controller = KSI
 
 culture = tohoku
 religion = shinto
-capital = "TeraIKA"
+capital = "Teraika"
 is_city = yes
 
 base_tax = 2
 base_production = 2
-base_manpower = 1
+base_manpower = 2
 
 trade_goods = rice
 

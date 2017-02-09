@@ -10,9 +10,9 @@ religion = shinto
 capital = "Ejiri"
 is_city = yes
 
-base_tax = 7
-base_production = 7
-base_manpower = 5
+base_tax = 8
+base_production = 8
+base_manpower = 4
 
 trade_goods = metal
 

@@ -1,9 +1,9 @@
 hre = no
 discovered_by = chinese
 
-add_core = SNB
-owner = SNB
-controller = SNB
+add_core = OSB
+owner = OSB
+controller = OSB
 
 culture = tohoku
 religion = shinto

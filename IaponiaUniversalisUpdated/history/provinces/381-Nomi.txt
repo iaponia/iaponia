@@ -7,12 +7,12 @@ controller = TGS
 
 culture = hokuriku
 religion = shinto
-capital = "IMAA"
+capital = "Imaa"
 is_city = yes
 
-base_tax = 2
-base_production = 2
-base_manpower = 1
+base_tax = 5
+base_production = 5
+base_manpower = 3
 
 trade_goods = silk
 

@@ -13,7 +13,6 @@ capital = "Kiyosu"
 is_city = yes
 
 base_tax = 7 
- fort_15th = yes
 base_production = 5
 base_manpower = 5
 

@@ -188,7 +188,7 @@ renaissance = {
 	}
 
 
-	historical_start_date = 1450.1.1
+	historical_start_date = 1460.1.1
 	historical_start_province = 683 # Kyoto
 
 	history = {

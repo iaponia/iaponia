@@ -188,15 +188,15 @@ renaissance = {
 	}
 
 
-	historical_start_date = 1460.1.1
+	historical_start_date = 1500.1.1
 	historical_start_province = 683 # Kyoto
 
 	history = {
-		is_year = 1510
+		is_year = 1550
 	}
 	
 	can_start = {
-		is_year = 1450
+		is_year = 1500
 		OR = {
 			region = kansai_region
 			region = kyushu_region
@@ -250,7 +250,7 @@ renaissance = {
 		}
 
 		modifier = {
-			factor = 0.12
+			factor = 0.10
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_nearby_renaissance_20
@@ -261,7 +261,7 @@ renaissance = {
 		}	
 		
 		modifier = {
-			factor = 0.06
+			factor = 0.05
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_friendly_nearby_renaissance_20
@@ -272,7 +272,7 @@ renaissance = {
 		}	
 		
 		modifier = {
-			factor = 0.08
+			factor = 0.05
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_10
@@ -292,8 +292,8 @@ renaissance = {
 			factor = 0.1
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_development_5_post_1500
-				is_year = 1500
+				tooltip = tooltip_development_5_post_1550
+				is_year = 1550
 				development = 5
 			}
 		}
@@ -302,11 +302,11 @@ renaissance = {
 			factor = 2
 			scale = no
 			custom_trigger_tooltip = {
-				tooltip = tooltip_artist_capital_dip4
+				tooltip = tooltip_artist_capital_dip8
 				is_capital = yes
 				owner = {
 					has_advisor = artist
-					dip_tech = 4
+					dip_tech = 8
 				}
 			}
 		}

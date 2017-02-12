@@ -1,0 +1,7 @@
+##############################
+# Coptic Flavor Events       #
+#                            #
+# Written by Milla Isaksson  #
+# & Mathilda Bjarnehed		 #
+##############################
+#removed

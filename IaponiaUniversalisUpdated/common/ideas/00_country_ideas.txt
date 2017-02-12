@@ -578,7 +578,7 @@ HJO_ideas = {
 		build_cost = -0.1
 	}
 	cadastral_surveys = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.25
 	}
 	kanto_politics = {
 		diplomatic_reputation = 1

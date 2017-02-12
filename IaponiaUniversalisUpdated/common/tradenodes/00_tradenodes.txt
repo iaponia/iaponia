@@ -189,7 +189,7 @@ Ominato= 	#name of node
 		}
 		}
 		outgoing={
-		name="Kiyosu"
+		name="Kyoto"
 		path={
 		}
 		control={
@@ -231,6 +231,13 @@ Kiyosu= 	#name of node
 		location=370			#province location of box
 		outgoing={
 		name="Kyoto"
+		path={
+		}
+		control={
+		}
+		}
+		outgoing={
+		name="Ominato"
 		path={
 		}
 		control={

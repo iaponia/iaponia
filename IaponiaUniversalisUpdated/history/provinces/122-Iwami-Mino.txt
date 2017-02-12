@@ -9,7 +9,7 @@ controller = IWY
 
 culture = sanin
 religion = shinto
-capital = "Hamada"
+capital = "Takatsu"
 is_city = yes
 
 base_tax = 4

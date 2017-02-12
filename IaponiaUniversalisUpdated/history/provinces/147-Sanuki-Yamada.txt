@@ -11,6 +11,7 @@ culture = setouchi
 religion = shinto
 capital = "Sogo"
 is_city = yes
+fort_15th = yes
 
 base_tax = 4
 base_production = 4

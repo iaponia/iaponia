@@ -9,6 +9,7 @@ culture = sanin
 religion = shinto
 capital = "Tanabe"
 is_city = yes
+fort_15th = yes
 
 base_tax = 3
 base_production = 2

@@ -12,6 +12,7 @@ culture = setouchi
 religion = shinto
 capital = "Matsuyama"
 is_city = yes
+fort_15th = yes
 
 base_tax = 3
 base_production = 3

@@ -9,6 +9,7 @@ culture = tokai
 religion = shinto
 capital = "Toba"
 is_city = yes
+fort_15th = yes
 
 base_tax = 4
 base_production = 4

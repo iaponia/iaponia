@@ -9,6 +9,7 @@ culture = tohoku
 religion = shinto
 capital = "Iwakiri"
 is_city = yes
+fort_15th = yes
 
 base_tax = 6
 base_production = 4

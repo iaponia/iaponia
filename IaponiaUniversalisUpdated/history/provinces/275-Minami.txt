@@ -9,6 +9,7 @@ culture = kinai
 religion = shinto
 capital = "Kishiwada"
 is_city = yes
+fort_15th = yes
 
 base_tax = 6
 base_production = 6

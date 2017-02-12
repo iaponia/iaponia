@@ -10,6 +10,7 @@ culture = hokuriku
 religion = shinto
 capital = "Matsukura"
 is_city = yes
+fort_15th = yes
 
 base_tax = 4
 base_production = 3

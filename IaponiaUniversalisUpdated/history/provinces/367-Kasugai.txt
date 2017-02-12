@@ -11,6 +11,7 @@ culture = tokai
 religion = shinto
 capital = "Kiyosu"
 is_city = yes
+fort_15th = yes
 
 base_tax = 7 
 base_production = 5

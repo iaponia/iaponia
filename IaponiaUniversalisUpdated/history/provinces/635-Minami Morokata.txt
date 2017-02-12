@@ -9,6 +9,7 @@ culture = saikai
 religion = shinto
 capital = "Shibushi"
 is_city = yes
+fort_15th = yes
 
 base_tax = 5
 base_production = 3

@@ -188,13 +188,13 @@ Ominato= 	#name of node
 		control={
 		}
 		}
-		outgoing={
-		name="Kyoto"
-		path={
-		}
-		control={
-		}
-		}
+		#outgoing={
+		#name="Kyoto"
+		#path={
+		#}
+		#control={
+		#}
+		#}
 		members=		#provinces belonging to node
 		{
 			291 321 322 323 324 325 326 338 343 344 345 346 347 348 349 350 351 352 353 354 355 357 640

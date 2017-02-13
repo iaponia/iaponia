@@ -912,76 +912,39 @@ global_trade = {
 
 
 	historical_start_date = 1600.1.1
-	historical_start_province = 97 #Holland
+	historical_start_province = 683 # Kyoto
 
 	history = {
 		OR = {
 			AND = {
 				is_year = 1620
-				continent = europe
-				owner = { technology_group = western }
-			}
-			
-			AND = {
-				is_year = 1660
-				continent = europe
-			}	
-			AND = {
-				is_year = 1660
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = south_america_superregion
+				has_province_modifier = center_of_trade_modifier
 			}
 			AND = {
-				is_year = 1660
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
+				is_year = 1620
+				has_province_modifier = inland_center_of_trade_modifier
 			}
 			AND = {
-				is_year = 1660
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
-			AND = {
-				is_year = 1700
-				is_capital = no
 				OR = {
-					region = maghreb_region
-					region = egypt_region
-					superregion = near_east_superregion
+					region = kansai_region
+					region = kyushu_region
 				}
+				is_year = 1635
 			}
-			
 			AND = {
-				is_year = 1720
-				has_port = yes
-				is_capital = no
 				OR = {
-					superregion = india_superregion
-					superregion = persia_superregion
-					superregion = east_indies_superregion
+					region = chubu_region
+					region = chugoku_region
+					region = shikoku_region
+					region = kanto_region
 				}
+				is_year = 1645
 			}
 			AND = {
-				is_year = 1750
-				has_port = yes
-				is_capital = no
-				superregion = africa_superregion
+				region = tohoku_region
+				is_year = 1655
 			}
+			is_year = 1665
 		}
 	}
 	
@@ -1120,27 +1083,6 @@ global_trade = {
 		}
 		
 		modifier = {
-			factor = 5
-			scale = yes
-			potential = {
-				owner = {
-					is_colonial_nation = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_colonial_overlord_global_trade
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					is_colonial_nation = yes
-					overlord = { has_institution = global_trade }
-				}
-			}
-		}
-		
-		modifier = {
 			factor = 0.5
 			printing_press = 100
 		}
@@ -1199,12 +1141,12 @@ manufactories = {
 	}
 
 	historical_start_date = 1650.1.1
-	historical_start_province = 183 #Paris
+	historical_start_province = 683 #Kyoto
 
 	history = {
 		OR = {
 			AND = {
-				is_year = 1680
+				is_year = 1700
 				continent = europe
 				owner = { technology_group = western }
 			}

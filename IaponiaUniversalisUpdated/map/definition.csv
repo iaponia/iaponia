@@ -685,14 +685,14 @@ province;red;green;blue;x;x
 684;97;120;255;Osaka;x
 685;225;122;0;Kita Matsura;x
 686;98;124;64;Higo Mountains;x
-687;226;126;128;Running;x
-688;98;128;192;Kaifeng;x
-689;226;130;255;Fengyuan;x
-690;98;132;0;Shandong Bandao;x
-691;226;134;64;Jinan;x
-692;98;136;128;Handan;x
-693;227;138;192;Sanguan;x
-694;99;140;255;Changzhi;x
+687;226;126;128;Chikushu Mountains;x
+688;98;128;192;Shikoku Mountains;x
+689;226;130;255;Choshu Mountains;x
+690;98;132;0;Sanin Mountains;x
+691;226;134;64;Yamato Mountains;x
+692;98;136;128;Esshu Mountains;x
+693;227;138;192;Kanto Mountains;x
+694;99;140;255;Tohoku Mountains;x
 695;227;142;0;Beijing;x
 696;99;144;64;Xuan Fu;x
 697;227;146;128;Datong;x

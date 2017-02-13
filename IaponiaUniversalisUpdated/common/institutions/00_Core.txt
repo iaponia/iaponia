@@ -712,19 +712,24 @@ printing_press = {
 	}
 	
 	can_start = {
-		is_year = 1550
 		is_island = no
 		is_state = yes
-		AND = {
-			development = 15
-			is_capital = yes
-			is_year = 1555
-		}
 		OR = {
-			religion = catholic
-			religion = mahayana
+			AND = {
+				development = 15
+				is_capital = yes
+				is_year = 1555
+			}
+			AND = {
+				religion = catholic
+				is_year = 1550
+				
+			}
+			AND = {
+				religion = mahayana
+				is_year = 1550
+			}
 		}
-
 	}
 	start_chance = 15		#in 100 for when a province can_start
 	

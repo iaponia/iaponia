@@ -791,6 +791,29 @@ printing_press = {
 				has_estate = estate_church
 			}
 		}
+		
+		modifier = {
+			factor = 0.10
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_nearby_printing_press_20
+				any_neighbor_province = {
+						printing_press = 20
+				}
+			}
+		}	
+		
+		modifier = {
+			factor = 0.05
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_friendly_nearby_printing_press_20
+				any_friendly_coast_border_province = {
+						printing_press = 20
+				}
+			}
+		}
+		
 		modifier = {
 			factor = 1
 			custom_trigger_tooltip = {
@@ -802,13 +825,12 @@ printing_press = {
 			}
 		}
 		modifier = {
-			factor = 0.05
+			factor = 0.15
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_20_capital
 				development = 20
 				is_capital = yes
-				continent = europe
 			}
 		}
 		modifier = {
@@ -833,26 +855,7 @@ printing_press = {
 				}
 			}
 		}
-		modifier = {
-			factor = 5
-			scale = yes
-			potential = {
-				owner = {
-					is_colonial_nation = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_colonial_overlord_printing_press
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					is_colonial_nation = yes
-					overlord = { has_institution = printing_press }
-				}
-			}
-		}
+		
 		modifier = {
 			factor = 2
 			scale = yes
@@ -1146,71 +1149,26 @@ manufactories = {
 	history = {
 		OR = {
 			AND = {
-				is_year = 1700
-				continent = europe
-				owner = { technology_group = western }
-			}
-			
-			AND = {
-				is_year = 1720
-				continent = europe
-			}	
-			AND = {
-				is_year = 1750
-				superregion = china_superregion
-			}
-			AND = {
-				is_year = 1750
-				superregion = india_superregion
-			}
-			AND = {
-				is_year = 1750
-				superregion = near_east_superregion
-			}
-			AND = {
-				is_year = 1750
-				region = maghreb_region
-			}
-			AND = {
-				is_year = 1750
-				region = egypt_region
-			}
-			AND = {
-				is_year = 1760
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
+				OR = {
+					region = kansai_region
+					region = kyushu_region
+					region = kanto_region
 				}
-				superregion = south_america_superregion
+				is_year = 1695
 			}
 			AND = {
-				is_year = 1760
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
+				OR = {
+					region = chubu_region
+					region = chugoku_region
+					region = shikoku_region
 				}
-				superregion = north_america_superregion
+				is_year = 1705
 			}
 			AND = {
-				is_year = 1760
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
+				region = tohoku_region
+				is_year = 1715
 			}
-			
-			AND = {
-				is_year = 1780
-				superregion = persia_superregion
-			}
-			
+			is_year = 1720
 		}
 	}
 	
@@ -1276,6 +1234,7 @@ manufactories = {
 					trade_goods = naval_supplies
 					trade_goods = fish
 					trade_goods = salt
+					trade_goods = seaweed
 				}
 			}
 			has_building = wharf
@@ -1287,6 +1246,7 @@ manufactories = {
 				OR = {
 					trade_goods = copper
 					trade_goods = iron
+					trade_goods = metal
 				}
 			}
 			has_building = weapons
@@ -1300,6 +1260,7 @@ manufactories = {
 					trade_goods = cloth
 					trade_goods = silk
 					trade_goods = dyes
+					trade_goods = paper
 				}
 			}
 			has_building = textile
@@ -1315,6 +1276,8 @@ manufactories = {
 					trade_goods = tobacco
 					trade_goods = cocoa
 					trade_goods = grain
+					trade_goods = rice
+					trade_goods = bamboo
 				}
 			}
 			has_building = plantations
@@ -1332,6 +1295,12 @@ manufactories = {
 					trade_goods = fur
 					trade_goods = wine
 					trade_goods = tropical_wood
+					trade_goods = sake
+					trade_goods = lumber
+					trade_goods = mainland_goods
+					trade_goods = lacquerware
+					trade_goods = pottery
+					trade_goods = horses
 				}
 			}
 			has_building = tradecompany
@@ -1410,58 +1379,35 @@ enlightenment = {
 
 	bonus = {
 		culture_conversion_cost = -0.25
+		#not very useful on Iaponia, is it
 	}
 
 	historical_start_date = 1700.1.1
-	historical_start_province = 236 #London
+	historical_start_province = 683 #Kyoto
 
 	history = {
 		OR = {
 			AND = {
-				is_year = 1700
-				continent = europe
-				owner = { technology_group = western }
-			}
-			
-			AND = {
+				OR = {
+					region = kansai_region
+					region = kyushu_region
+					region = kanto_region
+				}
 				is_year = 1730
-				continent = europe
-			}	
-
-			AND = {
-				is_year = 1800
-				superregion = near_east_superregion
 			}
 			AND = {
-				is_year = 1770
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
+				OR = {
+					region = chubu_region
+					region = chugoku_region
+					region = shikoku_region
 				}
-				superregion = south_america_superregion
+				is_year = 1740
 			}
 			AND = {
-				is_year = 1770
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = north_america_superregion
+				region = tohoku_region
+				is_year = 1750
 			}
-			AND = {
-				is_year = 1770
-				owner = {
-					NOT = { technology_group = north_american }
-					NOT = { technology_group = mesoamerican }
-					NOT = { technology_group = south_american }
-					NOT = { technology_group = andean }
-				}
-				superregion = central_america_superregion
-			}
+			is_year = 1760
 		}
 	}
 	
@@ -1477,7 +1423,6 @@ enlightenment = {
 			}
 			has_building = university
 			AND = {
-				continent = europe
 				development = 20
 				owner = {
 					ADM = 5
@@ -1501,7 +1446,7 @@ enlightenment = {
 	
 	embracement_speed = {
 		modifier = {
-			factor = 0.1
+			factor = 0.2
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_enlightenment
@@ -1511,7 +1456,7 @@ enlightenment = {
 			}
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.15
 			scale = yes
 			potential = {
 				NOT = {
@@ -1577,26 +1522,7 @@ enlightenment = {
 				}
 			}
 		}
-		modifier = {
-			factor = 5
-			scale = yes
-			potential = {
-				owner = {
-					is_colonial_nation = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_colonial_overlord_enlightenment
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					is_colonial_nation = yes
-					overlord = { has_institution = enlightenment }
-				}
-			}
-		}
+
 		modifier = {
 			factor = 2
 			scale = yes

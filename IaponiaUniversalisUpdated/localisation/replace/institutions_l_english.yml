@@ -91,6 +91,8 @@
  tooltip_owner_cath_maha:0 "State Religion is Catholic or Mahayana"
  #~ tooltip_owner_reformed:0 "State Religion is Reformed"
  tooltip_province_cath_maha:1 "Province is Catholic or Mahayana"
+ tooltip_nearby_renaissance_20:0 "Nearby province has at least 20% support of Printing Press"
+ tooltip_friendly_nearby_renaissance_20:0 "Friendly nearby province has at least 20% support of Printing Press"
  #~ tooltip_province_reformed:0 "Province is Reformed"
  #~ tooltip_has_seat_in_parliament:0 "Province has seat in Parliament"
  #~ tooltip_full_innovativeness:0 "Capital of Country with Full Innovative Ideas"

@@ -1,0 +1,1686 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new buildings, make sure they are uniquely named.
+
+# cost = x #==> cost in $ to build (subject to other modifiers)
+# time = x #==> number of months to build.
+# modifier = m # a modifier on the province that the building gives
+# trigger = t # an and trigger that needs to be fullfilled to build and keep the building
+# one_per_country = yes/no # if yes, only one of these can exist in a country
+# manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
+# onmap = yes/no # show as a sprite on the map
+
+# FROM = owner
+# ROOT = province
+
+# AI will consider buildings it does not have the tech for at 20% of scripted AI weight (in case it wants to save slots)
+
+
+################################################
+# Tier 1, 15th Century Buildings
+################################################
+marketplace = {
+	cost = 100
+	time = 12
+	
+	modifier = {
+		province_trade_power_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 5000
+		modifier = {
+			factor = 0
+			NOT = { province_trade_power = 10 }
+		}
+	}
+}
+
+workshop = {
+	cost = 100
+	time = 12
+	modifier = {
+		local_production_efficiency = 0.5
+	}
+	
+	allow_in_gold_provinces = no
+
+	ai_will_do = {
+		factor = 1900
+		
+		modifier = { 
+			factor = 5
+			OR = {
+				has_province_modifier = stora_kopparberget_modifier
+				has_province_modifier = cerro_rico_modifier
+				has_province_modifier = spice_islands_modifier
+				has_province_modifier = comet_ore_modifier
+				has_province_modifier = paradise_modifier
+			}
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 15 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 14 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 13 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 12 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 11 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 10 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 9 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 8 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 7 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 6 }
+		}
+		modifier = { 
+			factor = 0.0
+			NOT = { base_production = 5 }
+			NOT = { has_province_modifier = stora_kopparberget_modifier }
+			NOT = { has_province_modifier = cerro_rico_modifier }
+			NOT = { has_province_modifier = spice_islands_modifier }
+			NOT = { has_province_modifier = comet_ore_modifier }
+			NOT = { has_province_modifier = paradise_modifier }
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 10 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 20 
+			NOT = { has_estate = estate_burghers}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 30 
+			NOT = { has_estate = estate_burghers}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40 
+			NOT = { has_estate = estate_burghers}
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 70 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+			NOT = { has_estate = estate_burghers} 
+		}		
+	}
+}
+
+temple = {
+	cost = 100
+	time = 12
+	modifier = {
+		local_tax_modifier = 0.4
+	}
+	
+	ai_will_do = {
+		factor = 2500
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}	
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 20 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 80 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}			
+	}
+}
+
+barracks = {
+	cost = 100
+	time = 12
+	modifier = {
+		local_manpower_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			NOT = { base_manpower = 2 }
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 3
+		}	
+		modifier = {
+			factor = 1.10
+			base_manpower = 4
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 5
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 6
+		}		
+		modifier = {
+			factor = 1.10
+			base_manpower = 7
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 8
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 9
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 10
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 10 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 40 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 70 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+	}
+}		
+
+shipyard = {
+	cost = 100
+	time = 12
+	trigger = {
+		has_port = yes
+	}
+	modifier = {
+		naval_forcelimit = 2
+		ship_recruit_speed = -0.25
+		local_ship_repair = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1250
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 10 
+			NOT = { has_estate = estate_burghers}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 20 
+			NOT = { has_estate = estate_burghers}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30 
+			NOT = { has_estate = estate_burghers}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 40 
+			NOT = { has_estate = estate_burghers}
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+			NOT = { has_estate = estate_burghers}
+		}	
+		modifier = {
+			owner = { navy_size_percentage = .75 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = .90 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = 1.00 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = 1.10 }
+			factor = 1.2
+		}
+	}
+}
+
+fort_15th = {
+	cost = 200
+	time = 30
+	modifier = {
+		fort_level = 2
+	}
+	
+	onmap = yes
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+
+################################################
+# Tier 2, 16th Century Buildings
+################################################
+courthouse = {
+	cost = 100
+	time = 12
+	modifier = {
+		local_state_maintenance_modifier = -0.25
+		local_autonomy = -0.1
+	}
+	
+	ai_will_do = {
+		factor = 1500
+		modifier = {
+			factor = 0
+			nationalism = 1
+		}
+		modifier = {
+			factor = 0
+			is_state = no
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { development = 10 }
+		}
+	}
+}
+
+dock = {
+	cost = 100
+	time = 12
+	trigger = {
+		has_port = yes
+	}
+	modifier = {
+		local_sailors_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 500
+	}
+}
+
+regimental_camp = {
+	cost = 200
+	time = 12
+	modifier = {
+		land_forcelimit = 1
+	}
+	
+	ai_will_do = {
+		factor = 1250
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 10 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 20 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 40 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = {
+			owner = { army_size_percentage = 0.75 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 0.90 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.00 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.10 }
+			factor = 1.2
+		}
+	}
+}
+
+fort_16th = {
+	cost = 400
+	time = 30
+	make_obsolete = fort_15th
+	modifier = {
+		fort_level = 4
+	}
+
+	onmap = yes
+	
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+################################################
+# Tier 3, 17th Century Buildings
+################################################
+cathedral = {
+	make_obsolete = temple
+	
+	cost = 300
+	time = 12
+	modifier = {
+		local_missionary_strength = 0.03
+		local_tax_modifier = 0.6
+	}
+	
+	ai_will_do = {
+		factor = 2500
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}	
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 20 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 80 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+			NOT = { has_estate = estate_church}
+			NOT = { has_estate = estate_dhimmi}
+		}			
+	}
+}
+
+
+university = {
+	cost = 300
+	time = 12
+	modifier = {
+		local_development_cost = -0.20
+		allowed_num_of_buildings = 1
+	}
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { development = 20 }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { development = 10 }
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 50
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 60
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 80
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 90
+		}
+	}	
+}
+
+trade_depot = {
+	cost = 300
+	time = 12
+	
+	make_obsolete = marketplace
+	
+	modifier = {
+		province_trade_power_modifier = 1
+	}
+	
+	ai_will_do = {
+		factor = 5000
+		modifier = {
+			factor = 0
+			NOT = { province_trade_power = 10 }
+		}
+	}
+}
+
+grand_shipyard = {
+	cost = 300
+	time = 12
+	
+	make_obsolete = shipyard
+	
+	trigger = {
+		has_port = yes
+	}
+	modifier = {
+		naval_forcelimit = 4
+		ship_recruit_speed = -0.50
+		local_ship_repair = 0.50
+	}
+	
+	ai_will_do = {
+		factor = 1250
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 10 
+			NOT = { has_estate = estate_burghers}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 20 
+			NOT = { has_estate = estate_burghers}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30 
+			NOT = { has_estate = estate_burghers}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 40 
+			NOT = { has_estate = estate_burghers}
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+			NOT = { has_estate = estate_burghers}
+		}	
+		modifier = {
+			owner = { navy_size_percentage = .75 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = .90 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = 1.00 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { navy_size_percentage = 1.10 }
+			factor = 1.2
+		}
+	}
+}
+
+training_fields = {
+	cost = 300
+	time = 12
+	
+	make_obsolete = barracks
+	
+	modifier = {
+		local_manpower_modifier = 1
+	}
+	
+	ai_will_do = {
+		factor = 1200
+		modifier = {
+			factor = 0
+			NOT = { base_manpower = 2 }
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 3
+		}	
+		modifier = {
+			factor = 1.10
+			base_manpower = 4
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 5
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 6
+		}		
+		modifier = {
+			factor = 1.10
+			base_manpower = 7
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 8
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 9
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 10
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 10 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 40 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 70 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+	}
+}
+
+
+fort_17th = {
+	cost = 600
+	time = 30
+	
+	make_obsolete = fort_16th
+	
+	modifier = {
+		fort_level = 6
+	}
+
+	onmap = yes
+	
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+
+
+################################################
+# Tier 4, 18th Century Buildings
+################################################
+stock_exchange = {
+	cost = 400
+	time = 12
+	
+	make_obsolete = trade_depot
+	
+	modifier = {
+		province_trade_power_modifier = 1.25
+	}
+	
+	ai_will_do = {
+		factor = 5000
+		modifier = {
+			factor = 0
+			NOT = { province_trade_power = 10 }
+		}
+	}
+}
+
+counting_house = {
+	cost = 400
+	time = 12
+	
+	make_obsolete = workshop
+	modifier = {
+		local_production_efficiency = 1
+	}
+	
+	allow_in_gold_provinces = no
+	
+	ai_will_do = {
+		factor = 1900
+		
+		modifier = { 
+			factor = 5
+			OR = {
+				has_province_modifier = stora_kopparberget_modifier
+				has_province_modifier = cerro_rico_modifier
+				has_province_modifier = spice_islands_modifier
+				has_province_modifier = comet_ore_modifier
+				has_province_modifier = paradise_modifier
+			}
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 15 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 14 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 13 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 12 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 11 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 10 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 9 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 8 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 7 }
+		}
+		modifier = { 
+			factor = 0.95
+			NOT = { base_production = 6 }
+		}
+		modifier = { 
+			factor = 0.0
+			NOT = { base_production = 5 }
+			NOT = { has_province_modifier = stora_kopparberget_modifier }
+			NOT = { has_province_modifier = cerro_rico_modifier }
+			NOT = { has_province_modifier = spice_islands_modifier }
+			NOT = { has_province_modifier = comet_ore_modifier }
+			NOT = { has_province_modifier = paradise_modifier }
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 10 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 20 
+			NOT = { has_estate = estate_burghers}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 30 
+			NOT = { has_estate = estate_burghers}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40 
+			NOT = { has_estate = estate_burghers}
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 70 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80 
+			NOT = { has_estate = estate_burghers}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+			NOT = { has_estate = estate_burghers} 
+		}		
+	}
+}
+
+
+
+
+town_hall = {
+	cost = 200
+	time = 12
+	
+	make_obsolete = courthouse
+	
+	modifier = {
+		local_state_maintenance_modifier = -0.5
+		local_autonomy = -0.2
+	}
+	
+	ai_will_do = {
+		factor = 1500
+		modifier = {
+			factor = 0
+			nationalism = 1
+		}
+		modifier = {
+			factor = 0
+			is_state = no
+		}		
+	
+		modifier = {
+			factor = 0.1
+			NOT = { development = 10 }
+		}
+	}
+}
+
+drydock = {
+	cost = 300
+	time = 12
+	
+	make_obsolete = dock
+	
+	trigger = {
+		has_port = yes
+	}
+	
+	modifier = {
+		local_sailors_modifier = 1.0
+	}	
+	
+	ai_will_do = {
+		factor = 600
+	}
+}
+
+conscription_center = {
+	cost = 400
+	time = 12
+	
+	
+	make_obsolete = regimental_camp
+	
+	modifier = {
+		land_forcelimit = 2
+	}
+	
+	ai_will_do = {
+		factor = 1250
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 10 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 20 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}		
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 40 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}	
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 50 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 60 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = { 
+			factor = 0.95
+			local_autonomy = 90 
+			NOT = { has_estate = estate_nobles}
+			NOT = { has_estate = estate_nomadic_tribes}
+			NOT = { has_estate = estate_cossacks}
+		}
+		modifier = {
+			owner = { army_size_percentage = .75 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = .90 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.00 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.10 }
+			factor = 1.2
+		}
+	}
+}
+
+
+
+fort_18th = {
+	cost = 800
+	time = 30
+	
+	
+	make_obsolete = fort_17th
+	
+	modifier = {
+		fort_level = 8
+	}
+
+	onmap = yes
+	
+	influencing_fort = yes
+	
+	ai_will_do = {
+		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+	} 
+}
+
+################################################
+# Manufactories
+################################################
+
+
+wharf = {
+	cost = 500
+	time = 60
+	manufactory = {
+		naval_supplies
+		fish
+		salt
+		seaweed
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	onmap = yes
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 70
+		}	
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 80
+		}	
+		modifier = {
+			factor = 0.95 
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}
+
+weapons = {
+	cost = 500
+	time = 60
+	manufactory = {
+		copper
+		iron
+		metal
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	onmap = yes	
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 50
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 60
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 80
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}
+
+textile = {
+	cost = 500
+	time = 60
+	manufactory = {
+		wool
+		cloth
+		silk
+		dyes
+		paper
+	}
+	modifier = {
+		trade_goods_size = 1.0
+	}
+	onmap = yes
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 50
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 60
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 80
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}
+
+
+
+plantations = {
+	cost = 500
+	time = 60
+	manufactory = {
+		coffee
+		cotton
+		sugar
+		tobacco
+		cocoa
+		grain
+		rice
+		bamboo
+	}
+	modifier = {
+		trade_goods_size = 1.0	
+	}
+	onmap = yes
+	
+	ai_will_do = {
+		factor = 1000
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 50
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 60
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 80
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 90
+		}	
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}
+
+tradecompany = {
+	cost = 500
+	time = 60
+	manufactory = {
+		ivory
+		tea
+		chinaware
+		slaves
+		spices
+		fur
+		wine
+		tropical_wood
+		sake
+		lumber
+		mainland_trade
+		lacquerware
+		pottery
+		horses
+	}
+	modifier = {
+		trade_goods_size = 1.0	
+	}
+	onmap = yes
+
+	ai_will_do = {
+		factor = 1000
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 10
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 20
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 30
+		}			
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 40
+		}		
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 50
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 60
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 70
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 80
+		}	
+		modifier = { 
+			factor = 0.95 
+			local_autonomy = 90
+		}	
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}

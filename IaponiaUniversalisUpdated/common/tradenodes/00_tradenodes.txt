@@ -12,6 +12,7 @@ Bonotsu=		#name of node
 		outgoing={
 		name="Saganoseki"
 		path={
+			638 21
 		}
 		control={
 		}
@@ -114,6 +115,7 @@ Mihonoseki=		#name of node
 		outgoing={
 		name="Ushimado"
 		path={
+			191 221 210
 		}
 		control={
 		}
@@ -131,6 +133,7 @@ Miyazu= 	#name of node
 		outgoing={
 		name="Mihonoseki"
 		path={
+			1301 1302
 		}
 		control={
 		}
@@ -208,6 +211,7 @@ Kyoto= 	#name of node
 		outgoing={
 		name="Miyazu"
 		path={
+			683 285 284 266
 		}
 		control={
 		}
@@ -215,6 +219,7 @@ Kyoto= 	#name of node
 		outgoing={
 		name="Sakai"
 		path={
+			
 		}
 		control={
 		}
@@ -271,6 +276,7 @@ Ejiri= 	#name of node
 		outgoing={
 		name="Shinagawa"
 		path={
+			434 1270 1269
 		}
 		control={
 		}
@@ -289,6 +295,7 @@ Suwa= 	#name of node
 		outgoing={
 		name="Kiyosu"
 		path={
+			619 368
 		}
 		control={
 		}
@@ -296,6 +303,7 @@ Suwa= 	#name of node
 		outgoing={
 		name="Ejiri"
 		path={
+			447 430
 		}
 		control={
 		}
@@ -303,6 +311,7 @@ Suwa= 	#name of node
 		outgoing={
 		name="Shinagawa"
 		path={
+			440 679 512
 		}
 		control={
 		}
@@ -428,6 +437,7 @@ Sakata= 	#name of node
 		outgoing={
 		name="Kurokawa"
 		path={
+			566 674 541
 		}
 		control={
 		}
@@ -476,6 +486,7 @@ Tsuchizaki= 	#name of node
 		outgoing={
 		name="Shiogama"
 		path={
+			665 668 591
 		}
 		control={
 		}

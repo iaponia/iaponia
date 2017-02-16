@@ -1,5 +1,6 @@
-government = daimyo
-primary_culture = japaneseculture_group_union = japanese_g
+government = feudal_monarchy
+primary_culture = japanese
+culture_group_union = japanese_g
 religion = shinto
 technology_group = chinese
 historical_rival = TKD

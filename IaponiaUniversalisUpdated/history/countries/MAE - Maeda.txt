@@ -1,4 +1,4 @@
-government = daimyo
+government = feudal_monarchy
 primary_culture = japanese
 religion = shinto
 technology_group = chinese

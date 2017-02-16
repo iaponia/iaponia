@@ -202,9 +202,11 @@ christian = {
 		
 		allowed_center_conversion = {
 			shinto
+			mahayana
 		}
 		allowed_conversion = {
 			shinto
+			mahayana
 		}
 		country = {
 			tolerance_own = 1
@@ -233,9 +235,20 @@ christian = {
 				OR = {
 					religion = shinto
 					religion = catholic
-					religion = reformed
+					religion = mahayana
 				}
-				not = { province_id = 118 }
+				NOT = {
+					any_neighbor_province = {
+						is_reformation_center = yes
+					}
+				}
+				NOT = {
+					any_province = {
+						area = PREV
+						religion = catholic
+						is_reformation_center = yes
+					}
+				}
 				is_in_capital_area = yes
 				is_reformation_center = no
 			}
@@ -260,17 +273,37 @@ christian = {
 			if = {
 				limit = {
 					has_country_flag = reformation_money
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = catholic
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
 				}
 				random_owned_province = {
 					limit = {
 						OR = {
 							religion = shinto
 							religion = catholic
-							religion = reformed
+							religion = mahayana
+						}
+						NOT = {
+							any_neighbor_province = {
+								is_reformation_center = yes
+							}
+						}
+						NOT = {
+							any_province = {
+								area = PREV
+								religion = catholic
+								is_reformation_center = yes
+							}
 						}
 						is_in_capital_area = yes
 						is_reformation_center = no
-						not = { province_id = 118 }
 					}
 					change_religion = catholic
 					add_reform_center = catholic
@@ -279,6 +312,15 @@ christian = {
 			if = {
 				limit = {
 					NOT = { has_country_flag = reformation_money }
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = catholic
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
 				}
 				add_years_of_income = 1.0
 				random_owned_province = {
@@ -286,11 +328,22 @@ christian = {
 						OR = {
 							religion = shinto
 							religion = catholic
-							religion = reformed
+							religion = mahayana
+						}
+						NOT = {
+							any_neighbor_province = {
+								is_reformation_center = yes
+							}
+						}
+						NOT = {
+							any_province = {
+								area = PREV
+								religion = catholic
+								is_reformation_center = yes
+							}
 						}
 						is_in_capital_area = yes
 						is_reformation_center = no
-						not = { province_id = 118 }
 					}
 					change_religion = catholic
 					add_reform_center = catholic
@@ -298,18 +351,6 @@ christian = {
 			}
 					
 			set_country_flag = reformation_money
-			every_known_country = {
-				limit = {
-					reverse_has_opinion_modifier = {
-						who = ROOT
-						modifier = opinion_demote_pope
-					}
-				}
-				reverse_remove_opinion = {
-					who = ROOT
-					modifier = opinion_demote_pope
-				}
-			}
 		}
 		
 		heretic = { CALVINIST }

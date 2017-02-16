@@ -1,4 +1,5 @@
 # The Protestant Reformation
+# Now a Shinto -> Catholic Reformation, though
 country_event = {
 	id = 2001
 	title = "EVTNAME2001"
@@ -11,17 +12,6 @@ country_event = {
 	
 	trigger = {
 		is_year = 1546
-		OR = { 
-			factor = 0.40
-			hizen = {
-			owned_by =  ROOT
-			}
-			factor 0.002
-			satsuma = {
-			owned_by =  ROOT
-			}
-		}
-		NOT = { tag = UKU }
 		religion = shinto
 		#NOT = { is_religion_enabled = catholic }
 		NOT = { any_province = {
@@ -32,14 +22,18 @@ country_event = {
 		NOT = { government = papal_government }
 		NOT = { is_year = 1640 }
 		capital_scope = {
-			continent = asia
+			continent = japan_continent
 			NOT = { has_province_modifier = religious_center }
 		}
 		
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 36
+		modifier = {
+			factor = 0.5
+			region = kyushu_region
+		}
 	}
 
 	option = {

@@ -10,18 +10,6 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-	
-	OR = { 
-			factor = 0.40
-			hizen = {
-			owned_by =  ROOT
-			}
-			factor 0.002
-			satsuma = {
-			owned_by =  ROOT
-			}
-		}
-		NOT = { tag = UKU }
 		NOT = { 
 			any_province = {
 				religion = catholic

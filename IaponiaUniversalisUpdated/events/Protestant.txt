@@ -1,9 +1,9 @@
 # The Protestant Reformation
 # Now a Shinto -> Catholic Reformation, though
 country_event = {
-	id = 2001
-	title = "EVTNAME2001"
-	desc = "EVTDESC2001"
+	id = 201
+	title = "EVTNAME201"
+	desc = "EVTDESC201"
 	picture = RELIGION_eventPicture
 	
 	major = yes
@@ -11,7 +11,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		is_year = 1546
+		is_year = 1543
 		religion = shinto
 		#NOT = { is_religion_enabled = catholic }
 		NOT = { any_province = {
@@ -19,7 +19,6 @@ country_event = {
 				}
 			}
 		is_defender_of_faith = no	
-		NOT = { government = papal_government }
 		NOT = { is_year = 1640 }
 		capital_scope = {
 			continent = japan_continent
@@ -29,15 +28,18 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 36
+		#not sure if it's working
+		months = 600
 		modifier = {
-			factor = 0.5
-			region = kyushu_region
+			factor = 0.10
+			capital_scope = {
+				region = kyushu_region
+			}
 		}
 	}
 
 	option = {
-		name = "EVTOPTA2001"
+		name = "EVTOPTA201"
 		enable_religion = catholic
 		capital_scope = {
 			change_religion = catholic

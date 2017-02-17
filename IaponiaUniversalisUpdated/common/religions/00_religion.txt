@@ -5,6 +5,8 @@
 christian = {
 	defender_of_faith = yes
 	
+	center_of_religion = 683 # Kyoto
+	
 	mahayana = {
 		color = { 0.8 0.3 0.5 }
 		icon = 23
@@ -66,45 +68,47 @@ christian = {
 				name = "conversion_zeal"
 				duration = 3650
 			}	
-				
-			limit = {
-				NOT = {
-					calc_true_if = {
-						all_province = {
-							religion = mahayana
-							is_reformation_center = yes
-						}
-						amount = 3
-					}
-				}
-			}
-			hidden_effect = {
-				random_owned_province = {
-					limit = {
-						OR = {
-							religion = shinto
-							religion = catholic
-							religion = mahayana
-						}
-						NOT = {
-							any_neighbor_province = {
-								is_reformation_center = yes
-							}
-						}
-						NOT = {
-							any_province = {
-								area = PREV
+			
+			if = {	
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
 								religion = mahayana
 								is_reformation_center = yes
 							}
+							amount = 3
 						}
-						is_in_capital_area = yes
-						is_reformation_center = no
 					}
-					change_religion = mahayana
-					add_reform_center = mahayana
 				}
-				#custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							OR = {
+								religion = shinto
+								religion = catholic
+								religion = mahayana
+							}
+							NOT = {
+								any_neighbor_province = {
+									is_reformation_center = yes
+								}
+							}
+							NOT = {
+								any_province = {
+									area = PREV
+									religion = mahayana
+									is_reformation_center = yes
+								}
+							}
+							is_in_capital_area = yes
+							is_reformation_center = no
+						}
+						change_religion = mahayana
+						add_reform_center = mahayana
+					}
+					custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+				}
 			}
 		}
 		
@@ -186,45 +190,47 @@ christian = {
 				name = "conversion_zeal"
 				duration = 3650
 			}	
-				
-			limit = {
-				NOT = {
-					calc_true_if = {
-						all_province = {
-							religion = catholic
-							is_reformation_center = yes
-						}
-						amount = 3
-					}
-				}
-			}
-			hidden_effect = {
-				random_owned_province = {
-					limit = {
-						OR = {
-							religion = shinto
-							religion = catholic
-							religion = mahayana
-						}
-						NOT = {
-							any_neighbor_province = {
-								is_reformation_center = yes
-							}
-						}
-						NOT = {
-							any_province = {
-								area = PREV
+			
+			if = {	
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
 								religion = catholic
 								is_reformation_center = yes
 							}
+							amount = 3
 						}
-						is_in_capital_area = yes
-						is_reformation_center = no
 					}
-					change_religion = catholic
-					add_reform_center = catholic
 				}
-				#custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							OR = {
+								religion = shinto
+								religion = catholic
+								religion = mahayana
+							}
+							NOT = {
+								any_neighbor_province = {
+									is_reformation_center = yes
+								}
+							}
+							NOT = {
+								any_province = {
+									area = PREV
+									religion = catholic
+									is_reformation_center = yes
+								}
+							}
+							is_in_capital_area = yes
+							is_reformation_center = no
+						}
+						change_religion = catholic
+						add_reform_center = catholic
+					}
+					custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+				}
 			}
 		}
 		

@@ -14,7 +14,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 
-trade_goods = salt
+trade_goods = precious_metals
 
 
 1457.12.15 = {

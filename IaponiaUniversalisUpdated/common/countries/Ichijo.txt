@@ -2,6 +2,8 @@
 
 graphical_culture = asiangfx
 
+preferred_religion = catholic
+
 color = { 3  66  44 }
 
 historical_idea_groups = {

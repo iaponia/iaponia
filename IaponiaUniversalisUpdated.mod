@@ -1,4 +1,4 @@
-name="Iaponia Universalis 1.19.*"
+name="Iaponia Universalis 1.19"
 path="mod/IaponiaUniversalisUpdated"
 replace_path="history/countries"
 replace_path="common/bookmarks"
@@ -34,5 +34,5 @@ tags={
 	"trade"
 	"mapOverhaul"
 }
-picture="thecatholicupdateimageworkshop.png"
-supported_version="1.19.*"
+picture="iaponia.png"
+supported_version="1.19.*.*"

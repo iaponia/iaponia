@@ -1,0 +1,20 @@
+hre = no
+discovered_by = chinese
+
+add_core = SNB
+owner = SNB
+controller = SNB
+
+culture = tohoku
+religion = shinto
+capital = "Tokara"
+is_city = yes
+
+base_tax = 20
+base_production = 20
+base_manpower = 20
+
+trade_goods = horses
+
+
+

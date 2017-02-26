@@ -6,7 +6,7 @@ owner = WAA
 controller = WAA
 
 culture = ainu
-religion = shinto
+religion = animist
 capital = "Tokachi"
 
 base_tax = 2

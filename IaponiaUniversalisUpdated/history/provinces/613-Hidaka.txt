@@ -3,7 +3,7 @@ discovered_by = chinese
 
 
 culture = ainu
-religion = shinto
+religion = animist
 capital = "Hidaka"
 
 base_tax = 2

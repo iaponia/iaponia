@@ -3,7 +3,7 @@ government_rank = 1
 primary_culture = ainu
 religion = animism
 technology_group = chinese
-capital = 609
+capital = 608
 
 
 1444.11.11 = {

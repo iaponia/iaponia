@@ -31,6 +31,7 @@ kyushu_region = {
 		munakata_area
 		kama_area
 		strait_islands_area
+		okinawa_area
 	}
 }
 

@@ -694,8 +694,8 @@ province;red;green;blue;x;x
 693;227;138;192;Kanto Mountains;x
 694;99;140;255;Tohoku Mountains;x
 695;227;142;0;Tokara;x
-696;99;144;64;Xuan Fu;x
-697;227;146;128;Datong;x
+696;99;144;64;Amami;x
+697;227;146;128;Okinawa;x
 698;99;148;192;Guyuan;x
 699;227;150;255;Lanzhou;x
 700;100;152;0;Shaanxi;x
@@ -1328,7 +1328,7 @@ province;red;green;blue;x;x
 1328;79;220;250;;x
 1329;80;250;250;West Tsushima Straits;x
 1330;81;200;200;East Tsushima Straits;x
-1331;82;200;250;Bal el Mandeb;x
+1331;82;200;250;Ryukyu Islands;x
 1332;83;220;250;Coast of Mascate;x
 1333;84;250;250;Mascate Coast;x
 1334;85;200;200;Straits of Hormuz;x

@@ -10,7 +10,7 @@ mercantilism = 0.1
 technology_group = chinese
 religion = animism
 primary_culture = japanese
-capital = 1015	# Shuri
+capital = 697	# Shuri
 
 
 #Kings of Ryukyu (Chuzan/Zhongshan) 
@@ -21,6 +21,30 @@ capital = 1015	# Shuri
 		dynasty = "Satto"
 		adm = 2
 		dip = 2
+		mil = 1
+	}
+}
+
+1439.1.1 = {
+	heir = {
+		name = "Shitatsu"
+		monarch_name = "Shitatsu"
+		dynasty = "Sho"
+		birth_date = 1408.1.1
+		death_Date = 1449.10.29
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1444.1.1 = {
+	monarch = {
+		name = "Shitatsu"
+		dynasty = "Sho"
+		adm = 1
+		dip = 1
 		mil = 1
 	}
 }

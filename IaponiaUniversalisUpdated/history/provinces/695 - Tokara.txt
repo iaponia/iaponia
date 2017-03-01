@@ -1,20 +1,20 @@
 hre = no
 discovered_by = chinese
 
-add_core = SNB
-owner = SNB
-controller = SNB
+add_core = RYU
+owner = RYU
+controller = RYU
 
 culture = tohoku
-religion = shinto
-capital = "Tokara"
+religion = animism
+capital = "Toshima"
 is_city = yes
 
-base_tax = 20
-base_production = 20
-base_manpower = 20
+base_tax = 3
+base_production = 2
+base_manpower = 2
 
-trade_goods = horses
+trade_goods = fish
 
 
 

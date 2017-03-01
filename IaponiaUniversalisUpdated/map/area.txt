@@ -1281,6 +1281,7 @@ thrace_area = { #three
 	149 151 1764
 }
 
+
 bulgaria_area = { #5
 	150 159 1765 2746 2750
 }
@@ -2722,7 +2723,7 @@ hebei_area = { #three (North Hebei)
 }
 
 south_hebei_area = { #three
-	695 696 2137
+	2137
 }
 
 shandong_area = { #5

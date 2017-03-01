@@ -3,7 +3,7 @@ discovered_by = chinese
 
 
 culture = ainu
-religion = animist
+religion = animism
 capital = "Iburi"
 
 base_tax = 2

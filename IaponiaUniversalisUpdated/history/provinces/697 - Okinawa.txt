@@ -1,20 +1,23 @@
 hre = no
 discovered_by = chinese
 
-add_core = SNB
-owner = SNB
-controller = SNB
+add_core = RYU
+owner = RYU
+controller = RYU
 
 culture = tohoku
-religion = shinto
-capital = "Okinawa"
+religion = animism
+capital = "Shuri"
 is_city = yes
 
-base_tax = 20
-base_production = 20
-base_manpower = 20
+base_tax = 4
+base_production = 4
+base_manpower = 3
 
-trade_goods = horses
+trade_goods = mainland_trade
 
-
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
 

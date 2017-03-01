@@ -6,7 +6,7 @@ owner = HAA
 controller = HAA
 
 culture = ainu
-religion = animist
+religion = animism
 capital = "Ishikari"
 
 base_tax = 2

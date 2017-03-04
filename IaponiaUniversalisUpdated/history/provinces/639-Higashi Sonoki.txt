@@ -1,9 +1,10 @@
 hre = no
 discovered_by = chinese
 
-add_core = SHN
-owner = SHN
-controller = SHN
+add_core = OMR
+add_core = AIM
+owner = AIM
+controller = AIM
 
 culture = saikai
 religion = shinto

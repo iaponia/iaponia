@@ -7,23 +7,12 @@ controller = AIM
 
 culture = saikai
 religion = shinto
-capital = "Shimabara"
+capital = "Takaki"
 is_city = yes
 fort_15th = yes
 
-base_tax = 4
-base_production = 4
+base_tax = 3
+base_production = 3
 base_manpower = 3
 
 trade_goods = fish
-
-
-1445.11.1 = {
-    religion = shinto
-}
-1578.1.1 = {
-    add_core = RZJ
-    controller = RZJ
-    owner = RZJ
-}
-

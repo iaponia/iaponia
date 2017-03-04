@@ -86,7 +86,7 @@ usuki_area = {
 }
 
 shimabara_area = {
-	47 48 56 89 639
+	47 48 89 639 698
 }
 
 yamato_area = {
@@ -98,7 +98,7 @@ bungo_area = {
 }
 
 saga_area = {
-	49 50 51 52 53 54 55
+	49 50 51 52 53 54 55 56
 }
 
 takeno_area = {
@@ -356,7 +356,7 @@ iga_area = {
 }
 
 shiga_area = {
-	327 329 330 335 336 337 338
+	327 329 330 335 336 337 338 699
 }
 
 inukami_area = {
@@ -451,7 +451,7 @@ mino_area = {
 }
 
 tagi_area = {
-	358 359 360 361 405 406
+	358 359 360 361 405 406 700
 }
 
 #nagano pref

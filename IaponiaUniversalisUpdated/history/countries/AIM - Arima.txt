@@ -2,7 +2,7 @@ government = feudal_monarchy
 primary_culture = japaneseculture_group_union = japanese_g
 religion = shinto
 technology_group = chinese
-capital = 47	# Takaku
+capital = 698	# Shimabara
 
 1430.1.1 = { 
 	monarch = {

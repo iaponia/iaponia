@@ -1,0 +1,17 @@
+hre = no
+discovered_by = chinese
+
+add_core = AIM
+owner = AIM
+controller = AIM
+
+culture = saikai
+religion = shinto
+capital = "Shimabara"
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+trade_goods = tea

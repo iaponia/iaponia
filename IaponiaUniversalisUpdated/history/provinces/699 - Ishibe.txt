@@ -1,0 +1,24 @@
+hre = no
+discovered_by = chinese
+
+add_core = RKK
+owner = RKK
+controller = RKK
+
+culture = kinai
+religion = shinto
+capital = "Shigaraki"
+is_city = yes
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+trade_goods = pottery
+
+
+1571.1.1 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}

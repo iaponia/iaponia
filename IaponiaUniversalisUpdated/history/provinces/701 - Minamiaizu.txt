@@ -1,0 +1,17 @@
+hre = no
+discovered_by = chinese
+
+add_core = ASN
+owner = ASN
+controller = ASN
+
+culture = tohoku
+religion = shinto
+capital = "Hinoemata"
+is_city = yes
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+trade_goods = grain

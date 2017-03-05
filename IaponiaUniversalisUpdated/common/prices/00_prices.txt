@@ -16,7 +16,7 @@ lumber = {
 }
 
 metal = {
-	base_price = 2
+	base_price = 4
 }
 
 bamboo = {
@@ -24,15 +24,15 @@ bamboo = {
 }
 
 mainland_trade = {
-	base_price = 5
+	base_price = 6
 }
 
 lacquerware = {
-	base_price = 3
+	base_price = 3.5
 }
 
 paper = {
-	base_price = 3
+	base_price = 3.5
 }
 
 pottery = {
@@ -72,7 +72,7 @@ fur = {
 }
 
 salt = {
-	base_price = 2
+	base_price = 2.5
 }
 
 naval_supplies = {
@@ -106,7 +106,7 @@ ivory = {
 
 # Eastern Resources
 tea = {
-	base_price = 2
+	base_price = 4
 }
 
 chinaware = {

@@ -228,12 +228,12 @@ MRI_ideas = {
 
 OUC_ideas = {
 	start = {  
-		merc_maintenance_modifier = -0.25
+		global_manpower_modifier = 0.2
 		galley_power = 0.2
 	}
   
 	bonus = {
-		global_autonomy = -0.05
+		army_tradition_decay = -0.01
 	}
   
 	trigger = {
@@ -587,10 +587,10 @@ HJO_ideas = {
 		global_prov_trade_power_modifier = 0.2
 	}
 	five_admonitions = {
+		global_unrest = -2
 		global_tax_modifier = 0.1
 	}
 	fortify_lands = {
-		hostile_attrition = 1
 		garrison_size = 0.2
 	}
 }
@@ -635,12 +635,12 @@ STK_ideas = {
 
 DTE_ideas = {
 	start = {  
-		infantry_power = 0.15
+		discipline = 0.05
 		prestige = 1
 	}
   
 	bonus = {
-		global_trade_power = 0.15
+		production_efficiency = 0.1
 	}
   
 	trigger = {
@@ -655,10 +655,10 @@ DTE_ideas = {
 		ae_impact = -0.1
 	}
 	dragoon_corps = {
-		discipline = 0.05
+		fire_damage = 0.1
 	}
 	red_seal_ships = {
-		trade_steering = 0.15
+		trade_efficiency = 0.1
 		heavy_ship_power = 0.1
 	}
 	permit_missionaries = {
@@ -744,7 +744,7 @@ UKT_ideas = {
 		infantry_power = 0.15
 	}
 	christian_ties = {
-		tolerance_heathen = 2
+		tolerance_heretic = 2
 		church_power_modifier = 0.05
 	}
 	devout_vassals = {
@@ -764,6 +764,8 @@ HGJ_ideas = {
 	
 	trigger = {
 		tag = HGJ
+		tag = SZK
+		tag = NGR
 	}
 	free = yes
 	
@@ -781,7 +783,7 @@ HGJ_ideas = {
 		infantry_cost = -0.1
 	}
 	weak_oppress_strong = {
-		global_tax_modifier = 0.1
+		global_unrest = -1
 		loot_amount = 0.15
 	}
 	ally_daimyo = {
@@ -878,7 +880,7 @@ RKK_ideas = {
 	}
 	
 	bonus = {
-		build_cost = -0.15
+		diplomatic_reputation = 1
 	}
 	
 	trigger = {
@@ -894,7 +896,8 @@ RKK_ideas = {
 		global_autonomy = -0.05
 	}
 	abolish_guild = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.15
+		development_cost = -0.05
 	}
 	rokkaku_code = {
 		global_prov_trade_power_modifier = 0.2
@@ -903,7 +906,7 @@ RKK_ideas = {
 		cavalry_power = 0.15
 	}
 	hostile_borders = {
-		war_exhaustion_cost = -0.1
+		shock_damage_received = -0.1
 	}
 	guerrilla_warfare = {
 		hostile_attrition = 1

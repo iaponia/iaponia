@@ -15,7 +15,7 @@ base_tax = 5
 base_production = 3
 base_manpower = 3
 
-trade_goods = rice
+trade_goods = mainland_trade
 
 
 1561.1.1 = {

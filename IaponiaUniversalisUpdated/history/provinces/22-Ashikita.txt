@@ -1,9 +1,9 @@
 hre = no
 discovered_by = chinese
 
-add_core = KKC
-owner = KKC
-controller = KKC
+add_core = SGR
+owner = SGR
+controller = SGR
 
 culture = saikai
 religion = shinto
@@ -14,7 +14,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 3
 
-trade_goods = silk
+trade_goods = mainland_trade
 
 
 1505.1.1 = {

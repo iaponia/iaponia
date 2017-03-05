@@ -763,9 +763,11 @@ HGJ_ideas = {
 	}
 	
 	trigger = {
+	OR = {
 		tag = HGJ
 		tag = SZK
 		tag = NGR
+	}
 	}
 	free = yes
 	

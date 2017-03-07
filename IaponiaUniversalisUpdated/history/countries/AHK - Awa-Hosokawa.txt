@@ -1,5 +1,6 @@
 government = feudal_monarchy
-primary_culture = japaneseculture_group_union = japanese_g
+primary_culture = awa
+culture_group_union = shikoku
 religion = shinto
 technology_group = chinese
 capital = 153	# Itano

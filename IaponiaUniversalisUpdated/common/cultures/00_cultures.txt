@@ -7,246 +7,246 @@
 # graphical_culture = westerngfx
 # second_graphical_culture = muslimgfx (fallback if the first does not exist)
 
-hayato = { 
+hayato_c = { 
 	graphical_culture = asiangfx
 	
-	sasshu = { #kagoshima #satsuma #kawanabe #osumi
+	sasshu_c = { #kagoshima #satsuma #kawanabe #osumi
 		primary = SMZ
 		dynasty_names = { Shimazu Irikiin Kawakami Kamo Tanegashima Kimotsuki Kabayama Yamada Ijuin Nejime }
 	}
-	hyuga = { #hyuga #usuki
+	hyuga_c = { #hyuga #usuki
 		primary = ITO
 		dynasty_names = { Ito Hongo Niiro Kitahara Tsuchimochi Mitai Kiwaki Shimazu }
 	}
-	ryukyuan = { #okinawa
+	ryukyuan_c = { #okinawa
 		primary = RYU
 		dynasty_names = { Sho }
 	}
 }
 
-kyushu = { 
+kyushu_c = { 
 	graphical_culture = asiangfx
 	
-	hoshu = { #Bungo #Buzen
+	hoshu_c = { #Bungo #Buzen
 		primary = OTM
 		dynasty_names = { Otomo Shiga Tawara Bekki Yoshioka Yoshihiro Ichimada Usuki Saiki Sada Ustunomiya }
 	}
-	higo = { #Kuma #Higo #Kikuchi
+	higo_c = { #Kuma #Higo #Kikuchi
 		primary = KKC
 		dynasty_names = { Kikuchi Aso Akaboshi Kumabe Jo Kai Sagara Uemura Okamoto Indo Amakusa }
 	}
-	hizen = { #Saga #Shimabara #Strait Islands
+	hizen_c = { #Saga #Shimabara #Strait Islands
 		primary = RZJ
 		dynasty_names = { Shoni Ryuzoji Nabeshima Arima Omura Saigo Matsura Tsushima Egami Kumashiro }
 	}
-	chikushu = { #Akizuki #Chikugo #Kurume #Chikuzen #Iizuka
+	chikushu_c = { #Akizuki #Chikugo #Kurume #Chikuzen #Iizuka
 		primary = SHN
 		dynasty_names = { Tachibana Takahashi Kamachi Akizuki Ida Tsukushi Harada Munakata Shoni }
 	}
 }
 
-sanyo = { 
+sanyo_c = { 
 	graphical_culture = asiangfx
 
-	choshu = { #Nagato #Suo
+	choshu_c = { #Nagato #Suo
 		primary = OUC
 		dynasty_names = { Ouchi Sue Naito Toida Sugi Amano Hironaka Iida Reizei Era Niho Masuda Yoshimi }
 	}
-	aki = { #Aki #Takata
+	aki_c = { #Aki #Takata
 		primary = MRI
 		dynasty_names = { Mori Kobayakawa Kikkawa Hoida Fukuhara Awaya Kunishi Nomi Koi Kodama Shishido Kumagai Takeda }
 	}
-	bishu = { #Mitsugi #Bingo #Asakuchi #Bitchu #Kojima #Bizen
+	bishu_c = { #Mitsugi #Bingo #Asakuchi #Bitchu #Kojima #Bizen
 		primary = UKT
 		dynasty_names = { Ukita Uragami Akashi Osafune Togawa Hanabusa Mimura Shimizu Niimi Sho Yamanouchi }
 	}
-	harima = { #Ako #Harima #Akashi
+	harima_c = { #Ako #Harima #Akashi
 		primary = AKM
 		dynasty_names = { Akamatsu Bessho Kuroda Kodera Goto Kuriyama Inoe Arima Nakamura }
 	}
 }
 
-sanin = { 
+sanin_c = { 
 	graphical_culture = asiangfx
 	
-	izumo = { #Iwami #Izumo #Yasugi #Oki
+	izumo_c = { #Iwami #Izumo #Yasugi #Oki
 		primary = AMA 
 		dynasty_names = { Amago Yamanaka Sase Honjo Akana Matsuda Kawazoe Uyama Kamei Tachihara Yokomichi Kyogoku }
 	}
-	hakushu = { #Hoki #Mashima #Mimasaka
+	hakushu_c = { #Hoki #Mashima #Mimasaka
 		primary = NNJ
 		dynasty_names = { Nanjo Yamada Miyamoto Harada Goto Miura Maki }
 	}
-	inaba = { #Inaba #Tajima
+	inaba_c = { #Inaba #Tajima
 		primary = YMN
 		dynasty_names = { Yamana Yoshioka Otagaki Kakiya Yagi Tainosho }
 	}
 }
 
-shikoku = { 
+shikoku_c = { 
 	graphical_culture = asiangfx
 
-	tosa = { #Tosa
+	tosa_c = { #Tosa
 		primary = CSK
 		dynasty_names = { Chosokabe Ichijo Doi Aki Motoyama Tsuno Kosokabe Kuwana Tani Yoshida Kira Fukudome }
 	}
-	iyo = { #Iyo #Uwajima #Niihama
+	iyo_c = { #Iyo #Uwajima #Niihama
 		primary = KNO
 		dynasty_names = { Kono Ustunomiya Murakami Saionji Ubagai Hiraoka }
 	}
-	awa = { #Awa #Kaifu #Sanuki #Marugame #Awaji
+	awa_c = { #Awa #Kaifu #Sanuki #Marugame #Awaji
 		primary = MYI
 		dynasty_names = { Miyoshi Sogo Onishi Atagi Kan Yasutomi Kozai Takahara Kagawa Shichijo }
 	}
 }
 
-kinai = { 
+kinai_c = { 
 	graphical_culture = asiangfx
 
-	tanshu = { #Tanba #Tango
+	tanshu_c = { #Tanba #Tango
 		primary = HTN
 		dynasty_names = { Hatano Akai Momii Naito Adachi Ashida Isshiki Inatomi }
 	}
-	yamato = { #Kyoto #Yamashiro #Yamato #Yoshino #Katsuge
+	yamato_c = { #Kyoto #Yamashiro #Yamato #Yoshino #Katsuge
 		primary = MNA
 		dynasty_names = { Ashikaga Hosokawa Mitsubuchi Isshiki Wada Ninagawa Yanagisawa Ise Tsutsui Yagyu Shima Matsukura Matsunaga Tochi Ochi }
 	}
-	sesshu = { #Settsu #Osaka #Izumi #Katano #Kawachi #Nishigori
+	sesshu_c = { #Settsu #Osaka #Izumi #Katano #Kawachi #Nishigori
 		primary = HSK
 		dynasty_names = { Hosokawa Ikeda Araki Takayama Nakagawa Naito Konishi Hatakeyama Yuki Yusa Yasumi Honganji Shimotsuma }
 	}
-	kii = { #Kii #Nankii
+	kii_c = { #Kii #Nankii
 		primary = HTK
 		dynasty_names = { Suzuki Oka Tsuchibashi Ota Yukawa Oyama Tsuda Hatakeyama }
 	}
 }
 
-kansai = { 
+kansai_c = { 
 	graphical_culture = asiangfx
 	
-	omi = { #Omi #Imahama
+	omi_c = { #Omi #Imahama
 		primary = RKK
 		dynasty_names = { Rokkaku Gamo Goto Shindo Todo Otani Kyogoku Kutsuki Azai Isono Ishida Endo Miyabe Tanaka }
 	}
-	seishu = { #Kuwana #Tsu #Ise
+	seishu_c = { #Kuwana #Tsu #Ise
 		primary = KBK
 		dynasty_names = { Kitabatake Kuki Nagano Ujii Hosono Wakabe Seki Kozukuri Ganshoji }
 	}
-	mino = { #Fuwa #Mino #Toki
+	mino_c = { #Fuwa #Mino #Toki
 		primary = STO
 		dynasty_names = { Toki Saito Akechi Takenaka Hori Fuwa Inaba Furuta Hineno Toyama Ando Ujiie Kato Maeno }
 	}
-	owari = { #Owari #Aichi
+	owari_c = { #Owari #Aichi
 		primary = ODA
 		dynasty_names = { Oda Hashiba Niwa Maeda Shibata Shiba Takigawa Kawajiri Sakuma Mori Hayashi Kanamori Sassa Fukushima Hachisuka Asano Yamauchi }
 	}
 }
 
-hokuriku = { 
+hokuriku_c = { 
 	graphical_culture = asiangfx
 
-	echizen = { #Wakasa #Echizen
+	echizen_c = { #Wakasa #Echizen
 		primary = ASA
 		dynasty_names = { Asakura Maeba Akaza Horie Yamazaki Uozumi Magara Takeda Hemi Shiba }
 	}
-	koshu = { #Kaga #Noto
+	koshu_c = { #Kaga #Noto
 		primary = HGJ
 		dynasty_names = { Honganji Shimotsuma Shichiri Suzuki Sugiura Tokuda Togashi Hatakeyama Yusa Cho Nukui }
 	}
-	esshu = { #Etchu #Echigo #Uonuma #Shibata #Sado
+	esshu_c = { #Etchu #Echigo #Uonuma #Shibata #Sado
 		primary = NGO
 		dynasty_names = { Nagao Uesugi Usami Jojo Amakasu Saito Honjo Kitajo Yasuda Kakizaki Naoe Shibata Higuchi Irobe Kojima Jinbo Shiina Honma }
 	}
 }
 
-tosan = { 
+tosan_c = { 
 	graphical_culture = asiangfx
 
-	hida = { #Hida
+	hida_c = { #Hida
 		primary = AKJ
 		dynasty_names = { Anegakoji Mitsugi Uchigashima Ema Asoya }
 	}
-	shinano = { #Shinano #Takai #Saku
+	shinano_c = { #Shinano #Takai #Saku
 		primary = SNA
 		dynasty_names = { Ogasawara Inukai Kiso Murakami Unno Sanada Hoshina Suwa Yashiro Mizoguchi }
 	}
-	kai = { #Kai
+	kai_c = { #Kai
 		primary = TKD
 		dynasty_names = { Takeda Baba Yamagata Naito Kosaka Oyamada Yamamoto Ichijo Hara Tada Itagaki Amari Obu Obata Komai Anayama Akiyama }
 	}
 }
 
-tokai = { 
+tokai_c = { 
 	graphical_culture = asiangfx
 
-	mikawa = { #Mikawa #Shitara
+	mikawa_c = { #Mikawa #Shitara
 		primary = TKG
 		dynasty_names = { Tokugawa Matsudaira Honda Sakai Sakakibara Torii Hattori Okubo Okudaira Abe Koriki Naito Mizuno Watanabe Makino Ishikawa }
 	}
-	sunshu = { #Totomi #Haibara #Suruga
+	sunshu_c = { #Totomi #Haibara #Suruga
 		primary = IMG
 		dynasty_names = { Imagawa Ii Iio Amano Sena Okabe Itamo Asahina Udono Kushima Abe }
 	}
-	sagami = { #Izu #Sagami #Kamakura
+	sagami_c = { #Izu #Sagami #Kamakura
 		primary = HJO
 		dynasty_names = { Hojo Tame Daidoji Tominaga Shimizu Ando Nakayama Haga Kasahara Nakayama Ashikaga }
 	}
 }
 
-kanto = { 
+kanto_c = { 
 	graphical_culture = asiangfx
 
-	musashi = { #Musashi #Iruma #Saitama #Kodama #Kozuke #Tago
+	musashi_c = { #Musashi #Iruma #Saitama #Kodama #Kozuke #Tago
 		primary = UES
 		dynasty_names = { Uesugi Narita Ota Fujita Ueda Miyagi Oishi Nagano Kamiizumi Wada Numata Obata Yokoze }
 	}
-	shimosa = { #Shimosa #Choshi
+	shimosa_c = { #Shimosa #Choshi
 		primary = KGA
 		dynasty_names = { Ashikaga Yuki Chiba Yanada Hara Takagi Oyama }
 	}
-	boso = { #Kazusa #Isumi #Boso
+	boso_c = { #Kazusa #Isumi #Boso
 		primary = STM
 		dynasty_names = { Satomi Takeda Ashikaga Masaki Toki Sakai Horie }
 	}
-	hitachi = { #Hitachi #Shimotsuke #Nasu #Ibaraki #Tsukuba
+	hitachi_c = { #Hitachi #Shimotsuke #Nasu #Ibaraki #Tsukuba
 		primary = STK
 		dynasty_names = { Satake Okamoto Wada Makabe Umezu Onuki Sugenoya Oda Ustunomiya Mibu Sano Haga Ozeki Otawara Nasu }
 	}
 }
 
-tohoku = { 
+tohoku_c = { 
 	graphical_culture = asiangfx
 
-	aizu = { #Aizu #Iwashiro #Iwaki #Okitama
+	aizu_c = { #Aizu #Iwashiro #Iwaki #Okitama
 		primary = ASN
 		dynasty_names = { Ashina Anazawa Tomita Inawashiro Nikaido Hodohara Endo Soma Iwaki Hatakeyama Ouchi Tamura Shirakawa }
 	}
-	dewa = { #Mogami #Uzen #Ugo #Akita
+	dewa_c = { #Mogami #Uzen #Ugo #Akita
 		primary = MGM
 		dynasty_names = { Mogami Ujiie Shimura Yagashiwa Nobesawa Eguchi Narisawa Tendo Sakenobe Daihoji Tozenji Onodera Tozawa Anto Asari }
 	}
-	rikuzen = { #Watari #Miyagi #Rikuchu
+	rikuzen_c = { #Watari #Miyagi #Rikuchu
 		primary = DTE
 		dynasty_names = { Date Katakura Rusu Watari Endo Oniniwa Kori Goto Shiroishi Hasekura Kasai Osaki Kokubun Ujiie }
 	}
-	rikugo = { #Iwate #Hei #Rikugo #Tsugaru
+	rikugo_c = { #Iwate #Hei #Rikugo #Tsugaru
 		primary = NNB
 		dynasty_names = { Nanbu Shiba Tsugaru Waga Hienuki Kashiyama Kita Ishikawa Izumiyama Kunohe Oura Kitabatake }
 	}
 }
 
-hokkai = { 
+hokkai_c = { 
 	graphical_culture = asiangfx
 
-	ezo = { #Oshima Province
+	ezo_c = { #Oshima Province
 		primary = 
 		dynasty_names = { Kakizaki }
 	}
-	ainu = { #Shiribeshi #Tokachi
+	ainu_c = { #Shiribeshi #Tokachi
 		primary = SSA
 		dynasty_names = { Betsu Shiraoi Kurasi Ponyanpe Shirokani Otona Ekashi Saru Usu }
 	}
-	satsumon = { #Kamikawa
+	satsumon_c = { #Kamikawa
 		primary = HAA
 		dynasty_names = { Betsu Shiraoi Kurasi Ponyanpe Shirokani Otona Ekashi Saru Usu }
 	}

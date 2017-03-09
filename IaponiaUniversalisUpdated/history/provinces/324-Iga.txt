@@ -5,7 +5,7 @@ add_core = NKI
 owner = NKI
 controller = NKI
 
-culture = tokai
+culture = omi_c
 religion = shinto
 capital = "Chigachishi"
 is_city = yes

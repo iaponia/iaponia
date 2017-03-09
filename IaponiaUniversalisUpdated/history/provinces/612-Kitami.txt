@@ -1,6 +1,9 @@
 hre = no
 discovered_by = chinese
 
+add_core = HAA
+owner = HAA
+controller = HAA
 
 culture = satsumon_c
 religion = animism
@@ -10,9 +13,4 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 
-trade_goods = unknown
-
-
-native_ferocity = 1
-native_hostileness = 1
-native_size = 5
+trade_goods = fish

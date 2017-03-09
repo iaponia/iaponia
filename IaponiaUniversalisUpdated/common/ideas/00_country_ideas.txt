@@ -1028,3 +1028,43 @@ RZJ_ideas = {
 		trade_efficiency = 0.1
 	}
 }
+
+ANU_ideas = {
+    start = {
+        stability_cost_modifier = -0.1
+        unjustified_demands = -0.1
+    }
+    bonus = {
+        hostile_attrition = 1
+    }
+    trigger = {
+        OR = {
+		tag = SSA
+		tag = HAA
+		tag = WAA
+	}
+    }
+    free = yes
+    yukar_custom = {
+        prestige = 1
+    }
+    ezochi_custom = {
+        land_attrition = -0.1
+		movement_speed = 0.1
+    }
+    jomon_custom = {
+        culture_conversion_cost = -0.15
+    }
+    surku_custom = {
+        mil_tech_cost_modifier = -0.1
+    }
+    iomante_custom = {
+        land_morale = 0.1
+    }
+    fourth_gateway_custom = {
+        trade_efficiency = 0.15
+    }
+    shakushain_custom = {
+        defensiveness = 0.2
+    }
+}

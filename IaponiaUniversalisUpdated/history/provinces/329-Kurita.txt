@@ -5,7 +5,7 @@ add_core = RKK
 owner = RKK
 controller = RKK
 
-culture = kinai
+culture = omi_c
 religion = shinto
 capital = "Seta"
 is_city = yes

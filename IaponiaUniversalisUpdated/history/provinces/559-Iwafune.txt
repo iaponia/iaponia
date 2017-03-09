@@ -7,7 +7,7 @@ add_core = HNJ
 owner = EGU
 controller = EGU
 
-culture = hokuriku
+culture = esshu_c
 religion = shinto
 capital = "Honjo"
 is_city = yes

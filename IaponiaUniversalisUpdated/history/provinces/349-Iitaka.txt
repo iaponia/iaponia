@@ -5,7 +5,7 @@ add_core = KBK
 owner = KBK
 controller = KBK
 
-culture = tokai
+culture = seishu_c
 religion = shinto
 capital = "Tsuzurakuma"
 is_city = yes

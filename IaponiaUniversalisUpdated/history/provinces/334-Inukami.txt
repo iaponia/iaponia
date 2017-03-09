@@ -6,7 +6,7 @@ add_core = AZI
 owner = KGK
 controller = KGK
 
-culture = kinai
+culture = omi_c
 religion = shinto
 capital = "Sawayama"
 is_city = yes

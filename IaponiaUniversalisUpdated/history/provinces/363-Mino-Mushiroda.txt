@@ -6,7 +6,7 @@ add_core = STO
 owner = TKI
 controller = TKI
 
-culture = tosan
+culture = mino_c
 religion = shinto
 capital = "Kitagata"
 is_city = yes

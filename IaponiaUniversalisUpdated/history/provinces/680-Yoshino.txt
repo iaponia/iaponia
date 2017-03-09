@@ -7,7 +7,7 @@ add_core = KAI
 owner = SBA
 controller = SBA
 
-culture = hokuriku
+culture = echizen_c
 religion = shinto
 capital = "Oguromaru"
 is_city = yes

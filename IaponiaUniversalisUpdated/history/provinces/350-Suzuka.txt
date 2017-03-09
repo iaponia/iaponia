@@ -6,7 +6,7 @@ add_core = SKI
 owner = ISK
 controller = ISK
 
-culture = tokai
+culture = seishu_c
 religion = shinto
 capital = "Suzuka"
 is_city = yes

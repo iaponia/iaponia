@@ -5,7 +5,7 @@ add_core = TGS
 owner = TGS
 controller = TGS
 
-culture = hokuriku
+culture = koshu_c
 religion = shinto
 capital = "Matsune"
 is_city = yes

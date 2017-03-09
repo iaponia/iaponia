@@ -6,7 +6,7 @@ add_core = UMD
 owner = ISK
 controller = ISK
 
-culture = tokai
+culture = seishu_c
 religion = shinto
 capital = "Ichiba"
 is_city = yes

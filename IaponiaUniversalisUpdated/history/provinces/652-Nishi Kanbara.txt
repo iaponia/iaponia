@@ -6,7 +6,7 @@ add_core = NGO
 owner = EGU
 controller = EGU
 
-culture = hokuriku
+culture = esshu_c
 religion = shinto
 capital = "Ikazuchi"
 is_city = yes

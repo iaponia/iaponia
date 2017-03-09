@@ -6,7 +6,7 @@ add_core = JNB
 owner = NHK
 controller = NHK
 
-culture = hokuriku
+culture = koshu_c
 religion = shinto
 capital = "Matsunami"
 is_city = yes

@@ -7,7 +7,7 @@ add_core = KOD
 owner = SBA
 controller = SBA
 
-culture = tokai
+culture = owari_c
 religion = shinto
 capital = "Daikoji"
 is_city = yes

@@ -6,7 +6,7 @@ add_core = NGN
 owner = ISK
 controller = ISK
 
-culture = tokai
+culture = seishu_c
 religion = shinto
 capital = "Ujii"
 is_city = yes

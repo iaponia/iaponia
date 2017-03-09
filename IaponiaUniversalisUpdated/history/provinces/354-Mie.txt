@@ -5,7 +5,7 @@ add_core = ISK
 owner = ISK
 controller = ISK
 
-culture = tokai
+culture = seishu_c
 religion = shinto
 capital = "Chikusa"
 is_city = yes

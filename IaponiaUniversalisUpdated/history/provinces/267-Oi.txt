@@ -5,7 +5,7 @@ add_core = WTK
 owner = WTK
 controller = WTK
 
-culture = hokuriku
+culture = echizen_c
 religion = shinto
 capital = "Saichiyama"
 is_city = yes

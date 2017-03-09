@@ -5,7 +5,7 @@ add_core = ASN
 owner = ASN
 controller = ASN
 
-culture = tohoku
+culture = aizu_c
 religion = shinto
 capital = "Hinoemata"
 is_city = yes

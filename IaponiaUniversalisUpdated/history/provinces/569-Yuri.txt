@@ -6,7 +6,7 @@ add_core = NKH
 owner = MGM
 controller = MGM
 
-culture = tohoku
+culture = dewa_c
 religion = shinto
 capital = "Honjo"
 is_city = yes

@@ -5,7 +5,7 @@ add_core = STK
 owner = STK
 controller = STK
 
-culture = kanto
+culture = hitachi_c
 religion = shinto
 capital = "Tatsugoyama"
 is_city = yes

@@ -5,7 +5,7 @@ add_core = OUE
 owner = OUE
 controller = OUE
 
-culture = tokai
+culture = sagami_c
 religion = shinto
 capital = "Kano-Yazaki"
 is_city = yes

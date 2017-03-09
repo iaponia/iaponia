@@ -6,7 +6,7 @@ add_core = ATB
 owner = TKD
 controller = TKD
 
-culture = tosan
+culture = kai_c
 religion = shinto
 capital = "Koyama"
 is_city = yes

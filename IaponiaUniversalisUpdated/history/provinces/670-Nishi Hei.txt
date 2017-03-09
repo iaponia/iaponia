@@ -5,7 +5,7 @@ add_core = SNB
 owner = SNB
 controller = SNB
 
-culture = tohoku
+culture = rikugo_c
 religion = shinto
 capital = "Yokota"
 is_city = yes

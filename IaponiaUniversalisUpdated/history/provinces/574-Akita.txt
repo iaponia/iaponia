@@ -6,7 +6,7 @@ add_core = ADO
 owner = MNO
 controller = MNO
 
-culture = tohoku
+culture = dewa_c
 religion = shinto
 capital = "Odate"
 is_city = yes

@@ -5,7 +5,7 @@ add_core = UES
 owner = UES
 controller = UES
 
-culture = kanto
+culture = musashi_c
 religion = shinto
 capital = "Ishikura"
 is_city = yes

@@ -5,7 +5,7 @@ add_core = ASR
 owner = ASR
 controller = ASR
 
-culture = tohoku
+culture = dewa_c
 religion = shinto
 capital = "Tokko"
 is_city = yes

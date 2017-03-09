@@ -5,7 +5,7 @@ add_core = TZW
 owner = TZW
 controller = TZW
 
-culture = tohoku
+culture = dewa_c
 religion = shinto
 capital = "Kadoya"
 is_city = yes

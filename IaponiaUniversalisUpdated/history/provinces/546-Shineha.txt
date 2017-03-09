@@ -5,7 +5,7 @@ add_core = SMA
 owner = SMA
 controller = SMA
 
-culture = tohoku
+culture = aizu_c
 religion = shinto
 capital = "Gongendo"
 is_city = yes

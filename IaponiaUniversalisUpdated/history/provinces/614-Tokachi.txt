@@ -5,7 +5,7 @@ add_core = WAA
 owner = WAA
 controller = WAA
 
-culture = ainu
+culture = ainu_c
 religion = animism
 capital = "Tokachi"
 

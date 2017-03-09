@@ -6,7 +6,7 @@ add_core = KIR
 owner = AHK
 controller = AHK
 
-culture = tokai
+culture = mikawa_c
 religion = shinto
 capital = "Honshoji"
 is_city = yes

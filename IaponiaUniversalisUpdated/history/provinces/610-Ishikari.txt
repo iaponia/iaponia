@@ -5,7 +5,7 @@ add_core = HAA
 owner = HAA
 controller = HAA
 
-culture = ainu
+culture = satsumon_c
 religion = animism
 capital = "Ishikari"
 

@@ -5,7 +5,7 @@ add_core = KKZ
 owner = KKZ
 controller = KKZ
 
-culture = ainu
+culture = ezo_c
 religion = shinto
 capital = "Tosaminato"
 is_city = yes

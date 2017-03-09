@@ -6,7 +6,7 @@ add_core = KAI
 owner = SBA
 controller = SBA
 
-culture = tokai
+culture = sunshu_c
 religion = shinto
 capital = "Futamata"
 is_city = yes

@@ -5,7 +5,7 @@ add_core = UMY
 owner = UMY
 controller = UMY
 
-culture = kanto
+culture = hitachi_c
 religion = shinto
 capital = "Utsunomiya"
 is_city = yes

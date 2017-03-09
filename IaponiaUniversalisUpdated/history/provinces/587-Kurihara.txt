@@ -5,7 +5,7 @@ add_core = OSK
 owner = OSK
 controller = OSK
 
-culture = tohoku
+culture = rikuzen_c
 religion = shinto
 capital = "Masaka"
 is_city = yes

@@ -2,7 +2,7 @@ hre = no
 discovered_by = chinese
 
 
-culture = ainu
+culture = ainu_c
 religion = animism
 capital = "Nemuro"
 

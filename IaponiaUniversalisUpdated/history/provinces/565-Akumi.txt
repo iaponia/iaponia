@@ -5,7 +5,7 @@ add_core = DHJ
 owner = DHJ
 controller = DHJ
 
-culture = tohoku
+culture = dewa_c
 religion = shinto
 capital = "Sakata"
 is_city = yes

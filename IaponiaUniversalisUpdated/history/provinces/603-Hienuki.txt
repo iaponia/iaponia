@@ -5,7 +5,7 @@ add_core = HIE
 owner = HIE
 controller = HIE
 
-culture = tohoku
+culture = rikugo_c
 religion = shinto
 capital = "Hanamaki"
 is_city = yes

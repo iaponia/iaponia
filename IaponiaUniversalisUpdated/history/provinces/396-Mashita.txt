@@ -6,7 +6,7 @@ add_core = MKI
 owner = KGK
 controller = KGK
 
-culture = tosan
+culture = hida_c
 religion = shinto
 capital = "Miyaji"
 is_city = yes

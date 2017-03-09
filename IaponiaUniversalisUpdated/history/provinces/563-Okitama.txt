@@ -5,7 +5,7 @@ add_core = DTE
 owner = DTE
 controller = DTE
 
-culture = tohoku
+culture = aizu_c
 religion = shinto
 capital = "Ohashi"
 is_city = yes

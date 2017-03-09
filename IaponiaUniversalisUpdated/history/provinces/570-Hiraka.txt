@@ -5,7 +5,7 @@ add_core = OND
 owner = OND
 controller = OND
 
-culture = tohoku
+culture = dewa_c
 religion = shinto
 capital = "Hira"
 is_city = yes

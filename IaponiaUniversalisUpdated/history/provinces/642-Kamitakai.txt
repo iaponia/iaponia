@@ -5,7 +5,7 @@ add_core = TNS
 owner = TNS
 controller = TNS
 
-culture = tosan
+culture = shinano_c
 religion = shinto
 capital = "Sotai"
 is_city = yes

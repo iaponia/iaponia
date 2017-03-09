@@ -5,7 +5,7 @@ add_core = KSM
 owner = KSM
 controller = KSM
 
-culture = kanto
+culture = hitachi_c
 religion = shinto
 capital = "Kashima"
 is_city = yes

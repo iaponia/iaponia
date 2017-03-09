@@ -5,7 +5,7 @@ add_core = OUE
 owner = OUE
 controller = OUE
 
-culture = kanto
+culture = sagami_c
 religion = shinto
 capital = "Oba"
 is_city = yes

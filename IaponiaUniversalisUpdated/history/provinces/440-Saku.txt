@@ -5,7 +5,7 @@ add_core = UNO
 owner = UNO
 controller = UNO
 
-culture = tosan
+culture = shinano_c
 religion = shinto
 capital = "Takano"
 is_city = yes

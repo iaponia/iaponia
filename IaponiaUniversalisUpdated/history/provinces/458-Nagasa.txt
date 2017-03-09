@@ -5,7 +5,7 @@ add_core = STM
 owner = STM
 controller = STM
 
-culture = kanto
+culture = boso_c
 religion = shinto
 capital = "Katsuura"
 is_city = yes

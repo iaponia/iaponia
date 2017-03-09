@@ -5,7 +5,7 @@ add_core = TMA
 owner = TMA
 controller = TMA
 
-culture = tohoku
+culture = aizu_c
 religion = shinto
 capital = "Moriyama"
 is_city = yes

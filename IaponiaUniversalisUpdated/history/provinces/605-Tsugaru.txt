@@ -6,7 +6,7 @@ add_core = HNB
 owner = HNB
 controller = HNB
 
-culture = tohoku
+culture = rikugo_c
 religion = shinto
 capital = "Oura"
 is_city = yes

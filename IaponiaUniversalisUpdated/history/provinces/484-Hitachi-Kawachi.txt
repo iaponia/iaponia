@@ -5,7 +5,7 @@ add_core = HIO
 owner = HIO
 controller = HIO
 
-culture = kanto
+culture = hitachi_c
 religion = shinto
 capital = "Ushiku"
 is_city = yes

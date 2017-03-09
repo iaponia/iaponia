@@ -5,7 +5,7 @@ add_core = KTK
 owner = KTK
 controller = KTK
 
-culture = kanto
+culture = boso_c
 religion = shinto
 capital = "Chonan"
 is_city = yes

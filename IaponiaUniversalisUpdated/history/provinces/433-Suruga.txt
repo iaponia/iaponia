@@ -5,7 +5,7 @@ add_core = IMG
 owner = IMG
 controller = IMG
 
-culture = tokai
+culture = sunshu_c
 religion = shinto
 capital = "Numatsu"
 is_city = yes

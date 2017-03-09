@@ -5,7 +5,7 @@ add_core = CBA
 owner = CBA
 controller = CBA
 
-culture = kanto
+culture = shimosa_c
 religion = shinto
 capital = "Iwagasaki"
 is_city = yes

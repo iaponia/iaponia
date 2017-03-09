@@ -7,7 +7,7 @@ add_core = AKJ
 owner = KGK
 controller = KGK
 
-culture = tosan
+culture = hida_c
 religion = shinto
 capital = "Kojima"
 is_city = yes

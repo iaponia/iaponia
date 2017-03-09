@@ -5,7 +5,7 @@ add_core = MKM
 owner = MKM
 controller = MKM
 
-culture = tosan
+culture = shinano_c
 religion = shinto
 capital = "Shioda"
 is_city = yes

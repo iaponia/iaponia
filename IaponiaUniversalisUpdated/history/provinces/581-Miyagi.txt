@@ -5,7 +5,7 @@ add_core = RSU
 owner = RSU
 controller = RSU
 
-culture = tohoku
+culture = rikuzen_c
 religion = shinto
 capital = "Iwakiri"
 is_city = yes

@@ -5,7 +5,7 @@ add_core = MNO
 owner = MNO
 controller = MNO
 
-culture = tohoku
+culture = dewa_c
 religion = shinto
 capital = "Tsuchizaki"
 is_city = yes

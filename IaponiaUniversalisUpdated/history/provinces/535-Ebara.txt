@@ -6,7 +6,7 @@ add_core = SOD
 owner = OUE
 controller = OUE
 
-culture = kanto
+culture = musashi_c
 religion = shinto
 capital = "Shinagawa"
 is_city = yes

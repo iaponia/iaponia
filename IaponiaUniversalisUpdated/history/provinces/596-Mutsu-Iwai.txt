@@ -5,7 +5,7 @@ add_core = KSI
 owner = KSI
 controller = KSI
 
-culture = tohoku
+culture = rikuzen_c
 religion = shinto
 capital = "Ichinoseki"
 is_city = yes

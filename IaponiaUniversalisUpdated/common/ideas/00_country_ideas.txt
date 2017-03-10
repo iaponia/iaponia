@@ -1068,3 +1068,41 @@ ANU_ideas = {
         defensiveness = 0.2
     }
 }
+
+RYU_ideas = {
+	start = {
+		trade_power = 0.2
+		diplomatic_reputation = 1
+	}
+	
+	bonus = {
+		prestige_decay = -0.01
+	}
+	
+	trigger = {
+		tag = RYU
+	}
+	free = yes
+	
+	ryu_chinese_investiture = {
+		ae_impact = -0.25
+	}
+	reform_the_ryukyuan_religion = {
+		global_unrest = -1
+	}
+	ryu_shuri_castle = {
+		prestige = 1
+	}
+	ryu_maritime_com = {
+		trade_range_modifier = 0.33
+	}
+	ryu_sign_trade_agreements = {
+		trade_efficiency = 0.10
+	}
+	ryu_national_academy = {
+		technology_cost = -0.05
+	}
+	ryu_the_three_mountains = {
+		free_leader_pool = 1
+	}
+}

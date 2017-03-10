@@ -9,7 +9,7 @@ mercantilism = 0.1
 #serfdom_freesubjects = -3
 technology_group = chinese
 religion = animism
-primary_culture = japanese
+primary_culture = ryukyuan_c
 capital = 697	# Shuri
 
 

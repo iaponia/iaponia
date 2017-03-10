@@ -1,5 +1,5 @@
 government = theocratic_government
-primary_culture = japaneseculture_group_union = japanese_g
+primary_culture = kashu_c
 religion = mahayana
 technology_group = chinese
 historical_rival = ODA

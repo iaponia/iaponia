@@ -1,6 +1,5 @@
 government = feudal_monarchy
-primary_culture = japanese
-culture_group_union = japanese_g
+primary_culture = omi_c
 religion = shinto
 technology_group = chinese
 historical_rival = KGK

@@ -4,7 +4,7 @@
 default_ideas = {
 	start = {
 		spy_offence = 0.15
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.20
 	}
 	
 	bonus = {

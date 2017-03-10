@@ -6,7 +6,7 @@ add_core = HUC
 owner = HTK
 controller = HTK
 
-culture = nankai
+culture = kii_c
 religion = shinto
 capital = "Tanabe"
 is_city = yes

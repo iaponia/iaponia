@@ -6,7 +6,7 @@ add_core = SUE
 owner = OUC
 controller = OUC
 
-culture = setouchi
+culture = choshu_c
 religion = shinto
 capital = "Katada"
 is_city = yes

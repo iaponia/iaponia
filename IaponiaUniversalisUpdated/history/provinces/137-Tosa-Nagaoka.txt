@@ -6,7 +6,7 @@ add_core = CSK
 owner = HSK
 controller = HSK
 
-culture = nankai
+culture = tosa_c
 religion = shinto
 capital = "Oko"
 is_city = yes

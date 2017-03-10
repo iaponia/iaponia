@@ -5,7 +5,7 @@ add_core = KGK
 owner = KGK
 controller = KGK
 
-culture = sanin
+culture = izumo_c
 religion = shinto
 capital = "Ama"
 is_city = yes

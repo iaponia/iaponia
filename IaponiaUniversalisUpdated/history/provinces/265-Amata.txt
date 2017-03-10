@@ -6,7 +6,7 @@ add_core = HTN
 owner = HSK
 controller = HSK
 
-culture = sanin
+culture = tanshu_c
 religion = shinto
 capital = "Oniga"
 is_city = yes

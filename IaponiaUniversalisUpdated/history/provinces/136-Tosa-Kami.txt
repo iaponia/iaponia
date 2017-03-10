@@ -6,7 +6,7 @@ add_core = AKI
 owner = HSK
 controller = HSK
 
-culture = nankai
+culture = tosa_c
 religion = shinto
 capital = "Himekura"
 is_city = yes

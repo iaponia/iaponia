@@ -6,7 +6,7 @@ add_core = YKW
 owner = HTK
 controller = HTK
 
-culture = nankai
+culture = kii_c
 religion = shinto
 capital = "Gobo"
 is_city = yes

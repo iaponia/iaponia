@@ -5,7 +5,7 @@ add_core = HTK
 owner = HTK
 controller = HTK
 
-culture = nankai
+culture = kii_c
 religion = shinto
 capital = "Saika"
 is_city = yes

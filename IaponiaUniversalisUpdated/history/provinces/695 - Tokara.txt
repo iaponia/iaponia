@@ -5,7 +5,7 @@ add_core = RYU
 owner = RYU
 controller = RYU
 
-culture = tohoku
+culture = ryukyuan_c
 religion = animism
 capital = "Toshima"
 is_city = yes

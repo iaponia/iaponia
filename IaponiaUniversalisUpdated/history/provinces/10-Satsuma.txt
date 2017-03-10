@@ -5,7 +5,7 @@ add_core = IRK
 owner = IRK
 controller = IRK
 
-culture = saikai
+culture = sasshu_c
 religion = shinto
 capital = "Kiyoshiki"
 is_city = yes

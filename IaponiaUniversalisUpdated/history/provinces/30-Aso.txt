@@ -5,7 +5,7 @@ add_core = ASO
 owner = ASO
 controller = ASO
 
-culture = saikai
+culture = higo_c
 religion = shinto
 capital = "Nango"
 

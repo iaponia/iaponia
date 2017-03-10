@@ -5,7 +5,7 @@ add_core = KMK
 owner = KMK
 controller = KMK
 
-culture = saikai
+culture = sasshu_c
 religion = shinto
 capital = "Koyama"
 is_city = yes

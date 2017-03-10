@@ -6,7 +6,7 @@ add_core = TGM
 owner = IYN
 controller = IYN
 
-culture = sanin
+culture = inaba_c
 religion = shinto
 capital = "Miyayoshi"
 is_city = yes

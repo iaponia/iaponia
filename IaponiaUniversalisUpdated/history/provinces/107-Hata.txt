@@ -6,7 +6,7 @@ add_core = ICJ
 owner = HSK
 controller = HSK
 
-culture = nankai
+culture = tosa_c
 religion = shinto
 capital = "Nakamura"
 is_city = yes

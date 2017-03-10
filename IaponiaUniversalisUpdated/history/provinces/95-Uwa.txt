@@ -6,7 +6,7 @@ add_core = SNJ
 owner = KNO
 controller = KNO
 
-culture = setouchi
+culture = iyo_c
 religion = shinto
 capital = "Kurose"
 is_city = yes

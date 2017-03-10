@@ -5,7 +5,7 @@ add_core = HKR
 owner = HKR
 controller = HKR
 
-culture = saikai
+culture = sasshu_c
 religion = shinto
 capital = "Tara"
 is_city = yes

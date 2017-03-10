@@ -5,7 +5,7 @@ add_core = HSO
 owner = HSO
 controller = HSO
 
-culture = kinai
+culture = yamato_c
 religion = shinto
 capital = "Koryo"
 is_city = yes

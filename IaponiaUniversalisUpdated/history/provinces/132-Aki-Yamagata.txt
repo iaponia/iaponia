@@ -5,7 +5,7 @@ add_core = ATK
 owner = ATK
 controller = ATK
 
-culture = setouchi
+culture = aki_c
 religion = shinto
 capital = "Ogurayama"
 is_city = yes

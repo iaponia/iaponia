@@ -6,7 +6,7 @@ add_core = AMA
 owner = KGK
 controller = KGK
 
-culture = sanin
+culture = izumo_c
 religion = shinto
 capital = "Honguzan"
 is_city = yes

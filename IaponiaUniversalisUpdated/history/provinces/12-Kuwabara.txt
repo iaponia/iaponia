@@ -5,7 +5,7 @@ add_core = GMO
 owner = GMO
 controller = GMO
 
-culture = saikai
+culture = sasshu_c
 religion = shinto
 capital = "Kensho"
 is_city = yes

@@ -5,7 +5,7 @@ add_core = HSZ
 owner = HSZ
 controller = HSZ
 
-culture = saikai
+culture = hyuga_c
 religion = shinto
 capital = "Aburatsu"
 is_city = yes

@@ -5,7 +5,7 @@ add_core = HSK
 owner = HSK
 controller = HSK
 
-culture = nankai
+culture = awa_c
 religion = shinto
 capital = "Yagi"
 is_city = yes

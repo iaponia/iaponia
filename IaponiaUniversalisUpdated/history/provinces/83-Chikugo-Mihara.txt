@@ -5,7 +5,7 @@ add_core = OTM
 owner = OTM
 controller = OTM
 
-culture = saikai
+culture = chikushu_c
 religion = shinto
 capital = "Yamaguma"
 is_city = yes

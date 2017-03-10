@@ -5,7 +5,7 @@ add_core = TII
 owner = TII
 controller = TII
 
-culture = kinai
+culture = yamato_c
 religion = shinto
 capital = "Toichi"
 is_city = yes

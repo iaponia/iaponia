@@ -5,7 +5,7 @@ add_core = KKC
 owner = KKC
 controller = KKC
 
-culture = saikai
+culture = higo_c
 religion = shinto
 capital = "Jomura"
 is_city = yes

@@ -5,7 +5,7 @@ add_core = UKU
 owner = UKU
 controller = UKU
 
-culture = saikai
+culture = hizen_c
 religion = shinto
 capital = "Tamanoura"
 is_city = yes

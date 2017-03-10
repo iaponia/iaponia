@@ -5,7 +5,7 @@ add_core = SOO
 owner = SOO
 controller = SOO
 
-culture = saikai
+culture = hizen_c
 religion = shinto
 capital = "Kanaishi"
 is_city = yes

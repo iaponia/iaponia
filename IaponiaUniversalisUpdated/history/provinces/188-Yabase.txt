@@ -6,7 +6,7 @@ add_core = NNJ
 owner = HYN
 controller = HYN
 
-culture = sanin
+culture = hakushu_c
 religion = shinto
 capital = "Senjosan"
 is_city = yes

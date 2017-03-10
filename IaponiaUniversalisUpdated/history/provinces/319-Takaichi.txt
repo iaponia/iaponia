@@ -5,7 +5,7 @@ add_core = OTI
 owner = OTI
 controller = OTI
 
-culture = kinai
+culture = yamato_c
 religion = shinto
 capital = "Takatori"
 is_city = yes

@@ -6,7 +6,7 @@ add_core = TNO
 owner = HSK
 controller = HSK
 
-culture = nankai
+culture = tosa_c
 religion = shinto
 capital = "Himenono"
 is_city = yes

@@ -6,7 +6,7 @@ add_core = MYI
 owner = AHK
 controller = AHK
 
-culture = nankai
+culture = awa_c
 religion = shinto
 capital = "Tokusato"
 is_city = yes

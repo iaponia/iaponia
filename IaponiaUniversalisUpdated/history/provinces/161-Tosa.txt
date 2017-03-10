@@ -6,7 +6,7 @@ add_core = MYM
 owner = HSK
 controller = HSK
 
-culture = nankai
+culture = tosa_c
 religion = shinto
 capital = "Otakayama"
 is_city = yes

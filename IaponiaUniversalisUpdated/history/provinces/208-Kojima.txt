@@ -7,7 +7,7 @@ add_core = URA
 owner = YMN
 controller = YMN
 
-culture = setouchi
+culture = bishu_c
 religion = shinto
 capital = "Tsuneyama"
 is_city = yes

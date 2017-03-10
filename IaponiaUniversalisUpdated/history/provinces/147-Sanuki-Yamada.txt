@@ -7,7 +7,7 @@ add_core = KGW
 owner = HSK
 controller = HSK
 
-culture = setouchi
+culture = awa_c
 religion = shinto
 capital = "Sogo"
 is_city = yes

@@ -7,7 +7,7 @@ add_core = YSM
 owner = IWY
 controller = IWY
 
-culture = sanin
+culture = izumo_c
 religion = shinto
 capital = "Tsuwano"
 is_city = yes

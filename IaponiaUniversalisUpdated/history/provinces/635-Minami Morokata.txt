@@ -5,7 +5,7 @@ add_core = NRO
 owner = NRO
 controller = NRO
 
-culture = saikai
+culture = sasshu_c
 religion = shinto
 capital = "Shibushi"
 is_city = yes

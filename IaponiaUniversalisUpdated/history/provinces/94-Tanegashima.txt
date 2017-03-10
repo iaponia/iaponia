@@ -5,7 +5,7 @@ add_core = TNA
 owner = TNA
 controller = TNA
 
-culture = saikai
+culture = sasshu_c
 religion = shinto
 capital = "Akao"
 is_city = yes

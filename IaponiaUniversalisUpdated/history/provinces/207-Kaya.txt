@@ -7,7 +7,7 @@ add_core = IKW
 owner = BHK
 controller = BHK
 
-culture = setouchi
+culture = bishu_c
 religion = shinto
 capital = "Ukan"
 is_city = yes

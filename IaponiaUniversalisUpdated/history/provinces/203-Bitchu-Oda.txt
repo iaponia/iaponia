@@ -9,7 +9,7 @@ add_core = UEN
 owner = BHK
 controller = BHK
 
-culture = setouchi
+culture = bishu_c
 religion = shinto
 capital = "Kasaokayama"
 is_city = yes

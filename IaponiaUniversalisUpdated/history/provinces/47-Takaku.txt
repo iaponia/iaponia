@@ -5,7 +5,7 @@ add_core = AIM
 owner = AIM
 controller = AIM
 
-culture = saikai
+culture = hizen_c
 religion = shinto
 capital = "Takaki"
 is_city = yes

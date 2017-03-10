@@ -7,7 +7,7 @@ add_core = HGN
 owner = HSK
 controller = HSK
 
-culture = sanin
+culture = tanshu_c
 religion = shinto
 capital = "Kuroi"
 is_city = yes

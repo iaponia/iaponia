@@ -5,7 +5,7 @@ add_core = YMN
 owner = YMN
 controller = YMN
 
-culture = setouchi
+culture = bishu_c
 religion = shinto
 capital = "Chausu"
 is_city = yes

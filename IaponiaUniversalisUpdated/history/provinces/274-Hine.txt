@@ -5,7 +5,7 @@ add_core = HSK
 owner = HSK
 controller = HSK
 
-culture = kinai
+culture = sesshu_c
 religion = shinto
 capital = "Ameyama"
 is_city = yes

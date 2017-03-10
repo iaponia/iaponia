@@ -5,7 +5,7 @@ add_core = KHR
 owner = KHR
 controller = KHR
 
-culture = saikai
+culture = hyuga_c
 religion = shinto
 capital = "Iino"
 is_city = yes

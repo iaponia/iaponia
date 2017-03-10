@@ -6,7 +6,7 @@ add_core = YKS
 owner = HSK
 controller = HSK
 
-culture = kinai
+culture = sesshu_c
 religion = shinto
 capital = "Mayasan"
 is_city = yes

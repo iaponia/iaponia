@@ -6,7 +6,7 @@ add_core = NJM
 owner = KMK
 controller = KMK
 
-culture = saikai
+culture = sasshu_c
 religion = shinto
 capital = "Tomita"
 is_city = yes

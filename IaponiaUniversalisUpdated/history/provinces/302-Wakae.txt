@@ -6,7 +6,7 @@ add_core = YSA
 owner = HTK
 controller = HTK
 
-culture = kinai
+culture = sesshu_c
 religion = shinto
 capital = "Yao"
 is_city = yes

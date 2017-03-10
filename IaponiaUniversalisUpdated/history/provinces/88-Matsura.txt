@@ -5,7 +5,7 @@ add_core = MTA
 owner = MTA
 controller = MTA
 
-culture = saikai
+culture = hizen_c
 religion = shinto
 capital = "Nagoya"
 is_city = yes

@@ -7,7 +7,7 @@ add_core = YMN
 owner = YMN
 controller = YMN
 
-culture = setouchi
+culture = harima_c
 religion = shinto
 capital = "Miki"
 is_city = yes

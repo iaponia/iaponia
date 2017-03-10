@@ -5,7 +5,7 @@ add_core = SHN
 owner = SHN
 controller = SHN
 
-culture = saikai
+culture = hizen_c
 religion = shinto
 capital = "Tsukazaki"
 is_city = yes

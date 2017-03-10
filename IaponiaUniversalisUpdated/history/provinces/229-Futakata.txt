@@ -5,7 +5,7 @@ add_core = YMN
 owner = YMN
 controller = YMN
 
-culture = sanin
+culture = inaba_c
 religion = shinto
 capital = "Takao"
 is_city = yes

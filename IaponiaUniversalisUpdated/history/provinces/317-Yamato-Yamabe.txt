@@ -5,7 +5,7 @@ add_core = TTI
 owner = TTI
 controller = TTI
 
-culture = kinai
+culture = yamato_c
 religion = shinto
 capital = "Ryuozan"
 is_city = yes

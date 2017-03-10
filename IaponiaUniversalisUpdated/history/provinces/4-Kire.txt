@@ -5,7 +5,7 @@ add_core = OSZ
 owner = OSZ
 controller = OSZ
 
-culture = saikai
+culture = sasshu_c
 religion = shinto
 capital = "Hirakawa"
 is_city = yes

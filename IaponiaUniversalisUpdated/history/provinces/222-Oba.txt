@@ -7,7 +7,7 @@ add_core = MRA
 owner = IWY
 controller = IWY
 
-culture = setouchi
+culture = hakushu_c
 religion = shinto
 capital = "Sasabuki"
 is_city = yes

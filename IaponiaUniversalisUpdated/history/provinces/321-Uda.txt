@@ -5,7 +5,7 @@ add_core = AKY
 owner = AKY
 controller = AKY
 
-culture = kinai
+culture = yamato_c
 religion = shinto
 capital = "Akiyama"
 is_city = yes

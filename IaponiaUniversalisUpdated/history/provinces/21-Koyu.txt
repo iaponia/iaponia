@@ -5,7 +5,7 @@ add_core = ITO
 owner = ITO
 controller = ITO
 
-culture = saikai
+culture = hyuga_c
 religion = shinto
 capital = "Tonokori"
 is_city = yes

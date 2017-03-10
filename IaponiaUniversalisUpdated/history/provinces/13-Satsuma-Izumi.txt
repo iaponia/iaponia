@@ -5,7 +5,7 @@ add_core = SSZ
 owner = SSZ
 controller = SSZ
 
-culture = saikai
+culture = sasshu_c
 religion = shinto
 capital = "Kimure"
 is_city = yes

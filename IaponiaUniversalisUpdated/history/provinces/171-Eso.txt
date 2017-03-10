@@ -6,7 +6,7 @@ add_core = YUC
 owner = YMN
 controller = YMN
 
-culture = setouchi
+culture = bishu_c
 religion = shinto
 capital = "Shitomiyama"
 is_city = yes

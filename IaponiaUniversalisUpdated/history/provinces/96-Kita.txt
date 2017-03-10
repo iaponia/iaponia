@@ -6,7 +6,7 @@ add_core = IUM
 owner = KNO
 controller = KNO
 
-culture = setouchi
+culture = iyo_c
 religion = shinto
 capital = "Ozu"
 is_city = yes

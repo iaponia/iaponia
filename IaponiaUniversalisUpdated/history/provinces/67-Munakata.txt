@@ -7,7 +7,7 @@ add_core = MNK
 owner = OUC
 controller = OUC
 
-culture = saikai
+culture = chikushu_c
 religion = shinto
 capital = "Hakusan"
 is_city = yes

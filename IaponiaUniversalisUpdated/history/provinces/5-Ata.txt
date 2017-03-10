@@ -5,7 +5,7 @@ add_core = ISZ
 owner = ISZ
 controller = ISZ
 
-culture = saikai
+culture = sasshu_c
 religion = shinto
 capital = "Ata"
 is_city = yes

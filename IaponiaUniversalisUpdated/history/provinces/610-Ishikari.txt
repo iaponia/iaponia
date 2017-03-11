@@ -1,9 +1,9 @@
 hre = no
 discovered_by = chinese
 
-add_core = HAA
-owner = HAA
-controller = HAA
+add_core = WAA
+owner = WAA
+controller = WAA
 
 culture = satsumon_c
 religion = animism

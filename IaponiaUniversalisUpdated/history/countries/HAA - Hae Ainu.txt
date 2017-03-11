@@ -1,9 +1,9 @@
 government = siberian_native_council
 government_rank = 1
-primary_culture = satsumon_c
+primary_culture = ainu_c
 religion = animism
 technology_group = chinese
-capital = 610
+capital = 614
 
 
 1444.11.11 = {

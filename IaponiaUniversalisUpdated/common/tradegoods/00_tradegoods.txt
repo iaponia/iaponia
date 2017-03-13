@@ -117,7 +117,7 @@ copper = {
 	}
 }
 
-precious_metals = {
+gold = {
 	color = { 1.0 0.84 0.19 }
 	#no modifiers
 }

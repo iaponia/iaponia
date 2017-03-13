@@ -14,7 +14,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 
-trade_goods = precious_metals
+trade_goods = gold
 
 add_permanent_province_modifier = {
 	name = inland_center_of_trade_modifier

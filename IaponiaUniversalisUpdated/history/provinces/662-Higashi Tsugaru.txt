@@ -15,7 +15,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 
-trade_goods = precious_metals
+trade_goods = gold
 
 
 1571.1.1 = {

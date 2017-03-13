@@ -85,7 +85,7 @@ copper = {
 	base_price = 3
 }
 
-precious_metals = {
+gold = {
 	base_price = 0
 	goldtype = yes
 }

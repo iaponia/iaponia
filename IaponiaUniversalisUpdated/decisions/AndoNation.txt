@@ -9,7 +9,7 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			is_at_war = no
-			tag = MAN		
+			tag = MNO		
 		}
 		effect = {
 			change_tag = ADO

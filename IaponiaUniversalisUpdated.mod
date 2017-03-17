@@ -1,6 +1,7 @@
 name="Iaponia Universalis 1.19"
 path="mod/IaponiaUniversalisUpdated"
 disallow_random_new_world = yes
+replace_path="decisions"
 replace_path="history/countries"
 replace_path="common/bookmarks"
 replace_path="history/provinces"

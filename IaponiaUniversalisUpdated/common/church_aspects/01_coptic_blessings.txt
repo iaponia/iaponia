@@ -86,7 +86,7 @@ warrior_code = {
 	is_blessing = yes
 
 	effect = {
-		infantry_power = 0.1
+		land_morale = 0.1
 	}
 	ai_will_do = {
 		factor = 15

@@ -1,5 +1,5 @@
 government = feudal_monarchy
-primary_culture = kashu_c
+primary_culture = koshu_c
 religion = shinto
 technology_group = chinese
 capital = 1837	# Etchu

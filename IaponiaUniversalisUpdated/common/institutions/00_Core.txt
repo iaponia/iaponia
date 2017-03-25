@@ -10,12 +10,10 @@
 
 #######################################
 # Feudalism.  
-# 
-# Most in the old world start with it.
 #######################################
 
-feudalism = {
-	penalty = 0.2
+feudalism_i = {
+	penalty = 0.25
 	bonus = {
 		free_leader_pool = 1
 	}
@@ -174,21 +172,20 @@ feudalism = {
 }
 
 #######################################
-# Renaissance
+# Higashiyama Culture
 # 
-# Flows from kansai or kyushu
+# Flows from kansai
 #######################################
 
-renaissance = {
-	penalty = 0.2
+higashiyama_culture_i = {
+	penalty = 0.25
 
 	bonus = {
-		development_cost = -0.05
-		build_cost = -0.05
+		advisor_cost = -0.1
 	}
 
 
-	historical_start_date = 1500.1.1
+	historical_start_date = 1482.2.21
 	historical_start_province = 683 # Kyoto
 
 	history = {
@@ -196,9 +193,8 @@ renaissance = {
 			AND = {
 				OR = {
 					region = kansai_region
-					region = kyushu_region
 				}
-				is_year = 1535
+				is_year = 1500
 			}
 			AND = {
 				OR = {
@@ -207,21 +203,21 @@ renaissance = {
 					region = shikoku_region
 					region = kanto_region
 				}
-				is_year = 1545
+				is_year = 1515
 			}
 			AND = {
+				region = kyushu_region
 				region = tohoku_region
-				is_year = 1555
+				is_year = 1530
 			}
-			is_year = 1565
+			is_year = 1545
 		}
 	}
 	
 	can_start = {
-		is_year = 1500
+		is_year = 1480
 		OR = {
 			region = kansai_region
-			region = kyushu_region
 		}
 		is_state = yes
 		is_island = no
@@ -396,303 +392,28 @@ renaissance = {
 	}
 }
 
-
 #######################################
-# New World
-# 
-# Colonising is good.. mkay.-.
+# Militarized Aristocracy
 #######################################
-#new_world_i = {
-#	penalty = 0.2
-#
-#	bonus = {
-#		global_prov_trade_power_modifier = 0.10
-#	}
-#
-#
-#	historical_start_date = 1500.1.1
-#	historical_start_province = 224 #Sevilla
-#
-#	history = {
-#		OR = {
-#			AND = {
-#				is_year = 1500
-#				continent = europe
-#				OR = {
-#					owner = { has_idea = quest_for_the_new_world }
-#					owner = { num_of_colonial_subjects = 1 }
-#				}
-#			}
-#			AND = {
-#				is_year = 1550
-#				owner = {
-#					NOT = { technology_group = north_american }
-#					NOT = { technology_group = mesoamerican }
-#					NOT = { technology_group = south_american }
-#					NOT = { technology_group = andean }
-#				}
-#				superregion = south_america_superregion
-#			}
-#			AND = {
-#				is_year = 1550
-#				owner = {
-#					NOT = { technology_group = north_american }
-#					NOT = { technology_group = mesoamerican }
-#					NOT = { technology_group = south_american }
-#					NOT = { technology_group = andean }
-#				}
-#				superregion = north_america_superregion
-#			}
-#			AND = {
-#				is_year = 1550
-#				owner = {
-#					NOT = { technology_group = north_american }
-#					NOT = { technology_group = mesoamerican }
-#					NOT = { technology_group = south_american }
-#					NOT = { technology_group = andean }
-#				}
-#				superregion = central_america_superregion
-#			}
-#			AND = {
-#				is_year = 1600
-#				superregion = near_east_superregion
-#			}
-#			AND = {
-#				is_year = 1600
-#				continent = europe
-#			}
-#			AND = {
-#				is_year = 1625
-#				superregion = persia_superregion
-#			}
-#			AND = {
-#				is_year = 1650
-#				superregion = india_superregion
-#			}
-#			
-#			
-#			AND = {
-#				is_year = 1650
-#				superregion = china_superregion
-#			}
-#			
-#			AND = {
-#				is_year = 1650
-#				superregion = east_indies_superregion
-#			}
-#			AND = {
-#				is_year = 1700
-#				superregion = africa_superregion
-#			}
-#			is_year = 1800
-#		}
-#	}
-#	
-#	can_start = {
-#		is_year = 1500
-#		OR = {
-#			continent = europe
-#			continent = asia
-#			continent = africa
-#		}
-#		has_port = yes
-#		is_island = no
-#		is_state = yes
-#		OR = {
-#			has_province_modifier = center_of_trade_modifier
-#			development = 12
-#			is_capital = yes
-#		}
-#		is_in_capital_area = yes
-#		owner = { 
-#			has_idea = quest_for_the_new_world 
-#			OR = {
-#				north_america = { has_discovered = PREV }
-#				south_america = { has_discovered = PREV }
-#				new_world = { has_discovered = PREV }
-#			}
-#		}
-#	}
-#	start_chance = 5		#in 100 for when a province can_start
-#	
-#	
-#	on_start = institution_events.3
-#	
-#	
-#	
-#
-#	
-#	
-#	can_embrace = {
-#		always = yes
-#	}
-#
-#
-#	
-#	embracement_speed = {
-#	
-#		modifier = {
-#			factor = 1.2
-#			scale = yes
-#			custom_trigger_tooltip = {
-#				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_colonialism
-#				any_friendly_coast_border_province = {
-#					new_world_i = 100
-#				}
-#			}
-#			
-#		}
-#		
-#		modifier = {
-#			factor = 0.5
-#			scale = yes
-#			potential = {
-#				has_port = yes
-#				NOT = {
-#					any_friendly_coast_border_province = {
-#						new_world_i = 100
-#					}
-#				}
-#			}
-#			custom_trigger_tooltip = {
-#				tooltip = tooltip_neighbor_port_province_new_world
-#				has_port = yes
-#				any_neighbor_province = {
-#					new_world_i = 100
-#				}
-#			}
-#		}
-#		
-#		#Port provinces in countries with colonial subjects
-#		modifier = {
-#			factor = 10
-#			potential = {
-#				OR = {
-#					has_port = yes
-#					is_capital = yes
-#				}
-#				NOT = {
-#					capital_scope = {
-#						NOT = { continent = north_america }
-#						NOT = { continent = south_america }
-#						NOT = { continent = new_world }
-#					}
-#				}
-#			}
-#			custom_trigger_tooltip = {
-#				tooltip = tooltip_has_colonial_subject_in_new_world
-#				OR = {
-#					has_port = yes
-#					is_capital = yes
-#				}
-#				owner = {
-#					num_of_colonial_subjects = 1
-#					any_subject_country = {
-#						is_colonial_nation = yes
-#						OR = {
-#							capital_scope = { continent = north_america }
-#							capital_scope = { continent = south_america }
-#							capital_scope = { continent = new_world }
-#						}
-#					}
-#				}
-#			}
-#		}
-#		
-#		modifier = {
-#			factor = 5
-#			scale = yes
-#			potential = {
-#				owner = {
-#					is_colonial_nation = yes
-#				}
-#			}
-#			custom_trigger_tooltip = {
-#				tooltip = tooltip_colonial_overlord_new_world_i
-#				OR = {
-#					has_port = yes
-#					is_capital = yes
-#				}
-#				owner = {
-#					is_colonial_nation = yes
-#					overlord = { has_institution = new_world_i }
-#				}
-#			}
-#		}
-#		modifier = {
-#			factor = 2
-#			scale = yes
-#			potential = {
-#				owner = {
-#					has_institution = new_world_i
-#				}
-#			}
-#			custom_trigger_tooltip = {
-#				tooltip = tooltip_new_world_i_embraced
-#				owner = {
-#					has_institution = new_world_i
-#				}
-#			}
-#		}
-#	}
-#	
-#	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
-#		factor = 24
-#		
-#		modifier = {
-#			factor = 0.25
-#			is_at_war = yes
-#		}
-#		modifier = {
-#			factor = 2
-#			neighbors_tech_discount = 0.1
-#		}
-#		modifier = {
-#			factor = 2
-#			neighbors_tech_discount = 0.2
-#		}
-#		modifier = {
-#			factor = 2
-#			neighbors_tech_discount = 0.3
-#		}
-#		modifier = {
-#			factor = 2
-#			neighbors_tech_discount = 0.4
-#		}
-#	}
-#}
-#
-#
-#
-#######################################
-# Printing Press
-#######################################
-printing_press = {
-	penalty = 0.2
+militarized_aristocracy_i = {
+	penalty = 0.25
 
 	bonus = {
-		stability_cost_modifier = -0.05
+		army_tradition = 0.5
 	}
 
 
-	historical_start_date = 1550.1.1
-	historical_start_province = 47 #Takaku - Shimabara
+	historical_start_date = 1479.1.1 #Toshikage 'eat your heart out Soun Hojo' Asakura overthrows the Shiba
+	historical_start_province = 388 #Asuwa
 
 	history = {
 		OR = {
 			AND = {
-				is_year = 1560
-				OR = {
-					religion = catholic
-					religion = mahayana
-				}
-			}
-			AND = {
 				OR = {
 					region = kansai_region
-					region = kyushu_region
+					region = kanto_region
 				}
-				is_year = 1595
+				is_year = 1510
 			}
 			AND = {
 				OR = {
@@ -701,13 +422,246 @@ printing_press = {
 					region = shikoku_region
 					region = kanto_region
 				}
-				is_year = 1605
+				is_year = 1520
 			}
 			AND = {
+				region = kyushu_region
 				region = tohoku_region
-				is_year = 1615
+				is_year = 1525
 			}
-			is_year = 1625
+			is_year = 1530
+		}
+	}
+	
+	can_start = {
+		is_island = no
+		is_state = yes
+		is_capital = yes
+		is_year = 1500
+		government = monarchy
+		OR = {
+			AND = {
+				base_manpower = 8
+			}
+			AND = {
+				army_tradition = 40
+			}
+		}
+	}
+	start_chance = 15		#in 100 for when a province can_start
+	
+	
+	on_start = institution_events.3
+	
+	
+	can_embrace = {
+		always = yes
+	}
+
+	
+	embracement_speed = {
+	
+		modifier = {
+			factor = 0.6
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_printing_press
+				any_friendly_coast_border_province = {
+					printing_press = 100
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.2
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						printing_press = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_printing_press
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					printing_press = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				has_dlc = "The Cossacks"
+				owner = { has_estate = estate_church }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_printing_press_clergy
+				any_neighbor_province = {
+					printing_press = 100
+				}
+				owner = {
+					has_estate = estate_church
+					estate_loyalty = {
+						estate = estate_church
+						loyalty = 40
+					}
+				}
+				has_estate = estate_church
+			}
+		}
+		
+		modifier = {
+			factor = 0.10
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_nearby_printing_press_20
+				any_neighbor_province = {
+						printing_press = 20
+				}
+			}
+		}	
+		
+		modifier = {
+			factor = 0.05
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_friendly_nearby_printing_press_20
+				any_friendly_coast_border_province = {
+						printing_press = 20
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 1
+			custom_trigger_tooltip = {
+				tooltip = tooltip_dip_tech15_capital
+				is_capital = yes
+				owner = {
+					dip_tech = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 0.15
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_20_capital
+				development = 20
+				is_capital = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			custom_trigger_tooltip = {
+				tooltip = tooltip_owner_cath_maha
+				owner = {
+					OR = {
+						religion = catholic
+						religion = mahayana
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			custom_trigger_tooltip = {
+				tooltip = tooltip_province_cath_maha
+				OR = {
+					religion = catholic
+					religion = mahayana
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = printing_press
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_printing_press_embraced
+				owner = {
+					has_institution = printing_press
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+#######################################
+# Western Trade
+#######################################
+western_trade_i = {
+	penalty = 0.25
+
+	bonus = {
+		idea_cost = -0.05
+		technology_cost = -0.05
+	}
+
+
+	historical_start_date = 1543.8.1
+	historical_start_province = 94 # Tanegashima
+
+	history = {
+		OR = {
+			AND = {
+				is_year = 1550
+				OR = {
+					region = kyushu_region
+					tag = OUC
+				}
+			}
+			AND = {
+				OR = {
+					region = kansai_region
+				}
+				is_year = 1560
+			}
+			AND = {
+				OR = {
+					region = chubu_region
+					region = chugoku_region
+					region = shikoku_region
+					region = kanto_region
+					region = tohoku_region
+				}
+				is_year = 1570
+			}
+			is_year = 1590
 		}
 	}
 	
@@ -716,18 +670,20 @@ printing_press = {
 		is_state = yes
 		OR = {
 			AND = {
-				development = 15
+				development = 30
 				is_capital = yes
-				is_year = 1555
+				is_year = 1550
+				has_province_modifier = center_of_trade_modifier
 			}
 			AND = {
 				religion = catholic
-				is_year = 1550
-				
+				is_year = 1540
+				has_province_modifier = center_of_trade_modifier
 			}
-			AND = {
-				religion = mahayana
-				is_year = 1550
+		}
+		owner = {
+			any_active_trade_node = {
+				is_strongest_trade_power = PREV
 			}
 		}
 	}
@@ -904,40 +860,28 @@ printing_press = {
 	}
 }
 
-
-
-
-
 #######################################
-# Global Trade
+# Gunsmithing
 #######################################
-global_trade = {
-	penalty = 0.2
+gunsmithing_i = {
+	penalty = 0.25
 
 	bonus = {
-		merchants = 1
+		infantry_power = 0.1
 	}
 
 
-	historical_start_date = 1600.1.1
-	historical_start_province = 683 # Kyoto
+	historical_start_date = 1544.9.1 # First Kunitomo Muskets are produced
+	historical_start_province = 333 # Sakata
 
 	history = {
 		OR = {
 			AND = {
-				is_year = 1620
-				has_province_modifier = center_of_trade_modifier
-			}
-			AND = {
-				is_year = 1620
-				has_province_modifier = inland_center_of_trade_modifier
-			}
-			AND = {
+				is_year = 1550
 				OR = {
-					region = kansai_region
-					region = kyushu_region
+				region = kansai_region
+				region = kyushu_region
 				}
-				is_year = 1635
 			}
 			AND = {
 				OR = {
@@ -945,33 +889,28 @@ global_trade = {
 					region = chugoku_region
 					region = shikoku_region
 					region = kanto_region
+					region = tohoku_region
 				}
-				is_year = 1645
+				is_year = 1570
 			}
-			AND = {
-				region = tohoku_region
-				is_year = 1655
-			}
-			is_year = 1665
+			is_year = 1590
 		}
 	}
 	
 	can_start = {
-		is_year = 1600
+		is_year = 1560
 		is_island = no
-		highest_value_trade_node = yes
+		base_production = 12
 		OR = {
-			has_province_modifier = center_of_trade_modifier
-			has_province_modifier = inland_center_of_trade_modifier
-			is_capital = yes
-		}
-		owner = {
-			any_active_trade_node = {
-				is_strongest_trade_power = PREV
-				highest_value_trade_node = yes
+			AND = {
+				religion = catholic
+				is_year = 1550
+			}
+			AND = {
+				religion = mahayana
+				is_year = 1550
 			}
 		}
-
 	}
 	start_chance = 25		#in 100 for when a province can_start
 	
@@ -1139,57 +1078,52 @@ global_trade = {
 
 
 #######################################
-# Manufactories
+# Momoyama Culture
 #######################################
-manufactories = {
-	penalty = 0.2
+momoyama_culture_i = {
+	penalty = 0.25
 
 	bonus = {
-		global_trade_goods_size_modifier = 0.1
+		
 	}
 
-	historical_start_date = 1650.1.1
-	historical_start_province = 683 #Kyoto
+	historical_start_date = 1576.1.1
+	historical_start_province = 335 # Gamo
 
 	history = {
 		OR = {
 			AND = {
+				region = kansai_region
+				is_year = 1580
+			}
+			AND = {
 				OR = {
-					region = kansai_region
 					region = kyushu_region
-					region = kanto_region
+					region = chugoku_region
+					region = chubu_region
 				}
-				is_year = 1695
+				is_year = 1585
 			}
 			AND = {
 				OR = {
-					region = chubu_region
-					region = chugoku_region
-					region = shikoku_region
-				}
-				is_year = 1705
-			}
-			AND = {
 				region = tohoku_region
-				is_year = 1715
+				region = shikoku_region
+				region = kanto_region
+				}
+				is_year = 1590
 			}
-			is_year = 1720
+			is_year = 1600
 		}
 	}
 	
 	can_start = {
-		is_year = 1650
-		is_in_capital_area = yes
+		is_year = 1580
+		is_capital = yes
 		is_island = no
 		is_state = yes
-		development = 20
-		OR = {
-			has_building = wharf
-			has_building = weapons
-			has_building = textile
-			has_building = plantations
-			has_building = tradecompany
-		}
+		development = 30
+		has_province_modifier = center_of_trade_modifier
+		has_province_modifier = inland_center_of_trade_modifier
 	}
 	start_chance = 10		#in 100 for when a province can_start
 	
@@ -1377,56 +1311,28 @@ manufactories = {
 
 
 #######################################
-# Enlightenment
+# Kokudaka System
 #######################################
-enlightenment = {
-	penalty = 0.2
+kokudaka_system_i = {
+	penalty = 0.25
 
 	bonus = {
-		culture_conversion_cost = -0.25
-		#not very useful on Iaponia, is it
+		global_tax_modifier = 0.1
+		state_maintenance_modifier = -0.1
 	}
 
-	historical_start_date = 1700.1.1
-	historical_start_province = 683 #Kyoto
+	historical_start_date = 1590.8.4 # Odawara falls and Japan is unified
+	historical_start_province = 684 # Osaka
 
 	history = {
-		OR = {
-			AND = {
-				OR = {
-					region = kansai_region
-					region = kyushu_region
-					region = kanto_region
-				}
-				is_year = 1730
-			}
-			AND = {
-				OR = {
-					region = chubu_region
-					region = chugoku_region
-					region = shikoku_region
-				}
-				is_year = 1740
-			}
-			AND = {
-				region = tohoku_region
-				is_year = 1750
-			}
-			is_year = 1760
-		}
+		is_year = 1595
 	}
 	
 	can_start = {
-		is_year = 1700
-		is_in_capital_area = yes
+		is_year = 1590
+		is_capital = yes
 		is_island = no
 		is_state = yes
-		OR = {
-			custom_trigger_tooltip = {
-				tooltip = tooltip_has_seat_in_parliament
-				has_seat_in_parliament = yes
-			}
-			has_building = university
 			AND = {
 				development = 20
 				owner = {
@@ -1569,4 +1475,187 @@ enlightenment = {
 			neighbors_tech_discount = 0.4
 		}
 	}
-}
+
+#######################################
+# Rangaku
+#######################################
+rangaku_i = {
+	penalty = 0.25
+
+	bonus = {
+		global_manpower_recovery_speed = 0.1
+	}
+
+	historical_start_date = 1603.1.1 # First Japanese Grammar-Dictionary book is printed by the Jesuits
+	historical_start_province = 48 # Sonoki
+
+	history = {
+		OR = {
+			AND = {
+				is_year = 1605
+				region = kyushu_region	
+			}
+			AND = {
+				region = kansai_region
+				is_year = 1610
+			}
+			AND = {
+				OR = {
+					region = chubu_region
+					region = chugoku_region
+					region = shikoku_region
+					region = kanto_region
+					region = tohoku_region
+				}
+				is_year = 1620
+			}
+			is_year = 1640
+		}
+	}
+	
+	can_start = {
+		is_year = 1
+		is_island = no
+		is_state = yes
+			AND = {
+				development = 20
+				owner = {
+					ADM = 5
+					MIL = 5
+					DIP = 5
+				}
+			}
+			
+		}
+	}
+	start_chance = 10		#in 100 for when a province can_start
+	
+	
+	on_start = institution_events.8
+	
+	
+	can_embrace = {
+		always = yes
+	}
+
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.2
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_enlightenment
+				any_friendly_coast_border_province = {
+					enlightenment = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.15
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						enlightenment = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_enlightenment
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					enlightenment = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			
+			has_building = university
+		}
+		modifier = {
+			factor = 5
+			potential = {
+				owner = {
+					has_parliament = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_has_seat_in_parliament
+				has_seat_in_parliament = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			custom_trigger_tooltip = {
+				tooltip = tooltip_philosopher_capital
+				is_capital = yes
+				owner = {
+					has_advisor = philosopher
+					dip_tech = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			custom_trigger_tooltip = {
+				tooltip = tooltip_scientist_capital
+				is_capital = yes
+				owner = {
+					has_advisor = natural_scientist
+					dip_tech = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			custom_trigger_tooltip = {
+				tooltip = tooltip_full_innovativeness
+				is_capital = yes
+				owner = {
+					full_idea_group = innovativeness_ideas
+				}
+			}
+		}
+
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = enlightenment
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_enlightenment_embraced
+				owner = {
+					has_institution = enlightenment
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}

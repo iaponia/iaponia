@@ -48,6 +48,7 @@ shikoku_region = {
 		miyoshi_area
 		itano_area
 		katsuura_area
+		setouchi_islands_area
 	}
 }
 
@@ -90,7 +91,6 @@ chugoku_region = {
 
 kansai_region = {
 	areas = {
-		setouchi_islands_area
 		toyooka_area
 		miikumi_area
 		ako_area
@@ -126,13 +126,18 @@ kansai_region = {
 		shiga_area
 		koga_area
 		inukami_area
+		oi_area
+		echizen_area
+		aichi_area
+		owari_area
+		toki_area
+		mino_area
+		tagi_area
 	}
 }
 
 chubu_region = {
 	areas = {
-		oi_area
-		echizen_area
 		sakai_area
 		ishikawa_area
 		noto_area
@@ -141,22 +146,16 @@ chubu_region = {
 		uonuma_area
 		mishima_area
 		shibata_area
-		aichi_area
-		owari_area
 		kamo_area
 		nukata_area
 		mikawa_area
-		izu_area
 		fuji_area
 		hamana_area
 		mashizu_area
 		yamaka_area
 		iwata_area
 		hida_area
-		toki_area
-		mino_area
 		motosu_area
-		tagi_area
 		saku_area
 		takai_area
 		kiso_area
@@ -168,6 +167,7 @@ chubu_region = {
 
 kanto_region = {
 	areas = {
+		izu_area
 		ashikami_area
 		koza_area
 		kamakura_area

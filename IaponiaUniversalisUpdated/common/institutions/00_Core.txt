@@ -216,9 +216,7 @@ higashiyama_culture_i = {
 	
 	can_start = {
 		is_year = 1480
-		OR = {
-			region = kansai_region
-		}
+		region = kansai_region
 		is_state = yes
 		is_island = no
 		OR = {
@@ -1084,7 +1082,8 @@ momoyama_culture_i = {
 	penalty = 0.25
 
 	bonus = {
-		
+		development_cost = -0.05
+		build_cost = -0.05
 	}
 
 	historical_start_date = 1576.1.1
@@ -1342,8 +1341,8 @@ kokudaka_system_i = {
 				}
 			}
 			
-		}
 	}
+	
 	start_chance = 10		#in 100 for when a province can_start
 	
 	
@@ -1475,6 +1474,7 @@ kokudaka_system_i = {
 			neighbors_tech_discount = 0.4
 		}
 	}
+}
 
 #######################################
 # Rangaku
@@ -1483,7 +1483,7 @@ rangaku_i = {
 	penalty = 0.25
 
 	bonus = {
-		global_manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.1
 	}
 
 	historical_start_date = 1603.1.1 # First Japanese Grammar-Dictionary book is printed by the Jesuits
@@ -1492,12 +1492,12 @@ rangaku_i = {
 	history = {
 		OR = {
 			AND = {
-				is_year = 1605
+				is_year = 1615
 				region = kyushu_region	
 			}
 			AND = {
 				region = kansai_region
-				is_year = 1610
+				is_year = 1620
 			}
 			AND = {
 				OR = {
@@ -1507,14 +1507,14 @@ rangaku_i = {
 					region = kanto_region
 					region = tohoku_region
 				}
-				is_year = 1620
+				is_year = 1630
 			}
-			is_year = 1640
+			is_year = 1650
 		}
 	}
 	
 	can_start = {
-		is_year = 1
+		is_year = 1610
 		is_island = no
 		is_state = yes
 			AND = {
@@ -1526,8 +1526,8 @@ rangaku_i = {
 				}
 			}
 			
-		}
 	}
+	
 	start_chance = 10		#in 100 for when a province can_start
 	
 	
@@ -1659,3 +1659,4 @@ rangaku_i = {
 			neighbors_tech_discount = 0.4
 		}
 	}
+}

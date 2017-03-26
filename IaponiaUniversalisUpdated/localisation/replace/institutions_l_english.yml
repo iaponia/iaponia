@@ -1,6 +1,6 @@
 ﻿l_english:
  #~ BIRTHPLACE_OF_INSTITUTION:0 "$PROV$ is the birthplace of the §Y$NAME$§!"
- #~ feudalism_date:0 "1066"
+ feudalism_i_date:0 "1390"
  renaissance_date:0 "1500"
  #~ new_world_i_date:0 "1500"
  #~ printing_press_date:0 "1550"
@@ -9,7 +9,7 @@
  #~ enlightenment_date:0 "1700"
  #~ DATE_EARLIERST_FOR_INSTI:0 "This is the earliest date that this institution can appear and spread through the world."
  #~ INSTITUTION_CAN_APPEAR:0 "Can appear in a province if:\n"
- #~ feudalism:0 "Feudalism"
+ feudalism_i:0 "Feudalism"
  #~ renaissance:0 "Renaissance"
  #~ new_world_i:0 "Colonialism"
  #~ printing_press:0 "Printing Press"

@@ -1163,8 +1163,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_advisor_vanguard_commander_a_female"
-		texturefile = "gfx//interface//advisors//vanguard_commander_a_female.tga"
+		name = "GFX_advisor_vanguard_commander_a"
+		texturefile = "gfx//interface//advisors//vanguard_commander_a.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

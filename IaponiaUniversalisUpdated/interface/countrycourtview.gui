@@ -517,7 +517,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "national_focus_DIP"
-			position = { x= 400	y = 402 }
+			position = { x= 400	y = 424 }
 			quadTextureSprite ="GFX_icon_national_focus_dip"	
 			tooltip = ""
 			tooltipText =""
@@ -534,14 +534,14 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x= 447 y = 407 }
+			position = { x= 447 y = 429 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_dip"
 		}
 		
 		guiButtonType = {
 			name = "national_focus_MIL"
-			position = { x= 400	y = 489 }
+			position = { x= 400	y = 533 }
 			quadTextureSprite ="GFX_icon_national_focus_mil"	
 			tooltip = ""
 			tooltipText =""
@@ -558,7 +558,7 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x= 447 y = 494 }
+			position = { x= 447 y = 538 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_mil"
 		}
@@ -681,11 +681,12 @@ guiTypes = {
 	
 	################################################################################################
 	### --- Ability list item
+	### advisors as shown in main screen
 	windowType = {
 		name = "countrycourtview_abilitylistitem"
 		backGround =""
 		position = { x=0 y=0 }	
-		size = { x=170 y=86 }
+		size = { x=170 y=107 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
@@ -707,20 +708,20 @@ guiTypes = {
 		listboxType = {
 			name = "advisor_modifier_listbox"
 			backGround = ""
-			position = { x=82 y=28 }
+			position = { x=82 y=25 }
 			size = { x=100 y=100 }
 			Orientation = "UPPER_LEFT"
-			horizontal = 1
-			spacing = 2.5
+			horizontal = 0
+			spacing = 0
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
 		}
 		
 		instantTextBoxType = {
 			name = "advisor_cost"
-			position = { x=82 y=51 }
+			position = { x=82 y=80 }
 			textureFile = ""
-			font = "vic_18"
+			font = "vic_16"
 			borderSize = {x = 4 y = 4}	
 			text = ""	
 			maxWidth = 152
@@ -730,9 +731,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "advisor_activefor"
-			position = { x = 271 y = 51 }
+			position = { x = 261 y = 80 }
 			textureFile = ""
-			font = "vic_18"
+			font = "vic_16"
 			borderSize = {x = 4 y = 4}	
 			text = ""	
 			maxWidth = 80
@@ -839,7 +840,7 @@ guiTypes = {
 		backGround =""
 		position = { x=0 y=0 }	
 		size = { x=48 y=30 }
-		moveable = 0
+		moveable = 1
 		dontRender = ""
 		horizontalBorder = ""
 		Orientation = "UPPER_LEFT"
@@ -878,7 +879,7 @@ guiTypes = {
 		name = "advisor_selection_entry"
 		backGround=""
 		position = { x=0 y=0 }	
-		size = { x=150 y= 87 }
+		size = { x=150 y= 109 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""

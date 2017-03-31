@@ -879,7 +879,7 @@ guiTypes = {
 		name = "advisor_selection_entry"
 		backGround=""
 		position = { x=0 y=0 }	
-		size = { x=150 y= 109 }
+		size = { x=150 y= 115 } #was 109
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -979,7 +979,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 203 y =34 }
+			position = { x = 203 y =60 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -991,7 +991,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "value"
-			position = { x = 193 y =34 }
+			position = { x = 193 y =60 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1003,7 +1003,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "desc"
-			position = { x = 68 y =49 }
+			position = { x = 68 y =75 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1016,7 +1016,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "home"
-			position = { x = 193 y =49 }
+			position = { x = 193 y =75 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1029,7 +1029,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "purchase"
-			position = { x = 68 y =34 }
+			position = { x = 68 y =60 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1041,7 +1041,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "purchase_cost"
-			position = { x = 113 y =34 }
+			position = { x = 113 y =60 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -1057,18 +1057,23 @@ guiTypes = {
 			spriteType = "GFX_idea_unknown"
 			position = { x= 62 y = 14 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.4
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			horizontal = 0
+			scale = 0
 		}
 		instantTextBoxType = {
 			name = "effect"
-			position = { x = 88 y =18 }
+			position = { x = 68 y =22 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = ""	
+			text = ""
+			horizontal = 0	
 			maxWidth = 240
-			maxHeight = 32	
+			maxHeight = 52	
 			Orientation = "UPPER_LEFT"
 		}
 		

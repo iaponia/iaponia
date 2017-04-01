@@ -13,13 +13,6 @@ estate_church =
 	# They want to control at least this % of the country's non-overseas development, if # of home provinecs is above set amount
 	min_territory = 10
 	min_provinces_to_want_territory = 10
-	wanted_territory_modifier = {
-		desc = EST_VAL_HINDU_CLERGY
-		trigger = {
-			religion = hinduism
-		}
-		value = -5
-	}
 
 	shinto requires extra land, instead
 	wanted_territory_modifier = {
@@ -119,64 +112,9 @@ estate_church =
 
 	# Loyalty modifiers
 	loyalty_modifier = {
-		desc = EST_VAL_PIOUS
-		trigger = {
-			religion_group = muslim
-			piety = 0.5
-			NOT = { piety = 0.75 }
-		}
-		loyalty = 5
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_VERY_PIOUS
-		trigger = {
-			religion_group = muslim
-			piety = 0.75
-		}
-		loyalty = 10
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_NOT_PIOUS
-		trigger = {
-			religion_group = muslim
-			NOT = { piety = -0.5 }
-			piety = -0.75
-		}
-		loyalty = -5
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_VERY_UNPIOUS
-		trigger = {
-			religion_group = muslim
-			NOT = { piety = -0.75 }
-		}
-		loyalty = -10
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_PROTESTANT
-		trigger = {
-			religion = protestant
-		}
-		loyalty = 10
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_PAPAL_CONTROLLER
-		trigger = {
-			is_papal_controller = yes
-		}
-		loyalty = 10
-	}
-	loyalty_modifier = {
 		desc = EST_VAL_STATUTE_IN_RESTRAINTS
 		trigger = {
 			has_country_modifier = the_statue_in_restraint_of_appeals
-		}
-		loyalty = 5
-	}
-	loyalty_modifier = {
-		desc = EST_VAL_SHEIKH_UL_ISLAM
-		trigger = {
-			has_country_modifier = the_sheikh_ul_islam
 		}
 		loyalty = 5
 	}

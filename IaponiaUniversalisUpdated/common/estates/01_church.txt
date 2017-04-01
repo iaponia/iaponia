@@ -135,6 +135,17 @@ estate_church =
 		}
 		loyalty = 10
 	}
+	loyalty_modifier = {
+		desc = EST_VAL_HOLY_SITE
+		trigger = {
+			any_owned_province = {
+				has_province_modifier = shinto_holy_site
+				religion = shinto
+				has_owner_religion = yes
+			}
+		}
+		loyalty = 15
+	}
 
 	custom_name = {
 		desc = estate_monasteries

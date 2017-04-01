@@ -750,7 +750,7 @@
  #MODIFIER_DIPLOMATIC_ANNEXATION_COST:0 "Diplomatic Annexation Cost"
  #MODIFIER_SHIP_DURABILITY:0 "Ship Durability"
  #WAR_EXHAUSTION:0 "Monthly War Exhaustion"
- #WAR_EXHAUSTION_COST:0 "Cost of Reducing War Exhaustion"
+ WAR_EXHAUSTION_COST:0 "War Exhaustion Reduction Cost"
  #OVERSEAS_INCOME:0 "Overseas Income"
  #YEARLY_ARMY_TRADITION:0 "Yearly Army Tradition"
  #YEARLY_NAVY_TRADITION:0 "Yearly Navy Tradition"

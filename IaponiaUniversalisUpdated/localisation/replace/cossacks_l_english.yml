@@ -980,6 +980,7 @@
  # EST_VAL_CLERGY_INQUISITOR:0 "Recruited Inquisitor: $VAL|Y$"
  # EST_VAL_RELIGIOUS_ZEALOTS_TRIUMPH:0 "Triumph of Religious Zealots: $VAL|Y$"
  # EST_VAL_FULL_RELIGIOUS:0 "Fully Religious: $VAL|Y$"
+ EST_VAL_HOLY_SITE:0 "Holds at least one Shinto Holy Site: $VAL|Y$"
  # EST_VAL_FULL_ARISTOCRATIC:0 "Full Aristocracy: $VAL|Y$"
  # EST_VAL_FULL_PLUTOCRATIC:0 "Full Plutocracy: $VAL|Y$"
  # EST_VAL_FULL_HUMANIST:0 "Full Humanist: $VAL|Y$"

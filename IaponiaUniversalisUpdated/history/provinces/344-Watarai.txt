@@ -16,10 +16,13 @@ base_manpower = 4
 
 trade_goods = fish
 
+add_permanent_province_modifier = {
+	name = shinto_holy_site
+	duration = -1
+}
 
 1569.10.3 = {
     add_core = ODA
     controller = ODA
     owner = ODA
 }
-

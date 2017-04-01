@@ -18,6 +18,10 @@ base_manpower = 3
 
 trade_goods = lacquerware
 
+add_permanent_province_modifier = {
+	name = shinto_holy_site
+	duration = -1
+}
 
 1449.8.1 = {
     add_core = KGA
@@ -41,4 +45,3 @@ trade_goods = lacquerware
     controller = HJO
     owner = HJO
 }
-

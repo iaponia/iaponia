@@ -17,6 +17,10 @@ base_manpower = 4
 
 trade_goods = rice
 
+add_permanent_province_modifier = {
+	name = shinto_holy_site
+	duration = -1
+}
 
 1551.9.1 = {
     add_core = SUE
@@ -28,4 +32,3 @@ trade_goods = rice
     controller = OTM
     owner = OTM
 }
-

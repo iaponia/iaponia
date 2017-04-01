@@ -129,7 +129,7 @@ tropical = {
 	local_colonial_growth = -10
 	supply_limit_modifier = -0.3
 	local_hostile_attrition = 2
-	
+
 	local_development_cost = 0.15
 
 	picture = "climate_tropical"
@@ -139,7 +139,7 @@ arctic = {
 	local_colonial_growth = -10
 	supply_limit_modifier = -0.4
 	local_hostile_attrition = 1
-	
+
 	allowed_num_of_buildings = -1
 	local_development_cost = 0.5
 
@@ -150,9 +150,9 @@ arid = {
 	local_colonial_growth = -10
 	supply_limit_modifier = -0.2
 	local_hostile_attrition = 1
-	
+
 	local_development_cost = 0.15
-	
+
 	picture = "climate_arid"
 }
 
@@ -168,27 +168,27 @@ land_province = {
 mild_winter = {
 	local_hostile_attrition = 1
 	supply_limit_modifier = -0.1
-	
+
 	picture = "winter_mild"
 }
 
 normal_winter = {
 	local_hostile_attrition = 2
 	supply_limit_modifier = -0.2
-	
+
 	picture = "winter_normal"
 }
 
 severe_winter = {
 	local_hostile_attrition = 3
 	supply_limit_modifier = -0.3
-	
+
 	picture = "winter_severe"
 }
 
 blockaded = {
 	regiment_recruit_speed = 0.2
-	ship_recruit_speed = 0.2				
+	ship_recruit_speed = 0.2
 	trade_goods_size_modifier = -0.5
 	province_trade_power_modifier = -0.75
 }
@@ -203,11 +203,11 @@ provincial_tax_income = {
 
 provincial_production_size = {
 	trade_goods_size = 0.2
-	ship_recruit_speed = -0.01		
+	ship_recruit_speed = -0.01
 }
 
 manpower = {
-	garrison_growth = 0.01					#1% increase from manpower.	
+	garrison_growth = 0.01					#1% increase from manpower.
 }
 
 sailors = {
@@ -252,7 +252,7 @@ patriarch_authority_global = {
 }
 
 colony_level = {
-	local_colonist_placement_chance = -0.01	
+	local_colonist_placement_chance = -0.01
 	local_tax_modifier = 0.02
 }
 
@@ -289,11 +289,11 @@ same_culture_group = {
 }
 
 non_accepted_culture = {
-	local_tax_modifier = -0.33	
+	local_tax_modifier = -0.33
 	local_missionary_strength = -0.02
 	local_manpower_modifier = -0.33
 	local_sailors_modifier = -0.2
-	local_unrest = 2					#1% revolt risk!	
+	local_unrest = 2					#1% revolt risk!
 }
 
 accepted_culture_demoted = {
@@ -479,7 +479,7 @@ stability = {
 
 positive_stability = {
 	global_unrest = -1					#-1% revolt risk each step
-	global_tax_modifier = 0.05				
+	global_tax_modifier = 0.05
 	global_missionary_strength = 0.005
 	temples_influence = 0.02
 	mr_aristocrats_influence = 0.03
@@ -494,7 +494,7 @@ positive_stability = {
 negative_stability = {
 	global_unrest = -2					#-1% EXTRA revolt risk each step
 	legitimacy = 1
-	interest = -1	
+	interest = -1
 	migration_cooldown = 0.1
 	devotion = 1
 	caravan_power = 0.05
@@ -666,8 +666,8 @@ states_in_hre = {							#bonuses for each non-free city with capital in HRE.. as
 }
 
 free_cities_in_hre = {							#bonuses for each free city in the HRE.. as emperor
-	global_tax_income = 2				
-	global_manpower = 1	
+	global_tax_income = 2
+	global_manpower = 1
 	land_forcelimit	= 0.5
 }
 
@@ -676,7 +676,7 @@ free_city_in_hre = {
 	diplomatic_reputation = 1
 }
 
-member_in_hre = {				
+member_in_hre = {
 	diplomatic_reputation = 1
 }
 
@@ -725,7 +725,7 @@ devotion = {
 
 corruption = {
 	global_spy_defence = -0.25
-	spy_offence = -0.50	
+	spy_offence = -0.50
 	all_power_cost = 1.0
 	min_autonomy = 50
 	global_unrest = -20
@@ -756,37 +756,38 @@ militarized_society = {
 
 
 luck = {
+	#will do nothing for now
 	#core
-	global_missionary_strength = 0.01
-	stability_cost_modifier = -0.10
-	global_institution_spread = 0.1
-	
+	#global_missionary_strength = 0.01
+	#stability_cost_modifier = -0.10
+	#global_institution_spread = 0.1
+
 	#economy
-	mercenary_cost = -0.25
-	embracement_cost = -0.2
-	advisor_cost = -0.2
-	interest = -1
-	
+	#mercenary_cost = -0.25
+	#embracement_cost = -0.2
+	#advisor_cost = -0.2
+	#interest = -1
+
 	#military
-	manpower_recovery_speed = 0.25
-	defensiveness = 0.1
-	siege_ability = 0.05
-	
+	#manpower_recovery_speed = 0.25
+	#defensiveness = 0.1
+	#siege_ability = 0.05
+
 	#diplomacy
-	spy_offence = 0.1
-	improve_relation_modifier = 0.25
-	
+	#spy_offence = 0.1
+	#improve_relation_modifier = 0.25
+
 	#government
-	global_unrest = -1
-	republican_tradition = 0.5
-	legitimacy = 1
-	ae_impact = -0.25
+	#global_unrest = -1
+	#republican_tradition = 0.5
+	#legitimacy = 1
+	#ae_impact = -0.25
 
 }
 
 over_extension = {
 	global_foreign_trade_power = -1.0
-	stability_cost_modifier = 0.5			
+	stability_cost_modifier = 0.5
 	mercenary_cost = 0.5
 	diplomatic_reputation = -2
 	improve_relation_modifier = -0.5
@@ -800,7 +801,7 @@ prestige = {
 	global_trade_power = 0.15			#+15/-15 total bonus from prestige.
 	land_morale = 0.1
 	naval_morale = 0.1
-	global_spy_defence = 0.1				#+10/-10 
+	global_spy_defence = 0.1				#+10/-10
 	mercenary_cost = -0.33					#-33 to +33%
 	legitimacy = 1.0
 	improve_relation_modifier = 0.5
@@ -854,7 +855,7 @@ total_occupation = {
 }
 
 total_blockaded = {
-	war_exhaustion = 0.10					#increases exhaustion.  
+	war_exhaustion = 0.10					#increases exhaustion.
 }
 
 uncontested_cores = {
@@ -894,7 +895,7 @@ in_protectorate = {
 liberty_desire = {
 }
 
-is_great_power = {						#Only works with Rights of Man DLC enabled 
+is_great_power = {						#Only works with Rights of Man DLC enabled
 	prestige_decay = -0.01
 	embracement_cost = -0.1
 }
@@ -1086,7 +1087,7 @@ tutorial_colonial_range = {
 ########################################
 
 statists = {
-	naval_forcelimit_modifier = 0.10	
+	naval_forcelimit_modifier = 0.10
 	global_trade_power = 0.05
 	republican_tradition = 1
 
@@ -1184,11 +1185,10 @@ native_policy_coexist =
 native_policy_trade =
 {
 	native_assimilation = 0.5
-	native_uprising_chance = -0.5	
+	native_uprising_chance = -0.5
 }
 
 native_policy_hostile =
 {
 	global_colonial_growth = 20
 }
-

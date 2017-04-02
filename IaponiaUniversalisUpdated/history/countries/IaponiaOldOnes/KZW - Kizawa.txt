@@ -1,15 +1,0 @@
-government = feudal_monarchy
-primary_culture = japaneseculture_group_union = japanese_g
-religion = shinto
-technology_group = chinese
-capital = 309	# Heguri
-	
-1530.1.1 = { 
-	monarch = {
-		name = "Nagamasa"
-		dynasty = "Kizawa"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}

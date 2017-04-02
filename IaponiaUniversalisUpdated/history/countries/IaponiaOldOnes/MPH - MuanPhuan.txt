@@ -1,7 +1,0 @@
-government = despotic_monarchy
-mercantilism = 0.1
-technology_group = chinese
-primary_culture = lao
-religion = buddhism
-capital = 1844	# Xiangkhouang
-

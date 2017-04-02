@@ -721,7 +721,7 @@ guiTypes = {
 			name = "advisor_cost"
 			position = { x=82 y=80 }
 			textureFile = ""
-			font = "vic_16"
+			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 152
@@ -733,7 +733,7 @@ guiTypes = {
 			name = "advisor_activefor"
 			position = { x = 261 y = 80 }
 			textureFile = ""
-			font = "vic_16"
+			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 80
@@ -773,6 +773,7 @@ guiTypes = {
 			maxWidth = 30
 			maxHeight = 32
 			format = center
+
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -1060,7 +1061,6 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			horizontal = 0
 			scale = 0
 		}
 		instantTextBoxType = {
@@ -1071,7 +1071,6 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			horizontal = 0
 			maxWidth = 240
 			maxHeight = 52
 			Orientation = "UPPER_LEFT"

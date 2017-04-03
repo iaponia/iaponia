@@ -1,0 +1,46 @@
+###################
+# Cultural Events #
+###################
+
+namespace = cultural_event
+
+# National Epic
+country_event = {
+	id = cultural_event.13
+	title = cultural_event.13.t
+	desc = cultural_event.13.d
+	picture = ECONOMY_eventPicture
+
+	trigger = {
+		government = monarchy
+		has_regency = no
+		NOT = {
+			has_country_flag = epic_to_monarch
+		}
+		prestige = 10
+		adm_power = 10
+		years_of_income = 0.1
+	}
+
+	mean_time_to_happen = {
+		months = 180
+	}
+
+	immediate = {
+		set_country_flag = epic_to_monarch
+	}
+
+	option = {
+		name = cultural_event.13.a
+		add_country_modifier = {
+			name = "epic_to_monarch"
+			duration = 7300
+		}
+		add_adm_power = -10
+		add_years_of_income = -0.1
+	}
+	option = {
+		name = cultural_event.13.b
+		add_prestige = -5
+	}
+}

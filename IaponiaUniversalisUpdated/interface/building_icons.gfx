@@ -1,232 +1,232 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_building_default"
+		name = "GFX_default"
 		texturefile = "gfx//interface//buildings//building_default.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_armory"
+		name = "GFX_armory"
 		texturefile = "gfx//interface//buildings//army//armory.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_barracks"
+		name = "GFX_barracks"
 		texturefile = "gfx//interface//buildings//army//barracks.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_training_grounds"
+		name = "GFX_training_grounds"
 		texturefile = "gfx//interface//buildings//army//training_grounds.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_academy"
+		name = "GFX_academy"
 		texturefile = "gfx//interface//buildings//civil//academy.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_tea_house"
+		name = "GFX_tea_house"
 		texturefile = "gfx//interface//buildings//civil//tea_house.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_theater"
+		name = "GFX_theater"
 		texturefile = "gfx//interface//buildings//civil//theater.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_outer_wall"
+		name = "GFX_outer_wall"
 		texturefile = "gfx//interface//buildings//defense//outer_wall.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_outer_wards"
+		name = "GFX_outer_wards"
 		texturefile = "gfx//interface//buildings//defense//outer_wards.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_marketplace"
+		name = "GFX_marketplace"
 		texturefile = "gfx//interface//buildings//economic//marketplace.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_merchant_guild"
+		name = "GFX_merchant_guild"
 		texturefile = "gfx//interface//buildings//economic//merchant_guild.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_workshop"
+		name = "GFX_workshop"
 		texturefile = "gfx//interface//buildings//economic//workshop.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_castle"
+		name = "GFX_castle"
 		texturefile = "gfx//interface//buildings//fort//castle.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_citadel"
+		name = "GFX_citadel"
 		texturefile = "gfx//interface//buildings//fort//citadel.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_fort"
+		name = "GFX_fort"
 		texturefile = "gfx//interface//buildings//fort//fort.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_fortified_mansion"
+		name = "GFX_fortified_mansion_asiangfx"
 		texturefile = "gfx//interface//buildings//fort//fortified_mansion.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_garrison"
+		name = "GFX_garrison"
 		texturefile = "gfx//interface//buildings//fort//garrison.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_artisan_workshop"
+		name = "GFX_artisan_workshop"
 		texturefile = "gfx//interface//buildings//manufactories//artisan_workshop.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_brewery"
+		name = "GFX_brewery"
 		texturefile = "gfx//interface//buildings//manufactories//brewery.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_dockyard"
+		name = "GFX_dockyard"
 		texturefile = "gfx//interface//buildings//manufactories//dockyard.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_granary"
+		name = "GFX_granary"
 		texturefile = "gfx//interface//buildings//manufactories//granary.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_gunsmith"
+		name = "GFX_gunsmith"
 		texturefile = "gfx//interface//buildings//manufactories//gunsmith.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_lumbermill"
+		name = "GFX_lumbermill"
 		texturefile = "gfx//interface//buildings//manufactories//lumbermill.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_mine_network"
+		name = "GFX_mine_network"
 		texturefile = "gfx//interface//buildings//manufactories//mine_network.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_ranch"
+		name = "GFX_ranch"
 		texturefile = "gfx//interface//buildings//manufactories//ranch.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_textile_workshop"
+		name = "GFX_textile_workshop"
 		texturefile = "gfx//interface//buildings//manufactories//textile_workshop.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_drydock"
+		name = "GFX_drydock"
 		texturefile = "gfx//interface//buildings//naval//drydock.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_shipyard"
+		name = "GFX_shipyard"
 		texturefile = "gfx//interface//buildings//naval//shipyard.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_wharf"
+		name = "GFX_wharf"
 		texturefile = "gfx//interface//buildings//naval//wharf.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_magistrate"
+		name = "GFX_magistrate"
 		texturefile = "gfx//interface//buildings//order//magistrate.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_shrine"
+		name = "GFX_shrine"
 		texturefile = "gfx//interface//buildings//order//shrine_shinto.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_shrine_catholic"
+		name = "GFX_shrine_catholic"
 		texturefile = "gfx//interface//buildings//order//shrine_catholic.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_shrine_mahayana"
+		name = "GFX_shrine_mahayana"
 		texturefile = "gfx//interface//buildings//order//shrine_mahayana.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_temple"
+		name = "GFX_temple"
 		texturefile = "gfx//interface//buildings//order//temple_shinto.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_temple_catholic"
+		name = "GFX_temple_catholic"
 		texturefile = "gfx//interface//buildings//order//temple_catholic.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_temple_mahayana"
+		name = "GFX_temple_mahayana"
 		texturefile = "gfx//interface//buildings//order//temple_mahayana.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_highways"
+		name = "GFX_highways"
 		texturefile = "gfx//interface//buildings//road//highways.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_post_roads"
+		name = "GFX_post_roads"
 		texturefile = "gfx//interface//buildings//road//post_roads.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_toll_roads"
+		name = "GFX_toll_roads"
 		texturefile = "gfx//interface//buildings//road//toll_roads.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_castle-palace"
+		name = "GFX_castle-palace"
 		texturefile = "gfx//interface//buildings//unique//castle-palace.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_charter_guild"
+		name = "GFX_charter_guild"
 		texturefile = "gfx//interface//buildings//unique//charter_guild.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_family_temple"
+		name = "GFX_family_temple"
 		texturefile = "gfx//interface//buildings//unique//family_temple.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_mint"
+		name = "GFX_mint"
 		texturefile = "gfx//interface//buildings//unique//mint.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_ninjutsu_school"
+		name = "GFX_ninjutsu_school"
 		texturefile = "gfx//interface//buildings//unique//ninjutsu_school.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_satellite_forts"
+		name = "GFX_satellite_forts"
 		texturefile = "gfx//interface//buildings//unique//satellite_forts.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_building_western_quarter"
+		name = "GFX_western_quarter"
 		texturefile = "gfx//interface//buildings//unique//western_quarter.tga"
 		loadType = "INGAME"
 	}

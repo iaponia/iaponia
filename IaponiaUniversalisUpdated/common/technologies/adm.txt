@@ -1,0 +1,179 @@
+monarch_power = ADM
+
+# applied when a country is ahead of time in this technology
+ahead_of_time = {
+	global_tax_modifier = 0.1
+	production_efficiency = 0.1
+	yearly_corruption = -0.05
+}
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 1390
+	
+	tribal_kingdom = yes
+	tribal_federation = yes 
+}
+
+technology = {
+	# Tech 1
+	year = 1420
+	
+	despotic_monarchy = yes	
+	theocratic_government = yes
+	merchant_republic = yes
+}
+
+technology = {
+	# Tech 2
+	year = 1450
+	
+	may_support_rebels = yes
+	nanboku_cho_monarchy = yes
+}
+
+technology = {
+	# Tech 3
+	year = 1476
+	
+	shrine = yes
+	allowed_idea_groups = 1
+}
+
+technology = {
+	# Tech 4
+	year = 1485
+	
+	global_tax_modifier = 0.05
+	max_states = 5
+}
+
+technology = {
+	# Tech 5
+	year = 1494
+	
+	muromachi_monarchy = yes
+}
+
+technology = {
+	# Tech 6
+	year = 1503
+	
+	tea_house = yes
+	allowed_idea_groups = 2
+}
+
+technology = {
+	# Tech 7
+	year = 1512
+	
+	administrative_efficiency = 0.1
+	development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 8
+	year = 1521
+	
+	production_efficiency = 0.05
+	max_states = 5
+}
+
+technology = {
+	# Tech 9
+	year = 1530
+	
+	temple = yes
+	allowed_idea_groups = 3
+}
+
+technology = {
+	# Tech 10
+	year = 1539
+	
+	mine_network = yes
+	sengoku_monarchy = yes
+	global_tax_modifier = 0.05
+}
+
+technology = {
+	# Tech 11
+	year = 1548
+	
+	granary = yes
+	may_force_march = yes
+	production_efficiency = 0.05
+}
+
+technology = {
+	# Tech 12
+	year = 1557
+	
+	theater = yes
+	brewery = yes
+	allowed_idea_groups = 4
+}
+
+technology = {
+	# Tech 13
+	year = 1566
+	
+	magistrate = yes
+	max_states = 10
+}
+
+technology = {
+	# Tech 14
+	year = 1575
+	
+	administrative_efficiency = 0.25
+	development_efficiency = 0.1
+}
+
+technology = {
+	# Tech 15
+	year = 1584
+	
+	academy = yes
+	allowed_idea_groups = 5
+	azuchi_monarchy = yes
+}
+
+technology = {
+	# Tech 16
+	year = 1593
+	
+	family_temple = yes
+	max_states = 10
+}
+
+technology = {
+	# Tech 17
+	year = 1602
+	
+	production_efficiency = 0.05
+}
+
+technology = {
+	# Tech 18
+	year = 1611
+	
+	allowed_idea_groups	= 6
+}
+
+technology = {
+	# Tech 19
+	year = 1620
+	
+	mint = yes
+	global_tax_modifier = 0.05
+}
+
+technology = {
+	# Tech 20
+	year = 1629
+	
+	edo_monarchy = yes
+	max_states = 15
+}

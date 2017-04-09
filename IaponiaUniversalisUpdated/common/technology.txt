@@ -1,7 +1,6 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new technology, make sure they are uniquely named.
 
-# Armies get a insufficient support penalty when the ratio cav / (inf+cav) is _higher_ than "cav_to_inf_ratio". This applies for the "unit_type" of a country.
 
 # Groups must be defined BEFORE tables.
 
@@ -11,7 +10,6 @@ groups = {
 	western = {
 		start_level = 3
 		start_cost_modifier = 0
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -29,7 +27,6 @@ groups = {
 	eastern = {
 		start_level = 3
 		start_cost_modifier = 0.20
-		cav_to_inf_ratio = 0.6
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -47,7 +44,6 @@ groups = {
 	ottoman = {
 		start_level = 3
 		start_cost_modifier = 0.25
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -65,7 +61,6 @@ groups = {
 	muslim = {
 		start_level = 3
 		start_cost_modifier = 0.40
-		cav_to_inf_ratio = 0.8
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -83,7 +78,6 @@ groups = {
 	indian = {
 		start_level = 3
 		start_cost_modifier = 0.5
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -101,19 +95,16 @@ groups = {
 	east_african = {
 		start_level = 3
 		start_cost_modifier = 0.5
-		cav_to_inf_ratio = 0.5
 		nation_designer_unit_type = sub_saharan
 	}
 	central_african = {
 		start_level = 2
 		start_cost_modifier = 0.65
-		cav_to_inf_ratio = 0.5
 		nation_designer_unit_type = sub_saharan
 	}
 	chinese = {
 		start_level = 3
 		start_cost_modifier = 0
-		cav_to_inf_ratio = 0.5
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -131,7 +122,6 @@ groups = {
 	nomad_group = {
 		start_level = 3
 		start_cost_modifier = 0.75
-		cav_to_inf_ratio = 1.0
 		nation_designer_trigger = {
 			government = steppe_horde
 		}
@@ -139,30 +129,25 @@ groups = {
 	sub_saharan = { #West African
 		start_level = 2
 		start_cost_modifier = 0.6
-		cav_to_inf_ratio = 0.5
 	}
 	north_american = {
 		start_level = 1
 		start_cost_modifier = 2.5
-		cav_to_inf_ratio = 0.5
 		is_primitive = yes
 	}
 	mesoamerican = {
 		start_level = 1
 		start_cost_modifier = 1.5
-		cav_to_inf_ratio = 0.5
 		is_primitive = yes
 	}
 	south_american = {
 		start_level = 1
 		start_cost_modifier = 2.5
-		cav_to_inf_ratio = 0.5
 		is_primitive = yes
 	}
 	andean = {
 		start_level = 1
 		start_cost_modifier = 1.5
-		cav_to_inf_ratio = 0.5
 		nation_designer_unit_type = south_american
 		is_primitive = yes
 	}	
@@ -171,7 +156,6 @@ groups = {
 	high_american = {
 		start_level = 3
 		start_cost_modifier = 0
-		cav_to_inf_ratio = 0.3
 		nation_designer_unit_type = high_american
 		nation_designer_cost = {
 			trigger = {

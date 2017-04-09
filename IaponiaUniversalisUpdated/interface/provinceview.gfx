@@ -17,6 +17,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/institutions//province_institutions_button.dds"
 	}	
 
+	spriteType = {
+		name = "GFX_province_view_fort_nr_bg"
+		texturefile = "gfx/interface/province_view_fort_nr_bg.dds"
+	}		
 	
 	spriteType = {
 		name = "GFX_provinceview_institutions_bg"
@@ -86,6 +90,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_loot_icon"
 		texturefile = "gfx/interface/loot_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_devestation_icon"
+		texturefile = "gfx/interface/devestation_icon.dds"
 	}
 	
 	spriteType = {
@@ -380,6 +389,169 @@ spriteTypes = {
 		transparencecheck = yes
 	}
 	
+	textSpriteType = {
+		name = "gfx_button_base_button"
+		texturefile = "gfx//interface//button_base_button.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+		
+		clicksound = click
+	}
+
+	spriteType = {
+		name = "gfx_prosperity_strip"
+		texturefile = "gfx//interface//prosperity_strip.dds"
+		noOfFrames = 4
+	}
+	
+	spriteType = {
+		name = "GFX_province_tab_button"
+		texturefile = "gfx/interface/province_tab_button.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_provinceview_bg_state"
+		texturefile = "gfx/interface/provinceview_bg_state.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_provinceview_bg_foreign_state"
+		texturefile = "gfx/interface/provinceview_bg_foreign_state.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_provinceview_bg_large_state"
+		texturefile = "gfx/interface/provinceview_bg_large_state.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_provinceview_bg_state"
+		texturefile = "gfx/interface/provinceview_bg_state.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_provinceview_bg_foreign_large_state"
+		texturefile = "gfx/interface/provinceview_bg_foreign_large_state.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	spriteType = {
+		name = "GFX_edicts_bg_overlay"
+		texturefile = "gfx/interface/edicts_bg_overlay.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_prosperity_gauge_frame"
+		texturefile = "gfx/interface/prosperity_gauge_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	
+	spriteType = {
+		name = "GFX_core_icon"
+		texturefile = "gfx/interface/core_icon.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_edict_overlay"
+		texturefile = "gfx/interface/edict_overlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_province_banner_foreign"
+		texturefile = "gfx/interface/province_banner_foreign.dds"
+	}
+
+	spriteType = {
+		name = "GFX_province_banner"
+		texturefile = "gfx/interface/province_banner.dds"
+	}	
+
+	
+	spriteType = { 
+		name = "GFX_no_edict"
+		texturefile = "gfx//interface//ideas_EU4//no_edict.dds"
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_banners_slot"
+		texturefile = "gfx/interface/banners_slot.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_amount_of_banners"
+		texturefile = "gfx/interface/ideas_EU4/amount_of_banners.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_sort_state_core"
+		texturefile = "gfx/interface/sort_state_core.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sort_state_development"
+		texturefile = "gfx/interface/sort_state_development.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sort_state_fort"
+		texturefile = "gfx/interface/sort_state_fort.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sort_state_religion"
+		texturefile = "gfx/interface/sort_state_religion.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sort_state_shield"
+		texturefile = "gfx/interface/sort_state_shield.dds"
+	}	
+	spriteType = {
+		name = "GFX_sort_state_devastation"
+		texturefile = "gfx/interface/sort_state_devastation.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_sort_state_116"
+		texturefile = "gfx/interface/sort_state_116.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_sort_state_unrest"
+		texturefile = "gfx/interface/sort_state_unrest.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_prosperity_icon_m"
+		texturefile = "gfx/interface/prosperity_icon_m.dds"
+		loadType = "INGAME"
+	}	
+	
+	progressbartype = {
+		name = "GFX_prosperity_progressbar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx\\interface\\institutions\\institution_progress_bar.dds"
+		textureFile2 = "gfx\\interface\\institutions\\institution_progress_transparent.dds"
+		size = { x = 115 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+	}	
+	
 	spriteType = {
 		name = "GFX_client_state_selection_bg"
 		texturefile = "gfx/interface/temp/client_state_selection_bg.tga"
@@ -576,6 +748,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/build_unit_queue_merc.dds"
 	}
 	spriteType = {
+		name = "GFX_build_unit_queue_banner"
+		texturefile = "gfx/interface/build_unit_queue_banner.dds"
+	}	
+	spriteType = {
 		name = "GFX_build_unit_entry"
 		texturefile = "gfx/interface/build_unit_entry.dds"
 	}
@@ -583,6 +759,10 @@ spriteTypes = {
 		name = "GFX_build_unit_entry_merc"
 		texturefile = "gfx/interface/build_unit_entry_merc.dds"
 	}
+	spriteType = {
+		name = "GFX_build_unit_entry_banner"
+		texturefile = "gfx/interface/build_unit_entry_banner.dds"
+	}	
 	spriteType = {
 		name = "GFX_build_unit_entry_naval"
 		texturefile = "gfx/interface/build_unit_entry_naval.dds"
@@ -657,8 +837,6 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
-
-
 
 	spriteType = {
 		name = "GFX_building_canbuild"

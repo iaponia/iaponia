@@ -46,6 +46,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Rights of Man"
 		has_consort = no
+		has_regency = no
 		is_lesser_in_union = no
 		num_of_cities = 2
 		government = monarchy
@@ -162,6 +163,42 @@ country_event = {
 						NOT = { has_estate = estate_burghers }
 						NOT = { has_estate = estate_church }
 					}
+				}
+				save_event_target_as = origin_of_queens_family
+			}
+			random_owned_province = {
+				limit = {
+					is_capital = no
+					OR = {
+						is_state = yes
+						is_in_capital_area = yes 
+					}
+					has_estate = estate_nobles
+					development = 15
+				}
+				save_event_target_as = origin_of_queens_family
+			}
+			random_owned_province = {
+				limit = {
+					is_capital = no
+					OR = {
+						is_state = yes
+						is_in_capital_area = yes 
+					}
+					has_estate = estate_nobles
+					development = 20
+				}
+				save_event_target_as = origin_of_queens_family
+			}
+			random_owned_province = {
+				limit = {
+					is_capital = no
+					OR = {
+						is_state = yes
+						is_in_capital_area = yes 
+					}
+					has_estate = estate_nobles
+					development = 25
 				}
 				save_event_target_as = origin_of_queens_family
 			}
@@ -821,6 +858,10 @@ country_event = {
 		is_lesser_in_union = no
 		has_consort = yes
 		has_foreign_consort = yes
+		any_country = {
+			has_given_consort_to = ROOT
+			exists = yes
+		}
 		NOT = { has_ruler_flag = approached_by_consorts_foreign_family }
 	}
 
@@ -2023,7 +2064,10 @@ country_event = {
 		has_foreign_consort = yes
 		is_lesser_in_union = no
 		NOT = { has_country_modifier = heretic_royalty }
-
+		any_owned_province = {
+			is_capital = no
+			has_owner_religion = yes
+		}
 		any_country = {
 			has_given_consort_to = ROOT
 			NOT = { religion = ROOT }
@@ -3779,7 +3823,6 @@ country_event = {
 				limit = {
 					consort_mil = 4
 					has_mil_advisor = yes
-					NOT = { consort_adm = 4 }
 					NOT = { has_ruler_flag = consort_adm_advisor }
 				}
 				set_ruler_flag = consort_mil_advisor
@@ -3788,8 +3831,6 @@ country_event = {
 				limit = {
 					consort_dip = 4
 					has_dip_advisor = yes
-					NOT = { consort_adm = 4 }
-					NOT = { consort_mil = 4 }
 					NOT = { has_ruler_flag = consort_adm_advisor }
 					NOT = { has_ruler_flag = consort_mil_advisor }
 				}

@@ -180,12 +180,14 @@ country_event = {
 
 	option = {
 		name = "corruption_event.7.a"
+		reduce_meritocracy_effect = yes
 		kill_advisor = random
 		add_prestige = -10
 	}
 
 	option = {
 		name = "corruption_event.7.b"
+		reduce_meritocracy_effect = yes
 		remove_advisor = random
 		add_adm_power = -15
 		add_dip_power = -15
@@ -194,6 +196,7 @@ country_event = {
 
 	option = {
 		name = "corruption_event.7.c"
+		reduce_meritocracy_effect = yes
 		add_adm_power = -30
 		add_dip_power = -30
 		add_mil_power = -30
@@ -524,6 +527,7 @@ country_event = {
 	option = {
 		name = "corruption_event.19.a"
 		remove_advisor = merchant_a
+		reduce_meritocracy_effect = yes
 		add_country_modifier = {
 			name = "minor_trade_crisis"
 			duration = 3650
@@ -533,6 +537,7 @@ country_event = {
 	option = {
 		name = "corruption_event.19.b"
 		add_corruption = 0.5
+		reduce_meritocracy_effect = yes
 	}
 }
 

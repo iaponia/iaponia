@@ -1,7 +1,7 @@
 ########################################
 # Events for Devotion (Theocracies)
 #
-# written by Sara Wendel-�rtqvist
+# written by Sara Wendel-Örtqvist
 ########################################
 
 namespace = devotion_events
@@ -1839,7 +1839,7 @@ country_event = {
 	}
 }
 
-# The Papal Prot�g�
+# The Papal Protégé
 country_event = {
 	id = devotion_events.110
 	title = devotion_events.110.t

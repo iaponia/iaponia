@@ -217,7 +217,7 @@ country_event = {
 	}
 }
 
-# Soir�e
+# Soirée
 country_event = {
 	id = 9455
 	title = "EVTNAME9455"
@@ -396,7 +396,8 @@ country_event = {
 
 	trigger = {
 		government = monarchy
-		is_subject = no
+		is_free_or_tributary_trigger = yes
+		NOT = { government = celestial_empire }
 		adm_tech = 20
 		adm_power = 200
 		has_factions = no
@@ -415,9 +416,9 @@ country_event = {
 	option = {
 		name = "EVTOPTB9462"
 		ai_chance = { factor = 5 }
-		kill_ruler = yes
-		add_stability = -6
 		change_government = bureaucratic_despotism
+		kill_ruler = yes
+		add_stability = -6		
 	}
 }
 
@@ -939,7 +940,7 @@ country_event = {
 	}
 }
 
-### Suggestions by Ex Mudder, scripted by Sara Wendel-�rtqvist
+### Suggestions by Ex Mudder, scripted by Sara Wendel-Örtqvist
 
 namespace = dynastic_events
 

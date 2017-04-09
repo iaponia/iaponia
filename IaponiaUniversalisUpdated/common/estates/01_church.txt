@@ -14,7 +14,7 @@ estate_church =
 	min_territory = 10
 	min_provinces_to_want_territory = 10
 
-	shinto requires extra land, instead
+	# shinto requires extra land, instead
 	wanted_territory_modifier = {
 		desc = EST_VAL_SHINTO
 		trigger = {

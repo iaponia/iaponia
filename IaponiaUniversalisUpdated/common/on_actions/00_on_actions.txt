@@ -4,177 +4,10 @@ on_startup = {
 
 # country
 on_religion_change = {
-	if = {
-		limit = {
-			NOT = { religion = confucianism }
-		}
-		remove_country_modifier = neo_confucianism
-	}
-	if = {
-		limit = {
-			religion_group = christian
-		}
-		remove_country_modifier = the_anti_christian_edict
-	}
-	if = {
-		limit = {
-			NOT = { religion = orthodox }
-		}
-		every_known_country = {
-			limit = {
-				reverse_has_opinion_modifier = {
-					who = ROOT
-					modifier = closed_down_the_patriarchate
-				}
-			}
-			reverse_remove_opinion = {
-				who = ROOT
-				modifier = closed_down_the_patriarchate
-			}
-		}
-	}
-	if = {
-		limit = {
-			religion = catholic
-			has_ruler_flag = personal_catholic_sympathies
-		}
-		country_event = { id = protestantism_events.19 }
-	}
-	if = {
-		limit = {
-			NOT = { religion = catholic }
-			has_ruler_modifier = catholic_zealot
-		}
-		remove_country_modifier = catholic_zealot
-	}
-	if = {
-		limit = {
-			NOT = { religion = catholic }
-			has_country_modifier = spanish_bible_translation
-		}
-		remove_country_modifier = spanish_bible_translation
-	}
-	if = {
-		limit = {
-			NOT = { religion = catholic }
-			has_country_modifier = supressing_spanish_protestantism
-		}
-		remove_country_modifier = supressing_spanish_protestantism
-	}
-	if = {
-		limit = {
-			NOT = { religion = catholic }
-			has_country_modifier = counter_reformation
-		}
-		remove_country_modifier = counter_reformation
-	}
-	if = {
-		limit = {
-			religion = protestant
-		}
-		set_country_flag = converted_to_protestantism
-	}
 }
 
 # country.
 on_secondary_religion_change = {
-	# Done from code: add_prestige = -50 (Define: CHANGE_SECONDARY_PRESTIGE_HIT)
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_monastic_order }
-		remove_province_modifier = tengri_monastic_order
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_shiite_settled_in_capital }
-		remove_province_modifier = tengri_shiite_settled_in_capital
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_insincere_leadership }
-		remove_province_modifier = tengri_insincere_leadership
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_religious_influx }
-		remove_province_modifier = tengri_religious_influx
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_ruler_questioned }
-		remove_province_modifier = tengri_ruler_questioned
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_strengthened_local_clans }
-		remove_province_modifier = tengri_strengthened_local_clans
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_growing_cities }
-		remove_province_modifier = tengri_growing_cities
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_christian_mission }
-		remove_province_modifier = tengri_christian_mission
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_unchristian_values }
-		remove_province_modifier = tengri_unchristian_values
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_monastic_order }
-		remove_province_modifier = tengri_monastic_order
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = hindufication }
-		remove_province_modifier = hindufication
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_influx_of_monks }
-		remove_province_modifier = tengri_influx_of_monks
-	}
-	every_owned_province = {
-		limit = { has_province_modifier = tengri_abandoning_the_old_ways }
-		remove_province_modifier = tengri_abandoning_the_old_ways
-	}
-	remove_country_modifier = tengri_devout_muslim
-	remove_country_modifier = tengri_confucian_elites_alienated
-	remove_country_modifier = tengri_confucian_titles
-	remove_country_modifier = tengri_traditionalists_strengthened
-	remove_country_modifier = tengri_confucian_nobles
-	remove_country_modifier = tengri_pali_legal_traditions
-	remove_country_modifier = tengri_religious_pilgrimages
-	remove_country_modifier = tengri_monks_in_capital
-	remove_country_modifier = tengri_influx_of_monks
-	remove_country_modifier = tengri_shiite_immigration
-	remove_country_modifier = support_of_the_khojas
-	remove_country_modifier = black_shamanism_modifier
-	remove_country_modifier = tengri_animist_pantheon
-	remove_country_modifier = zoroastrian_traders
-	remove_country_modifier = spread_of_tengri_tea_ceremony
-	remove_country_modifier = tengri_tea_ceremony
-	remove_country_modifier = tengri_japanese_swordsmithing
-	remove_country_modifier = tengri_bow_and_arrow_defended
-	remove_country_modifier = tengri_support_of_shamans
-	remove_country_modifier = tengri_hindu_conflict
-	remove_country_modifier = tengri_hindu_syncretism
-	remove_country_modifier = tengri_devout_christian_ruler
-	remove_country_modifier = tengri_personal_confessor
-	remove_country_modifier = tengri_confucian_administrators
-	remove_country_modifier = tengri_traditional_elites_alienated
-	remove_country_modifier = tengri_jihad
-	remove_country_modifier = tengri_stood_up_for_yassa
-	remove_country_modifier = tengri_sufi_teacher
-	remove_country_modifier = tengri_qadi
-	remove_country_modifier = tengri_religious_influx
-	remove_country_modifier = tengri_ibadi_scholars
-	remove_country_modifier = tengri_clergy_conflicts
-	remove_country_modifier = tengri_shamans_spurned
-	clr_country_flag = khojas_established
-	clr_country_flag = tengri_christian_devout_court
-	clr_ruler_flag = tengri_muslim_ruler_questioned
-	if = {
-		limit = {
-			check_variable = { which = khojas_retained value = 1 }
-		}
-		set_variable = {
-			which = khojas_retained value = 0
-		}
-	}
 }
 
 # country. Spawned when Enforcing Rebel Demands through a Support Rebels-war.
@@ -186,43 +19,28 @@ on_enforce_rebel_demands = {
 
 # country
 on_colonial_liberation = {
-	country_event = { id = colonial_nation.90 days = 1 }
 }
 
 # country
 on_colonial_reintegration = {
-	events = {
-		colonial_nation.91
-	}
 }
 
 # country
 on_peace_actor = {
-	events = {
-		usa_dlc.36				# Evacuation Day
-		native_americans.7		# Appoint Peace Chief
-	}
 }
 
 # country
 on_peace_recipient = {
-	events = {
-		native_americans.7		# Appoint Peace Chief
-	}
 }
 
 # country
 # root = winning country, from = loser country
 on_war_won = {
-	FROM = { country_event = { id = flavor_cri.6 } }
-	ROOT = { country_event = { id = tributary_events.32 } }
 }
 
 # country
 # root = loser country, from = winner country
 on_war_lost = {
-	ROOT = { country_event = { id = flavor_cri.6 } }
-	ROOT = { country_event = { id = tributary_events.32 } }
 }
 
 # country
@@ -233,517 +51,11 @@ on_battle_won_country = {
 # country
 # root = loser country, from = winner country
 on_battle_lost_country = {
-	#Yemoya
-	if = {
-		limit = {
-			ROOT = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = yemoja_cult }
-			}
-			FROM = {
-				religion = shamanism
-				has_unlocked_cult = yemoja_cult
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.1 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = yemoja_cult }
-			}
-			ROOT = {
-				religion = shamanism
-				has_unlocked_cult = yemoja_cult
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.1 } }
-	}
-	#Roog
-	if = {
-		limit = {
-			ROOT = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = roog_cult }
-			}
-			FROM = {
-				religion = shamanism
-				has_unlocked_cult = roog_cult
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.2 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = roog_cult }
-			}
-			ROOT = {
-				religion = shamanism
-				has_unlocked_cult = roog_cult
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.2 } }
-	}
-	#Nyame
-	if = {
-		limit = {
-			ROOT = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = nyame_cult }
-			}
-			FROM = {
-				religion = shamanism
-				has_unlocked_cult = nyame_cult
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.3 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = nyame_cult }
-			}
-			ROOT = {
-				religion = shamanism
-				has_unlocked_cult = nyame_cult
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.3 } }
-	}
-
-	#Cwezi / Swezi / Kubandwa
-	if = {
-		limit = {
-			ROOT = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = cwezi_cult }
-			}
-			FROM = {
-				religion = shamanism
-				has_unlocked_cult = cwezi_cult
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.101 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = cwezi_cult }
-			}
-			ROOT = {
-				religion = shamanism
-				has_unlocked_cult = cwezi_cult
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.101 } }
-	}
-
-	#Mlira and other Nature Spirits and/or ancestral cults of Central Africa
-	if = {
-		limit = {
-			ROOT = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = central_african_ancestor_cult }
-			}
-			FROM = {
-				religion = shamanism
-				has_unlocked_cult = central_african_ancestor_cult
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.102 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = central_african_ancestor_cult }
-			}
-			ROOT = {
-				religion = shamanism
-				has_unlocked_cult = central_african_ancestor_cult
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.102 } }
-	}
-
-	#Mwari
-	if = {
-		limit = {
-			ROOT = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = mwari_cult }
-			}
-			FROM = {
-				religion = shamanism
-				has_unlocked_cult = mwari_cult
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.103 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				religion = shamanism
-				NOT = { has_unlocked_cult = mwari_cult }
-			}
-			ROOT = {
-				religion = shamanism
-				has_unlocked_cult = mwari_cult
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.103 } }
-	}
-
-	#Enkai
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = enkai_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				religion = shamanism
-				has_unlocked_cult = enkai_cult
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.201 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = enkai_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				religion = shamanism
-				has_unlocked_cult = enkai_cult
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.201 } }
-	}
-	#Waaq
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = waaq_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				religion = shamanism
-				has_unlocked_cult = waaq_cult
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.202 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = waaq_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				religion = shamanism
-				has_unlocked_cult = waaq_cult
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.202 } }
-	}
-	#Zanahary
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = zanahary_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				religion = shamanism
-				has_unlocked_cult = zanahary_cult
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.203 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = zanahary_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				religion = shamanism
-				has_unlocked_cult = zanahary_cult
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.203 } }
-	}
-	#Christianity
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = christianity_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				OR = {
-					religion_group = christian
-					has_unlocked_cult = christianity_cult
-				}
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.400 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = christianity_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				OR = {
-					has_unlocked_cult = christianity_cult
-					religion_group = christian
-				}
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.400 } }
-	}
-	#Islam
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = islam_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				OR = {
-					religion_group = muslim
-					has_unlocked_cult = islam_cult
-				}
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.401 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = islam_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				OR = {
-					has_unlocked_cult = islam_cult
-					religion_group = muslim
-				}
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.401 } }
-	}
-	#Buddhism
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = buddhism_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				OR = {
-					religion_group = eastern
-					has_unlocked_cult = buddhism_cult
-				}
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.402 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = buddhism_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				OR = {
-					has_unlocked_cult = buddhism_cult
-					religion_group = eastern
-				}
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.402 } }
-	}
-	#Dharmic Cult
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = dharmic_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				OR = {
-					religion_group = dharmic
-					has_unlocked_cult = dharmic_cult
-				}
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.403 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = dharmic_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				OR = {
-					has_unlocked_cult = dharmic_cult
-					religion_group = dharmic
-				}
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.403 } }
-	}
-	#Teotl Cult
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = south_central_american_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				OR = {
-					religion = nahuatl
-					religion = inti
-					religion = mesoamerican_religion
-					has_unlocked_cult = south_central_american_cult
-				}
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.404 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = south_central_american_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				OR = {
-					has_unlocked_cult = south_central_american_cult
-					religion = nahuatl
-					religion = mesoamerican_religion
-				}
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.404 } }
-	}
-	#Norse Cult
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = norse_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				OR = {
-					religion = norse_pagan_reformed
-					has_unlocked_cult = norse_cult
-				}
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.405 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = norse_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				OR = {
-					has_unlocked_cult = norse_cult
-					religion = norse_pagan_reformed
-				}
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.405 } }
-	}
-	#Jewish Cult
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = jewish_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				OR = {
-					religion = jewish
-					has_unlocked_cult = jewish_cult
-				}
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.406 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = jewish_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				OR = {
-					has_unlocked_cult = jewish_cult
-					religion = jewish
-				}
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.406 } }
-	}
-	#Zoroastrian Cult
-	if = {
-		limit = {
-			ROOT = {
-				NOT = { has_unlocked_cult = zoroastrian_cult }
-				religion = shamanism #Fetishism
-			}
-			FROM = {
-				OR = {
-					religion = zoroastrian
-					has_unlocked_cult = zoroastrian_cult
-				}
-			}
-		}
-		ROOT = { country_event = { id = fetishist_flavor.407 } }
-	}
-	if = {
-		limit = {
-			FROM = {
-				NOT = { has_unlocked_cult = zoroastrian_cult }
-				religion = shamanism #Fetishism
-			}
-			ROOT = {
-				OR = {
-					has_unlocked_cult = zoroastrian_cult
-					religion = zoroastrian
-				}
-			}
-		}
-		FROM = { country_event = { id = fetishist_flavor.407 } }
-	}
-	random_events = {
-		90 = 0
-		10 = friendship_events.1 #Historical Friendship Broken
-	}
 }
 
 # province
 # root = location, from = loser country
 on_battle_won_province = {
-	random_events = {
-		1000 = 0
-		100 = war_of_the_roses.6	# WotR - Rebel Leaders Captured
-	}
 }
 
 # province
@@ -773,18 +85,11 @@ on_company_disolved ={
 # province
 # root = location, from = winner country
 on_battle_lost_province = {
-	random_events = {
-		1000 = 0
-		100 = tyw_events.22	# Capital Battle in Religious War
-	}
 }
 
 # country
 # root = winning country, from = location
 on_siege_won_country = {
-	events = {
-		tyw_events.14 # Fall of Prague in Religious War
-	}
 }
 
 # country
@@ -800,12 +105,6 @@ on_siege_won_province = {
 # province
 # root = location, from = winning country
 on_siege_lost_province =  {
-	events = {
-		war_of_the_roses.10		# Lancaster Stronghold
-		war_of_the_roses.11		# York Stronghold
-		french_wars_of_religion.7 #Ravening Religious Fanatics
-		french_wars_of_religion.9 #french_wars_of_religion.9
-	}
 }
 
 # province
@@ -877,37 +176,11 @@ on_new_monarch = {
 	events = {
 		tribal_succession.1		# Harsh anti-tribals.
 		9492 					# Remove some event modifiers
-		flavor_mlo.1			# The Ambrosian Republic
-		flavor_boh.8			# Winter King in Prague
-		flavor_kol.1			# Bavarian Archbishop
-		war_of_the_roses.101	# WotR - House of Lancaster wins
-		war_of_the_roses.102	# WotR - House of York wins
-		war_of_the_roses.106	# WotR - Another dynasty has seized the throne
-		flavor_tur.102			# Janissary Reward
-		flavor_ori.7			# Hamvira Victorious
-		flavor_kbo.1			# The two branches of the Sayfawa dynasty
-		flavor_kbo.8			# Sayfawa pretenders
-		flavor_zan.5			# Coup of Coup of Suleiman and Muhammad al-Mazlum.
-		purple_phoenix.1		# BYZ pretenders
-		flavor_pol.3480			# The Pacta Conventa
-		protestantism_events.15	# Catholic Leaning Monarch
-		tengri_events.17		# Keep the Khojas in Power?
-		flavor_tus.15			# Savonarola Dies
-		flavor_brapru.22		# Succession of Albrecht Achilles
-		flavor_brapru.25		# Dispositio Achillea (can also trigger from flavor_brapru.22)
-		flavor_nor.27			# Proclamation in Hamar
-		china_events.43			# Picking new Capital for China
-		celestial_empire_events.3 #Resistance to Sinicization
 	}
 	random_events = {
 		1000 = 0
-		100 = flavor_kol.1		# Bavarian Archbishop
-		100 = flavor_tim.1		# The Disintegration of the Timurid Empire
-		100 = flavor_hsa.3		# Hansa: Tagfahrt
-		100 = inti_events.1		# Birth of a Panaca
 		50 = dynastic_events.4
 		50 = dynastic_events.5
-		25 = harem_events.7		#Failed Policy of Fratricide
 	}
 }
 
@@ -929,53 +202,12 @@ on_new_consort = {
 
 # country
 on_monarch_death = {
-	if = {
-		limit = {
-			tag = ANS
-			BRA = {
-				has_country_flag = albrecht_achilles_flag
-			}
-		}
-		BRA = {
-			clr_country_flag = albrecht_achilles_flag #Just to be sure
-			kill_heir = yes #If Albrecht Achilles dies in Ansbach he will also be dead in Brandenburg, will appear as normal death of heir to BRA.
-		}
-	}
 }
 
 # country
 on_regent = {
-	if = {
-		limit = {
-			NOT = { has_global_flag = death_of_haji_giray } #Also set in history.
-			tag = CRI
-			exists = TUR
-			is_subject = no
-			TUR = {
-				num_of_cities = ROOT
-				is_subject = no
-				num_of_ports = 1
-			}
-		}
-		country_event = { id = flavor_cri.1 } #Death of Haji Giray
-	}
-	if = {
-		limit = {
-			NOT = { has_global_flag = death_of_haji_giray } #Also set in history.
-			tag = CRI
-			OR = {
-				NOT = { exists = TUR }
-				is_subject = yes
-				TUR = { NOT = { num_of_cities = ROOT } }
-				TUR = { is_subject = yes }
-				TUR = { NOT = { num_of_ports = 1 } }
-			}
-		}
-		set_global_flag = death_of_haji_giray
-	}
 	events = {
 		tribal_succession.1	# harsh anti-tribals.
-		flavor_mlo.1	# The Ambrosian Republic
 	}
 }
 
@@ -1303,65 +535,11 @@ on_chinese_empire_dismantled = {
 # When a nation gains the Mandate of Heaven (becomes the Emperor of China)
 # FROM = Old Emperor, ROOT = New Emperor
 on_mandate_of_heaven_gained = {
-	if = {
-		limit = {
-			technology_group = nomad_group
-		}
-		change_technology_group = chinese
-		change_unit_type = chinese
-	}
-	change_government = celestial_empire
-	set_mandate = 60
-	china_superregion = {
-		limit = {
-			NOT = { is_core = ROOT }
-		}
-		add_permanent_claim = ROOT
-	}
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-		}
-		remove_faction = temples
-		remove_faction = enuchs
-		remove_faction = bureaucrats
-	}
-	if = {
-		limit = {
-			has_country_modifier = lost_mandate_of_heaven
-		}
-		remove_country_modifier = lost_mandate_of_heaven
-	}
-	country_event = { #Reforming the Bureaucracy
-		id = china_events.31
-		days = 365
-	}
-	country_event = {
-		id = china_events.32 #Records of the last Empire
-		days = 183
-	}
-	country_event = {
-		id = celestial_empire_events.2
-		days = 1825
-	}
 }
 
 # When a nation loses the Mandate of Heaven
 # FROM = New Emperor, ROOT = Old Emperor
 on_mandate_of_heaven_lost = {
-	change_government = despotic_monarchy
-	set_government_rank = 2
-	add_country_modifier = {
-		name = lost_mandate_of_heaven
-		duration = 5475	# 15 years
-	}
-
-	china_superregion = {
-		limit = {
-			is_permanent_claim = ROOT
-		}
-		remove_claim = ROOT
-	}
 }
 
 on_dismantle_revolution = {
@@ -1403,28 +581,6 @@ on_overextension_pulse = {
 
 
 on_colonial_pulse = {
-	random_events = {
-		100 = colonial.1
-		100 = colonial.2
-		100 = colonial.3
-		100 = colonial.4
-		100 = colonial.5
-		100 = colonial.6
-		100 = colonial.7
-		100 = colonial.8
-		100 = colonial.9
-		100 = colonial.10
-		100 = colonial.11
-		100 = colonial.12
-		100 = colonial.13
-		100 = colonial.14
-		100 = colonial.15
-		100 = colonial.16
-		100 = colonial.17
-		100 = colonial.18
-
-		10000 = 0
-	}
 }
 
 # country random events
@@ -1645,38 +801,6 @@ on_bi_yearly_pulse = {
 		100 = 6433
 		100 = 6434
 
-		# Refoms, when having parliaments.
-		100 = reforms.1
-		100 = reforms.2
-		100 = reforms.3
-		100 = reforms.4
-
-		100 = randomeventsstapehordes.1
-		100 = randomeventsstapehordes.2
-		100 = randomeventsstapehordes.3
-		100 = randomeventsstapehordes.4
-		100 = randomeventsstapehordes.5
-		100 = randomeventsstapehordes.6
-		100 = randomeventsstapehordes.7
-		100 = randomeventsstapehordes.8
-		100 = randomeventsstapehordes.13
-		100 = randomeventsstapehordes.14
-		100 = randomeventsstapehordes.17
-		100 = randomeventsstapehordes.18
-		100 = randomeventsstapehordes.19
-		100 = randomeventsstapehordes.20
-		100 = randomeventsstapehordes.21
-		100 = randomeventsstapehordes.22
-		100 = randomeventsstapehordes.23
-		100 = randomeventsstapehordes.24
-
-		# Sailor events
-		100 = sailor_event.1
-		100 = sailor_event.2
-		100 = sailor_event.3
-		100 = sailor_event.4
-		100 = sailor_event.5
-
 		# Corruption Events
 		100 = corruption_event.16
 		100 = corruption_event.17
@@ -1700,10 +824,10 @@ on_bi_yearly_pulse = {
 
 		# Institution Events
 		#Feudalism Spread Events:
-		100 = institution_events.8
-		100 = institution_events.9
-		100 = institution_events.10
-		100 = institution_events.11
+		#100 = institution_events.8
+		#100 = institution_events.9
+		#100 = institution_events.10
+		#100 = institution_events.11
 
 
 		#Personality Events
@@ -1756,10 +880,6 @@ on_bi_yearly_pulse = {
 		50 = personality_events.56
 		50 = personality_events.57
 		50 = personality_events.58
-
-		#Confucian Events
-		75 = confucian_events.19
-		75 = confucian_events.20
 
 		1000 = 0
 	}
@@ -1890,62 +1010,11 @@ on_thri_yearly_pulse = {
 		100 = devotion_events.218
 		100 = devotion_events.219
 
-		# Japanese Daimyos
-		50 = flavor_jap.10
-		50 = flavor_jap.28
-		100 = flavor_jap.40
-		100 = flavor_jap.42
-		100 = flavor_jap.43
-		100 = flavor_jap.45
-		100 = flavor_jap.49
-		100 = flavor_jap.51
-		100 = flavor_jap.52
-		100 = flavor_jap.53
-		100 = flavor_jap.54
-		100 = flavor_jap.55
-
-		# China
-		75 = meritocracy_events.1
-		75 = meritocracy_events.2
-		75 = meritocracy_events.3
-		75 = meritocracy_events.4
-		75 = meritocracy_events.5
-		50 = china_events.11
-		25 = china_events.12
-		25 = china_events.24
-
 		1000 = 0
 	}
 }
 
 on_thri_yearly_pulse_2 = {
-	random_events = {
-		# Random to increase or decrease patriarch authority.
-		25 = orthodox_flavor.1
-		25 = orthodox_flavor.2
-		25 = orthodox_flavor.3
-		25 = orthodox_flavor.4
-		25 = orthodox_flavor.5
-
-		# Muslim Piety Events
-		50 = muslim_piety.1
-		50 = muslim_piety.2
-		50 = muslim_piety.3
-		50 = muslim_piety.4
-		50 = muslim_piety.5
-		50 = muslim_piety.6
-		50 = muslim_piety.7
-		50 = muslim_piety.8
-		50 = muslim_piety.9
-		50 = muslim_piety.10
-		50 = muslim_piety.11
-		50 = muslim_piety.12
-		50 = muslim_piety.13
-		50 = muslim_piety.14
-		50 = muslim_piety.15
-		50 = muslim_piety.16
-		300 = 0
-	}
 }
 
 on_thri_yearly_pulse_3 = {
@@ -2007,102 +1076,10 @@ on_thri_yearly_pulse_3 = {
 }
 
 on_thri_yearly_pulse_4 = {
-	random_events = {
-		#Low Mandate Events
-		100 = 0
-		10 = china_events.45
-		10 = china_events.46
-		10 = china_events.47
-		10 = china_events.48
-		10 = china_events.49
-		10 = china_events.50
-		10 = china_events.51
-		10 = china_events.52
-		10 = china_events.53
-		10 = china_events.54
-		#10 = china_events.55 (triggers via neighbors)
-		10 = china_events.56
-		10 = china_events.57
-		5 = china_events.58
-		10 = china_events.59
-		10 = china_events.60
-	}
 }
 
 on_four_year_pulse = {
 	random_events = {
-		# Colonial Nations
-		100 = colonial_nation.1
-		100 = colonial_nation.4
-		100 = colonial_nation.10
-		100 = colonial_nation.12
-		100 = colonial_nation.14
-		100 = colonial_nation.77
-		100 = colonial_nation.100
-		100 = colonial_nation.102
-		100 = colonial_nation.104
-		100 = colonial_nation.106
-		100 = colonial_nation.108
-		100 = colonial_nation.110
-		100 = colonial_nation.112
-		100 = colonial_nation.114
-		100 = colonial_nation.116
-		100 = colonial_nation.118
-		100 = colonial_nation.120
-		100 = colonial_nation.122
-		100 = colonial_nation.124
-		100 = colonial_nation.126
-		100 = colonial_nation.128
-		100 = colonial_nation.130
-		100 = colonial_nation.132
-		100 = colonial_nation.134
-		10 = colonial_nation.140
-		10 = colonial_nation.142
-		10 = colonial_nation.144
-		10 = colonial_nation.146
-		10 = colonial_nation.148
-		10 = colonial_nation.150
-		10 = colonial_nation.152
-		10 = colonial_nation.154
-		10 = colonial_nation.156
-		10 = colonial_nation.158
-		10 = colonial_nation.160
-		10 = colonial_nation.162
-		10 = colonial_nation.164
-		10 = colonial_nation.166
-		10 = colonial_nation.168
-		10 = colonial_nation.170
-		10 = colonial_nation.172
-		10 = colonial_nation.174
-		10 = colonial_nation.176
-
-		# Dutch Republic
-		100 = dutch_republic.1
-		100 = dutch_republic.2
-		100 = dutch_republic.3
-		100 = dutch_republic.4
-		100 = dutch_republic.5
-		100 = dutch_republic.6
-		100 = dutch_republic.7
-		100 = dutch_republic.8
-		100 = dutch_republic.9
-		100 = dutch_republic.10
-		150 = dutch_republic.11
-		100 = dutch_republic.13
-		100 = dutch_republic.14
-		100 = dutch_republic.15
-		100 = dutch_republic.16
-		100 = dutch_republic.17
-		100 = dutch_republic.18
-		100 = dutch_republic.19
-		100 = dutch_republic.20
-		100 = dutch_republic.21
-		100 = dutch_republic.22
-		100 = dutch_republic.23
-		100 = dutch_republic.24
-		100 = dutch_republic.25
-		100 = dutch_republic.27
-
 		# Republic Factions
 		100 = republic_factions.2
 		100 = republic_factions.5
@@ -2144,74 +1121,6 @@ on_four_year_pulse = {
 		100 = republican_dictatorship.6
 		100 = republican_dictatorship.7
 		100 = republican_dictatorship.8
-
-		# Elective Monarchy
-		150 = elective_monarchy.1
-		150 = elective_monarchy.2
-		25 = elective_monarchy.3
-		25 = elective_monarchy.4
-		150 = elective_monarchy.6
-		150 = elective_monarchy.8
-		150 = elective_monarchy.9
-		150 = elective_monarchy.10
-		150 = elective_monarchy.11
-		150 = elective_monarchy.12
-		150 = elective_monarchy.14
-		150 = elective_monarchy.17
-		25 = elective_monarchy.18
-
-		# Free Cities
-		25 = free_cities.3
-		25 = free_cities.7
-		25 = free_cities.8
-		25 = free_cities.10
-		25 = free_cities.13
-		25 = free_cities.17
-		25 = free_cities.19
-
-		#Empire of China
-		100 = china_events.1
-		100 = china_events.2
-		100 = china_events.3
-		100 = china_events.4
-		75 = china_events.5
-		100 = china_events.6
-		100 = china_events.7
-		100 = china_events.8
-		100 = china_events.9
-		100 = china_events.10
-		100 = china_events.11
-		100 = china_events.12
-		100 = china_events.13
-		100 = china_events.14
-		100 = china_events.15
-		100 = china_events.16
-		100 = china_events.17
-		100 = china_events.18
-		100 = china_events.19
-		100 = china_events.20
-		100 = china_events.21
-		100 = china_events.22
-		100 = china_events.23
-		100 = china_events.24
-		100 = china_events.25
-		100 = china_events.26
-		100 = china_events.27
-		100 = china_events.28
-		100 = china_events.29
-		100 = china_events.30
-		100 = china_events.33
-		100 = china_events.34
-		100 = china_events.35
-		100 = china_events.36
-		100 = china_events.37
-		100 = china_events.38
-		100 = china_events.39
-		50 = china_events.40
-		100 = china_events.41
-		100 = china_events.42
-		100 = china_events.44
-
 		1000 = 0
 	}
 }
@@ -2323,130 +1232,24 @@ on_five_year_pulse_4 = {
 
 # El Dorado
 on_explore_coast = {
-	random_events = {
-		10 = exploration_events.1
-		10 = exploration_events.2
-		10 = exploration_events.3
-		10 = exploration_events.4
-		10 = exploration_events.5
-		10 = exploration_events.6
-		10 = exploration_events.7
-		10 = exploration_events.8
-		10 = exploration_events.9
-		10 = exploration_events.10
-		10 = exploration_events.11
-		10 = exploration_events.12
-		10 = exploration_events.13
-		10 = exploration_events.14
-		10 = exploration_events.15
-	}
 }
+
 on_conquistador_empty = {
-	random_events = {
-		10 = seven_cities_events.1
-		10 = seven_cities_events.2
-		10 = seven_cities_events.3
-		10 = seven_cities_events.4
-		10 = seven_cities_events.5
-		10 = seven_cities_events.6
-		10 = seven_cities_events.7
-		10 = seven_cities_events.8
-
-		10 = seven_cities_events.100
-		10 = seven_cities_events.101
-		10 = seven_cities_events.102
-		10 = seven_cities_events.103
-		10 = seven_cities_events.104
-		10 = seven_cities_events.105
-
-		50 = seven_cities_events.200
-		50 = seven_cities_events.201
-		50 = seven_cities_events.202
-		50 = seven_cities_events.203
-		50 = seven_cities_events.204
-		50 = seven_cities_events.205
-		50 = seven_cities_events.206
-		50 = seven_cities_events.207
-		50 = seven_cities_events.208
-		50 = seven_cities_events.209
-		50 = seven_cities_events.210
-		50 = seven_cities_events.211
-		50 = seven_cities_events.212
-		50 = seven_cities_events.213
-		50 = seven_cities_events.214
-		50 = seven_cities_events.215
-		50 = seven_cities_events.216
-		50 = seven_cities_events.217
-		50 = seven_cities_events.218
-		50 = seven_cities_events.219
-		50 = seven_cities_events.220
-		50 = seven_cities_events.221
-		50 = seven_cities_events.222
-		50 = seven_cities_events.223
-
-		10 = seven_cities_events.302
-		10 = seven_cities_events.303
-		10 = seven_cities_events.308
-		10 = seven_cities_events.309
-
-		10 = seven_cities_events.400
-		10 = seven_cities_events.401
-		10 = seven_cities_events.402
-		10 = seven_cities_events.405
-		10 = seven_cities_events.406
-		10 = seven_cities_events.407
-		10 = seven_cities_events.408
-		10 = seven_cities_events.409
-		10 = seven_cities_events.410
-		10 = seven_cities_events.413
-		10 = seven_cities_events.414
-
-		2000 = 0
-	}
 }
 
 on_conquistador_native = {
-	random_events = {
-		10 = seven_cities_events.300
-		10 = seven_cities_events.301
-		10 = seven_cities_events.303
-		10 = seven_cities_events.304
-		10 = seven_cities_events.305
-		10 = seven_cities_events.306
-		10 = seven_cities_events.307
-		10 = seven_cities_events.308
-		10 = seven_cities_events.309
-		10 = seven_cities_events.310
-
-		250 = 0
-	}
 }
 
 on_buy_religious_reform = {
-	events = {
-		religious_reforms.1
-		religious_reforms.2
-		religious_reforms.3
-	}
 }
 
 on_circumnavigation = {
-	events = {
-		exploration_events.17
-		exploration_events.16 #First Circumnavigation Europe
-	}
 }
 
 on_become_free_city = {
-	events = {
-		free_cities.1
-	}
 }
 
 on_remove_free_city = {
-	events = {
-		free_cities.2
-	}
 }
 
 on_revoke_estate_land_ai = { #AI can't handle the rebels atm or perform a gradual revoke, sorry
@@ -2586,28 +1389,12 @@ on_grant_estate_land = {
 }
 
 on_death_has_harem = {
-	if = {
-		limit = {
-			has_heir = no
-		}
-		country_event = { id = harem_events.2 }
-	}
 }
 
 on_select_heir_from_harem = {
 }
 
 on_fetishist_cult_change = {
-	country_event = { id = fetishist_flavor.302 days = 10 } #removing tomb if incompatible cult is picked
-	country_event = { id = fetishist_flavor.304 days = 10 } #rebuilding tomb if lost
-	if = {
-		limit = {
-			has_country_flag = lost_ancestral_lands
-			NOT = { has_adopted_cult = zanahary_cult }
-			NOT = { has_adopted_cult = central_african_ancestor_cult }
-		}
-		clr_country_flag = lost_ancestral_lands
-	}
 }
 
 # country

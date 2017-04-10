@@ -6,7 +6,37 @@
 
 # Note that ai_will_do calculates a priority.
 # An advisor may be chosen over another if its random priority exceeds it. RandomPriority(advisor) := rand[1, 2[ * Priority(advisor).
-
+#theologian_a
+#monk_a
+#architect_a
+#treasurer_a
+#logistician_a
+#magistrate_a
+#clan_historian_a
+#clan_elder_a
+#censor_a
+#economist_a
+#bureaucratic_reformer_a
+#ninja_a
+#merchant_a
+#tea_master_a
+#poet_a
+#councillor_a
+#envoy_a
+#imperial_courtier_a
+#naval_commander_a
+#navigator_a
+#naval_reformer_a
+#vanguard_commander_a
+#ashigaru_commander_a
+#teppo_commander_a
+#cavalry_commander_a
+#blademaster_a
+#siege_master_a
+#military_engineer_a
+#commandant_a
+#army_organizer_a
+#army_reformer_a
 
 ######################################################
 # Administrative Advisors

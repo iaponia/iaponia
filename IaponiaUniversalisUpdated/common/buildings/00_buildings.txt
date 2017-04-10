@@ -709,17 +709,17 @@ mint = {
 		stability_cost_modifier = -0.1
 	}
 	one_per_country = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 charter_guild = {
 	cost = 1000
 	time = 48
 	trigger = {
-		AND = {
+		OR = {
 			has_province_modifier = center_of_trade_modifier
 			has_province_modifier = inland_center_of_trade_modifier
 		}
@@ -729,8 +729,8 @@ charter_guild = {
 		trade_efficiency = 0.1
 	}
 	one_per_country = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }

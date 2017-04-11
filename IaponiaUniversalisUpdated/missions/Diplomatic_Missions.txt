@@ -1,0 +1,509 @@
+get_an_alliance_mission = {
+
+	type = neighbor_countries
+
+	category = DIP
+
+	allow = {
+		FROM = {
+			NOT = { num_of_allies = 2 }
+			NOT = { has_country_flag = got_an_alliance_mission }
+			NOT = { has_country_modifier = foreign_contacts }
+		}
+		NOT = { num_of_allies = 2 }
+		NOT = { is_enemy = FROM }
+		NOT = { is_rival = FROM }
+		NOT = { historical_rival_with = FROM }
+		is_at_war = no
+		has_opinion = { who = FROM value = 50 }
+		NOT = { alliance_with = FROM }
+		NOT = { overlord_of = FROM }
+		NOT = { is_subject_other_than_tributary_trigger = yes }
+		FROM = {
+			NOT = { is_subject_other_than_tributary_trigger = yes }
+			NOT = { overlord_of = ROOT }
+		}
+		NOT = {
+			any_owned_province = {
+				is_core = FROM
+			}
+		}
+	}
+	abort = {
+		OR = {
+			war_with = FROM
+			FROM = { num_of_allies = 3 }
+			NOT = { num_of_cities = 1 }
+		}
+	}
+	success = {
+		alliance_with = FROM
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 1.10
+			primary_culture = FROM
+		}
+		modifier = {
+			factor = 1.5
+			religion = FROM
+		}
+		modifier = {
+			factor = 1.15
+			FROM = { dip = 3 }
+		}
+		modifier = {
+			factor = 0.85
+			FROM = { NOT = { dip = 2 } }
+		}
+		modifier = {
+			factor = 1.1
+			num_of_cities = 10
+		}		
+	}
+	effect = {
+		FROM = {
+			add_country_modifier = {
+				name = "foreign_contacts"
+				duration = 3650
+			}
+			set_country_flag = got_an_alliance_mission
+		}
+	}
+}
+
+
+improve_relations_mission = {
+
+	type = neighbor_countries
+
+	category = DIP
+
+	allow = {
+		FROM = {
+			NOT = { has_country_flag = improved_relations_mission }
+			NOT = { has_country_modifier = foreign_contacts }
+		}
+		is_at_war = no
+		religion_group = FROM
+		NOT = { has_opinion = { who = FROM value = 50 } }
+		has_opinion = { who = FROM value = 0 }
+		NOT = {
+			ai_attitude = {
+				who = FROM
+				attitude = attitude_hostile
+			}
+		}
+		NOT = { government = daimyo }
+		NOT = { government = shogunate }
+		NOT = {
+			any_owned_province = {
+				is_core = FROM
+			}
+		}
+		OR = {
+			is_free_or_tributary_trigger = yes
+			overlord = {
+				tag = FROM
+			}
+		}
+	}
+	abort = {
+		OR = {
+			war_with = FROM
+			exists = no
+			FROM = {
+				ai_attitude = {
+					who = ROOT
+					attitude = attitude_hostile
+				}
+			}
+		}
+	}
+
+	success = {
+		has_opinion = { who = FROM value = 100 }
+	}
+	
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 1.25
+			primary_culture = FROM
+		}
+		modifier = {
+			factor = 1.1
+			religion = FROM
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { dip = 3 }
+		}
+		modifier = {
+			factor = 0.8
+			FROM = { NOT = { dip = 2 } }
+		}
+	}
+	effect = {
+		FROM = {
+			set_country_flag = improved_relations_mission
+			add_country_modifier = {
+				name = "foreign_contacts"
+				duration = 3650
+			}
+		}
+	}	
+}
+
+
+generic_annex_vassal_mission = {
+	
+	type = neighbor_countries
+
+	category = DIP
+
+	target_provinces = {
+		owned_by = ROOT
+	}
+	allow = {
+		FROM = {
+			is_at_war = no
+			NOT = { has_country_flag = generic_annex_mission_had }
+			NOT = { has_country_modifier = foreign_contacts }
+		}
+		vassal_of = FROM
+		NOT = { num_of_cities = FROM }
+		religion_group = FROM
+		OR = {
+			num_of_cities = 2
+			AND = {
+				NOT = { government = native_council }
+				NOT = { government = siberian_native_council }
+			}
+		}
+	}
+	abort = {
+		OR = {
+			exists = no
+			NOT = { vassal_of = FROM }
+			NOT = { religion_group = FROM }
+		}
+	}
+	success = {
+		exists = no
+		all_target_province = {
+			owned_by = FROM
+		}
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 1.1
+			FROM = { dip = 3 }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { dip = 5 }
+		}
+	}
+	effect = {
+		FROM = {
+			set_country_flag = generic_annex_mission_had
+			add_country_modifier = {
+				name = "foreign_contacts"
+				duration = 3650
+			}
+		}
+	}
+}
+
+
+improve_reputation_mission = {
+
+	type = country
+	
+	category = DIP
+	
+	allow = {
+		overextension_percentage = 0.50
+		NOT = { has_country_modifier = foreign_contacts }
+	}
+	abort = {
+	}
+	success = {
+		NOT = { overextension_percentage = 0.01 }
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 1.05
+			dip = 3
+		}
+		modifier = {
+			factor = 1.10
+			dip = 5
+		}
+		modifier = {
+			factor = 1.10
+			overextension_percentage = 0.75
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "foreign_contacts"
+			duration = 3650
+		}
+	}
+}
+
+
+vassalize_mission = {
+
+	type = neighbor_countries
+	
+	category = DIP
+
+	allow = {
+		NOT = { government = steppe_horde }
+		NOT = { government = daimyo }
+		NOT = { government = shogunate }
+		NOT = { government = imperial_city }
+		is_subject = no
+		has_regency = no
+		FROM = { 
+			is_free_or_tributary_trigger = yes
+			NOT = { government = steppe_horde }
+			NOT = { government = daimyo }
+			num_of_cities = 5
+			NOT = { has_country_modifier = foreign_contacts }
+		}
+		NOT = { num_of_cities = 4 }
+		NOT = { total_development = 50 }
+		religion_group = FROM
+		NOT = { is_in_trade_league_with = FROM }
+		NOT = { war_with = FROM }
+		NOT = { alliance_with = FROM }
+		has_opinion = { who = FROM value = 50 }
+	}
+	abort = {
+		OR = {
+			NOT = { num_of_cities = 1 }
+			government = imperial_city
+			is_in_trade_league_with = FROM
+			AND = {
+				is_subject_other_than_tributary_trigger = yes
+				NOT = { vassal_of = FROM }
+			}
+			NOT = {
+				FROM = {
+					has_casus_belli = {
+						type = cb_vassalize_mission
+						target = ROOT
+					}
+				}
+			}
+		}
+	}
+	success = {
+		vassal_of = FROM
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 1.15
+			primary_culture = FROM
+		}
+		modifier = {
+			factor = 1.1
+			religion = FROM
+		}
+		modifier = {
+			factor = 1.1
+			capital_scope = {
+				development = 5
+			}
+		}		
+		modifier = {
+			factor = 1.1
+			NOT = { num_of_cities = 2 }
+		}
+	}
+	immediate = {
+		FROM = {
+			add_casus_belli = {
+				type = cb_vassalize_mission
+				months = 300
+				target = ROOT
+			}
+		}
+	}
+	abort_effect = {
+		FROM = {
+			remove_casus_belli = {
+				type = cb_vassalize_mission
+				target = ROOT
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			add_country_modifier = {
+				name = "foreign_contacts"
+				duration = 3650
+			}
+		}
+		hidden_effect = {
+			remove_casus_belli = {
+				type = cb_vassalize_mission
+				target = ROOT
+			}
+		}
+	}	
+}
+
+
+royal_marriage_mission = {
+
+	type = neighbor_countries
+	
+	category = DIP
+
+	allow = {
+		is_at_war = no
+		FROM = {
+			government = monarchy
+			is_free_or_tributary_trigger = yes
+			num_of_free_diplomatic_relations = 1
+			NOT = { has_country_flag = had_royal_marriage_mission }
+			NOT = { has_country_modifier = foreign_contacts }
+		}
+		alliance_with = FROM
+		government = monarchy
+		religion_group = FROM
+		is_free_or_tributary_trigger = yes
+		NOT = {
+			marriage_with = FROM 
+			war_with = FROM
+			is_rival = FROM
+		}
+		has_opinion = { who = FROM value = 10 }
+		NOT = {
+			any_owned_province = {
+				is_core = FROM
+			}
+		}
+		NOT = { government = daimyo }
+		NOT = { government = shogunate }
+		NOT = { government = steppe_horde }
+	}
+	abort = {
+		OR = {
+			NOT = { num_of_cities = 1 }	#exists won't work, as we don't know the tag.
+			war_with =  FROM
+			FROM = {
+				OR = {
+					NOT = { government = monarchy }
+					is_subject_other_than_tributary_trigger = yes
+				}
+			}
+			NOT = { government = monarchy }
+			is_subject_other_than_tributary_trigger = yes
+		}
+	}
+	success = {
+		marriage_with = FROM
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 1.12
+			primary_culture = FROM
+		}
+		modifier = {
+			factor = 1.03
+			religion = FROM
+		}
+		modifier = {
+			factor = 1.1
+			has_opinion = { who = FROM value = 50 }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { dip = 3 }
+		}
+		modifier = {
+			factor = 1.04
+			prestige = FROM
+		}
+		modifier = {
+			factor = 1.08
+			NOT = { legitimacy = FROM }
+		}
+	}
+	effect = {
+		FROM = {
+			add_country_modifier = {
+				name = "foreign_contacts"
+				duration = 3650
+			}
+			set_country_flag = had_royal_marriage_mission
+		}
+	}
+}
+
+
+improve_relations_with_rival = {
+
+	type = neighbor_countries 
+	
+	category = DIP
+
+	allow = {
+		always = no	# missions removed
+		is_at_war = no
+		is_rival = FROM
+		NOT = {  has_opinion = { who = FROM value = 0 }  }
+		has_opinion = { who = FROM value = -75 }
+		NOT = { army_size = FROM }
+	}
+	abort = {
+		OR = {
+			war_with = FROM
+			exists = no
+		}
+	}
+	success = {
+		has_opinion = { who = FROM value = 50 }
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 1.05
+			primary_culture = FROM
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { religion = FROM }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { religion_group = FROM }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { dip = 3 }
+		}
+		modifier = {
+			factor = 0.9
+			FROM = { NOT = { dip = 2 } }
+		}
+		modifier = {
+			factor = 1.05
+			manpower = FROM
+		}		
+	}
+	effect = {
+		FROM = { add_dip_power = 25 }
+	}	
+}

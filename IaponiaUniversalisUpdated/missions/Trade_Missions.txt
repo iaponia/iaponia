@@ -1,0 +1,37 @@
+earn_more_from_trade ={
+
+	type = country
+
+	category = ADM
+	
+	allow = {
+		is_at_war = no
+		
+		num_of_merchants = 4
+		trade_income_percentage = 0.40
+		NOT = { trade_income_percentage = 0.55 }
+		NOT = { last_mission = earn_more_from_trade }
+		NOT = { has_country_flag = earned_more_from_trade }
+	}
+	success = { 
+		trade_income_percentage = 0.60
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 1.2
+			full_idea_group = expansion_ideas
+		}		
+		modifier = {
+			factor = 1.5
+			full_idea_group = trade_ideas
+		}	
+	}
+	effect = {
+		set_country_flag = earned_more_from_trade
+		add_country_modifier = {
+			name = "merchant_society"
+			duration = 3650
+		}
+	}
+}

@@ -7,10 +7,15 @@ annex_minor_mission = {
 		owned_by = ROOT
 	}
 	allow = {
+		is_free_or_tributary_trigger = yes
 		FROM = {	
-			is_subject = no
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
 		}
+		NOT = { alliance_with = FROM }
+		NOT = { is_subject_of = FROM }
+		NOT = { overlord_of = FROM }
+		NOT = { overlord = { is_subject_of = FROM } }
 		NOT = { tag = PAP }
 		OR = {
 			NOT = { tag = JAP }
@@ -23,6 +28,8 @@ annex_minor_mission = {
 		}
 		num_of_cities = 1
 		NOT = { num_of_cities = 2 }
+		NOT = { government = native_council }
+		NOT = { government = siberian_native_council }
 		NOT = { has_opinion = { who = FROM value = 0 } }
 		OR = {
 			is_part_of_hre = no
@@ -39,6 +46,7 @@ annex_minor_mission = {
 		all_target_province = {
 			owned_by = FROM
 		}
+		exists = no
 	}
 	chance = {
 		factor = 1000
@@ -74,12 +82,22 @@ annex_minor_mission = {
 	}
 	abort_effect = {
 		every_target_province = {
-			remove_claim = FROM
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = FROM
+					}
+				}
+				remove_claim = FROM
+			}
 		}
 	}
 	effect = {
 		FROM = {
-			add_prestige = 5
+			add_country_modifier = {
+				name = "military_victory"
+				duration = 3650
+			}
 		}
 	}
 }
@@ -92,18 +110,30 @@ conquer_a_port = {
 	
 	allow = {
 		FROM = {
-			is_subject = no
+			primitives = no
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
-			NOT = { num_of_total_ports = 1 } 
+			NOT = { num_of_total_ports = 1 }
+			NOT = { has_country_flag = conquered_a_port }
+			NOT = { has_country_modifier = expansion_of_the_shipbuilding_industry }
 		}
 		owner = {
 			NOT = { truce_with = FROM }
+			NOT = { alliance_with = FROM }
+			NOT = { is_subject_of = FROM }
+			NOT = { overlord_of = FROM }
+			NOT = { overlord = { is_subject_of = FROM } }
+			is_free_or_tributary_trigger = yes
 		}
 		has_port = yes
 		has_discovered = FROM
 		OR = {
 			owner = { is_part_of_hre = no }
 			FROM = { is_part_of_hre = no }
+		}
+		OR = {
+			is_capital = no
+			owner = { NOT = { num_of_cities = 2} }
 		}
 		OR = {
 			NOT = { owned_by = PAP }
@@ -137,11 +167,24 @@ conquer_a_port = {
 		add_claim = FROM
 	}
 	abort_effect = {
-		remove_claim = FROM
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = FROM
+					}
+				}
+				remove_claim = FROM
+			}
+		}
 	}
 	effect = {
 		FROM = {
-			add_navy_tradition = 5
+			set_country_flag = conquered_a_port
+			add_country_modifier = {
+				name = "expansion_of_the_shipbuilding_industry"
+				duration = 3650
+			}
 		}
 	}
 }
@@ -153,28 +196,32 @@ conquer_neighbour = {
 	category = MIL
 	
 	allow = {
-		FROM = {	
-			is_subject = no
+		FROM = {
+			is_free_or_tributary_trigger = yes
+			NOT = { has_country_modifier = military_victory }
 		}
 		NOT = { is_core = FROM }
 		is_colony = no
 		NOT = { owner = { has_opinion = { who = FROM value = 0 } } }
-		culture_group = FROM
 		owner = { NOT = { truce_with = FROM } }
 		NOT = { owner = { num_of_infantry = FROM  } }
 		NOT = { owner = { vassal_of = FROM } }
-		owner = { is_subject = no }
+		NOT = { owner = { overlord = { is_subject_of = FROM } } }
+		owner = {
+			NOT = { is_subject_of = FROM }
+			NOT = { overlord_of = FROM }
+		}
+		owner = { is_free_or_tributary_trigger = yes }
 		owner = { is_at_war = no }
 		has_discovered = FROM
 		OR = {
 			owner = { is_part_of_hre = no }
 			FROM = { is_part_of_hre = no }
 		}
-		OR = {
-			NOT = { owned_by = PAP }
-			is_capital = no
-		}
+		is_capital = no
+		NOT = { owned_by = PAP }
 		owner = {
+			NOT = { alliance_with = FROM }
 			OR = {
 				NOT = { tag = JAP }
 				AND = {
@@ -195,12 +242,12 @@ conquer_neighbour = {
 	chance = {
 		factor = 1000
 		modifier = {
-			factor = 1.5
-			culture = FROM
-		}
-		modifier = {
-			factor = 1.5
-			religion = FROM
+			factor = 10
+			owner = {
+				FROM = {
+					is_rival = PREV
+				}
+			}
 		}
 		modifier = {
 			factor = 1.5
@@ -214,18 +261,40 @@ conquer_neighbour = {
 			factor = 0.5
 			owner = { truce_with = FROM }
 		}
+		modifier = {
+			factor = 0.5
+			NOT = { religion = FROM }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { culture = FROM }
+		}
 	}
 	immediate = {
 		add_claim = FROM
 	}
 	abort_effect = {
-		remove_claim = FROM
+		owner = {
+			every_target_province = {
+				if = {
+					limit = {
+						NOT = {
+							is_permanent_claim = FROM
+						}
+					}
+					remove_claim = FROM
+				}
+			}
+		}
 	}
 	effect = {
 		FROM = {
-			add_prestige = 5
+			add_country_modifier = {
+				name = "military_victory"
+				duration = 3650
+			}
 		}
-	}	
+	}
 }
 
 
@@ -236,21 +305,21 @@ conquer_core = {
 
 	allow = {
 		FROM = {	
-			is_subject = no
+			is_free_or_tributary_trigger = yes
+			NOT = { has_country_modifier = military_victory }
 		}
 		is_core = FROM
 		is_colony = no
-		OR = {
-			is_capital = no
-			owner = { NOT = { num_of_cities = 2} }
-		}
-		NOT = { owner = { vassal_of = FROM } }
-		NOT = { owner = { junior_union_with = FROM } }
+		is_capital = no
+		NOT = { owner = { is_subject_of = FROM } }
+		NOT = { owner = { overlord_of = FROM } }
+		NOT = { owner = { overlord = { is_subject_of = FROM } } }
 		owner = { NOT = { truce_with = FROM } }
-		owner = { is_subject = no }
+		owner = { is_free_or_tributary_trigger = yes }
 		owner = { is_at_war = no }
 		has_discovered = FROM
 		owner = {
+			NOT = { alliance_with = FROM }
 			OR = {
 				NOT = { tag = JAP }
 				AND = {
@@ -271,6 +340,14 @@ conquer_core = {
 	chance = {
 		factor = 1000
 		modifier = {
+			factor = 10
+			owner = {
+				FROM = {
+					is_rival = PREV
+				}
+			}
+		}
+		modifier = {
 			factor = 1.5
 			culture = FROM
 		}
@@ -293,62 +370,14 @@ conquer_core = {
 	}
 	effect = {
 		FROM = {
-			add_prestige = 10
+			add_country_modifier = {
+				name = "military_victory"
+				duration = 3650
+			}
 		}
 	}	
 }
 
-
-get_control_of_naval_supplies = {
-
-	type = country
-	category = MIL
-	
-	allow = {
-		NOT = { naval_supplies = 90 }
-		num_of_heavy_ship = 900
-		num_of_ports = 900
-	}
-	abort = {
-	}
-	success = {
-		naval_supplies = 1
-	}
-	chance = {
-		factor = 1000
-		modifier = {
-			factor = 2.0
-			has_idea = press_gangs
-		}
-		modifier = {
-			factor = 10.0
-			has_idea = grand_navy
-		}
-		modifier = {
-			factor = 2.0
-			has_idea = sea_hawks
-		}
-		modifier = {
-			factor = 2.0
-			has_idea = superior_seamanship
-		}	
-		modifier = {
-			factor = 2.0
-			has_idea = naval_fighting_instruction
-		}
-		modifier = {
-			factor = 2.0
-			has_idea = excellent_shipwrights
-		}
-		modifier = {
-			factor = 2.0
-			has_idea = naval_glory
-		}
-	}
-	effect = {
-		add_navy_tradition = 5
-	}
-}
 
 
 protect_religious_minority = {
@@ -358,18 +387,26 @@ protect_religious_minority = {
 	
 	allow = {
 		FROM = {
-			is_subject = no
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
+			has_regency = no
 		}
 		religion = FROM
-		owner = { NOT = { religion = FROM } }
-		owner = { NOT = { alliance_with = FROM } }
-		owner = { NOT = { is_subject_of = FROM } }
-		has_discovered = FROM
-		OR = {
-			is_capital = no
-			owner = { NOT = { num_of_cities = 2} }
+		has_owner_religion = no
+		NOT = { culture = FROM }
+		NOT = { is_core = FROM }
+		NOT = { is_claim = FROM }
+		is_colony = no
+		owner = {
+			NOT = { overlord = { is_subject_of = FROM } }
+			is_free_or_tributary_trigger = yes
+			NOT = { alliance_with = FROM }
+			NOT = { is_subject_of = FROM }
+			NOT = { overlord_of = FROM }
 		}
+		owner = { NOT = { is_subject_of = FROM } }
+		owner = { num_of_cities = 2 }
+		has_discovered = FROM
 	}
 	abort = {
 		OR = {
@@ -386,11 +423,15 @@ protect_religious_minority = {
 		factor = 1000
 		modifier = {
 			factor = 1.5
-			culture = FROM
+			NOT = { religion_group = owner }
 		}
 		modifier = {
-			factor = 1.5
-			religion = FROM
+			factor = 10
+			owner = { 
+				FROM = {
+					is_rival = PREV
+				} 
+			}
 		}
 		modifier = {
 			factor = 1.5
@@ -398,7 +439,7 @@ protect_religious_minority = {
 		}
 		modifier = {
 			factor = 0.5
-		FROM = { NOT = { mil = 2 } }
+			FROM = { NOT = { mil = 2 } }
 		}		
 		modifier = { 
 			factor = 0.5
@@ -409,10 +450,22 @@ protect_religious_minority = {
 		add_claim = FROM
 	}
 	abort_effect = {
-		remove_claim = FROM
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = FROM
+					}
+				}
+				remove_claim = FROM
+			}
+		}
 	}
 	effect = {
-		FROM = { add_prestige = 5 }
+		add_province_modifier = {
+			name = "faster_integration"
+			duration = 3650
+		}
 	}
 }
 
@@ -424,35 +477,36 @@ protect_cultural_minority = {
 	
 	allow = {
 		FROM = {	
-			is_subject = no
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
+			has_regency = no
 		}
 		culture = FROM
-		owner = { NOT = { primary_culture = FROM } }
+		has_owner_culture = no
 		owner = { NOT = { alliance_with = FROM } }
-		owner = { NOT = { is_subject_of = FROM } }
-		has_discovered = FROM
-		OR = {
-			is_capital = no
-			owner = { NOT = { num_of_cities = 2} }
+		owner = {
+			is_free_or_tributary_trigger = yes
+			NOT = { overlord = { is_subject_of = FROM } }
+			NOT = { is_subject_of = FROM }
+			NOT = { overlord_of = FROM }
 		}
-		
+		owner = { num_of_cities = 2 }
+		has_discovered = FROM
+		NOT = { is_core = FROM }
+		NOT = { is_claim = FROM }
+		is_colony = no
 		OR = {
 			owner = { is_part_of_hre = no }
 			FROM = { is_part_of_hre = no }
 		}
-		OR = {
-			NOT = { owned_by = PAP }
-			is_capital = no
-		}
-		
+		NOT = { owned_by = PAP }
 	}
 	abort = {
 		OR = {
-			NOT = { culture = FROM }
-			owner = { primary_culture = FROM }
+			has_owner_culture = yes
 			owner = { alliance_with = FROM }
 			owner = { is_subject_of = FROM }
+			owner = { overlord = { is_subject_of = FROM } }
 		}
 	}
 	success = {
@@ -462,262 +516,51 @@ protect_cultural_minority = {
 		factor = 1000
 		modifier = {
 			factor = 1.5
-			culture = FROM
+			NOT = { culture_group = owner }
+		}
+		modifier = {
+			factor = 10
+			owner = {
+				FROM = {
+					is_rival = PREV
+				}
+			}
 		}
 		modifier = {
 			factor = 1.5
-			religion = FROM
-		}
-		modifier = {
-			factor = 1.5
-		FROM = { mil = 3 }
+			FROM = { mil = 3 }
 		}
 		modifier = {
 			factor = 0.5
 			FROM = { NOT = { mil = 2 } }
-		}		
+		}
 		modifier = {
 			factor = 0.5
 			owner = { truce_with = FROM }
+		}
+		modifier = {
+			factor = 0.5
+			has_owner_religion = no #Should protect religious Minority instead.
 		}
 	}
 	immediate = {
 		add_claim = FROM
 	}
 	abort_effect = {
-		remove_claim = FROM
-	}
-	effect = {
-		FROM = { add_prestige = 5 }
-	}
-}
-
-
-keep_rival_out_of_italy = {
-
-	type = rival_countries
-	category = MIL
-
-	allow = {
-		FROM = { 
-			is_subject = no
-			num_of_cities = 10 
-			is_at_war = no
-		}
-		num_of_cities = 5
-		NOT = { culture_group = latin }
-		italian_region = { owned_by = FROM }
-		NOT = { has_opinion = { who = FROM value = 100 } }
-		any_owned_province = {	
-			region = italian_region
-		}
-		OR = {
-			is_part_of_hre = no
-			FROM = { is_part_of_hre = no }
-		}
-		NOT = { truce_with = FROM }
-		NOT = { alliance_with = FROM }
-		NOT = { is_subject = yes }
-		FROM = { NOT = { is_subject = yes } } 
-	}
-	abort = {
-		NOT = {
-			italian_region = {
-				owned_by = FROM
-			}
-		}
-	}
-	success = {
-		NOT = {
-			any_owned_province = {	
-				region = italian_region
-			}
-		}
-	}
-	chance = {
-		factor = 1000
-		modifier = {
-			factor = 1.5
-			FROM = { mil = 3 }
-		}
-		modifier = {
-			factor = 0.5
-			FROM = { NOT = { dip = 2 } }
-		}
-
-	}
-	effect = {
-		FROM = { add_prestige = 5 }
-	}	
-}
-
-
-attack_prestigous_rival = {
-
-	type = rival_countries
-	category = MIL
-
-	allow = {
-		prestige = FROM
-		is_neighbor_of = FROM
-		FROM = { 
-			num_of_cities = 5
-			is_at_war = no
-			is_subject = no
-		}
-		num_of_cities = 5
-		has_regency = no
-		NOT = { is_nomad = yes } #not vs nomads!
-		NOT = { truce_with = FROM }
-		NOT = { alliance_with = FROM }
-		NOT = { is_subject = yes }
-		FROM = { NOT = { is_subject = yes } }
-		OR = {
-			is_part_of_hre = no
-			FROM = { is_part_of_hre = no }
-		}
-		OR = {
-			NOT = { tag = JAP }
-			AND = {
-				tag = JAP
-				NOT = { 
-					government = shogunate
+		if = {
+			limit = {
+				NOT = {
+					is_permanent_claim = FROM
 				}
 			}
-		}
-	}
-	abort = {
-		OR = {
-			FROM = {
-				is_subject = yes
-			}
-			NOT = { num_of_cities = 1 }
-		}
-	}
-	success = {
-		war_with = FROM
-	}
-	chance = {
-		factor = 1000
-		modifier = {
-			factor = 1.5
-			FROM = { mil = 3 }
-		}
-		modifier = {
-			factor = 0.5
-			FROM = { NOT = { dip = 2 } }
+			remove_claim = FROM
 		}
 	}
 	effect = {
-		FROM = { add_prestige = 5 }
-	}	
+		add_province_modifier = {
+			name = "faster_integration"
+			duration = 3650
+		}
+	}
 }
 
-
-attack_weaker_rival = {
-
-	type = rival_countries
-	category = MIL
-
-	allow = {
-		FROM = {	
-			is_subject = no
-			num_of_cities = 5
-			is_at_war = no
-		}	
-		NOT = { num_of_infantry = FROM }
-		is_neighbor_of = FROM
-		is_at_war = yes
-		num_of_cities = 5
-		NOT = { truce_with = FROM }
-		NOT = { alliance_with = FROM }
-		NOT = { is_subject = yes }
-		FROM = { NOT = { is_subject = yes } } 
-		OR = {
-			is_part_of_hre = no
-			FROM = { is_part_of_hre = no }
-		}
-		OR = {
-			NOT = { tag = JAP }
-			AND = {
-				tag = JAP
-				NOT = { 
-					government = shogunate
-				}
-			}
-		}
-		has_regency = no
-	}
-	abort = {
-		OR = {
-			FROM = {
-				is_subject = yes
-			}
-			is_at_war = no
-		}
-	}
-	success = {
-		war_with = FROM
-	}
-	chance = {
-		factor = 1000
-		modifier = {
-			factor = 1.5
-			FROM = { mil = 3 }
-		}
-		modifier = {
-			factor = 0.5
-			FROM = { NOT = { dip = 2 } }
-		}
-	}
-	effect = {
-		FROM = { add_prestige = 5 }
-	}	
-}
-
-
-italian_ambition = {
-
-	type = country
-	category = MIL
-
-	allow = {
-		is_subject = no
-		num_of_cities = 10 
-		NOT = { is_year = 1600 }
-		NOT = { culture_group = latin }
-		religion_group = christian
-		OR = {
-			culture_group = french
-			primary_culture = austrian
-			culture_group = iberian
-		}
-		NOT = {
-			any_owned_province = {	
-				region = italian_region
-			}
-		}
-	}
-	abort = {
-		is_subject = yes
-	}
-	success = {
-		any_owned_province = {
-			region = italian_region
-		}
-	}
-	chance = {
-		factor = 1000
-		modifier = {
-			factor = 1.5
-			FROM = { mil = 3 }
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { dip = 2 }
-		}
-	}
-	effect = {
-		add_prestige = 10
-	}
-}

@@ -1,0 +1,46 @@
+go_legitimate = {
+
+	type = country
+	
+	category = ADM
+
+	allow = {
+		government = monarchy
+		NOT = { government = steppe_horde }
+		NOT = { government = celestial_empire }
+		has_regency = no
+		NOT = { legitimacy = 50 }
+		is_at_war = no
+	}
+	abort = {
+		OR = {
+			NOT = { government = monarchy }
+			has_regency = yes
+		}
+	}
+	success = {
+		legitimacy = 75
+	}
+	
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 1.05
+			NOT = { legitimacy = 30 }
+		}	
+		modifier = {
+			factor = 1.05
+			NOT = { legitimacy = 40 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { legitimacy = 70 }
+		}
+		
+	}
+	effect = {
+		add_ruler_modifier = {
+			name = "legitimacy_defended"
+		}
+	}	
+}

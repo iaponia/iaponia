@@ -6,8 +6,8 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_armory"
-		texturefile = "gfx//interface//buildings//army//armory.tga"
+		name = "GFX_arsenal"
+		texturefile = "gfx//interface//buildings//army//arsenal.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
@@ -231,4 +231,15 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 
+	spriteType = {
+		name = "GFX_building_movement_speed"
+		texturefile = "gfx//interface//building_movement_speed.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_banner_mid_7"
+		texturefile = "gfx//interface//banner_mid_7.dds"
+		loadType = "INGAME"
+	}
 }

@@ -28,13 +28,13 @@ fortified_mansion = {
 	modifier = {
 		fort_level = 1
 	}
-	
+
 	onmap = yes
 	influencing_fort = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 garrison = {
@@ -44,13 +44,13 @@ garrison = {
 	modifier = {
 		fort_level = 2
 	}
-	
+
 	onmap = yes
 	influencing_fort = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 fort = {
@@ -60,13 +60,13 @@ fort = {
 	modifier = {
 		fort_level = 4
 	}
-	
+
 	onmap = yes
 	influencing_fort = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 castle = {
@@ -77,13 +77,13 @@ castle = {
 		fort_level = 6
 		local_defensiveness = 0.05
 	}
-	
+
 	onmap = yes
 	influencing_fort = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 citadel = {
@@ -94,13 +94,13 @@ citadel = {
 		fort_level = 8
 		local_defensiveness = 0.1
 	}
-	
+
 	onmap = yes
 	influencing_fort = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 ###
@@ -121,10 +121,10 @@ outer_wall = {
 		local_defensiveness = 0.1
 		local_hostile_attrition = 1
 	}
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 outer_wards = {
@@ -141,10 +141,10 @@ outer_wards = {
 		local_defensiveness = 0.2
 		local_hostile_attrition = 2
 	}
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 ###
@@ -158,12 +158,12 @@ training_grounds = {
 		local_manpower_modifier = 0.4
 		regiment_recruit_speed = -0.1
 	}
-	
+
 	ai_will_do = {
-		factor = 		
+		factor =
 	}
 }
-	
+
 barracks = {
 	cost = 200
 	time = 16
@@ -172,9 +172,9 @@ barracks = {
 		local_manpower_modifier = 0.6
 		regiment_recruit_speed = -0.25
 	}
-	
+
 	ai_will_do = {
-		factor = 	
+		factor =
 	}
 }
 
@@ -185,9 +185,9 @@ arsenal = {
 		land_forcelimit = 2
 		local_regiment_cost = -0.15
 	}
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -205,9 +205,9 @@ shipyard = {
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
 	}
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -222,9 +222,9 @@ drydock = {
 		ship_recruit_speed = -0.5
 		local_ship_repair = 0.5
 	}
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -238,9 +238,9 @@ wharf = {
 		naval_forcelimit = 4
 		province_trade_power_value = 2
 	}
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -251,14 +251,14 @@ wharf = {
 marketplace = {
 	cost = 75
 	time = 8
-	
+
 	modifier = {
 		province_trade_power_modifier = 0.4
 		local_tax_modifier = 0.1
 	}
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -266,30 +266,30 @@ merchant_guild = {
 	cost = 250
 	time = 20
 	make_obsolete = marketplace
-	
+
 	modifier = {
 		province_trade_power_modifier = 0.75
 		local_tax_modifier = 0.25
 	}
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
 workshop = {
 	cost = 300
 	time = 24
-	
+
 	modifier = {
 		local_production_efficiency = 0.5
 		trade_goods_size_modifier = 0.15
 	}
-	
+
 	allow_in_gold_provinces = no
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -300,14 +300,15 @@ workshop = {
 toll_roads = {
 	cost = 100
 	time = 12
-	
+
 	modifier = {
-		local_movement_speed = 0.15
+		local_friendly_movement_speed = 0.15
+		local_hostile_movement_speed = 0.15
 		local_tax_modifier = 0.05
 	}
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -315,14 +316,15 @@ post_roads = {
 	cost = 200
 	time = 24
 	make_obsolete = toll_roads
-	
+
 	modifier = {
-		local_movement_speed = 0.3
+		local_friendly_movement_speed = 0.3
+		local_hostile_movement_speed = 0.3
 		local_tax_modifier = 0.1
 	}
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -330,15 +332,16 @@ highways = {
 	cost = 600
 	time = 36
 	make_obsolete = post_roads
-	
+
 	modifier = {
-		local_movement_speed = 0.5
+		local_friendly_movement_speed = 0.5
+		local_hostile_movement_speed = 0.5
 		local_tax_modifier = 0.1
 		local_development_cost = -0.05
 	}
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -349,14 +352,14 @@ highways = {
 shrine = {
 	cost = 75
 	time = 8
-	
+
 	modifier = {
 		local_tax_modifier = 0.3
 		local_missionary_strength = 0.01
 	}
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -364,29 +367,29 @@ temple = {
 	cost = 250
 	time = 20
 	make_obsolete = shrine
-	
+
 	modifier = {
 		local_tax_modifier = 0.5
 		local_missionary_strength = 0.03
 	}
-	
+
 	ai_will_do = {
-		factor = 
-	}	
+		factor =
+	}
 }
 
 magistrate = {
 	cost = 400
 	time = 30
-	
+
 	modifier = {
 		local_state_maintenance_modifier = -0.5
 		local_autonomy = -0.2
 	}
-	
+
 	ai_will_do = {
-		factor = 
-	}	
+		factor =
+	}
 }
 
 ###
@@ -396,43 +399,43 @@ magistrate = {
 tea_house = {
 	cost = 200
 	time = 18
-	
+
 	modifier = {
-		
+
 		local_institution_spread = 0.1
 	}
-	
+
 	ai_will_do = {
-		factor = 
-	}	
+		factor =
+	}
 }
 
 theater = {
 	cost = 200
 	time = 18
-	
+
 	modifier = {
 		tax_income = 1
 		local_unrest = -2
 	}
-	
+
 	ai_will_do = {
-		factor = 
-	}	
+		factor =
+	}
 }
 
 academy = {
 	cost = 300
 	time = 24
-	
+
 	modifier = {
 		local_development_cost = -0.20
 		allowed_num_of_buildings = 1
 	}
-	
+
 	ai_will_do = {
-		factor = 
-	}	
+		factor =
+	}
 }
 
 ###
@@ -450,9 +453,9 @@ granary = {
 		trade_goods_size = 1.0
 	}
 	onmap = yes
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -466,9 +469,9 @@ gunsmith = {
 		trade_goods_size = 1.0
 	}
 	onmap = yes
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -482,9 +485,9 @@ ranch = {
 		trade_goods_size = 1.0
 	}
 	onmap = yes
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -501,9 +504,9 @@ textile_workshop = {
 		trade_goods_size = 1.0
 	}
 	onmap = yes
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -518,9 +521,9 @@ lumbermill = {
 		trade_goods_size = 1.0
 	}
 	onmap = yes
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -536,9 +539,9 @@ artisan_workshop = {
 		trade_goods_size = 1.0
 	}
 	onmap = yes
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -554,9 +557,9 @@ mine_network = {
 		trade_goods_size = 1.0
 	}
 	onmap = yes
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -572,9 +575,9 @@ dockyard = {
 		trade_goods_size = 1.0
 	}
 	onmap = yes
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -589,9 +592,9 @@ brewery = {
 		trade_goods_size = 1.0
 	}
 	onmap = yes
-	
+
 	ai_will_do = {
-		factor = 
+		factor =
 	}
 }
 
@@ -611,13 +614,13 @@ castle_palace = {
 		local_defensiveness = 0.2
 	}
 	one_per_country = yes
-	
+
 	onmap = yes
 	influencing_fort = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 satellite_forts = {
@@ -635,10 +638,10 @@ satellite_forts = {
 		local_hostile_attrition = 3
 	}
 	one_per_country = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 western_quarter = {
@@ -655,10 +658,10 @@ western_quarter = {
 		province_trade_power_value = 8
 	}
 	one_per_country = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 family_temple = {
@@ -672,10 +675,10 @@ family_temple = {
 		prestige = 1
 	}
 	one_per_country = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 ninjutsu_school = {
@@ -692,10 +695,10 @@ ninjutsu_school = {
 		spy_offence = 0.15
 	}
 	one_per_country = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 mint = {

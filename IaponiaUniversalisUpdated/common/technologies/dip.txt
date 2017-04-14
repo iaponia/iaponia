@@ -61,7 +61,7 @@ technology = {
 	# Tech 6
 	year = 1503
 
-	production_efficiency = 0.05
+	trade_efficiency = 0.05
 }
 
 technology = {
@@ -126,8 +126,8 @@ technology = {
 technology = {
 	# Tech 13
 	year = 1566
-
-	production_efficiency = 0.05
+	
+	trade_efficiency = 0.05
 	dockyard = yes
 	lumbermill = yes
 }

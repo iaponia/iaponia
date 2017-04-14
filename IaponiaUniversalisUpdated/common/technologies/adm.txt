@@ -45,7 +45,7 @@ technology = {
 	# Tech 4
 	year = 1485
 	
-	global_tax_modifier = 0.05
+	production_efficiency = 0.05
 	max_states = 5
 }
 
@@ -76,7 +76,7 @@ technology = {
 	# Tech 8
 	year = 1521
 	
-	global_tax_modifier = 0.05
+	production_efficiency = 0.05
 	max_states = 5
 }
 
@@ -94,7 +94,7 @@ technology = {
 	
 	mine_network = yes
 	sengoku_monarchy = yes
-	global_tax_modifier = 0.05
+	production_efficiency = 0.05
 }
 
 technology = {
@@ -103,7 +103,6 @@ technology = {
 	
 	granary = yes
 	may_force_march = yes
-	production_efficiency = 0.05
 }
 
 technology = {
@@ -167,7 +166,7 @@ technology = {
 	year = 1620
 	
 	mint = yes
-	global_tax_modifier = 0.05
+	production_efficiency = 0.05
 }
 
 technology = {

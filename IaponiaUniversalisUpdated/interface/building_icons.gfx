@@ -1,7 +1,7 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_default"
+		name = "GFX_building_default"
 		texturefile = "gfx//interface//buildings//building_default.tga"
 		loadType = "INGAME"
 	}
@@ -236,7 +236,13 @@ spriteTypes = {
 		texturefile = "gfx//interface//building_movement_speed.dds"
 		loadType = "INGAME"
 	}
-	
+
+	spriteType = {
+		name = "GFX_banner_mid_5"
+		texturefile = "gfx//interface//banner_mid_5.dds"
+		loadType = "INGAME"
+	}
+
 	spriteType = {
 		name = "GFX_banner_mid_7"
 		texturefile = "gfx//interface//banner_mid_7.dds"

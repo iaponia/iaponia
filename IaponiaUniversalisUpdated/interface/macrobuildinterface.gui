@@ -1092,13 +1092,13 @@ guiTypes = {
 
 		iconType = {
 			name = "manufactory_banner"
-			position = { x = 4 y = 388 }
-			spriteType = "GFX_banner_left_5"
+			position = { x = 74 y = 388 }
+			spriteType = "GFX_banner_mid_5"
 		}
 
 		instantTextBoxType={
 			name = "title_manufactory"
-			position = {x = 44 y = 397 }
+			position = {x = 124 y = 397 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 200
@@ -1109,19 +1109,19 @@ guiTypes = {
 		iconType ={
 			name ="manufactory_icon"
 			spriteType = "GFX_macro_buildings_category_strip"
-			position = { x = 15 y = 391}
+			position = { x = 95 y = 391}
 			frame = 8
 		}
 
 		checkboxType = {
-			name = "build_wharrf"
-			position = { x = 9 y = 420 }
+			name = "build_granary"
+			position = { x = 89 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "wharrf_cost"
-			position = {x = 9 y = 470 }
+			name = "granary_cost"
+			position = {x = 89 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
@@ -1130,14 +1130,14 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_weapons"
-			position = { x = 61 y = 420 }
+			name = "build_gunsmith"
+			position = { x = 141 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "weapons_cost"
-			position = {x = 61 y = 470 }
+			name = "gunsmith_cost"
+			position = {x = 141 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
@@ -1146,14 +1146,14 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_textile"
-			position = { x = 113 y = 420 }
+			name = "build_ranch"
+			position = { x = 193 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "textile_cost"
-			position = {x = 113 y = 470 }
+			name = "ranch_cost"
+			position = {x = 193 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
@@ -1162,14 +1162,14 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_plantations"
-			position = { x = 165 y = 420 }
+			name = "build_textile_workshop"
+			position = { x = 245 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "plantations_cost"
-			position = {x = 165 y = 470 }
+			name = "textile_workshop_cost"
+			position = {x = 245 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
@@ -1178,14 +1178,14 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_tradecompany"
-			position = { x = 217 y = 420 }
+			name = "build_lumbermill"
+			position = { x = 297 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "tradecompany_cost"
-			position = {x = 217 y = 470 }
+			name = "lumbermill_cost"
+			position = {x = 297 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128

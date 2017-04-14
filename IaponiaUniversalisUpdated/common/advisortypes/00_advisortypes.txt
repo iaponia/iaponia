@@ -394,16 +394,14 @@ navigator_a = {
 
 	chance = {
 		factor = 1
-		OR = {
-			modifier = {
-				factor = 0
-				has_port = no
-			}
-			modifier = {
-				factor = 0
-				NOT = {
-					year = 1548
-				}
+		modifier = {
+			factor = 0
+			has_port = no
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				year = 1548
 			}
 		}
 	}

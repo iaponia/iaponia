@@ -605,43 +605,47 @@ brewery = {
 castle_palace = {
 	cost = 1600
 	time = 60
-	make_obsolete = citadel
 	trigger = {
-		is_capital = yes
+		AND = {
+			is_capital = yes
+			has_building = citadel
+		}
 	}
 	modifier = {
 		fort_level = 11
 		local_defensiveness = 0.2
+		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
-
+	
 	onmap = yes
 	influencing_fort = yes
-
+	
 	ai_will_do = {
-		factor =
-	}
+		factor = 
+	} 
 }
 
 satellite_forts = {
 	cost = 600
 	time = 48
-	make_obsolete = outer_wards
 	trigger = {
 		AND = {
 			is_capital = yes
 			has_building = castle_palace
+			has_building = outer_wards
 		}
 	}
 	modifier = {
 		local_defensiveness = 0.40
 		local_hostile_attrition = 3
+		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
-
+	
 	ai_will_do = {
-		factor =
-	}
+		factor = 
+	} 
 }
 
 western_quarter = {

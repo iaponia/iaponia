@@ -451,8 +451,9 @@ guiTypes = {
 		name = "new_buildings_entry"
 		backGround=""
 		position = { x=0 y =0}
-		size = { x=400 y = 320}
+		size = { x=400 y = 620} #400x320 is default
 		moveable = 0
+		#fixedsize = yes
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
@@ -534,12 +535,6 @@ guiTypes = {
 			maxHeight = 18
 			text = "2000¤"
 		}
-
-		#iconType = {
-		#	name = "trade_depot_to_stock_exchange_arrow"
-		#	position = { x = 105 y = 41 }
-		#	spriteType = "GFX_building_upgrade_icon"
-		#}
 
 		iconType = {
 			name = "order_banner"
@@ -1129,14 +1124,15 @@ guiTypes = {
 			text = "2000¤"
 		}
 
+		#fix the typo when we have a firearms tradegood done
 		checkboxType = {
-			name = "build_gunsmith"
+			name = "build_gunssmith"
 			position = { x = 141 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "gunsmith_cost"
+			name = "gunssmith_cost"
 			position = {x = 141 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1186,6 +1182,54 @@ guiTypes = {
 		instantTextBoxType={
 			name = "lumbermill_cost"
 			position = {x = 297 y = 470 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_artisan_workshop"
+			position = { x = 115 y = 492 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "artisan_workshop_cost"
+			position = {x = 115 y = 542 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_mine_network"
+			position = { x = 167 y = 492 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "mine_network_cost"
+			position = {x = 167 y = 542 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_mine_network"
+			position = { x = 167 y = 492 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "mine_network_cost"
+			position = {x = 167 y = 542 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128

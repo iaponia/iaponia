@@ -498,7 +498,7 @@ textile_workshop = {
 		silk
 		cloth
 		dyes
-		furs
+		fur
 	}
 	modifier = {
 		trade_goods_size = 1.0
@@ -617,13 +617,13 @@ castle_palace = {
 		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
-	
+
 	onmap = yes
 	influencing_fort = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 satellite_forts = {
@@ -642,10 +642,10 @@ satellite_forts = {
 		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
-	
+
 	ai_will_do = {
-		factor = 
-	} 
+		factor =
+	}
 }
 
 western_quarter = {

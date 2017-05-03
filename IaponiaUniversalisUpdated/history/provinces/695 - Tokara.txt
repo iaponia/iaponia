@@ -6,7 +6,7 @@ owner = RYU
 controller = RYU
 
 culture = ryukyuan_c
-religion = animism
+religion = ryukyuan
 capital = "Toshima"
 is_city = yes
 

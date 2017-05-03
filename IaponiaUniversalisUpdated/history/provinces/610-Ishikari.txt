@@ -6,7 +6,7 @@ owner = WAA
 controller = WAA
 
 culture = satsumon_c
-religion = animism
+religion = ainu
 capital = "Ishikari"
 
 base_tax = 2

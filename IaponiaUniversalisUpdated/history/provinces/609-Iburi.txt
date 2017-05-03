@@ -6,7 +6,7 @@ owner = SSA
 controller = SSA
 
 culture = ainu_c
-religion = animism
+religion = ainu
 capital = "Iburi"
 
 base_tax = 2

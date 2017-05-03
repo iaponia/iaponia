@@ -6,7 +6,7 @@ owner = HAA
 controller = HAA
 
 culture = ainu_c
-religion = animism
+religion = ainu
 capital = "Nemuro"
 
 base_tax = 2

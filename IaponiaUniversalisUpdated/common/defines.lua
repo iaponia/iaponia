@@ -438,8 +438,8 @@ NCountry = {
 	ESTATE_GRANT_PROVINCE_COOLDOWN = 1,		-- A province cannot be revoked for this amount of years after being granted to an estate
 	ESTATE_LACK_OF_TERRITORY_EFFECT = -0.25,		-- Monthly loyalty loss from having too little territory
 	
-	CULTURAL_UNION_MIN_DEV = 1000,				-- Minimum development to get cultural union effect without Common Sense, or if CULTURAL_UNION_MIN_RANK is set to negative value.
-	CULTURAL_UNION_MIN_RANK = 3,				-- Minimum rank to get cultural union effect with Common Sense.
+	CULTURAL_UNION_MIN_DEV = 500,				-- Minimum development to get cultural union effect without Common Sense, or if CULTURAL_UNION_MIN_RANK is set to negative value.
+	CULTURAL_UNION_MIN_RANK = 4,				-- Minimum rank to get cultural union effect with Common Sense.
 	PRIMARY_NATION_BLOCK_CONVERT_CULTURE = 0,	-- Does primary nation of a tag existing block converting culture?
 	
 	MIN_DEV_FOR_FREE_CITY = 10,					-- Capital must have at least this much development to be a free city
@@ -451,15 +451,15 @@ NCountry = {
 	
 	PRESTIGE_GAIN_FOR_GOV_RANK_2 = 10,			-- Prestige gained on upgrading to government rank 2
 	PRESTIGE_GAIN_FOR_GOV_RANK_3 = 25,			-- Prestige gained on upgrading to government rank 3
-	MIN_PRESTIGE_FOR_GOV_RANK_2 = 50,			-- Required prestige to to upgrade to government rank 2
-	MIN_PRESTIGE_FOR_GOV_RANK_3 = 75,			-- Required prestige to to upgrade to government rank 3
-	MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 300,		-- Need at least this much development to upgrade to government rank 2
-	MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 1000,		-- Need at least this much development to upgrade to government rank 3
+	MIN_PRESTIGE_FOR_GOV_RANK_2 = 25,			-- Required prestige to to upgrade to government rank 2
+	MIN_PRESTIGE_FOR_GOV_RANK_3 = 50,			-- Required prestige to to upgrade to government rank 3
+	MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 50,		-- Need at least this much development to upgrade to government rank 2
+	MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 250,		-- Need at least this much development to upgrade to government rank 3
 
-	PRESTIGE_GAIN_FOR_GOV_RANK_X = 25,					-- Prestige gained on upgrading to government rank above 3
+	PRESTIGE_GAIN_FOR_GOV_RANK_X = 50,					-- Prestige gained on upgrading to government rank above 3
 	MIN_PRESTIGE_FOR_GOV_RANK_X = 75,					-- Required prestige to to upgrade to government above 3
-	ADDITIONAL_MIN_DEVELOPMENT_FOR_GOV_RANK_X = 500,	-- ADDITIONAL development needed to upgrade to government rank above 3
-	MAX_GOV_RANK = 3,									-- Max possible is 10
+	ADDITIONAL_MIN_DEVELOPMENT_FOR_GOV_RANK_X = 250,	-- ADDITIONAL development needed to upgrade to government rank above 3
+	MAX_GOV_RANK = 5,									-- Max possible is 10
 	
 	
 	PARLIAMENT_BACKING_PERCENTAGE = 25,			-- average percent of seats backing an issue (0-100)
@@ -530,8 +530,8 @@ NCountry = {
 	BASE_POWER_INCREASE = 3,						-- monthly base increase
 	NAT_FOCUS_DECREASE = -1,							-- power taken away from non national focus power
 	NAT_FOCUS_INCREASE = 2,							-- extra power given to national focus power
-	NAT_FOCUS_YEARS = 25,							-- years before you can change focus again
-	NAT_FOCUS_YEARS_RANK = 5,						-- how many years are removed from nat focus cooldown per gov rank above 1
+	NAT_FOCUS_YEARS = 20,							-- years before you can change focus again
+	NAT_FOCUS_YEARS_RANK = 3,						-- how many years are removed from nat focus cooldown per gov rank above 1
 	POWER_MAX = 999,								-- how much power can be stored at maximum.
 	DISMANTLE_HRE_PRESTIGE = 100,					-- Prestige gain on dismantling HRE
 	FREE_IDEA_GROUP_COST  = 3,						-- modifier on cheapness of "free" idea group
@@ -951,7 +951,7 @@ NMilitary = {
 	INFANTRY_COST = 10.0, 							-- _MDEF_INFANTRY_COST = 10,		
 	CAVALRY_COST = 25.0, 							-- _MDEF_CAVALRY_COST = 10,		
 	ARTILLERY_COST = 30.0, 							-- _MDEF_ARTILLERY_COST = 10,		
-	FORTRESS_COST = 0.5,							-- base fort cost
+	FORTRESS_COST = 0.75,							-- base fort cost
 	HEAVY_SHIP_COST = 50, 							-- _MDEF_HEAVY_SHIP_COST = 10,		
 	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,	
 	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,		

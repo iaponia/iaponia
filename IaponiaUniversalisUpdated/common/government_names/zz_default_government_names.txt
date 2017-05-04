@@ -1,0 +1,124 @@
+# Fallback defaults
+# Will pick the first valid one it finds in list
+
+default_monarchy = {
+	rank = {
+		1 = DOMAIN
+		2 = DOMAIN
+		3 = DOMAIN
+		4 = DOMAIN
+		5 = DOMAIN
+	}	
+	
+	ruler_male = {
+		1 = LORD
+		2 = LORD
+		3 = LORD
+		4 = LORD
+		5 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+		2 = LADY
+		3 = LADY
+		4 = LADY
+		5 = LADY
+	}
+	
+	consort_male  = {
+		1 = LORD
+		2 = LORD
+		3 = LORD
+		4 = LORD
+		5 = LORD
+	}
+	
+	consort_female = {
+		1 = LADY
+		2 = LADY
+		3 = LADY
+		4 = LADY
+		5 = LADY
+	}
+	
+	heir_male = {
+		1 = LORD
+		2 = LORD
+		3 = LORD
+		4 = LORD
+		5 = LORD
+	}
+	
+	heir_female = {
+		1 = LADY
+		2 = LADY
+		3 = LADY
+		4 = LADY
+		5 = LADY
+	}
+	
+	trigger = {
+		government = monarchy
+	}
+}
+
+default_republic = {
+	rank = {
+		1 = DOMAIN
+		2 = DOMAIN
+		3 = DOMAIN
+		4 = DOMAIN
+		5 = DOMAIN
+	}
+	
+	ruler_male = {
+		1 = LORD
+		2 = LORD
+		3 = LORD
+		4 = LORD
+		5 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+		2 = LADY
+		3 = LADY
+		4 = LADY
+		5 = LADY
+	}
+	
+	trigger = {
+		government = republic
+	}
+}
+
+default_theocracy = {
+	rank = {
+		1 = DOMAIN
+		2 = DOMAIN
+		3 = DOMAIN
+		4 = DOMAIN
+		5 = DOMAIN
+	}
+	
+	ruler_male = {
+		1 = LORD
+		2 = LORD
+		3 = LORD
+		4 = LORD
+		5 = LORD
+	}
+	
+	ruler_female = {
+		1 = LADY
+		2 = LADY
+		3 = LADY
+		4 = LADY
+		5 = LADY
+	}
+	
+	trigger = {
+		government = theocracy
+	}
+}

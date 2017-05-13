@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = kokujin_monarchy
+government_rank = 2
 primary_culture = hizen_c
 religion = shinto
-technology_group = chinese
+technology_group = kyushu
 capital = 92	# Shimoagata
 
 1418.1.1 = { 

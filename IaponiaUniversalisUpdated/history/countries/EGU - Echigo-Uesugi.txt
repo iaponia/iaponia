@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = shugo_monarchy
+government_rank = 4
 primary_culture = esshu_c
 religion = shinto
-technology_group = chinese
+technology_group = togoku
 historical_rival = NGO
 capital = 553	# Kubiki
 	

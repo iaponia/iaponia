@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = shugo_monarchy
+government_rank = 4
 primary_culture = rikuzen_c
 religion = shinto
-technology_group = chinese
+technology_group = tohoku
 capital = 563	# Okitama
 
 1325.1.1 = {

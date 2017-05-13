@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = shugo_monarchy
+government_rank = 4
 primary_culture = harima_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 historical_rival = YMN
 historical_rival = IWY
 historical_friend = HSK

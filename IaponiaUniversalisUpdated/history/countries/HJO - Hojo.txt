@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = kokujin_monarchy
+government_rank = 2
 primary_culture = sagami_c
 religion = shinto
-technology_group = chinese
+technology_group = togoku
 historical_rival = UES
 historical_rival = OUE
 historical_friend = IMG

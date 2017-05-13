@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = shugo_daimyo_monarchy
+government_rank = 4
 primary_culture = choshu_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 historical_rival = AMA
 historical_rival = OTM
 capital = 113	# Yoshiki

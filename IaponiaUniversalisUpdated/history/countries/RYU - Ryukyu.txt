@@ -1,4 +1,5 @@
 government = despotic_monarchy
+government_rank = 3
 #aristocracy_plutocracy = -4
 #centralization_decentralization = 2
 #innovative_narrowminded = 2
@@ -7,8 +8,8 @@ mercantilism = 0.1
 #land_naval = 2
 #quality_quantity = 3
 #serfdom_freesubjects = -3
-technology_group = chinese
-religion = animism
+technology_group = kyushu
+religion = ryukyuan
 primary_culture = ryukyuan_c
 capital = 697	# Shuri
 

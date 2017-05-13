@@ -1,7 +1,8 @@
-government = feudal_monarchy
-primary_culture = koshu_c
+government = kokujin_monarchy
+government_rank = 1
+primary_culture = owari_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 capital = 1837	# Etchu
 	
 1583.6.14 = { 

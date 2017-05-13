@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = kokujin_monarchy
+government_rank = 1
 primary_culture = hitachi_c
 religion = shinto
-technology_group = chinese
+technology_group = togoku
 capital = 489	# Nasu
 	
 1430.1.1 = { 

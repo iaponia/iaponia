@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = shugo_monarchy
+government_rank = 2
 primary_culture = sasshu_c
 religion = shinto
-technology_group = chinese
+technology_group = kyushu
 capital = 7	# Izaku
 
 1442.1.1 = {

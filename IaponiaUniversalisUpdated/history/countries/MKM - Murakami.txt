@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = kokujin_monarchy
+government_rank = 1
 primary_culture = shinano_c
 religion = shinto
-technology_group = chinese
+technology_group = togoku
 historical_rival = TKD
 capital = 441	# Chiisagata
 	

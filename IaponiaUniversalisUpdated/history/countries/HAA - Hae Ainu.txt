@@ -1,8 +1,8 @@
-government = siberian_native_council
+government = tribal_kingdom
 government_rank = 1
 primary_culture = ainu_c
-religion = animism
-technology_group = chinese
+religion = ainu
+technology_group = ainu
 capital = 614
 
 

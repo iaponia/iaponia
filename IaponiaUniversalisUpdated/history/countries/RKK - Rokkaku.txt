@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = shugo_daimyo_monarchy
+government_rank = 3
 primary_culture = omi_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 historical_rival = KGK
 historical_rival = KBK
 capital = 335	# Gamo

@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = shugo_monarchy
+government_rank = 1
 primary_culture = aki_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 capital = 125	# Saeki
 	
 1422.1.1 = { 

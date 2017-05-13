@@ -1,5 +1,6 @@
-government = feudal_monarchy
+government = kokujin_monarchy
+government_rank = 1
 primary_culture = chikushu_c
 religion = shinto
-technology_group = chinese
+technology_group = kyushu
 #capital = 1843	# Kozuke

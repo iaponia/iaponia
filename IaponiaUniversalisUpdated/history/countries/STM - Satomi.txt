@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = shugo_monarchy
+government_rank = 2
 primary_culture = boso_c
 religion = shinto
-technology_group = chinese
+technology_group = togoku
 capital = 459	# Asai
 	
 1444.1.1 = { 

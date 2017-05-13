@@ -1,10 +1,10 @@
-government = feudal_monarchy
+government = kokujin_monarchy
+government_rank = 3
 primary_culture = owari_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 historical_rival = IMG
 historical_rival = MRI
-historical_rival = HJO
 historical_rival = TKD
 historical_friend = MDR
 historical_friend = TKG

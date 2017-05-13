@@ -1,7 +1,7 @@
 government = theocratic_government
 primary_culture = koshu_c
 religion = mahayana
-technology_group = chinese
+technology_group = saigoku
 historical_rival = ODA
 historical_rival = ASA
 historical_rival = JNB

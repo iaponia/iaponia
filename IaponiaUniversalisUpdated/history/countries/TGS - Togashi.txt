@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = shugo_monarchy
+government_rank = 2
 primary_culture = koshu_c
 religion = shinto
-technology_group = chinese
+technology_group = togoku
 historical_rival = HGJ
 capital = 380	# Ishikawa
 	

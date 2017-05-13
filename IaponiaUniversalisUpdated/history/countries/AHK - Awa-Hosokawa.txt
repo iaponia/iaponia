@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = shugo_monarchy
+government_rank = 3
 primary_culture = awa_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 capital = 153	# Itano
 
 1430.1.1 = {

@@ -1,5 +1,6 @@
-government = noble_republic
+government = kokujin_monarchy
+government_rank = 1
 primary_culture = seishu_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 capital = 357	# Inabe

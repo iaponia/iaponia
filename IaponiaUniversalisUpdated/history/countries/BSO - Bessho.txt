@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = kokujin_monarchy
+government_rank = 1
 primary_culture = harima_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 historical_rival = URA
 capital = 256	# Mino
 	

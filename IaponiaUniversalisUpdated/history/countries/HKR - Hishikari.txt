@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = kokujin_monarchy
+government_rank = 1
 primary_culture = sasshu_c
 religion = shinto
-technology_group = chinese
+technology_group = kyushu
 capital = 16	# Hishikari
 	
 1440.1.1 = { 

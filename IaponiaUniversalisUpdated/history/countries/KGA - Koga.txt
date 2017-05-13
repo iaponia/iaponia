@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = kokujin_monarchy
+government_rank = 3
 primary_culture = shimosa_c
 religion = shinto
-technology_group = chinese
+technology_group = togoku
 capital = 532	# Sashima
 	
 1449.8.1 = { 

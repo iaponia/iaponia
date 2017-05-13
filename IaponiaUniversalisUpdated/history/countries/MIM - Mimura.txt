@@ -1,7 +1,8 @@
-government = feudal_monarchy
+government = kokujin_monarchy
+government_rank = 1
 primary_culture = bishu_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 capital = 202	# Shitsuki
 	
 1550.1.1 = { 

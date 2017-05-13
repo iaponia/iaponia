@@ -1,7 +1,7 @@
-government = feudal_monarchy
+government = kokujin_monarchy
 primary_culture = bishu_c
 religion = shinto
-technology_group = chinese
+technology_group = saigoku
 capital = 626	# Bitchu-Kato
 	
 1490.1.1 = { 

@@ -234,7 +234,6 @@ aristocratic_ideas = {
 		AND = {
 			government = monarchy
 			NOT = { has_idea_group = meritocratic_ideas }
-			NOT = { has_idea_group = trade_ideas }
 		}
 	}
 
@@ -433,7 +432,6 @@ trade_ideas = {
 
 	trigger = {
 		AND = {
-			NOT = { has_idea_group = aristocratic_ideas }
 			NOT = { has_idea_group = mercantilist_ideas }
 		}
 	}
@@ -695,7 +693,7 @@ traditional_ideas = {
 	category = MIL
 
 	bonus = {
-		galley_power = 0.15
+		light_ship_power = 0.2
 	}
 
 	trigger = {
@@ -736,7 +734,7 @@ westernized_ideas = {
 	category = MIL
 
 	bonus = {
-		heavy_ship_power = 0.20
+		ship_durability = 0.05
 	}
 
 	trigger = {

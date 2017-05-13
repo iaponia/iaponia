@@ -439,7 +439,7 @@ NCountry = {
 	ESTATE_LACK_OF_TERRITORY_EFFECT = -0.25,		-- Monthly loyalty loss from having too little territory
 	
 	CULTURAL_UNION_MIN_DEV = 500,				-- Minimum development to get cultural union effect without Common Sense, or if CULTURAL_UNION_MIN_RANK is set to negative value.
-	CULTURAL_UNION_MIN_RANK = 4,				-- Minimum rank to get cultural union effect with Common Sense.
+	CULTURAL_UNION_MIN_RANK = 5,				-- Minimum rank to get cultural union effect with Common Sense.
 	PRIMARY_NATION_BLOCK_CONVERT_CULTURE = 0,	-- Does primary nation of a tag existing block converting culture?
 	
 	MIN_DEV_FOR_FREE_CITY = 10,					-- Capital must have at least this much development to be a free city
@@ -927,7 +927,7 @@ NMilitary = {
 	UNLOAD_COST_FRIENDLY = 12,						-- cost to unload to friendly territory
 	UNLOAD_COST_ENEMY = 36,							-- cost to hostile.
 	LEADER_MAINTENANCE_COST = 1,					-- how much mil power each leader costs.
-	GARRISON_SIZE = 1000, 							-- GARRISON_SIZE
+	GARRISON_SIZE = 1500, 							-- GARRISON_SIZE
 	SIEGE_FORCE_NEEDED_MULTIPLIER = 3,				-- x times garrison to be able to siege.
 	MAX_BREACH = 3,
 	ASSAULT_WIDTH_LIMIT = 5,					-- how many times the garrison size that can effectively assault at the same time.

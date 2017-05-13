@@ -5,27 +5,23 @@ graphical_culture = asiangfx
 color = { 196  200  250 }
 
 historical_idea_groups = {
-	offensive_ideas
+	expansion_ideas
+	influence_ideas
 	defensive_ideas
-	naval_ideas
-	trade_ideas
-	quality_ideas
-	spy_ideas
-	diplomatic_ideas
-	administrative_ideas
+	aristocratic_ideas
+	organization_ideas
+	leadership_ideas
 }
 
 historical_units = {
-	japanese_archer
-	eastern_bow
-	japanese_footsoldier
-	japanese_samurai
-	asian_arquebusier
-	asian_charge_cavalry
-	asian_mass_infantry
-	asian_musketeer
-	reformed_asian_musketeer
-	reformed_asian_cavalry
+	early_off_kansai_infantry
+	early_def_kansai_cavalry
+	def_kansai_infantry
+	def_kansai_cavalry
+	late_off_kansai_infantry
+	late_off_kansai_cavalry
+	advanced_kansai_infantry
+	advanced_kansai_cavalry
 }
 
 monarch_names = { # Most Monarchs were named with "moto"

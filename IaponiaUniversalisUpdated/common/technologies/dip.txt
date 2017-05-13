@@ -10,7 +10,7 @@ ahead_of_time = {
 technology = {
 	# Tech 0
 	year = 1390
-
+	
 	naval_morale = 1.5
 	trade_range = 250
 	merchants = yes
@@ -19,15 +19,15 @@ technology = {
 technology = {
 	# Tech 1
 	year = 1420
-
+	
 	may_fabricate_claims = yes
 }
 
 technology = {
 	# Tech 2
 	year = 1450
-
-	#enable = kobaya
+	
+	enable = kobaya
 	trade_efficiency = 0.05
 }
 
@@ -36,8 +36,8 @@ technology = {
 	year = 1476
 
 	naval_maintenance = 0.1
-	#enable = bune
-	marketplace = yes
+	enable = bune
+	marketplace = yes 
 }
 
 technology = {
@@ -45,13 +45,13 @@ technology = {
 	year = 1485
 
 	trade_range = 50
-	toll_roads = yes
+	toll_roads = yes 
 }
 
 technology = {
 	# Tech 5
 	year = 1494
-
+	
 	num_accepted_cultures = 1
 	shipyard = yes
 	naval_morale = 0.5
@@ -67,7 +67,7 @@ technology = {
 technology = {
 	# Tech 7
 	year = 1512
-
+	
 	may_sabotage_recruitment = yes
 	may_sow_discontent = yes
 	may_sabotage_reputation = yes
@@ -77,7 +77,7 @@ technology = {
 technology  = {
 	# Tech 8
 	year = 1521
-
+	
 	workshop = yes
 	post_roads = yes
 }
@@ -88,14 +88,14 @@ technology = {
 
 	trade_range	= 50
 	naval_maintenance = 0.1
-	#enable = sekibune
+	enable = sekibune
 	wharf = yes
 }
 
 technology = {
 	# Tech 10
 	year = 1539
-
+	
 	artisan_workshop = yes
 	textile_workshop = yes
 	trade_efficiency = 0.05
@@ -105,7 +105,7 @@ technology = {
 technology = {
 	# Tech 11
 	year = 1548
-
+	
 	may_study_technology = yes
 	may_corrupt_officials = yes
 	may_agitate_for_liberty = yes
@@ -116,11 +116,11 @@ technology = {
 technology = {
 	# Tech 12
 	year = 1557
-
+	
 	naval_morale = 0.5
 	naval_maintenance = 0.1
 	drydock = yes
-	#enable = atakebune
+	enable = atakebune
 }
 
 technology = {
@@ -135,7 +135,7 @@ technology = {
 technology = {
 	# Tech 14
 	year = 1575
-
+	
 	merchant_guild = yes
 	charter_guild = yes
 }
@@ -143,7 +143,7 @@ technology = {
 technology = {
 	# Tech 15
 	year = 1584
-
+	
 	trade_efficiency = 0.05
 	highways = yes
 	trade_range = 50
@@ -153,16 +153,16 @@ technology = {
 technology = {
 	# Tech 16
 	year = 1593
-
-	#enable = tekkosen
+	
+	enable = tekkosen
 	naval_morale = 0.5
 }
 
 technology = {
 	# Tech 17
 	year = 1602
-
-	#enable = shuinsen
+	
+	enable = shuinsen
 	naval_maintenance = 0.1
 	reduced_naval_attrition = yes
 	western_quarter = yes
@@ -171,14 +171,14 @@ technology = {
 technology = {
 	# Tech 18
 	year = 1611
-
+	
 	allow_client_states = yes
 }
 
 technology = {
 	# Tech 19
 	year = 1620
-
+	
 	trade_efficiency = 0.05
 	naval_maintenance = 0.1
 	trade_range = 50

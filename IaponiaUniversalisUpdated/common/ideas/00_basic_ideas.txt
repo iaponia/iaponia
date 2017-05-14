@@ -253,7 +253,7 @@ aristocratic_ideas = {
 		culture_conversion_cost = -0.15
 	}
 	aristocratic_six = {
-		liberty_desire_from_subject_development = -0.25
+		reduced_liberty_desire = 10
 	}
 	aristocratic_seven = {
 		prestige_decay = -0.01

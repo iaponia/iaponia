@@ -79,6 +79,9 @@ naval_supplies = {
 	base_price = 2
 }
 
+firearms = {
+	base_price = 5
+}
 
 # Metals
 copper = {
@@ -100,7 +103,7 @@ slaves = {
 	base_price = 2
 }
 ivory = {
-	base_price = 4 
+	base_price = 4
 }
 
 
@@ -128,7 +131,7 @@ cotton = {
 }
 
 sugar = {
-	base_price = 3 
+	base_price = 3
 }
 
 tobacco = {
@@ -136,7 +139,7 @@ tobacco = {
 }
 
 cocoa = {
-	base_price = 4 
+	base_price = 4
 }
 
 # New Non-European Tradegoods
@@ -151,7 +154,7 @@ tropical_wood = {
 }
 
 dyes = {
-	base_price = 4 
+	base_price = 4
 }
 
 unknown = {

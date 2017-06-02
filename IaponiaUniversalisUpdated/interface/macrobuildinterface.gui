@@ -1126,13 +1126,13 @@ guiTypes = {
 
 		#fix the typo when we have a firearms tradegood done
 		checkboxType = {
-			name = "build_gunssmith"
+			name = "build_gunsmith"
 			position = { x = 141 y = 420 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "gunssmith_cost"
+			name = "gunsmith_cost"
 			position = {x = 141 y = 470 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1222,14 +1222,30 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_mine_network"
-			position = { x = 167 y = 492 }
+			name = "build_brewery"
+			position = { x = 219 y = 492 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "mine_network_cost"
-			position = {x = 167 y = 542 }
+			name = "brewery_cost"
+			position = {x = 219 y = 542 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
+		checkboxType = {
+			name = "build_dockyard"
+			position = { x = 271 y = 492 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "dockyard_cost"
+			position = {x = 271 y = 542 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128

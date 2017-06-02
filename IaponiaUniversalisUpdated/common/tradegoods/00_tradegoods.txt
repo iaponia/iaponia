@@ -437,5 +437,4 @@ firearms = {
 	province = {
 		local_institution_spread = 0.1
 	}
-	}
 }

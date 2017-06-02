@@ -15,15 +15,15 @@
 ### Nation specific idea groups
 
 ODA_ideas = {
-	start = {  
+	start = {
 		global_trade_goods_size_modifier = 0.1
 		infantry_power = 0.15
 	}
-  
+
 	bonus = {
 		prestige = 1
 	}
-  
+
 	trigger = {
 	OR = {
 		tag = ODA
@@ -32,7 +32,7 @@ ODA_ideas = {
 	}
 	}
 	free = yes
-  
+
 	threatened_borders = {
 		discipline = 0.05
 	}
@@ -59,15 +59,15 @@ ODA_ideas = {
 }
 
 TKG_ideas = {
-	start = {  
+	start = {
 		discipline = 0.05
 		stability_cost_modifier = -0.1
 	}
-  
+
 	bonus = {
 		diplomatic_upkeep = 1
 	}
-  
+
 	trigger = {
 	OR = {
 		tag = TKG
@@ -75,7 +75,7 @@ TKG_ideas = {
 	}
 	}
 	free = yes
-  
+
 	pride_of_mikawa = {
 		land_morale = 0.15
 	}
@@ -100,15 +100,15 @@ TKG_ideas = {
 }
 
 HSK_ideas = {
-	start = {  
+	start = {
 		light_ship_power = 0.2
 		land_morale = 0.1
 	}
-  
+
 	bonus = {
 		global_institution_spread = 0.1
 	}
-  
+
 	trigger = {
 	OR = {
 		tag = HSK
@@ -117,7 +117,7 @@ HSK_ideas = {
 	}
 	}
 	free = yes
-  
+
 	ashikaga_lineage = {
 		improve_relation_modifier = 0.33
 	}
@@ -142,15 +142,15 @@ HSK_ideas = {
 }
 
 YMN_ideas = {
-	start = {  
+	start = {
 		diplomatic_reputation = 1
 		global_manpower_modifier = 0.2
 	}
-  
+
 	bonus = {
 		spy_offence = 0.25
 	}
-  
+
 	trigger = {
 	OR = {
 		tag = YMN
@@ -160,7 +160,7 @@ YMN_ideas = {
 	}
 	}
 	free = yes
-  
+
 	mediate_disputes = {
 		diplomatic_upkeep = 1
 	}
@@ -171,7 +171,7 @@ YMN_ideas = {
 		fabricate_claims_cost = -0.25
 	}
 	western_army = {
-		discipline = 0.05 
+		discipline = 0.05
 	}
 	torin_in_acquisition = {
 		prestige = 1
@@ -185,20 +185,20 @@ YMN_ideas = {
 }
 
 MRI_ideas = {
-	start = {  
+	start = {
 		navy_tradition = 1
 		defensiveness = 0.2
 	}
-  
+
 	bonus = {
 		global_manpower_modifier = 0.33
 	}
-  
+
 	trigger = {
 		tag = MRI
 	}
 	free = yes
-  
+
 	seto_navy = {
 		light_ship_power = 0.25
 	}
@@ -225,15 +225,15 @@ MRI_ideas = {
 }
 
 OUC_ideas = {
-	start = {  
+	start = {
 		global_manpower_modifier = 0.2
 		light_ship_power = 0.2
 	}
-  
+
 	bonus = {
 		merchants = 1
 	}
-  
+
 	trigger = {
 	OR = {
 		tag = OUC
@@ -242,7 +242,7 @@ OUC_ideas = {
 	}
 	}
 	free = yes
-  
+
 	korean_ancestry = {
 		diplomatic_reputation = 1
 	}
@@ -269,20 +269,20 @@ OUC_ideas = {
 }
 
 AMA_ideas = {
-	start = {  
+	start = {
 		defensiveness = 0.2
 		garrison_size = 0.2
 	}
-  
+
 	bonus = {
 		siege_ability = 0.1
 	}
-  
+
 	trigger = {
 		tag = AMA
 	}
 	free = yes
-  
+
 	shingu_army = {
 		infantry_power = 0.1
 	}
@@ -308,20 +308,20 @@ AMA_ideas = {
 }
 
 CSK_ideas = {
-	start = {  
+	start = {
 		naval_morale = 0.1
 		fort_maintenance_modifier = -0.2
 	}
-  
+
 	bonus = {
 		infantry_power = 0.1
 	}
-  
+
 	trigger = {
 		tag = CSK
 	}
 	free = yes
-  
+
 	farmer_militia = {
 		production_efficiency = 0.1
 		land_maintenance_modifier = -0.1
@@ -347,20 +347,20 @@ CSK_ideas = {
 }
 
 OTM_ideas = {
-	start = {  
+	start = {
 		prestige = 1
 		diplomatic_reputation = 1
 	}
-  
+
 	bonus = {
 		trade_efficiency = 0.1
 	}
-  
+
 	trigger = {
 		tag = OTM
 	}
 	free = yes
-  
+
 	devoted_retainers = {
 		land_morale = 0.2
 	}
@@ -387,15 +387,15 @@ OTM_ideas = {
 }
 
 SMZ_ideas = {
-	start = {  
+	start = {
 		manpower_recovery_speed = 0.1
 		army_tradition_decay = -0.01
 	}
-  
+
 	bonus = {
 		fire_damage = 0.1
 	}
-  
+
 	trigger = {
 	OR = {
 		tag = SMZ
@@ -406,7 +406,7 @@ SMZ_ideas = {
 	}
 	}
 	free = yes
-  
+
 	iroha_poems = {
 		idea_cost = -0.1
 	}
@@ -431,20 +431,20 @@ SMZ_ideas = {
 }
 
 IMG_ideas = {
-	start = {  
+	start = {
 		land_forcelimit_modifier = 0.2
 		shock_damage = 0.1
 	}
-  
+
 	bonus = {
 		unjustified_demands = -0.25
 	}
-  
+
 	trigger = {
 		tag = IMG
 	}
 	free = yes
-  
+
 	imagawa_laws = {
 		global_tax_modifier = 0.1
 	}
@@ -469,20 +469,20 @@ IMG_ideas = {
 }
 
 TKD_ideas = {
-	start = {  
+	start = {
 		cavalry_cost = -0.2
 		discipline = 0.05
 	}
-  
+
 	bonus = {
 		cavalry_flanking = 0.5
 	}
-  
+
 	trigger = {
 		tag = TKD
 	}
 	free = yes
-  
+
 	takeda_laws = {
 		global_tax_modifier = 0.1
 	}
@@ -508,26 +508,26 @@ TKD_ideas = {
 }
 
 UES_ideas = {
-	start = {  
+	start = {
 		army_tradition_decay = -0.01
 		prestige_decay = -0.01
 	}
-  
+
 	bonus = {
 		cavalry_power = 0.15
 	}
-  
+
 	trigger = {
 	OR = {
 		tag = UES
-		tag = OUE 
+		tag = OUE
 		tag = EGU
 		tag = NGO
 		tag = NGN
 	}
 	}
 	free = yes
-  
+
 	kanto_kanrei = {
 		prestige = 1
 	}
@@ -553,20 +553,20 @@ UES_ideas = {
 }
 
 HJO_ideas = {
-	start = {  
+	start = {
 		land_morale = 0.1
 		defensiveness = 0.25
 	}
-  
+
 	bonus = {
 		garrison_size = 0.2
 	}
-  
+
 	trigger = {
 		tag = HJO
 	}
 	free = yes
-  
+
 	kamakura = {
 		legitimacy = 1
 	}
@@ -592,20 +592,20 @@ HJO_ideas = {
 }
 
 STK_ideas = {
-	start = {  
+	start = {
 		discipline = 0.05
 		land_forcelimit_modifier = 0.33
 	}
-  
+
 	bonus = {
 		leader_land_fire = 1
 	}
-  
+
 	trigger = {
 		tag = STK
 	}
 	free = yes
-  
+
 	seiwa_genji_descent = {
 		prestige_from_land = 1
 	}
@@ -630,20 +630,20 @@ STK_ideas = {
 }
 
 DTE_ideas = {
-	start = {  
+	start = {
 		infantry_power = 0.1
 		idea_cost = -0.1
 	}
-  
+
 	bonus = {
 		discipline = 0.05
 	}
-  
+
 	trigger = {
 		tag = DTE
 	}
 	free = yes
-  
+
 	oshu_shugo = {
 		core_creation = -0.1
 		province_warscore_cost = -0.1
@@ -675,16 +675,16 @@ ASA_ideas = {
 		land_morale = 0.1
 		stability_cost_modifier = -0.1
 	}
-	
+
 	bonus = {
 		diplomatic_annexation_cost = -0.15
 	}
-	
+
 	trigger = {
 		tag = ASA
 	}
 	free = yes
-	
+
 	echizen_industries = {
 		production_efficiency = 0.1
 	}
@@ -714,16 +714,16 @@ UKT_ideas = {
 		land_forcelimit_modifier = 0.2
 		spy_offence = 0.2
 	}
-	
+
 	bonus = {
 		shock_damage_received = -0.1
 	}
-	
+
 	trigger = {
 		tag = UKT
 	}
 	free = yes
-	
+
 	dualistic_diplomacy = {
 		improve_relation_modifier = 0.2
 	}
@@ -754,11 +754,11 @@ HGJ_ideas = {
 		garrison_size = 0.25
 		land_forcelimit_modifier = 0.25
 	}
-	
+
 	bonus = {
 		fire_damage = 0.1
 	}
-	
+
 	trigger = {
 	OR = {
 		tag = HGJ
@@ -767,7 +767,7 @@ HGJ_ideas = {
 	}
 	}
 	free = yes
-	
+
 	sohei = {
 		infantry_power = 0.1
 	}
@@ -798,16 +798,16 @@ SNA_ideas = {
 		army_tradition = 0.5
 		cavalry_flanking = 0.25
 	}
-	
+
 	bonus = {
 		discipline = 0.05
 	}
-	
+
 	trigger = {
 		tag = SNA
 	}
 	free = yes
-	
+
 	six_coin_banner = {
 		land_morale = 0.15
 	}
@@ -838,16 +838,16 @@ MGM_ideas = {
 		diplomatic_reputation = 1
 		improve_relation_modifier = 0.2
 	}
-	
+
 	bonus = {
 		fort_maintenance_modifier = -0.2
 	}
-	
+
 	trigger = {
 		tag = MGM
 	}
 	free = yes
-	
+
 	mogami_shields = {
 		discipline = 0.05
 	}
@@ -876,16 +876,16 @@ RKK_ideas = {
 		discipline = 0.05
 		diplomatic_reputation = 1
 	}
-	
+
 	bonus = {
 		development_cost = -0.1
 	}
-	
+
 	trigger = {
 		tag = RKK
 	}
 	free = yes
-	
+
 	shogunate_supporters = {
 		possible_mercenaries = 0.25
 	}
@@ -914,16 +914,16 @@ AZI_ideas = {
 		stability_cost_modifier = -0.1
 		shock_damage_received = -0.1
 	}
-	
+
 	bonus = {
 		fire_damage_recieved = -0.1
 	}
-	
+
 	trigger = {
 		tag = AZI
 	}
 	free = yes
-	
+
 	odani_castle = {
 		defensiveness = 0.2
 	}
@@ -952,16 +952,16 @@ MYI_ideas = {
 		global_manpower_modifier = 0.15
 		naval_morale = 0.15
 	}
-	
+
 	bonus = {
 		core_creation = -0.15
 	}
-	
+
 	trigger = {
 		tag = MYI
 	}
 	free = yes
-	
+
 	miyoshi_branch_clans = {
 		legitimacy = 1
 	}
@@ -990,16 +990,16 @@ RZJ_ideas = {
 		land_morale = 0.15
 		land_forcelimit_modifier = 0.25
 	}
-	
+
 	bonus = {
 		garrison_size = 0.15
 	}
-	
+
 	trigger = {
 		tag = RZJ
 	}
 	free = yes
-	
+
 	third_kyushu_kingdom = {
 		global_manpower_modifier = 0.2
 	}
@@ -1068,16 +1068,16 @@ RYU_ideas = {
 		trade_power = 0.2
 		diplomatic_reputation = 1
 	}
-	
+
 	bonus = {
 		prestige_decay = -0.01
 	}
-	
+
 	trigger = {
 		tag = RYU
 	}
 	free = yes
-	
+
 	ryu_chinese_investiture = {
 		ae_impact = -0.25
 	}
@@ -1106,7 +1106,7 @@ HTK_ideas = {
 		land_morale = 0.1
 		garrison_size = 0.15
 	}
-	
+
 	bonus = {
 		global_institution_spread = 0.1
 	}
@@ -1120,7 +1120,7 @@ HTK_ideas = {
 		}
 	}
 	free = yes
-	
+
 	kanrei_candidate = {
 		prestige = 1
 	}
@@ -1149,7 +1149,7 @@ SHN_ideas = {
 		naval_morale = 0.1
 		trade_efficiency = 0.1
 	}
-	
+
 	bonus = {
 		global_own_trade_power = 0.1
 	}
@@ -1158,7 +1158,7 @@ SHN_ideas = {
 		tag = SHN
 	}
 	free = yes
-	
+
 	vice_minister_of_dazaifu = {
 		diplomatic_reputation = 1
 	}
@@ -1187,7 +1187,7 @@ OGS_ideas = {
 		hostile_attrition = 1
 		movement_speed = 0.15
 	}
-	
+
 	bonus = {
 		discipline = 0.05
 	}
@@ -1199,7 +1199,7 @@ OGS_ideas = {
 		}
 	}
 	free = yes
-	
+
 	shinano_shugo = {
 		defensiveness = 0.15
 	}
@@ -1228,7 +1228,7 @@ UTN_ideas = {
 		production_efficiency = 0.1
 		build_cost = -0.1
 	}
-	
+
 	bonus = {
 		trade_steering = 0.15
 	}
@@ -1240,7 +1240,7 @@ UTN_ideas = {
 		}
 	}
 	free = yes
-	
+
 	fujiwara_descendant = {
 		diplomats = 1
 	}
@@ -1269,17 +1269,17 @@ TKI_ideas = {
 		land_morale = 0.1
 		defensiveness = 0.2
 	}
-	
+
 	bonus = {
 		trade_steering = 0.2
 	}
-	
+
 	trigger = {
 		tag = TKI
 		tag = STO
 	}
 	free = yes
-	
+
 	genji_in_mino = {
 		recover_army_morale_speed = 0.1
 	}
@@ -1308,11 +1308,11 @@ ADO_ideas = {
 		trade_efficiency = 0.1
 		light_ship_cost = -0.2
 	}
-	
+
 	bonus = {
-		navy_tradition = 1 
+		navy_tradition = 1
 	}
-	
+
 	trigger = {
 		OR = {
 		tag = ADO
@@ -1320,7 +1320,7 @@ ADO_ideas = {
 		}
 	}
 	free = yes
-	
+
 	march_of_akita = {
 		shock_damage_received = -0.1
 	}
@@ -1349,7 +1349,7 @@ CBA_ideas = {
 		global_tax_modifier = 0.1
 		prestige = 1
 	}
-	
+
 	bonus = {
 		manpower_recovery_speed = 0.15
 	}
@@ -1358,7 +1358,7 @@ CBA_ideas = {
 		tag = CBA
 	}
 	free = yes
-	
+
 	lineage_of_taira = {
 		diplomatic_reputation = 1
 	}
@@ -1387,7 +1387,7 @@ ITO_ideas = {
 		discipline = 0.05
 		land_forcelimit_modifier = 0.2
 	}
-	
+
 	bonus = {
 		development_cost = -0.1
 	}
@@ -1396,7 +1396,7 @@ ITO_ideas = {
 		tag = ITO
 	}
 	free = yes
-	
+
 	gokenin_family = {
 		army_tradition = 0.5
 	}
@@ -1425,7 +1425,7 @@ ISK_ideas = {
 		infantry_cost = -0.15
 		diplomatic_upkeep = 1
 	}
-	
+
 	bonus = {
 		trade_efficiency = 0.1
 	}
@@ -1434,7 +1434,7 @@ ISK_ideas = {
 		tag = ISK
 	}
 	free = yes
-	
+
 	shugo_of_tango = {
 		trade_steering = 0.1
 	}
@@ -1461,9 +1461,9 @@ ISK_ideas = {
 TTI_ideas = {
 	start = {
 		defensiveness = 0.15
-		land_morale = 0.1	
+		land_morale = 0.1
 	}
-	
+
 	bonus = {
 		global_missionary_strength = 0.02
 	}
@@ -1472,7 +1472,7 @@ TTI_ideas = {
 		tag = TTI
 	}
 	free = yes
-	
+
 	warrior_monk_origins = {
 		infantry_power = 0.1
 	}
@@ -1501,7 +1501,7 @@ KKC_ideas = {
 		land_maintenance_modifier = -0.1
 		unjustified_demands = -0.25
 	}
-	
+
 	bonus = {
 		leader_land_shock = 1
 	}
@@ -1510,7 +1510,7 @@ KKC_ideas = {
 		tag = KKC
 	}
 	free = yes
-	
+
 	kyushu_spirit = {
 		land_morale = 0.1
 	}
@@ -1538,9 +1538,9 @@ KKC_ideas = {
 KNO_ideas = {
 	start = {
 		global_own_trade_power = 0.15
-		navy_tradition = 1		
+		navy_tradition = 1
 	}
-	
+
 	bonus = {
 		leader_naval_manuever = 1
 	}
@@ -1549,7 +1549,7 @@ KNO_ideas = {
 		tag = KNO
 	}
 	free = yes
-	
+
 	shugo_of_iyo = {
 		naval_forcelimit_modifier = 0.25
 	}
@@ -1578,7 +1578,7 @@ NNB_ideas = {
 		build_cost = -0.1
 		cavalry_power = 0.1
 	}
-	
+
 	bonus = {
 		fire_damage_recieved = -0.1
 	}
@@ -1588,9 +1588,10 @@ NNB_ideas = {
 		tag = NNB
 		tag = SNB
 		tag = HNB
+		}
 	}
 	free = yes
-	
+
 	genji_in_the_north = {
 		cavalry_flanking = 0.5
 	}
@@ -1629,7 +1630,7 @@ SBA_ideas = {
 		}
 	}
 	free = yes
-	
+
 	chief_of_military_office = {
 		prestige_from_land = 1
 	}
@@ -1665,7 +1666,7 @@ AKM_ideas = {
 		tag = AKM
 	}
 	free = yes
-	
+
 	shogun_killers = {
 		fabricate_claims_cost = -0.25
 	}
@@ -1696,15 +1697,15 @@ ASO_ideas = {
 		stability_cost_modifier = -0.1
 	}
 	bonus = {
-		diplomatic_upkeep = 1 
+		diplomatic_upkeep = 1
 	}
 	trigger = {
 		tag = ASO
 	}
 	free = yes
-	
+
 	mount_aso = {
-		prestige = 1 
+		prestige = 1
 	}
 	dai_guji = {
 		legitimacy = 1
@@ -1732,115 +1733,115 @@ SGR_ideas = {
 		infantry_power = 0.1
 	}
 	bonus = {
-		
+
 	}
 	trigger = {
 		tag = SGR
 	}
 	free = yes
-	
+
 	hitoyoshi_mountains = {
 		defensiveness = 0.2
 	}
 	 = {
-		
+
 	}
 	illegal_trade = {
 		trade_efficiency = 0.1
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	marume_clan = {
 		army_tradition = 0.5
 	}
 	 = {
-		
+
 	}
 }
 
 TNA_ideas = {
 	start = {
-		
-		
+
+
 	}
 	bonus = {
-		
+
 	}
 	trigger = {
 		tag = TNA
 	}
 	free = yes
-	
+
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 }
 
 AKZ_ideas = {
 	start = {
-		
-		
+
+
 	}
 	bonus = {
-		
+
 	}
 	trigger = {
 		tag = AKZ
 	}
 	free = yes
-	
+
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 }
 
 AIM_ideas = {
 	start = {
-		
-		
+
+
 	}
 	bonus = {
-		
+
 	}
 	trigger = {
 		OR = {
@@ -1850,37 +1851,37 @@ AIM_ideas = {
 		}
 	}
 	free = yes
-	
+
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 }
 
 SOO_ideas = {
 	start = {
-		
-		
+
+
 	}
 	bonus = {
-		
+
 	}
 	trigger = {
 		OR = {
@@ -1891,37 +1892,37 @@ SOO_ideas = {
 		}
 	}
 	free = yes
-	
+
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 }
 
 KMK_ideas = {
 	start = {
-		
-		
+
+
 	}
 	bonus = {
-		
+
 	}
 	trigger = {
 		OR = {
@@ -1936,26 +1937,26 @@ KMK_ideas = {
 		}
 	}
 	free = yes
-	
+
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 	 = {
-		
+
 	}
 }

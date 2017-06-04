@@ -3263,6 +3263,7 @@
  #nomad_neighbour:0 "Nomad Neighbor"
  #PROV_UNIQUE_BUILDINGS:0 "Unique Buildings"
  #MANUFACTORY:0 "Manufactory"
+ UNIQUE:0 "Unique"
  #fort_in_disrepair:0 "Fort in disrepair"
  #desc_fort_in_disrepair:0 "A lack of maintenance has made this fort much harder to defend."
  #daimyo_fab_claim:0 "Forge claim on Daimyo"

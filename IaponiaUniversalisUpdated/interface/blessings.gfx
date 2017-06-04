@@ -1,0 +1,37 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_holy_site_default"
+		texturefile = "gfx//interface//holy_sites//holy_site_1.tga"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_43"
+		texturefile = "gfx//interface//holy_sites//holy_site_1.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_125"
+		texturefile = "gfx//interface//holy_sites//holy_site_1.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_344"
+		texturefile = "gfx//interface//holy_sites//holy_site_1.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_198"
+		texturefile = "gfx//interface//holy_sites//holy_site_1.tga"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_536"
+		texturefile = "gfx//interface//holy_sites//holy_site_1.tga"
+		loadType = "INGAME"
+	}
+
+}

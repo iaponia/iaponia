@@ -196,7 +196,7 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_castle-palace"
+		name = "GFX_castle_palace"
 		texturefile = "gfx//interface//buildings//unique//castle-palace.tga"
 		loadType = "INGAME"
 	}

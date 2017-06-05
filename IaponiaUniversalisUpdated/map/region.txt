@@ -12,23 +12,18 @@ kyushu_region = {
 		satsuma_area
 		north_osumi_area
 		south_osumi_area
-		kuwahara_area
 		usuki_area
 		ashikita_area
 		uto_area
 		tamana_area
 		shimabara_area
-		matsura_area
 		yamato_area
 		bungo_area
-		kunisaki_area
 		saga_area
-		yabu_area
 		takeno_area
 		chikuzen_area
 		mikasa_area
 		koge_area
-		munakata_area
 		kama_area
 		strait_islands_area
 		okinawa_area
@@ -41,11 +36,8 @@ shikoku_region = {
 		iwo_area
 		niihama_area
 		tosa_area
-		aki_area
 		tado_area
-		kagawa_area
 		sanuki_area
-		miyoshi_area
 		itano_area
 		katsuura_area
 		setouchi_islands_area
@@ -65,21 +57,15 @@ chugoku_region = {
 		oki_islands_area
 		nagato_area
 		abu_area
-		kumage_area
 		masuda_area
-		nima_area
 		shimane_area
 		kando_area
 		sasai_area
 		takata_area
 		mikami_area
-		sera_area
 		mitsugi_area
-		numakuma_area
-		chizu_area
 		tottori_area
 		kawamura_area
-		hino_area
 		mimasaka_area
 		mashima_area
 		bizen_area
@@ -92,39 +78,29 @@ chugoku_region = {
 kansai_region = {
 	areas = {
 		toyooka_area
-		miikumi_area
 		ako_area
-		asago_area
 		himeji_area
 		tanba_area
 		kawabe_area
-		yatabe_area
 		akashi_area
 		yosa_area
-		ikaruga_area
-		kuwada_area
 		kyoto_area
 		soraku_area
-		nose_area
 		osaka_area
 		izumi_area
 		kawachi_area
 		katano_area
-		furuichi_area
 		nishigori_area
 		nagusa_area
 		hidaka_area
 		nara_area
 		yoshino_area
 		katsuge_area
-		toichi_area
 		watarai_area
-		taki_area
 		mie_area
 		inabe_area
 		iga_area
 		shiga_area
-		koga_area
 		inukami_area
 		oi_area
 		echizen_area
@@ -138,28 +114,21 @@ kansai_region = {
 
 chubu_region = {
 	areas = {
-		sakai_area
 		ishikawa_area
 		noto_area
 		etchu_area
 		kubiki_area
 		uonuma_area
-		mishima_area
 		shibata_area
 		kamo_area
-		nukata_area
 		mikawa_area
 		fuji_area
 		hamana_area
-		mashizu_area
-		yamaka_area
 		iwata_area
 		hida_area
-		motosu_area
 		saku_area
 		takai_area
 		kiso_area
-		azumi_area
 		kai_area
 		sado_area
 	}
@@ -169,24 +138,19 @@ kanto_region = {
 	areas = {
 		izu_area
 		ashikami_area
-		koza_area
 		kamakura_area
 		awa_area
 		kazusa_area
 		nagara_area
 		katori_area
 		chiba_area
-		sashima_area
 		tsukuba_area
-		makabe_area
 		ibaraki_area
 		hitachi_area
 		edo_area
 		saitama_area
 		chichibu_area
-		hiki_area
 		hara_area
-		oura_area
 		gunma_area
 		tago_area
 		tochigi_area
@@ -197,20 +161,15 @@ kanto_region = {
 tohoku_region = {
 	areas = {
 		aizu_area
-		date_area
-		soma_area
 		iwaki_area
 		shirakawa_area
 		watari_area
 		miyagi_area
 		kurihara_area
-		motoyoshi_area
 		mutsu_area
 		tsugaru_area
-		kesen_area
 		iwate_area
 		hei_area
-		kunohe_area
 		akita_area
 		hiraka_area
 		mogami_area

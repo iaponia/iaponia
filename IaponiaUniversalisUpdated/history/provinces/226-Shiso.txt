@@ -15,7 +15,7 @@ culture = harima_c
 religion = shinto
 capital = "Chozui"
 is_city = yes
-fort_15th = yes
+fortified_mansion = yes
 
 base_tax = 6
 base_production = 6

@@ -13,7 +13,7 @@ culture = dewa_c
 religion = shinto
 capital = "Yamagata"
 is_city = yes
-fort_15th = yes
+fortified_mansion = yes
 
 base_tax = 6
 base_production = 6

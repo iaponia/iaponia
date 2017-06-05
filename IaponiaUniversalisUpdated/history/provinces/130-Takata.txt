@@ -14,7 +14,7 @@ culture = aki_c
 religion = shinto
 capital = "Yoshida Koriyama"
 is_city = yes
-fort_15th = yes
+fortified_mansion = yes
 
 base_tax = 5
 base_production = 5

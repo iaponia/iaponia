@@ -14,7 +14,7 @@ culture = sunshu_c
 religion = shinto
 capital = "Kakegawa"
 is_city = yes
-fort_15th = yes
+fortified_mansion = yes
 
 base_tax = 4
 base_production = 4

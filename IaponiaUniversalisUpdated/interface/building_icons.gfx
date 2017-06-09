@@ -235,6 +235,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//latin_fort00.tga"
 		loadType = "INGAME"
     }
+	spriteType = {
+		name = "GFX_courthouse_muslimgfx"
+		texturefile = "gfx//interface//buildings//muslim_courthouse.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_building_movement_speed"

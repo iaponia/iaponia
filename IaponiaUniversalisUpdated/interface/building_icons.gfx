@@ -76,7 +76,7 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_fortified_mansion_asiangfx"
+		name = "GFX_fortified_mansion"
 		texturefile = "gfx//interface//buildings//fort//fortified_mansion.tga"
 		loadType = "INGAME"
 	}
@@ -230,6 +230,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//unique//western_quarter.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_fort0"
+		texturefile = "gfx//interface//buildings//latin_fort00.tga"
+		loadType = "INGAME"
+    }
 
 	spriteType = {
 		name = "GFX_building_movement_speed"

@@ -193,7 +193,7 @@ STM = "countries/Satomi.txt"
 TGS = "countries/Togashi.txt"
 UMY = "countries/Utsunomiya.txt"
 KKZ = "countries/Kakizaki.txt"
-
+MRA = "countries/Miura.txt"
 HAA = "countries/Hae Ainu.txt"
 SSA = "countries/Shibushari Ainu.txt"
 WAA = "countries/Wakkanai Ainu.txt"

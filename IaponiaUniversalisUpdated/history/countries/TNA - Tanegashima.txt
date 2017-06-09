@@ -2,7 +2,7 @@ government = kokujin_monarchy
 government_rank = 1
 primary_culture = sasshu_c
 religion = shinto
-technology_group = chinese
+technology_group = kyushu
 capital = 94	# Tanegashima
 
 1404.1.1 = {
@@ -107,8 +107,8 @@ capital = 94	# Tanegashima
 		mil = 4
 	}
 }
-	
-1528.1.1 = { 
+
+1528.1.1 = {
 	heir = {
 		name = "Tokitaka"
 		monarch_name = "Tokitaka"
@@ -122,7 +122,7 @@ capital = 94	# Tanegashima
 		}
 	}
 
-1541.1.1 = { 
+1541.1.1 = {
 	monarch = {
 		name = "Tokitaka"
 		dynasty = "Tanegashima"
@@ -148,8 +148,8 @@ capital = 94	# Tanegashima
 		}
 	}
 
-	
-1560.1.1 = { 
+
+1560.1.1 = {
 	monarch = {
 		name = "Tokitsugu"
 		dynasty = "Tanegashima"
@@ -161,7 +161,7 @@ capital = 94	# Tanegashima
 		}
 	}
 
-1560.10.29 = { 
+1560.10.29 = {
 	monarch = {
 		name = "Tokitaka"
 		dynasty = "Tanegashima"

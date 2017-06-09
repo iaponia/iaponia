@@ -1,17 +1,0 @@
-government = shogunate
-primary_culture = japaneseculture_group_union = japanese_g
-religion = shinto
-technology_group = chinese
-
-1325.1.1 = { 
-	monarch = {
-		name = "Takauji"
-		dynasty = "Ashikaga"
-#		birth_date = 1305.8.18
-#		death_date = 1358.5.7
-		adm = 4
-		dip = 5
-		mil = 4
-	}
-}
-

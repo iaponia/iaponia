@@ -1,7 +1,7 @@
 government = tribal_kingdom
 government_rank = 1
 primary_culture = satsumon_c
-religion = animism
+religion = ainu
 technology_group = ainu
 capital = 610
 

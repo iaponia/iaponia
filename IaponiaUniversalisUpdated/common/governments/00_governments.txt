@@ -17,19 +17,19 @@
 
 despotic_monarchy = {
 	monarchy = yes
-	
-	valid_for_new_country = yes
+
+	valid_for_new_country = no
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
 	allow_convert = no
-	
+
 	color = { 179 25 25 }
-		
+
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
-	
+
 	max_states = 2
 
 	rank = {
@@ -46,21 +46,21 @@ despotic_monarchy = {
 		}
 		3 = {
 			diplomatic_reputation = 1
-			unjustified_demands = -0.1	
+			unjustified_demands = -0.1
 			land_forcelimit_modifier = 0.2
 			global_autonomy = -0.025
 			max_absolutism = 5
 		}
 		4 = {
 			diplomatic_reputation = 1
-			unjustified_demands = -0.25		
+			unjustified_demands = -0.25
 			land_forcelimit_modifier = 0.2
 			global_autonomy = -0.025
 			max_absolutism = 5
 		}
 		5 = {
 			diplomatic_reputation = 1
-			unjustified_demands = -0.25		
+			unjustified_demands = -0.25
 			land_forcelimit_modifier = 0.25
 			global_autonomy = -0.05
 			max_absolutism = 5
@@ -70,19 +70,19 @@ despotic_monarchy = {
 
 kokujin_monarchy = {
 	monarchy = yes
-	
+
 	allow_convert = no
 	valid_for_new_country = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 15
-	
+
 	color = { 179 51 51 }
-		
+
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
-	
+
 
 	rank = {
 		1 = {
@@ -98,13 +98,13 @@ kokujin_monarchy = {
 
 shugo_monarchy = {
 	monarchy = yes
-	
+
 	valid_for_new_country = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
+
 	color = { 179 75 75 }
-		
+
 	ai_will_do = {
 		factor = 0
 	}
@@ -146,18 +146,18 @@ shugo_monarchy = {
 
 shugo_daimyo_monarchy = {
 	monarchy = yes
-	
+
 	valid_for_new_country = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 15
-	
+
 	color = { 179 125 125 }
-		
+
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
-	
+
 	max_states = 1
 
 	rank = {
@@ -195,17 +195,17 @@ shugo_daimyo_monarchy = {
 
 sengoku_monarchy = {
 	monarchy = yes
-	
+
 	valid_for_new_country = yes
 	nation_designer_cost = 0
-	
+
 	color = { 179 150 150 }
-		
+
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
-	
+
 	max_states = 2
 
 	rank = {
@@ -223,18 +223,18 @@ sengoku_monarchy = {
 		}
 		3 = {
 			land_morale = 0.1
-			unjustified_demands = -0.15		
+			unjustified_demands = -0.15
 			global_autonomy = -0.025
 			max_absolutism = 5
 		}
 		4 = {
 			land_morale = 0.1
-			unjustified_demands = -0.2		
+			unjustified_demands = -0.2
 			max_absolutism = 5
 		}
 		5 = {
 			land_morale = 0.1
-			unjustified_demands = -0.2		
+			unjustified_demands = -0.2
 			global_autonomy = 0.025
 			max_absolutism = 5
 		}
@@ -243,17 +243,17 @@ sengoku_monarchy = {
 
 late_sengoku_monarchy = {
 	monarchy = yes
-	
+
 	valid_for_new_country = yes
 	nation_designer_cost = 0
-	
+
 	color = { 179 175 175 }
-		
+
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
-	
+
 	max_states = 2
 
 	rank = {
@@ -291,17 +291,17 @@ late_sengoku_monarchy = {
 
 daimyo_monarchy = {
 	monarchy = yes
-	
+
 	valid_for_new_country = yes
 	nation_designer_cost = 0
-	
+
 	color = { 210 30 30 }
-		
+
 	ai_will_do = {
 		factor = 0
 	}
 	ai_importance = 1
-	
+
 	max_states = 3
 
 	rank = {
@@ -353,30 +353,30 @@ merchant_republic = {
 	valid_for_new_country = no
 	valid_for_nation_designer = yes
 	allow_convert = no
-	
-	nation_designer_cost = 80	
-	
+
+	nation_designer_cost = 80
+
 	color = { 40 130 200 }
-	
+
 	duration = 5
 
 	republican_name = yes
 	royal_marriage = no
-	
+
 	boost_income = yes
 	can_use_trade_post = yes
 	can_form_trade_league = yes
-	
+
 	faction = mr_aristocrats
 	faction = mr_traders
-	faction = mr_guilds		
+	faction = mr_guilds
 
 	ai_will_do = {
-		factor = 0	
+		factor = 0
 	}
-	
+
 	rank = {
-		3 = {	
+		3 = {
 			merchants = 1
 			trade_efficiency = 0.1
 			development_cost = -0.1
@@ -400,27 +400,27 @@ merchant_republic = {
 ####################################
 
 theocratic_government = {
-	religion = yes	
-	
+	religion = yes
+
 	color = { 230 175 175 }
-	
+
 	valid_for_new_country = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
+
 	royal_marriage = no
 	different_religion_acceptance = -20
 	different_religion_group_acceptance = -50
-	
+
 	ai_will_do = {
 		factor = 0
 	}
 	has_devotion = yes
 	rulers_can_be_generals = no
-	
+
 	max_states = 2
 
-	
+
 	rank = {
 		1 = {
 			tolerance_own = 1
@@ -475,17 +475,17 @@ tribal_kingdom = {
 	monarchy = yes
 
 	unique_government = yes
-	
+
 	color = { 220 165 95 }
 
 	tribal = yes
-	
+
 	valid_for_new_country = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = -25
-	
+
 	republican_name = yes
-	
+
 	ai_will_do = {
 		factor = 0
 	}

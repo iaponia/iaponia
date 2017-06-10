@@ -72,7 +72,7 @@ kokujin_monarchy = {
 	monarchy = yes
 
 	allow_convert = no
-	valid_for_new_country = yes
+	valid_for_new_country = no
 	valid_for_nation_designer = yes
 	nation_designer_cost = 15
 

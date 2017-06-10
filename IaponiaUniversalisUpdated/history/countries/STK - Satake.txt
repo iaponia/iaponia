@@ -4,10 +4,10 @@ primary_culture = hitachi_c
 religion = shinto
 technology_group = togoku
 historical_rival = UES
-historical_rival = HOD
+historical_rival = HIO
 capital = 474	# Kuji
-	
-1437.1.1 = { 
+
+1437.1.1 = {
 	monarch = {
 		name = "Yoshitoshi"
 		dynasty = "Satake"
@@ -30,8 +30,8 @@ capital = 474	# Kuji
 		mil = 3
 	}
 }
-	
-1477.12.29 = { 
+
+1477.12.29 = {
 	monarch = {
 		name = "Yoshiharu"
 		dynasty = "Satake"
@@ -55,7 +55,7 @@ capital = 474	# Kuji
 	}
 }
 
-1490.5.14 = { 
+1490.5.14 = {
 	monarch = {
 		name = "Yoshikiyo"
 		dynasty = "Satake"
@@ -79,7 +79,7 @@ capital = 474	# Kuji
 	}
 }
 
-1517.4.3 = { 
+1517.4.3 = {
 	monarch = {
 		name = "Yoshiatsu"
 		dynasty = "Satake"
@@ -103,7 +103,7 @@ capital = 474	# Kuji
 	}
 }
 
-1545.5.19 = { 
+1545.5.19 = {
 	monarch = {
 		name = "Yoshiaki"
 		dynasty = "Satake"
@@ -127,7 +127,7 @@ capital = 474	# Kuji
 	}
 }
 
-1562.1.1 = { 
+1562.1.1 = {
 	monarch = {
 		name = "Yoshishige"
 		dynasty = "Satake"
@@ -151,7 +151,7 @@ capital = 474	# Kuji
 	}
 }
 
-1589.1.1 = { 
+1589.1.1 = {
 	monarch = {
 		name = "Yoshinobu"
 		dynasty = "Satake"

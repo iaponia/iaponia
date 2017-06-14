@@ -1,0 +1,140 @@
+kimun_cult =
+{
+	land_morale = 0.1
+	prestige_from_land = 0.5
+
+	allow = {
+		OR = {
+			has_unlocked_cult = kimun_cult
+			technology_group = ainu
+		}
+	}
+	sprite = 6
+
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			personality = ai_militarist
+			factor = 2
+		}
+	}
+}
+
+fuchi_cult =
+{
+	diplomatic_reputation = 1
+	global_unrest = -2
+
+	allow = {
+		OR = {
+			has_unlocked_cult = fuchi_cult
+			technology_group = ainu
+		}
+	}
+	sprite = 8
+
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			personality = ai_balanced
+			factor = 2
+		}
+	}
+}
+
+repun_cult =
+{
+	global_own_trade_power = 0.2
+	global_trade_goods_size_modifier = 0.1
+
+	allow = {
+		OR = {
+			has_unlocked_cult = repun_cult
+			technology_group = ainu
+		}
+	}
+	sprite = 1
+
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			personality = ai_capitalist
+			factor = 2
+		}
+	}
+}
+
+
+#Syncretic Cults
+
+christianity_cult = {
+	sprite = 10
+	
+	development_cost = -0.1
+	idea_cost = -0.1
+	
+	allow  = {
+		has_unlocked_cult = christianity_cult
+	}
+	ai_will_do = {
+		factor = 3
+		modifier = {
+			personality = ai_capitalist
+			factor = 5
+		}
+	}
+}
+
+buddhism_cult = {
+	sprite = 13
+	
+	core_creation = -0.1
+	global_missionary_strength = 0.02
+	
+	allow  = {
+		has_unlocked_cult = buddhism_cult
+	}
+	ai_will_do = {
+		factor = 3
+		modifier = {
+			personality = ai_balanced
+			factor = 5
+		}
+	}
+}
+
+shinto_cult = {
+	sprite = 11
+	
+	discipline = 0.05
+	tolerance_heretic = 2
+	
+	allow  = {
+		has_unlocked_cult = shinto_cult
+	}
+	ai_will_do = {
+		factor = 3
+		modifier = {
+			personality = ai_militarist
+			factor = 5
+		}
+	}
+}
+
+ryukyuan_cult = {
+	sprite = 12
+	
+	improve_relation_modifier = 0.25
+	trade_efficiency = 0.1
+	
+	allow = {
+		has_unlocked_cult = ryukyuan_cult_cult
+	}
+	ai_will_do = {
+		factor = 3
+		modifier = {
+			personality = ai_diplomat
+			factor = 5
+		}
+	}
+}

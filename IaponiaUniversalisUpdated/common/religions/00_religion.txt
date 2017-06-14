@@ -500,7 +500,7 @@ christian = {
 		
 		heretic = { SHUGENDO }
 		
-		personal_deity = yes
+		fetishist_cult = yes
 		misguided_heretic = yes	
 	}
 	

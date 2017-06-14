@@ -3,3 +3,5 @@
 #
 # Effects are fully scriptable here.
 # removed
+submission_to_emperor = {
+}

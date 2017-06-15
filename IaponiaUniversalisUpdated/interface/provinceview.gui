@@ -2618,7 +2618,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name ="raise_banners_button"
-				quadTextureSprite = "button_type_1"
+				quadTextureSprite = "button_type_4"
 				buttonFont = "vic_18"
 				buttonText = "RAISE_MANCHU_BANNERS"
 
@@ -2629,21 +2629,47 @@ guiTypes = {
 			{
 				name = "manchu_banner"
 				spriteType = "GFX_amount_of_banners"
-				position = { x = 176 y = 416 }
+				position = { x = 250 y = 416 }
 				scale = 0.85
 			}
 
 			instantTextBoxType = {
 				name = "banner_number"
-				position = { x = 254 y = 430 }
+				position = { x = 302 y = 431 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 2 y = 2}
 				text = "x of y"
-				maxWidth = 120
+				maxWidth = 100
 				maxHeight = 20
-				format = center
+				format = right
 			}
+			
+			
+			# Orthodox Patriarch - TODO
+			iconType = {
+				name = "patriarch_bg"
+				spriteType = "GFX_patriarchy_slot"
+				position = { x = 12 y = 419 }
+			}			
+	
+			guiButtonType = {
+				name ="consecrate_patriarch_button"
+				quadTextureSprite = "button_type_4"
+				buttonFont = "vic_18"
+				buttonText = "CONSECRATE_BUTTON"
+
+				position = { x = 24 y = 427 }
+			}
+
+			iconType =
+			{
+				name = "consecrate_patriarch"
+				spriteType = "GFX_patriarch_icon"
+				position = { x = 258 y = 426 }
+			}
+
+
 
 		}
 

@@ -209,7 +209,7 @@ guiTypes = {
 			name = "title"
 			font = "vic_22s"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 164
+			maxWidth = 188
 			maxHeight = 20
 			text = ""	
 			format = left
@@ -220,7 +220,7 @@ guiTypes = {
 			name = "control"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 164
+			maxWidth = 188
 			maxHeight = 20
 			text = "Controlled by Polandball"	
 			format = left
@@ -231,7 +231,7 @@ guiTypes = {
 			name = "religion"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 164
+			maxWidth = 188
 			maxHeight = 20
 			text = "Pastafarian"	
 			format = left

@@ -106,7 +106,28 @@ shugo_monarchy = {
 	color = { 179 75 75 }
 
 	ai_will_do = {
-		factor = 0
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				government = shugo_daimyo_monarchy
+				government = sengoku_monarchy
+				government = late_sengoku_monarchy
+				government = daimyo_monarchy
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				total_development = 30
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				total_development = 60
+			}
+		}
 	}
 	ai_importance = 1
 
@@ -154,7 +175,21 @@ shugo_daimyo_monarchy = {
 	color = { 179 125 125 }
 
 	ai_will_do = {
-		factor = 0
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				government = sengoku_monarchy
+				government = late_sengoku_monarchy
+				government = daimyo_monarchy
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				total_development = 30
+			}
+		}
 	}
 	ai_importance = 1
 
@@ -202,7 +237,14 @@ sengoku_monarchy = {
 	color = { 179 150 150 }
 
 	ai_will_do = {
-		factor = 0
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				government = late_sengoku_monarchy
+				government = daimyo_monarchy
+			}
+		}
 	}
 	ai_importance = 1
 
@@ -250,7 +292,13 @@ late_sengoku_monarchy = {
 	color = { 179 175 175 }
 
 	ai_will_do = {
-		factor = 0
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+				government = daimyo_monarchy
+			}
+		}
 	}
 	ai_importance = 1
 
@@ -298,7 +346,7 @@ daimyo_monarchy = {
 	color = { 210 30 30 }
 
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 	ai_importance = 1
 

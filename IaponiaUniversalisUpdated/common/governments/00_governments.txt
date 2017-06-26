@@ -23,7 +23,7 @@ despotic_monarchy = {
 	nation_designer_cost = 10
 	allow_convert = no
 
-	color = { 179 25 25 }
+	color = { 209 15 15 }
 
 	ai_will_do = {
 		factor = 0
@@ -103,29 +103,17 @@ shugo_monarchy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 
-	color = { 179 75 75 }
+	color = { 169 100 75 }
 
 	ai_will_do = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = {
+			OR = {
 				government = shugo_daimyo_monarchy
 				government = sengoku_monarchy
 				government = late_sengoku_monarchy
 				government = daimyo_monarchy
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = {
-				total_development = 30
-			}
-		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				total_development = 60
 			}
 		}
 	}
@@ -172,26 +160,20 @@ shugo_daimyo_monarchy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 15
 
-	color = { 179 125 125 }
+	color = { 159 150 100 }
 
 	ai_will_do = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = {
+			OR = {
 				government = sengoku_monarchy
 				government = late_sengoku_monarchy
 				government = daimyo_monarchy
 			}
 		}
-		modifier = {
-			factor = 0.5
-			NOT = {
-				total_development = 30
-			}
-		}
 	}
-	ai_importance = 1
+	ai_importance = 2
 
 	max_states = 1
 
@@ -234,19 +216,19 @@ sengoku_monarchy = {
 	valid_for_new_country = yes
 	nation_designer_cost = 0
 
-	color = { 179 150 150 }
+	color = { 149 200 125 }
 
 	ai_will_do = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = {
+			OR = {
 				government = late_sengoku_monarchy
 				government = daimyo_monarchy
 			}
 		}
 	}
-	ai_importance = 1
+	ai_importance = 3
 
 	max_states = 2
 
@@ -289,18 +271,18 @@ late_sengoku_monarchy = {
 	valid_for_new_country = yes
 	nation_designer_cost = 0
 
-	color = { 179 175 175 }
+	color = { 139 175 200 }
 
 	ai_will_do = {
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = {
+			OR = {
 				government = daimyo_monarchy
 			}
 		}
 	}
-	ai_importance = 1
+	ai_importance = 4
 
 	max_states = 2
 
@@ -343,12 +325,12 @@ daimyo_monarchy = {
 	valid_for_new_country = yes
 	nation_designer_cost = 0
 
-	color = { 210 30 30 }
+	color = { 109 225 225 }
 
 	ai_will_do = {
 		factor = 1
 	}
-	ai_importance = 1
+	ai_importance = 5
 
 	max_states = 3
 

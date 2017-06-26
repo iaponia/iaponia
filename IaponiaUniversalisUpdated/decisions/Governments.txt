@@ -1,0 +1,22 @@
+country_decisions = {
+
+	kokujin_reform = {
+		major = yes
+		potential = {
+			government = kokujin_monarchy
+		}
+		allow = {
+			adm_tech = 8
+			legitimacy = 90
+			adm_power = 100
+		}
+		effect = {
+			change_government = shugo_daimyo_monarchy
+			add_adm_power = -100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

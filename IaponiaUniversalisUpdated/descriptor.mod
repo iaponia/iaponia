@@ -45,4 +45,4 @@ tags={
 	"mapOverhaul"
 }
 picture="iaponia.png"
-supported_version="1.19.*.*"
+supported_version="1.22.*.*"

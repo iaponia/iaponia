@@ -8,26 +8,22 @@ preferred_religion = catholic
 
 historical_idea_groups = {
 	offensive_ideas
-	defensive_ideas
-	maritime_ideas
 	trade_ideas
-	quality_ideas
-	spy_ideas
-	diplomatic_ideas
-	administrative_ideas
+	aristocratic_ideas
+	westernized_ideas
+	christian_ideas
+	expansion_ideas
 }
 
 historical_units = {
-	japanese_archer
-	eastern_bow
-	japanese_footsoldier
-	japanese_samurai
-	asian_arquebusier
-	asian_charge_cavalry
-	asian_mass_infantry
-	asian_musketeer
-	reformed_asian_musketeer
-	reformed_asian_cavalry
+	early_off_kyushu_infantry
+	early_off_kyushu_cavalry
+	off_kyushu_infantry
+	off_kyushu_cavalry
+	late_def_kyushu_infantry
+	late_def_kyushu_cavalry
+	advanced_kyushu_infantry
+	advanced_kyushu_cavalry
 }
 
 monarch_names = { # Most Monarchs were named with "Chika"

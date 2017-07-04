@@ -6,26 +6,22 @@ color = { 220  203  24 }
 
 historical_idea_groups = {
 	offensive_ideas
-	defensive_ideas
-	maritime_ideas
-	trade_ideas
-	quality_ideas
-	spy_ideas
-	diplomatic_ideas
+	expansion_ideas
+	influence_ideas
+	aristocratic_ideas
 	administrative_ideas
+	mercantilist_ideas
 }
 
 historical_units = {
-	japanese_archer
-	eastern_bow
-	japanese_footsoldier
-	japanese_samurai
-	asian_arquebusier
-	asian_charge_cavalry
-	asian_mass_infantry
-	asian_musketeer
-	reformed_asian_musketeer
-	reformed_asian_cavalry
+	early_off_kanto_infantry
+	early_off_kanto_cavalry
+	off_kanto_infantry
+	off_kanto_cavalry
+	late_def_kanto_infantry
+	late_def_kanto_cavalry
+	advanced_kanto_infantry
+	advanced_kanto_cavalry
 }
 
 monarch_names = { 

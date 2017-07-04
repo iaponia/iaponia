@@ -5,27 +5,23 @@ graphical_culture = asiangfx
 color = { 94  124  153 }
 
 historical_idea_groups = {
+	influence_ideas
+	traditional_ideas
+	aristocratic_ideas
+	expansion_ideas
 	offensive_ideas
-	defensive_ideas
-	naval_ideas
-	trade_ideas
-	quality_ideas
-	spy_ideas
-	diplomatic_ideas
-	administrative_ideas
+	organization_ideas
 }
 
 historical_units = {
-	japanese_archer
-	eastern_bow
-	japanese_footsoldier
-	japanese_samurai
-	asian_arquebusier
-	asian_charge_cavalry
-	asian_mass_infantry
-	asian_musketeer
-	reformed_asian_musketeer
-	reformed_asian_cavalry
+	early_off_tohoku_infantry
+	early_off_tohoku_cavalry
+	off_tohoku_infantry
+	off_tohoku_cavalry
+	late_off_tohoku_infantry
+	late_off_tohoku_cavalry
+	advanced_tohoku_infantry
+	advanced_tohoku_cavalry
 }
 
 monarch_names = { # Most Monarchs were named with "tada" or "hisa"

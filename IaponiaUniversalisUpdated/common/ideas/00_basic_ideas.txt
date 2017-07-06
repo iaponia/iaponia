@@ -18,6 +18,7 @@ christian_ideas = {
 		AND = {
 			religion = catholic
 			NOT = { has_idea_group = pluralist_ideas }
+			NOT = { has_idea_group = traditional_ideas }
 		}
 	}
 
@@ -122,7 +123,6 @@ buddhist_ideas = {
 	}
 	buddhist_six = {
 		devotion = 1
-		republican_tradition = 0.5
 	}
 	buddhist_seven = {
 		cb_on_religious_enemies = yes
@@ -143,6 +143,7 @@ pagan_ideas = {
 	trigger = {
 		AND = {
 			NOT = { has_idea_group = pluralist_ideas }
+			NOT = { has_idea_group = westernized_ideas }
 			OR = {
 				religion = ainu
 				religion = ryukyu
@@ -342,7 +343,7 @@ meritocratic_ideas = {
 		free_leader_pool = 1
 	}
 	meritocratic_seven = {
-		global_institution_spread = 0.10
+		global_institution_spread = 0.1
 	}
 
 	ai_will_do = {
@@ -476,6 +477,7 @@ mercantilist_ideas = {
 			NOT = { religion = catholic }
 			NOT = { has_idea_group = meritocratic_ideas }
 			NOT = { has_idea_group = trade_ideas }
+			NOT = { has_idea_group = westernized_ideas }
 		}
 	}
 
@@ -636,7 +638,7 @@ offensive_ideas = {
 		land_maintenance_modifier = -0.1
 	}
 	offensive_five = {
-		siege_ability = 0.20
+		siege_ability = 0.2
 	}
 	offensive_six = {
 		land_attrition = -0.1
@@ -698,6 +700,7 @@ traditional_ideas = {
 
 	trigger = {
 		AND = {
+			NOT = { has_idea_group = christian_ideas }
 			NOT = { has_idea_group = meritocratic_ideas }
 			NOT = { has_idea_group = westernized_ideas }
 		}
@@ -739,6 +742,8 @@ westernized_ideas = {
 
 	trigger = {
 		NOT = { has_idea_group = traditional_ideas }
+		NOT = { has_idea_group = pagan_ideas }
+		NOT = { has_idea_group = mercantilist_ideas }
 	}
 
 	westernized_one = {

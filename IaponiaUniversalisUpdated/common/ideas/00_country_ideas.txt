@@ -1065,7 +1065,7 @@ ANU_ideas = {
 
 RYU_ideas = {
 	start = {
-		trade_power = 0.2
+		global_trade_power = 0.2
 		diplomatic_reputation = 1
 	}
 	

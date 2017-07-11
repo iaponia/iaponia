@@ -1,0 +1,29 @@
+hre = no
+discovered_by = kyushu
+discovered_by = saigoku
+discovered_by = togoku
+discovered_by = tohoku
+discovered_by = ainu
+
+add_core = OMR
+add_core = AIM
+owner = AIM
+controller = AIM
+
+culture = hizen_c
+religion = shinto
+capital = "Omura"
+is_city = yes
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+trade_goods = lacquerware
+
+
+1547.1.1 = {
+    owner = RZJ
+    controller = RZJ
+    add_core = RZJ
+}

@@ -58,7 +58,7 @@ satsuma_area = {
 }
 
 south_osumi_area = {
-	12 14 17 18 94 635 638
+	12 14 17 18 635 638
 }
 
 north_osumi_area = {
@@ -66,7 +66,7 @@ north_osumi_area = {
 }
 
 strait_islands_area = {
-	88 90 91 92 93 685
+	88 90 91 92 93 685 704
 }
 
 ashikita_area = {
@@ -86,7 +86,7 @@ usuki_area = {
 }
 
 shimabara_area = {
-	47 48 89 639 698
+	47 48 89 639 698 705
 }
 
 yamato_area = {
@@ -122,7 +122,7 @@ kama_area = {
 }
 
 okinawa_area = {
-	695 696 697
+	94 695 696 697 703
 }
 
 ########################################

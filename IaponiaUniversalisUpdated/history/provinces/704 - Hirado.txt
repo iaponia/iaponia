@@ -1,0 +1,33 @@
+hre = no
+discovered_by = kyushu
+discovered_by = saigoku
+discovered_by = togoku
+discovered_by = tohoku
+discovered_by = ainu
+
+add_core = MTA
+owner = MTA
+controller = MTA
+
+culture = hizen_c
+religion = shinto
+capital = "Hirado"
+is_city = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
+
+trade_goods = mainland_trade
+
+
+1576.5.6 = {
+    add_core = RZJ
+    controller = RZJ
+    owner = RZJ
+}

@@ -33,7 +33,7 @@ fortified_mansion = {
 	influencing_fort = yes
 
 	ai_will_do = {
-		factor =
+		factor = 3000
 	}
 }
 
@@ -49,7 +49,7 @@ garrison = {
 	influencing_fort = yes
 
 	ai_will_do = {
-		factor =
+		factor = 3000
 	}
 }
 
@@ -65,7 +65,7 @@ fort = {
 	influencing_fort = yes
 
 	ai_will_do = {
-		factor =
+		factor = 3000
 	}
 }
 
@@ -82,7 +82,7 @@ castle = {
 	influencing_fort = yes
 
 	ai_will_do = {
-		factor =
+		factor = 3000
 	}
 }
 
@@ -99,7 +99,7 @@ citadel = {
 	influencing_fort = yes
 
 	ai_will_do = {
-		factor =
+		factor = 3000
 	}
 }
 
@@ -123,7 +123,7 @@ outer_wall = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1000
 	}
 }
 
@@ -143,7 +143,7 @@ outer_wards = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1000
 	}
 }
 
@@ -160,7 +160,43 @@ training_grounds = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1200
+		modifier = {
+			factor = 0
+			NOT = { base_manpower = 2 }
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 3
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 4
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 5
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 6
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 7
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 8
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 9
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 10
+		}
 	}
 }
 
@@ -174,7 +210,43 @@ barracks = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1200
+		modifier = {
+			factor = 0
+			NOT = { base_manpower = 2 }
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 3
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 4
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 5
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 6
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 7
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 8
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 9
+		}
+		modifier = {
+			factor = 1.10
+			base_manpower = 10
+		}
 	}
 }
 
@@ -187,8 +259,26 @@ arsenal = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			owner = { army_size_percentage = 0.75 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 0.90 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.00 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.10 }
+			factor = 1.2
+		}
 	}
+
+
 }
 
 ###
@@ -207,7 +297,7 @@ shipyard = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1000
 	}
 }
 
@@ -224,7 +314,7 @@ drydock = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1000
 	}
 }
 
@@ -240,7 +330,27 @@ wharf = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 800
+		modifier = {
+			owner = { navy_size_percentage = .75 }
+			factor = 1.5
+		}
+		modifier = {
+			owner = { navy_size_percentage = .90 }
+			factor = 1.5
+		}
+		modifier = {
+			owner = { navy_size_percentage = 1.00 }
+			factor = 1.5
+		}
+		modifier = {
+			owner = { navy_size_percentage = 1.10 }
+			factor = 1.5
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { province_trade_power = 10 }
+		}
 	}
 }
 
@@ -258,7 +368,67 @@ marketplace = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 5000
+		modifier = {
+			factor = 0
+			NOT = { province_trade_power = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}
 	}
 }
 
@@ -273,7 +443,67 @@ merchant_guild = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 5000
+		modifier = {
+			factor = 0
+			NOT = { province_trade_power = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}
 	}
 }
 
@@ -282,14 +512,66 @@ workshop = {
 	time = 24
 
 	modifier = {
-		local_production_efficiency = 0.5
-		trade_goods_size_modifier = 0.15
+		local_production_efficiency = 0.4
+		trade_goods_size_modifier = 0.1
 	}
 
 	allow_in_gold_provinces = no
 
 	ai_will_do = {
-		factor =
+		factor = 2500
+		modifier = {
+			factor = 0.95
+			NOT = { base_production = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_production = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_production = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_production = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_production = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_production = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_production = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_production = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_production = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_production = 6 }
+		}
+		modifier = {
+			factor = 0.80
+			NOT = { base_production = 5 }
+		}
+		modifier = {
+			factor = 0.80
+			NOT = { base_production = 4 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { base_production = 3 }
+		}
 	}
 }
 
@@ -308,7 +590,63 @@ toll_roads = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}
 	}
 }
 
@@ -324,7 +662,63 @@ post_roads = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1500
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}
 	}
 }
 
@@ -341,7 +735,72 @@ highways = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 2000
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { development = 20 }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { development = 10 }
+		}
+
 	}
 }
 
@@ -359,7 +818,63 @@ shrine = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 2500
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}
 	}
 }
 
@@ -374,7 +889,63 @@ temple = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 2500
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 14 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 13 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 12 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 11 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 8 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 7 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 6 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 4 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 3 }
+		}
+		modifier = {
+			factor = 0
+			NOT = { base_tax = 2 }
+		}
 	}
 }
 
@@ -388,7 +959,20 @@ magistrate = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1500
+		modifier = {
+			factor = 0
+			nationalism = 1
+		}
+		modifier = {
+			factor = 0
+			is_state = no
+		}
+
+		modifier = {
+			factor = 0.1
+			NOT = { development = 10 }
+		}
 	}
 }
 
@@ -401,12 +985,12 @@ tea_house = {
 	time = 18
 
 	modifier = {
-
+		local_monthly_devastation = -0.25
 		local_institution_spread = 0.1
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1000
 	}
 }
 
@@ -420,7 +1004,19 @@ theater = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 900
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
 	}
 }
 
@@ -434,7 +1030,55 @@ academy = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 2
+			is_capital = yes
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { development = 20 }
+		}
+		modifier = {
+			factor = 1.2
+			NOT = { development = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
 	}
 }
 
@@ -455,7 +1099,47 @@ granary = {
 	onmap = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
 	}
 }
 
@@ -471,7 +1155,47 @@ gunsmith = {
 	onmap = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
 	}
 }
 
@@ -487,7 +1211,47 @@ ranch = {
 	onmap = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
 	}
 }
 
@@ -506,7 +1270,47 @@ textile_workshop = {
 	onmap = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
 	}
 }
 
@@ -523,7 +1327,47 @@ lumbermill = {
 	onmap = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
 	}
 }
 
@@ -541,7 +1385,47 @@ artisan_workshop = {
 	onmap = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
 	}
 }
 
@@ -559,7 +1443,47 @@ mine_network = {
 	onmap = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
 	}
 }
 
@@ -577,7 +1501,47 @@ dockyard = {
 	onmap = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
 	}
 }
 
@@ -594,7 +1558,47 @@ brewery = {
 	onmap = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
 	}
 }
 
@@ -603,7 +1607,7 @@ brewery = {
 ###
 
 castle_palace = {
-	cost = 1600
+	cost = 1000
 	time = 60
 	trigger = {
 		AND = {
@@ -612,22 +1616,23 @@ castle_palace = {
 		}
 	}
 	modifier = {
-		fort_level = 11
-		local_defensiveness = 0.2
+		fort_level = 3
+		local_defensiveness = 0.1
+		legitimacy = 1
+		devotion = 1
 		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
 
 	onmap = yes
-	influencing_fort = yes
 
 	ai_will_do = {
-		factor =
+		factor = 3000
 	}
 }
 
 satellite_forts = {
-	cost = 600
+	cost = 500
 	time = 48
 	trigger = {
 		AND = {
@@ -637,14 +1642,14 @@ satellite_forts = {
 		}
 	}
 	modifier = {
-		local_defensiveness = 0.40
-		local_hostile_attrition = 3
+		local_defensiveness = 0.20
+		local_hostile_attrition = 1
 		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1500
 	}
 }
 
@@ -655,16 +1660,22 @@ western_quarter = {
 		AND = {
 			has_institution = western_trade
 			has_province_modifier = center_of_trade_modifier
+			has_port = yes
 		}
 	}
 	modifier = {
 		technology_cost = -0.1
 		province_trade_power_value = 8
+		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
 
 	ai_will_do = {
-		factor =
+		factor = 2500
+		modifier = {
+			factor = 0
+			NOT = { province_trade_power = 10 }
+		}
 	}
 }
 
@@ -677,11 +1688,12 @@ family_temple = {
 	modifier = {
 		diplomatic_reputation = 1
 		prestige = 1
+		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
 
 	ai_will_do = {
-		factor =
+		factor = 2500
 	}
 }
 
@@ -697,11 +1709,12 @@ ninjutsu_school = {
 	modifier = {
 		global_spy_defence = 0.15
 		spy_offence = 0.15
+		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
 
 	ai_will_do = {
-		factor =
+		factor = 2000
 	}
 }
 
@@ -714,11 +1727,12 @@ mint = {
 	modifier = {
 		inflation_reduction = 0.05
 		stability_cost_modifier = -0.1
+		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
 
 	ai_will_do = {
-		factor =
+		factor = 1500
 	}
 }
 
@@ -734,10 +1748,11 @@ charter_guild = {
 	modifier = {
 		merchants = 1
 		trade_efficiency = 0.1
+		allowed_num_of_buildings = 1
 	}
 	one_per_country = yes
 
 	ai_will_do = {
-		factor =
+		factor = 2500
 	}
 }

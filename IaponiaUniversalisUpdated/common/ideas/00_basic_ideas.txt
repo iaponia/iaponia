@@ -45,7 +45,15 @@ christian_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 0.8
+		modifier = {
+			factor = 1.8
+			has_idea_group = trade_ideas
+		}
+		modifier = {
+			factor = 1.5
+			has_idea_group = westernized_ideas
+		}
 	}
 }
 
@@ -87,7 +95,11 @@ shinto_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1
+		modifier = {
+			factor = 1.75
+			has_idea_group = mercantilist_ideas
+		}
 	}
 }
 
@@ -129,7 +141,11 @@ buddhist_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1
+		modifier = {
+			factor = 1.5
+			has_idea_group = ecclesiocratic_ideas
+		}
 	}
 }
 
@@ -174,7 +190,11 @@ pagan_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1.25
+		modifier = {
+			factor = 1.2
+			has_idea_group = defensive_ideas
+		}
 	}
 }
 
@@ -219,7 +239,19 @@ pluralist_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 0.75
+		modifier = {
+			factor = 0.8
+			has_idea_group = traditional_ideas
+		}
+		modifier = {
+			factor = 1.25
+			has_idea_group = trade_ideas
+		}
+		modifier = {
+			factor = 2
+			has_idea_group = meritocratic_ideas
+		}
 	}
 }
 
@@ -261,7 +293,11 @@ aristocratic_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 0.75
+		modifier = {
+			factor = 2
+			has_idea_group = traditional_ideas
+		}
 	}
 }
 
@@ -303,7 +339,11 @@ ecclesiocratic_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 0.9
+		modifier = {
+			factor = 1.8
+			has_idea_group = buddhist_ideas
+		}
 	}
 }
 
@@ -347,7 +387,19 @@ meritocratic_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 0.7
+		modifier = {
+			factor = 1.5
+			has_idea_group = pluralist_ideas
+		}
+		modifier = {
+			factor = 1.2
+			has_idea_group = christian_ideas
+		}
+		modifier = {
+			factor = 1.1
+			has_idea_group = buddhist_ideas
+		}
 	}
 }
 
@@ -382,7 +434,11 @@ administrative_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1.1
+		modifier = {
+			factor = 0.6
+			has_idea_group = expansion_ideas
+		}
 	}
 }
 
@@ -417,7 +473,11 @@ expansion_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1.25
+		modifier = {
+			factor = 0.6
+			has_idea_group = administrative_ideas
+		}
 	}
 }
 
@@ -460,7 +520,31 @@ trade_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1
+		modifier = {
+			factor = 1.3
+			has_idea_group = christian_ideas
+		}
+		modifier = {
+			factor = 1.1
+			has_idea_group = pluralist_ideas
+		}
+		modifier = {
+			factor = 1.1
+			has_idea_group = meritocratic_ideas
+		}
+		modifier = {
+			factor = 0.6
+			has_idea_group = traditional_ideas
+		}
+		modifier = {
+			factor = 0.8
+			has_idea_group = aristocratic_ideas
+		}
+		modifier = {
+			factor = 0.8
+			has_idea_group = pagan_ideas
+		}
 	}
 }
 
@@ -504,7 +588,23 @@ mercantilist_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1.1
+		modifier = {
+			factor = 1.4
+			has_idea_group = aristocratic_ideas
+		}
+		modifier = {
+			factor = 1.1
+			has_idea_group = defensive_ideas
+		}
+		modifier = {
+			factor = 1.1
+			has_idea_group = shinto_ideas
+		}
+		modifier = {
+			factor = 0.7
+			has_idea_group = pluralist_ideas
+		}
 	}
 }
 
@@ -539,7 +639,11 @@ maritime_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 0.7
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
 	}
 }
 
@@ -574,7 +678,11 @@ diplomatic_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1.2
+		modifier = {
+			factor = 0.6
+			has_idea_group = influence_ideas
+		}
 	}
 }
 
@@ -609,7 +717,11 @@ influence_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 0.9
+		modifier = {
+			factor = 0.6
+			has_idea_group = diplomatic_ideas
+		}
 	}
 }
 
@@ -648,7 +760,7 @@ offensive_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1
 	}
 }
 
@@ -687,7 +799,7 @@ defensive_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1.25
 	}
 }
 
@@ -729,7 +841,11 @@ traditional_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1.1
+		modifier = {
+			factor = 1.5
+			has_idea_group = aristocratic_ideas
+		}
 	}
 }
 
@@ -769,7 +885,19 @@ westernized_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 0.9
+		modifier = {
+			factor = 1.8
+			has_idea_group = christian_ideas
+		}
+		modifier = {
+			factor = 1.5
+			has_idea_group = trade_ideas
+		}
+		modifier = {
+			factor = 1.1
+			has_idea_group = pluralist_ideas
+		}
 	}
 }
 
@@ -803,7 +931,11 @@ leadership_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1.25
+		modifier = {
+			factor = 0.6
+			has_idea_group = organization_ideas
+		}
 	}
 }
 
@@ -837,6 +969,10 @@ organization_ideas = {
 	}
 
 	ai_will_do = {
-		factor =
+		factor = 1
+		modifier = {
+			factor = 0.6
+			has_idea_group = leadership_ideas
+		}
 	}
 }

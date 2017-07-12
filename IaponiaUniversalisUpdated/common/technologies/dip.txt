@@ -28,6 +28,7 @@ technology = {
 	year = 1450
 	
 	enable = kobaya
+	enable = bune
 	trade_efficiency = 0.05
 }
 
@@ -36,7 +37,6 @@ technology = {
 	year = 1476
 
 	naval_maintenance = 0.1
-	enable = bune
 	marketplace = yes 
 }
 

@@ -273,6 +273,7 @@ technology = {
 	land_morale = 0.5
 	cavalry_shock = 0.25
 	infantry_fire = 0.25
+	infantry_shock = 0.05
 	military_tactics = 0.25
 	
 	enable = advanced_kyushu_infantry
@@ -311,7 +312,6 @@ technology = {
 	military_tactics = 0.25
 	
 	infantry_shock = 0.2
-	infantry_fire = 0.05
 }
 
 technology = {
@@ -320,7 +320,7 @@ technology = {
 	
 	land_morale = 0.5
 	artillery_fire = 0.4
-	artillery_shock = 0.15
+	artillery_shock = 0.25
 	
 	enable = advanced_cannon
 }

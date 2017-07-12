@@ -20,13 +20,13 @@ default_ideas = {
 		idea_cost = -0.1
 	}
 	honor_ancestors = {
-		legitimacy = 0.5
+		legitimacy = 1
 	}
 	five_rings = {
 		army_tradition = 0.5
 	}
 	wandering_ronin = {
-		merc_maintenance_modifier = -0.2
+		infantry_power = 0.1
 	}
 	daimyo_idea = {
 		global_manpower_modifier = 0.15

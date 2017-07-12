@@ -1197,7 +1197,7 @@ maritime_westernized = {
 	}	
 	
 	leader_naval_fire = 1
-	heavy_ship_power = 0.1
+	ship_durability = 0.05
 	
 	ai_will_do = {
 		factor = 1

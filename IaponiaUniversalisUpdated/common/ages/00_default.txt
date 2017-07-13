@@ -63,9 +63,9 @@ age_of_discovery = {
 				factor = 10
 			}
 		}
-		ab_rival_change = {
+		ab_more_ships_can_fire = {
 			modifier = {
-				rival_change_cost = -0.5
+				global_naval_engagement_modifier = 0.20
 			}
 			ai_will_do = {
 				factor = 10
@@ -238,9 +238,9 @@ age_of_reformation = {
 				factor = 10
 			}
 		}
-		ab_rival_change = {
+		ab_more_ships_can_fire = {
 			modifier = {
-				rival_change_cost = -0.5
+				global_naval_engagement_modifier = 0.20
 			}
 			ai_will_do = {
 				factor = 10
@@ -402,9 +402,9 @@ age_of_absolutism = {
 				factor = 10
 			}
 		}
-		ab_rival_change = {
+		ab_more_ships_can_fire = {
 			modifier = {
-				rival_change_cost = -0.5
+				global_naval_engagement_modifier = 0.20
 			}
 			ai_will_do = {
 				factor = 10
@@ -473,7 +473,7 @@ age_of_absolutism = {
 				factor = 10
 			}
 		}
-		ab_state_boost = {
+		ab_russia_boost = {
 			modifier = {
 				max_states = 15
 			}

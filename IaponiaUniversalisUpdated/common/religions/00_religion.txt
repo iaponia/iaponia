@@ -4,23 +4,23 @@
 
 christian = {
 	defender_of_faith = yes
-	
+
 	center_of_religion = 683 # Kyoto
-	
+
 	mahayana = {
 		color = { 0.8 0.3 0.5 }
 		icon = 23
-		
+
 		allowed_conversion = {
 			catholic
 			shinto
 		}
-		
+
 		allowed_center_conversion = {
 			catholic
 			shinto
 		}
-		
+
 		country = {
 			tolerance_own = 1
 			stability_cost_modifier = -0.2
@@ -28,7 +28,7 @@ christian = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+
 		will_get_center = {
 			any_owned_province = {
 				OR = {
@@ -52,7 +52,7 @@ christian = {
 				is_reformation_center = no
 			}
 		}
-		
+
 		on_convert = {
 			change_religion = mahayana
 			add_prestige = -100
@@ -63,13 +63,13 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
-			
+
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}	
-			
-			if = {	
+			}
+
+			if = {
 				limit = {
 					NOT = {
 						calc_true_if = {
@@ -111,7 +111,7 @@ christian = {
 				}
 			}
 		}
-		
+
 		heretic = { ZEN }
 
 		uses_karma = yes
@@ -121,7 +121,7 @@ christian = {
 	catholic = {
 		color = { 0.8 0.8 0 }
 		icon = 1
-		
+
 		allowed_center_conversion = {
 			shinto
 			mahayana
@@ -137,7 +137,7 @@ christian = {
 		province = {
 			local_missionary_strength = -0.03
 		}
-		
+
 		uses_church_power = yes # Uses church power/aspect mechanics
 		aspects = {
 			jesuit_missions_aspect
@@ -150,7 +150,7 @@ christian = {
 			send_envoys_aspect
 			request_armaments_aspect
 		}
-		
+
 		will_get_center = {
 			any_owned_province = {
 				OR = {
@@ -185,13 +185,13 @@ christian = {
 			remove_country_modifier = the_declaration_of_indulgence
 			remove_country_modifier = de_heretico_comburendo
 			remove_country_modifier = the_conventicle_act
-			
+
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}	
-			
-			if = {	
+			}
+
+			if = {
 				limit = {
 					NOT = {
 						calc_true_if = {
@@ -233,12 +233,12 @@ christian = {
 				}
 			}
 		}
-		
+
 		heretic = { CALVINIST }
-		
+
 		date = 1546.10.31
 	}
-	
+
 	shinto = {
 		color = { 0.8 0 0 }
 		icon = 10
@@ -259,7 +259,7 @@ christian = {
 		}
 
 		holy_sites = { 43 125 198 344 536 }
-		
+
 		blessings = {
 			imperial_patronage
 			hold_festivals
@@ -276,198 +276,9 @@ christian = {
 				name = "conversion_zeal"
 				duration = 3650
 			}
-		}	
+		}
 
 		heretic = { SHUGENDO }
-	}
-
-	protestant = {
-		color = { 0 0 0.7 }
-		icon = 2
-		allowed_conversion = {
-			reformed
-			catholic
-		}
-		country = {
-			tolerance_own = 1
-			tolerance_heretic = -1
-		}
-		
-		hre_religion = yes
-		
-		on_convert = {
-			change_religion = protestant
-			add_prestige = -100
-			
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
-			
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}			
-		
-		}
-		
-		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
-		
-		papacy = {
-			papal_tag = PAP
-			election_cost = 5
-			seat_of_papacy = 118 # rome
-			
-			levy_church_tax = {
-				cost = 100
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-				}
-				effect = {
-					add_years_of_income = 0.25
-				}
-				ai_will_do = {
-					factor = 1
-				}				
-			}			
-			bless_monarch = {
-				cost = 40
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-					NOT = { prestige = 100 }
-				}
-				effect = {
-					add_prestige = 10
-				}
-				ai_will_do = {
-					factor = 1
-				}
-			}
-			indulgence_for_sins = {
-				cost = 60
-				potential = {
-					government = monarchy
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-					NOT = { legitimacy = 100 }
-				}
-				effect = {
-					add_legitimacy = 10
-				}
-				ai_will_do = {
-					factor = 1
-				}
-			}	
-			local_saint = {
-				cost = 100
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-					NOT = { stability = 3 }
-				}
-				effect = {
-					add_stability = 1
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 2
-						NOT = { stability = 0 }
-					}
-				}
-			}
-			forgiveness_for_usury = {
-				cost = 25
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-					NOT = { has_country_modifier = usury_forgiven }
-				}
-				effect = {
-					add_country_modifier = {
-						name = "usury_forgiven"
-						duration = 9125
-					}
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 0
-						NOT = { num_of_loans = 1 }
-					}
-				}
-			}			
-			proclaim_holy_war = {
-				cost = 40
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					is_at_war = yes
-					NOT = { war_with = PAP }
-				}
-				effect = {
-					add_yearly_manpower = 0.25
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 0
-						manpower_percentage = 0.5
-					}
-				}
-			}	
-			send_papal_legate = {
-				cost = 30
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-				}
-				effect = {
-					random_list = {
-						25 = { create_advisor = inquisitor }
-						25 = { create_advisor = theologian }
-						25 = { create_advisor = statesman }
-						25 = { create_advisor = diplomat }
-					}
-				}
-				ai_will_do = {
-					factor = 0
-				}
-			}	
-			sanction_commercial_monopoly = {
-				cost = 100
-				potential = {
-					NOT = { tag = PAP }
-				}
-				allow = {
-					NOT = { war_with = PAP }
-				}
-				effect = {
-					add_mercantilism = 0.01
-				}
-				ai_will_do = {
-					factor = 1
-					modifier = {
-						factor = 0
-						NOT = { has_idea_group = trade_ideas }
-					}
-				}
-			}			
-		}
 	}
 
 	ryukyuan = {
@@ -480,13 +291,13 @@ christian = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+
 		heretic = { SHUGENDO }
-		
+
 		fervor = yes
 		misguided_heretic = yes
 	}
-	
+
 	ainu = {
 		color = { 0.7 0.5 0.5 }
 		icon = 11
@@ -497,12 +308,12 @@ christian = {
 		province = {
 			local_missionary_strength = -0.02
 		}
-		
+
 		heretic = { SHUGENDO }
-		
+
 		fetishist_cult = yes
-		misguided_heretic = yes	
+		misguided_heretic = yes
 	}
-	
+
 	crusade_name = LIBERATION
 }

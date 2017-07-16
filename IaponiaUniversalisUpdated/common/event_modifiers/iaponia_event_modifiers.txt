@@ -2,6 +2,9 @@ shinto_holy_site = {
 	local_missionary_strength = -0.03
 }
 
+conversion_zeal = {
+	global_missionary_strength = 0.02
+}
 
 ##################################################
 # Iaponia estuaries

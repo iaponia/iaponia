@@ -1,0 +1,48 @@
+animation = {
+	name = "Iaponia_cavalry_horse_attack_animation"
+	file = "Iaponia_cavalry_horse_lance_attack.anim"
+}
+
+animation = {
+	name = "Iaponia_cavalry_horse_idle_animation"
+	file = "Iaponia_cavalry_horse_lance_idle.anim"
+}
+animation = {
+	name = "Iaponia_cavalry_horse_moving_animation"
+	file = "Iaponia_cavalry_horse_lance_walk.anim"
+}
+
+animation = {
+	name = "Iaponia_cavalry_rider_attack_animation"
+	file = "Iaponia_cavalry_rider_lance_attack.anim"
+}
+
+animation = {
+	name = "Iaponia_cavalry_rider_death_animation"
+	file = "Iaponia_cavalry_rider_lance_death.anim"
+}
+
+animation = {
+	name = "Iaponia_cavalry_rider_idle_animation"
+	file = "Iaponia_cavalry_rider_lance_idle.anim"
+}
+
+animation = {
+	name = "phoenix_cavalry_rider_moving_animation"
+	file = "phoenix_cavalry_rider_lance_moving.anim"
+}
+
+animation = {
+	name = "phoenix_cavalry_rider_lance_retreat_animation"
+	file = "phoenix_cavalry_rider_lance_retreat.anim"
+}
+
+animation = {
+	name = "phoenix_cavalry_armored_rider_lance_idle_animation"
+	file = "phoenix_cavalry_armored_rider_lance_idle.anim"
+}
+
+animation = {
+	name = "phoenix_cavalry_armored_rider_lance_moving_animation"
+	file = "phoenix_cavalry_armored_rider_lance_moving.anim"
+}

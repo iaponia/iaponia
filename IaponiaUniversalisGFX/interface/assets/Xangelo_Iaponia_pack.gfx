@@ -1,0 +1,301 @@
+objectTypes = {	
+	
+
+	
+pdxmesh = {
+		name = "Iaponia_OSB_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_OSB_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_OUC_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_OUC_infantry_01.mesh"			
+	
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_HSK_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_HSK_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_HTK_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_HTK_infantry_01.mesh"			
+	
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+
+
+
+pdxmesh = {
+		name = "Iaponia_KKZ_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_KKZ_infantry_01.mesh"			
+
+		aanimation = { id = "attack"		type = "polearm_twohanded_attack_animation" }
+		animation = { id = "idle"		type = "polearm_twohanded_idle_animation" }
+		animation = { id = "walk"		type = "polearm_twohanded_moving_animation" }
+		animation = { id = "death"		type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"	type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }	
+
+		animation = { id = "artillery_attack"	type = "polearm_twohanded_attack_animation" }		
+		
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_IMG_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_IMG_infantry_01.mesh"			
+	
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+
+pdxmesh = {
+		name = "Iaponia_SBA_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_SBA_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_SMZ_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_SMZ_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_OTM_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_OTM_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_TKD_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_TKD_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_YMN_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_YMN_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_UES_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_UES_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_RFR_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_RFR_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "daimyo_infantry_01_attack_animation" }
+		animation = { id = "attack_2"			type = "daimyo_infantry_01_attack_2_animation" }
+		animation = { id = "idle"				type = "daimyo_infantry_01_idle_animation" }
+		animation = { id = "walk"				type = "daimyo_infantry_01_moving_animation" }
+		animation = { id = "retreat"			type = "daimyo_infantry_01_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "daimyo_cavalry_rider_01_attack_animation" }		
+		animation = { id = "horse_idle"			type = "daimyo_cavalry_rider_01_idle_animation" }
+		animation = { id = "horse_walk"			type = "daimyo_cavalry_rider_01_moving_animation" }	
+		animation = { id = "horse_retreat"		type = "daimyo_cavalry_rider_01_retreat_animation" }	
+		
+		scale = 0.5
+	}
+
+
+        ###################################################################################################################
+	#####                                            Ainu                                                         #####
+	###################################################################################################################
+
+
+	
+
+pdxmesh = {
+		name = "Iaponia_HAA_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_HAA_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "spear_shield_attack_animation" }
+		animation = { id = "death"				type = "rifleman_death_animation" }		
+		animation = { id = "idle"				type = "spear_shield_idle_animation" }
+		animation = { id = "walk"				type = "spear_shield_moving_animation" }
+		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
+
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_WAA_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_WAA_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "spear_shield_attack_animation" }
+		animation = { id = "death"				type = "rifleman_death_animation" }		
+		animation = { id = "idle"				type = "spear_shield_idle_animation" }
+		animation = { id = "walk"				type = "spear_shield_moving_animation" }
+		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
+
+		scale = 0.5
+	}
+
+pdxmesh = {
+		name = "Iaponia_SSA_infantry_01_mesh"
+		file = "gfx/models/Units/Iaponia_SSA_infantry_01.mesh"			
+
+		animation = { id = "attack"				type = "polearm_twohanded_attack_animation" }
+		animation = { id = "idle"				type = "polearm_twohanded_idle_animation" }
+		animation = { id = "walk"				type = "mandate_infantry_01_moving_animation" }
+		animation = { id = "death"				type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
+
+		animation = { id = "horse_attack"		type = "cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }	
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }		
+		
+		scale = 0.5
+	}	
+
+
+
+

@@ -1,0 +1,35 @@
+objectTypes = {
+
+	
+	
+	pdxmesh = {
+		name = "Ainu_RoundShield"
+		file = "gfx/models/Units/Ainu_RoundShield.mesh"			
+		
+		scale = 0.5
+	}
+
+
+}
+
+
+objectTypes = {
+
+	
+
+	
+	pdxmesh = {
+		name = "Ainu_spear"
+		file = "gfx/models/Units/Ainu_spear.mesh"			
+		
+		scale = 0.5
+	}
+
+
+}
+
+
+
+
+
+

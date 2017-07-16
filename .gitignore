@@ -4,5 +4,9 @@
 !/IaponiaUniversalisUpdated/
 # Un-ignore the mod descriptor
 !/IaponiaUniversalisUpdated.mod
+# Un-ignore the gfx mod by xangelo7
+!/IaponiaUniversalisGFX/
+# Un-ignore the gfx mod descriptor
+!/IaponiaUniversalisGFX.mod
 !.gitignore
 

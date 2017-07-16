@@ -1,0 +1,15 @@
+
+
+entity = {
+	name = "Ainu_RoundShield"
+	pdxmesh = "Ainu_RoundShield"
+}
+
+
+
+entity = {
+	name = "Ainu_spear"
+	pdxmesh = "Ainu_spear"
+}
+
+

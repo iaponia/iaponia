@@ -562,9 +562,9 @@
  obj_coalition_army:0 "Coalition Army"
  obj_coalition_army_desc:0 "Have a land force limit of at least 100 regiments."
  obj_higashiyama_culture:0 "Embrace Higashiyama Culture"
- obj_higashiyama_culture_desc:0 Embrace Higashiyama Culture, and keep it in every province you own.
+ obj_higashiyama_culture_desc:0 "Embrace Higashiyama Culture, and keep it in every province you own."
  obj_core_domain:0 "Expand the Domain"
- obj_core_domain_desc:0 Reach a total of at least 150 development in your nation.
+ obj_core_domain_desc:0 "Reach a total of at least 150 development in your nation."
  obj_castle_town:0 "Prospering Castle-Town"
  obj_castle_town_desc:0 "Own and control a core province with at least §Y25§! development."
  obj_powerful_vassal:0 "Branch Clan"

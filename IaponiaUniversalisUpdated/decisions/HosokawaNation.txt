@@ -54,55 +54,67 @@ country_decisions = {
 				}
 				add_claim = HSK
 			}
-			sanuki = {
+			awaji_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = HSK
 			}
-			tosa = {
+			bitchu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = HSK
 			}
-			awaji = {
+			asakuchi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = HSK
 			}
-			izumi = {
+			sanuki_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = HSK
 			}
-			settsu = {
+			marugame_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = HSK
 			}
-			tanba = {
+			tosa_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = HSK
 			}
-			yamashiro = {
+			izumi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = HSK
 			}
-			awa = {
+			settsu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = HSK
 			}
-			bitchu = {
+			tanba_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			yamashiro_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			osaka_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}

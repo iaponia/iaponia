@@ -36,7 +36,7 @@ shikoku_region = {
 		iwo_area
 		niihama_area
 		tosa_area
-		tado_area
+		marugame_area
 		sanuki_area
 		awa_area
 		kaifu_area
@@ -71,7 +71,7 @@ chugoku_region = {
 		bizen_area
 		kojima_area
 		asakuchi_area
-		kawakami_area
+		bitchu_area
 	}
 }
 
@@ -81,11 +81,11 @@ kansai_region = {
 		ako_area
 		himeji_area
 		tanba_area
-		kawabe_area
+		settsu_area
 		akashi_area
 		yosa_area
 		kyoto_area
-		soraku_area
+		yamashiro_area
 		osaka_area
 		izumi_area
 		kawachi_area

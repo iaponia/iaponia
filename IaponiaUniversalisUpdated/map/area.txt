@@ -145,7 +145,7 @@ tosa_area = {
 	107 135 136 137 161 162 163
 }
 
-tado_area = {
+marugame_area = {
 	140 141 142 143 144
 }
 
@@ -249,7 +249,7 @@ asakuchi_area = {
 	202 203 204 205 206 626
 }
 
-kawakami_area = {
+bitchu_area = {
 	200	201	207	209
 }
 
@@ -277,7 +277,7 @@ tanba_area = {
 	258 259 265 268 269 284
 }
 
-kawabe_area = {
+settsu_area = {
 	254 255 257 260 270 273 280 283
 }
 
@@ -293,7 +293,7 @@ kyoto_area = {
 	285 286 288 289 290 683
 }
 
-soraku_area = {
+yamashiro_area = {
 	287 291 292
 }
 

@@ -5,6 +5,8 @@ age_of_discovery = {
 		always = yes
 	}
 	
+	religious_conflicts = yes
+	
 	absolutism = {
 		harsh_treatment = 1
 		stability = 1
@@ -170,6 +172,8 @@ age_of_reformation = {
 	can_start = {
 		is_institution_enabled = militarized_aristocracy_i
 	}
+	
+	religious_conflicts = yes
 	
 	absolutism = {
 		harsh_treatment = 1
@@ -346,6 +350,8 @@ age_of_absolutism = {
 	can_start = {
 		is_institution_enabled = kokudaka_system_i
 	}
+	
+	religious_conflicts = yes
 	
 	absolutism = {
 		harsh_treatment = 1

@@ -4,28 +4,80 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = HTK }
-			tag = NHK
+			OR = {
+				tag = BHY
+				tag = NHK
+				tag = SHK
+			}
 		}
 		allow = {
 			is_subject = no
 			is_at_war = no
-			tag = NHK
+			OR = {
+				AND = {
+					tag = BHY
+					NOT = { exists = HTK }
+					NOT = { exists = NHK }
+					NOT = { exists = SHK }
+				}
+				AND = {
+					tag = NHK
+					NOT = { exists = HTK }
+					NOT = { exists = BHY }
+					NOT = { exists = SHK }
+				}
+				AND = {
+					tag = SHK
+					NOT = { exists = HTK }
+					NOT = { exists = BHY }
+					NOT = { exists = NHK }
+				}
+			}
 		}
 		effect = {
 			change_tag = HTK
-			kii = {
+			kii_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = HTK
 			}
-			noto = {
+			nankii_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = HTK
 			}
-			add_claim = 315
+			noto_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HTK
+			}
+			nishigori_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HTK
+			}
+			kawachi_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HTK
+			}
+			katano_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HTK
+			}
+			etchu_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HTK
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

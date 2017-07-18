@@ -317,11 +317,11 @@ nishigori_area = {
 	296 297 298 300 307
 }
 
-nagusa_area = {
+kii_area = {
 	234 235 236 237 238 315
 }
 
-hidaka_area = {
+nankii_area = {
 	239 617 640
 }
 

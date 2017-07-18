@@ -38,9 +38,9 @@ shikoku_region = {
 		tosa_area
 		tado_area
 		sanuki_area
-		itano_area
-		katsuura_area
-		setouchi_islands_area
+		awa_area
+		kaifu_area
+		awaji_area
 	}
 }
 
@@ -120,7 +120,7 @@ chubu_region = {
 		kubiki_area
 		uonuma_area
 		shibata_area
-		kamo_area
+		shitara_area
 		mikawa_area
 		fuji_area
 		hamana_area
@@ -139,7 +139,7 @@ kanto_region = {
 		izu_area
 		ashikami_area
 		kamakura_area
-		awa_area
+		boso_area
 		kazusa_area
 		nagara_area
 		katori_area

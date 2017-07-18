@@ -153,11 +153,11 @@ sanuki_area = {
 	145 146 147 148 149 150
 }
 
-itano_area = {
+awa_area = {
 	151 152 153 154 157 158 159
 }
 
-katsuura_area = {
+kaifu_area = {
 	155 156 160
 }
 
@@ -209,7 +209,7 @@ sasai_area = {
 	125 126 132 627 628
 }
 
-takata_area = { 
+takata_area = {
 	127 129 130
 }
 
@@ -257,7 +257,7 @@ kawakami_area = {
 # kansai					 		   #
 ########################################
 
-setouchi_islands_area = {
+awaji_area = {
 	231 232 233
 }
 
@@ -409,10 +409,10 @@ aichi_area = {
 }
 
 owari_area = {
-	365 366 367 368 369 
+	365 366 367 368 369
 }
 
-kamo_area = {
+shitara_area = {
 	407 408 681 682
 }
 
@@ -439,7 +439,7 @@ iwata_area = {
 
 #gifu pref
 hida_area = {
-	386 394 396 
+	386 394 396
 }
 
 toki_area = {
@@ -485,11 +485,11 @@ ashikami_area = {
 }
 
 kamakura_area = {
-	456 461 536 
+	456 461 536
 }
 
 #chiba pref
-awa_area = {
+boso_area = {
 	457 458 459 460
 }
 
@@ -657,7 +657,7 @@ bourgogne_area = { #four
 massif_central_area = { #four
 }
 
-savoy_dauphine_area = { #three Savoy and Dauphiné, Upper Burgundy 
+savoy_dauphine_area = { #three Savoy and Dauphiné, Upper Burgundy
 }
 
 lorraine_area = { #three
@@ -759,7 +759,7 @@ corsica_sardinia_area = { #5
 sicily_area = { #three
 }
 
-naples_area = { #three 
+naples_area = { #three
 }
 
 calabria_area = { #three (+Lucania)
@@ -1153,7 +1153,7 @@ albania_area = {
 bosnia_area = { #four
 }
 
-croatia_area = { #5 
+croatia_area = { #5
 }
 
 east_adriatic_coast_area = { #three
@@ -1210,7 +1210,7 @@ aydin_area = { #5
 kastamonu_area = { #three
 }
 
-karaman_area = { #three 
+karaman_area = { #three
 }
 
 aleppo_area = { #four
@@ -1583,7 +1583,7 @@ te_waipounamu_area = { #three
 western_sahara_area = { #5
 }
 
-cap_verde_area = { #2 
+cap_verde_area = { #2
 }
 
 jolof_area = { #four
@@ -1964,10 +1964,10 @@ northern_thai_area = { #three
 # Indonesia  	                       #
 ########################################
 
-great_moluccas_area = { #5 
+great_moluccas_area = { #5
 }
 
-mindanao_area = { #four 
+mindanao_area = { #four
 }
 
 luzon_area = { #four
@@ -1981,7 +1981,7 @@ batak_area = { #three
 
 central_sumatra_area = { #5
 }
- 
+
 minangkabau_area = { #three
 }
 
@@ -2152,7 +2152,7 @@ central_jilin_area = { #5
 
 jilin_area = { #5 (South Jilin Area)
 }
- 
+
 liaoning_area = { #four
 }
 
@@ -2276,7 +2276,7 @@ shaanxi_area = { #four
 gansu_area = { #four (East Gansu)
 }
 
-west_gansu_area = { #four 
+west_gansu_area = { #four
 }
 
 ########################################
@@ -2412,7 +2412,7 @@ western_llanos = { #three
 bogota_area = { #5
 }
 
-popayan_area = { #four	
+popayan_area = { #four
 }
 
 coquivacoa_area = { #three
@@ -2613,7 +2613,7 @@ arizona_area = { #5
 
 california_area = { #5
 }
- 
+
 central_valley_area = { #four
 }
 
@@ -2766,4 +2766,3 @@ leeward_islands_area = { #5
 
 windward_islands_area = { #5
 }
-

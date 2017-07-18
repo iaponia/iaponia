@@ -5,32 +5,55 @@ country_decisions = {
 		potential = {
 			NOT = { exists = HSK }
 			OR = {
-			tag = BHK
-			tag = AHK
+				tag = BHK
+				tag = AHK
 			}
 		}
 		allow = {
 			is_subject = no
 			is_at_war = no
-			
-				OR = {
-						AND = {
-						tag = BHK
-						NOT = { exists = SMZ }
-						NOT = { exists = AHK }
-						}
-				 
-						AND = {
-						tag = AHK
-						NOT = { exists = SMZ }
-						NOT = { exists = BHK }
-						}
-					
+			OR = {
+				AND = {
+					tag = BHK
+					NOT = { exists = HSK }
+					NOT = { exists = AHK }
 				}
-			
+
+				AND = {
+					tag = AHK
+					NOT = { exists = HSK }
+					NOT = { exists = BHK }
+				}
+
+			}
+
 		}
 		effect = {
 			change_tag = HSK
+			mikawa_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			shitara_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			awa_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
+			kaifu_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
 			sanuki = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -85,12 +108,7 @@ country_decisions = {
 				}
 				add_claim = HSK
 			}
-			mikawa = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_claim = HSK
-			}
+
 			add_claim = 138
 			add_claim = 139
 			add_country_modifier = {

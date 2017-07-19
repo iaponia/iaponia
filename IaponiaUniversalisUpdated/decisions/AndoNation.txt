@@ -3,13 +3,13 @@ country_decisions = {
 	ando_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = ADO }
 			tag = MNO
 		}
 		allow = {
 			is_subject = no
 			is_at_war = no
-			tag = MNO		
+			tag = MNO
+			NOT = { exists = ADO }
 		}
 		effect = {
 			change_tag = ADO

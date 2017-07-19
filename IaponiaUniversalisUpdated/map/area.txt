@@ -590,7 +590,7 @@ kurihara_area = {
 }
 
 #aomori pref
-mutsu_area = {
+rikugo_area = {
 	606 663 664 665
 }
 

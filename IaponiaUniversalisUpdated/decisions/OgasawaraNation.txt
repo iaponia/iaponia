@@ -3,13 +3,15 @@ country_decisions = {
 	ogasawara_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = OGS }
 			tag = SOG
 		}
 		allow = {
 			is_subject = no
 			is_at_war = no
-			tag = SOG		
+			AND = {
+				tag = SOG
+				NOT = { exists = OGS }
+			}
 		}
 		effect = {
 			change_tag = OGS

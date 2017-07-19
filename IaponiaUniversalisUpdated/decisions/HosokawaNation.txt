@@ -3,7 +3,6 @@ country_decisions = {
 	hosokawa_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = HSK }
 			OR = {
 				tag = BHK
 				tag = AHK

@@ -166,7 +166,7 @@ tohoku_region = {
 		watari_area
 		miyagi_area
 		kurihara_area
-		mutsu_area
+		rikugo_area
 		tsugaru_area
 		iwate_area
 		hei_area

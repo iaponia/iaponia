@@ -3,7 +3,6 @@ country_decisions = {
 	hatakeyama_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = HTK }
 			OR = {
 				tag = BHY
 				tag = NHK

@@ -29,7 +29,7 @@ technology = {
 	
 	enable = kobaya
 	enable = bune
-	range = 75
+	range = 250
 	trade_efficiency = 0.05
 }
 

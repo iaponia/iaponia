@@ -20,7 +20,27 @@ feudalism_i = {
 
 
 	history = {
-		is_year = 1000
+		OR = {
+			AND = {
+				OR = {
+					region = kansai_region
+					region = kyushu_region
+					region = tohoku_region
+					region = chubu_region
+					region = chugoku_region
+					region = shikoku_region
+					region = kanto_region
+					province_id = 607
+				}
+				is_year = 1400
+			}
+			AND = {
+				OR = {
+					region = hokkaido_region
+				}
+				is_year = 1515
+			}
+		}
 	}
 	
 	# no need for events, as its there from the start.
@@ -82,50 +102,6 @@ feudalism_i = {
 					}
 				}
 				has_estate = estate_nobles
-			}
-		}
-		modifier = {
-			factor = 5
-			scale = yes
-			potential = {
-				owner = {
-					is_colonial_nation = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = PORT_OR_CAPITAL_IN_COLONY_FEUDAL
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					is_colonial_nation = yes
-					overlord = { has_institution = feudalism_i }
-				}
-			}
-		}
-		modifier = {
-			factor = 0.1
-			scale = yes
-			potential = {
-				owner = { is_colonial_nation = no }
-			}
-			custom_trigger_tooltip = {
-				tooltip = CAPITAL_IN_OLD_WORLD_FEUDAL
-			
-				is_capital = yes
-				NOT = { continent = north_america }
-				NOT = { continent = south_america }
-				NOT = { continent = new_world }
-				owner = {
-					NOT = { government = tribal_democracy }
-					NOT = { government = tribal_kingdom }
-					NOT = { government = tribal_despotism }
-					NOT = { government = tribal_federation }
-					NOT = { government = siberian_native_council }
-					NOT = { government = native_council }
-					NOT = { government = steppe_horde }
-				}
 			}
 		}
 		modifier = {
@@ -243,7 +219,7 @@ higashiyama_culture_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
 				any_friendly_coast_border_province = {
-					renaissance = 100
+					feudalism_i = 100
 				}
 			}
 		}
@@ -253,7 +229,7 @@ higashiyama_culture_i = {
 			potential = {
 				NOT = {
 					any_friendly_coast_border_province = {
-						renaissance = 100
+						feudalism_i = 100
 					}
 				}
 			}
@@ -261,7 +237,7 @@ higashiyama_culture_i = {
 				tooltip = tooltip_any_neighbor_has_embraced_renaissance
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					renaissance = 100
+					feudalism_i = 100
 				}
 			}
 		}
@@ -272,7 +248,7 @@ higashiyama_culture_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_nearby_renaissance_20
 				any_neighbor_province = {
-						renaissance = 20
+					feudalism_i = 20
 				}
 			}
 		}	
@@ -283,7 +259,7 @@ higashiyama_culture_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_friendly_nearby_renaissance_20
 				any_friendly_coast_border_province = {
-						renaissance = 20
+					feudalism_i = 20
 				}
 			}
 		}	
@@ -304,62 +280,54 @@ higashiyama_culture_i = {
 				tooltip = tooltip_development_20
 				development = 20
 			}
-		}
-		#modifier = {
-		#	factor = 0.1
-		#	scale = yes
-		#	custom_trigger_tooltip = {
-		#		tooltip = tooltip_development_5_post_1550
-		#		is_year = 1550
-		#		development = 5
-		#	}
-		#}
-		
+		}		
 		modifier = {
 			factor = 2
 			scale = no
 			custom_trigger_tooltip = {
-				tooltip = tooltip_artist_capital_dip8
 				is_capital = yes
 				owner = {
-					has_advisor = artist
-					dip_tech = 8
+					OR = {
+						has_advisor = imperial_courtier_a
+						has_advisor = tea_master_a
+						has_advisor = poet_a
+					}
+					adm_tech = 4
 				}
 			}
 		}
-		
-		#modifier = {
-		#	factor = 0.5
-		#	scale = yes
-		#	potential = {
-		#		OR = {
-		#			area = flanders_area
-		#			area = tuscany_area
-		#			area = venetia_area
-		#		}
-		#	}
-		#	custom_trigger_tooltip = {
-		#		tooltip = tooltip_flanders_tuscany_venetia
-		#		OR = {
-		#			area = flanders_area
-		#			area = tuscany_area
-		#			area = venetia_area
-		#		}
-		#	}
-		#}
+		modifier = {
+			factor = 0.5
+			scale = yes
+			potential = {
+				OR = {
+					area = abu_area
+					area = kyoto_area
+					area = izumi_area
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_flanders_tuscany_venetia
+				OR = {
+					area = abu_area
+					area = kyoto_area
+					area = izumi_area
+				}
+			}
+		}
 
 		modifier = {
 			factor = 2
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = renaissance
+					has_institution = feudalism_i
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_renaissance_embraced
 				owner = {
-					has_institution = renaissance
+					has_institution = feudalism_i
 				}
 			}
 		}
@@ -466,7 +434,7 @@ militarized_aristocracy_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_printing_press
 				any_friendly_coast_border_province = {
-					printing_press = 100
+					feudalism_i = 100
 				}
 			}
 		}
@@ -477,7 +445,7 @@ militarized_aristocracy_i = {
 			potential = {
 				NOT = {
 					any_friendly_coast_border_province = {
-						printing_press = 100
+						feudalism_i = 100
 					}
 				}
 			}
@@ -485,7 +453,7 @@ militarized_aristocracy_i = {
 				tooltip = tooltip_any_neighbor_has_embraced_printing_press
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					printing_press = 100
+					feudalism_i = 100
 				}
 			}
 		}
@@ -495,21 +463,21 @@ militarized_aristocracy_i = {
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
 				has_dlc = "The Cossacks"
-				owner = { has_estate = estate_church }
+				owner = { has_estate = estate_nobles }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_printing_press_clergy
 				any_neighbor_province = {
-					printing_press = 100
+					feudalism_i = 100
 				}
 				owner = {
-					has_estate = estate_church
+					has_estate = estate_nobles
 					estate_loyalty = {
-						estate = estate_church
+						estate = estate_nobles
 						loyalty = 40
 					}
 				}
-				has_estate = estate_church
+				has_estate = estate_nobles
 			}
 		}
 		
@@ -519,7 +487,7 @@ militarized_aristocracy_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_nearby_printing_press_20
 				any_neighbor_province = {
-						printing_press = 20
+						feudalism_i = 20
 				}
 			}
 		}	
@@ -530,20 +498,34 @@ militarized_aristocracy_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_friendly_nearby_printing_press_20
 				any_friendly_coast_border_province = {
-						printing_press = 20
+						feudalism_i = 20
 				}
 			}
 		}
-		
 		modifier = {
-			factor = 1
-			custom_trigger_tooltip = {
-				tooltip = tooltip_dip_tech15_capital
-				is_capital = yes
-				owner = {
-					dip_tech = 15
-				}
-			}
+			factor = 0.5
+			scale = yes
+			has_building = fortified_mansion
+		}
+		modifier = {
+			factor = 0.5
+			scale = yes
+			has_building = garrison
+		}
+		modifier = {
+			factor = 0.5
+			scale = yes
+			has_building = fort
+		}
+		modifier = {
+			factor = 0.5
+			scale = yes
+			has_building = castle
+		}
+		modifier = {
+			factor = 0.5
+			scale = yes
+			has_building = citadel
 		}
 		modifier = {
 			factor = 0.15
@@ -553,42 +535,19 @@ militarized_aristocracy_i = {
 				development = 20
 				is_capital = yes
 			}
-		}
-		modifier = {
-			factor = 2
-			custom_trigger_tooltip = {
-				tooltip = tooltip_owner_cath_maha
-				owner = {
-					OR = {
-						religion = catholic
-						religion = mahayana
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 1
-			custom_trigger_tooltip = {
-				tooltip = tooltip_province_cath_maha
-				OR = {
-					religion = catholic
-					religion = mahayana
-				}
-			}
-		}
-		
+		}		
 		modifier = {
 			factor = 2
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = printing_press
+					has_institution = feudalism_i
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_printing_press_embraced
 				owner = {
-					has_institution = printing_press
+					has_institution = feudalism_i
 				}
 			}
 		}
@@ -641,7 +600,7 @@ western_trade_i = {
 				is_year = 1550
 				OR = {
 					region = kyushu_region
-					tag = OUC
+					province_id = 113
 				}
 			}
 			AND = {
@@ -705,7 +664,7 @@ western_trade_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_printing_press
 				any_friendly_coast_border_province = {
-					printing_press = 100
+					higashiyama_culture_i = 100
 				}
 			}
 		}
@@ -716,7 +675,7 @@ western_trade_i = {
 			potential = {
 				NOT = {
 					any_friendly_coast_border_province = {
-						printing_press = 100
+						higashiyama_culture_i = 100
 					}
 				}
 			}
@@ -724,7 +683,7 @@ western_trade_i = {
 				tooltip = tooltip_any_neighbor_has_embraced_printing_press
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					printing_press = 100
+					higashiyama_culture_i = 100
 				}
 			}
 		}
@@ -739,16 +698,16 @@ western_trade_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_printing_press_clergy
 				any_neighbor_province = {
-					printing_press = 100
+					higashiyama_culture_i = 100
 				}
 				owner = {
-					has_estate = estate_church
+					has_estate = estate_burghers
 					estate_loyalty = {
-						estate = estate_church
+						estate = estate_burghers
 						loyalty = 40
 					}
 				}
-				has_estate = estate_church
+				has_estate = estate_burghers
 			}
 		}
 		
@@ -758,7 +717,7 @@ western_trade_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_nearby_printing_press_20
 				any_neighbor_province = {
-						printing_press = 20
+					higashiyama_culture_i = 20
 				}
 			}
 		}	
@@ -769,20 +728,24 @@ western_trade_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_friendly_nearby_printing_press_20
 				any_friendly_coast_border_province = {
-						printing_press = 20
+					higashiyama_culture_i = 20
 				}
 			}
 		}
-		
 		modifier = {
-			factor = 1
-			custom_trigger_tooltip = {
-				tooltip = tooltip_dip_tech15_capital
-				is_capital = yes
-				owner = {
-					dip_tech = 15
-				}
-			}
+			factor = 0.5
+			scale = yes
+			has_building = marketplace
+		}
+		modifier = {
+			factor = 0.5
+			scale = yes
+			has_building = merchant_guild
+		}
+		modifier = {
+			factor = 0.5
+			scale = yes
+			has_building = wharf
 		}
 		modifier = {
 			factor = 0.15
@@ -794,40 +757,19 @@ western_trade_i = {
 			}
 		}
 		modifier = {
-			factor = 2
-			custom_trigger_tooltip = {
-				tooltip = tooltip_owner_cath_maha
-				owner = {
-					OR = {
-						religion = catholic
-						religion = mahayana
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 1
-			custom_trigger_tooltip = {
-				tooltip = tooltip_province_cath_maha
-				OR = {
-					religion = catholic
-					religion = mahayana
-				}
-			}
-		}
-		
-		modifier = {
-			factor = 2
+			factor = 0.5
 			scale = yes
 			potential = {
-				owner = {
-					has_institution = printing_press
+				OR = {
+					has_province_modifier = inland_center_of_trade_modifier
+					has_province_modifier = center_of_trade_modifier
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_printing_press_embraced
-				owner = {
-					has_institution = printing_press
+				tooltip = tooltip_center_of_trade_spread
+				OR = {
+					has_province_modifier = inland_center_of_trade_modifier
+					has_province_modifier = center_of_trade_modifier
 				}
 			}
 		}
@@ -925,125 +867,68 @@ gunsmithing_i = {
 	embracement_speed = {
 	
 		modifier = {
-			factor = 0.02
+			factor = 0.5
 			scale = yes
-			has_building = marketplace
+			has_building = arsenal
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.10
 			scale = yes
-			has_building = trade_depot
-		}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_nearby_printing_press_20
+				any_neighbor_province = {
+					western_trade_i = 20
+				}
+			}
+		}	
 		modifier = {
-			factor = 1
+			factor = 0.05
 			scale = yes
-			has_building = stock_exchange
-		}
-		modifier = {
-			factor = 0.4 #Not scaled
-			province_trade_power = 15
-		}
-		modifier = {
-			factor = 0.8 #Not Scaled
-			province_trade_power = 25
-		}
-		modifier = {
-			factor = 0.16 #Not Scaled
-			province_trade_power = 35
-		}
-		modifier = {
-			factor = 1.4 #Not Scaled
-			province_trade_power = 45
+			custom_trigger_tooltip = {
+				tooltip = tooltip_friendly_nearby_printing_press_20
+				any_friendly_coast_border_province = {
+					western_trade_i = 20
+				}
+			}
 		}
 		modifier = {
 			factor = 0.5
-			scale = yes
-			potential = {
-				OR = {
-					has_province_modifier = inland_center_of_trade_modifier
-					has_province_modifier = center_of_trade_modifier
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_center_of_trade_spread
-				OR = {
-					has_province_modifier = inland_center_of_trade_modifier
-					has_province_modifier = center_of_trade_modifier
-				}
-			}
-		}
-		modifier = {
-			factor = 0.1
-			scale = yes
-			force_potential = yes	# Hide the this modifier when potential is false
-			potential = {
-				has_dlc = "The Cossacks"
-				owner = { has_estate = estate_burghers }
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_global_trade_burghers
-				any_neighbor_province = {
-					global_trade = 100
-				}
-				owner = {
-					has_estate = estate_burghers
-					estate_loyalty = {
-						estate = estate_burghers
-						loyalty = 40
-					}
-				}
-				has_estate = estate_burghers
-			}
-		}
-
-		modifier = {
-			factor = 0.25
-			scale = yes
-			potential = {
-				has_port = no
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_neighbor_non_port_province_global_trade
-				has_port = no
-				any_neighbor_province = {
-					global_trade = 100
-					
-				}
-			}
-		}
-		
-		modifier = {
-			factor = 0.5
-			scale = yes
-			potential = {
-				has_port = yes
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_neighbor_port_province_global_trade
-				has_port = yes
-				any_neighbor_province = {
-					global_trade = 100
-					
-				}
-			}
-		}
-		
-		modifier = {
-			factor = 0.5
-			printing_press = 100
+			western_trade_i = 100
 		}
 		modifier = {
 			factor = 2
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = global_trade
+					has_institution = western_trade_i
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_global_trade_embraced
 				owner = {
-					has_institution = global_trade
+					has_institution = western_trade_i
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			custom_trigger_tooltip = {
+				tooltip = tooltip_owner_cath_maha
+				owner = {
+					OR = {
+						religion = catholic
+						religion = mahayana
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			custom_trigger_tooltip = {
+				tooltip = tooltip_full_innovativeness
+				is_capital = yes
+				owner = {
+					full_idea_group = westernized_ideas
 				}
 			}
 		}
@@ -1143,7 +1028,7 @@ momoyama_culture_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_manufactories
 				any_friendly_coast_border_province = {
-					manufactories = 100
+					western_trade_i = 100
 				}
 			}
 		}
@@ -1153,7 +1038,7 @@ momoyama_culture_i = {
 			potential = {
 				NOT = {
 					any_friendly_coast_border_province = {
-						manufactories = 100
+						western_trade_i = 100
 					}
 				}
 			}
@@ -1161,125 +1046,60 @@ momoyama_culture_i = {
 				tooltip = tooltip_any_neighbor_has_embraced_manufactories
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					manufactories = 100
+					western_trade_i = 100
 				}
 			}
 		}
 		modifier = {
-			factor = 1
+			factor = 0.5
 			scale = yes
-			potential = {
-				OR = {
-					trade_goods = naval_supplies
-					trade_goods = fish
-					trade_goods = salt
-					trade_goods = seaweed
-				}
-			}
-			has_building = wharf
+			has_building = tea_house
 		}
 		modifier = {
-			factor = 1
+			factor = 0.5
 			scale = yes
-			potential = {
-				OR = {
-					trade_goods = copper
-					trade_goods = iron
-					trade_goods = metal
-				}
-			}
-			has_building = weapons
+			has_building = academy
 		}
 		modifier = {
-			factor = 1
+			factor = 0.5
 			scale = yes
-			potential = {
-				OR = {
-					trade_goods = wool
-					trade_goods = cloth
-					trade_goods = silk
-					trade_goods = dyes
-					trade_goods = paper
-				}
-			}
-			has_building = textile
+			has_building = shrine
 		}
 		modifier = {
-			factor = 1
+			factor = 0.5
 			scale = yes
-			potential = {
-				OR = {
-					trade_goods = coffee
-					trade_goods = cotton
-					trade_goods = sugar
-					trade_goods = tobacco
-					trade_goods = cocoa
-					trade_goods = grain
-					trade_goods = rice
-					trade_goods = bamboo
-				}
-			}
-			has_building = plantations
-		}
-		modifier = {
-			factor = 1
-			scale = yes
-			potential = {
-				OR = {
-					trade_goods = ivory
-					trade_goods = tea
-					trade_goods = chinaware
-					trade_goods = slaves
-					trade_goods = spices
-					trade_goods = fur
-					trade_goods = wine
-					trade_goods = tropical_wood
-					trade_goods = sake
-					trade_goods = lumber
-					trade_goods = mainland_goods
-					trade_goods = lacquerware
-					trade_goods = pottery
-					trade_goods = horses
-				}
-			}
-			has_building = tradecompany
-		}
-		modifier = {
-			factor = 5
-			scale = yes
-			potential = {
-				owner = {
-					is_colonial_nation = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_colonial_overlord_manufactories
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					is_colonial_nation = yes
-					overlord = { has_institution = manufactories }
-				}
-			}
+			has_building = temple
 		}
 		modifier = {
 			factor = 2
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = manufactories
+					has_institution = western_trade_i
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_manufactories_embraced
 				owner = {
-					has_institution = manufactories
+					has_institution = western_trade_i
 				}
 			}
 		}
-
+		modifier = {
+			factor = 2
+			scale = no
+			custom_trigger_tooltip = {
+				is_capital = yes
+				owner = {
+					OR = {
+						has_advisor = imperial_courtier_a
+						has_advisor = tea_master_a
+						has_advisor = poet_a
+					}
+					adm_tech = 15
+				}
+			}
+		}
 	}
 	
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
@@ -1362,7 +1182,7 @@ kokudaka_system_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_enlightenment
 				any_friendly_coast_border_province = {
-					enlightenment = 100
+					momoyama_culture_i = 100
 				}
 			}
 		}
@@ -1372,7 +1192,7 @@ kokudaka_system_i = {
 			potential = {
 				NOT = {
 					any_friendly_coast_border_province = {
-						enlightenment = 100
+						momoyama_culture_i = 100
 					}
 				}
 			}
@@ -1380,72 +1200,50 @@ kokudaka_system_i = {
 				tooltip = tooltip_any_neighbor_has_embraced_enlightenment
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					enlightenment = 100
+					momoyama_culture_i = 100
 				}
 			}
 		}
 		modifier = {
-			factor = 5
-			
-			has_building = university
+			factor = 1
+			has_building = magistrate
 		}
 		modifier = {
-			factor = 5
-			potential = {
-				owner = {
-					has_parliament = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_has_seat_in_parliament
-				has_seat_in_parliament = yes
-			}
-		}
-		modifier = {
-			factor = 1.5
+			factor = 1
 			custom_trigger_tooltip = {
 				tooltip = tooltip_philosopher_capital
 				is_capital = yes
 				owner = {
-					has_advisor = philosopher
-					dip_tech = 20
+					OR = {
+						has_advisor = clan_elder_a
+						has_advisor = magistrate_a
+					}
+					adm_tech = 16
 				}
 			}
 		}
 		modifier = {
-			factor = 3
-			custom_trigger_tooltip = {
-				tooltip = tooltip_scientist_capital
-				is_capital = yes
-				owner = {
-					has_advisor = natural_scientist
-					dip_tech = 20
-				}
-			}
-		}
-		modifier = {
-			factor = 5
+			factor = 2
 			custom_trigger_tooltip = {
 				tooltip = tooltip_full_innovativeness
 				is_capital = yes
 				owner = {
-					full_idea_group = innovativeness_ideas
+					full_idea_group = administrative_ideas
 				}
 			}
 		}
-
 		modifier = {
 			factor = 2
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = enlightenment
+					has_institution = momoyama_culture_i
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_enlightenment_embraced
 				owner = {
-					has_institution = enlightenment
+					has_institution = momoyama_culture_i
 				}
 			}
 		}
@@ -1547,7 +1345,7 @@ rangaku_i = {
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_enlightenment
 				any_friendly_coast_border_province = {
-					enlightenment = 100
+					momoyama_culture_i = 100
 				}
 			}
 		}
@@ -1557,7 +1355,7 @@ rangaku_i = {
 			potential = {
 				NOT = {
 					any_friendly_coast_border_province = {
-						enlightenment = 100
+						momoyama_culture_i = 100
 					}
 				}
 			}
@@ -1565,72 +1363,26 @@ rangaku_i = {
 				tooltip = tooltip_any_neighbor_has_embraced_enlightenment
 				any_neighbor_province = {
 					NOT = { owned_by = ROOT }
-					enlightenment = 100
+					momoyama_culture_i = 100
 				}
 			}
 		}
 		modifier = {
 			factor = 5
-			
-			has_building = university
+			has_building = western_quarter
 		}
-		modifier = {
-			factor = 5
-			potential = {
-				owner = {
-					has_parliament = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_has_seat_in_parliament
-				has_seat_in_parliament = yes
-			}
-		}
-		modifier = {
-			factor = 1.5
-			custom_trigger_tooltip = {
-				tooltip = tooltip_philosopher_capital
-				is_capital = yes
-				owner = {
-					has_advisor = philosopher
-					dip_tech = 20
-				}
-			}
-		}
-		modifier = {
-			factor = 3
-			custom_trigger_tooltip = {
-				tooltip = tooltip_scientist_capital
-				is_capital = yes
-				owner = {
-					has_advisor = natural_scientist
-					dip_tech = 20
-				}
-			}
-		}
-		modifier = {
-			factor = 5
-			custom_trigger_tooltip = {
-				tooltip = tooltip_full_innovativeness
-				is_capital = yes
-				owner = {
-					full_idea_group = innovativeness_ideas
-				}
-			}
-		}
-
 		modifier = {
 			factor = 2
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = enlightenment
+					has_institution = momoyama_culture_i
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_enlightenment_embraced
 				owner = {
-					has_institution = enlightenment
+					has_institution = momoyama_culture_i
 				}
 			}
 		}

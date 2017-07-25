@@ -129,3 +129,32 @@ omono_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
+
+#Institution Birthplaces
+birthplace_of_higashiyama_culture = {
+	local_institution_spread = 0.1
+}
+
+birthplace_of_militarized_aristocracy = {
+	local_development_cost = -0.1
+}
+
+birthplace_of_western_trade = {
+	province_trade_power_value = 5
+}
+
+birthplace_of_gunsmithing = {
+	trade_goods_size = 0.5
+}
+
+birthplace_of_momoyama_culture = {
+	local_institution_spread = 0.1
+}
+
+birthplace_of_kokudaka_system = {
+	trade_goods_size = 0.5
+}
+
+birthplace_of_rangaku = {
+	local_development_cost = -0.1
+}

@@ -44,7 +44,7 @@ ODA_ideas = {
 	}
 	jesuit_patron = {
 		tolerance_heretic = 3
-		idea_cost = -0.05
+		idea_cost = -0.1
 	}
 	triple_firing = {
 		fire_damage = 0.1
@@ -371,8 +371,8 @@ OTM_ideas = {
 		land_forcelimit_modifier = 0.25
 	}
 	tensho_embassy = {
-		technology_cost = -0.05
-		global_institution_spread = 0.05
+		technology_cost = -0.1
+		global_institution_spread = 0.1
 	}
 	saltpeter_monopoly = {
 		fire_damage = 0.1
@@ -658,8 +658,8 @@ DTE_ideas = {
 		tolerance_heretic = 3
 	}
 	keicho_embassy = {
-		technology_cost = -0.05
-		global_institution_spread = 0.05
+		technology_cost = -0.1
+		global_institution_spread = 0.1
 	}
 	dragoon_corps = {
 		fire_damage = 0.1
@@ -1050,7 +1050,7 @@ ANU_ideas = {
         culture_conversion_cost = -0.15
     }
     surku_custom = {
-        mil_tech_cost_modifier = -0.1
+        mil_tech_cost_modifier = -0.2
     }
     iomante_custom = {
         land_morale = 0.1
@@ -1094,7 +1094,7 @@ RYU_ideas = {
 		trade_efficiency = 0.10
 	}
 	ryu_national_academy = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	ryu_the_three_mountains = {
 		free_leader_pool = 1
@@ -1496,7 +1496,7 @@ TTI_ideas = {
 		hostile_attrition = 1
 	}
 	kofukuji_temple = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 }
 
@@ -1867,7 +1867,7 @@ AIM_ideas = {
 		global_prov_trade_power_modifier = 0.2
 	}
 	jesuit_support = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 		church_power_modifier = 0.1
 	}
 	western_seminaries = {

@@ -616,7 +616,7 @@
  tooltip_capital_culture:0 "Has 4 Adm Tech and either a Poet, Tea Master or Imperial Courtier"
  tooltip_capital_culture_2:0 "Has 15 Adm Tech and either a Poet, Tea Master or Imperial Courtier"
  tooltip_momoyama_capital:0 "Has 16 Adm Tech and either a Clan Elder or Magistrate"
- tooltip_flanders_tuscany_venetia:0 "Province in the Suo, Izumi, Kyoto, Noto or Echizen Area"
+ tooltip_suo_izumi_kyoto_noto_echizen:0 "Province in the Suo, Izumi, Kyoto, Noto or Echizen Area"
  tooltip_feudalism_i_embraced:1 "Owner has embraced Feudalism"
  tooltip_renaissance_embraced:1 "Owner has embraced Higashiyama Culture"
  tooltip_global_trade_i_embraced:1 "Owner has embraced Western Trade"

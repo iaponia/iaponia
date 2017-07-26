@@ -647,6 +647,6 @@
  tooltip_owner_cath_shin:0 "Is Christian or Shinto"
  tooltip_full_aristocratic:0 "Fully Aristocratic"
  tooltip_full_trade:0 "Fully Trade"
- tooltip_full_innovativeness:0 "Fully Westernized"
+ tooltip_full_westernization:0 "Fully Westernized"
  tooltip_full_administration:0 "Fully Administrative"
  tooltip_full_pluralist:0 "Fully Pluralist"

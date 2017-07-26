@@ -15,8 +15,8 @@ religion = shinto
 capital = "Hakata"
 is_city = yes
 
-base_tax = 6
-base_production = 6
+base_tax = 7
+base_production = 8
 base_manpower = 5
 
 trade_goods = cloth

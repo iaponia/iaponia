@@ -11,7 +11,10 @@ country_decisions = {
 			adm_power = 100
 		}
 		effect = {
-			change_government = shugo_daimyo_monarchy
+			change_government = sengoku_monarchy
+			set_government_rank = 2
+			add_stability = 1
+			add_prestige = 10
 			add_adm_power = -100
 		}
 		ai_will_do = {

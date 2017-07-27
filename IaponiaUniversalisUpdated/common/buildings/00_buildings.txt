@@ -197,6 +197,10 @@ training_grounds = {
 			factor = 1.10
 			base_manpower = 10
 		}
+		modifier = {
+			factor = 1.25
+			treasury = 250
+		}
 	}
 }
 
@@ -247,6 +251,10 @@ barracks = {
 			factor = 1.10
 			base_manpower = 10
 		}
+		modifier = {
+			factor = 1.25
+			treasury = 500
+		}
 	}
 }
 
@@ -275,6 +283,10 @@ arsenal = {
 		modifier = {
 			owner = { army_size_percentage = 1.10 }
 			factor = 1.2
+		}
+		modifier = {
+			factor = 1.25
+			treasury = 800
 		}
 	}
 
@@ -429,6 +441,10 @@ marketplace = {
 			factor = 0
 			NOT = { base_tax = 2 }
 		}
+		modifier = {
+			factor = 1.25
+			treasury = 200
+		}
 	}
 }
 
@@ -504,6 +520,10 @@ merchant_guild = {
 			factor = 0
 			NOT = { base_tax = 2 }
 		}
+		modifier = {
+			factor = 1.25
+			treasury = 400
+		}
 	}
 }
 
@@ -571,6 +591,10 @@ workshop = {
 		modifier = {
 			factor = 0.5
 			NOT = { base_production = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			treasury = 600
 		}
 	}
 }
@@ -647,6 +671,10 @@ toll_roads = {
 			factor = 0
 			NOT = { base_tax = 2 }
 		}
+		modifier = {
+			factor = 1.25
+			treasury = 300
+		}
 	}
 }
 
@@ -718,6 +746,10 @@ post_roads = {
 		modifier = {
 			factor = 0
 			NOT = { base_tax = 2 }
+		}
+		modifier = {
+			factor = 1.25
+			treasury = 400
 		}
 	}
 }
@@ -800,7 +832,10 @@ highways = {
 			factor = 1.2
 			NOT = { development = 10 }
 		}
-
+		modifier = {
+			factor = 1.25
+			treasury = 600
+		}
 	}
 }
 
@@ -875,6 +910,10 @@ shrine = {
 			factor = 0
 			NOT = { base_tax = 2 }
 		}
+		modifier = {
+			factor = 1.25
+			treasury = 200
+		}
 	}
 }
 
@@ -945,6 +984,10 @@ temple = {
 		modifier = {
 			factor = 0
 			NOT = { base_tax = 2 }
+		}
+		modifier = {
+			factor = 1.25
+			treasury = 400
 		}
 	}
 }

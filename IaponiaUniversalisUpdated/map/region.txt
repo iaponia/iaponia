@@ -57,15 +57,15 @@ chugoku_region = {
 		oki_islands_area
 		nagato_area
 		abu_area
-		masuda_area
+		iwami_area
 		shimane_area
 		kando_area
 		sasai_area
 		takata_area
-		mikami_area
+		bingo_area
 		mitsugi_area
-		tottori_area
-		kawamura_area
+		inaba_area
+		hoki_area
 		mimasaka_area
 		mashima_area
 		bizen_area
@@ -77,9 +77,9 @@ chugoku_region = {
 
 kansai_region = {
 	areas = {
-		toyooka_area
+		tajima_area
 		ako_area
-		himeji_area
+		harima_area
 		tanba_area
 		settsu_area
 		akashi_area

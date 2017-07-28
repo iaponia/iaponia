@@ -193,7 +193,7 @@ abu_area = {
 	113 114 115 116 117 118
 }
 
-masuda_area = {
+iwami_area = {
 	119 120 121 122 123 124
 }
 
@@ -213,7 +213,7 @@ takata_area = {
 	127 129 130
 }
 
-mikami_area = {
+bingo_area = {
 	164 169 170 171 174 175 176 177
 }
 
@@ -221,11 +221,11 @@ mitsugi_area = {
 	165 166 167 168 172 173
 }
 
-tottori_area = {
+inaba_area = {
 	178 179 180 181 182 183 184 185
 }
 
-kawamura_area = {
+hoki_area = {
 	186 187 188 189 190 191
 }
 
@@ -261,7 +261,7 @@ awaji_area = {
 	231 232 233
 }
 
-toyooka_area = {
+tajima_area = {
 	229 230 240 241 242 243 244 245
 }
 
@@ -269,7 +269,7 @@ ako_area = {
 	224 225 226 227 250
 }
 
-himeji_area = {
+harima_area = {
 	228 246 247 620 621 622
 }
 

@@ -3,7 +3,7 @@ country_decisions = {
 	yamana_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = YMN }
+
 			OR = {
 			tag = IYN
 			tag = IWY
@@ -13,61 +13,107 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			is_at_war = no
-			
-				OR = {
-						AND = {
-						tag = IYN
-						NOT = { exists = IWY }
-						NOT = { exists = HYN }
-						}
-				 
-						AND = {
-						tag = IWY
-						NOT = { exists = IYN }
-						NOT = { exists = HYN }
-						}
-						
-						AND = {
-						tag = HYN
-						NOT = { exists = IWY }
-						NOT = { exists = IYN }
-						}
+			NOT = { exists = YMN }
+			OR = {
+				AND = {
+					tag = IYN
+					NOT = { exists = IWY }
+					NOT = { exists = HYN }
 				}
-			
+				AND = {
+					tag = IWY
+					NOT = { exists = IYN }
+					NOT = { exists = HYN }
+				}
+				AND = {
+					tag = HYN
+					NOT = { exists = IWY }
+					NOT = { exists = IYN }
+				}
+			}
+
 		}
 		effect = {
 			change_tag = YMN
-			inaba = {
+			iwami_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = YMN
 			}
-			harima = {
+			takata_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = YMN
 			}
-			hoki = {
+			bingo_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = YMN
 			}
-			mimasaka = {
+			mitsugi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = YMN
 			}
-			bizen = {
+			hoki_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = YMN
 			}
-			tajima = {
+			mashima_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			mimasaka_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			inaba_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			bizen_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			kojima_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			ako_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			harima_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			akashi_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = YMN
+			}
+			tajima_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}

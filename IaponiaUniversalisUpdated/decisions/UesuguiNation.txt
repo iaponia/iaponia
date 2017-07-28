@@ -3,7 +3,7 @@ country_decisions = {
 	uesugui_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = UES }
+
 			OR = {
 			tag = EGU
 			tag = OUE
@@ -13,75 +13,106 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			is_at_war = no
-			
-				OR = {
-						AND = {
-						tag = EGU
-						NOT = { exists = OUE }
-						NOT = { exists = NGO }
-						}
-				 
-						AND = {
-						tag = OUE
-						NOT = { exists = EGU }
-						NOT = { exists = NGO }
-						}
-						
-						AND = {
-						tag = NGO
-						NOT = { exists = EGU }
-						NOT = { exists = OUE }
-						}
-					
+			NOT = { exists = UES }
+			OR = {
+				AND = {
+					tag = EGU
+					NOT = { exists = OUE }
+					NOT = { exists = NGO }
 				}
-			
+				AND = {
+					tag = OUE
+					NOT = { exists = EGU }
+					NOT = { exists = NGO }
+				}
+				AND = {
+					tag = NGO
+					NOT = { exists = EGU }
+					NOT = { exists = OUE }
+				}
+			}
+
 		}
 		effect = {
 			change_tag = UES
-			sado = {
+			sado_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = UES
 			}
-			echigo = {
+			echigo_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = UES
 			}
-			kozuke = {
+			shibata_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = UES
 			}
-			musashi = {
+			uonuma_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = UES
 			}
-			sagami = {
+			kozuke_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = UES
 			}
-			izu = {
+			tago_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = UES
 			}
-			add_claim = 533
-			add_claim = 532
-			add_claim = 526
-			add_claim = 477
-			add_claim = 525
-			add_claim = 492
-			add_claim = 493
-			add_claim = 494
+			kodama_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = UES
+			}
+			saitama_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = UES
+			}
+			iruma_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = UES
+			}
+			musashi_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = UES
+			}
+			kamakura_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = UES
+			}
+			sagami_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = UES
+			}
+			izu_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = UES
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

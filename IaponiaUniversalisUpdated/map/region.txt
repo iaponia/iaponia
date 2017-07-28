@@ -117,7 +117,7 @@ chubu_region = {
 		ishikawa_area
 		noto_area
 		etchu_area
-		kubiki_area
+		echigo_area
 		uonuma_area
 		shibata_area
 		shitara_area
@@ -137,7 +137,7 @@ chubu_region = {
 kanto_region = {
 	areas = {
 		izu_area
-		ashikami_area
+		sagami_area
 		kamakura_area
 		boso_area
 		kazusa_area
@@ -147,11 +147,11 @@ kanto_region = {
 		tsukuba_area
 		ibaraki_area
 		hitachi_area
-		edo_area
+		musashi_area
 		saitama_area
-		chichibu_area
-		hara_area
-		gunma_area
+		iruma_area
+		kodama_area
+		kozuke_area
 		tago_area
 		tochigi_area
 		nasu_area

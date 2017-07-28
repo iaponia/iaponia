@@ -391,7 +391,7 @@ etchu_area = {
 }
 
 #niigata pref
-kubiki_area = {
+echigo_area = {
 	553 555 630 646 647
 }
 
@@ -480,7 +480,7 @@ sado_area = {
 # kanto 					 		   #
 ########################################
 #kanagawa pref
-ashikami_area = {
+sagami_area = {
 	451 452 453 454 455 629
 }
 
@@ -523,7 +523,7 @@ hitachi_area = {
 }
 
 #edo
-edo_area = {
+musashi_area = {
 	510 534 535 537 538 539 678 679
 }
 
@@ -532,11 +532,11 @@ saitama_area = {
 	505 506 507 514 515 517 522 523
 }
 
-chichibu_area = {
+iruma_area = {
 	509 511 512 513 516 524
 }
 
-hara_area = {
+kodama_area = {
 	518 519 520 521
 }
 
@@ -551,7 +551,7 @@ tochigi_area = {
 
 #gunma pref
 
-gunma_area = {
+kozuke_area = {
 	495 496 502 503 504 508
 }
 

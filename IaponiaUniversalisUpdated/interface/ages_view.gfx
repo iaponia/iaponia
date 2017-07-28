@@ -626,7 +626,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_obj_great_samurai"
-		texturefile = "gfx/interface/ages/obj_great_general.dds"
+		texturefile = "gfx/interface/ages/obj_great_samurai.dds"
 	}
 
 	spriteType = {
@@ -662,5 +662,25 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_obj_gun_control"
 		texturefile = "gfx/interface/ages/obj_gun_control.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_centralized_clan"
+		texturefile = "gfx/interface/ages/obj_90_absolutism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_national_capital"
+		texturefile = "gfx/interface/ages/obj_huge_capital.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_hegemony"
+		texturefile = "gfx/interface/ages/obj_national_hegemony.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_citadels"
+		texturefile = "gfx/interface/ages/obj_citadels.dds"
 	}
 }

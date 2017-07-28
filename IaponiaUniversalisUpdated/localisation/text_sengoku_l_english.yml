@@ -620,7 +620,7 @@
  obj_hegemony_desc:0 "Be either Rank 4 or 5."
  obj_disc_army:0 "Reformed Army"
  obj_disc_army_desc:0 "Have least 120% discipline in your armies."
- obj_citadels:0 "Mutliple Citadels"
+ obj_citadels:0 "Multiple Citadels"
  obj_citadels_desc:0 "Own at least three Citadels."
  ab_russia_boost:0 "National Unification"
  ab_napoleonic_warfare:0 "Artillery Warfare"

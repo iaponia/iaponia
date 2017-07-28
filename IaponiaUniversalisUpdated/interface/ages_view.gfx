@@ -683,4 +683,9 @@ spriteTypes = {
 		name = "GFX_obj_citadels"
 		texturefile = "gfx/interface/ages/obj_citadels.dds"
 	}
+
+	spriteType = {
+		name = "GFX_obj_integrated_administration"
+		texturefile = "gfx/interface/ages/obj_cultures_accepted.dds"
+	}
 }

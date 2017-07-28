@@ -1796,7 +1796,7 @@ TNA_ideas = {
 	nichiren_ties = {
 		development_cost = -0.1
 	}
-	foriegn_trade = {
+	foreign_trade = {
 		global_trade_power = 0.1
 		global_foreign_trade_power = 0.1
 	}

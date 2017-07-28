@@ -51,7 +51,7 @@ age_of_discovery = {
 				total_development = 100
 			}
 		}
-		obj_many_vassals = {
+		obj_retainer_band = {
 			vassal = 3
 		}
 	}

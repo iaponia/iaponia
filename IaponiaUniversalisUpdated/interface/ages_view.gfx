@@ -618,4 +618,49 @@ spriteTypes = {
 		name = "GFX_obj_core_domain"
 		texturefile = "gfx/interface/ages/obj_100_development.dds"
 	}
+
+	spriteType = {
+		name = "GFX_obj_castle_town"
+		texturefile = "gfx/interface/ages/obj_30_development_city.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_great_samurai"
+		texturefile = "gfx/interface/ages/obj_great_general.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_higashiyama_culture"
+		texturefile = "gfx/interface/ages/obj_higashiyama_culture.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_retainer_band"
+		texturefile = "gfx/interface/ages/obj_many_vassals.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_powerful_vassal"
+		texturefile = "gfx/interface/ages/obj_large_subject.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_religious_reform"
+		texturefile = "gfx/interface/ages/obj_humanism_religious.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_foreign_trade"
+		texturefile = "gfx/interface/ages/obj_5_centers_of_trade.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_gekokujo"
+		texturefile = "gfx/interface/ages/obj_modernize_administration.dds"
+	}
+
+	spriteType = {
+		name = "GFX_obj_gun_control"
+		texturefile = "gfx/interface/ages/obj_gun_control.dds"
+	}
 }

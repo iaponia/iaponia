@@ -3,29 +3,41 @@ country_decisions = {
 	shiba_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = SBA }
 			tag = OSB
 		}
 		allow = {
 			is_subject = no
 			is_at_war = no
-			tag = OSB		
+			tag = OSB
+			NOT = { exists = SBA }
 		}
 		effect = {
 			change_tag = SBA
-			echizen = {
+			echizen_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = SBA
 			}
-			owari = {
+			owari_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = SBA
 			}
-			totomi = {
+			aichi_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = SBA
+			}
+			haibara_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = SBA
+			}
+			totomi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}

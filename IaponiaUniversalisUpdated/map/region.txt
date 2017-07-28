@@ -123,8 +123,8 @@ chubu_region = {
 		shitara_area
 		mikawa_area
 		fuji_area
-		hamana_area
-		iwata_area
+		totomi_area
+		haibara_area
 		hida_area
 		saku_area
 		takai_area

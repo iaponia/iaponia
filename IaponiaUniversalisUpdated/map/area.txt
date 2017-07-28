@@ -429,11 +429,11 @@ fuji_area = {
 	427 428 429 430 431 432 433
 }
 
-hamana_area = {
+totomi_area = {
 	421 423 424 425 426
 }
 
-iwata_area = {
+haibara_area = {
 	413 414 415 416 417 418 419 420
 }
 

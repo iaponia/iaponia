@@ -1,0 +1,53 @@
+country_decisions = {
+
+	oda_nation = {
+		major = yes
+		potential = {
+
+			OR = {
+			tag = IOD
+			tag = KOD
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			NOT = { exists = ODA }
+			OR = {
+				AND = {
+					tag = IOD
+					NOT = { exists = KOD }
+				}
+				AND = {
+					tag = KOD
+					NOT = { exists = IOD }
+				}
+			}
+
+		}
+		effect = {
+			change_tag = ODA
+			owari_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = ODA
+			}
+			aichi_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = ODA
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

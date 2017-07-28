@@ -8,10 +8,10 @@ random_new_world_region = {
 kyushu_region = {
 	areas = {
 		kagoshima_area
-		south_satsuma_area
+		kawanabe_area
 		satsuma_area
-		north_osumi_area
-		south_osumi_area
+		hyuga_area
+		osumi_area
 		usuki_area
 		ashikita_area
 		uto_area

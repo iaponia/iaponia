@@ -3,7 +3,6 @@ country_decisions = {
 	shimazu_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = SMZ }
 			OR = {
 			tag = OSZ
 			tag = ISZ
@@ -14,7 +13,7 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			is_at_war = no
-			
+			NOT = { exists = SMZ }
 				OR = {
 						AND = {
 						tag = OSZ
@@ -22,21 +21,21 @@ country_decisions = {
 						NOT = { exists = SSZ }
 						NOT = { exists = ISZ }
 						}
-				 
+
 						AND = {
 						tag = ISZ
 						NOT = { exists = HSZ }
 						NOT = { exists = SSZ }
 						NOT = { exists = OSZ }
 						}
-						
+
 						AND = {
 						tag = HSZ
 						NOT = { exists = ISZ }
 						NOT = { exists = SSZ }
 						NOT = { exists = OSZ }
 						}
-				
+
 						AND = {
 						tag = SSZ
 						NOT = { exists = HSZ }
@@ -47,25 +46,36 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SMZ
-			satsuma = {
+			satsuma_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = SMZ
 			}
-			osumi = {
+			kagoshima_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_claim = SMZ
 			}
-			add_claim = 631
-			add_claim = 15
-			add_claim = 19
-			add_claim = 635
-			add_claim = 634
-			add_claim = 633
-			add_claim = 20
+			kawanabe_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = SMZ
+			}
+			osumi_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = SMZ
+			}
+			hyuga_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = SMZ
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

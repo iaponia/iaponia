@@ -49,7 +49,7 @@ kagoshima_area = {
 	1 4 6 9
 }
 
-south_satsuma_area = {
+kawanabe_area = {
 	2 3 5 7 8 637
 }
 
@@ -57,11 +57,11 @@ satsuma_area = {
 	10 11 13 16
 }
 
-south_osumi_area = {
+osumi_area = {
 	12 14 17 18 635 638
 }
 
-north_osumi_area = {
+hyuga_area = {
 	15 19 20 631 633 634
 }
 

@@ -376,10 +376,9 @@ militarized_aristocracy_i = {
 		owner = {
 			government = monarchy
 		}
-
 		OR = {
-			base_manpower = 6
-			army_tradition = 40
+			fort_level = 2
+			owner = {army_tradition = 40}
 		}
 	}
 	start_chance = 15		#in 100 for when a province can_start

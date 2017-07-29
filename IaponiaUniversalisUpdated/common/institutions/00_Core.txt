@@ -9,7 +9,7 @@
 # Friendly is defined as at positive relations or owned by the same country that owns the province.
 
 #######################################
-# Feudalism.  
+# Feudalism.
 #######################################
 
 feudalism_i = {
@@ -42,7 +42,7 @@ feudalism_i = {
 			}
 		}
 	}
-	
+
 	# no need for events, as its there from the start.
 	#can_start = {	is_year = 1000	}
 	#start_chance = 100
@@ -120,10 +120,10 @@ feudalism_i = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -149,7 +149,7 @@ feudalism_i = {
 
 #######################################
 # Higashiyama Culture
-# 
+#
 # Flows from kansai
 #######################################
 
@@ -190,7 +190,7 @@ higashiyama_culture_i = {
 			is_year = 1545
 		}
 	}
-	
+
 	can_start = {
 		is_year = 1480
 		region = kansai_region
@@ -202,15 +202,15 @@ higashiyama_culture_i = {
 		}
 	}
 	start_chance = 15		#in 100 for when a province can_start
-	
+
 	on_start = institution_events.2
-	
+
 	can_embrace = {
 		owner = { has_institution = feudalism_i }
 	}
 
 
-	
+
 	embracement_speed = {
 		modifier = {
 			scale = yes
@@ -367,35 +367,34 @@ militarized_aristocracy_i = {
 			is_year = 1530
 		}
 	}
-	
+
 	can_start = {
 		is_island = no
 		is_state = yes
 		is_capital = yes
 		is_year = 1510
-		government = monarchy
+		owner = {
+			government = monarchy
+		}
+
 		OR = {
-			AND = {
-				base_manpower = 6
-			}
-			AND = {
-				army_tradition = 40
-			}
+			base_manpower = 6
+			army_tradition = 40
 		}
 	}
 	start_chance = 15		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.3
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
-	
+
 		modifier = {
 			scale = yes
 			factor = 1
@@ -489,10 +488,10 @@ militarized_aristocracy_i = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -559,7 +558,7 @@ western_trade_i = {
 			is_year = 1590
 		}
 	}
-	
+
 	can_start = {
 		is_island = no
 		is_state = yes
@@ -584,18 +583,18 @@ western_trade_i = {
 		}
 	}
 	start_chance = 15		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.4
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
-	
+
 		modifier = {
 			scale = yes
 			factor = 0.25
@@ -706,10 +705,10 @@ western_trade_i = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -769,11 +768,11 @@ gunsmithing_i = {
 			is_year = 1590
 		}
 	}
-	
+
 	can_start = {
 		is_year = 1560
 		is_state = yes
-		OR = { 
+		OR = {
 		base_production = 8
 			AND = {
 				base_production = 6
@@ -785,18 +784,18 @@ gunsmithing_i = {
 		}
 	}
 	start_chance = 25		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.5
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
-	
+
 		modifier = {
 			factor = 0.5
 			scale = yes
@@ -869,10 +868,10 @@ gunsmithing_i = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -936,7 +935,7 @@ momoyama_culture_i = {
 			is_year = 1600
 		}
 	}
-	
+
 	can_start = {
 		is_year = 1580
 		is_capital = yes
@@ -947,16 +946,16 @@ momoyama_culture_i = {
 		has_province_modifier = inland_center_of_trade_modifier
 	}
 	start_chance = 10		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.6
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
 		modifier = {
 			factor = 0.35
@@ -1084,10 +1083,10 @@ momoyama_culture_i = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -1130,7 +1129,7 @@ kokudaka_system_i = {
 	history = {
 		is_year = 1595
 	}
-	
+
 	can_start = {
 		is_year = 1590
 		is_capital = yes
@@ -1142,20 +1141,20 @@ kokudaka_system_i = {
 					ADM = 5
 				}
 			}
-			
+
 	}
-	
+
 	start_chance = 10		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.7
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
 		modifier = {
 			factor = 0.5
@@ -1207,10 +1206,10 @@ kokudaka_system_i = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes
@@ -1251,7 +1250,7 @@ rangaku_i = {
 		OR = {
 			AND = {
 				is_year = 1615
-				region = kyushu_region	
+				region = kyushu_region
 			}
 			AND = {
 				region = kansai_region
@@ -1270,7 +1269,7 @@ rangaku_i = {
 			is_year = 1650
 		}
 	}
-	
+
 	can_start = {
 		is_year = 1610
 		is_island = no
@@ -1282,18 +1281,18 @@ rangaku_i = {
 			}
 		}
 	}
-	
+
 	start_chance = 10		#in 100 for when a province can_start
-	
-	
+
+
 	on_start = institution_events.8
-	
-	
+
+
 	can_embrace = {
 		always = yes
 	}
 
-	
+
 	embracement_speed = {
 		modifier = {
 			factor = 0.35
@@ -1349,10 +1348,10 @@ rangaku_i = {
 			}
 		}
 	}
-	
+
 	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
 		factor = 24
-		
+
 		modifier = {
 			factor = 0.25
 			is_at_war = yes

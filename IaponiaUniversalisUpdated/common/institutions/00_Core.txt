@@ -575,11 +575,6 @@ western_trade_i = {
 				has_province_modifier = center_of_trade_modifier
 			}
 		}
-		owner = {
-			any_active_trade_node = {
-				is_strongest_trade_power = PREV
-			}
-		}
 	}
 	start_chance = 15		#in 100 for when a province can_start
 
@@ -941,8 +936,10 @@ momoyama_culture_i = {
 		is_island = no
 		is_state = yes
 		development = 30
-		has_province_modifier = center_of_trade_modifier
-		has_province_modifier = inland_center_of_trade_modifier
+		OR = {
+			has_province_modifier = center_of_trade_modifier
+			has_province_modifier = inland_center_of_trade_modifier
+		}
 	}
 	start_chance = 10		#in 100 for when a province can_start
 

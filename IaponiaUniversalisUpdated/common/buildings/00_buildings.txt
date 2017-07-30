@@ -37,7 +37,7 @@ fortified_mansion = {
 	}
 }
 
-garrison = {
+garrison_b = {
 	cost = 300
 	time = 24
 	make_obsolete = fortified_mansion
@@ -56,7 +56,7 @@ garrison = {
 fort = {
 	cost = 600
 	time = 36
-	make_obsolete = garrison
+	make_obsolete = garrison_b
 	modifier = {
 		fort_level = 4
 	}

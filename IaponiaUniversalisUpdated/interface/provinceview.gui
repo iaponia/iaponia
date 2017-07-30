@@ -2644,15 +2644,15 @@ guiTypes = {
 				maxHeight = 20
 				format = right
 			}
-			
-			
+
+
 			# Orthodox Patriarch - TODO
 			iconType = {
 				name = "patriarch_bg"
 				spriteType = "GFX_patriarchy_slot"
 				position = { x = 12 y = 419 }
-			}			
-	
+			}
+
 			guiButtonType = {
 				name ="consecrate_patriarch_button"
 				quadTextureSprite = "button_type_4"
@@ -5872,13 +5872,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_garrison"
+			name = "build_garrison_b"
 			position = { x = 61 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "garrison_cost"
+			name = "garrison_b_cost"
 			position = {x = 61 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -5888,7 +5888,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "fortified_mansion_to_garrison_arrow"
+			name = "fortified_mansion_to_garrison_b_arrow"
 			position = { x = 53 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}
@@ -5910,7 +5910,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "garrison_to_fort_arrow"
+			name = "garrison_b_to_fort_arrow"
 			position = { x = 105 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}

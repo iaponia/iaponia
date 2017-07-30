@@ -81,7 +81,7 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_garrison"
+		name = "GFX_garrison_b"
 		texturefile = "gfx//interface//buildings//fort//garrison.tga"
 		loadType = "INGAME"
 	}

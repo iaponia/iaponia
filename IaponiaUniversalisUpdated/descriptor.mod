@@ -26,6 +26,7 @@ replace_path="common/great_projects"
 replace_path="common/units"
 replace_path="customizable_localization"
 replace_path="gfx/flags"
+replace_path="gfx/loadingscreens"
 tags={
 	"Map"
 	"Japan"

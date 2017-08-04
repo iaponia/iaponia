@@ -1,4 +1,4 @@
-name="Iaponia Universalis 1.19"
+name="Iaponia Universalis 2.0"
 path="mod/IaponiaUniversalisUpdated"
 disallow_random_new_world = yes
 replace_path="missions"

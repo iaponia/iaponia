@@ -688,4 +688,75 @@ spriteTypes = {
 		name = "GFX_obj_integrated_administration"
 		texturefile = "gfx/interface/ages/obj_cultures_accepted.dds"
 	}
+
+	#Iaponia (copies of) abilities
+	spriteType = {
+		name = "GFX_ab_mercenary_discipline_2"
+		texturefile = "gfx/interface/ages/ab_mercenary_discipline.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_mercenary_discipline_3"
+		texturefile = "gfx/interface/ages/ab_mercenary_discipline.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_more_ships_can_fire_2"
+		texturefile = "gfx/interface/ages/ab_more_ships_can_fire.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_more_ships_can_fire_3"
+		texturefile = "gfx/interface/ages/ab_more_ships_can_fire.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_force_march_2"
+		texturefile = "gfx/interface/ages/ab_force_march.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_force_march_3"
+		texturefile = "gfx/interface/ages/ab_force_march.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_harsh_treatment_2"
+		texturefile = "gfx/interface/ages/ab_harsh_treatment.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_harsh_treatment_3"
+		texturefile = "gfx/interface/ages/ab_harsh_treatment.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_allow_anti_revolutionary_zeal_2"
+		texturefile = "gfx/interface/ages/ab_allow_anti_revolutionary_zeal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_allow_anti_revolutionary_zeal_3"
+		texturefile = "gfx/interface/ages/ab_allow_anti_revolutionary_zeal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_siege_blockades_2"
+		texturefile = "gfx/interface/ages/ab_siege_blockades.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_siege_blockades_3"
+		texturefile = "gfx/interface/ages/ab_siege_blockades.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_free_war_taxes_2"
+		texturefile = "gfx/interface/ages/ab_free_war_taxes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ab_free_war_taxes_3"
+		texturefile = "gfx/interface/ages/ab_free_war_taxes.dds"
+	}
 }

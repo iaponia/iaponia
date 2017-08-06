@@ -234,7 +234,7 @@ age_of_reformation = {
 	}
 
 	abilities = {
-		ab_mercenary_discipline = {
+		ab_mercenary_discipline_2 = {
 			modifier = {
 				mercenary_discipline = 0.05
 			}
@@ -242,7 +242,7 @@ age_of_reformation = {
 				factor = 10
 			}
 		}
-		ab_more_ships_can_fire = {
+		ab_more_ships_can_fire_2 = {
 			modifier = {
 				global_naval_engagement_modifier = 0.20
 			}
@@ -250,7 +250,7 @@ age_of_reformation = {
 				factor = 10
 			}
 		}
-		ab_force_march = {
+		ab_force_march_2 = {
 			rule = {
 				force_march_free = yes
 			}
@@ -258,7 +258,7 @@ age_of_reformation = {
 				factor = 10
 			}
 		}
-		ab_harsh_treatment = {
+		ab_harsh_treatment_2 = {
 			modifier = {
 				harsh_treatment_cost = -0.5
 			}
@@ -266,7 +266,7 @@ age_of_reformation = {
 				factor = 10
 			}
 		}
-		ab_allow_anti_revolutionary_zeal = {
+		ab_allow_anti_revolutionary_zeal_2 = {
 			modifier = {
 				liberty_desire_from_subject_development = -0.33
 			}
@@ -282,7 +282,7 @@ age_of_reformation = {
 				}
 			}
 		}
-		ab_siege_blockades = {
+		ab_siege_blockades_2 = {
 			modifier = {
 				siege_blockade_progress = 1
 			}
@@ -297,7 +297,7 @@ age_of_reformation = {
 
 			}
 		}
-		ab_free_war_taxes = {
+		ab_free_war_taxes_2 = {
 			modifier = {
 				war_taxes_cost_modifier = -1.0
 			}
@@ -400,7 +400,7 @@ age_of_absolutism = {
 	}
 
 	abilities = {
-		ab_mercenary_discipline = {
+		ab_mercenary_discipline_3 = {
 			modifier = {
 				mercenary_discipline = 0.05
 			}
@@ -408,7 +408,7 @@ age_of_absolutism = {
 				factor = 10
 			}
 		}
-		ab_more_ships_can_fire = {
+		ab_more_ships_can_fire_3 = {
 			modifier = {
 				global_naval_engagement_modifier = 0.20
 			}
@@ -416,7 +416,7 @@ age_of_absolutism = {
 				factor = 10
 			}
 		}
-		ab_force_march = {
+		ab_force_march_3 = {
 			rule = {
 				force_march_free = yes
 			}
@@ -424,7 +424,7 @@ age_of_absolutism = {
 				factor = 10
 			}
 		}
-		ab_harsh_treatment = {
+		ab_harsh_treatment_3 = {
 			modifier = {
 				harsh_treatment_cost = -0.5
 			}
@@ -432,7 +432,7 @@ age_of_absolutism = {
 				factor = 10
 			}
 		}
-		ab_allow_anti_revolutionary_zeal = {
+		ab_allow_anti_revolutionary_zeal_3 = {
 			modifier = {
 				liberty_desire_from_subject_development = -0.33
 			}
@@ -448,7 +448,7 @@ age_of_absolutism = {
 				}
 			}
 		}
-		ab_siege_blockades = {
+		ab_siege_blockades_3 = {
 			modifier = {
 				siege_blockade_progress = 1
 			}
@@ -463,7 +463,7 @@ age_of_absolutism = {
 
 			}
 		}
-		ab_free_war_taxes = {
+		ab_free_war_taxes_3 = {
 			modifier = {
 				war_taxes_cost_modifier = -1.0
 			}

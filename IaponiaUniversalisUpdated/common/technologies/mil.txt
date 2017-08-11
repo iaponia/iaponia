@@ -189,7 +189,6 @@ technology = {
 	supply_limit = 0.5
 	land_morale = 0.5
 	artillery_fire = 1
-	siege_ability = 0.1
 	arsenal = yes
 	castle = yes
 	outer_wall = yes
@@ -245,7 +244,6 @@ technology = {
 	cavalry_fire = 0.1
 	infantry_shock = 0.2
 	artillery_fire = 0.6
-	siege_ability = 0.1
 	citadel = yes
 	outer_wards = yes
 

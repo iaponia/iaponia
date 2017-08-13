@@ -1,0 +1,8 @@
+607 = "Wajinchi"
+608 = "Shiripe"
+609 = "Sisirimuka"
+613 = "Menashikuru"
+614 = "Tokapchi"
+615 = "Ono"
+616 = "Nimuoro"
+708 = "Shikot"

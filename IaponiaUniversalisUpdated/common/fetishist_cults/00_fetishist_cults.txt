@@ -128,7 +128,7 @@ ryukyuan_cult = {
 	trade_efficiency = 0.1
 	
 	allow = {
-		has_unlocked_cult = ryukyuan_cult_cult
+		has_unlocked_cult = ryukyuan_cult
 	}
 	ai_will_do = {
 		factor = 3

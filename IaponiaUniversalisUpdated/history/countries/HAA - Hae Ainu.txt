@@ -3,15 +3,15 @@ government_rank = 1
 primary_culture = ainu_c
 religion = ainu
 technology_group = ainu
-capital = 614
+capital = 609
 
 
-1444.11.11 = {
+1404.1.1 = {
 	monarch = {
-		name = "Native Council"
-		adm = 3
+		name = "Otaushi"
+		dynasty = "Hae"
+		adm = 2
 		dip = 3
-		mil = 3
-		regent = yes
+		mil = 2
 	}
 }

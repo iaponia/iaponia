@@ -1,17 +1,17 @@
 government = tribal_kingdom
 government_rank = 1
-primary_culture = satsumon_c
+primary_culture = ainu_c
 religion = ainu
 technology_group = ainu
-capital = 610
+capital = 611
 
 
-1444.11.11 = {
+1404.1.1 = {
 	monarch = {
-		name = "Native Council"
+		name = "Ikasmatuk"
+		dynasty = "Yamwakka"
 		adm = 3
-		dip = 3
-		mil = 3
-		regent = yes
+		dip = 2
+		mil = 2
 	}
 }

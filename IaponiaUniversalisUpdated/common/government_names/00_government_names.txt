@@ -1,0 +1,30 @@
+ainu_tribal = {
+	rank = {
+		1 = AINU_SPHERE
+		2 = AINU_SPHERE
+		3 = AINU_SPHERE
+		4 = AINU_SPHERE
+		5 = AINU_SPHERE
+	}	
+	
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = SOTAISHO
+		4 = SOTAISHO
+		5 = SOTAISHO
+	}
+	
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = SOTAISHO
+		4 = SOTAISHO
+		5 = SOTAISHO
+	}
+	
+	trigger = {
+		government = tribal_kingdom
+		culture_group = hokkai_c
+	}
+}

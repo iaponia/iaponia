@@ -233,21 +233,17 @@ tohoku_c = {
 		primary = NNB
 		dynasty_names = { Nanbu Shiba Tsugaru Waga Hienuki Kashiyama Kita Ishikawa Izumiyama Kunohe Oura Kitabatake }
 	}
+	ezo_c = { #Oshima Province
+		primary = KKZ
+		dynasty_names = { Kakizaki }
+	}
 }
 
 hokkai_c = { 
 	graphical_culture = asiangfx
 
-	ezo_c = { #Oshima Province
-		primary = 
-		dynasty_names = { Kakizaki }
-	}
-	ainu_c = { #Shiribeshi #Tokachi
+	ainu_c = { #If I split it pretty much every tag would have its own culture as far as I can tell
 		primary = SSA
-		dynasty_names = { Betsu Shiraoi Kurasi Ponyanpe Shirokani Otona Ekashi Saru Usu }
-	}
-	satsumon_c = { #Kamikawa
-		primary = HAA
-		dynasty_names = { Betsu Shiraoi Kurasi Ponyanpe Shirokani Otona Ekashi Saru Usu }
+		dynasty_names = { Shibushari Hae Betsu Shiraoi Kurasi Ponyanpe Shirokani Otona Ekashi Saru Usu Isikar Kunnui Pirautur Atkeushi Yukuepira Ciwpet Teshiho }
 	}
 }

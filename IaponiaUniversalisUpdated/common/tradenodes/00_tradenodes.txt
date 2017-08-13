@@ -511,6 +511,6 @@ Ezo= 	#name of node
 		}
 		members=		#provinces belonging to node
 		{
-			607 608 609 610 611 612 613 614 615 616 
+			607 608 609 610 611 612 613 614 615 616 706 708
 		}
 	}				

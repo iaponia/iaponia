@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 1
+primary_culture = ainu_c
+religion = ainu
+technology_group = ainu
+capital = 708
+
+
+1404.1.1 = {
+	monarch = {
+		name = "Unakeshi"
+		dynasty = "Shiraoi"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

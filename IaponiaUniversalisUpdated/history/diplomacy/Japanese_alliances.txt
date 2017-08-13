@@ -139,3 +139,19 @@ royal_marriage = {
 	start_date = 1554.1.1
 	end_date = 1568.1.1
 }
+
+#Mikata-Ezo
+
+alliance = {
+	first = KKZ
+	second = UUA
+	start_date = 1546.5.19
+	end_date = 1821.1.1
+}
+
+alliance = {
+	first = KKZ
+	second = YIA
+	start_date = 1582.6.2
+	end_date = 1821.1.1
+}

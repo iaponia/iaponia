@@ -48,6 +48,7 @@ hokkaido_region = {
 	areas = {
 		shiribeshi_area
 		kamikawa_area
+		hidaka_area
 		tokachi_area
 	}
 }

@@ -613,7 +613,7 @@ province;red;green;blue;x;x
 612;87;104;128;Kitami;x
 613;215;106;192;Hidaka;x
 614;87;108;255;Tokachi;x
-615;215;110;0;Kushiro;x
+615;215;110;0;Kita-Wajinchi;x
 616;88;112;64;Nemuro;x
 617;216;114;128;Muro;x
 618;88;116;192;Asukabe;x
@@ -704,9 +704,9 @@ province;red;green;blue;x;x
 703;134;44;63;Yakushima;x
 704;134;17;38;Hirado;x
 705;209;66;21;Omura;x
-706;100;36;64;Amdo;x
-707;229;38;128;Yumen;x
-708;101;40;192;Gansu;x
+706;100;36;64;Uchiura;x
+707;229;38;128;Ezo Wasteland;x
+708;101;40;192;Chitose;x
 709;229;42;255;Ningxia;x
 710;101;44;0;Hotan;x
 711;229;46;64;Qarqan;x
@@ -1329,9 +1329,9 @@ province;red;green;blue;x;x
 1329;80;250;250;West Tsushima Straits;x
 1330;81;200;200;East Tsushima Straits;x
 1331;82;200;250;Ryukyu Islands;x
-1332;83;220;250;Coast of Mascate;x
-1333;84;250;250;Mascate Coast;x
-1334;85;200;200;Straits of Hormuz;x
+1332;83;220;250;Lake Shikotsu;x
+1333;84;250;250;Lake Toya;x
+1334;85;200;200;Lake Kussharo;x
 1335;86;200;250;Persian Gulf;x
 1336;87;220;250;Gulf of Indus;x
 1337;88;250;250;Gulf of Gujarat;x

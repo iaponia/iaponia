@@ -1,0 +1,46 @@
+country_decisions = {
+	ainu_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ANM }
+			primary_culture = ainu_c
+		}
+		allow = {
+			stability = 1
+			is_at_war = no
+			owns_core_province = 610  # Ishikari
+			owns_core_province = 614  # Tokapchi
+			owns_core_province = 613  # Menashikuru
+			owns_core_province = 609  # Sisirimuka
+			OR = { 
+				owns_core_province = 611 # Soya
+				owns_core_province = 616 # Nemuro
+				}
+		}
+		effect = {
+			change_tag = ANM
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			if = { 
+				limit = {
+					government = tribal_kingdom 
+				}
+				change_government = despotic_monarchy
+			}
+			add_prestige = 25
+			hokkaido_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ANM
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

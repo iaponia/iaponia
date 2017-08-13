@@ -1,0 +1,20 @@
+hre = no
+discovered_by = kyushu
+discovered_by = saigoku
+discovered_by = togoku
+discovered_by = tohoku
+discovered_by = ainu
+
+add_core = SOA
+owner = SOA
+controller = SOA
+
+culture = ainu_c
+religion = ainu
+capital = "Shiraoi"
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+trade_goods = seaweed

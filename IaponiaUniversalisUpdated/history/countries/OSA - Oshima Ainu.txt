@@ -1,0 +1,17 @@
+government = tribal_kingdom
+government_rank = 1
+primary_culture = ainu_c
+religion = ainu
+technology_group = ainu
+capital = 615
+
+
+1412.1.1 = {
+	monarch = {
+		name = "Koshamain"
+		dynasty = "Horepashi"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

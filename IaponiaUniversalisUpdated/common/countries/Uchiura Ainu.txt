@@ -1,0 +1,69 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 225 183 40 }
+
+historical_idea_groups = {
+	pagan_ideas
+	defensive_ideas
+	traditional_ideas
+	diplomatic_ideas
+	trade_ideas
+	organization_ideas
+}
+
+historical_units = {
+	early_def_ainu_infantry
+	early_def_ainu_cavalry
+	def_ainu_infantry
+	def_ainu_cavalry
+	late_def_ainu_infantry
+	late_def_ainu_cavalry
+	advanced_ainu_infantry
+	advanced_ainu_cavalry
+}
+
+monarch_names = {	
+	"Koshamain #0" = 15
+	"Shakushain #0" = 15
+	"Kamokutain #0" = 15
+	"Onibishi #0" = 15
+	"Penri #0" = 15
+	"Piripos #0" = 15
+	"Nishirain #0" = 15
+	"Haukase #0" = 15
+	"Shonko #0" = 15
+	"Kannishikoru #0" = 15
+	"Fuyanko #0" = 15
+	"Biyanko #0" = 15
+	"Sentaiin #0" = 15
+	"Rashaukain #0" = 15
+	"Harayakeshahain #0" = 10
+	"Yayatarikoro #0" = 10
+	"Isonashi #0" = 10
+	"Keutoranke #0" = 10
+	"Reshaku #0" = 10
+	"Unayanke #0" = 10
+	"Shiratekka #0" = 10
+	
+	"Monashir #0" = -1
+	"Etunrachich #0" = -1
+	"Toitoi #0" = -1
+	"Harukor #0" = -1
+	"Ashirirera #0" = -1
+	"Tekatte #0" = -1
+	"Umakashte #0" = -1
+	"Eshiriya #0" = -1
+	"Haktasan #0" = -1
+	"Ukaechu #0" = -1
+	"Ennekkon #0" = -1
+}
+
+leader_names = {
+	Shibushari Hae Betsu Shiraoi Kurasi Ponyanpe Shirokani Otona Ekashi Saru Usu Isikar Kunnui Pirautur Atkeushi Yukuepira Ciwpet Teshiho
+}
+
+ship_names = {
+	Monashir Etunrachich Toitoi Shiratekka Menkakush Horpecha Huisak Opere Unkatuye Umoshmatek
+}

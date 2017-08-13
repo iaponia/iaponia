@@ -5,16 +5,16 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = HAA
-owner = HAA
-controller = HAA
+add_core = KSA
+owner = KSA
+controller = KSA
 
 culture = ainu_c
 religion = ainu
-capital = "Nemuro"
+capital = "Atkeusi"
 
 base_tax = 2
 base_production = 2
 base_manpower = 1
 
-trade_goods = fur
+trade_goods = mainland_trade

@@ -5,16 +5,16 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = WAA
-owner = WAA
-controller = WAA
+add_core = IKA
+owner = IKA
+controller = IKA
 
-culture = satsumon_c
+culture = ainu_c
 religion = ainu
-capital = "Ishikari"
+capital = "Sariporobetsu"
 
-base_tax = 2
+base_tax = 3
 base_production = 2
-base_manpower = 1
+base_manpower = 2
 
-trade_goods = fur
+trade_goods = fish

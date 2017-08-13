@@ -1,0 +1,20 @@
+hre = no
+discovered_by = kyushu
+discovered_by = saigoku
+discovered_by = togoku
+discovered_by = tohoku
+discovered_by = ainu
+
+add_core = UUA
+owner = UUA
+controller = UUA
+
+culture = ainu_c
+religion = ainu
+capital = "Kunnui"
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+trade_goods = seaweed

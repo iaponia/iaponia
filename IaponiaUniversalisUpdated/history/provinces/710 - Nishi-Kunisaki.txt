@@ -1,0 +1,21 @@
+hre = no
+discovered_by = kyushu
+discovered_by = saigoku
+discovered_by = togoku
+discovered_by = tohoku
+discovered_by = ainu
+
+add_core = OTM
+owner = OTM
+controller = OTM
+
+culture = hoshu_c
+religion = shinto
+capital = "Matama"
+is_city = yes
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+trade_goods = grain

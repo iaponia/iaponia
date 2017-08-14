@@ -1,0 +1,28 @@
+hre = no
+discovered_by = kyushu
+discovered_by = saigoku
+discovered_by = togoku
+discovered_by = tohoku
+discovered_by = ainu
+
+add_core = KNO
+add_core = SNJ
+owner = KNO
+controller = KNO
+
+culture = iyo_c
+religion = shinto
+capital = "Ikata"
+is_city = yes
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = lumber
+
+
+1507.1.1 = {
+    controller = SNJ
+    owner = SNJ
+}

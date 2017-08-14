@@ -89,6 +89,12 @@ country_decisions = {
 				}
 				add_claim = HSK
 			}
+			nakamura_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_claim = HSK
+			}
 			izumi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }

@@ -12,7 +12,7 @@ controller = HSK
 
 culture = tosa_c
 religion = shinto
-capital = "Himenono"
+capital = "Kubokawa"
 is_city = yes
 
 base_tax = 3

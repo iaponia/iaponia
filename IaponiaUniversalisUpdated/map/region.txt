@@ -27,6 +27,7 @@ kyushu_region = {
 		kama_area
 		strait_islands_area
 		okinawa_area
+		kitsuki_area
 	}
 }
 
@@ -41,6 +42,7 @@ shikoku_region = {
 		awa_area
 		kaifu_area
 		awaji_area
+		nakamura_area
 	}
 }
 

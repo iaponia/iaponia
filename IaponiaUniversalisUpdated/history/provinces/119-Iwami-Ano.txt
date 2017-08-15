@@ -10,7 +10,7 @@ add_core = IWY
 owner = IWY
 controller = IWY
 
-culture = izumo_c
+culture = iwami_c
 religion = shinto
 capital = "Yamabuki"
 is_city = yes

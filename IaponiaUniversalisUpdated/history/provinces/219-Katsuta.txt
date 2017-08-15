@@ -11,7 +11,7 @@ add_core = GTO
 owner = IWY
 controller = IWY
 
-culture = hakushu_c
+culture = bizen_c
 religion = shinto
 capital = "Daibetto"
 is_city = yes

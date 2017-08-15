@@ -11,7 +11,7 @@ add_core = URA
 owner = YMN
 controller = YMN
 
-culture = bishu_c
+culture = bizen_c
 religion = shinto
 capital = "Ushimado"
 is_city = yes

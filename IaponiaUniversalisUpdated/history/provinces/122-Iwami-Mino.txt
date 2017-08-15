@@ -11,7 +11,7 @@ add_core = MST
 owner = IWY
 controller = IWY
 
-culture = izumo_c
+culture = iwami_c
 religion = shinto
 capital = "Takatsu"
 is_city = yes

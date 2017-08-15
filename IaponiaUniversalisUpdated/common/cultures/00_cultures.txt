@@ -72,7 +72,7 @@ hichiku_c = {
 		primary = AIM
 		dynasty_names = { Arima Omura Uku Saigo Tomonaga Hirai Yasutomi Fukuda }
 	}
-	hizen_c = { #Strait Islands
+	islander_c = { #Strait Islands
 		primary = MTA
 		dynasty_names = { Matsuura So Hata Koteda Sagawa Hidaka }
 	}
@@ -114,7 +114,7 @@ sanin_c = {
 		primary = AMA 
 		dynasty_names = { Amago Yamanaka Sase Honjo Akana Matsuda Kawazoe Uyama Kamei Tachihara Yokomichi Kyogoku }
 	}
-	hakushu_c = { #Hoki #Mashima
+	hoki_c = { #Hoki #Mashima
 		primary = NNJ
 		dynasty_names = { Nanjo Yamada Yamana Yukimatsu }
 	}
@@ -147,7 +147,7 @@ shikoku_c = {
 		primary = MYI
 		dynasty_names = { Miyoshi Sogo Onishi Yasutomi Kozai Takahara Kagawa Shichijo Iwanari Hosokawa }
 	}
-	awaji_c = { 
+	awaji_c = { #Awaji
 		primary = ATA
 		dynasty_names = { Atagi Kan }
 	}

@@ -9,7 +9,7 @@ add_core = UKU
 owner = UKU
 controller = UKU
 
-culture = hizen_c
+culture = shimabara_c
 religion = shinto
 capital = "Tamanoura"
 is_city = yes

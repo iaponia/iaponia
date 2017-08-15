@@ -9,7 +9,7 @@ add_core = MTA
 owner = MTA
 controller = MTA
 
-culture = hizen_c
+culture = islander_c
 religion = shinto
 capital = "Hirado"
 is_city = yes

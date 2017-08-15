@@ -9,7 +9,7 @@ add_core = SOO
 owner = SOO
 controller = SOO
 
-culture = hizen_c
+culture = islander_c
 religion = shinto
 capital = "Kanaishi"
 is_city = yes

@@ -9,7 +9,7 @@ add_core = OTM
 owner = OTM
 controller = OTM
 
-culture = hoshu_c
+culture = bungo_c
 religion = shinto
 capital = "Funai"
 is_city = yes

@@ -9,7 +9,7 @@ add_core = SGR
 owner = SGR
 controller = SGR
 
-culture = higo_c
+culture = kuma_c
 religion = shinto
 capital = "Hitoyoshi"
 is_city = yes

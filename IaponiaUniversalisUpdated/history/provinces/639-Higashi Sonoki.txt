@@ -10,7 +10,7 @@ add_core = AIM
 owner = AIM
 controller = AIM
 
-culture = hizen_c
+culture = shimabara_c
 religion = shinto
 capital = "Omura"
 is_city = yes

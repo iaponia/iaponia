@@ -9,7 +9,7 @@ add_core = KKC
 owner = KKC
 controller = KKC
 
-culture = higo_c
+culture = kuma_c
 religion = shinto
 capital = "Yatushiro"
 is_city = yes

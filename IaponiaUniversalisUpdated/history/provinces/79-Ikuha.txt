@@ -9,7 +9,7 @@ add_core = OTM
 owner = OTM
 controller = OTM
 
-culture = chikushu_c
+culture = chikugo_c
 religion = shinto
 capital = "Takaidake"
 is_city = yes

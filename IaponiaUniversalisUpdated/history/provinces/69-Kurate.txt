@@ -10,7 +10,7 @@ add_core = SGI
 owner = OUC
 controller = OUC
 
-culture = chikushu_c
+culture = akizuki_c
 religion = shinto
 capital = "Takatoriyama"
 is_city = yes

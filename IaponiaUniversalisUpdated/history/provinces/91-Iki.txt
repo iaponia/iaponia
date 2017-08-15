@@ -9,7 +9,7 @@ add_core = HTA
 owner = HTA
 controller = HTA
 
-culture = hizen_c
+culture = islander_c
 religion = shinto
 capital = "Katsumoto"
 is_city = yes

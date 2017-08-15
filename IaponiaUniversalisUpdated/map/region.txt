@@ -22,8 +22,8 @@ kyushu_region = {
 		saga_area
 		takeno_area
 		chikuzen_area
-		mikasa_area
-		koge_area
+		akizuki_area
+		buzen_area
 		iizuka_area
 		strait_islands_area
 		okinawa_area
@@ -49,7 +49,7 @@ shikoku_region = {
 hokkaido_region = {
 	areas = {
 		shiribeshi_area
-		kamikawa_area
+		ishikari_bay_area
 		hidaka_area
 		tokachi_area
 	}
@@ -62,7 +62,7 @@ chugoku_region = {
 		suo_area
 		iwami_area
 		shimane_area
-		kando_area
+		yasugi_area
 		sasai_area
 		takata_area
 		bingo_area
@@ -100,7 +100,7 @@ kansai_region = {
 		yoshino_area
 		katsuge_area
 		watarai_area
-		mie_area
+		tsu_area
 		kuwana_area
 		iga_area
 		shiga_area
@@ -131,7 +131,7 @@ chubu_region = {
 		hida_area
 		saku_area
 		takai_area
-		kiso_area
+		shinano_area
 		kai_area
 		sado_area
 	}
@@ -145,7 +145,7 @@ kanto_region = {
 		boso_area
 		kazusa_area
 		nagara_area
-		katori_area
+		choshi_area
 		shimosa_area
 		tsukuba_area
 		ibaraki_area
@@ -168,7 +168,7 @@ tohoku_region = {
 		shirakawa_area
 		watari_area
 		miyagi_area
-		kurihara_area
+		rikuchu_area
 		rikugo_area
 		tsugaru_area
 		iwate_area

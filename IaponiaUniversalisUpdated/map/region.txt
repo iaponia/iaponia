@@ -13,7 +13,7 @@ kyushu_region = {
 		hyuga_area
 		osumi_area
 		usuki_area
-		ashikita_area
+		kuma_area
 		uto_area
 		tamana_area
 		shimabara_area
@@ -59,7 +59,7 @@ chugoku_region = {
 	areas = {
 		oki_islands_area
 		nagato_area
-		abu_area
+		suo_area
 		iwami_area
 		shimane_area
 		kando_area

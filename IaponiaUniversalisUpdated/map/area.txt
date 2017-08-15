@@ -69,7 +69,7 @@ strait_islands_area = {
 	88 90 91 92 93 685 704
 }
 
-ashikita_area = {
+kuma_area = {
 	22 23 24
 }
 
@@ -201,7 +201,7 @@ nagato_area = {
 	108 109 110 111 112
 }
 
-abu_area = {
+suo_area = {
 	113 114 115 116 117 118
 }
 

@@ -89,7 +89,7 @@ shimabara_area = {
 	47 48 89 639 698 705
 }
 
-yamato_area = {
+chikugo_area = {
 	57 58 59 60
 }
 
@@ -101,7 +101,7 @@ kitsuki_area = {
 	41 42 45 46 710
 }
 
-saga_area = {
+hizen_area = {
 	49 50 51 52 53 54 55 56
 }
 
@@ -217,7 +217,7 @@ yasugi_area = {
 	134 193 195 196
 }
 
-sasai_area = {
+aki_area = {
 	125 126 132 627 628
 }
 
@@ -338,7 +338,7 @@ nankii_area = {
 }
 
 #nara pref
-nara_area = {
+yamato_area = {
 	308 309 317 318
 }
 
@@ -367,7 +367,7 @@ iga_area = {
 	323 324 325 326
 }
 
-shiga_area = {
+omi_area = {
 	327 329 330 335 336 337 338 699
 }
 
@@ -635,7 +635,7 @@ okitama_area = {
 	563 672 673
 }
 
-sakata_area = {
+uzen_area = {
 	564 565 566
 }
 
@@ -1868,7 +1868,7 @@ madura_area = { #three
 konkan_area = { #three
 }
 
-kanara_area = { #three
+kayamato_area = { #three
 }
 
 maidan_area = { #5 (northern Bayuluseeme)

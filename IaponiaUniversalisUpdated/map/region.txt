@@ -17,9 +17,9 @@ kyushu_region = {
 		uto_area
 		tamana_area
 		shimabara_area
-		yamato_area
+		chikugo_area
 		bungo_area
-		saga_area
+		hizen_area
 		takeno_area
 		chikuzen_area
 		akizuki_area
@@ -63,7 +63,7 @@ chugoku_region = {
 		iwami_area
 		shimane_area
 		yasugi_area
-		sasai_area
+		aki_area
 		takata_area
 		bingo_area
 		mitsugi_area
@@ -96,14 +96,14 @@ kansai_region = {
 		nishigori_area
 		kii_area
 		nankii_area
-		nara_area
+		yamato_area
 		yoshino_area
 		katsuge_area
 		watarai_area
 		tsu_area
 		kuwana_area
 		iga_area
-		shiga_area
+		omi_area
 		imahama_area
 		wakasa_area
 		echizen_area
@@ -176,7 +176,7 @@ tohoku_region = {
 		akita_area
 		ugo_area
 		mogami_area
-		sakata_area
+		uzen_area
 		mogami_area
 	}
 }

@@ -101,7 +101,7 @@ kansai_region = {
 		katsuge_area
 		watarai_area
 		mie_area
-		inabe_area
+		kuwana_area
 		iga_area
 		shiga_area
 		inukami_area
@@ -125,7 +125,7 @@ chubu_region = {
 		shibata_area
 		shitara_area
 		mikawa_area
-		fuji_area
+		suruga_area
 		totomi_area
 		haibara_area
 		hida_area
@@ -146,7 +146,7 @@ kanto_region = {
 		kazusa_area
 		nagara_area
 		katori_area
-		chiba_area
+		shimosa_area
 		tsukuba_area
 		ibaraki_area
 		hitachi_area
@@ -174,7 +174,7 @@ tohoku_region = {
 		iwate_area
 		hei_area
 		akita_area
-		hiraka_area
+		ugo_area
 		mogami_area
 		sakata_area
 		okitama_area

@@ -73,11 +73,11 @@ kuma_area = {
 	22 23 24
 }
 
-uto_area = {
+higo_area = {
 	25 26 27 28 29
 }
 
-tamana_area = {
+kikuchi_area = {
 	30 31 32 33 34 35
 }
 
@@ -105,7 +105,7 @@ hizen_area = {
 	49 50 51 52 53 54 55 56
 }
 
-takeno_area = {
+kurume_area = {
 	78 79 80 81 82 83
 }
 
@@ -133,7 +133,7 @@ okinawa_area = {
 # Shikoku					 		   #
 ########################################
 
-uwa_area = {
+uwajima_area = {
 	95 96 97 711
 }
 
@@ -173,7 +173,7 @@ kaifu_area = {
 # hokkaido					 		   #
 ########################################
 
-shiribeshi_area = {
+oshima_area = {
 	607 615 706
 }
 
@@ -185,7 +185,7 @@ hidaka_area = {
 	609 613 708
 }
 
-tokachi_area = {
+do_to_area = {
 	612 614 616
 }
 
@@ -209,7 +209,7 @@ iwami_area = {
 	119 120 121 122 123 124
 }
 
-shimane_area = {
+izumo_area = {
 	133 192 194 197 198 199
 }
 
@@ -297,7 +297,7 @@ akashi_area = {
 	248 249 251 252 253 256
 }
 
-yosa_area = {
+tango_area = {
 	261 262 263 264 266
 }
 
@@ -351,7 +351,7 @@ katsuge_area = {
 }
 
 #mie pref
-watarai_area = {
+ise_area = {
 	343 344 345 346 347 348 349
 }
 
@@ -462,7 +462,7 @@ mino_area = {
 	362 363 364 395 401 402 403 404
 }
 
-tagi_area = {
+fuwa_area = {
 	358 359 360 361 405 406 700
 }
 
@@ -557,7 +557,7 @@ nasu_area = {
 	487 488 489 490
 }
 
-tochigi_area = {
+shimotsuke_area = {
 	486 491 492 493 494
 }
 
@@ -584,7 +584,7 @@ iwaki_area = {
 	544 545 546 549 550 656 657
 }
 
-shirakawa_area = {
+iwashiro_area = {
 	542 543 547 548 551 552 655
 }
 

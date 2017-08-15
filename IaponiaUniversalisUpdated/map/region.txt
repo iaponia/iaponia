@@ -14,13 +14,13 @@ kyushu_region = {
 		osumi_area
 		usuki_area
 		kuma_area
-		uto_area
-		tamana_area
+		higo_area
+		kikuchi_area
 		shimabara_area
 		chikugo_area
 		bungo_area
 		hizen_area
-		takeno_area
+		kurume_area
 		chikuzen_area
 		akizuki_area
 		buzen_area
@@ -33,7 +33,7 @@ kyushu_region = {
 
 shikoku_region = {
 	areas = {
-		uwa_area
+		uwajima_area
 		iyo_area
 		niihama_area
 		tosa_area
@@ -48,10 +48,10 @@ shikoku_region = {
 
 hokkaido_region = {
 	areas = {
-		shiribeshi_area
+		oshima_area
 		ishikari_bay_area
 		hidaka_area
-		tokachi_area
+		do_to_area
 	}
 }
 
@@ -61,7 +61,7 @@ chugoku_region = {
 		nagato_area
 		suo_area
 		iwami_area
-		shimane_area
+		izumo_area
 		yasugi_area
 		aki_area
 		takata_area
@@ -86,7 +86,7 @@ kansai_region = {
 		tanba_area
 		settsu_area
 		akashi_area
-		yosa_area
+		tango_area
 		kyoto_area
 		yamashiro_area
 		osaka_area
@@ -99,7 +99,7 @@ kansai_region = {
 		yamato_area
 		yoshino_area
 		katsuge_area
-		watarai_area
+		ise_area
 		tsu_area
 		kuwana_area
 		iga_area
@@ -111,7 +111,7 @@ kansai_region = {
 		owari_area
 		toki_area
 		mino_area
-		tagi_area
+		fuwa_area
 	}
 }
 
@@ -156,7 +156,7 @@ kanto_region = {
 		kodama_area
 		kozuke_area
 		tago_area
-		tochigi_area
+		shimotsuke_area
 		nasu_area
 	}
 }
@@ -165,7 +165,7 @@ tohoku_region = {
 	areas = {
 		aizu_area
 		iwaki_area
-		shirakawa_area
+		iwashiro_area
 		watari_area
 		miyagi_area
 		rikuchu_area

@@ -121,7 +121,7 @@ koge_area = {
 	43 44 72 73 74 75 76 77
 }
 
-kama_area = {
+iizuka_area = {
 	68 69 70 71
 }
 
@@ -137,7 +137,7 @@ uwa_area = {
 	95 96 97 711
 }
 
-iwo_area = {
+iyo_area = {
 	98 99 100 102 103 105 106
 }
 
@@ -371,7 +371,7 @@ shiga_area = {
 	327 329 330 335 336 337 338 699
 }
 
-inukami_area = {
+imahama_area = {
 	328 331 332 333 334 702
 }
 
@@ -389,7 +389,7 @@ echizen_area = {
 }
 
 #ishikawa pref
-ishikawa_area = {
+kaga_area = {
 	379 380 381 382
 }
 
@@ -1004,7 +1004,7 @@ bashkiria_area = { #5
 galich_area = { #three
 }
 
-#kama_area = { #three
+#iizuka_area = { #three
 #}
 
 tambov_area = { #four

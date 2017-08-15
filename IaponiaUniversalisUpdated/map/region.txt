@@ -24,7 +24,7 @@ kyushu_region = {
 		chikuzen_area
 		mikasa_area
 		koge_area
-		kama_area
+		iizuka_area
 		strait_islands_area
 		okinawa_area
 		kitsuki_area
@@ -34,7 +34,7 @@ kyushu_region = {
 shikoku_region = {
 	areas = {
 		uwa_area
-		iwo_area
+		iyo_area
 		niihama_area
 		tosa_area
 		marugame_area
@@ -104,7 +104,7 @@ kansai_region = {
 		kuwana_area
 		iga_area
 		shiga_area
-		inukami_area
+		imahama_area
 		oi_area
 		echizen_area
 		aichi_area
@@ -117,7 +117,7 @@ kansai_region = {
 
 chubu_region = {
 	areas = {
-		ishikawa_area
+		kaga_area
 		noto_area
 		etchu_area
 		echigo_area

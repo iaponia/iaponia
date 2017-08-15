@@ -181,7 +181,7 @@ ishikari_bay_area = {
 	608 610 611
 }
 
-hidaka_area = { 
+hidaka_area = {
 	609 613 708
 }
 
@@ -631,7 +631,7 @@ ugo_area = {
 }
 
 #yamagata pref
-mogami_area = {
+okitama_area = {
 	563 672 673
 }
 
@@ -639,7 +639,7 @@ sakata_area = {
 	564 565 566
 }
 
-okitama_area = {
+mogami_area = {
 	567 568 674 675
 }
 

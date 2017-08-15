@@ -57,7 +57,7 @@ hokkaido_region = {
 
 chugoku_region = {
 	areas = {
-		oki_islands_area
+		oki_area
 		nagato_area
 		suo_area
 		iwami_area
@@ -105,7 +105,7 @@ kansai_region = {
 		iga_area
 		shiga_area
 		imahama_area
-		oi_area
+		wakasa_area
 		echizen_area
 		aichi_area
 		owari_area
@@ -144,7 +144,7 @@ kanto_region = {
 		kamakura_area
 		boso_area
 		kazusa_area
-		nagara_area
+		isumi_area
 		choshi_area
 		shimosa_area
 		tsukuba_area
@@ -177,7 +177,7 @@ tohoku_region = {
 		ugo_area
 		mogami_area
 		sakata_area
-		okitama_area
+		mogami_area
 	}
 }
 

@@ -9,7 +9,7 @@ add_core = NKI
 owner = NKI
 controller = NKI
 
-culture = omi_c
+culture = iga_c
 religion = shinto
 capital = "Okajimashi"
 is_city = yes

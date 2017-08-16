@@ -9,7 +9,7 @@ add_core = TGS
 owner = TGS
 controller = TGS
 
-culture = koshu_c
+culture = kaga_c
 religion = shinto
 capital = "Daishoji"
 is_city = yes

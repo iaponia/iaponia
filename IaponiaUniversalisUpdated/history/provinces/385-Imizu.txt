@@ -10,7 +10,7 @@ add_core = JNB
 owner = HTK
 controller = HTK
 
-culture = esshu_c
+culture = kaga_c
 religion = shinto
 capital = "Hojozu"
 is_city = yes

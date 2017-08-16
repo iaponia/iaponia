@@ -9,7 +9,7 @@ add_core = KGK
 owner = KGK
 controller = KGK
 
-culture = izumo_c
+culture = unpaku_c
 religion = shinto
 capital = "Kono"
 is_city = yes

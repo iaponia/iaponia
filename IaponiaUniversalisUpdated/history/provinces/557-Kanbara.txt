@@ -10,7 +10,7 @@ add_core = NGO
 owner = EGU
 controller = EGU
 
-culture = esshu_c
+culture = iwafune_c
 religion = shinto
 capital = "Shibata"
 is_city = yes

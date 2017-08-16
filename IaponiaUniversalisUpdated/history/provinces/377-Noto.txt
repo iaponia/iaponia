@@ -10,7 +10,7 @@ add_core = JNB
 owner = NHK
 controller = NHK
 
-culture = koshu_c
+culture = noto_c
 religion = shinto
 capital = "Nanao"
 is_city = yes

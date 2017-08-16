@@ -10,7 +10,7 @@ add_core = HNM
 owner = EGU
 controller = EGU
 
-culture = esshu_c
+culture = sado_c
 religion = shinto
 capital = "Yoshioka"
 is_city = yes

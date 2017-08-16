@@ -10,7 +10,7 @@ add_core = NNJ
 owner = HYN
 controller = HYN
 
-culture = hakushu_c
+culture = hoki_c
 religion = shinto
 capital = "Ebi"
 is_city = yes

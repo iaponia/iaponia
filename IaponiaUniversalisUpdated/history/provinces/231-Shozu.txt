@@ -11,7 +11,7 @@ add_core = YTM
 owner = HSK
 controller = HSK
 
-culture = awa_c
+culture = awaji_c
 religion = shinto
 capital = "Hoshiga"
 is_city = yes

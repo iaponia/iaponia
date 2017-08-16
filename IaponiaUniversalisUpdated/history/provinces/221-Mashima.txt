@@ -11,7 +11,7 @@ add_core = MRA
 owner = IWY
 controller = IWY
 
-culture = hakushu_c
+culture = hoki_c
 religion = shinto
 capital = "Motoyama"
 is_city = yes

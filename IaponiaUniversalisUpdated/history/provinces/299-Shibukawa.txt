@@ -10,7 +10,7 @@ add_core = YSA
 owner = HTK
 controller = HTK
 
-culture = sesshu_c
+culture = kawachi_c
 religion = shinto
 capital = "Shariji"
 is_city = yes

@@ -9,7 +9,7 @@ add_core = HSK
 owner = HSK
 controller = HSK
 
-culture = yamato_c
+culture = yamashiro_c
 religion = shinto
 capital = "Yodo"
 is_city = yes

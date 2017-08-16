@@ -10,7 +10,7 @@ add_core = AZI
 owner = KGK
 controller = KGK
 
-culture = omi_c
+culture = biwa_c
 religion = shinto
 capital = "Nishiazai"
 is_city = yes

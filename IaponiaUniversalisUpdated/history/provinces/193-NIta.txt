@@ -10,7 +10,7 @@ add_core = AMA
 owner = KGK
 controller = KGK
 
-culture = izumo_c
+culture = unpaku_c
 religion = shinto
 capital = "Mizawa"
 is_city = yes

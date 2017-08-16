@@ -10,7 +10,7 @@ add_core = IWY
 owner = IWY
 controller = IWY
 
-culture = hakushu_c
+culture = hoki_c
 religion = shinto
 capital = "Odakusa"
 is_city = yes

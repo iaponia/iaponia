@@ -380,7 +380,7 @@ imahama_area = {
 ########################################
 
 #fukui pref
-oi_area = {
+wakasa_area = {
 	267 271 272
 }
 

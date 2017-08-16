@@ -158,6 +158,7 @@ kanto_region = {
 		tago_area
 		shimotsuke_area
 		nasu_area
+		nagara_area
 	}
 }
 
@@ -178,6 +179,7 @@ tohoku_region = {
 		mogami_area
 		uzen_area
 		mogami_area
+		okitama_area
 	}
 }
 

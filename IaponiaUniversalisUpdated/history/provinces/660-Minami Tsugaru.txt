@@ -10,7 +10,7 @@ add_core = HNB
 owner = HNB
 controller = HNB
 
-culture = rikugo_c
+culture = tsugaru_c
 religion = shinto
 capital = "Daikoji"
 is_city = yes

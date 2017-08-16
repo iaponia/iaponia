@@ -9,7 +9,7 @@ add_core = UES
 owner = UES
 controller = UES
 
-culture = musashi_c
+culture = kozuke_c
 religion = shinto
 capital = "Takasaki"
 is_city = yes

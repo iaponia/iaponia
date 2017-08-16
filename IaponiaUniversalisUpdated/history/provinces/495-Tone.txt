@@ -10,7 +10,7 @@ add_core = NGO
 owner = UES
 controller = UES
 
-culture = musashi_c
+culture = kozuke_c
 religion = shinto
 capital = "Nagurumi"
 is_city = yes

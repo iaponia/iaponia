@@ -9,7 +9,7 @@ add_core = SWA
 owner = SWA
 controller = SWA
 
-culture = shinano_c
+culture = suwa_c
 religion = shinto
 capital = "Takei"
 is_city = yes

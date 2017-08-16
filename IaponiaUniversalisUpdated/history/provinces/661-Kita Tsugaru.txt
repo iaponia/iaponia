@@ -9,7 +9,7 @@ add_core = NMK
 owner = NMK
 controller = NMK
 
-culture = rikugo_c
+culture = tsugaru_c
 religion = shinto
 capital = "Namioka"
 is_city = yes

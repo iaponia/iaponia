@@ -9,7 +9,7 @@ add_core = ASN
 owner = ASN
 controller = ASN
 
-culture = aizu_c
+culture = iwashiro_c
 religion = shinto
 capital = "Wakamatsu"
 is_city = yes

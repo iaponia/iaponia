@@ -7,9 +7,9 @@
 # graphical_culture = westerngfx
 # second_graphical_culture = muslimgfx (fallback if the first does not exist)
 
-hayato_c = { 
+hayato_c = {
 	graphical_culture = asiangfx
-	
+
 	sasshu_c = { #Kagoshima #Satsuma #Kawanabe #Osumi
 		primary = SMZ
 		dynasty_names = { Shimazu Irikiin Kawakami Kamo Tanegashima Kimotsuki Kabayama Yamada Ijuin Nejime Niiro }
@@ -28,9 +28,9 @@ hayato_c = {
 	}
 }
 
-kitakyushu_c = { 
+kitakyushu_c = {
 	graphical_culture = asiangfx
-	
+
 	bungo_c = { #Bungo #Kitsuki
 		primary = OTM
 		dynasty_names = { Otomo Shiga Tawara Bekki Takita Yoshioka Yoshihiro Ichimada Usuki Saiki Tsunokuma Ouchi }
@@ -43,7 +43,7 @@ kitakyushu_c = {
 		primary = ASO
 		dynasty_names = { Aso Kai Kitazato Takamori }
 	}
-	chikuzen_c = { #Chikuzen 
+	chikuzen_c = { #Chikuzen
 		primary = TCB
 		dynasty_names = { Tachibana Takahashi Ando Yufu Ono Totoki Takano Munakata }
 	}
@@ -53,9 +53,9 @@ kitakyushu_c = {
 	}
 }
 
-hichiku_c = { 
+hichiku_c = {
 	graphical_culture = asiangfx
-	
+
 	higo_c = { #Higo #Kikuchi
 		primary = KKC
 		dynasty_names = { Kikuchi Akaboshi Kumabe Jo Kanokogi Nawa Amakusa }
@@ -78,10 +78,10 @@ hichiku_c = {
 	}
 }
 
-sanyo_c = { 
+sanyo_c = {
 	graphical_culture = asiangfx
 
-	choshu_c = { #Nagato #Suo 
+	choshu_c = { #Nagato #Suo
 		primary = OUC
 		dynasty_names = { Ouchi Sue Naito Toida Sugi Amano Hironaka Iida Reizei Era Niho Nogami }
 	}
@@ -107,11 +107,11 @@ sanyo_c = {
 	}
 }
 
-sanin_c = { 
+sanin_c = {
 	graphical_culture = asiangfx
-	
+
 	unpaku_c = { #Izumo #Yasugi #Oki #Iwami-Ano #Iwami-Ochi #Nima
-		primary = AMA 
+		primary = AMA
 		dynasty_names = { Amago Yamanaka Sase Honjo Akana Matsuda Kawazoe Uyama Kamei Tachihara Yokomichi Kyogoku }
 	}
 	hoki_c = { #Hoki #Mashima
@@ -128,7 +128,7 @@ sanin_c = {
 	}
 }
 
-shikoku_c = { 
+shikoku_c = {
 	graphical_culture = asiangfx
 
 	tosa_c = { #Tosa
@@ -153,7 +153,7 @@ shikoku_c = {
 	}
 }
 
-kinai_c = { 
+kinai_c = {
 	graphical_culture = asiangfx
 
 	yamashiro_c = { #Kyoto #Yamashiro
@@ -167,7 +167,7 @@ kinai_c = {
 	sesshu_c = { #Settsu #Osaka #Izumi
 		primary = AAI
 		dynasty_names = { Hosokawa Ikeda Araki Takayama Nakagawa Naito Konishi }
-	} 
+	}
 	kawachi_c = { #Katano #Kawachi #Nishigori
 		primary = YSA
 		dynasty_names = { Hatakeyama Yusa Yasumi Kizawa Taira }
@@ -178,9 +178,9 @@ kinai_c = {
 	}
 }
 
-kansai_c = { 
+kansai_c = {
 	graphical_culture = asiangfx
-	
+
 	omi_c = { #Omi
 		primary = RKK
 		dynasty_names = { Rokkaku Gamo Goto Shindo Otani Kimura Yoshida Mikumo }
@@ -207,7 +207,7 @@ kansai_c = {
 	}
 }
 
-hokuriku_c = { 
+hokuriku_c = {
 	graphical_culture = asiangfx
 
 	echizen_c = { #Wakasa #Echizen
@@ -222,7 +222,7 @@ hokuriku_c = {
 		primary = HTK
 		dynasty_names = { Hatakeyama Yusa Cho Nukui Miyake Igawa }
 	}
-	esshu_c = { #Etchu #Echigo #Uonuma 
+	esshu_c = { #Etchu #Echigo #Uonuma
 		primary = NGO
 		dynasty_names = { Nagao Uesugi Usami Yasuda Amakasu Saito Kitajo Kakizaki Naoe Higuchi Kojima Jinbo Shiina }
 	}
@@ -236,7 +236,7 @@ hokuriku_c = {
 	}
 }
 
-tosan_c = { 
+tosan_c = {
 	graphical_culture = asiangfx
 
 	hida_c = { #Hida
@@ -257,7 +257,7 @@ tosan_c = {
 	}
 }
 
-tokai_c = { 
+tokai_c = {
 	graphical_culture = asiangfx
 
 	mikawa_c = { #Mikawa #Shitara
@@ -278,7 +278,7 @@ tokai_c = {
 	}
 }
 
-kanto_c = { 
+kanto_c = {
 	graphical_culture = asiangfx
 
 	musashi_c = { #Musashi #Iruma #Saitama #Kodama
@@ -307,7 +307,7 @@ kanto_c = {
 	}
 }
 
-rikuchu_c = { 
+rikuchu_c = {
 	graphical_culture = asiangfx
 
 	iwashiro_c = { #Aizu #Iwashiro
@@ -348,7 +348,7 @@ mutsu_c = {
 		primary = OSB
 		dynasty_names = { Shiba Waga Hienuki Iwashimizu Kashiyama Asonuma }
 	}
-	rikugo_c = { #Rikugo #Tsugaru
+	rikugo_c = { #Rikugo
 		primary = NNB
 		dynasty_names = { Nanbu Hachinohe Shichinohe Kunohe Ishigame Kita Sakuraba Izumiyama }
 	}
@@ -362,7 +362,7 @@ mutsu_c = {
 	}
 }
 
-hokkai_c = { 
+hokkai_c = {
 	graphical_culture = asiangfx
 
 	ainu_c = { #If I split it pretty much every tag would have its own culture as far as I can tell

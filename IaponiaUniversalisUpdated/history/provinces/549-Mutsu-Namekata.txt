@@ -9,7 +9,7 @@ add_core = SMA
 owner = SMA
 controller = SMA
 
-culture = aizu_c
+culture = iwaki_c
 religion = shinto
 capital = "Ushigoe"
 is_city = yes

@@ -9,7 +9,7 @@ add_core = WGA
 owner = WGA
 controller = WGA
 
-culture = rikugo_c
+culture = oshu_c
 religion = shinto
 capital = "Futago"
 is_city = yes

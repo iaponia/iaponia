@@ -9,7 +9,7 @@ add_core = OGS
 owner = OGS
 controller = OGS
 
-culture = shinano_c
+culture = suwa_c
 religion = shinto
 capital = "Yamabe"
 is_city = yes

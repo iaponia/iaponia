@@ -9,7 +9,7 @@ add_core = SNB
 owner = SNB
 controller = SNB
 
-culture = rikugo_c
+culture = oshu_c
 religion = shinto
 capital = "Den"
 is_city = yes

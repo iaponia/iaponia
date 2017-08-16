@@ -9,7 +9,7 @@ add_core = IWK
 owner = IWK
 controller = IWK
 
-culture = aizu_c
+culture = iwaki_c
 religion = shinto
 capital = "Shiogama"
 is_city = yes

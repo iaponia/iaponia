@@ -10,7 +10,7 @@ add_core = OGS
 owner = SOG
 controller = SOG
 
-culture = shinano_c
+culture = suwa_c
 religion = shinto
 capital = "Minowa"
 is_city = yes

@@ -9,7 +9,7 @@ add_core = HIE
 owner = HIE
 controller = HIE
 
-culture = rikugo_c
+culture = oshu_c
 religion = shinto
 capital = "Hanamaki"
 is_city = yes

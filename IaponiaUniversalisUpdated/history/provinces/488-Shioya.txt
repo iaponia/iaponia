@@ -9,7 +9,7 @@ add_core = UMY
 owner = UMY
 controller = UMY
 
-culture = hitachi_c
+culture = shimotsuke_c
 religion = shinto
 capital = "Kawasaki"
 is_city = yes

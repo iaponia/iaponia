@@ -9,7 +9,7 @@ add_core = MGM
 owner = MGM
 controller = MGM
 
-culture = dewa_c
+culture = mogami_c
 religion = shinto
 capital = "Shimizu"
 is_city = yes

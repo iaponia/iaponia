@@ -9,7 +9,7 @@ add_core = OND
 owner = OND
 controller = OND
 
-culture = dewa_c
+culture = shonai_c
 religion = shinto
 capital = "Kakunodate"
 is_city = yes

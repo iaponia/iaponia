@@ -9,7 +9,7 @@ add_core = KSO
 owner = KSO
 controller = KSO
 
-culture = shinano_c
+culture = suwa_c
 religion = shinto
 capital = "Tsumago"
 is_city = yes

@@ -9,7 +9,7 @@ add_core = NKD
 owner = NKD
 controller = NKD
 
-culture = aizu_c
+culture = iwashiro_c
 religion = shinto
 capital = "Sukagawa"
 is_city = yes

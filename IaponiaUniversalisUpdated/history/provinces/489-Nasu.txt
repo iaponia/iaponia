@@ -9,7 +9,7 @@ add_core = NSU
 owner = NSU
 controller = NSU
 
-culture = hitachi_c
+culture = shimotsuke_c
 religion = shinto
 capital = "Karasuyama"
 is_city = yes

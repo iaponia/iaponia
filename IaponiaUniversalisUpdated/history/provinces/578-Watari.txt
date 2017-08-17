@@ -9,7 +9,7 @@ add_core = DTE
 owner = DTE
 controller = DTE
 
-culture = rikuzen_c
+culture = okitama_c
 religion = shinto
 capital = "Kozutsumi"
 is_city = yes

@@ -39,7 +39,7 @@ kitakyushu_c = {
 		primary = SGI
 		dynasty_names = { Sugi Sada Kaku Ustunomiya Nagano Tawara }
 	}
-	aso_c = { #Aso #Mashiki
+	aso_c = { #Aso
 		primary = ASO
 		dynasty_names = { Aso Kai Kitazato Takamori }
 	}
@@ -47,9 +47,9 @@ kitakyushu_c = {
 		primary = TCB
 		dynasty_names = { Tachibana Takahashi Ando Yufu Ono Totoki Takano Munakata }
 	}
-	chikugo_c = { #Chikugo #Kurume
-		primary = KAA
-		dynasty_names = { Kamachi Oki Harano Tajiri Monjyujo Nishimuta }
+	akizuki_c = { #Akizuki #Iizuka
+		primary = AKZ
+		dynasty_names = { Akizuki Eri Ida Harada Tsukushi Aso Takahashi }
 	}
 }
 
@@ -60,9 +60,9 @@ hichiku_c = {
 		primary = KKC
 		dynasty_names = { Kikuchi Akaboshi Kumabe Jo Kanokogi Nawa Amakusa }
 	}
-	akizuki_c = { #Akizuki #Iizuka
-		primary = AKZ
-		dynasty_names = { Akizuki Eri Ida Harada Tsukushi Aso Takahashi }
+	chikugo_c = { #Chikugo #Kurume
+		primary = KAA
+		dynasty_names = { Kamachi Oki Harano Tajiri Monjyujo Nishimuta }
 	}
 	hizen_c = { #Saga
 		primary = RZJ
@@ -97,7 +97,7 @@ sanyo_c = {
 		primary = MIM
 		dynasty_names = { Mimura Ishikawa Shimizu Niimi Sho Yamanouchi Sugihara Wachi Hayashi }
 	}
-	bizen_c = { #Kojima #Bizen #Mimasaka
+	bizen_c = { #Kojima #Bizen #Mimasaka #Mashima
 		primary = UKT
 		dynasty_names = { Ukita Uragami Akamatsu Akashi Togawa Osafune Oka Iga Hanabusa Harada Miura }
 	}
@@ -114,7 +114,7 @@ sanin_c = {
 		primary = AMA
 		dynasty_names = { Amago Yamanaka Sase Honjo Akana Matsuda Kawazoe Uyama Kamei Tachihara Yokomichi Kyogoku }
 	}
-	hoki_c = { #Hoki #Mashima
+	hoki_c = { #Hoki
 		primary = NNJ
 		dynasty_names = { Nanjo Yamada Yamana Yukimatsu }
 	}
@@ -318,11 +318,11 @@ rikuchu_c = {
 		primary = SMA
 		dynasty_names = { Soma Iwaki Sato Aota Kobata Otsuka }
 	}
-	okitama_c = { #Okitama #Mutsu-Adachi #Date #Shinobu #Karita
+	okitama_c = { #Okitama #Watari #Date #Shinobu
 		primary = DTE
 		dynasty_names = { Date Katakura Shiroishi Hasekura Oniniwa Watari Endo Hatakeyama }
 	}
-	rikuzen_c = { #Watari #Miyagi #Rikuchu
+	rikuzen_c = { #Miyagi #Rikuchu
 		primary = OSK
 		dynasty_names = { Osaki Date Kokubun Rusu Kori Goto Kasai Ujiie }
 	}

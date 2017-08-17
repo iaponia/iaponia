@@ -144,7 +144,6 @@ kanto_region = {
 		kamakura_area
 		boso_area
 		kazusa_area
-		isumi_area
 		choshi_area
 		shimosa_area
 		tsukuba_area

@@ -1,12 +1,12 @@
 government = shugo_monarchy
 government_rank = 3
-primary_culture = omi_c
+primary_culture = biwa_c
 religion = shinto
 technology_group = saigoku
 historical_rival = RKK
 capital = 334	# Inukami
-	
-1441.1.1 = { 
+
+1441.1.1 = {
 	monarch = {
 		name = "Mochikiyo"
 		dynasty = "Kyogoku"
@@ -29,8 +29,8 @@ capital = 334	# Inukami
 		mil = 3
 	}
 }
-	
-1470.8.30 = { 
+
+1470.8.30 = {
 	monarch = {
 		name = "Magodojimaru"
 		dynasty = "Kyogoku"
@@ -40,7 +40,7 @@ capital = 334	# Inukami
 	}
 }
 
-1471.1.1 = { 
+1471.1.1 = {
 	monarch = {
 		name = "Masatsune"
 		dynasty = "Kyogoku"
@@ -50,7 +50,7 @@ capital = 334	# Inukami
 	}
 }
 
-1505.1.1 = { 
+1505.1.1 = {
 	monarch = {
 		name = "Takakiyo"
 		dynasty = "Kyogoku"
@@ -74,7 +74,7 @@ capital = 334	# Inukami
 	}
 }
 
-1523.1.1 = { 
+1523.1.1 = {
 	monarch = {
 		name = "Takanobu"
 		dynasty = "Kyogoku"
@@ -84,7 +84,7 @@ capital = 334	# Inukami
 	}
 }
 
-1553.1.1 = { 
+1553.1.1 = {
 	monarch = {
 		name = "Takayoshi"
 		dynasty = "Kyogoku"
@@ -108,7 +108,7 @@ capital = 334	# Inukami
 	}
 }
 
-1581.2.28 = { 
+1581.2.28 = {
 	monarch = {
 		name = "Takatsugu"
 		dynasty = "Kyogoku"

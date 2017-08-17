@@ -609,17 +609,19 @@ guiTypes = {
 		}
 
 
-		### BIG SHIPS
+
+
+		### TRANSPORT
 		iconType =
 		{
 			name ="unit_type_bigship"
 			spriteType = "GFX_unit_types_strip_mil_view"
 			position = { x= 27 y = 221 }
 			scale = 0.60
-			hint_tag = "hint_heavyships"
+			hint_tag = "hint_transports"
 		}
 		instantTextBoxType = {
-			name = "ship1_type_label"
+			name = "ship4_type_label"
 			position = { x = 55 y =228  }
 			format = centre
 			textureFile = ""
@@ -631,8 +633,8 @@ guiTypes = {
 			fixedsize = yes
 		}
 		instantTextBoxType = {
-			name = "ship1_cost"
-			position = { x = 286 y = 228  }
+			name = "ship4_cost"
+			position = { x = 286 y = 228 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -643,7 +645,7 @@ guiTypes = {
 			fixedsize = yes
 		}
 		instantTextBoxType = {
-			name = "ship1_power"
+			name = "ship4_power"
 			position = { x = 325 y =228  }
 			textureFile = ""
 			font = "vic_18"
@@ -655,7 +657,7 @@ guiTypes = {
 			fixedsize = yes
 		}
 		instantTextBoxType = {
-			name = "ship1_fire"
+			name = "ship4_fire"
 			position = { x = 382 y =228  }
 			textureFile = ""
 			font = "vic_18"
@@ -667,7 +669,7 @@ guiTypes = {
 			fixedsize = yes
 		}
 		instantTextBoxType = {
-			name = "ship1_shock"
+			name = "ship4_shock"
 			position = { x = 424 y =228  }
 			textureFile = ""
 			font = "vic_18"
@@ -679,7 +681,7 @@ guiTypes = {
 			fixedsize = yes
 		}
 		instantTextBoxType = {
-			name = "ship1_count"
+			name = "ship4_count"
 			position = { x = 470 y =228  }
 			format = right
 			textureFile = ""
@@ -691,7 +693,6 @@ guiTypes = {
 			format = right
 			fixedsize = yes
 		}
-
 
 		### LIGHT SHIPS
 		iconType =
@@ -776,7 +777,88 @@ guiTypes = {
 			fixedsize = yes
 		}
 
-
+		### BIG SHIPS
+		iconType =
+		{
+			name ="unit_type_transport"
+			spriteType = "GFX_unit_types_strip_mil_view"
+			position = { x= 27 y = 282 }
+			scale = 0.00
+			hint_tag = "hint_heavyships"
+		}
+		instantTextBoxType = {
+			name = "ship1_type_label"
+			position = { x = 55 y =290  }
+			format = centre
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 220
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "ship1_cost"
+			position = { x = 286 y = 290  }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "137"
+			maxWidth = 32
+			maxHeight = 20
+			format = right
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "ship1_power"
+			position = { x = 325 y =290  }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "-100%"
+			maxWidth = 52
+			maxHeight = 20
+			format = right
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "ship1_fire"
+			position = { x = 382 y =290  }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 40
+			maxHeight = 20
+			format = right
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "ship1_shock"
+			position = { x = 424 y =290  }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 40
+			maxHeight = 20
+			format = right
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "ship1_count"
+			position = { x = 470 y =290  }
+			format = right
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 30
+			maxHeight = 20
+			format = right
+			fixedsize = yes
+		}
 
 		### GALLEYS
 
@@ -785,7 +867,7 @@ guiTypes = {
 			name ="unit_type_galley"
 			spriteType = "GFX_unit_types_strip_mil_view"
 			position = { x= 27 y = 261 }
-			scale = 0.60
+			scale = 0.00
 			hint_tag = "hint_galleys"
 		}
 
@@ -865,88 +947,7 @@ guiTypes = {
 
 
 
-		### TRANSPORT
-		iconType =
-		{
-			name ="unit_type_transport"
-			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 27 y = 282 }
-			scale = 0.60
-			hint_tag = "hint_transports"
-		}
-		instantTextBoxType = {
-			name = "ship4_type_label"
-			position = { x = 55 y =291  }
-			format = centre
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = ""
-			maxWidth = 220
-			maxHeight = 20
-			fixedsize = yes
-		}
-		instantTextBoxType = {
-			name = "ship4_cost"
-			position = { x = 286 y = 291 }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "137"
-			maxWidth = 32
-			maxHeight = 20
-			format = right
-			fixedsize = yes
-		}
-		instantTextBoxType = {
-			name = "ship4_power"
-			position = { x = 325 y =291  }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "-100%"
-			maxWidth = 52
-			maxHeight = 20
-			format = right
-			fixedsize = yes
-		}
-		instantTextBoxType = {
-			name = "ship4_fire"
-			position = { x = 382 y =291  }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = ""
-			maxWidth = 40
-			maxHeight = 20
-			format = right
-			fixedsize = yes
-		}
-		instantTextBoxType = {
-			name = "ship4_shock"
-			position = { x = 424 y =291  }
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = ""
-			maxWidth = 40
-			maxHeight = 20
-			format = right
-			fixedsize = yes
-		}
-		instantTextBoxType = {
-			name = "ship4_count"
-			position = { x = 470 y =291  }
-			format = right
-			textureFile = ""
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = ""
-			maxWidth = 30
-			maxHeight = 20
-			format = right
-			fixedsize = yes
-		}
+
 
 		### LEADERS
 		guiButtonType = {

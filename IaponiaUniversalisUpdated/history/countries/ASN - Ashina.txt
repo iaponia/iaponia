@@ -1,6 +1,6 @@
 government = kokujin_monarchy
 government_rank = 2
-primary_culture = aizu_c
+primary_culture = iwashiro_c
 religion = shinto
 technology_group = tohoku
 capital = 540	# Yama

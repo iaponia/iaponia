@@ -1,6 +1,6 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = dewa_c
+primary_culture = mogami_c
 religion = shinto
 technology_group = tohoku
 capital = 564	# Dewa-Tagawa

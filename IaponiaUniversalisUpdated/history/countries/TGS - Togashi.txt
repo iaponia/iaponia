@@ -1,6 +1,6 @@
 government = shugo_monarchy
 government_rank = 2
-primary_culture = koshu_c
+primary_culture = kaga_c
 religion = shinto
 technology_group = togoku
 historical_rival = HGJ

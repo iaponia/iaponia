@@ -1,6 +1,6 @@
 government = kokujin_monarchy
 government_rank = 2
-primary_culture = izumo_c
+primary_culture = unpaku_c
 religion = shinto
 technology_group = saigoku
 historical_rival = MRI

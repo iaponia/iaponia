@@ -5,27 +5,23 @@ graphical_culture = asiangfx
 color = { 239  251  208 }
 
 historical_idea_groups = {
-	offensive_ideas
 	defensive_ideas
-	naval_ideas
-	trade_ideas
-	quality_ideas
-	spy_ideas
+	expansion_ideas
+	meritocratic_ideas
+	influence_ideas
+	pluralist_ideas
 	diplomatic_ideas
-	administrative_ideas
 }
 
 historical_units = {
-	japanese_archer
-	eastern_bow
-	japanese_footsoldier
-	japanese_samurai
-	asian_arquebusier
-	asian_charge_cavalry
-	asian_mass_infantry
-	asian_musketeer
-	reformed_asian_musketeer
-	reformed_asian_cavalry
+	early_off_kansai_infantry
+	early_def_kansai_cavalry
+	def_kansai_infantry
+	def_kansai_cavalry
+	late_def_kansai_infantry
+	late_def_kansai_cavalry
+	advanced_kansai_infantry
+	advanced_kansai_cavalry
 }
 
 monarch_names = { # Most Monarchs were named with "nori"
@@ -52,7 +48,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

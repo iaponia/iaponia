@@ -5,27 +5,23 @@ graphical_culture = asiangfx
 color = { 71  84  94 }
 
 historical_idea_groups = {
-	offensive_ideas
 	defensive_ideas
-	naval_ideas
-	trade_ideas
-	quality_ideas
-	spy_ideas
-	diplomatic_ideas
 	administrative_ideas
+	traditional_ideas
+	leadership_ideas
+	influence_ideas
+	aristocratic_ideas
 }
 
 historical_units = {
-	japanese_archer
-	eastern_bow
-	japanese_footsoldier
-	japanese_samurai
-	asian_arquebusier
-	asian_charge_cavalry
-	asian_mass_infantry
-	asian_musketeer
-	reformed_asian_musketeer
-	reformed_asian_cavalry
+	early_def_kanto_infantry
+	early_off_kanto_cavalry
+	def_kanto_infantry
+	def_kanto_cavalry
+	late_def_kanto_infantry
+	late_def_kanto_cavalry
+	advanced_kanto_infantry
+	advanced_kanto_cavalry
 }
 
 monarch_names = { # Most Monarchs were named with "yori"
@@ -40,14 +36,14 @@ monarch_names = { # Most Monarchs were named with "yori"
 
 leader_names = {
     # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
+	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama
 	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
 	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
 	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
 	Yamana Hosokawa Hojo Mimura
 	# Shimazu Flavor
-	Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki 
-	Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki 
+	Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki
+	Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki Miki
 	# Region Flavor:Tokai-Chubu
 	Toki Toyama Endo Saito Ujiie Inaba Ando Fuwa Akechi Takenaka Hineno
 	Aoki Sengoku Anekoji Ema Miki Kanamori Imagawa Amano Asahina Okabe Iio Hamana
@@ -64,7 +60,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

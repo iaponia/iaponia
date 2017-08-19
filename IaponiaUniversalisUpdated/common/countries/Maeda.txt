@@ -5,42 +5,38 @@ graphical_culture = asiangfx
 color = { 144  121  173 }
 
 historical_idea_groups = {
-	offensive_ideas
 	defensive_ideas
-	maritime_ideas
-	trade_ideas
-	quality_ideas
-	spy_ideas
-	diplomatic_ideas
-	administrative_ideas
+	organization_ideas
+	meritocratic_ideas
+	buddhist_ideas
+	traditional_ideas
+	mercantilist_ideas
 }
 
 historical_units = {
-	japanese_archer
-	eastern_bow
-	japanese_footsoldier
-	japanese_samurai
-	asian_arquebusier
-	asian_charge_cavalry
-	asian_mass_infantry
-	asian_musketeer
-	reformed_asian_musketeer
-	reformed_asian_cavalry
+	early_def_kanto_infantry
+	early_def_kanto_cavalry
+	def_kanto_infantry
+	def_kanto_cavalry
+	late_def_kanto_infantry
+	late_def_kanto_cavalry
+	advanced_kanto_infantry
+	advanced_kanto_cavalry
 }
 
-monarch_names = { 
-	"Toshiie #0" = 50	
-	"Toshinaga #0" = 50	
-	"Toshitsune #0" = 50	
-	"Mitsutaka #0" = 50	
+monarch_names = {
+	"Toshiie #0" = 50
+	"Toshinaga #0" = 50
+	"Toshitsune #0" = 50
+	"Mitsutaka #0" = 50
 	"Tsunanori #0" = 50	"Yoshinori #0" = 50
 	"Munetoki #0" = 50
 	"Shigehiro #0" = 50
 	"Shigenobu #0" = 50
-	"Shigemichi #0" = 50	
-	"Harunaga #0" = 50	
-	"Narinaga #0" = 50	
-	"Nariyasu #0" = 50	
+	"Shigemichi #0" = 50
+	"Harunaga #0" = 50
+	"Narinaga #0" = 50
+	"Nariyasu #0" = 50
 	"Yoshiyasu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
@@ -75,7 +71,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

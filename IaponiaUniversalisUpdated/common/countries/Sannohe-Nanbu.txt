@@ -15,7 +15,7 @@ historical_idea_groups = {
 
 historical_units = {
 	early_off_tohoku_infantry
-	early_off_tohoku_cavalry
+	early_def_tohoku_cavalry
 	off_tohoku_infantry
 	off_tohoku_cavalry
 	late_off_tohoku_infantry

@@ -17,7 +17,7 @@ historical_idea_groups = {
 
 historical_units = {
 	early_off_kansai_infantry
-	early_off_kansai_cavalry
+	early_def_kansai_cavalry
 	def_kansai_infantry
 	def_kansai_cavalry
 	late_def_kansai_infantry

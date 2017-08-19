@@ -17,7 +17,7 @@ historical_idea_groups = {
 
 historical_units = {
 	early_def_kanto_infantry
-	early_def_kanto_cavalry
+	early_off_kanto_cavalry
 	def_kanto_infantry
 	def_kanto_cavalry
 	late_def_kanto_infantry

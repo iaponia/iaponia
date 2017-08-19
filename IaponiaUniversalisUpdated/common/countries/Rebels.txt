@@ -1,21 +1,19 @@
 #Rebels
 
-graphical_culture = westerngfx
+graphical_culture = asiangfx
 
 color = { 30  30  30 }
 
 # Used for client states
-historical_idea_groups = {	
-	administrative_ideas
-	quantity_ideas
-	defensive_ideas	
-	humanist_ideas
-	trade_ideas
-	quality_ideas
-	economic_ideas	
-	maritime_ideas
+historical_idea_groups = {
+	influence_ideas
+	leadership_ideas
+	shinto_ideas
+	westernized_ideas
+	expansion_ideas
+	offensive_ideas
 }
-	
+
 monarch_names = {
 	"Corneles #0" = 10
 	"Moise #0" = 10
@@ -24,14 +22,14 @@ monarch_names = {
 	"Jacob #0" = 10
 	"Piet #0" = 10
 	"Hendrik #0" = 10
-	"David #0" = 10	
-	"John #0" = 10	
-	"Eric #0" = 10	
-	
-	"Boel #0" = -1	
-	"Alexandra #0" = -1	
-	"Regina #0" = -1	
-	"Miriam #0" = -1	
+	"David #0" = 10
+	"John #0" = 10
+	"Eric #0" = 10
+
+	"Boel #0" = -1
+	"Alexandra #0" = -1
+	"Regina #0" = -1
+	"Miriam #0" = -1
 }
 
 leader_names = {

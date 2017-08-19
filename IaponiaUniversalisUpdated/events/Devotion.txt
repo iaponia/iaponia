@@ -1707,56 +1707,7 @@ province_event = {
 }
 
 
-# Jubilee
-country_event = {
-	id = devotion_events.107
-	title = devotion_events.107.t
-	desc = devotion_events.107.d
-	picture = POPE_PREACHING_eventPicture
 
-	trigger = {
-		has_dlc = "Common Sense"
-		government = theocratic_government
-		NOT = {
-			has_country_flag = dev_jubilee_flag
-		}
-		religion = catholic
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = devotion_events.107.a
-		set_country_flag = dev_jubilee_flag
-		add_country_modifier = {
-			name = dev_jubilee
-			duration = 3650
-		}
-		if = {
-			limit = {
-				religion = catholic
-				exists = PAP
-				PAP = {
-					religion = catholic
-				}
-			}
-			PAP = {
-				country_event = {
-					id = devotion_events.108
-				}
-			}
-		}
-	}
-
-	option = {
-		name = devotion_events.107.b
-		add_devotion = 10
-	}
-}
 
 # Pope gets the news
 country_event = {
@@ -1793,47 +1744,6 @@ country_event = {
 			country_event = {
 				id = devotion_events.109
 				tooltip = devotion_events.109.t
-			}
-		}
-	}
-}
-
-# Pope's Reaction to Jubilee
-country_event = {
-	id = devotion_events.109
-	title = devotion_events.109.t
-	desc = devotion_events.109.d
-	picture = POPE_PREACHING_eventPicture
-
-	is_triggered_only = yes
-
-	option = {
-		name = devotion_events.109.a
-		trigger = {
-			has_country_flag = dev_jubilee_bad_flag
-		}
-		tooltip = {
-			PAP = {
-				add_opinion = {
-					who = ROOT
-					modifier = opinion_jubilee_bad
-				}
-			}
-		}
-	}
-
-	option = {
-		name = devotion_events.109.b
-		trigger = {
-			has_country_flag = dev_jubilee_good_flag
-		}
-		clr_country_flag = dev_jubilee_good_flag
-		tooltip = {
-			PAP = {
-				add_opinion = {
-					who = ROOT
-					modifier = opinion_jubilee_good
-				}
 			}
 		}
 	}

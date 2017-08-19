@@ -349,7 +349,11 @@ province_event = {
 		}
 		modifier = {
 			factor = 0.9
-			owner = { theologian = 3 }
+			owner = { theologian_a = 3 }
+		}
+		modifier = {
+			factor = 0.9
+			owner = { monk_a = 3 }
 		}
 	}
 

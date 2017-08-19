@@ -3,9 +3,9 @@ government_rank = 1
 primary_culture = rikugo_c
 religion = shinto
 technology_group = tohoku
-capital = 605	# Tsugaru
+capital = 661	# Kita-Tsugaru
 
-1435.1.1 = { 
+1435.1.1 = {
 	monarch = {
 		name = "Akikuni"
 		dynasty = "Kitabatake"
@@ -28,8 +28,8 @@ capital = 605	# Tsugaru
 		mil = 3
 	}
 }
-	
-1460.1.1 = { 
+
+1460.1.1 = {
 	monarch = {
 		name = "Akiyoshi"
 		dynasty = "Kitabatake"
@@ -52,8 +52,8 @@ capital = 605	# Tsugaru
 		mil = 3
 	}
 }
-	
-1480.1.1 = { 
+
+1480.1.1 = {
 	monarch = {
 		name = "Akitomo"
 		dynasty = "Kitabatake"
@@ -77,7 +77,7 @@ capital = 605	# Tsugaru
 	}
 }
 
-1520.1.1 = { 
+1520.1.1 = {
 	monarch = {
 		name = "Tomonaga"
 		dynasty = "Kitabatake"
@@ -101,7 +101,7 @@ capital = 605	# Tsugaru
 	}
 }
 
-1555.6.13 = { 
+1555.6.13 = {
 	monarch = {
 		name = "Tomokazu"
 		dynasty = "Kitabatake"
@@ -125,7 +125,7 @@ capital = 605	# Tsugaru
 	}
 }
 
-1562.2.6 = { 
+1562.2.6 = {
 	monarch = {
 		name = "Akimura"
 		dynasty = "Kitabatake"

@@ -3,9 +3,9 @@ government_rank = 1
 primary_culture = sasshu_c
 religion = shinto
 technology_group = kyushu
-capital = 19	# Morokata
-	
-1440.1.1 = { 
+capital = 635	# Minami-Morokata
+
+1440.1.1 = {
 	monarch = {
 		name = "Tadaomi"
 		dynasty = "Niiro"
@@ -28,8 +28,8 @@ capital = 19	# Morokata
 		mil = 3
 	}
 }
-	
-1450.1.1 = { 
+
+1450.1.1 = {
 	monarch = {
 		name = "Tadaharu"
 		dynasty = "Niiro"
@@ -53,7 +53,7 @@ capital = 19	# Morokata
 	}
 }
 
-1455.1.1 = { 
+1455.1.1 = {
 	monarch = {
 		name = "Tadatsugu"
 		dynasty = "Niiro"
@@ -63,7 +63,7 @@ capital = 19	# Morokata
 	}
 }
 
-1490.1.1 = { 
+1490.1.1 = {
 	monarch = {
 		name = "Tadatake"
 		dynasty = "Niiro"
@@ -87,7 +87,7 @@ capital = 19	# Morokata
 	}
 }
 
-1510.1.1 = { 
+1510.1.1 = {
 	monarch = {
 		name = "Tadakatsu"
 		dynasty = "Niiro"

@@ -329,10 +329,6 @@ country_event = {
 		days = 1
 
 		modifier = {
-			factor = 2.0
-			NOT = { innovativeness_ideas = 1 }
-		}
-		modifier = {
 			factor = 0.5
 			luck = yes
 		}
@@ -7873,54 +7869,6 @@ country_event = {
 		}
 	}
 }
-
-# Merchant Expedition
-country_event = {
-	id = 881
-	title = "EVTNAME881"
-	desc = "EVTDESC881"
-	picture = EXPLORERS_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		has_idea = quest_for_the_new_world
-		num_of_ports = 1
-		num_of_merchants = 2
-		any_active_trade_node = {
-			is_sea = yes
-		}
-		capital_scope = { continent = europe }
-		carribeans_region = {
-			NOT = { has_discovered = ROOT }
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "EVTOPTA881"
-		random_owned_province = {
-			limit = { has_port = yes }
-			heavy_ship = ROOT
-		}
-		create_explorer = 20
-	}
-	option = {
-		name = "personality_options.881.a"
-		highlight = yes
-		trigger = { ruler_has_personality = navigator_personality }
-		required_personality = navigator_personality
-		random_owned_province = {
-			limit = { has_port = yes }
-			heavy_ship = ROOT
-		}
-		create_explorer = 50
-	}
-}
-
 
 # Country Destabilized
 country_event = {

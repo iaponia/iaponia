@@ -12,35 +12,17 @@ country_event = {
 	title = estate_disasters.1.t
 	desc = estate_disasters.1.d
 	picture = NOBLE_ESTATE_TAKE_OVER_eventPicture
-	
+
 	major = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_country_flag = noble_estate_in_power
 	}
-	
+
 	option = {
-		name = estate_disasters.1.a	
+		name = estate_disasters.1.a
 		add_stability = -1
-		if = {
-			limit = {
-				is_tribal = no
-				NOT = {
-					government = elective_monarchy
-				}
-			}
-			change_government = noble_republic
-		}
-		if = {
-			limit = {
-				government = elective_monarchy
-			}
-			add_country_modifier = {
-				name = noble_power_elective_monarchy
-				duration = -1
-			}
-		}
 		custom_tooltip = estate_disasters.1.a.tt
 	}
 }
@@ -51,10 +33,10 @@ country_event = {
 	title = estate_disasters.2.t
 	desc = estate_disasters.2.d
 	picture = NOBLE_ESTATE_eventPicture
-	
+
 	major = yes
 	is_triggered_only = yes
-	
+
 	option = {
 		name = estate_disasters.2.a
 	}
@@ -66,16 +48,16 @@ country_event = {
 	title = estate_disasters.3.t
 	desc = estate_disasters.3.d
 	picture = CHURCH_ESTATE_UPSET_eventPicture
-	
+
 	major = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_country_flag = church_estate_in_power
 	}
-	
+
 	option = {
-		name = estate_disasters.3.a	
+		name = estate_disasters.3.a
 		add_stability = -1
 		custom_tooltip = estate_disasters.3.a.tt
 	}
@@ -87,10 +69,10 @@ country_event = {
 	title = estate_disasters.4.t
 	desc = estate_disasters.4.d
 	picture = CHURCH_ESTATE_1_eventPicture
-	
+
 	major = yes
 	is_triggered_only = yes
-	
+
 	option = {
 		name = estate_disasters.4.a
 	}
@@ -102,16 +84,16 @@ country_event = {
 	title = estate_disasters.5.t
 	desc = estate_disasters.5.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-	
+
 	major = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_country_flag = burghers_estate_in_power
 	}
-	
+
 	option = {
-		name = estate_disasters.5.a	
+		name = estate_disasters.5.a
 		add_stability = -1
 		custom_tooltip = estate_disasters.5.a.tt
 	}
@@ -123,10 +105,10 @@ country_event = {
 	title = estate_disasters.6.t
 	desc = estate_disasters.6.d
 	picture = BURGHER_ESTATE_eventPicture
-	
+
 	major = yes
 	is_triggered_only = yes
-	
+
 	option = {
 		name = estate_disasters.6.a
 	}
@@ -138,16 +120,16 @@ country_event = {
 	title = estate_disasters.7.t
 	desc = estate_disasters.7.d
 	picture = NOMAD_ESTATE_eventPicture
-	
+
 	major = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_country_flag = nomadic_tribes_estate_in_power
 	}
-	
+
 	option = {
-		name = estate_disasters.7.a	
+		name = estate_disasters.7.a
 		add_stability = -1
 		custom_tooltip = estate_disasters.7.a.tt
 	}
@@ -159,10 +141,10 @@ country_event = {
 	title = estate_disasters.8.t
 	desc = estate_disasters.8.d
 	picture = NOMAD_ESTATE_eventPicture
-	
+
 	major = yes
 	is_triggered_only = yes
-	
+
 	option = {
 		name = estate_disasters.8.a
 	}
@@ -174,16 +156,16 @@ country_event = {
 	title = estate_disasters.9.t
 	desc = estate_disasters.9.d
 	picture = DHIMMI_ESTATE_UPSET_eventPicture
-	
+
 	major = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_country_flag = dhimmi_estate_triggered
-	}	
-	
+	}
+
 	option = {
-		name = estate_disasters.9.a	
+		name = estate_disasters.9.a
 		create_independent_estate_from_religion = estate_dhimmi
 	}
 }
@@ -194,19 +176,16 @@ country_event = {
 	title = estate_disasters.10.t
 	desc = estate_disasters.10.d
 	picture = COSSACK_ESTATE_UPSET_eventPicture
-	
+
 	major = yes
 	is_triggered_only = yes
-	
+
 	immediate = {
 		set_country_flag = cossack_estate_triggered
 	}
-	
+
 	option = {
-		name = estate_disasters.10.a	
+		name = estate_disasters.10.a
 		create_independent_estate = estate_cossacks
 	}
 }
-
-
-

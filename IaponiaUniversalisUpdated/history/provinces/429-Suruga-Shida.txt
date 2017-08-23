@@ -14,7 +14,7 @@ religion = shinto
 capital = "Ishigami"
 is_city = yes
 
-base_tax = 6
+base_tax = 4
 base_production = 4
 base_manpower = 4
 

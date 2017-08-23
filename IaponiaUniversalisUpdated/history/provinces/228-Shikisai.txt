@@ -15,9 +15,10 @@ culture = harima_c
 religion = shinto
 capital = "Aga"
 is_city = yes
+fortified_mansion = yes
 
-base_tax = 5
-base_production = 5
+base_tax = 6
+base_production = 6
 base_manpower = 3
 
 trade_goods = rice

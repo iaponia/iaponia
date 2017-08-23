@@ -10,7 +10,7 @@ add_core = IWY
 owner = IWY
 controller = IWY
 
-culture = unpaku_c
+culture = iwami_c
 religion = shinto
 capital = "Futatsuyama"
 is_city = yes

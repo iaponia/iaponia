@@ -9,7 +9,7 @@ add_core = YMN
 owner = YMN
 controller = YMN
 
-culture = inaba_c
+culture = harima_c
 religion = shinto
 capital = "Ikuno"
 is_city = yes

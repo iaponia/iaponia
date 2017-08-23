@@ -20,6 +20,7 @@ technology = {
 	# Tech 1
 	year = 1420
 	
+	range = 125
 	may_fabricate_claims = yes
 }
 
@@ -29,7 +30,6 @@ technology = {
 	
 	enable = kobaya
 	enable = bune
-	range = 250
 	trade_efficiency = 0.05
 }
 
@@ -46,6 +46,7 @@ technology = {
 	year = 1485
 
 	trade_range = 50
+	range = 125
 	toll_roads = yes 
 }
 
@@ -81,6 +82,7 @@ technology  = {
 	
 	workshop = yes
 	post_roads = yes
+	range = 125
 }
 
 technology = {
@@ -148,6 +150,7 @@ technology = {
 	trade_efficiency = 0.05
 	highways = yes
 	trade_range = 50
+	range = 125
 	num_accepted_cultures = 1
 }
 

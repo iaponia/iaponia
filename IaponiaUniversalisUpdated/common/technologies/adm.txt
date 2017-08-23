@@ -54,6 +54,7 @@ technology = {
 	
 	shugo_daimyo_monarchy = yes
 	max_states = 5
+	may_force_march = yes
 }
 
 technology = {
@@ -92,7 +93,6 @@ technology = {
 	# Tech 10
 	year = 1539
 	
-	mine_network = yes
 	sengoku_monarchy = yes
 	production_efficiency = 0.05
 }
@@ -101,8 +101,8 @@ technology = {
 	# Tech 11
 	year = 1548
 	
+	mine_network = yes
 	granary = yes
-	may_force_march = yes
 }
 
 technology = {

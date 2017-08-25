@@ -825,7 +825,7 @@ province;red;green;blue;x;x
 824;117;144;255;Mariquita;x
 825;245;146;0;Bogota;x
 826;118;148;64;Choco;x
-827;246;150;128;Antioqu˙};x
+827;246;150;128;AntioquÔøΩ};x
 828;118;152;192;Cartagena;x
 829;246;154;255;Magdalena;x
 830;118;156;0;Maracaibo;x
@@ -840,7 +840,7 @@ province;red;green;blue;x;x
 839;128;42;79;Pipil;x
 840;0;44;126;Honduras;x
 841;129;46;173;Guatemala;x
-842;1;48;32;PetÈn;x
+842;1;48;32;PetÔøΩn;x
 843;129;50;79;Belize;x
 844;1;52;126;Zapotec;x
 845;129;54;173;Campeche;x
@@ -1765,7 +1765,7 @@ province;red;green;blue;x;x
 1766;70;116;126;Kosovo;x
 1767;198;118;173;Osijek;x
 1768;70;120;32;Lienz;x
-1769;198;122;79;Gˆrz;x
+1769;198;122;79;GÔøΩrz;x
 1770;70;124;126;Ostmarch;x
 1771;198;126;173;Erz;x
 1772;70;128;32;Presburg;x
@@ -1801,7 +1801,7 @@ province;red;green;blue;x;x
 1802;203;62;173;Northern Amazonas;x
 1803;75;64;32;Southern Amazonas;x
 1804;203;66;79;Greenland;x
-1805;75;68;126;QuÈbec;x
+1805;75;68;126;QuÔøΩbec;x
 1806;203;70;173;Weagamow;x
 1807;76;72;32;Baffin Island;x
 1808;204;74;79;Great Basin;x
@@ -1865,7 +1865,7 @@ province;red;green;blue;x;x
 1866;212;62;173;Namur ;x
 1867;84;64;32;Freiburg;x
 1868;212;66;79;Augsburg;x
-1869;84;68;126;ZÅEich;x
+1869;84;68;126;ZÔøΩEich;x
 1870;213;70;173;S:t Gallen;x
 1871;85;72;32;Wallis;x
 1872;86;84;126;Ulm;x
@@ -1877,8 +1877,8 @@ province;red;green;blue;x;x
 1878;214;86;173;Aachen;x
 1879;86;88;32;Alencon;x
 1880;214;90;79;Sundgau;x
-1881;213;74;79;St. BarthÈlemy;x
-1882;214;94;173;BÙne;x
+1881;213;74;79;St. BarthÔøΩlemy;x
+1882;214;94;173;BÔøΩne;x
 1883;0;0;232;Western Finish lakes;x
 1884;1;0;236;East Finish lakes;x
 1885;2;0;240;Central finish lakes;x
@@ -1921,12 +1921,12 @@ province;red;green;blue;x;x
 1922;39;0;248;Great salt lake;x
 1923;40;0;232;Williston Lake;x
 1924;62;206;252;Greenland tip;x
-1925;62;214;252;B‰lt sound;x
+1925;62;214;252;BÔøΩlt sound;x
 1926;62;230;252;Northern baltic sea;x
 1927;62;218;252;Eastern baltic sea;x
 1928;62;234;252;Western Alands sea;x
 1929;62;210;252;Western Norwegian Sea;x
-1930;237;154;79;≈land;x
+1930;237;154;79;ÔøΩland;x
 1931;130;60;50;East Frisia;x
 1932;49;150;248;Gulf of Satalia;x
 1933;50;0;232;Bari;x
@@ -1934,7 +1934,7 @@ province;red;green;blue;x;x
 1935;52;0;240;Semigallia;x
 1936;55;0;0;Kovno;x
 1937;65;0;250;Grodno;x
-1938;75;0;25;Wizna;x 
+1938;75;0;25;Wizna;x
 1939;85;0;225;Leczyca;x
 1940;95;0;50;Belz;x
 1941;105;0;200;Turov;x
@@ -1973,15 +1973,15 @@ province;red;green;blue;x;x
 1974;215;110;173;Yedishkul;x
 1975;105;225;255;Sea of Jutland;x
 1976;93;0;244;Dead Sea;x
-1977;94;0;248;M‰laren;x
+1977;94;0;248;MÔøΩlaren;x
 1978;95;0;232;Shetlands;x
-1979;96;0;236;F‰rˆarnax;x
+1979;96;0;236;FÔøΩrÔøΩarnax;x
 1980;136;253;253;Sea of Japan;x
 1981;98;0;244;Bornholm;x
 1982;99;0;248;Blekinge;x
 1983;100;0;232;Lolland;x
 1984;101;0;236;Nordjylland;x
-1985;102;240;0;N‰rke;x
+1985;102;240;0;NÔøΩrke;x
 1986;103;0;244;New Caledonia;x
 1987;104;0;248;Society Islands;x
 1988;105;0;232;Rapa Nui;x
@@ -1997,33 +1997,3 @@ province;red;green;blue;x;x
 1998;115;0;232;x;x
 1999;116;0;236;x;x
 2000;117;0;240;x;x
-2001;118;0;244;x;x
-2002;119;0;248;x;x
-2003;120;2;232;x;x
-2004;121;2;236;x;x
-2005;122;2;240;x;x
-2006;123;2;244;x;x
-2007;124;2;248;x;x
-2008;125;2;232;x;x
-2009;126;2;236;x;x
-2010;255;1;40;x;x
-2011;255;2;120;x;x
-2012;255;3;160;x;x
-2013;255;4;40;x;x
-2014;255;5;120;x;x
-2015;255;6;160;x;x
-2016;255;7;40;x;x
-2017;255;8;120;x;x
-2018;255;9;160;x;x
-2019;255;10;40;x;x
-2020;255;11;120;x;x
-2021;255;12;160;x;x
-2022;255;13;40;x;x
-2023;255;14;120;x;x
-2024;255;15;160;x;x
-2025;255;16;40;x;x
-2026;255;17;120;x;x
-2027;255;18;160;x;x
-2028;255;19;40;x;x
-2029;255;20;120;x;x
-2030;255;21;160;x;x

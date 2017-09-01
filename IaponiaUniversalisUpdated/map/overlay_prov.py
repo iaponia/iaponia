@@ -9,8 +9,13 @@ def main():
 	for x in provinces:
 		print(x)
 	bmp = subprocess.check_output(['convert', 'provinces.bmp', '-define', 'histogram:unique-colors=true', '-format', '%c', 'histogram:info:-'])
-	print(bmp)
+	colorRegex = re.compile('#[0-9a-zA-Z]{6}')
+	bmp = [x.strip() for x in bmp.decode("utf-8").split("\n")]
 
+	for x in bmp:
+		matched = colorRegex.match(x)
+		if matched:
+			print(matched.group(0))
 
 	# vanillatags = codecs.open(vanillaFile, encoding="utf-8").readlines()
 	# vanillatags = [x.strip() for x in vanillatags]

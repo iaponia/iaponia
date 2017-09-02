@@ -13,9 +13,11 @@ def main():
 	bmp = [x.strip() for x in bmp.decode("utf-8").split("\n")]
 
 	for x in bmp:
-		matched = colorRegex.match(x)
+		matched = colorRegex.search(x)
 		if matched:
 			print(matched.group(0))
+			subprocess.check_output(['convert', 'provinces.bmp', '-fill', 'black', '+opaque',
+			''+matched.group(0)+'', 'out_'+matched.group(0)+'.png'])
 
 	# vanillatags = codecs.open(vanillaFile, encoding="utf-8").readlines()
 	# vanillatags = [x.strip() for x in vanillatags]

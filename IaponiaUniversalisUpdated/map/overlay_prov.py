@@ -4,10 +4,11 @@ import codecs, sys, re, subprocess, scipy.misc
 #usage: ./tagcheck.py <mod's 00_countries.txt> <vanilla's 00_countries.txt>
 
 def main():
-	provinces = codecs.open("definition.csv", encoding="utf-8").readlines()
+	provinces = codecs.open("definition.csv", encoding="latin_1").readlines()
 	provinces = [x.strip().split(";") for x in provinces[1:]]
 
-	provMap = scipy.misc.imread('provinces.bmp')
+	subprocess.check_output(['convert', 'provinces.bmp', 'provinces-numbered.png'])
+	provMap = scipy.misc.imread('provinces-numbered.png')
 	colorMap = {}
 	for line in range(1, len(provMap)-1):
 		if line%50 == 0:
@@ -20,7 +21,7 @@ def main():
 			else:
 				colorMap[thisColor] = [(line, col)]
 
-	subprocess.check_output(['convert', 'provinces.bmp', '-scale', '200%', 'provinces-numbered.png'])
+	subprocess.check_output(['convert', 'provinces-numbered.png', '-scale', '200%', 'provinces-numbered.png'])
 	numbers = ['convert', 'provinces-numbered.png', '-font', 'FreeSans-Bold', '-pointsize','20']
 	for prov in provinces:
 		if (int(prov[1]), int(prov[2]), int(prov[3])) in colorMap.keys():

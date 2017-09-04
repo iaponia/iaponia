@@ -20,52 +20,33 @@ def main():
 			else:
 				colorMap[thisColor] = [(line, col)]
 
-
-	subprocess.check_output(['convert', 'provinces.bmp', '-scale', '200%', 'newprov.png'])
-	numbers = ['convert', 'newprov.png', '-font', 'FreeSans-Bold', '-pointsize','20']
+	subprocess.check_output(['convert', 'provinces.bmp', '-scale', '200%', 'provinces-numbered.png'])
+	numbers = ['convert', 'provinces-numbered.png', '-font', 'FreeSans-Bold', '-pointsize','20']
 	for prov in provinces:
 		if (int(prov[1]), int(prov[2]), int(prov[3])) in colorMap.keys():
 			thisColor = colorMap[(int(prov[1]), int(prov[2]), int(prov[3]))]
 			y = sum([c[0] for c in thisColor])//len(thisColor) * 2
-			x = abs(sum([c[1] for c in thisColor])//len(thisColor) *2 - 4)
-			print(prov[0], provMap[y/2][x/2-2], (int(prov[1]), int(prov[2]), int(prov[3])))
+			x = abs(sum([c[1] for c in thisColor])//len(thisColor) *2)
+			colorOnCenter = provMap[y/2][x/2]
+			if (colorOnCenter[0], colorOnCenter[1], colorOnCenter[2]) != (int(prov[1]), int(prov[2]), int(prov[3])):
+				y, x = sorted(thisColor, key=lambda point: distance((point[0]*2, point[1]*2), (y, x)))[0]
+				y, x = y*2, x*2
 			if len(thisColor) > 400:
 				numbers += ['-pointsize', '16']
 			else:
 				numbers += ['-pointsize', '10']
-			numbers += ['-draw', "fill white text "+str(x)+","+str(y)+" '"+prov[0]+"'"]
-			numbers += ['-draw', "fill black text "+str(x+1)+","+str(y-1)+" '"+prov[0]+"'"]
-			#print(int(prov[1]), int(prov[2]), int(prov[3]),
-				#colorMap[(int(prov[1]), int(prov[2]), int(prov[3]))])
+			numbers += ['-draw', "fill white text "+str(x-4)+","+str(y+4)+" '"+prov[0]+"'"]
+			numbers += ['-draw', "fill black text "+str(x-3)+","+str(y+3)+" '"+prov[0]+"'"]
 
-	subprocess.check_output(numbers + ['newprov.png'])
-	#subprocess.check_output(['convert', 'provinces.bmp', '-font', 'FreeSans-Regular', '-pointsize', '12', '-draw', "fill black text 400,400 '1'", 'newprov.png'])
-	#for color in colorMap:
-		#print((sum([x[0] for x in colorMap[color]])//len(colorMap[color])),
-		#sum([x[1] for x in colorMap[color]])//len(colorMap[color]))
+	subprocess.check_output(numbers + ['provinces-numbered.png'])
 
 
-	#print(colorMap)
-	#scipy.misc.imsave('newprov.png', newMap)
+def distance(x, y):
+	return((x[0]-y[0])**2 + (x[1]-y[1])**2)
+	#no need to take the square root
 
 def neighbors(x, y):
 	return ((x-1, y),(x+1, y),(x,y-1),(x,y+1))
-	# vanillatags = codecs.open(vanillaFile, encoding="utf-8").readlines()
-	# vanillatags = [x.strip() for x in vanillatags]
-	# vanillaTagList = {}
-	# for x in vanillatags:
-	# 	matched = tagRegex.match(x)
-	# 	if matched:
-	# 		tagAndName = matched.group(0).split('=')
-	# 		vanillaTagList[tagAndName[0].strip()] = tagAndName[1].strip()
-	#
-	# for x in myTagList.keys():
-	# 	try:
-	# 		if myTagList[x] != vanillaTagList[x]:
-	# 			print "ERROR:", x, "is", myTagList[x], "in mod, but", vanillaTagList[x], "in vanilla"
-	# 	except KeyError:
-	# 		pass
-
 
 if __name__ == "__main__":
 	main()

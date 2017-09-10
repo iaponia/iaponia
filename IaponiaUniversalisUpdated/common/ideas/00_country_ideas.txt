@@ -25,11 +25,7 @@ ODA_ideas = {
 	}
   
 	trigger = {
-	OR = {
 		tag = ODA
-		tag = IOD
-		tag = KOD
-	}
 	}
 	free = yes
   
@@ -69,10 +65,7 @@ TKG_ideas = {
 	}
   
 	trigger = {
-	OR = {
 		tag = TKG
-		tag = MDR
-	}
 	}
 	free = yes
   
@@ -279,7 +272,10 @@ AMA_ideas = {
 	}
   
 	trigger = {
+	OR = {
 		tag = AMA
+		tag = YMK
+	}
 	}
 	free = yes
   
@@ -333,7 +329,7 @@ CSK_ideas = {
 		ae_impact = -0.1
 	}
 	article_code = {
-		administrative_efficiency = 0.05
+		max_absolutism = 5
 	}
 	expand_castle_towns = {
 		development_cost = -0.1
@@ -397,13 +393,7 @@ SMZ_ideas = {
 	}
   
 	trigger = {
-	OR = {
 		tag = SMZ
-		tag = OSZ
-		tag = SSZ
-		tag = ISZ
-		tag = HSZ
-	}
 	}
 	free = yes
   
@@ -518,13 +508,7 @@ UES_ideas = {
 	}
   
 	trigger = {
-	OR = {
 		tag = UES
-		tag = OUE 
-		tag = EGU
-		tag = NGO
-		tag = NGN
-	}
 	}
 	free = yes
   
@@ -720,7 +704,10 @@ UKT_ideas = {
 	}
 	
 	trigger = {
+	OR = {
 		tag = UKT
+		tag = AKA
+	}
 	}
 	free = yes
 	
@@ -1108,12 +1095,7 @@ HTK_ideas = {
 	}
 
 	trigger = {
-		OR = {
 		tag = HTK
-		tag = BHY
-		tag = NHK
-		tag = SHK
-		}
 	}
 	free = yes
 	
@@ -1230,10 +1212,7 @@ UMY_ideas = {
 	}
 
 	trigger = {
-		OR = {
 		tag = UMY
-		tag = IUM
-		}
 	}
 	free = yes
 	
@@ -1316,7 +1295,6 @@ ADO_ideas = {
 		OR = {
 		tag = ADO
 		tag = MNO
-		tag = KKZ
 		}
 	}
 	free = yes
@@ -1625,10 +1603,7 @@ SBA_ideas = {
 		production_efficiency = 0.1
 	}
 	trigger = {
-		OR = {
 		tag = SBA
-		tag = OSB
-		}
 	}
 	free = yes
 	
@@ -1941,6 +1916,10 @@ KMK_ideas = {
 		tag = KHR
 		tag = HNG
 		tag = HKR
+		tag = OSZ
+		tag = SSZ
+		tag = ISZ
+		tag = HSZ
 		}
 	}
 	free = yes
@@ -1965,5 +1944,1291 @@ KMK_ideas = {
 	}
 	ryukyu_trade = {
 		global_trade_power = 0.1
+	}
+}
+
+KIR_ideas = {
+	start = {
+		global_unrest = -1
+		diplomatic_reputation = 1
+	}
+	bonus = {
+		diplomats = 1
+	}
+	trigger = {
+		tag = KIR
+	}
+	free = yes
+	
+	rotten_world = {
+		idea_cost = -0.1
+	}
+	i_am_kira = {
+		discipline = 0.05
+	}
+	gods_of_death_like_apples = {
+		spy_offence = 0.2
+	}
+	god_of_the_new_world = {
+		land_morale = 0.15
+	}
+	yagami_backwards = {
+		land_forcelimit_modifier = 0.25
+	}
+	eat_potato_chip = {
+		administrative_efficiency = 0.05
+	}
+	incomprehensible_lyrics = {
+		max_absolutism = 5
+	}
+}
+
+TOY_ideas = {
+	start = {
+		core_creation = -0.2
+		infantry_power = 0.1
+	}
+	bonus = {
+		religious_unity = 0.25
+	}
+	trigger = {
+		OR = {
+		tag = TOY
+		tag = HSB
+		}
+	}
+	free = yes
+	
+	golden_gourd_standard = {
+		siege_ability = 0.1
+	}
+	forced_marches = {
+		movement_speed = 0.2
+	}
+	separation_edict = {
+		land_forcelimit_modifier = 0.25
+	}
+	population_census = {
+		global_tax_modifier = 0.2
+	}
+	reformed_land_holding = {
+		global_manpower_modifier = 0.25
+	}
+	five_elder_council = {
+		free_leader_pool = 1
+	}
+	toyokuni_shrines = {
+		land_morale = 0.15
+	}
+}
+
+AKC_ideas = {
+	start = {
+		fabricate_claims_cost = -0.25
+		unjustified_demands = -0.25
+	}
+	bonus = {
+		army_tradition_decay = -0.01
+	}
+	trigger = {
+		tag = AKC
+	}
+	free = yes
+	
+	sleeping_wolf = {
+		spy_offence = 0.2
+	}
+	arquebus_tactics = {
+		fire_damage = 0.1
+	}
+	renga_gatherings = {
+		diplomatic_upkeep = 1
+	}
+	minamoto_legacy = {
+		discipline = 0.05
+	}
+	interpersonal_debts = {
+		diplomats = 1
+	}
+	crows_of_akechi = {
+		shock_damage_received = -0.1
+	}
+	imperial_protector = {
+		province_warscore_cost = -0.25
+	}
+}
+
+GAM_ideas = {
+	start = {
+		global_trade_goods_size_modifier = 0.1
+		trade_efficiency = 0.1
+	}
+	bonus = {
+		fire_damage = 0.1
+	}
+	trigger = {
+		tag = GAM
+	}
+	free = yes
+	
+	vanguard_commander = {
+		cavalry_power = 0.1
+	}
+	hino_production = {
+		development_cost = -0.1
+	}
+	castle_builders = {
+		build_cost = -0.1
+	}
+	tea_patrons = {
+		diplomatic_reputation = 1
+	}
+	meritocracy = {
+		army_tradition = 0.5
+	}
+	strict_regulations = {
+		discipline = 0.05
+	}
+	upright_lords = {
+		tolerance_own = 1
+		church_power_modifier = 0.05
+	}
+}
+
+SHB_ideas = {
+	start = {
+		cavalry_power = 0.15
+		cavalry_flanking = 0.25
+	}
+	bonus = {
+		land_maintenance_modifier = -0.1
+	}
+	trigger = {
+		tag = SHB
+	}
+	free = yes
+	
+	shiba_branch = {
+		prestige = 1
+	}
+	senior_retainer = {
+		improve_relation_modifier = 0.15
+	}
+	pot_smashing = {
+		shock_damage = 0.1
+	}
+	break_sects = {
+		production_efficiency = 0.1
+	}
+	oni_shibata = {
+		leader_land_shock = 1
+	}
+	oda_loyalist = {
+		diplomatic_upkeep = 1
+	}
+	position_on_roads = {
+		land_forcelimit_modifier = 0.2
+	}
+}
+
+MAE_ideas = {
+	start = {
+		infantry_power = 0.15
+		infantry_cost = -0.15
+	}
+	bonus = {
+		global_manpower_modifier = 0.2
+	}
+	trigger = {
+		OR = {
+		tag = MAE
+		tag = NMA
+		}
+	}
+	free = yes
+	
+	humble_beginnings = {
+		discipline = 0.05
+	}
+	famed_frugality = {
+		global_tax_modifier = 0.1
+	}
+	million_koku_fief = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	skilled_retainers = {
+		advisor_cost = -0.15
+	}
+	end_succession_disputes = {
+		production_efficiency = 0.1
+	}
+	welcome_refugees = {
+		development_cost = -0.1
+	}
+	oyama_shrine = {
+		tolerance_heretic = 2
+	}
+}
+
+ISH_ideas = {
+	start = {
+		land_morale = 0.15
+		global_tax_modifier = 0.15
+	}
+	bonus = {
+		diplomatic_upkeep = 1
+	}
+	trigger = {
+		tag = ISH
+	}
+	free = yes
+	
+	fujiwara_branch = {
+		prestige = 1
+	}
+	cultured_lords = {
+		idea_cost = -0.1
+	}
+	excellent_logistics = {
+		land_maintenance_modifier = -0.1
+	}
+	tolerant_admnistration = {
+		tolerance_heretic = 3
+	}
+	toyotomi_sympathizers = {
+		rebel_support_efficiency = 0.25
+	}
+	ronin_benefits = {
+		merc_maintenance_modifier = -0.25
+		advisor_cost = -0.1
+	}
+	one_and_all_banner = {
+		administrative_efficiency = 0.05
+	}
+}
+
+KTO_ideas = {
+	start = {
+		cavalry_power = 0.1
+		shock_damage = 0.1
+	}
+	bonus = {
+		defensiveness = 0.2
+	}
+	trigger = {
+		tag = KTO
+	}
+	free = yes
+	
+	iida_engineering = {
+		fort_maintenance_modifier = -0.2
+	}
+	 = {
+		global_missionary_strength = 0.02
+	}
+	 = {
+		tolerance_own = 2
+	}
+	 = {
+		stability_cost_modifier = -0.1
+	}
+	 = {
+		leader_land_manuever = 1
+		loot_amount = 0.1
+	}
+	 = {
+		diplomatic_reputation = 1
+	}
+	 = {
+		discipline = 0.05
+	}
+}
+
+KRD_ideas = {
+	start = {
+		fire_damage = 0.1
+		infantry_power = 0.15
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = KRD
+	}
+	free = yes
+	
+	 = {
+		trade_efficiency = 0.1
+	}
+	 = {
+		land_maintenance_modifier = -0.1
+	}
+	 = {
+		global_missionary_strength = 0.01
+		church_power_modifier = 0.1
+	}
+	 = {
+		siege_ability = 0.1
+		build_cost = -0.1
+	}
+	 = {
+		merc_maintenance_modifier = -0.25
+	}
+	 = {
+		advisor_cost = -0.15
+	}
+	 = {
+		core_creation = -0.15
+	}
+}
+
+NBS_ideas = {
+	start = {
+		land_forcelimit_modifier = 0.2
+		discipline = 0.05
+	}
+	bonus = {
+		artillery_power = 0.1
+	}
+	trigger = {
+		tag = NBS
+	}
+	free = yes
+	
+	shoni_branch = {
+		diplomatic_reputation = 1
+	}
+	nabeshima_vanguard = {
+		shock_damage = 0.1
+	}
+	hizen_porcelain = {
+		trade_efficiency = 0.1
+	}
+	hagakure = {
+		prestige = 1
+	}
+	port_management = {
+		global_prov_trade_power_modifier = 0.2
+	}
+	invite_talent = {
+		development_cost = -0.1
+	}
+	foreign_closeness = {
+		technology_cost = -0.1
+	}
+}
+
+TOD_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		tag = TOD
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+KGK_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = KGK
+		tag = IKY
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+NKM_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		tag = NKM
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+TSU_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = TSU
+		tag = OUR
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+OSK_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = OSK
+		tag = OSB
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+ASN_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		tag = ASN
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+STM_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		tag = STM
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+ICJ_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		tag = ICJ
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+KBK_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		tag = KBK
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+MAT_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = MAT
+		tag = KKZ
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+MNA_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		tag = MNA
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+IKE_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = IKE
+		tag = IOD
+		tag = KOD
+		tag = GOD
+		tag = HOR
+		tag = KNM
+		tag = KWJ
+		tag = KUK
+		tag = NIW
+		tag = OMO
+		tag = SSS
+		tag = TAK
+		TAG = YMC
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+TCB_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = TCB
+		tag = TKH
+		tag = TSM
+		tag = TWA
+		tag = SHG
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+KBY_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = KBY
+		tag = KKK
+		tag = KKB
+		tag = SHZ
+		tag = MST
+		tag = NNJ
+		tag = YSM
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+MDR_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = MDR
+		tag = HND
+		tag = YII
+		tag = OKU
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+KKR_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = KKR
+		tag = KKU
+		tag = MDT
+		tag = RSU
+		tag = KSI
+		tag = TMA
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+NGO_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = NGO
+		tag = OUE
+		tag = EGU
+		tag = NGN
+		tag = HNJ
+		tag = NAO
+		tag = NMT
+		tag = NRT
+		tag = OTA
+		tag = SII
+		tag = UNG
+		tag = HNM
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+SGO_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = SGO
+		tag = ATA
+		tag = WKZ
+		tag = YTM
+		tag = KGW
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+YUK_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = YUK
+		tag = AUM
+		tag = KUM
+		tag = KAA
+		tag = IUM
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+NHK_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = NHK
+		tag = SHK
+		tag = JNB
+		tag = YSA
+		tag = BHY
+		tag = NHY
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+AAI_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = AAI
+		tag = NAK
+		tag = TKY
+		tag = WAD
+		tag = YKS
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+MKM_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = MKM
+		tag = KSO
+		tag = SWA
+		tag = TNS
+		tag = UNO
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+}
+
+KNH_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	trigger = {
+		OR = {
+		tag = ANO
+		tag = FUK
+		tag = HCH
+		tag = HRI
+		tag = IKM
+		tag = IKT
+		tag = KNS
+		tag = KOI
+		tag = KNH
+		tag = OTN
+		tag = TKN
+		tag = TNK
+		tag = TMI
+		}
+	}
+	free = yes
+	
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
+	}
+	 = {
+		
 	}
 }

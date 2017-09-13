@@ -46,6 +46,8 @@ NDefines.NMilitary.TRANSPORT_COST = 40
 NDefines.NMilitary.REBEL_LEADER_POWER = 30
 NDefines.NMilitary.REBEL_GARRISON_GROWTH = 3
 NDefines.NMilitary.TRANSPORT_COMBAT_WIDTH = 2
+NDefines.NMilitary.LIGHT_SHIP_SPEED = 16.0
+NDefines.NMilitary.TRANSPORT_SPEED = 10.0
 
 NDefines.NFrontend.CAMERA_LOOKAT_X = 1858.0
 NDefines.NFrontend.CAMERA_LOOKAT_Y = 0.0

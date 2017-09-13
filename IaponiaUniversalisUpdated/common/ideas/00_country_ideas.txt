@@ -2147,7 +2147,7 @@ MAE_ideas = {
 	}
 	free = yes
 	
-	humble_beginnings = {
+	harsh_upbringing = {
 		discipline = 0.05
 	}
 	famed_frugality = {
@@ -2223,31 +2223,31 @@ KTO_ideas = {
 	iida_engineering = {
 		fort_maintenance_modifier = -0.2
 	}
-	 = {
+	devout_nichiren = {
 		global_missionary_strength = 0.02
 	}
-	 = {
+	lotus_sutra = {
 		tolerance_own = 2
 	}
-	 = {
+	mandatory_temple_service = {
 		stability_cost_modifier = -0.1
 	}
-	 = {
+	tiger_hunting = {
 		leader_land_manuever = 1
 		loot_amount = 0.1
 	}
-	 = {
+	protector_of_regent = {
 		diplomatic_reputation = 1
 	}
-	 = {
+	kiyomasa_precepts = {
 		discipline = 0.05
 	}
 }
 
 KRD_ideas = {
 	start = {
-		fire_damage = 0.1
-		infantry_power = 0.15
+		land_maintenance_modifier = -0.1
+		merc_maintenance_modifier = -0.25
 	}
 	bonus = {
 		discipline = 0.05
@@ -2257,27 +2257,27 @@ KRD_ideas = {
 	}
 	free = yes
 	
-	 = {
+	merchantile_heritage = {
 		trade_efficiency = 0.1
 	}
-	 = {
-		land_maintenance_modifier = -0.1
+	kuroda_tigers = {
+		infantry_power = 0.15
 	}
-	 = {
-		global_missionary_strength = 0.01
-		church_power_modifier = 0.1
-	}
-	 = {
+	castle_masters = {
 		siege_ability = 0.1
 		build_cost = -0.1
 	}
-	 = {
-		merc_maintenance_modifier = -0.25
+	devout_catholics = {
+		global_missionary_strength = 0.01
+		church_power_modifier = 0.1
 	}
-	 = {
+	vanguard_gunners = {
+		fire_damage = 0.1
+	}
+	meetings_without_anger = {
 		advisor_cost = -0.15
 	}
-	 = {
+	conquest_kyushu = {
 		core_creation = -0.15
 	}
 }
@@ -2320,36 +2320,38 @@ NBS_ideas = {
 
 TOD_ideas = {
 	start = {
-		
+		infantry_power = 0.1
+		shock_damage_received = -0.1
 	}
 	bonus = {
-		
+		discipline = 0.05
 	}
 	trigger = {
 		tag = TOD
 	}
 	free = yes
 	
-	 = {
-		
+	humble_beginnings = {
+		army_tradition = 0.5
 	}
-	 = {
-		
+	frontline_leader = {
+		land_morale = 0.1
 	}
-	 = {
-		
+	history_of_adoption = {
+		legitimacy = 1
 	}
-	 = {
-		
+	profitable_alliegances = {
+		core_creation = -0.1
 	}
-	 = {
-		
+	master_builders = {
+		defensiveness = 0.15
+		fort_maintenance_modifier = -0.15
 	}
-	 = {
-		
+	composite_clan = {
+		advisor_pool = 1
 	}
-	 = {
-		
+	stradle_tradelanes = {
+		global_trade_power = 0.1
 	}
 }
 

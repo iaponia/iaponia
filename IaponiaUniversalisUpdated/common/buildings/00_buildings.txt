@@ -604,7 +604,7 @@ workshop = {
 ###
 
 toll_roads = {
-	cost = 100
+	cost = 50
 	time = 12
 
 	modifier = {
@@ -679,7 +679,7 @@ toll_roads = {
 }
 
 post_roads = {
-	cost = 200
+	cost = 100
 	time = 24
 	make_obsolete = toll_roads
 
@@ -755,7 +755,7 @@ post_roads = {
 }
 
 highways = {
-	cost = 600
+	cost = 250
 	time = 36
 	make_obsolete = post_roads
 

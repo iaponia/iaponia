@@ -1,7 +1,10 @@
+NDefines.NGame.START_DATE = "1467.6.15"
+NDefines.NGame.END_DATE = "1853.7.8"
 NDefines.NGame.AGE_USHER_IN_TIME = 60
 
 NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 10
 
+NDefines.NCountry.MONARCH_MAX_SKILL = 8
 NDefines.NCountry.CULTURAL_UNION_MIN_DEV = 500
 NDefines.NCountry.CULTURAL_UNION_MIN_RANK = 5
 NDefines.NCountry.MIN_PRESTIGE_FOR_GOV_RANK_2 = 25

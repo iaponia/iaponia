@@ -19,7 +19,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 
-trade_goods = metal
+trade_goods = lacquerware
 
 add_permanent_province_modifier = {
 	name = oyodo_estuary_modifier

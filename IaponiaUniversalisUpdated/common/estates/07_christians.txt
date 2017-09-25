@@ -1,8 +1,8 @@
-estate_church =
+estate_christians =
 {
-	icon = 1
+	icon = 6
 
-	color = { 150 50 50 }
+	color = { 200 150 0 }
 
 	# Is estate kept in control of province on conquest?
 	keep_on_conquest = no
@@ -25,7 +25,16 @@ estate_church =
 
 	# If true, country will get estate
 	trigger = {
-		always = no
+		NOT = { government = merchant_republic }
+		NOT = { government = trading_city }
+		NOT = { government = siberian_native_council }
+		NOT = { government = native_council }
+		NOT = { government = celestial_empire }
+		NOT = { government = revolutionary_republic }
+		OR = {
+			NOT = { tag = USA }
+			government = theocracy
+		}
 		is_nomad = no
 		is_colonial_nation = no
 	}

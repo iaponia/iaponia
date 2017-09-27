@@ -19,7 +19,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 4
 
-trade_goods = metal
+trade_goods = rice
 
 add_permanent_province_modifier = {
 	name = chikugo_estuary_modifier

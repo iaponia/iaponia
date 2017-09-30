@@ -438,3 +438,13 @@ firearms = {
 		local_institution_spread = 0.1
 	}
 }
+
+pilgrimage_site = {
+	color = { 0.85 0.66 0.42 }
+	modifier = {
+		ae_impact = -0.05
+	}
+	province = {
+		local_production_efficiency = 0.10
+	}
+}

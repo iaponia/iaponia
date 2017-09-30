@@ -47,6 +47,10 @@ horses = {
 	base_price = 3
 }
 
+pilgrimage_site = {
+	base_price = 3
+}
+
 grain = {
 	base_price = 2
 }

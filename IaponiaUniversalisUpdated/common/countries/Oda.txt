@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 0 0 0 }
+color = { 250 182 3 }
 
 preferred_religion = catholic
 

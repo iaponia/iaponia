@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 118  0  53 }
+color = { 181 90 9 }
 
 historical_idea_groups = {
 	administrative_ideas
@@ -41,14 +41,14 @@ monarch_names = { # Most Monarchs were named with "yoshi"
 
 leader_names = {
     # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
+	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama
 	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
 	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
 	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
 	Yamana Hosokawa Hojo Mimura
 	# Shimazu Flavor
-	Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake 
-	Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake 
+	Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake
+	Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake
 	# Region Flavor: Kanto
 	Nasu Otawara Utsunomiya Oyama Haga Sano Naganuma Okamoto
 	Yuki Satake Edo Daijo Kashima Tagaya Oda Kasama Makabe Oguri
@@ -65,7 +65,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

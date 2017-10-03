@@ -324,3 +324,40 @@ technology = {
 
 	enable = advanced_cannon
 }
+
+technology = {
+	# Tech 21
+	year = 1644
+
+	infantry_fire = 0.2
+	infantry_shock = 0.1
+}
+
+technology = {
+	# Tech 22
+	year = 1659
+
+	military_tactics = 0.25
+}
+
+technology = {
+	# Tech 23
+	year = 1674
+
+	cavalry_fire = 0.2
+	artillery_shock = 0.25
+}
+
+technology = {
+	# Tech 24
+	year = 1689
+
+	land_morale = 0.5
+}
+
+technology = {
+	# Tech 25
+	year = 1704
+
+	military_tactics = 0.25
+}

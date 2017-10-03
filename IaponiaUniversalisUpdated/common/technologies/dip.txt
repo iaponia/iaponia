@@ -194,3 +194,38 @@ technology = {
 
 	num_accepted_cultures = 1
 }
+
+technology = {
+	# Tech 21
+	year = 1644
+
+	naval_morale = 0.5
+}
+
+technology = {
+	# Tech 22
+	year = 1659
+
+	trade_efficiency = 0.05
+}
+
+technology = {
+	# Tech 23
+	year = 1674
+
+	trade_range = 50
+}
+
+technology = {
+	# Tech 24
+	year = 1689
+
+	trade_efficiency = 0.05
+}
+
+technology = {
+	# Tech 25
+	year = 1704
+
+	num_accepted_cultures = 1
+}

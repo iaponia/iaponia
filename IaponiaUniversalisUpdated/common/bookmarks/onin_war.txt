@@ -9,18 +9,7 @@ bookmark =
 	country = YMN
 	country = SHK
 	country = OUC
+	country = RKK
 	country = UES
 	country = KGA
-	
-#	effect = {
-#		#Country 1
-#		SWE = {
-#			add_stability = 4
-#		}
-#		
-#		#Province 1
-#		1 = {
-#			add_base_tax = 5
-#		}
-#	}
 }

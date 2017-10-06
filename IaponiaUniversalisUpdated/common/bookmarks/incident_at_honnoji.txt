@@ -2,24 +2,17 @@ bookmark =
 {
 	name = "HONNOJI_JAP"
 	desc = "HONNOJI_DESC"
-	date = 1582.6.2
+	date = 1582.6.21
 	
+	country = HSB
+	country = AKC
+	country = SHB
+	country = TKG
 	country = SMZ
 	country = RZJ
 	country = MRI
-	country = ODA
+	country = CSK
 	country = HJO
+	country = STK
 	country = DTE
-	
-#	effect = {
-#		#Country 1
-#		SWE = {
-#			add_stability = 4
-#		}
-#		
-#		#Province 1
-#		1 = {
-#			add_base_tax = 5
-#		}
-#	}
 }

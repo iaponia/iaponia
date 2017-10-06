@@ -1,0 +1,6 @@
+bookmark =
+{
+	name = "ROYALE_JAP"
+	desc = "ROYALE_DESC"
+	date = 1615.1.1
+}

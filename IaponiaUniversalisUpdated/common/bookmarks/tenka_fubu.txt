@@ -1,0 +1,20 @@
+bookmark =
+{
+	name = "COALITION_JAP"
+	desc = "COALITION_DESC"
+	date = 1569.10.10
+	
+	country = ODA
+	country = AZI
+	country = HGJ
+	country = TKD
+	country = TKG
+	country = ASN
+	country = CSK
+	country = UKT
+	country = AMA
+	country = MRI
+	country = OTM
+	country = ITO
+	country = SMZ
+}

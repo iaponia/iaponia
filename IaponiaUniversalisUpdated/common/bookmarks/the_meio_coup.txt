@@ -1,0 +1,13 @@
+bookmark =
+{
+	name = "MEIO_JAP"
+	desc = "MEIO_DESC"
+	date = 1493.6.9
+	
+	country = HJO
+	country = HGJ
+	country = HSK
+	country = BHY
+	country = ASA
+	country = RKK
+}

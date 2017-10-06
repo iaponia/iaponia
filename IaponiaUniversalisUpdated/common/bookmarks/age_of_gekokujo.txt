@@ -1,0 +1,16 @@
+bookmark =
+{
+	name = "GEKOKUJO_JAP"
+	desc = "GEKOKUJO_DESC"
+	date = 1523.8.25
+	
+	country = OUC
+	country = AMA
+	country = MRI
+	country = URA
+	country = MYI
+	country = AZI
+	country = IMG
+	country = HJO
+	country = DTE
+}

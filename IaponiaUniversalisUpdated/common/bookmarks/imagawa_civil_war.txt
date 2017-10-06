@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "HANAGURA_JAP"
+	desc = "HANAGURA_DESC"
+	date = 1536.4.7
+	
+	country = IMG
+	country = HJO
+	country = STM
+	country = NGO
+	country = ASA
+	country = KOD
+	country = HSK
+	country = MYI
+	country = AMA
+	country = OUC
+	country = OSZ
+}

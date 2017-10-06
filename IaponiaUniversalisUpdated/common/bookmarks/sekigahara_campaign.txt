@@ -1,0 +1,17 @@
+bookmark =
+{
+	name = "SEKIGAHARA_JAP"
+	desc = "SEKIGAHARA_DESC"
+	date = 1600.9.13
+	
+	country = TKG 
+	country = KRD
+	country = DTE
+	country = TOY
+	country = ISH
+	country = UKT
+	country = MRI
+	country = SMZ
+	country = SNA
+	country = UES
+}

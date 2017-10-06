@@ -1,0 +1,16 @@
+bookmark =
+{
+	name = "ALLIANCE_JAP"
+	desc = "ALLIANCE_DESC"
+	date = 1554.3.1
+	
+	country = KOD
+	country = IMG
+	country = TKD
+	country = NGO
+	country = MRI
+	country = OUC
+	country = OTM
+	country = RZJ
+	country = SMZ
+}

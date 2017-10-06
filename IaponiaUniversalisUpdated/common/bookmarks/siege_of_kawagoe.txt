@@ -4,22 +4,15 @@ bookmark =
 	desc = "KAWAGOE_DESC"
 	date = 1546.5.19
 	
-	country = KOD
-	country = AMA
-	country = OUC
-	country = IMG
 	country = HJO
-	country = UES
-	
-#	effect = {
-#		#Country 1
-#		SWE = {
-#			add_stability = 4
-#		}
-#		
-#		#Province 1
-#		1 = {
-#			add_base_tax = 5
-#		}
-#	}
+	country = TKD
+	country = IMG
+	country = NGO
+	country = DTE
+	country = KOD
+	country = STO
+	country = ASA
+	country = MYI
+	country = AMA
+	country = MRI
 }

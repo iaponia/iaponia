@@ -1,0 +1,15 @@
+bookmark =
+{
+	name = "FUNAOKAYAMA_JAP"
+	desc = "FUNAOKAYAMA_DESC"
+	date = 1511.9.25
+	
+	country = OUC
+	country = HSK
+	country = RKK
+	country = NGO
+	country = IMG
+	country = AKM
+	country = OTM
+	country = ICJ
+}

@@ -4,8 +4,6 @@ graphical_culture = asiangfx
 
 color = { 252  177  100 }
 
-preferred_religion = catholic
-
 historical_idea_groups = {
 	aristocratic_ideas
 	influence_ideas
@@ -41,23 +39,18 @@ monarch_names = { # Most Monarchs were named with "taka"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku 
-	Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku 
-	# Region Flavor: Kinai
-	Kitabatake Kozukuri Kuki Seki Kanbe Nagano Tsuge Okouchi Hattori Kusunoki
-	Rokkaku Kyogoku Takashima Kutsuki Gamo Azai Imai Isono Mikumo Wada Amamori
-	Tanaka Nakamura Ishida Todo Katagiri Ashikaga Hosokawa Ise Ninagawa Ko Isshiki
-	Naito Yuasa Ochi Tsutsui Toichi Furuichi Ido Matsunaga Matsukura Yagyu
-	Hatakeyama Ikeda Itami Nose Akutagawa Araki Yasumi Nakagawa Yusa Takayama
-	Konishi Honganji Shimozuma Horiuchi Tamaki Akai Hatano Araki Yamana Kakiya
-	Bessho Akashi Akamatsu Kodera Kuroda Atagi
+    Amago Amago Amago Amago Amago Amago Amago Amago Amago Amago 
+	Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Yamana Yamana Yamana Yamana Yamana
+	Yamanaka Yamanaka Yamanaka Yamanaka Yamanaka Akana Akana Akana Akana Akana
+	Tachihara Tachihara Tachihara Tachihara Tachihara Uyama Uyama Uyama Uyama Uyama
+	Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara Sada Sada Sada Sada Sada
+	Ushio Ushio Ushio Ushio Ushio Kamei Kamei Kamei Kamei Kamei
+	Nanjo Nanjo Nanjo Nanjo Nanjo Mitoya Mitoya Mitoya Mitoya Mitoya 
+	Sase Sase Sase Sase Sase Honjo Honjo Honjo Honjo Honjo 
+	Kawazoe Kawazoe Kawazoe Kawazoe Kawazoe Nakai Nakai Nakai Nakai Nakai
+	Matsuda Matsuda Matsuda Matsuda Matsuda Kato Kato Kato Kato Kato
+	Fujii Fujii Fujii Fujii Fujii Hayashi Hayashi Hayashi Hayashi Hayashi
+
 }
 
 ship_names = {

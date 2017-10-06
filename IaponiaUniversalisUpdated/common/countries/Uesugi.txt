@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 200  200  200 }
 
+preferred_religion = mahayana
+
 historical_idea_groups = {
 	influence_ideas
 	traditional_ideas
@@ -54,29 +56,23 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Uesugi Flavor
-	Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi
-	Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi
-	# Retainers of the Uesugi clan
-	Nagano Nagano Nagano Nagano Nagano Kamiizumi Kamiizumi Kamiizumi Kamiizumi Kamiizumi
-	Nagao Nagao Nagao Nagao Nagao Fujita Fujita Fujita Fujita Fujita
-	Ota Ota Ota Ota Ota Ueda Ueda Ueda Ueda Ueda
-	Miura Miura Miura Miura Miura Omori Omori Omori Omori Omori
-	Chiba Chiba Chiba Chiba Chiba Soga Soga Soga Soga Soga
-	# Region Flavor: Kanto
-	Nasu Otawara Utsunomiya Oyama Haga Sano Naganuma Okamoto
-	Yuki Satake Edo Daijo Kashima Tagaya Oda Kasama Makabe Oguri
-	Nagano Obata Numata Wada Nitta Yura Yokose Watase Annaka Kamiizumi
-	Nagao Akai Kiryu Chiba Satomi Takeda Masaki Sakai Unakami
-	Hara Aihara Anzai Osuka Soma Kira Narita Ota Oishi Toyama Edo Toshima
-	Kawagoe Kaneko Fujita Okabe Uesugi Ashikaga Hojo Miura
-	Omori Katsurayama Itabeoka Soga Kajiwara Daidoji Shimizu
+    Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi
+	Naoe Naoe Naoe Naoe Naoe Honjo Honjo Honjo Honjo Honjo
+	Nagao Nagao Nagao Nagao Nagao Amakasu Amakasu Amakasu Amakasu Amakasu
+	Saito Saito Saito Saito Saito Usami Usami Usami Usami Usami
+	Kawada Kawada Kawada Kawada Kawada Jojo Jojo Jojo Jojo Jojo
+	Kitajo Kitajo Kitajo Kitajo Kitajo Yasuda Yasuda Yasuda Yasuda Yasuda
+	Kakizaki Kakizaki Kakizaki Kakizaki Kakizaki Sanponji Sanponji Sanponji Sanponji Sanponji
+	Honma Honma Honma Honma Honma Yamayoshi Yamayoshi Yamayoshi Yamayoshi Yamayoshi
+	Kojima Kojima Kojima Kojima Kojima Maeda Maeda Maeda Maeda Maeda
+	Shibata Shibata Shibata Shibata Shibata Kamiizumi Kamiizumi Kamiizumi Kamiizumi Kamiizumi
+	Irobe Irobe Irobe Irobe Irobe Higuchi Higuchi Higuchi Higuchi Higuchi
+	Takanashi Takanashi Takanashi Takanashi Takanashi Murakami Murakami Murakami Murakami Murakami
+	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Jinbo Jinbo Jinbo Jinbo Jinbo 
+	Shiina Shiina Shiina Shiina Shiina Nagano Nagano Nagano Nagano Nagano
+	Numata Numata Numata Numata Numata Wada Wada Wada Wada Wada
+	Obata Obata Obata Obata Obata Yokoze Yokoze Yokoze Yokoze Yokoze
+
 }
 
 ship_names = {

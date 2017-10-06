@@ -40,22 +40,17 @@ monarch_names = { # Most Monarchs were named with "suke"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda 
-	# Region Flavor: Kanto
-	Nasu Otawara Utsunomiya Oyama Haga Sano Naganuma Okamoto
-	Yuki Satake Edo Daijo Kashima Tagaya Oda Kasama Makabe Oguri
-	Nagano Obata Numata Wada Nitta Yura Yokose Watase Annaka Kamiizumi
-	Nagao Akai Kiryu Chiba Satomi Takeda Masaki Sakai Unakami
-	Hara Aihara Anzai Osuka Soma Kira Narita Ota Oishi Toyama Edo Toshima
-	Kawagoe Kaneko Fujita Okabe Uesugi Ashikaga Hojo Miura
-	Omori Katsurayama Itabeoka Soga Kajiwara Daidoji Shimizu
+    Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo 
+	Matsuda Matsuda Matsuda Matsuda Matsuda Ando Ando Ando Ando Ando
+	Tominaga Tominaga Tominaga Tominaga Tominaga Tame Tame Tame Tame Tame
+	Daidoji Daidoji Daidoji Daidoji Daidoji Nakayama Nakayama Nakayama Nakayama Nakayaama
+	Haga Haga Haga Haga Haga Inomata Inomata Inomata Inomata Inomata 
+	Kajiwara Kajiwara Kajiwara Kajiwara Kajiwara Kasahara Kasahara Kasahara Kasahara Kasahara
+	Shimizu Shimizu Shimizu Shimizu Shimizu Kano Kano Kano Kano Kano
+	Oishi Oishi Oishi Oishi Oishi Ueda Ueda Ueda Ueda Ueda
+	Ota Ota Ota Ota Ota Narita Narita Narita Narita Narita 
+	Uesugi Uesugi Uesugi Uesugi Uesugi Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga
+
 }
 
 ship_names = {

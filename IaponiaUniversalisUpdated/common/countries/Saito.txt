@@ -36,23 +36,23 @@ monarch_names = { # Most Monarchs were named with "tane"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito 
-	Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito Saito 
-	# Region Flavor:Tokai-Chubu
-	Toki Toyama Endo Saito Ujiie Inaba Ando Fuwa Akechi Takenaka Hineno
-	Aoki Sengoku Anekoji Ema Miki Kanamori Imagawa Amano Asahina Okabe Iio Hamana
-	Sekiguchi Sena Fuji Matsushita Ii Katsurayama Abe Kira Tokugawa Matsudaira Udono Okudaira
-	Suganuma Toda Natsume Ishikawa Hattori Torii Naito Okubo Honda
-	Hiraiwa Sakai Sakakibara Itakura Ina Shiba Niki Oda Mizuno Saji Ikeda
-	Shibata Niwa Takigawa Kinoshita Maeda Sassa Sakuma Hirate Hayashi
-	Hachisuka Kato Asano Ikoma Horio Fukushima Maeda
+    Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda
+	Hashiba Hashiba Hashiba Hashiba Hashiba Shibata Shibata Shibata Shibata Shibata
+	Niwa Niwa Niwa Niwa Niwa Takigawa Takigawa Takigawa Takigawa Takigawa Takigawa
+	Maeda Maeda Maeda Maeda Maeda Kanamori Kanamori Kanamori Kanamori Kanamori
+	Sassa Sassa Sassa Sassa Sassa Mori Mori Mori Mori Mori
+	Kawajiri Kawajiri Kawajiri Kawajiri Kawajiri Hayashi Hayashi Hayashi Hayashi Hayashi
+	Sakuma Sakuma Sakuma Sakuma Sakuma Hori Hori Hori Hori Hori
+	Saito Saito Saito Saito Saito Akechi Akechi Akechi Akechi Akechi
+	Takenaka Takenaka Takenaka Takenaka Takenaka Fuwa Fuwa Fuwa Fuwa Fuwa
+	Inaba Inaba Inaba Inaba Inaba Ujiie Ujiie Ujiie Ujiie Ujiie
+	Ando Ando Ando Ando Ando Toyama Toyama Toyama Toyama Toyama 
+	Hachisuka Hachisuka Hachisuka Hachisuka Hachisuka Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Hara Hara Hara Hara Hara Hirate Hirate Hirate Hirate Hirate
+	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Asano Gamo Gamo Gamo Gamo Gamo
+	Shiba Shiba Shiba Shiba Shiba Toki Toki Toki Toki Toki
+	Araki Araki Araki Araki Araki Takayama Takayama Takayama Takayama Takayama
+
 }
 
 ship_names = {

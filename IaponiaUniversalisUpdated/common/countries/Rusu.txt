@@ -38,21 +38,19 @@ monarch_names = { # Most Monarchs were named with mune
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu 
-	Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu Rusu 
-	# Regional names:Tohoku
-	Matsumae Tsugaru Namioka Shiba Nanbu Kunohe Kudo Asonuma Waga Kurosawa Kita Hei
-	Kasai Nikaido Osaki Sudo Rusu Katakura Ujiie Rusu Kurokawa Watari Moniwa Kokubun
-	Shiraishi Endo Akita Asari Onodera Tozawa Yuri Nikaho Mogami Tendo
-	Sakenobe Sagae Daihoji Tateoka Date Tamura Ishikawa Ouchi Hatakeyama Ashina Inawashiro
-	Soma Sato Iwaki Shirakawa Kanagami	
+    Date Date Date Date Date Date Date Date Date Date
+	Katakura Katakura Katakura Katakura Katakura Rusu Rusu Rusu Rusu Rusu
+	Watari Watari Watari Watari Watari Endo Endo Endo Endo Endo
+	Oniniwa Oniniwa Oniniwa Oniniwa Oniniwa Kori Kori Kori Kori Kori
+	Goto Goto Goto Goto Goto Shiroshi Shiroshi Shiroshi Shiroshi Shiroshi
+	Hasekura Hasekura Hasekura Hasekura Hasekura Yashiro Yashiro Yashiro Yashiro Yashiro
+	Kayaba Kayaba Kayaba Kayaba Kayaba Yamaoka Yamaoka Yamaoka Yamaoka Yamaoka
+	Kokubun Kokubun Kokubun Kokubun Kokubun Suzuki Suzuki Suzuki Suzuki Suzuki
+	Nakano Nakano Nakano Nakano Nakano Kakeda Kakeda Kakeda Kakeda Kakeda
+	Kasai Kasai Kasai Kasai Kasai Osaki Osaki Osaki Osaki Osaki
+	Ujiie Ujiie Ujiie Ujiie Ujiie Mogami Mogami Mogami Mogami Mogami
+	Tamura Tamura Tamura Tamura Tamura Ouchi Ouchi Ouchi Ouchi Ouchi
+
 }
 
 ship_names = {

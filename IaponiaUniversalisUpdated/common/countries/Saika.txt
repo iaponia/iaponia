@@ -36,8 +36,18 @@ monarch_names = { #Most Monarchs were named with "nori"
 	}
 
 leader_names = {
-    # Daimyo names
-	Suzuki
+    Honganji Honganji Honganji Honganji Honganji Honganji Honganji Honganji Honganji Honganji
+	Shimotsuma Shimotsuma Shimotsuma Shimotsuma Shimotsuma Ganshoji Ganshoji Ganshoji Ganshoji Ganshoji
+	Honsenji Honsenji Honsenji Honsenji Honsenji Shichiri Shichiri Shichiri Shichiri Shichiri
+	Sugiura Sugiura Sugiura Sugiura Sugiura Suzuki Suzuki Suzuki Suzuki Suzuki
+	Oka Oka Oka Oka Oka Tsuchibashi Tsuchibashi Tsuchibashi Tsuchibashi Tsuchibashi
+	Matoba Matoba Matoba Matoba Matoba Oku Oku Oku Oku Oku
+	Ota Ota Ota Ota Ota Tsuda Tsuda Tsuda Tsuda Tsuda
+	Satake Satake Satake Satake Satake Hattori Hattori Hattori Hattori Hattori
+	Ueda Ueda Ueda Ueda Ueda Morita Morita Morita Morita Morita
+	Takino Takino Takino Takino Takino Momochi Momochi Momochi Momochi Momochi
+	Togashi Togashi Togashi Togashi Togashi Tokuda Tokuda Tokuda Tokuda Tokuda
+
 }
 
 ship_names = {

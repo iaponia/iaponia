@@ -53,27 +53,19 @@ monarch_names = { #Most Monarchs were named with "hiro"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Ouchi Flavor
-	Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi
-	Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi
-	# Retainers of the Ouchi clan
-    Sue Sue Sue Sue Sue Naito Naito Naito Naito Naito
-	Hironaka Hironaka Hironaka Hironaka Hironaka Era Era Era Era Era
-	Iida Iida Iida Iida Iida Sugi Sugi Sugi Sugi Sugi
-	Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Toida Toida Toida Toida Toida
-	Masuda Masuda Masuda Masuda Masuda
-	# Region Flavor: Chugoku
-	Uragami Matsuda Ukita Togawa Hanabusa Akashi Hosokawa Sho Mimura Ishikawa
-	Akiba Shimizu Senoo Miura Yamana Nanjo Takeda Amago Mitoya Akana Tachihara Uyama
-	Shido Yamanaka Kamei Masuda Yoshimi Yamauchi Mori Kikkawa Kobayakawa
-	Murakami Kumagai Saeki Fukuhara Kodaga Katsura Shishido Inoue
-	Ouchi Sue Sugi Naito
+    Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi
+	Sue Sue Sue Sue Sue Sugi Sugi Sugi Sugi Sugi
+	Naito Naito Naito Naito Naito Aokage Aokage Aokage Aokage Aokage
+	Iida Iida Iida Iida Iida Toida Toida Toida Toida Toida
+	Reizei Reizei Reizei Reizei Reizei Amano Amano Amano Amano Amano
+	Niho Niho Niho Niho Niho Hironaka Hironaka Hironaka Hironaka Hironaka
+	Era Era Era Era Era Miyagawa Miyagawa Miyagawa Miyagawa Miyagawa 
+	Nogami Nogami Nogami Nogami Nogami Sada Sada Sada Sada Sada 
+	Kii Kii Kii Kii Kii Kii Aso Aso Aso Aso Aso
+	Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Matsuda Matsuda Matsuda Matsuda Matsuda
+	Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kikkawa Kikkawa Kikkawa Kikkawa Kikkawa
+	Mori Mori Mori Mori Mori Murakami Murakami Murakami Murakami Murakami
+
 }
 
 ship_names = {

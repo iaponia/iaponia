@@ -43,23 +43,22 @@ monarch_names = { # Most Monarchs were named with "miki"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Kashima Kashima Kashima Kashima Kashima Kashima Kashima Kashima Kashima Kashima Kashima 
-	Kashima Kashima Kashima Kashima Kashima Kashima Kashima Kashima Kashima Kashima Kashima 
-	# Region Flavor: Kanto
-	Nasu Otawara Utsunomiya Oyama Haga Sano Naganuma Okamoto
-	Yuki Satake Edo Daijo Kashima Tagaya Oda Kasama Makabe Oguri
-	Nagano Obata Numata Wada Nitta Yura Yokose Watase Annaka Kamiizumi
-	Nagao Akai Kiryu Chiba Satomi Takeda Masaki Sakai Unakami
-	Hara Aihara Anzai Osuka Soma Kira Narita Ota Oishi Toyama Edo Toshima
-	Kawagoe Kaneko Fujita Okabe Uesugi Ashikaga Hojo Miura
-	Omori Katsurayama Itabeoka Soga Kajiwara Daidoji Shimizu
+    Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake
+	Okamoto Okamoto Okamoto Okamoto Okamoto Umezu Umezu Umezu Umezu Umezu
+	Edo Edo Edo Edo Edo Onuki Onuki Onuki Onuki Onuki 
+	Kuruma Kuruma Kuruma Kuruma Kuruma Makabe Makabe Makabe Makabe Makabe
+	Aisu Aisu Aisu Aisu Aisu Wada Wada Wada Wada Wada
+	Oda Oda Oda Oda Oda Sugenoya Sugenoya Sugenoya Sugenoya Sugenoya
+	Okami Okami Okami Okami Okami Shida Shida Shida Shida Shida
+	Daijo Daijo Daijo Daijo Daijo Kashima Kashima Kashima Kashima Kashima
+	Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga Yuki Yuki Yuki Yuki Yuki
+	Oyama Oyama Oyama Oyama Oyama Yanada Yanada Yanada Yanada Yanada
+	Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya Sano Sano Sano Sano Sano
+	Mibu Mibu Mibu Mibu Mibu Haga Haga Haga Haga Haga
+	Nasu Nasu Nasu Nasu Nasu Otawara Otawara Otawara Otawara Otawara
+	Ozeki Ozeki Ozeki Ozeki Ozeki Fukuhara Fukuhara Fukuhara Fukuhara Fukuhara
+	Iwaki Iwaki Iwaki Iwaki Iwaki Otsuka Otsuka Otsuka Otsuka Otsuka
+
 }
 
 ship_names = {

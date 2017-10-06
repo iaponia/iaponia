@@ -54,33 +54,26 @@ monarch_names = { # Most Monarchs were named with "Nobu"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Takeda Flavor
-	Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda
-	Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda
-	# Retainers of the Takeda clan
-    Unno Unno Unno Unno Unno Unno Katsurayama Katsurayama Katsurayama Katsurayama Katsurayama
-	Nishina Nishina Nishina Nishina Nishina Nishina Anayama Anayama Anayama Anayama Anayama
-	Itagaki Itagaki Itagaki Itagaki Itagaki Amari Amari Amari Amari Amari
-	Obu Obu Obu Obu Obu Baba Baba Baba Baba Baba Kosaka Kosaka Kosaka Kosaka Kosaka
-	Yamagata Yamagata Yamagata Yamagata Yamagata Naito Naito Naito Naito Naito
-	Akiyama Akiyama Akiyama Akiyama Akiyama Hara Hara Hara Hara Hara
-	Tsuchiya Tsuchiya Tsuchiya Tsuchiya Tsuchiya Oyamada Oyamada Oyamada Oyamada Oyamada
-	Komai Komai Komai Komai Komai Saegusa Saegusa Saegusa Saegusa Saegusa
-	Sone Sone Sone Sone Sone Sanada Sanada Sanada Sanada Sanada
-	Obata Obata Obata Obata Obata Yokota Yokota Yokota Yokota Yokota
-	Hara Hara Hara Hara Hara Tada Tada Tada Tada Tada Kiso Kiso Kiso Kiso Kiso
-    # Region Flavor: Koshinetsu-Hokuriku
-	Ogasawara Suwa Takato Murakami Takanashi Suda Unno Mochizuki Sanada Oi
-	Yashiro Hoshina Nishina Kiso Baba Takeda Anayama Oyamada Akiyama Tsuchiya Amari
-	Itagaki Naito Kosaka Obu Yamagata Hara Yamamoto Nagao Nakajo Irobe Honjo Kaji Shibata
-	Kakizaki Kitajo Yasuda Jojo Usami Shida Saito Oguni Amakasu Naoe Honma
-	Togashi Cho Shiina Jinbo Nukui Ishiguro Asakura Horie Awaya Otani
+    Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda
+	Yamagata Yamagata Yamagata Yamagata Yamagata Yamamoto Yamamoto Yamamoto Yamamoto Yamamoto
+	Ichijo Ichijo Ichijo Ichijo Ichijo Oyamada Oyamada Oyamada Oyamada Oyamada
+	Kosaka Kosaka Kosaka Kosaka Kosaka Baba Baba Baba Baba Baba
+	Naito Naito Naito Naito Naito Hara Hara Hara Hara Hara
+	Obu Obu Obu Obu Obu Tada Tada Tada Tada Tada
+	Amari Amari Amari Amari Amari Itagaki Itagaki Itagaki Itagaki Itagaki
+	Obata Obata Obata Obata Obata Komai Komai Komai Komai Komai
+	Atobe Atobe Atobe Atobe Atobe Tsuchiya Tsuchiya Tsuchiya Tsuchiya Tsuchiya
+	Akiyama Akiyama Akiyama Akiyama Akiyama Anayama Anayama Anayama Anayama Anayama
+	Sanada Sanada Sanada Sanada Sanada Yazawa Yazawa Yazawa Yazawa Yazawa 
+	Suda Suda Suda Suda Suda Oi Oi Oi Oi Oi
+	Takanashi Takanashi Takanashi Takanashi Takanashi Unno Unno Unno Unno Unno
+	Murakami Murakami Murakami Murakami Murakami Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara
+	Suwa Suwa Suwa Suwa Suwa Kiso Kiso Kiso Kiso Kiso
+	Hoshina Hoshina Hoshina Hoshina Hoshina Takato Takato Takato Takato Takato
+	Mizoguchi Mizoguchi Mizoguchi Mizoguchi Mizoguchi Inukai Inukai Inukai Inukai Inukai
+	Yashiro Yashiro Yashiro Yashiro Yashiro Ideura Ideura Ideura Ideura Ideura
+	Wada Wada Wada Wada Wada Aiki Aiki Aiki Aiki Aiki
+
 }
 
 ship_names = {

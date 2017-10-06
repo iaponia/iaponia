@@ -39,21 +39,18 @@ monarch_names = { # Most Monarchs were named with "kiyo"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana 
-	Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana 
-	# Region Flavor: Chugoku
-	Urakami Matsuda Ukita Togawa Hanabusa Akashi Hosokawa Sho Mimura Ishikawa
-	Akiba Shimizu Senoo Miura Yamana Nanjo Takeda Amago Mitoya Akana Tachihara Uyama
-	Shido Yamanaka Kamei Masuda Yoshimi Yamauchi Mori Kikkawa Kobayakawa
-	Murakami Kumagai Saeki Fukuhara Kodaga Katsura Shishido Inoue
-	Ouchi Sue Sugi Naito
+    Amago Amago Amago Amago Amago Amago Amago Amago Amago Amago 
+	Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Yamana Yamana Yamana Yamana Yamana
+	Yamanaka Yamanaka Yamanaka Yamanaka Yamanaka Akana Akana Akana Akana Akana
+	Tachihara Tachihara Tachihara Tachihara Tachihara Uyama Uyama Uyama Uyama Uyama
+	Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara Sada Sada Sada Sada Sada
+	Ushio Ushio Ushio Ushio Ushio Kamei Kamei Kamei Kamei Kamei
+	Nanjo Nanjo Nanjo Nanjo Nanjo Mitoya Mitoya Mitoya Mitoya Mitoya 
+	Sase Sase Sase Sase Sase Honjo Honjo Honjo Honjo Honjo 
+	Kawazoe Kawazoe Kawazoe Kawazoe Kawazoe Nakai Nakai Nakai Nakai Nakai
+	Matsuda Matsuda Matsuda Matsuda Matsuda Kato Kato Kato Kato Kato
+	Fujii Fujii Fujii Fujii Fujii Hayashi Hayashi Hayashi Hayashi Hayashi
+
 }
 
 ship_names = {

@@ -57,22 +57,20 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Hatakeyama Flavor
-	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama
-	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama
-	# Vassals of Hatakeyama
-    Saito Saito Saito Saito Saito Hira Hira Hira Hira Hira
-	Sahara Sahara Sahara Sahara Sahara Jinbo Jinbo Jinbo Jinbo Jinbo
-	Yusa Yusa Yusa Yusa Yusa Sho Sho Sho Sho Sho
-	Atagi Atagi Atagi Atagi Atagi Horiuchi Horiuchi Horiuchi Horiuchi Horiuchi
-	Ochi Ochi Ochi Ochi Ochi Tsutsui Tsutsui Tsutsui Tsutsui Tsutsui
-	Nukui Nukui Nukui Nukui Nukui Osa Osa Osa Osa Osa
+    Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina
+	Inawashiro Inawashiro Inawashiro Inawashiro Inawashiro Anazawa Anazawa Anazawa Anazawa Anazawa
+	Matsumoto Matsumoto Matsumoto Matsumoto Matsumoto Haryu Haryu Haryu Haryu Haryu
+	Kanagami Kanagami Kanagami Kanagami Kanagami Tomita Tomita Tomita Tomita Tomita
+	Hirata Hirata Hirata Hirata Hirata Sase Sase Sase Sase Sase
+	Kiyono Kiyono Kiyono Kiyono Kiyono Nikaido Nikaido Nikaido Nikaido Nikaido
+	Suda Suda Suda Suda Suda Yadano Yadano Yadano Yadano Yadano
+	Shirakawa Shirakawa Shirakawa Shirakawa Shirakawa Tamura Tamura Tamura Tamura Tamura
+	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Oguni Oguni Oguni Oguni Oguni
+	Ouchi Ouchi Ouchi Ouchi Ouchi Hodohara Hodohara Hodohara Hodohara Hodohara
+	Endo Endo Endo Endo Endo Kawashima Kawashima Kawashima Kawashima Kawashima
+	Soma Soma Soma Soma Soma Sato Sato Sato Sato Sato
+	Kobata Kobata Kobata Kobata Kobata Mizutani Mizutani Mizutani Mizutani Mizutani
+
 }
 
 ship_names = {

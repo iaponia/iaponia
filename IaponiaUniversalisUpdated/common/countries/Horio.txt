@@ -24,33 +24,9 @@ historical_units = {
 	advanced_kanto_cavalry
 }
 
-monarch_names = { 
-	"Chikauji #0" = 10
-	"Nobuhiro #0" = 10
-	"Yasuchika #0" = 10
-	"Nobumitsu #0" = 10
-	"Moriie #0" = 10	
-	"Chikatada #0" = 10	
-	"Nobutada #0" = 20	
-	"Chikamori #0" = 10	
-	"Toshinaga #0" = 10
-	"Nobusada #0" = 10
-	"Kiyoyasu #0" = 20
-	"Hirotada #0" = 20
-	"Ieyasu #0" = 20
-	"Hidetada #0" = 20
-	"Iemitsu #0" = 20
-	"Ietsuna #0" = 20
-   	"Tsunayoshi #0" = 20	
-	"Tsunatoyo #0" = 20
-	"Ienobu #0" = 20
-	"Ietsugu #0" = 20
-	"Ieharu #0" = 20
-	"Ienari #0" = 20	
-	"Ieyoshi #0" = 20	
-	"Iesada #0" = 20	
-	"Ieshige #0" = 20
-	"Yoshinobu #0" = 5
+monarch_names = {
+	"Yoshiharu #0" = 20
+	"Tadauji #0" = 20	
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -59,27 +35,14 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Tokugawa (Matsudaira) Flavor
-	Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira
-	Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa
-	# Retainers of the Tokugawa clan
-	Sakai Sakai Sakai Sakai Sakai Honda Honda Honda Honda Honda
-	Sakakibara Sakakibara Sakakibara Sakakibara Sakakibara Ii Ii Ii Ii Ii
-	Torii Torii Torii Torii Torii Okubo Okubo Okubo Okubo Okubo
-	# Region Flavor:Tokai-Chubu
-	Toki Toyama Endo Saito Ujiie Inaba Ando Fuwa Akechi Takenaka Hineno
-	Aoki Sengoku Anekoji Ema Miki Kanamori Imagawa Amano Asahina Okabe Iio Hamana
-	Sekiguchi Sena Fuji Matsushita Ii Katsurayama Abe Kira Tokugawa Matsudaira Udono Okudaira
-	Suganuma Toda Natsume Ishikawa Hattori Torii Naito Okubo Honda
-	Hiraiwa Sakai Sakakibara Itakura Ina Shiba Niki Oda Mizuno Saji Ikeda
-	Shibata Niwa Takigawa Kinoshita Maeda Sassa Sakuma Hirate Hayashi
-	Hachisuka Kato Asano Ikoma Horio Fukushima Maeda
+    Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda
+	Fukushima Fukushima Fukushima Fukushima Fukushima Kani Kani Kani Kani Kani
+	Furuta Furuta Furuta Furuta Furuta Takenaka Takenaka Takenaka Takenaka Takenaka
+	Tanaka Tanaka Tanaka Tanaka Tanaka Horio Horio Horio Horio Horio
+	Arima Arima Arima Arima Arima Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Asano Asano Asano Asano Asano Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
+	Sengoku Sengoku Sengoku Sengoku Sengoku Mori Mori Mori Mori Mori
+
 }
 
 ship_names = {
@@ -99,9 +62,9 @@ ship_names = {
 }
 
 army_names = {
-	"Tokugawa Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Horio Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Tokugawa Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Horio Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

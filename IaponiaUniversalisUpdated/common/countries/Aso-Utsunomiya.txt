@@ -25,15 +25,10 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "tsuna"
-	"Hitotsuna #0" = 50
-	"Akitsuna #0" = 50
-	"Masatsuna #0" = 50
-	"Shigetsuna #0" = 50
-	"Tadatsuna #0" = 50
-	"Okitsuna #0" = 50
-	"Hisatsuna #0" = 50
-	"Hirotsuna #0" = 50
-	"Kunitsuna #0" = 50
+	"Takamori #0" = 50
+	"Shigesato #0" = 50
+	"Motoshige #0" = 50
+	"Takazane #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -42,23 +37,14 @@ monarch_names = { # Most Monarchs were named with "tsuna"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya 
-	Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya 
-	# Region Flavor: Kanto
-	Nasu Otawara Utsunomiya Oyama Haga Sano Naganuma Okamoto
-	Yuki Satake Edo Daijo Kashima Tagaya Oda Kasama Makabe Oguri
-	Nagano Obata Numata Wada Nitta Yura Yokose Watase Annaka Kamiizumi
-	Nagao Akai Kiryu Chiba Satomi Takeda Masaki Sakai Unakami
-	Hara Aihara Anzai Osuka Soma Kira Narita Ota Oishi Toyama Edo Toshima
-	Kawagoe Kaneko Fujita Okabe Uesugi Ashikaga Hojo Miura
-	Omori Katsurayama Itabeoka Soga Kajiwara Daidoji Shimizu
+	Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki 
+	Ida Ida Ida Ida Ida Eri Eri Eri Eri Eri
+	Harada Harada Harada Harada Harada Tsukushi Tsukushi Tsukushi Tsukushi Tsukushi
+	Tachibana Tachibana Tachibana Tachibana Tachibana Takahashi Takahashi Takahashi Takahashi Takahashi
+	Aso Aso Aso Aso Aso Munakata Munakata Munakata Munakata Munakata
+	Kii Kii Kii Kii Kii Sada Sada Sada Sada Sada
+	Kaku Kaku Kaku Kaku Kaku Nonaka Nonaka Nonaka Nonaka Nonaka 
+
 }
 
 ship_names = {
@@ -78,9 +64,9 @@ ship_names = {
 }
 
 army_names = {
-	"Utsunomiya Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Aso-Utsunomiya Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Utsunomiya Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Aso-Utsunomiya Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

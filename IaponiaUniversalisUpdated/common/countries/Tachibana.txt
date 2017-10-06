@@ -25,17 +25,15 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "tane"
-	"Tanenao #0" = 50
-	"Tanemasa #0" = 50
-	"Tanetomo #0" = 50
-	"Yasutane #0" = 50
-	"Tanemochi #0" = 50
-	"Suketane #0" = 50
-	"Noritane #0" = 50
-	"Katsutane #0" = 50
-	"Masatane #0" = 50
-	"Toshitane #0" = 50
-	"Tanetoki #0" = 50
+	"Akitsura #0" = 50
+	"Muneshige #0" = 50
+	"Naotsugu #0" = 50
+	"Akitoshi #0" = 50
+	"Akimitsu #0" = 50
+	"Munekatsu #0" = 50
+	"Chikamasa #0" = 50
+	"Chikanao #0" = 50
+	"Chikayoshi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -44,21 +42,22 @@ monarch_names = { # Most Monarchs were named with "tane"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Akizuki Flavor
-	Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki 
-	Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki Akizuki 
-	# Retainers of Akizuki    
-	# Region Flavor:Kyushu
-	Shoni Munakata Akizuki Harada Tachibana Shibukawa Kii Aso Moji Kamachi Takahashi
-	Kusano Monchujo Hoshino Ryuzoji Chiba Nabeshima Kamishiro Otomo Hetsugi Shiga Ichimada
-	Saeki Usuki Yoshihiro Kikuchi Aso Sagara Akahoshi Jo Kumabe Kai Amakusa Ito Tsuchimochi
-	Hongo Niiro Mera Shimazu Irikiin Ei Ijuin Togo Kawakami Gamo Nejime Tanegashima Kimotsuki
+    Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo
+	Bekki Bekki Bekki Bekki Bekki Tachibana Tachibana Tachibana Tachibana Tachibana
+	Yoshihiro Yoshihiro Yoshihiro Yoshihiro Yoshihiro Takahashi Takahashi Takahashi Takahashi Takahashi
+	Shiga Shiga Shiga Shiga Shiga Tawara Tawara Tawara Tawara Tawara 
+	Usuki Usuki Usuki Usuki Usuki Saiki Saiki Saiki Saiki Saiki
+	Ichimada Ichimada Ichimada Ichimada Ichimada Takita Takita Takita Takita Takita
+	Yoshioka Yoshioka Yoshioka Yoshioka Yoshioka Honjo Honjo Honjo Honjo Honjo 
+	Tsunokuma Tsunokuma Tsunokuma Tsunokuma Tsunokuma Nyuda Nyuda Nyuda Nyuda Nyuda
+	Kamachi Kamachi Kamachi Kamachi Kamachi Tajiri Tajiri Tajiri Tajiri Tajiri
+	Harano Harano Harano Harano Harano Oki Oki Oki Oki Oki
+	Monjyujo Monjyujo Monjyujo Monjyujo Monjyujo Nishimuta Nishimuta Nishimuta Nishimuta Nishimuta
+	Yufu Yufu Yufu Yufu Yufu Ono Ono Ono Ono Ono
+	Totoki Totoki Totoki Totoki Totoki Takano Takano Takano Takano Takano 
+	Ando Ando Ando Ando Ando Mihara Mihara Mihara Mihara Mihara
+	Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Ouchi Ouchi Ouchi Ouchi Ouchi
+
 }
 
 ship_names = {
@@ -78,9 +77,9 @@ ship_names = {
 }
 
 army_names = {
-	"Akizuki Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Tachibana Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Akizuki Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Tachibana Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

@@ -40,23 +40,20 @@ monarch_names = { # Most Monarchs were named with "nobu"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda 
-	Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda 
-	# Region Flavor: Kinai
-	Kitabatake Kozukuri Kuki Seki Kanbe Nagano Tsuge Okouchi Hattori Kusunoki
-	Rokkaku Kyogoku Takashima Kutsuki Gamo Azai Imai Isono Mikumo Wada Amamori
-	Tanaka Nakamura Ishida Todo Katagiri Ashikaga Hosokawa Ise Ninagawa Ko Isshiki
-	Naito Yuasa Ochi Tsutsui Toichi Furuichi Ido Matsunaga Matsukura Yagyu
-	Hatakeyama Ikeda Itami Nose Akutagawa Araki Yasumi Nakagawa Yusa Takayama
-	Konishi Honganji Shimozuma Horiuchi Tamaki Akai Hatano Araki Yamana Kakiya
-	Bessho Akashi Akamatsu Kodera Kuroda Atagi
+    Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura
+	Akaza Akaza Akaza Akaza Akaza Toda Toda Toda Toda Toda
+	Maeba Maeba Maeba Maeba Maeba Horie Horie Horie Horie Horie
+	Tomita Tomita Tomita Tomita Tomtia Yamazaki Yamazaki Yamazaki Yamazaki Yamazaki
+	Kawai Kawai Kawai Kawai Kawai Uozumi Uozumi Uozumi Uozumi Uozumi
+	Mizoe Mizoe Mizoe Mizoe Mizoe Magara Magara Magara Magara Magara
+	Sugiura Sugiura Sugiura Sugiura Sugiura Shiba Shiba Shiba Shiba Shiba 
+	Takeda Takeda Takeda Takeda Takeda Togashi Togashi Togashi Togashi Togashi
+	Awaya Awaya Awaya Awaya Awaya Hemi Hemi Hemi Hemi Hemi
+	Muto Muto Muto Muto Muto Tokuda Tokuda Tokuda Tokuda Tokuda
+	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Yusa Yusa Yusa Yusa Yusa
+	Igawa Igawa Igawa Igawa Igawa Nukui Nukui Nukui Nukui Nukui
+	Miyake Miyake Miyake Miyake Miyake Cho Cho Cho Cho Cho
+
 }
 
 ship_names = {

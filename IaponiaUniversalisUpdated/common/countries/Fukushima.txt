@@ -25,13 +25,9 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with Mori
-	"Morihisa #0" = 50
-	"Morinobu #0" = 50
-	"Moriakira #0" = 50
-	"Moritaka #0" = 50
-	"Morishige #0" = 50
-	"Morikiyo #0" = 50
-	"Moriuji #0" = 50
+	"Masanori #0" = 50
+	"Takaharu #0" = 50
+	"Masanobu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -40,21 +36,14 @@ monarch_names = { # Most Monarchs were named with Mori
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina 
-	Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina Ashina 
-	# Regional names:Tohoku
-	Matsumae Tsugaru Namioka Shiba Nanbu Kunohe Kudo Asonuma Waga Kurosawa Kita Hei
-	Kasai Nikaido Osaki Sudo Rusu Katakura Ujiie Rusu Kurokawa Watari Moniwa Kokubun
-	Shiraishi Endo Akita Asari Onodera Tozawa Yuri Nikaho Mogami Tendo
-	Sakenobe Sagae Daihoji Tateoka Date Tamura Ishikawa Ouchi Hatakeyama Ashina Inawashiro
-	Soma Sato Iwaki Shirakawa Kanagami	
+    Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda
+	Fukushima Fukushima Fukushima Fukushima Fukushima Kani Kani Kani Kani Kani
+	Furuta Furuta Furuta Furuta Furuta Takenaka Takenaka Takenaka Takenaka Takenaka
+	Tanaka Tanaka Tanaka Tanaka Tanaka Horio Horio Horio Horio Horio
+	Arima Arima Arima Arima Arima Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Asano Asano Asano Asano Asano Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
+	Sengoku Sengoku Sengoku Sengoku Sengoku Mori Mori Mori Mori Mori
+
 }
 
 ship_names = {
@@ -74,9 +63,9 @@ ship_names = {
 }
 
 army_names = {
-	"Ashina Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Fukushima Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Ashina Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Fukushima Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

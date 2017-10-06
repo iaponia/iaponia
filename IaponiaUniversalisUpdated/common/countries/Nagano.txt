@@ -24,10 +24,12 @@ historical_units = {
 	advanced_kanto_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "fuji"
-	"Fujinao #0" = 50
-	"Michihisa #0" = 50
-	"Tanefuji #0" = 50
+monarch_names = { 
+	"Narimasa #0" = 50
+	"Narimori #0" = 50
+	"Narifusa #0" = 50
+	"Norinari #0" = 50
+	"Norikage #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -36,23 +38,23 @@ monarch_names = { # Most Monarchs were named with "fuji"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Nagano Nagano Nagano Nagano Nagano Nagano Nagano Nagano Nagano Nagano Nagano Nagano 
-	Nagano Nagano Nagano Nagano Nagano Nagano Nagano Nagano Nagano Nagano Nagano Nagano 
-	# Region Flavor: Kinai
-	Kitabatake Kozukuri Kuki Seki Kanbe Nagano Tsuge Okouchi Hattori Kusunoki
-	Rokkaku Kyogoku Takashima Kutsuki Gamo Azai Imai Isono Mikumo Wada Amamori
-	Tanaka Nakamura Ishida Todo Katagiri Ashikaga Hosokawa Ise Ninagawa Ko Isshiki
-	Naito Yuasa Ochi Tsutsui Toichi Furuichi Ido Matsunaga Matsukura Yagyu
-	Hatakeyama Ikeda Itami Nose Akutagawa Araki Yasumi Nakagawa Yusa Takayama
-	Konishi Honganji Shimozuma Horiuchi Tamaki Akai Hatano Araki Yamana Kakiya
-	Bessho Akashi Akamatsu Kodera Kuroda Atagi
+    Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi
+	Naoe Naoe Naoe Naoe Naoe Honjo Honjo Honjo Honjo Honjo
+	Nagao Nagao Nagao Nagao Nagao Amakasu Amakasu Amakasu Amakasu Amakasu
+	Saito Saito Saito Saito Saito Usami Usami Usami Usami Usami
+	Kawada Kawada Kawada Kawada Kawada Jojo Jojo Jojo Jojo Jojo
+	Kitajo Kitajo Kitajo Kitajo Kitajo Yasuda Yasuda Yasuda Yasuda Yasuda
+	Kakizaki Kakizaki Kakizaki Kakizaki Kakizaki Sanponji Sanponji Sanponji Sanponji Sanponji
+	Honma Honma Honma Honma Honma Yamayoshi Yamayoshi Yamayoshi Yamayoshi Yamayoshi
+	Kojima Kojima Kojima Kojima Kojima Maeda Maeda Maeda Maeda Maeda
+	Shibata Shibata Shibata Shibata Shibata Kamiizumi Kamiizumi Kamiizumi Kamiizumi Kamiizumi
+	Irobe Irobe Irobe Irobe Irobe Higuchi Higuchi Higuchi Higuchi Higuchi
+	Takanashi Takanashi Takanashi Takanashi Takanashi Murakami Murakami Murakami Murakami Murakami
+	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Jinbo Jinbo Jinbo Jinbo Jinbo 
+	Shiina Shiina Shiina Shiina Shiina Nagano Nagano Nagano Nagano Nagano
+	Numata Numata Numata Numata Numata Wada Wada Wada Wada Wada
+	Obata Obata Obata Obata Obata Yokoze Yokoze Yokoze Yokoze Yokoze
+
 }
 
 ship_names = {

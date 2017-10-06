@@ -25,8 +25,14 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "tane"
-	"Motoie #0" = 50
-	"Morikata #0" = 50
+	"Masayasu #0" = 50
+	"Masanaga #0" = 50
+	"Masahide #0" = 50
+	"Kazumasa #0" = 50
+	"Kazunori #0" = 50
+	"Yasumasa #0" = 50
+	"Yasusada #0" = 50
+	"Yasumune #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -35,19 +41,18 @@ monarch_names = { # Most Monarchs were named with "tane"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi 
-	Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi 
-	# Region Flavor:Shikoku
-	Hosokawa Miyoshi Onishi Niikai Kaifu Sogo Kagawa Kozai Hayuka Saionji Kono Doi Kurushima
-	Murakami Utsunomiya Kaneko Chosokabe Aki Motoyama Kosokabe 
-	Ichijo Ohira Kira Tsuno
+    Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi
+	Sogo Sogo Sogo Sogo Sogo Atagi Atagi Atagi Atagi Atagi
+	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Iwanari Iwanari Iwanari Iwanari Iwanari
+	Ikeda Ikeda Ikeda Ikeda Ikeda Araki Araki Araki Araki Araki 
+	Shichijo Shichijo Shichijo Shichijo Shichijo Onishi Onishi Onishi Onishi Onishi
+	Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara Izawa Izawa Izawa Izawa Izawa
+	Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Kozai Kozai Kozai Kozai Kozai
+	Kagawa Kagawa Kagawa Kagawa Kagawa Takahara Takahara Takahara Takahara Takahara
+	Sangawa Sangawa Sangawa Sangawa Sangawa Kan Kan Kan Kan Kan
+	Shingai Shingai Shingai Shingai Shingai Shinohara Shinohara Shinohara Shinohara Shinohara
+	Matsunaga Matsunaga Matsunaga Matsunaga Matsunaga Nakagawa Nakagawa Nakagawa Nakagawa Nakagawa
+
 }
 
 ship_names = {
@@ -67,9 +72,9 @@ ship_names = {
 }
 
 army_names = {
-	"Yasutomi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Sogo Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Yasutomi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Sogo Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

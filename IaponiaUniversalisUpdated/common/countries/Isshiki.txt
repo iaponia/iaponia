@@ -50,26 +50,13 @@ monarch_names = {
 	}
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Isshiki Flavor
-	Isshiki Isshiki Isshiki Isshiki Isshiki Isshiki Isshiki Isshiki Isshiki Isshiki
-	Isshiki Isshiki Isshiki Isshiki Isshiki Isshiki Isshiki Isshiki Isshiki Isshiki
-	# Retainers of the Isshiki clan
-    Akiyama Akiyama Akiyama Akiyama Akiyama Mikata Mikata Mikata Mikata Mikata
-	Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara Inatomi Inatomi Inatomi Inatomi Inatomi
-	# Region Flavor
-	Kitabatake Kozukuri Kuki Seki Kanbe Nagano Tsuge Okouchi Hattori Kusunoki
-	Rokkaku Kyogoku Takashima Kutsuki Gamo Azai Imai Isono Mikumo Wada Amamori
-	Tanaka Nakamura Ishida Todo Katagiri Ashikaga Hosokawa Ise Ninagawa Ko Isshiki
-	Naito Yuasa Ochi Tsutsui Toichi Furuichi Ido Matsunaga Matsukura Yagyu
-	Hatakeyama Ikeda Itami Nose Akutagawa Araki Yasumi Nakagawa Yusa Takayama
-	Konishi Honganji Shimozuma Horiuchi Tamaki Akai Hatano Araki Yamana Kakiya
-	Bessho Akashi Akamatsu Kodera Kuroda Atagi
+    Hatano Hatano Hatano Hatano Hatano Hatano Hatano Hatano Hatano Hatano
+	Isshiki Isshiki Isshiki Isshiki Isshiki Inadome Inadome Inadome Inadome Inadome
+	Naito Naito Naito Naito Naito Araki Araki Araki Araki Araki
+	Akai Akai Akai Akai Akai Sakai Sakai Sakai Sakai Sakai
+	Ashida Ashida Ashida Ashida Ashida Adachi Adachi Adachi Adachi Adachi
+	Momii Momii Momii Momii Momii Matsunaga Matsunaga Matsunaga Matsunaga Matsunaga
+
 }
 
 ship_names = {

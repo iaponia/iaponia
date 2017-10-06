@@ -37,21 +37,21 @@ monarch_names = { # Most Monarchs were named with aki
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba 
-	Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba 
-	# Regional names:Tohoku
-	Matsumae Tsugaru Namioka Shiba Nanbu Kunohe Kudo Asonuma Waga Kurosawa Kita Hei
-	Kasai Nikaido Osaki Sudo Rusu Katakura Ujiie Rusu Kurokawa Watari Moniwa Kokubun
-	Shiraishi Endo Akita Asari Onodera Tozawa Yuri Nikaho Mogami Tendo
-	Sakenobe Sagae Daihoji Tateoka Date Tamura Ishikawa Ouchi Hatakeyama Ashina Inawashiro
-	Soma Sato Iwaki Shirakawa Kanagami	
+    Nanbu Nanbu Nanbu Nanbu Nanbu Nanbu Nanbu Nanbu Nanbu Nanbu
+	Oura Oura Oura Oura Oura Tsugaru Tsugaru Tsugaru Tsugaru Tsugaru
+	Kita Kita Kita Kita Kita Ishigame Ishigame Ishigame Ishigame Ishigame
+	Hachinohe Hachinohe Hachinohe Hachinohe Hachinohe Kunohe Kunohe Kunohe Kunohe Kunohe	
+	Sakurababa Sakurababa Sakurababa Sakurababa Sakurababa Izumiyama Izumiyama Izumiyama Izumiyama Izumiyama
+	Ishikawa Ishikawa Ishikawa Ishikawa Ishikawa Shichinohe Shichinohe Shichinohe Shichinohe Shichinohe
+	Kanehira Kanehira Kanehira Kanehira Kanehira Morioka Morioka Morioka Morioka Morioka
+	Hattori Hattori Hattori Hattori Hattori Numata Numata Numata Numata Numata
+	Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara Kitabatake Kitabatake Kitabatake Kitabatake Kitabatake	
+	Kakizaki Kakizaki Kakizaki Kakizaki Kakizaki Matsumae Matsumae Matsumae Matsumae Matsumae
+	Shiba Shiba Shiba Shiba Shiba Asonuma Asonuma Asonuma Asonuma Asonuma
+	Hienuki Hienuki Hienuki Hienuki Hienuki Waga Waga Waga Waga Waga
+	Kashiyama Kashiyama Kashiyama Kashiyama Kashiyama Yanada Yanada Yanada Yanada Yanada
+	Osaki Osaki Osaki Osaki Osaki Kasai Kasai Kasai Kasai Kasai
+
 }
 
 ship_names = {

@@ -52,29 +52,17 @@ monarch_names = { #Most Monarchs were named with "uji"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Hojo Flavor
-	Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo
-	Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo
-	# Retainers of the Hojo clan
-	Matsuda Matsuda Matsuda Matsuda Matsuda Fuma Fuma Fuma Fuma Fuma
-	Ise Ise Ise Ise Ise Shimizu Shimizu Shimizu Shimizu Shimizu
-	Kasahara Kasahara Kasahara Kasahara Kasahara Toyama Toyama Toyama Toyama Toyama
-	Edo Edo Edo Edo Edo Kajiwara Kajiwara Kajiwara Kajiwara Kajiwara
-	Narita Narita Narita Narita Narita Oishi Oishi Oishi Oishi Oishi
-	# Region Flavor: Kanto
-	Nasu Otawara Utsunomiya Oyama Haga Sano Naganuma Okamoto
-	Yuki Satake Edo Daijo Kashima Tagaya Oda Kasama Makabe Oguri
-	Nagano Obata Numata Wada Nitta Yura Yokose Watase Annaka Kamiizumi
-	Nagao Akai Kiryu Chiba Satomi Takeda Masaki Sakai Unakami
-	Hara Aihara Anzai Osuka Soma Kira Narita Ota Oishi Toyama Edo Toshima
-	Kawagoe Kaneko Fujita Okabe Uesugi Ashikaga Hojo Miura
-	Omori Katsurayama Itabeoka Soga Kajiwara Daidoji Shimizu
+    Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo 
+	Matsuda Matsuda Matsuda Matsuda Matsuda Ando Ando Ando Ando Ando
+	Tominaga Tominaga Tominaga Tominaga Tominaga Tame Tame Tame Tame Tame
+	Daidoji Daidoji Daidoji Daidoji Daidoji Nakayama Nakayama Nakayama Nakayama Nakayaama
+	Haga Haga Haga Haga Haga Inomata Inomata Inomata Inomata Inomata 
+	Kajiwara Kajiwara Kajiwara Kajiwara Kajiwara Kasahara Kasahara Kasahara Kasahara Kasahara
+	Shimizu Shimizu Shimizu Shimizu Shimizu Kano Kano Kano Kano Kano
+	Oishi Oishi Oishi Oishi Oishi Ueda Ueda Ueda Ueda Ueda
+	Ota Ota Ota Ota Ota Narita Narita Narita Narita Narita 
+	Uesugi Uesugi Uesugi Uesugi Uesugi Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga
+
 }
 
 ship_names = {

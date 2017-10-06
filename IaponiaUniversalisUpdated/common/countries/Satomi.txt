@@ -42,23 +42,13 @@ monarch_names = { # Most Monarchs were named with "yoshi"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi 
-	Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi 
-	# Region Flavor: Kanto
-	Nasu Otawara Utsunomiya Oyama Haga Sano Naganuma Okamoto
-	Yuki Satake Edo Daijo Kashima Tagaya Oda Kasama Makabe Oguri
-	Nagano Obata Numata Wada Nitta Yura Yokose Watase Annaka Kamiizumi
-	Nagao Akai Kiryu Chiba Satomi Takeda Masaki Sakai Unakami
-	Hara Aihara Anzai Osuka Soma Kira Narita Ota Oishi Toyama Edo Toshima
-	Kawagoe Kaneko Fujita Okabe Uesugi Ashikaga Hojo Miura
-	Omori Katsurayama Itabeoka Soga Kajiwara Daidoji Shimizu
+    Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi
+	Masaki Masaki Masaki Masaki Masaki Okamoto Okamoto Okamoto Okamoto Okamoto
+	Takeda Takeda Takeda Takeda Takeda Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga
+	Toki Toki Toki Toki Toki Sakai Sakai Sakai Sakai Sakai 
+	Sano Sano Sano Sano Sano Hara Hara Hara Hara Hara
+	Chiba Chiba Chiba Chiba Chiba Takagi Takagi Takagi Takagi Takagi
+
 }
 
 ship_names = {

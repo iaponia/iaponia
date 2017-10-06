@@ -10,7 +10,7 @@ historical_idea_groups = {
 	influence_ideas
 	aristocratic_ideas
 	administrative_ideas
-	mercantilist_ideas
+	diplomatic_ideas
 }
 
 historical_units = {
@@ -25,13 +25,14 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "yoshi"
-	"Yoshizane #0" = 50
-	"Yoshifuyu #0" = 50
-	"Yoshiaki #0" = 50
-	"Yoshisada #0" = 50
-	"Yoshisato #0" = 50
-	"Yoshinobu #0" = 50
-	"Yoshimoto #0" = 50
+	"Yoshizane #0" = 30
+	"Yoshifuyu #0" = 30
+	"Yoshiaki #0" = 30
+	"Yoshisada #0" = 30
+	"Yoshisato #0" = 30
+	"Yoshinobu #0" = 30
+	"Yoshimoto #0" = 30
+	"Light #0" = 75
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -40,23 +41,23 @@ monarch_names = { # Most Monarchs were named with "yoshi"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira 
-	Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira Kira 
-	# Region Flavor:Tokai-Chubu
-	Toki Toyama Endo Saito Ujiie Inaba Ando Fuwa Akechi Takenaka Hineno
-	Aoki Sengoku Anekoji Ema Miki Kanamori Imagawa Amano Asahina Okabe Iio Hamana
-	Sekiguchi Sena Fuji Matsushita Ii Katsurayama Abe Kira Tokugawa Matsudaira Udono Okudaira
-	Suganuma Toda Natsume Ishikawa Hattori Torii Naito Okubo Honda
-	Hiraiwa Sakai Sakakibara Itakura Ina Shiba Niki Oda Mizuno Saji Ikeda
-	Shibata Niwa Takigawa Kinoshita Maeda Sassa Sakuma Hirate Hayashi
-	Hachisuka Kato Asano Ikoma Horio Fukushima Maeda
+    Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa
+	Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira Honda Honda Honda Honda Honda
+	Kira Kira Kira Kira Kira Ishikawa Ishikawa Ishikawa Ishikawa Ishikawa
+	Torii Torii Torii Torii Torii Hattori Hattori Hattori Hattori Hattori
+	Sakakibara Sakakibara Sakakibara Sakakibara Sakakibara Sakai Sakai Sakai Sakai Sakai 
+	Abe Abe Abe Abe Abe Koriki Koriki Koriki Koriki Koriki
+	Naito Naito Naito Naito Naito Mizuno Mizuno Mizuno Mizuno Mizuno
+	Okubo Okubo Okubo Okubo Okubo Okudaira Okudaira Okudaira Okudaira Okudaira
+	Makino Makino Makino Makino Makino Hoshina Hoshina Hoshina Hoshina Hoshina
+	Sanada Sanada Sanada Sanada Sanada Ii Ii Ii Ii Ii
+	Doi Doi Doi Doi Doi Amano Amano Amano Amano Amano
+	Imagawa Imagawa Imagawa Imagawa Imagawa Sena Sena Sena Sena Sena
+	Okabe Okabe Okabe Okabe Okabe Itami Itami Itami Itami Itami
+	Fukushima Fukushima Fukushima Fukushima Fukushima Asahina Asahina Asahina Asahina Asahina
+	Mishuku Mishuku Mishuku Mishuku Mishuku Udono Udono Udono Udono Udono
+	Katsurayama Katsurayama Katsurayama Katsurayama Katsurayama Mukai Mukai Mukai Mukai Mukai
+
 }
 
 ship_names = {

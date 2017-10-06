@@ -54,30 +54,22 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Imagawa Flavor
-	Imagawa Imagawa Imagawa Imagawa Imagawa Imagawa Imagawa Imagawa Imagawa Imagawa
-	Imagawa Imagawa Imagawa Imagawa Imagawa Imagawa Imagawa Imagawa Imagawa Imagawa
-	# Retainers of the Imagawa clan
-    Asahina Asahina Asahina Asahina Asahina Udono Udono Udono Udono Udono
-	Okabe Okabe Okabe Okabe Okabe Miura Miura Miura Miura Miura
-	Katsurayama Katsurayama Katsurayama Katsurayama Katsurayama Sena Sena Sena Sena Sena
-	Sekiguchi Sekiguchi Sekiguchi Sekiguchi Sekiguchi Iio Iio Iio Iio Iio
-	Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira Matsui Matsui Matsui Matsui Matsui
-	Ii Ii Ii Ii Ii Amano Amano Amano Amano Amano Abe Abe Abe Abe Abe
-	# Region Flavor:Tokai-Chubu
-	Toki Toyama Endo Saito Ujiie Inaba Ando Fuwa Akechi Takenaka Hineno
-	Aoki Sengoku Anekoji Ema Miki Kanamori Imagawa Amano Asahina Okabe Iio Hamana
-	Sekiguchi Sena Fuji Matsushita Ii Katsurayama Abe Kira Tokugawa Matsudaira Udono Okudaira
-	Suganuma Toda Natsume Ishikawa Hattori Torii Naito Okubo Honda
-	Hiraiwa Sakai Sakakibara Itakura Ina Shiba Niki Oda Mizuno Saji Ikeda
-	Shibata Niwa Takigawa Kinoshita Maeda Sassa Sakuma Hirate Hayashi
-	Hachisuka Kato Asano Ikoma Horio Fukushima Maeda
+    Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa
+	Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira Honda Honda Honda Honda Honda
+	Kira Kira Kira Kira Kira Ishikawa Ishikawa Ishikawa Ishikawa Ishikawa
+	Torii Torii Torii Torii Torii Hattori Hattori Hattori Hattori Hattori
+	Sakakibara Sakakibara Sakakibara Sakakibara Sakakibara Sakai Sakai Sakai Sakai Sakai 
+	Abe Abe Abe Abe Abe Koriki Koriki Koriki Koriki Koriki
+	Naito Naito Naito Naito Naito Mizuno Mizuno Mizuno Mizuno Mizuno
+	Okubo Okubo Okubo Okubo Okubo Okudaira Okudaira Okudaira Okudaira Okudaira
+	Makino Makino Makino Makino Makino Hoshina Hoshina Hoshina Hoshina Hoshina
+	Sanada Sanada Sanada Sanada Sanada Ii Ii Ii Ii Ii
+	Doi Doi Doi Doi Doi Amano Amano Amano Amano Amano
+	Imagawa Imagawa Imagawa Imagawa Imagawa Sena Sena Sena Sena Sena
+	Okabe Okabe Okabe Okabe Okabe Itami Itami Itami Itami Itami
+	Fukushima Fukushima Fukushima Fukushima Fukushima Asahina Asahina Asahina Asahina Asahina
+	Mishuku Mishuku Mishuku Mishuku Mishuku Udono Udono Udono Udono Udono
+	Katsurayama Katsurayama Katsurayama Katsurayama Katsurayama Mukai Mukai Mukai Mukai Mukai
 }
 
 ship_names = {

@@ -39,19 +39,19 @@ monarch_names = { # Most Monarchs were named with "fusa"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo 
-	Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo Ichijo 
-	# Region Flavor:Shikoku
-	Hosokawa Miyoshi Onishi Niikai Kaifu Sogo Kagawa Kozai Hayuka Saionji Kono Doi Kurushima
-	Murakami Utsunomiya Kaneko Chosokabe Aki Motoyama Kosokabe 
-	Ichijo Ohira Kira Tsuno
+    Chosokabe Chosokabe Chosokabe Chosokabe Chosokabe Chosokabe Chosokabe Chosokabe Chosokabe Chosokabe
+	Kuwana Kuwana Kuwana Kuwana Kuwana Tani Tani Tani Tani Tani
+	Yoshida Yoshida Yoshida Yoshida Yoshida Kosokabe Kosokabe Kosokabe Kosokabe Kosokabe
+	Emura Emura Emura Emura Emura Satake Satake Satake Satake Satake 
+	Jinzenji Jinzenji Jinzenji Jinzenji Jinzenji Toyonaga Toyonaga Toyonaga Toyonaga Toyonaga
+	Kira Kira Kira Kira Kira Aki Aki Aki Aki Aki
+	Fukudome Fukudome Fukudome Fukudome Fukudome Hisatake Hisatake Hisatake Hisatake Hisatake
+	Ichijo Ichijo Ichijo Ichijo Ichijo Doi Doi Doi Doi Doi
+	Tsuno Tsuno Tsuno Tsuno Tsuno Kumon Kumon Kumon Kumon Kumon
+	Ojima Ojima Ojima Ojima Ojima Shikichi Shikichi Shikichi Shikichi Shikichi
+	Kubokawa Kubokawa Kubokawa Kubokawa Kubokawa Takashima Takashima Takashima Takashima Takashima
+	Motoyama Motoyama Motoyama Motoyama Motoyama Kuroiwa Kuroiwa Kuroiwa Kuroiwa Kuroiwa
+
 }
 
 ship_names = {

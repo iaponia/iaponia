@@ -55,19 +55,23 @@ monarch_names = { # Most Monarchs were named with "Yoshi"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Shiba Flavor
-	Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba
-	Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba Shiba
-	# Vassals of Shiba
-    Kai Kai Kai Kai Kai Asakura Asakura Asakura Asakura Asakura
-	Ninomiya Ninomiya Ninomiya Ninomiya Ninomiya Horie Horie Horie Horie Horie
-	Oda	Oda Oda Oda Oda
+    Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda
+	Hashiba Hashiba Hashiba Hashiba Hashiba Shibata Shibata Shibata Shibata Shibata
+	Niwa Niwa Niwa Niwa Niwa Takigawa Takigawa Takigawa Takigawa Takigawa Takigawa
+	Maeda Maeda Maeda Maeda Maeda Kanamori Kanamori Kanamori Kanamori Kanamori
+	Sassa Sassa Sassa Sassa Sassa Mori Mori Mori Mori Mori
+	Kawajiri Kawajiri Kawajiri Kawajiri Kawajiri Hayashi Hayashi Hayashi Hayashi Hayashi
+	Sakuma Sakuma Sakuma Sakuma Sakuma Hori Hori Hori Hori Hori
+	Saito Saito Saito Saito Saito Akechi Akechi Akechi Akechi Akechi
+	Takenaka Takenaka Takenaka Takenaka Takenaka Fuwa Fuwa Fuwa Fuwa Fuwa
+	Inaba Inaba Inaba Inaba Inaba Ujiie Ujiie Ujiie Ujiie Ujiie
+	Ando Ando Ando Ando Ando Toyama Toyama Toyama Toyama Toyama 
+	Hachisuka Hachisuka Hachisuka Hachisuka Hachisuka Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Hara Hara Hara Hara Hara Hirate Hirate Hirate Hirate Hirate
+	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Asano Gamo Gamo Gamo Gamo Gamo
+	Shiba Shiba Shiba Shiba Shiba Toki Toki Toki Toki Toki
+	Araki Araki Araki Araki Araki Takayama Takayama Takayama Takayama Takayama
+
 }
 
 ship_names = {

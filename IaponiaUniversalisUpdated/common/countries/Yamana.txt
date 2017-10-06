@@ -63,26 +63,13 @@ monarch_names = { #Most Monarchs were named with "toyo"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Yamana Flavor
-	Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana
-	Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana
-	# Retainers of the Yamana clan
-    Kakiya Kakiya Kakiya Kakiya Kakiya Nakamura Nakamura Nakamura Nakamura Nakamura
-	Yoshioka Yoshioka Yoshioka Yoshioka Yoshioka Morishita Morishita Morishita Morishita Morishita
-	Ootagaki Ootagaki Ootagaki Ootagaki Ootagaki Tainosho Tainosho Tainosho Tainosho Tainosho
-	Nanjo Nanjo Nanjo Nanjo Nanjo
-	# Region Flavor: Chugoku
-	Uragami Matsuda Ukita Togawa Hanabusa Akashi Hosokawa Sho Mimura Ishikawa
-	Akiba Shimizu Senoo Miura Yamana Nanjo Takeda Amago Mitoya Akana Tachihara Uyama
-	Shido Yamanaka Kamei Masuda Yoshimi Yamauchi Mori Kikkawa Kobayakawa
-	Murakami Kumagai Saeki Fukuhara Kodaga Katsura Shishido Inoue
-	Ouchi Sue Sugi Naito
+    Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana
+	Takeda Takeda Takeda Takeda Takeda Yoshioka Yoshioka Yoshioka Yoshioka Yoshioka 
+	Morishita Morishita Morishita Morishita Morishita Nakamura Nakamura Nakamura Nakamura Nakamura
+	Tainosho Tainosho Tainosho Tainosho Tainosho Otagaki Otagaki Otagaki Otagaki Otagaki
+	Yagi Yagi Yagi Yagi Yagi Kakiya Kakiya Kakiya Kakiya Kakiya
+	Nanjo Nanjo Nanjo Nanjo Nanjo Yukimatsu Yukimatsu Yukimatsu Yukimatsu Yukimatsu
+
 }
 
 ship_names = {

@@ -62,27 +62,19 @@ monarch_names = { #Most Monarchs were named with "nori"
 	}
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Akamatsu Flavor
-	Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu
-	Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu
-    # Retainers of the Akamatsu clan
-	Kodera Kodera Kodera Kodera Kodera Bessho Bessho Bessho Bessho Bessho
-	Uragami Uragami Uragami Uragami Uragami Fukuhara Fukuhara Fukuhara Fukuhara Fukuhara
-	Hirano Hirano Hirano Hirano Hirano
-	# Region Flavor
-	Kitabatake Kozukuri Kuki Seki Kanbe Nagano Tsuge Okouchi Hattori Kusunoki
-	Rokkaku Kyogoku Takashima Kutsuki Gamo Azai Imai Isono Mikumo Wada Amamori
-	Tanaka Nakamura Ishida Todo Katagiri Ashikaga Hosokawa Ise Ninagawa Ko Isshiki
-	Naito Yuasa Ochi Tsutsui Toichi Furuichi Ido Matsunaga Matsukura Yagyu
-	Hatakeyama Ikeda Itami Nose Akutagawa Araki Yasumi Nakagawa Yusa Takayama
-	Konishi Honganji Shimozuma Horiuchi Tamaki Akai Hatano Araki Yamana Kakiya
-	Bessho Akashi Akamatsu Kodera Kuroda Atagi
+    Ukita Ukita Ukita Ukita Ukita Ukita Ukita Ukita Ukita Ukita
+	Urakami Urakami Urakami Urakami Urakami Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu
+	Akashi Akashi Akashi Akashi Akashi Hanabusa Hanabusa Hanabusa Hanabusa Hanabusa
+	Oka Oka Oka Oka Oka Osafune Osafune Osafune Osafune Osafune
+	Togawa Togawa Togawa Togawa Togawa Iga Iga Iga Iga Iga
+	Nakamura Nakamura Nakamura Nakamura Nakamura Shimamura Shimamura Shimamura Shimamura Shimamura
+	Goto Goto Goto Goto Goto Miura Miura Miura Miura Miura
+	Maki Maki Maki Maki Maki Harada Harada Harada Harada Harada
+	Kodera Kodera Kodera Kodera Kodera Kuroda Kuroda Kuroda Kuroda Kuroda
+	Konishi Konishi Konishi Konishi Konishi Bessho Bessho Bessho Bessho Bessho 
+	Kanki Kanki Kanki Kanki Kanki Ogo Ogo Ogo Ogo Ogo 
+	Arima Arima Arima Arima Arima Kume Kume Kume Kume Kume
+
 }
 
 ship_names = {

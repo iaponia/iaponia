@@ -41,21 +41,26 @@ monarch_names = { # Most Monarchs were named with "tada" or "hisa"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso 
-	Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso Kiso 
-    # Region Flavor: Koshinetsu-Hokuriku
-	Ogasawara Suwa Takato Murakami Takanashi Suda Unno Mochizuki Sanada Oi
-	Yashiro Hoshina Nishina Kiso Baba Takeda Anayama Oyamada Akiyama Tsuchiya Amari
-	Itagaki Naito Kosaka Obu Yamagata Hara Yamamoto Nagao Nakajo Irobe Honjo Kaji Shibata
-	Kakizaki Kitajo Yasuda Jojo Usami Shida Saito Oguni Amakasu Naoe Honma
-	Togashi Cho Shiina Jinbo Nukui Ishiguro Asakura Horie Awaya Otani
+    Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda
+	Yamagata Yamagata Yamagata Yamagata Yamagata Yamamoto Yamamoto Yamamoto Yamamoto Yamamoto
+	Ichijo Ichijo Ichijo Ichijo Ichijo Oyamada Oyamada Oyamada Oyamada Oyamada
+	Kosaka Kosaka Kosaka Kosaka Kosaka Baba Baba Baba Baba Baba
+	Naito Naito Naito Naito Naito Hara Hara Hara Hara Hara
+	Obu Obu Obu Obu Obu Tada Tada Tada Tada Tada
+	Amari Amari Amari Amari Amari Itagaki Itagaki Itagaki Itagaki Itagaki
+	Obata Obata Obata Obata Obata Komai Komai Komai Komai Komai
+	Atobe Atobe Atobe Atobe Atobe Tsuchiya Tsuchiya Tsuchiya Tsuchiya Tsuchiya
+	Akiyama Akiyama Akiyama Akiyama Akiyama Anayama Anayama Anayama Anayama Anayama
+	Sanada Sanada Sanada Sanada Sanada Yazawa Yazawa Yazawa Yazawa Yazawa 
+	Suda Suda Suda Suda Suda Oi Oi Oi Oi Oi
+	Takanashi Takanashi Takanashi Takanashi Takanashi Unno Unno Unno Unno Unno
+	Murakami Murakami Murakami Murakami Murakami Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara
+	Suwa Suwa Suwa Suwa Suwa Kiso Kiso Kiso Kiso Kiso
+	Hoshina Hoshina Hoshina Hoshina Hoshina Takato Takato Takato Takato Takato
+	Mizoguchi Mizoguchi Mizoguchi Mizoguchi Mizoguchi Inukai Inukai Inukai Inukai Inukai
+	Yashiro Yashiro Yashiro Yashiro Yashiro Ideura Ideura Ideura Ideura Ideura
+	Wada Wada Wada Wada Wada Aiki Aiki Aiki Aiki Aiki
+
 }
 
 ship_names = {

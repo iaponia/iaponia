@@ -39,16 +39,23 @@ monarch_names = { # Most Monarchs were named with "masa"
 }
 
 leader_names = {
-    # Daimyo names
-	Seki Seki Seki Seki Seki Seki Seki Seki Seki Seki Seki Seki Seki Seki Seki Seki Seki Seki 
-	# Region Flavor: Kinai
-	Kitabatake Kozukuri Kuki Seki Kanbe Nagano Tsuge Okouchi Hattori Kusunoki
-	Rokkaku Kyogoku Takashima Kutsuki Gamo Azai Imai Isono Mikumo Wada Amamori
-	Tanaka Nakamura Ishida Todo Katagiri Ashikaga Hosokawa Ise Ninagawa Ko Isshiki
-	Naito Yuasa Ochi Tsutsui Toichi Furuichi Ido Matsunaga Matsukura Yagyu
-	Hatakeyama Ikeda Itami Nose Akutagawa Araki Yasumi Nakagawa Yusa Takayama
-	Konishi Honganji Shimozuma Horiuchi Tamaki Akai Hatano Araki Yamana Kakiya
-	Bessho Akashi Akamatsu Kodera Kuroda Atagi
+    Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku
+	Gamo Gamo Gamo Gamo Gamo Goto Goto Goto Goto Goto
+	Mikumo Mikumo Mikumo Mikumo Mikumo Tamaru Tamaru Tamaru Tamaru Tamaru
+	Yoshida Yoshida Yoshida Yoshida Yoshida Shindo Shindo Shindo Shindo Shindo
+	Komai Komai Komai Komai Komai Takada Takada Takada Takada Takada
+	Endo Endo Endo Endo Endo Isono Isono Isono Isono Isono
+	Azai Azai Azai Azai Azai Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
+	Todo Todo Todo Todo Todo Tanaka Tanaka Tanaka Tanaka Tanaka
+	Ishida Ishida Ishida Ishida Ishida Otani Otani Otani Otani Otani
+	Miyabe Miyabe Miyabe Miyabe Miyabe Kutsuki Kutsuki Kutsuki Kutsuki Kutsuki
+	Amenomori Amenomori Amenomori Amenomori Amenomori Akao Akao Akao Akao Akao
+	Kaiho Kaiho Kaiho Kaiho Kaiho Anyoji Anyoji Anyoji Anyoji Anyoji
+	Kitabatake Kitabatake Kitabatake Kitabatake Kitabatake Kozukuri Kozukuri Kozukuri Kozukuri Kozukuri
+	Seki Seki Seki Seki Seki Nagano Nagano Nagano Nagano Nagano 
+	Hosono Hosono Hosono Hosono Hosono Kanbe Kanbe Kanbe Kanbe Kanbe
+	Kuki Kuki Kuki Kuki Kuki Ohama Ohama Ohama Ohama Ohama
+
 }
 
 ship_names = {
@@ -68,9 +75,9 @@ ship_names = {
 }
 
 army_names = {
-	"Azai Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Seki Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Azai Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Seki Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

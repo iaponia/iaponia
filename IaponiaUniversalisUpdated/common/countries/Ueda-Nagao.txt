@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 113  159  250 }
 
+preferred_religion = mahayana
+
 historical_idea_groups = {
 	influence_ideas
 	traditional_ideas
@@ -28,6 +30,10 @@ monarch_names = { # Most Monarchs were named with "kage"
 	"Tamekage #0" = 50
 	"Harukage #0" = 50
 	"Kagetora #0" = 50
+	"Kagekatsu #0" = 50
+	"Masakage #0" = 50
+	"Fusanaga #0" = 50
+	"Kagenao #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -36,21 +42,23 @@ monarch_names = { # Most Monarchs were named with "kage"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao 
-	Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao Nagao 
-    # Region Flavor: Koshinetsu-Hokuriku
-	Ogasawara Suwa Takato Murakami Takanashi Suda Unno Mochizuki Sanada Oi
-	Yashiro Hoshina Nishina Kiso Baba Takeda Anayama Oyamada Akiyama Tsuchiya Amari
-	Itagaki Naito Kosaka Obu Yamagata Hara Yamamoto Nagao Nakajo Irobe Honjo Kaji Shibata
-	Kakizaki Kitajo Yasuda Jojo Usami Shida Saito Oguni Amakasu Naoe Honma
-	Togashi Cho Shiina Jinbo Nukui Ishiguro Asakura Horie Awaya Otani
+    Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi
+	Naoe Naoe Naoe Naoe Naoe Honjo Honjo Honjo Honjo Honjo
+	Nagao Nagao Nagao Nagao Nagao Amakasu Amakasu Amakasu Amakasu Amakasu
+	Saito Saito Saito Saito Saito Usami Usami Usami Usami Usami
+	Kawada Kawada Kawada Kawada Kawada Jojo Jojo Jojo Jojo Jojo
+	Kitajo Kitajo Kitajo Kitajo Kitajo Yasuda Yasuda Yasuda Yasuda Yasuda
+	Kakizaki Kakizaki Kakizaki Kakizaki Kakizaki Sanponji Sanponji Sanponji Sanponji Sanponji
+	Honma Honma Honma Honma Honma Yamayoshi Yamayoshi Yamayoshi Yamayoshi Yamayoshi
+	Kojima Kojima Kojima Kojima Kojima Maeda Maeda Maeda Maeda Maeda
+	Shibata Shibata Shibata Shibata Shibata Kamiizumi Kamiizumi Kamiizumi Kamiizumi Kamiizumi
+	Irobe Irobe Irobe Irobe Irobe Higuchi Higuchi Higuchi Higuchi Higuchi
+	Takanashi Takanashi Takanashi Takanashi Takanashi Murakami Murakami Murakami Murakami Murakami
+	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Jinbo Jinbo Jinbo Jinbo Jinbo 
+	Shiina Shiina Shiina Shiina Shiina Nagano Nagano Nagano Nagano Nagano
+	Numata Numata Numata Numata Numata Wada Wada Wada Wada Wada
+	Obata Obata Obata Obata Obata Yokoze Yokoze Yokoze Yokoze Yokoze
+
 }
 
 ship_names = {

@@ -38,12 +38,23 @@ monarch_names = { #Most of Monarchs ware named with "kore"
 }
 
 leader_names = {
-    # Daimyo names
-	Honma
-	# Region Flavor:Shikoku
-	Hosokawa Miyoshi Onishi Niikai Kaifu Sogo Kagawa Kozai Hayuka Saionji Kono Doi Kurushima
-	Murakami Utsunomiya Kaneko Chosokabe Aki Motoyama Kosokabe 
-	Ichijo Ohira Kira Tsuno
+    Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi
+	Naoe Naoe Naoe Naoe Naoe Honjo Honjo Honjo Honjo Honjo
+	Nagao Nagao Nagao Nagao Nagao Amakasu Amakasu Amakasu Amakasu Amakasu
+	Saito Saito Saito Saito Saito Usami Usami Usami Usami Usami
+	Kawada Kawada Kawada Kawada Kawada Jojo Jojo Jojo Jojo Jojo
+	Kitajo Kitajo Kitajo Kitajo Kitajo Yasuda Yasuda Yasuda Yasuda Yasuda
+	Kakizaki Kakizaki Kakizaki Kakizaki Kakizaki Sanponji Sanponji Sanponji Sanponji Sanponji
+	Honma Honma Honma Honma Honma Yamayoshi Yamayoshi Yamayoshi Yamayoshi Yamayoshi
+	Kojima Kojima Kojima Kojima Kojima Maeda Maeda Maeda Maeda Maeda
+	Shibata Shibata Shibata Shibata Shibata Kamiizumi Kamiizumi Kamiizumi Kamiizumi Kamiizumi
+	Irobe Irobe Irobe Irobe Irobe Higuchi Higuchi Higuchi Higuchi Higuchi
+	Takanashi Takanashi Takanashi Takanashi Takanashi Murakami Murakami Murakami Murakami Murakami
+	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Jinbo Jinbo Jinbo Jinbo Jinbo 
+	Shiina Shiina Shiina Shiina Shiina Nagano Nagano Nagano Nagano Nagano
+	Numata Numata Numata Numata Numata Wada Wada Wada Wada Wada
+	Obata Obata Obata Obata Obata Yokoze Yokoze Yokoze Yokoze Yokoze 
+
 }
 
 ship_names = {

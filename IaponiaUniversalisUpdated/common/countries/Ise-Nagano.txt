@@ -2,9 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 212  137  88 }
-
-preferred_religion = catholic
+color = { 253  226  241 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -27,11 +25,9 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "masa"
-	"Koremasa #0" = 50
-	"Korenaga #0" = 50
-	"Koresuke #0" = 50
-	"Yoshimori #0" = 50
-	"Yoshinao #0" = 50
+	"Fujinao #0" = 50
+	"Michihisa #0" = 50
+	"Tanefuji #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -40,24 +36,22 @@ monarch_names = { # Most Monarchs were named with "masa"
 }
 
 leader_names = {
-    Araki Araki Araki Araki Araki Araki Araki Araki Araki Araki
-	Ikeda Ikeda Ikeda Ikeda Ikeda Nakagawa Nakagawa Nakagawa Nakagawa Nakagawa
-	Inatsugi Inatsugi Inatsugi Inatsugi Inatsugi Kimura Kimura Kimura Kimura Kimura 
-	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi
-	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Yusa Yusa Yusa Yusa Yusa
-	Yasumi Yasumi Yasumi Yasumi Yasumi Takayama Takayama Takayama Takayama Takayama
-	Naito Naito Naito Naito Naito Wada Wada Wada Wada Wada
-	Kizawa Kizawa Kizawa Kizawa Kizawa Nonagase Nonagase Nonagase Nonagase Nonagase
-	Yukawa Yukawa Yukawa Yukawa Yukawa Oyama Oyama Oyama Oyama Oyama
-	Matsunaga Matsunaga Matsunaga Matsunaga Matsunaga Yuki Yuki Yuki Yuki Yuki
-	Tsutsui Tsutsui Tsutsui Tsutsui Tsutsui Oka Oka Oka Oka Oka 
-	Ido Ido Ido Ido Ido Yagyu Yagyu Yagyu Yagyu Yagyu
-	Ochi Ochi Ochi Ochi Ochi Tochi Tochi Tochi Tochi Tochi
-	Matsukura Matsukura Matsukura Matsukura Matsukura Mori Mori Mori Mori Mori
-	Hashio Hashio Hashio Hashio Hashio Kishida Kishida Kishida Kishida Kishida
-	Shima Shima Shima Shima Shima Nakanobo Nakanobo Nakanobo Nakanobo Nakanobo
-	Matsui Matsui Matsui Matsui Matsui Mitsubuchi Mitsubuchi Mitsubuchi Mitsubuchi Mitsubuchi
-	Kyogoku Kyogoku Kyogoku Kyogoku Ise Ise Ise Ise Ise
+    Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku
+	Gamo Gamo Gamo Gamo Gamo Goto Goto Goto Goto Goto
+	Mikumo Mikumo Mikumo Mikumo Mikumo Tamaru Tamaru Tamaru Tamaru Tamaru
+	Yoshida Yoshida Yoshida Yoshida Yoshida Shindo Shindo Shindo Shindo Shindo
+	Komai Komai Komai Komai Komai Takada Takada Takada Takada Takada
+	Endo Endo Endo Endo Endo Isono Isono Isono Isono Isono
+	Azai Azai Azai Azai Azai Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
+	Todo Todo Todo Todo Todo Tanaka Tanaka Tanaka Tanaka Tanaka
+	Ishida Ishida Ishida Ishida Ishida Otani Otani Otani Otani Otani
+	Miyabe Miyabe Miyabe Miyabe Miyabe Kutsuki Kutsuki Kutsuki Kutsuki Kutsuki
+	Amenomori Amenomori Amenomori Amenomori Amenomori Akao Akao Akao Akao Akao
+	Kaiho Kaiho Kaiho Kaiho Kaiho Anyoji Anyoji Anyoji Anyoji Anyoji
+	Kitabatake Kitabatake Kitabatake Kitabatake Kitabatake Kozukuri Kozukuri Kozukuri Kozukuri Kozukuri
+	Seki Seki Seki Seki Seki Nagano Nagano Nagano Nagano Nagano 
+	Hosono Hosono Hosono Hosono Hosono Kanbe Kanbe Kanbe Kanbe Kanbe
+	Kuki Kuki Kuki Kuki Kuki Ohama Ohama Ohama Ohama Ohama
 
 }
 
@@ -78,9 +72,9 @@ ship_names = {
 }
 
 army_names = {
-	"Wada Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Nagano Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Wada Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Nagano Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

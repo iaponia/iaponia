@@ -57,27 +57,19 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Date Flavor
-	Date Date Date Date Date Date Date Date Date Date
-	Date Date Date Date Date Date Date Date Date Date
-	# Retainers of the Date clan
-	Katakura Katakura Katakura Katakura Katakura Nakano Nakano Nakano Nakano Nakano
-	Oniniwa Oniniwa Oniniwa Oniniwa Oniniwa Endo Endo Endo Endo Endo
-	Yashiro Yashiro Yashiro Yashiro Yashiro Shiraishi Shiraishi Shiraishi Shiraishi Shiraishi
-	Hasekura Hasekura Hasekura Hasekura Hasekura Harada Harada Harada Harada Harada
-	Goto Goto Goto Goto Goto Makino Makino Makino Makino Makino
-	# Regional names:Tohoku
-	Matsumae Tsugaru Namioka Shiba Nanbu Kunohe Kudo Asonuma Waga Kurosawa Kita Hei
-	Kasai Nikaido Osaki Sudo Rusu Katakura Ujiie Rusu Kurokawa Watari Moniwa Kokubun
-	Shiraishi Endo Akita Asari Onodera Tozawa Yuri Nikaho Mogami Tendo
-	Sakenobe Sagae Daihoji Tateoka Date Tamura Ishikawa Ouchi Hatakeyama Ashina Inawashiro
-	Soma Sato Iwaki Shirakawa Kanagami
+    Date Date Date Date Date Date Date Date Date Date
+	Katakura Katakura Katakura Katakura Katakura Rusu Rusu Rusu Rusu Rusu
+	Watari Watari Watari Watari Watari Endo Endo Endo Endo Endo
+	Oniniwa Oniniwa Oniniwa Oniniwa Oniniwa Kori Kori Kori Kori Kori
+	Goto Goto Goto Goto Goto Shiroshi Shiroshi Shiroshi Shiroshi Shiroshi
+	Hasekura Hasekura Hasekura Hasekura Hasekura Yashiro Yashiro Yashiro Yashiro Yashiro
+	Kayaba Kayaba Kayaba Kayaba Kayaba Yamaoka Yamaoka Yamaoka Yamaoka Yamaoka
+	Kokubun Kokubun Kokubun Kokubun Kokubun Suzuki Suzuki Suzuki Suzuki Suzuki
+	Nakano Nakano Nakano Nakano Nakano Kakeda Kakeda Kakeda Kakeda Kakeda
+	Kasai Kasai Kasai Kasai Kasai Osaki Osaki Osaki Osaki Osaki
+	Ujiie Ujiie Ujiie Ujiie Ujiie Mogami Mogami Mogami Mogami Mogami
+	Tamura Tamura Tamura Tamura Tamura Ouchi Ouchi Ouchi Ouchi Ouchi
+
 }
 
 ship_names = {

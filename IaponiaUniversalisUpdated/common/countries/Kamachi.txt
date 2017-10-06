@@ -4,8 +4,6 @@ graphical_culture = asiangfx
 
 color = { 123  71  65 }
 
-preferred_religion = catholic
-
 historical_idea_groups = {
 	offensive_ideas
 	trade_ideas
@@ -27,31 +25,12 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "Chika"
-	"Chikayo #0" = 50
-	"Yoshinao #0" = 50
-	"Chikahide #0" = 50
-	"Chikatoki #0" = 50
-	"Yoriyasu #0" = 50	
-	"Sadachika #0" = 50	
-	"Sadamune #0" = 50	
-	"Ujitoki #0" = 50	
-	"Ujiyasu #0" = 50
-	"Ujitsugu #0" = 50
-	"Chikaaki #0" = 50
-	"Mochinao #0" = 50
-	"Chikatsuna #0" = 50
-	"Chikataka #0" = 50
-	"Chikashige #0" = 50
-    "Masachika #0" = 50
-	"Yoshisuke #0" = 50
-	"Chikaharu #0" = 50
-	"Yoshinaga #0" = 50	
-	"Yoshiaki #0" = 50	
-	"Yoshishige #0" = 50	
-	"Chikaie #0" = 50	
-	"Chikamori #0" = 50
-	"Yoshimune #0" = 50
-	"Yoshinori #0" = 50
+	"Shigenami #0" = 50
+	"Akimori #0" = 50
+	"Akihisa #0" = 50
+	"Haruhisa #0" = 50
+	"Chikahiro #0" = 50	
+	"Chikahisa #0" = 50	
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -60,29 +39,22 @@ monarch_names = { # Most Monarchs were named with "Chika"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Otomo Flavor
-	Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo
-	Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo
-	# Retainers of the Otomo clan
-    Tabata Tabata Tabata Tabata Tabata Hetsugi Hetsugi Hetsugi Hetsugi Hetsugi
-	Tsutsumi Tsutsumi Tsutsumi Tsutsumi Tsutsumi Siga Siga Siga Siga Siga
-	Takuma Takuma Takuma Takuma Takuma Irita Irita Irita Irita Irita
-	Usuki Usuki Usuki Usuki Usuki Yoshihiro Yoshihiro Yoshihiro Yoshihiro Yoshihiro
-	Kituke Kituke Kituke Kituke Kituke Ichimada Ichimada Ichimada Ichimada Ichimada
-	Tahoku Tahoku Tahoku Tahoku Tahoku Tachibana Tachibana Tachibana Tachibana Tachibana
-	Kiyota Kiyota Kiyota Kiyota Kiyota Saeki Saeki Saeki Saeki Saeki
-    Takahashi Takahashi Takahashi Takahashi Takahashi Kamachi Kamachi Kamachi Kamachi Kamachi
-	# Region Flavor:Kyushu
-	Shoni Munakata Akizuki Harada Tachibana Shibukawa Kii Aso Moji Kamachi Takahashi
-	Kusano Monchujo Hoshino Ryuzoji Chiba Nabeshima Kamishiro Otomo Hetsugi Shiga Ichimada
-	Saeki Usuki Yoshihiro Kikuchi Aso Sagara Akahoshi Jo Kumabe Kai Amakusa Ito Tsuchimochi
-	Hongo Niiro Mera Shimazu Irikiin Ei Ijuin Togo Kawakami Gamo Nejime Tanegashima Kimotsuki
+    Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo
+	Bekki Bekki Bekki Bekki Bekki Tachibana Tachibana Tachibana Tachibana Tachibana
+	Yoshihiro Yoshihiro Yoshihiro Yoshihiro Yoshihiro Takahashi Takahashi Takahashi Takahashi Takahashi
+	Shiga Shiga Shiga Shiga Shiga Tawara Tawara Tawara Tawara Tawara 
+	Usuki Usuki Usuki Usuki Usuki Saiki Saiki Saiki Saiki Saiki
+	Ichimada Ichimada Ichimada Ichimada Ichimada Takita Takita Takita Takita Takita
+	Yoshioka Yoshioka Yoshioka Yoshioka Yoshioka Honjo Honjo Honjo Honjo Honjo 
+	Tsunokuma Tsunokuma Tsunokuma Tsunokuma Tsunokuma Nyuda Nyuda Nyuda Nyuda Nyuda
+	Kamachi Kamachi Kamachi Kamachi Kamachi Tajiri Tajiri Tajiri Tajiri Tajiri
+	Harano Harano Harano Harano Harano Oki Oki Oki Oki Oki
+	Monjyujo Monjyujo Monjyujo Monjyujo Monjyujo Nishimuta Nishimuta Nishimuta Nishimuta Nishimuta
+	Yufu Yufu Yufu Yufu Yufu Ono Ono Ono Ono Ono
+	Totoki Totoki Totoki Totoki Totoki Takano Takano Takano Takano Takano 
+	Ando Ando Ando Ando Ando Mihara Mihara Mihara Mihara Mihara
+	Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Ouchi Ouchi Ouchi Ouchi Ouchi
+
 }
 
 ship_names = {
@@ -102,9 +74,9 @@ ship_names = {
 }
 
 army_names = {
-	"Otomo" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Kamachi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Otomo" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Kamachi Gun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

@@ -35,21 +35,19 @@ monarch_names = { # Most Monarchs were named with "yori"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi 
-	Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi 
-	# Region Flavor: Chugoku
-	Urakami Matsuda Ukita Togawa Hanabusa Akashi Hosokawa Sho Mimura Ishikawa
-	Akiba Shimizu Senoo Miura Yamana Nanjo Takeda Amago Mitoya Akana Tachihara Uyama
-	Shido Yamanaka Kamei Masuda Yoshimi Yamauchi Mori Kikkawa Kobayakawa
-	Murakami Kumagai Saeki Fukuhara Kodaga Katsura Shishido Inoue
-	Ouchi Sue Sugi Naito
+    Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi
+	Sue Sue Sue Sue Sue Sugi Sugi Sugi Sugi Sugi
+	Naito Naito Naito Naito Naito Aokage Aokage Aokage Aokage Aokage
+	Iida Iida Iida Iida Iida Toida Toida Toida Toida Toida
+	Reizei Reizei Reizei Reizei Reizei Amano Amano Amano Amano Amano
+	Niho Niho Niho Niho Niho Hironaka Hironaka Hironaka Hironaka Hironaka
+	Era Era Era Era Era Miyagawa Miyagawa Miyagawa Miyagawa Miyagawa 
+	Nogami Nogami Nogami Nogami Nogami Sada Sada Sada Sada Sada 
+	Kii Kii Kii Kii Kii Kii Aso Aso Aso Aso Aso
+	Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Matsuda Matsuda Matsuda Matsuda Matsuda
+	Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kikkawa Kikkawa Kikkawa Kikkawa Kikkawa
+	Mori Mori Mori Mori Mori Murakami Murakami Murakami Murakami Murakami
+
 }
 
 ship_names = {

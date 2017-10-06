@@ -25,10 +25,10 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "masa"
-	"Naomasa #0" = 50
-	"Sukemasa #0" = 50
-	"Hisamasa #0" = 50
-	"Nagamasa #0" = 50
+	"Mitsunari #0" = 50
+	"Shigeie #0" = 50
+	"Masatsugu #0" = 50
+	"Masazumi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -37,23 +37,16 @@ monarch_names = { # Most Monarchs were named with "masa"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai 
-	Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai 
-	# Region Flavor: Kinai
-	Kitabatake Kozukuri Kuki Seki Kanbe Nagano Tsuge Okouchi Hattori Kusunoki
-	Rokkaku Kyogoku Takashima Kutsuki Gamo Azai Imai Isono Mikumo Wada Amamori
-	Tanaka Nakamura Ishida Todo Katagiri Ashikaga Hosokawa Ise Ninagawa Ko Isshiki
-	Naito Yuasa Ochi Tsutsui Toichi Furuichi Ido Matsunaga Matsukura Yagyu
-	Hatakeyama Ikeda Itami Nose Akutagawa Araki Yasumi Nakagawa Yusa Takayama
-	Konishi Honganji Shimozuma Horiuchi Tamaki Akai Hatano Araki Yamana Kakiya
-	Bessho Akashi Akamatsu Kodera Kuroda Atagi
+    Ishida Ishida Ishida Ishida Ishida Ishida Ishida Ishida Ishida Ishida
+	Shima Shima Shima Shima Shima Otani Otani Otani Otani Otani
+	Gamo Gamo Gamo Gamo Gamo Maeno Maeno Maeno Maeno 
+	Toda Toda Toda Toda Toda Mori Mori Mori Mori Mori
+	Natsuka Natsuka Natsuka Natsuka Natsuka Hiratsuka Hiratsuka Hiratsuka Hiratsuka Hiratsuka
+	Koide Koide Koide Koide Koide Suzuki Suzuki Suzuki Suzuki Suzuki 
+	Wakizaka Wakizaka Wakizaka Wakizaka Wakizaka Ogawa Ogawa Ogawa Ogawa Ogawa
+	Ono Ono Ono Ono Ono Katagiri Katagiri Katagiri Katagiri KatagiriKimura Kimura Kimura Kimura Kimura Tomita Tomita Tomita Tomita Tomita
+	Kori Kori Kori Kori Kori Oda Oda Oda Oda Oda
+	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Inadome Inadome Inadome Inadome Inadome
 }
 
 ship_names = {
@@ -73,9 +66,9 @@ ship_names = {
 }
 
 army_names = {
-	"Azai Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Ishida Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Azai Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Ishida Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

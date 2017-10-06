@@ -38,17 +38,19 @@ monarch_names = { # Most Monarchs were named with "nobu" or "moto"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Takeda Flavor
-	Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda 
-	Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda Takeda 
-	# Retainers of Aki-Takeda
-    Shirai Kumaya 
+    Mori Mori Mori Mori Mori Mori Mori Mori Mori Mori
+	Kikkawa Kikkawa Kikkawa Kikkawa Kikkawa Kumagai Kumagai Kumagai Kumagai Kumagai
+	Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kobayakawa Nomi Nomi Nomi Nomi Nomi
+	Takeda Takeda Takeda Takeda Takeda Ankokuji Ankokuji Ankokuji Ankokuji Ankokuji
+	Kunishi Kunishi Kunishi Kunishi Kunishi Amano Amano Amano Amano Amano
+	Kodama Kodama Kodama Kodama Kodama Kuchiba Kuchiba Kuchiba Kuchiba Kuchiba
+	Fukuhara Fukuhara Fukuhara Fukuhara Fukuhara Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi
+	Awaya Awaya Awaya Awaya Awaya Shishido Shishido Shishido Shishido Shishido
+	Naito Naito Naito Naito Naito Murakami Murakami Murakami Murakami Murakami
+	Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Matsuda Matsuda Matsuda Matsuda Matsuda
+	Watanabe Watanabe Watanabe Watanabe Watanabe Shimizu Shimizu Shimizu Shimizu Shimizu
+	Ukita Ukita Ukita Ukita Ukita Amago Amago Amago Amago Amago
+
 }
 
 ship_names = {

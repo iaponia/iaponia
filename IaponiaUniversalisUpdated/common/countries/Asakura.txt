@@ -54,25 +54,20 @@ monarch_names = { #Most Monarchs were named with "kage"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Asakura Flavor
-	Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura
-	Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura
-    # Retainers of the Asakura clan
-    Uozumi Uozumi Uozumi Uozumi Uozumi Horie Horie Horie Horie Horie
-	Yamazaki Yamazaki Yamazaki Yamazaki Yamazaki Magara Magara Magara Magara Magara
-	Kawai Kawai Kawai Kawai Kawai Maeba Maeba Maeba Maeba Maeba
-    # Regio Flavor: Koshinetsu-Hokuriku
-	Ogasawara Suwa Takato Murakami Takanashi Suda Unno Mochizuki Sanada Oi
-	Yashiro Hoshina Nishina Kiso Baba Takeda Anayama Oyamada Akiyama Tsuchiya Amari
-	Itagaki Naito Kosaka Obu Yamagata Hara Yamamoto Nagao Nakajo Irobe Honjo Kaji Shibata
-	Kakizaki Kitajo Yasuda Jojo Usami Shida Saito Oguni Amakasu Naoe Honma
-	Togashi Cho Shiina Jinbo Nukui Ishiguro Asakura Horie Awaya Otani
+    Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura Asakura
+	Akaza Akaza Akaza Akaza Akaza Toda Toda Toda Toda Toda
+	Maeba Maeba Maeba Maeba Maeba Horie Horie Horie Horie Horie
+	Tomita Tomita Tomita Tomita Tomtia Yamazaki Yamazaki Yamazaki Yamazaki Yamazaki
+	Kawai Kawai Kawai Kawai Kawai Uozumi Uozumi Uozumi Uozumi Uozumi
+	Mizoe Mizoe Mizoe Mizoe Mizoe Magara Magara Magara Magara Magara
+	Sugiura Sugiura Sugiura Sugiura Sugiura Shiba Shiba Shiba Shiba Shiba 
+	Takeda Takeda Takeda Takeda Takeda Togashi Togashi Togashi Togashi Togashi
+	Awaya Awaya Awaya Awaya Awaya Hemi Hemi Hemi Hemi Hemi
+	Muto Muto Muto Muto Muto Tokuda Tokuda Tokuda Tokuda Tokuda
+	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Yusa Yusa Yusa Yusa Yusa
+	Igawa Igawa Igawa Igawa Igawa Nukui Nukui Nukui Nukui Nukui
+	Miyake Miyake Miyake Miyake Miyake Cho Cho Cho Cho Cho
+
 }
 
 ship_names = {

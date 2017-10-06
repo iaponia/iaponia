@@ -4,8 +4,6 @@ graphical_culture = asiangfx
 
 color = { 224  4  27 }
 
-preferred_religion = catholic
-
 historical_idea_groups = {
 	trade_ideas
 	meritocratic_ideas
@@ -27,27 +25,13 @@ historical_units = {
 }
 
 monarch_names = { 
-	"Yoshinobu #0" = 50
-	"Nobusada #0" = 50
-	"Nobuhide #0" = 20
-	"Nobumitsu #0" = 50
-	"Nobuhiro #0" = 50	
-	"Nobunaga #0" = 50		
-	"Nobumasa #0" = 50	
-	"Nobutada #0" = 50
-	"Hidenobu #0" = 50
-	"Hidenori #0" = 50
-	"Nobukatsu #0" = 50
-	"Nobutaka #0" = 50
-	"Hidekatsu #0" = 50
-	"Katsunaga #0" = 50
-	"Nobunari #0" = 50
-    "Nobuyuki #0" = 50
-	"Nobuyasu #0" = 50
-	"Nobukiyo #0" = 50
-	"Nobukado #0" = 50	
-	"Nobutsugu #0" = 50	
-	"Nobutomo #0" = 50
+	"Kazutoyo #0" = 50
+	"Yasutoyo #0" = 50
+	"Tadayoshi #0" = 50
+	"Moritoyo #0" = 50
+	"Hisatoyo #0" = 50	
+	"Morimichi #0" = 50		
+	"Sadamichi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -56,30 +40,14 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Shimazu Otomo Ryuzoji Aso Ito Shoni Ouchi Kono Chosokabe Miyoshi 
-	Mori Amago Yamana Akamatsu Hatakeyama Hosokawa Shiba Asakura Oda Tokugawa
-	Togashi Uesugi Takeda Imagawa Tokugawa Hojo Nagao Satomi Satake Ustunomiya
-	Date Mogami Ando Rokkaku Uragami Nanbu Ashina Murakami Saionji Akizuki Kimotuki
-	Kasai Soma Yuki Saito Ogasawara Azai Hatano Jinbo Sagara Osaki
-	Kitabatake Mimura Ichijo Toki Kyogoku Sasaki Ashikaga Isshiki Honganji
-	# Oda Flavor
-	Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda
-	Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda
-	# Retainer of the Oda Clan
-	Hayashi Hayashi Hayashi Hayashi Hayashi Sakuma Sakuma Sakuma Sakuma Sakuma
-	Hirate Hirate Hirate Hirate Hirate Shibata Shibata Shibata Shibata Shibata Shibata
-	Niwa Niwa Niwa Niwa Niwa Ikeda Ikeda Ikeda Ikeda Ikeda
-	Maeda Maeda Maeda Maeda Maeda Hashiba Hashiba Hashiba Hashiba Hashiba
-	Sassa Sassa Sassa Sassa Sassa Takigawa Takigawa Takigawa Takigawa Takigawa
-	# Region Flavor:Tokai-Chubu
-	Toki Toyama Endo Saito Ujiie Inaba Ando Fuwa Akechi Takenaka Hineno
-	Aoki Sengoku Anekoji Ema Miki Kanamori Imagawa Amano Asahina Okabe Iio Hamana
-	Sekiguchi Sena Fuji Matsushita Ii Katsurayama Abe Kira Tokugawa Matsudaira Udono Okudaira
-	Suganuma Toda Natsume Ishikawa Hattori Torii Naito Okubo Honda
-	Hiraiwa Sakai Sakakibara Itakura Ina Shiba Niki Oda Mizuno Saji Ikeda
-	Shibata Niwa Takigawa Kinoshita Maeda Sassa Sakuma Hirate Hayashi
-	Hachisuka Kato Asano Ikoma Horio Fukushima Maeda
+    Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda
+	Fukushima Fukushima Fukushima Fukushima Fukushima Kani Kani Kani Kani Kani
+	Furuta Furuta Furuta Furuta Furuta Takenaka Takenaka Takenaka Takenaka Takenaka
+	Tanaka Tanaka Tanaka Tanaka Tanaka Horio Horio Horio Horio Horio
+	Arima Arima Arima Arima Arima Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Asano Asano Asano Asano Asano Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
+	Sengoku Sengoku Sengoku Sengoku Sengoku Mori Mori Mori Mori Mori
+
 }
 
 ship_names = {
@@ -99,9 +67,9 @@ ship_names = {
 }
 
 army_names = {
-	"Oda Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Yamauchi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Oda Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Yamauchi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

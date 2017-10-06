@@ -25,24 +25,12 @@ historical_units = {
 }
 
 monarch_names = { 
-	"Motoharu #0" = 50
-	"Hirofusa #0" = 50
-	"Mitsufusa #0" = 50
-	"Okimoto #0" = 50
-	"Hiromoto #0" = 50	
-	"Toyomoto #0" = 50	
-	"Motonari #0" = 50	
-	"Terumoto #0" = 50
-	"Hidenari #0" = 50
-	"Tsunahiro #0" = 50
 	"Yoshinari #0" = 50
-	"Yoshihiro #0" = 50
-	"Yoshimoto #0" = 50
-	"Takamoto #0" = 10
-    "Motokiyo #0" = 10
-	"Munehiro #0" = 50
-	"Motomasa #0" = 30
-	"Mototsugu #0" = 50
+	"Nagayoshi #0" = 50
+	"Tadamasa #0" = 50
+	"Naritoshi #0" = 50
+	"Yoshitaka #0" = 50	
+	"Nagasada #0" = 50	
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -51,31 +39,23 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-    # Mori Flavor
-	Mori Mori Mori Mori Mori Mori Mori Mori Mori Mori
-	Mori Mori Mori Mori Mori Mori Mori Mori Mori Mori
-	# Retainers of the Mori clan
-	Kikkawa Kikkawa Kikkawa Kikkawa Kikkawa Kobayamawa Kobayamawa Kobayamawa Kobayamawa Kobayamawa
-	Shido Shido Shido Shido Shido Hoida Hoida Hoida Hoida Hoida
-	Ninomiya Ninomiya Ninomiya Ninomiya Ninomiya Kumagai Kumagai Kumagai Kumagai Kumagai
-	Kodama Kodama Kodama Kodama Kodama Inoue Inoue Inoue Inoue Inoue
-	Kaneshige Kaneshige Kaneshige Kaneshige Kaneshige Katsura Katsura Katsura Katsura Katsura
-	Fukuhara Fukuhara Fukuhara Fukuhara Fukuhara Kuchiba Kuchiba Kuchiba Kuchiba Kuchiba
-	Shido Shido Shido Shido Shido Nomi Nomi Nomi Nomi Nomi
-	Shimizu Shimizu Shimizu Shimizu Shimizu Hiraga Hiraga Hiraga Hiraga Hiraga
-	Murakami Murakami Murakami Murakami Murakami Ichikawa Ichikawa Ichikawa Ichikawa Ichikawa
-	# Region Flavor: Chugoku
-	Uragami Matsuda Ukita Togawa Hanabusa Akashi Hosokawa Sho Mimura Ishikawa
-	Akiba Shimizu Senoo Miura Yamana Nanjo Takeda Amago Mitoya Akana Tachihara Uyama
-	Shido Yamanaka Kamei Masuda Yoshimi Yamauchi Mori Kikkawa Kobayakawa
-	Murakami Kumagai Saeki Fukuhara Kodaga Katsura Shishido Inoue
-	Ouchi Sue Sugi Naito
+    Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda
+	Hashiba Hashiba Hashiba Hashiba Hashiba Shibata Shibata Shibata Shibata Shibata
+	Niwa Niwa Niwa Niwa Niwa Takigawa Takigawa Takigawa Takigawa Takigawa Takigawa
+	Maeda Maeda Maeda Maeda Maeda Kanamori Kanamori Kanamori Kanamori Kanamori
+	Sassa Sassa Sassa Sassa Sassa Mori Mori Mori Mori Mori
+	Kawajiri Kawajiri Kawajiri Kawajiri Kawajiri Hayashi Hayashi Hayashi Hayashi Hayashi
+	Sakuma Sakuma Sakuma Sakuma Sakuma Hori Hori Hori Hori Hori
+	Saito Saito Saito Saito Saito Akechi Akechi Akechi Akechi Akechi
+	Takenaka Takenaka Takenaka Takenaka Takenaka Fuwa Fuwa Fuwa Fuwa Fuwa
+	Inaba Inaba Inaba Inaba Inaba Ujiie Ujiie Ujiie Ujiie Ujiie
+	Ando Ando Ando Ando Ando Toyama Toyama Toyama Toyama Toyama 
+	Hachisuka Hachisuka Hachisuka Hachisuka Hachisuka Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Hara Hara Hara Hara Hara Hirate Hirate Hirate Hirate Hirate
+	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Asano Gamo Gamo Gamo Gamo Gamo
+	Shiba Shiba Shiba Shiba Shiba Toki Toki Toki Toki Toki
+	Araki Araki Araki Araki Araki Takayama Takayama Takayama Takayama Takayama
+
 }
 
 ship_names = {

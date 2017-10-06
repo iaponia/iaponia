@@ -38,21 +38,13 @@ monarch_names = { # Most Monarchs were named with "yuki"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana 
-	Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana 
-	# Region Flavor: Chugoku
-	Urakami Matsuda Ukita Togawa Hanabusa Akashi Hosokawa Sho Mimura Ishikawa
-	Akiba Shimizu Senoo Miura Yamana Nanjo Takeda Amago Mitoya Akana Tachihara Uyama
-	Shido Yamanaka Kamei Masuda Yoshimi Yamauchi Mori Kikkawa Kobayakawa
-	Murakami Kumagai Saeki Fukuhara Kodaga Katsura Shishido Inoue
-	Ouchi Sue Sugi Naito
+    Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana Yamana
+	Takeda Takeda Takeda Takeda Takeda Yoshioka Yoshioka Yoshioka Yoshioka Yoshioka 
+	Morishita Morishita Morishita Morishita Morishita Nakamura Nakamura Nakamura Nakamura Nakamura
+	Tainosho Tainosho Tainosho Tainosho Tainosho Otagaki Otagaki Otagaki Otagaki Otagaki
+	Yagi Yagi Yagi Yagi Yagi Kakiya Kakiya Kakiya Kakiya Kakiya
+	Nanjo Nanjo Nanjo Nanjo Nanjo Yukimatsu Yukimatsu Yukimatsu Yukimatsu Yukimatsu
+
 }
 
 ship_names = {

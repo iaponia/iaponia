@@ -42,19 +42,23 @@ monarch_names = { # Most Monarchs were named with single characters
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku Uku 
-	# Region Flavor:Kyushu
-	Shoni Munakata Akizuki Harada Tachibana Shibukawa Kii Aso Moji Kamachi Takahashi
-	Kusano Monchujo Hoshino Ryuzoji Chiba Nabeshima Kamishiro Otomo Hetsugi Shiga Ichimada
-	Saeki Usuki Yoshihiro Kikuchi Aso Sagara Akahoshi Jo Kumabe Kai Amakusa Ito Tsuchimochi
-	Hongo Niiro Mera Shimazu Irikiin Ei Ijuin Togo Kawakami Gamo Nejime Tanegashima Kimotsuki
+    Ryuzoji Ryuzoji Ryuzoji Ryuzoji Ryuzoji Ryuzoji Ryuzoji Ryuzoji Ryuzoji Ryuzoji
+	Shoni Shoni Shoni Shoni Shoni Nabeshima Nabeshima Nabeshima Nabeshima Nabeshima
+	Eriguchi Eriguchi Eriguchi Eriguchi Eriguchi Enjoji Enjoji Enjoji Enjoji Enjoji
+	Narimatsu Narimatsu Narimatsu Narimatsu Narimatsu Hyakutake Hyakutake Hyakutake Hyakutake Hyakutake
+	Oda Oda Oda Oda Oda Kinoshita Kinoshita Kinoshita Kinoshita Kinoshita
+	Egami Egami Egami Egami Egami Shigyo Shigyo Shigyo Shigyo Shigyo 
+	Takagi Takagi Takagi Takagi Takagi Kumashiro Kumashiro Kumashiro Kumashiro Kumashiro
+	Ogawa Ogawa Ogawa Ogawa Ogawa Notomi Notomi Notomi Notomi Notomi
+	Baba Baba Baba Baba Baba Hata Hata Hata Hata Hata
+	So So So So So Uku Uku Uku Uku Uku
+	Matsuura Matsuura Matsuura Matsuura Matsuura Koteda Koteda Koteda Koteda Koteda
+	Sagawa Sagawa Sagawa Sagawa Sagawa Hidaka Hidaka Hidaka Hidaka Hidaka
+	Omura Omura Omura Omura Omura Arima Arima Arima Arima Arima 
+	Tomonaga Tomonaga Tomonaga Tomonaga Tomonaga Hirai Hirai Hirai Hirai Hirai
+	Chidiwa Chidiwa Chidiwa Chidiwa Chidwa Fukuda Fukuda Fukuda Fukuda Fukuda
+	Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Saigo Saigo Saigo Saigo Saigo
+
 }
 
 ship_names = {

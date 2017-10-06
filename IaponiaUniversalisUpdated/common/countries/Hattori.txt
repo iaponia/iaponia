@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 253  15  49 }
 
+preferred_religion = mahyana
+
 historical_idea_groups = {
 	defensive_ideas
 	meritocratic_ideas
@@ -41,17 +43,18 @@ monarch_names = { # Most Monarchs were named with "yasu"
 }
 
 leader_names = {
-    # Daimyo names
-	Hattori Hattori Hattori Igazaki Ueda Otowa Kido Tomioka Machii Machii Momochi Momochi Momochi
-	Fujibayashi Fujibayashi Fujibayashi
-	# Region Flavor: Kinai
-	Kitabatake Kozukuri Kuki Seki Kanbe Nagano Tsuge Okouchi Hattori Kusunoki
-	Rokkaku Kyogoku Takashima Kutsuki Gamo Azai Imai Isono Mikumo Wada Amamori
-	Tanaka Nakamura Ishida Todo Katagiri Ashikaga Hosokawa Ise Ninagawa Ko Isshiki
-	Naito Yuasa Ochi Tsutsui Toichi Furuichi Ido Matsunaga Matsukura Yagyu
-	Hatakeyama Ikeda Itami Nose Akutagawa Araki Yasumi Nakagawa Yusa Takayama
-	Konishi Honganji Shimozuma Horiuchi Tamaki Akai Hatano Araki Yamana Kakiya
-	Bessho Akashi Akamatsu Kodera Kuroda Atagi
+    Honganji Honganji Honganji Honganji Honganji Honganji Honganji Honganji Honganji Honganji
+	Shimotsuma Shimotsuma Shimotsuma Shimotsuma Shimotsuma Ganshoji Ganshoji Ganshoji Ganshoji Ganshoji
+	Honsenji Honsenji Honsenji Honsenji Honsenji Shichiri Shichiri Shichiri Shichiri Shichiri
+	Sugiura Sugiura Sugiura Sugiura Sugiura Suzuki Suzuki Suzuki Suzuki Suzuki
+	Oka Oka Oka Oka Oka Tsuchibashi Tsuchibashi Tsuchibashi Tsuchibashi Tsuchibashi
+	Matoba Matoba Matoba Matoba Matoba Oku Oku Oku Oku Oku
+	Ota Ota Ota Ota Ota Tsuda Tsuda Tsuda Tsuda Tsuda
+	Satake Satake Satake Satake Satake Hattori Hattori Hattori Hattori Hattori
+	Ueda Ueda Ueda Ueda Ueda Morita Morita Morita Morita Morita
+	Takino Takino Takino Takino Takino Momochi Momochi Momochi Momochi Momochi
+	Togashi Togashi Togashi Togashi Togashi Tokuda Tokuda Tokuda Tokuda Tokuda
+
 }
 
 ship_names = {

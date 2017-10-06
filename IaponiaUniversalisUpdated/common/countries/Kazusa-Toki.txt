@@ -25,46 +25,20 @@ historical_units = {
 }
 
 monarch_names = { 
-	"Yorimasu #0" = 50
-	"Yoritada #0" = 50
-	"Mochimasu #0" = 50
-	"Yoriyasu #0" = 50
-	"Yasuyuki #0" = 50	
-	"Shigeyori #0" = 50	
-	"Masafusa #0" = 50	
-	"Mochikane #0" = 50	
-	"Motoyori #0" = 50
-	"Sadayori #0" = 50
-	"Haruyori #0" = 50
-	"Yoriaki #0" = 50
-	"Yoritake #0" = 20
-	"Yorizumi #0" = 20
-	"Yoritsugu #0" = 50
-	"Yorimoto #0" = 50
-    "Mochiyori #0" = 50
-	"Yasumasa #0" = 50
-	"Yasuyuki #0" = 50
-	"Akinao #0" = 20	
-	"Yorimoto #0" = 20	
-	"Yoriaki #0" = 50	
-	"Yorikiyo #0" = 50	
+	"Yoriharu #0" = 50
+	"Tameyori #0" = 50
+	"Yorisada #0" = 50
+	"Yorifusa #0" = 50
+	"Yorizane #0" = 50
 	}
 
 leader_names = {
-    # Daimyo names
-	Shimazu Otomo Ryuzoji Aso Ito Shoni Ouchi Kono Chosokabe Miyoshi 
-	Mori Amago Yamana Akamatsu Hatakeyama Hosokawa Shiba Asakura Oda Tokugawa
-	Togashi Uesugi Takeda Imagawa Tokugawa Hojo Nagao Satomi Satake Ustunomiya
-	Date Mogami Ando Rokkaku Uragami Nanbu Ashina Murakami Saionji Akizuki Kimotuki
-	Kasai Soma Yuki Saito Ogasawara Azai Hatano Jinbo Sagara Osaki
-	Kitabatake Mimura Ichijo Toki Kyogoku Sasaki Ashikaga Isshiki Honganji
-	# Toki Flavor
-	Toki Toki Toki Toki Toki Toki Toki Toki Toki Toki
-	Toki Toki Toki Toki Toki Toki Toki Toki Toki Toki
-	# Retainers of the Toki clan
-    Saito Saito Saito Saito Saito Akechi Akechi Akechi Akechi Akechi
-	Hachiya Hachiya Hachiya Hachiya Hachiya Hara Hara Hara Hara Hara
-	Asano Asano Asano Asano Asano Kanamori Kanamori Kanamori Kanamori Kanamori
+    Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi
+	Masaki Masaki Masaki Masaki Masaki Okamoto Okamoto Okamoto Okamoto Okamoto
+	Takeda Takeda Takeda Takeda Takeda Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga
+	Toki Toki Toki Toki Toki Sakai Sakai Sakai Sakai Sakai 
+	Sano Sano Sano Sano Sano Hara Hara Hara Hara Hara
+	Chiba Chiba Chiba Chiba Chiba Takagi Takagi Takagi Takagi Takagi
 }
 
 ship_names = {

@@ -25,27 +25,15 @@ historical_units = {
 }
 
 monarch_names = { 
-	"Yoshinobu #0" = 50
-	"Nobusada #0" = 50
-	"Nobuhide #0" = 20
-	"Nobumitsu #0" = 50
-	"Nobuhiro #0" = 50	
-	"Nobunaga #0" = 50		
-	"Nobumasa #0" = 50	
-	"Nobutada #0" = 50
-	"Hidenobu #0" = 50
-	"Hidenori #0" = 50
-	"Nobukatsu #0" = 50
-	"Nobutaka #0" = 50
-	"Hidekatsu #0" = 50
-	"Katsunaga #0" = 50
-	"Nobunari #0" = 50
-    "Nobuyuki #0" = 50
-	"Nobuyasu #0" = 50
-	"Nobukiyo #0" = 50
-	"Nobukado #0" = 50	
-	"Nobutsugu #0" = 50	
-	"Nobutomo #0" = 50
+	"Kazumasu #0" = 50
+	"Masushige #0" = 50
+	"Tatsumasa #0" = 50
+	"Katsutoshi #0" = 50	
+	"Toshimasu #0" = 50		
+	"Norikatsu #0" = 50	
+	"Kazutada #0" = 50
+	"Masuuji #0" = 50
+	"Sukekiyo #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -54,30 +42,23 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Shimazu Otomo Ryuzoji Aso Ito Shoni Ouchi Kono Chosokabe Miyoshi 
-	Mori Amago Yamana Akamatsu Hatakeyama Hosokawa Shiba Asakura Oda Tokugawa
-	Togashi Uesugi Takeda Imagawa Tokugawa Hojo Nagao Satomi Satake Ustunomiya
-	Date Mogami Ando Rokkaku Uragami Nanbu Ashina Murakami Saionji Akizuki Kimotuki
-	Kasai Soma Yuki Saito Ogasawara Azai Hatano Jinbo Sagara Osaki
-	Kitabatake Mimura Ichijo Toki Kyogoku Sasaki Ashikaga Isshiki Honganji
-	# Oda Flavor
-	Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda
-	Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda
-	# Retainer of the Oda Clan
-	Hayashi Hayashi Hayashi Hayashi Hayashi Sakuma Sakuma Sakuma Sakuma Sakuma
-	Hirate Hirate Hirate Hirate Hirate Shibata Shibata Shibata Shibata Shibata Shibata
-	Niwa Niwa Niwa Niwa Niwa Ikeda Ikeda Ikeda Ikeda Ikeda
-	Maeda Maeda Maeda Maeda Maeda Hashiba Hashiba Hashiba Hashiba Hashiba
-	Sassa Sassa Sassa Sassa Sassa Takigawa Takigawa Takigawa Takigawa Takigawa
-	# Region Flavor:Tokai-Chubu
-	Toki Toyama Endo Saito Ujiie Inaba Ando Fuwa Akechi Takenaka Hineno
-	Aoki Sengoku Anekoji Ema Miki Kanamori Imagawa Amano Asahina Okabe Iio Hamana
-	Sekiguchi Sena Fuji Matsushita Ii Katsurayama Abe Kira Tokugawa Matsudaira Udono Okudaira
-	Suganuma Toda Natsume Ishikawa Hattori Torii Naito Okubo Honda
-	Hiraiwa Sakai Sakakibara Itakura Ina Shiba Niki Oda Mizuno Saji Ikeda
-	Shibata Niwa Takigawa Kinoshita Maeda Sassa Sakuma Hirate Hayashi
-	Hachisuka Kato Asano Ikoma Horio Fukushima Maeda
+    Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda
+	Hashiba Hashiba Hashiba Hashiba Hashiba Shibata Shibata Shibata Shibata Shibata
+	Niwa Niwa Niwa Niwa Niwa Takigawa Takigawa Takigawa Takigawa Takigawa Takigawa
+	Maeda Maeda Maeda Maeda Maeda Kanamori Kanamori Kanamori Kanamori Kanamori
+	Sassa Sassa Sassa Sassa Sassa Mori Mori Mori Mori Mori
+	Kawajiri Kawajiri Kawajiri Kawajiri Kawajiri Hayashi Hayashi Hayashi Hayashi Hayashi
+	Sakuma Sakuma Sakuma Sakuma Sakuma Hori Hori Hori Hori Hori
+	Saito Saito Saito Saito Saito Akechi Akechi Akechi Akechi Akechi
+	Takenaka Takenaka Takenaka Takenaka Takenaka Fuwa Fuwa Fuwa Fuwa Fuwa
+	Inaba Inaba Inaba Inaba Inaba Ujiie Ujiie Ujiie Ujiie Ujiie
+	Ando Ando Ando Ando Ando Toyama Toyama Toyama Toyama Toyama 
+	Hachisuka Hachisuka Hachisuka Hachisuka Hachisuka Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Hara Hara Hara Hara Hara Hirate Hirate Hirate Hirate Hirate
+	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Asano Gamo Gamo Gamo Gamo Gamo
+	Shiba Shiba Shiba Shiba Shiba Toki Toki Toki Toki Toki
+	Araki Araki Araki Araki Araki Takayama Takayama Takayama Takayama Takayama
+
 }
 
 ship_names = {
@@ -97,9 +78,9 @@ ship_names = {
 }
 
 army_names = {
-	"Oda Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Takigawa Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Oda Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Takigawa Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

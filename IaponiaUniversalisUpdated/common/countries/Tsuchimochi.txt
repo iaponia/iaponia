@@ -4,7 +4,7 @@ graphical_culture = asiangfx
 
 color = { 217  166   46 }
 
-preferred_religion = catholic
+preferred_religion = mahayana
 
 historical_idea_groups = {
 	defensive_ideas
@@ -27,26 +27,12 @@ historical_units = {
 }
 
 monarch_names = { 
-	"Suketsugu #0" = 50
-	"Suketoki #0" = 50
-	"Suketsune #0" = 50
-	"Sukenaga #0" = 50
-	"Sukeaki #0" = 50	
-	"Sukemitsu #0" = 50	
-	"Sukemune #0" = 50	
-	"Sadasuke #0" = 50	
-	"Sukemochi #0" = 50
-	"Ujisuke #0" = 50
-	"Sukeyori #0" = 50
-	"Sukehiro #0" = 50
-	"Sukeyasu #0" = 50
-	"Sukeharu #0" = 50
-	"Suketaka #0" = 50
-	"Sukekuni #0" = 50
-	"Tadasuke #0" = 50
-	"Yoshisuke #0" = 50
-	"Yositaka #0" = 30
-	"Sukeyoshi #0" = 50	
+	"Chikanari #0" = 50
+	"Chikasuke #0" = 50
+	"Chikashige #0" = 50
+	"Chikahide #0" = 50
+	"Mototsuna #0" = 50	
+	"Takanobu #0" = 50	
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -55,24 +41,15 @@ monarch_names = {
 	}
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Ito Flavor
-	Ito Ito Ito Ito Ito Ito Ito Ito Ito Ito Ito
-	Ito Ito Ito Ito Ito Ito Ito Ito Ito Ito Ito
-    # Retainers of the Ito clan
+    Ito Ito Ito Ito Ito Ito Ito Ito Ito Ito
 	Aratake Aratake Aratake Aratake Aratake Mera Mera Mera Mera Mera
 	Sadohara Sadohara Sadohara Sadohara Sadohara Kiwaki Kiwaki Kiwaki Kiwaki Kiwaki
-	Nagakura Nagakura Nagakura Nagakura Nagakura
-	# Region Flavor:Kyushu
-	Shoni Munakata Akizuki Harada Tachibana Shibukawa Kii Aso Moji Kamachi Takahashi
-	Kusano Monchujo Hoshino Ryuzoji Chiba Nabeshima Kamishiro Otomo Hetsugi Shiga Ichimada
-	Saeki Usuki Yoshihiro Kikuchi Aso Sagara Akahoshi Jo Kumabe Kai Amakusa Ito Tsuchimochi
-	Hongo Niiro Mera Shimazu Irikiin Ei Ijuin Togo Kawakami Gamo Nejime Tanegashima Kimotsuki
+	Nagakura Nagakura Nagakura Nagakura Nagakura Kawasaki Kawasaki Kawasaki Kawasaki Kawasaki	
+	Yamada Yamada Yamada Yamada Yamada Inazu Inazu Inazu Inazu Inazu
+	Kitahara Kitahara Kitahara Kitahara Kitahara Yudi Yudi Yudi Yudi Yudi
+	Tsuchimochi Tsuchimochi Tsuchimochi Tsuchimochi Tsuchimochi Mitai Mitai Mitai Mitai Mitai
+	Hongo Hongo Hongo Hongo Hongo Shimazu Shimazu Shimazu Shimazu Shimazu
+
 }
 
 ship_names = {
@@ -92,9 +69,9 @@ ship_names = {
 }
 
 army_names = {
-	"Ito Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei"  "$PROVINCE$ Dan" 
+	"Tsuchimochi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei"  "$PROVINCE$ Dan" 
 }
 
 fleet_names = {
-	"Ito Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai" 
+	"Tsuchimochi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai" 
 }

@@ -1,5 +1,7 @@
 #Country Name: Please see filename.
 
+#MAKEAMAGOGREATAGAIN!!!!!
+
 graphical_culture = asiangfx
 
 color = { 205  94  60 }
@@ -25,25 +27,11 @@ historical_units = {
 }
 
 monarch_names = { #Most Monarchs were named with "hisa"
-	"Takahisa #0" = 50
-	"Mochihisa #0" = 50
-	"Kiyosada #0" = 50
-	"Yukihisa #0" = 50
-	"Hisayuki #0" = 50	
-	"Masahisa #0" = 50	
-	"Okihisa #0" = 50	
-	"Kunihisa #0" = 50
-	"Toyohisa #0" = 50
-	"Haruhisa #0" = 50
-	"Yoshihisa #0" = 50
-	"Hidehisa #0" = 50
-    "Norihisa #0" = 50
-	"Sanehisa #0" = 50
-	"Ujihisa #0" = 50
-	"Tsunehisa #0" = 50	
-	"Katsuhisa #0" = 50
-	"Kiyohisa #0" = 50
-	"Tokihisa #0" = 50
+	"Yukimori #0" = 50
+	"Yukitaka #0" = 50
+	"Mitsuyuki #0" = 50
+	"Yukimoto #0" = 50
+	"Yukinori #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -52,22 +40,18 @@ monarch_names = { #Most Monarchs were named with "hisa"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-    # Amago Flavor
-	Amago Amago Amago Amago Amago Amago Amago Amago Amago Amago
-	Amago Amago Amago Amago Amago Amago Amago Amago Amago Amago
-	# Retainers of the Amago clan
-    Shisido Shisido Shisido Shisido Shisido Yamanaka Yamanaka Yamanaka Yamanaka Yamanaka
-	Kurachi Kurachi Kurachi Kurachi Kurachi Kamei Kamei Kamei Kamei Kamei
-	Tachihara Tachihara Tachihara Tachihara Tachihara Ushio Ushio Ushio Ushio Ushio
-	Kawazoe Kawazoe Kawazoe Kawazoe Kawazoe Matsuda Matsuda Matsuda Matsuda Matsuda
-	Kanzai Kanzai Kanzai Kanzai Kanzai Misawa Misawa Misawa Misawa Misawa
-	Akana Akana Akana Akana Akana Mitoya Mitoya Mitoya Mitoya Mitoya
+    Amago Amago Amago Amago Amago Amago Amago Amago Amago Amago 
+	Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Yamana Yamana Yamana Yamana Yamana
+	Yamanaka Yamanaka Yamanaka Yamanaka Yamanaka Akana Akana Akana Akana Akana
+	Tachihara Tachihara Tachihara Tachihara Tachihara Uyama Uyama Uyama Uyama Uyama
+	Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara Sada Sada Sada Sada Sada
+	Ushio Ushio Ushio Ushio Ushio Kamei Kamei Kamei Kamei Kamei
+	Nanjo Nanjo Nanjo Nanjo Nanjo Mitoya Mitoya Mitoya Mitoya Mitoya 
+	Sase Sase Sase Sase Sase Honjo Honjo Honjo Honjo Honjo 
+	Kawazoe Kawazoe Kawazoe Kawazoe Kawazoe Nakai Nakai Nakai Nakai Nakai
+	Matsuda Matsuda Matsuda Matsuda Matsuda Kato Kato Kato Kato Kato
+	Fujii Fujii Fujii Fujii Fujii Hayashi Hayashi Hayashi Hayashi Hayashi
+
 }
 
 ship_names = {
@@ -87,9 +71,9 @@ ship_names = {
 }
 
 army_names = {
-	"Amago Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Yamanaka Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Amago Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Yamanaka Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

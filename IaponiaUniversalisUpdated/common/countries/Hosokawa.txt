@@ -57,19 +57,25 @@ monarch_names = { # Most Monarchs ware named with "moto"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Ashikaga Amago Kyogoku Rokkaku Asakura Asano Aso Chosokabe Date Hachisuka
-	Hatakeyama Hojo Hosokawa Ichijo Keda Imagawa Isshiki Ito Jinbo Kikuchi Kono Maeda
-	Matsunaga Mimura Miyoshi Mogami Mori Nabeshima Nagao Oda Ogasawara Otomo Ouchi
-	Ryuzoji Sagara Saito Sanada Satake Satomi Shiba Shibata Shimazu Shoni Takeda Toki
-	Tokugawa Matsudaira Toyotomi Tsutsui Uesugi Uragami Yamana Yamauchi
-	# Hosokawa Flavor
-	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa
-	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa
-	# Retainers of the Hosokawa clan
-    Matsunaga Matsunaga Matsunaga Matsunaga Matsunaga Ueno Ueno Ueno Ueno Ueno
-	Nagaoka Nagaoka Nagaoka Nagaoka Nagaoka Toichi Toichi Toichi Toichi Toichi
-	Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi
+    Araki Araki Araki Araki Araki Araki Araki Araki Araki Araki
+	Ikeda Ikeda Ikeda Ikeda Ikeda Nakagawa Nakagawa Nakagawa Nakagawa Nakagawa
+	Inatsugi Inatsugi Inatsugi Inatsugi Inatsugi Kimura Kimura Kimura Kimura Kimura 
+	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi
+	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Yusa Yusa Yusa Yusa Yusa
+	Yasumi Yasumi Yasumi Yasumi Yasumi Takayama Takayama Takayama Takayama Takayama
+	Naito Naito Naito Naito Naito Wada Wada Wada Wada Wada
+	Kizawa Kizawa Kizawa Kizawa Kizawa Nonagase Nonagase Nonagase Nonagase Nonagase
+	Yukawa Yukawa Yukawa Yukawa Yukawa Oyama Oyama Oyama Oyama Oyama
+	Matsunaga Matsunaga Matsunaga Matsunaga Matsunaga Yuki Yuki Yuki Yuki Yuki
+	Tsutsui Tsutsui Tsutsui Tsutsui Tsutsui Oka Oka Oka Oka Oka 
+	Ido Ido Ido Ido Ido Yagyu Yagyu Yagyu Yagyu Yagyu
+	Ochi Ochi Ochi Ochi Ochi Tochi Tochi Tochi Tochi Tochi
+	Matsukura Matsukura Matsukura Matsukura Matsukura Mori Mori Mori Mori Mori
+	Hashio Hashio Hashio Hashio Hashio Kishida Kishida Kishida Kishida Kishida
+	Shima Shima Shima Shima Shima Nakanobo Nakanobo Nakanobo Nakanobo Nakanobo
+	Matsui Matsui Matsui Matsui Matsui Mitsubuchi Mitsubuchi Mitsubuchi Mitsubuchi Mitsubuchi
+	Kyogoku Kyogoku Kyogoku Kyogoku Ise Ise Ise Ise Ise
+
 }
 
 ship_names = {

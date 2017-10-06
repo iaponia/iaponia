@@ -25,11 +25,13 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "tada" or "hisa"
-	"Kunikiyo #0" = 50
-	"Masakiyo #0" = 50
-	"Masakuni #0" = 50
-	"Akikuni #0" = 50
-	"Yoshikiyo #0" = 50	
+	"Takeyoshi #0" = 50
+	"Michiyasu #0" = 50
+	"Yoshitada #0" = 50
+	"Motoyoshi #0" = 50
+	"Kagechika #0" = 50	
+	"Michifusa #0" = 50	
+	"Michiyuki #0" = 50	
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -38,21 +40,16 @@ monarch_names = { # Most Monarchs were named with "tada" or "hisa"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Murakami Murakami Murakami Murakami Murakami Murakami Murakami Murakami Murakami Murakami 
-	Murakami Murakami Murakami Murakami Murakami Murakami Murakami Murakami Murakami Murakami 
-    # Region Flavor: Koshinetsu-Hokuriku
-	Ogasawara Suwa Takato Murakami Takanashi Suda Unno Mochizuki Sanada Oi
-	Yashiro Hoshina Nishina Kiso Baba Takeda Anayama Oyamada Akiyama Tsuchiya Amari
-	Itagaki Naito Kosaka Obu Yamagata Hara Yamamoto Nagao Nakajo Irobe Honjo Kaji Shibata
-	Kakizaki Kitajo Yasuda Jojo Usami Shida Saito Oguni Amakasu Naoe Honma
-	Togashi Cho Shiina Jinbo Nukui Ishiguro Asakura Horie Awaya Otani
+    Kono Kono Kono Kono Kono Kono Kono Kono Kono Kono
+	Murakami Murakami Murakami Murakami Murakami Hiraoka Hiraoka Hiraoka Hiraoka Hiraoka
+	Kutsuna Kutsuna Kutsuna Kutsuna Kutsuna Kaino Kaino Kaino Kaino Kaino
+	Sainoji Sainoji Sainoji Sainoji Sainoji Utsunomiya Utsunomiya Utsunomiya Utsunomiya Utsunomiya
+	Kitanogawa Kitanogawa Kitanogawa Kitanogawa Kitanogawa Watanabe Watanabe Watanabe Watanabe Watanabe
+	Kaneko Kaneko Kaneko Kaneko Kaneko Ono Ono Ono Ono Ono
+	Wada Wada Wada Wada Wada Ishikawa Ishikawa Ishikawa Ishikawa Ishikawa 
+	Sone Sone Sone Sone Sone Ubagai Ubagai Ubagai Ubagai Ubagai
+	Tokui Tokui Tokui Tokui Tokui Kurushima Kurushima Kurushima Kurushima Kurushima
+
 }
 
 ship_names = {

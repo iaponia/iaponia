@@ -34,21 +34,14 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura 
-	Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura 
-	# Region Flavor: Chugoku
-	Urakami Matsuda Ukita Togawa Hanabusa Akashi Hosokawa Sho Mimura Ishikawa
-	Akiba Shimizu Senoo Miura Yamana Nanjo Takeda Amago Mitoya Akana Tachihara Uyama
-	Shido Yamanaka Kamei Masuda Yoshimi Yamauchi Mori Kikkawa Kobayakawa
-	Murakami Kumagai Saeki Fukuhara Kodaga Katsura Shishido Inoue
-	Ouchi Sue Sugi Naito
+    Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura 
+	Sho Sho Sho Sho Sho Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Hayashi Hayashi Hayashi Hayashi Hayashi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi
+	Ueki Ueki Ueki Ueki Ueki Ishikawa Ishikawa Ishikawa Ishikawa Ishikawa 
+	Nakajima Nakajima Nakajima Nakajima Nakajima Niimi Niimi Niimi Niimi Niimi
+	Ueno Ueno Ueno Ueno Ueno Sugihara Sugihara Sugihara Sugihara Sugihara
+	Shimizu Shimizu Shimizu Shimizu Shimizu Wachi Wachi Wachi Wachi Wachi
+
 }
 
 ship_names = {

@@ -25,26 +25,11 @@ historical_units = {
 }
 
 monarch_names = { 
-	"Takasada #0" = 50
-	"Takatsugu #0" = 50
-	"Takayasu #0" = 50
-	"Takefusa #0" = 50
-	"Takamori #0" = 50	
-	"Tokitaka #0" = 50	
-	"Taketoki #0" = 50	
-	"Takesige #0" = 50	
-	"Takehito #0" = 50
-	"Takemitsu #0" = 50
-	"Takemasa #0" = 50
-	"Taketomo #0" = 50
-	"Kanetomo #0" = 50
-	"Mochitomo #0" = 50
-	"Tamekuni #0" = 50
-	"Yoshiyuki #0" = 50
-    "Masataka #0" = 50
-	"Taketsune #0" = 50
-	"Takekane #0" = 50
-	"Yoshitake #0" = 50
+	"Nagamasa #0" = 50
+	"Nagaakira #0" = 50
+	"Yoshinaga #0" = 50
+	"Nagashige #0" = 50
+	"Yukinaga #0" = 50 
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -53,20 +38,14 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi 
-	Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi 
-	# Region Flavor:Kyushu
-	Shoni Munakata Akizuki Harada Tachibana Shibukawa Kii Aso Moji Kamachi Takahashi
-	Kusano Monchujo Hoshino Ryuzoji Chiba Nabeshima Kamishiro Otomo Hetsugi Shiga Ichimada
-	Saeki Usuki Yoshihiro Kikuchi Aso Sagara Akahoshi Jo Kumabe Kai Amakusa Ito Tsuchimochi
-	Hongo Niiro Mera Shimazu Irikiin Ei Ijuin Togo Kawakami Gamo Nejime Tanegashima Kimotsuki
+    Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda
+	Fukushima Fukushima Fukushima Fukushima Fukushima Kani Kani Kani Kani Kani
+	Furuta Furuta Furuta Furuta Furuta Takenaka Takenaka Takenaka Takenaka Takenaka
+	Tanaka Tanaka Tanaka Tanaka Tanaka Horio Horio Horio Horio Horio
+	Arima Arima Arima Arima Arima Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Asano Asano Asano Asano Asano Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
+	Sengoku Sengoku Sengoku Sengoku Sengoku Mori Mori Mori Mori Mori
+
 }
 
 ship_names = {
@@ -86,9 +65,9 @@ ship_names = {
 }
 
 army_names = {
-	"Kikuchi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Asano Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Kikuchi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Asano Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

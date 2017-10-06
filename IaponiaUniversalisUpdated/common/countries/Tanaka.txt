@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 139  231  252 }
 
+preferred_religion = catholic
+
 historical_idea_groups = {
 	defensive_ideas
 	administrative_ideas
@@ -25,10 +27,13 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "masa"
-	"Naomasa #0" = 50
-	"Sukemasa #0" = 50
-	"Hisamasa #0" = 50
-	"Nagamasa #0" = 50
+	"Yoshimasa #0" = 50
+	"Yoshioki #0" = 50
+	"Yoshitsugu #0" = 50
+	"Yoshimune #0" = 50
+	"Shigemasa #0" = 50
+	"Munemasa #0" = 50
+	"Tadamasa #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -37,23 +42,14 @@ monarch_names = { # Most Monarchs were named with "masa"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai 
-	Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai Azai 
-	# Region Flavor: Kinai
-	Kitabatake Kozukuri Kuki Seki Kanbe Nagano Tsuge Okouchi Hattori Kusunoki
-	Rokkaku Kyogoku Takashima Kutsuki Gamo Azai Imai Isono Mikumo Wada Amamori
-	Tanaka Nakamura Ishida Todo Katagiri Ashikaga Hosokawa Ise Ninagawa Ko Isshiki
-	Naito Yuasa Ochi Tsutsui Toichi Furuichi Ido Matsunaga Matsukura Yagyu
-	Hatakeyama Ikeda Itami Nose Akutagawa Araki Yasumi Nakagawa Yusa Takayama
-	Konishi Honganji Shimozuma Horiuchi Tamaki Akai Hatano Araki Yamana Kakiya
-	Bessho Akashi Akamatsu Kodera Kuroda Atagi
+    Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda
+	Fukushima Fukushima Fukushima Fukushima Fukushima Kani Kani Kani Kani Kani
+	Furuta Furuta Furuta Furuta Furuta Takenaka Takenaka Takenaka Takenaka Takenaka
+	Tanaka Tanaka Tanaka Tanaka Tanaka Horio Horio Horio Horio Horio
+	Arima Arima Arima Arima Arima Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Asano Asano Asano Asano Asano Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
+	Sengoku Sengoku Sengoku Sengoku Sengoku Mori Mori Mori Mori Mori
+
 }
 
 ship_names = {
@@ -73,9 +69,9 @@ ship_names = {
 }
 
 army_names = {
-	"Azai Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Tanaka Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Azai Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Tanaka Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

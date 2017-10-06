@@ -25,10 +25,10 @@ historical_units = {
 }
 
 monarch_names = { 
-	"Yukinaga #0" = 50
-	"Motonaga #0" = 50
-	"Nagayoshi #0" = 50
-	"Yoshitsugu #0" = 50
+	"Fuyuyasu #0" = 50
+	"Nobuyasu #0" = 50
+	"Harutoki #0" = 50
+	"Naotoshi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -37,19 +37,18 @@ monarch_names = {
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi 
-	Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi 
-	# Region Flavor:Shikoku
-	Hosokawa Miyoshi Onishi Niikai Kaifu Sogo Kagawa Kozai Hayuka Saionji Kono Doi Kurushima
-	Murakami Utsunomiya Kaneko Chosokabe Aki Motoyama Kosokabe 
-	Ichijo Ohira Kira Tsuno
+    Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi
+	Sogo Sogo Sogo Sogo Sogo Atagi Atagi Atagi Atagi Atagi
+	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Iwanari Iwanari Iwanari Iwanari Iwanari
+	Ikeda Ikeda Ikeda Ikeda Ikeda Araki Araki Araki Araki Araki 
+	Shichijo Shichijo Shichijo Shichijo Shichijo Onishi Onishi Onishi Onishi Onishi
+	Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara Izawa Izawa Izawa Izawa Izawa
+	Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Kozai Kozai Kozai Kozai Kozai
+	Kagawa Kagawa Kagawa Kagawa Kagawa Takahara Takahara Takahara Takahara Takahara
+	Sangawa Sangawa Sangawa Sangawa Sangawa Kan Kan Kan Kan Kan
+	Shingai Shingai Shingai Shingai Shingai Shinohara Shinohara Shinohara Shinohara Shinohara
+	Matsunaga Matsunaga Matsunaga Matsunaga Matsunaga Nakagawa Nakagawa Nakagawa Nakagawa Nakagawa
+
 }
 
 ship_names = {
@@ -69,9 +68,9 @@ ship_names = {
 }
 
 army_names = {
-	"Miyoshi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Atagi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Miyoshi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Atagi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

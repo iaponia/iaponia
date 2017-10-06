@@ -63,29 +63,20 @@ monarch_names = { # Most Monarchs were named with "tada" or "hisa"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu
-	Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu
-	# Retainers of Shimazu
-    Ijuin Ijuin Ijuin Ijuin Ijuin Irikiin Irikiin Irikiin Irikiin Irikiin
+    Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu Shimazu
+	Ijuin Ijuin Ijuin Ijuin Ijuin Irikiin Irikiin Irikiin Irikiin Irikiin
 	Kawakami Kawakami Kawakami Kawakami Kawakami Kedoin Kedoin Kedoin Kedoin Kedoin
 	Sonoda Sonoda Sonoda Sonoda Sonoda Tanegashima Tanegashima Tanegashima Tanegashima Tanegashima
-	Gamo Gamo Gamo Gamo Gamo Ei Ei Ei Ei Ei Hishikari Hishikari Hishikari Hishikari Hishikari
+	Kamo Kamo Kamo Kamo Kamo Hishikari Hishikari Hishikari Hishikari Hishikari
 	Yakumaru Yakumaru Yakumaru Yakumaru Yakumaru Ijichi Ijichi Ijichi Ijichi
 	Nejime Nejime Nejime Nejime Nejime Kabayama Kabayama Kabayama Kabayama Kabayama
 	Hongo Hongo Hongo Hongo Hongo Yamada Yamada Yamada Yamada Yamada
 	Niiro Niiro Niiro Niiro Niiro Uwai Uwai Uwai Uwai Uwai
-	# Region Flavor:Kyushu
-	Shoni Munakata Akizuki Harada Tachibana Shibukawa Kii Aso Moji Kamachi Takahashi
-	Kusano Monchujo Hoshino Ryuzoji Chiba Nabeshima Kamishiro Otomo Hetsugi Shiga Ichimada
-	Saeki Usuki Yoshihiro Kikuchi Aso Sagara Akahoshi Jo Kumabe Kai Amakusa Ito Tsuchimochi
-	Hongo Niiro Mera Shimazu Irikiin Ei Ijuin Togo Kawakami Gamo Nejime Tanegashima Kimotsuki
+	Kimotsuki Kimotsuki Kimotsuki Kimotsuki Kimotsuki Hirata Hirata Hirata Hirata Hirata
+	Saruwatari Saruwatari Saruwatari Saruwatari Saruwatari Ei Ei Ei Ei Ei
+	Kamata Kamata Kamata Kamata Kamata Chojuin Chojuin Chojuin Chojuin Chojuin
+	Anraku Anraku Anraku Anraku Anraku Sata Sata Sata Sata Sata
+
 }
 
 ship_names = {

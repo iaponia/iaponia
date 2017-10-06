@@ -38,21 +38,19 @@ monarch_names = { # Most Monarchs were named with "sada"
 }
 
 leader_names = {
-    # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
-	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
-	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
-	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
-	Yamana Hosokawa Hojo Mimura
-	# Shimazu Flavor
-	Miura Miura Miura Miura Miura Miura Miura Miura Miura Miura Miura Miura Miura Miura 
-	Miura Miura Miura Miura Miura Miura Miura Miura Miura Miura Miura Miura Miura Miura 
-	# Region Flavor: Chugoku
-	Urakami Matsuda Ukita Togawa Hanabusa Akashi Hosokawa Sho Mimura Ishikawa
-	Akiba Shimizu Senoo Miura Yamana Nanjo Takeda Amago Mitoya Akana Tachihara Uyama
-	Shido Yamanaka Kamei Masuda Yoshimi Yamauchi Mori Kikkawa Kobayakawa
-	Murakami Kumagai Saeki Fukuhara Kodaga Katsura Shishido Inoue
-	Ouchi Sue Sugi Naito
+    Ukita Ukita Ukita Ukita Ukita Ukita Ukita Ukita Ukita Ukita
+	Urakami Urakami Urakami Urakami Urakami Akamatsu Akamatsu Akamatsu Akamatsu Akamatsu
+	Akashi Akashi Akashi Akashi Akashi Hanabusa Hanabusa Hanabusa Hanabusa Hanabusa
+	Oka Oka Oka Oka Oka Osafune Osafune Osafune Osafune Osafune
+	Togawa Togawa Togawa Togawa Togawa Iga Iga Iga Iga Iga
+	Nakamura Nakamura Nakamura Nakamura Nakamura Shimamura Shimamura Shimamura Shimamura Shimamura
+	Goto Goto Goto Goto Goto Miura Miura Miura Miura Miura
+	Maki Maki Maki Maki Maki Harada Harada Harada Harada Harada
+	Kodera Kodera Kodera Kodera Kodera Kuroda Kuroda Kuroda Kuroda Kuroda
+	Konishi Konishi Konishi Konishi Konishi Bessho Bessho Bessho Bessho Bessho 
+	Kanki Kanki Kanki Kanki Kanki Ogo Ogo Ogo Ogo Ogo 
+	Arima Arima Arima Arima Arima Kume Kume Kume Kume Kume
+
 }
 
 ship_names = {

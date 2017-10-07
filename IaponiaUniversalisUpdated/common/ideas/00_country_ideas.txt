@@ -2851,6 +2851,7 @@ MDR_ideas = {
 		tag = HND
 		tag = YII
 		tag = OKU
+		tag = OKB
 		}
 	}
 	free = yes

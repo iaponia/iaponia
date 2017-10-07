@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = SBA
-add_core = KAI
+add_core = OKB
 owner = SBA
 controller = SBA
 

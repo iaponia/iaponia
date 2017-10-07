@@ -3004,13 +3004,13 @@ entity = {
 	}
 }
 
-entity = { clone = "JAP_INFANTRY_1"		name = "KAI_INFANTRY_1" }
-entity = { clone = "JAP_INFANTRY_2"		name = "KAI_INFANTRY_2" }
-entity = { clone = "JAP_INFANTRY_3"		name = "KAI_INFANTRY_3" }
-entity = { clone = "JAP_INFANTRY_4"		name = "KAI_INFANTRY_4" }
+entity = { clone = "JAP_INFANTRY_1"		name = "OKB_INFANTRY_1" }
+entity = { clone = "JAP_INFANTRY_2"		name = "OKB_INFANTRY_2" }
+entity = { clone = "JAP_INFANTRY_3"		name = "OKB_INFANTRY_3" }
+entity = { clone = "JAP_INFANTRY_4"		name = "OKB_INFANTRY_4" }
 entity = {
 	clone = "asiangfx_CAVALRY_1"
-	name = "KAI_CAVALRY_1"
+	name = "OKB_CAVALRY_1"
 	attach = {
 		name = "rider"
 		Saddle_Node = "JAP_CAVALRY_1_rider"
@@ -3018,7 +3018,7 @@ entity = {
 }
 entity = {
 	clone = "asiangfx_CAVALRY_1"
-	name = "KAI_CAVALRY_2"
+	name = "OKB_CAVALRY_2"
 	attach = {
 		name = "rider"
 		Saddle_Node = "JAP_CAVALRY_2_rider"
@@ -3026,7 +3026,7 @@ entity = {
 }
 entity = {
 	clone = "asiangfx_CAVALRY_3"
-	name = "KAI_CAVALRY_3"
+	name = "OKB_CAVALRY_3"
 	attach = {
 		name = "rider"
 		Saddle_Node = "JAP_CAVALRY_3_rider"

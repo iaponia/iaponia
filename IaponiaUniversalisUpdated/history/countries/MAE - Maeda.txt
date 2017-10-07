@@ -3,7 +3,7 @@ government_rank = 1
 primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
-capital = 1837	# Etchu
+capital = 371	# Kaito
 
 1583.6.14 = {
 	monarch = {

@@ -1,6 +1,6 @@
 government = shugo_monarchy
 government_rank = 1
-primary_culture = hizen_c
+primary_culture = islander_c
 religion = shinto
 technology_group = kyushu
 capital = 91	# Iki

@@ -1,6 +1,6 @@
 government = kokujin_monarchy
 government_rank = 2
-primary_culture = tosa_c
+primary_culture = shimanto_c
 religion = shinto
 technology_group = saigoku
 capital = 107	# Hata

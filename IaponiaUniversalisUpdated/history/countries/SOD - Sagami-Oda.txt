@@ -3,4 +3,4 @@ government_rank = 1
 primary_culture = sagami_c
 religion = shinto
 technology_group = togoku
-#capital = 1843	# Kozuke
+capital = 536	# Kamakura

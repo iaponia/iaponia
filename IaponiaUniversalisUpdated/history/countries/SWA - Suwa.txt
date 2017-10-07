@@ -1,6 +1,6 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = shinano_c
+primary_culture = suwa_c
 religion = shinto
 technology_group = togoku
 capital = 439	# Suwa

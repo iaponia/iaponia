@@ -1,6 +1,6 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = hizen_c
+primary_culture = shimabara_c
 religion = shinto
 technology_group = kyushu
 capital = 89	# Goto

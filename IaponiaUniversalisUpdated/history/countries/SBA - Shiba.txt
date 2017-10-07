@@ -1,6 +1,6 @@
 government = shugo_monarchy
 government_rank = 4
-primary_culture = sunshu_c
+primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
 historical_rival = ODA

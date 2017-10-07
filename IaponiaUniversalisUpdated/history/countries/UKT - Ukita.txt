@@ -1,6 +1,6 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = bishu_c
+primary_culture = bizen_c
 religion = shinto
 technology_group = saigoku
 capital = 212	# Joto

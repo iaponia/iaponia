@@ -1,6 +1,6 @@
 government = shugo_monarchy
 government_rank = 4
-primary_culture = rikuzen_c
+primary_culture = okitama_c
 religion = shinto
 technology_group = tohoku
 capital = 563	# Okitama

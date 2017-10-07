@@ -1,6 +1,6 @@
 government = shugo_monarchy
 government_rank = 2
-primary_culture = shinano_c
+primary_culture = suwa_c
 religion = shinto
 technology_group = togoku
 historical_rival = SOG

@@ -5,7 +5,7 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = SOD
+add_core = SMR
 add_core = OUE
 owner = OUE
 controller = OUE

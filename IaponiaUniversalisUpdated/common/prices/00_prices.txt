@@ -2,7 +2,7 @@
 # goldtype = yes/no			This resource works like 'gold' if yes, using prices from mine-value in province instead of supply/demand and baseprice. Also creates gold-inflation
 
 
-# Base resources
+# Iaponia resources
 rice = {
 	base_price = 2
 }
@@ -44,27 +44,19 @@ seaweed = {
 }
 
 horses = {
-	base_price = 3
+	base_price = 3.5
 }
 
 pilgrimage_site = {
-	base_price = 3
+	base_price = 3.5
 }
 
 grain = {
 	base_price = 2
 }
 
-wine = {
-	base_price = 2
-}
-
-wool = {
-	base_price = 2
-}
-
 cloth = {
-	base_price = 3
+	base_price = 3.5
 }
 
 fish = {
@@ -72,24 +64,15 @@ fish = {
 }
 
 fur = {
-	base_price = 3.5
+	base_price = 4
 }
 
 salt = {
 	base_price = 2.5
 }
 
-naval_supplies = {
-	base_price = 2
-}
-
 firearms = {
 	base_price = 5
-}
-
-# Metals
-copper = {
-	base_price = 3
 }
 
 gold = {
@@ -97,35 +80,29 @@ gold = {
 	goldtype = yes
 }
 
-iron = {
-	base_price = 3
-}
-
-
-# African Resources
-slaves = {
-	base_price = 2
-}
-ivory = {
-	base_price = 4
-}
-
-
-# Eastern Resources
 tea = {
 	base_price = 4
 }
 
-chinaware = {
+dyes = {
 	base_price = 3
 }
 
-spices = {
-	base_price = 3
+# Absent resources
+
+unknown = {
+	base_price = 0
+}
+
+silk = {
+	base_price = 4
 }
 
 
-# New World Resources
+tropical_wood = {
+	base_price = 2
+}
+
 coffee = {
 	base_price = 3
 }
@@ -146,21 +123,38 @@ cocoa = {
 	base_price = 4
 }
 
-# New Non-European Tradegoods
-
-silk = {
-	base_price = 4
+chinaware = {
+	base_price = 3
 }
 
+spices = {
+	base_price = 3
+}
 
-tropical_wood = {
+copper = {
+	base_price = 3
+}
+
+iron = {
+	base_price = 3
+}
+
+slaves = {
 	base_price = 2
 }
 
-dyes = {
+ivory = {
 	base_price = 4
 }
 
-unknown = {
-	base_price = 0
+naval_supplies = {
+	base_price = 2
+}
+
+wine = {
+	base_price = 2
+}
+
+wool = {
+	base_price = 2
 }

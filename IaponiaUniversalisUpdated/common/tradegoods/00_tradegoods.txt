@@ -4,49 +4,21 @@
 # Goods that are not present will show Kakizaki as production leader,
 # but they won't get any bonus from that. -marcavis
 
-#Vanilla resources
+#Iaponia resources
 grain = {
 	color = { 0.96 0.93 0.58 }
 	modifier = {
-		manpower_recovery_speed = 0.05
+		land_maintenance_modifier = -0.10
 	}
 	province = {
-		local_manpower_modifier = 0.10
-	}
-}
-
-#not present
-wine = {
-	color = { 0.36 0.13 0.28 }
-	modifier = {
-		global_unrest = -1
-	}
-	province = {
-		local_unrest = -1
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-#not present
-wool = {
-	color = { 0.72 0.49 0.44 }
-	modifier = {
-		global_ship_cost = -0.05
-	}
-	province = {
-		local_ship_cost = -0.1
-	}
-	chance = {
-		factor = 0
+		land_forcelimit = 0.5
 	}
 }
 
 cloth = {
 	color = { 0.86 0.19 0.19 }
 	modifier = {
-		merc_maintenance_modifier = -0.15
+		num_accepted_cultures = 1
 	}
 	province = {
 		local_development_cost = -0.1
@@ -56,273 +28,57 @@ cloth = {
 fish = {
 	color = { 0.55 0.82 0.97 }
 	modifier = {
-		global_sailors_modifier = 0.25
-	}
-	province = {
-		local_sailors_modifier = 0.25
-	}
-}
-
-#not present
-fur = {
-	color = { 0.54 0.40 0.31 }
-	modifier = {
-		prestige = 1
-	}
-	province = {
-		 province_trade_power_modifier = 0.10
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-salt = {
-	color = { 0.93 0.98 0.98 }
-	modifier = {
-		land_maintenance_modifier = -0.10
-	}
-	province = {
-		local_defensiveness = 0.15
-	}
-}
-
-#not present
-naval_supplies = {
-	color = { 0.11 0.17 0.4 }
-	modifier = {
-		naval_forcelimit_modifier = 0.20
+		global_ship_cost = -0.2
 	}
 	province = {
 		naval_forcelimit = 0.5
 	}
-	chance = {
-		factor = 0
-	}
 }
 
-
-# metals
-#not present
-copper = {
-	color = { 0.85 0.46 0.15 }
+fur = {
+	color = { 0.54 0.40 0.31 }
 	modifier = {
-		global_regiment_recruit_speed = -0.2
-	}
-	province = {
-		regiment_recruit_speed = -0.2
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-gold = {
-	color = { 1.0 0.84 0.19 }
-	#no modifiers
-}
-
-#not present
-iron = {
-	color = { 0.2 0.2 0.2 }
-	modifier = {
-		global_regiment_cost = -0.05
-	}
-	province = {
-		local_build_time = -0.2
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-
-#African Resources
-#not present
-slaves = {
-	color = { 0.0 0.0 0.0 }
-	modifier = {
-		global_tariffs = 0.25
-	}
-	province = {
-		local_missionary_strength = 0.01
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-#not present
-ivory = {
-	color = { 0.75 0.7 0.63 }
-	modifier = {
-		diplomatic_reputation = 2
-	}
-	province = {
-		local_state_maintenance_modifier = -0.2
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-
-#Eastern Resources
-tea = {
-	color = { 0.07 0.33 0.04 }
-	modifier = {
-		advisor_cost = -0.10
-	}
-	province = {
-		garrison_growth = 0.25
-	}
-}
-
-#not present
-chinaware = {
-	color = { 0.18 0.57 0.8 }
-	modifier = {
-		legitimacy = 0.25
-	}
-	province = {
-		local_autonomy = -0.1
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-#not present
-spices = {
-	color = { 0.4 0.65 0.38 }
-	modifier = {
-		spy_offence = 0.25
-	}
-	province = {
-		local_core_creation = 0.20
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-
-#New World Resources
-#not present
-coffee = {
-	color = { 0.22 0.15 0.09 }
-	modifier = {
-		global_institution_spread = 0.05
-	}
-	province = {
-		local_institution_spread = 0.1
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-#not present
-cotton = {
-	color = { 0.52 0.68 0.6 }
-	modifier = {
-		global_colonial_growth = 20
-	}
-	province = {
-		local_development_cost = -0.1
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-#not present
-sugar = {
-	color = { 0.74 0.95 0.68 }
-	modifier = {
-		war_exhaustion_cost = -0.2
-	}
-	province = {
-		local_unrest = -1
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-#not present
-tobacco = {
-	color = { 0.33 0.56 0.38 }
-	modifier = {
-		global_spy_defence = 0.25
-	}
-	province = {
-		 province_trade_power_modifier = 0.10
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-#not present
-cocoa = {
-	color = { 0.45 0.21 0.09 }
-	modifier = {
-		manpower_recovery_speed = 0.05
-	}
-	province = {
-		local_manpower_modifier = 0.10
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-silk = {
-	color = { 0.64 0.10 0.64 }
-	modifier = {
-		num_accepted_cultures = 1
+		global_trade_power = 0.1
 	}
 	province = {
 		province_trade_power_value = 2
 	}
 }
 
+salt = {
+	color = { 0.93 0.98 0.98 }
+	modifier = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	province = {
+		local_tax_modifier = 0.1
+	}
+}
+
+tea = {
+	color = { 0.07 0.33 0.04 }
+	modifier = {
+		advisor_cost = -0.1
+	}
+	province = {
+		local_institution_spread = 0.1
+	}
+}
+
 dyes = {
 	color = { 0.75 0.30 0.55 }
 	modifier = {
-		heir_chance = 0.33
+		prestige = 1
 	}
 	province = {
-		 province_trade_power_modifier = 0.10
+		province_trade_power_modifier = 0.10
 	}
 }
 
-#not present
-tropical_wood = {
-	color = { 0.45 0.47 0.09 }
-	modifier = {
-		development_cost = -0.05
-	}
-	province = {
-		local_build_cost = -0.2
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-
-unknown = {
-	color = { 0.5 0.5 0.5 }
-}
-
-#Iaponia
-#Base resources
 rice = {
 	color = { 0.65 0.65 0.05 }
 	modifier = {
-		land_forcelimit_modifier = 0.20
+		manpower_recovery_speed = 0.1
 	}
 	province = {
 		land_forcelimit = 0.5
@@ -342,30 +98,30 @@ sake = {
 bamboo = {
 	color = { 0.10 0.70 0.50 }
 	modifier = {
-		build_cost = -0.05
+		fort_maintenance_modifier = -0.2
 	}
 	province = {
-		local_build_cost = -0.15
+		local_build_cost = -0.2
 	}
 }
 
 lumber = {
 	color = { 0.40 0.20 0.05 }
 	modifier = {
-		naval_forcelimit_modifier = 0.20
+		ship_durability = 0.05
 	}
 	province = {
-		naval_forcelimit = 0.5
+		local_build_cost = -0.2
 	}
 }
 
 metal = {
 	color = { 0.45 0.95 0.05 }
 	modifier = {
-		global_regiment_cost = -0.05
+		global_regiment_cost = -0.15
 	}
 	province = {
-		local_build_time = -0.2
+		global_regiment_recruit_speed = -0.25
 	}
 }
 
@@ -382,40 +138,40 @@ mainland_trade = {
 lacquerware = {
 	color = { 0.6 0.25 0.15 }
 	modifier = {
-		legitimacy = 0.25
+		trade_efficiency = 0.1
 	}
 	province = {
-		local_autonomy = -0.1
+		province_trade_power_value = 2
 	}
 }
 
 paper = {
 	color = { 1.0 0.85 0.85 }
 	modifier = {
-		spy_offence = 0.10
+		state_maintenance_modifier = -0.25
 	}
 	province = {
-		local_state_maintenance_modifier = -0.2
+		local_autonomy = -0.1
 	}
 }
 
 pottery = {
 	color = { 0.35 0.05 0.95 }
 	modifier = {
-		defensiveness = 0.1
+		development_cost = -0.1
 	}
 	province = {
-		local_defensiveness = 0.15
+		province_trade_power_modifier = 0.10
 	}
 }
 
 seaweed = {
 	color = { 0.05 0.45 0.55 }
 	modifier = {
-		infantry_cost = -0.05
+		global_sailors_modifier = 0.1
 	}
 	province = {
-		regiment_recruit_speed = -0.2
+		local_sailors_modifier = 0.25
 	}
 }
 
@@ -425,7 +181,7 @@ horses = {
 		shock_damage = 0.1
 	}
 	province = {
-		land_forcelimit = 0.5
+		local_manpower_modifier = 0.10
 	}
 }
 
@@ -435,16 +191,90 @@ firearms = {
 		fire_damage = 0.1
 	}
 	province = {
-		local_institution_spread = 0.1
+		local_manpower_modifier = 0.10
 	}
 }
 
 pilgrimage_site = {
 	color = { 0.85 0.66 0.42 }
 	modifier = {
-		ae_impact = -0.05
+		religious_unity = 0.2
 	}
 	province = {
-		local_production_efficiency = 0.10
+		local_development_cost = -0.1
 	}
+}
+
+gold = {
+	color = { 1.0 0.84 0.19 }
+	#no modifiers
+}
+
+#Absent Resources
+unknown = {
+	color = { 0.5 0.5 0.5 }
+}
+
+tropical_wood = {
+	color = { 0.45 0.47 0.09 }
+}
+
+silk = {
+	color = { 0.64 0.10 0.64 }
+}
+
+cocoa = {
+	color = { 0.45 0.21 0.09 }
+}
+
+coffee = {
+	color = { 0.22 0.15 0.09 }
+}
+
+cotton = {
+	color = { 0.52 0.68 0.6 }
+}
+
+sugar = {
+	color = { 0.74 0.95 0.68 }
+}
+
+tobacco = {
+	color = { 0.33 0.56 0.38 }
+}
+
+chinaware = {
+	color = { 0.18 0.57 0.8 }
+}
+
+spices = {
+	color = { 0.4 0.65 0.38 }
+}
+
+iron = {
+	color = { 0.2 0.2 0.2 }
+}
+
+slaves = {
+	color = { 0.0 0.0 0.0 }
+}
+
+ivory = {
+	color = { 0.75 0.7 0.63 }
+}
+
+naval_supplies = {
+	color = { 0.11 0.17 0.4 }
+}
+
+copper = {
+	color = { 0.85 0.46 0.15 }
+}
+
+wine = {
+	color = { 0.36 0.13 0.28 }
+}
+
+wool = {
+	color = { 0.72 0.49 0.44 }
 }

@@ -1426,7 +1426,7 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "Church of Nothingland"
-				maxWidth = 200
+				maxWidth = 270
 				maxHeight = 25
 				Orientation = "UPPER_LEFT"
 				format = left

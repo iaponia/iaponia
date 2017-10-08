@@ -495,14 +495,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_patriarchy_slot"
 		texturefile = "gfx/interface/patriarchy_slot.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_patriarch_icon"
 		texturefile = "gfx/interface/patriarch_icon.dds"
 		noOfFrames = 2
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_amount_of_banners"
 		texturefile = "gfx/interface/ideas_EU4/amount_of_banners.dds"
@@ -839,7 +839,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//siberian_mechanic_button.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
-	}	
+	}
 
 	spriteType = {
 		name = "GFX_colonisation_bg"
@@ -915,21 +915,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_resource_icon"
 		texturefile = "gfx//interface//resources.tga"
-		noOfFrames = 38
+		noOfFrames = 22
 		loadType = "INGAME"
 	}
 
 	spriteType = {
 		name = "GFX_resource_icon_small"
 		texturefile = "gfx//interface//resources_small.dds"
-		noOfFrames = 38
+		noOfFrames = 22
 		loadType = "INGAME"
 	}
 
 	spriteType = {
 		name = "GFX_resource_icon_transparent"
 		texturefile = "gfx//interface//resources.tga"
-		noOfFrames = 38
+		noOfFrames = 22
 		loadType = "INGAME"
 
 		allwaystransparent = yes

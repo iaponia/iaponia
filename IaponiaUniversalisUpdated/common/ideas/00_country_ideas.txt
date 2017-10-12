@@ -375,7 +375,7 @@ OTM_ideas = {
 	}
 	christian_conversion = {
 		global_missionary_strength = 0.01
-		church_power_modifier = 0.1
+		church_power_modifier = 0.33
 	}
 	kunikuzushi = {
 		artillery_power = 0.1
@@ -729,7 +729,7 @@ UKT_ideas = {
 	}
 	christian_ties = {
 		tolerance_heretic = 2
-		church_power_modifier = 0.05
+		church_power_modifier = 0.1
 	}
 	devout_vassals = {
 		discipline = 0.05
@@ -1843,7 +1843,7 @@ AIM_ideas = {
 	}
 	jesuit_support = {
 		technology_cost = -0.1
-		church_power_modifier = 0.1
+		church_power_modifier = 0.25
 	}
 	western_seminaries = {
 		idea_cost = -0.1
@@ -1895,7 +1895,7 @@ SOO_ideas = {
 	}
 	tactful_conversions = {
 		tolerance_heretic = 2
-		church_power_modifier = 0.05
+		church_power_modifier = 0.1
 	}
 	naval_auxiliaries = {
 		naval_forcelimit_modifier = 0.25
@@ -2095,7 +2095,7 @@ GAM_ideas = {
 	}
 	upright_lords = {
 		core_creation = -0.2
-		church_power_modifier = 0.1
+		church_power_modifier = 0.25
 	}
 }
 
@@ -2273,7 +2273,7 @@ KRD_ideas = {
 	}
 	devout_catholics = {
 		global_missionary_strength = 0.01
-		church_power_modifier = 0.1
+		church_power_modifier = 0.25
 	}
 	vanguard_gunners = {
 		fire_damage = 0.1
@@ -2389,7 +2389,7 @@ KGK_ideas = {
 	}
 	cosmopolitan_culture = {
 		tolerance_heretic = 2
-		church_power_modifier = 0.05
+		church_power_modifier = 0.1
 	}
 	stubborn_defense = {
 		defensiveness = 0.15
@@ -2463,7 +2463,7 @@ TSU_ideas = {
 	}
 	visits_capital = {
 		idea_cost = -0.1
-		church_power_modifier = 0.05
+		church_power_modifier = 0.1
 	}
 	retainers_from_abroad = {
 		advisor_cost = -0.1
@@ -2582,7 +2582,7 @@ ICJ_ideas = {
 	}
 	jesuit_curiosity = {
 		global_institution_spread = 0.1
-		church_power_modifier = 0.05
+		church_power_modifier = 0.1
 	}
 }
 
@@ -2739,7 +2739,7 @@ IKE_ideas = {
 	}
 	catholic_missions = {
 		tolerance_heretic = 2
-		church_power_modifier = 0.05
+		church_power_modifier = 0.1
 	}
 	iron_ships = {
 		ship_durability = 0.05
@@ -2782,7 +2782,7 @@ TCB_ideas = {
 	}
 	partisan_faiths = {
 		global_missionary_strength = 0.01
-		church_power_modifier = 0.05
+		church_power_modifier = 0.1
 	}
 	saltpeter_monopoly = {
 		fire_damage = 0.1
@@ -2917,7 +2917,7 @@ KNH_ideas = {
 	}
 	one_faith = {
 		tolerance_own = 1
-		church_power_modifier = 0.05
+		church_power_modifier = 0.1
 	}
 	campaign_veterans = {
 		land_forcelimit_modifier = 0.2
@@ -3179,7 +3179,7 @@ AAI_ideas = {
 	}
 	defender_of_faith = {
 		tolerance_own = 1
-		church_power_modifier = 0.1
+		church_power_modifier = 0.25
 	}
 	settsu_vanguard = {
 		land_morale = 0.1

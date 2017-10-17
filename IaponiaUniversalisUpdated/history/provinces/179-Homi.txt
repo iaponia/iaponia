@@ -19,7 +19,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 
-trade_goods = metal
+trade_goods = sake
 
 
 1581.10.25 = {

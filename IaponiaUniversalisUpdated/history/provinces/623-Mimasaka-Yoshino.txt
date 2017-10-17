@@ -20,7 +20,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 
-trade_goods = paper
+trade_goods = lumber
 
 
 1467.6.15 = {

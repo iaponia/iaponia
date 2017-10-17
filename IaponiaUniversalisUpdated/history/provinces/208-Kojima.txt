@@ -20,7 +20,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 4
 
-trade_goods = salt
+trade_goods = fish
 
 
 1467.6.15 = {

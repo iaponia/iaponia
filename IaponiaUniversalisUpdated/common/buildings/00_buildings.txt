@@ -305,7 +305,7 @@ shipyard = {
 	}
 	modifier = {
 		ship_recruit_speed = -0.25
-		local_ship_repair = 0.25
+		local_sailors_modifier = 0.25
 	}
 
 	ai_will_do = {
@@ -322,7 +322,7 @@ drydock = {
 	}
 	modifier = {
 		ship_recruit_speed = -0.5
-		local_ship_repair = 0.5
+		local_sailors_modifier = 0.5
 	}
 
 	ai_will_do = {

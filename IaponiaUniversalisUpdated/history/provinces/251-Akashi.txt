@@ -20,7 +20,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 
-trade_goods = sake
+trade_goods = fish
 
 add_permanent_province_modifier = {
 	name = center_of_trade_modifier

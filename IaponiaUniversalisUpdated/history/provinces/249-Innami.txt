@@ -20,7 +20,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 
-trade_goods = paper
+trade_goods = rice
 
 
 1467.5.15 = {

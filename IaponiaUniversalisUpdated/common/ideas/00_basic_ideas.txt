@@ -77,6 +77,7 @@ shinto_ideas = {
 	}
 	shinto_two = {
 		legitimacy = 1
+		devotion = 1
 	}
 	shinto_three = {
 		religious_conversion_resistance = 0.5
@@ -135,6 +136,7 @@ buddhist_ideas = {
 	}
 	buddhist_six = {
 		devotion = 1
+		legitimacy = 1
 	}
 	buddhist_seven = {
 		cb_on_religious_enemies = yes

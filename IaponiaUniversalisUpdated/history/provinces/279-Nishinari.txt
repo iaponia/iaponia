@@ -19,7 +19,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 4
 
-trade_goods = rice
+trade_goods = paper
 
 add_permanent_province_modifier = {
 	name = yodo_estuary_modifier

@@ -19,7 +19,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 
-trade_goods = sake
+trade_goods = seaweed
 
 
 1550.11.19 = {

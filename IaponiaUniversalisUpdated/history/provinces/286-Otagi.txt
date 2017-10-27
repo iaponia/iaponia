@@ -18,7 +18,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 3
 
-trade_goods = dyes
+trade_goods = pilgrimage_site
 
 
 1550.11.19 = {

@@ -18,7 +18,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 
-trade_goods = dyes
+trade_goods = bamboo
 
 
 1546.11.4 = {

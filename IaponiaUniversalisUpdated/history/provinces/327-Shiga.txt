@@ -18,7 +18,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 2
 
-trade_goods = sake
+trade_goods = pottery
 
 
 1568.9.13 = {

@@ -18,7 +18,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 4
 
-trade_goods = tea
+trade_goods = pottery
 
 
 1571.1.1 = {

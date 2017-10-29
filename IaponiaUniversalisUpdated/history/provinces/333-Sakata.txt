@@ -20,7 +20,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 4
 
-trade_goods = rice
+trade_goods = pottery
 
 
 1534.1.1 = {

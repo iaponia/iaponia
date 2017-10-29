@@ -1302,7 +1302,6 @@ textile_workshop = {
 	cost = 750
 	time = 40
 	manufactory = {
-		silk
 		cloth
 		dyes
 		fur

@@ -531,7 +531,7 @@ UES_ideas = {
 	salt_gift = {
 		diplomatic_reputation = 2
 	}
-	agikata_shu = {
+	agakita_shu = {
 		shock_damage_received = -0.1
 	}
 }
@@ -552,6 +552,7 @@ HJO_ideas = {
 	free = yes
 
 	kamakura = {
+
 		legitimacy = 1
 	}
 	twenty_one_code = {
@@ -3235,4 +3236,5 @@ MKM_ideas = {
 	encourage_shinano_industries = {
 		development_cost = -0.1
 	}
+
 }

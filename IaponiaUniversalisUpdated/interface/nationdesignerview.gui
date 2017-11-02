@@ -616,7 +616,7 @@ guiTypes = {
 			### age
 			instantTextBoxType = {
 				name = "ruler_age_label"
-				position = { x = 286 y = 187 }
+				position = { x = 238 y = 186 }
 				font = "vic_18"
 				text = "ND_AGE"
 				maxWidth = 100
@@ -627,7 +627,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ruler_age"
-				position = { x = 286 y = 212 }
+				position = { x = 300 y = 186 }
 				font = "vic_22"
 				text = "0"
 				maxWidth = 100
@@ -638,13 +638,13 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "ruler_age_down"
-				position = { x = 291 y = 211 }
+				position = { x = 307 y = 185 }
 				quadTextureSprite ="GFX_arrow_left_big"
 			}
 
 			guiButtonType = {
 				name = "ruler_age_up"
-				position = { x = 356 y = 211  }
+				position = { x = 368 y = 185  }
 				quadTextureSprite ="GFX_arrow_right_big"
 			}
 
@@ -858,7 +858,7 @@ guiTypes = {
 				### age
 				instantTextBoxType = {
 					name = "heir_age_label"
-					position = { x = 286 y = 154 }
+					position = { x = 238 y = 153 }
 					font = "vic_18"
 					text = "ND_AGE"
 					maxWidth = 100
@@ -869,7 +869,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "heir_age"
-					position = { x = 286 y = 179 }
+					position = { x = 300 y = 153 }
 					font = "vic_22"
 					text = "0"
 					maxWidth = 100
@@ -880,13 +880,13 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "heir_age_down"
-					position = { x = 291 y = 178 }
+					position = { x = 307 y = 152 }
 					quadTextureSprite ="GFX_arrow_left_big"
 				}
 
 				guiButtonType = {
 					name = "heir_age_up"
-					position = { x = 356 y = 178  }
+					position = { x = 368 y = 152  }
 					quadTextureSprite ="GFX_arrow_right_big"
 				}
 
@@ -1108,7 +1108,7 @@ guiTypes = {
 				### age
 				instantTextBoxType = {
 					name = "consort_age_label"
-					position = { x = 286 y = 154 }
+					position = { x = 238 y = 153 }
 					font = "vic_18"
 					text = "ND_AGE"
 					maxWidth = 100
@@ -1119,7 +1119,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "consort_age"
-					position = { x = 286 y = 179 }
+					position = { x = 300 y = 153 }
 					font = "vic_22"
 					text = "0"
 					maxWidth = 100
@@ -1130,13 +1130,13 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "consort_age_down"
-					position = { x = 291 y = 178 }
+					position = { x = 307 y = 152 }
 					quadTextureSprite ="GFX_arrow_left_big"
 				}
 
 				guiButtonType = {
 					name = "consort_age_up"
-					position = { x = 356 y = 178  }
+					position = { x = 368 y = 152  }
 					quadTextureSprite ="GFX_arrow_right_big"
 				}
 

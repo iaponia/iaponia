@@ -616,7 +616,7 @@ guiTypes = {
 			### age
 			instantTextBoxType = {
 				name = "ruler_age_label"
-				position = { x = 286 y = 187 }
+				position = { x = 241 y = 187 }
 				font = "vic_18"
 				text = "ND_AGE"
 				maxWidth = 100
@@ -627,7 +627,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ruler_age"
-				position = { x = 286 y = 212 }
+				position = { x = 241 y = 212 }
 				font = "vic_22"
 				text = "0"
 				maxWidth = 100
@@ -638,20 +638,20 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "ruler_age_down"
-				position = { x = 291 y = 211 }
+				position = { x = 246 y = 211 }
 				quadTextureSprite ="GFX_arrow_left_big"
 			}
 
 			guiButtonType = {
 				name = "ruler_age_up"
-				position = { x = 356 y = 211  }
+				position = { x = 311 y = 211  }
 				quadTextureSprite ="GFX_arrow_right_big"
 			}
 
 			listboxType =
 			{
 				name ="monarch_ruler_personality_list"
-				position = {x=269 y=229}
+				position = {x=179 y=229}
 				backGround=""
 				size = {x=200 y=512}
 				Orientation = "UPPER_LEFT"
@@ -675,7 +675,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "ruler_admin"
-				position = { x = 146 y = 191 }
+				position = { x = 86 y = 191 }
 				font = "vic_18"
 				text = "0"
 				maxWidth = 50
@@ -686,13 +686,13 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "ruler_admin_down"
-				position = { x = 196 y = 187 }
+				position = { x = 120 y = 187 }
 				quadTextureSprite ="GFX_arrow_left_big"
 			}
 
 			guiButtonType = {
 				name = "ruler_admin_up"
-				position = { x = 226 y = 187  }
+				position = { x = 146 y = 187  }
 				quadTextureSprite ="GFX_arrow_right_big"
 			}
 

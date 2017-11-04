@@ -397,21 +397,16 @@ on_hre_province_reconquest = {
 
 on_lock_hre_religion = {
 	events = {
-		religious_leagues.1
-		religious_leagues.8
 	}
 }
 
 on_change_hre_religion = {
 	events = {
-		religious_leagues.2
-		religious_leagues.3
 	}
 }
 
 on_hre_religion_white_peace = {
 	events = {
-		religious_leagues.4
 	}
 }
 
@@ -705,24 +700,6 @@ on_bi_yearly_pulse = {
 		100 = catholic_flavor.8
 		100 = catholic_flavor.9
 		100 = catholic_flavor.10
-
-		# Tradegoods events
-		100 = 6418
-		100 = 6419
-		100 = 6420
-		100 = 6421
-		100 = 6422
-		100 = 6423
-		100 = 6424
-		100 = 6425
-		100 = 6426
-		100 = 6427
-		100 = 6428
-		100 = 6429
-		100 = 6431
-		100 = 6432
-		100 = 6433
-		100 = 6434
 
 		# Corruption Events
 		100 = corruption_event.16

@@ -667,7 +667,7 @@ guiTypes = {
 				position = { x = 39 y = 190 }
 				font = "vic_18"
 				text = "MON_ADM_LONG"
-				maxWidth = 120
+				maxWidth = 60
 				maxHeight = 20
 				format = left
 				fixedsize = yes
@@ -909,7 +909,7 @@ guiTypes = {
 					position = { x = 39 y = 157 }
 					font = "vic_18"
 					text = "MON_ADM_LONG"
-					maxWidth = 120
+					maxWidth = 60
 					maxHeight = 20
 					format = left
 					fixedsize = yes
@@ -1159,7 +1159,7 @@ guiTypes = {
 					position = { x = 39 y = 157 }
 					font = "vic_18"
 					text = "MON_ADM_LONG"
-					maxWidth = 120
+					maxWidth = 60
 					maxHeight = 20
 					format = left
 					fixedsize = yes

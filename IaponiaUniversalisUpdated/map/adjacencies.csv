@@ -2,7 +2,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 9;18;sea;1308;422;1190;425;1182;Kagoshima-So
 13;26;sea;1318;477;1430;473;1417;Izumi-Amakusa
 25;26;sea;1318;604;1432;610;1432;Uto-Amakusa
-47;26;sea;1311;553;1474;570;1479;Takaku-Amakusa
+698;26;sea;1311;553;1474;570;1479;Shimabara-Amakusa
 72;108;sea;1266;976;1597;980;1601;Kiku-Toyoura
 117;118;sea;1275;1174;1378;1172;1372;Kuga-Oshima
 92;93;sea;1330;800;1965;805;1965;Shimoagata-Kamiagata

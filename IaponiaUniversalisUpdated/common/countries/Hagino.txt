@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 94  122  106 }
+color = { 237  166  120 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -24,7 +24,7 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { 
+monarch_names = {
 	"Akikiyo #0" = 50
 	"Naomasa #0" = 50
 	"Toku #0" = -5
@@ -56,14 +56,14 @@ monarch_names = {
 
 leader_names = {
     # Daimyo names
-	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama	
+	Akamatsu Akechi Asakura Ashikaga Amago Aso Chosokabe Date Hatakeyama
 	Ichijo Imagawa Isshiki Ito Jinbo Kikuchi Kono Matsunaga Miyoshi Mogami
 	Mori Nagao Oda Ogasawara Otomo Ouchi Ryuzoji Sagara Saito Satake Satomi
 	Shiba Shibata Shimazu Takeda Toki Toyotomi Tsutsui Ukita Uesugi Uragami
 	Yamana Hosokawa Hojo Mimura
 	# Shimazu Flavor
-	Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino 
-	Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino 
+	Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino
+	Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino Hagino
 	# Region Flavor: Kinai
 	Kitabatake Kozukuri Kuki Seki Kanbe Nagano Tsuge Okouchi Hattori Kusunoki
 	Rokkaku Kyogoku Takashima Kutsuki Gamo Azai Imai Isono Mikumo Wada Amamori
@@ -80,7 +80,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

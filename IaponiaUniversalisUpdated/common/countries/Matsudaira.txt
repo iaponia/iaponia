@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 47  93  80 }
+color = { 17  113  181 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -24,15 +24,15 @@ historical_units = {
 	advanced_kanto_cavalry
 }
 
-monarch_names = { 
+monarch_names = {
 	"Chikauji #0" = 10
 	"Nobuhiro #0" = 10
 	"Yasuchika #0" = 10
 	"Nobumitsu #0" = 10
-	"Moriie #0" = 10	
-	"Chikatada #0" = 10	
-	"Nobutada #0" = 20	
-	"Chikamori #0" = 10	
+	"Moriie #0" = 10
+	"Chikatada #0" = 10
+	"Nobutada #0" = 20
+	"Chikamori #0" = 10
 	"Toshinaga #0" = 10
 	"Nobusada #0" = 10
 	"Kiyoyasu #0" = 20
@@ -41,14 +41,14 @@ monarch_names = {
 	"Hidetada #0" = 20
 	"Iemitsu #0" = 20
 	"Ietsuna #0" = 20
-   	"Tsunayoshi #0" = 20	
+   	"Tsunayoshi #0" = 20
 	"Tsunatoyo #0" = 20
 	"Ienobu #0" = 20
 	"Ietsugu #0" = 20
 	"Ieharu #0" = 20
-	"Ienari #0" = 20	
-	"Ieyoshi #0" = 20	
-	"Iesada #0" = 20	
+	"Ienari #0" = 20
+	"Ieyoshi #0" = 20
+	"Iesada #0" = 20
 	"Ieshige #0" = 20
 	"Yoshinobu #0" = 5
 	"Toku #0" = -5
@@ -83,7 +83,7 @@ leader_names = {
 	Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira Honda Honda Honda Honda Honda
 	Kira Kira Kira Kira Kira Ishikawa Ishikawa Ishikawa Ishikawa Ishikawa
 	Torii Torii Torii Torii Torii Hattori Hattori Hattori Hattori Hattori
-	Sakakibara Sakakibara Sakakibara Sakakibara Sakakibara Sakai Sakai Sakai Sakai Sakai 
+	Sakakibara Sakakibara Sakakibara Sakakibara Sakakibara Sakai Sakai Sakai Sakai Sakai
 	Abe Abe Abe Abe Abe Koriki Koriki Koriki Koriki Koriki
 	Naito Naito Naito Naito Naito Mizuno Mizuno Mizuno Mizuno Mizuno
 	Okubo Okubo Okubo Okubo Okubo Okudaira Okudaira Okudaira Okudaira Okudaira
@@ -104,7 +104,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

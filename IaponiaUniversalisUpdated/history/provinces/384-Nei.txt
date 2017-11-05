@@ -19,7 +19,7 @@ base_tax = 6
 base_production = 4
 base_manpower = 3
 
-trade_goods = rice
+trade_goods = sake
 
 add_permanent_province_modifier = {
 	name = jinzu_estuary_modifier

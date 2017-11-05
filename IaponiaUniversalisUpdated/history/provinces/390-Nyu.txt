@@ -20,7 +20,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 4
 
-trade_goods = fish
+trade_goods = pottery
 
 
 1471.2.15 = {

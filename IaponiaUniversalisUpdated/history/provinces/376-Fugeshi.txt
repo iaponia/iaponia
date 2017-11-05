@@ -19,7 +19,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 
-trade_goods = horses
+trade_goods = lacquerware
 
 
 1577.9.15 = {

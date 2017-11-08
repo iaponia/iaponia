@@ -20,7 +20,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 4
 
-trade_goods = bamboo
+trade_goods = lacquerware
 
 
 1493.1.1 = {

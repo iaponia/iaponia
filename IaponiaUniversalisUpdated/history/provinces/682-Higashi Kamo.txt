@@ -19,7 +19,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 2
 
-trade_goods = lumber
+trade_goods = rice
 
 
 1493.1.1 = {

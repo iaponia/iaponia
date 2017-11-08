@@ -19,7 +19,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 
-trade_goods = lumber
+trade_goods = lacquerware
 
 
 1499.1.1 = {

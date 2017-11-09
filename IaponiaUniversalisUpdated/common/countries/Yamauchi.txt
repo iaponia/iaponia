@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 224  4  27 }
+color = { 255  250  179 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -24,13 +24,13 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { 
+monarch_names = {
 	"Kazutoyo #0" = 50
 	"Yasutoyo #0" = 50
 	"Tadayoshi #0" = 50
 	"Moritoyo #0" = 50
-	"Hisatoyo #0" = 50	
-	"Morimichi #0" = 50		
+	"Hisatoyo #0" = 50
+	"Morimichi #0" = 50
 	"Sadamichi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
@@ -76,7 +76,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 123  71  65 }
+color = { 229  188  103 }
 
 historical_idea_groups = {
 	offensive_ideas
@@ -29,10 +29,10 @@ monarch_names = { # Most Monarchs were named with "Chika"
 	"Munemasa #0" = 50
 	"Munetora #0" = 50
 	"Shigetane #0" = 50
-	"Akitane #0" = 50	
-	"Akimasa #0" = 50	
-	"Yasutane #0" = 50	
-	"Yoritane #0" = 50	
+	"Akitane #0" = 50
+	"Akimasa #0" = 50
+	"Yasutane #0" = 50
+	"Yoritane #0" = 50
 	"Tokitane #0" = 50
 	"Tsunetane #0" = 50
 	"Suketane #0" = 50
@@ -70,16 +70,16 @@ leader_names = {
     Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo
 	Bekki Bekki Bekki Bekki Bekki Tachibana Tachibana Tachibana Tachibana Tachibana
 	Yoshihiro Yoshihiro Yoshihiro Yoshihiro Yoshihiro Takahashi Takahashi Takahashi Takahashi Takahashi
-	Shiga Shiga Shiga Shiga Shiga Tawara Tawara Tawara Tawara Tawara 
+	Shiga Shiga Shiga Shiga Shiga Tawara Tawara Tawara Tawara Tawara
 	Usuki Usuki Usuki Usuki Usuki Saiki Saiki Saiki Saiki Saiki
 	Ichimada Ichimada Ichimada Ichimada Ichimada Takita Takita Takita Takita Takita
-	Yoshioka Yoshioka Yoshioka Yoshioka Yoshioka Honjo Honjo Honjo Honjo Honjo 
+	Yoshioka Yoshioka Yoshioka Yoshioka Yoshioka Honjo Honjo Honjo Honjo Honjo
 	Tsunokuma Tsunokuma Tsunokuma Tsunokuma Tsunokuma Nyuda Nyuda Nyuda Nyuda Nyuda
 	Kamachi Kamachi Kamachi Kamachi Kamachi Tajiri Tajiri Tajiri Tajiri Tajiri
 	Harano Harano Harano Harano Harano Oki Oki Oki Oki Oki
 	Monjyujo Monjyujo Monjyujo Monjyujo Monjyujo Nishimuta Nishimuta Nishimuta Nishimuta Nishimuta
 	Yufu Yufu Yufu Yufu Yufu Ono Ono Ono Ono Ono
-	Totoki Totoki Totoki Totoki Totoki Takano Takano Takano Takano Takano 
+	Totoki Totoki Totoki Totoki Totoki Takano Takano Takano Takano Takano
 	Ando Ando Ando Ando Ando Mihara Mihara Mihara Mihara Mihara
 	Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Ouchi Ouchi Ouchi Ouchi Ouchi
 
@@ -91,7 +91,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

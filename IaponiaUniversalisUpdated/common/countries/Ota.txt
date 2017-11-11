@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 121  110  230 }
+color = { 17  17  69 }
 
 historical_idea_groups = {
 	influence_ideas
@@ -61,15 +61,15 @@ monarch_names = { # Most Monarchs were named with "tomo"
 }
 
 leader_names = {
-    Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo 
+    Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo
 	Matsuda Matsuda Matsuda Matsuda Matsuda Ando Ando Ando Ando Ando
 	Tominaga Tominaga Tominaga Tominaga Tominaga Tame Tame Tame Tame Tame
 	Daidoji Daidoji Daidoji Daidoji Daidoji Nakayama Nakayama Nakayama Nakayama Nakayaama
-	Haga Haga Haga Haga Haga Inomata Inomata Inomata Inomata Inomata 
+	Haga Haga Haga Haga Haga Inomata Inomata Inomata Inomata Inomata
 	Kajiwara Kajiwara Kajiwara Kajiwara Kajiwara Kasahara Kasahara Kasahara Kasahara Kasahara
 	Shimizu Shimizu Shimizu Shimizu Shimizu Kano Kano Kano Kano Kano
 	Oishi Oishi Oishi Oishi Oishi Ueda Ueda Ueda Ueda Ueda
-	Ota Ota Ota Ota Ota Narita Narita Narita Narita Narita 
+	Ota Ota Ota Ota Ota Narita Narita Narita Narita Narita
 	Uesugi Uesugi Uesugi Uesugi Uesugi Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga
 
 }
@@ -80,7 +80,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

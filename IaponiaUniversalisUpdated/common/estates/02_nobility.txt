@@ -498,7 +498,7 @@ estate_nobles =
 						}
 					}
 				}
-				add_manpower = 0.1
+				add_yearly_manpower = 1
 			}
 			if = {
 				limit = {
@@ -513,7 +513,7 @@ estate_nobles =
 						}
 					}
 				}
-				add_manpower = 0.15
+				add_yearly_manpower = 1.5
 			}
 			if = {
 				limit = {
@@ -528,7 +528,7 @@ estate_nobles =
 						}
 					}
 				}
-				add_manpower = 0.2
+				add_yearly_manpower = 2
 			}
 			if = {
 				limit = {
@@ -537,7 +537,7 @@ estate_nobles =
 						influence = 100
 					}
 				}
-				add_manpower = 0.25
+				add_yearly_manpower = 2.5
 			}
 			add_estate_loyalty = {
 				estate = estate_nobles

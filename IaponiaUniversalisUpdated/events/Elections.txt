@@ -53,29 +53,10 @@ country_event = {
 		change_mil = 1
 		if = {
 			limit = {
-				is_tribal = yes
 				government = republic
 				NOT = { republican_tradition = 20 }
 			}
-			change_government = tribal_despotism
-		}
-		if = {
-			limit = {
-				is_tribal = no
-				government = republic
-				NOT = { republican_tradition = 20 }
-				has_dlc = "Res Publica"
-			}
-			change_government = republican_dictatorship
-		}
-		if = {
-			limit = {
-				is_tribal = no
-				government = republic
-				NOT = { republican_tradition = 20 }
-				NOT = { has_dlc = "Res Publica" }
-			}
-			change_government = despotic_monarchy
+			change_government = shugo_monarchy
 		}
 		add_scaled_republican_tradition = -10
 		random_list = {

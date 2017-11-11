@@ -1104,32 +1104,7 @@ country_event = {
 				loyalty = -15
 			}
 		}
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			change_government = iqta
-		}
-		if = {
-			limit = {
-				adm_tech = 2
-				NOT = {
-					religion_group = muslim
-				}
-			}
-			change_government = feudal_monarchy
-		}
-		if = {
-			limit = {
-				NOT = {
-					OR = {
-						adm_tech = 2
-						religion_group = muslim
-					}
-				}
-			}
-			change_government = tribal_kingdom
-		}
+		change_government = shugo_monarchy
 		kill_ruler = yes
 	}
 	option = {

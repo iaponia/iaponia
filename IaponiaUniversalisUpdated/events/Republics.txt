@@ -112,24 +112,7 @@ country_event = {
 
 	option = {
 		name = republics.3.a
-		if = {
-			limit = { is_tribal = yes }
-			change_government = tribal_despotism
-		}
-		if = {
-			limit = {
-				is_tribal = no
-				has_dlc = "Res Publica"
-			}
-			change_government = republican_dictatorship
-		}
-		if = {
-			limit = {
-				is_tribal = no
-				NOT = { has_dlc = "Res Publica" }
-			}
-			change_government = despotic_monarchy
-		}
+		change_government = shugo_monarchy
 	}
 }
 

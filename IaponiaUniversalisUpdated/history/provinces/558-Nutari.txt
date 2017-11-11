@@ -21,7 +21,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 
-trade_goods = horses
+trade_goods = rice
 
 
 1507.1.1 = {

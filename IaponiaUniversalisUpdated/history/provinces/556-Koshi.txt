@@ -19,7 +19,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 
-trade_goods = fish
+trade_goods = rice
 
 
 1507.8.7 = {

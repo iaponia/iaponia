@@ -19,7 +19,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 
-trade_goods = paper
+trade_goods = fish
 
 
 1507.8.7 = {

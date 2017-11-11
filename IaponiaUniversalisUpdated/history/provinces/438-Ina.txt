@@ -20,7 +20,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 
-trade_goods = lumber
+trade_goods = grain
 
 
 1534.1.1 = {

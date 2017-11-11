@@ -19,7 +19,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 2
 
-trade_goods = gold
+trade_goods = pilgrimage_site
 
 
 1582.3.11 = {

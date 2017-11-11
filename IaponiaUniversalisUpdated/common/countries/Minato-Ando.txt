@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 66  8  59 }
+color = { 200  84  84 }
 
 historical_idea_groups = {
 	mercantilist_ideas
@@ -61,9 +61,9 @@ monarch_names = { # Most Monarchs were named with -sue
 
 leader_names = {
     Mogami Mogami Mogami Mogami Mogami Mogami Mogami Mogami Mogami Mogami
-	Ujiie Ujiie Ujiie Ujiie Ujiie Kitadate Kitadate Kitadate Kitadate Kitadate 
+	Ujiie Ujiie Ujiie Ujiie Ujiie Kitadate Kitadate Kitadate Kitadate Kitadate
 	Shimura Shimura Shimura Shimura Shimura Tateoka Tateoka Tateoka Tateoka Tateoka
-	Nobesawa Nobesawa Nobesawa Nobesawa Nobesawa Narisawa Narisawa Narisawa Narisawa Narisawa 
+	Nobesawa Nobesawa Nobesawa Nobesawa Nobesawa Narisawa Narisawa Narisawa Narisawa Narisawa
 	Yagashiwa Yagashiwa Yagashiwa Yagashiwa Yagashiwa Eguchi Eguchi Eguchi Eguchi Eguchi
 	Shiratori Shiratori Shiratori Shiratori Shiratori Tendo Tendo Tendo Tendo Tendo
 	Sakenobe Sakenobe Sakenobe Sakenobe Sakenobi Tozenji Tozenji Tozenji Tozenji Tozenji
@@ -79,7 +79,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

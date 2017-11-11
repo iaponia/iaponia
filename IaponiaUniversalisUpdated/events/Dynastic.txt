@@ -387,41 +387,6 @@ country_event = {
 	}
 }
 
-# Scheming Bureaucracy
-country_event = {
-	id = 9462
-	title = "EVTNAME9462"
-	desc = "EVTDESC9462"
-	picture = DEBATE_REPUBLICAN_eventPicture
-
-	trigger = {
-		government = monarchy
-		is_free_or_tributary_trigger = yes
-		NOT = { government = celestial_empire }
-		adm_tech = 20
-		adm_power = 200
-		has_factions = no
-	}
-
-	mean_time_to_happen = {
-		months = 5000
-	}
-
-	option = {
-		name = "EVTOPTA9462"
-		ai_chance = { factor = 95 }
-		add_adm_power = -100
-		add_stability = -1
-	}
-	option = {
-		name = "EVTOPTB9462"
-		ai_chance = { factor = 5 }
-		change_government = bureaucratic_despotism
-		kill_ruler = yes
-		add_stability = -6		
-	}
-}
-
 # The Family
 country_event = {
 	id = 9463

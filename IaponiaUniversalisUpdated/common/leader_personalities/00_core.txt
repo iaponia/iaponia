@@ -1,0 +1,165 @@
+# Leader Traits
+# Leaders can have 1 personality, chance of getting a new one is:
+#  <base chance> * <army tradition gained in battle>
+# Modifiers apply only to the stack lead by the leader.
+
+###############################################
+# General personalities
+###############################################
+
+frontline_leader_personality = {
+	allow = {
+		is_admiral = no
+	}
+	prestige_from_land = 0.5
+	army_tradition_from_battle = 0.5
+}
+
+horse_lord_personality = {
+	allow = {
+		cavalry_fraction = 0.2
+		is_admiral = no
+	}
+	cavalry_power = 0.1
+	shock_damage = 0.1
+}
+
+unflinching_leader_personality = {
+	allow = {
+		is_admiral = no
+	}
+	shock_damage_received = -0.1
+	fire_damage_received = -0.1
+}
+
+skilled_marksman_personality = {
+	allow = {
+		infantry_fraction = 0.2
+		is_admiral = no
+	}
+	infantry_power = 0.1
+	fire_damage = 0.1
+}
+
+inspirational_leader_personality = {
+	allow = {
+		is_admiral = no
+	}
+	land_morale = 0.1
+	recover_army_morale_speed = 0.1
+}
+
+rapid_mobilizer_personality = {
+	allow = {
+		is_admiral = no
+	}
+	movement_speed = 0.25
+	cavalry_flanking = 0.25
+}
+
+siege_master_personality = {
+	allow = {
+		is_admiral = no
+	}
+	siege_ability = 0.2
+	land_attrition = -0.2
+}
+
+artillery_commander_personality = {
+	allow = {
+		is_admiral = no
+		artillery_fraction = 0.1
+	}
+	artillery_power = 0.1
+	backrow_artillery_damage = 0.1
+}
+
+local_recruiter_personality = {
+	allow = {
+		is_admiral = no
+	}
+	reinforce_speed = 0.3
+	reinforce_cost_modifier = -0.3
+}
+
+shrewd_quartermaster_personality = {
+	allow = {
+		is_admiral = no
+	}
+	land_maintenance_modifier = -0.15
+	merc_maintenance_modifier = -0.33
+}
+
+skilled_tactician_personality = {
+	allow = {
+		is_admiral = no
+	}
+	discipline = 0.1
+}
+
+###############################################
+# Admiral personalities
+###############################################
+
+sea_king_personality = {
+	allow = {
+		is_admiral = yes
+	}
+	prestige_from_naval = 0.5
+	naval_tradition_from_battle = 0.5
+}
+
+famous_pirate_personality = {
+	allow = {
+		is_admiral = yes
+	}
+	ship_power_propagation = 0.33
+	privateer_efficiency = 0.33
+}
+
+accomplished_navigator_personality = {
+	allow = {
+		is_admiral = yes
+	}
+	movement_speed = 0.25
+	global_naval_engagement_modifier = 0.25
+}
+
+skilled_boarder_personality = {
+	allow = {
+		is_admiral = yes
+	}
+	capture_ship_chance = 0.15
+	blockade_efficiency = 0.33
+}
+
+pyromaniac_admiral_personality = {
+	allow = {
+		is_admiral = yes
+	}
+	light_ship_power = 0.15
+	sailor_maintenance_modifer = -0.15
+}
+
+calm_commander_personality = {
+	allow = {
+		is_admiral = yes
+	}
+	naval_morale = 0.1
+	sunk_ship_morale_hit_recieved = -0.1
+}
+
+logistics_officer_personality = {
+	allow = {
+		is_admiral = yes
+	}
+	naval_maintenance_modifier = -0.1
+	local_ship_repair = 0.5
+}
+
+iron_ships_personality = {
+	allow = {
+		is_admiral = yes
+	}
+	ship_durability = 0.1
+}

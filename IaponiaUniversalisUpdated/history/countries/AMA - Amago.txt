@@ -122,6 +122,17 @@ capital = 195	# Nogi
 	add_heir_personality = ambitious_personality
 	add_heir_personality = centralizer_personality
 	government = shugo_daimyo_monarchy
+	leader = {
+		name = "Hisayuki Amago"
+		type = general
+		rank = 1
+		fire = 2
+		shock = 5
+		manuever = 3
+		siege = 0
+		death_date = 1541.2.8
+		personality = inspirational_leader_personality
+	}
 }
 
 1536.4.7 = {
@@ -134,17 +145,6 @@ capital = 195	# Nogi
 		manuever = 2
 		siege = 1
 		death_date = 1562.12.1
-	}
-	leader = {
-		name = "Hisayuki Amago"
-		type = general
-		rank = 1
-		fire = 2
-		shock = 5
-		manuever = 3
-		siege = 0
-		death_date = 1541.2.8
-		personality = inspirational_leader_personality
 	}
 }
 	

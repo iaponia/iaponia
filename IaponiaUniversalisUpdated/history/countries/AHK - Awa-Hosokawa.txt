@@ -5,31 +5,19 @@ religion = shinto
 technology_group = saigoku
 capital = 153	# Itano
 
-1430.1.1 = {
-	monarch = {
-		name = "Mochitsune" 
-		dynasty = "Hosokawa"
-#		birth_date = 1400.1.1
-#		death_date = 1451.1.1
-		adm = 3
-		dip = 4
-		mil = 3
-	}
-}
-
-1449.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Shigeyuki" 
 		dynasty = "Hosokawa"
-#		birth_date = 1434.1.1
-#		death_date = 1511.10.3
+		birth_date = 1434.1.1
+		death_date = 1511.10.3
 		adm = 3
 		dip = 4
 		mil = 3
 	}
 }
 
-1455.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Masayuki"
 		monarch_name = "Masayuki"
@@ -43,31 +31,19 @@ capital = 153	# Itano
 	}
 }
 
-1478.1.1 = {
-	monarch = {
-		name = "Masayuki" 
-		dynasty = "Hosokawa"
-#		birth_date = 1455.1.1
-#		death_date = 1488.9.4
-		adm = 3
-		dip = 4
-		mil = 3
-	}
-}
-
-1488.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Yoshiharu" 
 		dynasty = "Hosokawa"
-#		birth_date = 1461.1.1
-#		death_date = 1497.1.1
+		birth_date = 1461.1.1
+		death_date = 1497.1.1
 		adm = 3
 		dip = 4
 		mil = 3
 	}
 }
 
-1488.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Yukimochi"
 		monarch_name = "Yukimochi"
@@ -75,70 +51,6 @@ capital = 153	# Itano
 		birth_date = 1483.1.1
 		death_date = 1512.1.1
 		claim = 90
-		adm = 3
-		dip = 4
-		mil = 3
-	}
-}
-
-1488.1.1 = {
-	monarch = {
-		name = "Yukimochi" 
-		dynasty = "Hosokawa"
-#		birth_date = 1483.1.1
-#		death_date = 1512.1.1
-		adm = 3
-		dip = 4
-		mil = 3
-	}
-}
-
-1497.1.1 = {
-	heir = {
-		name = "Mochitake"
-		monarch_name = "Mochitake"
-		dynasty = "Hosokawa"
-		birth_date = 1497.1.1
-		death_date = 1553.7.27
-		claim = 90
-		adm = 3
-		dip = 4
-		mil = 3
-	}
-}
-
-1512.1.1 = {
-	monarch = {
-		name = "Mochitake" 
-		dynasty = "Hosokawa"
-#		birth_date = 1497.1.1
-#		death_date = 1553.7.27
-		adm = 3
-		dip = 4
-		mil = 3
-	}
-}
-
-1538.1.1 = {
-	heir = {
-		name = "Saneyuki"
-		monarch_name = "Saneyuki"
-		dynasty = "Hosokawa"
-		birth_date = 1538.1.1
-		death_date = 1582.11.3
-		claim = 90
-		adm = 3
-		dip = 4
-		mil = 3
-	}
-}
-
-1553.1.1 = {
-	monarch = {
-		name = "Saneyuki" 
-		dynasty = "Hosokawa"
-#		birth_date = 1538.1.1
-#		death_date = 1582.11.3
 		adm = 3
 		dip = 4
 		mil = 3

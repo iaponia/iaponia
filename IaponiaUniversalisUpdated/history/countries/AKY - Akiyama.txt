@@ -5,17 +5,16 @@ religion = shinto
 technology_group = saigoku
 capital = 321	# Uda
 	
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Norizane"
 		dynasty = "Akiyama"
+		birth_date = 1425.1.1
+		death_date = 1470.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1445.1.1 = {
 	heir = {
 		name = "Zaneie"
 		monarch_name = "Zaneie"
@@ -28,42 +27,20 @@ capital = 321	# Uda
 		mil = 3
 	}
 }
-	
-1470.1.1 = { 
-	monarch = {
-		name = "Zaneie"
-		dynasty = "Akiyama"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1470.1.1 = {
-	heir = {
+1493.6.9 = { 
+	monarch = {
 		name = "Kunikata"
-		monarch_name = "Kunikata"
 		dynasty = "Akiyama"
 		birth_date = 1470.1.1
 		death_date = 1525.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1490.1.1 = { 
-	monarch = {
-		name = "Kunikata"
-		dynasty = "Akiyama"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1495.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Munetami"
 		monarch_name = "Munetami"
@@ -77,17 +54,16 @@ capital = 321	# Uda
 	}
 }
 
-1525.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Munetami"
 		dynasty = "Akiyama"
+		birth_date = 1495.1.1
+		death_date = 1559.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1525.1.1 = {
 	heir = {
 		name = "Noriie"
 		monarch_name = "Noriie"
@@ -101,34 +77,12 @@ capital = 321	# Uda
 	}
 }
 
-1559.1.1 = { 
+1569.10.10 = { 
 	monarch = {
-		name = "Noriie"
-		dynasty = "Akiyama"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1559.1.1 = {
-	heir = {
 		name = "Naokuni"
-		monarch_name = "Naokuni"
 		dynasty = "Akiyama"
 		birth_date = 1540.1.1
 		death_date = 1615.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1565.1.1 = { 
-	monarch = {
-		name = "Naokuni"
-		dynasty = "Akiyama"
 		adm = 3
 		dip = 3
 		mil = 3

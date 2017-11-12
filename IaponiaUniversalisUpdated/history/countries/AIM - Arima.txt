@@ -4,184 +4,242 @@ primary_culture = shimabara_c
 religion = shinto
 technology_group = kyushu
 capital = 698	# Shimabara
-
-1430.1.1 = { 
+	
+1467.6.15 = { 
 	monarch = {
-		name = "Mitsuzumi"
-		dynasty = "Arima"
-#		birth_date = 1410.1.1
-#		death_date = 1450.1.1
-		adm = 5
-		dip = 4
-		mil = 5
-		}
-	}
-
-1430.1.1 = {
-	heir = {
 		name = "Ujizumi"
-		monarch_name = "Ujizumi"
 		dynasty = "Arima"
 		birth_date = 1430.1.1
 		death_date = 1480.1.1
-		claim = 90
-		adm = 5
+		adm = 4
 		dip = 4
-		mil = 5
+		mil = 4
 	}
-}
-	
-1450.1.1 = { 
-	monarch = {
-		name = "Ujizumi"
-		dynasty = "Arima"
-#		birth_date = 1430.1.1
-#		death_date = 1480.1.1
-		adm = 5
-		dip = 4
-		mil = 5
-		}
-	}
-	
-1450.1.1 = {
 	heir = {
 		name = "Takazumi"
-		monarch_name = "Takazumi"
+		ruler_name = "Takazumi"
 		dynasty = "Arima"
 		birth_date = 1450.1.1
 		death_date = 1500.1.1
 		claim = 90
 		adm = 5
-		dip = 4
-		mil = 5
+		dip = 5
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = brave_personality
 }
 
-1480.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Takazumi"
 		dynasty = "Arima"
-#		birth_date = 1450.1.1
-#		death_date = 1500.1.1
+		birth_date = 1450.1.1
+		death_date = 1500.1.1
 		adm = 5
-		dip = 4
-		mil = 5
-		}
+		dip = 5
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+}
 	
-1470.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Sumikane"
-		monarch_name = "Sumikane"
+		ruler_name = "Sumikane"
 		dynasty = "Arima"
 		birth_date = 1470.1.1
 		death_date = 1520.1.1
 		claim = 90
-		adm = 5
+		adm = 4
 		dip = 4
-		mil = 5
+		mil = 4
 	}
 }
 
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Sumikane"
 		dynasty = "Arima"
-#		birth_date = 1470.1.1
-#		death_date = 1520.1.1
-		adm = 5
+		birth_date = 1470.1.1
+		death_date = 1520.1.1
+		adm = 4
 		dip = 4
-		mil = 5
-		}
+		mil = 4
 	}
-
-1500.1.1 = {
 	heir = {
 		name = "Haruzumi"
-		monarch_name = "Haruzumi"
+		ruler_name = "Haruzumi"
 		dynasty = "Arima"
 		birth_date = 1483.1.1
-		death_date = 1566.1.1
+		death_date = 1566.2.28
 		claim = 90
-		adm = 5
-		dip = 4
-		mil = 5
+		adm = 6
+		dip = 7
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = ambitious_personality
+	add_heir_personality = stern_personality
+	add_heir_personality = mercantile_personality
 }
 	
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Haruzumi"
 		dynasty = "Arima"
-#		birth_date = 1483.1.1
-#		death_date = 1566.1.1
-		adm = 5
-		dip = 4
-		mil = 5
+		birth_date = 1483.1.1
+		death_date = 1566.1.1
+		adm = 6
+		dip = 7
+		mil = 6
+		leader = {
+			name = "Haruzumi Arima"
+			type = general
+			rank = 1
+			fire = 3
+			shock = 3
+			manuever = 4
+			siege = 2
+			death_date = 1566.1.1
 		}
 	}
-
-1521.1.1 = {
 	heir = {
 		name = "Yoshisada"
-		monarch_name = "Yoshisada"
+		ruler_name = "Yoshisada"
 		dynasty = "Arima"
 		birth_date = 1521.1.1
 		death_date = 1577.1.1
 		claim = 90
-		adm = 5
-		dip = 4
-		mil = 5
+		adm = 3
+		dip = 3
+		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = mercantile_personality
+	add_heir_personality = disorganized_personality
+	add_heir_personality = connected_personality
+}
+
+1536.4.7 = {
+	government = sengoku_monarchy
 }
 	
-1552.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Yoshisada"
 		dynasty = "Arima"
-#		birth_date = 1521.1.1
-#		death_date = 1577.1.1
-		adm = 5
-		dip = 4
-		mil = 5
-		}
+		birth_date = 1521.1.1
+		death_date = 1577.1.1
+		adm = 3
+		dip = 3
+		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = disorganized_personality
+	add_ruler_personality = connected_personality
+}
 
-1550.1.1 = {
+1569.10.10 = {
 	heir = {
-		name = "Yoshizumi"
-		monarch_name = "Yoshizumi"
+		name = "Harunobu"
+		ruler_name = "Harunobu"
 		dynasty = "Arima"
-		birth_date = 1550.1.1
-		death_date = 1571.1.1
+		birth_date = 1567.1.1
+		death_date = 1612.6.5
 		claim = 90
-		adm = 5
-		dip = 4
-		mil = 5
+		adm = 4
+		dip = 5
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = disorganized_personality
+	add_ruler_personality = connected_personality
+	add_heir_personality = innovator_personality
+	add_heir_personality = mercantile_personality
+	add_heir_personality = pious_personality
+	add_heir_personality = zealot_personality
 }
 	
-1570.1.1 = { 
+1582.6.21 = { 
 	monarch = {
-		name = "Yoshizumi"
+		name = "Harunobu"
 		dynasty = "Arima"
-#		birth_date = 1550.1.1
-#		death_date = 1571.1.1
-		adm = 5
-		dip = 4
-		mil = 5
+		birth_date = 1567.1.1
+		death_date = 1612.6.5
+		adm = 4
+		dip = 5
+		mil = 6
+		leader = {
+			name = "Harunobu Arima"
+			type = general
+			rank = 1
+			fire = 4
+			shock = 2
+			manuever = 2
+			siege = 0
+			death_date = 1612.6.5
+			personality = unflinching_leader_personality
 		}
 	}
-	
-1571.1.1 = { 
-	monarch = {
-		name = "Koresato"
-		dynasty = "Arima"
-#		birth_date = 1567.1.1
-#		death_date = 1612.1.1
-		adm = 5
-		dip = 4
-		mil = 5
-		}
+	queen = {
+		country_of_origin = OMR
+		name = "Lucia"
+		dynasty = "Omura"
+		birth_date = 1567.1.1
+		death_date = 1612.6.5
+		female = yes
+		adm = 4
+		dip = 5
+		mil = 0
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
+	add_queen_personality = pious_personality
+}
 	
+1600.9.13 = { 
+	heir = {
+		name = "Naozumi"
+		ruler_name = "Naozumi"
+		dynasty = "Arima"
+		claim = 90
+		birth_date = 1586.1.1
+		death_date = 1641.6.3
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
+	add_queen_personality = pious_personality
+	add_heir_personality = ambitious_personality
+	add_heir_personality = connected_personality
+	add_heir_personality = zealot_personality
+}
+	
+1615.1.1 = {
+	monarch = {
+		name = "Haruzumi"
+		dynasty = "Arima"
+		birth_date = 1483.1.1
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

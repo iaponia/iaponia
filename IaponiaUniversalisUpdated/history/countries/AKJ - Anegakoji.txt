@@ -3,20 +3,18 @@ government_rank = 1
 primary_culture = hida_c
 religion = shinto
 technology_group = togoku
-historical_rival = MKI
 capital = 386	# Araki
 	
-1468.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Mototsuna"
 		dynasty = "Anegakoji"
+		birth_date = 1441.1.1
+		death_date = 1504.6.5
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 5
+		mil = 2
 	}
-}
-
-1470.1.1 = {
 	heir = {
 		name = "Naritsugu"
 		monarch_name = "Naritsugu"
@@ -25,22 +23,26 @@ capital = 386	# Araki
 		death_date = 1518.7.7
 		claim = 90
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 4
+		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = artistic_personality
+	add_heir_personality = gregarious_personality
+	add_heir_personality = artistic_personality
 }
 	
-1504.6.5 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Naritsugu"
 		dynasty = "Anegakoji"
+		birth_date = 1470.1.1
+		death_date = 1518.7.7
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 4
+		mil = 2
 	}
-}
-
-1505.1.1 = {
 	heir = {
 		name = "Naritoshi"
 		monarch_name = "Naritoshi"
@@ -48,64 +50,121 @@ capital = 386	# Araki
 		birth_date = 1505.1.1
 		death_date = 1527.1.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 2
+		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = artistic_personality
+	add_heir_personality = lenient_personality
 }
 
-1518.7.7 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Naritoshi"
 		dynasty = "Anegakoji"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1505.1.1
+		death_date = 1527.1.1
+		adm = 2
+		dip = 2
+		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lenient_personality
 }
 
-1527.1.1 = { 
+1536.4.7 = { 
 	monarch = {
-		name = "Takatsuna"
+		name = "Naoyori"
 		dynasty = "Anegakoji"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1497.1.1
+		death_date = 1554.1.1
+		adm = 5
+		dip = 4
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = ambitious_personality
+	government = sengoku_monarchy
 }
 
-# Miki Yoshiyori
-
-1558.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Yoshiyori"
 		dynasty = "Anegakoji"
-		adm = 3
-		dip = 3
+		birth_date = 1520.1.1
+		death_date = 1572.12.16
+		adm = 5
+		dip = 6
 		mil = 3
 	}
-}
-
-1558.1.1 = {
 	heir = {
-		name = "Yoritsune"
-		monarch_name = "Yoritsune"
+		name = "Yoritsuna"
+		monarch_name = "Yoritsuna"
 		dynasty = "Anegakoji"
 		birth_date = 1540.1.1
 		death_date = 1587.6.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 6
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = elitist_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = artistic_personality
+	add_heir_personality = centralizer_personality
+	add_heir_personality = ambitious_personality
+	add_heir_personality = connected_personality
+	add_heir_personality = humble_personality
 }
 
-1572.12.16 = { 
+1582.6.21 = { 
 	monarch = {
-		name = "Yoritsune"
+		name = "Yoritsuna"
 		dynasty = "Anegakoji"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1540.1.1
+		death_date = 1587.6.1
+		adm = 5
+		dip = 6
+		mil = 5
 	}
+	heir = {
+		name = "Hidetsuna"
+		monarch_name = "Hidetsuna"
+		dynasty = "Anegakoji"
+		birth_date = 1564.1.1
+		death_date = 1585.6.1
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = humble_personality
+	add_heir_personality = craven_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoritsuna"
+		dynasty = "Anegakoji"
+		birth_date = 1540.1.1
+		adm = 5
+		dip = 6
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = humble_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

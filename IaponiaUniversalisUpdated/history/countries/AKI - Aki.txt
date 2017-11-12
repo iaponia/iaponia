@@ -5,17 +5,19 @@ religion = shinto
 technology_group = saigoku
 capital = 135	# Aki
 	
-1470.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Motomori"
 		dynasty = "Aki"
+		birth_date = 1452.1.1
+		death_date = 1505.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1482.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Motochika"
 		monarch_name = "Motochika"
@@ -29,17 +31,16 @@ capital = 135	# Aki
 	}
 }
 	
-1505.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Motochika"
 		dynasty = "Aki"
+		birth_date = 1482.1.1
+		death_date = 1530.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1510.1.1 = {
 	heir = {
 		name = "Motoyasu"
 		monarch_name = "Motoyasu"
@@ -48,22 +49,24 @@ capital = 135	# Aki
 		death_date = 1544.1.1
 		claim = 90
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 4
+		mil = 4
 	}
 }
 
-1530.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Motoyasu"
 		dynasty = "Aki"
+		birth_date = 1510.1.1
+		death_date = 1544.1.1
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 4
+		mil = 4
 	}
 }
-
-1530.1.1 = {
+	
+1536.4.7 = {
 	heir = {
 		name = "Kunitora"
 		monarch_name = "Kunitora"
@@ -71,18 +74,34 @@ capital = 135	# Aki
 		birth_date = 1530.1.1
 		death_date = 1569.9.21
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 5
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = brave_personality
 }
 
-1544.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Kunitora"
 		dynasty = "Aki"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1530.1.1
+		death_date = 1569.9.21
+		adm = 2
+		dip = 5
+		mil = 5
+		leader = {
+			name = "Kunitora Aki"
+			type = general
+			rank = 1
+			fire = 0
+			shock = 3
+			manuever = 3
+			siege = 1
+			death_date = 1569.9.21
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
 }

@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 47  93  80 }
+color = { 223  144  18 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -26,7 +26,7 @@ historical_units = {
 
 monarch_names = {
 	"Yoshiharu #0" = 20
-	"Tadauji #0" = 20	
+	"Tadauji #0" = 20
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -71,7 +71,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

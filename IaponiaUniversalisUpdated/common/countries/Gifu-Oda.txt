@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 81  64  167 }
+color = { 4  222  35 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -24,14 +24,14 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { 
+monarch_names = {
 	"Yoshinobu #0" = 50
 	"Nobusada #0" = 50
 	"Nobuhide #0" = 20
 	"Nobumitsu #0" = 50
-	"Nobuhiro #0" = 50	
-	"Nobunaga #0" = 50		
-	"Nobumasa #0" = 50	
+	"Nobuhiro #0" = 50
+	"Nobunaga #0" = 50
+	"Nobumasa #0" = 50
 	"Nobutada #0" = 50
 	"Hidenobu #0" = 50
 	"Hidenori #0" = 50
@@ -43,8 +43,8 @@ monarch_names = {
     "Nobuyuki #0" = 50
 	"Nobuyasu #0" = 50
 	"Nobukiyo #0" = 50
-	"Nobukado #0" = 50	
-	"Nobutsugu #0" = 50	
+	"Nobukado #0" = 50
+	"Nobutsugu #0" = 50
 	"Nobutomo #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
@@ -84,7 +84,7 @@ leader_names = {
 	Saito Saito Saito Saito Saito Akechi Akechi Akechi Akechi Akechi
 	Takenaka Takenaka Takenaka Takenaka Takenaka Fuwa Fuwa Fuwa Fuwa Fuwa
 	Inaba Inaba Inaba Inaba Inaba Ujiie Ujiie Ujiie Ujiie Ujiie
-	Ando Ando Ando Ando Ando Toyama Toyama Toyama Toyama Toyama 
+	Ando Ando Ando Ando Ando Toyama Toyama Toyama Toyama Toyama
 	Hachisuka Hachisuka Hachisuka Hachisuka Hachisuka Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
 	Hara Hara Hara Hara Hara Hirate Hirate Hirate Hirate Hirate
 	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Asano Gamo Gamo Gamo Gamo Gamo
@@ -99,7 +99,7 @@ ship_names = {
 	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

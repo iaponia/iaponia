@@ -11,7 +11,7 @@ controller = MTA
 
 culture = islander_c
 religion = shinto
-capital = "Hirado"
+capital = "Matsuura"
 is_city = yes
 
 base_tax = 3
@@ -31,4 +31,3 @@ trade_goods = mainland_trade
     controller = RZJ
     owner = RZJ
 }
-

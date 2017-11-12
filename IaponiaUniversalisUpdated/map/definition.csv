@@ -25,7 +25,7 @@ province;red;green;blue;x;x
 24;3;80;255;Higo-Yatsushiro;x
 25;131;82;0;Uto;x
 26;3;84;64;Amakusa;x
-27;131;86;128;Mashiki;x
+27;131;86;128;Kamimashiki;x
 28;4;88;192;Takuma;x
 29;132;90;255;Higo-Akita;x
 30;4;92;0;Aso;x
@@ -712,7 +712,7 @@ province;red;green;blue;x;x
 711;229;46;64;Nishi Uwa;x
 712;101;48;128;Tosashimizu;x
 713;229;50;192;Tosa Tsuno;x
-714;102;52;255;Dzungaria;x
+714;102;52;255;Shimomashiki;x
 715;230;54;0;Urumqi;x
 716;102;56;64;Tannu Tuva;x
 717;230;58;128;Selenge;x

@@ -74,7 +74,7 @@ kuma_area = {
 }
 
 higo_area = {
-	25 26 27 28 29
+	25 26 27 28 29 714
 }
 
 kikuchi_area = {

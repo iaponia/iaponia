@@ -19,7 +19,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 
-trade_goods = paper
+trade_goods = tea
 
 
 1517.8.19 = {

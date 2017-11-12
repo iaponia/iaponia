@@ -20,7 +20,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 3
 
-trade_goods = pottery
+trade_goods = lacquerware
 
 
 1517.8.19 = {

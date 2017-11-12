@@ -17,4 +17,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 233;251;sea;1262;1768;978;1778;979;Tsuna-Akashi
 481;527;sea;1259;2940;178;2943;184;Katori-Kashima
 482;527;sea;1259;2936;220;2940;224;Katori-Hitachi
+48;705;sea;1314;581;1587;594;1590;Sonoki-Omura
+48;639;sea;1314;593;1630;604;1633;Sonoki-HigashiSonoki
+48;685;sea;1314;589;1638;597;1646;Sonoki-Kitamatsura
 -1;-1;;-1;-1;-1;-1;-1;-1;

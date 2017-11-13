@@ -12,7 +12,7 @@ controller = AIM
 
 culture = shimabara_c
 religion = shinto
-capital = "Omura"
+capital = "Sonoki"
 is_city = yes
 
 base_tax = 3
@@ -27,4 +27,3 @@ trade_goods = pottery
     controller = RZJ
     add_core = RZJ
 }
-

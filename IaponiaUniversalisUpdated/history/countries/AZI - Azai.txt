@@ -3,31 +3,26 @@ government_rank = 2
 primary_culture = biwa_c
 religion = shinto
 technology_group = saigoku
-historical_rival = RKK
-historical_friend = ASA
 capital = 332	# Azai
-	
-1510.1.1 = { 
-	monarch = {
-		name = "Naomasa"
-		dynasty = "Azai"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1540.6.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Sukemasa"
 		dynasty = "Azai"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1491.1.1
+		death_date = 1542.1.21
+		adm = 7
+		dip = 6
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = humble_personality
+	government = sengoku_monarchy
 }
 
-1540.6.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Hisamasa"
 		monarch_name = "Hisamasa"
@@ -35,23 +30,30 @@ capital = 332	# Azai
 		birth_date = 1526.1.1
 		death_date = 1573.9.26
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 5
+		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = humble_personality
+	add_heir_personality = conscientious_personality
+	add_heir_personality = humble_personality
+	add_heir_personality = retrograde_personality
+	add_heir_personality = artistic_personality
 }
 
-1560.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Hisamasa"
 		dynasty = "Azai"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1526.1.1
+		death_date = 1573.9.26
+		adm = 4
+		dip = 5
+		mil = 2
 	}
-}
-
-1560.1.1 = {
 	heir = {
 		name = "Nagamasa"
 		monarch_name = "Nagamasa"
@@ -59,18 +61,100 @@ capital = 332	# Azai
 		birth_date = 1545.1.1
 		death_date = 1573.9.26
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 5
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = humble_personality
+	add_ruler_personality = retrograde_personality
+	add_ruler_personality = artistic_personality
+	add_heir_personality = honorable_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = innovator_personality
+	add_heir_personality = ambitious_personality
+	leader = {
+		name = "Naotsune Endo"
+		type = general
+		rank = 1
+		fire = 3
+		shock = 2
+		manuever = 3
+		siege = 0
+		death_date = 1570.8.9
+		personality = skilled_marksman_personality
+	}
+	leader = {
+		name = "Kazumasa Isono"
+		type = general
+		rank = 1
+		fire = 2
+		shock = 4
+		manuever = 2
+		siege = 0
+		death_date = 1583.1.1
+		personality = horse_lord_personality
 	}
 }
 
-1560.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Nagamasa"
 		dynasty = "Azai"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1545.1.1
+		death_date = 1573.9.26
+		adm = 4
+		dip = 5
+		mil = 8
+		leader = {
+			name = "Nagamasa Azai"
+			type = general
+			rank = 1
+			fire = 5
+			shock = 5
+			manuever = 0
+			siege = 2
+			death_date = 1573.9.26
+			personality = unflinching_leader_personality
+		}
 	}
+	queen = {
+		country_of_origin = ODA
+		name = "Oichi"
+		dynasty = "Oda"
+		birth_date = 1547.1.1
+		death_date = 1583.6.14
+		female = yes
+		adm = 4
+		dip = 7
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = ambitious_personality
+	add_queen_personality = honorable_personality
+	add_queen_personality = gracious_personality
+	add_queen_personality = humble_personality
+	add_queen_personality = artistic_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Nagamasa"
+		dynasty = "Azai"
+		birth_date = 1545.1.1
+		adm = 4
+		dip = 5
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

@@ -198,6 +198,10 @@ capital = 195	# Nogi
 	}
 }
 
+1554.3.1 = {
+	government = sengoku_monarchy
+}
+
 1569.10.10 = { 
 	monarch = {
 		name = "Katsuhisa"
@@ -211,7 +215,6 @@ capital = 195	# Nogi
 	clear_scripted_personalities = yes
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = brave_personality
-	government = sengoku_monarchy
 	leader = {
 		name = "Yukimori Yamanaka"
 		type = general

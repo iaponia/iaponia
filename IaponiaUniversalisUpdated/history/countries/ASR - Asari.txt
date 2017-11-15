@@ -5,41 +5,19 @@ religion = shinto
 technology_group = tohoku
 capital = 604	# Kazuno
 	
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
-		name = "Takamori"
-		dynasty = "Asari"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1450.1.1 = {
-	heir = {
 		name = "Noriaki"
-		monarch_name = "Noriaki"
 		dynasty = "Asari"
 		birth_date = 1450.1.1
 		death_date = 1518.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1468.1.1 = { 
-	monarch = {
-		name = "Noriaki"
-		dynasty = "Asari"
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 4
+		mil = 5
 	}
 }
 
-1480.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Noriyori"
 		monarch_name = "Noriyori"
@@ -47,23 +25,22 @@ capital = 604	# Kazuno
 		birth_date = 1480.1.1
 		death_date = 1550.7.31
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 4
+		mil = 4
 	}
 }
 	
-1518.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Noriyori"
 		dynasty = "Asari"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1480.1.1
+		death_date = 1550.7.31
+		adm = 5
+		dip = 4
+		mil = 4
 	}
-}
-
-1518.1.1 = {
 	heir = {
 		name = "Norisuke"
 		monarch_name = "Norisuke"
@@ -73,26 +50,28 @@ capital = 604	# Kazuno
 		claim = 90
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 4
 	}
 }
 	
-1550.7.31 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Norisuke"
 		dynasty = "Asari"
+		birth_date = 1510.1.1
+		death_date = 1562.1.1
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 4
 	}
-}
-
-1562.1.1 = { 
-	monarch = {
+	heir = {
 		name = "Katsuyori"
 		dynasty = "Asari"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1529.1.1
+		death_date = 1583.1.1
+		adm = 2
+		dip = 2
+		mil = 2
 	}
+	government = sengoku_monarchy
 }

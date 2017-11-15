@@ -3,129 +3,18 @@ government_rank = 2
 primary_culture = echizen_c
 religion = shinto
 technology_group = saigoku
-historical_rival = SBA
-historical_friend = AZI
 capital = 388	# Asuwa
 
-1339.1.1 = {
-	heir = {
-		name = "Ujikage"
-		monarch_name = "Ujikage"
-		dynasty = "Shoni"
-		birth_date = 1339.1.1
-		death_date = 1405.1.28
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1372.6.3 = {
+1467.6.15 = {
 	monarch = {
-		name = "Ujikage" 
-		dynasty = "Asakura"
-#		birth_date = 1339.1.1
-#		death_date = 1405.1.28
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1372.6.3 = {
-	heir = {
-		name = "Sadakage"
-		monarch_name = "Sadakage"
-		dynasty = "Asakura"
-		birth_date = 1358.1.1
-		death_date = 1436.6.30
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1405.1.28 = {
-	monarch = {
-		name = "Sadakage" 
-		dynasty = "Asakura"
-#		birth_date = 1358.1.1
-#		death_date = 1436.6.30
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1405.1.28 = {
-	heir = {
-		name = "Norikage"
-		monarch_name = "Norikage"
-		dynasty = "Asakura"
-		birth_date = 1380.1.1
-		death_date = 1463.9.2
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1436.6.30 = {
-	monarch = {
-		name = "Norikage" 
-		dynasty = "Asakura"
-#		birth_date = 1380.1.1
-#		death_date = 1463.9.2
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1436.6.30 = {
-	heir = {
-		name = "Iekage"
-		monarch_name = "Iekage"
-		dynasty = "Asakura"
-		birth_date = 1358.1.1
-		death_date = 1451.1.22
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1451.1.22 = {
-	heir = {
-		name = "Takakage"
-		monarch_name = "Takakage"
+		name = "Toshikage" 
 		dynasty = "Asakura"
 		birth_date = 1428.6.2
 		death_date = 1481.8.21
-		claim = 90
-		adm = 3
-		dip = 4
-		mil = 5
+		adm = 8
+		dip = 5
+		mil = 6
 	}
-}
-
-1463.9.2 = {
-	monarch = {
-		name = "Takakage" 
-		dynasty = "Asakura"
-#		birth_date = 1428.6.2
-#		death_date = 1481.8.21
-		adm = 4
-		dip = 4
-		mil = 5
-	}
-}
-
-1463.9.2 = {
 	heir = {
 		name = "Ujikage"
 		monarch_name = "Ujikage"
@@ -133,51 +22,48 @@ capital = 388	# Asuwa
 		birth_date = 1449.4.27
 		death_date = 1486.8.3
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 5
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = mercantile_personality
+	add_heir_personality = strong_personality
+	add_heir_personality = swordsman_personality
+	add_heir_personality = brave_personality
 }
 
-1481.8.21 = {
-	monarch = {
-		name = "Ujikage" 
-		dynasty = "Asakura"
-#		birth_date = 1449.4.27
-#		death_date = 1486.8.3
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1481.8.21 = {
-	heir = {
-		name = "Sadakage"
-		monarch_name = "Sadakage"
-		dynasty = "Asakura"
-		birth_date = 1473.3.3
-		death_date = 1512.4.11
-		claim = 90
-		adm = 4
-		dip = 3
-		mil = 4
-	}
-}
-
-1486.8.3 = {
+1493.6.9 = {
 	monarch = {
 		name = "Sadakage" 
 		dynasty = "Asakura"
-#		birth_date = 1473.3.3
-#		death_date = 1512.4.11
-		adm = 4
-		dip = 3
-		mil = 4
+		birth_date = 1473.3.3
+		death_date = 1512.4.11
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = innovator_personality
+	government = shugo_daimyo_monarchy
+	leader = {
+		name = "Norikage Asakura"
+		type = general
+		rank = 1
+		fire = 4
+		shock = 4
+		manuever = 3
+		siege = 1
+		death_date = 1555.9.23
+		personality = skilled_tactician_personality
 	}
 }
 
-1493.11.22 = {
+1511.9.25 = {
 	heir = {
 		name = "Takakage"
 		monarch_name = "Takakage"
@@ -185,25 +71,62 @@ capital = 388	# Asuwa
 		birth_date = 1493.11.22
 		death_date = 1548.4.30
 		claim = 90
-		adm = 5
-		dip = 4
-		mil = 4
+		adm = 8
+		dip = 7
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = innovator_personality
+	add_heir_personality = legislator_personality
+	add_heir_personality = mercantile_personality
+	add_heir_personality = artistic_personality
+	add_heir_personality = gracious_personality
 }
 
-1512.4.11 = {
+1523.8.25 = {
 	monarch = {
 		name = "Takakage" 
 		dynasty = "Asakura"
-#		birth_date = 1493.11.22
-#		death_date = 1548.4.30
-		adm = 5
-		dip = 4
-		mil = 4
+		birth_date = 1493.11.22
+		death_date = 1548.4.30
+		adm = 8
+		dip = 7
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = gracious_personality
+	leader = {
+		name = "Norikage Asakura"
+		type = general
+		rank = 1
+		fire = 4
+		shock = 4
+		manuever = 3
+		siege = 1
+		death_date = 1555.9.23
+		personality = skilled_tactician_personality
 	}
 }
 
-1533.10.12 = {
+1536.4.7 = {
+	leader = {
+		name = "Yoshiie Yamazaki"
+		type = general
+		rank = 1
+		fire = 2
+		shock = 3
+		manuever = 2
+		siege = 1
+		death_date = 1573.9.10
+	}
+}
+
+1546.5.19 = {
 	heir = {
 		name = "Yoshikage"
 		monarch_name = "Yoshikage"
@@ -211,20 +134,74 @@ capital = 388	# Asuwa
 		birth_date = 1533.10.12
 		death_date = 1573.9.16
 		claim = 80
-		adm = 3
-		dip = 2
+		adm = 5
+		dip = 4
 		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = gracious_personality
+	add_heir_personality = artistic_personality
+	add_heir_personality = lenient_personality
+	add_heir_personality = disorganized_personality
 }
 
-1548.4.30 = {
+1554.3.1 = {
 	monarch = {
 		name = "Yoshikage" 
 		dynasty = "Asakura"
-#		birth_date = 1533.10.12
-#		death_date = 1573.9.16
-		adm = 3
-		dip = 2
+		birth_date = 1533.10.12
+		death_date = 1573.9.16
+		adm = 5
+		dip = 4
 		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = disorganized_personality
+	leader = {
+		name = "Norikage Asakura"
+		type = general
+		rank = 1
+		fire = 4
+		shock = 4
+		manuever = 3
+		siege = 1
+		death_date = 1555.9.23
+		personality = skilled_tactician_personality
+	}
+}
+
+1569.10.10 = {
+	leader = {
+		name = "Yoshiie Yamazaki"
+		type = general
+		rank = 1
+		fire = 2
+		shock = 3
+		manuever = 2
+		siege = 1
+		death_date = 1573.9.10
+	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Norikage" 
+		dynasty = "Asakura"
+		birth_date = 1577.1.1
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

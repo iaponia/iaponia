@@ -18,7 +18,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 
-trade_goods = metal
+trade_goods = lacquerware
 
 
 1449.8.1 = {

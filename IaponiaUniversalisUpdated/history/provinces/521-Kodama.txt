@@ -18,7 +18,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 
-trade_goods = tea
+trade_goods = rice
 
 
 1552.1.10 = {

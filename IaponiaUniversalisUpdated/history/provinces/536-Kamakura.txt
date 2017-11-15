@@ -20,7 +20,7 @@ base_tax = 7
 base_production = 7
 base_manpower = 3
 
-trade_goods = lacquerware
+trade_goods = pilgrimage_site
 
 add_permanent_province_modifier = {
 	name = shinto_holy_site

@@ -19,7 +19,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 4
 
-trade_goods = metal
+trade_goods = pottery
 
 add_permanent_province_modifier = {
 	name = ara_estuary_modifier

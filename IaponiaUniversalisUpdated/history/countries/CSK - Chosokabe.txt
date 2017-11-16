@@ -171,10 +171,10 @@ capital = 137	# Nagaoka
 	add_ruler_personality = legislator_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = ambitious_personality
-	add_heir_personality = honorable_personality
 	add_heir_personality = brave_personality
-	add_heir_personality = conscientious_personality
 	add_heir_personality = swordsman_personality
+	add_heir_personality = conscientious_personality
+	add_heir_personality = tolerant_personality
 	add_queen_personality = connected_personality
 }
 

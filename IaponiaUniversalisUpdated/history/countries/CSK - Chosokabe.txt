@@ -3,66 +3,18 @@ government_rank = 1
 primary_culture = tosa_c
 religion = shinto
 technology_group = saigoku
-historical_rival = MYM
 capital = 137	# Nagaoka
-
-1415.1.1 = {
+	
+1467.6.15 = { 
 	monarch = {
-		name = "Yoshishige" 
-		dynasty = "Chosokabe"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1430.1.1 = {
-	monarch = {
-		name = "Fumikane" 
-		dynasty = "Chosokabe"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1450.1.1 = {
-	monarch = {
-		name = "Motokado" 
-		dynasty = "Chosokabe"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1460.1.1 = {
-	heir = {
 		name = "Katsuchika"
-		monarch_name = "Katsuchika"
 		dynasty = "Chosokabe"
 		birth_date = 1440.1.1
 		death_date = 1478.1.1
-		claim = 95
-		adm = 2
+		adm = 4
 		dip = 3
 		mil = 2
 	}
-}
-	
-1477.1.1 = { 
-	monarch = {
-		name = "Katsuchika"
-		dynasty = "Chosokabe"
-#		birth_date = 1440.1.1
-#		death_date = 1478.1.1
-		adm = 2
-		dip = 3
-		mil = 2
-	}
-}
-
-1477.1.1 = {
 	heir = {
 		name = "Kanetsugu"
 		monarch_name = "Kanetsugu"
@@ -70,51 +22,68 @@ capital = 137	# Nagaoka
 		birth_date = 1460.1.1
 		death_date = 1508.9.1
 		claim = 95
-		adm = 3
+		adm = 4
 		dip = 2
-		mil = 3
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = centralizer_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = proud_personality
+	add_heir_personality = cruel_personality
+	add_heir_personality = domineering_personality
 }
 	
-1478.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Kanetsugu"
 		dynasty = "Chosokabe"
-#		birth_date = 1460.1.1
-#		death_date = 1508.9.1
-		adm = 3
-		dip = 2
-		mil = 3
-	}
-}
-
-1504.1.1 = {
-	heir = {
-		name = "Kunichika"
-		monarch_name = "Kunichika"
-		dynasty = "Chosokabe"
-		birth_date = 1504.1.1
-		death_date = 1560.7.8
-		claim = 90
+		birth_date = 1460.1.1
+		death_date = 1508.9.1
 		adm = 4
-		dip = 4
-		mil = 4
+		dip = 2
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = domineering_personality
 }
 	
-1508.9.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Kunichika"
 		dynasty = "Chosokabe"
-#		birth_date = 1504.1.1
-#		death_date = 1560.7.8
-		adm = 4
-		dip = 4
-		mil = 4
+		birth_date = 1504.1.1
+		death_date = 1560.7.8
+		adm = 7
+		dip = 5
+		mil = 6
+		leader = {
+			name = "Kunichika Chosokabe"
+			type = general
+			rank = 1
+			fire = 2
+			shock = 4
+			manuever = 2
+			siege = 2
+			death_date = 1560.7.8
+			personality = siege_master_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = humble_personality
 }
 
-1539.1.1 = {
+1523.8.25 = {
+	government = sengoku_monarchy
+}
+
+1546.5.19 = {
 	heir = {
 		name = "Motochika"
 		monarch_name = "Motochika"
@@ -122,25 +91,38 @@ capital = 137	# Nagaoka
 		birth_date = 1539.1.1
 		death_date = 1599.7.11
 		claim = 90
-		adm = 4
-		dip = 4
-		mil = 5
+		adm = 7
+		dip = 6
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = innovator_personality
+	add_heir_personality = legislator_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = ambitious_personality
 }
 
-1560.7.8 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Motochika"
 		dynasty = "Chosokabe"
-#		birth_date = 1539.1.1
-#		death_date = 1599.7.11
-		adm = 4
-		dip = 4
-		mil = 5
+		birth_date = 1539.1.1
+		death_date = 1599.7.11
+		adm = 7
+		dip = 6
+		mil = 7
+		leader = {
+			name = "Motochika Chosokabe"
+			type = general
+			rank = 1
+			fire = 4
+			shock = 4
+			manuever = 3
+			siege = 1
+			death_date = 1599.7.11
+			personality = unflinching_leader_personality
+		}
 	}
-}
-	
-1565.1.1 = {
 	heir = {
 		name = "Nobuchika"
 		monarch_name = "Nobuchika"
@@ -148,34 +130,97 @@ capital = 137	# Nagaoka
 		birth_date = 1565.1.1
 		death_date = 1587.1.20
 		claim = 90
-		adm = 4
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 6
+		mil = 6
 	}
-}	
-	
-1587.1.20 = {
-	heir = {
-		name = "Morichika"
-		monarch_name = "Morichika"
-		dynasty = "Chosokabe"
-		birth_date = 1575.1.1
-		death_date = 1615.6.11
-		claim = 80
+	queen = {
+		country_of_origin = STO
+		name = "Nana"
+		dynasty = "Saito"
+		birth_date = 1540.1.1
+		death_date = 1583.9.8
+		female = yes
 		adm = 3
-		dip = 3
-		mil = 4
+		dip = 6
+		mil = 2
 	}
+	leader = {
+		name = "Chikayasu Kosokabe"
+		type = general
+		rank = 1
+		fire = 2
+		shock = 2
+		manuever = 2
+		siege = 2
+		death_date = 1593.1.1
+	}
+	leader = {
+		name = "Chikasada Kira"
+		type = general
+		rank = 1
+		fire = 3
+		shock = 3
+		manuever = 2
+		siege = 1
+		death_date = 1576.8.9
+		personality = rapid_mobilizer_personality
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = ambitious_personality
+	add_heir_personality = honorable_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = conscientious_personality
+	add_heir_personality = swordsman_personality
+	add_queen_personality = connected_personality
 }
 
-1599.7.11 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Morichika"
 		dynasty = "Chosokabe"
-#		birth_date = 1575.1.1
-#		death_date = 1615.6.11
-		adm = 3
-		dip = 3
-		mil = 4
+		birth_date = 1575.1.1
+		death_date = 1615.6.11
+		adm = 5
+		dip = 5
+		mil = 7
+		leader = {
+			name = "Morichika Chosokabe"
+			type = general
+			rank = 1
+			fire = 2
+			shock = 4
+			manuever = 2
+			siege = 0
+			death_date = 1615.6.11
+			personality = inspirational_leader_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = proud_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Motochika"
+		dynasty = "Chosokabe"
+		birth_date = 1539.1.1
+		death_date = 1599.7.11
+		adm = 7
+		dip = 6
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

@@ -3,77 +3,18 @@ government_rank = 2
 primary_culture = shimosa_c
 religion = shinto
 technology_group = togoku
-historical_friend = KGA
-historical_rival = STK
-historical_rival = UES
-historical_rival = OUE
 capital = 530	# Inba
-	
-1430.1.1 = { 
-	monarch = {
-		name = "Tanenao"
-		dynasty = "Chiba"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1440.1.1 = {
-	heir = {
-		name = "Tanemasa"
-		monarch_name = "Tanemasa"
-		dynasty = "Chiba"
-		birth_date = 1440.1.1
-		death_date = 1454.7.18
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1441.1.1 = { 
-	monarch = {
-		name = "Tanemasa"
-		dynasty = "Chiba"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1454.7.18 = { 
-	monarch = {
-		name = "Tanenobu"
-		dynasty = "Chiba"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1455.9.23 = { 
-	monarch = {
-		name = "Yasutane"
-		dynasty = "Chiba"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1456.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Suketane"
 		dynasty = "Chiba"
-		adm = 3
-		dip = 3
+		birth_date = 1421.7.6
+		death_date = 1492.3.13
+		adm = 5
+		dip = 5
 		mil = 3
 	}
-}
-
-1459.1.1 = {
 	heir = {
 		name = "Noritane"
 		monarch_name = "Noritane"
@@ -81,47 +22,33 @@ capital = 530	# Inba
 		birth_date = 1459.1.1
 		death_date = 1521.9.19
 		claim = 90
-		adm = 3
+		adm = 4
 		dip = 3
-		mil = 3
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_heir_personality = reckless_personality
+	add_heir_personality = pious_personality
 }
 
-1472.1.1 = { 
+1493.6.9 = {
 	monarch = {
-		name = "Noritane"
-		dynasty = "Chiba"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1472.1.1 = {
-	heir = {
 		name = "Katsutane"
-		monarch_name = "Katsutane"
 		dynasty = "Chiba"
 		birth_date = 1471.1.1
 		death_date = 1532.6.24
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 4
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = artistic_personality
 }
 
-1492.1.1 = { 
-	monarch = {
-		name = "Katsutane"
-		dynasty = "Chiba"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1495.6.2 = {
+1511.9.25 = {
 	heir = {
 		name = "Masatane"
 		monarch_name = "Masatane"
@@ -129,23 +56,27 @@ capital = 530	# Inba
 		birth_date = 1495.6.2
 		death_date = 1546.2.7
 		claim = 90
-		adm = 3
-		dip = 3
+		adm = 2
+		dip = 2
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = artistic_personality
+	add_heir_personality = retrograde_personality
 }
 
-1521.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Masatane"
 		dynasty = "Chiba"
-		adm = 3
-		dip = 3
+		birth_date = 1495.6.2
+		death_date = 1546.2.7
+		adm = 2
+		dip = 2
 		mil = 3
 	}
-}
-
-1521.1.1 = {
 	heir = {
 		name = "Toshitane"
 		monarch_name = "Toshitane"
@@ -153,23 +84,23 @@ capital = 530	# Inba
 		birth_date = 1515.9.12
 		death_date = 1547.7.28
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 1
+		dip = 2
+		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = retrograde_personality
+	government = shugo_daimyo_monarchy
 }
 
-1546.1.1 = { 
+1546.5.9 = { 
 	monarch = {
 		name = "Toshitane"
 		dynasty = "Chiba"
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 1
+		dip = 2
+		mil = 1
 	}
-}
-
-1546.1.1 = {
 	heir = {
 		name = "Chikatane"
 		monarch_name = "Chikatane"
@@ -177,33 +108,34 @@ capital = 530	# Inba
 		birth_date = 1541.10.4
 		death_date = 1557.8.30
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 1
+		dip = 1
+		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = lenient_personality
 }
 
-1547.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Chikatane"
 		dynasty = "Chiba"
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 1
+		dip = 1
+		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = lenient_personality
 }
 
-1557.8.30 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Tanetomi"
 		dynasty = "Chiba"
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 6
+		mil = 4
 	}
-}
-
-1557.8.30 = {
 	heir = {
 		name = "Yoshitane"
 		monarch_name = "Yoshitane"
@@ -211,38 +143,55 @@ capital = 530	# Inba
 		birth_date = 1557.4.21
 		death_date = 1608.8.17
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 2
+		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = cautious_personality
+	add_heir_personality = lenient_personality
 }
 
-1579.5.29 = { 
-	monarch = {
-		name = "Yoshitane"
-		dynasty = "Chiba"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Kunitane"
 		dynasty = "Chiba"
+		birth_date = 1557.4.21
+		death_date = 1585.6.13
 		adm = 3
-		dip = 3
+		dip = 4
 		mil = 3
 	}
-}
-
-1585.6.4 = { 
-	monarch = {
+	heir = {
 		name = "Naoshige"
 		dynasty = "Chiba"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1576.1.31
+		death_date = 1621.4.16
+		adm = 4
+		dip = 2
+		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = cautious_personality
+	add_heir_personality = erudite_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Katsutane"
+		dynasty = "Chiba"
+		birth_date = 1471.1.1
+		death_date = 1532.6.24
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

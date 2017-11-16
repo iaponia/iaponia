@@ -3,203 +3,46 @@ government_rank = 3
 primary_culture = kawachi_c
 religion = shinto
 technology_group = saigoku
-historical_rival = SHK
-historical_friend = HSK
-capital = 306	# Furuichi
+capital = 235 # Nagusa
 
-1335.1.1 = { 
-	monarch = {
-		name = "Kunikiyo"
-		dynasty = "Hatakeyama"
-		adm = 2
-		dip = 2
-		mil = 3
-	}
-}
-
-1362.1.1 = { 
-	monarch = {
-		name = "Yoshito"
-		dynasty = "Hatakeyama"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1362.1.1 = {
-	heir = {
-		name = "Motokuni"
-		monarch_name = "Motokuni"
-		dynasty = "Hatakeyama"
-		birth_date = 1352.1.1
-		death_date = 1406.2.5
-		claim = 90
-		adm = 4
-		dip = 3
-		mil = 4
-	}
-}
-
-1379.11.21 = { 
-	monarch = {
-		name = "Motokuni"
-		dynasty = "Hatakeyama"
-		adm = 4
-		dip = 3
-		mil = 4
-	}
-}
-	
-1379.11.21 = {
-	heir = {
-		name = "Mitsuie"
-		monarch_name = "Mitsuie"
-		dynasty = "Hatakeyama"
-		birth_date = 1372.1.1
-		death_date = 1433.10.31
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1406.2.5 = {
-	monarch = {
-		name = "Mitsuyoshi" 
-		dynasty = "Hatakeyama"
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
-
-1410.1.1 = {
-	monarch = {
-		name = "Mitsuie" 
-		dynasty = "Hatakeyama"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1410.1.1 = {
-	heir = {
-		name = "Mochikuni"
-		monarch_name = "Mochikuni"
-		dynasty = "Hatakeyama"
-		birth_date = 1372.1.1
-		death_date = 1455.4.12
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1433.10.31 = {
-	monarch = {
-		name = "Mitsuyoshi" 
-		dynasty = "Hatakeyama"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1445.1.1 = {
-	heir = {
-		name = "Mochitomi"
-		monarch_name = "Mochitomi"
-		dynasty = "Hatakeyama"
-		birth_date = 1390.1.1
-		death_date = 1452.1.1
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1448.1.1 = {
-	heir = {
-		name = "Yoshinari"
-		monarch_name = "Yoshinari"
-		dynasty = "Hatakeyama"
-		birth_date = 1437.1.1
-		death_date = 1490.1.1
-		claim = 50
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1455.4.12 = {
-	monarch = {
-		name = "Yoshinari" 
-		dynasty = "Hatakeyama"
-#		birth_date = 1437.1.1
-#		death_date = 1490.1.1
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1460.9.16 = {
+1467.9.15 = {
 	monarch = {
 		name = "Masanaga" 
 		dynasty = "Hatakeyama"
-		adm = 2
-		dip = 3
-		mil = 2
+		birth_date = 1442.1.1
+		death_date = 1493.6.9
+		adm = 4
+		dip = 5
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = equestrian_personality
 }
 
-1460.9.16 = {capital = 235} #Nagusa
-
-1475.1.1 = {
-	heir = {
-		name = "Hisayori"
-		monarch_name = "Hisayori"
-		dynasty = "Hatakeyama"
-		birth_date = 1475.1.1
-		death_date = 1522.8.17
-		claim = 70
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.5.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Yoshitoyo" 
 		dynasty = "Hatakeyama"
-#		birth_date = 1469.1.1
-#		death_date = 1499.1.1
+		birth_date = 1469.1.1
+		death_date = 1499.1.1
 		adm = 2
 		dip = 2
 		mil = 2
 	}
 }
 
-1499.1.1 = {
+1511.9.25 = {
 	monarch = {
-		name = "Hisayori" 
+		name = "Hisanobu" 
 		dynasty = "Hatakeyama"
-#		birth_date = 1475.1.1
-#		death_date = 1522.9.7
+		birth_date = 1475.1.1
+		death_date = 1522.9.7
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1504.1.1 = {
 	heir = {
 		name = "Tanenaga"
 		monarch_name = "Tanenaga"
@@ -207,94 +50,96 @@ capital = 306	# Furuichi
 		birth_date = 1504.1.1
 		death_date = 1545.6.23
 		claim = 90
-		adm = 3
-		dip = 3
+		adm = 2
+		dip = 2
 		mil = 3
+	}
+	leader = {
+		name = "Naganori Yusa"
+		type = general
+		rank = 1
+		fire = 3
+		shock = 3
+		manuever = 3
+		siege = 0
+		death_date = 1551.6.15
+		personality = local_recruiter_personality 
 	}
 }
 
-1517.1.1 = {
+1523.8.25 = {
 	monarch = {
 		name = "Tanenaga" 
 		dynasty = "Hatakeyama"
-#		birth_date = 1504.1.1
-#		death_date = 1545.6.23
+		birth_date = 1504.1.1
+		death_date = 1545.6.23
 		adm = 2
 		dip = 2
 		mil = 3
 	}
+	government = shugo_daimyo_monarchy	
 }
 
-1535.1.1 = {
-	monarch = {
-		name = "Nagatsune" 
-		dynasty = "Hatakeyama"
-#		birth_date = 1508.1.1
-#		death_date = 1548.1.1
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1548.1.1 = {
+1536.4.7 = {
 	monarch = {
 		name = "Masakuni" 
 		dynasty = "Hatakeyama"
-#		birth_date = 1496.1.1
-#		death_date = 1550.9.22
-		adm = 2
-		dip = 2
-		mil = 2
+		birth_date = 1508.1.1
+		death_date = 1548.1.1
+		adm = 3
+		dip = 4
+		mil = 4
 	}
 }
 
-1548.1.1 = {
-	heir = {
-		name = "Takamasa"
-		monarch_name = "Takamasa"
-		dynasty = "Hatakeyama"
-		birth_date = 1527.1.1
-		death_date = 1576.11.5
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
+1546.5.19 = {
+	leader = {
+		name = "Naganori Yusa"
+		type = general
+		rank = 1
+		fire = 3
+		shock = 3
+		manuever = 3
+		siege = 0
+		death_date = 1551.6.15
+		personality = local_recruiter_personality 
 	}
 }
 
-1550.9.22 = {
+1554.3.1 = {
 	monarch = {
 		name = "Takamasa" 
 		dynasty = "Hatakeyama"
-#		birth_date = 1527.1.1
-#		death_date = 1576.11.5
-		adm = 2
-		dip = 2
+		birth_date = 1527.1.1
+		death_date = 1576.11.5
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Akitaka" 
+		dynasty = "Hatakeyama"
+		birth_date = 1534.1.1
+		death_date = 1573.7.23
+		claim = 90
+		adm = 3
+		dip = 4
 		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = centralizer_personality
 }
 
-1569.1.1 = {
+1569.10.10 = {
 	monarch = {
 		name = "Akitaka" 
 		dynasty = "Hatakeyama"
-#		birth_date = 1534.1.1
-#		death_date = 1573.7.23
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1573.7.23 = {
-	monarch = {
-		name = "Masanao" 
-		dynasty = "Hatakeyama"
-#		birth_date = 1533.1.1
-#		death_date = 1589.1.1
-		adm = 2
-		dip = 2
+		birth_date = 1534.1.1
+		death_date = 1573.7.23
+		adm = 3
+		dip = 4
 		mil = 2
 	}
 }

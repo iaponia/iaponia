@@ -3,20 +3,36 @@ government_rank = 1
 primary_culture = harima_c
 religion = shinto
 technology_group = saigoku
-historical_rival = URA
 capital = 256	# Mino
 	
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Nariharu"
 		dynasty = "Bessho"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1502.1.1
+		death_date = 1563.1.1
+		adm = 5
+		dip = 5
+		mil = 6
+		leader = {
+			name = "Nariharu Bessho"
+			type = general
+			rank = 1
+			fire = 2
+			shock = 3
+			manuever = 2
+			siege = 1
+			death_date = 1563.1.1
+			personality = local_recruiter_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = brave_personality
+	government = sengoku_monarchy
 }
 
-1532.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Yasuharu"
 		monarch_name = "Yasuharu"
@@ -24,23 +40,28 @@ capital = 256	# Mino
 		birth_date = 1532.1.1
 		death_date = 1570.1.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 5
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = ambitious_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = honorable_personality
 }
 	
-1556.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Yasuharu"
 		dynasty = "Bessho"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1532.1.1
+		death_date = 1570.1.1
+		adm = 4
+		dip = 5
+		mil = 6
 	}
-}
-
-1558.1.1 = {
 	heir = {
 		name = "Nagaharu"
 		monarch_name = "Nagaharu"
@@ -48,18 +69,36 @@ capital = 256	# Mino
 		birth_date = 1558.1.1
 		death_date = 1580.2.2
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = ambitious_personality
+	add_heir_personality = gracious_personality
+	add_heir_personality = proud_personality
+	add_heir_personality = architect_personality
+	add_heir_personality = elitist_personality
 }
 
-1570.1.1 = { 
+1615.1.1 = {
 	monarch = {
 		name = "Nagaharu"
+		monarch_name = "Nagaharu"
 		dynasty = "Bessho"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1558.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = elitist_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

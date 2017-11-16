@@ -135,10 +135,7 @@ capital = 332	# Azai
 	add_ruler_personality = brave_personality
 	add_ruler_personality = innovator_personality
 	add_ruler_personality = ambitious_personality
-	add_queen_personality = honorable_personality
 	add_queen_personality = gracious_personality
-	add_queen_personality = humble_personality
-	add_queen_personality = artistic_personality
 }
 
 1615.1.1 = {

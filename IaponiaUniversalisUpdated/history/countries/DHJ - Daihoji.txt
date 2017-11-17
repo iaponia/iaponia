@@ -5,65 +5,16 @@ religion = shinto
 technology_group = tohoku
 capital = 564	# Dewa-Tagawa
 
-1420.1.1 = {
+1467.6.15 = {
 	monarch = {
-		name = "Noriuji"
-		dynasty = "Daihoji"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1420.1.1 = {
-	heir = {
-		name = "Kiyouji"
-		monarch_name = "Kiyouji"
-		dynasty = "Daihoji"
-		birth_date = 1415.1.1
-		death_date = 1465.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1445.1.1 = {
-	monarch = {
-		name = "Kiyouji"
-		dynasty = "Daihoji"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1445.1.1 = {
-	heir = {
 		name = "Takeuji"
-		monarch_name = "Takeuji"
 		dynasty = "Daihoji"
 		birth_date = 1435.1.1
 		death_date = 1480.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1465.1.1 = {
-	monarch = {
-		name = "Takeuji"
-		dynasty = "Daihoji"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1465.1.1 = {
 	heir = {
 		name = "Masauji"
 		monarch_name = "Masauji"
@@ -77,17 +28,16 @@ capital = 564	# Dewa-Tagawa
 	}
 }
 
-1480.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Masauji"
 		dynasty = "Daihoji"
+		birth_date = 1465.1.1
+		death_date = 1495.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1490.1.1 = {
 	heir = {
 		name = "Sumiuji"
 		monarch_name = "Sumiuji"
@@ -101,51 +51,46 @@ capital = 564	# Dewa-Tagawa
 	}
 }
 
-1495.1.1 = {
+1511.9.25 = {
 	monarch = {
 		name = "Sumiuji"
 		dynasty = "Daihoji"
+		birth_date = 1490.1.1
+		death_date = 1525.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1512.1.1 = {
-	heir = {
+1523.8.25 = {
+	monarch = {
 		name = "Harutoki"
-		monarch_name = "Harutoki"
 		dynasty = "Daihoji"
 		birth_date = 1512.1.1
 		death_date = 1541.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 2
+		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lenient_personality
+	government = sengoku_monarchy
 }
 
-1525.1.1 = {
-	monarch = {
-		name = "Harutoki"
-		dynasty = "Daihoji"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1541.1.1 = {
+1546.5.19 = {
 	monarch = {
 		name = "Yoshimasu"
 		dynasty = "Daihoji"
+		birth_date = 1522.1.1
+		death_date = 1581.8.29
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 4
+		mil = 4
 	}
 }
 
-1551.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Yoshiuji"
 		monarch_name = "Yoshiuji"
@@ -153,38 +98,69 @@ capital = 564	# Dewa-Tagawa
 		birth_date = 1551.1.1
 		death_date = 1583.4.27
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 2
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = stern_personality
+	add_heir_personality = cruel_personality
+	add_heir_personality = innovator_personality
+	add_heir_personality = ambitious_personality
 }
 
-1569.1.1 = {
+1569.10.10 = {
 	monarch = {
 		name = "Yoshiuji"
 		dynasty = "Daihoji"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1551.1.1
+		death_date = 1583.4.27
+		adm = 5
+		dip = 2
+		mil = 6
+		leader = {
+			name = "Yoshiuji Daihoji"
+			type = general
+			rank = 1
+			fire = 2
+			shock = 3
+			manuever = 0
+			siege = 0
+			death_date = 1583.4.27
+		}
 	}
-}
-
-1583.1.1 = {
 	monarch = {
 		name = "Yoshioki"
 		dynasty = "Daihoji"
+		birth_date = 1554.1.1
+		death_date = 1587.12.23
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 5
+		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = ambitious_personality
+	add_heir_personality = hubmle_personality
 }
 
-1587.1.1 = {
+1615.1.1 = {
 	monarch = {
-		name = "Yoshikatsu"
+		name = "Yoshiuji"
 		dynasty = "Daihoji"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1551.1.1
+		death_date = 1583.4.27
+		adm = 5
+		dip = 2
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

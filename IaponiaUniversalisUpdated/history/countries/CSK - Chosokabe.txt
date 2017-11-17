@@ -178,6 +178,10 @@ capital = 137	# Nagaoka
 	add_queen_personality = connected_personality
 }
 
+1582.6.21 = {
+	government = late_sengoku_monarchy
+}
+
 1600.9.13 = { 
 	monarch = {
 		name = "Morichika"

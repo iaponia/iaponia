@@ -1,70 +1,47 @@
 government = shugo_monarchy
-government_rank = 4
+government_rank = 3
 primary_culture = esshu_c
 religion = shinto
 technology_group = togoku
-historical_rival = NGO
 capital = 553	# Kubiki
 	
-1431.1.1 = { 
-	monarch = {
-		name = "Fusatomo"
-		dynasty = "Uesugi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1431.1.1 = {
-	heir = {
-		name = "Fusasada"
-		monarch_name = "Fusasada"
-		dynasty = "Uesugi"
-		birth_date = 1421.1.1
-		death_date = 1449.3.21
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1449.3.21 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Fusasada"
 		dynasty = "Uesugi"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1431.11.18
+		death_date = 1494.11.14
+		adm = 5
+		dip = 5
+		mil = 5
+		leader = {
+			name = "Fusasada Uesugi"
+			type = general
+			rank = 1
+			fire = 3
+			shock = 3
+			manuever = 0
+			siege = 1
+			death_date = 1494.11.14
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = xenophilic_personality
+	add_ruler_personality = profligate_personality
 }
 
-1474.1.1 = {
-	heir = {
+1493.6.9 = { 
+	monarch = {
 		name = "Fusayoshi"
-		monarch_name = "Fusayoshi"
 		dynasty = "Uesugi"
 		birth_date = 1474.1.1
 		death_date = 1507.9.13
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 2
+		mil = 1
 	}
-}
-
-1494.1.1 = { 
-	monarch = {
-		name = "Fusayoshi"
-		dynasty = "Uesugi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1494.1.1 = {
 	heir = {
 		name = "Sadazane"
 		monarch_name = "Sadazane"
@@ -73,17 +50,28 @@ capital = 553	# Kubiki
 		death_date = 1550.3.14
 		claim = 90
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 5
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = craven_personality
+	add_heir_personality = ambitious_personality
+	add_heir_personality = disorganized_personality
+	add_heir_personality = eloquent_personality
 }
 
-1508.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Sadazane"
 		dynasty = "Uesugi"
+		birth_date = 1478.1.1
+		death_date = 1550.3.14
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 5
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = disorganized_personality
+	add_ruler_personality = eloquent_personality
 }

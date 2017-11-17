@@ -4,42 +4,17 @@ primary_culture = sasshu_c
 religion = shinto
 technology_group = kyushu
 capital = 12	# Kuwabara
-
-1430.1.1 = { 
+	
+1467.6.15 = { 
 	monarch = {
-		name = "Tadakiyo"
-		dynasty = "Kamo"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1435.1.1 = {
-	heir = {
 		name = "Norikiyo"
-		monarch_name = "Norikiyo"
 		dynasty = "Kamo"
 		birth_date = 1435.1.1
 		death_date = 1497.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1451.1.1 = { 
-	monarch = {
-		name = "Norikiyo"
-		dynasty = "Kamo"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1460.1.1 = {
 	heir = {
 		name = "Atsusumi"
 		monarch_name = "Atsusumi"
@@ -53,27 +28,28 @@ capital = 12	# Kuwabara
 	}
 }
 	
-1497.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Atsusumi"
 		dynasty = "Kamo"
+		birth_date = 1460.1.1
+		death_date = 1530.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 	
-1530.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Shigekiyo"
 		dynasty = "Kamo"
+		birth_date = 1460.1.1
+		death_date = 1530.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1530.1.1 = {
 	heir = {
 		name = "Norikiyo"
 		monarch_name = "Norikiyo"
@@ -87,10 +63,12 @@ capital = 12	# Kuwabara
 	}
 }
 	
-1550.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Norikiyo"
 		dynasty = "Kamo"
+		birth_date = 1525.1.1
+		death_date = 1580.1.1
 		adm = 3
 		dip = 3
 		mil = 3

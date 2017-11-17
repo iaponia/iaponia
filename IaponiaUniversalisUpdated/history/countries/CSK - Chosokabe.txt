@@ -205,7 +205,7 @@ capital = 137	# Nagaoka
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = strong_personality
-	add_ruler_personality = stern_personality
+	add_ruler_personality = connected_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = proud_personality
 }

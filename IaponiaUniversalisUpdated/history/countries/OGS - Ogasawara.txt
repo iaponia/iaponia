@@ -3,75 +3,18 @@ government_rank = 2
 primary_culture = suwa_c
 religion = shinto
 technology_group = togoku
-historical_rival = SOG
-historical_rival = TKD
 capital = 437	# Tsukama
-
-1365.4.12 = { 
-	monarch = {
-		name = "Nagamoto"
-		dynasty = "Ogasawara"
-#		birth_date = 1347.3.9
-#		death_date = 1407.11.5
-		adm = 5
-		dip = 5
-		mil = 5
-		}
-	}
-
-1400.1.1 = {
-	heir = {
-		name = "Kiyomune"
-		monarch_name = "Kiyomune"
-		dynasty = "Ogasawara"
-		birth_date = 1400.1.1
-		death_date = 1455.1.1
-		claim = 90
-		adm = 5
-		dip = 5
-		mil = 5
-	}
-}
 	
-1425.1.1 = { 
+1467.6.15 = { 
 	monarch = {
-		name = "Kiyomune"
-		dynasty = "Ogasawara"
-#		birth_date = 1400.1.1
-#		death_date = 1455.1.1
-		adm = 5
-		dip = 5
-		mil = 5
-		}
-	}
-
-1430.1.1 = {
-	heir = {
 		name = "Nagatomo"
-		monarch_name = "Nagatomo"
 		dynasty = "Ogasawara"
 		birth_date = 1430.1.1
 		death_date = 1480.1.1
-		claim = 90
-		adm = 5
-		dip = 5
-		mil = 5
+		adm = 4
+		dip = 4
+		mil = 4
 	}
-}
-	
-1455.1.1 = { 
-	monarch = {
-		name = "Nagatomo"
-		dynasty = "Ogasawara"
-#		birth_date = 1430.1.1
-#		death_date = 1480.1.1
-		adm = 5
-		dip = 5
-		mil = 5
-		}
-	}
-
-1461.10.21 = {
 	heir = {
 		name = "Sadatomo"
 		monarch_name = "Sadatomo"
@@ -79,25 +22,22 @@ capital = 437	# Tsukama
 		birth_date = 1461.10.21
 		death_date = 1515.7.14
 		claim = 90
-		adm = 5
+		adm = 4
 		dip = 5
 		mil = 5
 	}
 }
 	
-1480.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Sadatomo"
 		dynasty = "Ogasawara"
-#		birth_date = 1461.10.21
-#		death_date = 1515.7.14
-		adm = 5
+		birth_date = 1461.10.21
+		death_date = 1515.7.14
+		adm = 4
 		dip = 5
 		mil = 5
-		}
 	}
-	
-1492.4.15 = {
 	heir = {
 		name = "Nagamune"
 		monarch_name = "Nagamune"
@@ -106,24 +46,24 @@ capital = 437	# Tsukama
 		death_date = 1542.9.28
 		claim = 90
 		adm = 6
-		dip = 5
+		dip = 6
 		mil = 6
 	}
+	add_heir_personality = gregarious_personality
+	add_heir_personality = eloquent_personality
+	add_heir_personality = centralizer_personality
 }
 	
-1515.7.14 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Nagamune"
 		dynasty = "Ogasawara"
-#		birth_date = 1492.4.15
-#		death_date = 1542.9.28
+		birth_date = 1492.4.15
+		death_date = 1542.9.28
 		adm = 6
-		dip = 5
+		dip = 6
 		mil = 6
-		}
 	}
-	
-1515.7.14 = {
 	heir = {
 		name = "Nagatoki"
 		monarch_name = "Nagatoki"
@@ -131,20 +71,48 @@ capital = 437	# Tsukama
 		birth_date = 1514.11.9
 		death_date = 1583.4.17
 		claim = 90
-		adm = 6
-		dip = 5
-		mil = 6
+		adm = 3
+		dip = 4
+		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = centralizer_personality
+	add_heir_personality = equestrian_personality
+	add_heir_personality = swordsman_personality
+	add_heir_personality = drunk_personality
+	government = shugo_daimyo_monarchy
 }
 	
-1542.9.28 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Nagatoki"
 		dynasty = "Ogasawara"
-#		birth_date = 1514.11.9
-#		death_date = 1583.4.17
-		adm = 4
+		birth_date = 1514.11.9
+		death_date = 1583.4.17
+		adm = 3
 		dip = 4
 		mil = 3
-		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = drunk_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Nagamune"
+		dynasty = "Ogasawara"
+		birth_date = 1492.4.15
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = centralizer_personality
+	government = sengoku_monarchy
+}

@@ -4,52 +4,75 @@ primary_culture = shonai_c
 religion = shinto
 technology_group = tohoku
 capital = 571	# Ogachi
-	
-1440.1.1 = { 
+
+1467.6.15 = {	
 	monarch = {
 		name = "Yasumichi"
 		dynasty = "Onodera"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1440.1.1 = {
-	heir = {
-		name = "Tanemichi"
-		monarch_name = "Tanemichi"
-		dynasty = "Onodera"
-		birth_date = 1430.1.1
-		death_date = 1546.6.25
-		claim = 90
+		birth_date = 1420.1.1
+		death_date = 1477.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 	
-1477.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tanemichi"
 		dynasty = "Onodera"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1470.1.1
+		death_date = 1546.6.25
+		adm = 4
+		dip = 5
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = centralizer_personality
 }
 
-1546.1.1 = { 
-	monarch = {
-		name = "Kagemichi"
+1523.8.25 = {
+	government = sengoku_monarchy
+}
+
+1536.4.7 = {
+	heir = {
+		name = "Terumichi"
+		monarch_name = "Terumichi"
 		dynasty = "Onodera"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1534.1.1
+		death_date = 1597.1.1
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = centralizer_personality
+	add_heir_personality = conscientious_personality
+	add_heir_personality = architect_personality
+	add_heir_personality = eloquent_personality
 }
 
-1566.8.19 = {
+1546.5.19 = { 
+	monarch = {
+		name = "Terumichi"
+		dynasty = "Onodera"
+		birth_date = 1534.1.1
+		death_date = 1597.1.1
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = eloquent_personality
+}
+
+1569.10.10 = {
 	heir = {
 		name = "Yoshimichi"
 		monarch_name = "Yoshimichi"
@@ -57,18 +80,52 @@ capital = 571	# Ogachi
 		birth_date = 1566.8.19
 		death_date = 1646.1.8
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 2
+		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = cautious_personality
 }
 
-1580.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Yoshimichi"
 		dynasty = "Onodera"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1566.8.19
+		death_date = 1646.1.8
+		adm = 2
+		dip = 2
+		mil = 2
 	}
+	leader = {
+		name = "Yasumichi Onodera"
+		type = general
+		rank = 1
+		fire = 3
+		shock = 3
+		manuever = 2
+		siege = 0
+		death_date = 1605.1.1
+		personality = unflinching_leader_personality
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cautious_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Terumichi"
+		dynasty = "Onodera"
+		birth_date = 1534.1.1
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

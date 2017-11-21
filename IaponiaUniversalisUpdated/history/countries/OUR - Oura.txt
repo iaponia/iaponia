@@ -5,12 +5,121 @@ religion = shinto
 technology_group = tohoku
 capital = 605	# Tsugaru
 	
-1550.1.18 = { 
+1467.6.15 = { 
 	monarch = {
-		name = "Tamenobu"
+		name = "Mitsunobu"
 		dynasty = "Oura"
+		birth_date = 1460.1.1
+		death_date = 1526.11.12
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+}
+
+1511.9.25 = { 
+	monarch = {
+		name = "Masanobu"
+		dynasty = "Oura"
+		birth_date = 1497.1.1
+		death_date = 1541.7.2
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1523.8.25 = {
+	heir = {
+		name = "Tamenori"
+		monarch_name = "Tamenori"
+		dynasty = "Oura"
+		birth_date = 1520.5.21
+		death_date = 1567.4.25
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1536.4.7 = { 
+	monarch = {
+		name = "Tamenori"
+		dynasty = "Oura"
+		birth_date = 1520.5.21
+		death_date = 1567.4.25
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+	
+1554.3.1 = {
+	heir = {
+		name = "Tamenobu"
+		monarch_name = "Tamenobu"
+		dynasty = "Oura"
+		birth_date = 1550.1.18
+		death_date = 1608.1.22
+		claim = 90
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = cunning_personality
+	add_heir_personality = tolerant_personality
+	add_heir_personality = connected_personality
+	add_heir_personality = ambitious_personality
+}
+	
+1582.6.21 = { 
+	monarch = {
+		name = "Tamenobu"
+		dynasty = "Oura"
+		birth_date = 1550.1.18
+		death_date = 1608.1.22
+		adm = 6
+		dip = 6
+		mil = 8
+		leader = {
+			name = "Nagamasa Azai"
+			type = general
+			rank = 1
+			fire = 3
+			shock = 3
+			manuever = 3
+			siege = 3
+			death_date = 1608.1.22
+			personality = siege_master_personality
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = ambitious_personality
+	government = sengoku_monarchy
+}
+
+1600.9.13 = {
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Tamenobu"
+		dynasty = "Oura"
+		birth_date = 1550.1.18
+		adm = 6
+		dip = 6
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
 }

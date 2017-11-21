@@ -3,16 +3,18 @@ government_rank = 3
 primary_culture = shimosa_c
 religion = shinto
 technology_group = togoku
-historical_rival = KGA
 capital = 529	# Chiba
 	
-1517.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshiaki"
 		dynasty = "Ashikaga"
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 4
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = domineering_personality
+	add_ruler_personality = brave_personality
 }
 

@@ -5,51 +5,35 @@ religion = shinto
 technology_group = tohoku
 capital = 602	# Shiba
 
-1430.1.1 = { 
+1467.6.15 = { 
 	monarch = {
-		name = "Akikatsu"
-		dynasty = "Shiba"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1440.1.1 = {
-	heir = {
 		name = "Akishige"
-		monarch_name = "Akishige"
 		dynasty = "Shiba"
 		birth_date = 1440.1.1
 		death_date = 1492.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1460.1.1 = { 
-	monarch = {
-		name = "Akishige"
-		dynasty = "Shiba"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1492.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Akitaka"
 		dynasty = "Shiba"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1476.1.1
+		death_date = 1549.1.1
+		adm = 6
+		dip = 7
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = eloquent_personality
 }
 
-1496.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Tsuneaki"
 		monarch_name = "Tsuneaki"
@@ -57,23 +41,31 @@ capital = 602	# Shiba
 		birth_date = 1496.1.1
 		death_date = 1565.1.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 5
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = eloquent_personality
+	add_heir_personality = gracious_personality
+}
+
+1523.8.25 = {
+	government = sengoku_monarchy
 }
 	
-1549.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Tsuneaki"
 		dynasty = "Shiba"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1496.1.1
+		death_date = 1565.1.1
+		adm = 5
+		dip = 5
+		mil = 5
 	}
-}
-
-1549.1.1 = {
 	heir = {
 		name = "Akizane"
 		monarch_name = "Akizane"
@@ -85,19 +77,20 @@ capital = 602	# Shiba
 		dip = 3
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = gracious_personality
 }
 
-1565.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Akizane"
 		dynasty = "Shiba"
+		birth_date = 1525.1.1
+		death_date = 1585.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1565.1.1 = {
 	heir = {
 		name = "Akinao"
 		monarch_name = "Akinao"
@@ -105,18 +98,29 @@ capital = 602	# Shiba
 		birth_date = 1548.1.1
 		death_date = 1597.1.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 1
+		dip = 1
+		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = lenient_personality
+	add_heir_personality = profligate_personality
 }
 
-1585.1.1 = { 
+1615.1.1 = {
 	monarch = {
-		name = "Akinao"
+		name = "Akitaka"
 		dynasty = "Shiba"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1476.1.1
+		death_date = 1549.1.1
+		adm = 6
+		dip = 7
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

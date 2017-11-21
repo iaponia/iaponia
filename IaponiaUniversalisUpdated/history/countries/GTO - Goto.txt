@@ -18,7 +18,7 @@ capital = 219	# Katsuta
 }
 
 1523.8.25 = {
-	government = kokujin_monarchy
+	government = sengoku_monarchy
 }
 
 1546.5.19 = {

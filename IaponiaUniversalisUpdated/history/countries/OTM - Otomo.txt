@@ -3,73 +3,18 @@ government_rank = 3
 primary_culture = bungo_c
 religion = shinto
 technology_group = kyushu
-historical_rival = OUC
 capital = 40	# Oita
-
-1401.1.1 = {
-	heir = {
-		name = "Mochinao"
-		monarch_name = "Mochinao"
-		dynasty = "Otomo"
-		birth_date = 1401.1.1
-		death_date = 1445.1.1
-		claim = 95
-		adm = 5
-		dip = 5
-		mil = 5
-	}
-}
 	
-1423.1.1 = { 
-	monarch = {
-		name = "Mochinao"
-		dynasty = "Otomo"
-#		birth_date = 1401.1.1
-#		death_date = 1445.1.1
-		adm = 5
-		dip = 5
-		mil = 5
-		}
-	}
-	
-1432.11.27 = {
-	monarch = {
-		name = "Chikatsuna"
-		dynasty = "Otomo"
-#		birth_date = 1410.1.1
-#		death_date = 1459.1.1
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-}
-	
-
-1439.1.1 = { 
-	monarch = {
-		name = "Chikataka"
-		dynasty = "Otomo"
-#		birth_date = 1420.1.1
-#		death_date = 1465.1.1
-		adm = 4
-		dip = 4
-		mil = 4
-		}
-	}
-	
-1444.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Chikashige"
 		dynasty = "Otomo"
-#		birth_date = 1411.1.1
-#		death_date = 1493.1.1
-		adm = 5
-		dip = 5
-		mil = 5
-		}
+		birth_date = 1411.1.1
+		death_date = 1493.1.1
+		adm = 6
+		dip = 7
+		mil = 4
 	}
-	
-1444.1.1 = {
 	heir = {
 		name = "Masachika"
 		monarch_name = "Masachika"
@@ -79,73 +24,59 @@ capital = 40	# Oita
 		claim = 90
 		adm = 4
 		dip = 4
-		mil = 4
+		mil = 5
 	}
+	leader = {
+		name = "Chikaharu Otomo"
+		type = general
+		rank = 1
+		fire = 2
+		shock = 5
+		manuever = 3
+		siege = 0
+		death_date = 1524.2.23
+		personality = local_recruiter_personality
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = xenophilic_personality
 }
 	
-1473.1.1 = { 
-	monarch = {
-		name = "Masachika"
-		dynasty = "Otomo"
-#		birth_date = 1444.1.1
-#		death_date = 1496.7.20
-		adm = 4
-		dip = 4
-		mil = 4
-		}
-	}
-	
-1484.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Yoshisuke"
 		dynasty = "Otomo"
-#		birth_date = 1459.1.1
-#		death_date = 1496.5.27
+		birth_date = 1459.1.1
+		death_date = 1496.5.27
 		adm = 3
 		dip = 3
 		mil = 3
-		}
 	}
-
-1496.7.7 = { 
-	monarch = {
-		name = "Chikaharu"
-		dynasty = "Otomo"
-#		birth_date = 1461.1.1
-#		death_date = 1524.2.23
-		adm = 5
-		dip = 5
-		mil = 6
-		}
-	}
-	
-1496.7.7 = {
-	heir = {
-		name = "Yoshinaga"
-		monarch_name = "Yoshinaga"
-		dynasty = "Otomo"
-		birth_date = 1478.1.1
-		death_date = 1518.1.1
-		claim = 80
-		adm = 6
-		dip = 5
-		mil = 6
+	leader = {
+		name = "Chikaharu Otomo"
+		type = general
+		rank = 1
+		fire = 2
+		shock = 5
+		manuever = 3
+		siege = 0
+		death_date = 1524.2.23
+		personality = local_recruiter_personality
 	}
 }
 
-1501.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yoshinaga"
 		dynasty = "Otomo"
-#		birth_date = 1478.1.1
-#		death_date = 1518.1.1
+		birth_date = 1478.1.1
+		death_date = 1518.1.1
 		adm = 6
-		dip = 5
-		mil = 6
-		}
+		dip = 7
+		mil = 5
 	}
-	
-1502.1.1 = {
 	heir = {
 		name = "Yoshiaki"
 		monarch_name = "Yoshiaki"
@@ -153,25 +84,61 @@ capital = 40	# Oita
 		birth_date = 1502.1.1
 		death_date = 1550.2.28
 		claim = 90
-		adm = 5
-		dip = 4
-		mil = 5
+		adm = 4
+		dip = 5
+		mil = 7
 	}
+	queen = {
+		country_of_origin = ASO
+		name = "Koreko"
+		dynasty = "Aso"
+		birth_date = 1483.1.1
+		death_date = 1550.1.1
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 0
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = stern_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = ambitious_personality
+	add_heir_personality = cruel_personality
+	add_heir_personality = arbitrary_personality
 }
 
-1515.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshiaki"
 		dynasty = "Otomo"
-#		birth_date = 1502.1.1
-#		death_date = 1550.2.28
-		adm = 5
-		dip = 4
-		mil = 5
-		}
+		birth_date = 1502.1.1
+		death_date = 1550.2.28
+		adm = 4
+		dip = 5
+		mil = 7
 	}
+	queen = {
+		country_of_origin = OUC
+		name = "Aki"
+		dynasty = "Ouchi"
+		birth_date = 1505.1.1
+		death_date = 1560.1.1
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = arbitrary_personality
+	government = shugo_daimyo_monarchy
+}
 	
-1530.1.31 = {
+1536.4.7 = {
 	heir = {
 		name = "Yoshishige"
 		monarch_name = "Yoshishige"
@@ -179,25 +146,73 @@ capital = 40	# Oita
 		birth_date = 1530.1.31
 		death_date = 1587.6.11
 		claim = 90
-		adm = 6
-		dip = 6
-		mil = 6
+		adm = 7
+		dip = 8
+		mil = 5
 	}
+	leader = {
+		name = "Akitsura Tachibana"
+		type = general
+		rank = 1
+		fire = 4
+		shock = 6
+		manuever = 2
+		siege = 2
+		death_date = 1585.11.2
+		personality = skilled_tactician_personality
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = arbitrary_personality
+	add_heir_personality = mercantile_personality
+	add_heir_personality = pious_personality
+	add_heir_personality = gracious_personality
+	add_heir_personality = sickly_personality
 }
 
-1550.2.28 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Yoshishige"
 		dynasty = "Otomo"
-#		birth_date = 1530.1.31
-#		death_date = 1587.6.11
-		adm = 6
-		dip = 6
-		mil = 6
-		}
+		birth_date = 1530.1.31
+		death_date = 1587.6.11
+		adm = 7
+		dip = 8
+		mil = 5
 	}
+	queen = {
+		country_of_origin = TWA
+		name = "Jezebel"
+		dynasty = "Tawara"
+		birth_date = 1533.1.1
+		death_date = 1587.3.23
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 0
+	}
+	leader = {
+		name = "Korenori Saiki"
+		type = admiral
+		rank = 1
+		fire = 3
+		shock = 3
+		manuever = 3
+		siege = 0
+		death_date = 1578.12.7
+		personality = calm_commander_personality
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = sickly_personality
+	add_queen_personality = zealot_personality
+}
 
-1558.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Yoshimune"
 		monarch_name = "Yoshimune"
@@ -205,25 +220,69 @@ capital = 40	# Oita
 		birth_date = 1558.1.1
 		death_date = 1610.9.2
 		claim = 90
-		adm = 3
+		adm = 4
 		dip = 3
-		mil = 3
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = sickly_personality
+	add_queen_personality = zealot_personality
+	add_heir_personality = tolerant_personality
+	add_heir_personality = connected_personality
+	add_heir_personality = honest_personality
+	add_heir_personality = drunk_personality
+	government = sengoku_monarchy
+	leader = {
+		name = "Akitsura Tachibana"
+		type = general
+		rank = 1
+		fire = 4
+		shock = 6
+		manuever = 2
+		siege = 2
+		death_date = 1585.11.2
+		personality = skilled_tactician_personality
+	}
+	leader = {
+		name = "Shigetane Takahashi"
+		type = general
+		rank = 1
+		fire = 6
+		shock = 6
+		manuever = 0
+		siege = 0
+		death_date = 1586.9.10
+		personality = unflinching_leader_personality
+	}
+}
+
+1582.6.21 = {
+	leader = {
+		name = "Chikatsugu Shiga"
+		type = general
+		rank = 1
+		fire = 4
+		shock = 4
+		manuever = 3
+		siege = 0
+		death_date = 1660.1.1
+		personality = skilled_marksman_personality
 	}
 }
 	
-1576.1.1 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Yoshimune"
 		dynasty = "Otomo"
-#		birth_date = 1558.1.1
-#		death_date = 1610.9.2
+		birth_date = 1558.1.1
+		death_date = 1610.9.2
 		adm = 3
 		dip = 3
-		mil = 3
-		}
+		mil = 4
 	}
-	
-1577.1.1 = {
 	heir = {
 		name = "Yoshinori"
 		monarch_name = "Yoshinori"
@@ -231,8 +290,36 @@ capital = 40	# Oita
 		birth_date = 1577.1.1
 		death_date = 1612.8.7
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 6
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = honest_personality
+	add_ruler_personality = drunk_personality
+	add_heir_personality = honorable_personality
+	add_heir_personality = conscientious_personality
+	add_heir_personality = equestrian_personality
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshishige"
+		dynasty = "Otomo"
+		birth_date = 1530.1.31
+		death_date = 1587.6.11
+		adm = 7
+		dip = 8
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = sickly_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

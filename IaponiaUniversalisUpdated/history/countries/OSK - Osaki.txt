@@ -1,46 +1,21 @@
-government = kokujin_monarchy
+government = shugo_monarchy
 government_rank = 1
 primary_culture = rikuzen_c
 religion = shinto
 technology_group = tohoku
-historical_rival = MGM
 capital = 587	# Kurihara
-	
-1420.1.1 = { 
-	monarch = {
-		name = "Mochiakira"
-		dynasty = "Osaki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1420.1.1 = {
-	heir = {
+	
+1467.6.15 = { 
+	monarch = {
 		name = "Norikane"
-		monarch_name = "Norikane"
 		dynasty = "Osaki"
 		birth_date = 1411.1.1
 		death_date = 1477.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1450.1.1 = { 
-	monarch = {
-		name = "Norikane"
-		dynasty = "Osaki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1450.1.1 = {
 	heir = {
 		name = "Masakane"
 		monarch_name = "Masakane"
@@ -54,40 +29,16 @@ capital = 587	# Kurihara
 	}
 }
 
-1477.1.1 = { 
+1493.6.9 = { 
 	monarch = {
-		name = "Masakane"
-		dynasty = "Osaki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1477.1.1 = {
-	heir = {
 		name = "Yoshikane"
-		monarch_name = "Yoshikane"
 		dynasty = "Osaki"
 		birth_date = 1460.1.1
 		death_date = 1529.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 1
+		dip = 2
+		mil = 1
 	}
-}
-1488.1.1 = { 
-	monarch = {
-		name = "Yoshikane"
-		dynasty = "Osaki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1490.1.1 = {
 	heir = {
 		name = "Takakane"
 		monarch_name = "Takakane"
@@ -99,29 +50,29 @@ capital = 587	# Kurihara
 		dip = 3
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lenient_personality
 }
 
-1529.1.1 = { 
-	monarch = {
-		name = "Takakane"
-		dynasty = "Osaki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+1511.9.25 = {
+	government = shugo_daimyo_monarchy
 }
 
-1530.1.1 = { 
+1536.4.7 = {
 	monarch = {
 		name = "Yoshinao"
 		dynasty = "Osaki"
+		birth_date = 1506.1.1
+		death_date = 1577.1.1
 		adm = 3
-		dip = 3
+		dip = 5
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = humble_personality
 }
 
-1548.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Yoshitaka"
 		monarch_name = "Yoshitaka"
@@ -129,18 +80,38 @@ capital = 587	# Kurihara
 		birth_date = 1548.1.1
 		death_date = 1603.1.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = humble_personality
+	government = sengoku_monarchy
 }
 
-1577.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Yoshitaka"
 		dynasty = "Osaki"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1548.1.1
+		death_date = 1603.1.1
+		adm = 4
+		dip = 4
+		mil = 4
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshitaka"
+		dynasty = "Osaki"
+		birth_date = 1548.1.1
+		death_date = 1603.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

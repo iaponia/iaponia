@@ -3,25 +3,23 @@ government_rank = 1
 primary_culture = yamato_c
 religion = shinto
 technology_group = saigoku
-historical_rival = TTI
 capital = 319	# Takaichi
 	
-1439.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Iehide"
 		dynasty = "Ochi"
+		birth_date = 1432.1.1
+		death_date = 1500.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1446.1.1 = {
 	heir = {
 		name = "Ienori"
 		monarch_name = "Ienori"
 		dynasty = "Ochi"
-		birth_date = 1446.1.1
+		birth_date = 1470.1.1
 		death_date = 1507.1.1
 		claim = 90
 		adm = 3
@@ -29,42 +27,17 @@ capital = 319	# Takaichi
 		mil = 3
 	}
 }
-	
-1500.4.4 = { 
+
+1511.9.25 = { 
 	monarch = {
 		name = "Ienori"
 		dynasty = "Ochi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1500.1.1 = {
-	heir = {
-		name = "Ienori"
-		monarch_name = "Ienori"
-		dynasty = "Ochi"
-		birth_date = 1470.1.1
+		birth_date = 1489.1.1
 		death_date = 1517.5.7
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1507.5.7 = { 
-	monarch = {
-		name = "Ienori"
-		dynasty = "Ochi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1507.5.7 = {
 	heir = {
 		name = "Iehide"
 		monarch_name = "Iehide"
@@ -78,64 +51,48 @@ capital = 319	# Takaichi
 	}
 }
 
-1517.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Iehide"
 		dynasty = "Ochi"
+		birth_date = 1508.1.1
+		death_date = 1530.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1517.1.1 = {
 	heir = {
 		name = "Iehiro"
 		monarch_name = "Iehiro"
 		dynasty = "Ochi"
-		birth_date = 1510.1.1
+		birth_date = 1525.1.1
 		death_date = 1569.1.1
 		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
-1530.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Iehiro"
 		dynasty = "Ochi"
+		birth_date = 1525.1.1
+		death_date = 1569.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1569.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Ietaka"
 		dynasty = "Ochi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1571.1.1 = { 
-	monarch = {
-		name = "Iemasa"
-		dynasty = "Ochi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1577.1.1 = { 
-	monarch = {
-		name = "Iehide"
-		dynasty = "Ochi"
+		birth_date = 1547.1.1
+		death_date = 1571.1.1
 		adm = 3
 		dip = 3
 		mil = 3

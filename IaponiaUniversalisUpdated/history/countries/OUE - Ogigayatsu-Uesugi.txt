@@ -3,113 +3,35 @@ government_rank = 4
 primary_culture = musashi_c
 religion = shinto
 technology_group = togoku
-historical_rival = UES
-historical_rival = HJO
 capital = 512	# Iruma
-	
-1419.1.1 = { 
-	monarch = {
-		name = "Mochitomo"
-		dynasty = "Uesugi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1435.1.1 = {
-	heir = {
-		name = "Akifusa"
-		monarch_name = "Akifusa"
-		dynasty = "Uesugi"
-		birth_date = 1435.1.1
-		death_date = 1455.2.10
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1449.1.1 = { 
+1467.6.15 = { 
 	monarch = {
-		name = "Akifusa"
-		dynasty = "Uesugi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1455.2.10 = { 
-	monarch = {
-		name = "Mochitomo"
-		dynasty = "Uesugi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1455.2.10 = {
-	heir = {
 		name = "Masazane"
-		monarch_name = "Masazane"
 		dynasty = "Uesugi"
 		birth_date = 1451.1.1
 		death_date = 1473.12.22
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = arbitrary_personality
+	add_ruler_personality = draconian_personality
+	add_ruler_personality = centralizer_personality
 }
 
-1467.10.4 = { 
+1493.6.9 = { 
 	monarch = {
-		name = "Masazane"
-		dynasty = "Uesugi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1473.12.22 = { 
-	monarch = {
-		name = "Sadamasa"
-		dynasty = "Uesugi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1473.12.22 = {
-	heir = {
 		name = "Tomoyoshi"
-		monarch_name = "Tomoyoshi"
 		dynasty = "Uesugi"
 		birth_date = 1473.1.1
 		death_date = 1518.5.30
-		claim = 90
-		adm = 3
+		adm = 4
 		dip = 3
 		mil = 3
 	}
-}
-
-1494.11.2 = { 
-	monarch = {
-		name = "Tomoyoshi"
-		dynasty = "Uesugi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1494.11.2 = {
 	heir = {
 		name = "Tomooki"
 		monarch_name = "Tomooki"
@@ -119,40 +41,45 @@ capital = 512	# Iruma
 		claim = 90
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = arbitrary_personality
+	add_heir_personality = reckless_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = proud_personality
 }
 
-1518.5.30 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Tomooki"
 		dynasty = "Uesugi"
+		birth_date = 1488.1.1
+		death_date = 1537.6.4
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = reckless_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = proud_personality
+	government = shugo_daimyo_monarchy
 }
 
-1525.1.1 = {
-	heir = {
-		name = "Tomosada"
-		monarch_name = "Tomosada"
-		dynasty = "Uesugi"
-		birth_date = 1525.1.1
-		death_date = 1546.5.19
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1537.6.4 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Tomosada"
 		dynasty = "Uesugi"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1525.1.1
+		death_date = 1546.5.19
+		adm = 4
+		dip = 5
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = reckless_personality
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = ambitious_personality
 }

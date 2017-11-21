@@ -4,67 +4,43 @@ primary_culture = shimabara_c
 religion = shinto
 technology_group = kyushu
 capital = 48	# Sonoki
-
-
-1420.1.1 = { 
+	
+1467.6.15 = { 
 	monarch = {
-		name = "Shigetoshi"
-		dynasty = "Omura"
-		adm = 5
-		dip = 4
-		mil = 5
-		}
-	}
-
-1430.1.1 = {
-	heir = {
 		name = "Ienori"
-		monarch_name = "Ienori"
 		dynasty = "Omura"
 		birth_date = 1430.1.1
 		death_date = 1475.1.1
-		claim = 90
-		adm = 5
+		adm = 4
 		dip = 4
-		mil = 5
+		mil = 4
 	}
-}
-	
-1450.1.1 = { 
-	monarch = {
-		name = "Ienori"
-		dynasty = "Omura"
-		adm = 5
-		dip = 4
-		mil = 5
-		}
-	}
-
-1460.1.1 = {
 	heir = {
-		name = "Sumitada"
+		name = "Sumikore"
 		monarch_name = "Sumitada"
 		dynasty = "Omura"
-		birth_date = 1460.1.1
-		death_date = 1510.1.1
+		birth_date = 1459.1.1
+		death_date = 1547.1.1
 		claim = 90
 		adm = 5
 		dip = 4
 		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = artistic_personality
+	add_heir_personality = brave_personality
 }
 	
-1475.1.1 = { 
+1493.6.9 = { 
 	monarch = {
-		name = "Sumitada"
+		name = "Sumikore"
 		dynasty = "Omura"
+		birth_date = 1459.1.1
+		death_date = 1547.1.1
 		adm = 5
 		dip = 4
 		mil = 5
-		}
 	}
-
-1490.1.1 = {
 	heir = {
 		name = "Sumisaki"
 		monarch_name = "Sumisaki"
@@ -72,23 +48,31 @@ capital = 48	# Sonoki
 		birth_date = 1490.1.1
 		death_date = 1551.1.1
 		claim = 90
-		adm = 5
+		adm = 4
 		dip = 4
-		mil = 5
+		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = brave_personality
 }
 	
-1510.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Sumisaki"
 		dynasty = "Omura"
-		adm = 5
+		birth_date = 1490.1.1
+		death_date = 1551.1.1
+		adm = 4
 		dip = 4
-		mil = 5
-		}
+		mil = 3
 	}
+	
+1523.8.25 = {
+	government = sengoku_monarchy
+}
 
-1533.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Sumitada"
 		monarch_name = "Sumitada"
@@ -97,22 +81,33 @@ capital = 48	# Sonoki
 		death_date = 1587.1.1
 		claim = 90
 		adm = 5
-		dip = 4
-		mil = 5
+		dip = 7
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = pious_personality
+	add_heir_personality = mercantile_personality
+	add_heir_personality = xenophilic_personality
+	add_heir_personality = zealot_personality
 }
 	
-1550.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Sumitada"
 		dynasty = "Omura"
+		birth_date = 1533.1.1
+		death_date = 1587.1.1
 		adm = 5
-		dip = 4
-		mil = 5
-		}
+		dip = 7
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = pious_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = xenophilic_personality
+	add_ruler_personality = zealot_personality
 
-1569.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Yoshiaki"
 		monarch_name = "Yoshiaki"
@@ -120,23 +115,30 @@ capital = 48	# Sonoki
 		birth_date = 1569.1.1
 		death_date = 1616.1.1
 		claim = 90
-		adm = 5
+		adm = 3
 		dip = 4
-		mil = 5
+		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = pious_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = xenophilic_personality
+	add_ruler_personality = zealot_personality
+	add_heir_personality = pious_personality
+	add_heir_personality = zealot_personality
+	add_heir_personality = draconian_personality
 }
 	
-1587.1.1 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Yoshiaki"
 		dynasty = "Omura"
-		adm = 5
+		birth_date = 1569.1.1
+		death_date = 1616.1.1
+		adm = 3
 		dip = 4
-		mil = 5
-		}
+		mil = 3
 	}
-	
-1592.1.1 = {
 	heir = {
 		name = "Sumiyori"
 		monarch_name = "Sumiyori"
@@ -144,8 +146,30 @@ capital = 48	# Sonoki
 		birth_date = 1592.1.1
 		death_date = 1619.1.1
 		claim = 90
-		adm = 5
-		dip = 4
-		mil = 5
+		adm = 3
+		dip = 3
+		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = pious_personality
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = draconian_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Sumitada"
+		dynasty = "Omura"
+		birth_date = 1533.1.1
+		adm = 5
+		dip = 7
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = pious_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = xenophilic_personality
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

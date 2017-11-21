@@ -3,167 +3,29 @@ government_rank = 4
 primary_culture = choshu_c
 religion = shinto
 technology_group = saigoku
-historical_rival = AMA
-historical_rival = OTM
 capital = 113	# Yoshiki
-
-1320.1.1 = {
-	monarch = {
-		name = "Hiroyuki" 
-		dynasty = "Ouchi"
-		adm = 4
-		dip = 3
-		mil = 3
-	}
-}
-
-1325.1.1 = {
-	heir = {
-		name = "Hiroyo"
-		monarch_name = "Hiroyo"
-		dynasty = "Ouchi"
-		birth_date = 1325.1.1
-		death_date = 1380.12.12
-		claim = 80
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-}
-
-1352.4.20 = {
-	monarch = {
-		name = "Hiroyo" 
-		dynasty = "Ouchi"
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-}
-
-1356.1.1 = {
-	heir = {
-		name = "Yoshihiro"
-		monarch_name = "Yoshihiro"
-		dynasty = "Ouchi"
-		birth_date = 1325.1.1
-		death_date = 1400.1.17
-		claim = 80
-		adm = 3
-		dip = 4
-		mil = 4
-	}
-}
-
-1380.12.12 = {
-	monarch = {
-		name = "Yoshihiro" 
-		dynasty = "Ouchi"
-		adm = 3
-		dip = 4
-		mil = 4
-	}
-}
-
-1394.3.23 = {
-	heir = {
-		name = "Mochiyo"
-		monarch_name = "Mochiyo"
-		dynasty = "Ouchi"
-		birth_date = 1394.3.23
-		death_date = 1441.8.14
-		claim = 70
-		adm = 3
-		dip = 2
-		mil = 3
-	}
-}
 	
-1400.1.7 = { 
+1467.6.15 = { 
 	monarch = {
-		name = "Hiroshige"
-		dynasty = "Ouchi"
-#		birth_date = 1394.3.23
-#		death_date = 1441.8.14
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1401.1.1 = { 
-	monarch = {
-		name = "Morimi"
-		dynasty = "Ouchi"
-		adm = 3
-		dip = 2
-		mil = 4
-	}
-}
-	
-1431.1.1 = { 
-	monarch = {
-		name = "Mochiyo"
-		dynasty = "Ouchi"
-		adm = 3
-		dip = 2
-		mil = 3
-	}
-}
-	
-1431.1.1 = {
-	heir = {
-		name = "Norihiro"
-		monarch_name = "Norihiro"
-		dynasty = "Ouchi"
-		birth_date = 1420.3.20
-		death_date = 1465.9.3
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1441.1.1 = { 
-	monarch = {
-		name = "Norihiro"
-		dynasty = "Ouchi"
-#		birth_date = 1420.3.20
-#		death_date = 1465.9.3
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1446.8.27 = {
-	heir = {
 		name = "Masahiro"
-		monarch_name = "Masahiro"
 		dynasty = "Ouchi"
-		birth_date = 1446.8.27
+		birth_date = 1446.9.18
 		death_date = 1495.10.6
-		claim = 90
-		adm = 4
-		dip = 4
-		mil = 5
+		adm = 6
+		dip = 6
+		mil = 8
+		leader = {
+			name = "Masahiro Ouchi"
+			type = general
+			rank = 1
+			fire = 4
+			shock = 4
+			manuever = 4
+			siege = 2
+			death_date = 1495.10.6
+			personality = unflinching_leader_personality
+		}
 	}
-}
-	
-1465.9.3 = { 
-	monarch = {
-		name = "Masahiro"
-		dynasty = "Ouchi"
-#		birth_date = 1446.9.18
-#		death_date = 1495.10.6
-		adm = 4
-		dip = 4
-		mil = 5
-	}
-}
-
-1477.4.7 = {
 	heir = {
 		name = "Yoshioki"
 		monarch_name = "Yoshioki"
@@ -171,25 +33,73 @@ capital = 113	# Yoshiki
 		birth_date = 1477.4.7
 		death_date = 1529.1.29
 		claim = 90
-		adm = 4
-		dip = 5
-		mil = 5
+		adm = 8
+		dip = 8
+		mil = 8
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = erudite_personality
+	add_heir_personality = stern_personality
+	add_heir_personality = equestrian_personality
+	add_heir_personality = gracious_personality
+	add_heir_personality = profligate_personality
 }
 
-1495.10.6 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Yoshioki"
 		dynasty = "Ouchi"
-#		birth_date = 1477.4.7
-#		death_date = 1529.1.29
-		adm = 4
-		dip = 5
-		mil = 5
+		birth_date = 1477.4.7
+		death_date = 1529.1.29
+		adm = 8
+		dip = 8
+		mil = 8
+		leader = {
+			name = "Yoshioki Ouchi"
+			type = general
+			rank = 1
+			fire = 4
+			shock = 4
+			manuever = 4
+			siege = 2
+			death_date = 1529.1.29
+			personality = rapid_mobilizer_personality
+		}
 	}
+	queen = {
+		country_of_origin = NTO
+		name = "Higashi"
+		dynasty = "Naito"
+		birth_date = 1471.1.1
+		death_date = 1559.7.15
+		female = yes
+		adm = 6
+		dip = 5
+		mil = 2
+	}
+	leader = {
+		name = "Okifusa Sue"
+		type = general
+		rank = 1
+		fire = 3
+		shock = 5
+		manuever = 2
+		siege = 0
+		death_date = 1539.5.6
+		personality = skilled_tactician_personality
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = profligate_personality
+	add_queen_personality = erudite_personality
 }
 
-1507.12.18 = {
+1511.9.25 = {
 	heir = {
 		name = "Yoshitaka"
 		monarch_name = "Yoshitaka"
@@ -197,39 +107,85 @@ capital = 113	# Yoshiki
 		birth_date = 1507.12.18
 		death_date = 1551.9.30
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 2
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = profligate_personality
+	add_heir_personality = mercantile_personality
+	add_heir_personality = tolerant_personality
+	add_heir_personality = erudite_personality
+	add_heir_personality = artistic_personality
+}
+
+1523.8.25 = {
+	leader = {
+		name = "Okifusa Sue"
+		type = general
+		rank = 1
+		fire = 3
+		shock = 5
+		manuever = 2
+		siege = 0
+		death_date = 1539.5.6
+		personality = skilled_tactician_personality
 	}
 }
 
-1545.1.1 = {
-	heir = {
-		name = "Yoshitaka"
-		monarch_name = "Yoshitaka"
-		dynasty = "Ouchi"
-		birth_date = 1545.1.1
-		death_date = 1551.10.1
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1544.1.1 = {
+1536.4.7 = {
 	monarch = {
 		name = "Yoshitaka"
 		dynasty = "Ouchi"
-#		birth_date = 1507.12.18
-#		death_date = 1551.9.30
-		adm = 3
-		dip = 3
-		mil = 2
+		birth_date = 1507.12.18
+		death_date = 1551.9.30
+		adm = 6
+		dip = 7
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = artistic_personality
+	leader = {
+		name = "Harukata Sue"
+		type = general
+		rank = 1
+		fire = 4
+		shock = 4
+		manuever = 4
+		siege = 0
+		death_date = 1555.10.16
+		personality = frontline_leader_personality
+	}
+	leader = {
+		name = "Takakane Hironaka"
+		type = general
+		rank = 1
+		fire = 2
+		shock = 4
+		manuever = 2
+		siege = 0
+		death_date = 1555.10.16
+	}
+	leader = {
+		name = "Takatoyo Reizei"
+		type = general
+		rank = 1
+		fire = 3
+		shock = 3
+		manuever = 2
+		siege = 2
+		death_date = 1551.9.30
+		personality = unflinching_leader_personality
 	}
 }
 
-1544.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Yoshinaga"
 		monarch_name = "Yoshinaga"
@@ -237,34 +193,74 @@ capital = 113	# Yoshiki
 		birth_date = 1532.1.1
 		death_date = 1557.5.1
 		claim = 70
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 3
+		dip = 4
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = mercantile_personality
+	add_heir_personality = tolerant_personality
+	add_heir_personality = lenient_personality
 }
 
-1545.1.1 = {
-	heir = {
-		name = "Yoshitaka"
-		monarch_name = "Yoshitaka"
-		dynasty = "Ouchi"
-		birth_date = 1545.1.1
-		death_date = 1551.10.1
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1551.10.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Yoshinaga"
 		dynasty = "Ouchi"
-#		birth_date = 1532.1.1
-#		death_date = 1557.5.1
-		adm = 2
-		dip = 2
-		mil = 2
+		birth_date = 1532.1.1
+		death_date = 1557.5.1
+		adm = 3
+		dip = 4
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = lenient_personality
+}
+
+1569.10.10 = {
+	monarch = {
+		name = "Teruhiro"
+		dynasty = "Ouchi"
+		birth_date = 1520.1.1
+		death_date = 1569.12.3
+		adm = 2
+		dip = 3
+		mil = 4
+		leader = {
+			name = "Teruhiro Ouchi"
+			type = general
+			rank = 1
+			fire = 2
+			shock = 2
+			manuever = 2
+			siege = 2
+			death_date = 1569.12.3
+			personality = local_recruiter_personality
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = connected_personality
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshioki"
+		dynasty = "Ouchi"
+		birth_date = 1477.4.7
+		death_date = 1529.1.29
+		adm = 8
+		dip = 8
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = profligate_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

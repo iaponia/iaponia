@@ -10,7 +10,7 @@ add_core = NGO
 owner = OUE
 controller = OUE
 
-culture = musashi_c
+culture = kozuke_c
 religion = shinto
 capital = "Aoyagi"
 is_city = yes

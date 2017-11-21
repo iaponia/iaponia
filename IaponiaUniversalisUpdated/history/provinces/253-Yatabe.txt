@@ -10,7 +10,7 @@ add_core = YKS
 owner = HSK
 controller = HSK
 
-culture = harima_c
+culture = sesshu_c
 religion = shinto
 capital = "Hyogo"
 is_city = yes
@@ -19,7 +19,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 
-trade_goods = seaweed
+trade_goods = salt
 
 
 1550.11.19 = {

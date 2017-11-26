@@ -19,7 +19,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 
-trade_goods = dyes
+trade_goods = fur
 
 
 1571.1.1 = {

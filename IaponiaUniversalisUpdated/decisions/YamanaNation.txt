@@ -39,85 +39,103 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
 			takata_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
-			bingo_area = {
+			okubingo_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
 			mitsugi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
+			}
+			fukuyama_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = YMN
 			}
 			hoki_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
 			mashima_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
-			mimasaka_area = {
+			katsuta_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
-			inaba_area = {
+			tottori_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
-			bizen_area = {
+			yazu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
+			}
+			tobi_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = YMN
 			}
 			kojima_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
 			ako_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
-			harima_area = {
+			shikama_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
 			akashi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
 			}
-			tajima_area = {
+			nantan_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = YMN
+				add_permanent_claim = YMN
+			}
+			hokutan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = YMN
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

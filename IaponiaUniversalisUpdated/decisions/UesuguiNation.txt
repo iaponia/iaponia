@@ -39,84 +39,121 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
 			}
-			echigo_area = {
+			joetsu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
-			}
-			shibata_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_claim = UES
+				add_permanent_claim = UES
 			}
 			uonuma_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
 			}
-			kozuke_area = {
+			kanbara_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
+			}
+			iwafune_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = UES
+			}
+			takasaki_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = UES
+			}
+			akagi_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = UES
 			}
 			tago_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
+			}
+			kozukeota_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = UES
 			}
 			kodama_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
 			}
 			saitama_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
 			}
 			iruma_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
 			}
-			musashi_area = {
+			chichibu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
+			}
+			edotama_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = UES
+			}
+			kanagawa_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = UES
 			}
 			kamakura_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
 			}
-			sagami_area = {
+			ashigara_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
+			}
+			chuso_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = UES
 			}
 			izu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = UES
+				add_permanent_claim = UES
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
 			add_prestige = 25
 		}
 		ai_will_do = {

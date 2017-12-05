@@ -27,22 +27,23 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ODA
-			owari_area = {
+			oda_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = ODA
+				add_permanent_claim = ODA
 			}
 			aichi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = ODA
+				add_permanent_claim = ODA
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
 			add_prestige = 25
 		}
 		ai_will_do = {

@@ -13,37 +13,49 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SBA
-			echizen_area = {
+			fukui_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = SBA
+				add_permanent_claim = SBA
 			}
-			owari_area = {
+			nanetsu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = SBA
+				add_permanent_claim = SBA
+			}
+			oda_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SBA
 			}
 			aichi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = SBA
+				add_permanent_claim = SBA
 			}
 			haibara_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = SBA
+				add_permanent_claim = SBA
 			}
-			totomi_area = {
+			hamana_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = SBA
+				add_permanent_claim = SBA
 			}
-			add_claim = 602
+			tenryu_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SBA
+			}
+			add_permanent_claim = 602
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

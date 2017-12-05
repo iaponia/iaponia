@@ -13,10 +13,10 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ADO
-			add_claim = 575
-			add_claim = 574
-			add_claim = 573
-			add_claim = 658
+			add_permanent_claim = 575
+			add_permanent_claim = 574
+			add_permanent_claim = 573
+			add_permanent_claim = 658
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

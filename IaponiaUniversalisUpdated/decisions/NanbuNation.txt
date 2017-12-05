@@ -28,30 +28,20 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = NNB
-			hei_area = {
+			nambu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = NNB
-			}
-			iwate_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_claim = NNB
-			}
-			rikugo_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_claim = NNB
+				add_permanent_claim = NNB
 			}
 			tsugaru_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = NNB
+				add_permanent_claim = NNB
 			}
+			add_permanent_claim = 664
+			add_permanent_claim = 665
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

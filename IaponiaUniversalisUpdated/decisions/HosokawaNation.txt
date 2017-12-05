@@ -29,79 +29,97 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = HSK
-			mikawa_area = {
+			okazaki_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
-			shitara_area = {
+			toyohashi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
-			awa_area = {
+			shozui_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
+			}
+			miyoshi_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = HSK
 			}
 			kaifu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
 			awaji_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
-			bitchu_area = {
+			okubitchu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
 			asakuchi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
-			sanuki_area = {
+			yashima_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
 			marugame_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
-			tosa_area = {
+			kochi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
 			nakamura_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
 			izumi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
+				add_permanent_claim = HSK
+			}
+			kawabe_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = HSK
+			}
+			ikeda_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
 				add_claim = HSK
 			}
-			settsu_area = {
+			suma_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -111,9 +129,9 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
-			yamashiro_area = {
+			yodo_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
@@ -123,11 +141,11 @@ country_decisions = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HSK
+				add_permanent_claim = HSK
 			}
 
-			add_claim = 138
-			add_claim = 139
+			add_permanent_claim = 138
+			add_permanent_claim = 139
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

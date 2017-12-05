@@ -286,7 +286,7 @@ higashiyama_culture_i = {
 					area = kyoto_area
 					area = izumi_area
 					area = noto_area
-					area = echizen_area
+					area = fukui_area
 				}
 			}
 			custom_trigger_tooltip = {
@@ -296,7 +296,7 @@ higashiyama_culture_i = {
 					area = kyoto_area
 					area = izumi_area
 					area = noto_area
-					area = echizen_area
+					area = fukui_area
 				}
 			}
 		}

@@ -46,40 +46,54 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SMZ
-			satsuma_area = {
+			hokusatsu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = SMZ
+				add_permanent_claim = SMZ
 			}
 			kagoshima_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = SMZ
+				add_permanent_claim = SMZ
 			}
 			kawanabe_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = SMZ
+				add_permanent_claim = SMZ
 			}
-			osumi_area = {
+			kimotsuki_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = SMZ
+				add_permanent_claim = SMZ
 			}
-			hyuga_area = {
+			so_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = SMZ
+				add_permanent_claim = SMZ
+			}
+			nichinan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SMZ
+			}
+			morokata_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SMZ
+				add_permanent_claim = SMZ
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
 			add_prestige = 25
 		}
 		ai_will_do = {

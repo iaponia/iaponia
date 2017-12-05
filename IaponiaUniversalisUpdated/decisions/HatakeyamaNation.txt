@@ -35,52 +35,59 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = HTK
-			kii_area = {
+			waka_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HTK
+				add_permanent_claim = HTK
 			}
-			nankii_area = {
+			kinan_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HTK
+				add_permanent_claim = HTK
 			}
 			noto_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HTK
+				add_permanent_claim = HTK
 			}
 			nishigori_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HTK
+				add_permanent_claim = HTK
 			}
-			kawachi_area = {
+			nakakawachi_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HTK
+				add_permanent_claim = HTK
 			}
 			katano_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HTK
+				add_permanent_claim = HTK
+			}
+			yamatogawa_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = HTK
 			}
 			etchu_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
-				add_claim = HTK
+				add_permanent_claim = HTK
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
 			add_prestige = 25
 		}
 		ai_will_do = {

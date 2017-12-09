@@ -6,10 +6,11 @@ technology_group = ainu
 capital = 612
 
 
-1404.1.1 = {
+1425.1.1 = {
 	monarch = {
 		name = "Ainurakkur"
 		dynasty = "Apashiri"
+		birth_date = 1425.1.1
 		adm = 3
 		dip = 2
 		mil = 2

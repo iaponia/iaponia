@@ -5,18 +5,18 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = RYU
-owner = RYU
-controller = RYU
+add_core = TNA
+owner = TNA
+controller = TNA
 
-culture = ryukyuan_c
-religion = ryukyuan
-capital = "Toshima"
+culture = sasshu_c
+religion = shinto
+capital = "Nakanoshima"
 is_city = yes
 
-base_tax = 3
+base_tax = 2
 base_production = 2
-base_manpower = 2
+base_manpower = 1
 
 trade_goods = horses
 

@@ -6,23 +6,18 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = RYU
-add_core = CHZ
+add_core = HKZ
 owner = RYU
 controller = RYU
 
 culture = okinawan_c
 religion = ryukyuan
-capital = "Shuri"
+capital = "Nachijin"
 is_city = yes
 
-base_tax = 4
-base_production = 4
+base_tax = 2
+base_production = 3
 base_manpower = 3
 
-trade_goods = mainland_trade
-
-add_permanent_province_modifier = {
-	name = center_of_trade_modifier
-	duration = -1
-}
+trade_goods = seaweed
 

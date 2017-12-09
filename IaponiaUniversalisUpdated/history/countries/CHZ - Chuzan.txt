@@ -1,0 +1,7 @@
+government = despotic_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = kyushu
+religion = ryukyuan
+primary_culture = okinawan_c
+capital = 697	# Chuzan

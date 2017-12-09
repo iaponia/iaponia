@@ -50,7 +50,7 @@ northern_sea_of_japan_area = {
 ########################################
 
 kagoshima_area = {
-	1 4 6 9
+	1 4 6 9 695
 }
 
 kawanabe_area = {
@@ -62,7 +62,7 @@ hokusatsu_area = {
 }
 
 kimotsuki_area = {
-	14 17 635
+	14 17 94 635 703
 }
 
 so_area = {
@@ -157,8 +157,12 @@ iizuka_area = {
 	68 69 70 71
 }
 
-okinawa_area = {
-	94 695 696 697 703
+uchinaa_area = {
+	697 715 716
+}
+
+michinoshima_area = {
+	696 717 718
 }
 
 ########################################

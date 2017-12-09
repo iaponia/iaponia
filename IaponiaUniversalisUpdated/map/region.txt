@@ -26,7 +26,6 @@ kyushu_region = {
 		moji_area
 		iizuka_area
 		strait_islands_area
-		okinawa_area
 		kitsuki_area
 		so_area
 		morokata_area
@@ -35,6 +34,8 @@ kyushu_region = {
 		tachibana_area
 		aso_area
 		usa_area
+		uchinaa_area
+		michinoshima_area
 	}
 }
 

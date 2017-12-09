@@ -10,6 +10,7 @@ capital = 615
 	monarch = {
 		name = "Koshamain"
 		dynasty = "Horepashi"
+		birth_date = 1425.1.1
 		adm = 3
 		dip = 3
 		mil = 4

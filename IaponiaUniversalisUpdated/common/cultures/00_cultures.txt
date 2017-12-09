@@ -22,8 +22,12 @@ hayato_c = {
 		primary = SGR
 		dynasty_names = { Sagara Uemura Okamoto Indo }
 	}
-	ryukyuan_c = { #Okinawa
+	okinawan_c = { #Okinawa
 		primary = RYU
+		dynasty_names = { Sho }
+	}
+	amami_c = { #Ryukyu except Okinawa
+		primary = AMM
 		dynasty_names = { Sho }
 	}
 }

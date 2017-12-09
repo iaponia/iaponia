@@ -10,7 +10,7 @@ mercantilism = 0.1
 #serfdom_freesubjects = -3
 technology_group = kyushu
 religion = ryukyuan
-primary_culture = ryukyuan_c
+primary_culture = okinawan_c
 capital = 697	# Shuri
 
 

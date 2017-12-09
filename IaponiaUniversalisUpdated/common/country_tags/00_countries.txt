@@ -282,3 +282,8 @@ WKZ = "countries/Wakizaka.txt"
 YMC = "countries/Yamauchi.txt"
 YMK = "countries/Yamanaka.txt"
 YUK = "countries/Yuki.txt"
+
+AMM = "countries/Amami.txt"
+CHZ = "countries/Chuzan.txt"
+HKZ = "countries/Hokuzan.txt"
+NNZ = "countries/Nanzan.txt"

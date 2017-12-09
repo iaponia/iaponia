@@ -6,10 +6,11 @@ technology_group = ainu
 capital = 708
 
 
-1404.1.1 = {
+1425.1.1 = {
 	monarch = {
 		name = "Unakeshi"
 		dynasty = "Shiraoi"
+		birth_date = 1425.1.1
 		adm = 2
 		dip = 2
 		mil = 3

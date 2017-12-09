@@ -93,6 +93,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_building_to_unit"
+		texturefile = "gfx//interface//building_to_unit.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_stars_small"
 		texturefile = "gfx//interface//dots.tga"
 		noOfFrames = 13
@@ -720,7 +725,7 @@ spriteTypes = {
 	}
 
 	progressbartype = {
-		name = "GFX_unitpanel_progressbar"
+		name = "GFX_convert_progressbar"
 		color = { 0.0 0.5 0.0 }
 		colortwo = { 1.0 0.0 0.0 }
 		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_green.dds"
@@ -729,12 +734,55 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress.lua"
 	}
 	progressbartype = {
-		name = "GFX_unitpanel_progressbar_yellow"
+		horizontal = no
+		name = "GFX_unitpanel_drill_progressbar"
+		color = { 0.1 0.1 0.1 }
+		colortwo = { 1.0 0.1 0.5 }
+		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_teal_v.dds"
+		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_black_v.dds"
+		size = { x = 10 y = 39 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_vertical_bar_bg"
+		texturefile = "gfx/interface/vertical_bar_bg.dds"
+	}		
+	
+	progressbartype = {
+		horizontal = no
+		name = "GFX_unitpanel_drill_progressbar_s"
+		color = { 0.1 0.1 0.1 }
+		colortwo = { 1.0 0.1 0.5 }
+		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_teal_s_v.dds"
+		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_black_s_v.dds"
+		size = { x = 6 y = 23 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_vertical_bar_bg_s"
+		texturefile = "gfx/interface/vertical_bar_bg_s.dds"
+	}	
+	
+	progressbartype = {
+		horizontal = no
+		name = "GFX_unitpanel_morale_progressbar"
 		color = { 0.0 0.5 0.0 }
 		colortwo = { 1.0 0.0 0.0 }
-		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_yellow.dds"
-		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_black.dds"
-		size = { x = 39 y = 9 }
+		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_green_v.dds"
+		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_black_v.dds"
+		size = { x = 10 y = 39 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	progressbartype = {
+		horizontal = no
+		name = "GFX_unitpanel_morale_progressbar_yellow"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_yellow_v.dds"
+		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_black_v.dds"
+		size = { x = 10 y = 39 }
 		effectFile = "gfx/FX/progress.lua"
 	}
 
@@ -928,6 +976,12 @@ spriteTypes = {
 
 	### SORT BUTTONS
 
+	
+		textSpriteType = {
+		name = "GFX_sort_79_core"
+		texturefile = "gfx/interface/sort_79_core.dds"
+	}
+
 		textSpriteType = {
 		name = "GFX_sort_79"
 		texturefile = "gfx/interface/sort_79.dds"
@@ -971,6 +1025,11 @@ spriteTypes = {
 		textSpriteType = {
 		name = "GFX_sort_62"
 		texturefile = "gfx/interface/sort_62.dds"
+	}
+
+		textSpriteType = {
+		name = "GFX_sort_62_dev"
+		texturefile = "gfx/interface/sort_62_dev.dds"
 	}
 
 	spriteType = {

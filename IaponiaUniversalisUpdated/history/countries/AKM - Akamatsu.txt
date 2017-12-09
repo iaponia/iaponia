@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 250	# Itto
 
-1467.6.15 = { 
+1467.6.15 = {
 	monarch = {
 		name = "Masanori"
 		dynasty = "Akamatsu"
@@ -32,8 +32,8 @@ capital = 250	# Itto
 	add_ruler_personality = legislator_personality
 	add_ruler_personality = architect_personality
 }
-	
-1493.6.9 = { 
+
+1493.6.9 = {
 	heir = {
 		name = "Yoshimura"
 		monarch_name = "Yoshimura"
@@ -54,8 +54,8 @@ capital = 250	# Itto
 		add_heir_personality = ambitious_personality
 		add_heir_personality = reckless_personality
 	}
-	
-1511.9.25 = { 
+
+1511.9.25 = {
 	monarch = {
 		name = "Yoshimura"
 		dynasty = "Akamatsu"
@@ -66,12 +66,12 @@ capital = 250	# Itto
 		mil = 4
 		}
 		clear_scripted_personalities = yes
-		add_monarch_personality = centralizer_personality
-		add_monarch_personality = ambitious_personality
-		add_monarch_personality = reckless_personality
+		add_ruler_personality = centralizer_personality
+		add_ruler_personality = ambitious_personality
+		add_ruler_personality = reckless_personality
 	}
 	
-1523.8.25 = { 
+1523.8.25 = {
 	monarch = {
 		name = "Harumasa"
 		dynasty = "Akamatsu"
@@ -82,8 +82,8 @@ capital = 250	# Itto
 		mil = 4
 		}
 		clear_scripted_personalities = yes
-		add_monarch_personality = cunning_personality
-		add_monarch_personality = craven_personality
+		add_ruler_personality = cunning_personality
+		add_ruler_personality = craven_personality
 	}
 
 1546.5.19 = {
@@ -99,12 +99,12 @@ capital = 250	# Itto
 		mil = 4
 	}
 	clear_scripted_personalities = yes
-	add_monarch_personality = cunning_personality
-	add_monarch_personality = craven_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = craven_personality
 	add_heir_personality = pious_personality
 }
-	
-1569.10.10 = { 
+
+1569.10.10 = {
 	monarch = {
 		name = "Yoshisuke"
 		dynasty = "Akamatsu"
@@ -127,7 +127,7 @@ capital = 250	# Itto
 		mil = 4
 	}
 	clear_scripted_personalities = yes
-	add_monarch_personality = pious_personality
+	add_ruler_personality = pious_personality
 	add_heir_personality = connected_personality
 }
 

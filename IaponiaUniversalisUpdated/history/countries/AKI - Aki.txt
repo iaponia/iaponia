@@ -94,7 +94,6 @@ capital = 135	# Aki
 		leader = {
 			name = "Kunitora Aki"
 			type = general
-			rank = 1
 			fire = 0
 			shock = 3
 			manuever = 3

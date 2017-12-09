@@ -121,7 +121,6 @@ capital = 564	# Dewa-Tagawa
 		leader = {
 			name = "Yoshiuji Daihoji"
 			type = general
-			rank = 1
 			fire = 2
 			shock = 3
 			manuever = 0

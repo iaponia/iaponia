@@ -17,7 +17,6 @@ capital = 250	# Itto
 		leader = {
 			name = "Masanori Akamatsu"
 			type = general
-			rank = 1
 			fire = 0
 			shock = 4
 			manuever = 3

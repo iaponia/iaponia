@@ -101,7 +101,6 @@ capital = 571	# Ogachi
 	leader = {
 		name = "Yasumichi Onodera"
 		type = general
-		rank = 1
 		fire = 3
 		shock = 3
 		manuever = 2

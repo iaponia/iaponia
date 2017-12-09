@@ -98,7 +98,6 @@ capital = 575	# Hiyama
 		leader = {
 			name = "Chikasue Arima"
 			type = general
-			rank = 1
 			fire = 2
 			shock = 2
 			manuever = 3

@@ -17,7 +17,6 @@ capital = 256	# Mino
 		leader = {
 			name = "Nariharu Bessho"
 			type = general
-			rank = 1
 			fire = 2
 			shock = 3
 			manuever = 2

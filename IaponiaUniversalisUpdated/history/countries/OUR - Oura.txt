@@ -86,7 +86,6 @@ capital = 605	# Tsugaru
 		leader = {
 			name = "Nagamasa Azai"
 			type = general
-			rank = 1
 			fire = 3
 			shock = 3
 			manuever = 3

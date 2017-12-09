@@ -17,7 +17,6 @@ capital = 553	# Kubiki
 		leader = {
 			name = "Fusasada Uesugi"
 			type = general
-			rank = 1
 			fire = 3
 			shock = 3
 			manuever = 0

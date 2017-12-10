@@ -483,3 +483,43 @@ defined_text = {
         }
     }
 }
+
+#Definite Article before name? (ie for country names in plural form)
+defined_text = {
+    name = GetDefiniteArticleBeforePluralCountry
+	random = no
+	
+	text = {
+		
+        localisation_key = string_definite_article_before_country
+        trigger = {
+			tag_with_plural_name_trigger = yes
+        }
+    }
+    text = {
+        localisation_key = string_empty
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+#Hiding regency council in titles
+
+defined_text = {
+    name = GetRulerOrRegency
+	random = no
+	
+	text = {
+        localisation_key = string_ruler_name_really
+        trigger = {
+			has_regency = no
+        }
+    }
+    text = {
+        localisation_key = string_regency_council
+        trigger = {
+			has_regency = yes
+        }
+    }
+}

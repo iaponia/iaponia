@@ -90,6 +90,10 @@ on_battle_lost_province = {
 # country
 # root = winning country, from = location
 on_siege_won_country = {
+	random_events = {
+		10 = army_professionalism_events.1 #City Sacked
+		100 = 0
+	}
 }
 
 # country
@@ -522,6 +526,11 @@ on_overextension_pulse = {
 
 on_colonial_pulse = {
 }
+}
+
+on_siberian_pulse = {
+}
+
 
 # country random events
 on_bi_yearly_pulse = {
@@ -700,6 +709,13 @@ on_bi_yearly_pulse = {
 		100 = catholic_flavor.8
 		100 = catholic_flavor.9
 		100 = catholic_flavor.10
+
+		# Sailor events
+		100 = sailor_event.1
+		100 = sailor_event.2
+		100 = sailor_event.3
+		100 = sailor_event.4
+		100 = sailor_event.5
 
 		# Corruption Events
 		100 = corruption_event.16
@@ -1270,12 +1286,13 @@ on_province_religion_converted = {
 on_province_culture_converted = {
 }
 
+# THIS = Province, FROM = Country who Propogated
+on_convert_by_trade_policy = {
+}
+
 # province
 # FROM = old owner
 on_province_owner_change = {
-	events = {
-		japan.1
-	}
 }
 
 # country
@@ -1284,4 +1301,110 @@ on_parliament_debate_failed = {
 
 # country
 on_parliament_debate_succeeded = {
+}
+
+# country
+on_harmonized_pagan = {
+}
+on_harmonized_christian = {
+}
+on_harmonized_muslim = {
+}
+on_harmonized_jewish_group = {
+}
+on_harmonized_zoroastrian_group = {
+}
+on_harmonized_dharmic = {
+}
+on_harmonized_mahayana = {
+}
+on_harmonized_buddhism = { #Theravada
+}
+on_harmonized_shinto = {
+}
+on_harmonized_vajrayana = {
+}
+
+# country
+on_russian_sudebnik = {
+
+}
+
+# country
+on_russian_oprichnina = {
+
+}
+
+# country
+on_russian_streltsy = {
+
+}
+
+# province
+on_consecrate_patriarch = {
+}
+
+# country. from = overlord
+on_accept_tribute = {
+}
+
+# country. from = overlord
+on_refuse_tribute = {
+}
+
+# country
+on_leader_recruited = {
+}
+
+# country
+on_general_recruited = {
+	add_army_professionalism = 0.01
+}
+
+# country
+on_admiral_recruited = {
+}
+
+# country
+on_conquistador_recruited = {
+}
+
+# country
+on_explorer_recruited = {
+}
+
+# THIS = Province, FROM = Country
+on_regiment_recruited = {
+	
+}
+
+# THIS = Province, FROM = Country
+on_mercenary_recruited = {
+	FROM = {
+		add_army_professionalism = -0.0015
+	}
+}
+
+# THIS = One province in the state
+on_add_pasha = {
+}
+
+# THIS = One province in the state
+on_remove_pasha = {
+	hidden_effect = {
+		owner = {
+			save_event_target_as = province_owner
+		}
+		remove_province_modifier = pasha_removed_modifier
+	}
+
+	area = {
+		limit = { owned_by = event_target:province_owner }
+		add_or_extend_province_modifier_effect = { MODIFIER = pasha_removed_modifier DURATION = 3650 }
+	}
+}
+
+# THIS = Province
+on_janissares_raised = {
+	
 }

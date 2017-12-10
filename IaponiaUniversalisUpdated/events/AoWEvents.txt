@@ -442,6 +442,7 @@ country_event = {
 	# Rein them in
 	option = {
 		name = "aow_events.12.a"
+		add_army_professionalism = 0.02
 		add_country_modifier = {
 			name = "curtailed_mercenaries"
 			duration = 1825

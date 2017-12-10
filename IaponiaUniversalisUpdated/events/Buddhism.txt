@@ -280,7 +280,7 @@ country_event = {
 }
 
 #High Karma
-#1 ggoes even higher, 2 lowers it for a cost.
+#1 goes even higher, 2 lowers it for a cost.
 
 #Precedent of RULER
 country_event = {
@@ -559,7 +559,7 @@ country_event = {
 			}
 		}
 		add_karma = -10
-		add_manpower = 0.05
+		add_yearly_manpower = 0.5
 	}
 	#option = {
 	#	name = buddhism_events.9.c #Fine the Monasteries for any deserter found.

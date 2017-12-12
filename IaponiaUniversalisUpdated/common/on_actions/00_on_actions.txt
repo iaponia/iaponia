@@ -155,9 +155,6 @@ on_monarch_death = {
 
 # country
 on_regent = {
-	events = {
-		tribal_succession.1	# harsh anti-tribals.
-	}
 }
 
 # country
@@ -173,6 +170,13 @@ on_death_election = {
 	events = {
 		701		# Election event
 		elections.721		# Dutch Republic
+	}
+}
+
+# country
+on_death_foreign_slave_ruler = {
+	events = {
+		mamluk_events.0 # Choose new ruler
 	}
 }
 
@@ -525,7 +529,6 @@ on_overextension_pulse = {
 
 
 on_colonial_pulse = {
-}
 }
 
 on_siberian_pulse = {

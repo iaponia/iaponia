@@ -6,33 +6,27 @@ technology_group = saigoku
 historical_rival = HSK
 capital = 241	# Izushi
 
-1432.1.1 = { 
+1467.6.15 = {
 	monarch = {
 		name = "Mochitoyo"
 		dynasty = "Yamana"
-#		birth_date = 1404.7.6
-#		death_date = 1473.4.15
-		adm = 3
-		dip = 4
-		mil = 4
+		birth_date = 1404.7.6
+		death_date = 1473.4.15
+		leader = {
+			name = "Mochitoyo Yamana"
+			type = general
+			rank = 1
+			fire = 3
+			shock = 3
+			manuever = 2
+			siege = 2
+			death_date = 1473.4.15
+			personality = shrewd_quartermaster_personality
+		}
+		adm = 5
+		dip = 8
+		mil = 6
 	}
-}
-
-1432.1.1 = {
-	heir = {
-		name = "Noritoyo"
-		monarch_name = "Noritoyo"
-		dynasty = "Yamana"
-		birth_date = 1424.1.1
-		death_date = 1467.10.7
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 3
-	}
-}
-
-1467.10.7 = {
 	heir = {
 		name = "Masatoyo"
 		monarch_name = "Masatoyo"
@@ -40,25 +34,27 @@ capital = 241	# Izushi
 		birth_date = 1441.1.1
 		death_date = 1499.1.1
 		claim = 90
-		adm = 2
-		dip = 3
-		mil = 4
+		adm = 3
+		dip = 4
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = domineering_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = proud_personality
 }
-	
-1473.4.15 = { 
+
+1493.6.9 = {
 	monarch = {
 		name = "Masatoyo"
 		dynasty = "Yamana"
-#		birth_date = 1441.1.1
-#		death_date = 1499.1.1
-		adm = 2
-		dip = 2
-		mil = 2
+		birth_date = 1441.1.1
+		death_date = 1499.1.1
+		adm = 3
+		dip = 3
+		mil = 4
 	}
-}
-
-1475.1.1 = {
 	heir = {
 		name = "Okitoyo"
 		monarch_name = "Okitoyo"
@@ -70,21 +66,18 @@ capital = 241	# Izushi
 		dip = 2
 		mil = 2
 	}
-}	
+}
 
-1499.1.1 = { 
+1511.9.25 = {
 	monarch = {
 		name = "Masatoyo"
 		dynasty = "Yamana"
-#		birth_date = 1475.1.1
-#		death_date = 1528.1.1
-		adm = 2
-		dip = 2
-		mil = 2
+		birth_date = 1475.1.1
+		death_date = 1528.1.1
+		adm = 3
+		dip = 3
+		mil = 4
 	}
-}
-	
-1511.1.1 = {
 	heir = {
 		name = "Suketoyo"
 		monarch_name = "Suketoyo"
@@ -92,25 +85,33 @@ capital = 241	# Izushi
 		birth_date = 1511.1.1
 		death_date = 1580.7.2
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 2
+		adm = 6
+		dip = 5
+		mil = 3
 	}
-}	
+	clear_scripted_personalities = yes
+	add_heir_personality = architect_personality
+	add_heir_personality = disorganized_personality
+	add_heir_personality = ambitious_personality
+}
 
-1528.1.1 = { 
+1536.4.7 = {
 	monarch = {
 		name = "Suketoyo"
 		dynasty = "Yamana"
-#		birth_date = 1511.1.1
-#		death_date = 1580.7.2
-		adm = 3
-		dip = 3
-		mil = 2
+		birth_date = 1511.1.1
+		death_date = 1580.7.2
+		adm = 6
+		dip = 5
+		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = disorganized_personality
+	add_ruler_personality = ambitious_personality
 }
 
-1552.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Akihiro"
 		monarch_name = "Akihiro"
@@ -122,4 +123,22 @@ capital = 241	# Izushi
 		dip = 2
 		mil = 2
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Mochitoyo"
+		dynasty = "Yamana"
+		birth_date = 1404.7.6
+		death_date = 1473.4.15
+		adm = 5
+		dip = 8
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = domineering_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = immortal_personality
 }

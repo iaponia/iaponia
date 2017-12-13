@@ -5,44 +5,36 @@ religion = shinto
 technology_group = saigoku
 capital = 171	# Eso
 	
-1460.1.1 = { 
+1467.6.15 = {
 	monarch = {
 		name = "Toyoshige"
 		dynasty = "Yamanouchi"
+		birth_date = 1460.1.1
+		death_date = 1517.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1470.1.1 = {
-	heir = {
-		name = "Naomichi"
-		monarch_name = "Naomichi"
-		dynasty = "Yamanouchi"
-		birth_date = 1470.1.1
-		death_date = 1536.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1490.1.1 = { 
+1493.6.9 = {
 	monarch = {
 		name = "Naomichi"
 		dynasty = "Yamanouchi"
+		birth_date = 1479.1.1
+		death_date = 1538.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1536.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Takamichi"
 		dynasty = "Yamanouchi"
+		birth_date = 1530.1.1
+		death_date = 1586.11.25
 		adm = 3
 		dip = 3
 		mil = 3

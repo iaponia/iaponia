@@ -4,18 +4,17 @@ primary_culture = awa_c
 religion = shinto
 technology_group = saigoku
 capital = 150	# Ochi
-	
-1470.1.1 = { 
+
+1493.6.9 = {
 	monarch = {
 		name = "Motoie"
 		dynasty = "Yasutomi"
+		birth_date = 1450.1.1
+		death_date = 1507.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1470.1.1 = {
 	heir = {
 		name = "Morikata"
 		monarch_name = "Morikata"
@@ -28,11 +27,13 @@ capital = 150	# Ochi
 		mil = 3
 	}
 }
-	
-1504.1.1 = { 
+
+1511.9.25 = {
 	monarch = {
 		name = "Morikata"
 		dynasty = "Yasutomi"
+		birth_date = 1465.1.1
+		death_date = 1544.1.1
 		adm = 3
 		dip = 3
 		mil = 3

@@ -5,17 +5,35 @@ religion = shinto
 technology_group = saigoku
 capital = 302	# Wakae
 
-1511.9.26 = { 
+1511.9.25 = {
 	monarch = {
 		name = "Naganori"
 		dynasty = "Yusa"
-		adm = 4
-		dip = 4
-		mil = 4
+		birth_date = 1491.1.1
+		death_date = 1551.6.8
+		adm = 5
+		dip = 5
+		mil = 6
+		leader = {
+			name = "Naganori Yusa"
+			type = general
+			rank = 1
+			fire = 3
+			shock = 3
+			manuever = 3
+			siege = 0
+			death_date = 1551.6.8
+			personality = local_recruiter_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = gregarious_personality
+	government = sengoku_monarchy
 }
 
-1524.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Nobunori"
 		monarch_name = "Nobunori"
@@ -23,18 +41,48 @@ capital = 302	# Wakae
 		birth_date = 1524.1.1
 		death_date = 1574.5.2
 		claim = 90
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = gregarious_personality
+	add_heir_personality = cunning_personality
+	add_heir_personality = ambitious_personality
+	add_heir_personality = dishonorable_personality
+}
+
+1554.3.1 = {
+	monarch = {
+		name = "Nobunori"
+		dynasty = "Yusa"
+		birth_date = 1524.1.1
+		death_date = 1574.5.2
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_monarch_personality = cunning_personality
+	add_monarch_personality = ambitious_personality
+	add_monarch_personality = dishonorable_personality
 }
-	
-1551.6.8 = { 
+
+1615.1.1 = {
 	monarch = {
 		name = "Naganori"
 		dynasty = "Yusa"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1491.1.1
+		death_date = 1551.6.8
+		adm = 5
+		dip = 5
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = immortal_personality
 }

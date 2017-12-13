@@ -5,17 +5,16 @@ religion = shinto
 technology_group = saigoku
 capital = 239	# Hidaka
 	
-1534.1.1 = { 
+1536.4.7 = {
 	monarch = {
 		name = "Masaharu"
 		dynasty = "Yukawa"
+		birth_date = 1470.1.1
+		death_date = 1540.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1534.1.1 = {
 	heir = {
 		name = "Naomitsu"
 		monarch_name = "Naomitsu"
@@ -27,19 +26,19 @@ capital = 239	# Hidaka
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
-	
-1550.1.1 = { 
+
+1554.3.1 = {
 	monarch = {
 		name = "Naomitsu"
 		dynasty = "Yukawa"
+		birth_date = 1520.1.1
+		death_date = 1562.6.20
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1550.1.1 = {
 	heir = {
 		name = "Naoharu"
 		monarch_name = "Naoharu"
@@ -52,8 +51,8 @@ capital = 239	# Hidaka
 		mil = 3
 	}
 }
-	
-1562.1.1 = { 
+
+1569.10.10 = {
 	monarch = {
 		name = "Naoharu"
 		dynasty = "Yukawa"

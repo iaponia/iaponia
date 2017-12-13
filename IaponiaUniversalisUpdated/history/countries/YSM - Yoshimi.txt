@@ -4,18 +4,20 @@ primary_culture = iwami_c
 religion = shinto
 technology_group = saigoku
 capital = 123	# Kanoashi
-	
-1490.1.1 = { 
+
+1493.6.9 = {
 	monarch = {
 		name = "Yorioki"
 		dynasty = "Yoshimi"
+		birth_date = 1460.1.1
+		death_date = 1532.5.26
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1513.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Masayori"
 		monarch_name = "Masayori"
@@ -23,18 +25,55 @@ capital = 123	# Kanoashi
 		birth_date = 1513.1.1
 		death_date = 1588.6.15
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 5
+		mil = 5
 	}
+	government = sengoku_monarchy
 }
-	
-1532.5.26 = { 
+
+1536.4.7 = {
 	monarch = {
 		name = "Masayori"
 		dynasty = "Yoshimi"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1513.1.1
+		death_date = 1588.6.15
+		adm = 5
+		dip = 5
+		mil = 5
 	}
+	heir = {
+		name = "Hiroyori"
+		monarch_name = "Hiroyori"
+		dynasty = "Yoshimi"
+		birth_date = 1535.1.1
+		death_date = 1613.1.1
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = upstanding_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Masayori"
+		dynasty = "Yoshimi"
+		birth_date = 1513.1.1
+		death_date = 1588.6.15
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = immortal_personality
 }

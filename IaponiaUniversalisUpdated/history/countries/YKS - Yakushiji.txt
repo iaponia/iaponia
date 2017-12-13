@@ -4,3 +4,27 @@ primary_culture = sesshu_c
 religion = shinto
 technology_group = saigoku
 capital = 280	# Shimashimo
+
+1467.6.15 = {
+	monarch = {
+		name = "Motonaga"
+		dynasty = "Yakushuji"
+		birth_date = 1452.1.1
+		death_date = 1502.1.1
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1467.6.15 = {
+	monarch = {
+		name = "Kuninaga"
+		dynasty = "Yakushuji"
+		birth_date = 1502.1.1
+		death_date = 1533.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

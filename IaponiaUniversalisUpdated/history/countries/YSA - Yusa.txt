@@ -75,7 +75,6 @@ capital = 302	# Wakae
 		name = "Naganori"
 		dynasty = "Yusa"
 		birth_date = 1491.1.1
-		death_date = 1551.6.8
 		adm = 5
 		dip = 5
 		mil = 6

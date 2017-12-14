@@ -65,7 +65,6 @@ capital = 123	# Kanoashi
 		name = "Masayori"
 		dynasty = "Yoshimi"
 		birth_date = 1513.1.1
-		death_date = 1588.6.15
 		adm = 5
 		dip = 5
 		mil = 5

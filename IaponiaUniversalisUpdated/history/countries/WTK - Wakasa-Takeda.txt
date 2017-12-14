@@ -5,89 +5,31 @@ religion = shinto
 technology_group = saigoku
 capital = 267	# Oi
 
-1440.1.1 = { 
+1467.6.15 = {
 	monarch = {
 		name = "Nobukata"
 		dynasty = "Takeda"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1410.1.1
+		death_date = 1471.6.20
+		adm = 5
+		dip = 4
+		mil = 4
 	}
 }
 
-1471.1.1 = {
-	heir = {
-		name = "Kuninobu"
-		monarch_name = "Kuninobu"
-		dynasty = "Takeda"
-		birth_date = 1438.1.1
-		death_date = 1490.7.8
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1471.1.1 = { 
+1493.6.9 = {
 	monarch = {
-		name = "Kuninobu"
-		dynasty = "Takeda"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1471.1.1 = {
-	heir = {
-		name = "Nobuchika"
-		monarch_name = "Nobuchika"
-		dynasty = "Takeda"
-		birth_date = 1458.1.1
-		death_date = 1485.8.22
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1475.1.1 = { 
-	monarch = {
-		name = "Nobuchika"
-		dynasty = "Takeda"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1475.1.1 = {
-	heir = {
 		name = "Motonobu"
-		monarch_name = "Motonobu"
 		dynasty = "Takeda"
 		birth_date = 1461.1.1
-		death_date = 1421.12.31
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		death_date = 1521.12.31
+		adm = 4
+		dip = 4
+		mil = 4
 	}
 }
 
-1490.1.1 = { 
-	monarch = {
-		name = "Motonobu"
-		dynasty = "Takeda"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1494.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Motomitsu"
 		monarch_name = "Motomitsu"
@@ -95,23 +37,26 @@ capital = 267	# Oi
 		birth_date = 1494.1.1
 		death_date = 1551.8.11
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 5
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = architect_personality
+	add_heir_personality = poet_personality
+	add_heir_personality = connected_personality
 }
 
-1519.1.1 = { 
+1523.8.25 = {
 	monarch = {
 		name = "Motomitsu"
 		dynasty = "Takeda"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1494.1.1
+		death_date = 1551.8.11
+		adm = 6
+		dip = 5
+		mil = 5
 	}
-}
-
-1519.1.1 = {
 	heir = {
 		name = "Nobutoyo"
 		monarch_name = "Nobutoyo"
@@ -121,21 +66,26 @@ capital = 267	# Oi
 		claim = 90
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = poet_personality
+	add_ruler_personality = connected_personality
+	add_heir_personality = lenient_personality
+	government = shugo_daimyo_monarchy
 }
 
-1539.1.1 = { 
+1546.5.19 = {
 	monarch = {
 		name = "Nobutoyo"
 		dynasty = "Takeda"
+		birth_date = 1514.10.22
+		death_date = 1558.1.1
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 4
 	}
-}
-
-1539.1.1 = {
 	heir = {
 		name = "Yoshizumi"
 		monarch_name = "Yoshizumi"
@@ -144,41 +94,26 @@ capital = 267	# Oi
 		death_date = 1567.5.16
 		claim = 90
 		adm = 3
-		dip = 3
+		dip = 5
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_monarch_personality = lenient_personality
+	add_heir_personality = connected_personality
 }
 
-1558.1.1 = { 
+1615.1.1 = {
 	monarch = {
-		name = "Yoshizumi"
+		name = "Motomitsu"
 		dynasty = "Takeda"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1494.1.1
+		adm = 6
+		dip = 5
+		mil = 5
 	}
-}
-
-1562.1.1 = {
-	heir = {
-		name = "Motoaki"
-		monarch_name = "Motoaki"
-		dynasty = "Takeda"
-		birth_date = 1562.1.1
-		death_date = 1582.8.7
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1567.5.16 = { 
-	monarch = {
-		name = "Motoaki"
-		dynasty = "Takeda"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = poet_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = immortal_personality
 }

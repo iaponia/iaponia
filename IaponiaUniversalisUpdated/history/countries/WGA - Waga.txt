@@ -4,42 +4,17 @@ primary_culture = oshu_c
 religion = shinto
 technology_group = tohoku
 capital = 598	# Waga
-	
-1435.1.1 = { 
-	monarch = {
-		name = "Yoshiatsu"
-		dynasty = "Waga"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1435.1.1 = {
-	heir = {
+1467.6.15 = {
+	monarch = {
 		name = "Sadayoshi"
-		monarch_name = "Sadayoshi"
 		dynasty = "Waga"
 		birth_date = 1435.1.1
 		death_date = 1483.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1470.1.1 = { 
-	monarch = {
-		name = "Sadayoshi"
-		dynasty = "Waga"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1470.1.1 = {
 	heir = {
 		name = "Sadamasa"
 		monarch_name = "Sadamasa"
@@ -53,65 +28,28 @@ capital = 598	# Waga
 	}
 }
 
-1483.1.1 = { 
+1493.6.9 = {
 	monarch = {
-		name = "Sadamasa"
-		dynasty = "Waga"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1483.1.1 = {
-	heir = {
 		name = "Yoshitsugu"
-		monarch_name = "Yoshitsugu"
 		dynasty = "Waga"
 		birth_date = 1475.1.1
 		death_date = 1500.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1492.1.1 = { 
+1511.9.25 = {
 	monarch = {
-		name = "Yoshitsugu"
-		dynasty = "Waga"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1495.1.1 = {
-	heir = {
 		name = "Sadamasa"
-		monarch_name = "Sadamasa"
 		dynasty = "Waga"
 		birth_date = 1495.1.1
 		death_date = 1521.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1500.1.1 = { 
-	monarch = {
-		name = "Sadamasa"
-		dynasty = "Waga"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1505.1.1 = {
 	heir = {
 		name = "Sadayuki"
 		monarch_name = "Sadayuki"
@@ -125,17 +63,16 @@ capital = 598	# Waga
 	}
 }
 
-1521.1.1 = { 
+1523.8.25 = {
 	monarch = {
 		name = "Sadayuki"
 		dynasty = "Waga"
+		birth_date = 1505.1.1
+		death_date = 1531.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1521.1.1 = {
 	heir = {
 		name = "Yoshitada"
 		monarch_name = "Yoshitada"
@@ -149,17 +86,20 @@ capital = 598	# Waga
 	}
 }
 
-1531.1.1 = { 
+1536.4.7 = {
 	monarch = {
 		name = "Yoshitada"
 		dynasty = "Waga"
+		birth_date = 1520.1.1
+		death_date = 1550.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
-1540.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Yoshiharu"
 		monarch_name = "Yoshiharu"
@@ -173,20 +113,12 @@ capital = 598	# Waga
 	}
 }
 
-1550.1.1 = { 
+1554.3.1 = {
 	monarch = {
 		name = "Yoshiharu"
 		dynasty = "Waga"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1586.1.1 = { 
-	monarch = {
-		name = "Tadachika"
-		dynasty = "Waga"
+		birth_date = 1540.1.1
+		death_date = 1586.1.1
 		adm = 3
 		dip = 3
 		mil = 3

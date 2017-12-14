@@ -109,6 +109,7 @@ capital = 241	# Izushi
 	add_ruler_personality = architect_personality
 	add_ruler_personality = disorganized_personality
 	add_ruler_personality = ambitious_personality
+	government = shugo_daimyo_monarchy
 }
 
 1554.3.1 = {
@@ -130,7 +131,6 @@ capital = 241	# Izushi
 		name = "Mochitoyo"
 		dynasty = "Yamana"
 		birth_date = 1404.7.6
-		death_date = 1473.4.15
 		adm = 5
 		dip = 8
 		mil = 6

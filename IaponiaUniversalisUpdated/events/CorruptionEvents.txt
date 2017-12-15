@@ -21,6 +21,7 @@ country_event = {
 		NOT = { corruption = 1 }
 		NOT = { yearly_corruption_increase = 0.001 }
 		NOT = { has_country_modifier = trusted_merchants }
+		stability = 3
 	}
 
 	option = {
@@ -44,11 +45,16 @@ country_event = {
 	trigger = {
 		NOT = { corruption = 1 }
 		NOT = { yearly_corruption_increase = 0.001 }
+		NOT = { has_country_modifier = honest_administrators }
+		stability = 3
 	}
 
 	option = {
 		name = "corruption_event.2.a"
-		add_stability_or_adm_power = yes
+		add_country_modifier = {
+			name = "honest_administrators"
+			duration = 3650
+		}
 	}
 }
 
@@ -62,6 +68,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		stability = 3
 		NOT = { corruption = 1 }
 		NOT = { yearly_corruption_increase = 0.001 }
 	}
@@ -86,6 +93,7 @@ country_event = {
 	trigger = {
 		NOT = { corruption = 1 }
 		NOT = { yearly_corruption_increase = 0.001 }
+		stability = 3
 	}
 
 	option = {
@@ -106,7 +114,7 @@ country_event = {
 	trigger = {
 		NOT = { corruption = 1 }
 		NOT = { yearly_corruption_increase = 0.001 }
-
+		stability = 3
 		any_known_country = {
 			has_spy_network_in = {
 				who = ROOT
@@ -146,8 +154,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		corruption = 5
-		NOT = { corruption = 50 }
+		corruption = 2
+		NOT = { corruption = 10 }
 	}
 
 	# Launch an investigation
@@ -173,8 +181,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		corruption = 5
-		NOT = { corruption = 50 }
+		corruption = 2
+		NOT = { corruption = 10 }
 		has_advisor = yes
 	}
 
@@ -213,8 +221,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		corruption = 5
-		NOT = { corruption = 50 }
+		corruption = 2
+		NOT = { corruption = 10 }
 		NOT = { has_country_modifier = recruited_smugglers }
 		NOT = { has_country_modifier = smugglers_dominating }
 	}
@@ -307,8 +315,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		corruption = 5
-		NOT = { corruption = 50 }
+		corruption = 2
+		NOT = { corruption = 10 }
 		any_known_country = { alliance_with = ROOT }
 	}
 
@@ -341,7 +349,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		corruption = 50
+		corruption = 10
 	}
 
 	immediate = {
@@ -355,7 +363,7 @@ country_event = {
 	option = {
 		name = "corruption_event.11.a"
 		every_owned_province = {
-			limit = { trade_goods = ROOT }
+			limit = { NOT = { trade_goods = unknown } }
 			add_province_modifier = {
 				name = "embezzled_goods"
 				duration = 3650
@@ -374,7 +382,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		corruption = 50
+		corruption = 10
 	}
 
 	option = {
@@ -393,7 +401,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		corruption = 50
+		corruption = 10
 		any_owned_province = { has_port = yes }
 		navy_size = 1
 	}
@@ -414,7 +422,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		corruption = 50
+		corruption = 10
 		NOT = { has_country_modifier = distrusted_merchants }
 	}
 
@@ -437,7 +445,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		corruption = 75
+		corruption = 25
 	}
 
 	option = {

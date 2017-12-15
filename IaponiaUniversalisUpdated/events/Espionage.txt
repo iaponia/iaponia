@@ -362,6 +362,12 @@ country_event = {
 	trigger = {
 		has_dlc = "Mare Nostrum"
 		num_of_allies = 1
+		any_ally = {
+			has_spy_network_in = {
+				who = ROOT
+				value = 30
+			}
+		}
 	}
 
 	mean_time_to_happen = {

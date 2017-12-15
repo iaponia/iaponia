@@ -40,8 +40,8 @@ country_event = {
 			}
 			owner = {
 				OR = {
-					NOT = { has_province_flag = was_plundered }
-					had_province_flag = { flag = was_plundered days = 14600 } #40 Years
+					NOT = { has_country_flag = was_plundered }
+					had_country_flag = { flag = was_plundered days = 14600 } #40 Years
 				}
 			}
 		}
@@ -52,7 +52,10 @@ country_event = {
 			set_country_flag = had_living_of_the_land
 			FROM = {
 				set_province_flag = was_magdeburgerized
-				owner = { save_event_target_as = attacked_country } #For prettier tooltip
+				owner = {
+					save_event_target_as = attacked_country
+					set_country_flag = was_plundered
+				} #For prettier tooltip
 			}
 		}
 	}
@@ -150,7 +153,7 @@ country_event = {
 }
 
 #Sack of X
-country_event = {
+province_event = {
 	id = army_professionalism_events.2
 	title = army_professionalism_events.2.t
 	desc = army_professionalism_events.2.d
@@ -373,6 +376,8 @@ country_event = {
 		NOT = { army_professionalism = 0.8 }
 		any_neighbor_country = {
 			is_subject = no
+			NOT = { overlord_of = ROOT }
+			NOT = { alliance_with = ROOT }
 			NOT = { war_with = ROOT }
 			NOT = { truce_with = ROOT }
 			army_professionalism = 0.25
@@ -385,6 +390,8 @@ country_event = {
 			random_neighbor_country = {
 				limit = {
 					is_subject = no
+					NOT = { overlord_of = ROOT }
+					NOT = { alliance_with = ROOT }
 					NOT = { war_with = ROOT }
 					NOT = { truce_with = ROOT }
 					army_professionalism = 0.25
@@ -403,7 +410,7 @@ country_event = {
 	option = {
 		name = army_professionalism_events.6.a #
 		ai_chance = {
-			factor = 75
+			factor = 50
 		}
 		add_years_of_income = -0.75
 		add_army_professionalism = 0.05
@@ -415,7 +422,7 @@ country_event = {
 			hidden_effect = {
 				random_list = {
 					25 = { country_event = { id = army_professionalism_events.7 days = 7 } }
-					#75 = { }
+					75 = { }
 				}
 			}
 		}
@@ -423,7 +430,7 @@ country_event = {
 	option = {
 		name = army_professionalism_events.6.b #
 		ai_chance = {
-			factor = 25
+			factor = 50
 		}
 		event_target:professional_country = {
 			add_opinion = {
@@ -907,7 +914,7 @@ country_event = {
 
 
 #Sack of X
-country_event = {
+province_event = {
 	id = army_professionalism_events.18
 	title = army_professionalism_events.2.t
 	desc = army_professionalism_events.2.d

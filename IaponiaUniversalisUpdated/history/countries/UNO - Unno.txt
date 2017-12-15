@@ -5,65 +5,42 @@ religion = shinto
 technology_group = togoku
 capital = 440	# Saku
 	
-1430.1.1 = { 
+1467.6.15 = {
 	monarch = {
 		name = "Yukikazu"
 		dynasty = "Unno"
+		birth_date = 1420.1.1
+		death_date = 1480.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1435.1.1 = {
 	heir = {
 		name = "Mochiyuki"
 		monarch_name = "Mochiyuki"
 		dynasty = "Unno"
-		birth_date = 1435.1.1
-		death_date = 1460.1.1
+		birth_date = 1445.1.1
+		death_date = 1490.1.1
 		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
-	
-1460.1.1 = { 
-	monarch = {
-		name = "Mochiyuki"
-		dynasty = "Unno"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1465.1.1 = {
-	heir = {
+1493.6.9 = {
+	monarch = {
 		name = "Ujiyuki"
-		monarch_name = "Ujiyuki"
 		dynasty = "Unno"
 		birth_date = 1465.1.1
 		death_date = 1520.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1490.1.1 = { 
-	monarch = {
-		name = "Ujiyuki"
-		dynasty = "Unno"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1502.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Munetsune"
 		monarch_name = "Munetsune"
@@ -77,12 +54,15 @@ capital = 440	# Saku
 	}
 }
 
-1527.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Munetsune"
 		dynasty = "Unno"
+		birth_date = 1502.1.1
+		death_date = 1560.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }

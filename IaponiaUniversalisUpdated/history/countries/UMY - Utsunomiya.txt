@@ -4,76 +4,32 @@ primary_culture = shimotsuke_c
 religion = shinto
 technology_group = togoku
 capital = 486	# Tsuga
-	
-1423.1.1 = { 
-	monarch = {
-		name = "Hitotsuna"
-		dynasty = "Utsunomiya"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1443.1.1 = {
-	heir = {
-		name = "Akitsuna"
-		monarch_name = "Akitsuna"
-		dynasty = "Utsunomiya"
-		birth_date = 1443.1.1
-		death_date = 1463.11.23
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1457.1.1 = { 
-	monarch = {
-		name = "Akitsuna"
-		dynasty = "Utsunomiya"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1463.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Masatsuna"
 		dynasty = "Utsunomiya"
+		birth_date = 1447.1.1
+		death_date = 1477.10.7
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1468.1.1 = {
-	heir = {
-		name = "Shigetsuna"
-		monarch_name = "Shigetsuna"
-		dynasty = "Utsunomiya"
-		birth_date = 1468.1.1
-		death_date = 1516.12.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1477.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Shigetsuna"
 		dynasty = "Utsunomiya"
+		birth_date = 1468.1.1
+		death_date = 1516.12.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1497.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Tadatsuna"
 		monarch_name = "Tadatsuna"
@@ -87,37 +43,32 @@ capital = 486	# Tsuga
 	}
 }
 
-1514.1.1 = { 
-	monarch = {
-		name = "Tadatsuna"
-		dynasty = "Utsunomiya"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1523.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Okitsuna"
 		dynasty = "Utsunomiya"
+		birth_date = 1475.1.1
+		death_date = 1536.9.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1536.1.1 = { 
+1536.5.7 = { 
 	monarch = {
 		name = "Hisatsuna"
 		dynasty = "Utsunomiya"
+		birth_date = 1513.1.1
+		death_date = 1549.10.7
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = shugo_daimyo_monarchy
 }
 
-1545.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Hirotsuna"
 		monarch_name = "Hirotsuna"
@@ -131,17 +82,16 @@ capital = 486	# Tsuga
 	}
 }
 
-1549.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Hirotsuna"
 		dynasty = "Utsunomiya"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1545.1.1
+		death_date = 1576.8.30
+		adm = 4
+		dip = 6
+		mil = 4
 	}
-}
-
-1568.1.1 = {
 	heir = {
 		name = "Kunitsuna"
 		monarch_name = "Kunitsuna"
@@ -153,14 +103,49 @@ capital = 486	# Tsuga
 		dip = 3
 		mil = 3
 	}
+	queen = {
+		country_of_origin = STK
+		name = "Nanryoin"
+		dynasty = "Satake"
+		birth_date = 1547.1.1
+		death_date = 1576.8.30
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = centralizer_personality
+	government = sengoku_monarchy
 }
 
-1576.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Kunitsuna"
 		dynasty = "Utsunomiya"
+		birth_date = 1568.1.1
+		death_date = 1608.1.9
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Hirotsuna"
+		dynasty = "Utsunomiya"
+		birth_date = 1545.1.1
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

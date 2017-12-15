@@ -5,27 +5,65 @@ religion = shinto
 technology_group = kyushu
 capital = 53	# Saga
 	
-1539.1.1 = { 
+1467.6.15 = {
 	monarch = {
-		name = "Tanemitsu"
+		name = "Iekane"
 		dynasty = "Ryuzoji"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1454.1.1
+		death_date = 1546.4.10
+		adm = 6
+		dip = 6
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = cautious_personality
+	add_ruler_personality = ambitious_personality
 }
 
-1548.4.30 = { 
+1511.9.25 = {
+	heir = {
+		name = "Chikaie"
+		monarch_name = "Chikaie"
+		dynasty = "Ryuzoji"
+		birth_date = 1504.1.1
+		death_date = 1545.3.7
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+	
+1554.3.1 = {
 	monarch = {
 		name = "Takanobu"
 		dynasty = "Ryuzoji"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1530.3.24
+		death_date = 1584.5.4
+		adm = 5
+		dip = 4
+		mil = 8
+		leader = {
+			name = "Takanobu Ryuzoji"
+			type = general
+			fire = 5
+			shock = 5
+			manuever = 0
+			siege = 2
+			death_date = 1584.5.4
+			personality = skilled_marksman_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = drunk_personality
+	government = sengoku_monarchy
 }
 
-1556.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Masaie"
 		monarch_name = "Masaie"
@@ -37,14 +75,39 @@ capital = 53	# Saga
 		dip = 3
 		mil = 3
 	}
-}
-	
-1578.1.1 = { 
-	monarch = {
-		name = "Masaie"
-		dynasty = "Ryuzoji"
-		adm = 3
-		dip = 3
-		mil = 3
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = drunk_personality
+	add_heir_personality = lenient_personality
+	government = late_sengoku_monarchy
+	leader = {
+		name = "Naoshige Nabeshima"
+		type = general
+		fire = 4
+		shock = 4
+		manuever = 3
+		siege = 3
+		death_date = 1618.7.24
+		personality = unflinching_leader_personality
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Takanobu"
+		dynasty = "Ryuzoji"
+		birth_date = 1530.3.24
+		adm = 5
+		dip = 4
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = drunk_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

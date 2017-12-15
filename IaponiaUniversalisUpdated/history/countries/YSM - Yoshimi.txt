@@ -75,4 +75,5 @@ capital = 123	# Kanoashi
 	add_ruler_personality = pious_personality
 	add_ruler_personality = upstanding_personality
 	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

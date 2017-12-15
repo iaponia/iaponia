@@ -5,17 +5,34 @@ religion = shinto
 technology_group = saigoku
 capital = 214	# Wake
 	
-1502.1.1 = { 
+1511.9.25 = {
 	monarch = {
 		name = "Muramune"
 		dynasty = "Urakami"
-		adm = 3
-		dip = 3
-		mil = 3
+		leader = {
+			name = "Muramune Urakami"
+			type = general
+			fire = 2
+			shock = 2
+			manuever = 3
+			siege = 0
+			death_date = 1537.7.17
+			personality = frontline_leader_personality
+		}
+		birth_date = 1460.1.1
+		death_date = 1537.7.17
+		adm = 6
+		dip = 5
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = centralizer_personality
 }
 
-1520.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Masamune"
 		monarch_name = "Masamune"
@@ -23,42 +40,88 @@ capital = 214	# Wake
 		birth_date = 1520.1.1
 		death_date = 1564.2.23
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 4
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = legislator_personality
+	add_heir_personality = craven_personality
+	add_heir_personality = reckless_personality
+	government = sengoku_monarchy
 }
-	
-1531.7.17 = { 
+
+1536.4.7 = {
 	monarch = {
 		name = "Masamune"
 		dynasty = "Urakami"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1520.1.1
+		death_date = 1564.2.23
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Munekage"
+		monarch_name = "Munekage"
+		dynasty = "Urakami"
+		birth_date = 1523.1.1
+		death_date = 1605.1.1
+		claim = 90
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = craven_personality
+	add_ruler_personality = reckless_personality
+	add_heir_personality = ambitious_personality
+	add_heir_personality = dishonorable_personality
+	add_heir_personality = connected_personality
+	add_heir_personality = proud_personality
+}
+
+1554.3.1 = {
+	monarch = {
+		name = "Munekage"
+		dynasty = "Urakami"
+		birth_date = 1523.1.1
+		death_date = 1605.1.1
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = dishonorable_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = proud_personality
+	leader = {
+		name = "Naoie Ukita"
+		type = general
+		fire = 4
+		shock = 2
+		manuever = 4
+		siege = 2
+		death_date = 1582.2.1
+		personality = skilled_tactician_personality
 	}
 }
 
-1550.1.1 = {
-	heir = {
-		name = "Narimune"
-		monarch_name = "Narimune"
-		dynasty = "Urakami"
-		birth_date = 1550.1.1
-		death_date = 1567.6.24
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1564.2.23 = { 
+1615.1.1 = {
 	monarch = {
-		name = "Narimune"
+		name = "Munekage"
 		dynasty = "Urakami"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1523.1.1
+		adm = 6
+		dip = 6
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = dishonorable_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = immortal_personality
 }

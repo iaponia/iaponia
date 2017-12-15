@@ -4,42 +4,20 @@ primary_culture = rikuzen_c
 religion = shinto
 technology_group = tohoku
 capital = 581	# Miyagi
-	
-1435.1.1 = { 
-	monarch = {
-		name = "Mochiie"
-		dynasty = "Rusu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1440.1.1 = {
-	heir = {
+1467.6.15 = {
+	monarch = {
 		name = "Kunimune"
-		monarch_name = "Kunimune"
 		dynasty = "Rusu"
 		birth_date = 1440.1.1
 		death_date = 1495.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1460.1.1 = { 
-	monarch = {
-		name = "Kunimune"
-		dynasty = "Rusu"
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1492.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Kagemune"
 		monarch_name = "Kagemune"
@@ -53,17 +31,19 @@ capital = 581	# Miyagi
 	}
 }
 
-1495.1.1 = { 
+1511.9.25 = {
 	monarch = {
 		name = "Kagemune"
 		dynasty = "Rusu"
+		birth_date = 1492.1.1
+		death_date = 1554.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1519.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Akimune"
 		monarch_name = "Akimune"
@@ -77,7 +57,7 @@ capital = 581	# Miyagi
 	}
 }
 
-1554.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Akimune"
 		dynasty = "Rusu"
@@ -85,9 +65,10 @@ capital = 581	# Miyagi
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
-1567.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Masakage"
 		dynasty = "Rusu"

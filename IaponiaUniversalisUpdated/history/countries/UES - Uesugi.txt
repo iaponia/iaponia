@@ -3,89 +3,50 @@ government_rank = 5
 primary_culture = kozuke_c
 religion = shinto
 technology_group = togoku
-historical_rival = HJO
-historical_rival = OUE
 capital = 501	# Tako
-	
-1418.2.9 = { 
-	monarch = {
-		name = "Norizane"
-		dynasty = "Uesugi"
-		adm = 6
-		dip = 3
-		mil = 3
-	}
-}
 
-1433.1.1 = {
-	heir = {
-		name = "Noritada"
-		monarch_name = "Noritada"
-		dynasty = "Uesugi"
-		birth_date = 1433.1.1
-		death_date = 1455.1.15
-		claim = 90
-		adm = 4
-		dip = 4
-		mil = 4
-	}
-}
-	
-1446.1.1 = { 
+1467.6.15 = {
 	monarch = {
-		name = "Noritada"
-		dynasty = "Uesugi"
-		adm = 4
-		dip = 4
-		mil = 4
-	}
-}
-
-1455.1.15 = { 
-	monarch = {
-		name = "Fusaaki"
-		dynasty = "Uesugi"
-		adm = 4
-		dip = 4
-		mil = 2
-	}
-}
-
-1455.1.15 = {
-	heir = {
 		name = "Akisada"
-		monarch_name = "Akisada"
 		dynasty = "Uesugi"
 		birth_date = 1454.1.1
 		death_date = 1510.7.25
-		claim = 90
-		adm = 4
-		dip = 4
-		mil = 4
+		adm = 5
+		dip = 5
+		mil = 6
+		leader = {
+			name = "Akisada Uesugi"
+			type = general
+			fire = 2
+			shock = 3
+			manuever = 3
+			siege = 2
+			death_date = 1510.7.25
+			personality = rapid_mobilizer_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = domineering_personality
 }
 
-1466.2.26 = { 
-	monarch = {
-		name = "Akisada"
-		dynasty = "Uesugi"
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-}
-
-1515.1.1 = { 
+1493.6.9 = {
 	monarch = {
 		name = "Norifusa"
 		dynasty = "Uesugi"
+		birth_date = 1467.1.1
+		death_date = 1525.4.7
 		adm = 4
-		dip = 4
-		mil = 4
+		dip = 3
+		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lenient_personality
 }
 
-1523.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Norimasa"
 		monarch_name = "Norimasa"
@@ -97,69 +58,142 @@ capital = 501	# Tako
 		dip = 4
 		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lenient_personality
+	add_heir_personality = lenient_personality
+	add_heir_personality = humble_personality
+	add_heir_personality = disorganized_personality
+	government = shugo_daimyo_monarchy
 }
 
-1525.4.17 = { 
-	monarch = {
-		name = "Norihiro"
-		dynasty = "Uesugi"
-		adm = 4
-		dip = 4
-		mil = 4
-	}
-}
-
-1531.3.31 = { 
+1536.4.7 = {
 	monarch = {
 		name = "Norimasa"
 		dynasty = "Uesugi"
+		birth_date = 1523.1.1
+		death_date = 1579.4.13
 		adm = 4
 		dip = 4
 		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = humble_personality
+	add_ruler_personality = disorganized_personality
 }
 
-1561.3.16 = { 
+1569.10.10 = {
 	monarch = {
-		name = "Masatora" #Uesugi Kenshin = Nagao Kagetora
+		name = "Masatora"
 		dynasty = "Uesugi" 
-		adm = 4
-		dip = 4
-		mil = 6
+		birth_date = 1530.2.18
+		death_date = 1578.4.30
+		adm = 7
+		dip = 7
+		mil = 8
+		leader = {
+			name = "Masatora Uesugi"
+			type = general
+			fire = 0
+			shock = 6
+			manuever = 3
+			siege = 3
+			death_date = 1578.4.30
+			personality = inspirational_leader_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = drunk_personality
+	leader = {
+		name = "Kageie Kakizaki"
+		type = general
+		fire = 0
+		shock = 5
+		manuever = 3
+		siege = 2
+		death_date = 1574.12.5
+		personality = horse_lord_personality
+	}
+	leader = {
+		name = "Kagemochi Amakasu"
+		type = general
+		fire = 3
+		shock = 3
+		manuever = 3
+		siege = 0
+		death_date = 1604.7.22
+		personality = frontline_leader_personality
+	}
+	government = sengoku_monarchy
 }
 
-1578.4.19 = { 
-	monarch = {
-		name = "Kagetora"
-		dynasty = "Uesugi" 
-		adm = 4
-		dip = 4
-		mil = 6
-	}
-}
-
-1579.4.19 = { 
+1582.6.21 = {
 	monarch = {
 		name = "Kagekatsu"
 		dynasty = "Uesugi" 
-		adm = 4
+		birth_date = 1556.1.8
+		death_date = 1623.4.19
+		adm = 6
 		dip = 4
-		mil = 4
+		mil = 7
+		leader = {
+			name = "Kagekatsu Uesugi"
+			type = general
+			fire = 2
+			shock = 4
+			manuever = 3
+			siege = 0
+			death_date = 1623.4.19
+			personality = unflinching_leader_personality
+		}
 	}
+	queen = {
+		country_of_origin = TKD
+		name = "Kiku"
+		dynasty = "Takeda"
+		birth_date = 1558.1.1
+		death_date = 1604.3.16
+		female = yes
+		adm = 6
+		dip = 6
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = upstanding_personality
+	add_queen_personality = frugal_personality
+	leader = {
+		name = "Kanetsugu Naoe"
+		type = general
+		fire = 3
+		shock = 3
+		manuever = 4
+		siege = 1
+		death_date = 1620.1.23
+		personality = skilled_marksman_personality
+	}
+	government = late_sengoku_monarchy
 }
 
-1604.6.2 = {
-	heir = {
-		name = "Sadakatsu"
-		monarch_name = "Sadakatsu"
-		dynasty = "Uesugi"
-		birth_date = 1604.6.2
-		death_date = 1645.10.29
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 4
+1615.1.1 = {
+	monarch = {
+		name = "Masatora"
+		dynasty = "Uesugi" 
+		birth_date = 1530.2.18
+		adm = 7
+		dip = 7
+		mil = 8
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = drunk_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }
-

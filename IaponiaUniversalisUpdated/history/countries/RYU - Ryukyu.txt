@@ -1,51 +1,89 @@
 government = despotic_monarchy
 government_rank = 3
-#aristocracy_plutocracy = -4
-#centralization_decentralization = 2
-#innovative_narrowminded = 2
-mercantilism = 0.1
-#offensive_defensive = -1
-#land_naval = 2
-#quality_quantity = 3
-#serfdom_freesubjects = -3
 technology_group = kyushu
 religion = ryukyuan
 primary_culture = okinawan_c
 capital = 697	# Shuri
 
-
-#Kings of Ryukyu (Chuzan/Zhongshan) 
-#Japanese form of names given
-1350.1.1 = {
+1467.6.15 = {
 	monarch = {
-		name = "Satto"
-		dynasty = "Satto"
+		name = "En"
+		dynasty = "Sho"
+		birth_date = 1415.1.1
+		death_date = 1476.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1493.6.9 = {
+	monarch = {
+		name = "Shin"
+		dynasty = "Sho"
+		birth_date = 1450.1.1
+		death_date = 1497.1.1
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+
+1511.9.25 = {
+	monarch = {
+		name = "Sei"
+		dynasty = "Sho"
+		birth_date = 1497.1.1
+		death_date = 1556.1.1
 		adm = 2
 		dip = 2
-		mil = 1
+		mil = 3
 	}
 }
 
-1439.1.1 = {
-	heir = {
-		name = "Shitatsu"
-		monarch_name = "Shitatsu"
-		dynasty = "Sho"
-		birth_date = 1408.1.1
-		death_Date = 1449.10.29
-		claim = 95
-		adm = 1
-		dip = 1
-		mil = 1
-	}
-}
-
-1444.1.1 = {
+1569.10.10 = {
 	monarch = {
-		name = "Shitatsu"
+		name = "Gen"
 		dynasty = "Sho"
+		birth_date = 1528.3.5
+		death_date = 1572.4.1
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1582.6.21 = {
+	monarch = {
+		name = "Ei"
+		dynasty = "Sho"
+		birth_date = 1559.1.1
+		death_date = 1588.1.1
 		adm = 1
 		dip = 1
 		mil = 1
+	}
+}
+
+1600.9.13 = {
+	monarch = {
+		name = "Nei"
+		dynasty = "Sho"
+		birth_date = 1564.1.1
+		death_date = 1620.10.14
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Shin"
+		dynasty = "Sho"
+		birth_date = 1450.1.1
+		adm = 2
+		dip = 3
+		mil = 4
 	}
 }

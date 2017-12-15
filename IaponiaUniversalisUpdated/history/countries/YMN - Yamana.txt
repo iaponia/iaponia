@@ -141,4 +141,5 @@ capital = 241	# Izushi
 	add_ruler_personality = gracious_personality
 	add_ruler_personality = proud_personality
 	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

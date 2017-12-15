@@ -3,55 +3,25 @@ government_rank = 3
 primary_culture = omi_c
 religion = shinto
 technology_group = saigoku
-historical_rival = KGK
-historical_rival = KBK
 capital = 335	# Gamo
-	
-1441.1.1 = { 
-	monarch = {
-		name = "Mochitsuna"
-		dynasty = "Rokkaku"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1446.1.1 = { 
+1467.6.15 = { 
 	monarch = {
-		name = "Hisayori"
-		dynasty = "Rokkaku"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1446.1.1 = {
-	heir = {
 		name = "Takayori"
-		monarch_name = "Takayori"
 		dynasty = "Rokkaku"
 		birth_date = 1440.1.1
 		death_date = 1520.12.9
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 5
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = cynical_personality
 }
 
-1456.1.1 = { 
-	monarch = {
-		name = "Takayori"
-		dynasty = "Rokkaku"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1492.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Ujitsuna"
 		monarch_name = "Ujitsuna"
@@ -59,33 +29,55 @@ capital = 335	# Gamo
 		birth_date = 1492.1.1
 		death_date = 1518.8.25
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 6
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = cynical_personality
+	add_heir_personality = honorable_personality
+	add_heir_personality = architect_personality
+	add_heir_personality = brave_personality
 }
 
-1506.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Ujitsuna"
 		dynasty = "Rokkaku"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1492.1.1
+		death_date = 1518.8.25
+		adm = 6
+		dip = 6
+		mil = 6
+		leader = {
+			name = "Ujitsuna Rokkaku"
+			type = general
+			fire = 2
+			shock = 3
+			manuever = 2
+			siege = 0
+			death_date = 1518.8.25
+			personality = inspirational_leader_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = brave_personality
 }
 
-1518.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Sadayori"
 		dynasty = "Rokkaku"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1495.1.1
+		death_date = 1552.1.21
+		adm = 8
+		dip = 7
+		mil = 5
 	}
-}
-
-1521.1.1 = {
 	heir = {
 		name = "Yoshikata"
 		monarch_name = "Yoshikata"
@@ -93,23 +85,45 @@ capital = 335	# Gamo
 		birth_date = 1521.1.1
 		death_date = 1598.4.19
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = innovator_personality
+	add_heir_personality = tolerant_personality
+	add_heir_personality = equestrian_personality
+	add_heir_personality = swordsman_personality
+	add_heir_personality = lenient_personality
+	government = sengoku_monarchy
+}
+
+1536.4.7 = {
+	leader = {
+		name = "Sadahide Gamo"
+		type = general
+		fire = 2
+		shock = 4
+		manuever = 2
+		siege = 0
+		death_date = 1579.4.22
+		personality = frontline_leader_personality
 	}
 }
 
-1552.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Yoshikata"
 		dynasty = "Rokkaku"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1521.1.1
+		death_date = 1598.4.19
+		adm = 4
+		dip = 5
+		mil = 6
 	}
-}
-
-1552.1.1 = {
 	heir = {
 		name = "Yoshiharu"
 		monarch_name = "Yoshiharu"
@@ -121,24 +135,29 @@ capital = 335	# Gamo
 		dip = 3
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = lenient_personality
+	add_heir_personality = swordsman_personality
 }
 
-1559.1.1 = { 
+1615.1.1 = {
 	monarch = {
-		name = "Yoshiharu"
+		name = "Sadayori"
 		dynasty = "Rokkaku"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1495.1.1
+		death_date = 1552.1.21
+		adm = 8
+		dip = 7
+		mil = 5
 	}
-}
-
-1567.1.1 = { 
-	monarch = {
-		name = "Yoshisada"
-		dynasty = "Rokkaku"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

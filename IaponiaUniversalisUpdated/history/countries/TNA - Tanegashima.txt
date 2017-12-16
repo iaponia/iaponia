@@ -5,84 +5,31 @@ religion = shinto
 technology_group = kyushu
 capital = 94	# Tanegashima
 
-1404.1.1 = {
-	heir = {
-		name = "Hatatoki"
-		monarch_name = "Hatatoki"
-		dynasty = "Tanegashima"
-		birth_date = 1404.1.1
-		death_date = 1462.8.17
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1420.1.1 = {
+1467.6.15 = {
 	monarch = {
-		name = "Hatatoki"
-		dynasty = "Tanegashima"
-#		birth_date = 1404.1.1
-#		death_date = 1462.8.17
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-1430.1.1 = {
-	heir = {
 		name = "Tokiuji"
-		monarch_name = "Tokiuji"
 		dynasty = "Tanegashima"
 		birth_date = 1430.1.1
 		death_date = 1490.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1462.8.18 = {
+1493.6.9 = {
 	monarch = {
-		name = "Tokiuji"
-		dynasty = "Tanegashima"
-#		birth_date = 1430.1.1
-#		death_date = 1490.1.1
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1470.1.1 = {
-	heir = {
 		name = "Tadatoki"
-		monarch_name = "Tadatoki"
 		dynasty = "Tanegashima"
 		birth_date = 1470.1.1
 		death_date = 1519.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1490.1.1 = {
-	monarch = {
-		name = "Tadatoki"
-		dynasty = "Tanegashima"
-#		birth_date = 1470.1.1
-#		death_date = 1519.1.1
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1503.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Shigetoki"
 		monarch_name = "Shigetoki"
@@ -96,19 +43,23 @@ capital = 94	# Tanegashima
 	}
 }
 
-1519.1.1 = {
+1523.8.25 = {
 	monarch = {
 		name = "Shigetoki"
 		dynasty = "Tanegashima"
-#		birth_date = 1503.1.1
-#		death_date = 1567.4.23
+		birth_date = 1503.1.1
+		death_date = 1567.4.23
 		adm = 4
 		dip = 4
 		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = xenophilic_personality
+	government = sengoku_monarchy
 }
 
-1528.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Tokitaka"
 		monarch_name = "Tokitaka"
@@ -119,61 +70,30 @@ capital = 94	# Tanegashima
 		adm = 4
 		dip = 4
 		mil = 4
-		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = xenophilic_personality
+	add_heir_personality = innovator_personality
+	add_heir_personality = xenophilic_personality
+}
 
-1541.1.1 = {
+1546.5.19 = {
 	monarch = {
 		name = "Tokitaka"
 		dynasty = "Tanegashima"
-#		birth_date = 1528.1.1
-#		death_date = 1579.10.21
+		birth_date = 1528.1.1
+		death_date = 1579.10.21
 		adm = 4
 		dip = 4
 		mil = 4
-		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = xenophilic_personality
+}
 
-1556.10.14 = {
-	heir = {
-		name = "Tokitsugu"
-		monarch_name = "Tokitsugu"
-		dynasty = "Tanegashima"
-#		birth_date = 1556.10.14
-#		death_date = 1562.10.28
-		claim = 90
-		adm = 4
-		dip = 4
-		mil = 4
-		}
-	}
-
-
-1560.1.1 = {
-	monarch = {
-		name = "Tokitsugu"
-		dynasty = "Tanegashima"
-#		birth_date = 1556.10.14
-#		death_date = 1562.10.28
-		adm = 4
-		dip = 4
-		mil = 4
-		}
-	}
-
-1560.10.29 = {
-	monarch = {
-		name = "Tokitaka"
-		dynasty = "Tanegashima"
-#		birth_date = 1528.1.1
-#		death_date = 1579.10.21
-		adm = 4
-		dip = 4
-		mil = 4
-		}
-	}
-
-1568.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Hisatoki"
 		monarch_name = "Hisatoki"
@@ -181,20 +101,27 @@ capital = 94	# Tanegashima
 		birth_date = 1568.1.1
 		death_date = 1612.1.29
 		claim = 90
-		adm = 5
-		dip = 5
-		mil = 5
+		adm = 4
+		dip = 4
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = xenophilic_personality
 }
 
-1579.10.22 = {
+1615.1.1 = {
 	monarch = {
 		name = "Hisatoki"
 		dynasty = "Tanegashima"
-#		birth_date = 1568.1.1
-#		death_date = 1612.1.29
-		adm = 5
-		dip = 5
-		mil = 5
+		birth_date = 1568.1.1
+		adm = 4
+		dip = 4
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = xenophilic_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

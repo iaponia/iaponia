@@ -4,116 +4,68 @@ primary_culture = kai_c
 religion = shinto
 technology_group = togoku
 capital = 449	# Yamanashi
-
-1417.2.22 = { 
+	
+1467.6.15 = { 
 	monarch = {
-		name = "Nobushige"
-		dynasty = "Takeda"
-		adm = 3
-		dip = 2
-		mil = 3
-	}
-}
-	
-1430.1.1 = {
-	heir = {
-		name = "Nobumori"
-		monarch_name = "Nobumori"
-		dynasty = "Takeda"
-		birth_date = 1430.1.1
-		death_date = 1455.1.1
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-	
-1450.12.28 = { 
-	monarch = {
-		name = "Nobumori"
-		dynasty = "Takeda"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-	
-1450.12.28 = {
-	heir = {
 		name = "Nobumasa"
-		monarch_name = "Nobumasa"
 		dynasty = "Takeda"
 		birth_date = 1447.1.1
 		death_date = 1505.10.13
-		claim = 90
-		adm = 2
+		adm = 5
 		dip = 3
-		mil = 2
+		mil = 4
 	}
-}
-	
-1455.1.1 = { 
-	monarch = {
-		name = "Nobumasa"
-		dynasty = "Takeda"
-		adm = 2
-		dip = 3
-		mil = 2
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = disorganized_personality
 }
 
-1471.1.1 = {
-	heir = {
+1493.6.9 = { 
+	monarch = {
 		name = "Nobutsuna"
-		monarch_name = "Nobutsuna"
 		dynasty = "Takeda"
 		birth_date = 1471.1.1
 		death_date = 1507.3.27
-		claim = 90
-		adm = 2
-		dip = 2
+		adm = 5
+		dip = 3
 		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = disorganized_personality
 }
 
-1491.1.1 = { 
+1511.9.25 = { 
 	monarch = {
-		name = "Nobutsuna"
-		dynasty = "Takeda"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-	
-1494.2.11 = {
-	heir = {
 		name = "Nobutora"
-		monarch_name = "Nobutora"
 		dynasty = "Takeda"
 		birth_date = 1494.2.11
 		death_date = 1574.3.27
-		claim = 90
-		adm = 4
-		dip = 3
-		mil = 4
+		adm = 5
+		dip = 4
+		mil = 7
+		leader = {
+			name = "Nobutora Takeda"
+			type = general
+			fire = 2
+			shock = 4
+			manuever = 2
+			siege = 2
+			death_date = 1574.3.27
+			personality = local_recruiter_personality
+		}
 	}
-}
-
-
-1507.3.27 = { 
-	monarch = {
-		name = "Nobutora"
-		dynasty = "Takeda"
-		adm = 4
-		dip = 3
-		mil = 4
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = ambitious_personality
 }
 
 	
-1521.12.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Harunobu"
 		monarch_name = "Harunobu"
@@ -121,23 +73,42 @@ capital = 449	# Yamanashi
 		birth_date = 1521.12.1
 		death_date = 1573.5.13
 		claim = 90
-		adm = 5
-		dip = 5
-		mil = 5
+		adm = 8
+		dip = 8
+		mil = 8
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = ambitious_personality
+	add_heir_personality = equestrian_personality
+	add_heir_personality = legislator_personality
+	add_heir_personality = conscientious_personality
+	add_heir_personality = ambitious_personality
+	government = shugo_daimyo_monarchy
 }
 	
-1541.6.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Harunobu"
 		dynasty = "Takeda"
-		adm = 5
-		dip = 5
-		mil = 5
+		birth_date = 1521.12.1
+		death_date = 1573.5.13
+		adm = 8
+		dip = 8
+		mil = 8
+		leader = {
+			name = "Harunobu Takeda"
+			type = general
+			fire = 3
+			shock = 6
+			manuever = 3
+			siege = 2
+			death_date = 1573.5.13
+			personality = skilled_tactician_personality
+		}
 	}
-}
-	
-1541.6.1 = { 
 	heir = {
 		name = "Yoshinobu"
 		monarch_name = "Yoshinobu"
@@ -145,13 +116,52 @@ capital = 449	# Yamanashi
 		birth_date = 1538.1.1
 		death_date = 1567.1.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = ambitious_personality
+	government = sengoku_monarchy
+	leader = {
+		name = "Haruyuki Yamamoto"
+		type = general
+		fire = 3
+		shock = 3
+		manuever = 6
+		siege = 2
+		death_date = 1561.10.18
+		personality = rapid_mobilizer_personality
 	}
 }
 
-1567.1.1 = {
+1554.3.1 = {
+	leader = {
+		name = "Masakage Yamagata"
+		type = general
+		fire = 2
+		shock = 6
+		manuever = 4
+		siege = 2
+		death_date = 1575.6.29
+		personality = horse_lord_personality
+	}
+	leader = {
+		name = "Nobuharu Baba"
+		type = general
+		fire = 5
+		shock = 5
+		manuever = 2
+		siege = 2
+		death_date = 1575.6.29
+		personality = unflinching_leader_personality
+	}
+}
+
+1569.10.10 = {
 	heir = {
 		name = "Katsuyori"
 		monarch_name = "Katsuyori"
@@ -159,32 +169,35 @@ capital = 449	# Yamanashi
 		birth_date = 1546.12.1
 		death_date = 1582.4.3
 		claim = 80
-		adm = 3
-		dip = 2
-		mil = 4
+		adm = 4
+		dip = 4
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = ambitious_personality
+	add_heir_personality = reckless_personality
+	add_heir_personality = equestrian_personality
+	add_heir_personality = centralizer_personality
+	add_heir_personality = ambitious_personality
 }
-	
-1573.5.13 = { 
+
+1615.1.1 = {
 	monarch = {
-		name = "Katsuyori"
+		name = "Harunobu"
 		dynasty = "Takeda"
-		adm = 3
-		dip = 2
-		mil = 4
+		birth_date = 1521.12.1
+		death_date = 1573.5.13
+		adm = 8
+		dip = 8
+		mil = 8
 	}
-}
-	
-1573.5.13 = {
-	heir = {
-		name = "Nobukatsu"
-		monarch_name = "Nobukatsu"
-		dynasty = "Takeda"
-		birth_date = 1567.12.11
-		death_date = 1582.4.3
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = ambitious_personality
+	government = daimyo_monarchy
 }

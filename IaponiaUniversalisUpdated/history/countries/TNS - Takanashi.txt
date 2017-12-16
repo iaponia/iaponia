@@ -4,42 +4,20 @@ primary_culture = shinano_c
 religion = shinto
 technology_group = togoku
 capital = 446	# Takai
-	
-1430.1.1 = { 
-	monarch = {
-		name = "Masakuni"
-		dynasty = "Takanashi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1455.1.1 = {
-	heir = {
+1467.6.15 = {
+	monarch = {
 		name = "Masamori"
-		monarch_name = "Masamori"
 		dynasty = "Takanashi"
 		birth_date = 1455.1.1
 		death_date = 1513.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1468.1.1 = { 
-	monarch = {
-		name = "Masamori"
-		dynasty = "Takanashi"
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1492.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Sumiyori"
 		monarch_name = "Sumiyori"
@@ -53,17 +31,16 @@ capital = 446	# Takai
 	}
 }
 
-1513.1.1 = { 
+1523.8.25 = {
 	monarch = {
 		name = "Sumiyori"
 		dynasty = "Takanashi"
+		birth_date = 1492.1.1
+		death_date = 1547.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1513.1.1 = {
 	heir = {
 		name = "Masayori"
 		monarch_name = "Masayori"
@@ -75,12 +52,15 @@ capital = 446	# Takai
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
-1547.1.1 = { 
+1554.3.1 = {
 	monarch = {
 		name = "Masayori"
 		dynasty = "Takanashi"
+		birth_date = 1508.1.1
+		death_date = 1576.1.1
 		adm = 3
 		dip = 3
 		mil = 3

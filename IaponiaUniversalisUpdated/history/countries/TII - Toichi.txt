@@ -4,66 +4,32 @@ primary_culture = yamato_c
 religion = shinto
 technology_group = saigoku
 capital = 320	# Toichi
-	
-1440.1.1 = { 
-	monarch = {
-		name = "Tokiyo"
-		dynasty = "Toichi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1440.1.1 = {
-	heir = {
+1467.6.15 = {
+	monarch = {
 		name = "Tosuke"
-		monarch_name = "Tosuke"
 		dynasty = "Toichi"
 		birth_date = 1440.1.1
 		death_date = 1491.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1480.1.1 = { 
-	monarch = {
-		name = "Tosuke"
-		dynasty = "Toichi"
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1480.1.1 = {
-	heir = {
+1493.6.9 = {
+	monarch = {
 		name = "Toharu"
-		monarch_name = "Toharu"
 		dynasty = "Toichi"
 		birth_date = 1465.1.1
 		death_date = 1534.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1491.1.1 = { 
-	monarch = {
-		name = "Toharu"
-		dynasty = "Toichi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1497.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Totada"
 		monarch_name = "Totada"
@@ -77,17 +43,20 @@ capital = 320	# Toichi
 	}
 }
 
-1534.1.1 = { 
+1523.8.25 = {
+	government = sengoku_monarchy
+}
+
+1536.4.7 = {
 	monarch = {
 		name = "Totada"
 		dynasty = "Toichi"
+		birth_date = 1497.1.1
+		death_date = 1545.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1534.1.1 = {
 	heir = {
 		name = "Tokatsu"
 		monarch_name = "Tokatsu"
@@ -101,20 +70,12 @@ capital = 320	# Toichi
 	}
 }
 
-1545.1.1 = { 
+1546.5.19 = {
 	monarch = {
 		name = "Tokatsu"
 		dynasty = "Toichi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1569.1.1 = { 
-	monarch = {
-		name = "Fujimasa"
-		dynasty = "Toichi"
+		birth_date = 1517.1.1
+		death_date = 1569.12.2
 		adm = 3
 		dip = 3
 		mil = 3

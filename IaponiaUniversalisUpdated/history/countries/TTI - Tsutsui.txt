@@ -6,17 +6,16 @@ technology_group = saigoku
 historical_rival = OTI
 capital = 308	# Soejimo
 	
-1443.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Jun'ei"
 		dynasty = "Tsutsui"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1419.1.1
+		death_date = 1476.5.7
+		adm = 4
+		dip = 4
+		mil = 4
 	}
-}
-
-1451.1.1 = {
 	heir = {
 		name = "Junson"
 		monarch_name = "Junson"
@@ -24,50 +23,22 @@ capital = 308	# Soejimo
 		birth_date = 1451.1.1
 		death_date = 1489.8.27
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 4
 	}
 }
 
-1455.8.19 = {capital = 318} #Soekami
-1459.6.15 = {capital = 308} #Soejimo
-
-1476.5.7 = { 
+1493.6.9 = { 
 	monarch = {
-		name = "Junson"
-		dynasty = "Tsutsui"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1480.1.1 = {
-	heir = {
 		name = "Junken"
-		monarch_name = "Junken"
 		dynasty = "Tsutsui"
 		birth_date = 1480.1.1
 		death_date = 1521.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 4
 	}
-}
-
-1489.8.27 = { 
-	monarch = {
-		name = "Junken"
-		dynasty = "Tsutsui"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1489.8.27 = {
 	heir = {
 		name = "Junko"
 		monarch_name = "Junko"
@@ -75,23 +46,22 @@ capital = 308	# Soejimo
 		birth_date = 1484.1.1
 		death_date = 1535.8.3
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 4
 	}
 }
 
-1521.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Junko"
 		dynasty = "Tsutsui"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1484.1.1
+		death_date = 1535.8.3
+		adm = 4
+		dip = 4
+		mil = 4
 	}
-}
-
-1523.3.2 = {
 	heir = {
 		name = "Junsho"
 		monarch_name = "Junsho"
@@ -99,47 +69,49 @@ capital = 308	# Soejimo
 		birth_date = 1523.3.2
 		death_date = 1550.8.2
 		claim = 90
-		adm = 3
-		dip = 3
+		adm = 5
+		dip = 6
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = pious_personality
+	add_heir_personality = stern_personality
+	government = sengoku_monarchy
 }
 
-1535.8.3 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Junsho"
 		dynasty = "Tsutsui"
-		adm = 3
-		dip = 3
+		birth_date = 1523.3.2
+		death_date = 1550.8.2
+		adm = 5
+		dip = 6
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = pious_personality
+	add_ruler_personality = stern_personality
 }
 
-1549.3.31 = {
-	heir = {
-		name = "Junkei"
-		monarch_name = "Junkei"
-		dynasty = "Tsutsui"
-		birth_date = 1549.3.31
-		death_date = 1584.9.15
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1550.8.2 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Junkei"
 		dynasty = "Tsutsui"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1549.3.31
+		death_date = 1584.9.15
+		adm = 5
+		dip = 7
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cautious_personality
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = pious_personality
 }
 
-1562.6.6 = {
+1569.10.10 = {
 	heir = {
 		name = "Sadatsugu"
 		monarch_name = "Sadatsugu"
@@ -147,18 +119,40 @@ capital = 308	# Soejimo
 		birth_date = 1562.6.6
 		death_date = 1615.4.2
 		claim = 90
-		adm = 3
-		dip = 3
+		adm = 2
+		dip = 2
 		mil = 3
 	}
 }
 
-1548.9.15 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Sadatsugu"
 		dynasty = "Tsutsui"
-		adm = 3
-		dip = 3
+		birth_date = 1562.6.6
+		death_date = 1615.4.2
+		adm = 2
+		dip = 2
 		mil = 3
 	}
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Junkei"
+		dynasty = "Tsutsui"
+		birth_date = 1549.3.31
+		death_date = 1584.9.15
+		adm = 5
+		dip = 7
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cautious_personality
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

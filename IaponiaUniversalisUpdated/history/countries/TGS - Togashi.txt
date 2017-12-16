@@ -5,47 +5,20 @@ religion = shinto
 technology_group = togoku
 historical_rival = HGJ
 capital = 380	# Ishikawa
-	
-1441.1.1 = { 
-	monarch = {
-		name = "Yasutaka"
-		dynasty = "Togashi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1442.1.1 = { 
-	monarch = {
-		name = "Noriie"
-		dynasty = "Togashi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1445.1.1 = { 
-	monarch = {
-		name = "Yasutaka"
-		dynasty = "Togashi"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1458.8.30 = { capital = 382 } #Enuma. Akamatsu Masanori granted northern Kaga.
-
-1464.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Masachika"
 		dynasty = "Togashi"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1555.1.1
+		death_date = 1488.7.17
+		adm = 5
+		dip = 4
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = proud_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = cynical_personality
 }
 
-1467.5.15 = { capital = 380 } #Ishikawa. Masanori retakes Harima.

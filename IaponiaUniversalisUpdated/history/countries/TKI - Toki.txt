@@ -4,30 +4,19 @@ primary_culture = mino_c
 religion = shinto
 technology_group = saigoku
 capital = 362	# Atsumi
-	
-1414.4.23 = { 
-	monarch = {
-		name = "Mochimasu"
-		dynasty = "Toki"
-		adm = 4
-		dip = 4
-		mil = 4
-		}
-	}
 
-1456.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Shigeyori"
 		dynasty = "Toki"
-		adm = 4
-		dip = 5
-		mil = 4
-		}
+		birth_date = 1442.1.1
+		death_date = 1479.5.5
+		adm = 6
+		dip = 6
+		mil = 6
 	}
-
-1467.1.1 = {
 	heir = {
-		name = "Nasafusa"
+		name = "Masafusa"
 		monarch_name = "Masafusa"
 		dynasty = "Toki"
 		birth_date = 1457.1.1
@@ -37,19 +26,25 @@ capital = 362	# Atsumi
 		dip = 3
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = lenient_personality
 }
 	
-1495.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Masafusa"
 		dynasty = "Toki"
+		birth_date = 1457.1.1
+		death_date = 1519.7.12
 		adm = 3
 		dip = 3
 		mil = 3
-		}
 	}
+}
 	
-1498.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Yoritake"
 		monarch_name = "Yoritake"
@@ -63,22 +58,44 @@ capital = 362	# Atsumi
 	}
 }
 	
-1517.12.27 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoritake"
 		dynasty = "Toki"
+		birth_date = 1498.1.1
+		death_date = 1547.1.1
 		adm = 3
 		dip = 3
 		mil = 4
 		}
 	}
 	
-1535.6.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Yorinori"
 		dynasty = "Toki"
+		birth_date = 1502.1.1
+		death_date = 1582.1.1
 		adm = 3
 		dip = 3
 		mil = 3
-		}
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Shigeyori"
+		dynasty = "Toki"
+		birth_date = 1442.1.1
+		death_date = 1479.5.5
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

@@ -4,42 +4,17 @@ primary_culture = shimanto_c
 religion = shinto
 technology_group = saigoku
 capital = 163	# Takaoka
-	
-1490.1.1 = { 
-	monarch = {
-		name = "Motozane"
-		dynasty = "Tsuno"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1503.1.1 = {
-	heir = {
+1523.8.25 = {
+	monarch = {
 		name = "Mototaka"
-		monarch_name = "Mototaka"
 		dynasty = "Tsuno"
 		birth_date = 1503.1.1
 		death_date = 1553.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1517.1.1 = { 
-	monarch = {
-		name = "Mototaka"
-		dynasty = "Tsuno"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1521.1.1 = {
 	heir = {
 		name = "Sadakatsu"
 		monarch_name = "Sadakatsu"
@@ -51,12 +26,15 @@ capital = 163	# Takaoka
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 	
-1553.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Sadakatsu"
 		dynasty = "Tsuno"
+		birth_date = 1521.1.1
+		death_date = 1616.1.1
 		adm = 3
 		dip = 3
 		mil = 3

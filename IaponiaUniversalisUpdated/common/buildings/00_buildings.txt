@@ -611,6 +611,7 @@ toll_roads = {
 		local_friendly_movement_speed = 0.15
 		local_hostile_movement_speed = 0.15
 		local_tax_modifier = 0.05
+		allowed_num_of_buildings = 1
 	}
 
 	ai_will_do = {
@@ -687,6 +688,7 @@ post_roads = {
 		local_friendly_movement_speed = 0.3
 		local_hostile_movement_speed = 0.3
 		local_tax_modifier = 0.1
+		allowed_num_of_buildings = 1
 	}
 
 	ai_will_do = {
@@ -764,6 +766,7 @@ highways = {
 		local_hostile_movement_speed = 0.5
 		local_tax_modifier = 0.1
 		local_development_cost = -0.05
+		allowed_num_of_buildings = 1
 	}
 
 	ai_will_do = {

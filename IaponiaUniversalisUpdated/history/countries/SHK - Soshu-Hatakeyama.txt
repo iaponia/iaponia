@@ -3,44 +3,43 @@ government_rank = 3
 primary_culture = kawachi_c
 religion = shinto
 technology_group = saigoku
-historical_rival = BHY
 capital = 306	# Furuichi
 	
-1455.4.12 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Yoshinari"
 		dynasty = "Hatakeyama"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1437.1.1
+		death_date = 1491.1.21
+		adm = 4
+		dip = 4
+		mil = 4
+		leader = {
+			name = "Yoshinari Hatakeyama"
+			type = general
+			fire = 2
+			shock = 2
+			manuever = 0
+			siege = 2
+			death_date = 1491.1.21
+			personality = siege_master_personality
+		}
 	}
-}
-
-1469.1.1 = {
-	heir = {
-		name = "Yoshitoyo"
-		monarch_name = "Yoshitoyo"
-		dynasty = "Hatakeyama"
-		birth_date = 1469.1.1
-		death_date = 1499.3.20
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = arbitrary_personality
 }
 	
-1491.1.21 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Yoshitoyo"
 		dynasty = "Hatakeyama"
+		birth_date = 1469.1.1
+		death_date = 1499.3.20
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}	
-
-1491.1.21 = {
 	heir = {
 		name = "Yoshihide"
 		monarch_name = "Yoshihide"
@@ -54,17 +53,16 @@ capital = 306	# Furuichi
 	}
 }
 
-1499.3.20 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yoshihide"
 		dynasty = "Hatakeyama"
+		birth_date = 1487.1.1
+		death_date = 1532.7.17
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}	
-
-1507.1.1 = {
 	heir = {
 		name = "Yoshitaka"
 		monarch_name = "Yoshitaka"
@@ -78,10 +76,12 @@ capital = 306	# Furuichi
 	}
 }
 
-1522.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshitaka"
 		dynasty = "Hatakeyama"
+		birth_date = 1507.1.1
+		death_date = 1532.7.17
 		adm = 3
 		dip = 3
 		mil = 3

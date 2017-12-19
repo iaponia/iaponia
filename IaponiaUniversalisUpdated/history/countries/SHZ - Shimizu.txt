@@ -5,12 +5,91 @@ religion = shinto
 technology_group = saigoku
 capital = 206	# Tsu
 	
-1560.1.1 = { 
+1493.6.9 = { 
 	monarch = {
-		name = "Muneharu"
+		name = "Munenori"
 		dynasty = "Shimizu"
+		birth_date = 1490.1.1
+		death_date = 1550.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+}
+
+1523.8.25 = {
+	government = sengoku_monarchy
+}
+
+1546.5.19 = {
+	heir = {
+		name = "Muneharu"
+		monarch_name "Muneharu"
+		dynasty = "Shimizu"
+		birth_date = 1537.1.1
+		death_date = 1582.6.23
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = honorable_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = artistic_personality
+	add_heir_personality = humble_personality
+}
+	
+1554.3.1 = { 
+	monarch = {
+		name = "Muneharu"
+		dynasty = "Shimizu"
+		birth_date = 1537.1.1
+		death_date = 1582.6.23
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = humble_personality
+}
+
+1582.6.21 = {
+	heir = {
+		name = "Kageharu"
+		monarch_name = "Kageharu"
+		dynasty = "Shimizu"
+		birth_date = 1571.1.1
+		death_date = 1649.2.27
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = conscientious_personality
+	add_heir_personality = mercantile_personality
+	add_heir_personality = frugal_personality
+	add_heir_personality = humble_personality
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Muneharu"
+		dynasty = "Shimizu"
+		birth_date = 1537.1.1
+		death_date = 1582.6.23
+		adm = 5
+		dip = 4
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = humble_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

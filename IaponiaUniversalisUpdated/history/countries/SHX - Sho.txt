@@ -1,26 +1,41 @@
 government = kokujin_monarchy
+government_rank = 1
 primary_culture = bishu_c
 religion = shinto
 technology_group = saigoku
 capital = 626	# Bitchu-Kato
 	
-1490.1.1 = { 
+1467.6.15 = { 
+	monarch = {
+		name = "Motosuke"
+		dynasty = "Sho"
+		birth_date = 1450.1.1
+		death_date = 1530.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+	
+1493.6.9 = { 
 	monarch = {
 		name = "Tamesuke"
 		dynasty = "Sho"
+		birth_date = 1490.1.1
+		death_date = 1550.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1510.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Takasuke"
 		monarch_name = "Takasuke"
 		dynasty = "Sho"
-		birth_date = 1510.1.1
-		death_date = 1590.1.1
+		birth_date = 1517.1.1
+		death_date = 1571.1.1
 		claim = 90
 		adm = 3
 		dip = 3
@@ -28,10 +43,12 @@ capital = 626	# Bitchu-Kato
 	}
 }
 	
-1558.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Takasuke"
 		dynasty = "Sho"
+		birth_date = 1517.1.1
+		death_date = 1571.1.1
 		adm = 3
 		dip = 3
 		mil = 3

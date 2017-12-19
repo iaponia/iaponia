@@ -1,6 +1,54 @@
 government = kokujin_monarchy
-government_rank = 1
+government_rank = 2
 primary_culture = buzen_c
 religion = shinto
 technology_group = kyushu
 capital = 72	# Kiku
+
+1467.6.15 = {
+	monarch = {
+		name = "Hiromoto"
+		dynasty = "Sugi"
+		birth_date = 1430.1.1
+		death_date = 1490.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1493.6.9 = {
+	monarch = {
+		name = "Hironaga"
+		dynasty = "Sugi"
+		birth_date = 1460.1.1
+		death_date = 1520.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1523.8.25 = {
+	monarch = {
+		name = "Okinaga"
+		dynasty = "Sugi"
+		birth_date = 1476.1.1
+		death_date = 1533.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1536.4.7 = {
+	monarch = {
+		name = "Okitsura"
+		dynasty = "Sugi"
+		birth_date = 1506.1.1
+		death_date = 1551.9.30
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

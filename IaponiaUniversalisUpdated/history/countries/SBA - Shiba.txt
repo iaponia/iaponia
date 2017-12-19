@@ -3,53 +3,18 @@ government_rank = 4
 primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
-historical_rival = ODA
-historical_rival = ASA
 capital = 367	# Kasugai
-
-1436.1.1 = {
-	monarch = {
-		name = "Yoshitake" 
-		dynasty = "Shiba"
-#		birth_date = 1435.1.1
-#		death_date = 1452.10.3
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1452.10.1 = {
-	monarch = {
-		name = "Yoshitoshi" 
-		dynasty = "Shiba"
-		adm = 1
-		dip = 1
-		mil = 2
-	}
-}
-
-1461.1.1 = {
-	monarch = {
-		name = "Yoshikado" 
-		dynasty = "Shiba"
-		adm = 2
-		dip = 2
-		mil = 3
-	}
-}
 
 1467.1.1 = {
 	monarch = {
 		name = "Yoshitoshi" 
 		dynasty = "Shiba"
-		adm = 1
+		birth_date = 1435.1.1
+		death_date = 1508.12.8
+		adm = 2
 		dip = 1
 		mil = 2
 	}
-}
-
-1461.1.1 = {
 	heir = {
 		name = "Yoshihiro"
 		monarch_name = "Yoshihiro"
@@ -57,25 +22,29 @@ capital = 367	# Kasugai
 		birth_date = 1457.1.1
 		death_date = 1514.5.21
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 4
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = elitist_personality
+	add_ruler_personality = artistic_personality
+	add_heir_personality = proud_personality
+	add_heir_personality = upstanding_personality
+	add_heir_personality = frugal_personality
 }
 
-1485.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Yoshihiro" 
 		dynasty = "Shiba"
-#		birth_date = 1457.1.1
-#		death_date = 1514.5.21
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1457.1.1
+		death_date = 1514.5.21
+		adm = 6
+		dip = 4
+		mil = 5
 	}
-}
-
-1485.1.1 = {
 	heir = {
 		name = "Yoshitatsu"
 		monarch_name = "Yoshitatsu"
@@ -87,42 +56,38 @@ capital = 367	# Kasugai
 		dip = 3
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = proud_personality
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = frugal_personality
+	government = shugo_daimyo_monarchy
 }
 
-1514.5.21 = {
-	monarch = {
-		name = "Yoshitastu" 
-		dynasty = "Shiba"
-#		birth_date = 1480.1.1
-#		death_date = 1521.1.1
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1514.5.21 = {
-	heir = {
-		name = "Yoshimune"
-		monarch_name = "Yoshimune"
-		dynasty = "Shiba"
-		birth_date = 1513.1.1
-		death_date = 1554.8.10
-		claim = 90
-		adm = 2
-		dip = 3
-		mil = 1
-	}
-}
-
-1515.1.1 = {
+1523.8.25 = {
 	monarch = {
 		name = "Yoshimune" 
 		dynasty = "Shiba"
-#		birth_date = 1513.1.1
-#		death_date = 1554.8.10
+		birth_date = 1513.1.1
+		death_date = 1554.8.10
 		adm = 2
 		dip = 3
 		mil = 1
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshihiro" 
+		dynasty = "Shiba"
+		birth_date = 1457.1.1
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = proud_personality
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = frugal_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

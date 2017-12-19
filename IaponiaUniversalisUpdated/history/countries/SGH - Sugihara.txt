@@ -4,42 +4,20 @@ primary_culture = bishu_c
 religion = shinto
 technology_group = saigoku
 capital = 167	# Fukatsu
-	
-1490.1.1 = { 
-	monarch = {
-		name = "Kuninobu"
-		dynasty = "Sugihara"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1500.1.1 = {
-	heir = {
-		name = "Tadaoki"
-		monarch_name = "Tadaoki"
+1511.9.25 = {
+	monarch = {
+		name = "Masaoki"
 		dynasty = "Sugihara"
 		birth_date = 1500.1.1
 		death_date = 1557.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1525.1.1 = { 
-	monarch = {
-		name = "Tadaoki"
-		dynasty = "Sugihara"
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
 
-1533.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Morishige"
 		monarch_name = "Morishige"
@@ -53,10 +31,12 @@ capital = 167	# Fukatsu
 	}
 }
 
-1557.1.1 = { 
+1569.10.10 = {
 	monarch = {
 		name = "Morishige"
 		dynasty = "Sugihara"
+		birth_date = 1533.1.1
+		death_date = 1582.1.19
 		adm = 3
 		dip = 3
 		mil = 3

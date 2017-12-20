@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 221	# Mashima
 
-1480.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Sadatsura"
 		dynasty = "Miura"
@@ -15,7 +15,7 @@ capital = 221	# Mashima
 	}
 }
 
-1480.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Sadakuni"
 		monarch_name = "Sadakuni"
@@ -29,7 +29,7 @@ capital = 221	# Mashima
 	}
 }
 
-1500.1.1 = {
+1511.9.25 = {
 	monarch = {
 		name = "Sadakuni"
 		dynasty = "Miura"
@@ -39,7 +39,7 @@ capital = 221	# Mashima
 	}
 }
 
-1510.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Sadahisa"
 		monarch_name = "Sadahisa"
@@ -53,7 +53,7 @@ capital = 221	# Mashima
 	}
 }
 
-1532.7.1 = {
+1536.4.7 = {
 	monarch = {
 		name = "Sadahisa"
 		dynasty = "Miura"
@@ -63,7 +63,7 @@ capital = 221	# Mashima
 	}
 }
 
-1535.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Sadahiro"
 		monarch_name = "Sadahiro"
@@ -77,7 +77,7 @@ capital = 221	# Mashima
 	}
 }
 
-1548.1.1 = {
+1554.3.1 = {
 	monarch = {
 		name = "Sadahiro"
 		dynasty = "Miura"
@@ -87,7 +87,7 @@ capital = 221	# Mashima
 	}
 }
 
-1559.2.1 = {
+1569.10.10 = {
 	monarch = {
 		name = "Sadakatsu"
 		dynasty = "Miura"
@@ -97,7 +97,7 @@ capital = 221	# Mashima
 	}
 }
 
-1561.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Dojumaru"
 		monarch_name = "Dojumaru"
@@ -111,7 +111,7 @@ capital = 221	# Mashima
 	}
 }
 
-1565.1.1 = {
+1569.10.10 = {
 	monarch = {
 		name = "Dojumaru"
 		dynasty = "Miura"

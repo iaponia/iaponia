@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 88	# Matsura
 
-1429.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Toyohisa" 
 		dynasty = "Matsura"
@@ -15,7 +15,7 @@ capital = 88	# Matsura
 	}
 }
 
-1478.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Hirosada" 
 		dynasty = "Matsura"
@@ -25,7 +25,7 @@ capital = 88	# Matsura
 	}
 }
 
-1480.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Okinobu"
 		monarch_name = "Okinobu"
@@ -39,7 +39,7 @@ capital = 88	# Matsura
 	}
 }
 
-1502.1.1 = {
+1511.9.25 = {
 	monarch = {
 		name = "Okinobu" 
 		dynasty = "Matsura"
@@ -49,7 +49,7 @@ capital = 88	# Matsura
 	}
 }
 
-1529.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Takanobu"
 		monarch_name = "Takanobu"
@@ -63,7 +63,7 @@ capital = 88	# Matsura
 	}
 }
 
-1541.1.1 = {
+1546.5.19 = {
 	monarch = {
 		name = "Takanobu" 
 		dynasty = "Matsura"
@@ -73,7 +73,7 @@ capital = 88	# Matsura
 	}
 }
 
-1549.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Shigenobu"
 		monarch_name = "Shigenobu"
@@ -87,7 +87,7 @@ capital = 88	# Matsura
 	}
 }
 
-1587.1.1 = {
+1600.9.13 = {
 	monarch = {
 		name = "Shigenobu" 
 		dynasty = "Matsura"
@@ -97,7 +97,7 @@ capital = 88	# Matsura
 	}
 }
 
-1571.1.1 = {
+1582.6.21 = {
 	heir = {
 		name = "Hisanobu"
 		monarch_name = "Hisanobu"
@@ -111,7 +111,7 @@ capital = 88	# Matsura
 	}
 }
 
-1600.1.1 = {
+1600.9.13 = {
 	monarch = {
 		name = "Hisanobu" 
 		dynasty = "Matsura"

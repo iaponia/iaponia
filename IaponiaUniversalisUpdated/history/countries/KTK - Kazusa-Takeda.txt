@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 467	# Unakami
 
-1440.1.1 = { 
+1467.6.15 = { 
 #1456.1.1 = { 
 	monarch = {
 		name = "Nobunaga"
@@ -16,7 +16,7 @@ capital = 467	# Unakami
 	}
 }
 
-1456.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Nobutaka"
 		monarch_name = "Nobutaka"
@@ -30,7 +30,7 @@ capital = 467	# Unakami
 	}
 }
 	
-1477.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Nobutaka"
 		dynasty = "Takeda"
@@ -40,7 +40,7 @@ capital = 467	# Unakami
 	}
 }
 
-1477.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Nobuoki"
 		monarch_name = "Nobuoki"
@@ -54,7 +54,7 @@ capital = 467	# Unakami
 	}
 }
 
-1480.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Nobuoki"
 		dynasty = "Takeda"
@@ -64,7 +64,7 @@ capital = 467	# Unakami
 	}
 }
 
-1482.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Nobukatsu"
 		monarch_name = "Nobukatsu"
@@ -78,7 +78,7 @@ capital = 467	# Unakami
 	}
 }
 
-1511.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Nobukatsu"
 		dynasty = "Takeda"
@@ -88,7 +88,7 @@ capital = 467	# Unakami
 	}
 }
 
-1511.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Nobukiyo"
 		monarch_name = "Nobukiyo"
@@ -102,7 +102,7 @@ capital = 467	# Unakami
 	}
 }
 
-1523.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Nobukiyo"
 		dynasty = "Takeda"
@@ -112,7 +112,7 @@ capital = 467	# Unakami
 	}
 }
 
-1534.8.10 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Nobutaka"
 		dynasty = "Takeda"
@@ -122,7 +122,7 @@ capital = 467	# Unakami
 	}
 }
 
-1551.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Nobumasa"
 		dynasty = "Takeda"

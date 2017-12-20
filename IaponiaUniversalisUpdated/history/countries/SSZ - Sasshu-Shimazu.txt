@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 13	# Izumi
 	
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Mochihisa"
 		dynasty = "Shimazu"
@@ -15,7 +15,7 @@ capital = 13	# Izumi
 	}
 }
 
-1441.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Kunihisa"
 		monarch_name = "Kunihisa"
@@ -29,7 +29,7 @@ capital = 13	# Izumi
 	}
 }
 	
-1459.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Kunihisa"
 		dynasty = "Shimazu"
@@ -39,7 +39,7 @@ capital = 13	# Izumi
 	}
 }
 
-1460.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Shigehisa"
 		monarch_name = "Shigehisa"
@@ -53,7 +53,7 @@ capital = 13	# Izumi
 	}
 }
 	
-1499.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Shigehisa"
 		dynasty = "Shimazu"
@@ -63,7 +63,7 @@ capital = 13	# Izumi
 	}
 }
 
-1499.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Tadaoki"
 		monarch_name = "Tadaoki"
@@ -77,7 +77,7 @@ capital = 13	# Izumi
 	}
 }
 	
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Tadaoki"
 		dynasty = "Shimazu"
@@ -87,7 +87,7 @@ capital = 13	# Izumi
 	}
 }
 
-1510.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Sanehisa"
 		monarch_name = "Sanehisa"
@@ -101,7 +101,7 @@ capital = 13	# Izumi
 	}
 }
 	
-1525.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Sanehisa"
 		dynasty = "Shimazu"
@@ -111,7 +111,7 @@ capital = 13	# Izumi
 	}
 }
 
-1536.5.20 = {
+1546.5.19 = {
 	heir = {
 		name = "Yoshitora"
 		monarch_name = "Yoshitora"
@@ -125,7 +125,7 @@ capital = 13	# Izumi
 	}
 }
 	
-1539.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Yoshitora"
 		dynasty = "Shimazu"

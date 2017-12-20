@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 553	# Kubiki
 	
-1506.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Tamekage"
 		dynasty = "Nagao"
@@ -15,7 +15,7 @@ capital = 553	# Kubiki
 	}
 }
 
-1509.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Harukage"
 		monarch_name = "Harukage"
@@ -29,7 +29,7 @@ capital = 553	# Kubiki
 	}
 }
 	
-1536.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Harukage"
 		dynasty = "Nagao"
@@ -39,7 +39,7 @@ capital = 553	# Kubiki
 	}
 }
 
-1536.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Kagetora"
 		monarch_name = "Kagetora"
@@ -55,7 +55,7 @@ capital = 553	# Kubiki
 
 # Uesugi Kenshin
 	
-1548.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Kagetora"
 		dynasty = "Nagao"

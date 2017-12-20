@@ -10,7 +10,7 @@ historical_friend = BHK
 historical_friend = AHK
 capital = 144	# Utari
 
-1430.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Katsumoto"
 		monarch_name = "Katsumoto"
@@ -24,7 +24,7 @@ capital = 144	# Utari
 	}
 }
 
-1442.9.8 = {
+1467.6.15 = {
 	monarch = {
 		name = "Katsumoto" 
 		dynasty = "Hosokawa"
@@ -36,7 +36,7 @@ capital = 144	# Utari
 	}
 }
 
-1466.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Masamoto"
 		monarch_name = "Masamoto"
@@ -50,7 +50,7 @@ capital = 144	# Utari
 	}
 }
 
-1473.11.15 = {
+1493.6.9 = {
 	monarch = {
 		name = "Masamoto" 
 		dynasty = "Hosokawa"
@@ -62,7 +62,7 @@ capital = 144	# Utari
 	}
 }
 
-1489.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Sumiyuki"
 		monarch_name = "Sumiyuki"
@@ -76,7 +76,7 @@ capital = 144	# Utari
 	}
 }
 
-1503.5.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Sumimoto"
 		monarch_name = "Sumimoto"
@@ -90,7 +90,7 @@ capital = 144	# Utari
 	}
 }
 
-1507.8.1 = {
+1511.9.25 = {
 	monarch = {
 		name = "Sumiyuki" 
 		dynasty = "Hosokawa"
@@ -102,7 +102,7 @@ capital = 144	# Utari
 	}
 }
 
-1507.9.7 = {
+1511.9.25 = {
 	monarch = {
 		name = "Sumimoto" 
 		dynasty = "Hosokawa"
@@ -114,7 +114,7 @@ capital = 144	# Utari
 	}
 }
 
-1508.1.1 = {
+1511.9.25 = {
 	monarch = {
 		name = "Takakuni" 
 		dynasty = "Hosokawa"
@@ -126,7 +126,7 @@ capital = 144	# Utari
 	}
 }
 
-1508.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Tanekuni"
 		monarch_name = "Tanekuni"
@@ -140,7 +140,7 @@ capital = 144	# Utari
 	}
 }
 
-1525.4.21 = {
+1536.4.7 = {
 	monarch = {
 		name = "Tanekuni" 
 		dynasty = "Hosokawa"
@@ -152,7 +152,7 @@ capital = 144	# Utari
 	}
 }
 
-1525.11.8 = {
+1536.4.7 = {
 	monarch = {
 		name = "Takakuni" 
 		dynasty = "Hosokawa"
@@ -164,7 +164,7 @@ capital = 144	# Utari
 	}
 }
 
-1531.7.21 = {
+1536.4.7 = {
 	monarch = {
 		name = "Harumoto" 
 		dynasty = "Hosokawa"
@@ -176,7 +176,7 @@ capital = 144	# Utari
 	}
 }
 
-1548.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Akimoto"
 		monarch_name = "Akimoto"
@@ -190,7 +190,7 @@ capital = 144	# Utari
 	}
 }
 
-1552.1.1 = {
+1554.3.1 = {
 	monarch = {
 		name = "Ujitsuna" 
 		dynasty = "Hosokawa"

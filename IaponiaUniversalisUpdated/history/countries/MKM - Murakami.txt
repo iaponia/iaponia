@@ -6,7 +6,7 @@ technology_group = togoku
 historical_rival = TKD
 capital = 441	# Chiisagata
 	
-1438.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Kunikiyo"
 		dynasty = "Murakami"
@@ -16,7 +16,7 @@ capital = 441	# Chiisagata
 	}
 }
 
-1438.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Masakiyo"
 		monarch_name = "Masakiyo"
@@ -30,7 +30,7 @@ capital = 441	# Chiisagata
 	}
 }
 	
-1458.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Masakiyo"
 		dynasty = "Murakami"
@@ -40,7 +40,7 @@ capital = 441	# Chiisagata
 	}
 }
 
-1455.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Masakuni"
 		monarch_name = "Masakuni"
@@ -54,7 +54,7 @@ capital = 441	# Chiisagata
 	}
 }
 
-1477.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Masakuni"
 		dynasty = "Murakami"
@@ -64,7 +64,7 @@ capital = 441	# Chiisagata
 	}
 }
 
-1480.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Akikuni"
 		monarch_name = "Akikuni"
@@ -78,7 +78,7 @@ capital = 441	# Chiisagata
 	}
 }
 
-1490.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Akikuni"
 		dynasty = "Murakami"
@@ -88,7 +88,7 @@ capital = 441	# Chiisagata
 	}
 }
 
-1501.3.29 = {
+1511.9.25 = {
 	heir = {
 		name = "Yoshikiyo"
 		monarch_name = "Yoshikiyo"
@@ -102,7 +102,7 @@ capital = 441	# Chiisagata
 	}
 }
 
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshikiyo"
 		dynasty = "Murakami"

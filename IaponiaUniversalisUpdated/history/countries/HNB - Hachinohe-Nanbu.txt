@@ -5,7 +5,7 @@ religion = shinto
 technology_group = tohoku
 capital = 606	# Nukanobu
 	
-1420.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = ""
 		dynasty = "Nanbu"
@@ -15,7 +15,7 @@ capital = 606	# Nukanobu
 	}
 }
 
-1420.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Masatsune"
 		monarch_name = "Masatsune"
@@ -29,7 +29,7 @@ capital = 606	# Nukanobu
 	}
 }
 	
-1450.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Masatsune"
 		dynasty = "Nanbu"
@@ -39,7 +39,7 @@ capital = 606	# Nukanobu
 	}
 }
 
-1450.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Nobunaga"
 		monarch_name = "Nobunaga"
@@ -53,7 +53,7 @@ capital = 606	# Nukanobu
 	}
 }
 	
-1460.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Nobunaga"
 		dynasty = "Nanbu"
@@ -63,7 +63,7 @@ capital = 606	# Nukanobu
 	}
 }
 
-1460.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Haruyoshi"
 		monarch_name = "Haruyoshi"
@@ -77,7 +77,7 @@ capital = 606	# Nukanobu
 	}
 }
 	
-1490.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Haruyoshi"
 		dynasty = "Nanbu"
@@ -87,7 +87,7 @@ capital = 606	# Nukanobu
 	}
 }
 
-1510.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Yoshitsugu"
 		monarch_name = "Yoshitsugu"
@@ -101,7 +101,7 @@ capital = 606	# Nukanobu
 	}
 }
 	
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshitsugu"
 		dynasty = "Nanbu"
@@ -111,7 +111,7 @@ capital = 606	# Nukanobu
 	}
 }
 
-1539.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Katsuyoshi"
 		dynasty = "Nanbu"
@@ -121,7 +121,7 @@ capital = 606	# Nukanobu
 	}
 }
 	
-1565.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Masayoshi"
 		dynasty = "Nanbu"

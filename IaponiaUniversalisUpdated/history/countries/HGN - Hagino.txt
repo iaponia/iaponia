@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 259	# Hikami
 	
-1510.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Akikiyo"
 		dynasty = "Hagino"
@@ -17,7 +17,7 @@ capital = 259	# Hikami
 
 #Akai Naomasa
 
-1554.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Naomasa"
 		dynasty = "Hagino"

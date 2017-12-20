@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 481	# Kashima
 	
-1407.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Norimiki"
 		dynasty = "Kashima"
@@ -15,7 +15,7 @@ capital = 481	# Kashima
 	}
 }
 
-1410.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Sanemiki"
 		monarch_name = "Sanemiki"
@@ -29,7 +29,7 @@ capital = 481	# Kashima
 	}
 }
 	
-1450.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Sanemiki"
 		dynasty = "Kashima"
@@ -39,7 +39,7 @@ capital = 481	# Kashima
 	}
 }
 
-1486.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Chikamiki"
 		dynasty = "Kashima"
@@ -49,7 +49,7 @@ capital = 481	# Kashima
 	}
 }
 
-1486.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Kagemiki"
 		monarch_name = "Kagemiki"
@@ -63,7 +63,7 @@ capital = 481	# Kashima
 	}
 }
 
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Kagemiki"
 		dynasty = "Kashima"
@@ -73,7 +73,7 @@ capital = 481	# Kashima
 	}
 }
 
-1512.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshimiki"
 		dynasty = "Kashima"
@@ -83,7 +83,7 @@ capital = 481	# Kashima
 	}
 }
 
-1550.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Harutoki"
 		dynasty = "Kashima"
@@ -93,7 +93,7 @@ capital = 481	# Kashima
 	}
 }
 
-1550.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Ujimiki"
 		monarch_name = "Ujimiki"
@@ -107,7 +107,7 @@ capital = 481	# Kashima
 	}
 }
 
-1569.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Ujimiki"
 		dynasty = "Kashima"
@@ -117,7 +117,7 @@ capital = 481	# Kashima
 	}
 }
 
-1569.10.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Yoshikiyo"
 		dynasty = "Kashima"
@@ -127,7 +127,7 @@ capital = 481	# Kashima
 	}
 }
 
-1579.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Kiyohide"
 		dynasty = "Kashima"
@@ -137,7 +137,7 @@ capital = 481	# Kashima
 	}
 }
 
-1582.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Michiharu"
 		dynasty = "Kashima"
@@ -147,7 +147,7 @@ capital = 481	# Kashima
 	}
 }
 
-1586.1.1 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Kiyohide"
 		dynasty = "Kashima"

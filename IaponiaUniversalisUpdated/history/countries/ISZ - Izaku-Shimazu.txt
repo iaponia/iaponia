@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 7	# Izaku
 
-1442.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Inuyasumaru"
 		monarch_name = "Inuyasumaru"
@@ -19,7 +19,7 @@ capital = 7	# Izaku
 	}
 }
 	
-1443.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Inuyasumaru"
 		dynasty = "Shimazu"
@@ -29,7 +29,7 @@ capital = 7	# Izaku
 	}
 }
 	
-1458.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Hisayasu"
 		dynasty = "Shimazu"
@@ -39,7 +39,7 @@ capital = 7	# Izaku
 	}
 }
 
-1467.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Yoshihisa"
 		monarch_name = "Yoshihisa"
@@ -53,7 +53,7 @@ capital = 7	# Izaku
 	}
 }
 
-1494.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Tadayoshi"
 		dynasty = "Shimazu"

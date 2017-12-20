@@ -5,7 +5,7 @@ religion = shinto
 technology_group = tohoku
 capital = 603	# Hienuki
 	
-1430.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tamenaka"
 		dynasty = "Hienuki"
@@ -15,7 +15,7 @@ capital = 603	# Hienuki
 	}
 }
 
-1440.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Tametaka"
 		monarch_name = "Tametaka"
@@ -29,7 +29,7 @@ capital = 603	# Hienuki
 	}
 }
 	
-1460.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tametaka"
 		dynasty = "Hienuki"
@@ -39,7 +39,7 @@ capital = 603	# Hienuki
 	}
 }
 
-1470.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Taneshige"
 		monarch_name = "Taneshige"
@@ -53,7 +53,7 @@ capital = 603	# Hienuki
 	}
 }
 
-1490.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Taneshige"
 		dynasty = "Hienuki"
@@ -63,7 +63,7 @@ capital = 603	# Hienuki
 	}
 }
 
-1500.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Haruie"
 		monarch_name = "Haruie"
@@ -77,7 +77,7 @@ capital = 603	# Hienuki
 	}
 }
 
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Haruie"
 		dynasty = "Hienuki"
@@ -87,7 +87,7 @@ capital = 603	# Hienuki
 	}
 }
 
-1530.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Terutoki"
 		monarch_name = "Terutoki"
@@ -101,7 +101,7 @@ capital = 603	# Hienuki
 	}
 }
 
-1550.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Terutoki"
 		dynasty = "Hienuki"
@@ -111,7 +111,7 @@ capital = 603	# Hienuki
 	}
 }
 
-1580.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Hirotada"
 		dynasty = "Hienuki"

@@ -7,7 +7,7 @@ historical_rival = ASA
 historical_rival = JNB
 capital = 381	# Nomi
 	
-1457.7.18 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Rennyo"
 		dynasty = "Honganji"
@@ -17,7 +17,7 @@ capital = 381	# Nomi
 	}
 }
 
-1458.9.26 = {
+1467.6.15 = {
 	heir = {
 		name = "Jitsunyo"
 		monarch_name = "Jitsunyo"
@@ -31,7 +31,7 @@ capital = 381	# Nomi
 	}
 }
 	
-1499.5.14 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Jitsunyo"
 		dynasty = "Honganji"
@@ -41,7 +41,7 @@ capital = 381	# Nomi
 	}
 }
 
-1525.3.5 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Shonyo"
 		dynasty = "Honganji"
@@ -51,7 +51,7 @@ capital = 381	# Nomi
 	}
 }
 
-1543.2.20 = {
+1546.5.19 = {
 	heir = {
 		name = "Kennyo"
 		monarch_name = "Kennyo"
@@ -65,7 +65,7 @@ capital = 381	# Nomi
 	}
 }
 
-1554.9.19 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Kennyo"
 		dynasty = "Honganji"

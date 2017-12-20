@@ -6,7 +6,7 @@ technology_group = saigoku
 historical_rival = IOD
 capital = 370	# Aichi
 
-1490.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Michikatsu"
 		dynasty = "Oda"
@@ -16,7 +16,7 @@ capital = 370	# Aichi
 	}
 }
 
-1520.1.1 = {
+1523.8.25 = {
 	monarch = {
 		name = "Nobusada"
 		dynasty = "Oda"
@@ -28,7 +28,7 @@ capital = 370	# Aichi
 	}
 }
 
-1520.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Nobuhide"
 		monarch_name = "Nobuhide"
@@ -42,7 +42,7 @@ capital = 370	# Aichi
 	}
 }
 
-1527.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Nobuhide"
 		dynasty = "Oda"
@@ -54,7 +54,7 @@ capital = 370	# Aichi
 	}
 }
 
-1534.6.23 = {
+1536.4.7 = {
 	heir = {
 		name = "Nobunaga"
 		monarch_name = "Nobunaga"
@@ -68,7 +68,7 @@ capital = 370	# Aichi
 	}
 }
 	
-1551.4.8 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Nobunaga"
 		dynasty = "Oda"
@@ -80,7 +80,7 @@ capital = 370	# Aichi
 	}
 }
 
-1557.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Nobutada"
 		monarch_name = "Nobutada"

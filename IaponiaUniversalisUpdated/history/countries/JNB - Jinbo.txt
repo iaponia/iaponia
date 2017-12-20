@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 393	# Niikawa
 	
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Nagamoto"
 		dynasty = "Jinbo"

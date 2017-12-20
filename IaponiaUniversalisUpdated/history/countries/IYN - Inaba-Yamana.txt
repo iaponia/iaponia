@@ -6,7 +6,7 @@ technology_group = saigoku
 historical_friend = YMN
 capital = 182	# Omi
 
-1412.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Hirotaka"
 		dynasty = "Yamana"
@@ -16,7 +16,7 @@ capital = 182	# Omi
 	}
 }
 
-1412.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Hiroyuki"
 		monarch_name = "Hiroyuki"
@@ -30,7 +30,7 @@ capital = 182	# Omi
 	}
 }
 
-1453.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Hiroyuki"
 		dynasty = "Yamana"
@@ -40,7 +40,7 @@ capital = 182	# Omi
 	}
 }
 
-1459.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Toyouji"
 		dynasty = "Yamana"
@@ -50,7 +50,7 @@ capital = 182	# Omi
 	}
 }
 
-1459.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Toyotoki"
 		monarch_name = "Toyotoki"
@@ -64,7 +64,7 @@ capital = 182	# Omi
 	}
 }
 
-1461.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Toyotoki"
 		dynasty = "Yamana"
@@ -74,7 +74,7 @@ capital = 182	# Omi
 	}
 }
 
-1475.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Toyoshige"
 		monarch_name = "Toyoshige"
@@ -88,7 +88,7 @@ capital = 182	# Omi
 	}
 }
 
-1506.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Toyoshige"
 		dynasty = "Yamana"
@@ -98,7 +98,7 @@ capital = 182	# Omi
 	}
 }
 
-1506.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Toyoharu"
 		monarch_name = "Toyoharu"
@@ -112,7 +112,7 @@ capital = 182	# Omi
 	}
 }
 
-1521.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Toyoharu"
 		dynasty = "Yamana"
@@ -122,7 +122,7 @@ capital = 182	# Omi
 	}
 }
 
-1527.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Nobumichi"
 		dynasty = "Yamana"
@@ -132,7 +132,7 @@ capital = 182	# Omi
 	}
 }
 
-1548.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Toyosada"
 		dynasty = "Yamana"
@@ -142,7 +142,7 @@ capital = 182	# Omi
 	}
 }
 
-1548.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Toyokazu"
 		monarch_name = "Toyokazu"
@@ -156,7 +156,7 @@ capital = 182	# Omi
 	}
 }
 
-1560.3.29 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Toyokazu"
 		dynasty = "Yamana"
@@ -166,7 +166,7 @@ capital = 182	# Omi
 	}
 }
 
-1560.3.29 = {
+1569.10.10 = {
 	heir = {
 		name = "Toyokuni"
 		monarch_name = "Toyokuni"
@@ -180,7 +180,7 @@ capital = 182	# Omi
 	}
 }
 
-1564.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Toyokuni"
 		dynasty = "Yamana"
@@ -190,7 +190,7 @@ capital = 182	# Omi
 	}
 }
 
-1571.1.1 = {
+1582.6.21 = {
 	heir = {
 		name = "Toyomasa"
 		monarch_name = "Toyomasa"

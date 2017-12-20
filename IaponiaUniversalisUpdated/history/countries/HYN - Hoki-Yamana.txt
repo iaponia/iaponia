@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 186	# Kawamura
 
-1427.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Noriyuki"
 		dynasty = "Yamana"
@@ -15,7 +15,7 @@ capital = 186	# Kawamura
 	}
 }
 
-1432.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Toyoyuki"
 		monarch_name = "Toyoyuki"
@@ -29,7 +29,7 @@ capital = 186	# Kawamura
 	}
 }
 
-1473.2.13 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Masayuki"
 		dynasty = "Yamana"
@@ -39,7 +39,7 @@ capital = 186	# Kawamura
 	}
 }
 
-1491.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Hisayuki"
 		dynasty = "Yamana"
@@ -49,7 +49,7 @@ capital = 186	# Kawamura
 	}
 }
 
-1500.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Sumiyuki"
 		monarch_name = "Sumiyuki"
@@ -63,7 +63,7 @@ capital = 186	# Kawamura
 	}
 }
 
-1506.12.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Sumiyuki"
 		dynasty = "Yamana"

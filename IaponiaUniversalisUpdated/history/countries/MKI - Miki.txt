@@ -6,7 +6,7 @@ technology_group = togoku
 historical_rival = AKJ
 capital = 396	# Mashita
 	
-1495.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Naoyori"
 		dynasty = "Miki"
@@ -16,7 +16,7 @@ capital = 396	# Mashita
 	}
 }
 
-1520.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Yoshiyori"
 		monarch_name = "Yoshiyori"
@@ -30,7 +30,7 @@ capital = 396	# Mashita
 	}
 }
 	
-1554.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Yoshiyori"
 		dynasty = "Miki"

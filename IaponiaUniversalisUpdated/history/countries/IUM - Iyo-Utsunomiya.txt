@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 96	# Kita
 	
-1490.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Nobutsuna"
 		dynasty = "Iyo-Utsunomiya"
@@ -15,7 +15,7 @@ capital = 96	# Kita
 	}
 }
 
-1500.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Kiyotsuna"
 		monarch_name = "Kiyotsuna"
@@ -29,7 +29,7 @@ capital = 96	# Kita
 	}
 }
 	
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Kiyotsuna"
 		dynasty = "Iyo-Utsunomiya"
@@ -39,7 +39,7 @@ capital = 96	# Kita
 	}
 }
 
-1520.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Toyotsuna"
 		monarch_name = "Toyotsuna"
@@ -53,7 +53,7 @@ capital = 96	# Kita
 	}
 }
 	
-1530.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Toyotsuna"
 		dynasty = "Iyo-Utsunomiya"

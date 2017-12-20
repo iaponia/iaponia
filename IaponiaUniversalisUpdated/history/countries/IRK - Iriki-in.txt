@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 10	# Satsuma
 	
-1441.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Shigetoyo"
 		dynasty = "Iriki-in"
@@ -15,7 +15,7 @@ capital = 10	# Satsuma
 	}
 }
 
-1450.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Shigesatsu"
 		monarch_name = "Shigesatsu"
@@ -29,7 +29,7 @@ capital = 10	# Satsuma
 	}
 }
 	
-1484.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Shigesatsu"
 		dynasty = "Iriki-in"
@@ -39,7 +39,7 @@ capital = 10	# Satsuma
 	}
 }
 
-1484.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Shigetomo"
 		monarch_name = "Shigetomo"
@@ -53,7 +53,7 @@ capital = 10	# Satsuma
 	}
 }
 	
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Shigetomo"
 		dynasty = "Iriki-in"
@@ -63,7 +63,7 @@ capital = 10	# Satsuma
 	}
 }
 
-1530.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Shigetsugu"
 		monarch_name = "Shigetsugu"
@@ -77,7 +77,7 @@ capital = 10	# Satsuma
 	}
 }
 	
-1544.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Shigetsugu"
 		dynasty = "Iriki-in"

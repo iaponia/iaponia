@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 107	# Hata
 	
-1477.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Fusaie"
 		dynasty = "Ichijo"
@@ -15,7 +15,7 @@ capital = 107	# Hata
 	}
 }
 
-1498.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Fusafuyu"
 		monarch_name = "Fusafuyu"
@@ -29,7 +29,7 @@ capital = 107	# Hata
 	}
 }
 	
-1539.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Fusafuyu"
 		dynasty = "Ichijo"
@@ -39,7 +39,7 @@ capital = 107	# Hata
 	}
 }
 
-1539.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Fusamoto"
 		monarch_name = "Fusamoto"
@@ -53,7 +53,7 @@ capital = 107	# Hata
 	}
 }
 
-1541.11.23 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Fusamoto"
 		dynasty = "Ichijo"
@@ -63,7 +63,7 @@ capital = 107	# Hata
 	}
 }
 
-1543.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Kanesada"
 		monarch_name = "Kanesada"
@@ -77,7 +77,7 @@ capital = 107	# Hata
 	}
 }
 
-1549.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Kanesada"
 		dynasty = "Ichijo"

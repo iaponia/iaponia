@@ -8,7 +8,7 @@ historical_rival = KKC
 historical_rival = ITO
 capital = 9	# Kagoshima
 
-1325.11.12 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Sadahisa"
 		dynasty = "Shimazu"
@@ -18,7 +18,7 @@ capital = 9	# Kagoshima
 	}
 }
 
-1328.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Ujihisa"
 		monarch_name = "Ujihisa"
@@ -32,7 +32,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1363.8.12 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Ujihisa"
 		dynasty = "Shimazu"
@@ -42,7 +42,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1363.8.12 = {
+1467.6.15 = {
 	heir = {
 		name = "Motohisa"
 		monarch_name = "Motohisa"
@@ -56,7 +56,7 @@ capital = 9	# Kagoshima
 	}
 }	
 	
-1387.6.30 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Motohisa"
 		dynasty = "Shimazu"
@@ -66,7 +66,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1387.6.30 = {
+1467.6.15 = {
 	heir = {
 		name = "Hisatoyo"
 		monarch_name = "Hisatoyo"
@@ -80,7 +80,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1411.8.25 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Hisatoyo"
 		dynasty = "Shimazu"
@@ -92,7 +92,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1411.8.25 = {
+1467.6.15 = {
 	heir = {
 		name = "Tadakuni"
 		monarch_name = "Tadakuni"
@@ -107,7 +107,7 @@ capital = 9	# Kagoshima
 }
 
 #Oshu	
-1425.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tadakuni"
 		dynasty = "Shimazu"
@@ -119,7 +119,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1432.11.27 = {
+1467.6.15 = {
 	heir = {
 		name = "Tatsuhisa"
 		monarch_name = "Tatsuhisa"
@@ -133,7 +133,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1470.2.21 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tatsuhisa"
 		dynasty = "Shimazu"
@@ -145,7 +145,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1470.2.21 = {
+1493.6.9 = {
 	heir = {
 		name = "Tadamasa"
 		monarch_name = "Tadamasa"
@@ -159,7 +159,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1474.4.26 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tadamasa"
 		dynasty = "Shimazu"
@@ -171,7 +171,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1489.2.17 = {
+1493.6.9 = {
 	heir = {
 		name = "Tadaharu"
 		monarch_name = "Tadaharu"
@@ -185,7 +185,7 @@ capital = 9	# Kagoshima
 	}
 }
 
-1508.3.16 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Tadaharu"
 		dynasty = "Shimazu"
@@ -197,7 +197,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1515.8.25 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Tadataka"
 		dynasty = "Shimazu"
@@ -209,7 +209,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1519.5.12 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Katsuhisa"
 		dynasty = "Shimazu"
@@ -222,7 +222,7 @@ capital = 9	# Kagoshima
 }
 
 #Son of Izaku/Soshu leader
-1520.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Takahisa"
 		monarch_name = "Takahisa"
@@ -236,7 +236,7 @@ capital = 9	# Kagoshima
 	}
 }
 
-1527.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Takahisa"
 		dynasty = "Shimazu"
@@ -248,7 +248,7 @@ capital = 9	# Kagoshima
 	}
 }
 
-1533.3.4 = {
+1536.4.7 = {
 	heir = {
 		name = "Yoshihisa"
 		monarch_name = "Yoshihisa"
@@ -262,7 +262,7 @@ capital = 9	# Kagoshima
 	}
 }
 
-1566.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Yoshihisa"
 		dynasty = "Shimazu"
@@ -274,7 +274,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1587.5.22 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Yoshihiro"
 		dynasty = "Shimazu"
@@ -286,7 +286,7 @@ capital = 9	# Kagoshima
 	}
 }
 	
-1587.5.22 = {
+1600.9.13 = {
 	heir = {
 		name = "Tadatsune"
 		monarch_name = "Tadatsune"

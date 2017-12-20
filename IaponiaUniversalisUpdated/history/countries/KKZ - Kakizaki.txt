@@ -5,7 +5,7 @@ religion = shinto
 technology_group = tohoku
 capital = 607	# Oshima
 	
-1420.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Sueshige"
 		dynasty = "Kakizaki"
@@ -15,7 +15,7 @@ capital = 607	# Oshima
 	}
 }
 
-1431.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Nobuhiro"
 		monarch_name = "Nobuhiro"
@@ -29,7 +29,7 @@ capital = 607	# Oshima
 	}
 }
 	
-1462.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Nobuhiro"
 		dynasty = "Kakizaki"
@@ -39,7 +39,7 @@ capital = 607	# Oshima
 	}
 }
 
-1462.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Mitsuhiro"
 		monarch_name = "Mitsuhiro"
@@ -53,7 +53,7 @@ capital = 607	# Oshima
 	}
 }
 
-1494.6.23 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Mitsuhiro"
 		dynasty = "Kakizaki"
@@ -63,7 +63,7 @@ capital = 607	# Oshima
 	}
 }
 
-1494.6.23 = {
+1511.9.25 = {
 	heir = {
 		name = "Yoshihiro"
 		monarch_name = "Yoshihiro"
@@ -77,7 +77,7 @@ capital = 607	# Oshima
 	}
 }
 
-1518.8.18 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshihiro"
 		dynasty = "Kakizaki"
@@ -87,7 +87,7 @@ capital = 607	# Oshima
 	}
 }
 
-1518.8.18 = {
+1523.8.25 = {
 	heir = {
 		name = "Suehiro"
 		monarch_name = "Suehiro"
@@ -101,7 +101,7 @@ capital = 607	# Oshima
 	}
 }
 
-1545.9.24 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Suehiro"
 		dynasty = "Kakizaki"
@@ -111,7 +111,7 @@ capital = 607	# Oshima
 	}
 }
 
-1548.10.4 = {
+1554.3.1 = {
 	heir = {
 		name = "Yoshihiro"
 		monarch_name = "Yoshihiro"
@@ -125,7 +125,7 @@ capital = 607	# Oshima
 	}
 }
 
-1583.1.1 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Yoshihiro"
 		dynasty = "Kakizaki"

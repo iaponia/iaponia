@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 211	# Mino
 	
-1540.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Mototeru"
 		dynasty = "Matsuda"
@@ -15,7 +15,7 @@ capital = 211	# Mino
 	}
 }
 
-1540.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Motokata"
 		monarch_name = "Motokata"
@@ -29,7 +29,7 @@ capital = 211	# Mino
 	}
 }
 	
-1568.7.28 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Motokata"
 		dynasty = "Matsuda"

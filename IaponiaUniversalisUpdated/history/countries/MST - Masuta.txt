@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 122	# Mino
 	
-1470.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Kanetaka"
 		dynasty = "Masuta"
@@ -15,7 +15,7 @@ capital = 122	# Mino
 	}
 }
 
-1470.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Sadakane"
 		monarch_name = "Sadakane"
@@ -29,7 +29,7 @@ capital = 122	# Mino
 	}
 }
 	
-1485.7.14 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Sadakane"
 		dynasty = "Masuta"
@@ -39,7 +39,7 @@ capital = 122	# Mino
 	}
 }
 
-1490.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Munekane"
 		monarch_name = "Munekane"
@@ -53,7 +53,7 @@ capital = 122	# Mino
 	}
 }
 	
-1526.9.6 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Munekane"
 		dynasty = "Masuta"
@@ -63,7 +63,7 @@ capital = 122	# Mino
 	}
 }
 
-1520.9.6 = {
+1523.8.25 = {
 	heir = {
 		name = "Tadakane"
 		monarch_name = "Tadakane"
@@ -77,7 +77,7 @@ capital = 122	# Mino
 	}
 }
 	
-1544.2.12 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Tadakane"
 		dynasty = "Masuta"

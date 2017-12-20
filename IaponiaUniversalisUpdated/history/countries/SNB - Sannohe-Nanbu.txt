@@ -5,7 +5,7 @@ religion = shinto
 technology_group = tohoku
 capital = 663	# Sannohe
 	
-1430.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tokimasa"
 		dynasty = "Nanbu"
@@ -15,7 +15,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1440.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Michitsugu"
 		monarch_name = "Michitsugu"
@@ -29,7 +29,7 @@ capital = 663	# Sannohe
 	}
 }
 	
-1473.4.2 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Michitsugu"
 		dynasty = "Nanbu"
@@ -40,7 +40,7 @@ capital = 663	# Sannohe
 }
 
 
-1473.4.2 = {
+1493.6.9 = {
 	heir = {
 		name = "Nobutoki"
 		monarch_name = "Nobutoki"
@@ -54,7 +54,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1490.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Nobutoki"
 		dynasty = "Nanbu"
@@ -64,7 +64,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1490.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Nobuyoshi"
 		monarch_name = "Nobuyoshi"
@@ -78,7 +78,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1502.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Nobuyoshi"
 		dynasty = "Nanbu"
@@ -88,7 +88,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1503.6.18 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Masayasu"
 		dynasty = "Nanbu"
@@ -98,7 +98,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1503.6.18 = {
+1511.9.25 = {
 	heir = {
 		name = "Yasunobu"
 		monarch_name = "Yasunobu"
@@ -112,7 +112,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1507.3.23 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yasunobu"
 		dynasty = "Nanbu"
@@ -122,7 +122,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1517.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Harumasa"
 		monarch_name = "Harumasa"
@@ -136,7 +136,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1539.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Harumasa"
 		dynasty = "Nanbu"
@@ -146,7 +146,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1570.1.1 = {
+1582.6.21 = {
 	heir = {
 		name = "Harutsugu"
 		monarch_name = "Harutsugu"
@@ -160,7 +160,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1582.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Harutsugu"
 		dynasty = "Nanbu"
@@ -170,7 +170,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1582.2.16 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Nobunao"
 		dynasty = "Nanbu"
@@ -180,7 +180,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1582.2.16 = {
+1582.6.21 = {
 	heir = {
 		name = "Toshinao"
 		monarch_name = "Toshinao"
@@ -194,7 +194,7 @@ capital = 663	# Sannohe
 	}
 }
 
-1599.1.1 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Toshinao"
 		dynasty = "Nanbu"

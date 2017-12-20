@@ -5,7 +5,7 @@ religion = shinto
 technology_group = tohoku
 capital = 569	# Yuri
 	
-1467.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tomotaka"
 		dynasty = "Nikaho"
@@ -15,7 +15,7 @@ capital = 569	# Yuri
 	}
 }
 
-1480.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Takamasa"
 		monarch_name = "Takamasa"
@@ -29,7 +29,7 @@ capital = 569	# Yuri
 	}
 }
 	
-1497.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Takamasa"
 		dynasty = "Nikaho"
@@ -39,7 +39,7 @@ capital = 569	# Yuri
 	}
 }
 
-1520.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Akishige"
 		monarch_name = "Akishige"
@@ -53,7 +53,7 @@ capital = 569	# Yuri
 	}
 }
 
-1546.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Akishige"
 		dynasty = "Nikaho"
@@ -63,7 +63,7 @@ capital = 569	# Yuri
 	}
 }
 
-1550.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Yasushige"
 		monarch_name = "Yasushige"
@@ -77,7 +77,7 @@ capital = 569	# Yuri
 	}
 }
 
-1576.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Yasushige"
 		dynasty = "Nikaho"
@@ -87,7 +87,7 @@ capital = 569	# Yuri
 	}
 }
 
-1577.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Harushige"
 		dynasty = "Nikaho"
@@ -97,7 +97,7 @@ capital = 569	# Yuri
 	}
 }
 
-1577.1.1 = {
+1582.6.21 = {
 	heir = {
 		name = "Shigekatsu"
 		monarch_name = "Shigekatsu"
@@ -111,7 +111,7 @@ capital = 569	# Yuri
 	}
 }
 
-1583.1.1 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Shigekatsu"
 		dynasty = "Nikaho"
@@ -121,7 +121,7 @@ capital = 569	# Yuri
 	}
 }
 
-1583.1.1 = {
+1600.9.13 = {
 	heir = {
 		name = "Kiyoshige"
 		monarch_name = "Kiyoshige"
@@ -135,7 +135,7 @@ capital = 569	# Yuri
 	}
 }
 
-1591.1.1 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Kiyoshige"
 		dynasty = "Nikaho"

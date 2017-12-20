@@ -7,7 +7,7 @@ historical_rival = KGA
 historical_rival = OAK
 capital = 434	# Tagata
 	
-1457.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Masatomi"
 		dynasty = "Ashikaga"
@@ -17,7 +17,7 @@ capital = 434	# Tagata
 	}
 }
 
-1487.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Chachamaru"
 		monarch_name = "Chachamaru"
@@ -31,7 +31,7 @@ capital = 434	# Tagata
 	}
 }
 	
-1491.5.11 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Chachamaru"
 		dynasty = "Ashikaga"

@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 186	# Kawamura
 	
-1514.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Kunikiyo"
 		dynasty = "Nanjo"
@@ -15,7 +15,7 @@ capital = 186	# Kawamura
 	}
 }
 
-1549.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Mototsugu"
 		monarch_name = "Mototsugu"
@@ -29,7 +29,7 @@ capital = 186	# Kawamura
 	}
 }
 	
-1575.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Mototsugu"
 		dynasty = "Nanjo"

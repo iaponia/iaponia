@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 161	# Tosa
 	
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Tomei"
 		dynasty = "Motoyama"
@@ -15,7 +15,7 @@ capital = 161	# Tosa
 	}
 }
 
-1508.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Shigemune"
 		monarch_name = "Shigemune"
@@ -29,7 +29,7 @@ capital = 161	# Tosa
 	}
 }
 	
-1518.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Shigemune"
 		dynasty = "Motoyama"
@@ -39,7 +39,7 @@ capital = 161	# Tosa
 	}
 }
 
-1525.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Shigetoki"
 		monarch_name = "Shigetoki"
@@ -53,7 +53,7 @@ capital = 161	# Tosa
 	}
 }
 	
-1555.2.1 = {
+1569.10.10 = {
 	monarch = {
 		name = "Shigetoki"
 		dynasty = "Motoyama"
@@ -63,7 +63,7 @@ capital = 161	# Tosa
 	}
 }
 
-1555.2.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Chikashige"
 		monarch_name = "Chikashige"
@@ -77,7 +77,7 @@ capital = 161	# Tosa
 	}
 }
 	
-1564.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Chikashige"
 		dynasty = "Motoyama"

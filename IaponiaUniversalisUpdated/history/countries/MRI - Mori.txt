@@ -8,7 +8,7 @@ historical_rival = SUE
 historical_rival = ODA
 capital = 130	# Takata
 
-1341.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Motoharu" #1323 - ??
 		dynasty = "Mori"
@@ -18,7 +18,7 @@ capital = 130	# Takata
 	}
 }
 
-1347.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Hirofusa"
 		monarch_name = "Hirofusa"
@@ -32,7 +32,7 @@ capital = 130	# Takata
 	}
 }
 
-1386.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Mitsufusa"
 		monarch_name = "Mitsufusa"
@@ -46,7 +46,7 @@ capital = 130	# Takata
 	}
 }
 
-1401.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Mitsufusa"
 		adm = 3
@@ -55,7 +55,7 @@ capital = 130	# Takata
 	}
 }
 
-1412.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Hiromoto"
 		monarch_name = "Hiromoto"
@@ -69,7 +69,7 @@ capital = 130	# Takata
 	}
 }
 
-1436.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Hiromoto" 
 		dynasty = "Mori"
@@ -79,7 +79,7 @@ capital = 130	# Takata
 	}
 }
 
-1444.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Toyomoto"
 		monarch_name = "Toyomoto"
@@ -93,7 +93,7 @@ capital = 130	# Takata
 	}
 }
 
-1464.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Toyomoto" 
 		dynasty = "Mori"
@@ -105,7 +105,7 @@ capital = 130	# Takata
 	}
 }
 
-1466.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Hiromoto"
 		monarch_name = "Hiromoto"
@@ -119,7 +119,7 @@ capital = 130	# Takata
 	}
 }
 
-1476.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Hiromoto" 
 		dynasty = "Mori"
@@ -131,7 +131,7 @@ capital = 130	# Takata
 	}
 }
 
-1492.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Okimoto"
 		monarch_name = "Okimoto"
@@ -145,7 +145,7 @@ capital = 130	# Takata
 	}
 }
 
-1506.2.3 = {
+1511.9.25 = {
 	monarch = {
 		name = "Okimoto" 
 		dynasty = "Mori"
@@ -157,7 +157,7 @@ capital = 130	# Takata
 	}
 }
 
-1515.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Komatsumaru"
 		monarch_name = "Komatsumaru"
@@ -171,7 +171,7 @@ capital = 130	# Takata
 	}
 }
 
-1516.9.21 = {
+1523.8.25 = {
 	monarch = {
 		name = "Komatsumaru" 
 		dynasty = "Mori"
@@ -211,7 +211,7 @@ capital = 130	# Takata
 }
 
 
-1563.9.18 = {
+1569.10.10 = {
 	heir = {
 		name = "Terumoto"
 		monarch_name = "Terumoto"
@@ -225,7 +225,7 @@ capital = 130	# Takata
 	}
 }
 
-1571.7.6 = {
+1582.6.21 = {
 	monarch = {
 		name = "Terumoto" 
 		dynasty = "Mori"
@@ -237,7 +237,7 @@ capital = 130	# Takata
 	}
 }
 
-1571.7.6 = {
+1582.6.21 = {
 	heir = {
 		name = "Hidenari"
 		monarch_name = "Hidenari"

@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 441	# Chiisagata
 	
-1575.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Masayuki"
 		dynasty = "Sanada"
@@ -15,7 +15,7 @@ capital = 441	# Chiisagata
 	}
 }
 
-1575.1.1 = {
+1582.6.21 = {
 	heir = {
 		name = "Nobuyuki"
 		monarch_name = "Nobuyuki"

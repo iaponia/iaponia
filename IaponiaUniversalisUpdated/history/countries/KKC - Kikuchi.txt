@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 32	# Kikuchi
 
-1409.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Mochitomo"
 		monarch_name = "Mochitomo"
@@ -19,7 +19,7 @@ capital = 32	# Kikuchi
 	}
 }
 	
-1431.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Mochitomo"
 		dynasty = "Kikuchi"
@@ -31,7 +31,7 @@ capital = 32	# Kikuchi
 		}
 	}
 	
-1444.3.27 = {
+1467.6.15 = {
 	heir = {
 		name = "Tamekuni"
 		monarch_name = "Tamekuni"
@@ -45,7 +45,7 @@ capital = 32	# Kikuchi
 	}
 }
 	
-1446.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tamekuni"
 		dynasty = "Kikuchi"
@@ -57,7 +57,7 @@ capital = 32	# Kikuchi
 		}
 	}
 	
-1449.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Shigetomo"
 		monarch_name = "Shigetomo"
@@ -71,7 +71,7 @@ capital = 32	# Kikuchi
 	}
 }
 	
-1466.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Shigetomo"
 		dynasty = "Kikuchi"
@@ -83,7 +83,7 @@ capital = 32	# Kikuchi
 		}
 	}
 	
-1483.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Yoshiyuki"
 		monarch_name = "Yoshiyuki"
@@ -97,7 +97,7 @@ capital = 32	# Kikuchi
 	}
 }
 
-1493.12.7 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yoshiyuki"
 		dynasty = "Kikuchi"
@@ -109,7 +109,7 @@ capital = 32	# Kikuchi
 		}
 	}
 
-1491.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Masataka"
 		monarch_name = "Masataka"
@@ -123,7 +123,7 @@ capital = 32	# Kikuchi
 	}
 }
 
-1504.3.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Masataka"
 		dynasty = "Kikuchi"
@@ -137,7 +137,7 @@ capital = 32	# Kikuchi
 
 # Aso Korenaga seizes control of clan
 
-1504.3.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Taketsune"
 		dynasty = "Kikuchi"
@@ -149,7 +149,7 @@ capital = 32	# Kikuchi
 		}
 	}
 
-1513.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Takekane"
 		dynasty = "Kikuchi"
@@ -161,7 +161,7 @@ capital = 32	# Kikuchi
 		}
 	}
 
-1513.1.1 = { 
+1523.8.25 = { 
 	heir = {
 		name = "Yoshitake"
 		monarch_name = "Yoshitake"
@@ -175,7 +175,7 @@ capital = 32	# Kikuchi
 		}
 	}
 
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshitake"
 		dynasty = "Kikuchi"

@@ -5,7 +5,7 @@ religion = shinto
 technology_group = tohoku
 capital = 542	# Shirakawa
 	
-1432.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Naotomo"
 		dynasty = "Yuki"
@@ -15,7 +15,7 @@ capital = 542	# Shirakawa
 	}
 }
 
-1440.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Masatomo"
 		monarch_name = "Masatomo"
@@ -29,7 +29,7 @@ capital = 542	# Shirakawa
 	}
 }
 	
-1454.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Masatomo"
 		dynasty = "Yuki"
@@ -39,7 +39,7 @@ capital = 542	# Shirakawa
 	}
 }
 
-1470.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Akiyori"
 		monarch_name = "Akiyori"
@@ -53,7 +53,7 @@ capital = 542	# Shirakawa
 	}
 }
 
-1510.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Akiyori"
 		dynasty = "Yuki"
@@ -63,7 +63,7 @@ capital = 542	# Shirakawa
 	}
 }
 
-1510.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Yoshitsuna"
 		monarch_name = "Yoshitsuna"
@@ -77,7 +77,7 @@ capital = 542	# Shirakawa
 	}
 }
 
-1522.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshitsuna"
 		dynasty = "Yuki"
@@ -87,7 +87,7 @@ capital = 542	# Shirakawa
 	}
 }
 
-1522.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Harutsuna"
 		monarch_name = "Harutsuna"
@@ -101,7 +101,7 @@ capital = 542	# Shirakawa
 	}
 }
 
-1542.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Harutsuna"
 		dynasty = "Yuki"

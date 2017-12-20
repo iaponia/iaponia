@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 312	# Katsuge
 	
-1425.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tametaka"
 		dynasty = "Hashio"
@@ -15,7 +15,7 @@ capital = 312	# Katsuge
 	}
 }
 
-1430.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Tamekuni"
 		monarch_name = "Tamekuni"
@@ -29,7 +29,7 @@ capital = 312	# Katsuge
 	}
 }
 	
-1467.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tamekuni"
 		dynasty = "Hashio"
@@ -39,7 +39,7 @@ capital = 312	# Katsuge
 	}
 }
 
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Tametoki"
 		dynasty = "Hashio"
@@ -49,7 +49,7 @@ capital = 312	# Katsuge
 	}
 }
 
-1500.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Tametaka"
 		monarch_name = "Tametaka"
@@ -63,7 +63,7 @@ capital = 312	# Katsuge
 	}
 }
 
-1510.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Tametaka"
 		dynasty = "Hashio"
@@ -73,7 +73,7 @@ capital = 312	# Katsuge
 	}
 }
 
-1510.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Tamemasa"
 		monarch_name = "Tamemasa"
@@ -87,7 +87,7 @@ capital = 312	# Katsuge
 	}
 }
 
-1525.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Tamemasa"
 		dynasty = "Hashio"
@@ -97,7 +97,7 @@ capital = 312	# Katsuge
 	}
 }
 
-1547.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Tametsuna"
 		dynasty = "Hashio"

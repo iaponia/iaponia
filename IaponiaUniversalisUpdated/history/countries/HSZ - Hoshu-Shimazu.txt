@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 631	# Minami Naka
 	
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tokihisa"
 		dynasty = "Shimazu"
@@ -15,7 +15,7 @@ capital = 631	# Minami Naka
 	}
 }
 
-1440.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Tadakado"
 		monarch_name = "Tadakado"
@@ -29,7 +29,7 @@ capital = 631	# Minami Naka
 	}
 }
 	
-1477.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tadakado"
 		dynasty = "Shimazu"
@@ -39,7 +39,7 @@ capital = 631	# Minami Naka
 	}
 }
 
-1492.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Tadatomo"
 		monarch_name = "Tadatomo"
@@ -53,7 +53,7 @@ capital = 631	# Minami Naka
 	}
 }
 	
-1492.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tadatomo"
 		dynasty = "Shimazu"
@@ -63,7 +63,7 @@ capital = 631	# Minami Naka
 	}
 }
 
-1492.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Tadahiro"
 		monarch_name = "Tadahiro"
@@ -77,7 +77,7 @@ capital = 631	# Minami Naka
 	}
 }
 	
-1540.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Tadahiro"
 		dynasty = "Shimazu"
@@ -87,7 +87,7 @@ capital = 631	# Minami Naka
 	}
 }
 	
-1549.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Tadachika"
 		dynasty = "Shimazu"

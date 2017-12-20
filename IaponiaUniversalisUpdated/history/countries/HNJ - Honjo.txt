@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 558	# Nutari
 	
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Tokinaga"
 		dynasty = "Honjo"
@@ -15,7 +15,7 @@ capital = 558	# Nutari
 	}
 }
 
-1505.1.12 = {
+1511.9.25 = {
 	heir = {
 		name = "Fusanaga"
 		monarch_name = "Fusanaga"
@@ -29,7 +29,7 @@ capital = 558	# Nutari
 	}
 }
 	
-1509.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Fusanaga"
 		dynasty = "Honjo"
@@ -39,7 +39,7 @@ capital = 558	# Nutari
 	}
 }
 
-1540.1.12 = {
+1546.5.19 = {
 	heir = {
 		name = "Shigenaga"
 		monarch_name = "Shigenaga"
@@ -53,7 +53,7 @@ capital = 558	# Nutari
 	}
 }
 
-1539.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Shigenaga"
 		dynasty = "Honjo"

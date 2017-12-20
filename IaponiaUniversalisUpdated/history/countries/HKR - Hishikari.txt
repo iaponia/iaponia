@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 16	# Hishikari
 	
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Ujishige"
 		dynasty = "Hishikari"
@@ -15,7 +15,7 @@ capital = 16	# Hishikari
 	}
 }
 
-1440.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Tadauji"
 		monarch_name = "Tadauji"
@@ -29,7 +29,7 @@ capital = 16	# Hishikari
 	}
 }
 	
-1475.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tadauji"
 		dynasty = "Hishikari"
@@ -39,7 +39,7 @@ capital = 16	# Hishikari
 	}
 }
 
-1475.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Shigetoki"
 		monarch_name = "Shigetoki"
@@ -53,7 +53,7 @@ capital = 16	# Hishikari
 	}
 }
 	
-1489.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Shigetoki"
 		dynasty = "Hishikari"
@@ -63,7 +63,7 @@ capital = 16	# Hishikari
 	}
 }
 
-1489.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Shigefuku"
 		monarch_name = "Shigefuku"
@@ -77,7 +77,7 @@ capital = 16	# Hishikari
 	}
 }
 	
-1509.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Shigefuku"
 		dynasty = "Hishikari"
@@ -87,7 +87,7 @@ capital = 16	# Hishikari
 	}
 }
 
-1509.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Atsukuni"
 		monarch_name = "Atsukuni"
@@ -101,7 +101,7 @@ capital = 16	# Hishikari
 	}
 }
 	
-1529.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Atsukuni"
 		dynasty = "Hishikari"
@@ -111,7 +111,7 @@ capital = 16	# Hishikari
 	}
 }
 
-1529.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Shigetoyo"
 		monarch_name = "Shigetoyo"
@@ -125,7 +125,7 @@ capital = 16	# Hishikari
 	}
 }
 	
-1550.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Shigetoyo"
 		dynasty = "Hishikari"
@@ -135,7 +135,7 @@ capital = 16	# Hishikari
 	}
 }
 	
-1557.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Shigehiro"
 		dynasty = "Hishikari"

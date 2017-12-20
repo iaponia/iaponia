@@ -5,7 +5,7 @@ religion = shinto
 technology_group = tohoku
 capital = 543	# Iwase
 	
-1434.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Yukimitsu"
 		dynasty = "Nikaido"
@@ -15,7 +15,7 @@ capital = 543	# Iwase
 	}
 }
 
-1434.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Yukiaki"
 		monarch_name = "Yukiaki"
@@ -29,7 +29,7 @@ capital = 543	# Iwase
 	}
 }
 	
-1465.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Yukiaki"
 		dynasty = "Nikaido"
@@ -39,7 +39,7 @@ capital = 543	# Iwase
 	}
 }
 
-1465.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Yukikage"
 		monarch_name = "Yukikage"
@@ -53,7 +53,7 @@ capital = 543	# Iwase
 	}
 }
 
-1495.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yukikage"
 		dynasty = "Nikaido"
@@ -63,7 +63,7 @@ capital = 543	# Iwase
 	}
 }
 
-1495.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Haruyuki"
 		monarch_name = "Haruyuki"
@@ -77,7 +77,7 @@ capital = 543	# Iwase
 	}
 }
 
-1504.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Haruyuki"
 		dynasty = "Nikaido"
@@ -87,7 +87,7 @@ capital = 543	# Iwase
 	}
 }
 
-1524.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Teruyuki"
 		monarch_name = "Teruyuki"
@@ -101,7 +101,7 @@ capital = 543	# Iwase
 	}
 }
 
-1542.7.2 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Teruyuki"
 		dynasty = "Nikaido"
@@ -111,7 +111,7 @@ capital = 543	# Iwase
 	}
 }
 
-1544.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Moriyoshi"
 		monarch_name = "Moriyoshi"
@@ -125,7 +125,7 @@ capital = 543	# Iwase
 	}
 }
 
-1564.10.22 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Moriyoshi"
 		dynasty = "Nikaido"
@@ -135,7 +135,7 @@ capital = 543	# Iwase
 	}
 }
 
-1570.1.1 = {
+1582.6.21 = {
 	heir = {
 		name = "Yukichika"
 		monarch_name = "Yukichika"
@@ -149,7 +149,7 @@ capital = 543	# Iwase
 	}
 }
 
-1581.9.23 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Yukichika"
 		dynasty = "Nikaido"

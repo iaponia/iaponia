@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 266	# Kasa
 
-1440.5.15 = {
+1467.6.15 = {
 	monarch = {
 		name = "Norichika" 
 		dynasty = "Isshiki"
@@ -17,7 +17,7 @@ capital = 266	# Kasa
 		}
 }
 
-1451.12.21 = {
+1467.6.15 = {
 	monarch = {
 		name = "Yoshinao" 
 		dynasty = "Isshiki"
@@ -27,7 +27,7 @@ capital = 266	# Kasa
 		}
 }
 
-1466.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Yoshiharu"
 		monarch_name = "Yoshiharu"
@@ -41,7 +41,7 @@ capital = 266	# Kasa
 	}
 }
 
-1474.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Yoshiharu" 
 		dynasty = "Isshiki"
@@ -53,7 +53,7 @@ capital = 266	# Kasa
 		}
 }
 
-1483.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Yoshihide"
 		monarch_name = "Yoshihide"
@@ -67,7 +67,7 @@ capital = 266	# Kasa
 	}
 }
 
-1484.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Yoshihide" 
 		dynasty = "Isshiki"
@@ -79,7 +79,7 @@ capital = 266	# Kasa
 		}
 }
 
-1498.6.18 = {
+1511.9.25 = {
 	monarch = {
 		name = "Yoshiari" 
 		dynasty = "Isshiki"
@@ -91,7 +91,7 @@ capital = 266	# Kasa
 		}
 }
 
-1505.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Yoshikiyo"
 		monarch_name = "Yoshikiyo"
@@ -105,7 +105,7 @@ capital = 266	# Kasa
 	}
 }
 
-1510.1.1 = {
+1511.9.25 = {
 	monarch = {
 		name = "Yoshikiyo" 
 		dynasty = "Isshiki"
@@ -117,7 +117,7 @@ capital = 266	# Kasa
 		}
 }
 
-1523.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Yoshiyuki"
 		monarch_name = "Yoshiyuki"
@@ -131,7 +131,7 @@ capital = 266	# Kasa
 	}
 }
 
-1540.1.1 = {
+1546.5.19 = {
 	monarch = {
 		name = "Yoshiyuki" 
 		dynasty = "Isshiki"
@@ -143,7 +143,7 @@ capital = 266	# Kasa
 		}
 } 
 
-1540.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Yoshimichi"
 		monarch_name = "Yoshimichi"
@@ -157,7 +157,7 @@ capital = 266	# Kasa
 	}
 }
 
-1558.1.1 = {
+1569.10.10 = {
 	monarch = {
 		name = "Yoshimichi" 
 		dynasty = "Isshiki"

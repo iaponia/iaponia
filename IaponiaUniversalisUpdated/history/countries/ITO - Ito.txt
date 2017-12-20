@@ -6,7 +6,7 @@ technology_group = kyushu
 historical_rival = SMZ
 capital = 20	# Hyuga-Naka
 
-1385.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Sukeharu"
 		dynasty = "Ito"
@@ -16,7 +16,7 @@ capital = 20	# Hyuga-Naka
 		}
 	}
 	
-1409.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Suketaka"
 		monarch_name = "Suketaka"
@@ -31,7 +31,7 @@ capital = 20	# Hyuga-Naka
 }
 
 
-1444.6.26 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Suketaka"
 		dynasty = "Ito"
@@ -43,7 +43,7 @@ capital = 20	# Hyuga-Naka
 		}
 	}
 	
-1450.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Sukekuni"
 		monarch_name = "Sukekuni"
@@ -57,7 +57,7 @@ capital = 20	# Hyuga-Naka
 	}
 }
 	
-1485.6.10 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Sukekuni"
 		dynasty = "Ito"
@@ -69,7 +69,7 @@ capital = 20	# Hyuga-Naka
 		}
 	}
 	
-1485.6.10 = {
+1493.6.9 = {
 	heir = {
 		name = "Tadasuke"
 		monarch_name = "Tadasuke"
@@ -83,7 +83,7 @@ capital = 20	# Hyuga-Naka
 	}
 }
 	
-1485.8.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tadasuke"
 		dynasty = "Ito"
@@ -95,7 +95,7 @@ capital = 20	# Hyuga-Naka
 		}
 	}
 	
-1510.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Sukemitsu"
 		monarch_name = "Sukemitsu"
@@ -109,7 +109,7 @@ capital = 20	# Hyuga-Naka
 	}
 }
 	
-1523.12.14 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Sukemitsu"
 		dynasty = "Ito"
@@ -121,7 +121,7 @@ capital = 20	# Hyuga-Naka
 		}
 	}
 	
-1533.9.16 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Sukeyoshi"
 		dynasty = "Ito"
@@ -133,7 +133,7 @@ capital = 20	# Hyuga-Naka
 		}
 	}
 
-1536.6.26 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Yoshisuke"
 		dynasty = "Ito"
@@ -145,7 +145,7 @@ capital = 20	# Hyuga-Naka
 		}
 	}
 
-1546.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Yoshimasu"
 		monarch_name = "Yoshimasu"
@@ -159,7 +159,7 @@ capital = 20	# Hyuga-Naka
 	}
 }
 
-1569.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Suketaka"
 		monarch_name = "Suketaka"

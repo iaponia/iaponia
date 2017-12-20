@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 371	# Kaito
 
-1583.6.14 = {
+1600.9.13 = {
 	monarch = {
 		name = "Toshiie"
 		dynasty = "Maeda"
@@ -17,7 +17,7 @@ capital = 371	# Kaito
 	}
 }
 
-1583.6.14 = {
+1600.9.13 = {
 	heir = {
 		name = "Toshinaga"
 		monarch_name = "Toshinaga"
@@ -31,7 +31,7 @@ capital = 371	# Kaito
 	}
 }
 
-1599.4.27 = {
+1600.9.13 = {
 	monarch = {
 		name = "Toshinaga"
 		dynasty = "Maeda"
@@ -43,7 +43,7 @@ capital = 371	# Kaito
 	}
 }
 
-1605.1.1 = {
+1615.1.1 = {
 	heir = {
 		name = "Toshitsune"
 		monarch_name = "Toshitsune"
@@ -57,7 +57,7 @@ capital = 371	# Kaito
 	}
 }
 
-1614.6.27 = {
+1615.1.1 = {
 	monarch = {
 		name = "Toshitsune"
 		dynasty = "Maeda"

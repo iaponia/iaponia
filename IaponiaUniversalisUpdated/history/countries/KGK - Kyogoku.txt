@@ -6,7 +6,7 @@ technology_group = saigoku
 historical_rival = RKK
 capital = 334	# Inukami
 
-1441.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Mochikiyo"
 		dynasty = "Kyogoku"
@@ -16,7 +16,7 @@ capital = 334	# Inukami
 	}
 }
 
-1466.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Magodojimaru"
 		monarch_name = "Magodojimaru"
@@ -30,7 +30,7 @@ capital = 334	# Inukami
 	}
 }
 
-1470.8.30 = {
+1493.6.9 = {
 	monarch = {
 		name = "Magodojimaru"
 		dynasty = "Kyogoku"
@@ -40,7 +40,7 @@ capital = 334	# Inukami
 	}
 }
 
-1471.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Masatsune"
 		dynasty = "Kyogoku"
@@ -50,7 +50,7 @@ capital = 334	# Inukami
 	}
 }
 
-1505.1.1 = {
+1511.9.25 = {
 	monarch = {
 		name = "Takakiyo"
 		dynasty = "Kyogoku"
@@ -60,7 +60,7 @@ capital = 334	# Inukami
 	}
 }
 
-1490.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Takanobu"
 		monarch_name = "Takanobu"
@@ -74,7 +74,7 @@ capital = 334	# Inukami
 	}
 }
 
-1523.1.1 = {
+1523.8.25 = {
 	monarch = {
 		name = "Takanobu"
 		dynasty = "Kyogoku"
@@ -84,7 +84,7 @@ capital = 334	# Inukami
 	}
 }
 
-1553.1.1 = {
+1554.3.1 = {
 	monarch = {
 		name = "Takayoshi"
 		dynasty = "Kyogoku"
@@ -94,7 +94,7 @@ capital = 334	# Inukami
 	}
 }
 
-1563.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Takatsugu"
 		monarch_name = "Takatsugu"
@@ -108,7 +108,7 @@ capital = 334	# Inukami
 	}
 }
 
-1581.2.28 = {
+1582.6.21 = {
 	monarch = {
 		name = "Takatsugu"
 		dynasty = "Kyogoku"

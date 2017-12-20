@@ -6,7 +6,7 @@ technology_group = togoku
 historical_rival = STK
 capital = 483	# Tsukuba	
 	
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tomohisa"
 		dynasty = "Oda"
@@ -16,7 +16,7 @@ capital = 483	# Tsukuba
 	}
 }
 	
-1449.7.12 = {
+1467.6.15 = {
 	heir = {
 		name = "Shigeharu"
 		monarch_name = "Shigeharu"
@@ -30,7 +30,7 @@ capital = 483	# Tsukuba
 	}
 }
 	
-1455.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Shigeharu"
 		dynasty = "Oda"
@@ -41,7 +41,7 @@ capital = 483	# Tsukuba
 }
 
 
-1514.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Masaharu"
 		dynasty = "Oda"
@@ -51,7 +51,7 @@ capital = 483	# Tsukuba
 	}
 }
 	
-1531.2.24 = {
+1536.4.7 = {
 	heir = {
 		name = "Ujiharu"
 		monarch_name = "Ujiharu"
@@ -65,7 +65,7 @@ capital = 483	# Tsukuba
 	}
 }
 	
-1548.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Ujiharu"
 		dynasty = "Oda"

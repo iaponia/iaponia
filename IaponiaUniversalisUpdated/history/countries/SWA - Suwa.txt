@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 439	# Suwa
 	
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Nobumitsu"
 		dynasty = "Suwa"
@@ -15,7 +15,7 @@ capital = 439	# Suwa
 	}
 }
 
-1483.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Yorimitsu"
 		dynasty = "Suwa"
@@ -25,7 +25,7 @@ capital = 439	# Suwa
 	}
 }
 
-1516.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Yorishige"
 		monarch_name = "Yorishige"

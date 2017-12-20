@@ -6,7 +6,7 @@ technology_group = saigoku
 historical_rival = ODA
 capital = 153	# Itano
 	
-1480.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Yukinaga"
 		dynasty = "Miyoshi"
@@ -16,7 +16,7 @@ capital = 153	# Itano
 	}
 }
 	
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Motonaga"
 		dynasty = "Miyoshi"
@@ -26,7 +26,7 @@ capital = 153	# Itano
 	}
 }
 
-1522.3.10 = {
+1523.8.25 = {
 	heir = {
 		name = "Nagayoshi"
 		monarch_name = "Nagayoshi"
@@ -40,7 +40,7 @@ capital = 153	# Itano
 	}
 }
 
-1532.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Nagayoshi"
 		dynasty = "Miyoshi"
@@ -50,7 +50,7 @@ capital = 153	# Itano
 	}
 }
 
-1564.8.10 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Yoshitsugu"
 		dynasty = "Miyoshi"

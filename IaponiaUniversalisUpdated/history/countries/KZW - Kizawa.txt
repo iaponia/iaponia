@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 309	# Heguri
 	
-1530.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Nagamasa"
 		dynasty = "Kizawa"

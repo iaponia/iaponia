@@ -6,7 +6,7 @@ technology_group = saigoku
 historical_rival = RKK
 capital = 343	# Ise-Taki
 	
-1429.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Noritomo"
 		dynasty = "Kitabatake"
@@ -16,7 +16,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1429.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Masasato"
 		monarch_name = "Masasato"
@@ -30,7 +30,7 @@ capital = 343	# Ise-Taki
 	}
 }
 	
-1471.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Masasato"
 		dynasty = "Kitabatake"
@@ -40,7 +40,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1471.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Kichika"
 		monarch_name = "Kichika"
@@ -54,7 +54,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1508.12.4 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Kichika"
 		dynasty = "Kitabatake"
@@ -64,7 +64,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1508.12.4 = {
+1511.9.25 = {
 	heir = {
 		name = "Harutomo"
 		monarch_name = "Harutomo"
@@ -78,7 +78,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1511.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Harutomo"
 		dynasty = "Kitabatake"
@@ -88,7 +88,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1528.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Tomonori"
 		monarch_name = "Tomonori"
@@ -102,7 +102,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1553.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Tomonori"
 		dynasty = "Kitabatake"
@@ -112,7 +112,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1553.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Tomofusa"
 		monarch_name = "Tomofusa"
@@ -126,7 +126,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1563.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Tomofusa"
 		dynasty = "Kitabatake"
@@ -136,7 +136,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1563.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Tomotoyo"
 		monarch_name = "Tomotoyo"
@@ -150,7 +150,7 @@ capital = 343	# Ise-Taki
 	}
 }
 
-1575.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Tomotoyo"
 		dynasty = "Kitabatake"

@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 619	# Kiso
 	
-1436.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Toyokata"
 		dynasty = "Kiso"
@@ -15,7 +15,7 @@ capital = 619	# Kiso
 	}
 }
 
-1436.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Iekata"
 		monarch_name = "Iekata"
@@ -29,7 +29,7 @@ capital = 619	# Kiso
 	}
 }
 	
-1445.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Iekata"
 		dynasty = "Kiso"
@@ -39,7 +39,7 @@ capital = 619	# Kiso
 	}
 }
 
-1445.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Ietoyo"
 		monarch_name = "Ietoyo"
@@ -53,7 +53,7 @@ capital = 619	# Kiso
 	}
 }
 
-1465.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Ietoyo"
 		dynasty = "Kiso"
@@ -63,7 +63,7 @@ capital = 619	# Kiso
 	}
 }
 
-1475.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Yoshimoto"
 		monarch_name = "Yoshimoto"
@@ -77,7 +77,7 @@ capital = 619	# Kiso
 	}
 }
 
-1490.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Yoshimoto"
 		dynasty = "Kiso"
@@ -87,7 +87,7 @@ capital = 619	# Kiso
 	}
 }
 
-1493.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Yoshiari"
 		monarch_name = "Yoshiari"
@@ -101,7 +101,7 @@ capital = 619	# Kiso
 	}
 }
 
-1504.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yoshiari"
 		dynasty = "Kiso"
@@ -111,7 +111,7 @@ capital = 619	# Kiso
 	}
 }
 
-1514.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Yoshiyasu"
 		monarch_name = "Yoshiyasu"
@@ -125,7 +125,7 @@ capital = 619	# Kiso
 	}
 }
 
-1542.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Yoshiyasu"
 		dynasty = "Kiso"
@@ -135,7 +135,7 @@ capital = 619	# Kiso
 	}
 }
 
-1542.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Yoshimasa"
 		monarch_name = "Yoshimasa"
@@ -149,7 +149,7 @@ capital = 619	# Kiso
 	}
 }
 
-1579.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Yoshimasa"
 		dynasty = "Kiso"
@@ -159,7 +159,7 @@ capital = 619	# Kiso
 	}
 }
 
-1579.1.1 = {
+1582.6.21 = {
 	heir = {
 		name = "Yoshitoshi"
 		monarch_name = "Yoshitoshi"
@@ -173,7 +173,7 @@ capital = 619	# Kiso
 	}
 }
 
-1595.1.1 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Yoshitoshi"
 		dynasty = "Kiso"

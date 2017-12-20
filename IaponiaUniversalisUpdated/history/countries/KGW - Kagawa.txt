@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 143	# Tado
 	
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Motokage"
 		dynasty = "Kagawa"
@@ -15,7 +15,7 @@ capital = 143	# Tado
 	}
 }
 
-1527.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Yukikage"
 		monarch_name = "Yukikage"
@@ -29,7 +29,7 @@ capital = 143	# Tado
 	}
 }
 	
-1550.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Yukikage"
 		dynasty = "Kagawa"

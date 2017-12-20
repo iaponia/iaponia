@@ -5,7 +5,7 @@ religion = shinto
 technology_group = tohoku
 capital = 594	# Toyoma
 	
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Tomonobu"
 		dynasty = "Kasai"
@@ -15,7 +15,7 @@ capital = 594	# Toyoma
 	}
 }
 
-1440.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Naonobu"
 		monarch_name = "Naonobu"
@@ -29,7 +29,7 @@ capital = 594	# Toyoma
 	}
 }
 	
-1460.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Naonobu"
 		dynasty = "Kasai"
@@ -39,7 +39,7 @@ capital = 594	# Toyoma
 	}
 }
 
-1483.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Masanobu"
 		dynasty = "Kasai"
@@ -49,7 +49,7 @@ capital = 594	# Toyoma
 	}
 }
 
-1483.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Harushige"
 		monarch_name = "Harushige"
@@ -63,7 +63,7 @@ capital = 594	# Toyoma
 	}
 }
 
-1506.5.23 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Harushige"
 		dynasty = "Kasai"
@@ -73,7 +73,7 @@ capital = 594	# Toyoma
 	}
 }
 
-1506.5.23 = {
+1511.9.25 = {
 	heir = {
 		name = "Harutane"
 		monarch_name = "Harutane"
@@ -87,7 +87,7 @@ capital = 594	# Toyoma
 	}
 }
 
-1534.1.5 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Harutane"
 		dynasty = "Kasai"
@@ -97,7 +97,7 @@ capital = 594	# Toyoma
 	}
 }
 
-1534.1.5 = {
+1536.4.7 = {
 	heir = {
 		name = "Chikanobu"
 		monarch_name = "Chikanobu"
@@ -111,7 +111,7 @@ capital = 594	# Toyoma
 	}
 }
 
-1555.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Chikanobu"
 		dynasty = "Kasai"
@@ -121,7 +121,7 @@ capital = 594	# Toyoma
 	}
 }
 
-1560.5.6 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Harunobu"
 		dynasty = "Kasai"

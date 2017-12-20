@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 14	# Osumi
 	
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Shigekiyo"
 		dynasty = "Nejime"
@@ -15,7 +15,7 @@ capital = 14	# Osumi
 	}
 }
 
-1450.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Tadakiyo"
 		monarch_name = "Tadakiyo"
@@ -29,7 +29,7 @@ capital = 14	# Osumi
 	}
 }
 	
-1480.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tadakiyo"
 		dynasty = "Nejime"
@@ -39,7 +39,7 @@ capital = 14	# Osumi
 	}
 }
 
-1480.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Shigenari"
 		monarch_name = "Shigenari"
@@ -53,7 +53,7 @@ capital = 14	# Osumi
 	}
 }
 	
-1510.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Shigenari"
 		dynasty = "Nejime"
@@ -63,7 +63,7 @@ capital = 14	# Osumi
 	}
 }
 
-1510.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Kiyotoshi"
 		monarch_name = "Kiyotoshi"
@@ -77,7 +77,7 @@ capital = 14	# Osumi
 	}
 }
 	
-1534.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Kiyotoshi"
 		dynasty = "Nejime"
@@ -87,7 +87,7 @@ capital = 14	# Osumi
 	}
 }
 
-1536.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Shigetake"
 		monarch_name = "Shigetake"
@@ -101,7 +101,7 @@ capital = 14	# Osumi
 	}
 }
 	
-1559.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Shigetake"
 		dynasty = "Nejime"

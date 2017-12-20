@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 459	# Asai
 	
-1444.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Yoshizane"
 		dynasty = "Satomi"
@@ -15,7 +15,7 @@ capital = 459	# Asai
 	}
 }
 
-1448.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Shigeyoshi"
 		monarch_name = "Shigeyoshi"
@@ -29,7 +29,7 @@ capital = 459	# Asai
 	}
 }
 	
-1488.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Shigeyoshi"
 		dynasty = "Satomi"
@@ -39,7 +39,7 @@ capital = 459	# Asai
 	}
 }
 
-1488.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Yoshimichi"
 		monarch_name = "Yoshimichi"
@@ -53,7 +53,7 @@ capital = 459	# Asai
 	}
 }
 
-1505.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yoshimichi"
 		dynasty = "Satomi"
@@ -63,7 +63,7 @@ capital = 459	# Asai
 	}
 }
 
-1505.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Yoshitoyo"
 		monarch_name = "Yoshitoyo"
@@ -77,7 +77,7 @@ capital = 459	# Asai
 	}
 }
 
-1518.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshitoyo"
 		dynasty = "Satomi"
@@ -87,7 +87,7 @@ capital = 459	# Asai
 	}
 }
 
-1534.5.18 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Yoshitaka"
 		dynasty = "Satomi"
@@ -97,7 +97,7 @@ capital = 459	# Asai
 	}
 }
 
-1534.5.18 = {
+1536.4.7 = {
 	heir = {
 		name = "Yoshihiro"
 		monarch_name = "Yoshihiro"
@@ -111,7 +111,7 @@ capital = 459	# Asai
 	}
 }
 
-1562.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Yoshihiro"
 		dynasty = "Satomi"
@@ -121,7 +121,7 @@ capital = 459	# Asai
 	}
 }
 
-1578.7.5 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Yoshishige"
 		dynasty = "Satomi"
@@ -131,7 +131,7 @@ capital = 459	# Asai
 	}
 }
 
-1580.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Yoshiyori"
 		dynasty = "Satomi"
@@ -141,7 +141,7 @@ capital = 459	# Asai
 	}
 }
 
-1580.1.1 = {
+1582.6.21 = {
 	heir = {
 		name = "Yoshiyasu"
 		monarch_name = "Yoshiyasu"
@@ -155,7 +155,7 @@ capital = 459	# Asai
 	}
 }
 
-1587.11.26 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Yoshiyasu"
 		dynasty = "Satomi"

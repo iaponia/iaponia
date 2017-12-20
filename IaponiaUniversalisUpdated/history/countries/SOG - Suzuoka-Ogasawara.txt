@@ -6,7 +6,7 @@ technology_group = togoku
 historical_rival = OGS
 capital = 438	# Ina
 	
-1442.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Muneyasu"
 		dynasty = "Ogasawara"
@@ -16,7 +16,7 @@ capital = 438	# Ina
 	}
 }
 
-1442.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Masahide"
 		monarch_name = "Masahide"
@@ -30,7 +30,7 @@ capital = 438	# Ina
 	}
 }
 	
-1446.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Masahide"
 		dynasty = "Ogasawara"

@@ -6,7 +6,7 @@ technology_group = tohoku
 historical_rival = OSK
 capital = 567	# Mogami
 
-1416.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Mitsuie"
 		dynasty = "Mogami"
@@ -16,7 +16,7 @@ capital = 567	# Mogami
 	}
 }
 
-1420.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Yoshiharu"
 		monarch_name = "Yoshiharu"
@@ -30,7 +30,7 @@ capital = 567	# Mogami
 	}
 }
 
-1443.4.23 = {
+1467.6.15 = {
 	monarch = {
 		name = "Yoshiharu"
 		dynasty = "Mogami"
@@ -40,7 +40,7 @@ capital = 567	# Mogami
 	}
 }
 
-1474.4.7 = {
+1493.6.9 = {
 	monarch = {
 		name = "Yoshiaki"
 		dynasty = "Mogami"
@@ -50,7 +50,7 @@ capital = 567	# Mogami
 	}
 }
 
-1479.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Yoshiuji"
 		dynasty = "Mogami"
@@ -60,7 +60,7 @@ capital = 567	# Mogami
 	}
 }
 
-1479.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Yoshiatsu"
 		monarch_name = "Yoshiatsu"
@@ -74,7 +74,7 @@ capital = 567	# Mogami
 	}
 }
 
-1494.8.14 = {
+1511.9.25 = {
 	monarch = {
 		name = "Yoshiatsu"
 		dynasty = "Mogami"
@@ -84,7 +84,7 @@ capital = 567	# Mogami
 	}
 }
 
-1494.8.14 = {
+1511.9.25 = {
 	heir = {
 		name = "Yoshisada"
 		monarch_name = "Yoshisada"
@@ -98,7 +98,7 @@ capital = 567	# Mogami
 	}
 }
 
-1504.10.16 = {
+1511.9.25 = {
 	monarch = {
 		name = "Yoshisada"
 		dynasty = "Mogami"
@@ -108,7 +108,7 @@ capital = 567	# Mogami
 	}
 }
 
-1522.1.1 = {
+1523.8.25 = {
 	monarch = {
 		name = "Yoshimori"
 		dynasty = "Mogami"
@@ -118,7 +118,7 @@ capital = 567	# Mogami
 	}
 }
 
-1546.2.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Yoshiaki"
 		monarch_name = "Yoshiaki"
@@ -132,7 +132,7 @@ capital = 567	# Mogami
 	}
 }
 
-1570.1.1 = {
+1582.6.21 = {
 	monarch = {
 		name = "Yoshiaki"
 		dynasty = "Mogami"

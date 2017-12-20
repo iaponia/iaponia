@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 100	# Onsen
 	
-1435.7.24 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Norimichi"
 		dynasty = "Kono"
@@ -15,7 +15,7 @@ capital = 100	# Onsen
 		}
 	}
 
-1450.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Michinobu"
 		monarch_name = "Michinobu"
@@ -29,7 +29,7 @@ capital = 100	# Onsen
 	}
 }
 
-1500.2.19 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Michinobu"
 		dynasty = "Kono"
@@ -39,7 +39,7 @@ capital = 100	# Onsen
 		}
 	}
 
-1500.2.19 = {
+1511.9.25 = {
 	heir = {
 		name = "Michinobu"
 		monarch_name = "Michinobu"
@@ -53,7 +53,7 @@ capital = 100	# Onsen
 	}
 }
 
-1519.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Michinao"
 		dynasty = "Michinao"
@@ -63,7 +63,7 @@ capital = 100	# Onsen
 	}
 }
 	
-1541.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Harumichi"
 		dynasty = "Kono"
@@ -73,7 +73,7 @@ capital = 100	# Onsen
 		}
 	}
 	
-1543.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Michinobu"
 		dynasty = "Kono"
@@ -83,7 +83,7 @@ capital = 100	# Onsen
 		}
 	}
 	
-1564.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Michinobu"
 		monarch_name = "Michinobu"
@@ -97,7 +97,7 @@ capital = 100	# Onsen
 	}
 }
 
-1568.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Michinao"
 		dynasty = "Kono"

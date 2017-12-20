@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 377	# Noto
 	
-1432.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Yoshitada"
 		dynasty = "Hatakeyama"
@@ -15,7 +15,7 @@ capital = 377	# Noto
 	}
 }
 
-1455.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Yoshimune"
 		dynasty = "Hatakeyama"
@@ -25,7 +25,7 @@ capital = 377	# Noto
 	}
 }
 
-1490.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Yoshimoto"
 		monarch_name = "Yoshimoto"
@@ -39,7 +39,7 @@ capital = 377	# Noto
 	}
 }
 
-1497.9.16 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yoshimoto"
 		dynasty = "Hatakeyama"
@@ -49,7 +49,7 @@ capital = 377	# Noto
 	}
 }
 
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yoshimune"
 		dynasty = "Hatakeyama"
@@ -59,7 +59,7 @@ capital = 377	# Noto
 	}
 }
 
-1508.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yoshimoto"
 		dynasty = "Hatakeyama"
@@ -69,7 +69,7 @@ capital = 377	# Noto
 	}
 }
 
-1515.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshifusa"
 		dynasty = "Hatakeyama"
@@ -79,7 +79,7 @@ capital = 377	# Noto
 	}
 }
 
-1525.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Yoshitsugu"
 		monarch_name = "Yoshitsugu"
@@ -93,7 +93,7 @@ capital = 377	# Noto
 	}
 }
 
-1545.8.19 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Yoshitsugu"
 		dynasty = "Hatakeyama"
@@ -103,7 +103,7 @@ capital = 377	# Noto
 	}
 }
 
-1545.8.19 = {
+1546.5.19 = {
 	heir = {
 		name = "Yoshitsuna"
 		monarch_name = "Yoshitsuna"
@@ -117,7 +117,7 @@ capital = 377	# Noto
 	}
 }
 
-1551.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Yoshitsuna"
 		dynasty = "Hatakeyama"
@@ -127,7 +127,7 @@ capital = 377	# Noto
 	}
 }
 
-1554.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Yoshinori"
 		monarch_name = "Yoshinori"
@@ -141,7 +141,7 @@ capital = 377	# Noto
 	}
 }
 
-1566.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Yoshinori"
 		dynasty = "Hatakeyama"
@@ -151,7 +151,7 @@ capital = 377	# Noto
 	}
 }
 
-1574.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Yoshitaka"
 		dynasty = "Hatakeyama"
@@ -161,7 +161,7 @@ capital = 377	# Noto
 	}
 }
 
-1574.1.1 = {
+1582.6.21 = {
 	heir = {
 		name = "Haruomaru"
 		monarch_name = "Haruomaru"
@@ -175,7 +175,7 @@ capital = 377	# Noto
 	}
 }
 
-1576.3.4 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Haruomaru"
 		dynasty = "Hatakeyama"

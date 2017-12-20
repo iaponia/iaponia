@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 367	# Kasugai
 
-1467.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Yoshitoshi" 
 		dynasty = "Shiba"

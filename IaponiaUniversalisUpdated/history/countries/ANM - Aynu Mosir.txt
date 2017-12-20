@@ -6,7 +6,7 @@ technology_group = ainu
 capital = 610 #Ishikari
 
 
-1444.11.11 = {
+1467.6.15 = {
 	monarch = {
 		name = "Native Council"
 		adm = 3

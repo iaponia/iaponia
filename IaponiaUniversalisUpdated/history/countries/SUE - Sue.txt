@@ -6,7 +6,7 @@ technology_group = saigoku
 historical_rival = MRI
 capital = 113	# Yoshiki
 	
-1540.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Harukata"
 		dynasty = "Sue"
@@ -16,7 +16,7 @@ capital = 113	# Yoshiki
 	}
 }
 
-1540.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Nagafusa"
 		monarch_name = "Nagafusa"
@@ -30,7 +30,7 @@ capital = 113	# Yoshiki
 	}
 }
 	
-1555.10.16 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Nagafusa"
 		dynasty = "Sue"

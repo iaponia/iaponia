@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 67	# Munakata
 	
-1444.6.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Ujihiro"
 		dynasty = "Munakata"
@@ -15,7 +15,7 @@ capital = 67	# Munakata
 	}
 }
 	
-1446.5.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Ujimasa"
 		dynasty = "Munakata"
@@ -25,7 +25,7 @@ capital = 67	# Munakata
 	}
 }
 
-1446.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Ujisato"
 		monarch_name = "Ujisato"
@@ -39,7 +39,7 @@ capital = 67	# Munakata
 	}
 }
 
-1458.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Ujisato"
 		dynasty = "Munakata"
@@ -49,7 +49,7 @@ capital = 67	# Munakata
 	}
 }
 
-1458.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Ujikuni"
 		monarch_name = "Ujikuni"
@@ -63,7 +63,7 @@ capital = 67	# Munakata
 	}
 }
 
-1478.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Ujikuni"
 		dynasty = "Munakata"
@@ -73,7 +73,7 @@ capital = 67	# Munakata
 	}
 }
 
-1478.9.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Ujisada"
 		dynasty = "Munakata"
@@ -83,7 +83,7 @@ capital = 67	# Munakata
 	}
 }
 
-1480.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Okiuji"
 		monarch_name = "Okiuji"
@@ -97,7 +97,7 @@ capital = 67	# Munakata
 	}
 }
 
-1487.3.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Okiuji"
 		dynasty = "Munakata"
@@ -107,7 +107,7 @@ capital = 67	# Munakata
 	}
 }
 
-1497.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Ujikuni"
 		dynasty = "Munakata"
@@ -117,7 +117,7 @@ capital = 67	# Munakata
 	}
 }
 
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Okiuji"
 		dynasty = "Munakata"
@@ -127,7 +127,7 @@ capital = 67	# Munakata
 	}
 }
 
-1502.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Ujikuni"
 		dynasty = "Munakata"
@@ -137,7 +137,7 @@ capital = 67	# Munakata
 	}
 }
 
-1504.11.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Okiuji"
 		dynasty = "Munakata"
@@ -147,7 +147,7 @@ capital = 67	# Munakata
 	}
 }
 
-1504.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Masauji"
 		monarch_name = "Masauji"
@@ -161,7 +161,7 @@ capital = 67	# Munakata
 	}
 }
 
-1508.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Masauji"
 		dynasty = "Munakata"
@@ -171,7 +171,7 @@ capital = 67	# Munakata
 	}
 }
 
-1527.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Ujitsugu"
 		dynasty = "Munakata"
@@ -181,7 +181,7 @@ capital = 67	# Munakata
 	}
 }
 
-1547.5.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Ujio"
 		dynasty = "Munakata"
@@ -191,7 +191,7 @@ capital = 67	# Munakata
 	}
 }
 
-1547.5.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Ujisada"
 		monarch_name = "Ujisada"
@@ -205,7 +205,7 @@ capital = 67	# Munakata
 	}
 }
 
-1551.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Ujisada"
 		dynasty = "Munakata"

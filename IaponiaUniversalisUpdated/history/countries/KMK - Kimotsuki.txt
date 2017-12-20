@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 17	# Kimotsuki
 	
-1402.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Kanemoto"
 		dynasty = "Kimotsuki"
@@ -15,7 +15,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1405.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Kanetada"
 		monarch_name = "Kanetada"
@@ -29,7 +29,7 @@ capital = 17	# Kimotsuki
 	}
 }
 	
-1449.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Kanetada"
 		dynasty = "Kimotsuki"
@@ -39,7 +39,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1449.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Kanetsura"
 		monarch_name = "Kanetsura"
@@ -53,7 +53,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1464.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Kanetsura"
 		dynasty = "Kimotsuki"
@@ -63,7 +63,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1473.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Kanehisa"
 		monarch_name = "Kanehisa"
@@ -77,7 +77,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1483.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Kanehisa"
 		dynasty = "Kimotsuki"
@@ -87,7 +87,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1492.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Kaneoki"
 		monarch_name = "Kaneoki"
@@ -101,7 +101,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1523.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Kaneoki"
 		dynasty = "Kimotsuki"
@@ -111,7 +111,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1523.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Kanetsugu"
 		monarch_name = "Kanetsugu"
@@ -125,7 +125,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1533.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Kanetsugu"
 		dynasty = "Kimotsuki"
@@ -135,7 +135,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1535.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Yoshikane"
 		monarch_name = "Yoshikane"
@@ -149,7 +149,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1553.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Yoshikane"
 		dynasty = "Kimotsuki"
@@ -159,7 +159,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1571.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Kaneaki"
 		dynasty = "Kimotsuki"
@@ -169,7 +169,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1571.1.1 = {
+1582.6.21 = {
 	heir = {
 		name = "Kanemori"
 		monarch_name = "Kanemori"
@@ -183,7 +183,7 @@ capital = 17	# Kimotsuki
 	}
 }
 
-1574.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Kanemori"
 		dynasty = "Kimotsuki"

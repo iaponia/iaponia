@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 635	# Minami-Morokata
 
-1440.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Tadaomi"
 		dynasty = "Niiro"
@@ -15,7 +15,7 @@ capital = 635	# Minami-Morokata
 	}
 }
 
-1440.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Tadaharu"
 		monarch_name = "Tadaharu"
@@ -29,7 +29,7 @@ capital = 635	# Minami-Morokata
 	}
 }
 
-1450.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Tadaharu"
 		dynasty = "Niiro"
@@ -39,7 +39,7 @@ capital = 635	# Minami-Morokata
 	}
 }
 
-1450.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Tadatsugu"
 		monarch_name = "Tadatsugu"
@@ -53,7 +53,7 @@ capital = 635	# Minami-Morokata
 	}
 }
 
-1455.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Tadatsugu"
 		dynasty = "Niiro"
@@ -63,7 +63,7 @@ capital = 635	# Minami-Morokata
 	}
 }
 
-1490.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Tadatake"
 		dynasty = "Niiro"
@@ -73,7 +73,7 @@ capital = 635	# Minami-Morokata
 	}
 }
 
-1490.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Tadakatsu"
 		monarch_name = "Tadakatsu"
@@ -87,7 +87,7 @@ capital = 635	# Minami-Morokata
 	}
 }
 
-1510.1.1 = {
+1511.9.25 = {
 	monarch = {
 		name = "Tadakatsu"
 		dynasty = "Niiro"

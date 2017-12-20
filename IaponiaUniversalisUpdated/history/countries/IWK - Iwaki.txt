@@ -5,7 +5,7 @@ religion = shinto
 technology_group = tohoku
 capital = 545	# Iwaki
 	
-1442.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Takatada"
 		dynasty = "Iwaki"
@@ -15,7 +15,7 @@ capital = 545	# Iwaki
 	}
 }
 
-1442.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Chikataka"
 		monarch_name = "Chikataka"
@@ -29,7 +29,7 @@ capital = 545	# Iwaki
 	}
 }
 	
-1460.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Chikataka"
 		dynasty = "Iwaki"
@@ -39,7 +39,7 @@ capital = 545	# Iwaki
 	}
 }
 
-1460.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Tsunetaka"
 		monarch_name = "Tsunetaka"
@@ -53,7 +53,7 @@ capital = 545	# Iwaki
 	}
 }
 
-1480.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tsunetaka"
 		dynasty = "Iwaki"
@@ -63,7 +63,7 @@ capital = 545	# Iwaki
 	}
 }
 
-1487.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Yoshitaka"
 		monarch_name = "Yoshitaka"
@@ -77,7 +77,7 @@ capital = 545	# Iwaki
 	}
 }
 
-1511.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yoshitaka"
 		dynasty = "Iwaki"
@@ -87,7 +87,7 @@ capital = 545	# Iwaki
 	}
 }
 
-1542.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Shigetaka"
 		dynasty = "Iwaki"
@@ -97,7 +97,7 @@ capital = 545	# Iwaki
 	}
 }
 
-1569.1.1 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Chikataka"
 		dynasty = "Iwaki"
@@ -107,7 +107,7 @@ capital = 545	# Iwaki
 	}
 }
 
-1569.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Tsunetaka"
 		monarch_name = "Tsunetaka"
@@ -121,7 +121,7 @@ capital = 545	# Iwaki
 	}
 }
 
-1578.1.1 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Tsunetaka"
 		dynasty = "Iwaki"
@@ -131,7 +131,7 @@ capital = 545	# Iwaki
 	}
 }
 
-1590.8.21 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Sadataka"
 		dynasty = "Iwaki"

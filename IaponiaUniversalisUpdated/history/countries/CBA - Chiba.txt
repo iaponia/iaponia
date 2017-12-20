@@ -93,7 +93,7 @@ capital = 530	# Inba
 	government = shugo_daimyo_monarchy
 }
 
-1546.5.9 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Toshitane"
 		dynasty = "Chiba"

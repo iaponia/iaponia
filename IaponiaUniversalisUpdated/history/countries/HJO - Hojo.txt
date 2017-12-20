@@ -9,7 +9,7 @@ historical_friend = IMG
 historical_friend = TKD
 capital = 434	# Tagata
 
-1490.1.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Soun" # 1453 - 1519 
 		dynasty = "Hojo"
@@ -21,7 +21,7 @@ capital = 434	# Tagata
 	}
 }
 
-1490.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Ujitsuna"
 		monarch_name = "Ujitsuna"
@@ -35,9 +35,9 @@ capital = 434	# Tagata
 	}
 }
 
-1498.1.1 = {capital = 451 } #Odawara
+1511.9.25 = {capital = 451 } #Odawara
 	
-1519.9.18 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Ujitsuna"
 		dynasty = "Hojo"
@@ -49,7 +49,7 @@ capital = 434	# Tagata
 	}
 }
 
-1519.9.18 = {
+1523.8.25 = {
 	heir = {
 		name = "Ujiyasu"
 		monarch_name = "Ujiyasu"
@@ -63,7 +63,7 @@ capital = 434	# Tagata
 	}
 }
 
-1541.4.15 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Ujiyasu"
 		dynasty = "Hojo"
@@ -75,7 +75,7 @@ capital = 434	# Tagata
 	}
 }
 
-1541.4.15 = {
+1546.5.19 = {
 	heir = {
 		name = "Ujimasa"
 		monarch_name = "Ujimasa"
@@ -89,7 +89,7 @@ capital = 434	# Tagata
 	}
 }
 
-1571.10.21 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Ujimasa"
 		dynasty = "Hojo"
@@ -101,7 +101,7 @@ capital = 434	# Tagata
 	}
 }
 
-1571.10.21 = {
+1582.6.21 = {
 	heir = {
 		name = "Ujinao"
 		monarch_name = "Ujinao"

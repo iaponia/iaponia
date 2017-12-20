@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 326	# Ahai
 
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Shigemasa"
 		dynasty = "Niki"
@@ -15,7 +15,7 @@ capital = 326	# Ahai
 	}
 }
 
-1440.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Sadanaga"
 		monarch_name = "Sadanaga"
@@ -29,7 +29,7 @@ capital = 326	# Ahai
 	}
 }
 
-1470.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Sadanaga"
 		dynasty = "Niki"

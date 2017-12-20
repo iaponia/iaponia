@@ -7,7 +7,7 @@ historical_rival = UES
 historical_rival = HIO
 capital = 474	# Kuji
 
-1437.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Yoshitoshi"
 		dynasty = "Satake"
@@ -17,7 +17,7 @@ capital = 474	# Kuji
 	}
 }
 
-1443.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Yoshiharu"
 		monarch_name = "Yoshiharu"
@@ -31,7 +31,7 @@ capital = 474	# Kuji
 	}
 }
 
-1477.12.29 = {
+1493.6.9 = {
 	monarch = {
 		name = "Yoshiharu"
 		dynasty = "Satake"
@@ -41,7 +41,7 @@ capital = 474	# Kuji
 	}
 }
 
-1477.12.29 = {
+1493.6.9 = {
 	heir = {
 		name = "Yoshikiyo"
 		monarch_name = "Yoshikiyo"
@@ -55,7 +55,7 @@ capital = 474	# Kuji
 	}
 }
 
-1490.5.14 = {
+1493.6.9 = {
 	monarch = {
 		name = "Yoshikiyo"
 		dynasty = "Satake"
@@ -65,7 +65,7 @@ capital = 474	# Kuji
 	}
 }
 
-1507.8.10 = {
+1511.9.25 = {
 	heir = {
 		name = "Yoshiatsu"
 		monarch_name = "Yoshiatsu"
@@ -79,7 +79,7 @@ capital = 474	# Kuji
 	}
 }
 
-1517.4.3 = {
+1523.8.25 = {
 	monarch = {
 		name = "Yoshiatsu"
 		dynasty = "Satake"
@@ -89,7 +89,7 @@ capital = 474	# Kuji
 	}
 }
 
-1531.10.5 = {
+1536.4.7 = {
 	heir = {
 		name = "Yoshiaki"
 		monarch_name = "Yoshiaki"
@@ -103,7 +103,7 @@ capital = 474	# Kuji
 	}
 }
 
-1545.5.19 = {
+1546.5.19 = {
 	monarch = {
 		name = "Yoshiaki"
 		dynasty = "Satake"
@@ -113,7 +113,7 @@ capital = 474	# Kuji
 	}
 }
 
-1547.3.7 = {
+1554.3.1 = {
 	heir = {
 		name = "Yoshishige"
 		monarch_name = "Yoshishige"
@@ -127,7 +127,7 @@ capital = 474	# Kuji
 	}
 }
 
-1562.1.1 = {
+1569.10.10 = {
 	monarch = {
 		name = "Yoshishige"
 		dynasty = "Satake"
@@ -137,7 +137,7 @@ capital = 474	# Kuji
 	}
 }
 
-1570.8.17 = {
+1582.6.21 = {
 	heir = {
 		name = "Yoshinobu"
 		monarch_name = "Yoshinobu"
@@ -151,7 +151,7 @@ capital = 474	# Kuji
 	}
 }
 
-1589.1.1 = {
+1600.9.13 = {
 	monarch = {
 		name = "Yoshinobu"
 		dynasty = "Satake"

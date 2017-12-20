@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 306	# Furuichi
 
-1335.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Kunikiyo"
 		dynasty = "Hatakeyama"
@@ -15,7 +15,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1362.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Yoshito"
 		dynasty = "Hatakeyama"
@@ -25,7 +25,7 @@ capital = 306	# Furuichi
 	}
 }
 	
-1362.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Motokuni"
 		monarch_name = "Motokuni"
@@ -39,7 +39,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1379.11.21 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Motokuni"
 		dynasty = "Hatakeyama"
@@ -49,7 +49,7 @@ capital = 306	# Furuichi
 	}
 }
 	
-1379.11.21 = {
+1467.6.15 = {
 	heir = {
 		name = "Mitsuie"
 		monarch_name = "Mitsuie"
@@ -63,7 +63,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1406.2.5 = {
+1467.6.15 = {
 	monarch = {
 		name = "Mitsuyoshi" 
 		dynasty = "Hatakeyama"
@@ -73,7 +73,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1410.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Mitsuie" 
 		dynasty = "Hatakeyama"
@@ -83,7 +83,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1410.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Mochikuni"
 		monarch_name = "Mochikuni"
@@ -97,7 +97,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1433.10.31 = {
+1467.6.15 = {
 	monarch = {
 		name = "Mitsuyoshi" 
 		dynasty = "Hatakeyama"
@@ -107,7 +107,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1445.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Mochitomi"
 		monarch_name = "Mochitomi"
@@ -121,7 +121,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1448.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Yoshinari"
 		monarch_name = "Yoshinari"
@@ -135,7 +135,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1455.4.12 = {
+1467.6.15 = {
 	monarch = {
 		name = "Yoshinari" 
 		dynasty = "Hatakeyama"
@@ -147,7 +147,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1460.1.1 = {
+1467.6.15 = {
 	monarch = {
 		name = "Masanaga" 
 		dynasty = "Hatakeyama"
@@ -157,7 +157,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1475.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Hisayori"
 		monarch_name = "Hisayori"
@@ -171,7 +171,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1493.5.1 = {
+1493.6.9 = {
 	monarch = {
 		name = "Yoshitoyo" 
 		dynasty = "Hatakeyama"
@@ -183,7 +183,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1499.1.1 = {
+1511.9.25 = {
 	monarch = {
 		name = "Hisayori" 
 		dynasty = "Hatakeyama"
@@ -195,7 +195,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1504.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Tanenaga"
 		monarch_name = "Tanenaga"
@@ -209,7 +209,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1517.1.1 = {
+1523.8.25 = {
 	monarch = {
 		name = "Tanenaga" 
 		dynasty = "Hatakeyama"
@@ -221,7 +221,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1535.1.1 = {
+1536.4.7 = {
 	monarch = {
 		name = "Nagatsune" 
 		dynasty = "Hatakeyama"
@@ -233,7 +233,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1548.1.1 = {
+1554.3.1 = {
 	monarch = {
 		name = "Masakuni" 
 		dynasty = "Hatakeyama"
@@ -245,7 +245,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1548.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Takamasa"
 		monarch_name = "Takamasa"
@@ -259,7 +259,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1550.9.22 = {
+1554.3.1 = {
 	monarch = {
 		name = "Takamasa" 
 		dynasty = "Hatakeyama"
@@ -271,7 +271,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1569.1.1 = {
+1569.10.10 = {
 	monarch = {
 		name = "Akitaka" 
 		dynasty = "Hatakeyama"
@@ -283,7 +283,7 @@ capital = 306	# Furuichi
 	}
 }
 
-1573.7.23 = {
+1582.6.21 = {
 	monarch = {
 		name = "Masanao" 
 		dynasty = "Hatakeyama"

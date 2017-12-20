@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 206	# Tsu
 	
-1478.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Michitsune"
 		dynasty = "Ishikawa"
@@ -15,7 +15,7 @@ capital = 206	# Tsu
 	}
 }
 
-1478.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Iehisa"
 		monarch_name = "Iehisa"
@@ -29,7 +29,7 @@ capital = 206	# Tsu
 	}
 }
 	
-1520.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Iehisa"
 		dynasty = "Ishikawa"
@@ -39,7 +39,7 @@ capital = 206	# Tsu
 	}
 }
 
-1520.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Hisataka"
 		monarch_name = "Hisataka"
@@ -53,7 +53,7 @@ capital = 206	# Tsu
 	}
 }
 
-1530.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Hisataka"
 		dynasty = "Ishikawa"

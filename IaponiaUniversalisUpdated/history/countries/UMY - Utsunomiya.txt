@@ -55,7 +55,7 @@ capital = 486	# Tsuga
 	}
 }
 
-1536.5.7 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Hisatsuna"
 		dynasty = "Utsunomiya"

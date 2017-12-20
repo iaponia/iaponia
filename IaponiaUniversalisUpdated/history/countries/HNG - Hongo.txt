@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 19	# Morokata
 	
-1440.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Mochihisa"
 		dynasty = "Hongo"
@@ -15,7 +15,7 @@ capital = 19	# Morokata
 	}
 }
 
-1440.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Toshihisa"
 		monarch_name = "Toshihisa"
@@ -29,7 +29,7 @@ capital = 19	# Morokata
 	}
 }
 	
-1470.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Toshihisa"
 		dynasty = "Hongo"
@@ -39,7 +39,7 @@ capital = 19	# Morokata
 	}
 }
 
-1470.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Kazuhisa"
 		monarch_name = "Kazuhisa"
@@ -53,7 +53,7 @@ capital = 19	# Morokata
 	}
 }
 	
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Kazuhisa"
 		dynasty = "Hongo"
@@ -63,7 +63,7 @@ capital = 19	# Morokata
 	}
 }
 
-1500.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Tadasuke"
 		monarch_name = "Tadasuke"
@@ -77,7 +77,7 @@ capital = 19	# Morokata
 	}
 }
 	
-1521.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Tadasuke"
 		dynasty = "Hongo"
@@ -87,7 +87,7 @@ capital = 19	# Morokata
 	}
 }
 
-1530.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Tokihisa"
 		monarch_name = "Tokihisa"
@@ -101,7 +101,7 @@ capital = 19	# Morokata
 	}
 }
 	
-1559.12.14 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Tokihisa"
 		dynasty = "Hongo"

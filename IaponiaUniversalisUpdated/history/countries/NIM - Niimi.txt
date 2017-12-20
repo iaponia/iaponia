@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 200	# Tetta
 	
-1460.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Takanao"
 		dynasty = "Niimi"
@@ -15,7 +15,7 @@ capital = 200	# Tetta
 	}
 }
 
-1465.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Kunitsune"
 		monarch_name = "Kunitsune"
@@ -29,7 +29,7 @@ capital = 200	# Tetta
 	}
 }
 	
-1510.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Kunitsune"
 		dynasty = "Niimi"
@@ -39,7 +39,7 @@ capital = 200	# Tetta
 	}
 }
 
-1510.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Sadatsune"
 		monarch_name = "Sadatsune"
@@ -53,7 +53,7 @@ capital = 200	# Tetta
 	}
 }
 	
-1542.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Sadatsune"
 		dynasty = "Niimi"

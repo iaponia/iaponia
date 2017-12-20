@@ -6,7 +6,7 @@ technology_group = tohoku
 historical_rival = ADO
 capital = 574	# Akita
 	
-1425.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Narisue"
 		dynasty = "Ando"
@@ -16,7 +16,7 @@ capital = 574	# Akita
 	}
 }
 
-1425.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Koresue"
 		monarch_name = "Koresue"
@@ -30,7 +30,7 @@ capital = 574	# Akita
 	}
 }
 	
-1445.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Koresue"
 		dynasty = "Ando"
@@ -40,7 +40,7 @@ capital = 574	# Akita
 	}
 }
 
-1445.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Akisue"
 		monarch_name = "Akisue"
@@ -54,7 +54,7 @@ capital = 574	# Akita
 	}
 }
 
-1462.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Akisue"
 		dynasty = "Ando"
@@ -64,7 +64,7 @@ capital = 574	# Akita
 	}
 }
 
-1462.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Munesue"
 		monarch_name = "Munesue"
@@ -78,7 +78,7 @@ capital = 574	# Akita
 	}
 }
 
-1485.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Munesue"
 		dynasty = "Ando"
@@ -88,7 +88,7 @@ capital = 574	# Akita
 	}
 }
 
-1485.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Nobusue"
 		monarch_name = "Nobusue"
@@ -102,7 +102,7 @@ capital = 574	# Akita
 	}
 }
 
-1510.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Nobusue"
 		dynasty = "Ando"
@@ -112,7 +112,7 @@ capital = 574	# Akita
 	}
 }
 
-1530.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Takasue"
 		monarch_name = "Takasue"
@@ -126,7 +126,7 @@ capital = 574	# Akita
 	}
 }
 
-1530.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Takasue"
 		dynasty = "Ando"

@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 85	#Yasu
 	
-1493.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tanetomo"
 		dynasty = "Akizuki"

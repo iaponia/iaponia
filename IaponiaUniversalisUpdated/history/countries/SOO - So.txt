@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 92	# Shimoagata
 
-1418.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Sadamori"
 		dynasty = "So"
@@ -15,7 +15,7 @@ capital = 92	# Shimoagata
 		}
 	}
 
-1588.1.1 = {
+1600.9.13 = {
 	heir = {
 		name = "Shigemoto"
 		monarch_name = "Shigemoto"
@@ -29,7 +29,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1452.6.22 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Shigemoto"
 		dynasty = "So"
@@ -39,7 +39,7 @@ capital = 92	# Shimoagata
 		}
 	}
 
-1468.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Sadakuni"
 		dynasty = "So"
@@ -49,7 +49,7 @@ capital = 92	# Shimoagata
 		}
 	}
 
-1588.1.1 = {
+1600.9.13 = {
 	heir = {
 		name = "Kimori"
 		monarch_name = "Kimori"
@@ -63,7 +63,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1492.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Kimori"
 		dynasty = "So"
@@ -73,7 +73,7 @@ capital = 92	# Shimoagata
 		}
 	}
 
-1588.1.1 = {
+1600.9.13 = {
 	heir = {
 		name = "Yoshimori"
 		monarch_name = "Yoshimori"
@@ -87,7 +87,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1512.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Yoshimori"
 		dynasty = "So"
@@ -97,7 +97,7 @@ capital = 92	# Shimoagata
 		}
 	}
 
-1500.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Morinaga"
 		monarch_name = "Morinaga"
@@ -111,7 +111,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1521.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Morinaga"
 		dynasty = "So"
@@ -121,7 +121,7 @@ capital = 92	# Shimoagata
 		}
 	}
 
-1521.1.1 = {
+1523.8.25 = {
 	heir = {
 		name = "Masamori"
 		monarch_name = "Masamori"
@@ -135,7 +135,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1530.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Masamori"
 		dynasty = "So"
@@ -145,7 +145,7 @@ capital = 92	# Shimoagata
 		}
 	}
 
-1539.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Haruyasu"
 		dynasty = "So"
@@ -155,7 +155,7 @@ capital = 92	# Shimoagata
 		}
 	}
 
-1532.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Yoshishige"
 		monarch_name = "Yoshishige"
@@ -169,7 +169,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1552.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Yoshishige"
 		dynasty = "So"
@@ -179,7 +179,7 @@ capital = 92	# Shimoagata
 		}
 	}
 
-1568.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Yoshitoshi"
 		monarch_name = "Yoshitoshi"
@@ -193,7 +193,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1588.1.1 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Yoshitoshi"
 		dynasty = "So"

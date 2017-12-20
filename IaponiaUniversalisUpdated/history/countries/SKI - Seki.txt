@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 350	# Suzuka
 	
-1460.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Morimoto"
 		dynasty = "Seki"
@@ -15,7 +15,7 @@ capital = 350	# Suzuka
 	}
 }
 
-1460.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Toshimori"
 		monarch_name = "Toshimori"
@@ -29,7 +29,7 @@ capital = 350	# Suzuka
 	}
 }
 	
-1490.1.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Toshimori"
 		dynasty = "Seki"

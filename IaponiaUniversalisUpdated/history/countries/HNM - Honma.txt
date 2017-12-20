@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 561	# Hamochi
 	
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Yasutoki"
 		dynasty = "Honma"
@@ -15,7 +15,7 @@ capital = 561	# Hamochi
 	}
 }
 
-1500.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Ariyasu"
 		monarch_name = "Ariyasu"
@@ -29,7 +29,7 @@ capital = 561	# Hamochi
 	}
 }
 	
-1530.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Ariyasu"
 		dynasty = "Honma"
@@ -39,7 +39,7 @@ capital = 561	# Hamochi
 	}
 }
 
-1530.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Yasutaka"
 		monarch_name = "Yasutaka"
@@ -53,7 +53,7 @@ capital = 561	# Hamochi
 	}
 }
 
-1552.1.1 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Yasutaka"
 		dynasty = "Honma"
@@ -63,7 +63,7 @@ capital = 561	# Hamochi
 	}
 }
 
-1552.1.1 = {
+1554.3.1 = {
 	heir = {
 		name = "Noriyasu"
 		monarch_name = "Noriyasu"
@@ -77,7 +77,7 @@ capital = 561	# Hamochi
 	}
 }
 
-1587.1.1 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Noriyasu"
 		dynasty = "Honma"

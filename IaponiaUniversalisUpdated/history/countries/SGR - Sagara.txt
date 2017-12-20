@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 23	# Kuma
 
-1417.4.20 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Sakitsugu"
 		dynasty = "Sagara"
@@ -17,7 +17,7 @@ capital = 23	# Kuma
 		}
 	}
 	
-1433.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Akiyori"
 		monarch_name = "Akiyori"
@@ -31,7 +31,7 @@ capital = 23	# Kuma
 	}
 }
 	
-1443.7.23 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Akiyori"
 		dynasty = "Sagara"
@@ -43,7 +43,7 @@ capital = 23	# Kuma
 		}
 	}
 	
-1443.7.23 = {
+1467.6.15 = {
 	heir = {
 		name = "Nagatsugu"
 		monarch_name = "Nagatsugu"
@@ -57,7 +57,7 @@ capital = 23	# Kuma
 	}
 }
 
-1448.5.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Nagatsugu"
 		dynasty = "Sagara"
@@ -69,7 +69,7 @@ capital = 23	# Kuma
 		}
 	}
 	
-1448.5.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Tametsugu"
 		monarch_name = "Tametsugu"
@@ -83,7 +83,7 @@ capital = 23	# Kuma
 	}
 }
 	
-1468.3.9 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Tametsugu"
 		dynasty = "Sagara"
@@ -95,7 +95,7 @@ capital = 23	# Kuma
 		}
 	}
 
-1469.1.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Nagatsune"
 		monarch_name = "Nagatsune"
@@ -109,7 +109,7 @@ capital = 23	# Kuma
 	}
 }
 
-1499.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Nagatsune"
 		dynasty = "Sagara"
@@ -121,7 +121,7 @@ capital = 23	# Kuma
 		}
 	}
 
-1501.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Nagamasa"
 		monarch_name = "Nagamasa"
@@ -135,7 +135,7 @@ capital = 23	# Kuma
 	}
 }
 	
-1512.1.1 = { 
+1523.8.25 = { 
 	monarch = {
 		name = "Nagamasa"
 		dynasty = "Sagara"
@@ -147,7 +147,7 @@ capital = 23	# Kuma
 		}
 	}
 		
-1525.1.31 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Nagasada"
 		dynasty = "Sagara"
@@ -159,7 +159,7 @@ capital = 23	# Kuma
 		}
 	}
 
-1526.1.1 = { 
+1536.4.7 = { 
 	monarch = {
 		name = "Yoshishige"
 		dynasty = "Sagara"
@@ -171,7 +171,7 @@ capital = 23	# Kuma
 		}
 	}
 
-1530.1.1 = {
+1536.4.7 = {
 	heir = {
 		name = "Haruhiro"
 		monarch_name = "Haruhiro"
@@ -185,7 +185,7 @@ capital = 23	# Kuma
 	}
 }
 	
-1546.9.19 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Haruhiro"
 		dynasty = "Sagara"
@@ -197,7 +197,7 @@ capital = 23	# Kuma
 		}
 	}
 
-1546.9.19 = {
+1554.3.1 = {
 	heir = {
 		name = "Yoshihi"
 		monarch_name = "Yoshihi"
@@ -211,7 +211,7 @@ capital = 23	# Kuma
 	}
 }
 	
-1555.8.20 = { 
+1569.10.10 = { 
 	monarch = {
 		name = "Yoshihi"
 		dynasty = "Sagara"
@@ -223,7 +223,7 @@ capital = 23	# Kuma
 		}
 	}
 	
-1572.4.20 = {
+1582.6.21 = {
 	heir = {
 		name = "Tadafusa"
 		monarch_name = "Tadafusa"
@@ -237,7 +237,7 @@ capital = 23	# Kuma
 	}
 }
 
-1581.12.27 = { 
+1582.6.21 = { 
 	monarch = {
 		name = "Tadafusa"
 		dynasty = "Sagara"
@@ -249,7 +249,7 @@ capital = 23	# Kuma
 		}
 	}
 	
-1585.3.16 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Yorifusa"
 		dynasty = "Sagara"

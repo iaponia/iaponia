@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 489	# Nasu
 	
-1430.1.1 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Sukemochi"
 		dynasty = "Nasu"
@@ -15,7 +15,7 @@ capital = 489	# Nasu
 	}
 }
 
-1430.1.1 = {
+1467.6.15 = {
 	heir = {
 		name = "Sukezane"
 		monarch_name = "Sukezane"
@@ -29,7 +29,7 @@ capital = 489	# Nasu
 	}
 }
 	
-1467.10.1 = { 
+1493.6.9 = { 
 	monarch = {
 		name = "Sukezane"
 		dynasty = "Nasu"
@@ -39,7 +39,7 @@ capital = 489	# Nasu
 	}
 }
 
-1467.10.1 = {
+1493.6.9 = {
 	heir = {
 		name = "Sukefusa"
 		monarch_name = "Sukefusa"
@@ -53,7 +53,7 @@ capital = 489	# Nasu
 	}
 }
 
-1500.1.1 = { 
+1511.9.25 = { 
 	monarch = {
 		name = "Sukefusa"
 		dynasty = "Nasu"
@@ -63,7 +63,7 @@ capital = 489	# Nasu
 	}
 }
 
-1500.1.1 = {
+1511.9.25 = {
 	heir = {
 		name = "Masasuke"
 		monarch_name = "Masasuke"
@@ -77,7 +77,7 @@ capital = 489	# Nasu
 	}
 }
 
-1540.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Masasuke"
 		dynasty = "Nasu"
@@ -87,7 +87,7 @@ capital = 489	# Nasu
 	}
 }
 
-1540.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Takasuke"
 		monarch_name = "Takasuke"
@@ -101,7 +101,7 @@ capital = 489	# Nasu
 	}
 }
 
-1544.1.1 = { 
+1546.5.19 = { 
 	monarch = {
 		name = "Takasuke"
 		dynasty = "Nasu"
@@ -111,7 +111,7 @@ capital = 489	# Nasu
 	}
 }
 
-1544.1.1 = {
+1546.5.19 = {
 	heir = {
 		name = "Suketane"
 		monarch_name = "Suketane"
@@ -125,7 +125,7 @@ capital = 489	# Nasu
 	}
 }
 
-1551.2.27 = { 
+1554.3.1 = { 
 	monarch = {
 		name = "Suketane"
 		dynasty = "Nasu"
@@ -135,7 +135,7 @@ capital = 489	# Nasu
 	}
 }
 
-1557.1.1 = {
+1569.10.10 = {
 	heir = {
 		name = "Sukeharu"
 		monarch_name = "Sukeharu"
@@ -149,7 +149,7 @@ capital = 489	# Nasu
 	}
 }
 
-1583.4.3 = { 
+1600.9.13 = { 
 	monarch = {
 		name = "Sukeharu"
 		dynasty = "Nasu"

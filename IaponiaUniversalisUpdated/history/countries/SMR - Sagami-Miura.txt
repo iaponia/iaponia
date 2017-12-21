@@ -4,3 +4,39 @@ primary_culture = sagami_c
 religion = shinto
 technology_group = togoku
 capital = 536	# Kamakura
+
+1467.6.15 = {
+	monarch = {
+		name = "Takahira"
+		dynasty = "Miura"
+		birth_date = 1440.1.1
+		death_date = 1497.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1493.6.9 = {
+	monarch = {
+		name = "Tokitaka"
+		dynasty = "Miura"
+		birth_date = 1416.1.1
+		death_date = 1494.10.22
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1511.9.25 = {
+	monarch = {
+		name = "Yoshitatsu"
+		dynasty = "Miura"
+		birth_date = 1451.1.1
+		death_date = 1516.8.19
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

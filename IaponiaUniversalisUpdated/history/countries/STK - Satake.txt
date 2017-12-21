@@ -3,21 +3,18 @@ government_rank = 3
 primary_culture = hitachi_c
 religion = shinto
 technology_group = togoku
-historical_rival = UES
-historical_rival = HIO
 capital = 474	# Kuji
 
 1467.6.15 = {
 	monarch = {
 		name = "Yoshitoshi"
 		dynasty = "Satake"
-		adm = 3
+		birth_date = 1420.1.1
+		death_date = 1477.12.29
+		adm = 2
 		dip = 3
-		mil = 3
+		mil = 2
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Yoshiharu"
 		monarch_name = "Yoshiharu"
@@ -33,32 +30,10 @@ capital = 474	# Kuji
 
 1493.6.9 = {
 	monarch = {
-		name = "Yoshiharu"
-		dynasty = "Satake"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
 		name = "Yoshikiyo"
-		monarch_name = "Yoshikiyo"
 		dynasty = "Satake"
 		birth_date = 1470.1.1
 		death_date = 1517.4.3
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	monarch = {
-		name = "Yoshikiyo"
-		dynasty = "Satake"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -83,10 +58,13 @@ capital = 474	# Kuji
 	monarch = {
 		name = "Yoshiatsu"
 		dynasty = "Satake"
+		birth_date = 1507.8.10
+		death_date = 1545.5.19
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = shugo_daimyo_monarchy
 }
 
 1536.4.7 = {
@@ -97,20 +75,32 @@ capital = 474	# Kuji
 		birth_date = 1531.10.5
 		death_date = 1565.11.25
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 7
+		dip = 6
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = ambitious_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = eloquent_personality
+	add_heir_personality = sickly_personality
 }
 
 1546.5.19 = {
 	monarch = {
 		name = "Yoshiaki"
 		dynasty = "Satake"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1531.10.5
+		death_date = 1565.11.25
+		adm = 7
+		dip = 6
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = sickly_personality
 }
 
 1554.3.1 = {
@@ -121,20 +111,43 @@ capital = 474	# Kuji
 		birth_date = 1547.3.7
 		death_date = 1615.5.19
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 7
+		dip = 7
+		mil = 8
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = brave_personality
+	add_heir_personality = innovator_personality
+	add_heir_personality = swordsman_personality
+	add_heir_personality = eloquent_personality
+	government = sengoku_monarchy
 }
 
 1569.10.10 = {
 	monarch = {
 		name = "Yoshishige"
 		dynasty = "Satake"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1547.3.7
+		death_date = 1615.5.19
+		adm = 7
+		dip = 7
+		mil = 8
+		leader = {
+			name = "Yoshishige Satake"
+			type = general
+			fire = 6
+			shock = 6
+			manuever = 3
+			siege = 0
+			death_date = 1615.5.19
+			personality = unflinching_leader_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = eloquent_personality
 }
 
 1582.6.21 = {
@@ -145,18 +158,64 @@ capital = 474	# Kuji
 		birth_date = 1570.8.17
 		death_date = 1633.3.5
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 6
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = eloquent_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = honorable_personality
+	add_heir_personality = upstanding_personality
+	add_heir_personality = conscientious_personality
+	government = late_sengoku_monarchy
 }
 
 1600.9.13 = {
 	monarch = {
 		name = "Yoshinobu"
 		dynasty = "Satake"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1570.8.17
+		death_date = 1633.3.5
+		adm = 6
+		dip = 6
+		mil = 7
+		leader = {
+			name = "Yoshinobu Satake"
+			type = general
+			fire = 5
+			shock = 3
+			manuever = 3
+			siege = 2
+			death_date = 1633.3.5
+			personality = artillery_commander_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = conscientious_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshishige"
+		dynasty = "Satake"
+		birth_date = 1547.3.7
+		death_date = 1615.5.19
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

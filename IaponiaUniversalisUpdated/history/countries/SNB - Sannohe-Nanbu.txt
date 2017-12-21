@@ -9,13 +9,12 @@ capital = 663	# Sannohe
 	monarch = {
 		name = "Tokimasa"
 		dynasty = "Nanbu"
+		birth_date = 1410.1.1
+		death_date = 1473.4.2
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Michitsugu"
 		monarch_name = "Michitsugu"
@@ -27,44 +26,17 @@ capital = 663	# Sannohe
 		dip = 3
 		mil = 3
 	}
-}
-	
+
 1493.6.9 = { 
 	monarch = {
-		name = "Michitsugu"
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-
-1493.6.9 = {
-	heir = {
 		name = "Nobutoki"
-		monarch_name = "Nobutoki"
 		dynasty = "Nanbu"
 		birth_date = 1442.1.1
 		death_date = 1502.1.11
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = { 
-	monarch = {
-		name = "Nobutoki"
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Nobuyoshi"
 		monarch_name = "Nobuyoshi"
@@ -80,42 +52,10 @@ capital = 663	# Sannohe
 
 1511.9.25 = { 
 	monarch = {
-		name = "Nobuyoshi"
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Masayasu"
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
-	heir = {
 		name = "Yasunobu"
-		monarch_name = "Yasunobu"
 		dynasty = "Nanbu"
 		birth_date = 1493.1.1
 		death_date = 1541.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Yasunobu"
-		dynasty = "Nanbu"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -140,64 +80,8 @@ capital = 663	# Sannohe
 	monarch = {
 		name = "Harumasa"
 		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = {
-	heir = {
-		name = "Harutsugu"
-		monarch_name = "Harutsugu"
-		dynasty = "Nanbu"
-		birth_date = 1570.1.1
-		death_date = 1582.2.16
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = { 
-	monarch = {
-		name = "Harutsugu"
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = { 
-	monarch = {
-		name = "Nobunao"
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = {
-	heir = {
-		name = "Toshinao"
-		monarch_name = "Toshinao"
-		dynasty = "Nanbu"
-		birth_date = 1576.4.13
-		death_date = 1632.10.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1600.9.13 = { 
-	monarch = {
-		name = "Toshinao"
-		dynasty = "Nanbu"
+		birth_date = 1517.1.1
+		death_date = 1582.1.27
 		adm = 3
 		dip = 3
 		mil = 3

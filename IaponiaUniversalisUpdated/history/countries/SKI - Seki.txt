@@ -9,13 +9,12 @@ capital = 350	# Suzuka
 	monarch = {
 		name = "Morimoto"
 		dynasty = "Seki"
+		birth_date = 1430.1.1
+		death_date = 1490.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Toshimori"
 		monarch_name = "Toshimori"
@@ -33,6 +32,80 @@ capital = 350	# Suzuka
 	monarch = {
 		name = "Toshimori"
 		dynasty = "Seki"
+		birth_date = 1450.1.1
+		death_date = 1520.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Tanemori"
+		monarch_name = "Tanemori"
+		dynasty = "Seki"
+		birth_date = 1470.1.1
+		death_date = 1529.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1523.8.25 = {
+	monarch = {
+		name = "Tanemori"
+		dynasty = "Seki"
+		birth_date = 1470.1.1
+		death_date = 1529.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Morikatsu"
+		monarch_name = "Morikatsu"
+		dynasty = "Seki"
+		birth_date = 1508.1.1
+		death_date = 1565.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = sengoku_monarchy
+}
+
+1536.4.7 = {
+	monarch = {
+		name = "Morikatsu"
+		dynasty = "Seki"
+		birth_date = 1508.1.1
+		death_date = 1565.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Morinobu"
+		monarch_name = "Morinobu"
+		dynasty = "Seki"
+		birth_date = 1528.1.1
+		death_date = 1593.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1569.10.10 = {
+	monarch = {
+		name = "Morinobu"
+		monarch_name = "Morinobu"
+		dynasty = "Seki"
+		birth_date = 1528.1.1
+		death_date = 1593.1.1
+		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3

@@ -4,3 +4,53 @@ primary_culture = kii_c
 religion = shinto
 technology_group = saigoku
 capital = 235	# Nagusa
+
+1536.4.7 = {
+	monarch = {
+		name = "Shigeoki"
+		dynasty = "Suzuki"
+		birth_date = 1511.1.1
+		death_date = 1585.1.1
+		adm = 4
+		dip = 4
+		mil = 7
+		leader = {
+			name = "Shigeoki Suzuki"
+			type = general
+			fire = 6
+			shock = 4
+			manuever = 0
+			siege = 2
+			death_date = 1586.1.1
+			personality = skilled_marksman_personality
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = zealot_personality
+	government = sengoku_monarchy
+}
+
+1569.10.10 = {
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Shigeoki"
+		dynasty = "Suzuki"
+		birth_date = 1511.1.1
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

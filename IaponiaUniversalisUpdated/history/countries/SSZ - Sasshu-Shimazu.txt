@@ -7,39 +7,14 @@ capital = 13	# Izumi
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Mochihisa"
-		dynasty = "Shimazu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Kunihisa"
-		monarch_name = "Kunihisa"
 		dynasty = "Shimazu"
 		birth_date = 1441.1.1
 		death_date = 1499.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Kunihisa"
-		dynasty = "Shimazu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Shigehisa"
 		monarch_name = "Shigehisa"
@@ -55,39 +30,14 @@ capital = 13	# Izumi
 	
 1511.9.25 = { 
 	monarch = {
-		name = "Shigehisa"
-		dynasty = "Shimazu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
-	heir = {
 		name = "Tadaoki"
-		monarch_name = "Tadaoki"
 		dynasty = "Shimazu"
 		birth_date = 1483.1.1
 		death_date = 1525.11.4
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1511.9.25 = { 
-	monarch = {
-		name = "Tadaoki"
-		dynasty = "Shimazu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Sanehisa"
 		monarch_name = "Sanehisa"
@@ -105,30 +55,21 @@ capital = 13	# Izumi
 	monarch = {
 		name = "Sanehisa"
 		dynasty = "Shimazu"
+		birth_date = 1510.1.1
+		death_date = 1553.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1546.5.19 = {
-	heir = {
-		name = "Yoshitora"
-		monarch_name = "Yoshitora"
-		dynasty = "Shimazu"
-		birth_date = 1536.5.20
-		death_date = 1585.8.20
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+	government = shugo_daimyo_monarchy
 }
 	
 1546.5.19 = { 
 	monarch = {
 		name = "Yoshitora"
 		dynasty = "Shimazu"
+		birth_date = 1536.5.20
+		death_date = 1585.8.20
 		adm = 3
 		dip = 3
 		mil = 3

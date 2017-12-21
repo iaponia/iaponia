@@ -3,20 +3,75 @@ government_rank = 2
 primary_culture = choshu_c
 religion = shinto
 technology_group = saigoku
-historical_rival = MRI
 capital = 113	# Yoshiki
+
+1467.6.15 = { 
+	monarch = {
+		name = "Hirofusa"
+		dynasty = "Sue"
+		birth_date = 1455.10.13
+		death_date = 1482.6.13
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = reckless_personality
+}
+	
+1493.6.9 = { 
+	monarch = {
+		name = "Okifusa"
+		dynasty = "Sue"
+		birth_date = 1475.1.1
+		death_date = 1539.5.6
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = cautious_personality
+	add_ruler_personality = equestrian_personality
+}
+
+1523.8.25 = {
+	heir = {
+		name = "Harukata"
+		monarch_name = "Harukata"
+		dynasty = "Sue"
+		birth_date = 1521.1.1
+		death_date = 1555.10.16
+		claim = 90
+		adm = 6
+		dip = 5
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = cautious_personality
+	add_ruler_personality = equestrian_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = stern_personality
+	add_heir_personality = proud_personality
+	add_heir_personality = reckless_personality
+}
 	
 1546.5.19 = { 
 	monarch = {
 		name = "Harukata"
 		dynasty = "Sue"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1521.1.1
+		death_date = 1555.10.16
+		adm = 6
+		dip = 5
+		mil = 8
 	}
-}
-
-1546.5.19 = {
 	heir = {
 		name = "Nagafusa"
 		monarch_name = "Nagafusa"
@@ -24,18 +79,32 @@ capital = 113	# Yoshiki
 		birth_date = 1540.1.1
 		death_date = 1557.4.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = reckless_personality
+	government = sengoku_monarchy
 }
-	
-1569.10.10 = { 
+
+1615.1.1 = {
 	monarch = {
-		name = "Nagafusa"
+		name = "Harukata"
 		dynasty = "Sue"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1521.1.1
+		death_date = 1555.10.16
+		adm = 6
+		dip = 5
+		mil = 8
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = reckless_personality
+	government = daimyo_monarchy
 }

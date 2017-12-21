@@ -9,6 +9,8 @@ capital = 439	# Suwa
 	monarch = {
 		name = "Nobumitsu"
 		dynasty = "Suwa"
+		birth_date = 1422.1.1
+		death_date = 1490.1.28
 		adm = 3
 		dip = 3
 		mil = 3
@@ -19,6 +21,8 @@ capital = 439	# Suwa
 	monarch = {
 		name = "Yorimitsu"
 		dynasty = "Suwa"
+		birth_date = 1473.1.1
+		death_date = 1540.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -37,14 +41,5 @@ capital = 439	# Suwa
 		dip = 3
 		mil = 3
 	}
-}
-
-14.1.1 = { 
-	monarch = {
-		name = "Yorishige"
-		dynasty = "Suwa"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+	government = sengoku_monarchy
 }

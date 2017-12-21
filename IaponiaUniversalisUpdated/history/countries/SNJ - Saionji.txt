@@ -4,11 +4,25 @@ primary_culture = iyo_c
 religion = shinto
 technology_group = saigoku
 capital = 95	# Uwa
+
+1467.6.15 = {
+	monarch = {
+		name = "Kintoshi"
+		dynasty = "Saionji"
+		birth_date = 1430.1.1
+		death_date = 1490.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
 	
 1493.6.9 = { 
 	monarch = {
 		name = "Kinie"
 		dynasty = "Saionji"
+		birth_date = 1460.1.1
+		death_date = 1520.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -33,10 +47,13 @@ capital = 95	# Uwa
 	monarch = {
 		name = "Sanemitsu"
 		dynasty = "Saionji"
+		birth_date = 1510.1.1
+		death_date = 1565.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1546.5.19 = {
@@ -57,6 +74,8 @@ capital = 95	# Uwa
 	monarch = {
 		name = "Kinhiro"
 		dynasty = "Saionji"
+		birth_date = 1537.1.1
+		death_date = 1588.1.9
 		adm = 3
 		dip = 3
 		mil = 3

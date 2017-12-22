@@ -72,7 +72,7 @@ estate_nomadic_tribes = {
 	
 	# Estate cancels out the following multiplicative local autonomy effects:
 	autonomy_does_not_affect = local_manpower_modifier
-	autonomy_does_not_affect = land_forcelimit
+	autonomy_does_not_affect = land_forcelimit_modifier
 
 	# These scale with loyalty & power
 	country_modifier_happy = {

@@ -17,7 +17,6 @@ capital = 302	# Wakae
 		leader = {
 			name = "Naganori Yusa"
 			type = general
-			rank = 1
 			fire = 3
 			shock = 3
 			manuever = 3
@@ -65,9 +64,9 @@ capital = 302	# Wakae
 		mil = 3
 	}
 	clear_scripted_personalities = yes
-	add_monarch_personality = cunning_personality
-	add_monarch_personality = ambitious_personality
-	add_monarch_personality = dishonorable_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = dishonorable_personality
 }
 
 1615.1.1 = {

@@ -26,8 +26,9 @@ capital = 663	# Sannohe
 		dip = 3
 		mil = 3
 	}
+}
 
-1493.6.9 = { 
+1493.6.9 = {
 	monarch = {
 		name = "Nobutoki"
 		dynasty = "Nanbu"

@@ -142,7 +142,7 @@ capital = 564	# Dewa-Tagawa
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = innovator_personality
 	add_ruler_personality = ambitious_personality
-	add_heir_personality = hubmle_personality
+	add_heir_personality = humble_personality
 }
 
 1615.1.1 = {

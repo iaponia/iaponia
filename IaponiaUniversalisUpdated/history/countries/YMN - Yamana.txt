@@ -15,7 +15,6 @@ capital = 241	# Izushi
 		leader = {
 			name = "Mochitoyo Yamana"
 			type = general
-			rank = 1
 			fire = 3
 			shock = 3
 			manuever = 2

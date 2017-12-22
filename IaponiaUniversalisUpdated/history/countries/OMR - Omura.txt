@@ -67,6 +67,7 @@ capital = 48	# Sonoki
 		dip = 4
 		mil = 3
 	}
+}
 	
 1523.8.25 = {
 	government = sengoku_monarchy
@@ -106,6 +107,7 @@ capital = 48	# Sonoki
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = xenophilic_personality
 	add_ruler_personality = zealot_personality
+}
 
 1569.10.10 = {
 	heir = {
@@ -129,7 +131,7 @@ capital = 48	# Sonoki
 	add_heir_personality = draconian_personality
 }
 	
-1600.9.13 = { 
+1600.9.13 = {
 	monarch = {
 		name = "Yoshiaki"
 		dynasty = "Omura"

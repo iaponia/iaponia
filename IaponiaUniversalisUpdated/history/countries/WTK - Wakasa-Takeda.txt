@@ -98,7 +98,7 @@ capital = 267	# Oi
 		mil = 3
 	}
 	clear_scripted_personalities = yes
-	add_monarch_personality = lenient_personality
+	add_ruler_personality = lenient_personality
 	add_heir_personality = connected_personality
 }
 

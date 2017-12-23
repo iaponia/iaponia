@@ -1,3 +1,5 @@
+namespace = ideagroups
+
 # Idea Swap?
 country_event = {
 	id = ideagroups.1

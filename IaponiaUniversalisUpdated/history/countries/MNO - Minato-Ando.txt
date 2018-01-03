@@ -3,68 +3,18 @@ government_rank = 2
 primary_culture = akita_c
 religion = shinto
 technology_group = tohoku
-historical_rival = ADO
 capital = 574	# Akita
-	
+
 1467.6.15 = { 
 	monarch = {
-		name = "Narisue"
-		dynasty = "Ando"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
-		name = "Koresue"
-		monarch_name = "Koresue"
-		dynasty = "Ando"
-		birth_date = 1400.1.1
-		death_date = 1445.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Koresue"
-		dynasty = "Ando"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Akisue"
-		monarch_name = "Akisue"
 		dynasty = "Ando"
 		birth_date = 1445.1.1
 		death_date = 1485.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = { 
-	monarch = {
-		name = "Akisue"
-		dynasty = "Ando"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Munesue"
 		monarch_name = "Munesue"
@@ -82,13 +32,12 @@ capital = 574	# Akita
 	monarch = {
 		name = "Munesue"
 		dynasty = "Ando"
+		birth_date = 1460.1.1
+		death_date = 1510.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Nobusue"
 		monarch_name = "Nobusue"
@@ -106,20 +55,8 @@ capital = 574	# Akita
 	monarch = {
 		name = "Nobusue"
 		dynasty = "Ando"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1536.4.7 = {
-	heir = {
-		name = "Takasue"
-		monarch_name = "Takasue"
-		dynasty = "Ando"
-		birth_date = 1510.1.1
-		death_date = 1551.10.12
-		claim = 90
+		birth_date = 1485.1.1
+		death_date = 1530.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -130,6 +67,8 @@ capital = 574	# Akita
 	monarch = {
 		name = "Takasue"
 		dynasty = "Ando"
+		birth_date = 1510.1.1
+		death_date = 1551.10.12
 		adm = 3
 		dip = 3
 		mil = 3

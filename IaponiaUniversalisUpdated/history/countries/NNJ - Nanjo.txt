@@ -7,12 +7,15 @@ capital = 186	# Kawamura
 	
 1523.8.25 = { 
 	monarch = {
-		name = "Kunikiyo"
+		name = "Munekatsu"
 		dynasty = "Nanjo"
+		birth_date = 1497.1.1
+		death_date = 1575.10.14
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1554.3.1 = {
@@ -33,8 +36,11 @@ capital = 186	# Kawamura
 	monarch = {
 		name = "Mototsugu"
 		dynasty = "Nanjo"
+		birth_date = 1549.1.1
+		death_date = 1591.7.17
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = late_sengoku_monarchy
 }

@@ -4,21 +4,13 @@ primary_culture = noto_c
 religion = shinto
 technology_group = togoku
 capital = 377	# Noto
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Yoshitada"
-		dynasty = "Hatakeyama"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
 1467.6.15 = { 
 	monarch = {
 		name = "Yoshimune"
 		dynasty = "Hatakeyama"
+		birth_date = 1445.1.1
+		death_date = 1497.9.16
 		adm = 3
 		dip = 3
 		mil = 3
@@ -43,40 +35,31 @@ capital = 377	# Noto
 	monarch = {
 		name = "Yoshimoto"
 		dynasty = "Hatakeyama"
+		birth_date = 1490.1.1
+		death_date = 1515.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Yoshimune"
-		dynasty = "Hatakeyama"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Yoshimoto"
-		dynasty = "Hatakeyama"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+	government = shugo_daimyo_monarchy
 }
 
 1523.8.25 = { 
 	monarch = {
 		name = "Yoshifusa"
 		dynasty = "Hatakeyama"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1491.1.1
+		death_date = 1545.8.19
+		adm = 8
+		dip = 6
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = artistic_personality
+	government = sengoku_monarchy
 }
 
 1536.4.7 = {
@@ -97,13 +80,12 @@ capital = 377	# Noto
 	monarch = {
 		name = "Yoshitsugu"
 		dynasty = "Hatakeyama"
+		birth_date = 1515.1.1
+		death_date = 1590.4.16
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1546.5.19 = {
 	heir = {
 		name = "Yoshitsuna"
 		monarch_name = "Yoshitsuna"
@@ -121,13 +103,12 @@ capital = 377	# Noto
 	monarch = {
 		name = "Yoshitsuna"
 		dynasty = "Hatakeyama"
+		birth_date = 1535.1.1
+		death_date = 1594.2.11
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1554.3.1 = {
 	heir = {
 		name = "Yoshinori"
 		monarch_name = "Yoshinori"
@@ -145,29 +126,18 @@ capital = 377	# Noto
 	monarch = {
 		name = "Yoshinori"
 		dynasty = "Hatakeyama"
+		birth_date = 1554.1.1
+		death_date = 1574.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1582.6.21 = { 
-	monarch = {
-		name = "Yoshitaka"
-		dynasty = "Hatakeyama"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = {
 	heir = {
-		name = "Haruomaru"
-		monarch_name = "Haruomaru"
+		name = "Yoshitaka"
+		monarch_name = "Yoshitaka"
 		dynasty = "Hatakeyama"
-		birth_date = 1572.1.1
-		death_date = 1577.8.7
+		birth_date = 1556.1.1
+		death_date = 1576.3.4
 		claim = 90
 		adm = 3
 		dip = 3
@@ -175,12 +145,20 @@ capital = 377	# Noto
 	}
 }
 
-1582.6.21 = { 
+1615.1.1 = {
 	monarch = {
-		name = "Haruomaru"
+		name = "Yoshifusa"
 		dynasty = "Hatakeyama"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1491.1.1
+		adm = 8
+		dip = 6
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

@@ -7,39 +7,14 @@ capital = 661	# Kita-Tsugaru
 
 1467.6.15 = {
 	monarch = {
-		name = "Akikuni"
-		dynasty = "Kitabatake"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Akiyoshi"
-		monarch_name = "Akiyoshi"
 		dynasty = "Kitabatake"
 		birth_date = 1430.1.1
 		death_date = 1480.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
-	monarch = {
-		name = "Akiyoshi"
-		dynasty = "Kitabatake"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Akitomo"
 		monarch_name = "Akitomo"
@@ -57,13 +32,12 @@ capital = 661	# Kita-Tsugaru
 	monarch = {
 		name = "Akitomo"
 		dynasty = "Kitabatake"
+		birth_date = 1460.1.1
+		death_date = 1520.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Tomonaga"
 		monarch_name = "Tomonaga"
@@ -81,10 +55,13 @@ capital = 661	# Kita-Tsugaru
 	monarch = {
 		name = "Tomonaga"
 		dynasty = "Kitabatake"
+		birth_date = 1487.1.1
+		death_date = 1555.6.13
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1536.4.7 = {
@@ -103,32 +80,10 @@ capital = 661	# Kita-Tsugaru
 
 1569.10.10 = {
 	monarch = {
-		name = "Tomokazu"
-		dynasty = "Kitabatake"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1569.10.10 = {
-	heir = {
 		name = "Akimura"
-		monarch_name = "Akimura"
 		dynasty = "Kitabatake"
 		birth_date = 1555.1.1
 		death_date = 1578.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1569.10.10 = {
-	monarch = {
-		name = "Akimura"
-		dynasty = "Kitabatake"
 		adm = 3
 		dip = 3
 		mil = 3

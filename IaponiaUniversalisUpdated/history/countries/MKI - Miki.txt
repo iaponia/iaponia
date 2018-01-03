@@ -3,13 +3,14 @@ government_rank = 1
 primary_culture = hida_c
 religion = shinto
 technology_group = togoku
-historical_rival = AKJ
 capital = 396	# Mashita
 	
 1511.9.25 = { 
 	monarch = {
 		name = "Naoyori"
 		dynasty = "Miki"
+		birth_date = 1497.1.1
+		death_date = 1554.7.13
 		adm = 3
 		dip = 3
 		mil = 3
@@ -28,16 +29,17 @@ capital = 396	# Mashita
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 	
 1554.3.1 = { 
 	monarch = {
 		name = "Yoshiyori"
 		dynasty = "Miki"
+		birth_date = 1520.1.1
+		death_date = 1572.12.16
 		adm = 3
 		dip = 3
 		mil = 3
 	}
 }
-
-#becomes Anegakoji

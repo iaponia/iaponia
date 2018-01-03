@@ -3,143 +3,49 @@ government_rank = 3
 primary_culture = sunshu_c
 religion = shinto
 technology_group = togoku
-historical_rival = ODA
-historical_friend = TKD
-historical_friend = HJO
 capital = 427	# Udo
-
-1467.6.15 = { 
-	monarch = {
-		name = "Norikuni"
-		dynasty = "Imagawa"
-		adm = 3
-		dip = 4
-		mil = 4
-	}
-}
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Noriuji"
-		dynasty = "Imagawa"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = { 
-	monarch = {
-		name = "Yasunori"
-		dynasty = "Imagawa"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
-		name = "Norimasa"
-		monarch_name = "Norimasa"
-		dynasty = "Imagawa"
-		birth_date = 1364.1.1
-		death_date = 1433.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 4
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Norimasa"
-		dynasty = "Imagawa"
-#		birth_date = 1365.1.1
-#		death_date = 1433.1.1
-		adm = 3
-		dip = 3
-		mil = 4
-	}
-}
-	
-1467.6.15 = {
-	heir = {
-		name = "Noritada"
-		monarch_name = "Noritada"
-		dynasty = "Imagawa"
-		birth_date = 1408.1.1
-		death_date = 1461.1.1
-		claim = 80
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Noritada"
-		dynasty = "Imagawa"
-#		birth_date = 1408.1.1
-#		death_date = 1461.1.1
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Yoshitada"
-		monarch_name = "Yoshitada"
 		dynasty = "Imagawa"
 		birth_date = 1436.2.26
 		death_date = 1476.3.1
-		claim = 90
-		adm = 2
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Yoshitada"
-		dynasty = "Imagawa"
-#		birth_date = 1436.2.26
-#		death_date = 1476.3.1
-		adm = 2
-		dip = 3
-		mil = 3
-	}
-}
-	
-1493.6.9 = {
-	heir = {
-		name = "Ujichika"
-		monarch_name = "Ujichika"
-		dynasty = "Imagawa"
-		birth_date = 1473.1.1
-		death_date = 1526.8.1
-		claim = 90
-		adm = 3
+		adm = 4
 		dip = 4
-		mil = 4
+		mil = 6
+		leader = {
+			name = "Yoshitada Imagawa"
+			type = general
+			fire = 3
+			shock = 3
+			manuever = 3
+			siege = 3
+			death_date = 1476.3.1
+			personality = rapid_mobilizer_personality
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = ambitious_personality
 }
 	
 1493.6.9 = { 
 	monarch = {
 		name = "Ujichika"
 		dynasty = "Imagawa"
-#		birth_date = 1473.1.1
-#		death_date = 1526.8.1
-		adm = 3
-		dip = 4
-		mil = 4
+		birth_date = 1473.1.1
+		death_date = 1526.8.1
+		adm = 7
+		dip = 7
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = ambitious_personality
 }
 
 1523.8.25 = {
@@ -158,25 +64,29 @@ capital = 427	# Udo
 	
 1536.4.7 = { 
 	monarch = {
-		name = "Ujiteru"
-		dynasty = "Imagawa"
-#		birth_date = 1513.1.1
-#		death_date = 1536.4.7
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
-	
-1536.4.7 = { 
-	monarch = {
 		name = "Yoshimoto"
 		dynasty = "Imagawa"
-#		birth_date = 1519.1.1
-#		death_date = 1560.6.12
-		adm = 5
-		dip = 5
-		mil = 4
+		birth_date = 1519.1.1
+		death_date = 1560.6.12
+		adm = 7
+		dip = 8
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = elitist_personality
+	government = sengoku_monarchy
+	leader = {
+		name = "Sessai Taigen"
+		type = general
+		fire = 2
+		shock = 6
+		manuever = 3
+		siege = 3
+		death_date = 1555.10.23
+		personality = skilled_tactician_personality
 	}
 }
 	
@@ -190,7 +100,7 @@ capital = 427	# Udo
 		claim = 90
 		adm = 2
 		dip = 2
-		mil = 2
+		mil = 1
 	}
 }
 	
@@ -198,10 +108,28 @@ capital = 427	# Udo
 	monarch = {
 		name = "Ujizane"
 		dynasty = "Imagawa"
-#		birth_date = 1538.1.1
-#		death_date = 1615.1.27
+		birth_date = 1538.1.1
+		death_date = 1615.1.27
 		adm = 2
 		dip = 2
-		mil = 2
+		mil = 1
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshimoto"
+		dynasty = "Imagawa"
+		birth_date = 1519.1.1
+		adm = 7
+		dip = 8
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = elitist_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

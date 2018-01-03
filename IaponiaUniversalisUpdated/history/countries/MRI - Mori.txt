@@ -3,109 +3,28 @@ government_rank = 1
 primary_culture = aki_c
 religion = shinto
 technology_group = saigoku
-historical_rival = AMA
-historical_rival = SUE
-historical_rival = ODA
 capital = 130	# Takata
-
-1467.6.15 = {
-	monarch = {
-		name = "Motoharu" #1323 - ??
-		dynasty = "Mori"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
-		name = "Hirofusa"
-		monarch_name = "Hirofusa"
-		dynasty = "Mori"
-		birth_date = 1347.1.1
-		death_date = 1385.1.1
-		claim = 95
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
-		name = "Mitsufusa"
-		monarch_name = "Mitsufusa"
-		dynasty = "Mori"
-		birth_date = 1386.1.1
-		death_date = 1436.1.1
-		claim = 95
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	monarch = {
-		name = "Mitsufusa"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
-		name = "Hiromoto"
-		monarch_name = "Hiromoto"
-		dynasty = "Mori"
-		birth_date = 1412.1.1
-		death_date = 1464.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1467.6.15 = {
-	monarch = {
-		name = "Hiromoto" 
-		dynasty = "Mori"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1467.6.15 = {
-	heir = {
-		name = "Toyomoto"
-		monarch_name = "Toyomoto"
-		dynasty = "Mori"
-		birth_date = 1444.1.1
-		death_date = 1476.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 3
-	}
-}
 
 1467.6.15 = {
 	monarch = {
 		name = "Toyomoto" 
 		dynasty = "Mori"
-#		birth_date = 1444.1.1
-#		death_date = 1476.1.1
-		adm = 2
-		dip = 2
-		mil = 3
+		birth_date = 1444.1.1
+		death_date = 1476.1.1
+		adm = 5
+		dip = 6
+		mil = 7
+		leader = {
+			name = "Toyomoto Mori"
+			type = general
+			fire = 4
+			shock = 4
+			manuever = 2
+			siege = 2
+			death_date = 1476.1.1
+			personality = inspirational_leader_personality
+		}
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Hiromoto"
 		monarch_name = "Hiromoto"
@@ -113,25 +32,26 @@ capital = 130	# Takata
 		birth_date = 1466.1.1
 		death_date = 1506.2.3
 		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 3
+		dip = 3
+		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = ambitious_personality
 }
 
 1493.6.9 = {
 	monarch = {
 		name = "Hiromoto" 
 		dynasty = "Mori"
-#		birth_date = 1466.1.1
-#		death_date = 1506.2.3
-		adm = 2
-		dip = 2
-		mil = 2
+		birth_date = 1466.1.1
+		death_date = 1506.2.3
+		adm = 3
+		dip = 3
+		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Okimoto"
 		monarch_name = "Okimoto"
@@ -139,9 +59,9 @@ capital = 130	# Takata
 		birth_date = 1492.1.1
 		death_date = 1516.9.21
 		claim = 90
-		adm = 2
-		dip = 3
-		mil = 2
+		adm = 3
+		dip = 4
+		mil = 3
 	}
 }
 
@@ -149,54 +69,34 @@ capital = 130	# Takata
 	monarch = {
 		name = "Okimoto" 
 		dynasty = "Mori"
-#		birth_date = 1492.1.1
-#		death_date = 1516.9.21
-		adm = 2
-		dip = 3
-		mil = 2
+		birth_date = 1492.1.1
+		death_date = 1516.9.21
+		adm = 3
+		dip = 4
+		mil = 3
 	}
 }
-
-1523.8.25 = {
-	heir = {
-		name = "Komatsumaru"
-		monarch_name = "Komatsumaru"
-		dynasty = "Mori"
-		birth_date = 1515.1.1
-		death_date = 1523.8.25
-		claim = 90
-		adm = 1
-		dip = 2
-		mil = 1
-	}
-}
-
-1523.8.25 = {
-	monarch = {
-		name = "Komatsumaru" 
-		dynasty = "Mori"
-#		birth_date = 1515.1.1
-#		death_date = 1523.8.25
-		adm = 1
-		dip = 2
-		mil = 1
-	}
-}
-
 
 1523.8.25 = {
 	monarch = {
 		name = "Motonari" 
 		dynasty = "Mori"
-#		birth_date = 1497.4.16
-#		death_date = 1571.7.6
-		adm = 5
-		dip = 6
-		mil = 4
+		birth_date = 1497.4.16
+		death_date = 1571.7.6
+		adm = 8
+		dip = 8
+		mil = 8
+		leader = {
+			name = "Motonari Mori"
+			type = general
+			fire = 5
+			shock = 5
+			manuever = 5
+			siege = 5
+			death_date = 1571.7.6
+			personality = skilled_tactician_personality
+		}
 	}
-}
-
-1523.8.25 = {
 	heir = {
 		name = "Takamoto"
 		monarch_name = "Takamoto"
@@ -204,12 +104,44 @@ capital = 130	# Takata
 		birth_date = 1523.1.1
 		death_date = 1563.9.18
 		claim = 90
-		adm = 5
-		dip = 4
-		mil = 4
+		adm = 7
+		dip = 7
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = eloquent_personality
+	add_heir_personality = conscientious_personality
+	add_heir_personality = gracious_personality
+	add_heir_personality = upstanding_personality
+	add_heir_personality = artistic_personality
+	government = sengoku_monarchy
 }
 
+1546.5.19 = {
+	leader = {
+		name = "Motoharu Kikkawa"
+		type = general
+		fire = 6
+		shock = 6
+		manuever = 3
+		siege = 3
+		death_date = 1586.12.25
+		personality = unflinching_leader_personality
+	}
+	leader = {
+		name = "Takakage Kobayakawa"
+		type = admiral
+		fire = 4
+		shock = 4
+		manuever = 4
+		siege = 4
+		death_date = 1597.7.26
+		personality = calm_commander_personality
+	}
+}
 
 1569.10.10 = {
 	heir = {
@@ -219,25 +151,31 @@ capital = 130	# Takata
 		birth_date = 1553.2.4
 		death_date = 1625.6.2
 		claim = 90
-		adm = 4
-		dip = 3
+		adm = 6
+		dip = 5
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = eloquent_personality
+	add_heir_personality = architect_personality
+	add_heir_personality = upstanding_personality
+	add_heir_personality = disorganized_personality
+	add_heir_personality = lenient_personality
 }
 
 1582.6.21 = {
 	monarch = {
 		name = "Terumoto" 
 		dynasty = "Mori"
-#		birth_date = 1553.2.4
-#		death_date = 1625.6.2
-		adm = 4
-		dip = 3
+		birth_date = 1553.2.4
+		death_date = 1625.6.2
+		adm = 6
+		dip = 5
 		mil = 3
 	}
-}
-
-1582.6.21 = {
 	heir = {
 		name = "Hidenari"
 		monarch_name = "Hidenari"
@@ -245,262 +183,54 @@ capital = 130	# Takata
 		birth_date = 1571.7.6
 		death_date = 1651.2.24
 		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = disorganized_personality
+	add_ruler_personality = lenient_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = drunk_personality
+	government = late_sengoku_monarchy
+	leader = {
+		name = "Motoharu Kikkawa"
+		type = general
+		fire = 6
+		shock = 6
+		manuever = 3
+		siege = 3
+		death_date = 1586.12.25
+		personality = unflinching_leader_personality
+	}
+	leader = {
+		name = "Takakage Kobayakawa"
+		type = admiral
+		fire = 4
+		shock = 4
+		manuever = 4
+		siege = 4
+		death_date = 1597.7.26
+		personality = calm_commander_personality
 	}
 }
 
-1623.1.1 = {
+1615.1.1 = {
 	monarch = {
-		name = "Hidenari" 
+		name = "Motonari" 
 		dynasty = "Mori"
-#		birth_date = 1595.11.19
-#		death_date = 1651.2.24
-		adm = 2
-		dip = 2
-		mil = 2
+		birth_date = 1497.4.16
+		adm = 8
+		dip = 8
+		mil = 8
 	}
-}
-
-1639.12.14 = {
-	heir = {
-		name = "Tsunahiro"
-		monarch_name = "Tsunahiro"
-		dynasty = "Mori"
-		birth_date = 1639.12.14
-		death_date = 1689.6.4
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1651.2.24 = {
-	monarch = {
-		name = "Tsunahiro" 
-		dynasty = "Mori"
-#		birth_date = 1639.12.14
-#		death_date = 1689.6.4
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1668.3.3 = {
-	heir = {
-		name = "Yoshinari"
-		monarch_name = "Yoshinari"
-		dynasty = "Mori"
-		birth_date = 1668.3.3
-		death_date = 1694.3.2
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1689.6.4 = {
-	monarch = {
-		name = "Yoshinari" 
-		dynasty = "Mori"
-#		birth_date = 1668.3.3
-#		death_date = 1694.3.2
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1689.6.4 = {
-	heir = {
-		name = "Yoshihiro"
-		monarch_name = "Yoshihiro"
-		dynasty = "Mori"
-		birth_date = 1673.2.28
-		death_date = 1707.11.16
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1694.3.2 = {
-	monarch = {
-		name = "Yoshihiro" 
-		dynasty = "Mori"
-#		birth_date = 1673.2.28
-#		death_date = 1707.11.16
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1707.11.16 = {
-	monarch = {
-		name = "Yoshimoto" 
-		dynasty = "Mori"
-#		birth_date = 1677.9.20
-#		death_date = 1731.10.13
-		adm = 6
-		dip = 3
-		mil = 3
-	}
-}
-
-1717.8.12 = {
-	heir = {
-		name = "Munehiro"
-		monarch_name = "Munehiro"
-		dynasty = "Mori"
-		birth_date = 1717.8.12
-		death_date = 1751.3.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1731.10.13 = {
-	monarch = {
-		name = "Munehiro" 
-		dynasty = "Mori"
-#		birth_date = 1717.8.12
-#		death_date = 1751.3.1
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1751.3.1 = {
-	monarch = {
-		name = "Shigetaka" 
-		dynasty = "Mori"
-#		birth_date = 1725.10.15
-#		death_date = 1789.11.23
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1754.8.3 = {
-	heir = {
-		name = "Haruchika"
-		monarch_name = "Haruchika"
-		dynasty = "Mori"
-		birth_date = 1754.8.3
-		death_date = 1791.7.12
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1789.11.23 = {
-	monarch = {
-		name = "Haruchika" 
-		dynasty = "Mori"
-#		birth_date = 1754.8.3
-#		death_date = 1791.7.12
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1789.11.23 = {
-	heir = {
-		name = "Narifusa"
-		monarch_name = "Narifusa"
-		dynasty = "Mori"
-		birth_date = 1782.12.14
-		death_date = 1809.3.29
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1791.7.12 = {
-	monarch = {
-		name = "Narifusa" 
-		dynasty = "Mori"
-#		birth_date = 1782.12.14
-#		death_date = 1809.3.29
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1809.3.29 = {
-	monarch = {
-		name = "Narihiro" 
-		dynasty = "Mori"
-#		birth_date = 1784.1.1
-#		death_date = 1836.6.27
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1824.1.1 = {
-	monarch = {
-		name = "Narimoto" 
-		dynasty = "Mori"
-#		birth_date = 1794.4.23
-#		death_date = 1836.10.17
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1824.1.1 = {
-	heir = {
-		name = "Narihiro"
-		monarch_name = "Narihiro"
-		dynasty = "Mori"
-		birth_date = 1814.7.3
-		death_date = 1837.2.4
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1836.10.17 = {
-	monarch = {
-		name = "Narihiro" 
-		dynasty = "Mori"
-#		birth_date = 1814.7.3
-#		death_date = 1837.2.4
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1837.2.4 = {
-	monarch = {
-		name = "Takachika" 
-		dynasty = "Mori"
-#		birth_date = 1819.3.15
-#		death_date = 1871.5.17
-		adm = 6
-		dip = 6
-		mil = 6
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

@@ -9,6 +9,8 @@ capital = 88	# Matsura
 	monarch = {
 		name = "Toyohisa" 
 		dynasty = "Matsura"
+		birth_date = 1446.1.1
+		death_date = 1492.1.1
 		adm = 4
 		dip = 4
 		mil = 3
@@ -19,13 +21,12 @@ capital = 88	# Matsura
 	monarch = {
 		name = "Hirosada" 
 		dynasty = "Matsura"
+		birth_date = 1461.1.1
+		death_date = 1526.1.1
 		adm = 4
 		dip = 4
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Okinobu"
 		monarch_name = "Okinobu"
@@ -34,8 +35,8 @@ capital = 88	# Matsura
 		death_date = 1541.1.1
 		claim = 90
 		adm = 4
-		dip = 4
-		mil = 3
+		dip = 6
+		mil = 4
 	}
 }
 
@@ -43,9 +44,11 @@ capital = 88	# Matsura
 	monarch = {
 		name = "Okinobu" 
 		dynasty = "Matsura"
+		birth_date = 1480.1.1
+		death_date = 1541.1.1
 		adm = 4
-		dip = 4
-		mil = 3
+		dip = 6
+		mil = 4
 	}
 }
 
@@ -57,20 +60,33 @@ capital = 88	# Matsura
 		birth_date = 1529.1.1
 		death_date = 1599.1.1
 		claim = 90
-		adm = 4
-		dip = 4
-		mil = 3
+		adm = 6
+		dip = 7
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = mercantile_personality
+	add_heir_personality = nautical_personality
+	add_heir_personality = connected_personality
+	add_heir_personality = cynical_personality
+	government = sengoku_monarchy
 }
 
 1546.5.19 = {
 	monarch = {
 		name = "Takanobu" 
 		dynasty = "Matsura"
-		adm = 4
-		dip = 4
-		mil = 3
+		birth_date = 1529.1.1
+		death_date = 1599.1.1
+		adm = 6
+		dip = 7
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = cynical_personality
 }
 
 1554.3.1 = {
@@ -81,9 +97,9 @@ capital = 88	# Matsura
 		birth_date = 1549.1.1
 		death_date = 1614.1.1
 		claim = 90
-		adm = 4
-		dip = 4
-		mil = 3
+		adm = 5
+		dip = 5
+		mil = 4
 	}
 }
 
@@ -91,32 +107,29 @@ capital = 88	# Matsura
 	monarch = {
 		name = "Shigenobu" 
 		dynasty = "Matsura"
-		adm = 4
-		dip = 4
-		mil = 3
+		birth_date = 1549.1.1
+		death_date = 1614.1.1
+		adm = 5
+		dip = 5
+		mil = 4
 	}
+	government = late_sengoku_monarchy
 }
 
-1582.6.21 = {
-	heir = {
-		name = "Hisanobu"
-		monarch_name = "Hisanobu"
-		dynasty = "Matsura"
-		birth_date = 1571.1.1
-		death_date = 1602.10.14
-		claim = 90
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-}
-
-1600.9.13 = {
+1615.1.1 = {
 	monarch = {
-		name = "Hisanobu" 
+		name = "Takanobu" 
 		dynasty = "Matsura"
-		adm = 4
-		dip = 4
-		mil = 3
+		birth_date = 1529.1.1
+		adm = 6
+		dip = 7
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = cynical_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

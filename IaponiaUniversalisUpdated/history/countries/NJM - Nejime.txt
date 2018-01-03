@@ -9,6 +9,8 @@ capital = 14	# Osumi
 	monarch = {
 		name = "Shigekiyo"
 		dynasty = "Nejime"
+		birth_date = 1410.1.1
+		death_date = 1470.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -33,6 +35,8 @@ capital = 14	# Osumi
 	monarch = {
 		name = "Tadakiyo"
 		dynasty = "Nejime"
+		birth_date = 1450.1.1
+		death_date = 1510.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -57,6 +61,8 @@ capital = 14	# Osumi
 	monarch = {
 		name = "Shigenari"
 		dynasty = "Nejime"
+		birth_date = 1480.1.1
+		death_date = 1534.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -81,13 +87,12 @@ capital = 14	# Osumi
 	monarch = {
 		name = "Kiyotoshi"
 		dynasty = "Nejime"
+		birth_date = 1510.1.1
+		death_date = 1559.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1536.4.7 = {
 	heir = {
 		name = "Shigetake"
 		monarch_name = "Shigetake"
@@ -99,12 +104,15 @@ capital = 14	# Osumi
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 	
 1569.10.10 = { 
 	monarch = {
 		name = "Shigetake"
 		dynasty = "Nejime"
+		birth_date = 1536.1.1
+		death_date = 1580.1.1
 		adm = 3
 		dip = 3
 		mil = 3

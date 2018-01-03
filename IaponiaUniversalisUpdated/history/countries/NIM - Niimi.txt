@@ -7,20 +7,41 @@ capital = 200	# Tetta
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Takanao"
+		name = "Tsunenao"
 		dynasty = "Niimi"
+		birth_date = 1440.1.1
+		death_date = 1500.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
+	heir = {
+		name = "Takanao"
+		monarch_name = "Takanao"
+		dynasty = "Niimi"
+		birth_date = 1460.1.1
+		death_date = 1542.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	
+1493.6.9 = {
+	monarch = {
+		name = "Takanao"
+		dynasty = "Niimi"
+		birth_date = 1460.1.1
+		death_date = 1542.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
 	heir = {
 		name = "Kunitsune"
 		monarch_name = "Kunitsune"
 		dynasty = "Niimi"
-		birth_date = 1465.1.1
+		birth_date = 1490.1.1
 		death_date = 1542.1.1
 		claim = 90
 		adm = 3
@@ -33,13 +54,12 @@ capital = 200	# Tetta
 	monarch = {
 		name = "Kunitsune"
 		dynasty = "Niimi"
+		birth_date = 1465.1.1
+		death_date = 1542.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Sadatsune"
 		monarch_name = "Sadatsune"
@@ -51,12 +71,15 @@ capital = 200	# Tetta
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 	
 1546.5.19 = { 
 	monarch = {
 		name = "Sadatsune"
 		dynasty = "Niimi"
+		birth_date = 1495.1.1
+		death_date = 1567.1.1
 		adm = 3
 		dip = 3
 		mil = 3

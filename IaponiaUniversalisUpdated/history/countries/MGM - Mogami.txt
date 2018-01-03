@@ -1,49 +1,27 @@
-government = kokujin_monarchy
+government = shugo_monarchy
 government_rank = 2
 primary_culture = mogami_c
 religion = shinto
 technology_group = tohoku
-historical_rival = OSK
 capital = 567	# Mogami
 
 1467.6.15 = {
 	monarch = {
-		name = "Mitsuie"
-		dynasty = "Mogami"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Yoshiharu"
-		monarch_name = "Yoshiharu"
 		dynasty = "Mogami"
 		birth_date = 1420.1.1
 		death_date = 1474.4.7
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Yoshiuji"
+		monarch_name = "Yoshiuji"
+		dynasty = "Mogami"
+		birth_date = 1446.1.1
+		death_date = 1494.8.14
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	monarch = {
-		name = "Yoshiharu"
-		dynasty = "Mogami"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	monarch = {
-		name = "Yoshiaki"
-		dynasty = "Mogami"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -54,13 +32,12 @@ capital = 567	# Mogami
 	monarch = {
 		name = "Yoshiuji"
 		dynasty = "Mogami"
+		birth_date = 1446.1.1
+		death_date = 1494.8.14
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Yoshiatsu"
 		monarch_name = "Yoshiatsu"
@@ -76,32 +53,10 @@ capital = 567	# Mogami
 
 1511.9.25 = {
 	monarch = {
-		name = "Yoshiatsu"
-		dynasty = "Mogami"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
-	heir = {
 		name = "Yoshisada"
-		monarch_name = "Yoshisada"
 		dynasty = "Mogami"
 		birth_date = 1492.1.1
 		death_date = 1520.2.20
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
-	monarch = {
-		name = "Yoshisada"
-		dynasty = "Mogami"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -112,10 +67,13 @@ capital = 567	# Mogami
 	monarch = {
 		name = "Yoshimori"
 		dynasty = "Mogami"
+		birth_date = 1521.1.1
+		death_date = 1590.6.19
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = shugo_daimyo_monarchy
 }
 
 1546.5.19 = {
@@ -126,18 +84,74 @@ capital = 567	# Mogami
 		birth_date = 1546.2.1
 		death_date = 1614.2.26
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 7
+		dip = 7
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = innovator_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = cunning_personality
+	add_heir_personality = erudite_personality
 }
 
-1582.6.21 = {
+1569.10.10 = {
 	monarch = {
 		name = "Yoshiaki"
 		dynasty = "Mogami"
+		birth_date = 1546.2.1
+		death_date = 1614.2.26
+		adm = 7
+		dip = 7
+		mil = 7
+		leader = {
+			name = "Yoshiaki Mogami"
+			type = general
+			fire = 4
+			shock = 6
+			manuever = 3
+			siege = 3
+			death_date = 1614.2.26
+			personality = unflinching_leader_personality
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = erudite_personality
+	government = sengoku_monarchy
+}
+
+1582.6.21 = {
+	heir = {
+		name = "Iechika"
+		monarch_name = "Iechika"
+		dynasty = "Mogami"
+		birth_date = 1582.1.1
+		death_date = 1617.4.11
+		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshiaki"
+		dynasty = "Mogami"
+		birth_date = 1546.2.1
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

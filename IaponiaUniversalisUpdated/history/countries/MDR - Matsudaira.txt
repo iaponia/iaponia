@@ -3,22 +3,18 @@ government_rank = 2
 primary_culture = mikawa_c
 religion = shinto
 technology_group = togoku
-historical_friend = ODA
-historical_rival = TKD
-historical_rival = IMG
 capital = 412	# Nukata
 
 1493.6.9 = { 
 	monarch = {
 		name = "Chikatada"
 		dynasty = "Matsudaira"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1431.1.1
+		death_date = 1501.9.2
+		adm = 5
+		dip = 5
+		mil = 5
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Nagachika"
 		monarch_name = "Nagachika"
@@ -26,23 +22,26 @@ capital = 412	# Nukata
 		birth_date = 1473.1.1
 		death_date = 1544.9.9
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 6
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = brave_personality
+	add_heir_personality = erudite_personality
+	add_heir_personality = artistic_personality
 }
 	
 1511.9.25 = { 
 	monarch = {
 		name = "Nagachika"
 		dynasty = "Matsudaira"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1473.1.1
+		death_date = 1544.9.9
+		adm = 6
+		dip = 6
+		mil = 7
 	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Nobutada"
 		monarch_name = "Nobutada"
@@ -50,404 +49,96 @@ capital = 412	# Nukata
 		birth_date = 1490.1.1
 		death_date = 1531.9.8
 		claim = 90
-		adm = 3
-		dip = 3
+		adm = 4
+		dip = 4
 		mil = 3
 	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Nobutada"
-		dynasty = "Matsudaira"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1523.8.25 = {
-	heir = {
-		name = "Kiyoyasu"
-		monarch_name = "Kiyoyasu"
-		dynasty = "Matsudaira"
-		birth_date = 1511.9.28
-		death_date = 1535.12.29
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = artistic_personality
 }
 
 1523.8.25 = { 
 	monarch = {
 		name = "Kiyoyasu"
 		dynasty = "Matsudaira"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1511.9.28
+		death_date = 1535.12.29
+		adm = 7
+		dip = 7
+		mil = 7
 	}
-}
-
-1536.4.7 = {
-	heir = {
-		name = "Hirotada"
-		monarch_name = "Hirotada"
-		dynasty = "Matsudaira"
-		birth_date = 1526.6.9
-		death_date = 1549.4.3
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+	government = sengoku_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = ambitious_personality
 }
 
 1536.4.7 = { 
 	monarch = {
 		name = "Hirotada"
 		dynasty = "Matsudaira"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1526.6.9
+		death_date = 1549.4.3
+		adm = 4
+		dip = 5
+		mil = 4
 	}
 }
 
 1546.5.19 = {
 	heir = {
-		name = ""
-		monarch_name = ""
+		name = "Motoyasu"
+		monarch_name = "Matsudaira"
 		dynasty = "Matsudaira"
 		birth_date = 1543.1.31
 		death_date = 1616.6.1
 		claim = 90
-		adm = 6
-		dip = 5
-		mil = 5
+		adm = 7
+		dip = 8
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = stern_personality
+	add_heir_personality = strong_personality
+	add_heir_personality = proud_personality
+	add_heir_personality = draconian_personality
 }
 	
 1554.3.1 = { 
 	monarch = {
-		name = "Ieyasu"
+		name = "Motoyasu"
 		dynasty = "Matsudaira"
-#		birth_date = 1543.1.31
-#		death_date = 1616.5.22
-		adm = 6
-		dip = 5
-		mil = 5
+		birth_date = 1543.1.31
+		death_date = 1616.5.22
+		adm = 7
+		dip = 8
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = strong_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = draconian_personality
 }
 
-1582.6.21 = {
-	heir = {
-		name = "Hidetada"
-		monarch_name = "Hidetada"
-		dynasty = "Tokugawa"
-		birth_date = 1579.5.2
-		death_date = 1632.3.14
-		claim = 90
-		adm = 5
-		dip = 4
-		mil = 2
-	}
-}
-
-1600.9.13   = { capital = 1028 } # Musashi (Edo)
-
-1616.5.22 = { 
+1615.1.1 = {
 	monarch = {
-		name = "Hidetada"
-		dynasty = "Tokugawa"
-#		birth_date = 1579.5.2
-#		death_date = 1632.3.14
-		adm = 5
-		dip = 4
-		mil = 2
+		name = "Kiyoyasu"
+		dynasty = "Matsudaira"
+		birth_date = 1511.9.28
+		adm = 7
+		dip = 7
+		mil = 7
 	}
-}
-	
-1616.5.22 = {
-	heir = {
-		name = "Iemitsu"
-		monarch_name = "Iemitsu"
-		dynasty = "Tokugawa"
-		birth_date = 1604.8.12
-		death_date = 1651.6.8
-		claim = 90
-		adm = 4
-		dip = 3
-		mil = 3
-	}
-}
-
-1632.3.14 = { 
-	monarch = {
-		name = "Iemitsu"
-		dynasty = "Tokugawa"
-#		birth_date = 1604.8.12
-#		death_date = 1651.6.8
-		adm = 4
-		dip = 3
-		mil = 3
-	}
-}
-	
-1641.9.7 = {
-	heir = {
-		name = "Ietsuna"
-		monarch_name = "Ietsuna"
-		dynasty = "Tokugawa"
-		birth_date = 1641.9.7
-		death_date = 1680.6.4
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
-
-1651.6.8 = { 
-	monarch = {
-		name = "Ietsuna"
-		dynasty = "Tokugawa"
-#		birth_date = 1641.9.7
-#		death_date = 1680.6.4
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
-
-1680.5.1 = {
-	heir = {
-		name = "Tsunayoshi"
-		monarch_name = "Tsunayoshi"
-		dynasty = "Tokugawa"
-		birth_date = 1646.2.23
-		death_date = 1709.2.9
-		claim = 90
-		adm = 6
-		dip = 5
-		mil = 3
-	}
-}
-
-1680.6.4 = { 
-	monarch = {
-		name = "Tsunayoshi"
-		dynasty = "Tokugawa"
-#		birth_date = 1646.2.23
-#		death_date = 1709.2.9
-		adm = 4
-		dip = 3
-		mil = 2
-	}
-}
-	
-1704.12.31 = {
-	heir = {
-		name = "Ienobu"
-		monarch_name = "Ienobu"
-		dynasty = "Tokugawa"
-		birth_date = 1662.6.11
-		death_date = 1712.11.12
-		claim = 90
-		adm = 4
-		dip = 3
-		mil = 2
-	}
-}
-
-1709.2.9 = { 
-	monarch = {
-		name = "Ienobu"
-		dynasty = "Tokugawa"
-#		birth_date = 1662.6.11
-#		death_date = 1712.11.12
-		adm = 4
-		dip = 3
-		mil = 2
-	}
-}
-	
-1709.8.8 = {
-	heir = {
-		name = "Ietsugu"
-		monarch_name = "Ietsugu"
-		dynasty = "Tokugawa"
-		birth_date = 1709.8.8
-		death_date = 1716.6.19
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
-
-1712.11.12 = { 
-	monarch = {
-		name = "Ietsugu"
-		dynasty = "Tokugawa"
-#		birth_date = 1709.8.8
-#		death_date = 1716.6.19
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
-	
-1716.6.19 = { 
-	monarch = {
-		name = "Yoshimune"
-		dynasty = "Tokugawa"
-#		birth_date = 1684.11.17
-#		death_date = 1751.7.12
-		adm = 4
-		dip = 3
-		mil = 3
-	}
-}
-	
-1716.6.19 = {
-	heir = {
-		name = "Ieshige"
-		monarch_name = "Ieshige"
-		dynasty = "Tokugawa"
-		birth_date = 1712.7.28
-		death_date = 1761.7.13
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1751.7.12 = { 
-	monarch = {
-		name = "Ieshige"
-		dynasty = "Tokugawa"
-#		birth_date = 1712.7.28
-#		death_date = 1761.7.13
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-	
-1751.7.12 = {
-	heir = {
-		name = "Ieharu"
-		monarch_name = "Ieharu"
-		dynasty = "Tokugawa"
-		birth_date = 1737.6.20
-		death_date = 1786.9.17
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1760.5.3 = { 
-	monarch = {
-		name = "Ieharu"
-		dynasty = "Tokugawa"
-#		birth_date = 1737.6.20
-#		death_date = 1786.9.17
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-	
-1781.5.1 = {
-	heir = {
-		name = "Ienari"
-		monarch_name = "Ienari"
-		dynasty = "Tokugawa"
-		birth_date = 1773.11.18
-		death_date = 1841.2.27
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1786.9.17 = { 
-	monarch = {
-		name = "Ienari"
-		dynasty = "Tokugawa"
-#		birth_date = 1773.11.18
-#		death_date = 1841.2.27
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-	
-1793.6.22 = {
-	heir = {
-		name = "Ieyoshi"
-		monarch_name = "Ieyoshi"
-		dynasty = "Tokugawa"
-		birth_date = 1793.6.22
-		death_date = 1853.7.27
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1841.2.27 = { 
-	monarch = {
-		name = "Ieyoshi"
-		dynasty = "Tokugawa"
-#		birth_date = 1793.6.22
-#		death_date = 1853.7.27
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-	
-1841.2.27 = {
-	heir = {
-		name = "Ieyoshi"
-		monarch_name = "Ieyoshi"
-		dynasty = "Tokugawa"
-		birth_date = 1824.5.6
-		death_date = 1858.8.14
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1853.7.27 = { 
-	monarch = {
-		name = "Ieyoshi"
-		dynasty = "Tokugawa"
-#		birth_date = 1824.5.6
-#		death_date = 1858.8.14
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-	
-1858.8.14 = { 
-	monarch = {
-		name = "Ieshige"
-		dynasty = "Tokugawa"
-#		birth_date = 1846.7.17
-#		death_date = 1866.8.29
-		adm = 2
-		dip = 2
-		mil = 2
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

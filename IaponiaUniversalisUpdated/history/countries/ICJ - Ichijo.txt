@@ -5,14 +5,34 @@ religion = shinto
 technology_group = saigoku
 capital = 107	# Hata
 	
+1467.6.15 = {
+	monarch = {
+		name = "Norifusa"
+		dynasty = "Ichijo"
+		birth_date = 1423.1.1
+		death_date = 1480.11.6
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+	
 1493.6.9 = { 
 	monarch = {
 		name = "Fusaie"
 		dynasty = "Ichijo"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1475.1.1
+		death_date = 1539.12.23
+		adm = 7
+		dip = 6
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = connected_personality
+	government = shugo_daimyo_monarchy
 }
 
 1511.9.25 = {
@@ -23,47 +43,25 @@ capital = 107	# Hata
 		birth_date = 1498.1.1
 		death_date = 1541.11.23
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 4
 	}
-}
-	
-1546.5.19 = { 
-	monarch = {
-		name = "Fusafuyu"
-		dynasty = "Ichijo"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+	clear_scripted_personalities = yes
+	add_heir_personality = erudite_personality
+	add_heir_personality = arbitrary_personality
 }
 
-1546.5.19 = {
-	heir = {
+1546.5.19 = { 
+	monarch = {
 		name = "Fusamoto"
-		monarch_name = "Fusamoto"
 		dynasty = "Ichijo"
 		birth_date = 1522.1.1
 		death_date = 1549.5.9
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 6
 	}
-}
-
-1546.5.19 = { 
-	monarch = {
-		name = "Fusamoto"
-		dynasty = "Ichijo"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1546.5.19 = {
 	heir = {
 		name = "Kanesada"
 		monarch_name = "Kanesada"
@@ -71,18 +69,50 @@ capital = 107	# Hata
 		birth_date = 1543.1.1
 		death_date = 1585.7.27
 		claim = 90
-		adm = 3
-		dip = 3
+		adm = 2
+		dip = 1
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = arbitrary_personality
+	add_heir_personality = drunk_personality
+	add_heir_personality = cruel_personality
+	add_heir_personality = profligate_personality
+	government = sengoku_monarchy
 }
 
 1554.3.1 = { 
 	monarch = {
 		name = "Kanesada"
 		dynasty = "Ichijo"
-		adm = 3
-		dip = 3
+		birth_date = 1543.1.1
+		death_date = 1585.7.27
+		adm = 2
+		dip = 1
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = drunk_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = profligate_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Fusaie"
+		dynasty = "Ichijo"
+		birth_date = 1475.1.1
+		adm = 7
+		dip = 6
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

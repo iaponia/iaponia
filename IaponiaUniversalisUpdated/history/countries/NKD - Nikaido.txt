@@ -9,18 +9,17 @@ capital = 543	# Iwase
 	monarch = {
 		name = "Yukimitsu"
 		dynasty = "Nikaido"
+		birth_date = 1430.1.1
+		death_date = 1474.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Yukiaki"
 		monarch_name = "Yukiaki"
 		dynasty = "Nikaido"
-		birth_date = 1424.1.1
+		birth_date = 1451.2.12
 		death_date = 1495.1.1
 		claim = 90
 		adm = 3
@@ -28,42 +27,17 @@ capital = 543	# Iwase
 		mil = 3
 	}
 }
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Yukiaki"
-		dynasty = "Nikaido"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1467.6.15 = {
-	heir = {
+1493.6.9 = { 
+	monarch = {
 		name = "Yukikage"
-		monarch_name = "Yukikage"
 		dynasty = "Nikaido"
 		birth_date = 1464.1.1
 		death_date = 1504.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Yukikage"
-		dynasty = "Nikaido"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Haruyuki"
 		monarch_name = "Haruyuki"
@@ -81,6 +55,8 @@ capital = 543	# Iwase
 	monarch = {
 		name = "Haruyuki"
 		dynasty = "Nikaido"
+		birth_date = 1484.1.1
+		death_date = 1542.7.2
 		adm = 3
 		dip = 3
 		mil = 3
@@ -105,13 +81,12 @@ capital = 543	# Iwase
 	monarch = {
 		name = "Teruyuki"
 		dynasty = "Nikaido"
+		birth_date = 1524.1.1
+		death_date = 1564.10.22
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1546.5.19 = {
 	heir = {
 		name = "Moriyoshi"
 		monarch_name = "Moriyoshi"
@@ -123,26 +98,15 @@ capital = 543	# Iwase
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1569.10.10 = { 
 	monarch = {
 		name = "Moriyoshi"
 		dynasty = "Nikaido"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = {
-	heir = {
-		name = "Yukichika"
-		monarch_name = "Yukichika"
-		dynasty = "Nikaido"
-		birth_date = 1570.1.1
-		death_date = 1582.1.1
-		claim = 90
+		birth_date = 1544.1.1
+		death_date = 1581.9.23
 		adm = 3
 		dip = 3
 		mil = 3
@@ -153,8 +117,11 @@ capital = 543	# Iwase
 	monarch = {
 		name = "Yukichika"
 		dynasty = "Nikaido"
+		birth_date = 1570.1.1
+		death_date = 1582.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = late_sengoku_monarchy
 }

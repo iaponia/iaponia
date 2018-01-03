@@ -7,39 +7,14 @@ capital = 122	# Mino
 	
 1493.6.9 = { 
 	monarch = {
-		name = "Kanetaka"
-		dynasty = "Masuta"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
 		name = "Sadakane"
-		monarch_name = "Sadakane"
 		dynasty = "Masuta"
 		birth_date = 1460.1.1
 		death_date = 1526.9.6
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1493.6.9 = { 
-	monarch = {
-		name = "Sadakane"
-		dynasty = "Masuta"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Munekane"
 		monarch_name = "Munekane"
@@ -57,6 +32,8 @@ capital = 122	# Mino
 	monarch = {
 		name = "Munekane"
 		dynasty = "Masuta"
+		birth_date = 1490.1.1
+		death_date = 1544.2.12
 		adm = 3
 		dip = 3
 		mil = 3
@@ -75,12 +52,15 @@ capital = 122	# Mino
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 	
 1546.5.19 = { 
 	monarch = {
 		name = "Tadakane"
 		dynasty = "Masuta"
+		birth_date = 1520.1.1
+		death_date = 1565.10.6
 		adm = 3
 		dip = 3
 		mil = 3

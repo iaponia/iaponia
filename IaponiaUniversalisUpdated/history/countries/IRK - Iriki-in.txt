@@ -9,13 +9,12 @@ capital = 10	# Satsuma
 	monarch = {
 		name = "Shigetoyo"
 		dynasty = "Iriki-in"
+		birth_date = 1430.1.1
+		death_date = 1490.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Shigesatsu"
 		monarch_name = "Shigesatsu"
@@ -33,13 +32,12 @@ capital = 10	# Satsuma
 	monarch = {
 		name = "Shigesatsu"
 		dynasty = "Iriki-in"
+		birth_date = 1450.1.1
+		death_date = 1520.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Shigetomo"
 		monarch_name = "Shigetomo"
@@ -57,6 +55,8 @@ capital = 10	# Satsuma
 	monarch = {
 		name = "Shigetomo"
 		dynasty = "Iriki-in"
+		birth_date = 1480.1.1
+		death_date = 1544.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -75,12 +75,15 @@ capital = 10	# Satsuma
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 	
 1546.5.19 = { 
 	monarch = {
 		name = "Shigetsugu"
 		dynasty = "Iriki-in"
+		birth_date = 1530.1.1
+		death_date = 1600.1.1
 		adm = 3
 		dip = 3
 		mil = 3

@@ -5,17 +5,18 @@ religion = shinto
 technology_group = togoku
 capital = 352 # Ano
 	
-1493.6.9 = { 
+1467.6.15 = { 
 	monarch = {
 		name = "Fujinao"
 		dynasty = "Nagano"
+		birth_date = 1450.1.1
+		death_date = 1514.12.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
+	
+1493.6.9 = { 
 	heir = {
 		name = "Michihisa"
 		monarch_name = "Michihisa"
@@ -33,13 +34,12 @@ capital = 352 # Ano
 	monarch = {
 		name = "Michihisa"
 		dynasty = "Nagano"
+		birth_date = 1478.1.1
+		death_date = 1530.6.30
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1523.8.25 = {
 	heir = {
 		name = "Tanefuji"
 		monarch_name = "Tanefuji"
@@ -51,12 +51,15 @@ capital = 352 # Ano
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 	
 1536.4.7 = { 
 	monarch = {
 		name = "Tanefuji"
 		dynasty = "Nagano"
+		birth_date = 1504.1.1
+		death_date = 1562.6.6
 		adm = 3
 		dip = 3
 		mil = 3

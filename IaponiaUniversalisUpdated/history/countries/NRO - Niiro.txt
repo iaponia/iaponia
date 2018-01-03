@@ -7,56 +7,10 @@ capital = 635	# Minami-Morokata
 
 1467.6.15 = {
 	monarch = {
-		name = "Tadaomi"
-		dynasty = "Niiro"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
-		name = "Tadaharu"
-		monarch_name = "Tadaharu"
-		dynasty = "Niiro"
-		birth_date = 1420.1.1
-		death_date = 1455.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	monarch = {
-		name = "Tadaharu"
-		dynasty = "Niiro"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Tadatsugu"
-		monarch_name = "Tadatsugu"
 		dynasty = "Niiro"
 		birth_date = 1445.1.1
 		death_date = 1490.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	monarch = {
-		name = "Tadatsugu"
-		dynasty = "Niiro"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -67,13 +21,12 @@ capital = 635	# Minami-Morokata
 	monarch = {
 		name = "Tadatake"
 		dynasty = "Niiro"
+		birth_date = 1470.1.1
+		death_date = 1510.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Tadakatsu"
 		monarch_name = "Tadakatsu"
@@ -91,8 +44,46 @@ capital = 635	# Minami-Morokata
 	monarch = {
 		name = "Tadakatsu"
 		dynasty = "Niiro"
+		birth_date = 1490.1.1
+		death_date = 1540.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+}
+
+1546.5.19 = {
+	monarch = {
+		name = "Tadamoto"
+		dynasty = "Niiro"
+		birth_date = 1526.2.1
+		death_date = 1611.1.16
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = artistic_personality
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Tadamoto"
+		dynasty = "Niiro"
+		birth_date = 1526.2.1
+		adm = 6
+		dip = 5
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

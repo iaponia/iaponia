@@ -5,13 +5,28 @@ religion = shinto
 technology_group = togoku
 capital = 393	# Niikawa
 	
-1523.8.25 = { 
+1493.6.9 = { 
 	monarch = {
-		name = "Nagamoto"
+		name = "Yoshimune"
 		dynasty = "Jinbo"
+		birth_date = 1472.1.1
+		death_date = 1521.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+}
+	
+1523.8.25 = { 
+	monarch = {
+		name = "Nagamoto"
+		dynasty = "Jinbo"
+		birth_date = 1503.1.1
+		death_date = 1572.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = sengoku_monarchy
 }
 

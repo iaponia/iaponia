@@ -9,6 +9,8 @@ capital = 569	# Yuri
 	monarch = {
 		name = "Tomotaka"
 		dynasty = "Nikaho"
+		birth_date = 1450.1.1
+		death_date = 1520.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -33,6 +35,8 @@ capital = 569	# Yuri
 	monarch = {
 		name = "Takamasa"
 		dynasty = "Nikaho"
+		birth_date = 1480.1.1
+		death_date = 1546.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -57,10 +61,13 @@ capital = 569	# Yuri
 	monarch = {
 		name = "Akishige"
 		dynasty = "Nikaho"
+		birth_date = 1520.1.1
+		death_date = 1576.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1554.3.1 = {
@@ -79,66 +86,23 @@ capital = 569	# Yuri
 
 1582.6.21 = { 
 	monarch = {
-		name = "Yasushige"
-		dynasty = "Nikaho"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = { 
-	monarch = {
 		name = "Harushige"
-		dynasty = "Nikaho"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = {
-	heir = {
-		name = "Shigekatsu"
-		monarch_name = "Shigekatsu"
 		dynasty = "Nikaho"
 		birth_date = 1568.1.1
 		death_date = 1591.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = late_sengoku_monarchy
 }
 
 1600.9.13 = { 
 	monarch = {
-		name = "Shigekatsu"
-		dynasty = "Nikaho"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1600.9.13 = {
-	heir = {
 		name = "Kiyoshige"
-		monarch_name = "Kiyoshige"
 		dynasty = "Nikaho"
 		birth_date = 1561.1.1
 		death_date = 1624.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1600.9.13 = { 
-	monarch = {
-		name = "Kiyoshige"
-		dynasty = "Nikaho"
 		adm = 3
 		dip = 3
 		mil = 3

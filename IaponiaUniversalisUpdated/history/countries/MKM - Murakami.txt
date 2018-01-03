@@ -3,44 +3,18 @@ government_rank = 1
 primary_culture = shinano_c
 religion = shinto
 technology_group = togoku
-historical_rival = TKD
 capital = 441	# Chiisagata
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Kunikiyo"
-		dynasty = "Murakami"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Masakiyo"
-		monarch_name = "Masakiyo"
 		dynasty = "Murakami"
 		birth_date = 1430.1.1
 		death_date = 1477.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Masakiyo"
-		dynasty = "Murakami"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Masakuni"
 		monarch_name = "Masakuni"
@@ -56,32 +30,10 @@ capital = 441	# Chiisagata
 
 1493.6.9 = { 
 	monarch = {
-		name = "Masakuni"
-		dynasty = "Murakami"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
 		name = "Akikuni"
-		monarch_name = "Akikuni"
 		dynasty = "Murakami"
 		birth_date = 1480.1.1
 		death_date = 1520.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = { 
-	monarch = {
-		name = "Akikuni"
-		dynasty = "Murakami"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -96,18 +48,49 @@ capital = 441	# Chiisagata
 		birth_date = 1501.3.29
 		death_date = 1573.2.3
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = strong_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = xenophilic_personality
+	add_heir_personality = innovator_personality
 }
 
 1523.8.25 = { 
 	monarch = {
 		name = "Yoshikiyo"
 		dynasty = "Murakami"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1501.3.29
+		death_date = 1573.2.3
+		adm = 4
+		dip = 4
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = xenophilic_personality
+	add_ruler_personality = innovator_personality
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshikiyo"
+		dynasty = "Murakami"
+		birth_date = 1501.3.29
+		adm = 4
+		dip = 4
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = xenophilic_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

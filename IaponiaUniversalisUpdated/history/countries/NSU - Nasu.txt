@@ -9,13 +9,12 @@ capital = 489	# Nasu
 	monarch = {
 		name = "Sukemochi"
 		dynasty = "Nasu"
+		birth_date = 1389.1.1
+		death_date = 1467.10.11
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Sukezane"
 		monarch_name = "Sukezane"
@@ -33,13 +32,12 @@ capital = 489	# Nasu
 	monarch = {
 		name = "Sukezane"
 		dynasty = "Nasu"
+		birth_date = 1430.1.1
+		death_date = 1500.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Sukefusa"
 		monarch_name = "Sukefusa"
@@ -57,13 +55,12 @@ capital = 489	# Nasu
 	monarch = {
 		name = "Sukefusa"
 		dynasty = "Nasu"
+		birth_date = 1465.1.1
+		death_date = 1552.11.30
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Masasuke"
 		monarch_name = "Masasuke"
@@ -75,19 +72,19 @@ capital = 489	# Nasu
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1546.5.19 = { 
 	monarch = {
 		name = "Masasuke"
 		dynasty = "Nasu"
+		birth_date = 1495.1.1
+		death_date = 1546.8.19
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1546.5.19 = {
 	heir = {
 		name = "Takasuke"
 		monarch_name = "Takasuke"
@@ -101,34 +98,12 @@ capital = 489	# Nasu
 	}
 }
 
-1546.5.19 = { 
-	monarch = {
-		name = "Takasuke"
-		dynasty = "Nasu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1546.5.19 = {
-	heir = {
-		name = "Suketane"
-		monarch_name = "Suketane"
-		dynasty = "Nasu"
-		birth_date = 1540.1.1
-		death_date = 1583.4.3
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
 1554.3.1 = { 
 	monarch = {
 		name = "Suketane"
 		dynasty = "Nasu"
+		birth_date = 1540.1.1
+		death_date = 1583.4.3
 		adm = 3
 		dip = 3
 		mil = 3
@@ -153,8 +128,30 @@ capital = 489	# Nasu
 	monarch = {
 		name = "Sukeharu"
 		dynasty = "Nasu"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1557.1.1
+		death_date = 1610.8.7
+		adm = 4
+		dip = 5
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = strong_personality
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Sukeharu"
+		dynasty = "Nasu"
+		birth_date = 1557.1.1
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = strong_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

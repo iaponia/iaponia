@@ -4,3 +4,36 @@ primary_culture = kii_c
 religion = shinto
 technology_group = saigoku
 capital = 238	# Naga
+
+1523.8.25 = {
+	monarch = {
+		name = "Kazunaga"
+		dynasty = "Tsuda"
+		birth_date = 1499.1.1
+		death_date = 1568.1.22
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+	government = sengoku_monarch
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = cynical_personality
+}
+
+1569.10.10 = {
+	monarch = {
+		name = "Kazumasa"
+		dynasty = "Tsuda"
+		birth_date = 1515.1.1
+		death_date = 1585.4.22
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = cynical_personality
+}

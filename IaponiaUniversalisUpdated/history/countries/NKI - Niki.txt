@@ -1,4 +1,4 @@
-government = kokujin_monarchy
+government = shugo_monarchy
 government_rank = 2
 primary_culture = iga_c
 religion = shinto
@@ -9,13 +9,12 @@ capital = 326	# Ahai
 	monarch = {
 		name = "Shigemasa"
 		dynasty = "Niki"
+		birth_date = 1410.1.1
+		death_date = 1487.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Sadanaga"
 		monarch_name = "Sadanaga"
@@ -23,16 +22,6 @@ capital = 326	# Ahai
 		birth_date = 1430.1.1
 		death_date = 1487.1.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = { 
-	monarch = {
-		name = "Sadanaga"
-		dynasty = "Niki"
 		adm = 3
 		dip = 3
 		mil = 3

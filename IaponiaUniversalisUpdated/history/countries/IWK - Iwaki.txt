@@ -7,39 +7,14 @@ capital = 545	# Iwaki
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Takatada"
-		dynasty = "Iwaki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Chikataka"
-		monarch_name = "Chikataka"
 		dynasty = "Iwaki"
 		birth_date = 1427.1.1
 		death_date = 1480.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Chikataka"
-		dynasty = "Iwaki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Tsunetaka"
 		monarch_name = "Tsunetaka"
@@ -57,13 +32,12 @@ capital = 545	# Iwaki
 	monarch = {
 		name = "Tsunetaka"
 		dynasty = "Iwaki"
+		birth_date = 1457.1.1
+		death_date = 1511.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Yoshitaka"
 		monarch_name = "Yoshitaka"
@@ -81,6 +55,8 @@ capital = 545	# Iwaki
 	monarch = {
 		name = "Yoshitaka"
 		dynasty = "Iwaki"
+		birth_date = 1487.1.1
+		death_date = 1542.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -91,23 +67,25 @@ capital = 545	# Iwaki
 	monarch = {
 		name = "Shigetaka"
 		dynasty = "Iwaki"
+		birth_date = 1500.1.1
+		death_date = 1569.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1569.10.10 = { 
 	monarch = {
 		name = "Chikataka"
 		dynasty = "Iwaki"
+		birth_date = 1540.1.1
+		death_date = 1594.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1569.10.10 = {
 	heir = {
 		name = "Tsunetaka"
 		monarch_name = "Tsunetaka"
@@ -125,6 +103,8 @@ capital = 545	# Iwaki
 	monarch = {
 		name = "Tsunetaka"
 		dynasty = "Iwaki"
+		birth_date = 1567.1.1
+		death_date = 1590.8.21
 		adm = 3
 		dip = 3
 		mil = 3
@@ -135,8 +115,11 @@ capital = 545	# Iwaki
 	monarch = {
 		name = "Sadataka"
 		dynasty = "Iwaki"
+		birth_date = 1583.1.1
+		death_date = 1620.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = late_sengoku_monarchy
 }

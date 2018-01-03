@@ -4,18 +4,21 @@ primary_culture = bizen_c
 religion = shinto
 technology_group = saigoku
 capital = 211	# Mino
-	
-1546.5.19 = { 
+
+1511.9.25 = {
 	monarch = {
-		name = "Mototeru"
+		name = "Motomori"
 		dynasty = "Matsuda"
+		birth_date = 1500.1.1
+		death_date = 1559.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
-
-1546.5.19 = {
+	
+1546.5.19 = { 
 	heir = {
 		name = "Motokata"
 		monarch_name = "Motokata"
@@ -23,16 +26,6 @@ capital = 211	# Mino
 		birth_date = 1520.1.1
 		death_date = 1568.7.31
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1569.10.10 = { 
-	monarch = {
-		name = "Motokata"
-		dynasty = "Matsuda"
 		adm = 3
 		dip = 3
 		mil = 3

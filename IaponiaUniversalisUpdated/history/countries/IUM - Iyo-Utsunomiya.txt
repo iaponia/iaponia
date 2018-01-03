@@ -9,6 +9,8 @@ capital = 96	# Kita
 	monarch = {
 		name = "Nobutsuna"
 		dynasty = "Iyo-Utsunomiya"
+		birth_date = 1570.1.1
+		death_date = 1510.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -33,13 +35,12 @@ capital = 96	# Kita
 	monarch = {
 		name = "Kiyotsuna"
 		dynasty = "Iyo-Utsunomiya"
+		birth_date = 1500.1.1
+		death_date = 1530.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1523.8.25 = {
 	heir = {
 		name = "Toyotsuna"
 		monarch_name = "Toyotsuna"
@@ -51,12 +52,15 @@ capital = 96	# Kita
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 	
 1536.4.7 = { 
 	monarch = {
 		name = "Toyotsuna"
 		dynasty = "Iyo-Utsunomiya"
+		birth_date = 1519.1.1
+		death_date = 1585.1.1
 		adm = 3
 		dip = 3
 		mil = 3

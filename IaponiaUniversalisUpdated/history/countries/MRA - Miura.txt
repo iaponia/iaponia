@@ -7,32 +7,10 @@ capital = 221	# Mashima
 
 1493.6.9 = {
 	monarch = {
-		name = "Sadatsura"
-		dynasty = "Miura"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
 		name = "Sadakuni"
-		monarch_name = "Sadakuni"
 		dynasty = "Miura"
-		birth_date = 1480.1.1
+		birth_date = 1460.1.1
 		death_date = 1532.7.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
-	monarch = {
-		name = "Sadakuni"
-		dynasty = "Miura"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -57,13 +35,12 @@ capital = 221	# Mashima
 	monarch = {
 		name = "Sadahisa"
 		dynasty = "Miura"
+		birth_date = 1510.1.1
+		death_date = 1548.10.17
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1536.4.7 = {
 	heir = {
 		name = "Sadahiro"
 		monarch_name = "Sadahiro"
@@ -75,12 +52,15 @@ capital = 221	# Mashima
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1554.3.1 = {
 	monarch = {
 		name = "Sadahiro"
 		dynasty = "Miura"
+		birth_date = 1535.1.1
+		death_date = 1582.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -91,30 +71,8 @@ capital = 221	# Mashima
 	monarch = {
 		name = "Sadakatsu"
 		dynasty = "Miura"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1569.10.10 = {
-	heir = {
-		name = "Dojumaru"
-		monarch_name = "Dojumaru"
-		dynasty = "Miura"
-		birth_date = 1561.1.1
-		death_date = 1584.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1569.10.10 = {
-	monarch = {
-		name = "Dojumaru"
-		dynasty = "Miura"
+		birth_date = 1544.1.1
+		death_date = 1566.1.6
 		adm = 3
 		dip = 3
 		mil = 3

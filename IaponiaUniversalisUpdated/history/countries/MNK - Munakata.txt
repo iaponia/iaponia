@@ -4,69 +4,24 @@ primary_culture = chikuzen_c
 religion = shinto
 technology_group = kyushu
 capital = 67	# Munakata
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Ujihiro"
-		dynasty = "Munakata"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Ujimasa"
-		dynasty = "Munakata"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 
-1467.6.15 = {
-	heir = {
+1467.6.15 = { 
+	monarch = {
 		name = "Ujisato"
-		monarch_name = "Ujisato"
 		dynasty = "Munakata"
 		birth_date = 1432.1.1
 		death_date = 1478.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = { 
-	monarch = {
-		name = "Ujisato"
-		dynasty = "Munakata"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Ujikuni"
 		monarch_name = "Ujikuni"
 		dynasty = "Munakata"
 		birth_date = 1450.1.1
-		death_date = 1504.11.1
+		death_date = 1490.11.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = { 
-	monarch = {
-		name = "Ujikuni"
-		dynasty = "Munakata"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -77,19 +32,18 @@ capital = 67	# Munakata
 	monarch = {
 		name = "Ujisada"
 		dynasty = "Munakata"
+		birth_date = 1470.1.1
+		death_date = 1510.11.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Okiuji"
 		monarch_name = "Okiuji"
 		dynasty = "Munakata"
-		birth_date = 1480.1.1
-		death_date = 1511.8.1
+		birth_date = 1490.1.1
+		death_date = 1530.8.1
 		claim = 90
 		adm = 3
 		dip = 3
@@ -97,74 +51,12 @@ capital = 67	# Munakata
 	}
 }
 
-1493.6.9 = { 
-	monarch = {
-		name = "Okiuji"
-		dynasty = "Munakata"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
 1511.9.25 = { 
 	monarch = {
-		name = "Ujikuni"
-		dynasty = "Munakata"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Okiuji"
-		dynasty = "Munakata"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Ujikuni"
-		dynasty = "Munakata"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Okiuji"
-		dynasty = "Munakata"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
-	heir = {
 		name = "Masauji"
-		monarch_name = "Masauji"
 		dynasty = "Munakata"
 		birth_date = 1500.1.1
 		death_date = 1547.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Masauji"
-		dynasty = "Munakata"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -175,40 +67,21 @@ capital = 67	# Munakata
 	monarch = {
 		name = "Ujitsugu"
 		dynasty = "Munakata"
+		birth_date = 1504.1.1
+		death_date = 1550.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1554.3.1 = { 
 	monarch = {
-		name = "Ujio"
-		dynasty = "Munakata"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1554.3.1 = {
-	heir = {
 		name = "Ujisada"
-		monarch_name = "Ujisada"
 		dynasty = "Munakata"
 		birth_date = 1545.1.1
 		death_date = 1586.4.22
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1554.3.1 = { 
-	monarch = {
-		name = "Ujisada"
-		dynasty = "Munakata"
 		adm = 3
 		dip = 3
 		mil = 3

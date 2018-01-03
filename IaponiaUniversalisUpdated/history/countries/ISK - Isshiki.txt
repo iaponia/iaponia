@@ -7,27 +7,14 @@ capital = 266	# Kasa
 
 1467.6.15 = {
 	monarch = {
-		name = "Norichika" 
-		dynasty = "Isshiki"
-#		birth_date = 1431.1.1
-#		death_date = 1494.1.1
-		adm = 4
-		dip = 4
-		mil = 4
-		}
-}
-
-1467.6.15 = {
-	monarch = {
 		name = "Yoshinao" 
 		dynasty = "Isshiki"
+		birth_date = 1425.1.1
+		death_date = 1490.1.1
 		adm = 4
 		dip = 4
 		mil = 4
-		}
-}
-
-1467.6.15 = {
+	}
 	heir = {
 		name = "Yoshiharu"
 		monarch_name = "Yoshiharu"
@@ -45,15 +32,12 @@ capital = 266	# Kasa
 	monarch = {
 		name = "Yoshiharu" 
 		dynasty = "Isshiki"
-#		birth_date = 1466.1.1
-#		death_date = 1484.1.1
+		birth_date = 1466.1.1
+		death_date = 1484.1.1
 		adm = 4
 		dip = 4
 		mil = 4
-		}
-}
-
-1493.6.9 = {
+	}
 	heir = {
 		name = "Yoshihide"
 		monarch_name = "Yoshihide"
@@ -67,54 +51,17 @@ capital = 266	# Kasa
 	}
 }
 
-1493.6.9 = {
-	monarch = {
-		name = "Yoshihide" 
-		dynasty = "Isshiki"
-#		birth_date = 1483.1.1
-#		death_date = 1498.6.18
-		adm = 4
-		dip = 4
-		mil = 3
-		}
-}
-
-1511.9.25 = {
-	monarch = {
-		name = "Yoshiari" 
-		dynasty = "Isshiki"
-#		birth_date = 1480.1.1
-#		death_date = 1510.1.1
-		adm = 3
-		dip = 4
-		mil = 4
-		}
-}
-
-1511.9.25 = {
-	heir = {
-		name = "Yoshikiyo"
-		monarch_name = "Yoshikiyo"
-		dynasty = "Isshiki"
-		birth_date = 1505.1.1
-		death_date = 1540.1.11
-		claim = 90
-		adm = 4
-		dip = 4
-		mil = 3
-	}
-}
-
 1511.9.25 = {
 	monarch = {
 		name = "Yoshikiyo" 
 		dynasty = "Isshiki"
-#		birth_date = 1505.1.1
-#		death_date = 1540.1.1
+		birth_date = 1505.1.1
+		death_date = 1540.1.1
 		adm = 4
 		dip = 4
 		mil = 3
-		}
+	}
+	government = shugo_daimyo_monarchy
 }
 
 1523.8.25 = {
@@ -135,15 +82,12 @@ capital = 266	# Kasa
 	monarch = {
 		name = "Yoshiyuki" 
 		dynasty = "Isshiki"
-#		birth_date = 1523.1.1
-#		death_date = 1570.1.1
+		birth_date = 1523.1.1
+		death_date = 1570.1.1
 		adm = 4
 		dip = 4
 		mil = 3
-		}
-} 
-
-1546.5.19 = {
+	}
 	heir = {
 		name = "Yoshimichi"
 		monarch_name = "Yoshimichi"
@@ -155,16 +99,17 @@ capital = 266	# Kasa
 		dip = 4
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1569.10.10 = {
 	monarch = {
 		name = "Yoshimichi" 
 		dynasty = "Isshiki"
-#		birth_date = 1530.1.1
-#		death_date = 1579.1.1
+		birth_date = 1530.1.1
+		death_date = 1579.1.1
 		adm = 3
 		dip = 4
 		mil = 3
-		}
+	}
 }

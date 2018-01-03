@@ -3,13 +3,28 @@ government_rank = 2
 primary_culture = awa_c
 religion = shinto
 technology_group = saigoku
-historical_rival = ODA
 capital = 153	# Itano
 	
 1493.6.9 = { 
 	monarch = {
 		name = "Yukinaga"
 		dynasty = "Miyoshi"
+		birth_date = 1458.1.1
+		death_date = 1520.6.6
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1511.9.25 = {
+	heir = {
+		name = "Motonaga"
+		monarch_name = "Motonaga"
+		dynasty = "Miyoshi"
+		birth_date = 1501.1.1
+		death_date = 1532.7.22
+		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
@@ -20,6 +35,8 @@ capital = 153	# Itano
 	monarch = {
 		name = "Motonaga"
 		dynasty = "Miyoshi"
+		birth_date = 1501.1.1
+		death_date = 1532.7.22
 		adm = 3
 		dip = 3
 		mil = 3
@@ -34,28 +51,61 @@ capital = 153	# Itano
 		birth_date = 1522.3.10
 		death_date = 1564.8.10
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 8
+		dip = 8
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = erudite_personality
+	add_heir_personality = mercantile_personality
+	add_heir_personality = elitist_personality
+	add_heir_personality = ambitious_personality
+	government = sengoku_monarchy
 }
 
 1536.4.7 = { 
 	monarch = {
 		name = "Nagayoshi"
 		dynasty = "Miyoshi"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1522.3.10
+		death_date = 1564.8.10
+		adm = 8
+		dip = 8
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = elitist_personality
+	add_ruler_personality = ambitious_personality
 }
 
 1569.10.10 = { 
 	monarch = {
 		name = "Yoshitsugu"
 		dynasty = "Miyoshi"
+		birth_date = 1549.1.1
+		death_date = 1573.12.10
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Nagayoshi"
+		dynasty = "Miyoshi"
+		birth_date = 1522.3.10
+		adm = 8
+		dip = 8
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = elitist_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

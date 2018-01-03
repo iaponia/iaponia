@@ -7,15 +7,14 @@ capital = 161	# Tosa
 	
 1511.9.25 = { 
 	monarch = {
-		name = "Tomei"
+		name = "Yasuaki"
 		dynasty = "Motoyama"
+		birth_date = 1481.1.1
+		death_date = 1531.2.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Shigemune"
 		monarch_name = "Shigemune"
@@ -33,10 +32,13 @@ capital = 161	# Tosa
 	monarch = {
 		name = "Shigemune"
 		dynasty = "Motoyama"
+		birth_date = 1508.1.1
+		death_date = 1555.2.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1536.4.7 = {
@@ -53,34 +55,12 @@ capital = 161	# Tosa
 	}
 }
 	
-1569.10.10 = {
-	monarch = {
-		name = "Shigetoki"
-		dynasty = "Motoyama"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1569.10.10 = {
-	heir = {
-		name = "Chikashige"
-		monarch_name = "Chikashige"
-		dynasty = "Motoyama"
-		birth_date = 1545.1.1
-		death_date = 1587.1.20
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
 1569.10.10 = { 
 	monarch = {
 		name = "Chikashige"
 		dynasty = "Motoyama"
+		birth_date = 1545.1.1
+		death_date = 1587.1.20
 		adm = 3
 		dip = 3
 		mil = 3

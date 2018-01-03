@@ -4,35 +4,13 @@ primary_culture = sasshu_c
 religion = shinto
 technology_group = kyushu
 capital = 7	# Izaku
-
-1467.6.15 = {
-	heir = {
-		name = "Inuyasumaru"
-		monarch_name = "Inuyasumaru"
-		dynasty = "Shimazu"
-		birth_date = 1442.1.1
-		death_date = 1458.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Inuyasumaru"
-		dynasty = "Shimazu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
 	
 1467.6.15 = { 
 	monarch = {
 		name = "Hisayasu"
 		dynasty = "Shimazu"
+		birth_date = 1441.1.1
+		death_date = 1500.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -57,8 +35,35 @@ capital = 7	# Izaku
 	monarch = {
 		name = "Tadayoshi"
 		dynasty = "Shimazu"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1493.10.14
+		death_date = 1568.12.31
+		adm = 7
+		dip = 7
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = artistic_personality
+	government = shugo_daimyo_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Tadayoshi"
+		dynasty = "Shimazu"
+		birth_date = 1493.10.14
+		death_date = 1568.12.31
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

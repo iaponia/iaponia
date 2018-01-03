@@ -9,13 +9,12 @@ capital = 553	# Kubiki
 	monarch = {
 		name = "Tamekage"
 		dynasty = "Nagao"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1489.1.1
+		death_date = 1543.1.29
+		adm = 6
+		dip = 7
+		mil = 7
 	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Harukage"
 		monarch_name = "Harukage"
@@ -25,8 +24,15 @@ capital = 553	# Kubiki
 		claim = 90
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = dishonorable_personality
+	add_ruler_personality = ambitious_personality
+	add_heir_personality = sickly_personality
+	government = sengoku_monarchy
 }
 	
 1536.4.7 = { 
@@ -35,11 +41,8 @@ capital = 553	# Kubiki
 		dynasty = "Nagao"
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 1
 	}
-}
-
-1536.4.7 = {
 	heir = {
 		name = "Kagetora"
 		monarch_name = "Kagetora"
@@ -47,20 +50,47 @@ capital = 553	# Kubiki
 		birth_date = 1530.2.18
 		death_date = 1578.4.19
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 7
+		dip = 7
+		mil = 8
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = sickly_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = pious_personality
+	add_heir_personality = honorable_personality
+	add_heir_personality = drunk_personality
 }
-
-# Uesugi Kenshin
 	
 1554.3.1 = { 
 	monarch = {
 		name = "Kagetora"
 		dynasty = "Nagao"
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 7
+		dip = 7
+		mil = 8
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = drunk_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Tamekage"
+		dynasty = "Nagao"
+		birth_date = 1489.1.1
+		adm = 6
+		dip = 7
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = dishonorable_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

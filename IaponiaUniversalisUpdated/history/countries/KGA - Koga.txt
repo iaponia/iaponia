@@ -1,4 +1,4 @@
-government = kokujin_monarchy
+government = shugo_monarchy
 government_rank = 3
 primary_culture = shimosa_c
 religion = shinto
@@ -9,13 +9,12 @@ capital = 532	# Sashima
 	monarch = {
 		name = "Shigeuji"
 		dynasty = "Ashikaga"
+		birth_date = 1434.1.1
+		death_date = 1497.10.25
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Masauji"
 		monarch_name = "Masauji"
@@ -33,13 +32,12 @@ capital = 532	# Sashima
 	monarch = {
 		name = "Masauji"
 		dynasty = "Ashikaga"
+		birth_date = 1462.2.6
+		death_date = 1531.8.30
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Takamoto"
 		monarch_name = "Takamoto"
@@ -51,19 +49,19 @@ capital = 532	# Sashima
 		dip = 3
 		mil = 3
 	}
+	government = shugo_daimyo_monarchy
 }
 
 1523.8.25 = { 
 	monarch = {
 		name = "Takamoto"
 		dynasty = "Ashikaga"
+		birth_date = 1485.1.1
+		death_date = 1535.11.3
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1523.8.25 = {
 	heir = {
 		name = "Haruuji"
 		monarch_name = "Haruuji"
@@ -81,10 +79,13 @@ capital = 532	# Sashima
 	monarch = {
 		name = "Haruuji"
 		dynasty = "Ashikaga"
+		birth_date = 1508.1.1
+		death_date = 1560.6.20
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1546.5.19 = {
@@ -105,6 +106,8 @@ capital = 532	# Sashima
 	monarch = {
 		name = "Yoshiuji"
 		dynasty = "Ashikaga"
+		birth_date = 1541.2.10
+		death_date = 1583.2.13
 		adm = 3
 		dip = 3
 		mil = 3

@@ -7,32 +7,10 @@ capital = 594	# Toyoma
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Tomonobu"
-		dynasty = "Kasai"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Naonobu"
-		monarch_name = "Naonobu"
 		dynasty = "Kasai"
 		birth_date = 1430.1.1
 		death_date = 1483.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Naonobu"
-		dynasty = "Kasai"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -43,13 +21,12 @@ capital = 594	# Toyoma
 	monarch = {
 		name = "Masanobu"
 		dynasty = "Kasai"
+		birth_date = 1433.1.1
+		death_date = 1506.5.23
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Harushige"
 		monarch_name = "Harushige"
@@ -67,13 +44,12 @@ capital = 594	# Toyoma
 	monarch = {
 		name = "Harushige"
 		dynasty = "Kasai"
+		birth_date = 1469.1.1
+		death_date = 1534.1.5
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Harutane"
 		monarch_name = "Harutane"
@@ -91,13 +67,12 @@ capital = 594	# Toyoma
 	monarch = {
 		name = "Harutane"
 		dynasty = "Kasai"
+		birth_date = 1497.1.1
+		death_date = 1555.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1536.4.7 = {
 	heir = {
 		name = "Chikanobu"
 		monarch_name = "Chikanobu"
@@ -109,12 +84,15 @@ capital = 594	# Toyoma
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1569.10.10 = { 
 	monarch = {
 		name = "Chikanobu"
 		dynasty = "Kasai"
+		birth_date = 1513.1.1
+		death_date = 1560.5.6
 		adm = 3
 		dip = 3
 		mil = 3
@@ -125,6 +103,8 @@ capital = 594	# Toyoma
 	monarch = {
 		name = "Harunobu"
 		dynasty = "Kasai"
+		birth_date = 1534.1.1
+		death_date = 1591.1.1
 		adm = 3
 		dip = 3
 		mil = 3

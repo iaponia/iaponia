@@ -3,7 +3,6 @@ government_rank = 1
 primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
-historical_rival = IOD
 capital = 370	# Aichi
 
 1493.6.9 = {
@@ -20,88 +19,141 @@ capital = 370	# Aichi
 	monarch = {
 		name = "Nobusada"
 		dynasty = "Oda"
-#		birth_date = 1490.1.1
-#		death_date = 1538.1.1
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1490.1.1
+		death_date = 1538.1.1
+		adm = 5
+		dip = 4
+		mil = 5
 	}
-}
-
-1523.8.25 = {
 	heir = {
 		name = "Nobuhide"
 		monarch_name = "Nobuhide"
 		dynasty = "Oda"
 		birth_date = 1510.1.1
 		death_date = 1551.4.8
-		claim = 80
-		adm = 4
-		dip = 3
-		mil = 4
+		claim = 90
+		adm = 7
+		dip = 6
+		mil = 7
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = architect_personality
+	add_heir_personality = stern_personality
+	add_heir_personality = mercantile_personality
+	add_heir_personality = cunning_personality
+	add_heir_personality = ambitious_personality
+	government = sengoku_monarchy
 }
 
 1536.4.7 = { 
 	monarch = {
 		name = "Nobuhide"
 		dynasty = "Oda"
-#		birth_date = 1510.1.1
-#		death_date = 1551.4.8
-		adm = 4
-		dip = 3
-		mil = 4
+		birth_date = 1510.1.1
+		death_date = 1551.4.8
+		adm = 7
+		dip = 6
+		mil = 7
+		leader = {
+			name = "Nobuhide Oda"
+			type = general
+			fire = 3
+			shock = 3
+			manuever = 2
+			siege = 1
+			death_date = 1551.4.8
+			personality = shrewd_quartermaster_personality
+		}
 	}
-}
-
-1536.4.7 = {
 	heir = {
 		name = "Nobunaga"
 		monarch_name = "Nobunaga"
 		dynasty = "Oda"
 		birth_date = 1534.6.23
 		death_date = 1582.6.21
-		claim = 90
-		adm = 5
-		dip = 5
-		mil = 6
+		claim = 80
+		adm = 8
+		dip = 7
+		mil = 8
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = ambitious_personality
+	add_heir_personality = innovator_personality
+	add_heir_personality = mercantile_personality
+	add_heir_personality = tolerant_personality
+	add_heir_personality = ambitious_personality
 }
 	
 1554.3.1 = { 
 	monarch = {
 		name = "Nobunaga"
 		dynasty = "Oda"
-#		birth_date = 1534.6.23
-#		death_date = 1582.6.21
-		adm = 5
-		dip = 5
-		mil = 6
-	}
-}
-
-1569.10.10 = {
-	heir = {
-		name = "Nobutada"
-		monarch_name = "Nobutada"
-		dynasty = "Oda"
-		birth_date = 1557.1.1
+		birth_date = 1534.6.23
 		death_date = 1582.6.21
-		claim = 90
-		adm = 4
-		dip = 4
-		mil = 4
+		adm = 8
+		dip = 7
+		mil = 8
+		leader = {
+			name = "Nobunaga Oda"
+			type = general
+			fire = 6
+			shock = 3
+			manuever = 6
+			siege = 1
+			death_date = 1582.6.21
+			personality = skilled_marksman_personality
+		}
 	}
-}
-	
-1582.6.21 = { 
-	monarch = {
-		name = "Hidenobu"
-		dynasty = "Oda"
-#		birth_date = 1580.1.1
-#		death_date = 1605.6.24
-		adm = 3
-		dip = 3
-		mil = 2
+	queen = {
+		country_of_origin = STO
+		name = "Kicho"
+		dynasty = "Saito"
+		birth_date = 1533.9.1
+		death_date = 1582.6.21
+		female = yes
+		adm = 6
+		dip = 6
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = ambitious_personality
+	add_queen_personality = cunning_personality
+	leader = {
+		name = "Katsuie Shibata"
+		type = general
+		fire = 0
+		shock = 6
+		manuever = 2
+		siege = 2
+		death_date = 1583.6.14
+		personality = horse_lord_personality
+	}
+	leader = {
+		name = "Hideyoshi Hashiba"
+		type = general
+		fire = 3
+		shock = 3
+		manuever = 6
+		siege = 4
+		death_date = 1598.9.18
+		personality = rapid_mobilizer_personality
+	}
+	leader = {
+		name = "Nagahide Niwa"
+		type = general
+		fire = 2
+		shock = 2
+		manuever = 3
+		siege = 2
+		death_date = 1585.5.15
+		personality = shrewd_quartermaster_personality
 	}
 }

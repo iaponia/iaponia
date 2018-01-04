@@ -7,63 +7,14 @@ capital = 606	# Nukanobu
 	
 1467.6.15 = { 
 	monarch = {
-		name = ""
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
-		name = "Masatsune"
-		monarch_name = "Masatsune"
-		dynasty = "Nanbu"
-		birth_date = 1410.1.1
-		death_date = 1460.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Masatsune"
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Nobunaga"
-		monarch_name = "Nobunaga"
 		dynasty = "Nanbu"
 		birth_date = 1435.1.1
 		death_date = 1490.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Nobunaga"
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Haruyoshi"
 		monarch_name = "Haruyoshi"
@@ -81,6 +32,8 @@ capital = 606	# Nukanobu
 	monarch = {
 		name = "Haruyoshi"
 		dynasty = "Nanbu"
+		birth_date = 1460.1.1
+		death_date = 1520.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -105,28 +58,11 @@ capital = 606	# Nukanobu
 	monarch = {
 		name = "Yoshitsugu"
 		dynasty = "Nanbu"
+		birth_date = 1510.1.1
+		death_date = 1539.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1546.5.19 = { 
-	monarch = {
-		name = "Katsuyoshi"
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1569.10.10 = { 
-	monarch = {
-		name = "Masayoshi"
-		dynasty = "Nanbu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
+	government = sengoku_monarchy
 }

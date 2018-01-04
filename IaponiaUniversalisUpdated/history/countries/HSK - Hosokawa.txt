@@ -3,40 +3,18 @@ government_rank = 5
 primary_culture = sesshu_c
 religion = shinto
 technology_group = saigoku
-historical_rival = YMN
-historical_friend = AKM
-historical_friend = BHY
-historical_friend = BHK
-historical_friend = AHK
 capital = 144	# Utari
-
-1467.6.15 = {
-	heir = {
-		name = "Katsumoto"
-		monarch_name = "Katsumoto"
-		dynasty = "Hosokawa"
-		birth_date = 1430.1.1
-		death_date = 1473.6.6
-		claim = 90
-		adm = 3
-		dip = 4
-		mil = 3
-	}
-}
 
 1467.6.15 = {
 	monarch = {
 		name = "Katsumoto" 
 		dynasty = "Hosokawa"
-#		birth_date = 1430.1.1
-#		death_date = 1473.6.6
-		adm = 3
-		dip = 4
-		mil = 3
+		birth_date = 1430.1.1
+		death_date = 1473.6.6
+		adm = 6
+		dip = 7
+		mil = 6
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Masamoto"
 		monarch_name = "Masamoto"
@@ -44,25 +22,31 @@ capital = 144	# Utari
 		birth_date = 1466.1.1
 		death_date = 1507.8.1
 		claim = 90
-		adm = 2
-		dip = 3
-		mil = 2
+		adm = 5
+		dip = 6
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = elitist_personality
+	add_heir_personality = legislator_personality
+	add_heir_personality = connected_personality
+	add_heir_personality = profligate_personality
+	add_heir_personality = disorganized_personality
 }
 
 1493.6.9 = {
 	monarch = {
 		name = "Masamoto" 
 		dynasty = "Hosokawa"
-#		birth_date = 1466.1.1
-#		death_date = 1507.8.1
-		adm = 2
-		dip = 3
-		mil = 2
+		birth_date = 1466.1.1
+		death_date = 1507.8.1
+		adm = 5
+		dip = 6
+		mil = 5
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Sumiyuki"
 		monarch_name = "Sumiyuki"
@@ -71,62 +55,27 @@ capital = 144	# Utari
 		death_date = 1507.9.7
 		claim = 60
 		adm = 2
-		dip = 2
-		mil = 2
+		dip = 4
+		mil = 3
 	}
-}
-
-1511.9.25 = {
-	heir = {
-		name = "Sumimoto"
-		monarch_name = "Sumimoto"
-		dynasty = "Hosokawa"
-		birth_date = 1489.1.1
-		death_date = 1520.6.24
-		claim = 70
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1511.9.25 = {
-	monarch = {
-		name = "Sumiyuki" 
-		dynasty = "Hosokawa"
-#		birth_date = 1399.1.1
-#		death_date = 1507.9.7
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1511.9.25 = {
-	monarch = {
-		name = "Sumimoto" 
-		dynasty = "Hosokawa"
-#		birth_date = 1489.1.1
-#		death_date = 1520.6.24
-		adm = 2
-		dip = 2
-		mil = 2
-	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = profligate_personality
+	add_ruler_personality = disorganized_personality
+	government = shugo_daimyo_monarchy
 }
 
 1511.9.25 = {
 	monarch = {
 		name = "Takakuni" 
 		dynasty = "Hosokawa"
-#		birth_date = 1484.1.1
-#		death_date = 1531.7.21
+		birth_date = 1484.1.1
+		death_date = 1531.7.21
 		adm = 3
-		dip = 4
-		mil = 4
+		dip = 3
+		mil = 3
 	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Tanekuni"
 		monarch_name = "Tanekuni"
@@ -142,38 +91,15 @@ capital = 144	# Utari
 
 1536.4.7 = {
 	monarch = {
-		name = "Tanekuni" 
-		dynasty = "Hosokawa"
-#		birth_date = 1508.1.1
-#		death_date = 1525.11.8
-		adm = 3
-		dip = 4
-		mil = 4
-	}
-}
-
-1536.4.7 = {
-	monarch = {
-		name = "Takakuni" 
-		dynasty = "Hosokawa"
-#		birth_date = 1484.1.1
-#		death_date = 1531.7.21
-		adm = 3
-		dip = 4
-		mil = 4
-	}
-}
-
-1536.4.7 = {
-	monarch = {
 		name = "Harumoto" 
 		dynasty = "Hosokawa"
-#		birth_date = 1514.1.1
-#		death_date = 1563.3.24
-		adm = 4
-		dip = 4
+		birth_date = 1514.1.1
+		death_date = 1563.3.24
+		adm = 6
+		dip = 5
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1554.3.1 = {
@@ -190,14 +116,71 @@ capital = 144	# Utari
 	}
 }
 
-1554.3.1 = {
+1582.6.21 = {
 	monarch = {
-		name = "Ujitsuna" 
+		name = "Fujitaka" 
 		dynasty = "Hosokawa"
-#		birth_date = 1514.1.1
-#		death_date = 1564.1.4
-		adm = 4
-		dip = 4
-		mil = 3
+		birth_date = 1534.6.3
+		death_date = 1610.10.6
+		adm = 7
+		dip = 7
+		mil = 7
 	}
+	heir = {
+		name = "Tadaoki" 
+		dynasty = "Hosokawa"
+		monarch_name = "Tadaoki"
+		birth_date = 1563.11.28
+		death_date = 1646.1.18
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = strong_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = conscientious_personality
+	add_heir_personality = brave_personality
+	add_heir_personality = tolerant_personality
+	add_heir_personality = honest_personality
+	add_heir_personality = cruel_personality
+	government = late_sengoku_monarchy
+}
+
+1600.9.13 = {
+	monarch = {
+		name = "Tadaoki" 
+		dynasty = "Hosokawa"
+		birth_date = 1563.11.28
+		death_date = 1646.1.18
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = honest_personality
+	add_ruler_personality = cruel_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Fujitaka" 
+		dynasty = "Hosokawa"
+		birth_date = 1534.6.3
+		death_date = 1610.10.6
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = strong_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = immortal_personality
+	government = shugo_daimyo_monarchy
 }

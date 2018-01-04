@@ -3,37 +3,14 @@ government_rank = 1
 primary_culture = hitachi_c
 religion = shinto
 technology_group = togoku
-historical_rival = STK
-capital = 483	# Tsukuba	
+capital = 483	# Tsukuba
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Tomohisa"
-		dynasty = "Oda"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = {
-	heir = {
 		name = "Shigeharu"
-		monarch_name = "Shigeharu"
 		dynasty = "Oda"
 		birth_date = 1449.7.12
 		death_date = 1514.5.15
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Shigeharu"
-		dynasty = "Oda"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -45,10 +22,16 @@ capital = 483	# Tsukuba
 	monarch = {
 		name = "Masaharu"
 		dynasty = "Oda"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1492.1.1
+		death_date = 1548.3.31
+		adm = 5
+		dip = 4
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = humble_personality
+	government = sengoku_monarchy
 }
 	
 1536.4.7 = {
@@ -69,8 +52,26 @@ capital = 483	# Tsukuba
 	monarch = {
 		name = "Ujiharu"
 		dynasty = "Oda"
+		birth_date = 1531.2.24
+		death_date = 1602.11.13
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}	
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Masaharu"
+		dynasty = "Oda"
+		birth_date = 1492.1.1
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = humble_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

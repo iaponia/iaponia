@@ -114,7 +114,7 @@ capital = 412	# Nukata
 		dynasty = "Matsudaira"
 		birth_date = 1543.1.31
 		death_date = 1616.5.22
-		adm = 7
+		adm = 8
 		dip = 8
 		mil = 7
 	}
@@ -130,6 +130,7 @@ capital = 412	# Nukata
 		name = "Kiyoyasu"
 		dynasty = "Matsudaira"
 		birth_date = 1511.9.28
+		death_date = 1535.12.29
 		adm = 7
 		dip = 7
 		mil = 7
@@ -139,6 +140,4 @@ capital = 412	# Nukata
 	add_ruler_personality = architect_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = ambitious_personality
-	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

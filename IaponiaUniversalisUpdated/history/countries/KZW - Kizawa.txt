@@ -9,8 +9,11 @@ capital = 309	# Heguri
 	monarch = {
 		name = "Nagamasa"
 		dynasty = "Kizawa"
+		birth_date = 1493.1.1
+		death_date = 1542.4.2
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }

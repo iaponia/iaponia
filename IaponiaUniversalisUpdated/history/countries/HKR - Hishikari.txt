@@ -9,13 +9,12 @@ capital = 16	# Hishikari
 	monarch = {
 		name = "Ujishige"
 		dynasty = "Hishikari"
+		birth_date = 1415.1.1
+		death_date = 1468.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Tadauji"
 		monarch_name = "Tadauji"
@@ -31,39 +30,14 @@ capital = 16	# Hishikari
 	
 1493.6.9 = { 
 	monarch = {
-		name = "Tadauji"
-		dynasty = "Hishikari"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
 		name = "Shigetoki"
-		monarch_name = "Shigetoki"
 		dynasty = "Hishikari"
 		birth_date = 1455.1.1
 		death_date = 1509.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1493.6.9 = { 
-	monarch = {
-		name = "Shigetoki"
-		dynasty = "Hishikari"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Shigefuku"
 		monarch_name = "Shigefuku"
@@ -81,13 +55,12 @@ capital = 16	# Hishikari
 	monarch = {
 		name = "Shigefuku"
 		dynasty = "Hishikari"
+		birth_date = 1475.1.1
+		death_date = 1529.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Atsukuni"
 		monarch_name = "Atsukuni"
@@ -99,19 +72,19 @@ capital = 16	# Hishikari
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 	
 1536.4.7 = { 
 	monarch = {
 		name = "Atsukuni"
 		dynasty = "Hishikari"
+		birth_date = 1495.1.1
+		death_date = 1550.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1536.4.7 = {
 	heir = {
 		name = "Shigetoyo"
 		monarch_name = "Shigetoyo"
@@ -129,16 +102,8 @@ capital = 16	# Hishikari
 	monarch = {
 		name = "Shigetoyo"
 		dynasty = "Hishikari"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1569.10.10 = { 
-	monarch = {
-		name = "Shigehiro"
-		dynasty = "Hishikari"
+		birth_date = 1520.1.1
+		death_date = 1557.1.1
 		adm = 3
 		dip = 3
 		mil = 3

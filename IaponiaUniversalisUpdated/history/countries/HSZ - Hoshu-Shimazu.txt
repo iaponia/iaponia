@@ -7,22 +7,10 @@ capital = 631	# Minami Naka
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Tokihisa"
-		dynasty = "Shimazu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Tadakado"
-		monarch_name = "Tadakado"
 		dynasty = "Shimazu"
 		birth_date = 1439.1.1
 		death_date = 1492.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
@@ -31,39 +19,14 @@ capital = 631	# Minami Naka
 	
 1493.6.9 = { 
 	monarch = {
-		name = "Tadakado"
-		dynasty = "Shimazu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
 		name = "Tadatomo"
-		monarch_name = "Tadatomo"
 		dynasty = "Shimazu"
 		birth_date = 1492.1.1
 		death_date = 1540.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-	
-1493.6.9 = { 
-	monarch = {
-		name = "Tadatomo"
-		dynasty = "Shimazu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Tadahiro"
 		monarch_name = "Tadahiro"
@@ -76,21 +39,17 @@ capital = 631	# Minami Naka
 		mil = 3
 	}
 }
+
+1523.8.25 = {
+	government = sengoku_monarchy
+}
 	
 1546.5.19 = { 
 	monarch = {
 		name = "Tadahiro"
 		dynasty = "Shimazu"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1554.3.1 = { 
-	monarch = {
-		name = "Tadachika"
-		dynasty = "Shimazu"
+		birth_date = 1482.1.1
+		death_date = 1551.1.1
 		adm = 3
 		dip = 3
 		mil = 3

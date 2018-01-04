@@ -9,10 +9,13 @@ capital = 258	# Taki
 	monarch = {
 		name = "Tanemichi"
 		dynasty = "Hatano"
+		birth_date = 1490.1.1
+		death_date = 1540.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1536.4.7 = {
@@ -33,13 +36,12 @@ capital = 258	# Taki
 	monarch = {
 		name = "Harumichi"
 		dynasty = "Hatano"
+		birth_date = 1525.1.1
+		death_date = 1560.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1546.5.19 = {
 	heir = {
 		name = "Hideharu"
 		monarch_name = "Hideharu"
@@ -57,6 +59,8 @@ capital = 258	# Taki
 	monarch = {
 		name = "Hideharu"
 		dynasty = "Hatano"
+		birth_date = 1545.1.1
+		death_date = 1579.6.25
 		adm = 3
 		dip = 3
 		mil = 3

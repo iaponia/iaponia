@@ -9,13 +9,12 @@ capital = 186	# Kawamura
 	monarch = {
 		name = "Noriyuki"
 		dynasty = "Yamana"
+		birth_date = 1410.1.1
+		death_date = 1473.2.13
 		adm = 3
 		dip = 4
 		mil = 4
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Toyoyuki"
 		monarch_name = "Toyoyuki"
@@ -31,35 +30,13 @@ capital = 186	# Kawamura
 
 1493.6.9 = { 
 	monarch = {
-		name = "Masayuki"
-		dynasty = "Yamana"
-		adm = 3
-		dip = 4
-		mil = 4
-	}
-}
-
-1493.6.9 = { 
-	monarch = {
 		name = "Hisayuki"
 		dynasty = "Yamana"
+		birth_date = 1458.1.1
+		death_date = 1494.9.24
 		adm = 3
 		dip = 4
 		mil = 4
-	}
-}
-
-1511.9.25 = {
-	heir = {
-		name = "Sumiyuki"
-		monarch_name = "Sumiyuki"
-		dynasty = "Yamana"
-		birth_date = 1500.1.1
-		death_date = 1533.1.1
-		claim = 90
-		adm = 2
-		dip = 2
-		mil = 3
 	}
 }
 
@@ -67,8 +44,11 @@ capital = 186	# Kawamura
 	monarch = {
 		name = "Sumiyuki"
 		dynasty = "Yamana"
+		birth_date = 1500.1.1
+		death_date = 1533.1.1
 		adm = 3
 		dip = 4
 		mil = 4
 	}
+	government = shugo_daimyo_monarchy
 }

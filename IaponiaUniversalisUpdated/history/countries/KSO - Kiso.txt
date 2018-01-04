@@ -4,73 +4,13 @@ primary_culture = suwa_c
 religion = shinto
 technology_group = togoku
 capital = 619	# Kiso
-	
+
 1467.6.15 = { 
 	monarch = {
-		name = "Toyokata"
-		dynasty = "Kiso"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
-		name = "Iekata"
-		monarch_name = "Iekata"
-		dynasty = "Kiso"
-		birth_date = 1410.1.1
-		death_date = 1465.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Iekata"
-		dynasty = "Kiso"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Ietoyo"
-		monarch_name = "Ietoyo"
 		dynasty = "Kiso"
 		birth_date = 1435.1.1
 		death_date = 1490.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = { 
-	monarch = {
-		name = "Ietoyo"
-		dynasty = "Kiso"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
-		name = "Yoshimoto"
-		monarch_name = "Yoshimoto"
-		dynasty = "Kiso"
-		birth_date = 1475.1.1
-		death_date = 1504.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
@@ -81,13 +21,12 @@ capital = 619	# Kiso
 	monarch = {
 		name = "Yoshimoto"
 		dynasty = "Kiso"
+		birth_date = 1475.1.1
+		death_date = 1504.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Yoshiari"
 		monarch_name = "Yoshiari"
@@ -105,6 +44,8 @@ capital = 619	# Kiso
 	monarch = {
 		name = "Yoshiari"
 		dynasty = "Kiso"
+		birth_date = 1493.1.1
+		death_date = 1558.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -123,19 +64,19 @@ capital = 619	# Kiso
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1546.5.19 = { 
 	monarch = {
 		name = "Yoshiyasu"
 		dynasty = "Kiso"
+		birth_date = 1514.1.1
+		death_date = 1579.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1546.5.19 = {
 	heir = {
 		name = "Yoshimasa"
 		monarch_name = "Yoshimasa"
@@ -153,13 +94,12 @@ capital = 619	# Kiso
 	monarch = {
 		name = "Yoshimasa"
 		dynasty = "Kiso"
+		birth_date = 1540.1.1
+		death_date = 1595.4.26
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1582.6.21 = {
 	heir = {
 		name = "Yoshitoshi"
 		monarch_name = "Yoshitoshi"
@@ -167,16 +107,6 @@ capital = 619	# Kiso
 		birth_date = 1577.1.1
 		death_date = 1640.1.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1600.9.13 = { 
-	monarch = {
-		name = "Yoshitoshi"
-		dynasty = "Kiso"
 		adm = 3
 		dip = 3
 		mil = 3

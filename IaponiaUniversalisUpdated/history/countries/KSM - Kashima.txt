@@ -7,32 +7,10 @@ capital = 481	# Kashima
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Norimiki"
-		dynasty = "Kashima"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Sanemiki"
-		monarch_name = "Sanemiki"
 		dynasty = "Kashima"
 		birth_date = 1410.1.1
 		death_date = 1486.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Sanemiki"
-		dynasty = "Kashima"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -43,19 +21,18 @@ capital = 481	# Kashima
 	monarch = {
 		name = "Chikamiki"
 		dynasty = "Kashima"
+		birth_date = 1440.1.1
+		death_date = 1510.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Kagemiki"
 		monarch_name = "Kagemiki"
 		dynasty = "Kashima"
-		birth_date = 1480.1.1
-		death_date = 1512.1.1
+		birth_date = 1459.1.1
+		death_date = 1509.1.1
 		claim = 90
 		adm = 3
 		dip = 3
@@ -67,6 +44,8 @@ capital = 481	# Kashima
 	monarch = {
 		name = "Kagemiki"
 		dynasty = "Kashima"
+		birth_date = 1480.1.1
+		death_date = 1512.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -77,23 +56,25 @@ capital = 481	# Kashima
 	monarch = {
 		name = "Yoshimiki"
 		dynasty = "Kashima"
+		birth_date = 1455.1.1
+		death_date = 1524.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1554.3.1 = { 
 	monarch = {
 		name = "Harutoki"
 		dynasty = "Kashima"
+		birth_date = 1522.1.1
+		death_date = 1565.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1554.3.1 = {
 	heir = {
 		name = "Ujimiki"
 		monarch_name = "Ujimiki"
@@ -109,48 +90,10 @@ capital = 481	# Kashima
 
 1569.10.10 = { 
 	monarch = {
-		name = "Ujimiki"
-		dynasty = "Kashima"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1569.10.10 = { 
-	monarch = {
 		name = "Yoshikiyo"
 		dynasty = "Kashima"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = { 
-	monarch = {
-		name = "Kiyohide"
-		dynasty = "Kashima"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = { 
-	monarch = {
-		name = "Michiharu"
-		dynasty = "Kashima"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1600.9.13 = { 
-	monarch = {
-		name = "Kiyohide"
-		dynasty = "Kashima"
+		birth_date = 1544.1.1
+		death_date = 1581.2.13
 		adm = 3
 		dip = 3
 		mil = 3

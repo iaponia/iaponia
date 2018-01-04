@@ -5,18 +5,16 @@ religion = shinto
 technology_group = togoku
 capital = 467	# Unakami
 
-1467.6.15 = { 
-#1456.1.1 = { 
+1467.6.15 = {
 	monarch = {
 		name = "Nobunaga"
 		dynasty = "Takeda"
+		birth_date = 1401.1.1
+		death_date = 1477.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Nobutaka"
 		monarch_name = "Nobutaka"
@@ -29,42 +27,17 @@ capital = 467	# Unakami
 		mil = 3
 	}
 }
-	
+
 1493.6.9 = { 
 	monarch = {
-		name = "Nobutaka"
-		dynasty = "Takeda"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
 		name = "Nobuoki"
-		monarch_name = "Nobuoki"
 		dynasty = "Takeda"
 		birth_date = 1433.1.1
 		death_date = 1511.7.28
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = { 
-	monarch = {
-		name = "Nobuoki"
-		dynasty = "Takeda"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Nobukatsu"
 		monarch_name = "Nobukatsu"
@@ -76,19 +49,19 @@ capital = 467	# Unakami
 		dip = 3
 		mil = 3
 	}
+	government = shugo_daimyo_monarchy
 }
 
 1511.9.25 = { 
 	monarch = {
 		name = "Nobukatsu"
 		dynasty = "Takeda"
+		birth_date = 1482.1.1
+		death_date = 1523.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Nobukiyo"
 		monarch_name = "Nobukiyo"
@@ -106,26 +79,21 @@ capital = 467	# Unakami
 	monarch = {
 		name = "Nobukiyo"
 		dynasty = "Takeda"
+		birth_date = 1505.1.1
+		death_date = 1534.8.10
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1536.4.7 = { 
 	monarch = {
 		name = "Nobutaka"
 		dynasty = "Takeda"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1554.3.1 = { 
-	monarch = {
-		name = "Nobumasa"
-		dynasty = "Takeda"
+		birth_date = 1495.1.1
+		death_date = 1551.9.22
 		adm = 3
 		dip = 3
 		mil = 3

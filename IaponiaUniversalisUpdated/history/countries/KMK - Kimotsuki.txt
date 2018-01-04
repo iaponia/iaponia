@@ -4,73 +4,13 @@ primary_culture = sasshu_c
 religion = shinto
 technology_group = kyushu
 capital = 17	# Kimotsuki
-	
+
 1467.6.15 = { 
 	monarch = {
-		name = "Kanemoto"
-		dynasty = "Kimotsuki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
-		name = "Kanetada"
-		monarch_name = "Kanetada"
-		dynasty = "Kimotsuki"
-		birth_date = 1405.1.1
-		death_date = 1484.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Kanetada"
-		dynasty = "Kimotsuki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Kanetsura"
-		monarch_name = "Kanetsura"
 		dynasty = "Kimotsuki"
 		birth_date = 1425.1.1
 		death_date = 1483.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = { 
-	monarch = {
-		name = "Kanetsura"
-		dynasty = "Kimotsuki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
-		name = "Kanehisa"
-		monarch_name = "Kanehisa"
-		dynasty = "Kimotsuki"
-		birth_date = 1473.1.1
-		death_date = 1523.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
@@ -81,13 +21,12 @@ capital = 17	# Kimotsuki
 	monarch = {
 		name = "Kanehisa"
 		dynasty = "Kimotsuki"
+		birth_date = 1473.1.1
+		death_date = 1523.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Kaneoki"
 		monarch_name = "Kaneoki"
@@ -105,13 +44,12 @@ capital = 17	# Kimotsuki
 	monarch = {
 		name = "Kaneoki"
 		dynasty = "Kimotsuki"
+		birth_date = 1492.1.1
+		death_date = 1533.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1523.8.25 = {
 	heir = {
 		name = "Kanetsugu"
 		monarch_name = "Kanetsugu"
@@ -123,19 +61,19 @@ capital = 17	# Kimotsuki
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1536.4.7 = { 
 	monarch = {
 		name = "Kanetsugu"
 		dynasty = "Kimotsuki"
+		birth_date = 1511.1.1
+		death_date = 1566.12.26
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1536.4.7 = {
 	heir = {
 		name = "Yoshikane"
 		monarch_name = "Yoshikane"
@@ -143,50 +81,6 @@ capital = 17	# Kimotsuki
 		birth_date = 1535.1.1
 		death_date = 1571.1.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1554.3.1 = { 
-	monarch = {
-		name = "Yoshikane"
-		dynasty = "Kimotsuki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = { 
-	monarch = {
-		name = "Kaneaki"
-		dynasty = "Kimotsuki"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = {
-	heir = {
-		name = "Kanemori"
-		monarch_name = "Kanemori"
-		dynasty = "Kimotsuki"
-		birth_date = 1561.1.1
-		death_date = 1600.10.21
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1582.6.21 = { 
-	monarch = {
-		name = "Kanemori"
-		dynasty = "Kimotsuki"
 		adm = 3
 		dip = 3
 		mil = 3

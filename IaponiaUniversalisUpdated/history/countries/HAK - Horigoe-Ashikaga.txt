@@ -3,28 +3,14 @@ government_rank = 4
 primary_culture = sagami_c
 religion = shinto
 technology_group = togoku
-historical_rival = KGA
-historical_rival = OAK
 capital = 434	# Tagata
 	
 1467.6.15 = { 
 	monarch = {
 		name = "Masatomi"
 		dynasty = "Ashikaga"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
-		name = "Chachamaru"
-		monarch_name = "Chachamaru"
-		dynasty = "Ashikaga"
-		birth_date = 1487.1.1
-		death_date = 1498.8.1
-		claim = 90
+		birth_date = 1435.8.6
+		death_date = 1491.5.11
 		adm = 3
 		dip = 3
 		mil = 3
@@ -35,8 +21,10 @@ capital = 434	# Tagata
 	monarch = {
 		name = "Chachamaru"
 		dynasty = "Ashikaga"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1487.1.1
+		death_date = 1498.8.1
+		adm = 1
+		dip = 1
+		mil = 1
 	}
 }

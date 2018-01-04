@@ -7,32 +7,10 @@ capital = 312	# Katsuge
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Tametaka"
-		dynasty = "Hashio"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = {
-	heir = {
 		name = "Tamekuni"
-		monarch_name = "Tamekuni"
 		dynasty = "Hashio"
 		birth_date = 1430.1.1
 		death_date = 1500.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1467.6.15 = { 
-	monarch = {
-		name = "Tamekuni"
-		dynasty = "Hashio"
 		adm = 3
 		dip = 3
 		mil = 3
@@ -41,39 +19,14 @@ capital = 312	# Katsuge
 
 1511.9.25 = { 
 	monarch = {
-		name = "Tametoki"
-		dynasty = "Hashio"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
-	heir = {
 		name = "Tametaka"
-		monarch_name = "Tametaka"
 		dynasty = "Hashio"
 		birth_date = 1480.1.1
 		death_date = 1525.1.1
-		claim = 90
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1511.9.25 = { 
-	monarch = {
-		name = "Tametaka"
-		dynasty = "Hashio"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
 	heir = {
 		name = "Tamemasa"
 		monarch_name = "Tamemasa"
@@ -91,16 +44,21 @@ capital = 312	# Katsuge
 	monarch = {
 		name = "Tamemasa"
 		dynasty = "Hashio"
+		birth_date = 1510.1.1
+		death_date = 1547.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1554.3.1 = { 
 	monarch = {
 		name = "Tametsuna"
 		dynasty = "Hashio"
+		birth_date = 1530.1.1
+		death_date = 1580.1.1
 		adm = 3
 		dip = 3
 		mil = 3

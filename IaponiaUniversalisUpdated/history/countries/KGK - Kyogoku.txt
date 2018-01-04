@@ -3,20 +3,18 @@ government_rank = 3
 primary_culture = biwa_c
 religion = shinto
 technology_group = saigoku
-historical_rival = RKK
 capital = 334	# Inukami
 
 1467.6.15 = {
 	monarch = {
 		name = "Mochikiyo"
 		dynasty = "Kyogoku"
+		birth_date = 1407.1.1
+		death_date = 1470.8.30
 		adm = 3
 		dip = 3
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Magodojimaru"
 		monarch_name = "Magodojimaru"
@@ -24,19 +22,9 @@ capital = 334	# Inukami
 		birth_date = 1466.1.1
 		death_date = 1471.1.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	monarch = {
-		name = "Magodojimaru"
-		dynasty = "Kyogoku"
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 1
+		dip = 1
+		mil = 1
 	}
 }
 
@@ -44,30 +32,21 @@ capital = 334	# Inukami
 	monarch = {
 		name = "Masatsune"
 		dynasty = "Kyogoku"
+		birth_date = 1453.1.1
+		death_date = 1502.2.2
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = shugo_daimyo_monarchy
 }
 
 1511.9.25 = {
 	monarch = {
 		name = "Takakiyo"
 		dynasty = "Kyogoku"
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1493.6.9 = {
-	heir = {
-		name = "Takanobu"
-		monarch_name = "Takanobu"
-		dynasty = "Kyogoku"
-		birth_date = 1490.1.1
-		death_date = 1553.1.1
-		claim = 90
+		birth_date = 1460.1.1
+		death_date = 1538.2.18
 		adm = 3
 		dip = 3
 		mil = 3
@@ -78,6 +57,8 @@ capital = 334	# Inukami
 	monarch = {
 		name = "Takanobu"
 		dynasty = "Kyogoku"
+		birth_date = 1490.1.1
+		death_date = 1530.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -88,6 +69,8 @@ capital = 334	# Inukami
 	monarch = {
 		name = "Takayoshi"
 		dynasty = "Kyogoku"
+		birth_date = 1504.1.1
+		death_date = 1581.2.28
 		adm = 3
 		dip = 3
 		mil = 3
@@ -112,8 +95,11 @@ capital = 334	# Inukami
 	monarch = {
 		name = "Takatsugu"
 		dynasty = "Kyogoku"
+		birth_date = 1563.1.1
+		death_date = 1609.6.4
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+	government = late_sengoku_monarchy
 }

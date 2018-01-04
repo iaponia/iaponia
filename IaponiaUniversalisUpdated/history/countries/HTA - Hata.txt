@@ -7,49 +7,13 @@ capital = 91	# Iki
 
 1467.6.15 = { 
 	monarch = {
-		name = "Hisashi"
-		dynasty = "Hata"
-		adm = 4
-		dip = 4
-		mil = 4
-		}
-	}
-
-1467.6.15 = {
-	heir = {
 		name = "Yasushi"
-		monarch_name = "Yasushi"
 		dynasty = "Hata"
 		birth_date = 1445.1.1
 		death_date = 1500.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1467.6.15 = { 
-	monarch = {
-		name = "Yasushi"
-		dynasty = "Hata"
 		adm = 4
 		dip = 4
 		mil = 4
-		}
-	}
-
-1493.6.9 = {
-	heir = {
-		name = "Tadasu"
-		monarch_name = "Tadasu"
-		dynasty = "Hata"
-		birth_date = 1470.1.1
-		death_date = 1520.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
 	}
 }
 
@@ -57,13 +21,12 @@ capital = 91	# Iki
 	monarch = {
 		name = "Tadasu"
 		dynasty = "Hata"
+		birth_date = 1470.1.1
+		death_date = 1520.1.1
 		adm = 4
 		dip = 4
 		mil = 4
-		}
 	}
-
-1493.6.9 = {
 	heir = {
 		name = "Takashi"
 		monarch_name = "Takashi"
@@ -75,6 +38,7 @@ capital = 91	# Iki
 		dip = 3
 		mil = 3
 	}
+	government = shugo_daimyo_monarchy
 }
 
 1523.8.25 = { 
@@ -84,10 +48,9 @@ capital = 91	# Iki
 		adm = 4
 		dip = 4
 		mil = 4
-		}
+		birth_date = 1490.1.1
+		death_date = 1540.1.1
 	}
-
-1523.8.25 = {
 	heir = {
 		name = "Sakou"
 		monarch_name = "Sakou"
@@ -99,24 +62,29 @@ capital = 91	# Iki
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
 }
 
 1546.5.19 = { 
 	monarch = {
 		name = "Sakou"
 		dynasty = "Hata"
+		birth_date = 1520.1.1
+		death_date = 1547.1.1
 		adm = 4
 		dip = 4
 		mil = 4
-		}
 	}
+}
 
 1554.3.1 = { 
 	monarch = {
 		name = "Chikashi"
 		dynasty = "Hata"
+		birth_date = 1545.1.1
+		death_date = 1590.1.1
 		adm = 4
 		dip = 4
 		mil = 4
-		}
-	}	
+	}
+}	

@@ -2,22 +2,18 @@ government = theocratic_government
 primary_culture = kaga_c
 religion = mahayana
 technology_group = saigoku
-historical_rival = ODA
-historical_rival = ASA
-historical_rival = JNB
 capital = 381	# Nomi
 	
 1467.6.15 = { 
 	monarch = {
 		name = "Rennyo"
 		dynasty = "Honganji"
-		adm = 4
-		dip = 6
+		birth_date = 1415.2.25
+		death_date = 1499.3.25
+		adm = 6
+		dip = 8
 		mil = 2
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Jitsunyo"
 		monarch_name = "Jitsunyo"
@@ -25,9 +21,9 @@ capital = 381	# Nomi
 		birth_date = 1458.9.26
 		death_date = 1525.3.5
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 4
+		mil = 4
 	}
 }
 	
@@ -35,9 +31,11 @@ capital = 381	# Nomi
 	monarch = {
 		name = "Jitsunyo"
 		dynasty = "Honganji"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1458.9.26
+		death_date = 1525.3.5
+		adm = 5
+		dip = 4
+		mil = 4
 	}
 }
 
@@ -45,9 +43,11 @@ capital = 381	# Nomi
 	monarch = {
 		name = "Shonyo"
 		dynasty = "Honganji"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1516.12.23
+		death_date = 1554.9.19
+		adm = 6
+		dip = 6
+		mil = 5
 	}
 }
 
@@ -59,18 +59,47 @@ capital = 381	# Nomi
 		birth_date = 1543.2.20
 		death_date = 1592.12.27
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 7
+		dip = 8
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = innovator_personality
+	add_heir_personality = architect_personality
+	add_heir_personality = gregarious_personality
+	add_heir_personality = zealot_personality
 }
 
 1569.10.10 = { 
 	monarch = {
 		name = "Kennyo"
 		dynasty = "Honganji"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1543.2.20
+		death_date = 1592.12.27
+		adm = 7
+		dip = 8
+		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = zealot_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Kennyo"
+		dynasty = "Honganji"
+		birth_date = 1543.2.20
+		adm = 7
+		dip = 8
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = immortal_personality
 }

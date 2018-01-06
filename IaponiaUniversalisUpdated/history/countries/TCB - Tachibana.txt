@@ -1,6 +1,24 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = chikuzen_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = kyushu
+capital = 59
+
+1600.9.13 = {
+	monarch = {
+		name = "Tachibana"
+		dynasty = "Muneshige"
+		birth_date = 1567.12.18
+		death_date = 1643.11.15
+		adm = 5
+		dip = 5
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = humble_personality
+	government = late_sengoku_monarchy
+}

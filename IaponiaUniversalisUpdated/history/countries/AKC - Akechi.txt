@@ -1,6 +1,34 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = mino_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 683
+
+1582.6.21 = {
+	monarch = {
+		name = "Mitsuhide"
+		dynasty = "Akechi"
+		birth_date = 1528.3.10
+		death_date = 1582.7.2
+		adm = 7
+		dip = 7
+		mil = 7
+		leader = {
+			name = "Nagamasa Azai"
+			type = general
+			fire = 6
+			shock = 4
+			manuever = 6
+			siege = 2
+			death_date = 1582.7.2
+			personality = skilled_marksman_personality
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = ambitious_personality
+	government = late_sengoku_monarchy
+}

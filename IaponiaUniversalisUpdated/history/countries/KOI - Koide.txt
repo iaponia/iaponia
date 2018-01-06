@@ -1,6 +1,19 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = sesshu_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 276
+
+1600.9.13 = {
+	monarch = {
+		name = "Hidemasa"
+		dynasty = "Koide"
+		birth_date = 1539.1.1
+		death_date = 1604.4.21
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	government = late_sengoku_monarchy
+}

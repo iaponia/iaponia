@@ -1,6 +1,39 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = echizen_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 271
+
+1582.6.21 = {
+	monarch = {
+		name = "Nagahide"
+		dynasty = "Niwa"
+		birth_date = 1535.10.16
+		death_date = 1585.5.15
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = frugal_personality
+	add_ruler_personality = humble_personality
+	government = late_sengoku_monarchy
+}
+
+1600.9.13 = {
+	monarch = {
+		name = "Nagashige"
+		dynasty = "Niwa"
+		birth_date = 1571.5.11
+		death_date = 1637.4.30
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = honorable_personality
+}

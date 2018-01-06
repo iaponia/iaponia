@@ -1,6 +1,31 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = esshu_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = togoku
+capital = 393
+
+1523.8.25 = {
+	monarch = {
+		name = "Nagatsune"
+		dynasty = "Shiina"
+		birth_date = 1498.1.1
+		death_date = 1548.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = sengoku_monarchy
+}
+
+1536.4.7 = {
+	monarch = {
+		name = "Yasutane"
+		dynasty = "Shiina"
+		birth_date = 1514.1.1
+		death_date = 1576.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

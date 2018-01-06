@@ -1,6 +1,24 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = biwa_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 334
+
+1600.9.13 = {
+	monarch = {
+		name = "Mitsunari"
+		dynasty = "Ishida"
+		birth_date = 1560.1.1
+		death_date = 1600.11.6
+		adm = 8
+		dip = 6
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = honest_personality
+	government = late_sengoku_monarchy
+}

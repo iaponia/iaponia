@@ -1,6 +1,24 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = echizen_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 388
+
+1582.6.21 = {
+	monarch = {
+		name = "Katsuie"
+		dynasty = "Shibata"
+		birth_date = 1522.1.1
+		death_date = 1583.6.14
+		adm = 5
+		dip = 5
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = proud_personality
+	government = late_sengoku_monarchy
+}

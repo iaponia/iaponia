@@ -1,6 +1,22 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = awa_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 153
+
+1600.9.13 = {
+	monarch = {
+		name = "Iemasa"
+		dynasty = "Hachisuka"
+		birth_date = 1558.1.1
+		death_date = 1639.2.2
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = tolerant_personality
+}

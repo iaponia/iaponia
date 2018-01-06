@@ -1,6 +1,40 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = omi_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku 
+capital = 335
+
+1582.6.21 = {
+	monarch = {
+		name = "Ujisato"
+		dynasty = "Gamo"
+		birth_date = 1556.1.1
+		death_date = 1595.3.17
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = pious_personality
+	government = late_sengoku_monarchy
+}
+
+1600.9.13 = {
+	monarch = {
+		name = "Ujisato"
+		dynasty = "Gamo"
+		birth_date = 1583.1.1
+		death_date = 1612.6.13
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = lenient_personality
+}

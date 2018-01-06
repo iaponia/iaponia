@@ -1,6 +1,60 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = aki_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 129
+
+1467.6.15 = {
+	monarch = {
+		name = "Takahira"
+		dynasty = "Kobayakawa"
+		birth_date = 1452.1.1
+		death_date = 1499.5.26
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1511.9.25 = {
+	monarch = {
+		name = "Okihira"
+		dynasty = "Kobayakawa"
+		birth_date = 1505.1.1
+		death_date = 1527.1.28
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = sengoku_monarchy
+}
+
+1536.4.7 = {
+	monarch = {
+		name = "Masahira"
+		dynasty = "Kobayakawa"
+		birth_date = 1523.1.1
+		death_date = 1543.6.21
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1600.9.13 = {
+	monarch = {
+		name = "Hideaki"
+		dynasty = "Kobayakawa"
+		birth_date = 1577.1.1
+		death_date = 1602.12.1
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = dishonorable_personality
+	add_ruler_personality = proud_personality
+	government = late_sengoku_monarchy
+}

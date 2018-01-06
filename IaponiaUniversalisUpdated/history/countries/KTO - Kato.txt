@@ -1,6 +1,24 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = higo_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = kyushu
+capital = 28
+
+1600.9.13 = {
+	monarch = {
+		name = "Kiyomasa"
+		dynasty = "Kato"
+		birth_date = 1562.7.25
+		death_date = 1611.8.2
+		adm = 5
+		dip = 3
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = cruel_personality
+	government = late_sengoku_monarchy
+}

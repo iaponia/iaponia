@@ -1,6 +1,23 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = echizen_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 271
+
+1600.9.13 = {
+	monarch = {
+		name = "Katsutoshi"
+		dynasty = "Kinoshita"
+		birth_date = 1569.1.1
+		death_date = 1649.9.27
+		adm = 5
+		dip = 4
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = artistic_personality
+	government = late_sengoku_monarchy
+}

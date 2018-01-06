@@ -1,6 +1,19 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = awa_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 153
+
+1582.6.21 = {
+	monarch = {
+		name = "Masayasu"
+		dynasty = "Sogo"
+		birth_date = 1554.1.1
+		death_date = 1587.1.20
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	government = late_sengoku_monarchy
+}

@@ -1,6 +1,24 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = iyo_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 95
+
+1600.9.13 = {
+	monarch = {
+		name = "Takatora"
+		dynasty = "Todo"
+		birth_date = 1556.2.16
+		death_date = 1630.11.9
+		adm = 7
+		dip = 7
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = cynical_personality
+	add_ruler_personality = ambitious_personality
+	government = late_sengoku_monarchy
+}

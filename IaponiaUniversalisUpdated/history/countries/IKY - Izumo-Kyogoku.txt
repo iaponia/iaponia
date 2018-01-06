@@ -1,6 +1,31 @@
-government = kokujin_monarchy
+government = shugo_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = unpaku_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 198
+
+1467.6.15 = {
+	monarch = {
+		name = "Mochikiyo"
+		dynasty = "Kyogoku"
+		birth_date = 1407.1.1
+		death_date = 1470.8.30
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+1493.6.9 = {
+	monarch = {
+		name = "Masatsune"
+		dynasty = "Kyogoku"
+		birth_date = 1453.1.1
+		death_date = 1502.12.2
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	government = shugo_daimyo_monarchy
+}

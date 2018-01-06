@@ -1,6 +1,22 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = hida_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = togoku
+capital = 394
+
+1600.9.13 = {
+	monarch = {
+		name = "Nagachika"
+		dynasty = "Kanamori"
+		birth_date = 1524.1.1
+		death_date = 1608.9.20
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = artistic_personality
+	government = late_sengoku_monarchy
+}

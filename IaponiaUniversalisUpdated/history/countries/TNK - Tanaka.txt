@@ -1,6 +1,24 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = mikawa_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = togoku
+capital = 412
+
+1600.9.13 = {
+	monarch = {
+		name = "Yoshimasa"
+		dynasty = "Tanaka"
+		birth_date = 1548.1.1
+		death_date = 1609.3.23
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = gracious_personality
+	government = late_sengoku_monarchy
+}

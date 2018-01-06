@@ -1,6 +1,18 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = esshu_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = togoku
+capital = 553
+
+1600.9.13 = {
+	monarch = {
+		name = "Hideharu"
+		dynasty = "Hori"
+		birth_date = 1576.1.1
+		death_date = 1606.7.11
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

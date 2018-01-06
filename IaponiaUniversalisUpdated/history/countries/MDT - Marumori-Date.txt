@@ -1,6 +1,23 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = okitama_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = tohoku
+capital = 579
+
+1546.5.19 = {
+	monarch = {
+		name = "Tanemune"
+		dynasty = "Date"
+		birth_date = 1488.1.1
+		death_date = 1565.7.16
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = connected_personality
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = legislator_personality
+	government = sengoku_monarchy
+}

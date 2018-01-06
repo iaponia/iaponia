@@ -1,6 +1,34 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = shimosa_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = togoku
+capital = 525
+
+1493.6.9 = {
+	monarch = {
+		name = "Masatomo"
+		dynasty = "Yuki"
+		birth_date = 1479.1.1
+		death_date = 1547.7.29
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1523.8.25 = {
+	government = sengoku_monarchy
+}
+
+1554.3.1 = {
+	monarch = {
+		name = "Harutomo"
+		dynasty = "Yuki"
+		birth_date = 1533.9.18
+		death_date = 1614.8.25
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,6 +1,43 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = aki_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 132
+
+1467.6.15 = {
+	monarch = {
+		name = "Tsunemoto"
+		dynasty = "Kikkawa"
+		birth_date = 1428.1.1
+		death_date = 1520.1.28
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1523.8.25 = {
+	monarch = {
+		name = "Kunitsune"
+		dynasty = "Kikkawa"
+		birth_date = 1443.1.1
+		death_date = 1531.5.4
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = sengoku_monarchy
+}
+
+1536.4.7 = {
+	monarch = {
+		name = "Okitsune"
+		dynasty = "Kikkawa"
+		birth_date = 1508.1.1
+		death_date = 1550.11.5
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

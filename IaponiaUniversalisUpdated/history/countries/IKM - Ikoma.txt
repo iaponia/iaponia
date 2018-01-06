@@ -1,6 +1,19 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = awa_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 147
+
+1600.9.13 = {
+	monarch = {
+		name = "Chikamasa"
+		dynasty = "Ikoma"
+		birth_date = 1526.1.1
+		death_date = 1603.3.25
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	government = late_sengoku_monarchy
+}

@@ -182,5 +182,5 @@ capital = 144	# Utari
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = immortal_personality
-	government = shugo_daimyo_monarchy
+	government = daimyo_monarchy
 }

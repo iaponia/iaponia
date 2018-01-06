@@ -1,6 +1,24 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = owari_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 367
+
+1600.9.13 = {
+	monarch = {
+		name = "Masanori"
+		dynasty = "Fukushima"
+		birth_date = 1561.1.1
+		death_date = 1624.8.26
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = draconian_personality
+	government = late_sengoku_monarchy
+}

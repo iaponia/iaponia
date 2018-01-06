@@ -1,6 +1,43 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = kozuke_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = togoku
+capital = 495
+
+1467.6.15 = {
+	monarch = {
+		name = "Kagetomo"
+		dynasty = "Numata"
+		birth_date = 1430.1.1
+		death_date = 1490.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1493.6.9 = {
+	monarch = {
+		name = "Kageyo"
+		dynasty = "Numata"
+		birth_date = 1455.1.1
+		death_date = 1515.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1523.8.25 = {
+	monarch = {
+		name = "Akimitsu"
+		dynasty = "Numata"
+		birth_date = 1503.1.1
+		death_date = 1564.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = late_sengoku_monarchy
+}

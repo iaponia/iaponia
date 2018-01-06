@@ -1,6 +1,23 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = seishu_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 346
+
+1582.6.21 = {
+	monarch = {
+		name = "Yoshitaka"
+		dynasty = "Kuki"
+		birth_date = 1542.1.1
+		death_date = 1600.11.17
+		adm = 4
+		dip = 6
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = innovator_personality
+	government = late_sengoku_monarchy
+}

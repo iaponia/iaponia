@@ -1,6 +1,24 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = sesshu_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = saigoku
+capital = 260
+
+1536.4.7 = {
+	monarch = {
+		name = "Murashige"
+		dynasty = "Araki"
+		birth_date = 1535.1.1
+		death_date = 1586.6.20
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = dishonorable_personality
+	government = sengoku_monarchy
+}

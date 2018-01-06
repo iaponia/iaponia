@@ -1,6 +1,24 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = higo_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = kyushu
+capital = 25
+
+1600.9.13 = {
+	monarch = {
+		name = "Yukinaga"
+		dynasty = "Konishi"
+		birth_date = 1555.1.1
+		death_date = 1600.11.6
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = gracious_personality
+	government = late_sengoku_monarchy
+}

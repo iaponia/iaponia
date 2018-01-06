@@ -1,6 +1,68 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = oshu_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = tohoku
+capital = 599
+
+1467.6.15 = {
+	monarch = {
+		name = "Mitsutsuna"
+		dynasty = "Asonuma"
+		birth_date = 1425.1.1
+		death_date = 1475.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1493.6.9 = {
+	monarch = {
+		name = "Morichika"
+		dynasty = "Asonuma"
+		birth_date = 1455.1.1
+		death_date = 1505.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1511.9.25 = {
+	monarch = {
+		name = "Chikasato"
+		dynasty = "Asonuma"
+		birth_date = 1485.1.1
+		death_date = 1535.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1536.4.7 = {
+	monarch = {
+		name = "Chikahiro"
+		dynasty = "Asonuma"
+		birth_date = 1515.1.1
+		death_date = 1573.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = sengoku_monarchy
+}
+
+1582.6.21 = {
+	monarch = {
+		name = "Hirosato"
+		dynasty = "Asonuma"
+		birth_date = 1540.1.1
+		death_date = 1610.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = late_sengoku_monarchy
+}

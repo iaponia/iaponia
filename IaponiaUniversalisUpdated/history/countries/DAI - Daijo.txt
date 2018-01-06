@@ -1,6 +1,55 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = hitachi_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = togoku
+capital = 478
+
+1467.6.15 = {
+	monarch = {
+		name = "Kiyomoto"
+		dynasty = "Daijo"
+		birth_date = 1460.1.1
+		death_date = 1515.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1523.8.25 = {
+	monarch = {
+		name = "Tsunemoto"
+		dynasty = "Daijo"
+		birth_date = 1490.1.1
+		death_date = 1545.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = sengoku_monarchy
+}
+
+1546.5.19 = {
+	monarch = {
+		name = "Norimoto"
+		dynasty = "Daijo"
+		birth_date = 1515.1.1
+		death_date = 1564.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1569.10.10 = {
+	monarch = {
+		name = "Sadakuni"
+		dynasty = "Daijo"
+		birth_date = 1532.1.1
+		death_date = 1578.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

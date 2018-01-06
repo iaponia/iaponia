@@ -1,6 +1,6 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = totomi_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = togoku
+capital = 421

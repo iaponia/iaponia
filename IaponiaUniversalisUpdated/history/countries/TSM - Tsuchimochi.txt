@@ -1,6 +1,55 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = 
+primary_culture = hyuga_c
 religion = shinto
-technology_group = 
-capital = 
+technology_group = kyushu
+capital = 36
+
+1467.6.15 = {
+	monarch = {
+		name = "Tsunetsuna"
+		dynasty = "Tsuchimochi"
+		birth_date = 1440.1.1
+		death_date = 1500.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1511.9.25 = {
+	monarch = {
+		name = "Chikahide"
+		dynasty = "Tsuchimochi"
+		birth_date = 1469.1.1
+		death_date = 1531.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1536.4.7 = {
+	monarch = {
+		name = "Chikasuke"
+		dynasty = "Tsuchimochi"
+		birth_date = 1497.1.1
+		death_date = 1554.1.1
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	government = sengoku_monarchy
+}
+
+1554.3.1 = {
+	monarch = {
+		name = "Chikashige"
+		dynasty = "Tsuchimochi"
+		birth_date = 1523.1.1
+		death_date = 1578.4.10
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+}

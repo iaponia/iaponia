@@ -444,7 +444,7 @@ zeze_area = {
 }
 
 gamo_area = {
-	335 336 337 338
+	335 336 337 338 719
 }
 
 okubiwa_area = {

@@ -20,5 +20,8 @@ base_manpower = 2
 
 trade_goods = sake
 
-
-
+1600.9.13 = {
+	add_core = IKT
+	owner = IKT
+	controller = IKT
+}

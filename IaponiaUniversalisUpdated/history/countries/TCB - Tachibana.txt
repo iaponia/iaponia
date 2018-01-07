@@ -5,10 +5,23 @@ religion = shinto
 technology_group = kyushu
 capital = 59
 
+1523.8.25 = {
+	monarch = {
+		name = "Akitoshi"
+		dynasty = "Tachibana"
+		birth_date = 1521.12.18
+		death_date = 1568.9.5
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = sengoku_monarchy
+}
+
 1600.9.13 = {
 	monarch = {
-		name = "Tachibana"
-		dynasty = "Muneshige"
+		name = "Muneshige"
+		dynasty = "Tachibana"
 		birth_date = 1567.12.18
 		death_date = 1643.11.15
 		adm = 5

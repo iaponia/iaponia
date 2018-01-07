@@ -21,13 +21,18 @@ base_manpower = 1
 
 trade_goods = bamboo
 
-
-1507.1.1 = {
+1493.6.9 = {
     controller = IUM
     owner = IUM
 }
-1568.1.1 = {
+
+1569.10.10 = {
     owner = KNO
     controller = KNO
 }
 
+1600.9.13 = {
+	add_core = TOD
+    controller = TOD
+    owner = TOD
+}

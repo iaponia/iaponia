@@ -6,7 +6,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = BHK
-add_core = IKW
 owner = BHK
 controller = BHK
 
@@ -21,19 +20,26 @@ base_manpower = 2
 
 trade_goods = metal
 
-
-1507.1.1 = {
-    controller = IKW
-    owner = IKW
+1511.9.25 = {
+	add_core = HSK
+    controller = HSK
+    owner = HSK
 }
-1558.1.1 = {
+
+1546.5.19 = {
     add_core = MYI
     owner = MYI
     controller = MYI
 }
-1578.1.1 = {
+
+1582.6.21 = {
     add_core = CSK
     controller = CSK
     owner = CSK
 }
 
+1600.9.13 = {
+    add_core = MRI
+    controller = MRI
+    owner = MRI
+}

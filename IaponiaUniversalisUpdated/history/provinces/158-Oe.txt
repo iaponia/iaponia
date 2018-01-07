@@ -21,9 +21,19 @@ base_manpower = 2
 
 trade_goods = dyes
 
-
-1507.1.1 = {
+1511.9.25 = {
     controller = MYI
     owner = MYI
 }
 
+1582.6.21 = {
+    add_core = SGO
+    controller = SGO
+    owner = SGO
+}
+
+1600.9.13 = {
+	controller = HCH
+    owner = HCH
+	add_core = HCH
+}

@@ -21,18 +21,13 @@ base_manpower = 2
 
 trade_goods = lumber
 
-
-1507.1.1 = {
-    controller = TNO
-    owner = TNO
-}
-1546.1.1 = {
+1493.6.9 = {
     controller = ICJ
     owner = ICJ
 }
-1575.7.17 = {
+
+1582.6.21 = {
     add_core = CSK
     owner = CSK
     controller = CSK
 }
-

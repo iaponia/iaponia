@@ -10,7 +10,7 @@ add_core = SHN
 owner = SHN
 controller = SHN
 
-culture = hizen_c
+culture = saga_c
 religion = shinto
 capital = "Katsuo"
 is_city = yes

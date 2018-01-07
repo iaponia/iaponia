@@ -60,7 +60,7 @@ kitakyushu_c = {
 hichiku_c = {
 	graphical_culture = asiangfx
 
-	higo_c = { #Higo #Kikuchi
+	kikuchi_c = { #Higo #Kikuchi
 		primary = KKC
 		dynasty_names = { Kikuchi Akaboshi Kumabe Jo Kanokogi Nawa Amakusa }
 	}
@@ -68,7 +68,7 @@ hichiku_c = {
 		primary = KAA
 		dynasty_names = { Kamachi Oki Harano Tajiri Monjyujo Nishimuta }
 	}
-	hizen_c = { #Saga
+	saga_c = { #Saga
 		primary = RZJ
 		dynasty_names = { Shoni Ryuzoji Nabeshima Egami Kumashiro Oda Ogawa Baba Narimatsu Naritomi Notomi }
 	}

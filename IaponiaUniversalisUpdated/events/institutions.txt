@@ -259,6 +259,7 @@ country_event = {
 		add_mil_power = 100
 		add_prestige = 20
 		8 = { change_trade_goods = firearms }
+		47 = { change_trade_goods = firearms }
 		94 = { change_trade_goods = firearms }
 		235 = { change_trade_goods = firearms }
 		238 = { change_trade_goods = firearms }
@@ -266,7 +267,6 @@ country_event = {
 		277 = { change_trade_goods = firearms }
 		333 = { change_trade_goods = firearms }
 		485 = { change_trade_goods = firearms }
-		698 = { change_trade_goods = firearms }
 		custom_tooltip = institution_events.5.a.tt
 		FROM = {
 			add_permanent_province_modifier = {

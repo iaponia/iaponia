@@ -5,24 +5,35 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = MTA
-owner = MTA
-controller = MTA
+add_core = HTA
+owner = HTA
+controller = HTA
 
 culture = islander_c
 religion = shinto
-capital = "Imari"
+capital = "Matsuura"
 is_city = yes
 
 base_tax = 5
 base_production = 3
 base_manpower = 3
 
-trade_goods = pottery
+trade_goods = mainland_trade
 
+1569.10.10 = {
+	add_core = MTA
+    controller = MTA
+    owner = MTA
+}
 
-1576.5.6 = {
+1582.6.21 = {
     add_core = RZJ
     controller = RZJ
     owner = RZJ
+}
+
+1600.9.13 = {
+	add_core = MTA
+    controller = MTA
+    owner = MTA
 }

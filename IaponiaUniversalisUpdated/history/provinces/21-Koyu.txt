@@ -21,10 +21,14 @@ base_manpower = 3
 
 trade_goods = lumber
 
-
-1578.11.12 = {
+1582.6.21 = {
     add_core = SMZ
     controller = SMZ
     owner = SMZ
 }
 
+1600.9.13 = {
+	add_core = AKZ
+    controller = AKZ
+    owner = AKZ
+}

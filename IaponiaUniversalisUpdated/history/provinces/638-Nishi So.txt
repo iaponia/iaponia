@@ -5,9 +5,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = OSZ
-owner = OSZ
-controller = OSZ
+add_core = KMK
+owner = KMK
+controller = KMK
 
 culture = sasshu_c
 religion = shinto
@@ -20,10 +20,8 @@ base_manpower = 3
 
 trade_goods = rice
 
-
-1539.3.13 = {
-    add_core = SMZ
+1582.6.21 = {
+	add_core = SMZ
     owner = SMZ
     controller = SMZ
 }
-

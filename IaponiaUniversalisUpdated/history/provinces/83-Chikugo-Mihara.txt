@@ -20,10 +20,14 @@ base_manpower = 2
 
 trade_goods = sake
 
-
-1579.1.1 = {
+1582.6.21 = {
     add_core = RZJ
     controller = RZJ
     owner = RZJ
 }
 
+1600.9.13 = {
+	add_core = KKB
+    controller = KKB
+    owner = KKB
+}

@@ -23,28 +23,20 @@ base_manpower = 4
 
 trade_goods = mainland_trade
 
+1554.3.1 = {
+	add_core = TCB
+    controller = TCB
+    owner = TCB
+}
 
-1469.5.15 = {
-    controller = SHN
-    owner = SHN
-}
-1478.9.16 = {
-    controller = OUC
-    owner = OUC
-}
-1551.9.1 = {
-    add_core = SUE
-    controller = SUE
-    owner = SUE
-}
-1557.7.1 = {
-    add_core = OTM
+1569.10.10 = {
+	add_core = OTM
     controller = OTM
     owner = OTM
 }
-1580.1.1 = {
-    add_core = RZJ
-    controller = RZJ
-    owner = RZJ
-}
 
+1600.9.13 = {
+	add_core = KBY
+    controller = KBY
+    owner = KBY
+}

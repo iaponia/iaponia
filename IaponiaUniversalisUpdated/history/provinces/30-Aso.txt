@@ -19,5 +19,14 @@ base_manpower = 3
 
 trade_goods = pilgrimage_site
 
+1582.6.21 = {
+    add_core = OTM
+    controller = OTM
+    owner = OTM
+}
 
-
+1600.9.13 = {
+	add_core = KTO
+    controller = KTO
+    owner = KTO
+}

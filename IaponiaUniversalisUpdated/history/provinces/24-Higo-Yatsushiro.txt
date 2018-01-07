@@ -19,22 +19,22 @@ base_tax = 5
 base_production = 4
 base_manpower = 3
 
-trade_goods = pottery
+trade_goods = mainland_trade
 
-
-1505.1.1 = {
+1511.9.25 = {
     add_core = SGR
     controller = SGR
     owner = SGR
 }
-1543.1.1 = {
-    add_core = OTM
-    controller = OTM
-    owner = OTM
-}
-1581.1.1 = {
+
+1582.6.21 = {
     add_core = SMZ
     controller = SMZ
     owner = SMZ
 }
 
+1600.9.13 = {
+	add_core = KNH
+    controller = KNH
+    owner = KNH
+}

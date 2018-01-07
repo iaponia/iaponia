@@ -5,9 +5,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = ITO
-owner = ITO
-controller = ITO
+add_core = TSM
+owner = TSM
+controller = TSM
 
 culture = hyuga_c
 religion = shinto
@@ -20,10 +20,14 @@ base_manpower = 1
 
 trade_goods = tea
 
-
-1578.11.12 = {
+1582.6.21 = {
     add_core = SMZ
     controller = SMZ
     owner = SMZ
 }
 
+1600.9.13 = {
+	add_core = AKZ
+    controller = AKZ
+    owner = AKZ
+}

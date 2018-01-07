@@ -21,5 +21,14 @@ base_manpower = 2
 
 trade_goods = tea
 
+1582.6.21 = {
+	add_core = SMZ
+    controller = SMZ
+    owner = SMZ
+}
 
-
+1600.9.13 = {
+	add_core = SGR
+    controller = SGR
+    owner = SGR
+}

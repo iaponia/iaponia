@@ -28,24 +28,20 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-1551.9.1 = {
-    add_core = SUE
-    controller = SUE
-    owner = SUE
-}
-1557.7.1 = {
-    add_core = OTM
-    controller = OTM
-    owner = OTM
-}
-1559.9.1 = {
-    add_core = MRI
+1569.10.10 = {
+	add_core = MRI
     controller = MRI
     owner = MRI
 }
-1580.1.1 = {
-    add_core = RZJ
+
+1582.6.21 = {
+	add_core = RZJ
     controller = RZJ
     owner = RZJ
 }
 
+1600.9.13 = {
+	add_core = MRI
+    controller = MRI
+    owner = MRI
+}

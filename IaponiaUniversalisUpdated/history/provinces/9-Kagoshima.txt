@@ -22,10 +22,8 @@ base_manpower = 3
 
 trade_goods = cloth
 
-
-1539.3.13 = {
-    add_core = SMZ
+1546.5.19 = {
+	add_core = SMZ
     owner = SMZ
     controller = SMZ
 }
-

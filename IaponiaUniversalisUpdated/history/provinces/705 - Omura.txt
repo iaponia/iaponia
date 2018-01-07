@@ -6,9 +6,8 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OMR
-add_core = AIM
-owner = AIM
-controller = AIM
+owner = OMR
+controller = OMR
 
 culture = shimabara_c
 religion = shinto
@@ -21,9 +20,26 @@ base_manpower = 2
 
 trade_goods = lacquerware
 
+1546.5.19 = {
+	owner = AIM
+    controller = AIM
+    add_core = AIM
+}
 
-1547.1.1 = {
+1569.10.10 = {
+	owner = OMR
+    controller = OMR
+    add_core = OMR
+}
+
+1582.6.21 = {
     owner = RZJ
     controller = RZJ
     add_core = RZJ
+}
+
+1600.9.13 = {
+	owner = OMR
+    controller = OMR
+    add_core = OMR
 }

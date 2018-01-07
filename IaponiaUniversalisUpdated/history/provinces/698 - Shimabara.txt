@@ -11,7 +11,7 @@ controller = AIM
 
 culture = shimabara_c
 religion = shinto
-capital = "Shimabara"
+capital = "Hara"
 is_city = yes
 
 base_tax = 4

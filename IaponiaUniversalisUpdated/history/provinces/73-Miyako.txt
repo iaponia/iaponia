@@ -22,20 +22,26 @@ base_manpower = 3
 
 trade_goods = seaweed
 
-
-1551.9.1 = {
-    add_core = SUE
-    controller = SUE
-    owner = SUE
+1554.3.1 = {
+	add_core = AKZ
+    controller = AKZ
+    owner = AKZ
 }
-1557.7.1 = {
-    add_core = OTM
+
+1569.10.10 = {
+	add_core = OTM
     controller = OTM
     owner = OTM
 }
-1580.1.1 = {
-    add_core = RZJ
+
+1582.6.21 = {
+	add_core = RZJ
     controller = RZJ
     owner = RZJ
 }
 
+1600.9.13 = {
+	add_core = KRD
+    controller = KRD
+    owner = KRD
+}

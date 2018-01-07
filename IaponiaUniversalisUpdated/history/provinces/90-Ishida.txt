@@ -20,15 +20,14 @@ base_manpower = 2
 
 trade_goods = seaweed
 
-
-1563.1.1 = {
-    add_core = MTA
-    controller = MTA
-    owner = MTA
-}
-1576.5.6 = {
+1582.6.21 = {
     add_core = RZJ
     controller = RZJ
     owner = RZJ
 }
 
+1600.9.13 = {
+	add_core = MTA
+    controller = MTA
+    owner = MTA
+}

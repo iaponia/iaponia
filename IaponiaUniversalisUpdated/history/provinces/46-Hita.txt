@@ -20,5 +20,8 @@ base_manpower = 3
 
 trade_goods = lumber
 
-
-
+1600.9.13 = {
+	add_core = KRD
+    controller = KRD
+    owner = KRD
+}

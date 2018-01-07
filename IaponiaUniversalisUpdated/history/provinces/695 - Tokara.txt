@@ -20,5 +20,8 @@ base_manpower = 1
 
 trade_goods = horses
 
-
-
+1569.10.10 = {
+    add_core = SMZ
+    owner = SMZ
+    controller = SMZ
+}

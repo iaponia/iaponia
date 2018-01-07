@@ -10,7 +10,7 @@ add_core = KKC
 owner = KKC
 controller = KKC
 
-culture = kikuchi_c
+culture = higo_c
 religion = shinto
 capital = "Otsuyama"
 is_city = yes
@@ -21,15 +21,20 @@ base_manpower = 4
 
 trade_goods = pottery
 
-
-1543.1.1 = {
+1554.3.1 = {
     add_core = OTM
     controller = OTM
     owner = OTM
 }
-1581.1.1 = {
+
+1582.6.21 = {
     add_core = RZJ
     controller = RZJ
     owner = RZJ
 }
 
+1600.9.13 = {
+	add_core = KTO
+    controller = KTO
+    owner = KTO
+}

@@ -9,7 +9,7 @@ add_core = SHN
 owner = SHN
 controller = SHN
 
-culture = saga_c
+culture = hizen_c
 religion = shinto
 capital = "Tsukazaki"
 is_city = yes
@@ -20,11 +20,16 @@ base_manpower = 3
 
 trade_goods = pottery
 
-
-1547.1.1 = {
+1554.3.1 = {
     owner = RZJ
     controller = RZJ
     add_core = RZJ
+}
+
+1600.9.13 = {
+	owner = NBS
+    controller = NBS
+    add_core = NBS
 }
 
 marketplace = yes

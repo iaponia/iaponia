@@ -25,9 +25,14 @@ add_permanent_province_modifier = {
 
 trade_goods = mainland_trade
 
-
-1576.5.6 = {
+1582.6.21 = {
     add_core = RZJ
     controller = RZJ
     owner = RZJ
+}
+
+1600.9.13 = {
+	add_core = MTA
+    controller = MTA
+    owner = MTA
 }

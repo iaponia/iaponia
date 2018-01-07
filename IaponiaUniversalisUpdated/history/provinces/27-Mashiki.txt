@@ -5,11 +5,11 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = KKC
-owner = KKC
-controller = KKC
+add_core = ASO
+owner = ASO
+controller = ASO
 
-culture = kikuchi_c
+culture = aso_c
 religion = shinto
 capital = "Katashida"
 is_city = yes
@@ -20,14 +20,14 @@ base_manpower = 2
 
 trade_goods = horses
 
-
-1543.1.1 = {
+1582.6.21 = {
     add_core = OTM
     controller = OTM
     owner = OTM
 }
-1581.1.1 = {
-    add_core = RZJ
-    controller = RZJ
-    owner = RZJ
+
+1600.9.13 = {
+	add_core = KNH
+    controller = KNH
+    owner = KNH
 }

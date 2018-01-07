@@ -20,10 +20,8 @@ base_manpower = 3
 
 trade_goods = lumber
 
-
-1557.1.1 = {
+1569.10.10 = {
     add_core = SMZ
     owner = SMZ
     controller = SMZ
 }
-

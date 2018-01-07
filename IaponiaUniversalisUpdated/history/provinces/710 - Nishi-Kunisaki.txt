@@ -19,3 +19,9 @@ base_production = 2
 base_manpower = 2
 
 trade_goods = bamboo
+
+1600.9.13 = {
+	add_core = KRD
+    controller = KRD
+    owner = KRD
+}

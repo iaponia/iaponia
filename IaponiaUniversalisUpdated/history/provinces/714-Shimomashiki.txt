@@ -10,7 +10,7 @@ add_core = KKC
 owner = KKC
 controller = KKC
 
-culture = kikuchi_c
+culture = kuma_c
 religion = shinto
 capital = "Uki"
 is_city = yes
@@ -21,14 +21,20 @@ base_manpower = 2
 
 trade_goods = rice
 
-
-1543.1.1 = {
-    add_core = OTM
+1554.3.1 = {
+	add_core = OTM
     controller = OTM
     owner = OTM
 }
-1581.1.1 = {
-    add_core = RZJ
-    controller = RZJ
-    owner = RZJ
+
+1582.6.21 = {
+    add_core = SMZ
+    controller = SMZ
+    owner = SMZ
+}
+
+1600.9.13 = {
+	add_core = KNH
+    controller = KNH
+    owner = KNH
 }

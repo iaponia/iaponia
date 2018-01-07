@@ -20,3 +20,15 @@ base_production = 3
 base_manpower = 3
 
 trade_goods = horses
+
+1582.6.21 = {
+    owner = RZJ
+    controller = RZJ
+    add_core = RZJ
+}
+
+1600.9.13 = {
+	owner = AIM
+    controller = AIM
+    add_core = AIM
+}

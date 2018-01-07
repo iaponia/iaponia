@@ -19,17 +19,16 @@ base_tax = 5
 base_production = 4
 base_manpower = 3
 
-trade_goods = mainland_trade
+trade_goods = fish
 
-
-1505.1.1 = {
-    add_core = SGR
-    controller = SGR
-    owner = SGR
-}
-1581.1.1 = {
+1582.6.21 = {
     add_core = SMZ
     controller = SMZ
     owner = SMZ
 }
 
+1600.9.13 = {
+	add_core = SGR
+    controller = SGR
+    owner = SGR
+}

@@ -22,15 +22,14 @@ base_manpower = 2
 
 trade_goods = rice
 
-
-1551.9.1 = {
-    add_core = SUE
-    controller = SUE
-    owner = SUE
-}
-1557.7.1 = {
-    add_core = OTM
+1554.3.1 = {
+	add_core = OTM
     controller = OTM
     owner = OTM
 }
 
+1600.9.13 = {
+	add_core = KRD
+    controller = KRD
+    owner = KRD
+}

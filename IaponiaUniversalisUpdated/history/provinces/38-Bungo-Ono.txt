@@ -20,5 +20,8 @@ base_manpower = 2
 
 trade_goods = metal
 
-
-
+1600.9.13 = {
+	add_core = NAK
+    controller = NAK
+    owner = NAK
+}

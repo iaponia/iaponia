@@ -21,10 +21,8 @@ base_manpower = 3
 
 trade_goods = fish
 
-
-1568.1.1 = {
+1582.6.21 = {
     add_core = SMZ
     controller = SMZ
     owner = SMZ
 }
-

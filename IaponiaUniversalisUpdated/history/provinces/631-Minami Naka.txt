@@ -21,15 +21,26 @@ base_manpower = 2
 
 trade_goods = horses
 
-
-1561.1.1 = {
-    add_core = ITO
-    owner = ITO
-    controller = ITO
-}
-1578.11.12 = {
+1546.5.19 = {
     add_core = SMZ
     controller = SMZ
     owner = SMZ
 }
 
+1569.10.10 = {
+    add_core = ITO
+    owner = ITO
+    controller = ITO
+}
+
+1582.6.21 = {
+    add_core = SMZ
+    controller = SMZ
+    owner = SMZ
+}
+
+1600.9.13 = {
+    add_core = ITO
+    owner = ITO
+    controller = ITO
+}

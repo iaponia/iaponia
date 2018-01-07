@@ -89,10 +89,6 @@ sanyo_c = {
 		primary = OUC
 		dynasty_names = { Ouchi Sue Naito Toida Sugi Amano Hironaka Iida Reizei Era Niho Nogami }
 	}
-	iwami_c = { #Iwami
-		primary = MTD
-		dynasty_names = { Matsuda Yoshimi Ogasawara Sada }
-	}
 	aki_c = { #Aki #Takata
 		primary = MRI
 		dynasty_names = { Mori Kobayakawa Kikkawa Hoida Fukuhara Awaya Kunishi Nomi Koi Kodama Shishido Kumagai Takeda }
@@ -117,6 +113,10 @@ sanin_c = {
 	unpaku_c = { #Izumo #Yasugi #Oki #Iwami-Ano #Iwami-Ochi #Nima
 		primary = AMA
 		dynasty_names = { Amago Yamanaka Sase Honjo Akana Matsuda Kawazoe Uyama Kamei Tachihara Yokomichi Kyogoku }
+	}
+	iwami_c = { #Iwami
+		primary = MTD
+		dynasty_names = { Matsuda Yoshimi Ogasawara Sada }
 	}
 	hoki_c = { #Hoki
 		primary = NNJ

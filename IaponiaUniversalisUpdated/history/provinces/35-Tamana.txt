@@ -10,7 +10,7 @@ add_core = KKC
 owner = KKC
 controller = KKC
 
-culture = higo_c
+culture = kikuchi_c
 religion = shinto
 capital = "Otsuyama"
 is_city = yes

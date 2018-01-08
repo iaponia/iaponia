@@ -22,19 +22,20 @@ base_manpower = 2
 
 trade_goods = rice
 
-
-1477.12.25 = {
+1493.6.9 = {
     remove_core = IWY
     controller = OUC
     owner = OUC
 }
-1507.1.1 = {
+
+1554.3.1 = {
+    add_core = YSM
     controller = YSM
     owner = YSM
 }
-1557.4.3 = {
+
+1569.10.10 = {
     add_core = MRI
     controller = MRI
     owner = MRI
 }
-

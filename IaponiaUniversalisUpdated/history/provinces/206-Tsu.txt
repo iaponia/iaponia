@@ -23,14 +23,24 @@ base_manpower = 3
 
 trade_goods = rice
 
-
-1507.1.1 = {
+1511.9.25 = {
     controller = IKW
     owner = IKW
 }
-1565.1.1 = {
-    add_core = SHZ
-    controller = SHZ
-    owner = SHZ
+
+1554.3.1 = {
+    owner = MIM
+    controller = MIM
 }
 
+1569.10.10 = {
+	add_core = MRI
+    owner = MRI
+    controller = MRI
+}
+
+1582.6.21 = {
+    add_core = UKT
+    owner = UKT
+    controller = UKT
+}

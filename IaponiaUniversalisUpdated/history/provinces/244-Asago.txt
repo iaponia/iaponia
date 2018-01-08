@@ -20,10 +20,14 @@ base_manpower = 2
 
 trade_goods = gold
 
-
-1577.10.23 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+1582.6.21 = {
+    owner = HSB
+    controller = HSB
+    add_core = HSB
 }
 
+1600.9.13 = {
+	add_core = TOY
+	owner = TOY
+	controller = TOY
+}

@@ -23,22 +23,19 @@ base_manpower = 3
 
 trade_goods = dyes
 
-
-1467.6.15 = {
+1493.6.9 = {
     owner = AKM
     controller = AKM
 }
-1477.12.25 = {
-    remove_core = YMN
-}
-1521.9.17 = {
+
+1523.8.25 = {
     add_core = URA
     owner = URA
     controller = URA
 }
-1577.1.1 = {
+
+1582.6.21 = {
     add_core = UKT
     owner = UKT
     controller = UKT
 }
-

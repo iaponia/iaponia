@@ -125,6 +125,18 @@ capital = 241	# Izushi
 	}
 }
 
+1600.9.13 = {
+	monarch = {
+		name = "Korenori"
+		dynasty = "Kamei"
+		birth_date = 1557.1.1
+		death_date = 1612.2.12
+		adm = 7
+		dip = 5
+		mil = 5
+	}
+}
+
 1615.1.1 = {
 	monarch = {
 		name = "Mochitoyo"

@@ -22,14 +22,8 @@ base_manpower = 3
 
 trade_goods = fish
 
-
-1551.9.1 = {
-    controller = SUE
-    owner = SUE
-}
-1557.4.3 = {
+1569.10.10 = {
     add_core = MRI
     controller = MRI
     owner = MRI
 }
-

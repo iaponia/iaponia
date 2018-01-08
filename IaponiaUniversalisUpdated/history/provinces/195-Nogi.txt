@@ -23,14 +23,13 @@ base_manpower = 5
 
 trade_goods = grain
 
-
-1486.1.1 = {
+1493.6.9 = {
     controller = AMA
     owner = AMA
 }
-1566.11.19 = {
+
+1569.10.10 = {
     add_core = MRI
     owner = MRI
     controller = MRI
 }
-

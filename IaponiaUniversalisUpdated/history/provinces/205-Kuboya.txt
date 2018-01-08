@@ -23,23 +23,24 @@ base_manpower = 2
 
 trade_goods = sake
 
+1511.9.25 = {
+    controller = IKW
+    owner = IKW
+}
 
-1507.1.1 = {
-    controller = UEN
-    owner = UEN
-}
-1533.1.1 = {
-    owner = SHX
-    controller = SHX
-}
-1560.1.1 = {
-    add_core = MIM
+1554.3.1 = {
     owner = MIM
     controller = MIM
 }
-1575.5.22 = {
-    add_core = MRI
+
+1569.10.10 = {
+	add_core = MRI
     owner = MRI
     controller = MRI
 }
 
+1582.6.21 = {
+    add_core = UKT
+    owner = UKT
+    controller = UKT
+}

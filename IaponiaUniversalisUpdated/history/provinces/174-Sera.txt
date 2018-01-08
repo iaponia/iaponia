@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = YMN
+add_core = SGH
 owner = YMN
 controller = YMN
 
@@ -20,22 +21,25 @@ base_manpower = 2
 
 trade_goods = bamboo
 
-
-1527.1.1 = {
-    controller = AMA
-    owner = AMA
+1511.9.25 = {
+    controller = SGH
+    owner = SGH
 }
-1541.1.13 = {
+
+1536.4.7 = {
+    add_core = OUC
     controller = OUC
     owner = OUC
 }
-1543.5.7 = {
-    controller = AMA
-    owner = AMA
+
+1546.5.19 = {
+    add_core = SGH
+    controller = SGH
+    owner = SGH
 }
-1553.1.1 = {
-    add_core = MRI
+
+1554.3.1 = {
+	add_core = MRI
     controller = MRI
     owner = MRI
 }
-

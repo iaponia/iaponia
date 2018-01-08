@@ -6,9 +6,9 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = AKM
-add_core = IWY
-owner = IWY
-controller = IWY
+add_core = YMN
+owner = YMN
+controller = YMN
 
 culture = bizen_c
 religion = shinto
@@ -21,32 +21,30 @@ base_manpower = 2
 
 trade_goods = bamboo
 
-
-1467.6.15 = {
+1493.6.9 = {
     owner = AKM
     controller = AKM
 }
-1477.12.25 = {
-    remove_core = IWY
-}
-1521.9.17 = {
+
+1523.8.25 = {
     add_core = URA
     owner = URA
     controller = URA
 }
-1533.1.1 = {
+
+1536.4.7 = {
     add_core = AMA
     controller = AMA
     owner = AMA
 }
-1566.11.19 = {
-    add_core = MRI
-    controller = MRI
-    owner = MRI
+
+1569.10.10 = {
+    owner = URA
+    controller = URA
 }
-1579.1.1 = {
+
+1582.6.21 = {
     add_core = UKT
     controller = UKT
     owner = UKT
 }
-

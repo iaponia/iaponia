@@ -23,19 +23,25 @@ base_manpower = 3
 
 trade_goods = bamboo
 
-
-1507.1.1 = {
+1511.9.25 = {
     controller = NIM
     owner = NIM
 }
-1567.1.1 = {
+
+1536.4.7 = {
+    add_core = AMA
+    owner = AMA
+    controller = AMA
+}
+
+1554.3.1 = {
     add_core = MIM
     owner = MIM
     controller = MIM
 }
-1575.5.22 = {
+
+1582.6.21 = {
     add_core = MRI
     owner = MRI
     controller = MRI
 }
-

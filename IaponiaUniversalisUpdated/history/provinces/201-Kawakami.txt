@@ -24,23 +24,25 @@ base_manpower = 3
 
 trade_goods = metal
 
-
-1507.1.1 = {
-    controller = UEN
-    owner = UEN
-}
-1533.1.1 = {
-    owner = SHX
-    controller = SHX
-}
-1560.1.1 = {
+1511.9.25 = {
     add_core = MIM
     owner = MIM
     controller = MIM
 }
-1575.5.22 = {
+
+1536.4.7 = {
+    add_core = AMA
+    owner = AMA
+    controller = AMA
+}
+
+1554.3.1 = {
+    owner = MIM
+    controller = MIM
+}
+
+1582.6.21 = {
     add_core = MRI
     owner = MRI
     controller = MRI
 }
-

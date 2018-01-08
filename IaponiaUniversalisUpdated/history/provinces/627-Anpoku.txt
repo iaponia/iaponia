@@ -6,9 +6,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = YMN
-owner = YMN
-controller = YMN
+add_core = AKT
+owner = AKT
+controller = ATK
 
 culture = aki_c
 religion = shinto
@@ -21,14 +21,25 @@ base_manpower = 3
 
 trade_goods = salt
 
-
-1507.1.1 = {
+1493.6.9 = {
     controller = OUC
     owner = OUC
+    add_core = OUC
 }
-1550.1.1 = {
+
+1523.8.25 = {
+	controller = AMA
+    owner = AMA
+    add_core = AMA
+}
+
+1536.4.7 = {
+    owner = OUC
+    add_core = OUC
+}
+
+1546.5.19 = {
     add_core = MRI
     controller = MRI
     owner = MRI
 }
-

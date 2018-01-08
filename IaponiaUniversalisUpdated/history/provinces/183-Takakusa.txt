@@ -22,19 +22,25 @@ base_manpower = 2
 
 trade_goods = fish
 
-
-1544.1.1 = {
-    controller = AMA
-    owner = AMA
-    add_core = AMA
-}
-1566.11.19 = {
-    owner = IYN
-    controller = IYN
-}
-1581.10.25 = {
-    owner = ODA
-    controller = ODA
-    add_core = ODA
+1546.5.19 = {
+	add_core = AMA
+	owner = AMA
+	controller = AMA
 }
 
+1569.10.10 = {
+	add_core = YMN
+	owner = YMN
+	controller = YMN
+}
+
+1582.6.21 = {
+    owner = HSB
+    controller = HSB
+    add_core = HSB
+}
+
+1600.9.13 = {
+	owner = YMN
+	controller = YMN
+}

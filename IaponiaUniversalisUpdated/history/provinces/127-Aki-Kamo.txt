@@ -6,9 +6,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = YMN
-owner = YMN
-controller = YMN
+add_core = KBY
+owner = KBY
+controller = KBY
 
 culture = aki_c
 religion = shinto
@@ -21,12 +21,14 @@ base_manpower = 3
 
 trade_goods = sake
 
-
-1507.1.1 = {
+1493.6.9 = {
+	add_core = OUC
     controller = OUC
     owner = OUC
 }
-1551.10.1 = {
+
+1569.10.10 = {
+	add_core = MRI
     controller = MRI
     owner = MRI
 }

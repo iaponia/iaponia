@@ -21,20 +21,20 @@ base_manpower = 2
 
 trade_goods = lumber
 
-
-1477.12.25 = {
+1493.6.9 = {
     remove_core = IWY
     controller = OUC
     owner = OUC
 }
-1551.9.1 = {
-    add_core = SUE
-    controller = SUE
-    owner = SUE
+
+1523.8.25 = {
+	add_core = AMA
+    controller = AMA
+    owner = AMA
 }
-1557.4.3 = {
+
+1569.10.10 = {
     add_core = MRI
     controller = MRI
     owner = MRI
 }
-

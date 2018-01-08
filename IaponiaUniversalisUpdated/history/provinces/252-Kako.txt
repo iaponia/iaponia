@@ -9,8 +9,8 @@ discovered_by = ainu
 add_core = AKM
 add_core = BSO
 add_core = YMN
-owner = YMN
-controller = YMN
+owner = AKM
+controller = AKM
 
 culture = harima_c
 religion = shinto
@@ -23,21 +23,19 @@ base_manpower = 3
 
 trade_goods = rice
 
-
-1467.5.15 = {
-    owner = AKM
-    controller = AKM
-}
-1477.12.25 = {
-    remove_core = YMN
-}
-1521.9.17 = {
+1523.8.25 = {
     owner = BSO
     controller = BSO
 }
-1577.10.23 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+
+1582.6.21 = {
+	add_core = HSB
+    controller = HSB
+    owner = HSB
 }
 
+1600.9.13 = {
+	add_core = TOY
+    controller = TOY
+    owner = TOY
+}

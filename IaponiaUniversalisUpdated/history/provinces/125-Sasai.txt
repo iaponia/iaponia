@@ -32,12 +32,19 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-1541.1.13 = {
+1493.6.9 = {
     controller = OUC
     owner = OUC
     add_core = OUC
 }
-1550.1.1 = {
+
+1523.8.25 = {
+	controller = AMA
+    owner = AMA
+    add_core = AMA
+}
+
+1546.5.19 = {
     add_core = MRI
     controller = MRI
     owner = MRI

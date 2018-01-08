@@ -21,24 +21,19 @@ base_manpower = 3
 
 trade_goods = lacquerware
 
-
-1507.1.1 = {
+1511.9.25 = {
     controller = SGH
     owner = SGH
 }
-1549.1.1 = {
-    add_core = OUC
-    controller = OUC
-    owner = OUC
+
+1536.4.7 = {
+    add_core = AMA
+	controller = AMA
+    owner = AMA
 }
-1551.9.1 = {
-    add_core = SUE
-    controller = SUE
-    owner = SUE
-}
-1553.1.1 = {
+
+1569.10.10 = {
     add_core = MRI
     controller = MRI
     owner = MRI
 }
-

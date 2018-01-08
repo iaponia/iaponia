@@ -7,7 +7,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = IYN
-add_core = TGM
 owner = IYN
 controller = IYN
 
@@ -22,10 +21,19 @@ base_manpower = 2
 
 trade_goods = gold
 
-
-1581.10.25 = {
-    owner = ODA
-    controller = ODA
-    add_core = ODA
+1546.5.19 = {
+	add_core = YMN
+	owner = YMN
+	controller = YMN
 }
 
+1582.6.21 = {
+    owner = HSB
+    controller = HSB
+    add_core = HSB
+}
+
+1600.9.13 = {
+	owner = YMN
+	controller = YMN
+}

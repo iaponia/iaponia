@@ -21,23 +21,20 @@ base_manpower = 3
 
 trade_goods = grain
 
-
-1552.1.10 = {
-    add_core = HJO
-    controller = HJO
-    owner = HJO
-}
-1561.5.30 = {
-    owner = UES
-    controller = UES
-}
-1561.8.1 = {
+1554.3.1 = {
     add_core = TKD
-    owner = TKD
     controller = TKD
-}
-1582.3.11 = {
-    owner = HJO
-    controller = HJO
+    owner = TKD
 }
 
+1582.6.21 = {
+	add_core = TAK
+    owner = TAK
+    controller = TAK
+}
+
+1600.9.13 = {
+	add_core = TKG
+    owner = TKG
+    controller = TKG
+}

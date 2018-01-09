@@ -6,7 +6,7 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = SMR
+add_core = OTA
 add_core = OUE
 owner = OUE
 controller = OUE
@@ -22,21 +22,14 @@ base_manpower = 4
 
 trade_goods = lacquerware
 
-
-1449.8.1 = {
-    add_core = KGA
-    controller = KGA
-    owner = KGA
-    remove_core = OUE
-}
-1455.6.15 = {
-    controller = OUE
-    owner = OUE
-    add_core = OUE
-}
-1524.1.13 = {
+1536.4.7 = {
     owner = HJO
     controller = HJO
     add_core = HJO
 }
 
+1600.9.13 = {
+	owner = TKG
+    controller = TKG
+    add_core = TKG
+}

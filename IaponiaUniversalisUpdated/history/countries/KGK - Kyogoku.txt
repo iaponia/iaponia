@@ -11,7 +11,7 @@ capital = 334	# Inukami
 		dynasty = "Kyogoku"
 		birth_date = 1407.1.1
 		death_date = 1470.8.30
-		adm = 3
+		adm = 4
 		dip = 3
 		mil = 3
 	}
@@ -30,19 +30,6 @@ capital = 334	# Inukami
 
 1493.6.9 = {
 	monarch = {
-		name = "Masatsune"
-		dynasty = "Kyogoku"
-		birth_date = 1453.1.1
-		death_date = 1502.2.2
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-	government = shugo_daimyo_monarchy
-}
-
-1511.9.25 = {
-	monarch = {
 		name = "Takakiyo"
 		dynasty = "Kyogoku"
 		birth_date = 1460.1.1
@@ -51,6 +38,7 @@ capital = 334	# Inukami
 		dip = 3
 		mil = 3
 	}
+	government = shugo_daimyo_monarchy
 }
 
 1523.8.25 = {

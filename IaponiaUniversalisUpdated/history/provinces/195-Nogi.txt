@@ -6,10 +6,10 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = IKY
+add_core = KGK
 add_core = AMA
-owner = IKY
-controller = IKY
+owner = KGK
+controller = KGK
 
 culture = unpaku_c
 religion = shinto

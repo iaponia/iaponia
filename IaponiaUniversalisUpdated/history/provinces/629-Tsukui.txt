@@ -21,10 +21,14 @@ base_manpower = 3
 
 trade_goods = bamboo
 
-
-1525.2.6 = {
+1523.8.25 = {
     add_core = HJO
     controller = HJO
     owner = HJO
 }
 
+1600.9.13 = {
+	add_core = TKG
+    controller = TKG
+    owner = TKG
+}

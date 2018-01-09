@@ -21,11 +21,16 @@ base_manpower = 3
 
 trade_goods = lumber
 
-
-1498.1.1 = {
+1511.9.25 = {
     add_core = HJO
     controller = HJO
     owner = HJO
+}
+
+1600.9.13 = {
+	add_core = TKG
+    controller = TKG
+    owner = TKG
 }
 
 marketplace = yes

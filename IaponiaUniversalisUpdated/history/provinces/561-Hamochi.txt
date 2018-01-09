@@ -21,9 +21,7 @@ base_manpower = 2
 
 trade_goods = salt
 
-
-1507.8.7 = {
+1511.9.25 = {
     controller = HNM
     owner = HNM
 }
-

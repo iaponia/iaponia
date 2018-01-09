@@ -7,7 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = SBA
-add_core = OKB
+add_core = YII
 owner = SBA
 controller = SBA
 
@@ -22,14 +22,20 @@ base_manpower = 3
 
 trade_goods = tea
 
-
-1517.8.19 = {
+1523.8.25 = {
     owner = IMG
     controller = IMG
+    add_core = IMG
 }
-1568.12.1 = {
+
+1569.10.10 = {
     add_core = TKG
     owner = TKG
     controller = TKG
 }
 
+1600.9.13 = {
+	add_core = HRI
+    owner = HRI
+    controller = HRI
+}

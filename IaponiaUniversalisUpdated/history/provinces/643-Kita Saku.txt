@@ -32,7 +32,7 @@ trade_goods = grain
 }
 
 1600.9.13 = {
-	add_core = SNA
-    owner = SNA
-    controller = SNA
+	add_core = ANO
+    owner = ANO
+    controller = ANO
 }

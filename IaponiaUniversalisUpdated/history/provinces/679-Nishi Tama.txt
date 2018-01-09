@@ -20,10 +20,14 @@ base_manpower = 3
 
 trade_goods = cloth
 
-
-1525.2.6 = {
-    add_core = HJO
-    controller = HJO
+1536.4.7 = {
     owner = HJO
+    controller = HJO
+    add_core = HJO
 }
 
+1600.9.13 = {
+	owner = TKG
+    controller = TKG
+    add_core = TKG
+}

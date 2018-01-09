@@ -21,9 +21,7 @@ base_manpower = 1
 
 trade_goods = fish
 
-
-1507.8.7 = {
+1511.9.25 = {
     controller = HNM
     owner = HNM
 }
-

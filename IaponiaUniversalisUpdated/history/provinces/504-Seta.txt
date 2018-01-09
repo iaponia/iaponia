@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = UES
+add_core = NMT
 owner = UES
 controller = UES
 
@@ -20,14 +21,26 @@ base_manpower = 2
 
 trade_goods = lumber
 
-
-1552.1.10 = {
-    add_core = HJO
-    controller = HJO
-    owner = HJO
-}
-1561.5.30 = {
-    owner = UES
-    controller = UES
+1554.3.1 = {
+    add_core = NMT
+    controller = NMT
+    owner = NMT
 }
 
+1569.10.10 = {
+    add_core = TKD
+    controller = TKD
+    owner = TKD
+}
+
+1582.6.21 = {
+	add_core = TAK
+    owner = TAK
+    controller = TAK
+}
+
+1600.9.13 = {
+	add_core = TKG
+    owner = TKG
+    controller = TKG
+}

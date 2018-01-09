@@ -28,25 +28,14 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-1449.8.1 = {
-    add_core = KGA
-    controller = KGA
-    owner = KGA
-    remove_core = OUE
-}
-1450.4.15 = {
-    controller = OUE
-}
-1450.8.15 = {
-    controller = KGA
-}
-1455.6.15 = {
-    controller = OUE
-    owner = OUE
-    add_core = OUE
-}
-1516.7.11 = {
+1523.8.25 = {
     add_core = HJO
     controller = HJO
     owner = HJO
+}
+
+1600.9.13 = {
+	add_core = TKG
+    controller = TKG
+    owner = TKG
 }

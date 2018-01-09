@@ -4,3 +4,15 @@ primary_culture = musashi_c
 religion = shinto
 technology_group = togoku
 capital = 522
+
+1536.4.7 = {
+	monarch = {
+		name = "Sukemasa"
+		dynasty = "Ota"
+		birth_date = 1522.1.1
+		death_date = 1591.10.25
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

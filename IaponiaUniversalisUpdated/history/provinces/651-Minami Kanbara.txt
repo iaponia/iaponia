@@ -21,20 +21,20 @@ base_manpower = 3
 
 trade_goods = lacquerware
 
-
-1507.8.7 = {
+1554.3.1 = {
     controller = NGO
     owner = NGO
 }
-1561.3.16 = {
+
+1569.10.10 = {
     add_core = UES
     remove_core = NGO
     owner = UES
     controller = UES
 }
-1578.1.1 = {
-    add_core = HNJ
-    controller = HNJ
-    owner = HNJ
-}
 
+1600.9.13 = {
+	add_core = MZG
+	controller = MZG
+    owner = MZG
+}

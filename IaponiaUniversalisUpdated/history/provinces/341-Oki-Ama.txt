@@ -5,9 +5,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = IKY
-owner = IKY
-controller = IKY
+add_core = KGK
+owner = KGK
+controller = KGK
 
 culture = unpaku_c
 religion = shinto
@@ -19,6 +19,12 @@ base_production = 2
 base_manpower = 1
 
 trade_goods = horses
+
+1493.6.9 = {
+	add_core = IKY
+	owner = IKY
+	controller = IKY
+}
 
 1511.9.25 = {
     add_core = AMA

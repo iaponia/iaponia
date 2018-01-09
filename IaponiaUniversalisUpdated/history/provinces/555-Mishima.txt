@@ -22,15 +22,20 @@ base_manpower = 2
 
 trade_goods = sake
 
-
-1507.8.7 = {
+1511.9.25 = {
     controller = NGO
     owner = NGO
 }
-1561.3.16 = {
+
+1569.10.10 = {
     add_core = UES
     remove_core = NGO
     owner = UES
     controller = UES
 }
 
+1600.9.13 = {
+	add_core = HOR
+    owner = HOR
+    controller = HOR
+}

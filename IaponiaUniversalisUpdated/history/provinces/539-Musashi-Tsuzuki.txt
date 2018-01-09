@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OUE
-add_core = SMR
+add_core = OTA
 owner = OUE
 controller = OUE
 
@@ -21,10 +21,14 @@ base_manpower = 3
 
 trade_goods = lumber
 
-
-1524.1.13 = {
+1536.4.7 = {
     owner = HJO
     controller = HJO
     add_core = HJO
 }
 
+1600.9.13 = {
+	owner = TKG
+    controller = TKG
+    add_core = TKG
+}

@@ -6,10 +6,9 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = AHK
-add_core = KIR
+add_core = MDR
 owner = AHK
 controller = AHK
-
 culture = mikawa_c
 religion = shinto
 capital = "Kawaguchi"
@@ -21,34 +20,26 @@ base_manpower = 3
 
 trade_goods = bamboo
 
-
-1529.5.28 = {
-    add_core = MDR
-    controller = MDR
+1493.6.9 = {
+	controller = MDR
     owner = MDR
 }
-1549.11.27 = {
+
+1546.5.19 = {
     add_core = IMG
     controller = IMG
     owner = IMG
 }
-1565.1.1 = {
-    owner = MDR
-    controller = MDR
-}
-1566.12.29 = {
+
+1569.10.10 = {
     add_core = TKG
     remove_core = MDR
     owner = TKG
     controller = TKG
 }
-1572.12.22 = {
-    owner = TKD
-    controller = TKD
-    add_core = TKD
-}
-1575.5.21 = {
-    controller = TKG
-    owner = TKG
-}
 
+1600.9.13 = {
+	add_core = IKE
+    controller = IKE
+    owner = IKE
+}

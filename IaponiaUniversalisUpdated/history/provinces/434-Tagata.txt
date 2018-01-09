@@ -6,9 +6,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = OUE
-owner = OUE
-controller = OUE
+add_core = HAK
+owner = HAK
+controller = HAK
 
 culture = sagami_c
 religion = shinto
@@ -21,16 +21,20 @@ base_manpower = 2
 
 trade_goods = gold
 
-
-1457.12.15 = {
-    remove_core = OUE
+1467.6.15 = {
     add_core = HAK
     owner = HAK
     controller = HAK
 }
-1493.1.1 = {
+
+1493.6.9 = {
     add_core = HJO
     controller = HJO
     owner = HJO
 }
 
+1600.9.13 = {
+	add_core = TKG
+    controller = TKG
+    owner = TKG
+}

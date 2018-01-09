@@ -22,20 +22,14 @@ base_manpower = 4
 
 trade_goods = cloth
 
-
-1568.1.1 = {
+1569.10.10 = {
     add_core = HJO
     owner = HJO
     controller = HJO
 }
-1571.1.1 = {
-    add_core = TKD
-    owner = TKD
-    controller = TKD
-}
-1582.3.1 = {
+
+1582.6.21 = {
     add_core = TKG
     controller = TKG
     owner = TKG
 }
-

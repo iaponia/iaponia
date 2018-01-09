@@ -7,6 +7,7 @@ discovered_by = ainu
 
 add_core = UES
 add_core = NGO
+add_core = NMT
 owner = UES
 controller = UES
 
@@ -21,5 +22,20 @@ base_manpower = 1
 
 trade_goods = rice
 
+1554.3.1 = {
+    add_core = NMT
+    controller = NMT
+    owner = NMT
+}
 
+1569.10.10 = {
+    add_core = TKD
+    controller = TKD
+    owner = TKD
+}
 
+1582.6.21 = {
+	add_core = SNA
+    owner = SNA
+    controller = SNA
+}

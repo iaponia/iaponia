@@ -21,15 +21,14 @@ base_manpower = 3
 
 trade_goods = bamboo
 
-
-1568.6.1 = {
+1569.10.10 = {
     add_core = TKD
     owner = TKD
     controller = TKD
 }
-1582.3.1 = {
+
+1582.6.21 = {
     add_core = TKG
     controller = TKG
     owner = TKG
 }
-

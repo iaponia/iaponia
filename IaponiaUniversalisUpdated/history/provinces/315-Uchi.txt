@@ -5,9 +5,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = HTK
-owner = HTK
-controller = HTK
+add_core = SHK
+owner = SHK
+controller = SHK
 
 culture = kii_c
 religion = shinto
@@ -20,46 +20,20 @@ base_manpower = 2
 
 trade_goods = lacquerware
 
-
-1454.4.3 = {
-    add_core = SHK
-}
-1460.9.16 = {
-    remove_core = HTK
-    add_core = BHY
-    controller = SHK
-    owner = SHK
-}
-1463.4.15 = {
-    controller = BHY
-    owner = BHY
-}
-1466.8.25 = {
-    controller = SHK
-    owner = SHK
-}
-1497.10.1 = {
-    controller = BHY
-    owner = BHY
-}
-1499.12.20 = {
-    add_core = OTI
-    controller = OTI
+1511.9.25 = {
     owner = OTI
-}
-1542.3.17 = {
-    remove_core = SHK
-    remove_core = BHY
-    add_core = HTK
-}
-1546.11.2 = {
-    add_core = TTI
-    controller = TTI
-    owner = TTI
-}
-1573.12.26 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+    controller = OTI
+	add_core = OTI
 }
 
+1582.6.21 = {
+    owner = TTI
+    controller = TTI
+	add_core = TTI
+}
+
+1600.9.13 = {
+	owner = TKG
+    controller = TKG
+	add_core = TKG
+}

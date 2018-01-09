@@ -21,19 +21,19 @@ base_manpower = 3
 
 trade_goods = lacquerware
 
-
-1499.1.1 = {
+1511.9.25 = {
     controller = MKI
     owner = MKI
 }
-1571.1.1 = {
-    owner = UES
-    controller = UES
-    add_core = UES
-}
-1578.1.1 = {
+
+1536.4.7 = {
     controller = AKJ
     owner = AKJ
     add_core = AKJ
 }
 
+1600.9.13 = {
+    controller = KNM
+    owner = KNM
+    add_core = KNM
+}

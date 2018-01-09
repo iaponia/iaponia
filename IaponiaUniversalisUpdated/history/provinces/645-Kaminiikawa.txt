@@ -6,10 +6,11 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = HTK
+add_core = BHY
 add_core = JNB
-owner = HTK
-controller = HTK
+add_core = SII
+owner = BHY
+controller = BHY
 
 culture = esshu_c
 religion = shinto
@@ -23,29 +24,25 @@ base_manpower = 3
 
 trade_goods = pilgrimage_site
 
+1511.9.25 = {
+    owner = SII
+    controller = SII
+}
 
-1454.4.3 = {
-    add_core = SHK
-}
-1460.9.16 = {
-    remove_core = HTK
-    add_core = BHY
-    controller = BHY
-    owner = BHY
-}
-1520.1.1 = {
-    owner = NGO
-    controller = NGO
-}
-1542.3.17 = {
-    remove_core = SHK
-    remove_core = BHY
-    add_core = HTK
-}
-1561.3.16 = {
+1569.10.10 = {
     add_core = UES
-    remove_core = NGO
     owner = UES
     controller = UES
 }
 
+1582.6.21 = {
+    add_core = SSS
+    owner = SSS
+    controller = SSS
+}
+
+1600.9.13 = {
+    add_core = MAE
+    owner = MAE
+    controller = MAE
+}

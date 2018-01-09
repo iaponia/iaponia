@@ -22,15 +22,23 @@ base_manpower = 4
 
 trade_goods = dyes
 
-
-1511.1.1 = {
+1511.9.25 = {
     controller = IOD
     owner = IOD
 }
-1565.1.1 = {
+
+1569.10.10 = {
     add_core = ODA
-    remove_core = KOD
     controller = ODA
     owner = ODA
 }
 
+1582.6.21 = {
+    controller = KOD
+    owner = KOD
+}
+
+1600.9.13 = {
+    controller = ODA
+    owner = ODA
+}

@@ -5,10 +5,10 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = HTK
+add_core = BHY
+owner = BHY
+controller = BHY
 add_core = YKW
-owner = HTK
-controller = HTK
 
 culture = kii_c
 religion = shinto
@@ -21,23 +21,19 @@ base_manpower = 3
 
 trade_goods = rice
 
+1546.5.19 = {
+    owner = HTK
+    controller = HTK
+	add_core = HTK
+}
 
-1454.4.3 = {
-    add_core = SHK
-}
-1460.9.16 = {
-    remove_core = HTK
-    add_core = BHY
-    controller = BHY
-    owner = BHY
-}
-1538.1.1 = {
-    owner = YKW
+1569.10.10 = {
+	owner = YKW
     controller = YKW
 }
-1542.3.17 = {
-    remove_core = SHK
-    remove_core = BHY
-    add_core = HTK
-}
 
+1600.9.13 = {
+	owner = TKG
+    controller = TKG
+	add_core = TKG
+}

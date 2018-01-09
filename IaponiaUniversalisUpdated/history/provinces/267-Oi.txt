@@ -20,15 +20,20 @@ base_manpower = 2
 
 trade_goods = dyes
 
-
-1568.1.1 = {
+1569.10.10 = {
     add_core = ASA
     owner = ASA
     controller = ASA
 }
-1573.8.27 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+
+1582.6.21 = {
+    add_core = NIW
+    controller = NIW
+    owner = NIW
 }
 
+1600.9.13 = {
+    add_core = KNS
+    controller = KNS
+    owner = KNS
+}

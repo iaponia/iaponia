@@ -22,19 +22,14 @@ base_manpower = 2
 
 trade_goods = gold
 
+1511.9.25 = {
+    controller = AKJ
+    owner = AKJ
+}
 
-1499.1.1 = {
-    controller = AKJ
-    owner = AKJ
-}
-1571.1.1 = {
-    owner = UES
-    controller = UES
-    add_core = UES
-}
-1578.1.1 = {
-    controller = AKJ
-    owner = AKJ
-    add_core = AKJ
+1600.9.13 = {
+    controller = KNM
+    owner = KNM
+    add_core = KNM
 }
 

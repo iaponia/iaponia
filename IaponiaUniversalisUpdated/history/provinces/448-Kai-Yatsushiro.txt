@@ -21,10 +21,14 @@ base_manpower = 3
 
 trade_goods = lacquerware
 
-
-1582.3.11 = {
-    add_core = ODA
-    owner = ODA
-    controller = ODA
+1582.6.21 = {
+    add_core = KWJ
+    owner = KWJ
+    controller = KWJ
 }
 
+1600.9.13 = {
+	add_core = ANO
+    owner = ANO
+    controller = ANO
+}

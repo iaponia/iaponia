@@ -22,15 +22,14 @@ base_manpower = 3
 
 trade_goods = grain
 
-
-1552.8.1 = {
+1554.3.1 = {
     add_core = TKD
     owner = TKD
     controller = TKD
 }
-1582.3.11 = {
+
+1582.6.21 = {
     add_core = SNA
     owner = SNA
     controller = SNA
 }
-

@@ -20,20 +20,26 @@ base_manpower = 3
 
 trade_goods = dyes
 
-
-1546.11.2 = {
-    add_core = TTI
-    controller = TTI
-    owner = TTI
+1554.3.1 = {
+    add_core = MYI
+    controller = MYI
+    owner = MYI
 }
-1569.12.1 = {
+
+1569.10.10 = {
     add_core = MNA
     controller = MNA
     owner = MNA
 }
-1573.12.26 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+
+1582.6.21 = {
+    add_core = TTI
+    controller = TTI
+    owner = TTI
 }
 
+1600.9.13 = {
+	add_core = TKG
+    controller = TKG
+    owner = TKG
+}

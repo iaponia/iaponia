@@ -21,14 +21,25 @@ base_manpower = 3
 
 trade_goods = dyes
 
-
-1542.8.23 = {
+1546.5.19 = {
     controller = STO
     owner = STO
 }
-1567.8.15 = {
+
+1569.10.10 = {
     add_core = ODA
     controller = ODA
     owner = ODA
 }
 
+1582.6.21 = {
+	add_core = GOD
+    controller = GOD
+    owner = GOD
+}
+
+1600.9.13 = {
+	add_core = ODA
+    controller = ODA
+    owner = ODA
+}

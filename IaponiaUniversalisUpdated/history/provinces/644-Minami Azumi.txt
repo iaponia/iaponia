@@ -20,15 +20,14 @@ base_manpower = 2
 
 trade_goods = horses
 
-
-1550.7.15 = {
+1554.3.1 = {
     add_core = TKD
-    controller = TKD
     owner = TKD
-}
-1582.3.11 = {
-    add_core = ODA
-    owner = ODA
-    controller = ODA
+    controller = TKD
 }
 
+1582.6.21 = {
+    add_core = OMO
+    owner = OMO
+    controller = OMO
+}

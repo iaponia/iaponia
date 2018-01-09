@@ -23,14 +23,24 @@ base_manpower = 3
 
 trade_goods = lumber
 
+1523.8.25 = {
+    owner = HTN
+    controller = HTN
+}
 
-1517.1.1 = {
+1554.3.1 = {
     owner = HGN
     controller = HGN
 }
-1579.8.24 = {
-    owner = ODA
-    controller = ODA
-    add_core = ODA
+
+1582.6.21 = {
+    owner = AKC
+    controller = AKC
+    add_core = AKC
 }
 
+1600.9.13 = {
+    owner = TOY
+    controller = TOY
+    add_core = TOY
+}

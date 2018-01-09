@@ -22,14 +22,25 @@ base_manpower = 2
 
 trade_goods = bamboo
 
-
-1542.8.23 = {
+1546.5.19 = {
     controller = STO
     owner = STO
 }
-1567.8.15 = {
+
+1569.10.10 = {
     add_core = ODA
     controller = ODA
     owner = ODA
 }
 
+1582.6.21 = {
+	add_core = AKC
+    controller = AKC
+    owner = AKC
+}
+
+1600.9.13 = {
+	add_core = ISH
+    controller = ISH
+    owner = ISH
+}

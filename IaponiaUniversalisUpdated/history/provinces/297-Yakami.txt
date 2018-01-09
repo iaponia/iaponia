@@ -5,10 +5,10 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = HTK
+add_core = SHK
 add_core = YSA
-owner = HTK
-controller = HTK
+owner = SHK
+controller = SHK
 
 culture = kawachi_c
 religion = shinto
@@ -21,46 +21,17 @@ base_manpower = 3
 
 trade_goods = sake
 
+1511.9.25 = {
+    controller = BHY
+    owner = BHY
+}
 
-1454.4.3 = {
-    add_core = SHK
-}
-1460.9.16 = {
-    remove_core = HTK
-    add_core = BHY
+1536.4.7 = {
     controller = SHK
     owner = SHK
 }
-1463.4.15 = {
-    controller = BHY
-    owner = BHY
-}
-1466.8.25 = {
-    controller = SHK
-    owner = SHK
-}
-1497.10.1 = {
-    controller = BHY
-    owner = BHY
-}
-1499.12.20 = {
-    controller = SHK
-    owner = SHK
-}
-1511.9.26 = {
-    controller = BHY
-    owner = BHY
-}
-1528.1.1 = {
-    controller = SHK
-    owner = SHK
-}
-1538.1.1 = {
-    add_core = KZW
-    controller = KZW
-    owner = KZW
-}
-1542.3.17 = {
+
+1546.5.19 = {
     remove_core = SHK
     remove_core = KZW
     remove_core = BHY
@@ -68,9 +39,15 @@ trade_goods = sake
     owner = YSA
     controller = YSA
 }
-1574.4.21 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+
+1582.6.21 = {
+    add_core = HSB
+    controller = HSB
+    owner = HSB
 }
 
+1600.9.13 = {
+	add_core = TOY
+    controller = TOY
+    owner = TOY
+}

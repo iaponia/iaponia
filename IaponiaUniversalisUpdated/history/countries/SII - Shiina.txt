@@ -5,7 +5,7 @@ religion = shinto
 technology_group = togoku
 capital = 393
 
-1523.8.25 = {
+1511.9.25 = {
 	monarch = {
 		name = "Nagatsune"
 		dynasty = "Shiina"

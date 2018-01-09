@@ -22,14 +22,19 @@ base_manpower = 3
 
 trade_goods = lacquerware
 
-
-1534.1.1 = {
+1536.4.7 = {
     controller = AZI
     owner = AZI
 }
-1573.8.27 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+
+1582.6.21 = {
+	add_core = AKC
+    controller = AKC
+    owner = AKC
 }
 
+1600.9.13 = {
+	add_core = ISH
+    controller = ISH
+    owner = ISH
+}

@@ -7,7 +7,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = ISK
-add_core = UMD
 owner = ISK
 controller = ISK
 
@@ -28,17 +27,19 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-1477.11.1 = {
-    controller = UMD
-    owner = UMD
-}
-1536.1.1 = {
-    controller = RKK
-    owner = RKK
-}
-1568.2.1 = {
-    add_core = ODA
-    owner = ODA
-    controller = ODA
+1493.6.9 = {
+    controller = HGJ
+    owner = HGJ
 }
 
+1582.6.21 = {
+    add_core = TAK
+    owner = TAK
+    controller = TAK
+}
+
+1600.9.13 = {
+	add_core = ISH
+    owner = ISH
+    controller = ISH
+}

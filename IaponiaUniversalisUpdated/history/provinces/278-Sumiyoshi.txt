@@ -22,15 +22,20 @@ base_manpower = 4
 
 trade_goods = pilgrimage_site
 
-
-1550.11.19 = {
-    add_core = MYI
-    controller = MYI
-    owner = MYI
-}
-1568.9.26 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+1493.6.9 = {
+	add_core = HGJ
+    controller = HGJ
+    owner = HGJ
 }
 
+1582.6.21 = {
+    add_core = HSB
+    controller = HSB
+    owner = HSB
+}
+
+1600.9.13 = {
+	add_core = TOY
+    controller = TOY
+    owner = TOY
+}

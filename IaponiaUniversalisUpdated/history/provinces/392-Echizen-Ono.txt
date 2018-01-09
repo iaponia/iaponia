@@ -7,7 +7,6 @@ discovered_by = ainu
 
 add_core = SBA
 add_core = ASA
-add_core = OKB
 owner = SBA
 controller = SBA
 
@@ -22,16 +21,19 @@ base_manpower = 3
 
 trade_goods = gold
 
-
-1471.2.15 = {
+1493.6.9 = {
     controller = ASA
+	owner = ASA
 }
-1471.5.21 = {
-    owner = ASA
+
+1582.6.21 = {
+    add_core = SHB
+    controller = SHB
+    owner = SHB
 }
-1573.8.27 = {
+
+1600.9.13 = {
     add_core = ODA
     controller = ODA
     owner = ODA
 }
-

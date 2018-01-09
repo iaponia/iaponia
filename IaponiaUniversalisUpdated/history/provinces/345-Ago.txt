@@ -20,10 +20,8 @@ base_manpower = 3
 
 trade_goods = fish
 
-
-1569.10.3 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+1582.6.21 = {
+    add_core = KUK
+    owner = KUK
+    controller = KUK
 }
-

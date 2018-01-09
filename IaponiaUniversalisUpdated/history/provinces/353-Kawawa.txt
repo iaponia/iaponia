@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = ISK
+ADD_CORE = ING
 owner = ISK
 controller = ISK
 
@@ -21,23 +22,31 @@ base_manpower = 3
 
 trade_goods = seaweed
 
+1493.6.9 = {
+    owner = ING
+    controller = ING
+}
 
-1477.11.1 = {
-    add_core = KBK
-    controller = KBK
-    owner = KBK
-}
-1510.1.1 = {
-    controller = NGN
-    owner = NGN
-}
-1540.1.1 = {
+1546.5.19 = {
+	add_core = RKK
     controller = RKK
     owner = RKK
 }
-1568.2.1 = {
+
+1569.10.10 = {
     add_core = ODA
     owner = ODA
     controller = ODA
 }
 
+1582.6.21 = {
+    add_core = GOD
+    owner = GOD
+    controller = GOD
+}
+
+1600.9.13 = {
+	add_core = ISH
+    owner = ISH
+    controller = ISH
+}

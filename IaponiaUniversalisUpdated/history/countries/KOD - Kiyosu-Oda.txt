@@ -157,3 +157,15 @@ capital = 370	# Aichi
 		personality = shrewd_quartermaster_personality
 	}
 }
+
+1582.6.21 = {
+	monarch = {
+		name = "Nobukatsu"
+		dynasty = "Oda"
+		birth_date = 1558.1.1
+		death_date = 1630.6.10
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}

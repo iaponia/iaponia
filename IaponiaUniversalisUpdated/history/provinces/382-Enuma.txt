@@ -21,15 +21,20 @@ base_manpower = 4
 
 trade_goods = pottery
 
-
-1488.6.9 = {
+1493.6.9 = {
     add_core = HGJ
     controller = HGJ
     owner = HGJ
 }
-1580.11.1 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+
+1582.6.21 = {
+    add_core = SHB
+    controller = SHB
+    owner = SHB
 }
 
+1600.9.13 = {
+	add_core = NIW
+    controller = NIW
+    owner = NIW
+}

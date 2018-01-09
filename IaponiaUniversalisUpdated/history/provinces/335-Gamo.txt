@@ -13,7 +13,6 @@ culture = omi_c
 religion = shinto
 capital = "Otawa"
 is_city = yes
-fortified_mansion = yes
 
 base_tax = 4
 base_production = 4
@@ -21,9 +20,20 @@ base_manpower = 3
 
 trade_goods = lacquerware
 
-1568.9.13 = {
-    add_core = ODA
-    owner = ODA
+1569.10.10 = {
+	add_core = ODA
     controller = ODA
+    owner = ODA
 }
 
+1582.6.21 = {
+	add_core = GAM
+    controller = GAM
+    owner = GAM
+}
+
+1600.9.13 = {
+	add_core = ISH
+    controller = ISH
+    owner = ISH
+}

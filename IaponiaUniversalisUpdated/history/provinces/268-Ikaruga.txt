@@ -8,6 +8,7 @@ discovered_by = ainu
 
 add_core = HSK
 add_core = HTN
+add_core = HGN
 owner = HSK
 controller = HSK
 
@@ -22,15 +23,24 @@ base_manpower = 2
 
 trade_goods = bamboo
 
-
-1550.11.19 = {
-    add_core = MYI
-    controller = MYI
-    owner = MYI
-}
-1568.9.26 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+1523.8.25 = {
+    owner = HTN
+    controller = HTN
 }
 
+1554.3.1 = {
+    owner = HGN
+    controller = HGN
+}
+
+1582.6.21 = {
+    owner = AKC
+    controller = AKC
+    add_core = AKC
+}
+
+1600.9.13 = {
+    owner = TOY
+    controller = TOY
+    add_core = TOY
+}

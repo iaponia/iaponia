@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 306	# Furuichi
 
-1554.3.1 = {
+1546.5.19 = {
 	monarch = {
 		name = "Takamasa" 
 		dynasty = "Hatakeyama"

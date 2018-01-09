@@ -20,16 +20,21 @@ base_manpower = 2
 
 trade_goods = paper
 
-
-1553.1.6 = {
+1554.3.1 = {
     add_core = NGO
     controller = NGO
     owner = NGO
 }
-1561.3.16 = {
+
+1569.10.10 = {
     add_core = UES
     remove_core = NGO
     owner = UES
     controller = UES
 }
 
+1600.9.13 = {
+	add_core = HOR
+    controller = HOR
+    owner = HOR
+}

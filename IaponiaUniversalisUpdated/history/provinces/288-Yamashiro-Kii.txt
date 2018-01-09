@@ -21,15 +21,37 @@ base_manpower = 3
 
 trade_goods = pottery
 
+1511.9.25 = {
+	add_core = OUC
+    controller = OUC
+    owner = OUC
+}
 
-1550.11.19 = {
+1523.8.25 = {
+	controller = HSK
+    owner = HSK
+}
+
+1554.3.1 = {
     add_core = MYI
     controller = MYI
     owner = MYI
 }
-1568.9.26 = {
+
+1569.10.10 = {
     add_core = ODA
     controller = ODA
     owner = ODA
 }
 
+1582.6.21 = {
+	add_core = AKC
+    controller = AKC
+    owner = AKC
+}
+
+1600.9.13 = {
+	add_core = TKG
+    controller = TKG
+    owner = TKG
+}

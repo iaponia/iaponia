@@ -27,9 +27,9 @@ trade_goods = horses
 }
 
 1582.6.21 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+    add_core = HSB
+    controller = HSB
+    owner = HSB
 }
 
 1600.9.13 = {

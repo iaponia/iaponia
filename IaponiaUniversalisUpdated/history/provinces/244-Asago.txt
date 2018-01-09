@@ -27,7 +27,7 @@ trade_goods = gold
 }
 
 1600.9.13 = {
-	add_core = TOY
-	owner = TOY
-	controller = TOY
+	add_core = KOI
+	owner = KOI
+	controller = KOI
 }

@@ -20,31 +20,8 @@ base_manpower = 4
 
 trade_goods = pottery
 
-
-1455.8.10 = {
-    controller = OTI
+1600.9.13 = {
+	add_core = ISH
+    controller = ISH
+    owner = ISH
 }
-1459.6.15 = {
-    controller = TTI
-}
-1477.1.11 = {
-    add_core = OTI
-    controller = OTI
-    owner = OTI
-}
-1497.10.23 = {
-    remove_core = OTI
-    controller = TTI
-    owner = TTI
-}
-1560.12.1 = {
-    add_core = MNA
-    controller = MNA
-    owner = MNA
-}
-1573.12.26 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
-}
-

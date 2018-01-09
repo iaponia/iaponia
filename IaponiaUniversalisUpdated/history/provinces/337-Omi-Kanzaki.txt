@@ -21,10 +21,20 @@ base_manpower = 3
 
 trade_goods = rice
 
-
-1568.9.13 = {
-    add_core = ODA
-    owner = ODA
+1569.10.10 = {
+	add_core = ODA
     controller = ODA
+    owner = ODA
 }
 
+1582.6.21 = {
+	add_core = AKC
+    controller = AKC
+    owner = AKC
+}
+
+1600.9.13 = {
+	add_core = ISH
+    controller = ISH
+    owner = ISH
+}

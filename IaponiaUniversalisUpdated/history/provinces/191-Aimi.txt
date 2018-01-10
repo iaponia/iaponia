@@ -33,9 +33,3 @@ trade_goods = cloth
     owner = MRI
     controller = MRI
 }
-
-1600.9.13 = {
-    add_core = NNJ
-    owner = NNJ
-    controller = NNJ
-}

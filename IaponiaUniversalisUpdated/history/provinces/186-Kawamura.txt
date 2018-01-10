@@ -34,7 +34,7 @@ trade_goods = dyes
     controller = MRI
 }
 
-1600.9.13 = {
+1582.6.21 = {
     add_core = NNJ
     owner = NNJ
     controller = NNJ

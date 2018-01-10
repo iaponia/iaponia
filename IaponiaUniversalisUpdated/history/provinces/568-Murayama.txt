@@ -19,6 +19,3 @@ base_production = 3
 base_manpower = 3
 
 trade_goods = rice
-
-
-

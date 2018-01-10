@@ -20,18 +20,26 @@ base_manpower = 3
 
 trade_goods = rice
 
-
-1517.10.15 = {
+1523.8.25 = {
     add_core = OAK
     controller = OAK
     owner = OAK
 }
-1537.1.1 = {
+
+1546.5.19 = {
     add_core = STM
-    owner = STM
     controller = STM
-}
-1538.10.7 = {
-    remove_core = OAK
+    owner = STM
 }
 
+1582.6.21 = {
+	add_core = HJO
+    controller = HJO
+    owner = HJO
+}
+
+1600.9.13 = {
+	add_core = TKG
+    controller = TKG
+    owner = TKG
+}

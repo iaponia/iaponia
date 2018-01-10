@@ -25,7 +25,7 @@ capital = 335
 
 1600.9.13 = {
 	monarch = {
-		name = "Ujisato"
+		name = "Hideyuki"
 		dynasty = "Gamo"
 		birth_date = 1583.1.1
 		death_date = 1612.6.13

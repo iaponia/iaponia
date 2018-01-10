@@ -5,9 +5,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = HIO
-owner = HIO
-controller = HIO
+add_core = DAI
+owner = DAI
+controller = DAI
 
 culture = hitachi_c
 religion = shinto
@@ -20,5 +20,8 @@ base_manpower = 2
 
 trade_goods = rice
 
-
-
+1569.10.10 = {
+	owner = STK
+    controller = STK
+    add_core = STK
+}

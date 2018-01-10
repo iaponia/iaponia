@@ -20,15 +20,8 @@ base_manpower = 3
 
 trade_goods = metal
 
-
-1562.1.1 = {
-    add_core = ADO
-    owner = ADO
-    controller = ADO
+1569.10.10 = {
+    add_core = NNB
+    owner = NNB
+    controller = NNB
 }
-1568.1.1 = {
-    add_core = SNB
-    owner = SNB
-    controller = SNB
-}
-

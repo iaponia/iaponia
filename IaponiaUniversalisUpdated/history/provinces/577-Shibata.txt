@@ -20,5 +20,13 @@ base_manpower = 2
 
 trade_goods = grain
 
+1546.5.19 = {
+	add_core = MDT
+	owner = MDT
+	controller = MDT
+}
 
-
+1554.3.1 = {
+	owner = DTE
+	controller = DTE
+}

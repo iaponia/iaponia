@@ -5,9 +5,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = SNB
-owner = SNB
-controller = SNB
+add_core = ANA
+owner = ANA
+controller = ANA
 
 culture = oshu_c
 religion = shinto
@@ -20,5 +20,8 @@ base_manpower = 1
 
 trade_goods = fish
 
-
-
+1600.9.13 = {
+	add_core = NNB
+	owner = NNB
+	controller = NNB
+}

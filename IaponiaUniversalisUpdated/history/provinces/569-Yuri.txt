@@ -5,10 +5,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = MGM
 add_core = NKH
-owner = MGM
-controller = MGM
+owner = NKH
+controller = NKH
 
 culture = shonai_c
 religion = shinto
@@ -21,10 +20,8 @@ base_manpower = 3
 
 trade_goods = rice
 
-
-1467.1.1 = {
-    remove_core = MGM
-    controller = NKH
-    owner = NKH
+1600.9.13 = {
+	add_core = MGM
+	owner = MGM
+	controller = MGM
 }
-

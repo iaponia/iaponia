@@ -20,5 +20,8 @@ base_manpower = 2
 
 trade_goods = pilgrimage_site
 
-
-
+1600.9.13 = {
+	add_core = MGM
+	owner = MGM
+	controller = MGM
+}

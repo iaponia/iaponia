@@ -20,9 +20,7 @@ base_manpower = 3
 
 trade_goods = rice
 
-
-1553.1.1 = {
+1554.3.1 = {
     owner = ADO
     controller = ADO
 }
-

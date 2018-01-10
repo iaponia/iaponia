@@ -20,5 +20,8 @@ base_manpower = 2
 
 trade_goods = pottery
 
-
-
+1600.9.13 = {
+	add_core = GAM
+	owner = GAM
+	controller = GAM
+}

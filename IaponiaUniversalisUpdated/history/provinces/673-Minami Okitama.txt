@@ -22,5 +22,8 @@ base_manpower = 3
 
 trade_goods = cloth
 
-
-
+1600.9.13 = {
+	add_core = UES
+	owner = UES
+	controller = UES
+}

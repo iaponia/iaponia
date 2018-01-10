@@ -19,6 +19,3 @@ base_production = 2
 base_manpower = 2
 
 trade_goods = fur
-
-
-

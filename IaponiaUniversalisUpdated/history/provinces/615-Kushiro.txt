@@ -5,13 +5,13 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = OSA
-owner = OSA
-controller = OSA
+add_core = KKZ
+owner = KKZ
+controller = KKZ
 
-culture = ainu_c
+culture = ezo_c
 religion = ainu
-capital = "Usukeshi"
+capital = "Hakodate"
 
 base_tax = 2
 base_production = 1
@@ -19,5 +19,8 @@ base_manpower = 1
 
 trade_goods = fish
 
-1467.6.15 = { owner = KKZ controller = KKZ add_core = KKZ capital = "Hakodate" }
-1582.6.2 = { culture = ezo_c }
+1600.9.13 = {
+	add_core = MAT
+	owner = MAT
+	controller = MAT
+}

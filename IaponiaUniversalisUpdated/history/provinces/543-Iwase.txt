@@ -21,5 +21,14 @@ base_manpower = 3
 
 trade_goods = rice
 
+1569.10.10 = {
+	add_core = ASN
+	owner = ASN
+	controller = ASN
+}
 
-
+1600.9.13 = {
+	add_core = UES
+	owner = UES
+	controller = UES
+}

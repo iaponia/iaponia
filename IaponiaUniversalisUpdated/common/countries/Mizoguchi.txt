@@ -7,33 +7,21 @@ color = { 20  102  102 }
 preferred_religion = mahayana
 
 historical_idea_groups = {
-	influence_ideas
-	traditional_ideas
-	aristocratic_ideas
-	diplomatic_ideas
-	leadership_ideas
-	shinto_ideas
+	trade_ideas
+	meritocratic_ideas
+	offensive_ideas
+	expansion_ideas
+	pluralist_ideas
+	westernized_ideas
 }
 
-historical_units = {
-	early_def_kanto_infantry
-	early_off_kanto_cavalry
-	off_kanto_infantry
-	off_kanto_cavalry
-	late_off_kanto_infantry
-	late_off_kanto_cavalry
-	advanced_kanto_infantry
-	advanced_kanto_cavalry
-}
-
-monarch_names = { # Most Monarchs were named with "kage"
-	"Tamekage #0" = 50
-	"Harukage #0" = 50
-	"Kagetora #0" = 50
-	"Kagekatsu #0" = 50
-	"Masakage #0" = 50
-	"Fusanaga #0" = 50
-	"Kagenao #0" = 50
+monarch_names = {
+	"Nagahide #0" = 50
+	"Nagashige #0" = 50
+	"Nagatada #0" = 50
+	"Nagatomo #0" = 50
+	"Nagamasa #0" = 50
+	"Nagamichi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -61,31 +49,23 @@ monarch_names = { # Most Monarchs were named with "kage"
 	"Tsuru #0" = -5
 }
 
-#taken from Nagao, please fix
 leader_names = {
-    Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi Uesugi
-	Naoe Naoe Naoe Naoe Naoe Honjo Honjo Honjo Honjo Honjo
-	Nagao Nagao Nagao Nagao Nagao Amakasu Amakasu Amakasu Amakasu Amakasu
-	Saito Saito Saito Saito Saito Usami Usami Usami Usami Usami
-	Kawada Kawada Kawada Kawada Kawada Jojo Jojo Jojo Jojo Jojo
-	Kitajo Kitajo Kitajo Kitajo Kitajo Yasuda Yasuda Yasuda Yasuda Yasuda
-	Kakizaki Kakizaki Kakizaki Kakizaki Kakizaki Sanponji Sanponji Sanponji Sanponji Sanponji
-	Honma Honma Honma Honma Honma Yamayoshi Yamayoshi Yamayoshi Yamayoshi Yamayoshi
-	Kojima Kojima Kojima Kojima Kojima Maeda Maeda Maeda Maeda Maeda
-	Shibata Shibata Shibata Shibata Shibata Kamiizumi Kamiizumi Kamiizumi Kamiizumi Kamiizumi
-	Irobe Irobe Irobe Irobe Irobe Higuchi Higuchi Higuchi Higuchi Higuchi
-	Takanashi Takanashi Takanashi Takanashi Takanashi Murakami Murakami Murakami Murakami Murakami
-	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Jinbo Jinbo Jinbo Jinbo Jinbo
-	Shiina Shiina Shiina Shiina Shiina Nagano Nagano Nagano Nagano Nagano
-	Numata Numata Numata Numata Numata Wada Wada Wada Wada Wada
-	Obata Obata Obata Obata Obata Yokoze Yokoze Yokoze Yokoze Yokoze
+    Maeda Maeda Maeda Maeda Maeda Maeda Maeda Maeda Maeda Maeda
+	Niwa Niwa Niwa Niwa Niwa Nagahara Nagahara Nagahara Nagahara Nagahara
+	Eguchi Eguchi Eguchi Eguchi Eguchi Nanbu Nanbu Nanbu Nanbu Nanbu
+	Yamaguchi Yamaguchi Yamaguchi Yamaguchi Yamaguchi Toda Toda Toda Toda Toda
+	Takayama Takayama Takayama Takayama Takayama Tsuda Tsuda Tsuda Tsuda Tsuda
+	Gamo Gamo Gamo Gamo Gamo Ukita Ukita Ukita Ukita Ukita
+	Kanamori Kanamori Kanamori Kanamori Kanamori Yokoyama Yokoyama Yokoyama Yokoyama Yokoyama
+	Okumura Okumura Okumura Okumura Okumura Murai Murai Murai Murai Murai
+	Hori Hori Hori Hori Hori Mizoguchi Mizoguchi Mizoguchi Mizoguchi Mizoguchi
 
 }
 
 ship_names = {
 	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
 	"Hitachi Maru"
-	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
 	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
@@ -99,9 +79,9 @@ ship_names = {
 }
 
 army_names = {
-	"Nagao Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Niwa Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Nagao Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Niwa Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

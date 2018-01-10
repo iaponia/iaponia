@@ -6,9 +6,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = UES
-owner = UES
-controller = UES
+add_core = KGA
+controller = KGA
+owner = KGA
 
 culture = shimotsuke_c
 religion = shinto
@@ -21,24 +21,14 @@ base_manpower = 3
 
 trade_goods = rice
 
-
-1449.8.1 = {
-    add_core = KGA
-    controller = KGA
-    owner = KGA
-    remove_core = UES
-}
-1561.5.30 = {
-    owner = UES
-    controller = UES
-}
-1563.2.4 = {
-    owner = KGA
-    controller = KGA
-}
-1576.1.1 = {
-    owner = HJO
-    controller = HJO
-    add_core = HJO
+1554.3.1 = {
+	add_core = YUK
+    owner = YUK
+    controller = YUK
 }
 
+1600.9.13 = {
+	add_core = GAM
+    owner = GAM
+    controller = GAM
+}

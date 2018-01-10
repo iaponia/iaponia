@@ -1,6 +1,18 @@
 government = kokujin_monarchy
-government_rank = 2
-primary_culture = esshu_c
+government_rank = 1
+primary_culture = iwafune_c
 religion = shinto
 technology_group = togoku
-capital =
+capital = 559
+
+1600.9.13 = {
+	monarch = {
+		name = "Hidekatsu"
+		dynasty = "Mizoguchi"
+		birth_date = 1548.1.1
+		death_date = 1610.11.13
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

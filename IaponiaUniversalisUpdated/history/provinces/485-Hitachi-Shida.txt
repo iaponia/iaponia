@@ -21,5 +21,8 @@ base_manpower = 3
 
 trade_goods = rice
 
-
-
+1600.9.13 = {
+	owner = TKG
+    controller = TKG
+    add_core = TKG
+}

@@ -21,10 +21,20 @@ base_manpower = 3
 
 trade_goods = fish
 
+1546.5.19 = {
+	add_core = NNB
+	owner = NNB
+	controller = NNB
+}
 
-1571.1.1 = {
+1582.6.21 = {
     owner = OUR
     controller = OUR
     add_core = OUR
 }
 
+1600.9.13 = {
+	owner = TSU
+    controller = TSU
+    add_core = TSU
+}

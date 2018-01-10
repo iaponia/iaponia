@@ -20,6 +20,3 @@ base_production = 4
 base_manpower = 4
 
 trade_goods = sake
-
-
-

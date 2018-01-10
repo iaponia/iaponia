@@ -30,6 +30,12 @@ trade_goods = seaweed
 }
 
 1582.6.21 = {
+    add_core = HSB
+    owner = HSB
+    controller = HSB
+}
+
+1600.9.13 = {
     add_core = NNJ
     owner = NNJ
     controller = NNJ

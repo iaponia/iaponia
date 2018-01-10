@@ -78,7 +78,6 @@ chugoku_region = {
 		takata_area
 		okubingo_area
 		mitsugi_area
-		inaba_area
 		hoki_area
 		katsuta_area
 		mashima_area

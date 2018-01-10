@@ -65,7 +65,7 @@ capital = 371	# Kaito
 	add_ruler_personality = humble_personality
 	add_heir_personality = cunning_personality
 	add_heir_personality = gracious_personality
-	add_heir_personality = xenophile_personality
+	add_heir_personality = xenophilic_personality
 	add_heir_personality = artistic_personality
 }
 

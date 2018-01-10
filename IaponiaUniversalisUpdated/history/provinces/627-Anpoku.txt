@@ -6,8 +6,8 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = AKT
-owner = AKT
+add_core = ATK
+owner = ATK
 controller = ATK
 
 culture = aki_c

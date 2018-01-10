@@ -5,7 +5,7 @@ religion = shinto
 technology_group = saigoku
 capital = 200	# Tetta
 	
-1467.6.15 = { 
+1467.6.15 = {
 	monarch = {
 		name = "Tsunenao"
 		dynasty = "Niimi"
@@ -26,7 +26,8 @@ capital = 200	# Tetta
 		dip = 3
 		mil = 3
 	}
-	
+}
+
 1493.6.9 = {
 	monarch = {
 		name = "Takanao"

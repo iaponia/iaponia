@@ -7,7 +7,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = IYN
-add_core = TGM
 owner = IYN
 controller = IYN
 

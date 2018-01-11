@@ -1703,7 +1703,7 @@ western_quarter = {
 	time = 40
 	trigger = {
 		AND = {
-			has_institution = western_trade
+			western_trade_i = 100
 			has_province_modifier = center_of_trade_modifier
 			has_port = yes
 		}

@@ -1,7 +1,7 @@
 bookmark =
 {
-	name = "ALLIANCE_JAP"
-	desc = "ALLIANCE_DESC"
+	name = "ALLIANCE_BM_JAP"
+	desc = "ALLIANCE_BM_DESC"
 	date = 1554.3.1
 	
 	country = KOD

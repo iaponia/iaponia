@@ -1,0 +1,26 @@
+namespace = mercantilism_events
+
+# Sample event for changing mercantilism
+country_event = {
+	id = mercantilism_events.31
+	title = "mercantilism_events.31.t"
+	desc = "mercantilism_events.31.d"
+	picture = FAMINE_eventPicture
+
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	# Open markets
+	option = {
+		name = "mercantilism_events.31.a"
+		add_mercantilism = -10
+	}
+
+	# Close markets
+	option = {
+		name = "mercantilism_events.31.b"
+		add_mercantilism = 10
+	}
+}

@@ -15,12 +15,12 @@ country_event = {
 	# Open markets
 	option = {
 		name = "mercantilism_events.31.a"
-		add_mercantilism = -10
+		add_mercantilism = -12.5
 	}
 
 	# Close markets
 	option = {
 		name = "mercantilism_events.31.b"
-		add_mercantilism = 10
+		add_mercantilism = 12.5
 	}
 }

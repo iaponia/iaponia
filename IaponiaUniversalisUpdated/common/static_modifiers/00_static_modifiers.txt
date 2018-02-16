@@ -185,6 +185,8 @@ mild_winter = {
 normal_winter = {
 	local_hostile_attrition = 2
 	supply_limit_modifier = -0.2
+	local_hostile_movement_speed = -0.15
+	local_friendly_movement_speed = -0.15
 
 	picture = "winter_normal"
 }
@@ -192,13 +194,14 @@ normal_winter = {
 severe_winter = {
 	local_hostile_attrition = 3
 	supply_limit_modifier = -0.3
+	local_hostile_movement_speed = -0.3
+	local_friendly_movement_speed = -0.3
 
 	picture = "winter_severe"
 }
 
 blockaded = {
-	regiment_recruit_speed = 0.2
-	ship_recruit_speed = 0.2
+	ship_recruit_speed = 0.5
 	trade_goods_size_modifier = -0.5
 	province_trade_power_modifier = -0.75
 	local_monthly_devastation = 0.1
@@ -300,12 +303,7 @@ non_core = {
 }
 
 march_bonus = {
-	global_manpower_modifier = 0.25
-	land_forcelimit_modifier = 0.30
-	naval_forcelimit_modifier = 0.30
-	defensiveness = 0.2
-	fort_maintenance_modifier = -0.20
-	manpower_recovery_speed = 0.20
+	
 }
 
 same_culture_group = {
@@ -328,9 +326,9 @@ accepted_culture_demoted = {
 
 # Special modifier to the above, for non-tribal republics
 non_accepted_culture_republic = {
-	local_tax_modifier = 0.1
-	local_manpower_modifier = 0.1
-	local_sailors_modifier = 0.05
+	local_tax_modifier = 0.13
+	local_manpower_modifier = 0.13
+	local_sailors_modifier = 0.1
 	local_unrest = -0.5
 }
 
@@ -341,7 +339,6 @@ occupied = {
 	local_manpower_modifier = -0.5
 	local_sailors_modifier = -0.5
 	local_institution_spread = -0.1
-	
 	local_monthly_devastation = 0.2
 }
 
@@ -349,26 +346,30 @@ under_siege = {
 	trade_goods_size_modifier = -0.25
 	province_trade_power_modifier = -0.25
 	local_institution_spread = -0.1
-
 	local_monthly_devastation = 0.1
 }
 
 
 devastation = {
-	trade_goods_size_modifier = -1
-	supply_limit_modifier = -0.5
+	local_autonomy = 0.25
+	local_development_cost = 0.25
 	local_institution_spread = -1.0
-	local_development_cost = 0.1
+	local_tax_modifier = -0.75
 	local_manpower_modifier = -1.0
 	local_sailors_modifier = -1.0
+	local_production_efficiency = -0.75
+	province_trade_power_modifier = -0.75
+	trade_goods_size_modifier = -0.75
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
+	supply_limit_modifier = -0.5
 }
 
 prosperity = {
 	local_development_cost = -0.1
+	local_institution_spread = 0.1
+	local_tax_modifier = 0.25
 	trade_goods_size_modifier = 0.25
-	local_autonomy = -0.05
 }
 
 slaves_raided = {
@@ -384,8 +385,7 @@ tolerance = {
 # Multiplied with negative religious tolerance
 intolerance = {
 	local_unrest = -1.25
-	local_tax_modifier = 0.1
-	trade_goods_size_modifier = 0.10
+	local_institution_spread = -0.15
 }
 
 unrest = {
@@ -427,7 +427,6 @@ friendly_regiments = {
 
 active_missionary = {
 	local_unrest = 6					# 6% revolt risk!
-	local_institution_spread = -0.10
 }
 
 # Core province of the owner's culture group, while fighting a defensive war
@@ -464,7 +463,7 @@ scorched_earth = {
 ##########################################################################
 
 base_values = {
-	max_absolutism = 65
+	max_absolutism = 50
 	merc_maintenance_modifier = 1.5
 	merchants = 2							#Start with 2 merchants
 	diplomats = 2							#Start with 2 diplomats..
@@ -472,9 +471,9 @@ base_values = {
 	army_tradition_decay = 0.05				#lose 5% yearly
 	navy_tradition_decay = 0.05				#lose 5% yearly
 	prestige_decay = 0.05					#lose 5% prestige each year
-	tolerance_own = 3
+	tolerance_own = 2
 	diplomatic_upkeep = 4
-	tolerance_heathen = -3
+	tolerance_heathen = -2
 	tolerance_heretic = -2
 	mercenary_cost = 0.5
 	global_missionary_strength = 0.02
@@ -492,7 +491,7 @@ base_values = {
 	num_accepted_cultures = 2
 	monthly_splendor = 1
 	artillery_bonus_vs_fort = 5
-	cav_to_inf_ratio = 0.5
+	cav_to_inf_ratio = 0.3
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -505,39 +504,41 @@ ai_nation = {
 
 
 war_taxes = {
-	land_maintenance_modifier = -0.20
-	naval_maintenance_modifier = -0.20
-	possible_mercenaries = 0.05
+	land_maintenance_modifier = -0.25
+	naval_maintenance_modifier = -0.25
+	fort_maintenance_modifier = -0.25
+	war_exhaustion = 0.05
 }
 
 stability = {
-	global_trade_power = 0.01			#1% chance each step.
-	global_spy_defence = 0.05				#-15 to +15% modifier
+	global_spy_defence = 0.1
+	global_tax_modifier = 0.1
+	global_missionary_strength = 0.01
+	global_trade_goods_size_modifier = 0.05
+	global_autonomy = -0.025
+	reduced_liberty_desire = 5
+	legitimacy = 0.5
+	devotion = 0.5
+	republican_tradition = 0.25
 }
 
 positive_stability = {
-	global_unrest = -1					#-1% revolt risk each step
-	global_tax_modifier = 0.05
-	global_missionary_strength = 0.005
-	temples_influence = 0.02
-	mr_aristocrats_influence = 0.03
-	rr_jacobins_influence = 0.03
-	stability_cost_modifier = 0.50
-	monthly_fervor_increase = 1
-	devotion = 0.5
-	yearly_corruption = -0.02
-	global_institution_spread = 0.05
-	yearly_harmony = 0.25
+	global_unrest = -2
+	yearly_corruption = -0.025
+	development_cost = -0.1
+	state_maintenance_modifier = -0.1
+	manpower_recovery_speed = 0.05
+	devastation = -0.05
+	stability_cost_modifier = 1
 }
 
 negative_stability = {
-	global_unrest = -2					#-1% EXTRA revolt risk each step
-	legitimacy = 1
-	interest = -1
-	migration_cooldown = 0.1
-	devotion = 1
-	caravan_power = 0.05
-	monthly_militarized_society = -0.05
+	global_unrest = -3
+	yearly_absolutism = 1
+	yearly_corruption = 0.1
+	inflation_reduction = 0.25
+	army_tradition = 0.5 
+	devastation = -0.05
 }
 
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
@@ -585,6 +586,7 @@ inflation = {
 	advisor_cost = 0.01						#1% for each inflation step
 	mercenary_cost = 0.01					#1% for each inflation step
 	fort_maintenance_modifier = 0.01		#1% for each inflation step
+	embracement_cost = 0.01 				#1% for each inflation step
 }
 
 bankruptcy = {
@@ -632,17 +634,17 @@ call_for_peace = {
 
 war_exhaustion = {
 	global_unrest = 1
-	global_regiment_recruit_speed = 0.02
-	global_ship_recruit_speed = 0.02
+	global_autonomy = 0.00125
 	core_creation = 0.03
-	temples_influence = -0.05
-	mr_aristocrats_influence = -0.05
-	rr_girondists_influence = -0.05
-	rr_royalists_influence = 0.05
-	manpower_recovery_speed = -0.01
-	sailors_recovery_speed = -0.01
+	stability_cost_modifier = 0.03
+	global_regiment_cost = 0.0125
+	global_ship_cost = 0.0125
+	reinforce_speed = 0.025	
+	global_regiment_recruit_speed = 0.05
+	global_ship_recruit_speed = 0.05
+	manpower_recovery_speed = -0.0125
+	sailors_recovery_speed = -0.0125
 	siege_ability = -0.01
-	global_trade_goods_size_modifier = -0.02
 }
 
 doom = {
@@ -672,19 +674,14 @@ trade_refusal = {
 }
 
 mercantilism = {
-	global_prov_trade_power_modifier = 0.02
-	embargo_efficiency = 0.005
+
 }
 
 army_tradition = {
 	recover_army_morale_speed = 0.1
 	land_morale = 0.25
-	manpower_recovery_speed = 0.1
-	siege_ability = 0.05
-	temples_influence = 0.1
-	mr_aristocrats_influence = 0.1
-	rr_girondists_influence = 0.1
-	monthly_militarized_society = 0.1
+	drill_gain_modifier = 0.5
+	drill_decay_modifier = -0.5
 }
 
 navy_tradition = {
@@ -692,8 +689,6 @@ navy_tradition = {
 	naval_morale = 0.25
 	trade_steering = 1.0
 	privateer_efficiency = 0.25
-	enuchs_influence = 0.1
-	mr_traders_influence = 0.1
 	blockade_efficiency = 1
 	sailors_recovery_speed = 0.1
 }
@@ -712,15 +707,12 @@ negative_piety = { #As of 1.23 Mysticism
 }
 
 defender_of_faith = {
-	land_morale = 0.05
-	naval_morale = 0.05
-	technology_cost = 0.05
-	war_exhaustion = -0.025					#quicker recovery
-	papal_influence = 1
-	prestige = 1							#1% extra prestige yearly
-	missionaries = 1
-	devotion = 0.5
-
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	church_power_modifier = 0.25
+	fire_damage = 0.1
+	development_cost = -0.1
+	trade_efficiency = 0.1
 }
 
 emperor = {
@@ -781,13 +773,13 @@ tribal_allegiance = {
 
 # Multiplied by current Legitimacy - 50
 legitimacy = {
-	global_unrest = -4
-	tolerance_own = 2
-	tolerance_heathen = 2
-	tolerance_heretic = 2
+	global_unrest = -1
+	tolerance_own = 1
+	tolerance_heathen = 1
+	tolerance_heretic = 1
 	diplomatic_reputation = 2
-	vassal_income = 0.1
-	monthly_militarized_society = 0.05
+	reduced_liberty_desire = 5
+	vassal_income = 0.25
 	max_absolutism = 20
 }
 
@@ -800,10 +792,11 @@ horde_unity = {
 
 # Multiplied by current Devotion - 50
 devotion = {
-	papal_influence = 2
-	church_power_modifier = 0.25
-	prestige = 2
-	global_tax_modifier = 0.50
+	tolerance_own = 3
+	advisor_cost = -0.25
+	global_tax_modifier = 0.25
+	religious_conversion_resistance = 0.5
+	max_absolutism = 10
 }
 
 # Multiplied by current meritocracy - 50
@@ -887,17 +880,16 @@ over_extension = {
 }
 
 prestige = {
-	global_trade_power = 0.15			#+15/-15 total bonus from prestige.
 	land_morale = 0.1
 	naval_morale = 0.1
-	global_spy_defence = 0.1				#+10/-10
-	mercenary_cost = -0.33					#-33 to +33%
-	legitimacy = 1.0
-	improve_relation_modifier = 0.5
-	monthly_fervor_increase = 1
+	mercenary_cost = -0.33
+	reinforce_speed = 0.25
 	ae_impact = -0.10
-	embracement_cost = -0.1
-
+	fabricate_claims_cost = -0.25
+	improve_relation_modifier = 0.5
+	diplomatic_annexation_cost = -0.1
+	legitimacy = 1
+	advisor_cost = -0.15
 }
 
 no_debate_in_parliament = {
@@ -907,12 +899,14 @@ no_debate_in_parliament = {
 
 republican_tradition = {
 	global_unrest = -2
-	rr_jacobins_influence = 0.1
+	army_tradition = 1
+	development_cost = -0.1
+	advisor_cost = -0.25
 }
 
 inverse_republican_tradition = {
-	stability_cost_modifier = 2.0
-	rr_jacobins_influence = -0.1
+	yearly_corruption = 0.15
+	state_maintenance_modifier = 1.5
 }
 
 
@@ -928,8 +922,8 @@ curia_controller = {
 }
 
 religious_unity = {
-	monthly_fervor_increase = 1
 	max_absolutism = 5
+	prestige = 1
 }
 
 inverse_religious_unity = {
@@ -937,7 +931,7 @@ inverse_religious_unity = {
 	global_unrest = 3
 	church_power_modifier = -1
 	devotion = -1
-	yearly_corruption = 0.1
+	legitimacy = -1
 }
 
 total_occupation = {
@@ -1015,24 +1009,29 @@ absolutism = {
 	discipline = 0.05
 	manpower_recovery_speed = 0.1
 	administrative_efficiency = 0.25
+	global_autonomy = -0.1
 	global_tax_modifier = 0.1
 	legitimacy = -0.5
 	republican_tradition = -0.25
 	devotion = -0.5
-	stability_cost_modifier = 0.2
+	development_cost = 0.1
+	stability_cost_modifier = 0.25
 	possible_mercenaries = -0.5
 	state_maintenance_modifier = 0.5
 }
 
 low_army_professionalism = {
-	mercenary_cost = -0.15
-	possible_mercenaries = 0.15
+	mercenary_discipline = 0.1
+	mercenary_cost = -0.25
+	merc_maintenance_modifier = -0.25
+	loot_amount = 0.25
 }
 
 high_army_professionalism = {
-	fire_damage = 0.1
-	shock_damage = 0.1
-	siege_ability = 0.2
+	army_tradition_decay = -0.01
+	manpower_recovery_speed = 0.1
+	movement_speed = 0.25
+	siege_ability = 0.25
 }
 
 streltsy_modifier = {
@@ -1040,18 +1039,18 @@ streltsy_modifier = {
 }
 
 power_projection = {
-	defensiveness = 0.1
-	global_trade_power = 0.2
-	prestige = 0.5
-	land_morale = 0.1
-	naval_morale = 0.1
-	legitimacy = 0.5
-	devotion = 0.5
-	horde_unity = 0.5
-	republican_tradition = 0.2
+	prestige = 1
+	army_tradition = 1
+	navy_tradition = 1
+	legitimacy = 1
+	devotion = 1
+	republican_tradition = 1
 }
 
 power_projection_25 = {
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+	advisor_pool = 1
 	free_leader_pool = 1
 }
 
@@ -1184,6 +1183,7 @@ revolution_target = {
 
 dishonoured_alliance =  {
 	diplomatic_reputation = -1
+	yearly_corruption = 0.05
 }
 
 drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
@@ -1199,7 +1199,8 @@ recruitment_sabotaged = {
 }
 
 merchants_slandered = {
-	global_trade_power = -0.1
+	global_trade_power = -0.2
+	trade_steering = -0.2
 }
 
 discontent_sowed = {
@@ -1216,7 +1217,7 @@ reputation_sabotaged = {
 }
 
 corrupt_officials = {
-	yearly_corruption = 0.1
+	yearly_corruption = 0.25
 }
 
 scaled_trade_league_leader = { #scaled by number of members
@@ -1525,14 +1526,14 @@ zaidi_scholar_modifier = {
 # Regiment Types Modifiers
 ########################################
 regiment_drill_modifier = { # Used by individual regiments
-	shock_damage = 0.1
-	fire_damage = 0.1
-	fire_damage_received = -0.1
-	shock_damage_received = -0.1
+	shock_damage = 0.2
+	fire_damage = 0.2
+	fire_damage_received = -0.2
+	shock_damage_received = -0.2
 }
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
-	movement_speed = 0.2
+	
 }
 
 janissary_regiment = {

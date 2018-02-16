@@ -3,12 +3,141 @@
 #
 # Effects are fully scriptable here.
 # removed
-submission_to_emperor = {
+
+no_mercantilism = {
 	potential = {
-		always = no
+		always = yes
 	}
 
 	trigger = {
-		always = no
+		mercantilism = 0
 	}
+	
+	technology_cost = -0.15
+	global_foreign_trade_power = 0.25
+	development_cost = -0.2
+	ship_power_propagation = 0.2
+	trade_efficiency = -0.1
+	embargo_efficiency = -0.25
+	global_spy_defence = -0.3
+}
+
+little_mercantilism = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		mercantilism = 12.5
+	}
+	
+	technology_cost = -0.1
+	global_foreign_trade_power = 0.15
+	development_cost = -0.1
+	embargo_efficiency = -0.15
+	global_spy_defence = -0.2
+}
+
+low_mercantilism = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		mercantilism = 25
+	}
+	
+	technology_cost = -0.05
+	global_foreign_trade_power = 0.1
+	development_cost = -0.05
+	embargo_efficiency = -0.1
+	global_spy_defence = -0.15
+}
+
+less_mercantilism = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		mercantilism = 37.5
+	}
+	
+	technology_cost = -0.05
+	global_foreign_trade_power = 0.1
+	embargo_efficiency = -0.1
+}
+
+average_mercantilism = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		mercantilism = 50
+	}
+}
+
+more_mercantilism = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		mercantilism = 62.5
+	}
+	
+	trade_efficiency = 0.05
+	embargo_efficiency = 0.1
+	global_foreign_trade_power = -0.1
+}
+
+high_mercantilism = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		mercantilism = 75
+	}
+	
+	trade_efficiency = 0.05
+	embargo_efficiency = 0.1
+	global_spy_defence = 0.15
+	global_foreign_trade_power = -0.1
+	development_cost = 0.05
+}
+
+much_mercantilism = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		mercantilism = 87.5
+	}
+	
+	trade_efficiency = 0.1
+	embargo_efficiency = 0.15
+	global_spy_defence = 0.2
+	global_foreign_trade_power = -0.15
+	development_cost = 0.1
+}
+
+absolute_mercantilism = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		mercantilism = 100
+	}
+	
+	trade_efficiency = 0.15
+	embargo_efficiency = 0.25
+	global_spy_defence = 0.3
+	global_trade_goods_size_modifier = 0.1
+	global_foreign_trade_power = -0.25
+	development_cost = 0.2
+	technology_cost = 0.1
 }

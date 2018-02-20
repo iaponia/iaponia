@@ -13,7 +13,7 @@ no_mercantilism = {
 		mercantilism = 0
 		not = { mercantilism = 1 }
 	}
-	
+
 	technology_cost = -0.15
 	global_foreign_trade_power = 0.25
 	development_cost = -0.2
@@ -32,7 +32,7 @@ little_mercantilism = {
 		mercantilism = 12.5
 		not = { mercantilism = 13 }
 	}
-	
+
 	technology_cost = -0.1
 	global_foreign_trade_power = 0.15
 	development_cost = -0.1
@@ -49,7 +49,7 @@ low_mercantilism = {
 		mercantilism = 25
 		not = { mercantilism = 25.5 }
 	}
-	
+
 	technology_cost = -0.05
 	global_foreign_trade_power = 0.1
 	development_cost = -0.05
@@ -66,7 +66,7 @@ less_mercantilism = {
 		mercantilism = 37.5
 		not = { mercantilism = 38 }
 	}
-	
+
 	technology_cost = -0.05
 	global_foreign_trade_power = 0.1
 	embargo_efficiency = -0.1
@@ -81,6 +81,8 @@ average_mercantilism = {
 		mercantilism = 50
 		not = { mercantilism = 50.5 }
 	}
+
+	global_foreign_trade_power = 0.025
 }
 
 more_mercantilism = {
@@ -92,7 +94,7 @@ more_mercantilism = {
 		mercantilism = 62.5
 		not = { mercantilism = 63 }
 	}
-	
+
 	trade_efficiency = 0.05
 	embargo_efficiency = 0.1
 	global_foreign_trade_power = -0.1
@@ -107,7 +109,7 @@ high_mercantilism = {
 		mercantilism = 75
 		not = { mercantilism = 75.5 }
 	}
-	
+
 	trade_efficiency = 0.05
 	embargo_efficiency = 0.1
 	global_spy_defence = 0.15
@@ -124,7 +126,7 @@ much_mercantilism = {
 		mercantilism = 87.5
 		not = { mercantilism = 88 }
 	}
-	
+
 	trade_efficiency = 0.1
 	embargo_efficiency = 0.15
 	global_spy_defence = 0.2
@@ -140,7 +142,7 @@ absolute_mercantilism = {
 	trigger = {
 		mercantilism = 100
 	}
-	
+
 	trade_efficiency = 0.15
 	embargo_efficiency = 0.25
 	global_spy_defence = 0.3

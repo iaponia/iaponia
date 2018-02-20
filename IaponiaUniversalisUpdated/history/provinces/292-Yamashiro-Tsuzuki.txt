@@ -6,9 +6,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = HSK
-owner = HSK
-controller = HSK
+add_core = ASK
+owner = ASK
+controller = ASK
 
 culture = yamashiro_c
 religion = shinto
@@ -28,20 +28,9 @@ trade_goods = paper
 }
 
 1511.9.25 = {
-	add_core = OUC
-    controller = OUC
-    owner = OUC
-}
-
-1523.8.25 = {
-	controller = HSK
-    owner = HSK
-}
-
-1554.3.1 = {
-    add_core = MYI
-    controller = MYI
-    owner = MYI
+	add_core = ASK
+    controller = ASK
+    owner = ASK
 }
 
 1569.10.10 = {

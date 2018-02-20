@@ -6,9 +6,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = HSK
-owner = HSK
-controller = HSK
+add_core = ASK
+owner = ASK
+controller = ASK
 
 culture = yamashiro_c
 religion = shinto
@@ -20,29 +20,6 @@ base_production = 5
 base_manpower = 3
 
 trade_goods = pottery
-
-1511.9.25 = {
-	add_core = OUC
-    controller = OUC
-    owner = OUC
-}
-
-1523.8.25 = {
-	controller = HSK
-    owner = HSK
-}
-
-1554.3.1 = {
-    add_core = MYI
-    controller = MYI
-    owner = MYI
-}
-
-1569.10.10 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
-}
 
 1582.6.21 = {
 	add_core = AKC

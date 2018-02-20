@@ -288,3 +288,5 @@ AMM = "countries/Amami.txt"
 CHZ = "countries/Chuzan.txt"
 HKZ = "countries/Hokuzan.txt"
 NNZ = "countries/Nanzan.txt"
+
+ASK = "countries/Ashikaga.txt"

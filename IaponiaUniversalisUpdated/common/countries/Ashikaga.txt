@@ -1,0 +1,112 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 245 245 245 }
+
+historical_idea_groups = {
+	aristocratic_ideas
+	influence_ideas
+	administrative_ideas
+	diplomatic_ideas
+	pluralist_ideas
+	leadership_ideas
+}
+
+historical_units = {
+	early_off_kansai_infantry
+	early_def_kansai_cavalry
+	off_kansai_infantry
+	off_kansai_cavalry
+	late_def_kansai_infantry
+	late_def_kansai_cavalry
+	advanced_kansai_infantry
+	advanced_kansai_cavalry
+}
+
+monarch_names = { #Most Monarchs were named with "Yoshi"
+	"Yoshiteru #0" = 25
+	"Yoshiaki #0" = 25
+	"Yoshimi #0" = 25
+	"Yoshiharu #0" = 25
+	"Yoshitane #0" = 25
+	"Yoshiki #0" = 25
+	"Yoshitaka #0" = 25
+	"Yoshinori #0" = 25
+	"Yoshizumi #0" = 25
+	"Yoshimasa #0" = 25
+	"Yoshihide #0" = 25
+	"Yoshihisa #0" = 25
+	"Yoshitsuna #0" = 25
+    "Yoshikatsu #0" = 25
+	"Yoshikazu #0" = 25
+	"Yoshimochi #0" = 25
+	"Yoshiakira #0" = 25
+	"Yoshimitsu #0" = 25
+    "Yoshikane #0" = 25
+	"Yoshinaga #0" = 25
+	"Yoshishige #0" = 25
+	"Toku #0" = -5
+	"Sen #0" = -5
+	"Tama #0" = -5
+	"Aya #0" = -5
+	"Komatsu #0" = -5
+	"Ginchiyo #0" = -5
+	"Fuyu #0" = -5
+	"Matsu #0" = -5
+	"Naotora #0" = -5
+	"Ichi #0" = -5
+	"Chacha #0" = -5
+	"Go #0" = -5
+	"Hatsu #0" = -5
+	"Ne #0" = -5
+	"Myorin #0" = -5
+	"Hikotsuru #0" = -5
+	"Nana #0" = -5
+	"Kicho #0" = -5
+	"Myokyu #0" = -5
+	"Kai #0" = -5
+	"Osen #0" = -5
+	"Yoshi #0" = -5
+	"Sena #0" = -5
+	"Chiyo #0" = -5
+	"Tsuru #0" = -5
+}
+
+leader_names = {
+    Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga
+	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Isshiki Isshiki Isshiki Isshiki Isshiki
+	Shiba Shiba Shiba Shiba Shiba Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama
+	Wada Wada Wada Wada Wada Ise Ise Ise Ise Ise
+	Yanagisawa Yanagisawa Yanagisawa Yanagisawa Yanagisawa Ninagawa Ninagawa Ninagawa Ninagawa Ninagawa
+	Kusunoki Kusunoki Kusunoki Kusunoki Kusunoki Mitsubuchi Mitsubuchi Mitsubuchi Mitsubuchi Mitsubuchi
+	Kutsuki Kutsuki Kutsuki Kutsuki Kutsuki Odate Odate Odate Odate Odate
+	Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku
+	Ouchi Ouchi Ouchi Ouchi Ouchi Asakura Asakura Asakura Asakura Asakura
+	Mori Mori Mori Mori Mori Otomo Otomo Otomo Otomo Otomo
+	Uesugi Uesugi Uesugi Uesugi Uesugi Takeda Takeda Takeda Takeda Takeda
+}
+
+ship_names = {
+	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
+	"Hitachi Maru"
+	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
+	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
+	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
+	"Kishu Maru" "Iga Maru" "Sanuki Maru" "Tosa Maru"
+	"Iyo Maru" "Harima Maru" "Banshu Maru"
+	"Hoki Maru" "Inaba Maru" "Bizen Maru" "Mimasaka Maru" "Binshu Maru"
+	"Bingo Maru" "Bittchu Maru" "Aki Maru" "Izumo Maru" "Iwami Maru" "Suou Maru" "Nagato Maru" "Bungo Maru"
+	"Buzen Maru" "Chikuzen Maru"
+	"Chikugo Maru" "Hizen Maru" "Higo Maru" "Chikushu Maru" "Hyuga Maru" "Osumi Maru" "Satsuma Maru" "Sasshu Maru"
+}
+
+army_names = {
+	"Ashikaga Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+}
+
+fleet_names = {
+	"Ashikaga Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+}

@@ -773,13 +773,13 @@ tribal_allegiance = {
 
 # Multiplied by current Legitimacy - 50
 legitimacy = {
-	global_unrest = -1
-	tolerance_own = 1
-	tolerance_heathen = 1
-	tolerance_heretic = 1
+	global_unrest = -2
+	tolerance_own = 2
+	tolerance_heathen = 2
+	tolerance_heretic = 2
 	diplomatic_reputation = 2
-	reduced_liberty_desire = 5
-	vassal_income = 0.25
+	reduced_liberty_desire = 10
+	vassal_income = 0.5
 	max_absolutism = 20
 }
 
@@ -792,10 +792,10 @@ horde_unity = {
 
 # Multiplied by current Devotion - 50
 devotion = {
-	tolerance_own = 3
-	advisor_cost = -0.25
-	global_tax_modifier = 0.25
-	religious_conversion_resistance = 0.5
+	tolerance_own = 4
+	advisor_cost = -0.5
+	global_tax_modifier = 0.5
+	religious_conversion_resistance = 1
 	max_absolutism = 10
 }
 

@@ -161,11 +161,11 @@ kinai_c = {
 	graphical_culture = asiangfx
 
 	yamashiro_c = { #Kyoto #Yamashiro
-		primary = HSK
+		primary = ASK
 		dynasty_names = { Ashikaga Hosokawa Mitsubuchi Isshiki Wada Ninagawa Yanagisawa Ise Kusunoki }
 	}
 	yamato_c = { #Yamato #Yoshino #Katsuge
-		primary = MNA
+		primary = TTI
 		dynasty_names = { Matsunaga Yuki Tsutsui Yagyu Shima Matsukura Tochi Ochi }
 	}
 	sesshu_c = { #Settsu #Osaka #Izumi

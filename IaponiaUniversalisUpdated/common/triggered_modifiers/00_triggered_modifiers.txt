@@ -11,6 +11,7 @@ no_mercantilism = {
 
 	trigger = {
 		mercantilism = 0
+		not = { mercantilism = 1 }
 	}
 	
 	technology_cost = -0.15
@@ -29,6 +30,7 @@ little_mercantilism = {
 
 	trigger = {
 		mercantilism = 12.5
+		not = { mercantilism = 13 }
 	}
 	
 	technology_cost = -0.1
@@ -45,6 +47,7 @@ low_mercantilism = {
 
 	trigger = {
 		mercantilism = 25
+		not = { mercantilism = 25.5 }
 	}
 	
 	technology_cost = -0.05
@@ -61,6 +64,7 @@ less_mercantilism = {
 
 	trigger = {
 		mercantilism = 37.5
+		not = { mercantilism = 38 }
 	}
 	
 	technology_cost = -0.05
@@ -75,6 +79,7 @@ average_mercantilism = {
 
 	trigger = {
 		mercantilism = 50
+		not = { mercantilism = 50.5 }
 	}
 }
 
@@ -85,6 +90,7 @@ more_mercantilism = {
 
 	trigger = {
 		mercantilism = 62.5
+		not = { mercantilism = 63 }
 	}
 	
 	trade_efficiency = 0.05
@@ -99,6 +105,7 @@ high_mercantilism = {
 
 	trigger = {
 		mercantilism = 75
+		not = { mercantilism = 75.5 }
 	}
 	
 	trade_efficiency = 0.05
@@ -115,6 +122,7 @@ much_mercantilism = {
 
 	trigger = {
 		mercantilism = 87.5
+		not = { mercantilism = 88 }
 	}
 	
 	trade_efficiency = 0.1

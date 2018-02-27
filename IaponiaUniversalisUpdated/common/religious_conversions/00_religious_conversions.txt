@@ -7,7 +7,7 @@ propagate_religion_policy = {
 
 	map_icon = GFX_religious_conversion_center_trading_policy
 
-	base_conversion_speed = 2.0
+	base_conversion_speed = 0.75
 	
 	target_province_weights = {
 	
@@ -26,7 +26,7 @@ propagate_religion_policy = {
 		}
 		modifier = {
 			factor = 0
-			province_id = 118 # Rome, seat of Papacy
+			has_province_modifier = shinto_holy_site
 		}
 		modifier = {
 			factor = 0
@@ -38,23 +38,11 @@ propagate_religion_policy = {
 		}
 		modifier = {
 			factor = 0.25
-			religion_group = muslim
+			religion_group = christian
 		}
 		modifier = {
 			factor = 0.25
 			has_port = no
-		}
-		modifier = {
-			factor = 1.15
-			has_province_modifier = trading_settlement
-		}
-		modifier = {
-			factor = 1.5
-			has_province_modifier = islamic_missionaries
-		}
-		modifier = {
-			factor = 1.5
-			has_province_modifier = muslim_sailor_community
 		}
 		modifier = {
 			factor = 2
@@ -87,12 +75,12 @@ propagate_religion_policy = {
 
 protestant_center_of_reformation = {
 	
-	religion = mahayana
+	religion = jodoshinshu
 
 	map_icon = GFX_religious_conversion_center_protestant
 
 	max_distance = 225.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 5.0
+	base_conversion_speed = 2.5
 
 	target_province_weights = {
 		factor = 5
@@ -116,52 +104,7 @@ protestant_center_of_reformation = {
 		modifier = {
 			factor = 1.5
 			owner = {
-				religion = mahayana
-			}
-		}
-		modifier = {
-			factor = 1.5
-			culture_group = FROM
-		}
-		modifier = {
-			factor = 2
-			culture = FROM
-		}
-	}
-}
-
-reformed_center_of_reformation = {
-
-	religion = catholic
-	
-	map_icon = GFX_religious_conversion_center_protestant
-
-	max_distance = 225.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 5.0
-
-	target_province_weights = {
-		factor = 5
-		
-		modifier = {
-			factor = 0
-			is_empty = yes
-		}
-		modifier = {
-			factor = 0
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 0
-			has_province_modifier = religious_center
-		}
-		modifier = {
-			factor = 0
-			has_province_modifier = religious_zeal_at_conv
-		}
-		modifier = {
-			factor = 1.5
-			owner = {
-				religion = catholic
+				religion = jodoshinshu
 			}
 		}
 		modifier = {

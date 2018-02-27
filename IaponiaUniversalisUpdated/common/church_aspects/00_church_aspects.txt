@@ -1,13 +1,9 @@
-jesuit_missions_aspect = {
-	effect = {
-		development_cost = -0.1
+organize_dioceses_aspect = {
+	effect = { 
+		development_cost = -0.15
 	}
 	ai_will_do = {
 		factor = 15
-		modifier = {
-			factor = 1
-			is_at_war = no
-		}
 	}
 }
 
@@ -19,38 +15,12 @@ found_seminaries_aspect = {
 		factor = 12
 		modifier = {
 			factor = 2
-			NOT = { religious_unity = 0.8 }
+			NOT = { religious_unity = 0.7 }
 		}
 	}
 }
 
-request_armaments_aspect = {
-	effect = { 
-		discipline = 0.05
-	}
-	ai_will_do = {
-		factor = 12
-		modifier = {
-			factor = 2
-			is_at_war = yes
-		}
-	}
-}
-
-organize_dioceses_aspect = {
-	effect = { 
-		prestige = 0.5
-	}
-	ai_will_do = {
-		factor = 12
-		modifier = {
-			factor = 2
-			NOT = { prestige = -40 }
-		}
-	}
-}
-
-patronize_hospitals_aspect = {
+establish_hospitals_aspect = {
 	effect = {
 		manpower_recovery_speed = 0.1
 	}
@@ -68,18 +38,35 @@ patronize_hospitals_aspect = {
 	}
 }
 
-send_envoys_aspect = {
-	effect = { 
-		idea_cost = -0.05
+encourage_dialectics_aspect = {
+	effect = {
+		religious_unity = 0.15
 	}
 	ai_will_do = {
-		factor = 15
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.85 }
+		}
+	}
+}
+
+patronize_iconography_aspect = {
+	effect = { 
+		prestige = 1
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { prestige = -40 }
+		}
 	}
 }
 
 grant_trading_rights_aspect = {
 	effect = { 
-		trade_efficiency = 0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 	ai_will_do = {
 		factor = 17
@@ -94,36 +81,24 @@ grant_trading_rights_aspect = {
 	}
 }
 
-franciscan_monastaries_aspect = {
+import_printing_presses_aspect = {
 	effect = {
-		global_unrest = -1
+		idea_cost = -0.1
 	}
 	ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 2
-			unrest = 2
-		}
-		modifier = {
-			factor = 2
-			num_of_rebel_controlled_provinces = 1
-		}	
+		factor = 15
 	}
 }
 
-import_printing_presses_aspect = {
-	effect = {
-		global_institution_spread = 0.1
+request_armaments_aspect = {
+	effect = { 
+		fire_damage = 0.1
 	}
 	ai_will_do = {
-		factor = 10
+		factor = 12
 		modifier = {
 			factor = 2
-			neighbors_tech_discount = 0.1
-		}
-		modifier = {
-			factor = 2
-			neighbors_tech_discount = 0.2
+			is_at_war = yes
 		}
 	}
 }

@@ -258,19 +258,21 @@ capital_city = {
 
 
 patriarch_state = {
-	local_state_maintenance_modifier = 0.1
-	local_monthly_devastation = -0.05
+	local_unrest = -2
+	local_development_cost = -0.1
+	local_state_maintenance_modifier = 0.5
 }
 
 # Multiplied in provinces of same religion.
 patriarch_authority_local = {
-	local_unrest = -3
-	local_manpower_modifier = 0.33
+	local_manpower_modifier = 0.25
+	regiment_recruit_speed = -0.25
 }
 
 #for the country
 patriarch_authority_global = {
 	global_missionary_strength = 0.02
+	discipline = 0.05
 }
 
 pasha_state = {
@@ -520,6 +522,7 @@ stability = {
 	legitimacy = 0.5
 	devotion = 0.5
 	republican_tradition = 0.25
+	yearly_harmony = 0.5
 }
 
 positive_stability = {
@@ -616,7 +619,6 @@ war = {
 
 peace = {
 	war_exhaustion = -0.1
-	monthly_fervor_increase = 1
 	global_autonomy = -0.1
 	global_institution_spread = 0.1
 	rr_girondists_influence = -0.1
@@ -710,7 +712,7 @@ defender_of_faith = {
 	tolerance_own = 1
 	global_missionary_strength = 0.01
 	church_power_modifier = 0.25
-	fire_damage = 0.1
+	discipline = 0.05
 	development_cost = -0.1
 	trade_efficiency = 0.1
 }
@@ -930,6 +932,7 @@ inverse_religious_unity = {
 	stability_cost_modifier = 1.0		#more expensive to recover stability
 	global_unrest = 3
 	church_power_modifier = -1
+	yearly_harmony = -1
 	devotion = -1
 	legitimacy = -1
 }
@@ -1190,6 +1193,84 @@ drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
 	yearly_army_professionalism = 0.01
 }
 
+########################################
+# Regiment Types Modifiers
+########################################
+regiment_drill_modifier = { # Used by individual regiments
+	shock_damage = 0.2
+	fire_damage = 0.2
+	fire_damage_received = -0.2
+	shock_damage_received = -0.2
+}
+
+army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
+	
+}
+
+########################################
+# Karma
+########################################
+
+karma_just_right = {
+	army_tradition = 1
+	technology_cost = -0.1
+	land_forcelimit_modifier = 0.15
+}
+
+karma_too_high = {
+	diplomatic_reputation = 1
+	rebel_support_efficiency = 0.25
+	development_cost = -0.15
+}
+
+karma_too_low = {
+	hostile_attrition = 1
+	shock_damage_received = -0.1
+	manpower_recovery_speed = 0.15
+}
+
+########################################
+# Harmony
+########################################
+
+high_harmony = {
+	advisor_cost = -0.25
+}
+
+low_harmony = {
+	legitimacy = -1
+	prestige = -1
+	global_unrest = 2
+	stability_cost_modifier = 0.25
+}
+
+########################################
+# Religious Schools
+########################################
+jesuit_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	merchants = 1
+}
+
+franciscan_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	missionaries = 1
+}
+
+dominican_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	diplomats = 1
+}
+
 ##################################################################################################
 # Scripted and used from Diplomatic System
 ##################################################################################################
@@ -1289,31 +1370,6 @@ divert_trade = {
 }
 
 ########################################
-# Karma
-########################################
-
-karma_just_right =
-{
-	ae_impact = -0.1
-	technology_cost = -0.1
-	core_creation = -0.1
-}
-
-karma_too_high =
-{
-	diplomatic_reputation = 1
-	rebel_support_efficiency = 0.25
-	development_cost = -0.2
-}
-
-karma_too_low =
-{
-	land_morale = 0.1
-	shock_damage_received = -0.1
-	hostile_attrition = 1
-}
-
-########################################
 # Bear
 ########################################
 
@@ -1347,21 +1403,6 @@ native_policy_trade = {
 
 native_policy_hostile = {
 	global_colonial_growth = 20
-}
-
-########################################
-# Harmony
-########################################
-
-high_harmony = {
-	tolerance_own = 1
-}
-
-low_harmony = {
-	tolerance_own = -3
-	development_cost = 0.25
-	legitimacy = -1
-	meritocracy = -2
 }
 
 ########################################
@@ -1458,87 +1499,4 @@ seize_clerical_holdings_modifier = {
 
 invite_minorities_modifier = {
 	local_development_cost = -0.2
-}
-
-########################################
-# Religious Schools
-########################################
-hanafi_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	adm_tech_cost_modifier = -0.05
-}
-
-hanbali_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	ae_impact = -0.1
-}
-
-maliki_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	development_cost = -0.1
-}
-
-shafii_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	merchants = 1
-}
-
-ismaili_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	horde_unity = 1
-	legitimacy = 1
-	republican_tradition = 0.5
-	devotion = 1
-}
-
-jafari_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	shock_damage = 0.1
-}
-
-zaidi_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	shock_damage_received = -0.1
-}
-
-########################################
-# Regiment Types Modifiers
-########################################
-regiment_drill_modifier = { # Used by individual regiments
-	shock_damage = 0.2
-	fire_damage = 0.2
-	fire_damage_received = -0.2
-	shock_damage_received = -0.2
-}
-
-army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
-	
-}
-
-janissary_regiment = {
-	fire_damage_received = -0.1
-	shock_damage_received = -0.1
-	reinforce_cost_modifier = 1.0
-	drill_gain_modifier = 1.0
 }

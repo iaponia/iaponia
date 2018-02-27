@@ -1,7 +1,6 @@
-kimun_cult =
-{
+kimun_cult = {
 	land_morale = 0.1
-	prestige_from_land = 0.5
+	fire_damage = 0.1
 
 	allow = {
 		OR = {
@@ -20,8 +19,7 @@ kimun_cult =
 	}
 }
 
-fuchi_cult =
-{
+fuchi_cult = {
 	diplomatic_reputation = 1
 	global_unrest = -2
 
@@ -42,8 +40,7 @@ fuchi_cult =
 	}
 }
 
-repun_cult =
-{
+repun_cult = {
 	global_own_trade_power = 0.2
 	global_trade_goods_size_modifier = 0.1
 
@@ -70,7 +67,7 @@ repun_cult =
 christianity_cult = {
 	sprite = 10
 	
-	development_cost = -0.1
+	development_cost = -0.2
 	idea_cost = -0.1
 	
 	allow  = {
@@ -88,7 +85,7 @@ christianity_cult = {
 buddhism_cult = {
 	sprite = 13
 	
-	core_creation = -0.1
+	improve_relation_modifier = 0.25
 	global_missionary_strength = 0.02
 	
 	allow  = {
@@ -106,7 +103,7 @@ buddhism_cult = {
 shinto_cult = {
 	sprite = 11
 	
-	discipline = 0.05
+	core_creation = -0.1
 	tolerance_heretic = 2
 	
 	allow  = {
@@ -116,24 +113,6 @@ shinto_cult = {
 		factor = 3
 		modifier = {
 			personality = ai_militarist
-			factor = 5
-		}
-	}
-}
-
-ryukyuan_cult = {
-	sprite = 12
-	
-	improve_relation_modifier = 0.25
-	trade_efficiency = 0.1
-	
-	allow = {
-		has_unlocked_cult = ryukyuan_cult
-	}
-	ai_will_do = {
-		factor = 3
-		modifier = {
-			personality = ai_diplomat
 			factor = 5
 		}
 	}

@@ -21,6 +21,11 @@ base_manpower = 2
 
 trade_goods = pottery
 
+add_permanent_province_modifier = {
+	name = shinto_holy_site
+	duration = -1
+}
+
 1569.10.10 = {
 	add_core = ODA
     controller = ODA

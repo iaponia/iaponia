@@ -3,22 +3,170 @@
 # Uses all 'modifiers' possible thats exported as a Modifier.
 
 christian = {
-	defender_of_faith = yes
 
 	center_of_religion = 683 # Kyoto
 
-	mahayana = {
+	shinto = {
+		color = { 0.8 0 0 }
+		icon = 10
+
+		allowed_conversion = {
+			catholic
+			nichirenshu
+			jodoshinshu
+		}
+
+		country = {
+			tolerance_heretic = 1
+			war_exhaustion_cost = -0.2
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		holy_sites = { 43 125 198 327 344 432 536 }
+
+		blessings = {
+			confucian_education
+			encourage_national_study
+			familial_ties_to_priesthood
+			formalize_warrior_codes
+			recruit_warrior_monks
+			organize_festivals
+			maintain_pilgrimage_routes
+		}
+
+		on_convert = {
+			change_religion = shinto
+			add_prestige = -25
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+
+		heretic = { SHUGENDO }
+		
+		misguided_heretic = yes
+		
+		harmonized_modifier = harmonized_shinto
+	}
+	
+	jodoshinshu = {
 		color = { 0.8 0.3 0.5 }
-		icon = 23
+		icon = 25
 
 		allowed_conversion = {
 			catholic
 			shinto
+			nichirenshu
 		}
 
 		allowed_center_conversion = {
+			shinto
+		}
+
+		country = {
+			tolerance_own = 1
+			land_morale = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
+		will_get_center = {
+			any_owned_province = {
+				OR = {
+					religion = shinto
+					religion = jodoshinshu
+					religion = nichirenshu
+				}
+				NOT = {
+					any_neighbor_province = {
+						is_reformation_center = yes
+					}
+				}
+				NOT = {
+					any_province = {
+						area = PREV
+						religion = jodoshinshu
+						is_reformation_center = yes
+					}
+				}
+				is_in_capital_area = yes
+				is_reformation_center = no
+			}
+		}
+
+		on_convert = {
+			change_religion = jodoshinshu
+			add_prestige = -25
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+
+			if = {
+				limit = {
+					NOT = {
+						calc_true_if = {
+							all_province = {
+								religion = jodoshinshu
+								is_reformation_center = yes
+							}
+							amount = 3
+						}
+					}
+				}
+				hidden_effect = {
+					random_owned_province = {
+						limit = {
+							OR = {
+								religion = shinto
+								religion = jodoshinshu
+								religion = nichirenshu
+							}
+							NOT = {
+								any_neighbor_province = {
+									is_reformation_center = yes
+								}
+							}
+							NOT = {
+								any_province = {
+									area = PREV
+									religion = jodoshinshu
+									is_reformation_center = yes
+								}
+							}
+							is_in_capital_area = yes
+							is_reformation_center = no
+						}
+						change_religion = jodoshinshu
+						add_reform_center = jodoshinshu
+					}
+					custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
+				}
+			}
+		}
+
+		heretic = { TENDAI }
+		
+		harmonized_modifier = harmonized_jodoshinshu
+
+		uses_karma = yes
+		date = 1475.03.31
+	}
+	
+	nichirenshu = {
+		color = { 204 76 76 }
+		icon = 23
+		
+		allowed_conversion = {
 			catholic
 			shinto
+			jodoshinshu
 		}
 
 		country = {
@@ -28,209 +176,248 @@ christian = {
 		province = {
 			local_missionary_strength = -0.02
 		}
+		
+		has_patriarchs = yes
+		
+		harmonized_modifier = harmonized_nichirenshu
+		
+		orthodox_icons = {
 
-		will_get_center = {
-			any_owned_province = {
-				OR = {
-					religion = shinto
-					religion = catholic
-					religion = mahayana
+			icon_second_chapter = {
+				production_efficiency = 0.1
+				global_trade_power = 0.1
+				
+				allow = {
+					always = yes
 				}
-				NOT = {
-					any_neighbor_province = {
-						is_reformation_center = yes
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0.5
+						treasury = 500
 					}
 				}
-				NOT = {
-					any_province = {
-						area = PREV
-						religion = mahayana
-						is_reformation_center = yes
+			}
+
+			icon_thirteenth_chapter = {
+				war_exhaustion = -0.05
+				land_maintenance_modifier = -0.1
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
 					}
 				}
-				is_in_capital_area = yes
-				is_reformation_center = no
+			}
+			
+			icon_sixteenth_chapter = {
+				idea_cost = -0.1
+				institution_spread_from_true_faith = 0.25
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+			
+			icon_twentysecond_chapter = {
+				missionaries = 1
+				global_missionary_strength = 0.01
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 3
+						not = {
+							religious_unity = 0.75
+						}
+					}
+				}
 			}
 		}
-
+		
 		on_convert = {
-			change_religion = mahayana
-			add_prestige = -100
-			remove_country_modifier = counter_reformation
-			remove_country_modifier = the_statue_in_restraint_of_appeals
-			remove_country_modifier = bavarian_jesuits
-			remove_country_modifier = the_societas_jesu
-			remove_country_modifier = the_declaration_of_indulgence
-			remove_country_modifier = de_heretico_comburendo
-			remove_country_modifier = the_conventicle_act
+			change_religion = nichirenshu
+			add_prestige = -25
 
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
 			}
-
-			if = {
-				limit = {
-					NOT = {
-						calc_true_if = {
-							all_province = {
-								religion = mahayana
-								is_reformation_center = yes
-							}
-							amount = 3
-						}
-					}
-				}
-				hidden_effect = {
-					random_owned_province = {
-						limit = {
-							OR = {
-								religion = shinto
-								religion = catholic
-								religion = mahayana
-							}
-							NOT = {
-								any_neighbor_province = {
-									is_reformation_center = yes
-								}
-							}
-							NOT = {
-								any_province = {
-									area = PREV
-									religion = mahayana
-									is_reformation_center = yes
-								}
-							}
-							is_in_capital_area = yes
-							is_reformation_center = no
-						}
-						change_religion = mahayana
-						add_reform_center = mahayana
-					}
-					custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
-				}
-			}
 		}
-
-		heretic = { ZEN }
-
-		uses_karma = yes
-		date = 1475.03.31
+		
+		heretic = { SHINGON }
 	}
+}
 
+christian = {
+	defender_of_faith = yes
+	
+	ai_will_propagate_through_trade = yes
+	
+	harmonized_modifier = harmonized_christian
+	
+	crusade_name = LIBERATION
+	
+	religious_schools = {
+		jesuit_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			can_invite_scholar = {
+				church_power = 200
+				if = {
+					limit = {
+						NOT = { religion = catholic }
+					}
+				}
+				reverse_has_opinion = { who = FROM value = 150 }
+				NOT = { has_country_modifier = jesuit_scholar_modifier }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+			}
+
+			on_invite_scholar = {
+				add_church_power = -200
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = jesuit_scholar_modifier duration = 7300 }
+			}
+
+			invite_scholar_modifier_display = jesuit_scholar_modifier
+
+			picture = "GFX_icon_catholic_school_jesuit"
+
+			merchants = 1
+		}
+		
+		franciscan_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			can_invite_scholar = {
+				church_power = 200
+				if = {
+					limit = {
+						NOT = { religion = catholic }
+					}
+				}
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = franciscan_scholar_modifier }
+			}
+
+			on_invite_scholar = {
+				add_church_power = -200
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = franciscan_scholar_modifier duration = 7300 }
+			}
+
+			invite_scholar_modifier_display = franciscan_scholar_modifier
+
+			picture = "GFX_icon_catholic_school_franciscan"
+
+			missionaries = 1
+		}
+		
+		dominican_school = {
+			potential_invite_scholar = {
+				knows_of_scholar_country_capital_trigger = yes
+			}
+
+			can_invite_scholar = {
+				church_power = 200
+				if = {
+					limit = {
+						NOT = { religion = catholic }
+					}
+				}
+				reverse_has_opinion = { who = FROM value = 150 }
+				OR = {
+					alliance_with = FROM
+					is_subject_of = FROM
+					overlord_of = FROM
+				}
+				hidden_progressive_opinion_for_scholar_trigger = yes
+				NOT = { has_country_modifier = dominican_scholar_modifier }
+			}
+
+			on_invite_scholar = {
+				add_church_power = -200
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = dominican_scholar_modifier duration = 7300 }
+			}
+
+			invite_scholar_modifier_display = dominican_scholar_modifier
+
+			picture = "GFX_icon_catholic_school_dominican"
+
+			diplomats = 1
+		}
+	}
+	
 	catholic = {
 		color = { 0.8 0.8 0 }
 		icon = 1
 
-		allowed_center_conversion = {
-			shinto
-			mahayana
-		}
 		allowed_conversion = {
 			shinto
-			mahayana
+			nichirenshu
+			jodoshinshu
 		}
 		country = {
-			tolerance_own = 1
+			tolerance_own = 2
 			technology_cost = -0.1
 		}
 		province = {
 			local_missionary_strength = -0.03
 		}
 
-		uses_church_power = yes # Uses church power/aspect mechanics
+		uses_church_power = yes 
 		aspects = {
-			jesuit_missions_aspect
-			franciscan_monastaries_aspect
-			found_seminaries_aspect
 			organize_dioceses_aspect
-			patronize_hospitals_aspect
+			found_seminaries_aspect
+			establish_hospitals_aspect
+			encourage_dialectics_aspect
+			patronize_iconography_aspect
 			grant_trading_rights_aspect
 			import_printing_presses_aspect
-			send_envoys_aspect
 			request_armaments_aspect
-		}
-
-		will_get_center = {
-			any_owned_province = {
-				OR = {
-					religion = shinto
-					religion = catholic
-					religion = mahayana
-				}
-				NOT = {
-					any_neighbor_province = {
-						is_reformation_center = yes
-					}
-				}
-				NOT = {
-					any_province = {
-						area = PREV
-						religion = catholic
-						is_reformation_center = yes
-					}
-				}
-				is_in_capital_area = yes
-				is_reformation_center = no
-			}
 		}
 
 		on_convert = {
 			change_religion = catholic
-			add_prestige = -100
-			remove_country_modifier = counter_reformation
-			remove_country_modifier = the_statue_in_restraint_of_appeals
-			remove_country_modifier = bavarian_jesuits
-			remove_country_modifier = the_societas_jesu
-			remove_country_modifier = the_declaration_of_indulgence
-			remove_country_modifier = de_heretico_comburendo
-			remove_country_modifier = the_conventicle_act
-
+			add_stability = -1
+			add_prestige = -50
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}
-
-			if = {
-				limit = {
-					NOT = {
-						calc_true_if = {
-							all_province = {
-								religion = catholic
-								is_reformation_center = yes
-							}
-							amount = 3
-						}
-					}
-				}
-				hidden_effect = {
-					random_owned_province = {
-						limit = {
-							OR = {
-								religion = shinto
-								religion = catholic
-								religion = mahayana
-							}
-							NOT = {
-								any_neighbor_province = {
-									is_reformation_center = yes
-								}
-							}
-							NOT = {
-								any_province = {
-									area = PREV
-									religion = catholic
-									is_reformation_center = yes
-								}
-							}
-							is_in_capital_area = yes
-							is_reformation_center = no
-						}
-						change_religion = catholic
-						add_reform_center = catholic
-					}
-					custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
-				}
 			}
 		}
 
@@ -238,82 +425,48 @@ christian = {
 
 		date = 1546.10.31
 	}
+}
 
-	shinto = {
-		color = { 0.8 0 0 }
-		icon = 10
+ainu_group = {
 
-		is_reformation_center = yes
+	harmonized_modifier = harmonized_ainu_group
 
-		allowed_conversion = {
-			catholic
-			mahayana
-		}
-
-		country = {
-			tolerance_own = 1
-			war_exhaustion_cost = -0.15
-		}
-		province = {
-			local_missionary_strength = -0.02
-		}
-
-		holy_sites = { 43 125 198 344 536 }
-
-		blessings = {
-			imperial_patronage
-			hold_festivals
-			confucian_education
-			shogunal_patronage
-			warrior_code
-		}
-
-		on_convert = {
-			change_religion = shinto
-			add_prestige = -100
-
-			add_country_modifier = {
-				name = "conversion_zeal"
-				duration = 3650
-			}
-		}
-
-		heretic = { SHUGENDO }
-	}
-
-	ryukyuan = {
-		color = { 0.7 0.5 0 }
-		icon = 9
-		country = {
-			tolerance_own = 1
-			tolerance_heretic = 2
-		}
-		province = {
-			local_missionary_strength = -0.02
-		}
-
-		heretic = { SHUGENDO }
-
-		fervor = yes
-		misguided_heretic = yes
-	}
+	crusade_name = LIBERATION
 
 	ainu = {
 		color = { 0.7 0.5 0.5 }
 		icon = 11
 		country = {
-			tolerance_own = 1
+			shock_damage_received = -0.1
 			infantry_power = 0.1
 		}
 		province = {
-			local_missionary_strength = -0.02
+			local_hostile_attrition = 1
 		}
 
-		heretic = { SHUGENDO }
+		heretic = { CULTIST }
 
 		fetishist_cult = yes
-		misguided_heretic = yes
 	}
+}
+
+ryukyuan_group = {
 
 	crusade_name = LIBERATION
+
+	ryukyuan = {
+		color = { 0.7 0.5 0 }
+		icon = 9
+		country = {
+			tolerance_heathen = 1
+			core_creation = -0.1
+		}
+		province = {
+			province_trade_power_value = 1
+		}
+
+		heretic = { THREE_BUTTONS }
+
+		uses_harmony = yes
+	}
 }

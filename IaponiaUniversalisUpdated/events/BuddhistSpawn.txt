@@ -1,5 +1,5 @@
 # The Protestant Reformation
-# Now a Shinto -> Mahayana Reformation, though
+# Now a Shinto -> Jodoshinshu Reformation, though
 country_event = {
 	id = 301
 	title = "EVTNAME301"
@@ -13,9 +13,9 @@ country_event = {
 	trigger = {
 		is_year = 1470
 		religion = shinto
-		#NOT = { is_religion_enabled = mahayana }
+		#NOT = { is_religion_enabled = jodoshinshu }
 		NOT = { any_province = {
-				religion = mahayana
+				religion = jodoshinshu
 				}
 			}
 		is_defender_of_faith = no	
@@ -33,16 +33,16 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA301"
-		enable_religion = mahayana
+		enable_religion = jodoshinshu
 		capital_scope = {
-			change_religion = mahayana
-			add_reform_center = mahayana
+			change_religion = jodoshinshu
+			add_reform_center = jodoshinshu
 			add_permanent_province_modifier = {
 				name = "religious_zeal_at_conv"
 				duration = 9000
 			}
 		}
-		capital_scope = { change_religion = mahayana }
+		capital_scope = { change_religion = jodoshinshu }
 		#set_country_flag = accepted_catholics
 	}
 }

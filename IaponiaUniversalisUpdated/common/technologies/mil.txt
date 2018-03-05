@@ -45,7 +45,7 @@ technology = {
 	fortified_mansion = yes
 
 	infantry_shock		= 	0.1
-	cavalry_shock		= 	0.15
+	cavalry_shock		= 	0.1
 
 	combat_width = 4
 }
@@ -73,7 +73,7 @@ technology = {
 	year = 1494
 
 	infantry_shock = 0.15
-	cavalry_shock = 0.2
+	cavalry_shock = 0.15
 
 	garrison_b = yes
 
@@ -105,7 +105,7 @@ technology = {
 	# Tech 7
 	year = 1512
 
-	cavalry_shock =	0.7
+	cavalry_shock =	0.65
 	cavalry_fire = 0.4
 	maneuver_value = 0.25
 
@@ -120,7 +120,7 @@ technology = {
 	# Tech 8
 	year = 1521
 
-	infantry_fire = 0.2
+	infantry_fire = 0.15
 	military_tactics = 0.25
 
 	enable = early_def_tohoku_cavalry
@@ -152,7 +152,7 @@ technology = {
 	year = 1539
 
 	maneuver_value = 0.25
-	cavalry_shock = 0.25
+	cavalry_shock = 0.2
 	cavalry_fire = 0.1
 	military_tactics = 0.25
 	ranch = yes
@@ -165,7 +165,7 @@ technology = {
 	# Tech 11
 	year = 1548
 
-	infantry_fire = 0.65
+	infantry_fire = 0.60
 	infantry_shock = 0.1
 	gunsmith = yes
 	military_tactics = 0.25
@@ -207,7 +207,7 @@ technology = {
 	infantry_shock = 0.15
 	cavalry_fire = 0.1
 	cavalry_shock = 0.3
-	artillery_shock = 0.1
+	artillery_shock = 0.15
 	maneuver_value = 0.25
 
 	enable = late_off_kanto_infantry
@@ -221,7 +221,7 @@ technology = {
 	year = 1575
 
 	land_morale = 0.5
-	infantry_fire = 0.25
+	infantry_fire = 0.2
 	military_tactics = 0.25
 
 	enable = late_off_tohoku_infantry
@@ -272,7 +272,7 @@ technology = {
 
 	land_morale = 0.5
 	cavalry_shock = 0.25
-	infantry_fire = 0.25
+	infantry_fire = 0.2
 	infantry_shock = 0.05
 	military_tactics = 0.25
 

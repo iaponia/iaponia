@@ -263,12 +263,12 @@ christian = {
 	}
 }
 
-christian = {
+christian_group = {
 	defender_of_faith = yes
 	
 	ai_will_propagate_through_trade = yes
 	
-	harmonized_modifier = harmonized_christian
+	harmonized_modifier = harmonized_christian_group
 	
 	crusade_name = LIBERATION
 	

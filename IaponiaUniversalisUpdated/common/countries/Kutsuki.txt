@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 56 18 102 }
+color = { 185  95  29 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -70,9 +70,9 @@ leader_names = {
 	Amenomori Amenomori Amenomori Amenomori Amenomori Akao Akao Akao Akao Akao
 	Kaiho Kaiho Kaiho Kaiho Kaiho Anyoji Anyoji Anyoji Anyoji Anyoji
 	Kitabatake Kitabatake Kitabatake Kitabatake Kitabatake Kozukuri Kozukuri Kozukuri Kozukuri Kozukuri
-	Seki Seki Seki Seki Seki Nagano Nagano Nagano Nagano Nagano 
+	Seki Seki Seki Seki Seki Nagano Nagano Nagano Nagano Nagano
 	Hosono Hosono Hosono Hosono Hosono Kanbe Kanbe Kanbe Kanbe Kanbe
-	Kuki Kuki Kuki Kuki Kuki Ohama Ohama Ohama Ohama Ohama 
+	Kuki Kuki Kuki Kuki Kuki Ohama Ohama Ohama Ohama Ohama
 
 }
 

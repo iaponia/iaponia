@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 186 37 18 }
+color = { 102  96  138 }
 
 historical_idea_groups = {
 	expansion_ideas
@@ -72,14 +72,14 @@ monarch_names = { #Most Monarchs were named with "hisa"
 }
 
 leader_names = {
-    Amago Amago Amago Amago Amago Amago Amago Amago Amago Amago 
+    Amago Amago Amago Amago Amago Amago Amago Amago Amago Amago
 	Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku Yamana Yamana Yamana Yamana Yamana
 	Yamanaka Yamanaka Yamanaka Yamanaka Yamanaka Akana Akana Akana Akana Akana
 	Tachihara Tachihara Tachihara Tachihara Tachihara Uyama Uyama Uyama Uyama Uyama
 	Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara Sada Sada Sada Sada Sada
 	Ushio Ushio Ushio Ushio Ushio Kamei Kamei Kamei Kamei Kamei
-	Nanjo Nanjo Nanjo Nanjo Nanjo Mitoya Mitoya Mitoya Mitoya Mitoya 
-	Sase Sase Sase Sase Sase Honjo Honjo Honjo Honjo Honjo 
+	Nanjo Nanjo Nanjo Nanjo Nanjo Mitoya Mitoya Mitoya Mitoya Mitoya
+	Sase Sase Sase Sase Sase Honjo Honjo Honjo Honjo Honjo
 	Kawazoe Kawazoe Kawazoe Kawazoe Kawazoe Nakai Nakai Nakai Nakai Nakai
 	Matsuda Matsuda Matsuda Matsuda Matsuda Kato Kato Kato Kato Kato
 	Fujii Fujii Fujii Fujii Fujii Hayashi Hayashi Hayashi Hayashi Hayashi

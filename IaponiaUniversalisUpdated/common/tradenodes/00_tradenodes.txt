@@ -1,3 +1,20 @@
+Shuri=		#name of node
+	{
+		location=94			#province location of box
+		outgoing={
+		name="Bonotsu"
+		path={
+			1346 3
+		}
+		control={
+		}
+		}
+		members=		#provinces belonging to node
+		{
+			1 2 14 17 94 631 635 695 696 697 703 715 716 717 718
+		}
+	}
+
 Bonotsu=		#name of node
 	{
 		location=3			#province location of box
@@ -19,8 +36,7 @@ Bonotsu=		#name of node
 		}
 		members=		#provinces belonging to node
 		{
-			1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 94 631 633 634 635 637 638
-			695 696 697 703 715 716 717 718
+			3 4 5 6 7 8 9 10 11 12 13 15 16 18 19 20 21 22 23 24 633 634 637 638
 			1335 1336 1339 1340 1341
 		}
 	}
@@ -35,16 +51,23 @@ Nagasaki=		#name of node
 		control={
 		}
 		}
+		outgoing={
+		name="Hakata"
+		path={
+		}
+		control={
+		}
+		}
 		members=		#provinces belonging to node
 		{
-			25 26 27 28 29 31 32 33 34 35 47 48 51 52 53 54
-			55 56 57 58 59 60 61 62 88 89 90 91 92 93 639 685 698 704 705 714
+			25 26 28 29 31 32 33 34 35 47 48 51 52 53 54
+			55 56 57 58 59 60 89 639 685 698 704 705 714
 		}
 	}
 
 Saganoseki=		#name of node
 	{
-		location=37			#province location of box
+		location=709			#province location of box
 		outgoing={
 		name="Yamaguchi"
 		path={
@@ -60,27 +83,67 @@ Saganoseki=		#name of node
 		control={
 		}
 		}
+		outgoing={
+		name="Hakata"
+		path={
+		}
+		control={
+		}
+		}
 		members=		#provinces belonging to node
 		{
-			30 36 37 38 39 40 41 42 43 44 45 46 49 50 63 64 65 66 67 69 70 71
-			73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 95 96 636 709 710 711
+			27 30 36 37 38 39 40 41 42 43 44 45 46 
+			75 76 95 96 107 636 709 710 711 712
 		}
+	}
+	
+Hakata=		#name of node
+	{
+		location=66		#province location of box
+		members=		#provinces belonging to node
+		{
+			49 50 61 62 63 64 65 66 67 68 69 70 71 73 74 
+			77 78 79 80 81 82 83 84 85 86 87 88 90 91 92 93
+		}
+		end=yes
 	}
 
 Yamaguchi=		#name of node
 	{
 		location=113		#province location of box
+		outgoing={
+		name="Hakata"
+		path={
+		}
+		control={
+		}
+		}
 		members=		#provinces belonging to node
 		{
-			68 72 97 98 99 100 101 102 103 104 105 106 108 109 110
-			111 112 113 114 115 116 117 118 122 123 125 126 127 129 130 132 627 628
+			68 72 97 98 99 100 102 103 108 109 110
+			111 112 113 114 115 116 117 118 122 123 125
 		}
-		end=yes
+	}
+	
+Yoshida=		#name of node
+	{
+		location=130		#province location of box
+		outgoing={
+		name="Yamaguchi"
+		path={
+		}
+		control={
+		}
+		}
+		members=		#provinces belonging to node
+		{
+			101 104 105 106 126 127 129 130 138 139 140 141 165 166 167 168 169 172 173 174 175 176 627 628
+		}
 	}
 
 Urado= 	#name of node
 	{
-		location=161			#province location of box
+		location=153		#province location of box
 		outgoing={
 		name="Ushimado"
 		path={
@@ -99,8 +162,8 @@ Urado= 	#name of node
 		}
 		members=		#provinces belonging to node
 		{
-			107 135 136 137 138 139 140 151 152 153 154 155 156 157 158 159 160 161 162 163
-			232 233 234 235 236 237 238 239 274 315 617 712 713
+			135 136 137 151 152 153 154 155 156 157 158 159 160 161 162 163 
+			232 233 234 235 236 238 239 274 617 713
 		}
 	}
 
@@ -109,6 +172,13 @@ Mihonoseki=		#name of node
 		location=199		#province location of box
 		outgoing={
 		name="Yamaguchi"
+		path={
+		}
+		control={
+		}
+		}
+		outgoing={
+		name="Yoshida"
 		path={
 		}
 		control={
@@ -124,8 +194,8 @@ Mihonoseki=		#name of node
 		}
 		members=		#provinces belonging to node
 		{
-			119 120 121 124 133 134 164 169 170 171 174 175 176 177 186 187 188 189
-			190 191 192 193 194 195 196 197 198 199 200 209 221 222 339 340 341 342
+			119 120 121 124 132 133 134 164 170 171 177 186 187 188 189
+			190 191 192 193 194 195 196 197 198 199 200 209 218 221 222 339 340 341 342 624
 		}
 	}
 
@@ -150,7 +220,7 @@ Ushimado= 	#name of node
 	{
 		location=213			#province location of box
 		outgoing={
-		name="Yamaguchi"
+		name="Yoshida"
 		path={
 		}
 		control={
@@ -165,8 +235,8 @@ Ushimado= 	#name of node
 		}
 		members=		#provinces belonging to node
 		{
-			141 142 143 144 145 146 147 148 149 150 165 166 167 168 172 173 201 202 203 204 205
-			206 208 210 207 211 212 213 214 215 216 217 218 219 220 223 224 227 231 623 624 625 626
+			142 143 144 145 146 147 148 149 150 201 202 203 204 205 206 207 208 210 211 212 213 214 215 216 217 219 
+			220 223 224 225 226 227 228 231 247 250 620 621 623 625 626
 		}
 	}
 
@@ -175,9 +245,8 @@ Sakai= 	#name of node
 		location=278			#province location of box
 		members=		#provinces belonging to node
 		{
-			225 226 228 246 247 248 249 250 251 252 253 254 256 255 257 258 260 270 273 275 276 277 278 279
-			280 281 282 294 295 296 297 298 299 300 301 302 303 304 305 306 307 309 310 312 313 314 319 320
-			618 620 621 622 684
+			246 248 249 251 252 253 254 256 255 257 258 260 270 273 275 276 277 278 279 280 281 282
+			294 295 296 297 298 299 300 301 302 303 304 305 306 307 310 312 313 314 618 622 684
 		}
 		end=yes
 	}
@@ -202,7 +271,7 @@ Ominato= 	#name of node
 		#}
 		members=		#provinces belonging to node
 		{
-			291 321 322 323 324 325 326 338 343 344 345 346 347 348 349 350 351 352 353 354 355 357 640
+			237 291 315 321 322 323 324 325 326 338 343 344 345 346 347 348 349 350 351 352 353 354 355 357 640
 		}
 	}
 
@@ -228,8 +297,8 @@ Kyoto= 	#name of node
 		}
 		members=		#provinces belonging to node
 		{
-			269 283 284 285 286 287 288 289 290 291 292 293	308 311
-			316 317 318 327 328 329 330 331 332 333 334 335 336 337 683 699 702 719
+			269 283 284 285 286 287 288 289 290 291 292 293	308 309 311 316 317 318 319 320 
+			327 328 329 330 331 332 333 334 335 336 337 683 699 702 719
 		}
 	}
 
@@ -253,7 +322,7 @@ Kiyosu= 	#name of node
 		members=		#provinces belonging to node
 		{
 			356 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 386
-			394 395 396 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 632 681 682 700
+			394 395 396 398 399 400 401 402 403 404 405 406 407 412 632 682 700
 		}
 	}
 
@@ -285,8 +354,8 @@ Ejiri= 	#name of node
 		}
 		members=		#provinces belonging to node
 		{
-			413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436
-			450 451 452 453 454 455 456 629 678 679
+			408 409 410 411 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429
+			430 431 432 433 434 435 436 450 451 452 453 454 455 456 629 678 679
 		}
 	}
 
@@ -321,7 +390,7 @@ Suwa= 	#name of node
 		members=		#provinces belonging to node
 		{
 			397 437 438 439 440 441 442 443 444 445 446 447 448 449
-			496 497 498 499 500 501 502 509 619 641 642 643 644
+			496 497 498 499 500 501 502 509 619 641 642 643 644 681
 		}
 	}
 
@@ -446,7 +515,7 @@ Sakata= 	#name of node
 		}
 		members=		#provinces belonging to node
 		{
-			559 564 565 566 567 568 569 570 571 572 597 598 600 672 674 675
+			559 564 565 566 567 568 569 570 571 572 573 672 674 675
 		}
 	}
 
@@ -471,7 +540,7 @@ Shiogama= 	#name of node
 		members=		#provinces belonging to node
 		{
 			546 549 550 576 577 578 579 580 581 582 583 584
-			585 586 587 588 589 590 591 592 593 594 595 596 671
+			585 586 587 588 589 590 591 592 593 594 595 596 597 600 671
 		}
 	}
 
@@ -495,8 +564,8 @@ Tsuchizaki= 	#name of node
 		}
 		members=		#provinces belonging to node
 		{
-			 572 573 574 575 599 601 602 603 604 605 606
-			 658 659 660 661 662 663 664 665 666 667 668 669 670
+			574 575 598 599 601 602 603 604 605 606
+			658 659 660 661 662 663 664 665 666 667 668 669 670
 		}
 	}
 

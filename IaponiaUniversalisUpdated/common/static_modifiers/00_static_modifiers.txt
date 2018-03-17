@@ -682,8 +682,8 @@ mercantilism = {
 army_tradition = {
 	recover_army_morale_speed = 0.1
 	land_morale = 0.25
-	drill_gain_modifier = 0.5
-	drill_decay_modifier = -0.5
+	drill_gain_modifier = 0.75
+	drill_decay_modifier = -0.75
 }
 
 navy_tradition = {
@@ -1197,10 +1197,12 @@ drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
 # Regiment Types Modifiers
 ########################################
 regiment_drill_modifier = { # Used by individual regiments
-	shock_damage = 0.2
-	fire_damage = 0.2
-	fire_damage_received = -0.2
-	shock_damage_received = -0.2
+	shock_damage = 0.25
+	fire_damage = 0.25
+	fire_damage_received = -0.25
+	shock_damage_received = -0.25
+	land_morale = 0.05
+	recover_army_morale_speed = 0.05
 }
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill

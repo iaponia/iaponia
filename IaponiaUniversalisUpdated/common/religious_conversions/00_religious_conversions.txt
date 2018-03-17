@@ -38,7 +38,7 @@ propagate_religion_policy = {
 		}
 		modifier = {
 			factor = 0.25
-			religion_group = christian
+			religion_group = christian_group
 		}
 		modifier = {
 			factor = 0.25

@@ -73,8 +73,8 @@ nichinan_area = {
 	15 20 631
 }
 
-morokata_area = { 
-	19 633 634 
+morokata_area = {
+	19 633 634
 }
 
 strait_islands_area = {
@@ -402,7 +402,7 @@ waka_area = {
 }
 
 kinan_area = {
-	234 239 617 640
+	234 239 617 640 720
 }
 
 #nara pref
@@ -650,7 +650,7 @@ hokujo_area = {
 
 #edo
 kanagawa_area = {
-	537 538 539 
+	537 538 539
 }
 
 edotama_area = {
@@ -719,7 +719,7 @@ soma_area = {
 }
 
 iwashiro_area = {
-	543 547 548 551 552 
+	543 547 548 551 552
 }
 
 #miyagi pref

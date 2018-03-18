@@ -1,0 +1,7 @@
+hre = no
+discovered_by = kyushu
+discovered_by = saigoku
+discovered_by = togoku
+discovered_by = tohoku
+discovered_by = ainu
+

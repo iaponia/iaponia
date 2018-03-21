@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 82 181 148 }
+color = { 179  124  218 }
 
 historical_idea_groups = {
 	influence_ideas
@@ -80,7 +80,7 @@ leader_names = {
 	Tomita Tomita Tomita Tomita Tomtia Yamazaki Yamazaki Yamazaki Yamazaki Yamazaki
 	Kawai Kawai Kawai Kawai Kawai Uozumi Uozumi Uozumi Uozumi Uozumi
 	Mizoe Mizoe Mizoe Mizoe Mizoe Magara Magara Magara Magara Magara
-	Sugiura Sugiura Sugiura Sugiura Sugiura Shiba Shiba Shiba Shiba Shiba 
+	Sugiura Sugiura Sugiura Sugiura Sugiura Shiba Shiba Shiba Shiba Shiba
 	Takeda Takeda Takeda Takeda Takeda Togashi Togashi Togashi Togashi Togashi
 	Awaya Awaya Awaya Awaya Awaya Hemi Hemi Hemi Hemi Hemi
 	Muto Muto Muto Muto Muto Tokuda Tokuda Tokuda Tokuda Tokuda

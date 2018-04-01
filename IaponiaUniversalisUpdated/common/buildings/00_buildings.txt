@@ -1132,15 +1132,18 @@ academy = {
 # Manufactories
 ###
 
-granary = {
+manufactory = {
 	cost = 750
 	time = 40
+	modifier = {
+		trade_goods_size = 1.0
+	}
+}
+
+granary = {
 	manufactory = {
 		grain
 		rice
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	onmap = yes
 
@@ -1190,13 +1193,8 @@ granary = {
 }
 
 gunsmith = {
-	cost = 750
-	time = 40
 	manufactory = {
 		firearms
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	onmap = yes
 
@@ -1246,13 +1244,8 @@ gunsmith = {
 }
 
 ranch = {
-	cost = 750
-	time = 40
 	manufactory = {
 		horses
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	onmap = yes
 
@@ -1302,15 +1295,10 @@ ranch = {
 }
 
 textile_workshop = {
-	cost = 750
-	time = 40
 	manufactory = {
 		cloth
 		dyes
 		fur
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	onmap = yes
 
@@ -1360,14 +1348,9 @@ textile_workshop = {
 }
 
 lumbermill = {
-	cost = 750
-	time = 40
 	manufactory = {
 		bamboo
 		lumber
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	onmap = yes
 
@@ -1417,15 +1400,10 @@ lumbermill = {
 }
 
 artisan_workshop = {
-	cost = 750
-	time = 40
 	manufactory = {
 		paper
 		lacquerware
 		pottery
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	onmap = yes
 
@@ -1475,15 +1453,10 @@ artisan_workshop = {
 }
 
 mine_network = {
-	cost = 750
-	time = 40
 	manufactory = {
 		metal
 		salt
 		gold
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	onmap = yes
 
@@ -1533,15 +1506,10 @@ mine_network = {
 }
 
 dockyard = {
-	cost = 750
-	time = 40
 	manufactory = {
 		fish
 		mainland_trade
 		seaweed
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	onmap = yes
 
@@ -1591,14 +1559,9 @@ dockyard = {
 }
 
 brewery = {
-	cost = 750
-	time = 40
 	manufactory = {
 		sake
 		tea
-	}
-	modifier = {
-		trade_goods_size = 1.0
 	}
 	onmap = yes
 

@@ -14,7 +14,7 @@
 
 
 ### Titular for Overlord
-#Ex: "On a mission to visit the Son of Heaven"
+#Ex: "On a mission to visit the [Son of Heaven]"
 defined_text = {
     name = GetTributaryOverlord
 
@@ -41,7 +41,7 @@ defined_text = {
 }
 
 #Old Era
-#Ex: "A Medieval Manuscript"
+#Ex: "A [Medieval] Manuscript"
 defined_text = {
     name = GetOldEra
 
@@ -63,6 +63,14 @@ defined_text = {
     }
     text = {
         localisation_key = string_middle_ages
+        trigger = {
+			capital_scope = {
+				continent = europe
+			}
+        }
+    }
+	text = {
+        localisation_key = string_classical
         trigger = {
 			capital_scope = {
 				continent = europe
@@ -100,7 +108,7 @@ defined_text = {
 }
 
 #Low Level Official
-#Ex: "A local Mandarin immediately reacted to the..."
+#Ex: "A local [Mandarin] immediately reacted to the..."
 defined_text = {
     name = GetLowLevelOfficialForCountry
 
@@ -268,7 +276,7 @@ defined_text = {
 
 
 #When you need to refer to a ruling social class but cannot be sure you're dealing with a monarchy.
-#Ex: "The Nobles are Concerned"
+#Ex: "The [Nobles] are Concerned"
 defined_text = {
 	name = GetNoblesReplacementForOtherGovernments
 
@@ -287,7 +295,7 @@ defined_text = {
 }
 
 #Rich or influential Russian Families
-#Ex: "The Stroganov Family is offering to fund colonizationin Siberia"
+#Ex: "The [Stroganov] Family is offering to fund colonizationin Siberia"
 defined_text = {
 	name = GetInfluentialRussians
 
@@ -409,7 +417,7 @@ defined_text = {
 }
 
 #When you need a random exotic good from Siberia.
-#Ex: "We have recieved a gift of valuable gold dust"
+#Ex: "We have recieved a gift of valuable [gold dust]"
 defined_text = {
 	name = GetRandom_Siberian_Resource
 

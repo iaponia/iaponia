@@ -263,6 +263,11 @@ spriteTypes = {
 		name = "GFX_institution_spread_icon"
 		texturefile = "gfx/interface/institutions//institution_spread_icon.dds"
 	}		
+
+	spriteType = {
+		name = "GFX_innovativeness_icon"
+		texturefile = "gfx/interface/innovativeness_icon.dds"
+	}	
 	
 	spriteType = {
 		name = "GFX_institution_tab_unknown"

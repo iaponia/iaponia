@@ -24,7 +24,7 @@ christian = {
 			local_missionary_strength = -0.01
 		}
 
-		holy_sites = { 43 125 198 327 344 432 536 }
+		holy_sites = { 43 125 133 327 344 432 536 }
 
 		blessings = {
 			confucian_education

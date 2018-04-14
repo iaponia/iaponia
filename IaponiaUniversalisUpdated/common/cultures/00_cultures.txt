@@ -143,9 +143,13 @@ shikoku_c = {
 		primary = ICJ
 		dynasty_names = { Ichijo Tsuno Doi Kubokawa Ojima }
 	}
-	iyo_c = { #Iyo #Uwajima #Niihama
+	uwa_c = { #Uwajima
+		primary = SNJ
+		dynasty_names = { Saionji Ustunomiya Doi Watanabe Ubagai }
+	}
+	iyo_c = { #Iyo #Niihama
 		primary = KNO
-		dynasty_names = { Kono Ustunomiya Murakami Saionji Ubagai Hiraoka Ono Kaneko }
+		dynasty_names = { Kono Murakami Hiraoka Ono Kaneko Ishikawa Wada }
 	}
 	awa_c = { #Awa #Kaifu #Sanuki #Marugame
 		primary = MYI

@@ -1116,7 +1116,7 @@ kokudaka_system_i = {
 
 	bonus = {
 		global_tax_modifier = 0.1
-		state_maintenance_modifier = -0.1
+		fort_maintenance_modifier = -0.1
 	}
 
 	historical_start_date = 1590.8.4 # Odawara falls and Japan is unified

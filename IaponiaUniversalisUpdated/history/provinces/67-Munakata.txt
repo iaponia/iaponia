@@ -16,17 +16,29 @@ culture = chikuzen_c
 religion = shinto
 capital = "Hakusan"
 is_city = yes
+shipyard = yes
+shrine = yes
 
 base_tax = 5
-base_production = 4
-base_manpower = 4
+base_production = 5
+base_manpower = 3
 
 trade_goods = rice
+
+1493.6.9 = {
+	marketplace = yes
+}
+
+1523.8.25 = {
+	wharf = yes
+}
 
 1569.10.10 = {
 	add_core = OTM
     controller = OTM
     owner = OTM
+	drydock = yes
+	temple = yes
 }
 
 1600.9.13 = {

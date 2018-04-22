@@ -13,6 +13,8 @@ culture = rikugo_c
 religion = shinto
 capital = "Ichinohe"
 is_city = yes
+shrine = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 3
@@ -24,4 +26,7 @@ trade_goods = lacquerware
 	add_core = NNB
 	owner = NNB
 	controller = NNB
+	temple = yes
+	barracks = yes
+	arsenal = yes
 }

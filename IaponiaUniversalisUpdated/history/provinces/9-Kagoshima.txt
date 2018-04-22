@@ -22,8 +22,30 @@ base_manpower = 3
 
 trade_goods = cloth
 
+1493.6.9 = {
+	training_grounds = yes
+	academy = yes
+}
+
+1523.8.25 = {
+	marketplace = yes
+	shipyard = yes
+}
+
 1546.5.19 = {
 	add_core = SMZ
     owner = SMZ
     controller = SMZ
+	garrison_b = yes
+	wharf = yes
+	arsenal = yes
+}
+
+1569.10.10 = {
+	fort = yes
+	barracks = yes
+}
+
+1582.6.21 = {
+	castle = yes
 }

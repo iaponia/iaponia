@@ -14,12 +14,21 @@ culture = akizuki_c
 religion = shinto
 capital = "Takatoriyama"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
 base_manpower = 3
 
 trade_goods = rice
+
+1554.3.1 = {
+	add_core = AKZ
+	controller = AKZ
+	owner = AKZ
+	barracks = yes
+	workshop = yes
+}
 
 1569.10.10 = {
 	add_core = OTM

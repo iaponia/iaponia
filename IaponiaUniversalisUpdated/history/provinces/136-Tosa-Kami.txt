@@ -14,10 +14,11 @@ culture = tosa_c
 religion = shinto
 capital = "Himekura"
 is_city = yes
+shrine = yes
 
 base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 1
 
 trade_goods = lumber
 
@@ -30,4 +31,5 @@ trade_goods = lumber
     add_core = CSK
     controller = CSK
     owner = CSK
+	workshop = yes
 }

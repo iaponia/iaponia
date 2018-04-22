@@ -18,12 +18,15 @@ is_city = yes
 base_tax = 5
 base_production = 5
 base_manpower = 3
+shrine = yes
+workshop = yes
 
 trade_goods = paper
 
 1493.6.9 = {
     controller = ASA
 	owner = ASA
+	artisan_workshop = yes
 }
 
 1582.6.21 = {

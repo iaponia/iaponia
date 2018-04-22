@@ -16,6 +16,9 @@ culture = owari_c
 religion = shinto
 capital = "Iwakura"
 is_city = yes
+marketplace = yes
+shrine = yes
+magistrate = yes
 
 base_tax = 6
 base_production = 6
@@ -26,12 +29,20 @@ trade_goods = lacquerware
 1511.9.25 = {
     controller = IOD
     owner = IOD
+	training_grounds = yes
+}
+
+1546.5.19 = {
+	merchant_guild = yes
+	temple = yes
 }
 
 1569.10.10 = {
     add_core = ODA
     controller = ODA
     owner = ODA
+	workshop = yes
+	barracks = yes
 }
 
 1582.6.21 = {

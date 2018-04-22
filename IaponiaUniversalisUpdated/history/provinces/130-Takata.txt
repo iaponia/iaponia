@@ -14,6 +14,12 @@ religion = shinto
 capital = "Yoshida Koriyama"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}
 
 base_tax = 5
 base_production = 5
@@ -31,6 +37,9 @@ trade_goods = lacquerware
 	controller = AMA
     owner = AMA
     add_core = AMA
+	garrison_b = yes
+	barracks = yes
+	shrine = yes
 }
 
 1536.4.7 = {
@@ -42,4 +51,11 @@ trade_goods = lacquerware
     add_core = MRI
     controller = MRI
     owner = MRI
+	fort = yes
+	marketplace = yes
+	tea_house = yes
+}
+
+1582.6.21 = {
+	temple = yes
 }

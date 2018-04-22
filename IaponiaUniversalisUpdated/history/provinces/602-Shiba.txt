@@ -13,12 +13,18 @@ culture = oshu_c
 religion = shinto
 capital = "Kosuiji"
 is_city = yes
+temple = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 3
 base_manpower = 2
 
 trade_goods = gold
+
+1569.10.10 = {
+	barracks = yes
+}
 
 1600.9.13 = {
 	add_core = NNB

@@ -1,3 +1,4 @@
+post_roads = yes
 hre = no
 discovered_by = kyushu
 discovered_by = saigoku
@@ -14,12 +15,25 @@ religion = shinto
 capital = "Utoko"
 is_city = yes
 fortified_mansion = yes
+shipyard = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 3
 
 trade_goods = rice
+
+1493.6.9 = {
+	marketplace = yes
+}
+
+1511.9.25 = {
+	garrison_b = yes
+}
+
+1536.4.7 = {
+	wharf = yes
+}
 
 1554.3.1 = {
     add_core = OTM
@@ -37,4 +51,7 @@ trade_goods = rice
 	add_core = KNH
     controller = KNH
     owner = KNH
+	shrine = yes
+	merchant_guild = yes
+	fort = yes
 }

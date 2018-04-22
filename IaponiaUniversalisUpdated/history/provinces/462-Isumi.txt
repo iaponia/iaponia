@@ -13,10 +13,11 @@ culture = boso_c
 religion = shinto
 capital = "Katsuura"
 is_city = yes
+training_grounds = yes
 
-base_tax = 5
+base_tax = 4
 base_production = 4
-base_manpower = 3
+base_manpower = 4
 
 trade_goods = seaweed
 
@@ -24,12 +25,15 @@ trade_goods = seaweed
     add_core = OAK
     controller = OAK
     owner = OAK
+	marketplace = yes
 }
 
 1546.5.19 = {
     add_core = STM
     controller = STM
     owner = STM
+	barracks = yes
+	arsenal = yes
 }
 
 1582.6.21 = {

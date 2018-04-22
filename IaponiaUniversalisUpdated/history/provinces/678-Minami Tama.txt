@@ -14,17 +14,28 @@ religion = shinto
 capital = "Takatsuki"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+shrine = yes
 
-base_tax = 4
-base_production = 3
-base_manpower = 2
+base_tax = 5
+base_production = 4
+base_manpower = 4
 
 trade_goods = bamboo
+
+1511.9.25 = {
+	garrison_b = yes
+}
 
 1536.4.7 = {
     owner = HJO
     controller = HJO
     add_core = HJO
+}
+
+1569.10.10 = {
+	barracks = yes
+	arsenal = yes
 }
 
 1600.9.13 = {

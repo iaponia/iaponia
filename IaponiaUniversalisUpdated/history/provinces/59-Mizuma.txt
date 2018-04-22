@@ -12,12 +12,14 @@ controller = OTM
 
 culture = chikugo_c
 religion = shinto
-capital = "Sakemi"
+capital = "Yanagawa"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+marketplace = yes
 
-base_tax = 5
-base_production = 5
+base_tax = 6
+base_production = 4
 base_manpower = 4
 
 trade_goods = rice
@@ -25,6 +27,18 @@ trade_goods = rice
 add_permanent_province_modifier = {
 	name = chikugo_estuary_modifier
 	duration = -1
+}
+
+1511.9.25 = {
+	garrison_b = yes
+	barracks = yes
+}
+
+1569.10.10 = {
+	fort = yes
+	outer_wall = yes
+	shrine = yes
+	arsenal = yes
 }
 
 1582.6.21 = {

@@ -14,6 +14,7 @@ culture = kikuchi_c
 religion = shinto
 capital = "Otsuyama"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
@@ -21,10 +22,15 @@ base_manpower = 4
 
 trade_goods = pottery
 
+1511.9.25 = {
+	shipyard = yes
+}
+
 1554.3.1 = {
     add_core = OTM
     controller = OTM
     owner = OTM
+	workshop = yes
 }
 
 1582.6.21 = {

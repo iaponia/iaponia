@@ -16,6 +16,8 @@ religion = shinto
 capital = "Okazaki"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+marketplace = yes
 
 base_tax = 6
 base_production = 6
@@ -26,12 +28,15 @@ trade_goods = lacquerware
 1493.6.9 = {
 	controller = MDR
     owner = MDR
+	garrison_b = yes
 }
 
 1546.5.19 = {
     add_core = IMG
     controller = IMG
     owner = IMG
+	arsenal = yes
+	barracks = yes
 }
 
 1569.10.10 = {
@@ -39,10 +44,14 @@ trade_goods = lacquerware
     remove_core = MDR
     owner = TKG
     controller = TKG
+	fort = yes
+	merchant_guild = yes
+	workshop = yes
 }
 
 1600.9.13 = {
 	add_core = TNK
     controller = TNK
     owner = TNK
+	shrine = yes
 }

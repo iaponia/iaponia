@@ -19,12 +19,16 @@ is_city = yes
 base_tax = 6
 base_production = 6
 base_manpower = 3
+training_grounds = yes
+workshop = yes
 
 trade_goods = lacquerware
 
 1536.4.7 = {
     controller = AZI
     owner = AZI
+	barracks = yes
+	arsenal = yes
 }
 
 1582.6.21 = {
@@ -37,4 +41,5 @@ trade_goods = lacquerware
 	add_core = ISH
     controller = ISH
     owner = ISH
+	tea_house = yes
 }

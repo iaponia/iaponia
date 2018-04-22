@@ -18,13 +18,20 @@ is_city = yes
 base_tax = 4
 base_production = 4
 base_manpower = 4
+training_grounds = yes
+workshop = yes
 
 trade_goods = tea
+
+1511.9.25 = {
+	barracks = yes
+}
 
 1569.10.10 = {
     add_core = TKD
     owner = TKD
     controller = TKD
+	brewery = yes
 }
 
 1582.6.21 = {

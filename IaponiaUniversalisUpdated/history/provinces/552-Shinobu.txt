@@ -14,16 +14,32 @@ culture = okitama_c
 religion = shinto
 capital = "Fukushima"
 is_city = yes
+shrine = yes
+training_grounds = yes
 
-base_tax = 5
-base_production = 5
-base_manpower = 2
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
 trade_goods = sake
 
 add_permanent_province_modifier = {
 	name = inland_center_of_trade_modifier
 	duration = -1
+}
+
+1523.8.25 = {
+	marketplace = yes
+}
+
+1569.10.10 = {
+	temple = yes
+	merchant_guild = yes
+}
+
+1582.6.21 = {
+	barracks = yes
+	arsenal = yes
 }
 
 1600.9.13 = {

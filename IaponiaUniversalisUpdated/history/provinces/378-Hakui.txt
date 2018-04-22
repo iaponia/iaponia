@@ -15,12 +15,21 @@ culture = noto_c
 religion = shinto
 capital = "Sueyoshi"
 is_city = yes
+training_grounds = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 3
 
 trade_goods = horses
+
+1536.4.7 = {
+	barracks = yes
+}
+
+1569.10.10 = { 
+	arsenal = yes
+}
 
 1582.6.21 = {
     add_core = MAE

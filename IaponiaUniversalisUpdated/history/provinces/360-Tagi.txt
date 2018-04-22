@@ -14,6 +14,7 @@ culture = mino_c
 religion = shinto
 capital = "Yagami"
 is_city = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4
@@ -24,6 +25,7 @@ trade_goods = bamboo
 1546.5.19 = {
     controller = STO
     owner = STO
+	marketplace = yes
 }
 
 1569.10.10 = {

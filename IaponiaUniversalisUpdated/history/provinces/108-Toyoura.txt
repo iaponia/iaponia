@@ -14,12 +14,27 @@ culture = choshu_c
 religion = shinto
 capital = "Kushisaki"
 is_city = yes
+fortified_mansion = yes
+training_grounds = yes
+marketplace = yes
 
 base_tax = 4
 base_production = 4
 base_manpower = 3
 
 trade_goods = fish
+
+1493.6.9 = {
+	wharf = yes
+}
+
+1523.8.25 = {
+	garrison_b = yes
+}
+
+1554.3.1 = {
+	shrine = yes
+}
 
 1569.10.10 = {
     add_core = MRI

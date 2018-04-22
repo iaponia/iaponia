@@ -14,12 +14,22 @@ culture = choshu_c
 religion = shinto
 capital = "Aratakiyama"
 is_city = yes
+shipyard = yes
+wharf = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 3
 
 trade_goods = paper
+
+1493.6.9 = {
+	workshop = yes
+}
+
+1523.8.25 = {
+	dockyard = yes
+}
 
 1582.6.21 = {
     add_core = MRI

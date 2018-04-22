@@ -15,8 +15,8 @@ religion = shinto
 capital = "Kiryu"
 is_city = yes
 
-base_tax = 5
-base_production = 4
+base_tax = 4
+base_production = 3
 base_manpower = 3
 
 trade_goods = cloth
@@ -25,6 +25,8 @@ trade_goods = cloth
     add_core = HJO
     controller = HJO
     owner = HJO
+	workshop = yes
+	shrine = yes
 }
 
 1600.9.13 = {

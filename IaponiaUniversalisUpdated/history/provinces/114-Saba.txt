@@ -15,12 +15,17 @@ culture = choshu_c
 religion = shinto
 capital = "Shikiyama"
 is_city = yes
+marketplace = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 3
 
 trade_goods = lacquerware
+
+1493.6.9 = {
+	workshop = yes
+}
 
 1582.6.21 = {
     add_core = MRI

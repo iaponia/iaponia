@@ -25,4 +25,6 @@ trade_goods = bamboo
 	add_core = SMZ
     owner = SMZ
     controller = SMZ
+	workshop = yes
+	trade_goods = firearms
 }

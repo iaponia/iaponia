@@ -18,6 +18,7 @@ is_city = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
+training_grounds = yes
 
 trade_goods = gold
 
@@ -31,6 +32,15 @@ trade_goods = gold
     add_core = HJO
     controller = HJO
     owner = HJO
+}
+
+1546.5.19 = {
+	magistrate = yes
+}
+
+1569.10.10 = {
+	barracks = yes
+	mine_network = yes
 }
 
 1600.9.13 = {

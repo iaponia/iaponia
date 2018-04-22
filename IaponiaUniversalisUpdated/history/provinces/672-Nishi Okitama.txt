@@ -13,12 +13,17 @@ culture = okitama_c
 religion = shinto
 capital = "Hagyu"
 is_city = yes
+training_grounds = yes
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
 trade_goods = grain
+
+1523.8.25 = {
+	shrine = yes
+}
 
 1600.9.13 = {
 	add_core = UES

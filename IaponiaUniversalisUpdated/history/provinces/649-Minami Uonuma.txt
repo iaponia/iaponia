@@ -16,9 +16,10 @@ religion = shinto
 capital = "Sakado"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
 
-base_tax = 2
-base_production = 2
+base_tax = 3
+base_production = 3
 base_manpower = 2
 
 trade_goods = cloth
@@ -26,6 +27,11 @@ trade_goods = cloth
 1511.9.25 = {
     controller = UNG
     owner = UNG
+	garrison_b = yes
+}
+
+1536.4.7 = {
+	barracks = yes
 }
 
 1554.3.1 = {
@@ -38,6 +44,7 @@ trade_goods = cloth
     remove_core = NGO
     owner = UES
     controller = UES
+	arsenal = yes
 }
 
 1600.9.13 = {

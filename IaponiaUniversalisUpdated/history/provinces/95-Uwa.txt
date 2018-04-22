@@ -10,14 +10,16 @@ add_core = SNJ
 owner = KNO
 controller = KNO
 
-culture = iyo_c
+culture = uwa_c
 religion = shinto
 capital = "Kurose"
 is_city = yes
+shipyard = yes
+training_grounds = yes
 
-base_tax = 2
-base_production = 2
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 2
 
 trade_goods = seaweed
 

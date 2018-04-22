@@ -15,6 +15,8 @@ religion = shinto
 capital = "Kofu"
 is_city = yes
 fortified_mansion = yes
+marketplace = yes
+shrine = yes
 
 base_tax = 6
 base_production = 6
@@ -25,6 +27,19 @@ trade_goods = gold
 add_permanent_province_modifier = {
 	name = inland_center_of_trade_modifier
 	duration = -1
+}
+
+1536.4.7 = {
+	garrison_b = yes
+	training_grounds = yes
+	merchant_guild = yes
+}
+
+1569.10.10 = {
+	fort = yes
+	barracks = yes
+	arsenal = yes
+	temple = yes
 }
 
 1582.6.21 = {

@@ -14,6 +14,7 @@ culture = mino_c
 religion = shinto
 capital = "Seki"
 is_city = yes
+shrine = yes
 
 base_tax = 3
 base_production = 3

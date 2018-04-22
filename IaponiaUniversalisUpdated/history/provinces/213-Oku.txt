@@ -16,6 +16,9 @@ culture = bizen_c
 religion = shinto
 capital = "Ushimado"
 is_city = yes
+marketplace = yes
+wharf = yes
+shipyard = yes
 
 base_tax = 4
 base_production = 4
@@ -32,10 +35,13 @@ trade_goods = salt
     add_core = URA
     owner = URA
     controller = URA
+	tea_house = yes
 }
 
 1569.10.10 = {
     add_core = UKT
     owner = UKT
     controller = UKT
+	merchant_guild = yes
+	drydock = yes
 }

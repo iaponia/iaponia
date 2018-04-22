@@ -18,6 +18,8 @@ is_city = yes
 base_tax = 4
 base_production = 3
 base_manpower = 3
+fortified_mansion = yes
+training_grounds = yes
 
 trade_goods = lumber
 
@@ -31,6 +33,11 @@ trade_goods = lumber
     add_core = AMA
 	controller = AMA
     owner = AMA
+	garrison_b = yes
+}
+
+1554.3.1 = {
+	barracks = yes
 }
 
 1582.6.21 = {

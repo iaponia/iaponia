@@ -13,12 +13,18 @@ culture = seishu_c
 religion = shinto
 capital = "Gokasasayama"
 is_city = yes
+shrine = yes
+training_grounds = yes
 
-base_tax = 4
+base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 
 trade_goods = metal
+
+1546.5.19 = {
+	barracks = yes
+}
 
 1582.6.21 = {
     add_core = KOD

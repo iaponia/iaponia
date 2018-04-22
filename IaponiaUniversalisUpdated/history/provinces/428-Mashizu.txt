@@ -14,6 +14,8 @@ culture = sunshu_c
 religion = shinto
 capital = "Ishiwaki"
 is_city = yes
+shipyard = yes
+marketplace = yes
 
 base_tax = 6
 base_production = 4
@@ -25,6 +27,8 @@ trade_goods = fish
     add_core = TKD
     owner = TKD
     controller = TKD
+	drydock = yes
+	wharf = yes
 }
 
 1582.6.21 = {

@@ -13,16 +13,24 @@ culture = iwashiro_c
 religion = shinto
 capital = "Wakamatsu"
 is_city = yes
-fortified_mansion = yes
+training_grounds = yes
+marketplace = yes
+shrine = yes
 
-base_tax = 5
+base_tax = 4
 base_production = 5
-base_manpower = 3
+base_manpower = 4
 
 trade_goods = gold
+
+1569.10.10 = {
+	barracks = yes
+	arsenal = yes
+}
 
 1600.9.13 = {
 	add_core = UES
 	owner = UES
 	controller = UES
+	tea_house = yes
 }

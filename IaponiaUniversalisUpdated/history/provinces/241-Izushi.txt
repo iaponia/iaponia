@@ -14,6 +14,7 @@ religion = shinto
 capital = "Konosumiyama"
 is_city = yes
 fortified_mansion = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
@@ -21,10 +22,15 @@ base_manpower = 3
 
 trade_goods = cloth
 
+1536.4.7 = {
+	garrison_b = yes
+}
+
 1582.6.21 = {
     owner = HSB
     controller = HSB
     add_core = HSB
+	training_grounds = yes
 }
 
 1600.9.13 = {

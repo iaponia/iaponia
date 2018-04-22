@@ -13,7 +13,7 @@ culture = kikuchi_c
 religion = shinto
 capital = "Kikuchi"
 is_city = yes
-fortified_mansion = yes
+shrine = yes
 
 base_tax = 6
 base_production = 4
@@ -21,15 +21,19 @@ base_manpower = 4
 
 trade_goods = rice
 
-add_permanent_province_modifier = {
-	name = inland_center_of_trade_modifier
-	duration = -1
+1511.9.25 = {
+	workshop = yes
 }
 
 1554.3.1 = {
     add_core = OTM
     controller = OTM
     owner = OTM
+	magistrate = yes
+}
+
+1569.10.10 = {
+	granary = yes
 }
 
 1582.6.21 = {

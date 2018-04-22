@@ -15,12 +15,19 @@ culture = shimotsuke_c
 religion = shinto
 capital = "Karasawayama"
 is_city = yes
+fortified_mansion = yes
+training_grounds = yes
 
-base_tax = 4
-base_production = 4
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 4
 
 trade_goods = grain
+
+1511.9.25 = {
+	garrison_b = yes
+	shrine = yes
+}
 
 1554.3.1 = {
     owner = SNO

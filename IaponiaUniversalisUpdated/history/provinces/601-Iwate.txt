@@ -14,6 +14,9 @@ religion = shinto
 capital = "Morioka"
 is_city = yes
 fortified_mansion = yes
+marketplace = yes
+shrine = yes
+tea_house = yes
 
 base_tax = 5
 base_production = 4
@@ -26,8 +29,15 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
+1523.8.25 = {
+	garrison_b = yes
+}
+
 1600.9.13 = {
 	add_core = NNB
 	owner = NNB
 	controller = NNB
+	fort = yes
+	temple = yes
+	merchant_guild = yes
 }

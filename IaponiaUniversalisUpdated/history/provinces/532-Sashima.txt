@@ -15,6 +15,10 @@ religion = shinto
 capital = "Koga"
 is_city = yes
 fortified_mansion = yes
+shrine = yes
+merchant_guild = yes
+workshop = yes 
+tea_house = yes
 
 base_tax = 6
 base_production = 5
@@ -25,6 +29,11 @@ trade_goods = grain
 add_permanent_province_modifier = {
 	name = inland_center_of_trade_modifier
 	duration = -1
+}
+
+1511.9.25 = {
+	garrison_b = yes
+	academy = yes
 }
 
 1554.3.1 = {

@@ -13,9 +13,11 @@ culture = mogami_c
 religion = shinto
 capital = "Nagatoro"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
-base_tax = 2
+base_tax = 3
 base_production = 2
-base_manpower = 2
+base_manpower = 3
 
 trade_goods = lacquerware

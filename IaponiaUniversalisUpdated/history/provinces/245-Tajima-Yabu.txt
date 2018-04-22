@@ -13,6 +13,7 @@ culture = inaba_c
 religion = shinto
 capital = "Yagi"
 is_city = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4

@@ -13,6 +13,8 @@ culture = okitama_c
 religion = shinto
 capital = "Kozutsumi"
 is_city = yes
+shipyard = yes
+marketplace = yes
 
 base_tax = 4
 base_production = 4
@@ -24,6 +26,7 @@ trade_goods = seaweed
 	add_core = MDT
 	owner = MDT
 	controller = MDT
+	wharf = yes
 }
 
 1554.3.1 = {

@@ -13,10 +13,12 @@ culture = boso_c
 religion = shinto
 capital = "Mariyatsu"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 4
-base_production = 4
-base_manpower = 3
+base_production = 3
+base_manpower = 4
 
 trade_goods = rice
 
@@ -24,12 +26,16 @@ trade_goods = rice
     add_core = OAK
     controller = OAK
     owner = OAK
+	magistrate = yes
 }
 
 1546.5.19 = {
     add_core = STM
     controller = STM
     owner = STM
+	barracks = yes
+	arsenal = yes
+	temple = yes
 }
 
 1582.6.21 = {

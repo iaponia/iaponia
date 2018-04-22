@@ -16,6 +16,8 @@ religion = shinto
 capital = "Kakegawa"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4
@@ -27,12 +29,15 @@ trade_goods = bamboo
     owner = IMG
     controller = IMG
     add_core = IMG
+	temple = yes
 }
 
 1569.10.10 = {
     add_core = TKG
     owner = TKG
     controller = TKG
+	arsenal = yes
+	barracks = yes
 }
 
 1600.9.13 = {

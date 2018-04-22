@@ -13,6 +13,7 @@ culture = iwashiro_c
 religion = shinto
 capital = "Hinoemata"
 is_city = yes
+shrine = yes
 
 base_tax = 4
 base_production = 3

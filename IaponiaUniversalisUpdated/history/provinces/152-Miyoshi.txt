@@ -14,16 +14,24 @@ culture = awa_c
 religion = shinto
 capital = "Hakuchi"
 is_city = yes
+fortified_mansion = yes
+training_grounds = yes
 
 base_tax = 4
-base_production = 4
-base_manpower = 3
+base_production = 3
+base_manpower = 4
 
 trade_goods = grain
 
 1511.9.25 = {
     controller = MYI
     owner = MYI
+	magistrate = yes
+	garrison_b = yes
+}
+
+1546.5.19 = {
+	shrine = yes
 }
 
 1582.6.21 = {

@@ -14,12 +14,18 @@ culture = iwashiro_c
 religion = shinto
 capital = "Nihonmatsu"
 is_city = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
 trade_goods = sake
+
+1523.8.25 = {
+	shrine = yes
+	marketplace = yes
+}
 
 1600.9.13 = {
 	add_core = UES

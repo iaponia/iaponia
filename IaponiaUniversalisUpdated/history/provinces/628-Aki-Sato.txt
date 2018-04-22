@@ -14,6 +14,8 @@ culture = aki_c
 religion = shinto
 capital = "Kanayama"
 is_city = yes
+training_ground = yes
+marketplace = yes
 
 base_tax = 4
 base_production = 4
@@ -27,6 +29,10 @@ trade_goods = lacquerware
     add_core = OUC
 }
 
+1511.9.25 = {
+	barracks = yes
+}
+
 1523.8.25 = {
 	controller = AMA
     owner = AMA
@@ -37,4 +43,6 @@ trade_goods = lacquerware
     add_core = MRI
     controller = MRI
     owner = MRI
+	arsenal = yes
+	wharf = yes
 }

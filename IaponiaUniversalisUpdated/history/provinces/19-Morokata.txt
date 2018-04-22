@@ -11,12 +11,13 @@ controller = HNG
 
 culture = hyuga_c
 religion = shinto
-capital = "Shibushi"
+capital = "Miyakono"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
-base_production = 2
-base_manpower = 3
+base_production = 3
+base_manpower = 4
 
 trade_goods = bamboo
 
@@ -24,4 +25,5 @@ trade_goods = bamboo
     add_core = SMZ
     controller = SMZ
     owner = SMZ
+	shrine = yes
 }

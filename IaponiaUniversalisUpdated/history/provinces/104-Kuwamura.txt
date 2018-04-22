@@ -21,7 +21,7 @@ base_manpower = 2
 trade_goods = rice
 
 1600.9.13 = {
-	add_core = MRI
-	owner = MRI
-	controller = MRI
+	add_core = IKT
+	owner = IKT
+	controller = IKT
 }

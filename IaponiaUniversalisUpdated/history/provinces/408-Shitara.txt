@@ -16,8 +16,9 @@ capital = "Nagashino"
 is_city = yes
 
 base_tax = 5
-base_production = 5
-base_manpower = 4
+base_production = 4
+base_manpower = 5
+training_grounds = yes
 
 trade_goods = bamboo
 
@@ -30,6 +31,8 @@ trade_goods = bamboo
     add_core = IMG
     controller = IMG
     owner = IMG
+	barracks = yes
+	shrine = yes
 }
 
 1569.10.10 = {
@@ -37,6 +40,7 @@ trade_goods = bamboo
     remove_core = MDR
     owner = TKG
     controller = TKG
+	arsenal = yes
 }
 
 1600.9.13 = {

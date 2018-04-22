@@ -14,6 +14,7 @@ culture = kii_c
 religion = shinto
 capital = "Koya"
 is_city = yes
+temple = yes
 
 base_tax = 4
 base_production = 4

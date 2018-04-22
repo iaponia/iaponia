@@ -16,21 +16,40 @@ culture = harima_c
 religion = shinto
 capital = "Utsurogi"
 is_city = yes
+fortified_mansion = yes
+training_grounds = yes
+shrine = yes
 
-base_tax = 5
-base_production = 4
-base_manpower = 4
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
+
+base_tax = 6
+base_production = 6
+base_manpower = 3
 
 trade_goods = sake
+
+1523.8.25 = {
+	garrison_b = yes
+	tea_house = yes
+}
 
 1582.6.21 = {
 	add_core = HSB
     controller = HSB
     owner = HSB
+	fort = yes
+	barracks = yes
+	temple = yes
+	marketplace = yes
 }
 
 1600.9.13 = {
 	add_core = TOY
     controller = TOY
     owner = TOY
+	castle = yes
+	outer_wall = yes
 }

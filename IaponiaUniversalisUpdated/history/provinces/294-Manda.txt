@@ -14,6 +14,7 @@ culture = kawachi_c
 religion = shinto
 capital = "Moriguchi"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
@@ -24,6 +25,7 @@ trade_goods = grain
 1511.9.25 = {
     controller = BHY
     owner = BHY
+	shrine = yes
 }
 
 1536.4.7 = {

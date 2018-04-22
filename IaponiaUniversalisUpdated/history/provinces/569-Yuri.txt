@@ -13,12 +13,21 @@ culture = shonai_c
 religion = shinto
 capital = "Honjo"
 is_city = yes
+workshop = yes
+shrine = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
 base_manpower = 3
 
 trade_goods = rice
+
+1569.10.10 = {
+	barracks = yes
+	temple = yes
+	marketplace = yes
+}
 
 1600.9.13 = {
 	add_core = MGM

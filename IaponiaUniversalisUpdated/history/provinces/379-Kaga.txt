@@ -14,6 +14,7 @@ culture = kaga_c
 religion = shinto
 capital = "Matsune"
 is_city = yes
+workshop = yes
 
 base_tax = 5
 base_production = 5
@@ -25,6 +26,12 @@ trade_goods = rice
     add_core = HGJ
     controller = HGJ
     owner = HGJ
+	shrine = yes
+	marketplace = yes
+}
+
+1546.5.19 = {
+	granary = yes
 }
 
 1582.6.21 = {

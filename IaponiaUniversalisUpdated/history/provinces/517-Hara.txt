@@ -16,6 +16,8 @@ culture = musashi_c
 religion = shinto
 capital = "Beppu"
 is_city = yes
+workshop = yes
+training_grounds = yes
 
 base_tax = 5
 base_production = 4
@@ -27,6 +29,7 @@ trade_goods = rice
     add_core = OTA
     owner = OTA
     controller = OTA
+	barracks = yes
 }
 
 1554.3.1 = {

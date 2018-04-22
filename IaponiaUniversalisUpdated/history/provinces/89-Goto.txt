@@ -8,6 +8,8 @@ discovered_by = ainu
 add_core = UKU
 owner = UKU
 controller = UKU
+marketplace = yes
+shipyard = yes
 
 culture = shimabara_c
 religion = shinto
@@ -19,3 +21,8 @@ base_production = 5
 base_manpower = 2
 
 trade_goods = mainland_trade
+
+1569.10.10 = {
+	wharf = yes
+	shrine = yes
+}

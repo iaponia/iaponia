@@ -13,6 +13,7 @@ culture = boso_c
 religion = shinto
 capital = "Honno"
 is_city = yes
+shipyard = yes
 
 base_tax = 4
 base_production = 3
@@ -30,6 +31,7 @@ trade_goods = rice
     add_core = CBA
     controller = CBA
     owner = CBA
+	workshop = yes
 }
 
 1582.6.21 = {

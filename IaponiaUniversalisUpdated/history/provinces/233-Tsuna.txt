@@ -13,6 +13,8 @@ culture = awaji_c
 religion = shinto
 capital = "Yanagisawa"
 is_city = yes
+shipyard = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
@@ -24,6 +26,8 @@ trade_goods = horses
     add_core = MYI
     owner = MYI
     controller = MYI
+	marketplace = yes
+	wharf = yes
 }
 
 1582.6.21 = {
@@ -36,4 +40,5 @@ trade_goods = horses
     add_core = WKZ
     controller = WKZ
     owner = WKZ
+	dockyard = yes
 }

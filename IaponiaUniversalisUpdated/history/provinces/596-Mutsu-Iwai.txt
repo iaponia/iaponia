@@ -13,12 +13,22 @@ culture = rikuzen_c
 religion = shinto
 capital = "Ichinoseki"
 is_city = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
 trade_goods = lacquerware
+
+1523.8.25 = {
+	workshop = yes
+}
+
+1569.10.10 = {
+	barracks = yes
+	arsenal = yes
+}
 
 1600.9.13 = {
 	add_core = DTE

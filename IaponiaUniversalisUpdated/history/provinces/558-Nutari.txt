@@ -17,6 +17,8 @@ religion = shinto
 capital = "Shibata"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+shipyard = yes
 
 base_tax = 5
 base_production = 5
@@ -27,6 +29,12 @@ trade_goods = rice
 1511.9.25 = {
     controller = HNJ
     owner = HNJ
+	garrison_b = yes
+}
+
+1536.4.7 = {
+	barracks = yes
+	shrine = yes
 }
 
 1569.10.10 = {
@@ -34,6 +42,8 @@ trade_goods = rice
     remove_core = NGO
 	controller = UES
     owner = UES
+	fort = yes
+	arsenal = yes
 }
 
 1600.9.13 = {

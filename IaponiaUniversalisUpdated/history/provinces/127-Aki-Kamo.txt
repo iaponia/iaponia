@@ -14,6 +14,8 @@ culture = aki_c
 religion = shinto
 capital = "Kagamiyama"
 is_city = yes
+training_grounds = yes
+shipyard = yes
 
 base_tax = 4
 base_production = 3
@@ -25,6 +27,12 @@ trade_goods = sake
 	add_core = OUC
     controller = OUC
     owner = OUC
+}
+
+1523.8.25 = {
+	barracks = yes
+	wharf = yes
+	marketplace = yes
 }
 
 1569.10.10 = {

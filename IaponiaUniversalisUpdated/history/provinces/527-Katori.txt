@@ -13,12 +13,17 @@ culture = shimosa_c
 religion = shinto
 capital = "Iwagasaki"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 4
 base_manpower = 2
 
 trade_goods = rice
+
+1546.5.19 = {
+	temple = yes
+}
 
 1582.6.21 = {
 	add_core = HJO

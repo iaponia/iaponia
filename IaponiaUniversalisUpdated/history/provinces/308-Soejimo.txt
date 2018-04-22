@@ -15,12 +15,25 @@ religion = shinto
 capital = "Tsutsui"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 4
 
 trade_goods = paper
+
+1523.8.25 = {
+	garrison_b = yes
+	marketplace = yes
+}
+
+1554.3.1 = {
+	fort = yes
+	barrracks = yes
+	tea_house = yes
+}
 
 1600.9.13 = {
 	add_core = ISH

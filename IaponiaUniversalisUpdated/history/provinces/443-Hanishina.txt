@@ -13,12 +13,19 @@ culture = shinano_c
 religion = shinto
 capital = "Arato"
 is_city = yes
+shrine = yes
 
 base_tax = 5
-base_production = 4
-base_manpower = 4
+base_production = 5
+base_manpower = 3
 
 trade_goods = sake
+
+1536.4.7 = {
+	marketplace = yes
+	temple = yes
+	workshop = yes
+}
 
 1554.3.1 = {
     add_core = TKD

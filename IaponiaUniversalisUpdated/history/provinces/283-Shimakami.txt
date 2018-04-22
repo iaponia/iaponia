@@ -16,6 +16,8 @@ religion = shinto
 capital = "Takatsuki"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4
@@ -23,22 +25,30 @@ base_manpower = 4
 
 trade_goods = rice
 
+1523.8.25 = {
+	garrison_b = yes
+}
+
 1554.3.1 = {
     add_core = MYI
     controller = MYI
     owner = MYI
+	barracks = yes
 }
 
 1569.10.10 = {
     add_core = AAI
     controller = AAI
     owner = AAI
+	arsenal = yes
 }
 
 1582.6.21 = {
     add_core = IKE
     controller = IKE
     owner = IKE
+	temple = yes
+	tea_house = yes
 }
 
 1600.9.13 = {

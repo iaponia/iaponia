@@ -15,9 +15,27 @@ religion = shinto
 capital = "Mito"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+marketplace = yes
 
 base_tax = 5
-base_production = 5
-base_manpower = 3
+base_production = 4
+base_manpower = 4
 
 trade_goods = pottery
+
+1511.9.25 = {
+	garrison_b = yes
+	shrine = yes
+}
+
+1546.5.19 = {
+	fort = yes
+	barracks = yes
+	workshop = yes
+}
+
+1569.10.10 = {
+	arsenal = yes
+	temple = yes
+}

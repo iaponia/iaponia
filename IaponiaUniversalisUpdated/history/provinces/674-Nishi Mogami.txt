@@ -13,9 +13,14 @@ culture = mogami_c
 religion = shinto
 capital = "Aterazawa"
 is_city = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4
 base_manpower = 2
 
 trade_goods = lumber
+
+1523.8.25 = {
+	workshop = yes
+}

@@ -10,17 +10,19 @@ owner = KKZ
 controller = KKZ
 
 culture = ezo_c
-religion = ainu
+religion = shinto
 capital = "Hakodate"
+workshop = yes
 
 base_tax = 2
 base_production = 1
 base_manpower = 1
 
-trade_goods = fish
+trade_goods = fur
 
 1600.9.13 = {
 	add_core = MAT
 	owner = MAT
 	controller = MAT
+	textile_workshop = yes
 }

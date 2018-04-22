@@ -19,3 +19,7 @@ base_production = 3
 base_manpower = 2
 
 trade_goods = grain
+
+1569.10.10 = {
+	shrine = yes
+}

@@ -16,6 +16,7 @@ culture = musashi_c
 religion = shinto
 capital = "Hanazono"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
@@ -27,6 +28,7 @@ trade_goods = cloth
     add_core = OTA
     owner = OTA
     controller = OTA
+	temple = yes
 }
 
 1554.3.1 = {

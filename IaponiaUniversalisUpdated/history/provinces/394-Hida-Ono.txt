@@ -14,6 +14,8 @@ culture = hida_c
 religion = shinto
 capital = "Takayama"
 is_city = yes
+fortified_mansion = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 3
@@ -30,6 +32,12 @@ trade_goods = lacquerware
     controller = AKJ
     owner = AKJ
     add_core = AKJ
+	garrison_b = yes
+}
+
+1569.10.10 = {
+	barracks = yes
+	workshop = yes
 }
 
 1600.9.13 = {

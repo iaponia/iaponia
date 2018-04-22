@@ -1,3 +1,4 @@
+post_roads = yes
 hre = no
 discovered_by = kyushu
 discovered_by = saigoku
@@ -14,13 +15,13 @@ religion = shinto
 capital = "Irifune"
 is_city = yes
 
-base_tax = 4
+base_tax = 3
 base_production = 3
 base_manpower = 3
 
 trade_goods = rice
 
-1582.6.21 = {
+1569.10.10 = {
 	add_core = SMZ
     owner = SMZ
     controller = SMZ

@@ -13,12 +13,17 @@ culture = islander_c
 religion = shinto
 capital = "Imari"
 is_city = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
 trade_goods = pottery
+
+1569.10.10 = {
+	barracks = yes
+}
 
 1582.6.21 = {
     add_core = RZJ
@@ -27,7 +32,9 @@ trade_goods = pottery
 }
 
 1600.9.13 = {
-	add_core = MTA
-    controller = MTA
-    owner = MTA
+	add_core = NBS
+    controller = NBS
+    owner = NBS
+	workshop = yes
+	artisan_workshop = yes
 }

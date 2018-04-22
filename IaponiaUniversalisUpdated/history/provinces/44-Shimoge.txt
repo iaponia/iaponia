@@ -13,14 +13,20 @@ controller = OUC
 
 culture = buzen_c
 religion = shinto
-capital = "Nagaiwa"
+capital = "Nakatsu"
 is_city = yes
+fortified_mansion = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
-base_manpower = 2
+base_manpower = 4
 
 trade_goods = bamboo
+
+1523.8.25 = {
+	garrison_b = yes
+}
 
 1554.3.1 = {
 	add_core = OTM
@@ -32,4 +38,7 @@ trade_goods = bamboo
 	add_core = KRD
     controller = KRD
     owner = KRD
+	shrine = yes
+	marketplace = yes
+	barracks = yes
 }

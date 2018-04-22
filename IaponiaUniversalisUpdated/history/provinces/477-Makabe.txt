@@ -13,6 +13,7 @@ culture = hitachi_c
 religion = shinto
 capital = "Makabe"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 3
@@ -30,4 +31,6 @@ trade_goods = grain
 	owner = STK
     controller = STK
     add_core = STK
+	barracks = yes
+	arsenal = yes
 }

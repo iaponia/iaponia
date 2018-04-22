@@ -13,15 +13,22 @@ culture = bungo_c
 religion = shinto
 capital = "Tsuruga"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
-base_manpower = 2
+base_manpower = 3
 
 trade_goods = metal
+
+1554.3.1 = {
+	arsenal = yes
+	barracks = yes
+}
 
 1600.9.13 = {
 	add_core = NAK
     controller = NAK
     owner = NAK
 }
+

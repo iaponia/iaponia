@@ -14,12 +14,10 @@ culture = amami_c
 religion = ryukyuan
 capital = "Kametoku"
 is_city = yes
+shipyard = yes
 
 base_tax = 2
 base_production = 2
 base_manpower = 1
 
 trade_goods = bamboo
-
-
-

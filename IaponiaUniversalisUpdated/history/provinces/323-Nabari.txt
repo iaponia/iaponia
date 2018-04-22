@@ -13,6 +13,8 @@ culture = iga_c
 religion = shinto
 capital = "Kashiwara"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 3
 base_production = 3
@@ -24,6 +26,10 @@ trade_goods = grain
     add_core = HTR
     controller = HTR
     owner = HTR
+}
+
+1546.5.19 = {
+	barracks = yes
 }
 
 1582.6.21 = {

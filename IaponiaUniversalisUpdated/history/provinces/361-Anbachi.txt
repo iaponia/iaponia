@@ -15,6 +15,7 @@ culture = mino_c
 religion = shinto
 capital = "Sone"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
@@ -25,12 +26,15 @@ trade_goods = sake
 1546.5.19 = {
     controller = STO
     owner = STO
+	training_grounds = yes
+	workshop = yes
 }
 
 1569.10.10 = {
     add_core = ODA
     controller = ODA
     owner = ODA
+	barracks = yes
 }
 
 1582.6.21 = {

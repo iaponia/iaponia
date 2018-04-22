@@ -17,6 +17,7 @@ religion = shinto
 capital = "Kitasone"
 is_city = yes
 fortified_mansion = yes
+shrine = yes
 
 base_tax = 5
 base_production = 4
@@ -27,12 +28,14 @@ trade_goods = pottery
 1493.6.9 = {
     owner = AKM
     controller = AKM
+	training_grounds = yes
 }
 
 1523.8.25 = {
     add_core = URA
     owner = URA
     controller = URA
+	garrison_b = yes
 }
 
 1582.6.21 = {

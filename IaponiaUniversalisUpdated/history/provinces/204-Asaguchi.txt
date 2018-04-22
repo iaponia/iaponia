@@ -19,13 +19,15 @@ is_city = yes
 
 base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 3
+shipyard = yes
 
 trade_goods = seaweed
 
 1511.9.25 = {
     owner = SHX
     controller = SHX
+	marketplace = yes
 }
 
 1554.3.1 = {

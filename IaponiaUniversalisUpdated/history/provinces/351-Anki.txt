@@ -15,22 +15,26 @@ culture = seishu_c
 religion = shinto
 capital = "Ujii"
 is_city = yes
+training_grounds = yes
+marketplace = yes
 
 base_tax = 4
 base_production = 4
-base_manpower = 3
+base_manpower = 4
 
 trade_goods = rice
 
 1493.6.9 = {
     owner = ING
     controller = ING
+	shipyard = yes
 }
 
 1546.5.19 = {
 	add_core = RKK
     controller = RKK
     owner = RKK
+	barracks = yes
 }
 
 1569.10.10 = {

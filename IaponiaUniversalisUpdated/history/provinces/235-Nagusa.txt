@@ -14,6 +14,8 @@ culture = kii_c
 religion = shinto
 capital = "Ota"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4
@@ -25,6 +27,10 @@ trade_goods = lacquerware
     owner = SZK
     controller = SZK
 	add_core = HTK
+	trade_goods = firearms
+	workshop = yes
+	arsenal = yes
+	barracks = yes
 }
 
 1600.9.13 = {

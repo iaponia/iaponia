@@ -14,6 +14,7 @@ culture = okinawan_c
 religion = ryukyuan
 capital = "Nachijin"
 is_city = yes
+training_grounds = yes
 
 base_tax = 2
 base_production = 3
@@ -21,3 +22,6 @@ base_manpower = 3
 
 trade_goods = seaweed
 
+1523.8.25 = {
+	shipyard = yes
+}

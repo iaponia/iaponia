@@ -14,6 +14,8 @@ religion = shinto
 capital = "Oda"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 4
 base_production = 3
@@ -21,11 +23,15 @@ base_manpower = 3
 
 trade_goods = sake
 
+1511.9.25 = {
+	garrison_b = yes
+}
 
 1569.10.10 = {
     owner = STK
     controller = STK
     add_core = STK
+	barracks = yes
 }
 
 1600.9.13 = {

@@ -19,6 +19,7 @@ is_city = yes
 base_tax = 5
 base_production = 5
 base_manpower = 3
+shrine = yes
 
 trade_goods = dyes
 
@@ -26,6 +27,7 @@ trade_goods = dyes
     owner = IMG
     controller = IMG
     add_core = IMG
+	training_grounds = yes
 }
 
 1569.10.10 = {

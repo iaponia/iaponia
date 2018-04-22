@@ -15,6 +15,7 @@ culture = bizen_c
 religion = shinto
 capital = "Motoyama"
 is_city = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 3

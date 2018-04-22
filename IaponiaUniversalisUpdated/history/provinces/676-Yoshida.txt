@@ -14,9 +14,14 @@ culture = hitachi_c
 religion = shinto
 capital = "Nakaminato"
 is_city = yes
+shipyard = yes
 
 base_tax = 5
 base_production = 4
 base_manpower = 3
 
 trade_goods = fish
+
+1511.9.25 = {
+	shrine = yes
+}

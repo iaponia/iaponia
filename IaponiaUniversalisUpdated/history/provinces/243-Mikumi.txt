@@ -14,12 +14,17 @@ culture = inaba_c
 religion = shinto
 capital = "Rinpo"
 is_city = yes
+shipyard = yes
 
 base_tax = 4
 base_production = 4
 base_manpower = 2
 
 trade_goods = rice
+
+1536.4.7 = {
+	workshop = yes
+}
 
 1582.6.21 = {
     owner = HSB

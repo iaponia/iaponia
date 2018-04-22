@@ -13,12 +13,19 @@ culture = iwashiro_c
 religion = shinto
 capital = "Niita"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
-base_tax = 5
+base_tax = 4
 base_production = 4
-base_manpower = 4
+base_manpower = 5
 
 trade_goods = pottery
+
+1569.10.10 = {
+	barracks = yes
+	arsenal = yes
+}
 
 1600.9.13 = {
 	add_core = UES

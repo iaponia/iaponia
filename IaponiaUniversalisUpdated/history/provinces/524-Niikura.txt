@@ -1,3 +1,4 @@
+post_roads = yes
 hre = no
 discovered_by = kyushu
 discovered_by = saigoku
@@ -13,6 +14,7 @@ culture = musashi_c
 religion = shinto
 capital = "Oka"
 is_city = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4

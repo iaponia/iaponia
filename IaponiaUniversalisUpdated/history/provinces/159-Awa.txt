@@ -18,12 +18,15 @@ is_city = yes
 base_tax = 5
 base_production = 4
 base_manpower = 3
+shrine = yes
+marketplace = yes
 
 trade_goods = paper
 
 1511.9.25 = {
     controller = MYI
     owner = MYI
+	training_grounds = yes
 }
 
 1582.6.21 = {

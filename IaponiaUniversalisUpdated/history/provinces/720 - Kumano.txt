@@ -5,3 +5,37 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
+add_core = BHY
+owner = BHY
+controller = BHY
+add_core = HUC
+
+culture = kii_c
+religion = shinto
+capital = "Kumano"
+is_city = yes
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+temple = yes
+workshop = yes
+
+trade_goods = pilgrimage_site
+
+1546.5.19 = {
+    owner = HTK
+    controller = HTK
+	add_core = HTK
+}
+
+1569.10.10 = {
+	owner = HUC
+    controller = HUC
+}
+
+1600.9.13 = {
+	owner = TKG
+    controller = TKG
+	add_core = TKG
+}

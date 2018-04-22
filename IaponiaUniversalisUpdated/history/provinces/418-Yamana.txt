@@ -14,10 +14,12 @@ culture = totomi_c
 religion = shinto
 capital = "Mamushizuka"
 is_city = yes
+shipyard = yes
+training_grounds = yes
 
 base_tax = 5
-base_production = 5
-base_manpower = 3
+base_production = 4
+base_manpower = 4
 
 trade_goods = seaweed
 

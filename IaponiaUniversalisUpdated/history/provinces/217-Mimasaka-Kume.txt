@@ -30,6 +30,7 @@ trade_goods = metal
     add_core = URA
     owner = URA
     controller = URA
+	workshop = yes
 }
 
 1536.4.7 = {

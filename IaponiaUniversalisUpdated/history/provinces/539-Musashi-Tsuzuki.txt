@@ -14,6 +14,7 @@ culture = musashi_c
 religion = shinto
 capital = "Kozukue"
 is_city = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4
@@ -25,6 +26,7 @@ trade_goods = lumber
     owner = HJO
     controller = HJO
     add_core = HJO
+	workshop = yes
 }
 
 1600.9.13 = {

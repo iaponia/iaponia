@@ -15,6 +15,7 @@ culture = chikuzen_c
 religion = shinto
 capital = "Takatorii"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5

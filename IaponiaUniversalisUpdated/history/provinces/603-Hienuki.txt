@@ -13,12 +13,18 @@ culture = oshu_c
 religion = shinto
 capital = "Hanamaki"
 is_city = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 2
-base_manpower = 2
+base_manpower = 3
 
 trade_goods = cloth
+
+1554.3.1 = {
+	barracks = yes
+	shrine = yes
+}
 
 1600.9.13 = {
 	add_core = NNB

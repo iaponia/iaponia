@@ -13,6 +13,7 @@ culture = chikugo_c
 religion = shinto
 capital = "Nishimuta"
 is_city = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 3

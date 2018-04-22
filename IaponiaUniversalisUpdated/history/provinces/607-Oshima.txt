@@ -13,6 +13,10 @@ culture = ezo_c
 religion = shinto
 capital = "Tosaminato"
 is_city = yes
+fortified_mansion = yes
+shipyard = yes
+wharf = yes
+marketplace = yes
 
 base_tax = 2
 base_production = 3
@@ -25,8 +29,14 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
+1523.8.25 = {
+	garrison_b = yes
+}
+
 1600.9.13 = {
 	add_core = MAT
 	owner = MAT
 	controller = MAT
+	merchant_guild = yes
+	drydock = yes
 }

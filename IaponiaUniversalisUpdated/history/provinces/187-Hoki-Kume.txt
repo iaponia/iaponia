@@ -16,7 +16,7 @@ religion = shinto
 capital = "Utsubuki"
 is_city = yes
 
-base_tax = 5
+base_tax = 3
 base_production = 3
 base_manpower = 2
 

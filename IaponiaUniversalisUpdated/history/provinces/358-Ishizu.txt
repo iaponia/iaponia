@@ -15,6 +15,7 @@ culture = mino_c
 religion = shinto
 capital = "Imao"
 is_city = yes
+workshop = yes
 
 base_tax = 4
 base_production = 4

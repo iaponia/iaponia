@@ -26,6 +26,7 @@ trade_goods = grain
     add_core = HJO
     controller = HJO
     owner = HJO
+	shrine = yes
 }
 
 1600.9.13 = {

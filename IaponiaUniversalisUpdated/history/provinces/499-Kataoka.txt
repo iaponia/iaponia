@@ -15,6 +15,7 @@ culture = kozuke_c
 religion = shinto
 capital = "Yamana"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
@@ -25,6 +26,7 @@ trade_goods = grain
 1554.3.1 = {
     controller = NGN
     owner = NGN
+	workshop = yes
 }
 
 1569.10.10 = {

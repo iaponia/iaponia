@@ -13,6 +13,8 @@ culture = unpaku_c
 religion = shinto
 capital = "Tsuma"
 is_city = yes
+shipyard = yes
+shrine = yes
 
 base_tax = 3
 base_production = 2

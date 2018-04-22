@@ -15,6 +15,7 @@ culture = harima_c
 religion = shinto
 capital = "Chozui"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4

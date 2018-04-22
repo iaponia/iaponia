@@ -24,4 +24,5 @@ trade_goods = lumber
 	add_core = DTE
 	owner = DTE
 	controller = DTE
+	workshop = yes
 }

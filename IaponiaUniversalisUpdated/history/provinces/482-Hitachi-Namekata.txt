@@ -13,6 +13,7 @@ culture = hitachi_c
 religion = shinto
 capital = "Tamatsukuri"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
@@ -24,4 +25,5 @@ trade_goods = rice
 	owner = STK
     controller = STK
     add_core = STK
+	granary = yes
 }

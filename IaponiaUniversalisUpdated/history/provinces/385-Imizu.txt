@@ -15,6 +15,7 @@ culture = kaga_c
 religion = shinto
 capital = "Hojozu"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 4
@@ -26,17 +27,21 @@ trade_goods = lacquerware
     add_core = HGJ
     controller = HGJ
     owner = HGJ
+	temple = yes
+	training_grounds = yes
 }
 
 1546.5.19 = {
     controller = JNB
     owner = JNB
+	barracks = yes
 }
 
 1582.6.21 = {
     add_core = SSS
     controller = SSS
     owner = SSS
+	workshop = yes
 }
 
 1600.9.13 = {

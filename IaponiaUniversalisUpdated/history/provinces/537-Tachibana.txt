@@ -15,6 +15,7 @@ culture = musashi_c
 religion = shinto
 capital = "Masugatayama"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 4
@@ -26,6 +27,7 @@ trade_goods = fish
     owner = HJO
     controller = HJO
     add_core = HJO
+	temple = yes
 }
 
 1600.9.13 = {

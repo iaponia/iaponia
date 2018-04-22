@@ -14,6 +14,8 @@ culture = chikuzen_c
 religion = shinto
 capital = "Koshidake"
 is_city = yes
+shipyard = yes
+marketplace = yes
 
 base_tax = 3
 base_production = 3

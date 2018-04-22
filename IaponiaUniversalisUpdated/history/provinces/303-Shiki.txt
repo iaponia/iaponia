@@ -15,6 +15,7 @@ culture = kawachi_c
 religion = shinto
 capital = "Koyama"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 3

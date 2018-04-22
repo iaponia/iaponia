@@ -20,6 +20,10 @@ base_manpower = 1
 
 trade_goods = fish
 
+1546.5.19 = {
+	training_grounds = yes
+}
+
 1582.6.21 = {
     owner = HSK
     controller = HSK

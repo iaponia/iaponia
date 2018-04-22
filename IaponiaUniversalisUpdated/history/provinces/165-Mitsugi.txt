@@ -19,6 +19,7 @@ is_city = yes
 base_tax = 4
 base_production = 3
 base_manpower = 3
+shrine = yes
 
 trade_goods = cloth
 
@@ -26,6 +27,7 @@ trade_goods = cloth
 1511.9.25 = {
     controller = SGH
     owner = SGH
+	marketplace = yes
 }
 
 1536.4.7 = {

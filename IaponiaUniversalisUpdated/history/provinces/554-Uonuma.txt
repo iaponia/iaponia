@@ -16,8 +16,8 @@ religion = shinto
 capital = "Oida"
 is_city = yes
 
-base_tax = 3
-base_production = 3
+base_tax = 2
+base_production = 2
 base_manpower = 2
 
 trade_goods = rice

@@ -13,6 +13,8 @@ culture = inaba_c
 religion = shinto
 capital = "Kawahara"
 is_city = yes
+shrine = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
@@ -30,6 +32,7 @@ trade_goods = paper
 	add_core = YMN
 	owner = YMN
 	controller = YMN
+	barracks = yes
 }
 
 1582.6.21 = {

@@ -14,12 +14,25 @@ culture = chikugo_c
 religion = shinto
 capital = "Tajiri"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 3
 
 trade_goods = paper
+
+1493.6.9 = {
+	training_grounds = yes
+}
+
+1523.8.25 = {
+	shipyard = yes
+}
+
+1554.3.1 = {
+	workshop = yes
+}
 
 1582.6.21 = {
     add_core = RZJ

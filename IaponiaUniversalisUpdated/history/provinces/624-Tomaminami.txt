@@ -15,10 +15,11 @@ religion = shinto
 capital = "Tsuyama"
 is_city = yes
 fortified_mansion = yes
+shrine = yes
 
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 trade_goods = grain
 
@@ -31,6 +32,8 @@ trade_goods = grain
     add_core = URA
     owner = URA
     controller = URA
+	garrison_b = yes
+	training_grounds = yes
 }
 
 1536.4.7 = {
@@ -42,6 +45,7 @@ trade_goods = grain
 1569.10.10 = {
     owner = URA
     controller = URA
+	barracks = yes
 }
 
 1582.6.21 = {

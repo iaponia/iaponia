@@ -10,7 +10,7 @@ add_core = IUM
 owner = KNO
 controller = KNO
 
-culture = iyo_c
+culture = uwa_c
 religion = shinto
 capital = "Ozu"
 is_city = yes
@@ -24,6 +24,7 @@ trade_goods = bamboo
 1493.6.9 = {
     controller = IUM
     owner = IUM
+	training_grounds = yes
 }
 
 1569.10.10 = {
@@ -32,7 +33,7 @@ trade_goods = bamboo
 }
 
 1600.9.13 = {
-	add_core = TOD
-    controller = TOD
-    owner = TOD
+	add_core = MRI
+    controller = MRI
+    owner = MRI
 }

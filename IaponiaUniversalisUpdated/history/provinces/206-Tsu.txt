@@ -16,27 +16,33 @@ culture = bishu_c
 religion = shinto
 capital = "Hayashima"
 is_city = yes
+training_grounds = yes
+marketplace = yes
 
-base_tax = 4
-base_production = 4
-base_manpower = 3
+base_tax = 5
+base_production = 5
+base_manpower = 4
 
 trade_goods = rice
 
 1511.9.25 = {
     controller = IKW
     owner = IKW
+	shrine = yes
 }
 
 1554.3.1 = {
     owner = MIM
     controller = MIM
+	barracks = yes
+	arsenal = yes
 }
 
 1569.10.10 = {
 	add_core = MRI
     owner = MRI
     controller = MRI
+	magistrate = yes
 }
 
 1582.6.21 = {

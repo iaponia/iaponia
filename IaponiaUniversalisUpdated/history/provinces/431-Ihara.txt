@@ -15,12 +15,23 @@ religion = shinto
 capital = "Kanbara"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 4
 
 trade_goods = cloth
+
+1511.9.25 = {
+	garrison_b = yes
+}
+
+1554.3.1 = {
+	fort = yes
+	barracks = yes
+	arsenal = yes
+}
 
 1569.10.10 = {
     add_core = HJO

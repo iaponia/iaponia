@@ -27,7 +27,9 @@ trade_goods = rice
 1511.9.25 = {
     owner = SHX
     controller = SHX
+	shrine = yes
 }
+
 1554.3.1 = {
     owner = MIM
     controller = MIM

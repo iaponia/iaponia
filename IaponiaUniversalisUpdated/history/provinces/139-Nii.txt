@@ -14,7 +14,7 @@ religion = shinto
 capital = "Takatoge"
 is_city = yes
 
-base_tax = 3
+base_tax = 2
 base_production = 3
 base_manpower = 2
 
@@ -36,10 +36,11 @@ trade_goods = metal
     add_core = CSK
     controller = CSK
     owner = CSK
+	workshop = yes
 }
 
 1600.9.13 = {
-    add_core = MRI
-    controller = MRI
-    owner = MRI
+    add_core = IKT
+	owner = IKT
+	controller = IKT
 }

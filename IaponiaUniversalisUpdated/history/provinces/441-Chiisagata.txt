@@ -15,12 +15,17 @@ religion = shinto
 capital = "Shioda"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
 
-base_tax = 4
-base_production = 3
-base_manpower = 3
+base_tax = 5
+base_production = 4
+base_manpower = 4
 
 trade_goods = grain
+
+1536.4.7 = {
+	garrison_b = yes
+}
 
 1554.3.1 = {
     add_core = TKD
@@ -28,8 +33,17 @@ trade_goods = grain
     controller = TKD
 }
 
+1569.10.10 = {
+	fort = yes
+	outer_wall = yes
+	arsenal = yes
+	barracks = yes
+}
+
 1582.6.21 = {
-    add_core = SNA
+	add_core = SNA
     owner = SNA
     controller = SNA
+	castle = yes
+	outer_wards = yes
 }

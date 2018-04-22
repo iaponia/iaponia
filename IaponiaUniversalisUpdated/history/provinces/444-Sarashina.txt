@@ -9,21 +9,31 @@ add_core = OGS
 owner = OGS
 controller = OGS
 
-culture = suwa_c
+culture = shinano_c
 religion = shinto
 capital = "Shiozaki"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 5
 base_production = 4
-base_manpower = 3
+base_manpower = 4
 
 trade_goods = grain
+
+1536.4.7 = {
+	barracks = yes
+}
 
 1554.3.1 = {
     add_core = TKD
     owner = TKD
     controller = TKD
+}
+
+1569.10.10 = {
+	arsenal = yes
 }
 
 1582.6.21 = {

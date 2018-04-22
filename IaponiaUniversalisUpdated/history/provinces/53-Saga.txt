@@ -15,6 +15,8 @@ religion = shinto
 capital = "Saga"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+marketplace = yes
 
 base_tax = 6
 base_production = 6
@@ -22,10 +24,21 @@ base_manpower = 4
 
 trade_goods = paper
 
+1511.9.25 = {
+	garrison_b = yes
+	shrine = yes
+}
+
 1554.3.1 = {
     owner = RZJ
     controller = RZJ
     add_core = RZJ
+	barracks = yes
+}
+
+1569.10.10 = {
+	fort = yes
+	arsenal = yes
 }
 
 1600.9.13 = {

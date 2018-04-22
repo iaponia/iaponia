@@ -14,12 +14,17 @@ culture = noto_c
 religion = shinto
 capital = "Iida"
 is_city = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 2
 
 trade_goods = salt
+
+1536.4.7 = {
+	workshop = yes
+}
 
 1582.6.21 = {
     add_core = MAE

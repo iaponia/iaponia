@@ -15,6 +15,7 @@ culture = harima_c
 religion = shinto
 capital = "Shimamura"
 is_city = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 3
@@ -25,6 +26,7 @@ trade_goods = bamboo
 1523.8.25 = {
     owner = BSO
     controller = BSO
+	shrine = yes
 }
 
 1582.6.21 = {

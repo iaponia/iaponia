@@ -14,9 +14,10 @@ culture = tosa_c
 religion = shinto
 capital = "Otakayama"
 is_city = yes
+training_grounds = yes
 
 base_tax = 3
-base_production = 3
+base_production = 2
 base_manpower = 2
 
 trade_goods = metal
@@ -30,4 +31,6 @@ trade_goods = metal
     add_core = CSK
     owner = CSK
     controller = CSK
+	workshop = yes
+	barracks = yes
 }

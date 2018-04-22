@@ -21,7 +21,7 @@ base_manpower = 1
 trade_goods = lumber
 
 1600.9.13 = {
-	add_core = IKT
-	owner = IKT
-	controller = IKT
+	add_core = MRI
+	owner = MRI
+	controller = MRI
 }

@@ -15,19 +15,22 @@ religion = shinto
 capital = "Kubokawa"
 is_city = yes
 
-base_tax = 3
+base_tax = 2
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 
 trade_goods = lumber
 
 1493.6.9 = {
     controller = ICJ
     owner = ICJ
+	training_grounds = yes
 }
 
 1582.6.21 = {
     add_core = CSK
     owner = CSK
     controller = CSK
+	workshop = yes
+	barracks = yes
 }

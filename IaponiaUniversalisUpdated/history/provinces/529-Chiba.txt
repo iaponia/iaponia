@@ -1,3 +1,4 @@
+post_roads = yes
 hre = no
 discovered_by = kyushu
 discovered_by = saigoku
@@ -14,6 +15,9 @@ religion = shinto
 capital = "Chiba"
 is_city = yes
 fortified_mansion = yes
+shipyard = yes
+wharf = yes
+marketplace = yes
 
 base_tax = 6
 base_production = 5
@@ -25,18 +29,24 @@ trade_goods = paper
 	add_core = OAK
 	owner = OAK
 	controller = OAK
+	garrison_b = yes
+	workshop = yes
 }
 
 1546.5.19 = {
 	add_core = CBA
 	owner = CBA
 	controller = CBA
+	fort = yes
+	merchant_guild = yes
+	drydock = yes
 }
 
 1582.6.21 = {
 	add_core = HJO
 	owner = HJO
 	controller = HJO
+	tea_house = yes
 }
 
 1600.9.13 = {

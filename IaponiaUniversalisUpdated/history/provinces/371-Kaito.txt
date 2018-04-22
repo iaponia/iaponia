@@ -15,16 +15,22 @@ culture = owari_c
 religion = shinto
 capital = "Tsushima"
 is_city = yes
+wharf = yes
+merchant_guild = yes
 
-base_tax = 4
-base_production = 4
-base_manpower = 3
+base_tax = 5
+base_production = 5
+base_manpower = 2
 
 trade_goods = pottery
 
 1511.9.25 = {
     controller = KOD
     owner = KOD
+}
+
+1546.5.19 = {
+	workshop = yes
 }
 
 1569.10.10 = {

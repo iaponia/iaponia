@@ -1,3 +1,4 @@
+post_roads = yes
 hre = no
 discovered_by = kyushu
 discovered_by = saigoku
@@ -14,12 +15,25 @@ religion = shinto
 capital = "Hitoyoshi"
 is_city = yes
 fortified_mansion = yes
+marketplace = yes
 
-base_tax = 5
-base_production = 5
-base_manpower = 2
+base_tax = 4
+base_production = 4
+base_manpower = 4
 
 trade_goods = tea
+
+1493.6.9 = {
+	garrison_b = yes
+}
+
+1546.5.19 = {
+	merchant_guild = yes
+}
+
+1569.10.10 = {
+	brewery = yes
+}
 
 1582.6.21 = {
 	add_core = SMZ

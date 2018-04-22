@@ -14,18 +14,17 @@ culture = akita_c
 religion = shinto
 capital = "Odate"
 is_city = yes
+training_grounds = yes
 
-base_tax = 3
+base_tax = 2
 base_production = 2
-base_manpower = 2
+base_manpower = 3
 
 trade_goods = gold
 
 1554.3.1 = {
     owner = ADO
     controller = ADO
+	barracks = yes
+	arsenal = yes
 }
-
-marketplace = yes
-temple = yes
-workshop = yes

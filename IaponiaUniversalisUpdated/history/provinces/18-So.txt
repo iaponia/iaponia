@@ -1,3 +1,4 @@
+post_roads = yes
 hre = no
 discovered_by = kyushu
 discovered_by = saigoku
@@ -14,11 +15,15 @@ religion = shinto
 capital = "Tsurukame"
 is_city = yes
 
-base_tax = 3
+base_tax = 4
 base_production = 3
 base_manpower = 3
 
 trade_goods = bamboo
+
+1493.6.9 = {
+	training_grounds = yes
+}
 
 1582.6.21 = {
 	add_core = SMZ

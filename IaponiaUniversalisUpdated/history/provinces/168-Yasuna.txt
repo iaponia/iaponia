@@ -16,10 +16,12 @@ religion = shinto
 capital = "Kannabe"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+marketplace = yes
 
 base_tax = 5
-base_production = 3
-base_manpower = 3
+base_production = 4
+base_manpower = 4
 
 trade_goods = rice
 
@@ -32,6 +34,12 @@ trade_goods = rice
     add_core = AMA
 	controller = AMA
     owner = AMA
+	garrison_b = yes
+}
+
+1554.3.1 = {
+	barracks = yes
+	arsenal = yes
 }
 
 1582.6.21 = {

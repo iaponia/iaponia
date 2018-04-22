@@ -13,12 +13,20 @@ culture = shimosa_c
 religion = shinto
 capital = "Choshi"
 is_city = yes
+marketplace = yes
+shipyard = yes
 
 base_tax = 6
 base_production = 4
 base_manpower = 4
 
 trade_goods = seaweed
+
+1546.5.19 = {
+	merchant_guild = yes
+	drydock = yes
+	wharf = yes
+}
 
 1582.6.21 = {
 	add_core = HJO

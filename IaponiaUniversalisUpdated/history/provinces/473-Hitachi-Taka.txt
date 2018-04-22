@@ -13,9 +13,19 @@ culture = hitachi_c
 religion = shinto
 capital = "Tatsugoyama"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
 trade_goods = metal
+
+1546.5.19 = {
+	workshop = yes
+}
+
+1569.10.10 = {
+	barracks = yes
+}

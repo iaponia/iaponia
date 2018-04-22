@@ -13,12 +13,22 @@ culture = rikuzen_c
 religion = shinto
 capital = "Kurokawa"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
-base_production = 4
-base_manpower = 3
+base_production = 3
+base_manpower = 4
 
 trade_goods = rice
+
+1523.8.25 = {
+	shrine = yes
+}
+
+1569.10.10 = {
+	barracks = yes
+	arsenal = yes
+}
 
 1600.9.13 = {
 	add_core = DTE

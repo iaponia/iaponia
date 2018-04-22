@@ -15,6 +15,9 @@ culture = sesshu_c
 religion = shinto
 capital = "Hyogo"
 is_city = yes
+wharf = yes
+marketplace = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
@@ -22,10 +25,15 @@ base_manpower = 3
 
 trade_goods = salt
 
+1523.8.25 = {
+	magistrate = yes
+}
+
 1554.3.1 = {
     add_core = MYI
     controller = MYI
     owner = MYI
+	merchant_guild = yes
 }
 
 1569.10.10 = {

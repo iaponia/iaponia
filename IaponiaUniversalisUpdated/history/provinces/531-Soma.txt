@@ -14,12 +14,17 @@ culture = shimosa_c
 religion = shinto
 capital = "Moriya"
 is_city = yes
+training_grounds = yes
 
-base_tax = 4
+base_tax = 3
 base_production = 3
-base_manpower = 3
+base_manpower = 4
 
 trade_goods = rice
+
+1554.3.1 = {
+	barracks = yes
+}
 
 1582.6.21 = {
 	add_core = HJO

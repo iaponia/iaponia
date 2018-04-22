@@ -24,6 +24,8 @@ trade_goods = gold
 	add_core = MDT
 	owner = MDT
 	controller = MDT
+	shrine = yes
+	training_grounds = yes
 }
 
 1554.3.1 = {

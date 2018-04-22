@@ -1,4 +1,3 @@
-post_roads = yes
 hre = no
 discovered_by = kyushu
 discovered_by = saigoku
@@ -15,6 +14,7 @@ culture = tanshu_c
 religion = shinto
 capital = "Itai"
 is_city = yes
+training_ground = yes
 
 base_tax = 3
 base_production = 3

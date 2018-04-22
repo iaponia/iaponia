@@ -14,9 +14,10 @@ culture = seishu_c
 religion = shinto
 capital = "Suzuka"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
-base_production = 4
+base_production = 3
 base_manpower = 4
 
 trade_goods = paper
@@ -24,6 +25,7 @@ trade_goods = paper
 1493.6.9 = {
     controller = SKI
     owner = SKI
+	shrine = yes
 }
 
 1511.9.25 = {

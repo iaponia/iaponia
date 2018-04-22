@@ -16,6 +16,7 @@ culture = harima_c
 religion = shinto
 capital = "Kakogawa"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 3
@@ -26,6 +27,15 @@ trade_goods = rice
 1523.8.25 = {
     owner = BSO
     controller = BSO
+	marketplace = yes
+}
+
+1546.5.19 = {
+	barracks = yes
+}
+
+1569.10.10 = {
+	arsenal = yes
 }
 
 1582.6.21 = {

@@ -14,16 +14,21 @@ culture = mino_c
 religion = shinto
 capital = "Sasawagi"
 is_city = yes
+fortified_mansion = yes
+training_grounds = yes
 
-base_tax = 4
-base_production = 4
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 4
 
 trade_goods = cloth
 
 1546.5.19 = {
     controller = STO
     owner = STO
+	garrison_b = yes
+	barracks = yes
+	arsenal = yes
 }
 
 1569.10.10 = {

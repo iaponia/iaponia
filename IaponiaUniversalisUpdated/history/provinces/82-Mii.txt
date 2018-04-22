@@ -13,10 +13,25 @@ culture = chikugo_c
 religion = shinto
 capital = "Kurume"
 is_city = yes
+training_grouds = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
-base_manpower = 3
+base_manpower = 4
+
+1523.8.25 = {
+	marketplace = yes
+}
+
+1554.3.1 = {
+	barracks = yes
+	temple = yes
+}
+
+1569.10.10 = {
+	arsenal = yes
+}
 
 trade_goods = lacquerware
 

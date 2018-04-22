@@ -13,12 +13,18 @@ culture = sasshu_c
 religion = shinto
 capital = "Yakushima"
 is_city = yes
+shipyard = yes
 
 base_tax = 2
 base_production = 2
 base_manpower = 1
 
 trade_goods = lumber
+
+1546.5.19 = {
+	wharf = yes
+	workshop = yes
+}
 
 1569.10.10 = {
     add_core = SMZ

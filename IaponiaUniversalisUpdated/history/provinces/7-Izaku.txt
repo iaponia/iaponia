@@ -18,10 +18,12 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 
-trade_goods = rice
+trade_goods = pottery
 
 1546.5.19 = {
 	add_core = SMZ
     owner = SMZ
     controller = SMZ
+	magistrate = yes
+	workshop = yes
 }

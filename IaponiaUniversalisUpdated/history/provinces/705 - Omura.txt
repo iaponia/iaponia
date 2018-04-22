@@ -17,19 +17,28 @@ is_city = yes
 base_tax = 4
 base_production = 4
 base_manpower = 2
+fortified_mansion = yes
+shipyard = yes
 
 trade_goods = lacquerware
+
+1536.4.7 = {
+	garrison_b = yes
+}
 
 1546.5.19 = {
 	owner = AIM
     controller = AIM
     add_core = AIM
+	wharf = yes
 }
 
 1569.10.10 = {
 	owner = OMR
     controller = OMR
     add_core = OMR
+	shrine = yes
+	arsenal = yes
 }
 
 1582.6.21 = {

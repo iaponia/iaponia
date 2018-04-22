@@ -13,10 +13,12 @@ culture = shimosa_c
 religion = shinto
 capital = "Yuki"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
-base_tax = 6
+base_tax = 5
 base_production = 4
-base_manpower = 4
+base_manpower = 5
 
 trade_goods = cloth
 
@@ -24,6 +26,8 @@ trade_goods = cloth
     owner = YUK
     controller = YUK
     add_core = YUK
+	barracks = yes
+	arsenal = yes
 }
 
 1600.9.13 = {

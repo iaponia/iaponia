@@ -13,6 +13,9 @@ culture = rikugo_c
 religion = shinto
 capital = "Kuji"
 is_city = yes
+workshop = yes
+shrine = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
@@ -24,4 +27,6 @@ trade_goods = horses
 	add_core = NNB
 	owner = NNB
 	controller = NNB
+	temple = yes
+	ranch = yes
 }

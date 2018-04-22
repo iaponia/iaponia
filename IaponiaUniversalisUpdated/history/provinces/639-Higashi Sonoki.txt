@@ -39,7 +39,7 @@ trade_goods = pottery
 }
 
 1600.9.13 = {
-	owner = OMR
-    controller = OMR
-    add_core = OMR
+	owner = NBS
+    controller = NBS
+    add_core = NBS
 }

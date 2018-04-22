@@ -15,6 +15,7 @@ culture = bizen_c
 religion = shinto
 capital = "Tsuneyama"
 is_city = yes
+training_grounds = yes
 
 base_tax = 5
 base_production = 4
@@ -25,16 +26,20 @@ trade_goods = fish
 1493.6.9 = {
     owner = AKM
     controller = AKM
+	shrine = yes
 }
 
 1523.8.25 = {
     add_core = URA
     owner = URA
     controller = URA
+	shipyard = yes
 }
 
 1569.10.10 = {
     add_core = UKT
     owner = UKT
     controller = UKT
+	barracks = yes
+	arsenal = yes
 }

@@ -13,10 +13,11 @@ culture = saga_c
 religion = shinto
 capital = "Tsukazaki"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
-base_manpower = 3
+base_manpower = 4
 
 trade_goods = pottery
 
@@ -24,6 +25,13 @@ trade_goods = pottery
     owner = RZJ
     controller = RZJ
     add_core = RZJ
+	magistrate = yes
+	workshop = yes
+}
+
+1569.10.10 = {
+	barracks = yes
+	arsenal = yes
 }
 
 1600.9.13 = {
@@ -31,7 +39,3 @@ trade_goods = pottery
     controller = NBS
     add_core = NBS
 }
-
-marketplace = yes
-temple = yes
-workshop = yes

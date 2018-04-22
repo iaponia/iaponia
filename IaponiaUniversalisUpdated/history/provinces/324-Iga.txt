@@ -14,10 +14,11 @@ culture = iga_c
 religion = shinto
 capital = "Chigachishi"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
-base_production = 4
-base_manpower = 4
+base_production = 3
+base_manpower = 3
 
 trade_goods = cloth
 
@@ -25,6 +26,11 @@ trade_goods = cloth
     add_core = HTR
     controller = HTR
     owner = HTR
+}
+
+1546.5.19 = {
+	workshop = yes
+	barracks = yes
 }
 
 1582.6.21 = {

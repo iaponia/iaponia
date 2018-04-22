@@ -13,6 +13,8 @@ culture = boso_c
 religion = shinto
 capital = "Kaneya"
 is_city = yes
+shrine = yes
+shipyard = yes
 
 base_tax = 5
 base_production = 3

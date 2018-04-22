@@ -15,10 +15,12 @@ culture = kozuke_c
 religion = shinto
 capital = "Kanayama"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
-base_tax = 4
-base_production = 3
-base_manpower = 3
+base_tax = 5
+base_production = 4
+base_manpower = 4
 
 trade_goods = grain
 
@@ -26,6 +28,8 @@ trade_goods = grain
     add_core = HJO
     controller = HJO
     owner = HJO
+	temple = yes
+	arsenal = yes
 }
 
 1600.9.13 = {

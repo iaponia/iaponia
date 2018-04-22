@@ -14,6 +14,7 @@ culture = totomi_c
 religion = shinto
 capital = "Yashiroyama"
 is_city = yes
+shipyard = yes
 
 base_tax = 4
 base_production = 4
@@ -30,12 +31,14 @@ add_permanent_province_modifier = {
     owner = IMG
     controller = IMG
     add_core = IMG
+	marketplace = yes
 }
 
 1569.10.10 = {
     add_core = TKG
     owner = TKG
     controller = TKG
+	dockyard = yes
 }
 
 1600.9.13 = {

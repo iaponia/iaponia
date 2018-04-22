@@ -14,14 +14,14 @@ religion = shinto
 capital = "Komatsu"
 is_city = yes
 
-base_tax = 3
-base_production = 3
-base_manpower = 2
+base_tax = 2
+base_production = 2
+base_manpower = 1
 
 trade_goods = cloth
 
 1600.9.13 = {
-	add_core = MRI
-	owner = MRI
-	controller = MRI
+	add_core = IKT
+	owner = IKT
+	controller = IKT
 }

@@ -14,6 +14,9 @@ culture = rikugo_c
 religion = shinto
 capital = "Shichinohe"
 is_city = yes
+shrine = yes
+training_grounds = yes
+workshop = yes
 
 base_tax = 4
 base_production = 4
@@ -25,4 +28,8 @@ trade_goods = pilgrimage_site
 	add_core = NNB
 	owner = NNB
 	controller = NNB
+	barracks = yes
+	arsenal = yes
+	temple = yes
+	wharf = yes
 }

@@ -17,8 +17,8 @@ religion = shinto
 capital = "Nishiyama"
 is_city = yes
 
-base_tax = 4
-base_production = 4
+base_tax = 3
+base_production = 3
 base_manpower = 2
 
 trade_goods = lumber
@@ -32,6 +32,7 @@ trade_goods = lumber
     add_core = AMA
     owner = AMA
     controller = AMA
+	training_grounds = yes
 }
 
 1554.3.1 = {

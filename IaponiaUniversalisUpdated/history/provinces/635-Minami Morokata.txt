@@ -15,22 +15,28 @@ religion = shinto
 capital = "Shibushi"
 is_city = yes
 fortified_mansion = yes
+shipyard = yes
 
 base_tax = 5
 base_production = 3
 base_manpower = 3
 
-trade_goods = mainland_trade
+trade_goods = lacquerware
 
+1546.5.19 = {
+	add_core = SMZ
+	owner = SMZ
+	controller = SMZ
+	garrison_b = yes
+}
 
 1569.10.10 = {
-    add_core = ITO
-    owner = ITO
-    controller = ITO
+    add_core = KMK
+	owner = KMK
+	controller = KMK
 }
 
 1582.6.21 = {
-    add_core = SMZ
     controller = SMZ
     owner = SMZ
 }

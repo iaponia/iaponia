@@ -14,12 +14,18 @@ culture = musashi_c
 religion = shinto
 capital = "Inomata"
 is_city = yes
+shrine = yes
+training_grounds = yes
 
 base_tax = 5
 base_production = 4
 base_manpower = 4
 
 trade_goods = dyes
+
+1536.4.7 = {
+	workshop = yes
+}
 
 1554.3.1 = {
     add_core = HJO

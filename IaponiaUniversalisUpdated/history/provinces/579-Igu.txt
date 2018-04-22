@@ -24,6 +24,11 @@ trade_goods = lumber
 	add_core = MDT
 	owner = MDT
 	controller = MDT
+	shrine = yes
+}
+
+1582.6.21 = {
+	workshop = yes
 }
 
 1554.3.1 = {

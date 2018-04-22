@@ -14,6 +14,8 @@ religion = shinto
 capital = "Yuzuki"
 is_city = yes
 fortified_mansion = yes
+shipyard = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4
@@ -21,8 +23,20 @@ base_manpower = 3
 
 trade_goods = cloth
 
+1493.6.9 = {
+	training_grounds = yes
+}
+
+1546.5.19 = {
+	garrison_b = yes
+	wharf = yes
+	temple = yes
+}
+
 1600.9.13 = {
 	add_core = IKT
 	owner = IKT
 	controller = IKT
+	fort = yes
+	dockyard = yes
 }

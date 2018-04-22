@@ -18,6 +18,7 @@ is_city = yes
 base_tax = 4
 base_production = 4
 base_manpower = 3
+training_grounds = yes
 
 trade_goods = horses
 
@@ -25,12 +26,15 @@ trade_goods = horses
     owner = IMG
     controller = IMG
     add_core = IMG
+	workshop = yes
 }
 
 1569.10.10 = {
     add_core = TKG
     owner = TKG
     controller = TKG
+	barracks = yes
+	arsenal = yes
 }
 
 1600.9.13 = {

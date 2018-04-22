@@ -14,9 +14,11 @@ culture = musashi_c
 religion = shinto
 capital = "Katsunuma"
 is_city = yes
+shrine = yes
+marketplace = yes
 
-base_tax = 5
-base_production = 5
+base_tax = 4
+base_production = 3
 base_manpower = 3
 
 trade_goods = cloth

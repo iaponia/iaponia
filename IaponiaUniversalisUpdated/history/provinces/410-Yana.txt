@@ -13,6 +13,7 @@ culture = mikawa_c
 religion = shinto
 capital = "Kawaguchi"
 is_city = yes
+shrine = yes
 
 base_tax = 4
 base_production = 4

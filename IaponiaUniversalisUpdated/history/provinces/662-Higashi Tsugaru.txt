@@ -14,10 +14,11 @@ culture = tsugaru_c
 religion = shinto
 capital = "Aburakawa"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
-base_production = 4
-base_manpower = 3
+base_production = 3
+base_manpower = 4
 
 trade_goods = fish
 

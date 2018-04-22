@@ -14,17 +14,22 @@ culture = kii_c
 religion = shinto
 capital = "Arida"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 4
 base_production = 3
 base_manpower = 3
 
-trade_goods = rice
+trade_goods = tea
 
 1546.5.19 = {
     owner = HTK
     controller = HTK
 	add_core = HTK
+	barracks = yes
+	shipyard = yes
+	workshop = yes
 }
 
 1569.10.10 = {

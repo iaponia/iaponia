@@ -15,8 +15,9 @@ culture = esshu_c
 religion = shinto
 capital = "Nechi"
 is_city = yes
+training_grounds = yes
 
-base_tax = 4
+base_tax = 3
 base_production = 3
 base_manpower = 3
 
@@ -25,6 +26,7 @@ trade_goods = metal
 1511.9.25 = {
     controller = NGO
     owner = NGO
+	shipyard = yes
 }
 
 1569.10.10 = {

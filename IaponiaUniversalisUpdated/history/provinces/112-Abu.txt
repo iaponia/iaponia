@@ -16,6 +16,7 @@ religion = shinto
 capital = "Kawakami"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
 
 base_tax = 5
 base_production = 5
@@ -23,8 +24,22 @@ base_manpower = 4
 
 trade_goods = pottery
 
+1493.6.9 = {
+	shipyard = yes
+}
+
+1523.8.25 = {
+	garrison_b = yes
+}
+
+1554.3.1 = {
+	arsenal = yes
+	barracks = yes
+}
+
 1569.10.10 = {
     add_core = MRI
     controller = MRI
     owner = MRI
+	fort = yes
 }

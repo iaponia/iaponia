@@ -13,6 +13,8 @@ culture = yamato_c
 religion = shinto
 capital = "Koriyama"
 is_city = yes
+training_grounds = yes
+workshop = yes
 
 base_tax = 5
 base_production = 5
@@ -24,4 +26,7 @@ trade_goods = pottery
 	add_core = ISH
     controller = ISH
     owner = ISH
+	barracks = yes
+	arsenal = yes
+	marketplace = yes
 }

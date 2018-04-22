@@ -14,12 +14,22 @@ culture = yamashiro_c
 religion = shinto
 capital = "Makishima"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
 trade_goods = tea
+
+1523.8.25 = {
+	shrine = yes
+}
+
+1569.10.10 = {
+	barracks = yes
+	arsenal = yes
+}
 
 1582.6.21 = {
 	add_core = AKC

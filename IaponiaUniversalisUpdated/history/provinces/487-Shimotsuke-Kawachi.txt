@@ -15,6 +15,8 @@ religion = shinto
 capital = "Utsunomiya"
 is_city = yes
 fortified_mansion = yes
+temple = yes
+marketplace = yes
 
 base_tax = 6
 base_production = 6
@@ -22,8 +24,21 @@ base_manpower = 3
 
 trade_goods = lacquerware
 
+1511.9.25 = {
+	garrison_b = yes
+	training_grounds = yes
+}
+
+1546.5.19 = {
+	fort = yes
+	barracks = yes
+	workshop = yes
+}
+
 1600.9.13 = {
 	add_core = GAM
 	owner = GAM
 	controller = GAM
+	merchant_guild = yes
+	tea_house = yes
 }

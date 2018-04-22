@@ -15,10 +15,10 @@ culture = buzen_c
 religion = shinto
 capital = "Shojigatake"
 is_city = yes
-fortified_mansion = yes
+training_grounds = yes
 
-base_tax = 4
-base_production = 4
+base_tax = 3
+base_production = 3
 base_manpower = 4
 
 trade_goods = rice
@@ -27,6 +27,7 @@ trade_goods = rice
 	add_core = AKZ
     controller = AKZ
     owner = AKZ
+	arsenal = yes
 }
 
 1569.10.10 = {

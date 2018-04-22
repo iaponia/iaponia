@@ -13,6 +13,7 @@ culture = awaji_c
 religion = shinto
 capital = "Yagi"
 is_city = yes
+shipyard = yes
 
 base_tax = 3
 base_production = 3

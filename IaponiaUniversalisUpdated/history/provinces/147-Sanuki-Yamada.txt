@@ -16,10 +16,11 @@ religion = shinto
 capital = "Sogo"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
 
 base_tax = 4
-base_production = 4
-base_manpower = 2
+base_production = 3
+base_manpower = 3
 
 trade_goods = grain
 
@@ -32,12 +33,16 @@ trade_goods = grain
 	add_core = MYI
     controller = MYI
     owner = MYI
+	garrison_b = yes
+	barracks = yes
+	arsenal = yes
 }
 
 1582.6.21 = {
     add_core = SGO
     controller = SGO
     owner = SGO
+	shrine = yes
 }
 
 1600.9.13 = {

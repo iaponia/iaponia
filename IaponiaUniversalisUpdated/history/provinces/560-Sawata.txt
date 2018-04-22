@@ -15,6 +15,7 @@ religion = shinto
 capital = "Sawata"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
 
 base_tax = 2
 base_production = 2
@@ -25,4 +26,9 @@ trade_goods = gold
 1511.9.25 = {
     controller = HNM
     owner = HNM
+	garrison_b = yes
+}
+
+1554.3.1 = {
+	wharf = yes
 }

@@ -24,6 +24,7 @@ trade_goods = cloth
 1536.4.7 = {
     controller = OGS
     owner = OGS
+	training_grounds = yes
 }
 
 1554.3.1 = {

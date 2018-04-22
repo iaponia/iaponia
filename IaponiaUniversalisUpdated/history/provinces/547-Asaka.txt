@@ -15,12 +15,23 @@ religion = shinto
 capital = "Moriyama"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 4
 base_production = 3
 base_manpower = 3
 
 trade_goods = paper
+
+1523.8.25 = {
+	garrison_b = yes
+}
+
+1569.10.10 = {
+	barracks = yes
+	temple = yes
+}
 
 1600.9.13 = {
 	add_core = UES

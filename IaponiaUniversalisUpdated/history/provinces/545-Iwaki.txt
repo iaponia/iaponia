@@ -13,9 +13,18 @@ culture = iwaki_c
 religion = shinto
 capital = "Ishinomaki"
 is_city = yes
+shrine = yes
+workshop = yes 
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
 base_manpower = 3
 
 trade_goods = metal
+
+1569.10.10 = {
+	temple = yes
+	barracks = yes
+	wharf = yes
+}

@@ -13,9 +13,15 @@ culture = iwaki_c
 religion = shinto
 capital = "Gongendo"
 is_city = yes
+training_grounds = yes
+shipyard = yes
 
-base_tax = 3
+base_tax = 4
 base_production = 3
-base_manpower = 3
+base_manpower = 4
 
 trade_goods = pottery
+
+1523.8.25 = {
+	shrine = yes
+}

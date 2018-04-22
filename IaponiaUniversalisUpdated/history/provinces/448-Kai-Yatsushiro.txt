@@ -14,12 +14,18 @@ culture = kai_c
 religion = shinto
 capital = "Koyama"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 3
 
 trade_goods = lacquerware
+
+1536.4.7 = {
+	barracks = yes
+}
 
 1582.6.21 = {
     add_core = KWJ

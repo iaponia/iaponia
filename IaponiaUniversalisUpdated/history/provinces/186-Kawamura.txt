@@ -15,6 +15,7 @@ culture = hoki_c
 religion = shinto
 capital = "Kawaguchi"
 is_city = yes
+shrine = yes
 
 base_tax = 3
 base_production = 2

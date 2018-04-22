@@ -15,7 +15,6 @@ culture = akizuki_c
 religion = shinto
 capital = "Mikazuki"
 is_city = yes
-fortified_mansion = yes
 
 base_tax = 3
 base_production = 3

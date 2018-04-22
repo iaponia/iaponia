@@ -16,6 +16,7 @@ religion = shinto
 capital = "Kuroi"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
@@ -26,11 +27,14 @@ trade_goods = lumber
 1523.8.25 = {
     owner = HTN
     controller = HTN
+	garrison_b = yes
 }
 
 1554.3.1 = {
     owner = HGN
     controller = HGN
+	barracks = yes
+	arsenal = yes
 }
 
 1582.6.21 = {

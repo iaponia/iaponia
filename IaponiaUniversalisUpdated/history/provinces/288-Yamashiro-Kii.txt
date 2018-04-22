@@ -14,6 +14,8 @@ culture = yamashiro_c
 religion = shinto
 capital = "Fushimi"
 is_city = yes
+fortified_mansion = yes
+shrine = yes
 
 base_tax = 6
 base_production = 5
@@ -21,14 +23,28 @@ base_manpower = 3
 
 trade_goods = pottery
 
+1523.8.25 = {
+	garrison_b = yes
+	training_grounds = yes 
+}
+
+1569.10.10 = {
+	fort = yes
+	barracks = yes
+	arsenal = yes
+}
+
 1582.6.21 = {
 	add_core = AKC
     controller = AKC
     owner = AKC
+	temple = yes
+	tea_house = yes
 }
 
 1600.9.13 = {
 	add_core = TKG
     controller = TKG
     owner = TKG
+	castle = yes
 }

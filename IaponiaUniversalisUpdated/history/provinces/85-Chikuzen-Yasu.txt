@@ -15,6 +15,8 @@ culture = akizuki_c
 religion = shinto
 capital = "Arahira"
 is_city = yes
+fortified_mansion = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
@@ -22,9 +24,16 @@ base_manpower = 4
 
 trade_goods = rice
 
+1523.8.25 = {
+	garrison_b = yes
+	shrine = yes
+}
+
 1554.3.1 = {
 	controller = AKZ
     owner = AKZ
+	arsenal = yes
+	barracks = yes
 }
 
 1569.10.10 = {

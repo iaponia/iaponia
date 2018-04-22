@@ -13,9 +13,17 @@ culture = mogami_c
 religion = shinto
 capital = "Shimizu"
 is_city = yes
+workshop = yes
+training_grounds = yes
 
 base_tax = 4
-base_production = 3
-base_manpower = 3
+base_production = 4
+base_manpower = 4
 
 trade_goods = rice
+
+1569.10.10 = {
+	barracks = yes
+	arsenal = yes
+	granary = yes
+}

@@ -15,8 +15,10 @@ culture = biwa_c
 religion = shinto
 capital = "Isono"
 is_city = yes
+training_grounds = yes
+shrine = yes
 
-base_tax = 5
+base_tax = 4
 base_production = 4
 base_manpower = 4
 
@@ -25,6 +27,7 @@ trade_goods = sake
 1536.4.7 = {
     controller = AZI
     owner = AZI
+	barracks = yes
 }
 
 1582.6.21 = {

@@ -20,12 +20,21 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 fortified_mansion = yes
+training_grounds = yes
 
 trade_goods = lacquerware
+
+1511.9.25 = {
+	garrison_b = yes
+}
 
 1554.3.1 = {
     controller = NGN
     owner = NGN
+	fort = yes
+	outer_wall = yes
+	barracks = yes
+	arsenal = yes
 }
 
 1569.10.10 = {

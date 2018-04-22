@@ -14,6 +14,8 @@ culture = hitachi_c
 religion = shinto
 capital = "Fuchu"
 is_city = yes
+training_grounds = yes
+workshop = yes
 
 base_tax = 4
 base_production = 4
@@ -25,4 +27,6 @@ trade_goods = tea
 	owner = STK
     controller = STK
     add_core = STK
+	barracks = yes
+	shrine = yes
 }

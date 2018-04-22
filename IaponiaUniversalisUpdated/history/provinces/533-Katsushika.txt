@@ -14,6 +14,8 @@ culture = shimosa_c
 religion = shinto
 capital = "Konodai"
 is_city = yes
+training_grounds = yes
+marketplace = yes
 
 base_tax = 4
 base_production = 4
@@ -31,6 +33,8 @@ trade_goods = rice
     add_core = OTA
     owner = OTA
     controller = OTA
+	barracks = yes
+	arsenal = yes
 }
 
 1554.3.1 = {

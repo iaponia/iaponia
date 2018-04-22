@@ -14,6 +14,7 @@ culture = tsugaru_c
 religion = shinto
 capital = "Daikoji"
 is_city = yes
+shrine = yes
 
 base_tax = 4
 base_production = 3
@@ -25,6 +26,7 @@ trade_goods = fur
 	add_core = NNB
 	owner = NNB
 	controller = NNB
+	workshop = yes
 }
 
 1582.6.21 = {

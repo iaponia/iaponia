@@ -15,13 +15,28 @@ culture = noto_c
 religion = shinto
 capital = "Nanao"
 is_city = yes
-fortified_mansion = yes
+garrison_b = yes
+tea_house = yes
+shrine = yes
+marketplace = yes
 
 base_tax = 7 
 base_production = 7
 base_manpower = 4
 
 trade_goods = lacquerware
+
+1536.4.7 = {
+	academy = yes
+	merchant_guild = yes
+	temple = yes
+}
+
+1569.10.10 = {
+	fort = yes
+	outer_wall = yes
+	artisan_workshop = yes
+}
 
 1582.6.21 = {
     add_core = MAE

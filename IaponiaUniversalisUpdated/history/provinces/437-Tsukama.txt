@@ -14,6 +14,9 @@ culture = suwa_c
 religion = shinto
 capital = "Yamabe"
 is_city = yes
+training_grounds = yes
+marketplace = yes
+workshop = yes
 
 base_tax = 4
 base_production = 4
@@ -25,6 +28,12 @@ trade_goods = cloth
     add_core = TKD
     owner = TKD
     controller = TKD
+}
+
+1569.10.10 = {
+	barracks = yes
+	arsenal = yes
+	merchant_guild = yes
 }
 
 1582.6.21 = {

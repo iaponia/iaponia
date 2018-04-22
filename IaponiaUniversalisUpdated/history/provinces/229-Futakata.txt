@@ -14,6 +14,7 @@ culture = inaba_c
 religion = shinto
 capital = "Takao"
 is_city = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 3

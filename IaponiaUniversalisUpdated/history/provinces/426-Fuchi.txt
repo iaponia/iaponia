@@ -16,6 +16,9 @@ religion = shinto
 capital = "Hikuma"
 is_city = yes
 fortified_mansion = yes
+shipyard = yes
+training_grounds = yes
+marketplace = yes
 
 base_tax = 6
 base_production = 6
@@ -27,12 +30,17 @@ trade_goods = lacquerware
     owner = IMG
     controller = IMG
     add_core = IMG
+	garrison_b = yes
 }
 
 1569.10.10 = {
     add_core = TKG
     owner = TKG
     controller = TKG
+	fort = yes
+	barracks = yes
+	arsenal = yes
+	shrine = yes
 }
 
 1600.9.13 = {

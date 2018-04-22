@@ -14,15 +14,24 @@ religion = shinto
 capital = "Ne"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 5
-base_production = 5
-base_manpower = 3
+base_production = 4
+base_manpower = 4
 
 trade_goods = paper
+
+1523.8.25 = {
+	garrison_b = yes
+}
 
 1546.5.19 = {
 	add_core = NNB
 	owner = NNB
 	controller = NNB
+	barracks = yes
+	arsenal = yes
+	temple = yes
 }

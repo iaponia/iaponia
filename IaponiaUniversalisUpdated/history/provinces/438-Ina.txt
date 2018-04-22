@@ -16,6 +16,8 @@ religion = shinto
 capital = "Minowa"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+marketplace = yes
 
 base_tax = 4
 base_production = 4
@@ -26,12 +28,19 @@ trade_goods = grain
 1536.4.7 = {
     controller = OGS
     owner = OGS
+	garrison_b = yes
 }
 
 1554.3.1 = {
     add_core = TKD
     owner = TKD
     controller = TKD
+}
+
+1569.10.10 = {
+	fort = yes
+	barracks = yes
+	arsenal = yes
 }
 
 1582.6.21 = {

@@ -24,12 +24,14 @@ trade_goods = cloth
 1511.9.25 = {
     controller = MYI
     owner = MYI
+	shipyard = yes
 }
 
 1582.6.21 = {
     add_core = SGO
     controller = SGO
     owner = SGO
+	wharf = yes
 }
 
 1600.9.13 = {

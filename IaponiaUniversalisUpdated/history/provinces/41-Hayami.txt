@@ -15,12 +15,19 @@ religion = shinto
 capital = "Kitsuki"
 is_city = yes
 fortified_mansion = yes
+wharf = yes
+training_grounds = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 3
 
 trade_goods = fish
+
+1511.9.25 = {
+	garrison_b = yes
+	marketplace = yes
+}
 
 1600.9.13 = {
 	add_core = KRD

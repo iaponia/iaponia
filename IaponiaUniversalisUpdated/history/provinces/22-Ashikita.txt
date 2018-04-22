@@ -15,11 +15,15 @@ religion = shinto
 capital = "Sashiki"
 is_city = yes
 
-base_tax = 5
-base_production = 4
-base_manpower = 3
+base_tax = 3
+base_production = 3
+base_manpower = 2
 
 trade_goods = fish
+
+1511.9.25 = {
+	training_grounds = yes
+}
 
 1582.6.21 = {
     add_core = SMZ

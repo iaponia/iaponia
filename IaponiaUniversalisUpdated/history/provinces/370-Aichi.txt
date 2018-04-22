@@ -16,6 +16,7 @@ culture = owari_c
 religion = shinto
 capital = "Inabaji"
 is_city = yes
+temple = yes
 
 base_tax = 4
 base_production = 3
@@ -26,6 +27,7 @@ trade_goods = cloth
 1511.9.25 = {
     controller = KOD
     owner = KOD
+	shipyard = yes
 }
 
 1569.10.10 = {

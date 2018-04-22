@@ -13,9 +13,19 @@ culture = iwaki_c
 religion = shinto
 capital = "Shiogama"
 is_city = yes
+training_grounds = yes
+shipyard = yes
 
 base_tax = 4
 base_production = 3
 base_manpower = 3
 
 trade_goods = fish
+
+1523.8.25 = {
+	shrine = yes
+}
+
+1569.10.10 = {
+	barracks = yes
+}

@@ -14,6 +14,8 @@ culture = amami_c
 religion = ryukyuan
 capital = "Kasari"
 is_city = yes
+shrine = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 3
@@ -21,5 +23,6 @@ base_manpower = 3
 
 trade_goods = cloth
 
-
-
+1523.8.25 = {
+	marketplace = yes
+}

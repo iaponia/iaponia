@@ -13,9 +13,10 @@ culture = iwaki_c
 religion = shinto
 capital = "Ushigoe"
 is_city = yes
+shipyard = yes
 
-base_tax = 4
-base_production = 4
+base_tax = 3
+base_production = 3
 base_manpower = 2
 
 trade_goods = seaweed

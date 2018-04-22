@@ -15,9 +15,22 @@ religion = shinto
 capital = "Hiyama"
 is_city = yes
 fortified_mansion = yes
+shrine = yes
+training_grounds = yes
 
 base_tax = 5
 base_production = 5
 base_manpower = 3
 
 trade_goods = metal
+
+1523.8.25 = {
+	garrison_b = yes
+	workshop = yes
+}
+
+1554.3.1 = {
+	fort = yes
+	barracks = yes
+	temple = yes
+}

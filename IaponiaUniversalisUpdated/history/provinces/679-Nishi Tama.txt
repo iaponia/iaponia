@@ -15,7 +15,7 @@ capital = "Hibara"
 is_city = yes
 
 base_tax = 4
-base_production = 4
+base_production = 3
 base_manpower = 3
 
 trade_goods = cloth
@@ -24,6 +24,8 @@ trade_goods = cloth
     owner = HJO
     controller = HJO
     add_core = HJO
+	shrine = yes
+	workshop = yes
 }
 
 1600.9.13 = {

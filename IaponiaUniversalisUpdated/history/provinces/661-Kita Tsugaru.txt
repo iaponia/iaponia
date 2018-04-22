@@ -13,6 +13,9 @@ culture = tsugaru_c
 religion = shinto
 capital = "Namioka"
 is_city = yes
+shrine = yes
+training_grounds = yes
+wharf = yes
 
 base_tax = 4
 base_production = 3
@@ -24,6 +27,8 @@ trade_goods = horses
 	add_core = NNB
 	owner = NNB
 	controller = NNB
+	magistrate = yes
+	temple = yes
 }
 
 1582.6.21 = {

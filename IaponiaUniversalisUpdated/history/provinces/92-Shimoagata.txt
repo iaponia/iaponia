@@ -13,10 +13,20 @@ culture = islander_c
 religion = shinto
 capital = "Kanaishi"
 is_city = yes
+shipyard = yes
+wharf = yes
 
 base_tax = 3
 base_production = 4
 base_manpower = 3
+
+1536.4.7 = {
+	drydock = yes
+}
+
+1554.3.1 = {
+	drydock = yes
+}
 
 add_permanent_province_modifier = {
 	name = center_of_trade_modifier

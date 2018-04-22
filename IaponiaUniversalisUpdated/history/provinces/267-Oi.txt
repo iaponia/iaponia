@@ -17,6 +17,7 @@ is_city = yes
 base_tax = 4
 base_production = 4
 base_manpower = 2
+marketplace = yes
 
 trade_goods = dyes
 
@@ -24,6 +25,7 @@ trade_goods = dyes
     add_core = ASA
     owner = ASA
     controller = ASA
+	shipyard = yes
 }
 
 1582.6.21 = {

@@ -1,3 +1,4 @@
+post_roads = yes
 hre = no
 discovered_by = kyushu
 discovered_by = saigoku
@@ -15,16 +16,23 @@ culture = owari_c
 religion = shinto
 capital = "Kinoshita"
 is_city = yes
+marketplace = yes
+shrine = yes
 
-base_tax = 4 
-base_production = 4
-base_manpower = 4
+base_tax = 5
+base_production = 5
+base_manpower = 2
 
 trade_goods = dyes
 
 1511.9.25 = {
     controller = IOD
     owner = IOD
+}
+
+1546.5.19 = {
+	merhcant_guild = yes
+	workshop = yes
 }
 
 1569.10.10 = {

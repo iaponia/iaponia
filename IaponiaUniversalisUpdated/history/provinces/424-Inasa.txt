@@ -18,6 +18,7 @@ is_city = yes
 base_tax = 5
 base_production = 5
 base_manpower = 3
+shrine = yes
 
 trade_goods = tea
 
@@ -31,6 +32,7 @@ trade_goods = tea
     add_core = TKG
     owner = TKG
     controller = TKG
+	workshop = yes
 }
 
 1600.9.13 = {

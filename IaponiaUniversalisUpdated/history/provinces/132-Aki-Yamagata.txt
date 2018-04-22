@@ -13,6 +13,7 @@ culture = aki_c
 religion = shinto
 capital = "Ogurayama"
 is_city = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 3
@@ -41,4 +42,6 @@ trade_goods = grain
     add_core = MRI
     controller = MRI
     owner = MRI
+	barracks = yes
+	arsenal = yes
 }

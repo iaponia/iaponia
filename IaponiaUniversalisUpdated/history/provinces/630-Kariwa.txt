@@ -10,6 +10,7 @@ add_core = EGU
 add_core = NGO
 owner = EGU
 controller = EGU
+training_grounds = yes
 
 culture = esshu_c
 religion = shinto
@@ -25,6 +26,7 @@ trade_goods = cloth
 1511.9.25 = {
     controller = NGO
     owner = NGO
+	shrine = yes
 }
 
 1569.10.10 = {
@@ -32,6 +34,8 @@ trade_goods = cloth
     remove_core = NGO
     owner = UES
     controller = UES
+	barracks = yes
+	arsenal = yes
 }
 
 1600.9.13 = {

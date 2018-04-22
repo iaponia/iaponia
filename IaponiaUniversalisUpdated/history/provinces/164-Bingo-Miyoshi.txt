@@ -18,6 +18,7 @@ is_city = yes
 base_tax = 4
 base_production = 4
 base_manpower = 3
+training_grounds = yes
 
 trade_goods = tea
 
@@ -36,4 +37,6 @@ trade_goods = tea
     add_core = MRI
     controller = MRI
     owner = MRI
+	shrine = yes
+	barracks = yes
 }

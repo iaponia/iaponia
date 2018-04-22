@@ -15,6 +15,8 @@ religion = shinto
 capital = "Tottori"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+marketplace = yes
 
 base_tax = 4
 base_production = 4
@@ -31,6 +33,13 @@ add_permanent_province_modifier = {
 	add_core = YMN
 	owner = YMN
 	controller = YMN
+	garrison_b = yes
+}
+
+1569.10.10 = {
+	fort = yes
+	outer_wall = yes
+	barracks = yes
 }
 
 1582.6.21 = {
@@ -42,4 +51,6 @@ add_permanent_province_modifier = {
 1600.9.13 = {
 	owner = YMN
 	controller = YMN
+	wharf = yes
+	merchant_guild = yes
 }

@@ -16,23 +16,35 @@ religion = shinto
 capital = "Arioka"
 is_city = yes
 fortified_mansion = yes
+training_grounds = yes
+shrine = yes
 
 base_tax = 5
 base_production = 5
-base_manpower = 4
+base_manpower = 5
 
 trade_goods = cloth
+
+1523.8.25 = {
+	garrison_b = yes
+}
 
 1554.3.1 = {
     add_core = MYI
     controller = MYI
     owner = MYI
+	barracks = yes
+	temple = yes
 }
 
 1569.10.10 = {
     add_core = AAI
     controller = AAI
     owner = AAI
+	fort = yes
+	outer_wall = yes
+	arsenal = yes
+	tea_house = yes
 }
 
 1582.6.21 = {

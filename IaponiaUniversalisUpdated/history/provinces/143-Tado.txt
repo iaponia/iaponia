@@ -15,6 +15,7 @@ culture = awa_c
 religion = shinto
 capital = "Tadotsu"
 is_city = yes
+shrine = yes
 
 base_tax = 3
 base_production = 3

@@ -16,6 +16,8 @@ culture = iwami_c
 religion = shinto
 capital = "Takatsu"
 is_city = yes
+marketplace = yes
+training_grounds = yes
 
 base_tax = 4
 base_production = 4
@@ -29,6 +31,10 @@ trade_goods = rice
     owner = OUC
 }
 
+1523.8.25 = {
+	wharf = yes
+}
+
 1554.3.1 = {
     add_core = YSM
     controller = YSM
@@ -39,4 +45,7 @@ trade_goods = rice
     add_core = MRI
     controller = MRI
     owner = MRI
+	barracks = yes
+	merchant_guild = yes
+	shrine = yes
 }

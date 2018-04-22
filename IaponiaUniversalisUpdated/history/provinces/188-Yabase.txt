@@ -16,10 +16,11 @@ religion = shinto
 capital = "Senjosan"
 is_city = yes
 fortified_mansion = yes
+shrine = yes
 
-base_tax = 3
+base_tax = 4
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 
 trade_goods = seaweed
 
@@ -27,6 +28,8 @@ trade_goods = seaweed
     controller = AMA
     owner = AMA
     add_core = AMA
+	training_grounds = yes
+	garrison_b = yes
 }
 
 1582.6.21 = {

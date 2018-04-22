@@ -13,6 +13,7 @@ culture = shinano_c
 religion = shinto
 capital = "Sento"
 is_city = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 2
@@ -31,6 +32,7 @@ trade_goods = paper
     remove_core = NGO
     owner = UES
     controller = UES
+	barracks = yes
 }
 
 1600.9.13 = {

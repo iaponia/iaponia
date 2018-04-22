@@ -26,6 +26,7 @@ trade_goods = fish
     owner = IMG
     controller = IMG
     add_core = IMG
+	shrine = yes
 }
 
 1569.10.10 = {

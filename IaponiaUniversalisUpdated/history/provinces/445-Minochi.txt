@@ -31,6 +31,7 @@ trade_goods = pilgrimage_site
     remove_core = NGO
     owner = UES
     controller = UES
+	shrine = yes
 }
 
 1600.9.13 = {

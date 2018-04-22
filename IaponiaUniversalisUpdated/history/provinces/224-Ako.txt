@@ -16,6 +16,8 @@ culture = harima_c
 religion = shinto
 capital = "Shirahata"
 is_city = yes
+shrine = yes
+shipyard = yes
 
 base_tax = 5
 base_production = 4
@@ -27,6 +29,7 @@ trade_goods = fish
     add_core = URA
     owner = URA
     controller = URA
+	training_grounds = yes
 }
 
 1582.6.21 = {

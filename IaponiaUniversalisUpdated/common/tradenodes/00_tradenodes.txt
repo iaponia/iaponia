@@ -4,7 +4,7 @@ Shuri=		#name of node
 		outgoing={
 		name="Bonotsu"
 		path={
-			1346 3
+			1321 1322
 		}
 		control={
 		}
@@ -54,6 +54,7 @@ Nagasaki=		#name of node
 		outgoing={
 		name="Hakata"
 		path={
+			685 62
 		}
 		control={
 		}
@@ -71,6 +72,7 @@ Saganoseki=		#name of node
 		outgoing={
 		name="Yamaguchi"
 		path={
+			711 114
 		}
 		control={
 		}
@@ -86,6 +88,7 @@ Saganoseki=		#name of node
 		outgoing={
 		name="Hakata"
 		path={
+			40 76 77
 		}
 		control={
 		}
@@ -114,6 +117,7 @@ Yamaguchi=		#name of node
 		outgoing={
 		name="Hakata"
 		path={
+			110 72 67
 		}
 		control={
 		}
@@ -131,6 +135,7 @@ Yoshida=		#name of node
 		outgoing={
 		name="Yamaguchi"
 		path={
+			125 116 
 		}
 		control={
 		}
@@ -147,7 +152,7 @@ Urado= 	#name of node
 		outgoing={
 		name="Ushimado"
 		path={
-			1271 208 213
+			150 149 231
 		}
 		control={
 		}
@@ -155,7 +160,7 @@ Urado= 	#name of node
 		outgoing={
 		name="Sakai"
 		path={
-			137 156 235 277
+			232 274 277
 		}
 		control={
 		}

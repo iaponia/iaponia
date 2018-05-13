@@ -4,9 +4,11 @@ graphical_culture = asiangfx
 
 color = { 160  35  48 }
 
+preferred_religion = shinto
+
 historical_idea_groups = {
 	defensive_ideas
-	meritocratic_ideas
+	shinto_ideas
 	trade_ideas
 	administrative_ideas
 	leadership_ideas
@@ -24,10 +26,17 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "tane"
-	"Toshimasa #0" = 50
-	"Yoshitatsu #0" = 50
-	"Tatsuoki #0" = 50
+monarch_names = { # Most Monarchs were named with "michi"
+	"Yoshimichi #0" = 50
+	"Sadamichi #0" = 50
+	"Norimichi #0" = 50
+	"Michinori #0" = 50
+	"Michisada #0" = 50
+	"Michihisa #0" = 50
+	"Michiyoshi #0" = 50
+	"Michiyuki #0" = 50
+	"Michimoto #0" = 50
+	"Michiharu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -92,9 +101,9 @@ ship_names = {
 }
 
 army_names = {
-	"Saito Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Inaba Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Saito Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Inaba Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

@@ -4,12 +4,14 @@ graphical_culture = asiangfx
 
 color = { 118 0 0 }
 
+preferred_religion = shinto
+
 historical_idea_groups = {
 	leadership_ideas
-	mercantilist_ideas
+	aristocratic_ideas
 	offensive_ideas
-	administrative_ideas
-	organization_ideas
+	shinto_ideas
+	westernized_ideas
 	expansion_ideas
 }
 
@@ -24,10 +26,21 @@ historical_units = {
 	advanced_kyushu_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "tane"
+monarch_names = {
 	"Masaie #0" = 50
 	"Takanobu #0" = 50
 	"Tanemitsu #0" = 50
+	"Ietane #0" = 50
+	"Ienobu #0" = 50
+	"Nobuchika #0" = 50
+	"Naganobu #0" = 50
+	"Chikaie #0" = 50
+	"Sumiie #0" = 50
+	"Iesumi #0" = 50
+	"Ieyasu #0" = 50
+	"Iekado #0" = 50
+	"Ieharu #0" = 50
+	"Iekane #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

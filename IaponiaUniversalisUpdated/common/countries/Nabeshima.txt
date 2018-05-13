@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 235  24  10 }
 
 historical_idea_groups = {
+	influence_ideas
+	defensive_ideas
 	leadership_ideas
-	mercantilist_ideas
-	offensive_ideas
-	administrative_ideas
-	organization_ideas
-	expansion_ideas
+	shinto_ideas
+	westernized_ideas
+	trade_ideas
 }
 
 historical_units = {
@@ -37,6 +37,8 @@ monarch_names = { # Most of Monarchs ware named with "yori" or "suke"
 	"Katsushige #0" = 50
 	"Shigesato #0" = 50
 	"Tadashige #0" = 50
+	"Yasufusa #0" = 50
+	"Nobuyasu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

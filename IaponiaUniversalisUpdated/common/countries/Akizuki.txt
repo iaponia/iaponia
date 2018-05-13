@@ -8,9 +8,9 @@ historical_idea_groups = {
 	defensive_ideas
 	aristocratic_ideas
 	leadership_ideas
-	pluralist_ideas
-	trade_ideas
-	westernized_ideas
+	influence_ideas
+	traditional_ideas
+	shinto_ideas
 }
 
 historical_units = {

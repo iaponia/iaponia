@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 92  83  0 }
 
 historical_idea_groups = {
-	organization_ideas
-	pluralist_ideas
+	administrative_ideas
 	defensive_ideas
+	pluralist_ideas
+	trade_ideas
 	aristocratic_ideas
 	diplomatic_ideas
-	administrative_ideas
 }
 
 historical_units = {
@@ -33,7 +33,10 @@ monarch_names = { # Most Monarchs were named with "tada" or "hisa"
 	"Yoshitsugu #0" = 50	
 	"Yoshitsuna #0" = 50	
 	"Yoshinori #0" = 50
-	"Yoshitaka #1" = 50
+	"Yoshitaka #0" = 50
+	"Yoshikata #0" = 50
+	"Yoshishige #0" = 50
+	"Yoshiharu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

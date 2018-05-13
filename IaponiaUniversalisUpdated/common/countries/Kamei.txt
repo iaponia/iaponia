@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 102  96  138 }
 
 historical_idea_groups = {
-	expansion_ideas
-	influence_ideas
+	administrative_ideas
 	defensive_ideas
-	aristocratic_ideas
+	diplomatic_ideas
+	trade_ideas
 	organization_ideas
-	leadership_ideas
+	influence_ideas
 }
 
 historical_units = {
@@ -24,26 +24,14 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { #Most Monarchs were named with "hisa"
-	"Takahisa #0" = 50
-	"Mochihisa #0" = 50
-	"Kiyosada #0" = 50
-	"Yukihisa #0" = 50
-	"Hisayuki #0" = 50
-	"Masahisa #0" = 50
-	"Okihisa #0" = 50
-	"Kunihisa #0" = 50
-	"Toyohisa #0" = 50
-	"Haruhisa #0" = 50
-	"Yoshihisa #0" = 50
-	"Hidehisa #0" = 50
-    "Norihisa #0" = 50
-	"Sanehisa #0" = 50
-	"Ujihisa #0" = 50
-	"Tsunehisa #0" = 50
-	"Katsuhisa #0" = 50
-	"Kiyohisa #0" = 50
-	"Tokihisa #0" = 50
+monarch_names = {
+	"Korenori #0" = 50
+	"Masanori #0" = 50
+	"Hidetsuna #0" = 50
+	"Hidenori #0" = 50
+	"hideyuki #0" = 50
+	"Yasunari #0" = 50
+	"Yasunaga #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -103,9 +91,9 @@ ship_names = {
 }
 
 army_names = {
-	"Amago Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Kamei Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Amago Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Kamei Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

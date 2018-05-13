@@ -25,11 +25,17 @@ historical_units = {
 }
 
 monarch_names = {
-	"Yukihisa #0" = 50
-	"Yukinori #0" = 50
-	"Toshimitsu #0" = 50
-	"Nobuhisa #0" = 50
-	"Norimitsu #0" = 50
+	"Tadakazu #0" = 50
+	"Tadayo #0" = 50
+	"Tadachika #0" = 50
+	"Tadayasu #0" = 50
+	"Tadamoto #0" = 50
+	"Tadanari #0" = 50
+	"Tadakata #0" = 50
+	"Tadasuke #0" = 50
+	"Tadanaga #0" = 50
+	"Tadayuki #0" = 50
+	"Tadanori #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

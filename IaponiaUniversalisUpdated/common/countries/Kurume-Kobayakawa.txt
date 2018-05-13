@@ -8,11 +8,11 @@ preferred_religion = catholic
 
 historical_idea_groups = {
 	defensive_ideas
-	maritime_ideas
 	influence_ideas
-	expansion_ideas
-	shinto_ideas
 	aristocratic_ideas
+	administrative_ideas
+	westernized_ideas
+	christian_ideas
 }
 
 historical_units = {
@@ -31,8 +31,14 @@ monarch_names = {
 	"Hideaki #0" = 50
 	"Hidekane #0" = 50
 	"Shigehira #0" = 50
-	"Munehira #0" = 50
+	"Munehira #0" = 50	
 	"Sanehira #0" = 50
+	"Takahira #0" = 50
+	"Korekage #0" = 50
+	"Sukehira #0" = 50
+	"Okihira #0" = 50
+	"Tsunehira #0" = 50
+	"Masahira #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -95,9 +101,9 @@ ship_names = {
 }
 
 army_names = {
-	"Mori Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Kurume-Kobayakawa Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Mori Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Kurume-Kobayakawa Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

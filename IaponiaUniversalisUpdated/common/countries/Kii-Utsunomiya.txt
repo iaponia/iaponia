@@ -5,32 +5,36 @@ graphical_culture = asiangfx
 color = { 40  200  200 }
 
 historical_idea_groups = {
+	defensive_ideas
+	aristocratic_ideas
+	organization_ideas
+	pluralist_ideas
 	influence_ideas
 	administrative_ideas
-	aristocratic_ideas
-	diplomatic_ideas
-	shinto_ideas
-	organization_ideas
 }
 
 historical_units = {
-	early_def_kanto_infantry
-	early_off_kanto_cavalry
-	def_kanto_infantry
-	def_kanto_cavalry
-	late_def_kanto_infantry
-	late_def_kanto_cavalry
-	advanced_kanto_infantry
-	advanced_kanto_cavalry
+	early_def_kyushu_infantry
+	early_def_kyushu_cavalry
+	def_kyushu_infantry
+	def_kyushu_cavalry
+	late_def_kyushu_infantry
+	late_def_kyushu_cavalry
+	advanced_kyushu_infantry
+	advanced_kyushu_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "tsuna"
+monarch_names = { # Most Monarchs were named with "fusa"
 	"Nagafusa #0" = 50
 	"Masafusa #0" = 50
-	"shigefusa #0" = 50
+	"Shigefusa #0" = 50
 	"Tomofusa #0" = 50
 	"Hidefusa #0" = 50
 	"Okifusa #0" = 50
+	"Naofusa #0" = 50
+	"Tsunefusa #0" = 50
+	"Morinao #0" = 50
+	"Ienao #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -88,9 +92,9 @@ ship_names = {
 }
 
 army_names = {
-	"Utsunomiya Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Kii-Utsunomiya Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Utsunomiya Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Kii-Utsunomiya Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

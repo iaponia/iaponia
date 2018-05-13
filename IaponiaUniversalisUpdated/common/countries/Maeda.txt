@@ -2,26 +2,26 @@
 
 graphical_culture = asiangfx
 
-color = { 123  35  124 }
+color = { 153  35  44 }
 
 historical_idea_groups = {
-	defensive_ideas
-	organization_ideas
 	meritocratic_ideas
-	buddhist_ideas
-	traditional_ideas
-	mercantilist_ideas
+	westernized_ideas
+	administrative_ideas
+	influence_ideas
+	pluralist_ideas
+	trade_ideas
 }
 
 historical_units = {
-	early_def_kanto_infantry
-	early_off_kanto_cavalry
-	def_kanto_infantry
-	def_kanto_cavalry
-	late_def_kanto_infantry
-	late_def_kanto_cavalry
-	advanced_kanto_infantry
-	advanced_kanto_cavalry
+	early_def_kansai_infantry
+	early_off_kansai_cavalry
+	def_kansai_infantry
+	def_kansai_cavalry
+	late_def_kansai_infantry
+	late_def_kansai_cavalry
+	advanced_kansai_infantry
+	advanced_kansai_cavalry
 }
 
 monarch_names = {

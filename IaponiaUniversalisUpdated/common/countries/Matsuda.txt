@@ -4,7 +4,7 @@ graphical_culture = asiangfx
 
 color = { 196  200  250 }
 
-preferred_religion = mahayana
+preferred_religion = nichirenshu
 
 historical_idea_groups = {
 	expansion_ideas
@@ -27,8 +27,14 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "moto"
-	"Mototeru #0" = 50
+	"Motoshige #0" = 50
+	"Motokatsu #0" = 50
+	"Mototaka #0" = 50
+	"Motomori #0" = 50
 	"Motokata #0" = 50
+	"Motoyoshi #0" = 50
+	"Motonaga #0" = 50
+	"Motohide #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

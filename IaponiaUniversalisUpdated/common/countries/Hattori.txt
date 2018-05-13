@@ -4,12 +4,12 @@ graphical_culture = asiangfx
 
 color = { 253  15  49 }
 
-preferred_religion = mahayana
+preferred_religion = jodoshinshu
 
 historical_idea_groups = {
-	defensive_ideas
 	meritocratic_ideas
-	pluralist_ideas
+	defensive_ideas
+	buddhist_ideas
 	diplomatic_ideas
 	organization_ideas
 	traditional_ideas
@@ -35,6 +35,13 @@ monarch_names = { # Most Monarchs were named with "yasu"
 	"Yasukiyo #0" = 50
 	"Yasunaga #0" = 50
 	"Yasuharu #0" = 50
+	"Masashige #0" = 50
+	"Masatoki #0" = 50
+	"Yasumoto #0" = 50
+	"Yasumasa #0" = 50
+	"Yasutomo #0" = 50
+	"Yasukiyo #0" = 50
+	"Yasunari #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

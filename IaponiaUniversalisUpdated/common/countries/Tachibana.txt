@@ -9,7 +9,7 @@ historical_idea_groups = {
 	aristocratic_ideas
 	leadership_ideas
 	pluralist_ideas
-	trade_ideas
+	influence_ideas
 	westernized_ideas
 }
 
@@ -34,6 +34,8 @@ monarch_names = { # Most Monarchs were named with "tane"
 	"Chikamasa #0" = 50
 	"Chikanao #0" = 50
 	"Chikayoshi #0" = 50
+	"Munemasu #0" = 50
+	"Munetora #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -62,21 +64,15 @@ monarch_names = { # Most Monarchs were named with "tane"
 }
 
 leader_names = {
-    Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo
-	Bekki Bekki Bekki Bekki Bekki Tachibana Tachibana Tachibana Tachibana Tachibana
-	Yoshihiro Yoshihiro Yoshihiro Yoshihiro Yoshihiro Takahashi Takahashi Takahashi Takahashi Takahashi
-	Shiga Shiga Shiga Shiga Shiga Tawara Tawara Tawara Tawara Tawara
-	Usuki Usuki Usuki Usuki Usuki Saiki Saiki Saiki Saiki Saiki
-	Ichimada Ichimada Ichimada Ichimada Ichimada Takita Takita Takita Takita Takita
-	Yoshioka Yoshioka Yoshioka Yoshioka Yoshioka Honjo Honjo Honjo Honjo Honjo
-	Tsunokuma Tsunokuma Tsunokuma Tsunokuma Tsunokuma Nyuda Nyuda Nyuda Nyuda Nyuda
-	Kamachi Kamachi Kamachi Kamachi Kamachi Tajiri Tajiri Tajiri Tajiri Tajiri
-	Harano Harano Harano Harano Harano Oki Oki Oki Oki Oki
-	Monjyujo Monjyujo Monjyujo Monjyujo Monjyujo Nishimuta Nishimuta Nishimuta Nishimuta Nishimuta
+    Tachibana Tachibana Tachibana Tachibana Tachibana Tachibana Tachibana Tachibana Tachibana Tachibana
+	Takahashi Takahashi Takahashi Takahashi Takahashi Bekki Bekki Bekki Bekki Bekki
+	Otomo Otomo Otomo Otomo Otomo Yoshihiro Yoshihiro Yoshihiro Yoshihiro Yoshihiro
 	Yufu Yufu Yufu Yufu Yufu Ono Ono Ono Ono Ono
-	Totoki Totoki Totoki Totoki Totoki Takano Takano Takano Takano Takano
-	Ando Ando Ando Ando Ando Mihara Mihara Mihara Mihara Mihara
-	Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Ouchi Ouchi Ouchi Ouchi Ouchi
+	Totoki Totoki Totoki Totoki Totoki Ando Ando Ando Ando Ando
+	Takano Takano Takano Takano Takano Munakata Munakata Munakata Munakata Munakata
+	Mihara Mihara Mihara Mihara Mihara Fukuda Fukuda Fukuda Fukuda Fukuda
+	Akizuki Akizuki Akizuki Akizuki Akizuki Tsukushi Tsukushi Tsukushi Tsukushi Tsukushi
+	Harada Harada Harada Harada Harada Aso Aso Aso Aso Aso
 
 }
 

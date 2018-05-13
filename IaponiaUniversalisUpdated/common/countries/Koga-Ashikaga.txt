@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 194  163  147 }
 
+preferred_religion = shinto
+
 historical_idea_groups = {
 	influence_ideas
 	administrative_ideas
@@ -29,6 +31,11 @@ monarch_names = { # Most Monarchs were named with "tada" or "hisa"
 	"Masauji #0" = 50
 	"Haruuji #0" = 50
 	"Yoshiuji #0" = 50
+	"Fujiuji #0" = 50
+	"Teruuji #0" = 50
+	"Takamoto #0" = 50
+	"Norihiro #0" = 50
+	"Yoshiaki #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

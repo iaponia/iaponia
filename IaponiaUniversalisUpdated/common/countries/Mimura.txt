@@ -26,6 +26,15 @@ historical_units = {
 
 monarch_names = { 
 	"Iechika #0" = 50
+	"Tokichika #0" = 50
+	"Chikataka #0" = 50
+	"Munechika #0" = 50
+	"Chikashige #0" = 50
+	"Chikayori #0" = 50
+	"Motochika #0" = 50
+	"Motonori #0" = 50
+	"Mototake #0" = 50
+	"Mototaka #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

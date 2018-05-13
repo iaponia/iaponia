@@ -9,8 +9,8 @@ historical_idea_groups = {
 	defensive_ideas
 	organization_ideas
 	aristocratic_ideas
-	maritime_ideas
-	mercantilist_ideas
+	administrative_ideas
+	pluralist_ideas
 }
 
 historical_units = {
@@ -30,6 +30,12 @@ monarch_names = { # Most Monarchs were named with "haru"
 	"Shigeharu #0" = 50
 	"Masaharu #0" = 50
 	"Ujiharu #0" = 50
+	"Moriharu #0" = 50
+	"Masaharu #0" = 50
+	"Harutaka #0" = 50
+	"Yoshiharu #0" = 50
+	"Akiie #0" = 50
+	"Harutomo #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

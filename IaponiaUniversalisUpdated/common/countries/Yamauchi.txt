@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 255  250  179 }
 
 historical_idea_groups = {
-	trade_ideas
-	meritocratic_ideas
-	offensive_ideas
-	expansion_ideas
-	pluralist_ideas
+	administrative_ideas
 	westernized_ideas
+	meritocratic_ideas
+	trade_ideas
+	diplomatic_ideas
+	offensive_ideas
 }
 
 historical_units = {

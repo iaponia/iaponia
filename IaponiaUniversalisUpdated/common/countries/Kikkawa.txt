@@ -6,11 +6,11 @@ color = { 247  149  0 }
 
 historical_idea_groups = {
 	defensive_ideas
-	maritime_ideas
-	influence_ideas
-	expansion_ideas
-	shinto_ideas
 	aristocratic_ideas
+	traditional_ideas
+	expansion_ideas
+	diplomatic_ideas
+	leadership_ideas
 }
 
 historical_units = {
@@ -31,6 +31,10 @@ monarch_names = {
 	"Okitsune #0" = 50
 	"Tsuneyoshi #0" = 50
 	"Tsunemoto #0" = 50
+	"Motonaga #0" = 50
+	"Motouji #0" = 50
+	"Hiroie #0" = 50
+	"Mototsune #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

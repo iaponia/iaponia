@@ -4,7 +4,7 @@ graphical_culture = asiangfx
 
 color = { 154 113 64 }
 
-preferred_religion = mahayana
+preferred_religion = jodoshinshu
 
 historical_idea_groups = {
 	buddhist_ideas
@@ -34,6 +34,13 @@ monarch_names = { # Most Monarchs were named with "nyo"
 	"Zonnyo #0" = 50
 	"Gyonyo #0" = 50
 	"Shakunyo #0" = 50
+	"Junnyo #0" = 50
+	"Zonnyo #0" = 50
+	"Ennyo #0" = 50
+	"Rengo #0" = 50
+	"Renjun #0" = 50
+	"Rensei #0" = 50
+	"Renko #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

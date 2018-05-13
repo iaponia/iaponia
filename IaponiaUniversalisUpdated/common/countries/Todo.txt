@@ -8,7 +8,7 @@ historical_idea_groups = {
 	defensive_ideas
 	administrative_ideas
 	meritocratic_ideas
-	pluralist_ideas
+	leadership_ideas
 	westernized_ideas
 	leadership_ideas
 }

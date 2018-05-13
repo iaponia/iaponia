@@ -8,20 +8,20 @@ preferred_religion = catholic
 
 historical_idea_groups = {
 	defensive_ideas
-	diplomatic_ideas
-	pluralist_ideas
-	leadership_ideas
-	meritocratic_ideas
+	administrative_ideas
 	westernized_ideas
+	christian_ideas
+	influence_ideas
+	organization_ideas
 }
 
 historical_units = {
-	early_def_kansai_infantry
+	early_off_kansai_infantry
 	early_def_kansai_cavalry
-	def_kansai_infantry
-	def_kansai_cavalry
-	late_off_kansai_infantry
-	late_off_kansai_cavalry
+	off_kansai_infantry
+	off_kansai_cavalry
+	late_def_kansai_infantry
+	late_def_kansai_cavalry
 	advanced_kansai_infantry
 	advanced_kansai_cavalry
 }
@@ -32,6 +32,9 @@ monarch_names = { # Most Monarchs were named with "Kage"
 	"Takenori #0" = 50
 	"Naritoyo #0" = 50
 	"Kageyuki #0" = 50
+	"Morishige #0" = 50
+	"Masakaze #0" = 50
+	"Kazeaki #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

@@ -24,7 +24,7 @@ historical_units = {
 	advanced_kanto_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "tomo"
+monarch_names = {
 	"Sukemasa #0" = 50
 	"Sukeyori #0" = 50
 	"Yasusuke #0" = 50
@@ -33,6 +33,11 @@ monarch_names = { # Most Monarchs were named with "tomo"
 	"Masakage #0" = 50
 	"Suketaka #0" = 50
 	"Sukeaki #0" = 50
+	"Sukekiyo #0" = 50
+	"Sukeyasu #0" = 50
+	"Kagesuke #0" = 50
+	"Terusuke #0" = 50
+	"Suketada #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

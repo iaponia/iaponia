@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 100  122  65 }
 
+preferred_religion = nichirenshu
+
 historical_idea_groups = {
 	influence_ideas
 	defensive_ideas
@@ -34,6 +36,11 @@ monarch_names = { # Most Monarchs were named with "yoshi"
 	"Yoshishige #0" = 50
 	"Yoshiyori #0" = 50
 	"Yoshiyasu #0" = 50
+	"Yoshimasa #0" = 50
+	"Tokishige #0" = 50
+	"Ieshige #0" = 50
+	"Sanetaka #0" = 50
+	"Sanetsugu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

@@ -5,23 +5,23 @@ graphical_culture = asiangfx
 color = { 254  239  188 }
 
 historical_idea_groups = {
+	maritime_ideas
 	defensive_ideas
-	administrative_ideas
-	traditional_ideas
-	leadership_ideas
-	influence_ideas
+	mercantilist_ideas
 	aristocratic_ideas
+	influence_ideas
+	traditional_ideas
 }
 
 historical_units = {
-	early_def_kanto_infantry
-	early_off_kanto_cavalry
-	def_kanto_infantry
-	def_kanto_cavalry
-	late_def_kanto_infantry
-	late_def_kanto_cavalry
-	advanced_kanto_infantry
-	advanced_kanto_cavalry
+	early_def_kansai_infantry
+	early_off_kansai_cavalry
+	def_kansai_infantry
+	def_kansai_cavalry
+	late_def_kansai_infantry
+	late_def_kansai_cavalry
+	advanced_kansai_infantry
+	advanced_kansai_cavalry
 }
 
 monarch_names = { # Most Monarchs were named with "tada" or "hisa"
@@ -32,6 +32,11 @@ monarch_names = { # Most Monarchs were named with "tada" or "hisa"
 	"Kagechika #0" = 50
 	"Michifusa #0" = 50
 	"Michiyuki #0" = 50
+	"Yoshinari #0" = 50
+	"Yoshikata #0" = 50
+	"Yoshimune #0" = 50
+	"Yoshimasa #0" = 50
+	"Yoshimasu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -89,9 +94,9 @@ ship_names = {
 }
 
 army_names = {
-	"Murakami Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Noshima-Murakami Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Murakami Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Noshima-Murakami Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

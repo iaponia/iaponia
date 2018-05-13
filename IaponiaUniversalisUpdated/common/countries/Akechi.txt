@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 228 233 237 }
 
 historical_idea_groups = {
-	defensive_ideas
-	meritocratic_ideas
-	trade_ideas
+	influence_ideas
 	administrative_ideas
-	leadership_ideas
 	diplomatic_ideas
+	aristocratic_ideas
+	leadership_ideas
+	westernized_ideas
 }
 
 historical_units = {
@@ -27,10 +27,12 @@ historical_units = {
 monarch_names = { # Most Monarchs were named with "mitsu"
 	"Mitsuhide #0" = 50
 	"Hidemitsu #0" = 50
+	"Toshimitsu #0" = 50
 	"Mitsuyoshi #0" = 50
 	"Mitsuharu #0" = 50
 	"Mitsutsugu #0" = 50
 	"Mitsuyasu #0" = 50
+	"Mitsutsuna #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -59,23 +61,19 @@ monarch_names = { # Most Monarchs were named with "mitsu"
 }
 
 leader_names = {
-    Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda
-	Hashiba Hashiba Hashiba Hashiba Hashiba Shibata Shibata Shibata Shibata Shibata
-	Niwa Niwa Niwa Niwa Niwa Takigawa Takigawa Takigawa Takigawa Takigawa Takigawa
-	Maeda Maeda Maeda Maeda Maeda Kanamori Kanamori Kanamori Kanamori Kanamori
-	Sassa Sassa Sassa Sassa Sassa Mori Mori Mori Mori Mori
-	Kawajiri Kawajiri Kawajiri Kawajiri Kawajiri Hayashi Hayashi Hayashi Hayashi Hayashi
-	Sakuma Sakuma Sakuma Sakuma Sakuma Hori Hori Hori Hori Hori
-	Saito Saito Saito Saito Saito Akechi Akechi Akechi Akechi Akechi
-	Takenaka Takenaka Takenaka Takenaka Takenaka Fuwa Fuwa Fuwa Fuwa Fuwa
-	Inaba Inaba Inaba Inaba Inaba Ujiie Ujiie Ujiie Ujiie Ujiie
-	Ando Ando Ando Ando Ando Toyama Toyama Toyama Toyama Toyama 
-	Hachisuka Hachisuka Hachisuka Hachisuka Hachisuka Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
-	Hara Hara Hara Hara Hara Hirate Hirate Hirate Hirate Hirate
-	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Asano Gamo Gamo Gamo Gamo Gamo
-	Shiba Shiba Shiba Shiba Shiba Toki Toki Toki Toki Toki
-	Araki Araki Araki Araki Araki Takayama Takayama Takayama Takayama Takayama
-
+    Akechi Akechi Akechi Akechi Akechi Akechi Akechi Akechi Akechi Akechi
+	Saito Saito Saito Saito Saito Mizo Mizo Mizo Mizo Mizo
+	Araki Araki Araki Araki Araki Yamazaki Yamazaki Yamazaki Yamazaki Yamazaki
+	Furukawa Furukawa Furukawa Furukawa Furukawa Yasuda Yasuda Yasuda Yasuda Yasuda
+	Okura Okura Okura Okura Okura Tsumaki Tsumaki Tsumaki Tsumaki Tsumaki
+	Taga Taga Taga Taga Taga Tsuda Tsuda Tsuda Tsuda Tsuda
+	Ise Ise Ise Ise Ise Mimaki Mimaki Mimaki Mimaki Mimaki
+	Ogawa Ogawa Ogawa Ogawa Ogawa Kani Kani Kani Kani Kani
+	Takeda Takeda Takeda Takeda Takeda Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
+	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Tsutsui Tsutsui Tsutsui Tsutsui Tsutsui
+	Inatomi Inatomi Inatomi Inatomi Inatomi Matsui Matsui Matsui Matsui Matsui
+	Shima Shima Shima Shima Shima Ido Ido Ido Ido Ido
+	Mori Mori Mori Mori Mori Chosokabe Chosokabe Chosokabe Chosokabe Chosokabe 
 }
 
 ship_names = {

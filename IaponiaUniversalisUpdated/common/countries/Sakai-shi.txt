@@ -4,13 +4,15 @@ graphical_culture = asiangfx
 
 color = { 104  18  5 }
 
+preferred_religion = nichirenshu
+
 historical_idea_groups = {
-	aristocratic_ideas
-	influence_ideas
-	pluralist_ideas
 	trade_ideas
+	meritocratic_ideas
 	maritime_ideas
-	offensive_ideas
+	pluralist_ideas
+	westernized_ideas
+	diplomatic_ideas
 }
 
 historical_units = {
@@ -25,17 +27,21 @@ historical_units = {
 }
 
 monarch_names = {
+	"Ryusa #0" = 50
+	"Soeki #0" = 50
+	"Sokyu #0" = 50
+	"Joo #0" = 50
+	"Sohaku #0" = 50
+	"Yohyoe #0" = 50
+	"Shinbee #0" = 50
+	"Shinkuro #0" = 50
+	"Sotatsu #0" = 50
+	"Sokan #0" = 50
+	"Soga #0" = 50
+	"Sokun #0" = 50
+	"Josei #0" = 50
 	"Yukinaga #0" = 50
-	"Motonaga #0" = 50
-	"Nagayoshi #0" = 50
-	"Yoshitsugu #0" = 50
-	"Nagaharu #0" = 50
-	"Yoshioki #0" = 50
-	"Masayasu #0" = 50
-	"Yoshikata #0" = 50
-	"Yasunaga #0" = 50
-	"Nagayuki #0" = 50
-	"Masanaga #0" = 50
+	"Yukimasa #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -64,18 +70,13 @@ monarch_names = {
 }
 
 leader_names = {
-    Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi
-	Sogo Sogo Sogo Sogo Sogo Atagi Atagi Atagi Atagi Atagi
-	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Iwanari Iwanari Iwanari Iwanari Iwanari
-	Ikeda Ikeda Ikeda Ikeda Ikeda Araki Araki Araki Araki Araki
-	Shichijo Shichijo Shichijo Shichijo Shichijo Onishi Onishi Onishi Onishi Onishi
-	Ogasawara Ogasawara Ogasawara Ogasawara Ogasawara Izawa Izawa Izawa Izawa Izawa
-	Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Kozai Kozai Kozai Kozai Kozai
-	Kagawa Kagawa Kagawa Kagawa Kagawa Takahara Takahara Takahara Takahara Takahara
-	Sangawa Sangawa Sangawa Sangawa Sangawa Kan Kan Kan Kan Kan
-	Shingai Shingai Shingai Shingai Shingai Shinohara Shinohara Shinohara Shinohara Shinohara
-	Matsunaga Matsunaga Matsunaga Matsunaga Matsunaga Nakagawa Nakagawa Nakagawa Nakagawa Nakagawa
-
+    Konishi Konishi Konishi Konishi Konishi Konishi Konishi Konishi Konishi Konishi
+	Tsuda Tsuda Tsuda Tsuda Tsuda Tsuda Tsuda Tsuda Tsuda Tsuda
+	Sen Sen Sen Sen Sen Sen Sen Sen Sen Sen
+	Yukawa Yukawa Yukawa Yukawa Yukawa Yukawa Yukawa Yukawa Yukawa Yukawa
+	Imai Imai Imai Imai Imai Imai Imai Imai Imai Imai
+	Takeno Takeno Takeno Takeno Takeno Takeno Takeno Takeno Takeno Takeno
+	Muko Muko Muko Muko Muko Muko Muko Muko Muko Muko
 }
 
 ship_names = {
@@ -95,9 +96,9 @@ ship_names = {
 }
 
 army_names = {
-	"Miyoshi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Sakai-shi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Miyoshi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Sakai-shi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

@@ -4,15 +4,13 @@ graphical_culture = asiangfx
 
 color = { 235  254  170 }
 
-preferred_religion = catholic
-
 historical_idea_groups = {
 	defensive_ideas
-	diplomatic_ideas
+	influence_ideas
+	aristocratic_ideas
 	pluralist_ideas
-	leadership_ideas
-	meritocratic_ideas
-	westernized_ideas
+	administrative_ideas
+	organization_ideas
 }
 
 historical_units = {
@@ -30,6 +28,10 @@ monarch_names = { # Most Monarchs were named with "mura"
 	"Murashige #0" = 50
 	"Muratsugu #0" = 50
 	"Motokiyo #0" = 50
+	"Yoshimura #0" = 50
+	"Takamura #0" = 50
+	"Naomura #0" = 50
+	"Muramori #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

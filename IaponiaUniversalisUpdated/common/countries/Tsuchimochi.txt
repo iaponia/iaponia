@@ -4,7 +4,7 @@ graphical_culture = asiangfx
 
 color = { 73  121  64 }
 
-preferred_religion = mahayana
+preferred_religion = jodoshinshu
 
 historical_idea_groups = {
 	defensive_ideas
@@ -33,6 +33,11 @@ monarch_names = {
 	"Chikahide #0" = 50
 	"Mototsuna #0" = 50
 	"Takanobu #0" = 50
+	"Nobumura #0" = 50
+	"Chikanobu #0" = 50
+	"Tsunetsuna #0" = 50
+	"Hidetaka #0" = 50
+	"Hidetsugu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

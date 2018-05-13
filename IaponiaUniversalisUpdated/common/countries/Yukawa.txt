@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 198  166   47 }
 
+preferred_religion = jodoshinshu
+
 historical_idea_groups = {
 	organization_ideas
 	pluralist_ideas
@@ -28,6 +30,12 @@ monarch_names = { #Most Monarchs were named with "nori"
 	"Masaharu #0" = 50
 	"Naomitsu #0" = 50
 	"Naoharu #0" = 50
+	"Nobuharu #0" = 50
+	"Hiroharu #0" = 50
+	"Harunobu #0" = 50
+	"Katsuharu #0" = 50
+	"Noriharu #0" = 50
+	"Kazuharu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

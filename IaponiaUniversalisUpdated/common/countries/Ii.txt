@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 187  0  0 }
 
 historical_idea_groups = {
-	defensive_ideas
+	traditional_ideas
 	administrative_ideas
-	leadership_ideas
 	diplomatic_ideas
-	shinto_ideas
+	organization_ideas
 	mercantilist_ideas
+	leadership_ideas
 }
 
 historical_units = {
@@ -25,11 +25,18 @@ historical_units = {
 }
 
 monarch_names = {
-	"Naotora #0" = 20
-	"Naomori #0" = 20
-	"Naomasa #0" = 20
-	"Naotaka #0" = 20
-	"Naokatsu #0" = 20
+	"Naotora #0" = 50
+	"Naomori #0" = 50
+	"Naomasa #0" = 50
+	"Naotaka #0" = 50
+	"Naokatsu #0" = 50
+	"Naochika #0" = 50
+	"Naomitsu #0" = 50
+	"Naomune #0" = 50
+	"Naohira #0" = 50
+	"Naouji #0" = 50
+	"Tadanao #0" = 50
+	"Kagenao #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

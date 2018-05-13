@@ -27,12 +27,18 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with single characters
-	"Tsuyoshi #0" = 50
-	"Hajime #0" = 50
+	"Sumisada #0" = 50
+	"Sumitada #0" = 50
+	"Sumiharu #0" = 50
+	"Sadasane #0" = 50
+	"Morishige #0" = 50
+	"Morimasa #0" = 50
+	"Morinobu #0" = 50
+	"Morinaga #0" = 50
 	"Satoru #0" = 50
-	"Hata #0" = 50
-	"Kakoi #0" = 50
-	"Mamoru #0" = 50
+	"Sadamu #0" = 50
+	"Yoshi #0" = 50
+	"Motoi #0" = 50
 	"Tadashi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5

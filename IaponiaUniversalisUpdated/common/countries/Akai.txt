@@ -26,7 +26,15 @@ historical_units = {
 
 monarch_names = {
 	"Akikiyo #0" = 50
+	"Iekiyo #0" = 50
 	"Naomasa #0" = 50
+	"Nagamasa #0" = 50
+	"Naoyuki #0" = 50
+	"Tadaie #0" = 50
+	"Nagaie #0" = 50
+	"Yukiie #0" = 50
+	"Tokiie #0" = 50
+	"Naoie #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

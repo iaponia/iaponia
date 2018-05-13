@@ -11,7 +11,7 @@ historical_idea_groups = {
 	meritocratic_ideas
 	offensive_ideas
 	expansion_ideas
-	pluralist_ideas
+	christian_ideas
 	westernized_ideas
 }
 
@@ -29,13 +29,20 @@ historical_units = {
 monarch_names = {
 	"Ujisato #0" = 50
 	"Sadahide #0" = 50
-	"Katahide #0" = 20
+	"Katahide #0" = 50
 	"Hideyuki #0" = 50
 	"Shigetsuna #0" = 50
 	"Motoyoshi #0" = 50
 	"Yorisato #0" = 50
 	"Tadasato #0" = 50
 	"Tadatomo #0" = 50
+	"Hidenori #0" = 50
+	"Shigesato #0" = 50
+	"Masuhide #0" = 50
+	"Norihide #0" = 50
+	"Utahide #0" = 50
+	"Ujinobu #0" = 50
+	"Ujiharu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -64,23 +71,20 @@ monarch_names = {
 }
 
 leader_names = {
-    Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku
-	Gamo Gamo Gamo Gamo Gamo Goto Goto Goto Goto Goto
-	Mikumo Mikumo Mikumo Mikumo Mikumo Tamaru Tamaru Tamaru Tamaru Tamaru
-	Yoshida Yoshida Yoshida Yoshida Yoshida Shindo Shindo Shindo Shindo Shindo
-	Komai Komai Komai Komai Komai Takada Takada Takada Takada Takada
-	Endo Endo Endo Endo Endo Isono Isono Isono Isono Isono
-	Azai Azai Azai Azai Azai Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
-	Todo Todo Todo Todo Todo Tanaka Tanaka Tanaka Tanaka Tanaka
-	Ishida Ishida Ishida Ishida Ishida Otani Otani Otani Otani Otani
-	Miyabe Miyabe Miyabe Miyabe Miyabe Kutsuki Kutsuki Kutsuki Kutsuki Kutsuki
-	Amenomori Amenomori Amenomori Amenomori Amenomori Akao Akao Akao Akao Akao
-	Kaiho Kaiho Kaiho Kaiho Kaiho Anyoji Anyoji Anyoji Anyoji Anyoji
-	Kitabatake Kitabatake Kitabatake Kitabatake Kitabatake Kozukuri Kozukuri Kozukuri Kozukuri Kozukuri
-	Seki Seki Seki Seki Seki Nagano Nagano Nagano Nagano Nagano
-	Hosono Hosono Hosono Hosono Hosono Kanbe Kanbe Kanbe Kanbe Kanbe
-	Kuki Kuki Kuki Kuki Kuki Ohama Ohama Ohama Ohama Ohama
-
+    Gamo Gamo Gamo Gamo Gamo Gamo Gamo Gamo Gamo Gamo
+	Rokkaku Rokkaku Rokkaku Rokkaku Rokkaku Kitabatake Kitabatake Kitabatake Kitabatake Kitabatake
+	Hosono Hosono Hosono Hosono Hosono Goto Goto Goto Goto Goto
+	Shindo Shindo Shindo Shindo Shindo Tamaru Tamaru Tamaru Tamaru Tamaru
+	Seki Seki Seki Seki Seki Mikumo Mikumo Mikumo Mikumo Mikumo
+	Yoshida Yoshida Yoshida Yoshida Yoshida Kabuto Kabuto Kabuto Kabuto Kabuto
+	Kanbe Kanbe Kanbe Kanbe Kanbe Nagao Nagao Nagao Nagao Nagao
+	Yasuda Yasuda Yasuda Yasuda Yasuda Yokoyama Yokoyama Yokoyama Yokoyama Yokoyama
+	Oda Oda Oda Oda Oda Takigawa Takigawa Takigawa Takigawa Takigawa
+	Kuki Kuki Kuki Kuki Kuki Sakuma Sakuma Sakuma Sakuma Sakuma
+	Ikeda Ikeda Ikeda Ikeda Ikeda Niwa Niwa Niwa Niwa Niwa
+	Anazawa Anazawa Anazawa Anazawa Anazawa Kawashima Kawashima Kawashima Kawashima Kawashima
+	Oka Oka Oka Oka Oka Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama
+	
 }
 
 ship_names = {

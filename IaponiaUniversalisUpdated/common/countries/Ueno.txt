@@ -24,9 +24,16 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "yori"
+monarch_names = {
 	"Yorihisa #0" = 50
 	"Yoriuji #0" = 50
+	"Nobutaka #0" = 50
+	"Kiyonobu #0" = 50
+	"Takanao #0" = 50
+	"Takanori #0" = 50
+	"Hisanaga #0" = 50
+	"Mochiyori #0" = 50
+	"Mochitoshi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 96  0  19 }
 
 historical_idea_groups = {
-	influence_ideas
-	traditional_ideas
-	aristocratic_ideas
+	defensive_ideas
 	diplomatic_ideas
 	leadership_ideas
-	shinto_ideas
+	aristocratic_ideas
+	westernized_ideas
+	influence_ideas
 }
 
 historical_units = {
@@ -24,10 +24,21 @@ historical_units = {
 	advanced_kanto_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "moto"
+monarch_names = {
 	"Masayuki #0" = 50
 	"Nobuyuki #0" = 50
 	"Yukimura #0" = 50
+	"Nobushige #0" = 50
+	"Yukimasa #0" = 50
+	"Nobutsuna #0" = 50
+	"Nobutada #0" = 50
+	"Masateru #0" = 50
+	"Nobumasa #0" = 50
+	"Nobuoki #0" = 50
+	"Nobumitsu #0" = 50
+	"Yukitsuna #0" = 50
+	"Yoritsuna #0" = 50
+	"Yorimasa #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

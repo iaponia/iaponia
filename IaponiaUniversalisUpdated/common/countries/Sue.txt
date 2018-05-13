@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 210  106  91 }
 
 historical_idea_groups = {
-	trade_ideas
-	pluralist_ideas
-	influence_ideas
-	maritime_ideas
 	offensive_ideas
+	administrative_ideas
+	leadership_ideas
 	expansion_ideas
+	westernized_ideas
+	maritime_ideas
 }
 
 historical_units = {
@@ -24,9 +24,21 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "tane"
+monarch_names = {
 	"Harukata #0" = 50
 	"Nagafusa #0" = 50
+	"Takafusa #0" = 50
+	"Hirofusa #0" = 50
+	"Hiromasa #0" = 50
+	"Hiromori #0" = 50
+	"Hiroaki #0" = 50
+	"Takemori #0" = 50
+	"Okiaki #0" = 50
+	"Okifusa #0" = 50
+	"Okimasa #0" = 50
+	"Takayasu #0" = 50
+	"Takahiro #0" = 50
+	"Motohiro #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

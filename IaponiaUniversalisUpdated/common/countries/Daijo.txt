@@ -6,11 +6,11 @@ color = { 216  163  5 }
 
 historical_idea_groups = {
 	administrative_ideas
-	organization_ideas
-	influence_ideas
-	westernized_ideas
-	offensive_ideas
-	expansion_ideas
+	defensive_ideas
+	diplomatic_ideas
+	shinto_ideas
+	traditional_ideas
+	mercantilist_ideas
 }
 
 historical_units = {
@@ -32,6 +32,11 @@ monarch_names = { # Most Monarchs were named with "yoshi"
 	"Yoshiaki #0" = 50
 	"Kiyomoto #0" = 50
 	"Mochimoto #0" = 50
+	"Motomasa #0" = 50
+	"Yorimoto #0" = 50
+	"Hidemoto #0" = 50
+	"Mitsumoto #0" = 50
+	"Akikuni #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

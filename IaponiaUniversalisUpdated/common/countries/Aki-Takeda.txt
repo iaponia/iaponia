@@ -14,10 +14,10 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	early_def_kansai_infantry
+	early_off_kansai_infantry
 	early_def_kansai_cavalry
-	def_kansai_infantry
-	def_kansai_cavalry
+	off_kansai_infantry
+	off_kansai_cavalry
 	late_def_kansai_infantry
 	late_def_kansai_cavalry
 	advanced_kansai_infantry
@@ -30,6 +30,11 @@ monarch_names = { # Most Monarchs were named with "nobu" or "moto"
 	"Motoshige #0" = 50
 	"Mitsukazu #0" = 50
 	"Nobuzane #0" = 50
+	"Nobumori #0" = 50
+	"Nobushige #0" = 50
+	"Shigekiyo #0" = 50
+	"Tsunenobu #0" = 50
+	"Takanobu #0" = 50 
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

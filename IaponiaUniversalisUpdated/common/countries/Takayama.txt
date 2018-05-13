@@ -7,11 +7,11 @@ color = { 242  9  20 }
 preferred_religion = catholic
 
 historical_idea_groups = {
+	administrative_ideas
 	defensive_ideas
-	diplomatic_ideas
-	pluralist_ideas
-	leadership_ideas
-	meritocratic_ideas
+	christian_ideas
+	influence_ideas
+	aristocratic_ideas
 	westernized_ideas
 }
 
@@ -29,6 +29,10 @@ historical_units = {
 monarch_names = { # Most Monarchs were named with "haru"
 	"Tomoteru #0" = 50
 	"Shigetomo #0" = 50
+	"Shigenori #0" = 50
+	"Shigetoshi #0" = 50
+	"Shigemitsu #0" = 50
+	"Nagatomo #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

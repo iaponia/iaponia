@@ -7,9 +7,9 @@ color = { 87  104  159 }
 preferred_religion = catholic
 
 historical_idea_groups = {
-	defensive_ideas
+	offensive_ideas
 	diplomatic_ideas
-	pluralist_ideas
+	christian_ideas
 	leadership_ideas
 	meritocratic_ideas
 	westernized_ideas
@@ -35,6 +35,8 @@ monarch_names = { # Most Monarchs were named with "haru"
 	"Naoyuki #0" = 50
 	"Shigetaka #0" = 50
 	"Kazushige #0" = 50
+	"Toshinori #0" = 50
+	"Takamoto #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

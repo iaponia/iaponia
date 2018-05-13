@@ -25,15 +25,18 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "tsuna"
-	"Hitotsuna #0" = 50
+	"Hirotsuna #0" = 50
 	"Akitsuna #0" = 50
 	"Masatsuna #0" = 50
 	"Shigetsuna #0" = 50
 	"Tadatsuna #0" = 50
 	"Okitsuna #0" = 50
 	"Hisatsuna #0" = 50
-	"Hirotsuna #0" = 50
+	"Kagetsuna #0" = 50
 	"Kunitsuna #0" = 50
+	"Takatsuna #0" = 50
+	"Mitsutsuna #0" = 50
+	"Mototsuna #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

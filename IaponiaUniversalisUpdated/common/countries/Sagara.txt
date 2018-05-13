@@ -7,10 +7,10 @@ color = { 198  0  25 }
 historical_idea_groups = {
 	administrative_ideas
 	defensive_ideas
-	meritocratic_ideas
+	expansion_ideas
 	trade_ideas
+	meritocratic_ideas
 	diplomatic_ideas
-	pluralist_ideas
 }
 
 historical_units = {

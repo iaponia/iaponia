@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 147  44  112 }
 
+preferred_religion = shinto
+
 historical_idea_groups = {
 	aristocratic_ideas
 	traditional_ideas
@@ -24,7 +26,7 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "tada" or "hisa"
+monarch_names = { # Most Monarchs were named with "tomo" or "aki"
 	"Noritomo #0" = 50
 	"Masasato #0" = 50
 	"Kichika #0" = 50
@@ -32,6 +34,11 @@ monarch_names = { # Most Monarchs were named with "tada" or "hisa"
 	"Tomonori #0" = 50		
 	"Tomofusa #0" = 50	
 	"Tomotoyo #0" = 50	
+	"Akiyasu #0" = 50
+	"Akimasa #0" = 50
+	"Akitoshi #0" = 50
+	"Akinobu #0" = 50
+	"Akishige #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

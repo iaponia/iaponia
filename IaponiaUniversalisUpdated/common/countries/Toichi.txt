@@ -24,12 +24,13 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "tada" or "hisa"
+monarch_names = {
 	"Tokiyo #0" = 50
 	"Tosuke #0" = 50
 	"Toharu #0" = 50
 	"Totada #0" = 50
 	"Tokatsu #0" = 50	
+	"Tonaga #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

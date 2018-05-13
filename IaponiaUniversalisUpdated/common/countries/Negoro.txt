@@ -4,7 +4,7 @@ graphical_culture = asiangfx
 
 color = { 0  7   196 }
 
-preferred_religion = mahayana
+preferred_religion = jodoshinshu
 
 historical_idea_groups = {
 	buddhist_ideas
@@ -26,12 +26,17 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { #Most Monarchs were named with "nori"
+monarch_names = {
 	"Kazunaga #0" = 50
 	"Kazumasa #0" = 50
 	"Kazuhiro #0" = 50
 	"Kazuyoshi #0" = 50
 	"Kazumoto #0" = 50	
+	"Takekazu #0" = 50
+	"Kazuyuki #0" = 50
+	"Masataka #0" = 50
+	"Masatoshi #0" = 50
+	"Masakage #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

@@ -4,14 +4,14 @@ graphical_culture = asiangfx
 
 color = { 239  251  208 }
 
-preferred_religion = mahayana
+preferred_religion = jodoshinshu
 
 historical_idea_groups = {
 	defensive_ideas
 	expansion_ideas
 	meritocratic_ideas
 	influence_ideas
-	pluralist_ideas
+	buddhist_ideas
 	diplomatic_ideas
 }
 

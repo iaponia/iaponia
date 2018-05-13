@@ -26,6 +26,11 @@ historical_units = {
 
 monarch_names = { # Most Monarchs were named with "tane"
 	"Muneharu #0" = 50
+	"Muneyuki #0" = 50
+	"Munesada #0" = 50
+	"Munetomo #0" = 50
+	"Munenori #0" = 50
+	"Kageharu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

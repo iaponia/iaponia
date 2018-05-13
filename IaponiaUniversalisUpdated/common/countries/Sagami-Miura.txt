@@ -24,14 +24,17 @@ historical_units = {
 	advanced_kanto_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "suke"
-	"Sukeharu #0" = 50
-	"Sukekuni #0" = 50
-	"Sukekane #0" = 50
-	"Sukefusa #0" = 50
-	"Sukekiyo #0" = 50
-	"Sukenaga #0" = 50
-	"Sukeyasu #0" = 50
+monarch_names = {
+	"Takaaki #0" = 50
+	"Tokitaka #0" = 50
+	"Takahira #0" = 50
+	"Takanori #0" = 50
+	"Yoshinori #0" = 50
+	"Yoshiatsu #0" = 50
+	"Yoshioki #0" = 50
+	"Yoshitsugu #0" = 50
+	"Akitsugu #0" = 50
+	"Tanetsugu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -90,9 +93,9 @@ ship_names = {
 }
 
 army_names = {
-	"Miura Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Sagami-Miura Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Miura Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Sagami-Miura Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

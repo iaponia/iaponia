@@ -14,14 +14,14 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	early_def_kanto_infantry
-	early_off_kanto_cavalry
-	def_kanto_infantry
-	def_kanto_cavalry
-	late_def_kanto_infantry
-	late_def_kanto_cavalry
-	advanced_kanto_infantry
-	advanced_kanto_cavalry
+	early_def_kyushu_infantry
+	early_def_kyushu_cavalry
+	def_kyushu_infantry
+	def_kyushu_cavalry
+	late_def_kyushu_infantry
+	late_def_kyushu_cavalry
+	advanced_kyushu_infantry
+	advanced_kyushu_cavalry
 }
 
 monarch_names = { # Most Monarchs were named with "tsuna"
@@ -29,6 +29,13 @@ monarch_names = { # Most Monarchs were named with "tsuna"
 	"Shigesato #0" = 50
 	"Motoshige #0" = 50
 	"Takazane #0" = 50
+	"Okimasu #0" = 50
+	"Okiharu #0" = 50
+	"Ieshige #0" = 50
+	"Ieharu #0" = 50
+	"Iemune #0" = 50
+	"Hiroie #0" = 50
+	"Hirokuni #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

@@ -6,11 +6,11 @@ color = { 137  195   235 }
 
 historical_idea_groups = {
 	defensive_ideas
+	influence_ideas
+	aristocratic_ideas
+	leadership_ideas
 	diplomatic_ideas
 	pluralist_ideas
-	leadership_ideas
-	meritocratic_ideas
-	westernized_ideas
 }
 
 historical_units = {

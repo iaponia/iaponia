@@ -24,10 +24,17 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "masa"
+monarch_names = { # Most Monarchs were named with "fuji"
 	"Fujinao #0" = 50
 	"Michihisa #0" = 50
 	"Tanefuji #0" = 50
+	"Mitsutada #0" = 50
+	"Munetada #0" = 50
+	"Masafuji #0" = 50
+	"Fujitsugu #0" = 50
+	"Michifuji #0" = 50
+	"Tomofuji #0" = 50
+	"Yoshifuji #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -92,9 +99,9 @@ ship_names = {
 }
 
 army_names = {
-	"Nagano Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Ise-Nagano Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Nagano Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Ise-Nagano Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

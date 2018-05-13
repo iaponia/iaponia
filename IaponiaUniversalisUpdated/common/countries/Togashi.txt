@@ -4,7 +4,7 @@ graphical_culture = asiangfx
 
 color = { 73  110  118 }
 
-preferred_religion = mahayana
+preferred_religion = jodoshinshu
 
 historical_idea_groups = {
 	defensive_ideas
@@ -26,10 +26,16 @@ historical_units = {
 	advanced_kanto_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "toki"
+monarch_names = {
 	"Yasutaka #0" = 50
 	"Noriie #0" = 50
 	"Masachika #0" = 50
+	"Taneyasu #0" = 50
+	"Yasunari #0" = 50
+	"Mochiharu #0" = 50
+	"Mitsuharu #0" = 50
+	"Mitsuie #0" = 50
+	"Masaie #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

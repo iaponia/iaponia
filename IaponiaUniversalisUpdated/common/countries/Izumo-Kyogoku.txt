@@ -9,7 +9,7 @@ historical_idea_groups = {
 	influence_ideas
 	organization_ideas
 	diplomatic_ideas
-	christian_ideas
+	administrative_ideas
 	leadership_ideas
 }
 
@@ -90,9 +90,9 @@ ship_names = {
 }
 
 army_names = {
-	"Kyogoku Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Izumo-Kyogoku Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Kyogoku Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Izumo-Kyogoku Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

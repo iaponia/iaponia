@@ -33,6 +33,12 @@ monarch_names = {
 	"Hidetaka #0" = 50
 	"Hideaki #0" = 50
 	"Hidekane #0" = 50
+	"Hidenori #0" = 50
+	"Katsutoshi #0" = 50
+	"Iesada #0" = 50
+	"Toshifusa #0" = 50
+	"Nobutoshi #0" = 50
+	"Toshisada #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -104,9 +110,9 @@ ship_names = {
 }
 
 army_names = {
-	"Oda Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Toyotomi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Oda Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Toyotomi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

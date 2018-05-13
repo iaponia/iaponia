@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 140  119  249 }
 
 historical_idea_groups = {
-	defensive_ideas
-	maritime_ideas
+	offensive_ideas
 	influence_ideas
+	administrative_ideas
+	westernized_ideas
+	meritocratic_ideas
 	expansion_ideas
-	shinto_ideas
-	aristocratic_ideas
 }
 
 historical_units = {
@@ -31,6 +31,11 @@ monarch_names = {
 	"Naritoshi #0" = 50
 	"Yoshitaka #0" = 50
 	"Nagasada #0" = 50
+	"Nagataka #0" = 50
+	"Nagauji #0" = 50
+	"Shigemasa #0" = 50
+	"Yoshimasa #0" = 50
+	"Yoshiyuki #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

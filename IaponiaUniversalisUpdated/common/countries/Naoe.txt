@@ -4,8 +4,6 @@ graphical_culture = asiangfx
 
 color = { 31  160  179 }
 
-preferred_religion = mahayana
-
 historical_idea_groups = {
 	influence_ideas
 	traditional_ideas
@@ -30,6 +28,10 @@ monarch_names = { # Most Monarchs were named with "kage"
 	"Kanetsugu #0" = 50
 	"Kanetoyo #0" = 50
 	"Kagetsuna #0" = 50
+	"Nobutsuna #0" = 50
+	"Shigetsuna #0" = 50
+	"Masanobu #0" = 50
+	"Chikatsuna #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

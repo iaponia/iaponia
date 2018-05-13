@@ -25,26 +25,17 @@ historical_units = {
 }
 
 monarch_names = {
-	"Takasada #0" = 50
-	"Takatsugu #0" = 50
-	"Takayasu #0" = 50
-	"Takefusa #0" = 50
-	"Takamori #0" = 50
-	"Tokitaka #0" = 50
-	"Taketoki #0" = 50
-	"Takesige #0" = 50
-	"Takehito #0" = 50
-	"Takemitsu #0" = 50
-	"Takemasa #0" = 50
-	"Taketomo #0" = 50
-	"Kanetomo #0" = 50
-	"Mochitomo #0" = 50
-	"Tamekuni #0" = 50
-	"Yoshiyuki #0" = 50
-    "Masataka #0" = 50
-	"Taketsune #0" = 50
-	"Takekane #0" = 50
-	"Yoshitake #0" = 50
+    "Akitada #0" = 50
+	"Takeaki #0" = 50
+	"Yukioki #0" = 50
+	"Yukinori #0" = 50
+	"Yukinao #0" = 50
+	"Akitaka #0" = 50
+	"Akinobu #0" = 50
+	"Shigeyuki #0" = 50
+	"Shigetoshi #0" = 50
+	"Akiteru #0" = 50
+	"Yukiyoshi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -103,9 +94,9 @@ ship_names = {
 }
 
 army_names = {
-	"Kikuchi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Nawa Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Kikuchi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Nawa Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

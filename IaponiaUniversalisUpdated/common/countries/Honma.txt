@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 144  68   49 }
 
+preferred_religion = nichirenshu
+
 historical_idea_groups = {
 	administrative_ideas
 	organization_ideas

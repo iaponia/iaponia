@@ -29,6 +29,7 @@ monarch_names = { # Most Monarchs were named with michi
 	"Tanemichi #0" = 50
 	"Kagemichi #0" = 50
 	"Yoshimichi #0" = 50
+	"Mitsumichi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

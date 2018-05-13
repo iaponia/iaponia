@@ -10,7 +10,7 @@ historical_idea_groups = {
 	influence_ideas
 	shinto_ideas
 	maritime_ideas
-	traditional_ideas
+	defensive_ideas
 }
 
 historical_units = {
@@ -30,6 +30,14 @@ monarch_names = { # Most Monarchs were named with "hiro"
 	"Suehiro #0" = 50
 	"Mitsuhiro #0" = 50
 	"Yoshihiro #0" = 50
+	"Toshihiro #0" = 50
+	"Motohiro #0" = 50
+	"Yoshihiro #0" = 50
+	"Masahiro #0" = 50
+	"Nagahiro #0" = 50
+	"Sadahiro #0" = 50
+	"Chikahiro #0" = 50
+	"Takahiro #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

@@ -4,14 +4,14 @@ graphical_culture = asiangfx
 
 color = { 188  188  188 }
 
-preferred_religion = mahayana
+preferred_religion = catholic
 
 historical_idea_groups = {
 	defensive_ideas
 	diplomatic_ideas
 	pluralist_ideas
 	leadership_ideas
-	meritocratic_ideas
+	administrative_ideas
 	westernized_ideas
 }
 
@@ -30,6 +30,10 @@ monarch_names = { # Most Monarchs were named with "haru"
 	"Kiyohide #0" = 50
 	"Hideshige #0" = 50
 	"Hidenari #0" = 50
+	"Hidemasa #0" = 50
+	"Shigekiyo #0" = 50
+	"Katsunari #0" = 50
+	"Hisaharu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

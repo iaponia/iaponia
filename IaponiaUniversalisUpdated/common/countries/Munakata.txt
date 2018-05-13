@@ -6,7 +6,7 @@ color = { 76  91  50 }
 
 historical_idea_groups = {
 	trade_ideas
-	pluralist_ideas
+	shinto_ideas
 	maritime_ideas
 	diplomatic_ideas
 	westernized_ideas
@@ -34,7 +34,9 @@ monarch_names = { # Most Monarchs were named with "uji"
 	"Okiuji #0" = 50
 	"Masauji #0" = 50
 	"Ujitsugu #0" = 50
-	"Ujio #0" = 50
+	"Ujitoshi #0" = 50
+	"Ujitaka #0" = 50
+	"Ujikazu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

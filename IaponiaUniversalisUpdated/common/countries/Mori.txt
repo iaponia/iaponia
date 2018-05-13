@@ -4,7 +4,7 @@ graphical_culture = asiangfx
 
 color = { 234 225 23 }
 
-preferred_religion = mahayana
+preferred_religion = shinto
 
 historical_idea_groups = {
 	defensive_ideas
@@ -40,10 +40,10 @@ monarch_names = {
 	"Yoshinari #0" = 50
 	"Yoshihiro #0" = 50
 	"Yoshimoto #0" = 50
-	"Takamoto #0" = 10
-    "Motokiyo #0" = 10
+	"Takamoto #0" = 50
+    "Motokiyo #0" = 50
 	"Munehiro #0" = 50
-	"Motomasa #0" = 30
+	"Motomasa #0" = 50
 	"Mototsugu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5

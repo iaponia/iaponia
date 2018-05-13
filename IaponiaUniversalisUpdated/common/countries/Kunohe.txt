@@ -25,13 +25,15 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "tada" or "hisa"
-	"Morikiyo #0" = 50
-	"Masatsune #0" = 50
-	"Nobunaga #0" = 50
-	"Haruyoshi #0" = 50
-	"Yoshitsugu #0" = 50	
-	"Katsuyoshi #0" = 50	
-	"Masayoshi #0" = 50	
+	"Mitsumasa #0" = 50
+	"Mitsuyasu #0" = 50
+	"Tsurayasu #0" = 50
+	"Nobunaka #0" = 50
+	"Masazane #0" = 50	
+	"Yasuzane #0" = 50	
+	"Sanechika #0" = 50	
+	"Motozane #0" = 50
+	"Tsuramoto #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -94,9 +96,9 @@ ship_names = {
 }
 
 army_names = {
-	"Hachinohe Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Kunohe Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Hachinohe Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Kunohe Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

@@ -7,29 +7,32 @@ color = { 175  15  15 }
 preferred_religion = catholic
 
 historical_idea_groups = {
-	defensive_ideas
-	aristocratic_ideas
-	organization_ideas
-	pluralist_ideas
-	influence_ideas
-	administrative_ideas
+	trade_ideas
+	christian_ideas
+	maritime_ideas
+	westernized_ideas
+	diplomatic_ideas
+	meritocratic_ideas
 }
 
 historical_units = {
-	early_def_kyushu_infantry
-	early_def_kyushu_cavalry
-	def_kyushu_infantry
-	def_kyushu_cavalry
-	late_def_kyushu_infantry
-	late_def_kyushu_cavalry
-	advanced_kyushu_infantry
-	advanced_kyushu_cavalry
+	early_def_kansai_infantry
+	early_def_kansai_cavalry
+	def_kansai_infantry
+	def_kansai_cavalry
+	late_def_kansai_infantry
+	late_def_kansai_cavalry
+	advanced_kansai_infantry
+	advanced_kansai_cavalry
 }
 
 monarch_names = {
 	"Yukinaga #0" = 50
 	"Yukikage #0" = 50
 	"Hidesada #0" = 50
+	"Yukimasa #0" = 50
+	"Ryusa #0" = 50
+	"Josei #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

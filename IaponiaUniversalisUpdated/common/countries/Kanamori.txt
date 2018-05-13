@@ -5,28 +5,31 @@ graphical_culture = asiangfx
 color = { 66  110  104 }
 
 historical_idea_groups = {
-	defensive_ideas
+	infleunce_ideas
 	administrative_ideas
-	leadership_ideas
 	diplomatic_ideas
-	shinto_ideas
-	mercantilist_ideas
+	aristocratic_ideas
+	organization_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	early_def_kanto_infantry
-	early_off_kanto_cavalry
-	def_kanto_infantry
-	def_kanto_cavalry
-	late_off_kanto_infantry
-	late_off_kanto_cavalry
-	advanced_kanto_infantry
-	advanced_kanto_cavalry
+	early_def_kansai_infantry
+	early_off_kansai_cavalry
+	def_kansai_infantry
+	def_kansai_cavalry
+	late_off_kansai_infantry
+	late_off_kansai_cavalry
+	advanced_kansai_infantry
+	advanced_kansai_cavalry
 }
 
 monarch_names = {
-	"Nagachika #0" = 20
-	"Yoshishige #0" = 20
+	"Nagachika #0" = 50
+	"Yoshishige #0" = 50
+	"Sadachika #0" = 50
+	"Masachika #0" = 50
+	"Norimori #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

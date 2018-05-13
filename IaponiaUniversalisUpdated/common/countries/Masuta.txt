@@ -4,9 +4,11 @@ graphical_culture = asiangfx
 
 color = { 55  42  85 }
 
+religion = nichirenshu
+
 historical_idea_groups = {
 	defensive_ideas
-	shinto_ideas
+	buddhist_ideas
 	traditional_ideas
 	expansion_ideas
 	maritime_ideas
@@ -24,11 +26,15 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "kane"	
-	"Kanetaka #0" = 50
-	"Sadakane #0" = 50
+monarch_names = {
+	"Fujikane #0" = 50
 	"Tadakane #0" = 50
+	"Motonaga #0" = 50
+	"Hirokane #0" = 50
+	"Kanenaga #0" = 50
+	"Kaneie #0" = 50
 	"Munekane #0" = 50
+	"Sadakane #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

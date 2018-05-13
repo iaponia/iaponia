@@ -10,7 +10,7 @@ historical_idea_groups = {
 	aristocratic_ideas
 	traditional_ideas
 	leadership_ideas
-	shinto_ideas
+	expansion_ideas
 }
 
 historical_units = {
@@ -28,6 +28,12 @@ monarch_names = {
 	"Tanemichi #0" = 50
 	"Harumichi #0" = 50
 	"Hideharu #0" = 50
+	"Motohide #0" = 50
+	"Hidehisa #0" = 50
+	"Hidetaka #0" = 50
+	"Takaharu #0" = 50
+	"Motokiyo #0" = 50
+	"Kiyohide #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

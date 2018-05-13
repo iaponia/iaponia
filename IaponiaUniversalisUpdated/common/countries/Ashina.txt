@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 241  231  77 }
 
 historical_idea_groups = {
+	defensive_ideas
 	influence_ideas
 	aristocratic_ideas
-	defensive_ideas
 	diplomatic_ideas
+	organization_ideas
 	administrative_ideas
-	westernized_ideas
 }
 
 historical_units = {
@@ -32,6 +32,12 @@ monarch_names = { # Most Monarchs were named with Mori
 	"Morishige #0" = 50
 	"Morikiyo #0" = 50
 	"Moriuji #0" = 50
+	"Morimasa #0" = 50
+	"Moriyuki #0" = 50
+	"Morioki #0" = 50
+	"Morikata #0" = 50
+	"Ujikata #0" = 50
+	"Mitsumori #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

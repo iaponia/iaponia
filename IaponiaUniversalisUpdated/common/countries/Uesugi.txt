@@ -4,8 +4,6 @@ graphical_culture = asiangfx
 
 color = { 200  200  200 }
 
-preferred_religion = mahayana
-
 historical_idea_groups = {
 	influence_ideas
 	traditional_ideas

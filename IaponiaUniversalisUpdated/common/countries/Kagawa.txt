@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 17  186  9 }
 
+preferred_religion = nichirenshu
+
 historical_idea_groups = {
 	defensive_ideas
 	shinto_ideas
@@ -27,6 +29,12 @@ historical_units = {
 monarch_names = { # Most Monarchs were named with "kage"
 	"Motokage #0" = 50
 	"Yukikage #0" = 50
+	"Kageie #0" = 50
+	"Kagetada #0" = 50
+	"Kageharu #0" = 50
+	"Mitsukage #0" = 50
+	"Kazukage #0" = 50
+	"Chikakazu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

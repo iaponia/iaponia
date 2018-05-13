@@ -14,14 +14,14 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	early_def_kansai_infantry
-	early_def_kansai_cavalry
-	def_kansai_infantry
-	def_kansai_cavalry
-	late_def_kansai_infantry
-	late_def_kansai_cavalry
-	advanced_kansai_infantry
-	advanced_kansai_cavalry
+	early_def_kanto_infantry
+	early_def_kanto_cavalry
+	def_kanto_infantry
+	def_kanto_cavalry
+	late_def_kanto_infantry
+	late_def_kanto_cavalry
+	advanced_kanto_infantry
+	advanced_kanto_cavalry
 }
 
 monarch_names = {
@@ -30,7 +30,34 @@ monarch_names = {
 	"Yorisada #0" = 50
 	"Yorifusa #0" = 50
 	"Yorizane #0" = 50
-	}
+	"Yorimoto #0" = 50
+	"Yoritane #0" = 50
+	"Toku #0" = -5
+	"Sen #0" = -5
+	"Tama #0" = -5
+	"Aya #0" = -5
+	"Komatsu #0" = -5
+	"Ginchiyo #0" = -5
+	"Fuyu #0" = -5
+	"Matsu #0" = -5
+	"Naotora #0" = -5
+	"Ichi #0" = -5
+	"Chacha #0" = -5
+	"Go #0" = -5
+	"Hatsu #0" = -5
+	"Ne #0" = -5
+	"Myorin #0" = -5
+	"Hikotsuru #0" = -5
+	"Nana #0" = -5
+	"Kicho #0" = -5
+	"Myokyu #0" = -5
+	"Kai #0" = -5
+	"Osen #0" = -5
+	"Yoshi #0" = -5
+	"Sena #0" = -5
+	"Chiyo #0" = -5
+	"Tsuru #0" = -5
+}
 
 leader_names = {
     Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi Satomi
@@ -58,9 +85,9 @@ ship_names = {
 }
 
 army_names = {
-	"Toki Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei"  "$PROVINCE$ Dan"
+	"Kazusa-Toki Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei"  "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Toki Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Kazusa-Toki Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

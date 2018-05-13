@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 40  97  123 }
 
+preferred_religion = nichirenshu
+
 historical_idea_groups = {
 	influence_ideas
 	defensive_ideas
@@ -25,15 +27,14 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "yoshi"
-	"Yoshizane #0" = 50
-	"Shigeyoshi #0" = 50
-	"Yoshimichi #0" = 50
-	"Yoshitoyo #0" = 50
-	"Yoshitaka #0" = 50
-	"Yoshihiro #0" = 50
-	"Yoshishige #0" = 50
-	"Yoshiyori #0" = 50
-	"Yoshiyasu #0" = 50
+	"Sadataka #0" = 50
+	"Sadaharu #0" = 50
+	"Tsuneharu #0" = 50
+	"Takatoshi #0" = 50
+	"Toshiharu #0" = 50
+	"Toshifusa #0" = 50
+	"Masafusa #0" = 50
+	"Masatsugu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -88,9 +89,9 @@ ship_names = {
 }
 
 army_names = {
-	"Satomi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Sakai Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Satomi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Sakai Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

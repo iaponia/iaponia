@@ -7,12 +7,12 @@ color = { 109  166  23 }
 preferred_religion = mahayana
 
 historical_idea_groups = {
+	administrative_ideas
 	trade_ideas
 	meritocratic_ideas
-	offensive_ideas
-	expansion_ideas
-	pluralist_ideas
-	westernized_ideas
+	defensive_ideas
+	influence_ideas
+	organization_ideas
 }
 
 historical_units = {
@@ -32,6 +32,9 @@ monarch_names = {
 	"Yoshichika #0" = 50
 	"Yoshihida #0" = 50
 	"Mitsutada #0" = 50
+	"Mitsumasa #0" = 50
+	"Yoshihide #0" = 50 
+	"Yoshinari #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

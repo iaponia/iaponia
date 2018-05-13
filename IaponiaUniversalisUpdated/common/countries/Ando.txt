@@ -8,7 +8,7 @@ historical_idea_groups = {
 	mercantilist_ideas
 	aristocratic_ideas
 	influence_ideas
-	shinto_ideas
+	defensive_ideas
 	maritime_ideas
 	traditional_ideas
 }
@@ -25,6 +25,13 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with -sue
+	"Narisue #0" = 50
+	"Koresue #0" = 50
+	"Akisue #0" = 50
+	"Munesue #0" = 50
+	"Nobusue #0" = 50
+	"Takasue #0" = 50
+	"Shigesue #0" = 50
 	"Yasusue #0" = 50
 	"Yoshisue #0" = 50
 	"Masasue #0" = 50
@@ -32,7 +39,15 @@ monarch_names = { # Most Monarchs were named with -sue
 	"Hirosue #0" = 50
 	"Kiyosue #0" = 50
 	"Chikasue #0" = 50
-	"Sanasue #0" = 50
+	"Sanesue #0" = 50
+	"Hidesue #0" = 50
+	"Norisue #0" = 50
+	"Tomosue #0" = 50
+	"Michisue #0" = 50
+	"Katsusue #0" = 50
+	"Mitsusue #0" = 50
+	"Suekata #0" = 50
+	"Suetaka #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

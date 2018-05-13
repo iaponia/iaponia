@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 4  34  56 }
 
 historical_idea_groups = {
-	defensive_ideas
-	aristocratic_ideas
-	leadership_ideas
-	pluralist_ideas
 	trade_ideas
+	meritocratic_ideas
+	maritime_ideas
+	pluralist_ideas
 	westernized_ideas
+	influence_ideas
 }
 
 historical_units = {
@@ -24,16 +24,25 @@ historical_units = {
 	advanced_kyushu_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "tane"
-	"Akitsura #0" = 50
-	"Muneshige #0" = 50
-	"Naotsugu #0" = 50
-	"Akitoshi #0" = 50
-	"Akimitsu #0" = 50
-	"Munekatsu #0" = 50
-	"Chikamasa #0" = 50
-	"Chikanao #0" = 50
-	"Chikayoshi #0" = 50
+monarch_names = { 
+	"Sokin #0" = 50
+	"Seishun #0" = 50
+	"Ieshige #0" = 50
+	"Shigenobu #0" = 50
+	"Kazuenosuke #0" = 50
+	"Chikaranosuke #0" = 50
+	"Soshitsu #0" = 50
+	"Mokuzaemon #0" = 50
+	"Nagatomi #0" = 50
+	"Kazue #0" = 50
+	"Soseki #0" = 50
+	"Sotan #0" = 50
+	"Jutei #0" = 50
+	"Sohaku #0" = 50
+	"Doyu #0" = 50
+	"Sama #0" = 50
+	"Kozen #0" = 50
+	"Sotoku #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -62,22 +71,12 @@ monarch_names = { # Most Monarchs were named with "tane"
 }
 
 leader_names = {
-    Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo Otomo
-	Bekki Bekki Bekki Bekki Bekki Tachibana Tachibana Tachibana Tachibana Tachibana
-	Yoshihiro Yoshihiro Yoshihiro Yoshihiro Yoshihiro Takahashi Takahashi Takahashi Takahashi Takahashi
-	Shiga Shiga Shiga Shiga Shiga Tawara Tawara Tawara Tawara Tawara
-	Usuki Usuki Usuki Usuki Usuki Saiki Saiki Saiki Saiki Saiki
-	Ichimada Ichimada Ichimada Ichimada Ichimada Takita Takita Takita Takita Takita
-	Yoshioka Yoshioka Yoshioka Yoshioka Yoshioka Honjo Honjo Honjo Honjo Honjo
-	Tsunokuma Tsunokuma Tsunokuma Tsunokuma Tsunokuma Nyuda Nyuda Nyuda Nyuda Nyuda
-	Kamachi Kamachi Kamachi Kamachi Kamachi Tajiri Tajiri Tajiri Tajiri Tajiri
-	Harano Harano Harano Harano Harano Oki Oki Oki Oki Oki
-	Monjyujo Monjyujo Monjyujo Monjyujo Monjyujo Nishimuta Nishimuta Nishimuta Nishimuta Nishimuta
-	Yufu Yufu Yufu Yufu Yufu Ono Ono Ono Ono Ono
-	Totoki Totoki Totoki Totoki Totoki Takano Takano Takano Takano Takano
-	Ando Ando Ando Ando Ando Mihara Mihara Mihara Mihara Mihara
-	Kikuchi Kikuchi Kikuchi Kikuchi Kikuchi Ouchi Ouchi Ouchi Ouchi Ouchi
-
+    Shimai Shimai Shimai Shimai Shimai Shimai Shimai Shimai Shimai Shimai
+	Kamiya Kamiya Kamiya Kamiya Kamiya Kamiya Kamiya Kamiya Kamiya Kamiya
+	Suetsugu Suetsugu Suetsugu Suetsugu Suetsugu Suetsugu Suetsugu Suetsugu Suetsugu Suetsugu
+	Kawakami Kawakami Kawakami Kawakami Kawakami Kawakami Kawakami Kawakami Kawakami Kawakami
+	Oga Oga Oga Oga Oga Oga Oga Oga Oga Oga
+	So So So So So So So So So So
 }
 
 ship_names = {
@@ -97,9 +96,9 @@ ship_names = {
 }
 
 army_names = {
-	"Tachibana Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Hakata-shi Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Tachibana Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Hakata-shi Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

@@ -6,11 +6,11 @@ color = { 179  124  218 }
 
 historical_idea_groups = {
 	influence_ideas
-	administrative_ideas
-	organization_ideas
-	diplomatic_ideas
 	aristocratic_ideas
-	traditional_ideas
+	pluralist_ideas
+	leadership_ideas
+	administrative_ideas
+	offensive_ideas
 }
 
 historical_units = {

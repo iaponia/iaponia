@@ -11,7 +11,7 @@ historical_idea_groups = {
 	influence_ideas
 	organization_ideas
 	diplomatic_ideas
-	christian_ideas
+	pluralist_ideas
 	leadership_ideas
 }
 
@@ -33,6 +33,10 @@ monarch_names = { # Most Monarchs were named with "taka"
 	"Takanobu #0" = 50
 	"Takayoshi #0" = 50
 	"Takatsugu #0" = 50
+	"Takanori #0" = 50
+	"Takakazu #0" = 50
+	"Mochitaka #0" = 50
+	"Masamitsu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

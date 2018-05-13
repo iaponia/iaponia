@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 31  46  98 }
 
+preferred_religion = shinto
+
 historical_idea_groups = {
 	administrative_ideas
 	organization_ideas

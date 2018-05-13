@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 148  198  97 }
 
 historical_idea_groups = {
-	defensive_ideas
 	influence_ideas
-	shinto_ideas
-	leadership_ideas
-	aristocratic_ideas
-	traditional_ideas
+	trade_ideas
+	offensive_ideas
+	expansion_ideas
+	pluralist_ideas
+	westernized_ideas
 }
 
 historical_units = {
@@ -30,6 +30,9 @@ monarch_names = { # Most Monarchs were named with mune
 	"Kagemune #0" = 50
 	"Akimune #0" = 50
 	"Masakage #0" = 50
+	"Mochimune #0" = 50
+	"Naomune #0" = 50
+	"Akimitsu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

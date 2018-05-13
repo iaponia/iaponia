@@ -8,11 +8,11 @@ preferred_religion = catholic
 
 historical_idea_groups = {
 	defensive_ideas
-	administrative_ideas
-	meritocratic_ideas
-	pluralist_ideas
+	aristocratic_ideas
 	westernized_ideas
+	christian_ideas
 	leadership_ideas
+	administrative_ideas
 }
 
 historical_units = {
@@ -35,6 +35,10 @@ monarch_names = { # Most Monarchs were named with "masa"
 	"Chikayasu #0" = 50
 	"Chikaie #0" = 50
 	"Chikamasa #0" = 50
+	"Chikayoshi #0" = 50
+	"Chikaaki #0" = 50
+	"Mitsunobu #0" = 50
+	"Masanobu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

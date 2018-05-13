@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 83 47 6 }
 
+preferred_religion = nichirenshu
+
 historical_idea_groups = {
 	aristocratic_ideas
 	influence_ideas
@@ -36,6 +38,12 @@ monarch_names = {
 	"Yasunaga #0" = 50
 	"Nagayuki #0" = 50
 	"Masanaga #0" = 50
+	"Yoshisuke #0" = 50
+	"Kiyoyasu #0" = 50
+	"Fuyuyasu #0" = 50
+	"Naganori #0" = 50
+	"Nagayasu #0" = 50
+	"Nagahide #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

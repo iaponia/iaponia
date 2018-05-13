@@ -4,7 +4,7 @@ graphical_culture = asiangfx
 
 color = { 113  159  250 }
 
-preferred_religion = mahayana
+preferred_religion = shinto
 
 historical_idea_groups = {
 	influence_ideas
@@ -34,6 +34,14 @@ monarch_names = { # Most Monarchs were named with "kage"
 	"Masakage #0" = 50
 	"Fusanaga #0" = 50
 	"Kagenao #0" = 50
+	"Kunekage #0" = 50
+	"Kagefusa #0" = 50
+	"Yorikage #0" = 50
+	"Shigekage #0" = 50
+	"Yoshikage #0" = 50
+	"Fusakage #0" = 50
+	"Kagetaka #0" = 50
+	"Takakage #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

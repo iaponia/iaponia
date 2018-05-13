@@ -4,12 +4,14 @@ graphical_culture = asiangfx
 
 color = { 254  211  102 }
 
+preferred_religion = jodoshinshu
+
 historical_idea_groups = {
-	defensive_ideas
-	aristocratic_ideas
-	organization_ideas
-	pluralist_ideas
-	influence_ideas
+	maritime_ideas
+	offensive_ideas
+	trade_ideas
+	westernized_ideas
+	buddhist_ideas
 	administrative_ideas
 }
 
@@ -28,6 +30,12 @@ monarch_names = {
 	"Yoshiaki #0" = 50
 	"Yoshiakira #0" = 50
 	"Akinari #0" = 50
+	"Masayuki #0" = 50
+	"Masaaki #0" = 50
+	"Mitsuyasu #0" = 50
+	"Mitsutoshi #0" = 50
+	"Masayasu #0" = 50
+	"Tadayasu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -83,9 +91,9 @@ ship_names = {
 }
 
 army_names = {
-	"Kato Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Iyo-Kato Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Kato Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Iyo-Kato Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

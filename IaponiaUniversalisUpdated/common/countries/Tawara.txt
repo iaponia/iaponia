@@ -9,7 +9,7 @@ historical_idea_groups = {
 	trade_ideas
 	aristocratic_ideas
 	westernized_ideas
-	christian_ideas
+	pluralist_ideas
 	expansion_ideas
 }
 
@@ -32,6 +32,8 @@ monarch_names = { # Most Monarchs were named with "Chika"
 	"Chikanobu #0" = 50
 	"Chikamune #0" = 50
 	"Chikataka #0" = 50
+	"Masamoto #0" = 50
+	"Akimoto #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

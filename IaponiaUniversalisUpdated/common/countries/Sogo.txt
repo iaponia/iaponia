@@ -4,13 +4,15 @@ graphical_culture = asiangfx
 
 color = { 220  227  208 }
 
+preferred_religion = nichirenshu
+
 historical_idea_groups = {
-	defensive_ideas
-	shinto_ideas
-	traditional_ideas
-	expansion_ideas
+	aristocratic_ideas
+	influence_ideas
+	pluralist_ideas
+	trade_ideas
 	maritime_ideas
-	mercantilist_ideas
+	offensive_ideas
 }
 
 historical_units = {
@@ -33,6 +35,9 @@ monarch_names = { # Most Monarchs were named with "tane"
 	"Yasumasa #0" = 50
 	"Yasusada #0" = 50
 	"Yasumune #0" = 50
+	"Kageshige #0" = 50
+	"Nobuteru #0" = 50
+	"Masayuki #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

@@ -56,18 +56,13 @@ monarch_names = { # Most Monarchs were named with "tane"
 }
 
 leader_names = {
-    Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi Ouchi
-	Sue Sue Sue Sue Sue Sugi Sugi Sugi Sugi Sugi
-	Naito Naito Naito Naito Naito Aokage Aokage Aokage Aokage Aokage
-	Iida Iida Iida Iida Iida Toida Toida Toida Toida Toida
-	Reizei Reizei Reizei Reizei Reizei Amano Amano Amano Amano Amano
-	Niho Niho Niho Niho Niho Hironaka Hironaka Hironaka Hironaka Hironaka
-	Era Era Era Era Era Miyagawa Miyagawa Miyagawa Miyagawa Miyagawa 
-	Nogami Nogami Nogami Nogami Nogami Sada Sada Sada Sada Sada 
-	Kii Kii Kii Kii Kii Kii Aso Aso Aso Aso Aso
-	Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Matsuda Matsuda Matsuda Matsuda Matsuda
-	Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kikkawa Kikkawa Kikkawa Kikkawa Kikkawa
-	Mori Mori Mori Mori Mori Murakami Murakami Murakami Murakami Murakami
+    Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura Mimura 
+	Sho Sho Sho Sho Sho Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Hayashi Hayashi Hayashi Hayashi Hayashi Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi
+	Ueki Ueki Ueki Ueki Ueki Ishikawa Ishikawa Ishikawa Ishikawa Ishikawa 
+	Nakajima Nakajima Nakajima Nakajima Nakajima Niimi Niimi Niimi Niimi Niimi
+	Ueno Ueno Ueno Ueno Ueno Sugihara Sugihara Sugihara Sugihara Sugihara
+	Shimizu Shimizu Shimizu Shimizu Shimizu Wachi Wachi Wachi Wachi Wachi
 
 }
 

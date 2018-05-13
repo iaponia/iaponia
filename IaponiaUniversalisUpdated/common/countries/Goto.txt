@@ -16,19 +16,24 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	early_def_kansai_infantry
+	early_off_kansai_infantry
 	early_def_kansai_cavalry
-	def_kansai_infantry
-	def_kansai_cavalry
-	late_off_kansai_infantry
-	late_off_kansai_cavalry
+	off_kansai_infantry
+	off_kansai_cavalry
+	late_def_kansai_infantry
+	late_def_kansai_cavalry
 	advanced_kansai_infantry
 	advanced_kansai_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "katsu"
+monarch_names = { # Most Monarchs were named with "katsu" or "moto"
 	"Katsukuni #0" = 50
 	"Katsumoto #0" = 50
+	"Mototsugu #0" = 50
+	"Motokuni #0" = 50
+	"Motomasa #0" = 50
+	"Motonori #0" = 50
+	"Motoyoshi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

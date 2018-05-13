@@ -4,15 +4,15 @@ graphical_culture = asiangfx
 
 color = { 185  92  105 }
 
-preferred_religion = mahayana
+preferred_religion = nichirenshu
 
 historical_idea_groups = {
-	administrative_ideas
 	diplomatic_ideas
-	shinto_ideas
+	buddhist_ideas
+	influence_ideas
 	defensive_ideas
-	mercantilist_ideas
 	expansion_ideas
+	aristocratic_ideas
 }
 
 historical_units = {
@@ -31,6 +31,11 @@ monarch_names = { # Most Monarchs were named with "tane"
 	"Hisamichi #0" = 50
 	"Hisamatsu #0" = 50
 	"Nagayori #0" = 50
+	"Noriaki #0" = 50
+	"Munekatsu #0" = 50
+	"Sadakuni #0" = 50
+	"Masanori #0" = 50
+	"Shigeru #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

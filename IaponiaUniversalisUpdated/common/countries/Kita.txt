@@ -24,14 +24,16 @@ historical_units = {
 	advanced_tohoku_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with single characters
-	"Tokimasa #0" = 50
-	"Michitsugu #0" = 50
-	"Nobutoki #0" = 50
+monarch_names = { # Most Monarchs were named with "chika"
 	"Nobuyoshi #0" = 50
-	"Masayasu #0" = 50
-	"Yasunobu #0" = 50
-	"Harumasa #0" = 50
+	"Nobuchika #0" = 50
+	"Munechika #0" = 50
+	"Hidechika #0" = 50
+	"Naochika #0" = 50
+	"Chikakazu #0" = 50
+	"Chikahisa #0" = 50
+	"Chikakuni #0" = 50
+	"Chikamoto #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -94,9 +96,9 @@ ship_names = {
 }
 
 army_names = {
-	"Sannohe-Nanbu Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Kita Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Sannohe-Nanbu Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Kita Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

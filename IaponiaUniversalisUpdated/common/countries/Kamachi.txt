@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 40  40  200 }
 
 historical_idea_groups = {
-	offensive_ideas
-	trade_ideas
 	aristocratic_ideas
+	defensive_ideas
+	administrative_ideas
+	influence_ideas
+	pluralist_ideas
 	westernized_ideas
-	christian_ideas
-	expansion_ideas
 }
 
 historical_units = {
@@ -31,6 +31,13 @@ monarch_names = { # Most Monarchs were named with "Chika"
 	"Haruhisa #0" = 50
 	"Chikahiro #0" = 50
 	"Chikahisa #0" = 50
+	"Haruhisa #0" = 50
+	"Shigehisa #0" = 50
+	"Sadahisa #0" = 50
+	"Hiseshige #0" = 50
+	"Akitsugu #0" = 50
+	"Akihiro #0" = 50
+	"Shigeharu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

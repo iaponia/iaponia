@@ -7,12 +7,12 @@ color = { 100  145  181 }
 preferred_religion = catholic
 
 historical_idea_groups = {
-	defensive_ideas
-	shinto_ideas
-	traditional_ideas
 	administrative_ideas
-	diplomatic_ideas
-	organization_ideas
+	defensive_ideas
+	christian_ideas
+	influence_ideas
+	aristocratic_ideas
+	westernized_ideas
 }
 
 historical_units = {

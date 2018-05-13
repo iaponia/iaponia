@@ -8,9 +8,9 @@ historical_idea_groups = {
 	influence_ideas
 	administrative_ideas
 	defensive_ideas
-	diplomatic_ideas
+	expansion_ideas
 	trade_ideas
-	traditional_ideas
+	westernized_ideas
 }
 
 historical_units = {
@@ -31,6 +31,12 @@ monarch_names = { # Most Monarchs were named with Yoshi
 	"Yoshiatsu #0" = 50
 	"Yoshisada #0" = 50
 	"Yoshimori #0" = 50
+	"Mitsunao #0" = 50
+	"Yoshitatsu #0" = 50
+	"Mitsuji #0" = 50
+	"Mitsuie #0" = 50
+	"Ujinao #0" = 50
+	"Mitsumoto #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

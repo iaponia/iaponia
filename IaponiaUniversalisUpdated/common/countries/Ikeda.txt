@@ -2,15 +2,15 @@
 
 graphical_culture = asiangfx
 
-color = { 186  25  25 }
+color = { 220  94  103 }
 
 historical_idea_groups = {
-	trade_ideas
-	meritocratic_ideas
-	offensive_ideas
-	expansion_ideas
-	pluralist_ideas
+	administrative_ideas
+	influence_ideas
 	westernized_ideas
+	expansion_ideas
+	trade_ideas
+	organization_ideas
 }
 
 historical_units = {
@@ -35,6 +35,10 @@ monarch_names = {
 	"Narimasa #0" = 50
 	"Naritoshi #0" = 50
 	"Yoshimasa #0" = 50
+	"Motosuke #0" = 50
+	"Nagayoshi #0" = 50
+	"Nagamasa #0" = 50
+	"Masahide #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -64,12 +68,13 @@ monarch_names = {
 
 leader_names = {
     Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda
-	Fukushima Fukushima Fukushima Fukushima Fukushima Kani Kani Kani Kani Kani
-	Furuta Furuta Furuta Furuta Furuta Takenaka Takenaka Takenaka Takenaka Takenaka
-	Tanaka Tanaka Tanaka Tanaka Tanaka Horio Horio Horio Horio Horio
-	Arima Arima Arima Arima Arima Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
-	Asano Asano Asano Asano Asano Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
-	Sengoku Sengoku Sengoku Sengoku Sengoku Mori Mori Mori Mori Mori
+	Tanaka Tanaka Tanaka Tanaka Tanaka Mizuno Mizuno Mizuno Mizuno Mizuno
+	Ban Ban Ban Ban Ban Fukushima Fukushima Fukushima Fukushima Fukushima
+	Takenaka Takenaka Takenaka Takenaka Takenaka Kani Kani Kani Kani Kani
+	Togawa Togawa Togawa Togawa Togawa Hanabusa Hanabusa Hanabusa Hanabusa Hanabusa
+	Takigawa Takigawa Takigawa Takigawa Takigawa Kobori Kobori Kobori Kobori Kobori
+	Yamazaki Yamazaki Yamazaki Yamazaki Yamazaki Kamei Kamei Kamei Kamei Kamei
+	Yamana Yamana Yamana Yamana Yamana Sugihara Sugihara Sugihara Sugihara Sugihara
 
 }
 

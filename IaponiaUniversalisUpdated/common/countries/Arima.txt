@@ -9,10 +9,10 @@ preferred_religion = catholic
 historical_idea_groups = {
 	defensive_ideas
 	aristocratic_ideas
-	leadership_ideas
 	christian_ideas
 	trade_ideas
 	westernized_ideas
+	maritime_ideas
 }
 
 historical_units = {
@@ -26,18 +26,19 @@ historical_units = {
 	advanced_kyushu_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "toki"
-	"Kiyotoki #0" = 50
-	"Tokinaga #0" = 50
-	"Tokisato #0" = 50
-	"Tokiuji #0" = 50
-	"Tadatoki #0" = 50
-	"Moritoki #0" = 50
-	"Shigetoki #0" = 50
-	"Tokitaka #0" = 50
-	"Tokitsugu #0" = 50
-	"Hisatoki #0" = 50
-	"Hisatoki #0" = 50
+monarch_names = { # Most Monarchs were named with "zumi"
+	"Harunobu #0" = 50
+	"Yoshizumi #0" = 50
+	"Haruzumi #0" = 50
+	"Hisaaki #0" = 50
+	"Takazumi #0" = 50
+	"Ujizumi #0" = 50
+	"Mitsuzumi #0" = 50
+	"Yoshisada #0" = 50
+	"Naozumi #0" = 50
+	"Naokazu #0" = 50
+	"Chikashige #0" = 50
+	"Sumitada #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

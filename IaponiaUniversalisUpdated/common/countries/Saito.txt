@@ -4,6 +4,8 @@ graphical_culture = asiangfx
 
 color = { 254  241  225 }
 
+preferred_religion = nichirenshu
+
 historical_idea_groups = {
 	defensive_ideas
 	meritocratic_ideas
@@ -24,10 +26,20 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "tane"
+monarch_names = { # Most Monarchs were named with "toshi"
 	"Toshimasa #0" = 50
 	"Yoshitatsu #0" = 50
 	"Tatsuoki #0" = 50
+	"Toshitaka #0" = 50
+	"Masatsuna #0" = 50
+	"Toshikuni #0" = 50
+	"Toshichika #0" = 50
+	"Toshinaga #0" = 50
+	"Toshimitsu #0" = 50
+	"Toshiaki #0" = 50
+	"Toshifuji #0" = 50
+	"Toshishige #0" = 50
+	"Toshitame #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

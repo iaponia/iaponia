@@ -4,12 +4,12 @@ graphical_culture = asiangfx
 
 color = { 109  112   108 }
 
-preferred_religion = mahayana
+preferred_religion = jodoshinshu
 
 historical_idea_groups = {
 	buddhist_ideas
 	organization_ideas
-	ecclesiocratic_ideas
+	meritocratic_ideas
 	defensive_ideas
 	diplomatic_ideas
 	westernized_ideas
@@ -27,6 +27,15 @@ historical_units = {
 }
 
 monarch_names = { #Most Monarchs were named with "nori"
+	"Magoichi #0" = 50
+	"Magoichi #0" = 50
+	"Magoichi #0" = 50
+	"Magoichi #0" = 50
+	"Magoichi #0" = 50
+	"Magoichi #0" = 50
+	"Magoichi #0" = 50
+	"Magoichi #0" = 50
+	"Magoichi #0" = 50
 	"Magoichi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5

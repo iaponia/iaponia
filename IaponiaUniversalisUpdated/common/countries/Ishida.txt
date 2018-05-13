@@ -29,6 +29,9 @@ monarch_names = { # Most Monarchs were named with "masa"
 	"Shigeie #0" = 50
 	"Masatsugu #0" = 50
 	"Masazumi #0" = 50
+	"Shigenari #0" = 50
+	"Yoshihiro #0" = 50
+	"Yoshinari #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -62,11 +65,14 @@ leader_names = {
 	Gamo Gamo Gamo Gamo Gamo Maeno Maeno Maeno Maeno 
 	Toda Toda Toda Toda Toda Mori Mori Mori Mori Mori
 	Natsuka Natsuka Natsuka Natsuka Natsuka Hiratsuka Hiratsuka Hiratsuka Hiratsuka Hiratsuka
-	Koide Koide Koide Koide Koide Suzuki Suzuki Suzuki Suzuki Suzuki 
-	Wakizaka Wakizaka Wakizaka Wakizaka Wakizaka Ogawa Ogawa Ogawa Ogawa Ogawa
-	Ono Ono Ono Ono Ono Katagiri Katagiri Katagiri Katagiri KatagiriKimura Kimura Kimura Kimura Kimura Tomita Tomita Tomita Tomita Tomita
-	Kori Kori Kori Kori Kori Oda Oda Oda Oda Oda
-	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Inadome Inadome Inadome Inadome Inadome
+	Ukita Ukita Ukita Ukita Ukita Akashi Akashi Akashi Akashi Akashi
+	Chosokabe Chosokabe Chosokabe Chosokabe Chosokabe Kimura Kimura Kimura Kimura Kimura
+	Niwa Niwa Niwa Niwa Niwa Oda Oda Oda Oda Oda
+	Otomo Otomo Otomo Otomo Otomo Tachibana Tachibana Tachibana Tachibana Tachibana
+	Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kobayakawa Nabeshima Nabeshima Nabeshima Nabeshima Nabeshima
+	Konishi Konishi Konishi Konishi Konishi Shimazu Shimazu Shimazu Shimazu Shimazu
+	Sanada Sanada Sanada Sanada Sanada Satake Satake Satake Satake Satake
+	Uesugi Uesugi Uesugi Uesugi Uesugi Naoe Naoe Naoe Naoe Naoe
 }
 
 ship_names = {

@@ -4,15 +4,10 @@ graphical_culture = asiangfx
 
 color = { 111  192   92 }
 
-preferred_religion = mahayana
+preferred_religion = nichirenshu
 
 historical_idea_groups = {
-	defensive_ideas
-	aristocratic_ideas
-	organization_ideas
-	pluralist_ideas
-	influence_ideas
-	administrative_ideas
+	
 }
 
 historical_units = {
@@ -30,6 +25,9 @@ monarch_names = {
 	"Kiyomasa #0" = 50
 	"Kiyotada #0" = 50
 	"Tadahiro #0" = 50
+	"Kiyonobu #0" = 50
+	"Tadamasa #0" = 50
+	"Mitsuhiro #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -58,22 +56,13 @@ monarch_names = {
 }
 
 leader_names = {
-    Kuroda Kuroda Kuroda Kuroda Kuroda Kuroda Kuroda Kuroda Kuroda Kuroda
-	Inoe Inoe Inoe Inoe Inoe Kuriyama Kuriyama Kuriyama Kuriyama Kuriyama
-	Goto Goto Goto Goto Goto Mori Mori Mori Mori Mori
-	Kan Kan Kan Kan Kan Hara Hara Hara Hara Hara
-	Tachibana Tachibana Tachibana Tachibana Tachibana Otomo Otomo Otomo Otomo Otomo
-	Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kobayakawa Yufu Yufu Yufu Yufu Yufu
-	Totoki Totoki Totoki Totoki Totoki Ono Ono Ono Ono Ono
-	Shiga Shiga Shiga Shiga Shiga Yoshihiro Yoshihiro Yoshihiro Yoshihiro Yoshihiro
-	Nabeshima Nabeshima Nabeshima Nabeshima Nabeshima Terazawa Terazawa Terazawa Terazawa Terazawa
-	Kato Kato Kato Kato Kato Nakagawa Nakagawa Nakagawa Nakagawa Nakagawa
-	Iida Iida Iida Iida Iida Akahoshi Akahoshi Akahoshi Akahoshi Akahoshi
-	Konishi Konishi Konishi Konishi Konishi Naito Naito Naito Naito Naito
-	Amakusa Amakusa Amakusa Amakusa Amakusa Sagara Sagara Sagara Sagara Sagara
-	Takenaka Takenaka Takenaka Takenaka Takenaka Matsui Matsui Matsui Matsui Matsui
-	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Tanaka Tanaka Tanaka Tanaka Tanaka
-
+    Kato Kato Kato Kato Kato Kato Kato Kato Kato Kato
+	Iida Iida Iida Iida Iida Shobayashi Shobayashi Shobayashi Shobayashi Shobayashi
+	Ikaruga Ikaruga Ikaruga Ikaruga Ikaruga Kimura Kimura Kimura Kimura Kimura
+	Akaboshi Akaboshi Akaboshi Akaboshi Akaboshi Harada Harada Harada Harada Harada
+	Terazawa Terazawa Terazawa Terazawa Terazawa Sagara Sagara Sagara Sagara Sagara
+	Tachibana Tachibana Tachibana Tachibana Tachibana Ono Ono Ono Ono Ono
+	Kuroda Kuroda Kuroda Kuroda Kuroda Nabeshima Nabeshima Nabeshima Nabeshima Nabshima
 }
 
 ship_names = {

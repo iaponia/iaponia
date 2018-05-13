@@ -25,10 +25,15 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "shige"
-	"Tomei #0" = 50
+	"Shigemitsu #0" = 50
 	"Shigemune #0" = 50
 	"Shigetoki #0" = 50
+	"Shigesada #0" = 50
+	"Shigeyoshi #0" = 50
+	"Shigenao #0" = 50
+	"Shigemoto #0" = 50
 	"Chikashige #0" = 50
+	"Sadashige #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

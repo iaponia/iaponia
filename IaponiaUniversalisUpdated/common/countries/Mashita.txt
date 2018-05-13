@@ -24,11 +24,13 @@ historical_units = {
 	advanced_kansai_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "masa"
-	"Mitsunari #0" = 50
-	"Shigeie #0" = 50
-	"Masatsugu #0" = 50
-	"Masazumi #0" = 50
+monarch_names = { 
+	"Nagamori #0" = 50
+	"Moritsugu #0" = 50
+	"Moritoshi #0" = 50
+	"Masamori #0" = 50
+	"Morimasa #0" = 50
+	"Nagakatsu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -86,9 +88,9 @@ ship_names = {
 }
 
 army_names = {
-	"Ishida Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Mashita Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Ishida Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Mashita Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

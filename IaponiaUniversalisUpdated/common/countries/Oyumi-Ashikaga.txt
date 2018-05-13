@@ -25,6 +25,14 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "yoshi"
+	"Shigeuji #0" = 50
+	"Masauji #0" = 50
+	"Haruuji #0" = 50
+	"Yoshiuji #0" = 50
+	"Fujiuji #0" = 50
+	"Teruuji #0" = 50
+	"Takamoto #0" = 50
+	"Norihiro #0" = 50
 	"Yoshiaki #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5

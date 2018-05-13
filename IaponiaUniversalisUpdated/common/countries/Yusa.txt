@@ -31,6 +31,7 @@ monarch_names = {
 	"Nobumori #0" = 50
 	"Nariie #0" = 50
 	"Narimori #0" = 50
+	"Norimori #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

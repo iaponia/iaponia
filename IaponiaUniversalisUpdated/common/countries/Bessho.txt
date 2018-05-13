@@ -6,11 +6,11 @@ color = { 29  0  81 }
 
 historical_idea_groups = {
 	defensive_ideas
+	aristocratic_ideas
+	traditional_ideas
 	diplomatic_ideas
-	pluralist_ideas
 	leadership_ideas
-	meritocratic_ideas
-	westernized_ideas
+	administrative_ideas
 }
 
 historical_units = {
@@ -28,6 +28,13 @@ monarch_names = { # Most Monarchs were named with "haru"
 	"Nariharu #0" = 50
 	"Yasuharu #0" = 50
 	"Nagaharu #0" = 50
+	"Noriharu #0" = 50
+	"Norisada #0" = 50
+	"Harusada #0" = 50
+	"Harumitsu #0" = 50
+	"Mitsunori #0" = 50
+	"Sukenori #0" = 50
+	"Shigeharu #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

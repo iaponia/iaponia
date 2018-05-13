@@ -5,23 +5,23 @@ graphical_culture = asiangfx
 color = { 161  72  79 }
 
 historical_idea_groups = {
-	defensive_ideas
-	aristocratic_ideas
-	organization_ideas
-	pluralist_ideas
-	influence_ideas
 	administrative_ideas
+	diplomatic_ideas
+	influence_ideas
+	organization_ideas
+	trade_ideas
+	defensive_ideas
 }
 
 historical_units = {
-	early_def_kyushu_infantry
-	early_def_kyushu_cavalry
-	def_kyushu_infantry
-	def_kyushu_cavalry
-	late_def_kyushu_infantry
-	late_def_kyushu_cavalry
-	advanced_kyushu_infantry
-	advanced_kyushu_cavalry
+	early_def_kansai_infantry
+	early_def_kansai_cavalry
+	def_kansai_infantry
+	def_kansai_cavalry
+	late_def_kansai_infantry
+	late_def_kansai_cavalry
+	advanced_kansai_infantry
+	advanced_kansai_cavalry
 }
 
 monarch_names = {
@@ -30,6 +30,10 @@ monarch_names = {
 	"Yoshinaga #0" = 50
 	"Nagashige #0" = 50
 	"Yukinaga #0" = 50
+	"Naganao #0" = 50
+	"Nagakatsu #0" = 50
+	"Nagatomo #0" = 50
+	"Mitsuakira #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -58,14 +62,16 @@ monarch_names = {
 }
 
 leader_names = {
-    Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda
-	Fukushima Fukushima Fukushima Fukushima Fukushima Kani Kani Kani Kani Kani
-	Furuta Furuta Furuta Furuta Furuta Takenaka Takenaka Takenaka Takenaka Takenaka
-	Tanaka Tanaka Tanaka Tanaka Tanaka Horio Horio Horio Horio Horio
-	Arima Arima Arima Arima Arima Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
-	Asano Asano Asano Asano Asano Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
+    Asano Asano Asano Asano Asano Asano Asano Asano Asano Asano
 	Sengoku Sengoku Sengoku Sengoku Sengoku Mori Mori Mori Mori Mori
-
+	Nakamura Nakamura Nakamura Nakamura Nakamura Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Horio Horio Horio Horio Horio Arima Arima Arima Arima Arima
+	Tanaka Tanaka Tanaka Tanaka Tanaka Ikeda Ikeda Ikeda Ikeda Ikeda
+	Fukushima Fukushima Fukushima Fukushima Fukushima Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
+	Sanada Sanada Sanada Sanada Sanada Kameda Kameda Kameda Kameda Kameda
+	Takagi Takagi Takagi Takagi Takagi Ishikawa Ishikawa Ishikawa Ishikawa Ishikawa
+	Yashiro Yashiro Yashiro Yashiro Yashiro Hajikano Hajikano Hajikano Hajikano Hajikano
+	Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi Ueda Ueda Ueda Ueda Ueda
 }
 
 ship_names = {

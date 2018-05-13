@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 185  95  29 }
 
 historical_idea_groups = {
-	defensive_ideas
 	administrative_ideas
-	meritocratic_ideas
-	pluralist_ideas
-	westernized_ideas
-	leadership_ideas
+	influence_ideas
+	aristocratic_ideas
+	diplomatic_ideas
+	shinto_ideas
+	defensive_ideas
 }
 
 historical_units = {
@@ -25,10 +25,11 @@ historical_units = {
 }
 
 monarch_names = { # Most Monarchs were named with "masa"
-	"Naomasa #0" = 50
-	"Sukemasa #0" = 50
-	"Hisamasa #0" = 50
-	"Nagamasa #0" = 50
+	"Mototsuna #0" = 50
+	"Harutsuna #0" = 50
+	"Tanetsuna #0" = 50
+	"Sadatsuna #0" = 50
+	"Sadakiyo #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -93,9 +94,9 @@ ship_names = {
 }
 
 army_names = {
-	"Azai Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Kutsuki Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Azai Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Kutsuki Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

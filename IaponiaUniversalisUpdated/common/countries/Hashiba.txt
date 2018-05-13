@@ -5,12 +5,12 @@ graphical_culture = asiangfx
 color = { 184  55  20 }
 
 historical_idea_groups = {
-	trade_ideas
 	meritocratic_ideas
 	offensive_ideas
+	trade_ideas
+	westernized_ideas
 	expansion_ideas
 	pluralist_ideas
-	westernized_ideas
 }
 
 historical_units = {
@@ -33,6 +33,12 @@ monarch_names = {
 	"Hidetaka #0" = 50
 	"Hideaki #0" = 50
 	"Hidekane #0" = 50
+	"Hidenori #0" = 50
+	"Katsutoshi #0" = 50
+	"Iesada #0" = 50
+	"Toshifusa #0" = 50
+	"Nobutoshi #0" = 50
+	"Toshisada #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -61,23 +67,22 @@ monarch_names = {
 }
 
 leader_names = {
-    Oda Oda Oda Oda Oda Oda Oda Oda Oda Oda
-	Hashiba Hashiba Hashiba Hashiba Hashiba Shibata Shibata Shibata Shibata Shibata
-	Niwa Niwa Niwa Niwa Niwa Takigawa Takigawa Takigawa Takigawa Takigawa Takigawa
-	Maeda Maeda Maeda Maeda Maeda Kanamori Kanamori Kanamori Kanamori Kanamori
-	Sassa Sassa Sassa Sassa Sassa Mori Mori Mori Mori Mori
-	Kawajiri Kawajiri Kawajiri Kawajiri Kawajiri Hayashi Hayashi Hayashi Hayashi Hayashi
-	Sakuma Sakuma Sakuma Sakuma Sakuma Hori Hori Hori Hori Hori
-	Saito Saito Saito Saito Saito Akechi Akechi Akechi Akechi Akechi
-	Takenaka Takenaka Takenaka Takenaka Takenaka Fuwa Fuwa Fuwa Fuwa Fuwa
-	Inaba Inaba Inaba Inaba Inaba Ujiie Ujiie Ujiie Ujiie Ujiie
-	Ando Ando Ando Ando Ando Toyama Toyama Toyama Toyama Toyama
-	Hachisuka Hachisuka Hachisuka Hachisuka Hachisuka Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
-	Hara Hara Hara Hara Hara Hirate Hirate Hirate Hirate Hirate
-	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Asano Gamo Gamo Gamo Gamo Gamo
-	Shiba Shiba Shiba Shiba Shiba Toki Toki Toki Toki Toki
-	Araki Araki Araki Araki Araki Takayama Takayama Takayama Takayama Takayama
-
+    Hashiba Hashiba Hashiba Hashiba Hashiba Hashiba Hashiba Hashiba Hashiba Hashiba
+	Kuroda Kuroda Kuroda Kuroda Kuroda Takenaka Takenaka Takenaka Takenaka Takenaka
+	Hachisuka Hachisuka Hachisuka Hachisuka Hachisuka Asano Asano Asano Asano Asano
+	Kato Kato Kato Kato Kato Fukushima Fukushima Fukushima Fukushima Fukushima
+	Ishida Ishida Ishida Ishida Ishida Otani Otani Otani Otani Otani
+	Katagiri Katagiri Katagiri Katagiri Katagiri Konishi Konishi Konishi Konishi Konishi
+	Niwa Niwa Niwa Niwa Niwa Hori Hori Hori Hori Hori
+	Koide Koide Koide Koide Koide Todo Todo Todo Todo Todo
+	Kamei Kamei Kamei Kamei Kamei Tanaka Tanaka Tanaka Tanaka Tanaka
+	Kinoshita Kinoshita Kinoshita Kinoshita Kinoshita Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
+	Sengoku Sengoku Sengoku Sengoku Sengoku Ikoma Ikoma Ikoma Ikoma Ikoma
+	Horio Horio Horio Horio Horio Mashita Mashita Mashita Mashita Mashita
+	Ukita Ukita Ukita Ukita Ukita Akashi Akashi Akashi Akashi Akashi
+	Kikkawa Kikkawa Kikkawa Kikkawa Kikkawa Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kobayakawa
+	Mori Mori Mori Mori Mori Ikeda Ikeda Ikeda Ikeda Ikeda
+	Takayama Takayama Takayama Takayama Takayama Gamo Gamo Gamo Gamo Gamo
 }
 
 ship_names = {

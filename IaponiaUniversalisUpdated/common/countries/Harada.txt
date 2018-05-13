@@ -8,9 +8,9 @@ historical_idea_groups = {
 	defensive_ideas
 	aristocratic_ideas
 	leadership_ideas
-	pluralist_ideas
-	trade_ideas
-	westernized_ideas
+	shinto_ideas
+	mercantilist_ideas
+	traditional_ideas
 }
 
 historical_units = {
@@ -24,18 +24,18 @@ historical_units = {
 	advanced_kyushu_cavalry
 }
 
-monarch_names = { # Most Monarchs were named with "tane"
-	"Tanenao #0" = 50
-	"Tanemasa #0" = 50
-	"Tanetomo #0" = 50
-	"Yasutane #0" = 50
-	"Tanemochi #0" = 50
-	"Suketane #0" = 50
-	"Noritane #0" = 50
-	"Katsutane #0" = 50
-	"Masatane #0" = 50
-	"Toshitane #0" = 50
-	"Tanetoki #0" = 50
+monarch_names = { 
+	"Taneyasu #0" = 50
+	"Tanechika #0" = 50
+	"Hirotane #0" = 50
+	"Okitane #0" = 50
+	"Takatane #0" = 50
+	"Tanekado #0" = 50
+	"Taneshige #0" = 50
+	"Chikatane #0" = 50
+	"Nobutane #0" = 50
+	"Hidetane #0" = 50
+	"Shigenaga #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -91,9 +91,9 @@ ship_names = {
 }
 
 army_names = {
-	"Akizuki Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Harada Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Akizuki Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Harada Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

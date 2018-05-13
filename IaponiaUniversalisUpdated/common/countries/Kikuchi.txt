@@ -4,11 +4,13 @@ graphical_culture = asiangfx
 
 color = { 235  235   235 }
 
+preferred_religion = shinto
+
 historical_idea_groups = {
 	defensive_ideas
 	aristocratic_ideas
 	organization_ideas
-	pluralist_ideas
+	shinto_ideas
 	influence_ideas
 	administrative_ideas
 }

@@ -4,15 +4,13 @@ graphical_culture = asiangfx
 
 color = { 166  145  157 }
 
-preferred_religion = mahayana
-
 historical_idea_groups = {
 	defensive_ideas
-	diplomatic_ideas
-	pluralist_ideas
-	leadership_ideas
-	meritocratic_ideas
-	westernized_ideas
+	aristocratic_ideas
+	influence_ideas
+	shinto_ideas
+	organization_ideas
+	traditional_ideas
 }
 
 historical_units = {
@@ -36,6 +34,10 @@ monarch_names = { # Most Monarchs were named with "mune"
 	"Munekage #0" = 50
 	"Munetoki #0" = 50
 	"Munesuke #0" = 50
+	"Shigemune #0" = 50
+	"Norinaga #0" = 50
+	"Muneyasu #0" = 50
+	"Munetaka #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5

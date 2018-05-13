@@ -5,29 +5,34 @@ graphical_culture = asiangfx
 color = { 53  119  54 }
 
 historical_idea_groups = {
+	offensive_ideas
 	influence_ideas
-	aristocratic_ideas
-	defensive_ideas
-	diplomatic_ideas
-	administrative_ideas
+	meritocratic_ideas
 	westernized_ideas
+	pluralist_ideas
+	trade_ideas
 }
 
 historical_units = {
-	early_def_tohoku_infantry
-	early_def_tohoku_cavalry
-	off_tohoku_infantry
-	off_tohoku_cavalry
-	late_off_tohoku_infantry
-	late_off_tohoku_cavalry
-	advanced_tohoku_infantry
-	advanced_tohoku_cavalry
+	early_off_kansai_infantry
+	early_def_kansai_cavalry
+	off_kansai_infantry
+	off_kansai_cavalry
+	late_def_kansai_infantry
+	late_def_kansai_cavalry
+	advanced_kansai_infantry
+	advanced_kansai_cavalry
 }
 
 monarch_names = { # Most Monarchs were named with Mori
 	"Masanori #0" = 50
 	"Takaharu #0" = 50
+	"Tadakatsu #0" = 50
 	"Masanobu #0" = 50
+	"Masayori #0" = 50
+	"Masamori #0" = 50
+	"Masashige #0" = 50
+	"Masanari #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -56,13 +61,13 @@ monarch_names = { # Most Monarchs were named with Mori
 }
 
 leader_names = {
-    Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda Ikeda
-	Fukushima Fukushima Fukushima Fukushima Fukushima Kani Kani Kani Kani Kani
-	Furuta Furuta Furuta Furuta Furuta Takenaka Takenaka Takenaka Takenaka Takenaka
-	Tanaka Tanaka Tanaka Tanaka Tanaka Horio Horio Horio Horio Horio
-	Arima Arima Arima Arima Arima Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
-	Asano Asano Asano Asano Asano Kyogoku Kyogoku Kyogoku Kyogoku Kyogoku
-	Sengoku Sengoku Sengoku Sengoku Sengoku Mori Mori Mori Mori Mori
+    Fukushima Fukushima Fukushima Fukushima Fukushima Fukushima Fukushima Fukushima Fukushima Fukushima
+	Kani Kani Kani Kani Kani Furuta Furuta Furuta Furuta Furuta
+	Takenaka Takenaka Takenaka Takenaka Takenaka Oda Oda Oda Oda Oda
+	Nagao Nagao Nagao Nagao Nagao Ishikawa Ishikawa Ishikawa Ishikawa Ishikawa
+	Osaka Osaka Osaka Osaka Osaka Daidoji Daidoji Daidoji Daidoji Daidoji
+	Ikeda Ikeda Ikeda Ikeda Ikeda Tanaka Tanaka Tanaka Tanaka Tanaka
+	Kato Kato Kato Kato Kato Yamauchi Yamauchi Yamauchi Yamauchi Yamauchi
 
 }
 

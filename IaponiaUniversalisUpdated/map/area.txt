@@ -194,11 +194,15 @@ kochi_area = {
 }
 
 marugame_area = {
-	140 141 142 143 144
+	140 141 142 143
+}
+
+sogo_area = {
+	144 145 146 147
 }
 
 yashima_area = {
-	145 146 147 148 149 150
+	148 149 150
 }
 
 shozui_area = {

@@ -151,7 +151,7 @@
  sakai_area:0 "Sakai"
  uzen_area:0 "Uzen"
  saku_area:0 "Saku"
- yashima_area:0 "Yashima"
+ yashima_area:0 "Hiketa"
  aki_area:0 "Aki"
  sashima_area:0 "Sashima"
  hokusatsu_area:0 "Hokusatsu"
@@ -303,4 +303,4 @@
  okitama_area:0 "Okitama"
  uchinaa_area:0 "Uchinaa"
  michinoshima_area:0 "Michi no Shima"
- 
+ sogo_area:0 "Sogo"

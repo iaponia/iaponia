@@ -1,0 +1,6 @@
+government = kokujin_monarchy
+government_rank = 1
+primary_culture = aki_c
+religion = shinto
+technology_group = saigoku
+capital = 130	# Takata

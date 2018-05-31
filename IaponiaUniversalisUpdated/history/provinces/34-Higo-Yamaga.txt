@@ -22,12 +22,14 @@ trade_goods = paper
 
 1493.6.9 = {
 	shrine = yes
+	religion = jodoshinshu
 }
 
 1554.3.1 = {
     add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = KKC
 }
 
 1582.6.21 = {
@@ -40,4 +42,13 @@ trade_goods = paper
 	add_core = KTO
     controller = KTO
     owner = KTO
+	remove_core = RZJ
+	remove_core = OTM
+}
+
+1615.1.1 = {
+	add_core = KKC
+	owner = KKC
+	controller = KKC
+	remove_core = KTO
 }

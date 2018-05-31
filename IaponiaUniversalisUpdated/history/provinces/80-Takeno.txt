@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OTM
+add_core = TKH
 owner = OTM
 controller = OTM
 
@@ -30,4 +31,11 @@ trade_goods = rice
 	add_core = KKB
     controller = KKB
     owner = KKB
+	remove_core = TKH
+	remove_core = RZJ
+	remove_core = OTM
+}
+
+1615.1.1 = {
+	religion = catholic
 }

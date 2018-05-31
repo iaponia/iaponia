@@ -27,8 +27,28 @@ trade_goods = lacquerware
 	workshop = yes
 }
 
+1569.10.10 = {
+	add_core = MRI
+	remove_core = SUE
+}
+
 1582.6.21 = {
-    add_core = MRI
     controller = MRI
     owner = MRI
+	remove_core = OUC
+}
+
+1600.9.13 = {
+	add_core = CMO
+    controller = CMO
+    owner = CMO
+}
+
+1615.1.1 = {
+	add_core = OUC
+    controller = OUC
+    owner = OUC
+	remove_core = YSM
+	remove_core = MRI
+	remove_core = CMO
 }

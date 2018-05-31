@@ -6,7 +6,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = AKM
-add_core = BSO
 add_core = YMN
 owner = AKM
 controller = AKM
@@ -22,6 +21,10 @@ base_manpower = 2
 
 trade_goods = lumber
 
+1493.6.9 = {
+	remove_core = YMN
+}
+
 1582.6.21 = {
 	add_core = HSB
     controller = HSB
@@ -29,7 +32,16 @@ trade_goods = lumber
 }
 
 1600.9.13 = {
-	add_core = TOY
-    controller = TOY
-    owner = TOY
+	add_core = HKN
+    controller = HKN
+    owner = HKN
+	remove_core = HSB
+	remove_core = AKM
+}
+
+1615.1.1 = {
+	add_core = AKM
+    controller = AKM
+    owner = AKM
+	remove_core = HKN
 }

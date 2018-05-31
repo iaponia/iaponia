@@ -6,7 +6,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = HSK
-add_core = YTM
 add_core = KGW
 owner = HSK
 controller = HSK
@@ -25,6 +24,7 @@ trade_goods = sake
 1511.9.25 = {
     controller = KGW
     owner = KGW
+	remove_core = HSK
 	training_grounds = yes
 }
 
@@ -38,10 +38,18 @@ trade_goods = sake
     add_core = CSK
     controller = CSK
     owner = CSK
+	remove_core = MYI
+	add_core = SGO
 }
 
 1600.9.13 = {
     add_core = IKM
     controller = IKM
     owner = IKM
+	remove_core = CSK
+	remove_core = SGO
+}
+
+1615.1.1 = {
+	remove_core = KGW
 }

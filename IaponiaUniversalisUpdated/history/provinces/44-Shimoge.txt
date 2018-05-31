@@ -7,7 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OUC
-add_core = SGI
+add_core = KUM
 owner = OUC
 controller = OUC
 
@@ -29,15 +29,24 @@ trade_goods = bamboo
 }
 
 1554.3.1 = {
+    controller = KUM
+    owner = KUM
+}
+
+1569.10.10 = {
 	add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = OUC
 }
 
 1600.9.13 = {
 	add_core = KRD
     controller = KRD
     owner = KRD
+	religion = catholic
+	remove_core = OTM
+	remove_core = KUM
 	shrine = yes
 	marketplace = yes
 	barracks = yes

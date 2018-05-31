@@ -7,6 +7,7 @@ discovered_by = ainu
 
 add_core = AHK
 add_core = MYI
+add_core = ONI
 owner = AHK
 controller = AHK
 
@@ -26,6 +27,7 @@ trade_goods = grain
 1511.9.25 = {
     controller = MYI
     owner = MYI
+	remove_core = AHK
 	magistrate = yes
 	garrison_b = yes
 }
@@ -38,10 +40,21 @@ trade_goods = grain
     add_core = CSK
     controller = CSK
     owner = CSK
+	remove_core = MYI
+	add_core = SGO
 }
 
 1600.9.13 = {
 	controller = HCH
     owner = HCH
 	add_core = HCH
+	remove_core = CSK
+	remove_core = SGO
+}
+
+1615.1.1 = {
+	controller = ONI
+    owner = ONI
+	add_core = ONI
+	remove_core = HCH
 }

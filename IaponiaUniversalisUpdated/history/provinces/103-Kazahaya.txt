@@ -25,3 +25,11 @@ trade_goods = rice
 	owner = IKT
 	controller = IKT
 }
+
+1615.1.1 = {
+	add_core = NKM
+	owner = NKM
+	controller = NKM
+	remove_core = IKT
+	remove_core = KNO
+}

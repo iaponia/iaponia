@@ -37,4 +37,12 @@ trade_goods = pottery
     owner = NBS
 	workshop = yes
 	artisan_workshop = yes
+	remove_core = RZJ
+}
+
+1615.1.1 = {
+	controller = MTA
+    owner = MTA
+	remove_core = NBS
+	religion = catholic
 }

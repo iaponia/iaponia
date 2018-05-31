@@ -26,6 +26,7 @@ trade_goods = paper
 1493.6.9 = {
     controller = CSK
     owner = CSK
+	remove_core = HSK
 	shrine = yes
 }
 

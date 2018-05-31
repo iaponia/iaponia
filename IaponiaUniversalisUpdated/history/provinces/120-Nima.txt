@@ -33,10 +33,22 @@ trade_goods = pottery
     add_core = AMA
     controller = AMA
     owner = AMA
+	remove_core = OUC
 }
 
 1569.10.10 = {
     add_core = MRI
+	add_core = KKW
     controller = MRI
     owner = MRI
+	remove_core = OUC
+}
+
+1582.6.21 = {
+	remove_core = AMA
+}
+
+1615.1.1 = {
+    controller = KKW
+    owner = KKW
 }

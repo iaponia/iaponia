@@ -40,4 +40,13 @@ trade_goods = pilgrimage_site
 	add_core = KTO
     controller = KTO
     owner = KTO
+	remove_core = ASO
+	remove_core = OTM
+}
+
+1615.1.1 = {
+	add_core = ASO
+    controller = ASO
+    owner = ASO
+	remove_core = KTO
 }

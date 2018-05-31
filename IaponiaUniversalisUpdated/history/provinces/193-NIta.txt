@@ -25,11 +25,13 @@ trade_goods = metal
 	add_core = IKY
 	owner = IKY
 	controller = IKY
+	remove_core = KGK
 }
 
 1511.9.25 = {
     controller = AMA
     owner = AMA
+	remove_core = IKY
 	training_grounds = yes
 }
 
@@ -39,6 +41,22 @@ trade_goods = metal
 
 1569.10.10 = {
     add_core = MRI
+	add_core = KKW
+}
+
+1582.6.21 = {
     owner = MRI
     controller = MRI
+}
+
+1600.9.13 = {
+	owner = KKW
+	controller = KKW
+}
+
+1615.1.1 = {
+    owner = AMA
+    controller = AMA
+	remove_core = MRI
+	remove_core = KKW
 }

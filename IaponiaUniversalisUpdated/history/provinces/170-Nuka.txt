@@ -24,6 +24,7 @@ trade_goods = lumber
 1511.9.25 = {
     controller = YUC
     owner = YUC
+	remove_core = YMN
 }
 
 1523.8.25 = {
@@ -32,8 +33,17 @@ trade_goods = lumber
     owner = AMA
 }
 
+1569.10.10 = {
+	add_core = MRI
+}
+
 1582.6.21 = {
-    add_core = MRI
     controller = MRI
     owner = MRI
+}
+
+1615.1.1 = {
+	controller = YUC
+	owner = YUC
+	remove_core = MRI
 }

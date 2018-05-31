@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = SHN
+add_core = RZJ
 owner = SHN
 controller = SHN
 
@@ -41,8 +42,18 @@ trade_goods = paper
 	arsenal = yes
 }
 
+1582.6.21 = {
+	remove_core = SHN
+}
+
 1600.9.13 = {
 	owner = NBS
     controller = NBS
     add_core = NBS
+}
+
+1615.1.1 = {
+	owner = RZJ
+    controller = RZJ
+	remove_core = NBS
 }

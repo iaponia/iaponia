@@ -40,3 +40,9 @@ trade_goods = cloth
 	fort = yes
 	dockyard = yes
 }
+
+1615.1.1 = {
+	owner = KNO
+	controller = KNO
+	remove_core = IKT
+}

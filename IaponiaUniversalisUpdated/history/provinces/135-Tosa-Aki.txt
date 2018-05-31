@@ -34,3 +34,7 @@ trade_goods = fish
     owner = CSK
 	barracks = yes
 }
+
+1582.6.21 = {
+	remove_core = AKI
+}

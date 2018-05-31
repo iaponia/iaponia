@@ -7,14 +7,12 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = BHK
-add_core = SHX
 add_core = MIM
-add_core = IKW
 owner = BHK
 controller = BHK
 
 culture = bishu_c
-religion = shinto
+religion = nichirenshu
 capital = "Shoryosan"
 is_city = yes
 
@@ -27,6 +25,7 @@ trade_goods = rice
 1511.9.25 = {
     owner = MIM
     controller = MIM
+	remove_core = BHK
 }
 
 1536.4.7 = {
@@ -38,10 +37,24 @@ trade_goods = rice
 1554.3.1 = {
     owner = MIM
     controller = MIM
+	remove_core = AMA
 }
 
 1569.10.10 = {
     add_core = MRI
     owner = MRI
     controller = MRI
+	add_core = KBY
+	remove_core = MIM
+}
+
+1600.9.13 = {
+	remove_core = KBY
+}
+
+1615.1.1 = {
+	add_core = IKW
+	owner = IKW
+	controller = IKW
+	remove_core = MRI
 }

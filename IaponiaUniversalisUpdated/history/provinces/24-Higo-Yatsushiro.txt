@@ -6,9 +6,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = KKC
-owner = KKC
-controller = KKC
+add_core = NWA
+owner = NWA
+controller = NWA
 
 culture = kuma_c
 religion = shinto
@@ -51,4 +51,12 @@ trade_goods = mainland_trade
 	add_core = KNH
     controller = KNH
     owner = KNH
+	remove_core = SMZ
+	remove_core = NWA
+}
+
+1615.1.1 = {
+	owner = SGR
+	controller = SGR
+	remove_core = KNH
 }

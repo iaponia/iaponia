@@ -22,6 +22,7 @@ base_manpower = 3
 trade_goods = tea
 
 1536.4.7 = {
+	add_core = OUC
     controller = OUC
     owner = OUC
 }
@@ -30,10 +31,23 @@ trade_goods = tea
     owner = RZJ
     controller = RZJ
     add_core = RZJ
+	remove_core = OUC
+}
+
+1582.6.21 = {
+	remove_core = SHN
 }
 
 1600.9.13 = {
 	owner = NBS
     controller = NBS
     add_core = NBS
+}
+
+1615.1.1 = {
+	owner = SHN
+    controller = SHN
+    add_core = SHN
+	remove_core = NBS
+	remove_core = RZJ
 }

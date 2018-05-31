@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OTM
+add_core = TKH
 owner = OTM
 controller = OTM
 
@@ -35,4 +36,8 @@ trade_goods = cloth
 	add_core = KKB
     controller = KKB
     owner = KKB
+	remove_core = TKH
+	remove_core = RZJ
+	remove_core = OTM
+	religion = catholic
 }

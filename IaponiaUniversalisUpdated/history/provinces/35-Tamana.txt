@@ -22,6 +22,10 @@ base_manpower = 4
 
 trade_goods = pottery
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
 	shipyard = yes
 }
@@ -31,6 +35,7 @@ trade_goods = pottery
     controller = OTM
     owner = OTM
 	workshop = yes
+	remove_core = KKC
 }
 
 1582.6.21 = {
@@ -43,4 +48,13 @@ trade_goods = pottery
 	add_core = KTO
     controller = KTO
     owner = KTO
+	remove_core = RZJ
+	remove_core = OTM
+}
+
+1615.1.1 = {
+	add_core = KKC
+	owner = KKC
+	controller = KKC
+	remove_core = KTO
 }

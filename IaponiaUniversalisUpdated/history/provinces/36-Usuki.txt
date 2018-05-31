@@ -41,4 +41,13 @@ trade_goods = fish
 	add_core = AKZ
     controller = AKZ
     owner = AKZ
+	remove_core = TSM
+}
+
+1615.1.1 = {
+	add_core = TSM
+    controller = TSM
+    owner = TSM
+	remove_core = AKZ
+	remove_core = SMZ
 }

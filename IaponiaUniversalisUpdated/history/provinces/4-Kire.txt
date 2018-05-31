@@ -24,4 +24,5 @@ trade_goods = seaweed
 	add_core = SMZ
     owner = SMZ
     controller = SMZ
+	remove_core = OSZ
 }

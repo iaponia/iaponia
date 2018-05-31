@@ -26,17 +26,27 @@ trade_goods = paper
 1511.9.25 = {
     controller = MYI
     owner = MYI
+	remove_core = AHK
 	training_grounds = yes
 }
 
 1582.6.21 = {
-    add_core = SGO
     controller = SGO
     owner = SGO
+	add_core = SGO
+	remove_core = MYI
 }
 
 1600.9.13 = {
 	controller = HCH
     owner = HCH
 	add_core = HCH
+	remove_core = SGO
+}
+
+1615.1.1 = {
+	controller = ONI
+    owner = ONI
+	add_core = ONI
+	remove_core = HCH
 }

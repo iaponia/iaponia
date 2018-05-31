@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OUC
-add_core = SGI
+add_core = HRD
 owner = OUC
 controller = OUC
 
@@ -23,15 +23,15 @@ base_manpower = 2
 trade_goods = salt
 
 1554.3.1 = {
-	add_core = TCB
-    controller = TCB
-    owner = TCB
+    controller = HRD
+    owner = HRD
 }
 
 1569.10.10 = {
 	add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = OUC
 }
 
 1582.6.21 = {
@@ -44,4 +44,14 @@ trade_goods = salt
 	add_core = KBY
     controller = KBY
     owner = KBY
+	remove_core = OTM
+	remove_core = RZJ
+	remove_core = HRD
+}
+
+1615.1.1 = {
+	add_core = HRD
+    controller = HRD
+    owner = HRD
+	remove_core = KBY
 }

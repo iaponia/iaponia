@@ -35,4 +35,13 @@ trade_goods = horses
 	add_core = KNH
     controller = KNH
     owner = KNH
+	remove_core = ASO
+	remove_core = OTM
+}
+
+1615.1.1 = {
+	add_core = ASO
+    controller = ASO
+    owner = ASO
+	remove_core = KNH
 }

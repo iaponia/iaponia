@@ -27,7 +27,16 @@ trade_goods = rice
 }
 
 1600.9.13 = {
+	add_core = TKO
+	owner = TKO
+	controller = TKO
+	remove_core = YMN
+	remove_core = HSB
+}
+
+1615.1.1 = {
 	add_core = KOI
 	owner = KOI
 	controller = KOI
+	remove_core = TKO
 }

@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OTM
+add_core = SHG
 owner = OTM
 controller = OTM
 
@@ -32,3 +33,10 @@ trade_goods = metal
     owner = NAK
 }
 
+1615.1.1 = {
+    controller = OTM
+    owner = OTM
+	remove_core = NAK
+	remove_core = SHG
+	religion = catholic
+}

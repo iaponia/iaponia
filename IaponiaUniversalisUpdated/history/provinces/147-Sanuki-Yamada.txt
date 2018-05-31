@@ -6,13 +6,12 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = HSK
-add_core = YTM
-add_core = KGW
+add_core = SGO
 owner = HSK
 controller = HSK
 
 culture = awa_c
-religion = shinto
+religion = nichirenshu
 capital = "Sogo"
 is_city = yes
 fortified_mansion = yes
@@ -25,8 +24,9 @@ base_manpower = 3
 trade_goods = grain
 
 1511.9.25 = {
-    controller = YTM
-    owner = YTM
+    controller = SGO
+    owner = SGO
+	remove_core = HSK
 }
 
 1546.5.19 = {
@@ -42,6 +42,7 @@ trade_goods = grain
     add_core = SGO
     controller = SGO
     owner = SGO
+	remove_core = MYI
 	shrine = yes
 }
 
@@ -49,4 +50,12 @@ trade_goods = grain
 	controller = IKM
     owner = IKM
 	add_core = IKM
+	remove_core = SGO
+}
+
+1615.1.1 = {
+	add_core = SGO
+    controller = SGO
+    owner = SGO
+	remove_core = IKM
 }

@@ -25,6 +25,14 @@ trade_goods = bamboo
 	add_core = SMZ
     owner = SMZ
     controller = SMZ
+	remove_core = ISZ
 	workshop = yes
 	trade_goods = firearms
+}
+
+1615.1.1 = {
+	add_core = IRK
+    owner = IRK
+    controller = IRK
+	remove_core = SMZ
 }

@@ -28,18 +28,26 @@ trade_goods = seaweed
     controller = AMA
     owner = AMA
     add_core = AMA
+	remove_core = HYN
 	training_grounds = yes
 	garrison_b = yes
+}
+
+1569.10.10 = {
+	add_core = MRI
 }
 
 1582.6.21 = {
     add_core = HSB
     owner = HSB
     controller = HSB
+	remove_core = AMA
+	remove_core = MRI
 }
 
 1600.9.13 = {
     add_core = NNJ
     owner = NNJ
     controller = NNJ
+	remove_core = HSB
 }

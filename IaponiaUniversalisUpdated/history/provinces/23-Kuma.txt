@@ -45,4 +45,5 @@ trade_goods = tea
 	add_core = SGR
     controller = SGR
     owner = SGR
+	remove_core = SMZ
 }

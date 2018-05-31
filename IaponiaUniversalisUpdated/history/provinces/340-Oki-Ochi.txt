@@ -26,16 +26,34 @@ trade_goods = horses
 	add_core = IKY
 	owner = IKY
 	controller = IKY
+	remove_core = KGK
 }
 
 1511.9.25 = {
     add_core = AMA
     controller = AMA
     owner = AMA
+	remove_core = IKY
 }
 
 1582.6.21 = {
     add_core = MRI
     owner = MRI
     controller = MRI
+	add_core = KKW
+	remove_core = AMA
+}
+
+1600.9.13 = {
+	owner = KKW
+    controller = KKW
+}
+
+1615.1.1 = {
+	add_core = KGK
+    owner = KGK
+    controller = KGK
+	remove_core = MRI
+	remove_core = KKW
+	religion = catholic
 }

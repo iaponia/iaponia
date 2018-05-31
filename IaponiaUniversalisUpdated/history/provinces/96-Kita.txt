@@ -33,7 +33,16 @@ trade_goods = bamboo
 }
 
 1600.9.13 = {
-	add_core = MRI
-    controller = MRI
-    owner = MRI
+	add_core = ATK
+	owner = ATK
+	controller = ATK
+	remove_core = KNO
+	remove_core = IUM
+}
+
+1615.1.1 = {
+	add_core = SNJ
+	controller = SNJ
+    owner = SNJ
+	remove_core = ATK
 }

@@ -6,11 +6,12 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = HSK
+add_core = ATA
 owner = HSK
 controller = HSK
 
 culture = awaji_c
-religion = shinto
+religion = nichirenshu
 capital = "Yagi"
 is_city = yes
 shipyard = yes
@@ -27,14 +28,28 @@ trade_goods = seaweed
     controller = MYI
 }
 
+1554.3.1 = {
+	remove_core = HSK
+}
+
 1582.6.21 = {
     add_core = HSB
     controller = HSB
     owner = HSB
+	remove_core = MYI
 }
 
 1600.9.13 = {
     add_core = WKZ
     controller = WKZ
     owner = WKZ
+	remove_core = HSB
+	remove_core = ATA
+}
+
+1615.1.1 = {
+	add_core = ATA
+    controller = ATA
+    owner = ATA
+	remove_core = WKZ
 }

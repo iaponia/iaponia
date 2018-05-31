@@ -35,4 +35,5 @@ trade_goods = fish
 	add_core = SGR
     controller = SGR
     owner = SGR
+	remove_core = SMZ
 }

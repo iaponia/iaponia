@@ -22,6 +22,10 @@ base_manpower = 4
 
 trade_goods = paper
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
 	garrison_b = yes
 	shrine = yes
@@ -31,6 +35,7 @@ trade_goods = paper
     add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = KKC
 	arsenal = yes
 }
 
@@ -48,4 +53,7 @@ trade_goods = paper
 	outer_wall = yes
 	barracks = yes
 	temple = yes
+	remove_core = RZJ
+	remove_core = OTM
+	religion = nichirenshu
 }

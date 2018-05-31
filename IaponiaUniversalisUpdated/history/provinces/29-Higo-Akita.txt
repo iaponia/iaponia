@@ -21,6 +21,10 @@ base_manpower = 3
 
 trade_goods = fish
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
 	marketplace = yes
 }
@@ -29,6 +33,7 @@ trade_goods = fish
     add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = KKC
 }
 
 1582.6.21 = {
@@ -41,4 +46,10 @@ trade_goods = fish
 	add_core = KTO
     controller = KTO
     owner = KTO
+	remove_core = RZJ
+	remove_core = OTM
+}
+
+1615.1.1 = {
+	religion = nichirenshu
 }

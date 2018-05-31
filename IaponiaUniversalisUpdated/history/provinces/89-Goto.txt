@@ -25,4 +25,12 @@ trade_goods = mainland_trade
 1569.10.10 = {
 	wharf = yes
 	shrine = yes
+	religion = catholic
+}
+
+1615.1.1 = {
+	owner = MTA
+	controller = MTA
+	add_core = MTA
+	remove_core = UKU
 }

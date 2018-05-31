@@ -26,6 +26,7 @@ trade_goods = fish
 	add_core = AMA
 	owner = AMA
 	controller = AMA
+	remove_core = IYN
 	shrine = yes
 }
 
@@ -33,6 +34,7 @@ trade_goods = fish
 	add_core = YMN
 	owner = YMN
 	controller = YMN
+	remove_core = AMA
 }
 
 1582.6.21 = {
@@ -42,6 +44,16 @@ trade_goods = fish
 }
 
 1600.9.13 = {
-	owner = YMN
-	controller = YMN
+	add_core = KAM
+	owner = KAM
+	controller = KAM
+	remove_core = HSB
+}
+
+1615.1.1 = {
+	add_core = IKE
+	owner = IKE
+	controller = IKE
+	remove_core = KAM
+	remove_core = YMN
 }

@@ -26,6 +26,7 @@ trade_goods = cloth
     controller = AMA
     owner = AMA
     add_core = AMA
+	remove_core = HYN
 }
 
 1569.10.10 = {
@@ -38,10 +39,13 @@ trade_goods = cloth
     add_core = HSB
     owner = HSB
     controller = HSB
+	remove_core = AMA
+	remove_core = MRI
 }
 
 1600.9.13 = {
     add_core = NNJ
     owner = NNJ
     controller = NNJ
+	remove_core = HSB
 }

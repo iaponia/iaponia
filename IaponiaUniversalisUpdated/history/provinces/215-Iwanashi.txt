@@ -26,16 +26,26 @@ trade_goods = dyes
 1493.6.9 = {
     owner = AKM
     controller = AKM
+	remove_core = YMN
 }
 
 1523.8.25 = {
     add_core = URA
     owner = URA
     controller = URA
+	remove_core = AKM
 }
 
 1582.6.21 = {
     add_core = UKT
     owner = UKT
     controller = UKT
+	remove_core = URA
+}
+
+1615.1.1 = {
+	add_core = URA
+    owner = URA
+    controller = URA
+	remove_core = UKT
 }

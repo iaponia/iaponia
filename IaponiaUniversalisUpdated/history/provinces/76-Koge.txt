@@ -7,7 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OUC
-add_core = SGI
+add_core = KUM
 owner = OUC
 controller = OUC
 
@@ -23,14 +23,25 @@ base_manpower = 3
 trade_goods = fish
 
 1554.3.1 = {
+    controller = KUM
+    owner = KUM
+}
+
+1569.10.10 = {
 	add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = OUC
 }
 
 1600.9.13 = {
 	add_core = KRD
     controller = KRD
     owner = KRD
+	remove_core = OTM
+	remove_core = KUM
 }
 
+1615.1.1 = {
+	religion = catholic
+}

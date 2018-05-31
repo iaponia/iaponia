@@ -45,7 +45,15 @@ trade_goods = rice
     add_core = MRI
     controller = MRI
     owner = MRI
+	remove_core = OUC
 	barracks = yes
 	merchant_guild = yes
 	shrine = yes
+}
+
+1615.1.1 = {
+	controller = YSM
+    owner = YSM
+	remove_core = MRI
+	remove_core = MST
 }

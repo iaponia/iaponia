@@ -43,6 +43,16 @@ trade_goods = lacquerware
     add_core = MRI
     controller = MRI
     owner = MRI
+	remove_core = OUC
+	remove_core = AMA
+	remove_core = ATK
 	arsenal = yes
 	wharf = yes
+}
+
+1615.1.1 = {
+	add_core = ATK
+    controller = ATK
+    owner = ATK
+	remove_core = MRI
 }

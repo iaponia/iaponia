@@ -9,6 +9,7 @@ discovered_by = ainu
 add_core = AKM
 add_core = YMN
 add_core = URA
+add_core = AKA
 owner = YMN
 controller = YMN
 
@@ -28,6 +29,7 @@ trade_goods = pottery
 1493.6.9 = {
     owner = AKM
     controller = AKM
+	remove_core = YMN
 	training_grounds = yes
 }
 
@@ -35,6 +37,7 @@ trade_goods = pottery
     add_core = URA
     owner = URA
     controller = URA
+	remove_core = AKM
 	garrison_b = yes
 }
 
@@ -42,4 +45,13 @@ trade_goods = pottery
     add_core = UKT
     owner = UKT
     controller = UKT
+	remove_core = URA
+}
+
+1615.1.1 = {
+	add_core = URA
+    owner = URA
+    controller = URA
+	remove_core = UKT
+	remove_core = AKA
 }

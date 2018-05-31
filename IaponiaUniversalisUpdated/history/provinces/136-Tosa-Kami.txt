@@ -25,6 +25,7 @@ trade_goods = lumber
 1493.6.9 = {
     controller = AKI
     owner = AKI
+	remove_core = HSK
 }
 
 1569.10.10 = {
@@ -32,4 +33,8 @@ trade_goods = lumber
     controller = CSK
     owner = CSK
 	workshop = yes
+}
+
+1582.6.21 = {
+	remove_core = AKI
 }

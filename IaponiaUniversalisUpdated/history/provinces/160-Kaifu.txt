@@ -25,6 +25,7 @@ trade_goods = fish
 1511.9.25 = {
     controller = MYI
     owner = MYI
+	remove_core = AHK
 	training_grounds = yes
 }
 
@@ -32,10 +33,14 @@ trade_goods = fish
 	controller = CSK
     owner = CSK
 	add_core = CSK
+	remove_core = MYI
+	add_core = SGO
 }
 
 1600.9.13 = {
 	controller = HCH
     owner = HCH
 	add_core = HCH
+	remove_core = CSK
+	remove_core = SGO
 }

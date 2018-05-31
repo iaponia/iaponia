@@ -7,7 +7,6 @@ discovered_by = ainu
 
 add_core = OUC
 add_core = AKZ
-add_core = SGI
 owner = OUC
 controller = OUC
 
@@ -31,6 +30,7 @@ trade_goods = pottery
 	add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = OUC
 }
 
 1582.6.21 = {
@@ -43,4 +43,14 @@ trade_goods = pottery
 	add_core = KBY
     controller = KBY
     owner = KBY
+	remove_core = AKZ
+	remove_core = OTM
+	remove_core = RZJ
+}
+
+1615.1.1 = {
+	add_core = AKZ
+    controller = AKZ
+    owner = AKZ
+	remove_core = KBY
 }

@@ -7,13 +7,13 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = BHK
-add_core = SHX
 add_core = UEN
+add_core = SHZ
 owner = BHK
 controller = BHK
 
 culture = bishu_c
-religion = shinto
+religion = nichirenshu
 capital = "Ukan"
 is_city = yes
 
@@ -26,10 +26,12 @@ trade_goods = grain
 1511.9.25 = {
     controller = UEN
     owner = UEN
+	remove_core = BHK
 }
 
 1554.3.1 = {
-    owner = MIM
+    add_core = MIM
+	owner = MIM
     controller = MIM
 }
 
@@ -37,10 +39,23 @@ trade_goods = grain
 	add_core = MRI
     owner = MRI
     controller = MRI
+	add_core = KBY
+	remove_core = MIM
+	remove_core = UEN
 }
 
 1582.6.21 = {
     add_core = UKT
     owner = UKT
     controller = UKT
+	remove_core = KBY
+	remove_core = MRI
+	remove_core = SHZ
+}
+
+1615.1.1 = {
+	add_core = SHZ
+    owner = SHZ
+    controller = SHZ
+	remove_core = UKT
 }

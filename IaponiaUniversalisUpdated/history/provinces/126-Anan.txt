@@ -41,4 +41,14 @@ trade_goods = paper
     add_core = MRI
     controller = MRI
     owner = MRI
+	remove_core = OUC
+	remove_core = AMA
+	remove_core = ATK
+}
+
+1615.1.1 = {
+	add_core = ATK
+    controller = ATK
+    owner = ATK
+	remove_core = MRI
 }

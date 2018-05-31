@@ -25,6 +25,7 @@ trade_goods = rice
 1511.9.25 = {
     controller = SGH
     owner = SGH
+	remove_core = YMN
 }
 
 1536.4.7 = {
@@ -33,8 +34,25 @@ trade_goods = rice
     owner = AMA
 }
 
+1569.10.10 = {
+	add_core = MRI
+	add_core = KBY
+}
+
 1582.6.21 = {
-    add_core = MRI
     controller = MRI
     owner = MRI
+	remove_core = AMA
+}
+
+1600.9.13 = {
+	remove_core = KBY
+}
+
+1615.1.1 = {
+	add_core = FUK
+    controller = FUK
+    owner = FUK
+	remove_core = MRI
+	remove_core = SGH
 }

@@ -22,9 +22,16 @@ base_manpower = 3
 trade_goods = lumber
 
 1493.6.9 = {
-    controller = ICJ
-    owner = ICJ
+    controller = TNO
+    owner = TNO
+	remove_core = HSK
 	training_grounds = yes
+}
+
+1546.5.19 = {
+	add_core = ICJ
+	owner = ICJ
+	controller = ICJ
 }
 
 1582.6.21 = {
@@ -33,4 +40,12 @@ trade_goods = lumber
     controller = CSK
 	workshop = yes
 	barracks = yes
+	remove_core = TNO
+}
+
+1615.1.1 = {
+	owner = ICJ
+	controller = ICJ
+	remove_core = CSK
+	religion = catholic
 }

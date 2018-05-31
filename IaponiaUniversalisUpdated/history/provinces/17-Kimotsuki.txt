@@ -34,3 +34,9 @@ trade_goods = rice
     controller = SMZ
     owner = SMZ
 }
+
+1615.1.1 = {
+    controller = KMK
+    owner = KMK
+	remove_core = SMZ
+}

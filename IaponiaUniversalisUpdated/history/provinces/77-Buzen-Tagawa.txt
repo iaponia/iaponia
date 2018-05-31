@@ -32,6 +32,7 @@ trade_goods = pottery
 	add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = OUC
 }
 
 1582.6.21 = {
@@ -44,4 +45,15 @@ trade_goods = pottery
 	add_core = KRD
     controller = KRD
     owner = KRD
+	remove_core = OTM
+	remove_core = RZJ
+	remove_core = AKZ
+	remove_core = SGI
+}
+
+1615.1.1 = {
+	add_core = SGI
+    controller = SGI
+    owner = SGI
+	remove_core = KRD
 }

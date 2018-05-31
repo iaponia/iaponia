@@ -27,6 +27,7 @@ trade_goods = cloth
 1511.9.25 = {
     controller = SGH
     owner = SGH
+	remove_core = YMN
 	marketplace = yes
 }
 
@@ -40,10 +41,24 @@ trade_goods = cloth
     add_core = SGH
     controller = SGH
     owner = SGH
+	remove_core = OUC
 }
 
 1554.3.1 = {
 	add_core = MRI
     controller = MRI
     owner = MRI
+	add_core = KBY
+}
+
+1600.9.13 = {
+	remove_core = KBY
+}
+
+1615.1.1 = {
+	add_core = KBY
+	owner = KBY
+	controller = KBY
+	remove_core = SGH
+	remove_core = MRI
 }

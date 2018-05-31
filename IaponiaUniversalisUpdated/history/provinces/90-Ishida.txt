@@ -30,4 +30,14 @@ trade_goods = seaweed
 	add_core = MTA
     controller = MTA
     owner = MTA
+	remove_core = RZJ
+	remove_core = HTA
+}
+
+1615.1.1 = {
+	add_core = SOO
+    controller = SOO
+    owner = SOO
+	remove_core = MTA
+	religion = catholic
 }

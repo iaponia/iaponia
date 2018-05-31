@@ -21,6 +21,10 @@ base_manpower = 4
 
 trade_goods = rice
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
 	workshop = yes
 }
@@ -30,6 +34,7 @@ trade_goods = rice
     controller = OTM
     owner = OTM
 	magistrate = yes
+	remove_core = KKC
 }
 
 1569.10.10 = {
@@ -46,4 +51,13 @@ trade_goods = rice
 	add_core = KTO
     controller = KTO
     owner = KTO
+	remove_core = RZJ
+	remove_core = OTM
+}
+
+1615.1.1 = {
+	add_core = KKC
+	owner = KKC
+	controller = KKC
+	remove_core = KTO
 }

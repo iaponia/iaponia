@@ -37,6 +37,11 @@ trade_goods = sake
     add_core = MRI
     controller = MRI
     owner = MRI
+	remove_core = OUC
 	dockyard = yes
 	merchant_guild = yes
+}
+
+1600.9.13 = {
+	remove_core = KBY
 }

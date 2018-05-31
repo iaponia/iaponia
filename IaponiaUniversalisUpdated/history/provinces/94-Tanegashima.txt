@@ -10,7 +10,7 @@ owner = TNA
 controller = TNA
 
 culture = sasshu_c
-religion = shinto
+religion = nichirenshu
 capital = "Akao"
 is_city = yes
 marketplace = yes
@@ -46,4 +46,10 @@ trade_goods = mainland_trade
     owner = SMZ
     controller = SMZ
 	temple = yes
+}
+
+1615.1.1 = {
+	owner = TNA
+	controller = TNA
+	remove_core = SMZ
 }

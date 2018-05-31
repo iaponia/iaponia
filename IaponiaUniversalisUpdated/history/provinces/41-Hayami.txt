@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OTM
+add_core = TWA
 owner = OTM
 controller = OTM
 
@@ -29,8 +30,20 @@ trade_goods = fish
 	marketplace = yes
 }
 
+1569.10.10 = {
+	religion = catholic
+}
+
 1600.9.13 = {
 	add_core = KRD
     controller = KRD
     owner = KRD
+}
+
+1615.1.1 = {
+    controller = TWA
+    owner = TWA
+	remove_core = OTM
+	remove_core = KRD
+	religion = shinto
 }

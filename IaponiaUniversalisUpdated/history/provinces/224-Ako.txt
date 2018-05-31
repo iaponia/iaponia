@@ -7,8 +7,8 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = AKM
-add_core = BSO
 add_core = YMN
+add_core = KRD
 owner = AKM
 controller = AKM
 
@@ -25,6 +25,10 @@ base_manpower = 3
 
 trade_goods = fish
 
+1493.6.9 = {
+	remove_core = YMN
+}
+
 1523.8.25 = {
     add_core = URA
     owner = URA
@@ -32,14 +36,30 @@ trade_goods = fish
 	training_grounds = yes
 }
 
+1569.10.10 = {
+	owner = AKM
+	controller = AKM
+	remove_core = URA
+}
+
 1582.6.21 = {
 	add_core = HSB
     controller = HSB
     owner = HSB
+	remove_core = AKM
 }
 
 1600.9.13 = {
+	add_core = HKN
+    controller = HKN
+    owner = HKN
+	remove_core = HSB
+	remove_core = KRD
+}
+
+1615.1.1 = {
 	add_core = TOY
     controller = TOY
     owner = TOY
+	remove_core = HKN
 }

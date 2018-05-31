@@ -24,12 +24,14 @@ trade_goods = rice
 1493.6.9 = {
     owner = AKM
     controller = AKM
+	remove_core = YMN
 }
 
 1523.8.25 = {
     add_core = URA
     owner = URA
     controller = URA
+	remove_core = AKM
 }
 
 1536.4.7 = {
@@ -41,10 +43,20 @@ trade_goods = rice
 1569.10.10 = {
     owner = URA
     controller = URA
+	remove_core = AMA
 }
 
 1582.6.21 = {
     add_core = UKT
     controller = UKT
     owner = UKT
+	remove_core = URA
+}
+
+1615.1.1 = {
+	add_core = GTO
+	owner = GTO
+    controller = GTO
+	remove_core = UKT
+	religion = catholic
 }

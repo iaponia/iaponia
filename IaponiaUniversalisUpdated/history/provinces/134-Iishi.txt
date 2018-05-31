@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = KGK
-add_core = AMA
+add_core = KAM
 owner = KGK
 controller = KGK
 
@@ -24,13 +24,16 @@ trade_goods = grain
 
 1493.6.9 = {
 	add_core = IKY
+	remove_core = KGK
 	owner = IKY
 	controller = IKY
 }
 
 1511.9.25 = {
+	add_core = AMA
     controller = AMA
     owner = AMA
+	remove_core = IKY
 }
 
 1546.5.19 = {
@@ -38,8 +41,27 @@ trade_goods = grain
 	arsenal = yes
 }
 
+1569.10.10 = {
+	add_core = MRI
+	add_core = KKW
+}
+
 1582.6.21 = {
-    add_core = MRI
     owner = MRI
     controller = MRI
+	remove_core = KAM
+	remove_core = AMA
+}
+
+1600.9.13 = {
+	owner = KKW
+	controller = KKW
+}
+
+1615.1.1 = {
+	add_core = KAM
+    owner = KAM
+    controller = KAM
+	remove_core = MRI
+	remove_core = KKW
 }

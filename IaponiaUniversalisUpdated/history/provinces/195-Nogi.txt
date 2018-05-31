@@ -27,6 +27,7 @@ trade_goods = grain
 1493.6.9 = {
     controller = AMA
     owner = AMA
+	remove_core = KGK
 }
 
 1536.4.7 = {
@@ -41,6 +42,19 @@ trade_goods = grain
 
 1569.10.10 = {
     add_core = MRI
+	add_core = KKW
     owner = MRI
     controller = MRI
+}
+
+1600.9.13 = {
+	owner = KKW
+	controller = KKW
+}
+
+1615.1.1 = {
+    owner = AMA
+    controller = AMA
+	remove_core = MRI
+	remove_core = KKW
 }

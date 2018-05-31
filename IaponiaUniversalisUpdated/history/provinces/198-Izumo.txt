@@ -25,6 +25,7 @@ trade_goods = lacquerware
 
 1493.6.9 = {
 	add_core = IKY
+	remove_core = KGK
 	owner = IKY
 	controller = IKY
 }
@@ -32,12 +33,31 @@ trade_goods = lacquerware
 1511.9.25 = {
     controller = AMA
     owner = AMA
+	remove_core = IKY
 	marketplace = yes
 	shipyard = yes
 }
 
+1569.10.10 = {
+	add_core = MRI
+	add_core = KKW
+}
+
 1582.6.21 = {
-    add_core = MRI
     owner = MRI
     controller = MRI
+}
+
+1600.9.13 = {
+	owner = KKW
+	controller = KKW
+}
+
+1615.1.1 = {
+	add_core = KAM
+    owner = KAM
+    controller = KAM
+	remove_core = MRI
+	remove_core = KKW
+	remove_core = AMA
 }

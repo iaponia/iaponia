@@ -24,6 +24,7 @@ trade_goods = lumber
 	add_core = YMN
 	owner = YMN
 	controller = YMN
+	remove_core = IYN
 }
 
 1582.6.21 = {
@@ -33,6 +34,16 @@ trade_goods = lumber
 }
 
 1600.9.13 = {
-	owner = YMN
-	controller = YMN
+	add_core = KAM
+	owner = KAM
+	controller = KAM
+	remove_core = HSB
+}
+
+1615.1.1 = {
+	owner = IYN
+	controller = IYN
+	add_core = IYN
+	remove_core = KAM
+	remove_core = YMN
 }

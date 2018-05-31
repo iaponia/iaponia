@@ -25,12 +25,14 @@ trade_goods = paper
 	add_core = AMA
 	owner = AMA
 	controller = AMA
+	remove_core = IYN
 }
 
 1569.10.10 = {
 	add_core = YMN
 	owner = YMN
 	controller = YMN
+	remove_core = AMA
 }
 
 1582.6.21 = {
@@ -40,6 +42,16 @@ trade_goods = paper
 }
 
 1600.9.13 = {
-	owner = YMN
-	controller = YMN
+	add_core = KAM
+	owner = KAM
+	controller = KAM
+	remove_core = HSB
+}
+
+1615.1.1 = {
+	add_core = IKE
+	owner = IKE
+	controller = IKE
+	remove_core = KAM
+	remove_core = YMN
 }

@@ -25,10 +25,20 @@ trade_goods = pilgrimage_site
 1493.6.9 = {
     controller = SNJ
     owner = SNJ
+	remove_core = KNO
 }
 
 1600.9.13 = {
-	add_core = MRI
-	owner = MRI
-	controller = MRI
+	add_core = ATK
+	owner = ATK
+	controller = ATK
+	remove_core = KNO
+	remove_core = SNJ
+}
+
+1615.1.1 = {
+	add_core = SNJ
+	controller = SNJ
+    owner = SNJ
+	remove_core = ATK
 }

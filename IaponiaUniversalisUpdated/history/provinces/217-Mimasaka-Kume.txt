@@ -24,12 +24,14 @@ trade_goods = metal
 1493.6.9 = {
     owner = AKM
     controller = AKM
+	remove_core = YMN
 }
 
 1523.8.25 = {
     add_core = URA
     owner = URA
     controller = URA
+	remove_core = AKM
 	workshop = yes
 }
 
@@ -42,10 +44,19 @@ trade_goods = metal
 1569.10.10 = {
     owner = URA
     controller = URA
+	remove_core = AMA
 }
 
 1582.6.21 = {
     add_core = UKT
     controller = UKT
     owner = UKT
+	remove_core = URA
+}
+
+1615.1.1 = {
+	add_core = MRA
+	owner = MRA
+    controller = MRA
+	remove_core = UKT
 }

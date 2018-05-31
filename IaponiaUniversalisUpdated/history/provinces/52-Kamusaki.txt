@@ -24,7 +24,8 @@ base_manpower = 3
 trade_goods = lumber
 
 1536.4.7 = {
-    controller = OUC
+	add_core = OUC
+	controller = OUC
     owner = OUC
 }
 
@@ -33,14 +34,27 @@ trade_goods = lumber
     controller = RZJ
     add_core = RZJ
 	magistrate = yes
+	remove_core = OUC
 }
 
 1569.10.10 = {
 	workshop = yes
 }
 
+1582.6.21 = {
+	remove_core = SHN
+}
+
 1600.9.13 = {
 	owner = NBS
     controller = NBS
     add_core = NBS
+}
+
+1615.1.1 = {
+	owner = SHN
+    controller = SHN
+    add_core = SHN
+	remove_core = NBS
+	remove_core = RZJ
 }

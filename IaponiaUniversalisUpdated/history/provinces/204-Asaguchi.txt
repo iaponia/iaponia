@@ -7,13 +7,11 @@ discovered_by = ainu
 
 add_core = BHK
 add_core = SHX
-add_core = IKW
-add_core = UEN
 owner = BHK
 controller = BHK
 
 culture = bishu_c
-religion = shinto
+religion = nichirenshu
 capital = "Kamoyama"
 is_city = yes
 
@@ -27,10 +25,12 @@ trade_goods = seaweed
 1511.9.25 = {
     owner = SHX
     controller = SHX
+	remove_core = BHK
 	marketplace = yes
 }
 
 1554.3.1 = {
+	add_core = MIM
     owner = MIM
     controller = MIM
 }
@@ -39,4 +39,18 @@ trade_goods = seaweed
     add_core = MRI
     owner = MRI
     controller = MRI
+	add_core = KBY
+	remove_core = MIM
+	remove_core = SHX
+}
+
+1600.9.13 = {
+	remove_core = KBY
+}
+
+1615.1.1 = {
+	add_core = IKW
+	owner = IKW
+	controller = IKW
+	remove_core = MRI
 }

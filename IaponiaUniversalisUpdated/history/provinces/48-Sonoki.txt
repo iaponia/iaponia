@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OMR
+add_core = FCN
 owner = OMR
 controller = OMR
 
@@ -41,20 +42,16 @@ trade_goods = mainland_trade
 	owner = OMR
     controller = OMR
     add_core = OMR
+	remove_core = AIM
 	temple = yes
 	academy = yes
+	religion = catholic
 }
 
 1582.6.21 = {
-    owner = RZJ
-    controller = RZJ
-    add_core = RZJ
+    owner = FCN
+    controller = FCN
+	remove_core = OMR
 	merchant_guild = yes
 	dockyard = yes
-}
-
-1600.9.13 = {
-	owner = OMR
-    controller = OMR
-    add_core = OMR
 }

@@ -26,3 +26,10 @@ trade_goods = horses
     owner = SMZ
     controller = SMZ
 }
+
+1615.1.1 = {
+	owner = TNA
+	controller = TNA
+	remove_core = SMZ
+	religion = nichirenshu
+}

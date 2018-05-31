@@ -28,6 +28,10 @@ base_manpower = 3
 	drydock = yes
 }
 
+1615.1.1 = {
+	religion = catholic
+}
+
 add_permanent_province_modifier = {
 	name = center_of_trade_modifier
 	duration = -1

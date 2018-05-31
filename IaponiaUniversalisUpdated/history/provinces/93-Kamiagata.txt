@@ -20,3 +20,7 @@ base_production = 3
 base_manpower = 2
 
 trade_goods = horses
+
+1615.1.1 = {
+	religion = catholic
+}

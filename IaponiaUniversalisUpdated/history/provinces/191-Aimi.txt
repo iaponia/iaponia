@@ -28,6 +28,7 @@ trade_goods = cloth
     controller = AMA
     owner = AMA
     add_core = AMA
+	remove_core = HYN
 }
 
 1546.5.19 = {
@@ -36,8 +37,27 @@ trade_goods = cloth
 	shrine = yes
 }
 
+1569.10.10 = {
+	add_core = MRI
+	add_core = KKW
+}
+
 1582.6.21 = {
-    add_core = MRI
     owner = MRI
     controller = MRI
+	remove_core = AMA
+	remove_core = NNJ
+}
+
+1600.9.13 = {
+	owner = KKW
+	controller = KKW
+}
+
+1615.1.1 = {
+	add_core = HYN
+	owner = HYN
+	controller = HYN
+	remove_core = MRI
+	remove_core = KKW
 }

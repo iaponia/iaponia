@@ -6,8 +6,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = BHK
-add_core = SHX
-add_core = IKW
 add_core = NIM
 owner = BHK
 controller = BHK
@@ -26,6 +24,7 @@ trade_goods = lumber
 1511.9.25 = {
     controller = NIM
     owner = NIM
+	remove_core = BHK
 }
 
 1536.4.7 = {
@@ -39,10 +38,25 @@ trade_goods = lumber
     add_core = MIM
     owner = MIM
     controller = MIM
+	remove_core = AMA
 }
 
 1582.6.21 = {
     add_core = MRI
     owner = MRI
     controller = MRI
+	add_core = KBY
+	remove_core = MIM
+	remove_core = NIM
+}
+
+1600.9.13 = {
+	remove_core = KBY
+}
+
+1615.1.1 = {
+	add_core = MIM
+	owner = MIM
+	controller = MIM
+	remove_core = MRI
 }

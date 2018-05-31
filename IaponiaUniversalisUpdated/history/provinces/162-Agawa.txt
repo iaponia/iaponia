@@ -24,10 +24,22 @@ trade_goods = paper
 1493.6.9 = {
     controller = MYM
     owner = MYM
+	remove_core = HSK
 }
 
 1569.10.10 = {
     add_core = CSK
     owner = CSK
     controller = CSK
+}
+
+1582.6.21 = {
+	remove_core = MYM
+}
+
+1615.1.1 = {
+	add_core = YMC
+    owner = YMC
+    controller = YMC
+	remove_core = CSK
 }

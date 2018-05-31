@@ -26,3 +26,9 @@ trade_goods = bamboo
 	owner = IKT
 	controller = IKT
 }
+
+1615.1.1 = {
+	owner = KNO
+	controller = KNO
+	remove_core = IKT
+}

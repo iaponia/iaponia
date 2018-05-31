@@ -25,3 +25,12 @@ trade_goods = bamboo
     controller = KRD
     owner = KRD
 }
+
+1615.1.1 = {
+	add_core = SHG
+    controller = SHG
+    owner = SHG
+	remove_core = KRD
+	remove_core = OTM
+	religion = catholic
+}

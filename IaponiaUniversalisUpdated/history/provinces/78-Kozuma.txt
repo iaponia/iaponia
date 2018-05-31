@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OTM
+add_core = KAA
 owner = OTM
 controller = OTM
 
@@ -30,4 +31,14 @@ trade_goods = bamboo
 	add_core = KKB
     controller = KKB
     owner = KKB
+	remove_core = KAA
+	remove_core = OTM
+	remove_core = RZJ
+}
+
+1615.1.1 = {
+	add_core = KAA
+	controller = KAA
+	owner = KAA
+	remove_core = KKB
 }

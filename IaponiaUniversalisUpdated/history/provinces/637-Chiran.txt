@@ -29,8 +29,16 @@ trade_goods = mainland_trade
 	add_core = SMZ
     owner = SMZ
     controller = SMZ
+	remove_core = ISZ
 }
 
 1554.3.1 = {
 	garrison_b = yes
+}
+
+1615.1.1 = {
+	add_core = NRO
+    owner = NRO
+    controller = NRO
+	remove_core = SMZ
 }

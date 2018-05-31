@@ -30,9 +30,11 @@ trade_goods = sake
 1493.6.9 = {
     controller = TNO
     owner = TNO
+	remove_core = HSK
 }
 
 1546.5.19 = {
+	add_core = ICJ
     controller = ICJ
     owner = ICJ
 	marketplace = yes
@@ -45,4 +47,13 @@ trade_goods = sake
 	barracks = yes
 	arsenal = yes
 	merchant_guild = yes
+	remove_core = TNO
+}
+
+1615.1.1 = {
+	add_core = YMC
+    owner = YMC
+    controller = YMC
+	remove_core = CSK
+	remove_core = ICJ
 }

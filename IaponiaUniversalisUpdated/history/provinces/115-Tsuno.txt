@@ -33,8 +33,25 @@ trade_goods = grain
 	arsenal = yes
 }
 
+1569.10.10 = {
+	add_core = MRI
+}
+
 1582.6.21 = {
-    add_core = MRI
     controller = MRI
     owner = MRI
+	remove_core = OUC
+}
+
+1600.9.13 = {
+	add_core = CMO
+    controller = CMO
+    owner = CMO
+}
+
+1615.1.1 = {
+    controller = SUE
+    owner = SUE
+	remove_core = MRI
+	remove_core = CMO
 }

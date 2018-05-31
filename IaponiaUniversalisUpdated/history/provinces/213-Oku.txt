@@ -9,6 +9,7 @@ discovered_by = ainu
 add_core = AKM
 add_core = YMN
 add_core = URA
+add_core = AKA
 owner = YMN
 controller = YMN
 
@@ -20,21 +21,28 @@ marketplace = yes
 wharf = yes
 shipyard = yes
 
-base_tax = 4
-base_production = 4
-base_manpower = 2
+base_tax = 5
+base_production = 5
+base_manpower = 3
 
 trade_goods = salt
+
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
 
 1493.6.9 = {
     owner = AKM
     controller = AKM
+	remove_core = YMN
 }
 
 1523.8.25 = {
     add_core = URA
     owner = URA
     controller = URA
+	remove_core = AKM
 	tea_house = yes
 }
 
@@ -42,6 +50,18 @@ trade_goods = salt
     add_core = UKT
     owner = UKT
     controller = UKT
+	remove_core = URA
 	merchant_guild = yes
 	drydock = yes
+}
+
+1600.9.13 = {
+	religion = catholic
+}
+
+1615.1.1 = {
+	add_core = AKA
+    owner = AKA
+    controller = AKA
+	remove_core = UKT
 }

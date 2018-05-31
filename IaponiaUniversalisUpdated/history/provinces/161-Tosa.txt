@@ -25,6 +25,7 @@ trade_goods = metal
 1493.6.9 = {
     controller = MYM
     owner = MYM
+	remove_core = HSK
 }
 
 1569.10.10 = {
@@ -33,4 +34,15 @@ trade_goods = metal
     controller = CSK
 	workshop = yes
 	barracks = yes
+}
+
+1582.6.21 = {
+	remove_core = MYM
+}
+
+1615.1.1 = {
+	add_core = YMC
+    owner = YMC
+    controller = YMC
+	remove_core = CSK
 }

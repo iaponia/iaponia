@@ -30,6 +30,8 @@ trade_goods = pottery
 	owner = OMR
     controller = OMR
     add_core = OMR
+	remove_core = AIM
+	religion = catholic
 }
 
 1582.6.21 = {
@@ -42,4 +44,13 @@ trade_goods = pottery
 	owner = NBS
     controller = NBS
     add_core = NBS
+	remove_core = RZJ
+}
+
+1615.1.1 = {
+	owner = AIM
+	controller = AIM
+	add_core = AIM
+	remove_core = OMR
+	remove_core = NBS
 }

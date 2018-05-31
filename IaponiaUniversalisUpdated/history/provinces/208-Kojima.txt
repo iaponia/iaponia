@@ -8,11 +8,12 @@ discovered_by = ainu
 add_core = AKM
 add_core = YMN
 add_core = URA
+add_core = UKT
 owner = YMN
 controller = YMN
 
 culture = bizen_c
-religion = shinto
+religion = nichirenshu
 capital = "Tsuneyama"
 is_city = yes
 training_grounds = yes
@@ -26,6 +27,7 @@ trade_goods = fish
 1493.6.9 = {
     owner = AKM
     controller = AKM
+	remove_core = YMN
 	shrine = yes
 }
 
@@ -33,6 +35,7 @@ trade_goods = fish
     add_core = URA
     owner = URA
     controller = URA
+	remove_core = AKM
 	shipyard = yes
 }
 
@@ -40,6 +43,15 @@ trade_goods = fish
     add_core = UKT
     owner = UKT
     controller = UKT
+	remove_core = URA
 	barracks = yes
 	arsenal = yes
+}
+
+1615.1.1 = {
+	add_core = AKA
+    owner = AKA
+    controller = AKA
+	remove_core = UKT
+	religion = catholic
 }

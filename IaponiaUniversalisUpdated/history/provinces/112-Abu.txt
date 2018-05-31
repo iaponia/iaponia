@@ -7,7 +7,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OUC
-add_core = SUE
 owner = OUC
 controller = OUC
 
@@ -39,7 +38,27 @@ trade_goods = pottery
 
 1569.10.10 = {
     add_core = MRI
+	add_core = YSM
     controller = MRI
     owner = MRI
 	fort = yes
+}
+
+1582.6.21 = {
+	remove_core = OUC
+}
+
+1600.9.13 = {
+	add_core = CMO
+    controller = CMO
+    owner = CMO
+}
+
+1615.1.1 = {
+	controller = OUC
+    owner = OUC
+	add_core = OUC
+	remove_core = YSM
+	remove_core = MRI
+	remove_core = CMO
 }

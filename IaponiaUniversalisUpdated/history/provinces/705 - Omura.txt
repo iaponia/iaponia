@@ -37,8 +37,10 @@ trade_goods = lacquerware
 	owner = OMR
     controller = OMR
     add_core = OMR
+	remove_core = AIM
 	shrine = yes
 	arsenal = yes
+	religion = catholic
 }
 
 1582.6.21 = {
@@ -50,5 +52,12 @@ trade_goods = lacquerware
 1600.9.13 = {
 	owner = OMR
     controller = OMR
-    add_core = OMR
+	remove_core = RZJ
+}
+
+1615.1.1 = {
+	owner = AIM
+	controller = AIM
+	add_core = AIM
+	remove_core = OMR
 }

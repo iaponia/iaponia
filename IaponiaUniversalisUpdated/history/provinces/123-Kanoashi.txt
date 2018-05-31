@@ -40,4 +40,11 @@ trade_goods = rice
     add_core = MRI
     controller = MRI
     owner = MRI
+	remove_core = OUC
+}
+
+1615.1.1 = {
+	controller = YSM
+    owner = YSM
+	remove_core = MRI
 }

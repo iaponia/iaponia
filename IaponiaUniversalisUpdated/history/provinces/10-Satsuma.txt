@@ -32,3 +32,11 @@ add_permanent_province_modifier = {
     owner = SMZ
     controller = SMZ
 }
+
+1615.1.1 = {
+	add_core = NWA
+    owner = NWA
+    controller = NWA
+	remove_core = SMZ
+	remove_core = IRK
+}

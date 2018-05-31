@@ -29,6 +29,7 @@ trade_goods = horses
 
 1569.10.10 = {
 	barracks = yes
+	religion = catholic
 }
 
 1582.6.21 = {
@@ -41,4 +42,11 @@ trade_goods = horses
 	owner = NBS
     controller = NBS
     add_core = NBS
+	remove_core = RZJ
+}
+
+1615.1.1 = {
+	owner = AIM
+    controller = AIM
+	remove_core = NBS
 }

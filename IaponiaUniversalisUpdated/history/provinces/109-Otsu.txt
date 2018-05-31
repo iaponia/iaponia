@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OUC
-add_core = SUE
+add_core = NTO
 owner = OUC
 controller = OUC
 
@@ -25,4 +25,22 @@ trade_goods = salt
     add_core = MRI
     controller = MRI
     owner = MRI
+}
+
+1582.6.21 = {
+	remove_core = OUC
+}
+
+1600.9.13 = {
+	add_core = CMO
+    controller = CMO
+    owner = CMO
+}
+
+1615.1.1 = {
+	controller = NTO
+    owner = NTO
+	remove_core = MRI
+	remove_core = CMO
+	religion = catholic
 }

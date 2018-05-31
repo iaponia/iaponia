@@ -6,13 +6,12 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = HSK
-add_core = YTM
 add_core = KGW
 owner = HSK
 controller = HSK
 
 culture = awa_c
-religion = shinto
+religion = nichirenshu
 capital = "Tadotsu"
 is_city = yes
 shrine = yes
@@ -26,6 +25,7 @@ trade_goods = pilgrimage_site
 1511.9.25 = {
     controller = KGW
     owner = KGW
+	remove_core = HSK
 }
 
 1546.5.19 = {
@@ -38,10 +38,19 @@ trade_goods = pilgrimage_site
     add_core = CSK
     controller = CSK
     owner = CSK
+	remove_core = MYI
+	add_core = SGO
 }
 
 1600.9.13 = {
     add_core = IKM
     controller = IKM
     owner = IKM
+	remove_core = CSK
+	remove_core = SGO
+}
+
+1615.1.1 = {
+	remove_core = KGW
+	religion = shinto
 }

@@ -33,8 +33,22 @@ trade_goods = lumber
     owner = AMA
 }
 
+1546.5.19 = {
+	remove_core = OUC
+}
+
 1569.10.10 = {
     add_core = MRI
     controller = MRI
     owner = MRI
+}
+
+1582.6.21 = {
+	remove_core = AMA
+}
+
+1615.1.1 = {
+	add_core = KKW
+    controller = KKW
+    owner = KKW
 }

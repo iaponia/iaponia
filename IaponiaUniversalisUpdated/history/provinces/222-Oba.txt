@@ -25,11 +25,13 @@ trade_goods = lumber
 1493.6.9 = {
     owner = AKM
     controller = AKM
+	remove_core = YMN
 }
 
 1511.9.25 = {
     owner = MRA
     controller = MRA
+	remove_core = AKM
 }
 
 1536.4.7 = {
@@ -41,10 +43,17 @@ trade_goods = lumber
 1569.10.10 = {
     owner = MRA
     controller = MRA
+	remove_core = AMA
 }
 
 1582.6.21 = {
     add_core = UKT
     controller = UKT
     owner = UKT
+}
+
+1615.1.1 = {
+	owner = MRA
+    controller = MRA
+	remove_core = UKT
 }

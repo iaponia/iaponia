@@ -35,4 +35,5 @@ trade_goods = rice
 	academy = yes
 	tea_house = yes
 	magistrate = yes
+	religion = catholic
 }

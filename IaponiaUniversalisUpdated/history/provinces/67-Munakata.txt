@@ -7,7 +7,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OUC
-add_core = SGI
 add_core = MNK
 owner = OUC
 controller = OUC
@@ -37,6 +36,7 @@ trade_goods = rice
 	add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = OUC
 	drydock = yes
 	temple = yes
 }
@@ -45,4 +45,13 @@ trade_goods = rice
 	add_core = KBY
     controller = KBY
     owner = KBY
+	remove_core = OTM
+	remove_core = MNK
+}
+
+1615.1.1 = {
+	add_core = TCB
+    controller = TCB
+    owner = TCB
+	remove_core = KBY
 }

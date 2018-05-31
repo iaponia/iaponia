@@ -24,4 +24,12 @@ trade_goods = fish
 	add_core = SMZ
     owner = SMZ
     controller = SMZ
+	remove_core = ISZ
+}
+
+1615.1.1 = {
+	add_core = NRO
+    owner = NRO
+    controller = NRO
+	remove_core = SMZ
 }

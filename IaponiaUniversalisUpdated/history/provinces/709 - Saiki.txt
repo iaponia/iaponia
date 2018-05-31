@@ -30,3 +30,7 @@ trade_goods = sake
 	shrine = yes
 	wharf = yes
 }
+
+1582.6.21 = {
+	religion = catholic
+}

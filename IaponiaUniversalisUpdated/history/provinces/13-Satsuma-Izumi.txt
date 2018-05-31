@@ -35,7 +35,18 @@ trade_goods = rice
 	temple = yes
 }
 
+1554.3.1 = {
+	remove_core = SSZ
+}
+
 1569.10.10 = {
 	barracks = yes
 	tea_house = yes
+}
+
+1615.1.1 = {
+	add_core = NWA
+    owner = NWA
+    controller = NWA
+	remove_core = SMZ
 }

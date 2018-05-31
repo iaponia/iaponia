@@ -22,14 +22,17 @@ base_manpower = 2
 trade_goods = rice
 
 1554.3.1 = {
+	add_core = AKZ
 	controller = AKZ
     owner = AKZ
+	remove_core = SGI
 }
 
 1569.10.10 = {
 	add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = OUC
 }
 
 1582.6.21 = {
@@ -42,4 +45,14 @@ trade_goods = rice
 	add_core = KBY
     controller = KBY
     owner = KBY
+	remove_core = OTM
+	remove_core = RZJ
+	remove_core = AKZ
+}
+
+1615.1.1 = {
+	add_core = TKH
+    controller = TKH
+    owner = TKH
+	remove_core = KBY
 }

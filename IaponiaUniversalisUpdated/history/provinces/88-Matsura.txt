@@ -50,4 +50,15 @@ trade_goods = mainland_trade
     controller = NBS
     owner = NBS
 	barracks = yes
+	remove_core = HTA
+	remove_core = RZJ
+	remove_core = MTA
+}
+
+1615.1.1 = {
+	add_core = MTA
+	controller = MTA
+    owner = MTA
+	remove_core = NBS
+	religion = catholic
 }

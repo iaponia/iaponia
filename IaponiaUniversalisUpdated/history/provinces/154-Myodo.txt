@@ -24,6 +24,7 @@ trade_goods = cloth
 1511.9.25 = {
     controller = MYI
     owner = MYI
+	remove_core = AHK
 	shipyard = yes
 }
 
@@ -31,6 +32,7 @@ trade_goods = cloth
     add_core = SGO
     controller = SGO
     owner = SGO
+	remove_core = MYI
 	wharf = yes
 }
 
@@ -38,4 +40,13 @@ trade_goods = cloth
 	controller = HCH
     owner = HCH
 	add_core = HCH
+	remove_core = SGO
+}
+
+1615.1.1 = {
+	controller = MYI
+    owner = MYI
+	add_core = MYI
+	remove_core = HCH
+	religion = nichirenshu
 }

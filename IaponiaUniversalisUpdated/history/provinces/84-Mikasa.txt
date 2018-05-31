@@ -7,7 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OUC
-add_core = SGI
+add_core = TCB
 owner = OUC
 controller = OUC
 
@@ -31,7 +31,6 @@ trade_goods = pilgrimage_site
 }
 
 1554.3.1 = {
-	add_core = TCB
     controller = TCB
     owner = TCB
 }
@@ -40,6 +39,7 @@ trade_goods = pilgrimage_site
 	add_core = OTM
     controller = OTM
     owner = OTM
+	remove_core = OUC
 	barracks = yes
 }
 
@@ -47,4 +47,13 @@ trade_goods = pilgrimage_site
 	add_core = KBY
     controller = KBY
     owner = KBY
+	remove_core = OTM
+	remove_core = TCB
+}
+
+1615.1.1 = {
+	add_core = TCB
+    controller = TCB
+    owner = TCB
+	remove_core = KBY
 }

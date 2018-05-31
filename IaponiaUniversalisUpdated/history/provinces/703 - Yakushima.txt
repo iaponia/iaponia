@@ -10,7 +10,7 @@ owner = TNA
 controller = TNA
 
 culture = sasshu_c
-religion = shinto
+religion = nichirenshu
 capital = "Yakushima"
 is_city = yes
 shipyard = yes
@@ -30,4 +30,11 @@ trade_goods = lumber
     add_core = SMZ
     owner = SMZ
     controller = SMZ
+}
+
+1615.1.1 = {
+	owner = TNA
+	controller = TNA
+	remove_core = SMZ
+	religion = nichirenshu
 }

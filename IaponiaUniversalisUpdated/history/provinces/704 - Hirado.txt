@@ -48,7 +48,11 @@ trade_goods = mainland_trade
 }
 
 1600.9.13 = {
-	add_core = MTA
     controller = MTA
     owner = MTA
+	remove_core = RZJ
+}
+
+1615.1.1 = {
+	religion = catholic
 }

@@ -73,6 +73,8 @@
  DTE_ADJ: "Date"
  EGU: "Echigo-Uesugi"
  EGU_ADJ: "Echigo-Uesugi"
+ ENR: "Enryakuji"
+ ENR_ADJ: "Enryakuji"
  FCH: "Hakata-shi"
  FCH_ADJ: "Hakata"
  FCN: "Nagasaki-shi"

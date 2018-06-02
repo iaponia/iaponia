@@ -928,8 +928,7 @@ curia_controller = {
 }
 
 religious_unity = {
-	max_absolutism = 5
-	prestige = 1
+	
 }
 
 inverse_religious_unity = {

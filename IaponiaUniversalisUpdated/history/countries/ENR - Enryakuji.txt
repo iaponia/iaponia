@@ -1,0 +1,5 @@
+government = theocratic_government
+primary_culture = omi_c
+religion = mahayana
+technology_group = saigoku
+capital = 327	# Shiga

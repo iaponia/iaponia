@@ -32,10 +32,21 @@ trade_goods = horses
     add_core = KWJ
     owner = KWJ
     controller = KWJ
+	remove_core = TKD
+	remove_core = ATB
 }
 
 1600.9.13 = {
 	add_core = ANO
     owner = ANO
     controller = ANO
+	remove_core = KWJ
+}
+
+1615.1.1 = {
+	add_core = TKD
+    owner = TKD
+    controller = TKD
+	remove_core = ANO
+	religion = nichirenshu
 }

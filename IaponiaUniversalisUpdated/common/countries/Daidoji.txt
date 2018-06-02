@@ -2,38 +2,35 @@
 
 graphical_culture = asiangfx
 
-color = { 184 83 164 }
-
-preferred_religion = jodoshinshu
+color = { 20  160  40 }
 
 historical_idea_groups = {
-	buddhist_ideas
-	organization_ideas
-	ecclesiocratic_ideas
-	defensive_ideas
+	influence_ideas
+	traditional_ideas
+	aristocratic_ideas
 	diplomatic_ideas
-	westernized_ideas
+	leadership_ideas
+	shinto_ideas
 }
 
 historical_units = {
-	early_def_kansai_infantry
-	early_def_kansai_cavalry
-	def_kansai_infantry
-	def_kansai_cavalry
-	late_def_kansai_infantry
-	late_def_kansai_cavalry
-	advanced_kansai_infantry
-	advanced_kansai_cavalry
+	early_def_kanto_infantry
+	early_off_kanto_cavalry
+	off_kanto_infantry
+	off_kanto_cavalry
+	late_off_kanto_infantry
+	late_off_kanto_cavalry
+	advanced_kanto_infantry
+	advanced_kanto_cavalry
 }
 
-monarch_names = {
-	"Oin #0" = 50
-	"Gyoson #0" = 50
-	"Sonchin #0" = 50
-	"Kakuin #0" = 50
-	"Sonoh #0" = 50
-	"Kinsho #0" = 50
-	"Gyoin #0" = 50
+monarch_names = { # Most Monarchs were named with "tomo"
+	"Morimasa #0" = 50
+	"Masashige #0" = 50
+	"Naoshige #0" = 50
+	"Naohide #0" = 50
+	"Naotsugu #0" = 50
+	"Shigetoki #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -62,17 +59,16 @@ monarch_names = {
 }
 
 leader_names = {
-    Honganji Honganji Honganji Honganji Honganji Honganji Honganji Honganji Honganji Honganji
-	Shimotsuma Shimotsuma Shimotsuma Shimotsuma Shimotsuma Ganshoji Ganshoji Ganshoji Ganshoji Ganshoji
-	Honsenji Honsenji Honsenji Honsenji Honsenji Shichiri Shichiri Shichiri Shichiri Shichiri
-	Sugiura Sugiura Sugiura Sugiura Sugiura Suzuki Suzuki Suzuki Suzuki Suzuki
-	Oka Oka Oka Oka Oka Tsuchibashi Tsuchibashi Tsuchibashi Tsuchibashi Tsuchibashi
-	Matoba Matoba Matoba Matoba Matoba Oku Oku Oku Oku Oku
-	Ota Ota Ota Ota Ota Tsuda Tsuda Tsuda Tsuda Tsuda
-	Satake Satake Satake Satake Satake Hattori Hattori Hattori Hattori Hattori
-	Ueda Ueda Ueda Ueda Ueda Morita Morita Morita Morita Morita
-	Takino Takino Takino Takino Takino Momochi Momochi Momochi Momochi Momochi
-	Togashi Togashi Togashi Togashi Togashi Tokuda Tokuda Tokuda Tokuda Tokuda
+    Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo Hojo
+	Matsuda Matsuda Matsuda Matsuda Matsuda Ando Ando Ando Ando Ando
+	Tominaga Tominaga Tominaga Tominaga Tominaga Tame Tame Tame Tame Tame
+	Daidoji Daidoji Daidoji Daidoji Daidoji Nakayama Nakayama Nakayama Nakayama Nakayaama
+	Haga Haga Haga Haga Haga Inomata Inomata Inomata Inomata Inomata
+	Kajiwara Kajiwara Kajiwara Kajiwara Kajiwara Kasahara Kasahara Kasahara Kasahara Kasahara
+	Shimizu Shimizu Shimizu Shimizu Shimizu Kano Kano Kano Kano Kano
+	Oishi Oishi Oishi Oishi Oishi Ueda Ueda Ueda Ueda Ueda
+	Ota Ota Ota Ota Ota Narita Narita Narita Narita Narita
+	Uesugi Uesugi Uesugi Uesugi Uesugi Ashikaga Ashikaga Ashikaga Ashikaga Ashikaga
 
 }
 
@@ -93,9 +89,9 @@ ship_names = {
 }
 
 army_names = {
-	"Enryakuji Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+	"Daidoji Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Enryakuji Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Daidoji Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

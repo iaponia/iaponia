@@ -49,6 +49,7 @@ trade_goods = pottery
     owner = KOD
 	add_core = KOD
 	remove_core = SHB
+	remove_core = ODA
 }
 
 1600.9.13 = {

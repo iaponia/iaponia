@@ -27,6 +27,8 @@ trade_goods = fish
 1493.6.9 = {
 	controller = KIR
     owner = KIR
+	remove_core = AHK
+	religion = jodoshinshu
 }
 
 1523.8.25 = {
@@ -44,17 +46,28 @@ trade_goods = fish
     add_core = IMG
     controller = IMG
     owner = IMG
+	remove_core = KOD
 }
 
 1569.10.10 = {
     add_core = TKG
-    remove_core = MDR
     owner = TKG
     controller = TKG
+	remove_core = MDR
+	remove_core = IMG
 }
 
 1600.9.13 = {
 	add_core = TNK
     controller = TNK
     owner = TNK
+	remove_core = TKG
+	remove_core = KIR
+}
+
+1615.1.1 = {
+	add_core = KIR
+	controller = KIR
+    owner = KIR
+	remove_core = TNK
 }

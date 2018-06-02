@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = AHK
-add_core = MDR
+add_core = OKU
 owner = AHK
 controller = AHK
 
@@ -25,6 +25,8 @@ trade_goods = bamboo
 1493.6.9 = {
 	controller = MDR
     owner = MDR
+	add_core = MDR
+	remove_core = AHK
 }
 
 1546.5.19 = {
@@ -40,6 +42,7 @@ trade_goods = bamboo
     remove_core = MDR
     owner = TKG
     controller = TKG
+	remove_core = IMG
 	arsenal = yes
 }
 
@@ -47,4 +50,14 @@ trade_goods = bamboo
 	add_core = IKE
     controller = IKE
     owner = IKE
+	remove_core = TKG
+	remove_core = OKU
+}
+
+1615.1.1 = {
+	add_core = TNK
+    controller = TNK
+    owner = TNK
+	remove_core = IKE
+	religion = catholic
 }

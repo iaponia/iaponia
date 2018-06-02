@@ -21,7 +21,8 @@ base_manpower = 2
 trade_goods = bamboo
 
 1546.5.19 = {
-    controller = TKD
+    add_core = TKD
+	controller = TKD
     owner = TKD
 }
 
@@ -29,10 +30,20 @@ trade_goods = bamboo
     add_core = TAK
     owner = TAK
     controller = TAK
+	remove_core = TKD
+	remove_core = UNO
 }
 
 1600.9.13 = {
 	add_core = ANO
     owner = ANO
     controller = ANO
+	remove_core = TAK
+}
+
+1615.1.1 = {
+	add_core = SNA
+    owner = SNA
+    controller = SNA
+	remove_core = ANO
 }

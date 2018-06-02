@@ -26,6 +26,7 @@ trade_goods = paper
 1493.6.9 = {
 	controller = MDR
     owner = MDR
+	remove_core = AHK
 	marketplace = yes
 }
 
@@ -40,10 +41,20 @@ trade_goods = paper
     remove_core = MDR
     owner = TKG
     controller = TKG
+	remove_core = IMG
 }
 
 1600.9.13 = {
 	add_core = IKE
     controller = IKE
     owner = IKE
+	remove_core = TKG
+}
+
+1615.1.1 = {
+	add_core = TNK
+    controller = TNK
+    owner = TNK
+	remove_core = IKE
+	religion = catholic
 }

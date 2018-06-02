@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = AHK
-add_core = MDR
+add_core = HND
 owner = AHK
 controller = AHK
 
@@ -24,6 +24,9 @@ trade_goods = grain
 1493.6.9 = {
 	controller = MDR
     owner = MDR
+	add_core = MDR
+	remove_core = AHK
+	religion = jodoshinshu
 	shrine = yes
 }
 
@@ -38,10 +41,21 @@ trade_goods = grain
     remove_core = MDR
     owner = TKG
     controller = TKG
+	remove_core = IMG
 }
 
 1600.9.13 = {
 	add_core = TNK
     controller = TNK
     owner = TNK
+	remove_core = TKG
+	remove_core = HND
+}
+
+1615.1.1 = {
+	add_core = MDR
+    controller = MDR
+    owner = MDR
+	remove_core = TNK
+	religion = shinto
 }

@@ -11,7 +11,7 @@ owner = TKD
 controller = TKD
 
 culture = kai_c
-religion = shinto
+religion = nichirenshu
 capital = "Koyama"
 is_city = yes
 training_grounds = yes
@@ -31,10 +31,20 @@ trade_goods = lacquerware
     add_core = KWJ
     owner = KWJ
     controller = KWJ
+	remove_core = TKD
+	remove_core = ATB
 }
 
 1600.9.13 = {
 	add_core = ANO
     owner = ANO
     controller = ANO
+	remove_core = KWJ
+}
+
+1615.1.1 = {
+	add_core = TKD
+    owner = TKD
+    controller = TKD
+	remove_core = ANO
 }

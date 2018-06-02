@@ -28,6 +28,7 @@ trade_goods = lacquerware
 1493.6.9 = {
 	controller = MDR
     owner = MDR
+	remove_core = AHK
 	garrison_b = yes
 }
 
@@ -44,6 +45,7 @@ trade_goods = lacquerware
     remove_core = MDR
     owner = TKG
     controller = TKG
+	remove_core = IMG
 	fort = yes
 	merchant_guild = yes
 	workshop = yes
@@ -53,5 +55,13 @@ trade_goods = lacquerware
 	add_core = TNK
     controller = TNK
     owner = TNK
+	remove_core = TKG
 	shrine = yes
+}
+
+1615.1.1 = {
+	add_core = MDR
+    controller = MDR
+    owner = MDR
+	remove_core = TNK
 }

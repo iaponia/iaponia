@@ -41,4 +41,13 @@ trade_goods = metal
 	add_core = HOR
     controller = HOR
     owner = HOR
+	remove_core = UES
+	remove_core = TNS
+}
+
+1615.1.1 = {
+	add_core = MKM
+    owner = MKM
+    controller = MKM
+	remove_core = HOR
 }

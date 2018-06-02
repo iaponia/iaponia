@@ -42,7 +42,6 @@ trade_goods = paper
     controller = KOD
     owner = KOD
 	remove_core = ODA
-	religion = catholic
 }
 
 1600.9.13 = {
@@ -57,4 +56,5 @@ trade_goods = paper
     controller = ODA
     owner = ODA
 	remove_core = FUK
+	religion = catholic
 }

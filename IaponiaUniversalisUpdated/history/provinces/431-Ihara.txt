@@ -11,7 +11,7 @@ owner = IMG
 controller = IMG
 
 culture = sunshu_c
-religion = shinto
+religion = nichirenshu
 capital = "Kanbara"
 is_city = yes
 fortified_mansion = yes
@@ -35,6 +35,7 @@ trade_goods = cloth
 
 1569.10.10 = {
     add_core = HJO
+	add_core = TKD
     owner = HJO
     controller = HJO
 }
@@ -43,4 +44,14 @@ trade_goods = cloth
     add_core = TKG
     controller = TKG
     owner = TKG
+	remove_core = TKD
+	remove_core = IMG
+	remove_core = HJO
+}
+
+1615.1.1 = {
+	add_core = ASH
+    controller = ASH
+    owner = ASH
+	remove_core = TKG
 }

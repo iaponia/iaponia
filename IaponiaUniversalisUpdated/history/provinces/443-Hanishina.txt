@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = MKM
+add_core = SNA
 owner = MKM
 controller = MKM
 
@@ -31,10 +32,11 @@ trade_goods = sake
     add_core = TKD
     owner = TKD
     controller = TKD
+	remove_core = MKM
 }
 
 1582.6.21 = {
-    add_core = SNA
     owner = SNA
     controller = SNA
+	remove_core = TKD
 }

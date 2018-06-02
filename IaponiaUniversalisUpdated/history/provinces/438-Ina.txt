@@ -28,10 +28,11 @@ trade_goods = grain
 1536.4.7 = {
     controller = OGS
     owner = OGS
+	remove_core = SOG
 	garrison_b = yes
 }
 
-1554.3.1 = {
+1546.5.19 = {
     add_core = TKD
     owner = TKD
     controller = TKD
@@ -47,10 +48,20 @@ trade_goods = grain
     add_core = OMO
     owner = OMO
     controller = OMO
+	remove_core = TKD
+	remove_core = OGS
 }
 
 1600.9.13 = {
 	add_core = KGK
     owner = KGK
     controller = KGK
+	remove_core = OMO
+}
+
+1615.1.1 = {
+	add_core = KSO
+    owner = KSO
+    controller = KSO
+	remove_core = KGK
 }

@@ -40,4 +40,13 @@ trade_goods = cloth
     add_core = OMO
     owner = OMO
     controller = OMO
+	remove_core = OGS
+	remove_core = TKD
+}
+
+1615.1.1 = {
+	add_core = OGS
+    owner = OGS
+    controller = OGS
+	remove_core = OMO
 }

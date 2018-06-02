@@ -26,6 +26,7 @@ trade_goods = horses
     owner = IMG
     controller = IMG
     add_core = IMG
+	remove_core = SBA
 	workshop = yes
 }
 
@@ -33,6 +34,7 @@ trade_goods = horses
     add_core = TKG
     owner = TKG
     controller = TKG
+	remove_core = IMG
 	barracks = yes
 	arsenal = yes
 }
@@ -41,4 +43,13 @@ trade_goods = horses
 	add_core = HRI
     owner = HRI
     controller = HRI
+	remove_core = TKG
+	remove_core = YII
+}
+
+1615.1.1 = {
+	add_core = YII
+    owner = YII
+    controller = YII
+	remove_core = HRI
 }

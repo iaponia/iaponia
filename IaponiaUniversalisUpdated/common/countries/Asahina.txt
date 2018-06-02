@@ -1,0 +1,107 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 177 96 142 }
+
+preferred_religion = shinto
+
+historical_idea_groups = {
+	expansion_ideas
+	diplomatic_ideas
+	offensive_ideas
+	leadership_ideas
+	administrative_ideas
+	shinto_ideas
+}
+
+historical_units = {
+	early_off_kanto_infantry
+	early_off_kanto_cavalry
+	off_kanto_infantry
+	off_kanto_cavalry
+	late_def_kanto_infantry
+	late_def_kanto_cavalry
+	advanced_kanto_infantry
+	advanced_kanto_cavalry
+}
+
+monarch_names = {
+	"Yoshitoshi #0" = 50
+	"Yasumochi #0" = 50
+	"Yasuhiro #0" = 50
+	"Yasuyoshi #0" = 50
+	"Toshinaga #0" = 50
+	"Yasutomo #0" = 50
+	"Motonaga #0" = 50
+	"Nobuoki #0" = 50
+	"Nobuyoshi #0" = 50
+	"Toku #0" = -5
+	"Sen #0" = -5
+	"Tama #0" = -5
+	"Aya #0" = -5
+	"Komatsu #0" = -5
+	"Ginchiyo #0" = -5
+	"Fuyu #0" = -5
+	"Matsu #0" = -5
+	"Naotora #0" = -5
+	"Ichi #0" = -5
+	"Chacha #0" = -5
+	"Go #0" = -5
+	"Hatsu #0" = -5
+	"Ne #0" = -5
+	"Myorin #0" = -5
+	"Hikotsuru #0" = -5
+	"Nana #0" = -5
+	"Kicho #0" = -5
+	"Myokyu #0" = -5
+	"Kai #0" = -5
+	"Osen #0" = -5
+	"Yoshi #0" = -5
+	"Sena #0" = -5
+	"Chiyo #0" = -5
+	"Tsuru #0" = -5
+}
+
+leader_names = {
+    Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa Tokugawa
+	Matsudaira Matsudaira Matsudaira Matsudaira Matsudaira Honda Honda Honda Honda Honda
+	Kira Kira Kira Kira Kira Ishikawa Ishikawa Ishikawa Ishikawa Ishikawa
+	Torii Torii Torii Torii Torii Hattori Hattori Hattori Hattori Hattori
+	Sakakibara Sakakibara Sakakibara Sakakibara Sakakibara Sakai Sakai Sakai Sakai Sakai 
+	Abe Abe Abe Abe Abe Koriki Koriki Koriki Koriki Koriki
+	Naito Naito Naito Naito Naito Mizuno Mizuno Mizuno Mizuno Mizuno
+	Okubo Okubo Okubo Okubo Okubo Okudaira Okudaira Okudaira Okudaira Okudaira
+	Makino Makino Makino Makino Makino Hoshina Hoshina Hoshina Hoshina Hoshina
+	Sanada Sanada Sanada Sanada Sanada Ii Ii Ii Ii Ii
+	Doi Doi Doi Doi Doi Amano Amano Amano Amano Amano
+	Imagawa Imagawa Imagawa Imagawa Imagawa Sena Sena Sena Sena Sena
+	Okabe Okabe Okabe Okabe Okabe Itami Itami Itami Itami Itami
+	Fukushima Fukushima Fukushima Fukushima Fukushima Asahina Asahina Asahina Asahina Asahina
+	Mishuku Mishuku Mishuku Mishuku Mishuku Udono Udono Udono Udono Udono
+	Katsurayama Katsurayama Katsurayama Katsurayama Katsurayama Mukai Mukai Mukai Mukai Mukai
+}
+
+ship_names = {
+	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
+	"Hitachi Maru"
+	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
+	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
+	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
+	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
+	"Iyo Maru" "Harima Maru" "Banshu Maru"
+	"Hoki Maru" "Inaba Maru" "Bizen Maru" "Mimasaka Maru" "Binshu Maru"
+	"Bingo Maru" "Bittchu Maru" "Aki Maru" "Izumo Maru" "Iwami Maru" "Suou Maru" "Nagato Maru" "Bungo Maru"
+	"Buzen Maru" "Chikuzen Maru"
+	"Chikugo Maru" "Hizen Maru" "Higo Maru" "Chikushu Maru" "Hyuga Maru" "Osumi Maru" "Satsuma Maru" "Sasshu Maru"
+}
+
+army_names = {
+	"Asahina Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei" "$PROVINCE$ Dan"
+}
+
+fleet_names = {
+	"Asahina Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+}

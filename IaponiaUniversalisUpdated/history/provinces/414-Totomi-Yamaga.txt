@@ -25,16 +25,20 @@ trade_goods = lumber
     owner = IMG
     controller = IMG
     add_core = IMG
+	remove_core = SBA
 }
 
 1569.10.10 = {
     add_core = TKG
     owner = TKG
     controller = TKG
+	remove_core = IMG
 }
 
 1600.9.13 = {
 	add_core = HRI
     owner = HRI
     controller = HRI
+	remove_core = TKG
+	remove_core = OKB
 }

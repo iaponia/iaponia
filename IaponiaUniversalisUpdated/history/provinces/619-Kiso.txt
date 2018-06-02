@@ -37,10 +37,19 @@ trade_goods = horses
     add_core = KSO
     owner = KSO
     controller = KSO
+	remove_core = TKD
 }
 
 1600.9.13 = {
 	add_core = KGK
     owner = KGK
     controller = KGK
+	remove_core = KSO
+}
+
+1615.1.1 = {
+	add_core = KSO
+    owner = KSO
+    controller = KSO
+	remove_core = KGK
 }

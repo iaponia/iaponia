@@ -31,4 +31,13 @@ trade_goods = bamboo
     add_core = TKG
     controller = TKG
     owner = TKG
+	remove_core = TKD
+	remove_core = IMG
+}
+
+1615.1.1 = {
+	add_core = IMG
+    controller = IMG
+    owner = IMG
+	remove_core = TKG
 }

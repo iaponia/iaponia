@@ -7,7 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = SBA
-add_core = OKB
+add_core = ASH
 owner = SBA
 controller = SBA
 
@@ -26,16 +26,27 @@ trade_goods = pottery
     owner = IMG
     controller = IMG
     add_core = IMG
+	remove_core = SBA
 }
 
 1569.10.10 = {
     add_core = TKG
     owner = TKG
     controller = TKG
+	remove_core = ASH
+	remove_core = IMG
 }
 
 1600.9.13 = {
 	add_core = YMC
     owner = YMC
     controller = YMC
+	remove_core = TKG
+}
+
+1615.1.1 = {
+	add_core = SBA
+    owner = SBA
+    controller = SBA
+	remove_core = YMC
 }

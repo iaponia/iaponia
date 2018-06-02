@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = MKM
+add_core = SNA
 owner = MKM
 controller = MKM
 
@@ -31,6 +32,7 @@ trade_goods = grain
     add_core = TKD
     owner = TKD
     controller = TKD
+	remove_core = MKM
 }
 
 1569.10.10 = {
@@ -44,6 +46,7 @@ trade_goods = grain
 	add_core = SNA
     owner = SNA
     controller = SNA
+	remove_core = TKD
 	castle = yes
 	outer_wards = yes
 }

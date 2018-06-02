@@ -8,6 +8,7 @@ discovered_by = ainu
 
 add_core = SBA
 add_core = YII
+add_core = OKB
 owner = SBA
 controller = SBA
 
@@ -26,16 +27,28 @@ trade_goods = tea
     owner = IMG
     controller = IMG
     add_core = IMG
+	remove_core = SBA
 }
 
 1569.10.10 = {
     add_core = TKG
     owner = TKG
     controller = TKG
+	remove_core = IMG
 }
 
 1600.9.13 = {
 	add_core = HRI
     owner = HRI
     controller = HRI
+	remove_core = TKG
+	remove_core = YII
+	remove_core = OKB
+}
+
+1615.1.1 = {
+	add_core = YII
+    owner = YII
+    controller = YII
+	remove_core = HRI
 }

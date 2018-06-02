@@ -26,6 +26,7 @@ trade_goods = fish
     owner = IMG
     controller = IMG
     add_core = IMG
+	remove_core = SBA
 	shrine = yes
 }
 
@@ -33,10 +34,20 @@ trade_goods = fish
     add_core = TKG
     owner = TKG
     controller = TKG
+	remove_core = IMG
 }
 
 1600.9.13 = {
 	add_core = HRI
     owner = HRI
     controller = HRI
+	remove_core = TKG
+	remove_core = YII
+}
+
+1615.1.1 = {
+	add_core = YII
+    owner = YII
+    controller = YII
+	remove_core = HRI
 }

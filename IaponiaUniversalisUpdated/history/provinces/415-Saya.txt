@@ -7,7 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = SBA
-add_core = OKB
+add_core = ASH
 owner = SBA
 controller = SBA
 
@@ -29,6 +29,7 @@ trade_goods = bamboo
     owner = IMG
     controller = IMG
     add_core = IMG
+	remove_core = SBA
 	temple = yes
 }
 
@@ -36,6 +37,8 @@ trade_goods = bamboo
     add_core = TKG
     owner = TKG
     controller = TKG
+	remove_core = ASH
+	remove_core = IMG
 	arsenal = yes
 	barracks = yes
 }
@@ -44,4 +47,12 @@ trade_goods = bamboo
 	add_core = YMC
     owner = YMC
     controller = YMC
+	remove_core = TKG
+}
+
+1615.1.1 = {
+	add_core = SBA
+    owner = SBA
+    controller = SBA
+	remove_core = YMC
 }

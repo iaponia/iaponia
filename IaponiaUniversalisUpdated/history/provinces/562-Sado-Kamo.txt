@@ -11,7 +11,7 @@ owner = EGU
 controller = EGU
 
 culture = sado_c
-religion = shinto
+religion = nichirenshu
 capital = "Kuji"
 is_city = yes
 
@@ -24,4 +24,5 @@ trade_goods = fish
 1511.9.25 = {
     controller = HNM
     owner = HNM
+	remove_core = EGU
 }

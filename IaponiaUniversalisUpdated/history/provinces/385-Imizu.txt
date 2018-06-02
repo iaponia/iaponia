@@ -23,10 +23,15 @@ base_manpower = 3
 
 trade_goods = lacquerware
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
     add_core = HGJ
     controller = HGJ
     owner = HGJ
+	remove_core = BHY
 	temple = yes
 	training_grounds = yes
 }
@@ -42,10 +47,17 @@ trade_goods = lacquerware
     controller = SSS
     owner = SSS
 	workshop = yes
+	remove_core = HGJ
+	remove_core = JNB
 }
 
 1600.9.13 = {
 	add_core = MAE
     controller = MAE
     owner = MAE
+	remove_core = SSS
+}
+
+1615.1.1 = {
+	religion = shinto
 }

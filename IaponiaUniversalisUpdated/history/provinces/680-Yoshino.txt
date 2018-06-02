@@ -26,6 +26,7 @@ trade_goods = pilgrimage_site
 1493.6.9 = {
     controller = ASA
 	owner = ASA
+	remove_core = SBA
 	temple = yes
 	training_grounds = yes
 }
@@ -38,10 +39,19 @@ trade_goods = pilgrimage_site
     add_core = SHB
     controller = SHB
     owner = SHB
+	remove_core = ASA
 }
 
 1600.9.13 = {
     add_core = NIW
     controller = NIW
     owner = NIW
+	remove_core = SHB
+}
+
+1615.1.1 = {
+	add_core = ASA
+    controller = ASA
+    owner = ASA
+	remove_core = NIW
 }

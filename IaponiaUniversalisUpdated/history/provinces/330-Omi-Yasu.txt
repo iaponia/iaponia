@@ -30,10 +30,21 @@ trade_goods = fish
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = ODA
+	remove_core = RKK
 }
 
 1600.9.13 = {
-	add_core = ISH
-    controller = ISH
-    owner = ISH
+	add_core = NTS
+    controller = NTS
+    owner = NTS
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	add_core = ENR
+    controller = ENR
+    owner = ENR
+	remove_core = NTS
+	religion = jodoshinshu
 }

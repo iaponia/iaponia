@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = RKK
+add_core = GAM
 owner = RKK
 controller = RKK
 
@@ -31,10 +32,23 @@ trade_goods = rice
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = ODA
+	remove_core = RKK
+	remove_core = GAM
 }
 
 1600.9.13 = {
-	add_core = ISH
-    controller = ISH
-    owner = ISH
+	add_core = NTS
+    controller = NTS
+    owner = NTS
+	remove_core = GAM
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	add_core = RKK
+	owner = RKK
+	controller = RKK
+	remove_core = NTS
+	religion = catholic
 }

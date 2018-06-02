@@ -11,7 +11,7 @@ owner = EGU
 controller = EGU
 
 culture = sado_c
-religion = shinto
+religion = nichirenshu
 capital = "Yoshioka"
 is_city = yes
 shipyard = yes
@@ -26,5 +26,6 @@ trade_goods = salt
 1511.9.25 = {
     controller = HNM
     owner = HNM
+	remove_core = EGU
 	training_grounds = yes
 }

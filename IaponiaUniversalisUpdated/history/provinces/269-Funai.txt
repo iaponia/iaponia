@@ -27,6 +27,7 @@ trade_goods = tea
 1523.8.25 = {
     owner = HTN
     controller = HTN
+	remove_core = HSK
 }
 
 1554.3.1 = {
@@ -39,16 +40,26 @@ trade_goods = tea
 1569.10.10 = {
 	owner = HTN
     controller = HTN
+	remove_core = MYI
 }
 
 1582.6.21 = {
     owner = AKC
     controller = AKC
     add_core = AKC
+	remove_core = HTN
 }
 
 1600.9.13 = {
     owner = TOY
     controller = TOY
     add_core = TOY
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	owner = HTN
+    controller = HTN
+    add_core = HTN
+	remove_core = TOY
 }

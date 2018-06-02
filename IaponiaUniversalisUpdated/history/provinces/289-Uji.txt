@@ -35,10 +35,19 @@ trade_goods = tea
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = ASK
 }
 
 1600.9.13 = {
 	add_core = TKG
     controller = TKG
     owner = TKG
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	add_core = ASK
+    controller = ASK
+    owner = ASK
+	remove_core = TKG
 }

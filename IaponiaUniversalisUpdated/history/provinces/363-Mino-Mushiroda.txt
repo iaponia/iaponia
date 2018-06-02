@@ -26,6 +26,7 @@ trade_goods = rice
 1546.5.19 = {
     controller = STO
     owner = STO
+	remove_core = TKI
 	workshop = yes
 }
 
@@ -33,16 +34,27 @@ trade_goods = rice
     add_core = ODA
     controller = ODA
     owner = ODA
+	remove_core = STO
 }
 
 1582.6.21 = {
 	add_core = GOD
     controller = GOD
     owner = GOD
+	remove_core = ODA
 }
 
 1600.9.13 = {
 	add_core = ODA
     controller = ODA
     owner = ODA
+	remove_core = GOD
+}
+
+1615.1.1 = {
+	add_core = STO
+    controller = STO
+    owner = STO
+	remove_core = ODA
+	religion = nichirenshu
 }

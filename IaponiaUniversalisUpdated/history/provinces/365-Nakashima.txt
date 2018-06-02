@@ -29,6 +29,7 @@ trade_goods = lacquerware
 1511.9.25 = {
     controller = IOD
     owner = IOD
+	remove_core = SBA
 	training_grounds = yes
 }
 
@@ -41,17 +42,30 @@ trade_goods = lacquerware
     add_core = ODA
     controller = ODA
     owner = ODA
+	remove_core = IOD
+	remove_core = KOD
 	workshop = yes
 	barracks = yes
 }
 
 1582.6.21 = {
+	add_core = KOD
     controller = KOD
     owner = KOD
+	remove_core = ODA
 }
 
 1600.9.13 = {
 	add_core = FUK
     controller = FUK
     owner = FUK
+	remove_core = KOD
+}
+
+1615.1.1 = {
+	add_core = ODA
+    controller = ODA
+    owner = ODA
+	remove_core = FUK
+	religion = catholic
 }

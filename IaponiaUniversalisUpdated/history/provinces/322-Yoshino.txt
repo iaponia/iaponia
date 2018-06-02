@@ -26,10 +26,19 @@ trade_goods = pilgrimage_site
     add_core = TTI
     controller = TTI
     owner = TTI
+	remove_core = OTI
 }
 
 1600.9.13 = {
-    add_core = TKG
-    controller = TKG
-    owner = TKG
+    add_core = MSH
+    controller = MSH
+    owner = MSH
+	remove_core = TTI
+}
+
+1615.1.1 = {
+	add_core = OTI
+    controller = OTI
+    owner = OTI
+	remove_core = MSH
 }

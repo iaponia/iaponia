@@ -25,4 +25,12 @@ trade_goods = seaweed
     owner = HSK
     controller = HSK
     add_core = HSK
+	remove_core = ISK
+}
+
+1615.1.1 = {
+	owner = ISK
+    controller = ISK
+    add_core = ISK
+	remove_core = HSK
 }

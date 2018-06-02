@@ -27,6 +27,8 @@ trade_goods = pottery
 1493.6.9 = {
     controller = ASA
 	owner = ASA
+	remove_core = SBA
+	religion = jodoshinshu
 	artisan_workshop = yes
 }
 
@@ -34,6 +36,7 @@ trade_goods = pottery
     add_core = SHB
     controller = SHB
     owner = SHB
+	remove_core = ASA
 	merchant_guild = yes
 }
 
@@ -41,4 +44,9 @@ trade_goods = pottery
     add_core = NIW
     controller = NIW
     owner = NIW
+	remove_core = SHB
+}
+
+1615.1.1 = {
+	religion = shinto
 }

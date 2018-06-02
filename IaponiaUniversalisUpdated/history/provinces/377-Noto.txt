@@ -7,7 +7,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = NHK
-add_core = JNB
 owner = NHK
 controller = NHK
 
@@ -42,10 +41,19 @@ trade_goods = lacquerware
     add_core = MAE
     controller = MAE
     owner = MAE
+	remove_core = NHK
 }
 
 1600.9.13 = {
     add_core = NMA
     controller = NMA
     owner = NMA
+}
+
+1615.1.1 = {
+	add_core = NHK
+    controller = NHK
+    owner = NHK
+	remove_core = MAE
+	remove_core = NMA
 }

@@ -38,6 +38,7 @@ trade_goods = pottery
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = ASK
 	temple = yes
 	tea_house = yes
 }
@@ -46,5 +47,15 @@ trade_goods = pottery
 	add_core = TKG
     controller = TKG
     owner = TKG
+	remove_core = AKC
 	castle = yes
+	religion = catholic
+}
+
+1615.1.1 = {
+	add_core = ASK
+    controller = ASK
+    owner = ASK
+	remove_core = TKG
+	religion = shinto
 }

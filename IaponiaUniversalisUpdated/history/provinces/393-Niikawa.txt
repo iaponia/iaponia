@@ -7,7 +7,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = BHY
-add_core = JNB
 add_core = SII
 owner = BHY
 controller = BHY
@@ -26,22 +25,33 @@ trade_goods = fish
 1511.9.25 = {
     owner = SII
     controller = SII
+	remove_core = BHY
 }
 
 1569.10.10 = {
     add_core = UES
     owner = UES
     controller = UES
+	remove_core = SII
 }
 
 1582.6.21 = {
     add_core = SSS
     owner = SSS
     controller = SSS
+	remove_core = UES
 }
 
 1600.9.13 = {
     add_core = MAE
     owner = MAE
     controller = MAE
+	remove_core = SSS
+}
+
+1615.1.1 = {
+    add_core = SSS
+    owner = SSS
+    controller = SSS
+	remove_core = MAE
 }

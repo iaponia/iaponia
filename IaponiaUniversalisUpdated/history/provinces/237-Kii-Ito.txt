@@ -22,20 +22,38 @@ base_manpower = 3
 
 trade_goods = pilgrimage_site
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
     owner = BHY
     controller = BHY
 	add_core = BHY
+	remove_core = SHK
 }
 
 1546.5.19 = {
     owner = NGR
     controller = NGR
 	add_core = HTK
+	remove_core = BHY
+}
+
+1569.10.10 = {
+	remove_core = HTK
 }
 
 1600.9.13 = {
-	owner = TKG
-    controller = TKG
-	add_core = TKG
+	owner = TOY
+    controller = TOY
+	add_core = TOY
+	remove_core = NGR
+}
+
+1615.1.1 = {
+	owner = NGR
+    controller = NGR
+	add_core = NGR
+	remove_core = TOY
 }

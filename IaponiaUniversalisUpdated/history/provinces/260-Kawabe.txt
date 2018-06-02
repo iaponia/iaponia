@@ -8,6 +8,7 @@ discovered_by = ainu
 
 add_core = HSK
 add_core = YKS
+add_core = AAI
 owner = HSK
 controller = HSK
 
@@ -25,6 +26,15 @@ base_manpower = 5
 
 trade_goods = cloth
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
+1511.9.25 = {
+	remove_core = YKS
+	add_core = NAK
+}
+
 1523.8.25 = {
 	garrison_b = yes
 }
@@ -35,10 +45,10 @@ trade_goods = cloth
     owner = MYI
 	barracks = yes
 	temple = yes
+	remove_core = HSK
 }
 
 1569.10.10 = {
-    add_core = AAI
     controller = AAI
     owner = AAI
 	fort = yes
@@ -48,13 +58,24 @@ trade_goods = cloth
 }
 
 1582.6.21 = {
-    add_core = IKE
+	add_core = IKE
     controller = IKE
     owner = IKE
+	remove_core = AAI
+	remove_core = MYI
 }
 
 1600.9.13 = {
     add_core = TOY
     controller = TOY
     owner = TOY
+	remove_core = IKE
+	remove_core = NAK
+}
+
+1615.1.1 = {
+	add_core = AAI
+    controller = AAI
+    owner = AAI
+	remove_core = TOY
 }

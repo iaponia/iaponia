@@ -22,16 +22,23 @@ base_manpower = 2
 
 trade_goods = rice
 
+1511.9.25 = {
+	remove_core = YKS
+}
+
 1554.3.1 = {
     add_core = MYI
     controller = MYI
     owner = MYI
 	workshop = yes
+	remove_core = HSK
 }
 
 1569.10.10 = {
     add_core = AAI
+	add_core = TKY
     controller = AAI
+	remove_core = WAD
     owner = AAI
 }
 
@@ -39,10 +46,22 @@ trade_goods = rice
     add_core = IKE
     controller = IKE
     owner = IKE
+	remove_core = MYI
+	remove_core = AAI
+	religion = catholic
 }
 
 1600.9.13 = {
     add_core = TOY
     controller = TOY
     owner = TOY
+	remove_core = TKY
+	remove_core = IKE
+}
+
+1615.1.1 = {
+	add_core = WAD
+	owner = WAD
+	controller = WAD
+	remove_core = TOY
 }

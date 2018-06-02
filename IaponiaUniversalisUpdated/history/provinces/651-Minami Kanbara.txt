@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = EGU
-add_core = NGO
+add_core = NAO
 owner = EGU
 controller = EGU
 
@@ -22,9 +22,15 @@ base_manpower = 3
 
 trade_goods = lacquerware
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1554.3.1 = {
+	add_core = NGO
     controller = NGO
     owner = NGO
+	remove_core = EGU
 	marketplace = yes
 	barracks = yes
 }
@@ -40,4 +46,14 @@ trade_goods = lacquerware
 	add_core = MZG
 	controller = MZG
     owner = MZG
+	remove_core = UES
+	remove_core = NAO
+}
+
+1615.1.1 = {
+	add_core = NAO
+    owner = NAO
+    controller = NAO
+	remove_core = MZG
+	religion = shinto
 }

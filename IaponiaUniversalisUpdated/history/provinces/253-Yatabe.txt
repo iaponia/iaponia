@@ -25,6 +25,11 @@ base_manpower = 3
 
 trade_goods = salt
 
+1511.9.25 = {
+	remove_core = YKS
+	add_core = AAI
+}
+
 1523.8.25 = {
 	magistrate = yes
 }
@@ -34,10 +39,10 @@ trade_goods = salt
     controller = MYI
     owner = MYI
 	merchant_guild = yes
+	remove_core = HSK
 }
 
 1569.10.10 = {
-    add_core = AAI
     controller = AAI
     owner = AAI
 }
@@ -46,10 +51,21 @@ trade_goods = salt
     add_core = IKE
     controller = IKE
     owner = IKE
+	remove_core = AAI
+	remove_core = MYI
 }
 
 1600.9.13 = {
     add_core = TOY
     controller = TOY
     owner = TOY
+	remove_core = IKE
+}
+
+1615.1.1 = {
+	add_core = NAK
+    controller = NAK
+    owner = NAK
+	religion = catholic
+	remove_core = TOY
 }

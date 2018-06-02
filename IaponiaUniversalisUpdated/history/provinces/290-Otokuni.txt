@@ -22,14 +22,31 @@ base_manpower = 2
 
 trade_goods = dyes
 
+1569.10.10 = {
+    add_core = ODA
+    controller = ODA
+    owner = ODA
+}
+
 1582.6.21 = {
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = ODA
+	remove_core = ASK
 }
 
 1600.9.13 = {
 	add_core = TKG
     controller = TKG
     owner = TKG
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	add_core = KMA
+    controller = KMA
+    owner = KMA
+	remove_core = TKG
+	religion = jodoshinshu
 }

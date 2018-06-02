@@ -1,6 +1,6 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = biwa_c
+primary_culture = mino_c
 religion = shinto
 technology_group = saigoku
 capital = 334

@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = RKK
+add_core = GAM
 owner = RKK
 controller = RKK
 
@@ -42,12 +43,23 @@ trade_goods = lacquerware
 	add_core = GAM
     controller = GAM
     owner = GAM
+	remove_core = RKK
+	remove_core = ODA
 	arsenal = yes
 	merchant_guild = yes
 }
 
 1600.9.13 = {
-	add_core = ISH
-    controller = ISH
-    owner = ISH
+	add_core = NTS
+    controller = NTS
+    owner = NTS
+	remove_core = GAM
+}
+
+1615.1.1 = {
+	add_core = RKK
+	owner = RKK
+	controller = RKK
+	remove_core = NTS
+	religion = catholic
 }

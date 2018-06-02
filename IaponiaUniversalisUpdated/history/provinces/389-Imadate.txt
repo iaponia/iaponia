@@ -26,6 +26,7 @@ trade_goods = paper
 1493.6.9 = {
     controller = ASA
 	owner = ASA
+	remove_core = SBA
 	artisan_workshop = yes
 }
 
@@ -33,10 +34,12 @@ trade_goods = paper
     add_core = SHB
     controller = SHB
     owner = SHB
+	remove_core = ASA
 }
 
 1600.9.13 = {
     add_core = NIW
     controller = NIW
     owner = NIW
+	remove_core = SHB
 }

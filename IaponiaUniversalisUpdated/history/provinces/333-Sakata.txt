@@ -8,6 +8,7 @@ discovered_by = ainu
 
 add_core = KGK
 add_core = AZI
+add_core = ISH
 owner = KGK
 controller = KGK
 
@@ -15,7 +16,7 @@ culture = biwa_c
 religion = shinto
 capital = "Imahama"
 is_city = yes
-fortified_mansion = yes
+shrine = yes
 training_grounds = yes
 
 base_tax = 5
@@ -27,7 +28,7 @@ trade_goods = pottery
 1536.4.7 = {
     controller = AZI
     owner = AZI
-	garrison_b = yes
+	remove_core = KGK
 	barracks = yes
 }
 
@@ -36,21 +37,19 @@ trade_goods = pottery
 	gunsmith = yes
 	arsenal = yes
 	workshop = yes
-}
-
-1554.3.1 = {
-	fort = yes
-	outer_wall = yes
+	magistrate = yes
 }
 
 1582.6.21 = {
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = AZI
 }
 
 1600.9.13 = {
 	add_core = ISH
     controller = ISH
     owner = ISH
+	remove_core = AKC
 }

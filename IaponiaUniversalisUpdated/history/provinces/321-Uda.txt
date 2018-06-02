@@ -31,22 +31,35 @@ trade_goods = metal
     add_core = MYI
     controller = MYI
     owner = MYI
+	add_core = MNA
+	remove_core = KBK
 }
 
 1569.10.10 = {
     add_core = MNA
     controller = MNA
     owner = MNA
+	remove_core = MYI
 }
 
 1582.6.21 = {
     add_core = TTI
     controller = TTI
     owner = TTI
+	remove_core = AKY
+	remove_core = MNA
 }
 
 1600.9.13 = {
-	add_core = ISH
-    controller = ISH
-    owner = ISH
+	add_core = MSH
+    controller = MSH
+    owner = MSH
+	remove_core = TTI
+}
+
+1615.1.1 = {
+	add_core = OTI
+    controller = OTI
+    owner = OTI
+	remove_core = MSH
 }

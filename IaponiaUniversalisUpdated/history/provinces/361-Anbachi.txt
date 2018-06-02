@@ -7,7 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = TKI
-add_core = STO
+add_core = TKN
 owner = TKI
 controller = TKI
 
@@ -26,6 +26,8 @@ trade_goods = sake
 1546.5.19 = {
     controller = STO
     owner = STO
+	add_core = STO
+	remove_core = TKI
 	training_grounds = yes
 	workshop = yes
 }
@@ -35,16 +37,27 @@ trade_goods = sake
     controller = ODA
     owner = ODA
 	barracks = yes
+	remove_core = STO
 }
 
 1582.6.21 = {
 	add_core = GOD
     controller = GOD
     owner = GOD
+	remove_core = ODA
+	remove_core = TKN
 }
 
 1600.9.13 = {
 	add_core = ODA
     controller = ODA
     owner = ODA
+	remove_core = GOD
+}
+
+1615.1.1 = {
+	add_core = TKN
+    controller = TKN
+    owner = TKN
+	remove_core = ODA
 }

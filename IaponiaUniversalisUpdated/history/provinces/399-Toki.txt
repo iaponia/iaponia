@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = TKI
-add_core = STO
+add_core = AKC
 owner = TKI
 controller = TKI
 
@@ -24,8 +24,10 @@ base_manpower = 3
 trade_goods = pottery
 
 1546.5.19 = {
+	add_core = STO
     controller = STO
     owner = STO
+	remove_core = TKI
 	merchant_guild = yes
 	shrine = yes
 }
@@ -34,6 +36,7 @@ trade_goods = pottery
     add_core = ODA
     controller = ODA
     owner = ODA
+	remove_core = STO
 	temple = yes
 }
 
@@ -41,10 +44,20 @@ trade_goods = pottery
 	add_core = OMO
     controller = OMO
     owner = OMO
+	remove_core = ODA
+	remove_core = AKC
 }
 
 1600.9.13 = {
 	add_core = ODA
     controller = ODA
     owner = ODA
+	remove_core = OMO
+}
+
+1615.1.1 = {
+	add_core = AKC
+    controller = AKC
+    owner = AKC
+	remove_core = ODA
 }

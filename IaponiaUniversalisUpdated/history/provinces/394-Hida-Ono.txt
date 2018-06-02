@@ -26,12 +26,14 @@ trade_goods = lacquerware
 1511.9.25 = {
     controller = MKI
     owner = MKI
+	remove_core = KGK
 }
 
 1536.4.7 = {
     controller = AKJ
     owner = AKJ
     add_core = AKJ
+	remove_core = MKI
 	garrison_b = yes
 }
 
@@ -44,4 +46,12 @@ trade_goods = lacquerware
     controller = KNM
     owner = KNM
     add_core = KNM
+	remove_core = AKJ
+}
+
+1615.1.1 = {
+    controller = AKJ
+    owner = AKJ
+    add_core = AKJ
+	remove_core = KNM
 }

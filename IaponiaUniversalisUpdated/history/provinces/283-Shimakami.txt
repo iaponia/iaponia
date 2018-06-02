@@ -8,6 +8,7 @@ discovered_by = ainu
 
 add_core = HSK
 add_core = YKS
+add_core = WAD
 owner = HSK
 controller = HSK
 
@@ -25,6 +26,10 @@ base_manpower = 4
 
 trade_goods = rice
 
+1511.9.25 = {
+	remove_core = YKS
+}
+
 1523.8.25 = {
 	garrison_b = yes
 }
@@ -34,12 +39,16 @@ trade_goods = rice
     controller = MYI
     owner = MYI
 	barracks = yes
+	remove_core = HSK
 }
 
 1569.10.10 = {
     add_core = AAI
+	add_core = TKY
     controller = AAI
+	remove_core = WAD
     owner = AAI
+	religion = catholic
 	arsenal = yes
 }
 
@@ -47,6 +56,8 @@ trade_goods = rice
     add_core = IKE
     controller = IKE
     owner = IKE
+	remove_core = MYI
+	remove_core = AAI
 	temple = yes
 	tea_house = yes
 }
@@ -55,4 +66,13 @@ trade_goods = rice
     add_core = TOY
     controller = TOY
     owner = TOY
+	remove_core = TKY
+	remove_core = IKE
+}
+
+1615.1.1 = {
+	add_core = WAD
+	owner = WAD
+	controller = WAD
+	remove_core = TOY
 }

@@ -23,10 +23,18 @@ base_manpower = 4
 trade_goods = pottery
 
 1600.9.13 = {
-	add_core = ISH
-    controller = ISH
-    owner = ISH
+	add_core = MSH
+    controller = MSH
+    owner = MSH
+	remove_core = TTI
 	barracks = yes
 	arsenal = yes
 	marketplace = yes
+}
+
+1615.1.1 = {
+	add_core = TTI
+    controller = TTI
+    owner = TTI
+	remove_core = MSH
 }

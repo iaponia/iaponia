@@ -26,6 +26,7 @@ trade_goods = paper
     add_core = MYI
     controller = MYI
     owner = MYI
+	remove_core = HSK
 	marketplace = yes
 	training_grounds = yes
 }
@@ -34,10 +35,19 @@ trade_goods = paper
     add_core = GOD
     controller = GOD
     owner = GOD
+	remove_core = MYI
 }
 
 1600.9.13 = {
     add_core = KOI
     controller = KOI
     owner = KOI
+	remove_core = GOD
+}
+
+1615.1.1 = {
+	add_core = HSK
+    controller = HSK
+    owner = HSK
+	remove_core = KOI
 }

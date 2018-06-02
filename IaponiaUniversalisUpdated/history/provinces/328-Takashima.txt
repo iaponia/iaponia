@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = KGK
-add_core = AZI
+add_core = KUT
 owner = KGK
 controller = KGK
 
@@ -24,9 +24,14 @@ base_manpower = 3
 
 trade_goods = fish
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1536.4.7 = {
-    controller = AZI
-    owner = AZI
+    controller = KUT
+    owner = KUT
+	remove_core = KGK
 }
 
 1554.3.1 = {
@@ -40,7 +45,15 @@ trade_goods = fish
 }
 
 1600.9.13 = {
-	add_core = ISH
-    controller = ISH
-    owner = ISH
+    controller = KUT
+    owner = KUT
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	add_core = AZI
+	owner = AZI
+	controller = AZI
+	remove_core = KUT
+	religion = shinto
 }

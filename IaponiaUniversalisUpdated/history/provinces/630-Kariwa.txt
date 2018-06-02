@@ -26,6 +26,7 @@ trade_goods = cloth
 1511.9.25 = {
     controller = NGO
     owner = NGO
+	remove_core = EGU
 	shrine = yes
 }
 
@@ -42,4 +43,12 @@ trade_goods = cloth
 	add_core = HOR
     owner = HOR
     controller = HOR
+	remove_core = UES
+}
+
+1615.1.1 = {
+	add_core = NGO
+    owner = NGO
+    controller = NGO
+	remove_core = HOR
 }

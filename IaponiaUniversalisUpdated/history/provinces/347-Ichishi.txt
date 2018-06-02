@@ -29,10 +29,19 @@ trade_goods = tea
     add_core = KOD
     owner = KOD
     controller = KOD
+	remove_core = KBK
 }
 
 1600.9.13 = {
 	add_core = TMI
     owner = TMI
     controller = TMI
+	remove_core = KOD
+}
+
+1615.1.1 = {
+	add_core = KBK
+    owner = KBK
+    controller = KBK
+	remove_core = TMI
 }

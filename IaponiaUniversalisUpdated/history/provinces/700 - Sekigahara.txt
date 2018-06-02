@@ -7,7 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = TKI
-add_core = STO
+add_core = TKN
 owner = TKI
 controller = TKI
 
@@ -26,8 +26,10 @@ base_manpower = 4
 trade_goods = rice
 
 1546.5.19 = {
+	add_core = STO
     controller = STO
     owner = STO
+	remove_core = TKI
 	garrison_b = yes
 }
 
@@ -35,18 +37,31 @@ trade_goods = rice
     add_core = ODA
     controller = ODA
     owner = ODA
+	add_core = HSB
+	remove_core = STO
 	barracks = yes
 	arsenal = yes
 }
 
 1582.6.21 = {
-	add_core = AKC
-    controller = AKC
-    owner = AKC
+	add_core = GOD
+    controller = GOD
+    owner = GOD
+	remove_core = ODA
+	remove_core = HSB
+	remove_core = TKN
 }
 
 1600.9.13 = {
 	add_core = ISH
     controller = ISH
     owner = ISH
+	remove_core = GOD
+}
+
+1615.1.1 = {
+	add_core = TKN
+    controller = TKN
+    owner = TKN
+	remove_core = ISH
 }

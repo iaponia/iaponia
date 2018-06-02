@@ -7,7 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = SHK
-add_core = YSA
+add_core = KZW
 owner = SHK
 controller = SHK
 
@@ -23,6 +23,10 @@ base_manpower = 3
 
 trade_goods = rice
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
     controller = BHY
     owner = BHY
@@ -35,21 +39,37 @@ trade_goods = rice
 
 1546.5.19 = {
     remove_core = SHK
-    remove_core = KZW
     remove_core = BHY
     add_core = HTK
+    owner = HTK
+    controller = HTK
+}
+
+1569.10.10 = {
+	add_core = YSA
     owner = YSA
     controller = YSA
+	remove_core = KZW
 }
 
 1582.6.21 = {
-    add_core = HSB
-    controller = HSB
-    owner = HSB
+    add_core = MYI
+    controller = MYI
+    owner = MYI
+	remove_core = YSA
+	remove_core = HTK
 }
 
 1600.9.13 = {
 	add_core = TOY
     controller = TOY
     owner = TOY
+	remove_core = MYI
+}
+
+1615.1.1 = {
+	add_core = KZW
+    controller = KZW
+    owner = KZW
+	remove_core = TOY
 }

@@ -27,7 +27,6 @@ trade_goods = grain
 }
 
 1511.9.25 = {
-    remove_core = OTI
     controller = TII
     owner = TII
 }
@@ -42,16 +41,28 @@ trade_goods = grain
     add_core = MNA
     controller = MNA
     owner = MNA
+	remove_core = MYI
 }
 
 1582.6.21 = {
     add_core = TTI
     controller = TTI
     owner = TTI
+	remove_core = MNA
+	remove_core = OTI
+	remove_core = TII
 }
 
 1600.9.13 = {
-	add_core = ISH
-    controller = ISH
-    owner = ISH
+	add_core = MSH
+    controller = MSH
+    owner = MSH
+	remove_core = TTI
+}
+
+1615.1.1 = {
+	add_core = OTI
+    controller = OTI
+    owner = OTI
+	remove_core = MSH
 }

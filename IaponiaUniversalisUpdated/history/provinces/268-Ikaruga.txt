@@ -26,6 +26,7 @@ trade_goods = bamboo
 1523.8.25 = {
     owner = HTN
     controller = HTN
+	remove_core = HSK
 }
 
 1554.3.1 = {
@@ -37,10 +38,20 @@ trade_goods = bamboo
     owner = AKC
     controller = AKC
     add_core = AKC
+	remove_core = HGN
+	remove_core = HTN
 }
 
 1600.9.13 = {
     owner = TOY
     controller = TOY
     add_core = TOY
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	owner = HGN
+    controller = HGN
+    add_core = HGN
+	remove_core = TOY
 }

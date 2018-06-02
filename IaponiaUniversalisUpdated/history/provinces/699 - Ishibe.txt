@@ -23,14 +23,29 @@ base_manpower = 3
 
 trade_goods = tea
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1582.6.21 = {
 	add_core = GAM
     controller = GAM
     owner = GAM
+	remove_core = ODA
+	remove_core = RKK
 }
 
 1600.9.13 = {
-	add_core = ISH
-    controller = ISH
-    owner = ISH
+	add_core = NTS
+    controller = NTS
+    owner = NTS
+	remove_core = AKC
+	remove_core = GAM
+}
+
+1615.1.1 = {
+	add_core = ENR
+    controller = ENR
+    owner = ENR
+	remove_core = NTS
 }

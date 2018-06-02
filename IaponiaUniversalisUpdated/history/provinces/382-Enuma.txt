@@ -27,6 +27,8 @@ trade_goods = pottery
     add_core = HGJ
     controller = HGJ
     owner = HGJ
+	remove_core = TGS
+	religion = jodoshinshu
 	temple = yes
 	marketplace = yes
 }
@@ -40,10 +42,20 @@ trade_goods = pottery
     add_core = SHB
     controller = SHB
     owner = SHB
+	remove_core = HGJ
 }
 
 1600.9.13 = {
 	add_core = NIW
     controller = NIW
     owner = NIW
+	remove_core = SHB
+}
+
+1615.1.1 = {
+	add_core = SHB
+    controller = SHB
+    owner = SHB
+	remove_core = NIW
+	religion = shinto
 }

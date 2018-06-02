@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = NKI
+add_core = HTR
 owner = NKI
 controller = NKI
 
@@ -23,9 +24,11 @@ base_manpower = 3
 trade_goods = cloth
 
 1493.6.9 = {
-    add_core = HTR
-    controller = HTR
-    owner = HTR
+    add_core = KBK
+    controller = KBK
+    owner = KBK
+	remove_core = NKI
+	religion = jodoshinshu
 }
 
 1546.5.19 = {
@@ -33,14 +36,36 @@ trade_goods = cloth
 	barracks = yes
 }
 
+1554.3.1 = {
+	add_core = RKK
+    controller = RKK
+    owner = RKK
+	remove_core = KBK
+}
+
+1569.10.10 = {
+	controller = HTR
+    owner = HTR
+	remove_core = RKK
+}
+
 1582.6.21 = {
-    add_core = GAM
-    controller = GAM
-    owner = GAM
+    add_core = TAK
+    controller = TAK
+    owner = TAK
+	remove_core = HTR
 }
 
 1600.9.13 = {
     add_core = TTI
     controller = TTI
     owner = TTI
+	remove_core = TAK
+}
+
+1615.1.1 = {
+	add_core = HTR
+    controller = HTR
+    owner = HTR
+	remove_core = TTI
 }

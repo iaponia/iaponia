@@ -25,11 +25,13 @@ trade_goods = gold
 1511.9.25 = {
     controller = UNG
     owner = UNG
+	remove_core = EGU
 }
 
 1554.3.1 = {
     controller = NGO
     owner = NGO
+	remove_core = UNG
 }
 
 1569.10.10 = {
@@ -43,4 +45,5 @@ trade_goods = gold
 	add_core = HOR
     owner = HOR
     controller = HOR
+	remove_core = UES
 }

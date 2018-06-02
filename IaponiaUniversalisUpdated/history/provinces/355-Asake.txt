@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = ISK
+add_core = HGJ
 owner = ISK
 controller = ISK
 
@@ -24,16 +25,13 @@ trade_goods = grain
 1493.6.9 = {
     controller = HGJ
     owner = HGJ
+	remove_core = ISK
+	religion = jodoshinshu
 }
 
 1582.6.21 = {
     add_core = TAK
     owner = TAK
     controller = TAK
-}
-
-1600.9.13 = {
-	add_core = ISH
-    owner = ISH
-    controller = ISH
+	remove_core = HGJ
 }

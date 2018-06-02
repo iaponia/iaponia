@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = EGU
-add_core = NGO
+add_core = HNJ
 owner = EGU
 controller = EGU
 
@@ -22,9 +22,15 @@ base_manpower = 4
 
 trade_goods = horses
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1554.3.1 = {
+	add_core = NGO
     controller = NGO
     owner = NGO
+	remove_core = EGU
 	shrine = yes
 }
 
@@ -39,4 +45,13 @@ trade_goods = horses
 	add_core = MZG
 	controller = MZG
     owner = MZG
+	remove_core = UES
+	remove_core = HNJ
+}
+
+1615.1.1 = {
+	add_core = HNJ
+    owner = HNJ
+    controller = HNJ
+	remove_core = MZG
 }

@@ -22,6 +22,10 @@ base_manpower = 4
 
 trade_goods = paper
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
 	shrine = yes
 	artisan_workshop = yes
@@ -38,10 +42,20 @@ trade_goods = paper
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = ODA
+	remove_core = RKK
 }
 
 1600.9.13 = {
-	add_core = ISH
-    controller = ISH
-    owner = ISH
+	add_core = KGK
+    controller = KGK
+    owner = KGK
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	add_core = ENR
+    controller = ENR
+    owner = ENR
+	remove_core = KGK
 }

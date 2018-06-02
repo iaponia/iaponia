@@ -25,12 +25,14 @@ trade_goods = paper
     add_core = KMA
     controller = KMA
     owner = KMA
+	religion = jodoshinshu
 }
 
 1511.9.25 = {
 	add_core = ASK
     controller = ASK
     owner = ASK
+	remove_core = KMA
 }
 
 1569.10.10 = {
@@ -43,10 +45,20 @@ trade_goods = paper
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = ODA
+	remove_core = ASK
 }
 
 1600.9.13 = {
-	add_core = ISH
-    controller = ISH
-    owner = ISH
+	add_core = TKG
+    controller = TKG
+    owner = TKG
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	add_core = KMA
+    controller = KMA
+    owner = KMA
+	remove_core = TKG
 }

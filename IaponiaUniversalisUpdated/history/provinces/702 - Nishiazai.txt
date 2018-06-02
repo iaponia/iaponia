@@ -22,19 +22,34 @@ base_manpower = 3
 
 trade_goods = fish
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1536.4.7 = {
     controller = AZI
     owner = AZI
+	remove_core = KGK
 }
 
 1582.6.21 = {
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = AZI
 }
 
 1600.9.13 = {
 	add_core = ISH
     controller = ISH
     owner = ISH
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	add_core = AZI
+	owner = AZI
+	controller = AZI
+	remove_core = ISH
+	religion = shinto
 }

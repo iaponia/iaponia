@@ -7,7 +7,8 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = EGU
-add_core = NGO
+add_core = NAO
+add_core = HNJ
 owner = EGU
 controller = EGU
 
@@ -36,9 +37,15 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1554.3.1 = {
+	add_core = NGO
     controller = NGO
     owner = NGO
+	remove_core = EGU
 	merchant_guild = yes
 	wharf = yes
 }
@@ -56,4 +63,15 @@ add_permanent_province_modifier = {
 	add_core = MZG
 	controller = MZG
     owner = MZG
+	remove_core = UES
+	remove_core = NAO
+	remove_core = HNJ
+}
+
+1615.1.1 = {
+	add_core = NAO
+    owner = NAO
+    controller = NAO
+	remove_core = MZG
+	religion = shinto
 }

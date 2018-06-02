@@ -8,6 +8,7 @@ discovered_by = ainu
 
 add_core = EGU
 add_core = NGO
+add_core = NAO
 owner = EGU
 controller = EGU
 
@@ -26,6 +27,7 @@ trade_goods = sake
 1511.9.25 = {
     controller = NGO
     owner = NGO
+	remove_core = EGU
 }
 
 1569.10.10 = {
@@ -39,4 +41,13 @@ trade_goods = sake
 	add_core = HOR
     owner = HOR
     controller = HOR
+	remove_core = UES
+	remove_core = NAO
+}
+
+1615.1.1 = {
+	add_core = NGO
+    owner = NGO
+    controller = NGO
+	remove_core = HOR
 }

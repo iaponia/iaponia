@@ -8,6 +8,7 @@ discovered_by = ainu
 
 add_core = HSK
 add_core = YKS
+add_core = NAK
 owner = HSK
 controller = HSK
 
@@ -22,10 +23,19 @@ base_manpower = 4
 
 trade_goods = grain
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
+1511.9.25 = {
+	remove_core = YKS
+}
+
 1554.3.1 = {
     add_core = MYI
     controller = MYI
     owner = MYI
+	remove_core = HSK
 }
 
 1569.10.10 = {
@@ -38,10 +48,22 @@ trade_goods = grain
     add_core = IKE
     controller = IKE
     owner = IKE
+	remove_core = MYI
+	remove_core = AAI
 }
 
 1600.9.13 = {
     add_core = TOY
     controller = TOY
     owner = TOY
+	remove_core = NAK
+	remove_core = IKE
+}
+
+1615.1.1 = {
+	add_core = WAD
+	owner = WAD
+	controller = WAD
+	religion = catholic
+	remove_core = TOY
 }

@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = KBK
+add_core = KUK
 owner = KBK
 controller = KBK
 
@@ -26,4 +27,5 @@ trade_goods = fish
     add_core = KUK
     owner = KUK
     controller = KUK
+	remove_core = KBK
 }

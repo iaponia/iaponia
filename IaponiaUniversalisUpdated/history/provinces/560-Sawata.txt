@@ -11,7 +11,7 @@ owner = EGU
 controller = EGU
 
 culture = sado_c
-religion = shinto
+religion = nichirenshu
 capital = "Sawata"
 is_city = yes
 fortified_mansion = yes
@@ -26,6 +26,7 @@ trade_goods = gold
 1511.9.25 = {
     controller = HNM
     owner = HNM
+	remove_core = EGU
 	garrison_b = yes
 }
 

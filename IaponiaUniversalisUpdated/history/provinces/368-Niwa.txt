@@ -9,6 +9,7 @@ discovered_by = ainu
 add_core = SBA
 add_core = IOD
 add_core = KOD
+add_core = NIW
 owner = SBA
 controller = SBA
 
@@ -28,6 +29,7 @@ trade_goods = dyes
 1511.9.25 = {
     controller = IOD
     owner = IOD
+	remove_core = SBA
 }
 
 1546.5.19 = {
@@ -39,14 +41,29 @@ trade_goods = dyes
     add_core = ODA
     controller = ODA
     owner = ODA
+	remove_core = IOD
+	remove_core = KOD
 }
 
 1582.6.21 = {
+	add_core = KOD
     controller = KOD
     owner = KOD
+	remove_core = ODA
+	remove_core = NIW
 }
 
 1600.9.13 = {
+	add_core = TKN
+    controller = TKN
+    owner = TKN
+	remove_core = KOD
+}
+
+1615.1.1 = {
+	add_core = ODA
     controller = ODA
     owner = ODA
+	remove_core = TKN
+	religion = catholic
 }

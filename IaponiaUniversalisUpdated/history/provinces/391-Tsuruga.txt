@@ -13,7 +13,7 @@ controller = SBA
 
 culture = echizen_c
 religion = shinto
-capital = "Kanagasaki"
+capital = "Kanegasaki"
 is_city = yes
 fortified_mansion = yes
 
@@ -26,6 +26,8 @@ trade_goods = fish
 1493.6.9 = {
     controller = ASA
 	owner = ASA
+	remove_core = SBA
+	religion = jodoshinshu
 	training_grounds = yes
 }
 
@@ -41,6 +43,7 @@ trade_goods = fish
     add_core = SHB
     controller = SHB
     owner = SHB
+	remove_core = ASA
 	arsenal = yes
 }
 
@@ -48,4 +51,13 @@ trade_goods = fish
     add_core = OTN
     controller = OTN
     owner = OTN
+	remove_core = SHB
+}
+
+1615.1.1 = {
+	add_core = NIW
+    controller = NIW
+    owner = NIW
+	remove_core = OTN
+	religion = shinto
 }

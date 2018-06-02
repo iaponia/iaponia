@@ -25,11 +25,19 @@ trade_goods = gold
 1511.9.25 = {
     controller = AKJ
     owner = AKJ
+	remove_core = KGK
 }
 
 1600.9.13 = {
     controller = KNM
     owner = KNM
     add_core = KNM
+	remove_core = AKJ
 }
 
+1615.1.1 = {
+    controller = AKJ
+    owner = AKJ
+    add_core = AKJ
+	remove_core = KNM
+}

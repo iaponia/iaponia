@@ -25,6 +25,8 @@ trade_goods = seaweed
 1493.6.9 = {
     owner = ING
     controller = ING
+	remove_core = ISK
+	religion = jodoshinshu
 }
 
 1546.5.19 = {
@@ -40,13 +42,25 @@ trade_goods = seaweed
 }
 
 1582.6.21 = {
-    add_core = GOD
-    owner = GOD
-    controller = GOD
+    add_core = KOD
+    owner = KOD
+    controller = KOD
+	remove_core = RKK
+	remove_core = ODA
+	remove_core = ING
 }
 
 1600.9.13 = {
-	add_core = ISH
-    owner = ISH
-    controller = ISH
+	add_core = TAK
+    owner = TAK
+    controller = TAK
+	remove_core = KOD
+}
+
+1615.1.1 = {
+	add_core = TOD
+    owner = TOD
+    controller = TOD
+	remove_core = TAK
+	religion = shinto
 }

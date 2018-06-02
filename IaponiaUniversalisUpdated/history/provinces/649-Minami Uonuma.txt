@@ -27,6 +27,7 @@ trade_goods = cloth
 1511.9.25 = {
     controller = UNG
     owner = UNG
+	remove_core = EGU
 	garrison_b = yes
 }
 
@@ -37,6 +38,7 @@ trade_goods = cloth
 1554.3.1 = {
     controller = NGO
     owner = NGO
+	remove_core = UNG
 }
 
 1569.10.10 = {
@@ -51,4 +53,5 @@ trade_goods = cloth
 	add_core = HOR
     owner = HOR
     controller = HOR
+	remove_core = UES
 }

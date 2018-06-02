@@ -7,7 +7,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = EGU
-add_core = NGO
 add_core = HNJ
 owner = EGU
 controller = EGU
@@ -26,9 +25,14 @@ base_manpower = 3
 
 trade_goods = rice
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
     controller = HNJ
     owner = HNJ
+	remove_core = EGU
 	garrison_b = yes
 }
 
@@ -39,7 +43,6 @@ trade_goods = rice
 
 1569.10.10 = {
     add_core = UES
-    remove_core = NGO
 	controller = UES
     owner = UES
 	fort = yes
@@ -50,4 +53,13 @@ trade_goods = rice
 	add_core = MZG
 	controller = MZG
     owner = MZG
+	remove_core = UES
+	remove_core = HNJ
+}
+
+1615.1.1 = {
+	add_core = HNJ
+    owner = HNJ
+    controller = HNJ
+	remove_core = MZG
 }

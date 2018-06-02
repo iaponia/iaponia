@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = TKI
-add_core = STO
+add_core = INB
 owner = TKI
 controller = TKI
 
@@ -22,24 +22,30 @@ base_manpower = 2
 trade_goods = bamboo
 
 1546.5.19 = {
+	add_core = STO
     controller = STO
     owner = STO
+	remove_core = TKI
 }
 
 1569.10.10 = {
     add_core = ODA
     controller = ODA
     owner = ODA
+	remove_core = STO
 }
 
 1582.6.21 = {
+	add_core = AKC
 	add_core = GOD
-    controller = GOD
-    owner = GOD
+    controller = AKC
+    owner = AKC
 }
 
 1600.9.13 = {
-	add_core = ODA
-    controller = ODA
-    owner = ODA
+	add_core = INB
+    controller = INB
+    owner = INB
+	remove_core = AKC
+	remove_core = GOD
 }

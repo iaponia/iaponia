@@ -15,7 +15,7 @@ culture = biwa_c
 religion = shinto
 capital = "Isono"
 is_city = yes
-training_grounds = yes
+fortified_mansion = yes
 shrine = yes
 
 base_tax = 4
@@ -27,17 +27,36 @@ trade_goods = sake
 1536.4.7 = {
     controller = AZI
     owner = AZI
-	barracks = yes
+	remove_core = KGK
+	garrison_b = yes
+}
+
+1554.3.1 = {
+	fort = yes
+	outer_wall = yes
+}
+
+1569.10.10 = {
+	castle = yes
 }
 
 1582.6.21 = {
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = AZI
 }
 
 1600.9.13 = {
 	add_core = ISH
     controller = ISH
     owner = ISH
+	remove_core = AKC
+}
+
+1615.1.1 = {
+	add_core = AZI
+	owner = AZI
+	controller = AZI
+	remove_core = ISH
 }

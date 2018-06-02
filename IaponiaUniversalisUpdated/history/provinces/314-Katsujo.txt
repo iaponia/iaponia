@@ -22,6 +22,7 @@ trade_goods = bamboo
 
 1554.3.1 = {
     add_core = MYI
+	add_core = MNA
     controller = MYI
     owner = MYI
 }
@@ -30,16 +31,28 @@ trade_goods = bamboo
     add_core = MNA
     controller = MNA
     owner = MNA
+	remove_core = MYI
 }
 
 1582.6.21 = {
     add_core = TTI
     controller = TTI
     owner = TTI
+	remove_core = OTI
+	remove_core = MNA
 }
 
 1600.9.13 = {
-	add_core = TKG
-    controller = TKG
-    owner = TKG
+    add_core = MSH
+    controller = MSH
+    owner = MSH
+	remove_core = TTI
+}
+
+1615.1.1 = {
+	add_core = MNA
+    controller = MNA
+    owner = MNA
+	remove_core = MSH
+	religion = nichirenshu
 }

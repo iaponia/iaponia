@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = RKK
+add_core = GAM
 owner = RKK
 controller = RKK
 
@@ -37,10 +38,21 @@ trade_goods = cloth
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = ODA
+	remove_core = GAM
+	remove_core = RKK
 }
 
 1600.9.13 = {
+	add_core = NTS
+    controller = NTS
+    owner = NTS
+	remove_core = AKC
+}
+
+1615.1.1 = {
 	add_core = ISH
-    controller = ISH
-    owner = ISH
+	owner = ISH
+	controller = ISH
+	remove_core = NTS
 }

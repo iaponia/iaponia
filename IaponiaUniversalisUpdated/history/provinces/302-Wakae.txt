@@ -24,10 +24,13 @@ base_manpower = 4
 
 trade_goods = lacquerware
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
     controller = BHY
     owner = BHY
-	shrine = yes
 }
 
 1536.4.7 = {
@@ -37,22 +40,36 @@ trade_goods = lacquerware
 
 1546.5.19 = {
     remove_core = SHK
-    remove_core = KZW
     remove_core = BHY
     add_core = HTK
-    owner = YSA
-    controller = YSA
+    owner = HTK
+    controller = HTK
 	workshop = yes
 }
 
+1569.10.10 = {
+    owner = YSA
+    controller = YSA
+}
+
 1582.6.21 = {
-    add_core = HSB
-    controller = HSB
-    owner = HSB
+    add_core = MYI
+    controller = MYI
+    owner = MYI
+	remove_core = YSA
+	remove_core = HTK
 }
 
 1600.9.13 = {
 	add_core = TOY
     controller = TOY
     owner = TOY
+	remove_core = MYI
+}
+
+1615.1.1 = {
+	add_core = YSA
+    controller = YSA
+    owner = YSA
+	remove_core = TOY
 }

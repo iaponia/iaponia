@@ -24,16 +24,27 @@ trade_goods = lacquerware
     owner = OTI
     controller = OTI
 	add_core = OTI
+	remove_core = SHK
 }
 
 1582.6.21 = {
     owner = TTI
     controller = TTI
 	add_core = TTI
+	remove_core = OTI
 }
 
 1600.9.13 = {
-	owner = TKG
-    controller = TKG
-	add_core = TKG
+	owner = TOY
+    controller = TOY
+	add_core = TOY
+	remove_core = TTI
+}
+
+1615.1.1 = {
+	owner = NGR
+    controller = NGR
+	add_core = NGR
+	remove_core = TOY
+	religion = jodoshinshu
 }

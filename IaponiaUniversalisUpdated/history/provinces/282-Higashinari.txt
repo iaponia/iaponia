@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = HSK
-add_core = YKS
+add_core = HGJ
 owner = HSK
 controller = HSK
 
@@ -24,9 +24,10 @@ shrine = yes
 trade_goods = pilgrimage_site
 
 1493.6.9 = {
-	add_core = HGJ
-    controller = HGJ
+	controller = HGJ
     owner = HGJ
+	remove_core = HSK
+	religion = jodoshinshu
 }
 
 1546.5.19 = {
@@ -37,6 +38,7 @@ trade_goods = pilgrimage_site
     add_core = HSB
     controller = HSB
     owner = HSB
+	remove_core = HGJ
 	temple = yes
 }
 
@@ -44,4 +46,12 @@ trade_goods = pilgrimage_site
 	add_core = TOY
     controller = TOY
     owner = TOY
+	remove_core = HSB
+}
+
+1615.1.1 = {
+	add_core = HGJ
+    controller = HGJ
+    owner = HGJ
+	remove_core = TOY
 }

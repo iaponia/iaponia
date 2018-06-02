@@ -8,6 +8,7 @@ discovered_by = ainu
 
 add_core = KGK
 add_core = AZI
+add_core = ISH
 owner = KGK
 controller = KGK
 
@@ -27,6 +28,7 @@ trade_goods = lacquerware
 1536.4.7 = {
     controller = AZI
     owner = AZI
+	remove_core = KGK
 	barracks = yes
 	arsenal = yes
 }
@@ -35,11 +37,13 @@ trade_goods = lacquerware
 	add_core = AKC
     controller = AKC
     owner = AKC
+	remove_core = AZI
 }
 
 1600.9.13 = {
 	add_core = ISH
     controller = ISH
     owner = ISH
+	remove_core = AKC
 	tea_house = yes
 }

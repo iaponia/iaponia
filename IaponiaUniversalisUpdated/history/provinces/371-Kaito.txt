@@ -6,8 +6,8 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = SBA
-add_core = IOD
 add_core = KOD
+add_core = MAE
 owner = SBA
 controller = SBA
 
@@ -27,6 +27,7 @@ trade_goods = pottery
 1511.9.25 = {
     controller = KOD
     owner = KOD
+	remove_core = SBA
 }
 
 1546.5.19 = {
@@ -37,15 +38,26 @@ trade_goods = pottery
     add_core = ODA
     controller = ODA
     owner = ODA
+	remove_core = KOD
 }
 
 1582.6.21 = {
     controller = KOD
     owner = KOD
+	add_core = KOD
+	remove_core = MAE
 }
 
 1600.9.13 = {
 	add_core = FUK
     controller = FUK
     owner = FUK
+	remove_core = KOD
+}
+
+1615.1.1 = {
+	add_core = OMO
+    controller = OMO
+    owner = OMO
+	remove_core = FUK
 }

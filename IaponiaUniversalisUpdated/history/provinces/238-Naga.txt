@@ -24,6 +24,10 @@ base_manpower = 4
 
 trade_goods = lacquerware
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1523.8.25 = {
 	garrison_b = yes
 }
@@ -32,14 +36,27 @@ trade_goods = lacquerware
     owner = NGR
     controller = NGR
 	add_core = HTK
+	remove_core = BHY
 	trade_goods = firearms
 	barracks = yes
 	workshop = yes
 	temple = yes 
 }
 
+1569.10.10 = {
+	remove_core = HTK
+}
+
 1600.9.13 = {
-	owner = TKG
-    controller = TKG
-	add_core = TKG
+	owner = TOY
+    controller = TOY
+	add_core = TOY
+	remove_core = NGR
+}
+
+1615.1.1 = {
+	owner = NGR
+    controller = NGR
+	add_core = NGR
+	remove_core = TOY
 }

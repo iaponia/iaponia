@@ -112,6 +112,7 @@ outer_wall = {
 	time = 24
 	trigger = {
 		OR = {
+			has_building = fort
 			has_building = castle
 			has_building = citadel
 			has_building = castle_palace
@@ -133,6 +134,7 @@ outer_wards = {
 	make_obsolete = outer_wall
 	trigger = {
 		OR = {
+			has_building = castle
 			has_building = citadel
 			has_building = castle_palace
 		}

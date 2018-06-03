@@ -20,20 +20,23 @@ base_manpower = 1
 
 trade_goods = gold
 
-1467.6.15 = {
-    add_core = HAK
-    owner = HAK
-    controller = HAK
-}
-
 1493.6.9 = {
     add_core = HJO
     controller = HJO
     owner = HJO
+	remove_core = HAK
 }
 
 1600.9.13 = {
 	add_core = TKG
     controller = TKG
     owner = TKG
+	remove_core = HJO
+}
+
+1615.1.1 = {
+	add_core = HAK
+    controller = HAK
+    owner = HAK
+	remove_core = TKG
 }

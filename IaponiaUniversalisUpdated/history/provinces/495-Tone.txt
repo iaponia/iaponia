@@ -6,7 +6,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = UES
-add_core = NGO
 add_core = NMT
 owner = UES
 controller = UES
@@ -24,7 +23,6 @@ base_manpower = 3
 trade_goods = rice
 
 1554.3.1 = {
-    add_core = NMT
     controller = NMT
     owner = NMT
 	shrine = yes
@@ -40,4 +38,14 @@ trade_goods = rice
 	add_core = SNA
     owner = SNA
     controller = SNA
+	remove_core = NMT
+	remove_core = UES
+	remove_core = TKD
+}
+
+1615.1.1 = {
+	add_core = NMT
+    owner = NMT
+    controller = NMT
+	remove_core = SNA
 }

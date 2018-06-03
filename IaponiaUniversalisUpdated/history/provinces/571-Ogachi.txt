@@ -21,3 +21,10 @@ base_production = 2
 base_manpower = 2
 
 trade_goods = lacquerware
+
+1615.1.1 = {
+	add_core = TZW
+	controller = TZW
+	owner = TZW
+	remove_core = OND
+}

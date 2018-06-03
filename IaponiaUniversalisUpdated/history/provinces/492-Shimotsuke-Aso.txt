@@ -38,10 +38,17 @@ trade_goods = grain
 	add_core = HJO
     owner = HJO
     controller = HJO
+	remove_core = UES
 }
 
 1600.9.13 = {
 	add_core = TKG
     owner = TKG
     controller = TKG
+}
+
+1615.1.1 = {
+	owner = SNO
+    controller = SNO
+	remove_core = TKG
 }

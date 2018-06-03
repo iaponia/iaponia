@@ -25,4 +25,12 @@ trade_goods = grain
 	add_core = UES
 	owner = UES
 	controller = UES
+	remove_core = ASN
+}
+
+1615.1.1 = {
+	add_core = ASN
+	owner = ASN
+	controller = ASN
+	remove_core = UES
 }

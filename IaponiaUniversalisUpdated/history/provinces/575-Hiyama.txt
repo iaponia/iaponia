@@ -33,4 +33,5 @@ trade_goods = metal
 	fort = yes
 	barracks = yes
 	temple = yes
+	remove_core = MNO
 }

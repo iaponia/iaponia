@@ -35,10 +35,17 @@ trade_goods = horses
     owner = OUR
     controller = OUR
     add_core = OUR
+	remove_core = NMK
 }
 
 1600.9.13 = {
 	owner = TSU
     controller = TSU
     add_core = TSU
+	remove_core = OUR
+	remove_core = NNB
+}
+
+1615.1.1 = {
+	religion = catholic
 }

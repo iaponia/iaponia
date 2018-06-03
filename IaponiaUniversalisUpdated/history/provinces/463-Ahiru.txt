@@ -33,6 +33,7 @@ trade_goods = bamboo
     add_core = STM
     controller = STM
     owner = STM
+	remove_core = OAK
 	fort = yes
 	outer_wall = yes
 	barracks = yes
@@ -49,4 +50,15 @@ trade_goods = bamboo
 	add_core = TKG
     controller = TKG
     owner = TKG
+	add_core = HND
+	remove_core = HJO
+	remove_core = STM
+	remove_core = KTK
+}
+
+1615.1.1 = {
+	add_core = HND
+    controller = HND
+    owner = HND
+	remove_core = TKG
 }

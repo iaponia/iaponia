@@ -20,3 +20,11 @@ base_production = 1
 base_manpower = 1
 
 trade_goods = fish
+
+1615.1.1 = {
+	owner = AMM
+	controller = AMM
+	add_core = AMM
+	remove_core = HKZ
+	remove_core = RYU
+}

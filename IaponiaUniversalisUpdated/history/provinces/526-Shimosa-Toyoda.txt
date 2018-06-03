@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = KGA
+add_core = YUK
 controller = KGA
 owner = KGA
 
@@ -23,11 +24,17 @@ trade_goods = lumber
 1554.3.1 = {
     owner = YUK
     controller = YUK
-    add_core = YUK
+    remove_core = KGA
 }
 
 1600.9.13 = {
 	add_core = TKG
 	owner = TKG
 	controller = TKG
+}
+
+1615.1.1 = {
+	owner = YUK
+	controller = YUK
+	remove_core = TKG
 }

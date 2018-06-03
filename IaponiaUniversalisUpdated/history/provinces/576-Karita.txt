@@ -41,4 +41,13 @@ trade_goods = rice
 1554.3.1 = {
 	owner = DTE
 	controller = DTE
+	remove_core = MDT
+}
+
+1615.1.1 = {
+	add_core = GAM
+	owner = GAM
+	controller = GAM
+	remove_core = DTE
+	religion = catholic
 }

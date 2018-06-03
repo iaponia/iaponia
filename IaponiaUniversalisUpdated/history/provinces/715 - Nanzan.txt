@@ -25,3 +25,7 @@ trade_goods = dyes
 1523.8.25 = {
 	training_grounds = yes
 }
+
+1615.1.1 = {
+	remove_core = NNZ
+}

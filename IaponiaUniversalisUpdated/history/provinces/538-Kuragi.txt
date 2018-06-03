@@ -27,6 +27,8 @@ trade_goods = lacquerware
     owner = HJO
     controller = HJO
     add_core = HJO
+	remove_core = OUE
+	remove_core = OTA
 	shipyard = yes
 }
 
@@ -34,4 +36,5 @@ trade_goods = lacquerware
 	owner = TKG
     controller = TKG
     add_core = TKG
+	remove_core = HJO
 }

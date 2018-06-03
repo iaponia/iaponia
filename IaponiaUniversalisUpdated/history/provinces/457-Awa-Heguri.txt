@@ -10,7 +10,7 @@ owner = STM
 controller = STM
 
 culture = boso_c
-religion = shinto
+religion = nichirenshu
 capital = "Katsuyama"
 is_city = yes
 
@@ -29,4 +29,5 @@ trade_goods = salt
 1546.5.19 = {
 	owner = STM
 	controller = STM
+	remove_core = OAK
 }

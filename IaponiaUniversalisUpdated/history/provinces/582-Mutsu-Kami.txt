@@ -25,4 +25,9 @@ trade_goods = horses
 	add_core = DTE
 	owner = DTE
 	controller = DTE
+	remove_core = OSK
+}
+
+1615.1.1 = {
+	religion = catholic
 }

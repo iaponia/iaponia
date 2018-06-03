@@ -23,6 +23,17 @@ trade_goods = rice
 
 1600.9.13 = {
 	add_core = UES
+	add_core = HNJ
 	owner = UES
 	controller = UES
+	remove_core = DTE
+}
+
+1615.1.1 = {
+	add_core = GAM
+	owner = GAM
+	controller = GAM
+	remove_core = UES
+	remove_core = HNJ
+	religion = catholic
 }

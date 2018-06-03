@@ -30,4 +30,12 @@ trade_goods = grain
 1554.3.1 = {
 	owner = DTE
 	controller = DTE
+	remove_core = MDT
+}
+
+1615.1.1 = {
+	add_core = RSU
+	owner = RSU
+	controller = RSU
+	remove_core = DTE
 }

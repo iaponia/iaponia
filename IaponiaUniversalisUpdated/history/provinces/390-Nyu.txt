@@ -46,7 +46,3 @@ trade_goods = pottery
     owner = NIW
 	remove_core = SHB
 }
-
-1615.1.1 = {
-	religion = shinto
-}

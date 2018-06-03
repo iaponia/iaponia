@@ -27,6 +27,7 @@ trade_goods = rice
     add_core = HJO
     owner = HJO
     controller = HJO
+	remove_core = UES
 	granary = yes
 }
 
@@ -34,4 +35,12 @@ trade_goods = rice
 	owner = TKG
     controller = TKG
     add_core = TKG
+	remove_core = HJO
+}
+
+1615.1.1 = {
+	owner = NRT
+    controller = NRT
+    add_core = NRT
+	remove_core = TKG
 }

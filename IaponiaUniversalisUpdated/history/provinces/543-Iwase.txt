@@ -34,4 +34,13 @@ trade_goods = rice
 	add_core = UES
 	owner = UES
 	controller = UES
+	remove_core = ASN
+	remove_core = NKD
+}
+
+1615.1.1 = {
+	owner = TMA
+	controller = TMA
+	add_core = TMA
+	remove_core = UES
 }

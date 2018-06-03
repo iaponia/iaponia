@@ -25,4 +25,12 @@ trade_goods = fur
 	add_core = NNB
 	owner = NNB
 	controller = NNB
+	remove_core = WGA
+}
+
+1615.1.1 = {
+	add_core = HNB
+	owner = HNB
+	controller = HNB
+	remove_core = NNB
 }

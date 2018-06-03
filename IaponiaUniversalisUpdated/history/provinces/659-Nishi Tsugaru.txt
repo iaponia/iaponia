@@ -6,9 +6,10 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = NMK
-add_core = HNB
-owner = HNB
-controller = HNB
+add_core = OUR
+add_core = NNB
+owner = NNB
+controller = NNB
 
 culture = tsugaru_c
 religion = shinto
@@ -33,10 +34,17 @@ trade_goods = seaweed
     owner = OUR
     controller = OUR
     add_core = OUR
+	remove_core = NMK
 }
 
 1600.9.13 = {
 	owner = TSU
     controller = TSU
     add_core = TSU
+	remove_core = OUR
+	remove_core = NNB
+}
+
+1615.1.1 = {
+	religion = catholic
 }

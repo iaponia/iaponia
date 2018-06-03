@@ -30,3 +30,12 @@ trade_goods = tea
 	barracks = yes
 	shrine = yes
 }
+
+1615.1.1 = {
+	add_core = HIO
+	owner = HIO
+    controller = HIO
+    remove_core = TKG
+	remove_core = STK
+	remove_core = DAI
+}

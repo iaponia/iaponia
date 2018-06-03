@@ -11,7 +11,7 @@ owner = CBA
 controller = CBA
 
 culture = shimosa_c
-religion = shinto
+religion = nichirenshu
 capital = "Moriya"
 is_city = yes
 training_grounds = yes
@@ -36,4 +36,14 @@ trade_goods = rice
 	add_core = TKG
 	owner = TKG
 	controller = TKG
+	remove_core = HJO
+	remove_core = CBA
+}
+
+1615.1.1 = {
+	owner = KGA
+    controller = KGA
+    add_core = KGA
+	remove_core = TKG
+	religion = shinto
 }

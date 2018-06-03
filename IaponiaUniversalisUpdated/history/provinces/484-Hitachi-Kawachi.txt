@@ -26,3 +26,9 @@ trade_goods = grain
     controller = TKG
     add_core = TKG
 }
+
+1615.1.1 = {
+	owner = HIO
+    controller = HIO
+    remove_core = TKG
+}

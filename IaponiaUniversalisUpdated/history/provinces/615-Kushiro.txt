@@ -24,5 +24,6 @@ trade_goods = fur
 	add_core = MAT
 	owner = MAT
 	controller = MAT
+	remove_core = KKZ
 	textile_workshop = yes
 }

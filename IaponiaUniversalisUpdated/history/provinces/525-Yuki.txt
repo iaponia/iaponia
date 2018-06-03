@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = KGA
+add_core = YUK
 controller = KGA
 owner = KGA
 
@@ -25,7 +26,7 @@ trade_goods = cloth
 1554.3.1 = {
     owner = YUK
     controller = YUK
-    add_core = YUK
+    remove_core = KGA
 	barracks = yes
 	arsenal = yes
 }
@@ -34,4 +35,10 @@ trade_goods = cloth
 	add_core = TKG
 	owner = TKG
 	controller = TKG
+}
+
+1615.1.1 = {
+	owner = YUK
+	controller = YUK
+	remove_core = TKG
 }

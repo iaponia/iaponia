@@ -41,4 +41,12 @@ trade_goods = lacquerware
 	controller = GAM
 	merchant_guild = yes
 	tea_house = yes
+	remove_core = UMY
+}
+
+1615.1.1 = {
+	add_core = UMY
+    owner = UMY
+    controller = UMY
+	remove_core = GAM
 }

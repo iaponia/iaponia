@@ -5,9 +5,9 @@ discovered_by = togoku
 discovered_by = tohoku
 discovered_by = ainu
 
-add_core = SNB
-owner = SNB
-controller = SNB
+add_core = NNB
+owner = NNB
+controller = NNB
 
 culture = rikugo_c
 religion = shinto
@@ -28,9 +28,6 @@ trade_goods = paper
 }
 
 1546.5.19 = {
-	add_core = NNB
-	owner = NNB
-	controller = NNB
 	barracks = yes
 	arsenal = yes
 	temple = yes

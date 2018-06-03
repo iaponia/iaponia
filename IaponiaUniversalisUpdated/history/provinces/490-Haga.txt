@@ -28,4 +28,12 @@ trade_goods = pottery
 	add_core = GAM
 	owner = GAM
 	controller = GAM
+	remove_core = UMY
+}
+
+1615.1.1 = {
+	add_core = NSU
+	owner = NSU
+	controller = NSU
+	remove_core = GAM
 }

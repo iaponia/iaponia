@@ -10,7 +10,7 @@ owner = CBA
 controller = CBA
 
 culture = shimosa_c
-religion = shinto
+religion = nichirenshu
 capital = "Iwagasaki"
 is_city = yes
 shrine = yes
@@ -35,4 +35,13 @@ trade_goods = rice
 	add_core = TKG
 	owner = TKG
 	controller = TKG
+	remove_core = HJO
+	remove_core = CBA
+}
+
+1615.1.1 = {
+	owner = CBA
+    controller = CBA
+    add_core = CBA
+	remove_core = TKG
 }

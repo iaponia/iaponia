@@ -26,6 +26,8 @@ trade_goods = lumber
     owner = HJO
     controller = HJO
     add_core = HJO
+	remove_core = OUE
+	remove_core = OTA
 	workshop = yes
 }
 
@@ -33,4 +35,5 @@ trade_goods = lumber
 	owner = TKG
     controller = TKG
     add_core = TKG
+	remove_core = HJO
 }

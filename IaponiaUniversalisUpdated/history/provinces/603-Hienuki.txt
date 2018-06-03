@@ -30,4 +30,12 @@ trade_goods = cloth
 	add_core = NNB
 	owner = NNB
 	controller = NNB
+	remove_core = HIE
+}
+
+1615.1.1 = {
+	add_core = OSB
+	owner = OSB
+	controller = OSB
+	remove_core = NNB
 }

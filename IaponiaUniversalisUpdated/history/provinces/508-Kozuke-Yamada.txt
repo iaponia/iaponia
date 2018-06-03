@@ -6,7 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = UES
-add_core = NGO
+add_core = NGN
 owner = UES
 controller = UES
 
@@ -29,8 +29,23 @@ trade_goods = cloth
 	shrine = yes
 }
 
+1582.6.21 = {
+	remove_core = UES
+	remove_core = NGN
+}
+
 1600.9.13 = {
 	add_core = TKG
     owner = TKG
     controller = TKG
+	add_core = YII
+	remove_core = HJO
+}
+
+1615.1.1 = {
+	add_core = OKU
+    owner = OKU
+    controller = OKU
+	remove_core = TKG
+	remove_core = YII
 }

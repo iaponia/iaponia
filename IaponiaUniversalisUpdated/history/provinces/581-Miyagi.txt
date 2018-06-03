@@ -43,6 +43,7 @@ add_permanent_province_modifier = {
     add_core = DTE
     owner = DTE
     controller = DTE
+	remove_core = MDT
 }
 
 1582.6.21 = {
@@ -51,4 +52,11 @@ add_permanent_province_modifier = {
 	temple = yes
 	merchant_guild = yes
 	workshop = yes
+}
+
+1615.1.1 = {
+	add_core = RSU
+	owner = RSU
+	controller = RSU
+	remove_core = DTE
 }

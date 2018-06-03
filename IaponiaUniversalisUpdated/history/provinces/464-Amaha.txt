@@ -32,16 +32,22 @@ trade_goods = rice
     add_core = STM
     controller = STM
     owner = STM
-}
-
-1582.6.21 = {
-	add_core = HJO
-    controller = HJO
-    owner = HJO
+	remove_core = OAK
 }
 
 1600.9.13 = {
 	add_core = TKG
     controller = TKG
     owner = TKG
+	add_core = HND
+	remove_core = HJO
+	remove_core = STM
+	remove_core = KTK
+}
+
+1615.1.1 = {
+	add_core = HND
+    controller = HND
+    owner = HND
+	remove_core = TKG
 }

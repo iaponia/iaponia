@@ -18,3 +18,10 @@ base_production = 1
 base_manpower = 1
 
 trade_goods = fur
+
+1615.1.1 = {
+	owner = ANM
+	controller = ANM
+	add_core = ANM
+	remove_core = KTA
+}

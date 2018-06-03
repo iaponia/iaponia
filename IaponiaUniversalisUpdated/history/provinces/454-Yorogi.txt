@@ -27,6 +27,8 @@ trade_goods = rice
     add_core = HJO
     controller = HJO
     owner = HJO
+	remove_core = OUE
+	remove_core = SMR
 	shrine = yes
 	marketplace = yes
 }
@@ -43,6 +45,16 @@ trade_goods = rice
 
 1600.9.13 = {
 	add_core = TKG
+	add_core = OKB
     controller = TKG
     owner = TKG
+	remove_core = HJO
+}
+
+1615.1.1 = {
+	add_core = HJO
+    controller = HJO
+    owner = HJO
+	remove_core = TKG
+	remove_core = OKB
 }

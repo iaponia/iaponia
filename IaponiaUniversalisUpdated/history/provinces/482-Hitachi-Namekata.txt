@@ -27,3 +27,11 @@ trade_goods = rice
     add_core = STK
 	granary = yes
 }
+
+1615.1.1 = {
+	owner = KSM
+    controller = KSM
+    add_core = KSM
+	remove_core = STK
+	remove_core = DAI
+}

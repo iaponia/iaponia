@@ -27,10 +27,13 @@ trade_goods = cloth
     owner = HJO
     controller = HJO
     add_core = HJO
+	remove_core = OUE
+	remove_core = OTA
 }
 
 1600.9.13 = {
 	owner = TKG
     controller = TKG
     add_core = TKG
+	remove_core = HJO
 }

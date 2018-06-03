@@ -6,11 +6,12 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = KTK
+add_core = SAK
 owner = KTK
 controller = KTK
 
 culture = boso_c
-religion = shinto
+religion = nichirenshu
 capital = "Toke"
 is_city = yes
 
@@ -29,9 +30,10 @@ trade_goods = fish
 }
 
 1546.5.19 = {
-    add_core = CBA
-    controller = CBA
-    owner = CBA
+    add_core = SAK
+    controller = SAK
+    owner = SAK
+	remove_core = OAK
 }
 
 1582.6.21 = {
@@ -44,4 +46,15 @@ trade_goods = fish
 	add_core = TKG
     controller = TKG
     owner = TKG
+	add_core = HND
+	remove_core = SAK
+	remove_core = HJO
+	remove_core = KTK
+}
+
+1615.1.1 = {
+	controller = SAK
+    owner = SAK
+	add_core = SAK
+	remove_core = TKG
 }

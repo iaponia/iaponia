@@ -10,7 +10,7 @@ owner = CBA
 controller = CBA
 
 culture = shimosa_c
-religion = shinto
+religion = nichirenshu
 capital = "Iitaka"
 is_city = yes
 
@@ -30,4 +30,13 @@ trade_goods = fish
 	add_core = TKG
 	owner = TKG
 	controller = TKG
+	remove_core = HJO
+	remove_core = CBA
+}
+
+1615.1.1 = {
+	owner = CBA
+    controller = CBA
+    add_core = CBA
+	remove_core = TKG
 }

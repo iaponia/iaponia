@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = UES
+add_core = DDJ
 owner = UES
 controller = UES
 
@@ -21,13 +22,22 @@ base_manpower = 2
 trade_goods = gold
 
 1546.5.19 = {
-    add_core = HJO
     owner = HJO
     controller = HJO
+    add_core = HJO
+	remove_core = UES
 }
 
 1600.9.13 = {
 	owner = TKG
     controller = TKG
     add_core = TKG
+	remove_core = HJO
+}
+
+1615.1.1 = {
+	owner = OUE
+    controller = OUE
+    add_core = OUE
+	remove_core = TKG
 }

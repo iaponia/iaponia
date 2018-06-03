@@ -24,4 +24,12 @@ trade_goods = bamboo
 	add_core = UES
 	owner = UES
 	controller = UES
+	remove_core = SKW
+}
+
+1615.1.1 = {
+	owner = TMA
+	controller = TMA
+	add_core = TMA
+	remove_core = UES
 }

@@ -24,5 +24,10 @@ trade_goods = lumber
 	add_core = DTE
 	owner = DTE
 	controller = DTE
+	remove_core = OSK
 	workshop = yes
+}
+
+1615.1.1 = {
+	religion = catholic
 }

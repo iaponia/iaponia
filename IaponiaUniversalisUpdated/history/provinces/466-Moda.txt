@@ -33,6 +33,7 @@ trade_goods = rice
     add_core = STM
     controller = STM
     owner = STM
+	remove_core = OAK
 	barracks = yes
 	arsenal = yes
 	temple = yes
@@ -48,4 +49,15 @@ trade_goods = rice
 	add_core = TKG
     controller = TKG
     owner = TKG
+	add_core = HND
+	remove_core = HJO
+	remove_core = STM
+	remove_core = KTK
+}
+
+1615.1.1 = {
+	add_core = OAK
+    controller = OAK
+    owner = OAK
+	remove_core = TKG
 }

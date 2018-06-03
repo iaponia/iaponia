@@ -25,6 +25,7 @@ trade_goods = grain
     owner = YUK
     controller = YUK
     add_core = YUK
+	remove_core = KGA
 }
 
 1569.10.10 = {
@@ -33,4 +34,17 @@ trade_goods = grain
     add_core = STK
 	barracks = yes
 	arsenal = yes
+}
+
+1600.9.13 = {
+	add_core = TKG
+	owner = TKG
+	controller = TKG
+}
+
+1615.1.1 = {
+	owner = HIO
+    controller = HIO
+    remove_core = TKG
+	remove_core = STK
 }

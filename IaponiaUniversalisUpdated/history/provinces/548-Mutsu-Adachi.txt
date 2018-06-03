@@ -31,4 +31,12 @@ trade_goods = sake
 	add_core = UES
 	owner = UES
 	controller = UES
+	remove_core = NHY
+}
+
+1615.1.1 = {
+	owner = TMA
+	controller = TMA
+	add_core = TMA
+	remove_core = UES
 }

@@ -25,5 +25,13 @@ trade_goods = pilgrimage_site
 	add_core = MGM
 	owner = MGM
 	controller = MGM
+	remove_core = DHJ
 	temple = yes
+}
+
+1615.1.1 = {
+	add_core = OND
+	owner = OND
+	controller = OND
+	remove_core = MGM
 }

@@ -25,3 +25,11 @@ trade_goods = grain
 	owner = NNB
 	controller = NNB
 }
+
+1615.1.1 = {
+	add_core = SNB
+	owner = SNB
+	controller = SNB
+	remove_core = ANA
+	remove_core = NNB
+}

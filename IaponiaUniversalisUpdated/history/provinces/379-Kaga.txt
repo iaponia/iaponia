@@ -55,5 +55,4 @@ trade_goods = rice
     controller = SHB
     owner = SHB
 	remove_core = MAE
-	religion = shinto
 }

@@ -54,5 +54,4 @@ trade_goods = pilgrimage_site
     controller = SHB
     owner = SHB
 	remove_core = MAE
-	religion = shinto
 }

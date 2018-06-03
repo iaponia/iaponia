@@ -27,6 +27,8 @@ trade_goods = fish
     add_core = HJO
     controller = HJO
     owner = HJO
+	remove_core = OUE
+	remove_core = SMR
 }
 
 1546.5.19 = {
@@ -38,6 +40,14 @@ trade_goods = fish
 
 1600.9.13 = {
 	add_core = TKG
+	add_core = OKB
     controller = TKG
     owner = TKG
+	remove_core = HJO
+}
+
+1615.1.1 = {
+    controller = OKB
+    owner = OKB
+	remove_core = TKG
 }

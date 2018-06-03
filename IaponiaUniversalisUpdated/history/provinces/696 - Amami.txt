@@ -26,3 +26,9 @@ trade_goods = cloth
 1523.8.25 = {
 	marketplace = yes
 }
+
+1615.1.1 = {
+	owner = AMM
+	controller = AMM
+	remove_core = RYU
+}

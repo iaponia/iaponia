@@ -33,4 +33,12 @@ trade_goods = rice
 	add_core = MGM
 	owner = MGM
 	controller = MGM
+	remove_core = NKH
+}
+
+1615.1.1 = {
+	add_core = TZW
+	controller = TZW
+	owner = TZW
+	remove_core = MGM
 }

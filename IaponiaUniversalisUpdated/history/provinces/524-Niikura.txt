@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OUE
+add_core = DDJ
 owner = OUE
 controller = OUE
 
@@ -26,10 +27,19 @@ trade_goods = dyes
     add_core = HJO
     owner = HJO
     controller = HJO
+	remove_core = OUE
 }
 
 1600.9.13 = {
 	owner = TKG
     controller = TKG
     add_core = TKG
+	remove_core = HJO
+}
+
+1615.1.1 = {
+	owner = DDJ
+    controller = DDJ
+    add_core = DDJ
+	remove_core = TKG
 }

@@ -57,7 +57,3 @@ trade_goods = lacquerware
     owner = MAE
 	remove_core = SSS
 }
-
-1615.1.1 = {
-	religion = shinto
-}

@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = DTE
+add_core = RSU
 owner = DTE
 controller = DTE
 
@@ -31,4 +32,11 @@ trade_goods = gold
 1554.3.1 = {
 	owner = DTE
 	controller = DTE
+	remove_core = MDT
+}
+
+1615.1.1 = {
+	owner = RSU
+	controller = RSU
+	remove_core = DTE
 }

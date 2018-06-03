@@ -29,6 +29,8 @@ trade_goods = rice
     add_core = OTA
     owner = OTA
     controller = OTA
+	remove_core = OUE
+	remove_core = NRT
 	barracks = yes
 }
 
@@ -42,4 +44,11 @@ trade_goods = rice
 	owner = TKG
     controller = TKG
     add_core = TKG
+	remove_core = HJO
+}
+
+1615.1.1 = {
+	owner = OTA
+    controller = OTA
+	remove_core = TKG
 }

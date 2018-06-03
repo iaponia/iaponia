@@ -59,5 +59,4 @@ trade_goods = fish
     controller = NIW
     owner = NIW
 	remove_core = OTN
-	religion = shinto
 }

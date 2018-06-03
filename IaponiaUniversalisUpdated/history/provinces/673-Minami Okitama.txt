@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = DTE
+add_core = KKR
 owner = DTE
 controller = DTE
 
@@ -45,4 +46,15 @@ trade_goods = cloth
 	add_core = UES
 	owner = UES
 	controller = UES
+	add_core = NAO
+	remove_core = KKR
+	remove_core = DTE
+}
+
+1615.1.1 = {
+	owner = KKR
+	controller = KKR
+	add_core = KKR
+	remove_core = UES
+	remove_core = NAO
 }

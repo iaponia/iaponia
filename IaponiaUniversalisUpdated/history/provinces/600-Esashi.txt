@@ -24,4 +24,12 @@ trade_goods = lacquerware
 	add_core = DTE
 	owner = DTE
 	controller = DTE
+	remove_core = KSI
+}
+
+1615.1.1 = {
+	add_core = HNB
+	owner = HNB
+	controller = HNB
+	remove_core = DTE
 }

@@ -42,4 +42,5 @@ trade_goods = paper
     controller = NIW
     owner = NIW
 	remove_core = SHB
+	religion = jodoshinshu
 }

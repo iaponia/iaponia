@@ -57,5 +57,4 @@ trade_goods = pottery
     controller = SHB
     owner = SHB
 	remove_core = NIW
-	religion = shinto
 }

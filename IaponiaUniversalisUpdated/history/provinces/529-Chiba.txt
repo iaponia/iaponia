@@ -11,7 +11,7 @@ owner = CBA
 controller = CBA
 
 culture = shimosa_c
-religion = shinto
+religion = nichirenshu
 capital = "Chiba"
 is_city = yes
 fortified_mansion = yes
@@ -34,9 +34,9 @@ trade_goods = paper
 }
 
 1546.5.19 = {
-	add_core = CBA
 	owner = CBA
 	controller = CBA
+	remove_core = OAK
 	fort = yes
 	merchant_guild = yes
 	drydock = yes
@@ -53,4 +53,14 @@ trade_goods = paper
 	add_core = TKG
 	owner = TKG
 	controller = TKG
+	remove_core = HJO
+	remove_core = CBA
+}
+
+1615.1.1 = {
+	owner = KGA
+    controller = KGA
+    add_core = KGA
+	remove_core = TKG
+	religion = shinto
 }

@@ -35,8 +35,13 @@ trade_goods = lacquerware
 	add_core = DTE
 	owner = DTE
 	controller = DTE
+	remove_core = OSK
 	fort = yes
 	temple = yes
 	barracks = yes
 	arsenal = yes
+}
+
+1615.1.1 = {
+	religion = catholic
 }

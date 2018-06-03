@@ -24,4 +24,12 @@ trade_goods = gold
 	add_core = DTE
 	owner = DTE
 	controller = DTE
+	remove_core = KSI
+}
+
+1615.1.1 = {
+	add_core = OSK
+	owner = OSK
+	controller = OSK
+	remove_core = DTE
 }

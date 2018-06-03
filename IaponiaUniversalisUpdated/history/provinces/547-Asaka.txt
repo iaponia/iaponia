@@ -37,4 +37,12 @@ trade_goods = paper
 	add_core = UES
 	owner = UES
 	controller = UES
+	remove_core = TMA
+}
+
+1615.1.1 = {
+	owner = TMA
+	controller = TMA
+	add_core = TMA
+	remove_core = UES
 }

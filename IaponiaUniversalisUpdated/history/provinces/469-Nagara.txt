@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = KTK
+add_core = KTI
 owner = KTK
 controller = KTK
 
@@ -28,9 +29,10 @@ trade_goods = rice
 }
 
 1546.5.19 = {
-    add_core = CBA
-    controller = CBA
-    owner = CBA
+    add_core = STM
+    controller = STM
+    owner = STM
+	remove_core = OAK
 	workshop = yes
 }
 
@@ -44,4 +46,15 @@ trade_goods = rice
 	add_core = TKG
     controller = TKG
     owner = TKG
+	add_core = HND
+	remove_core = HJO
+	remove_core = STM
+	remove_core = KTK
+}
+
+1615.1.1 = {
+	controller = KTK
+    owner = KTK
+	add_core = KTK
+	remove_core = TKG
 }

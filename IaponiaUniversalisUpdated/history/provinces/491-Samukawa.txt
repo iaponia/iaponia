@@ -31,12 +31,21 @@ trade_goods = rice
 	add_core = YUK
     owner = YUK
     controller = YUK
+	remove_core = KGA
 	barracks = yes
 	arsenal = yes
 }
 
 1600.9.13 = {
-	add_core = GAM
-    owner = GAM
-    controller = GAM
+	add_core = TKG
+    owner = TKG
+    controller = TKG
+}
+
+1615.1.1 = {
+	add_core = UMY
+    owner = UMY
+    controller = UMY
+	remove_core = YUK
+	remove_core = TKG
 }

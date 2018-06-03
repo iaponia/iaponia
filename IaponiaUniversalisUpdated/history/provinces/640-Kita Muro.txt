@@ -22,17 +22,17 @@ base_manpower = 1
 
 trade_goods = pilgrimage_site
 
-1546.5.19 = {
-    owner = HTK
-    controller = HTK
-	add_core = HTK
+1536.4.7 = {
+    owner = KBK
+    controller = KBK
+	add_core = KBK
 	remove_core = BHY
 }
 
 1582.6.21 = {
 	owner = HUC
     controller = HUC
-	remove_core = HTK
+	remove_core = KBK
 }
 
 1600.9.13 = {

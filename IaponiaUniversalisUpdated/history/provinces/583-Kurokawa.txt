@@ -6,7 +6,6 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = OSK
-add_core = RSU
 owner = OSK
 controller = OSK
 
@@ -39,7 +38,5 @@ trade_goods = rice
 }
 
 1615.1.1 = {
-	owner = RSU
-	controller = RSU
-	remove_core = DTE
+	religion = catholic
 }

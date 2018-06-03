@@ -134,11 +134,11 @@ kurume_area = {
 }
 
 hakata_area = {
-	61 62 63 64
+	61 62 63
 }
 
 tachibana_area = {
-	65 66 67 84
+	64 65 66 67 84
 }
 
 akizuki_area = {
@@ -258,11 +258,15 @@ iwami_area = {
 }
 
 shinji_area = {
-	192 194 197 198 199
+	192 194 199
 }
 
 unnan_area = {
-	133 134 193 195 196
+	193 195 196 197
+}
+
+isawa_area = {
+	133 134 198
 }
 
 geisai_area = {
@@ -492,7 +496,7 @@ joetsu_area = {
 }
 
 uonuma_area = {
-	554 556 648 649
+	554 648 649
 }
 
 iwafune_area = {
@@ -500,7 +504,7 @@ iwafune_area = {
 }
 
 kanbara_area = {
-	555 557 651 652
+	555 556 557 651 652
 }
 
 sado_area = {
@@ -559,19 +563,19 @@ toki_area = {
 }
 
 chuno_area = {
-	395 402 403 404
+	395 402 403
 }
 
 minonobi_area = {
-	361 362 363 364 401
+	362 363 364 401
 }
 
 fuwa_area = {
-	359 405 406
+	404 405 406
 }
 
 sekigahara_area = {
-	358 360 700
+	358 359 360 361 700
 }
 
 #nagano pref
@@ -645,20 +649,20 @@ tsukuba_area = {
 }
 
 hitachirokko_area = {
-	481 482 676
+	476 481 482
 }
 
 hokujo_area = {
-	473 474 475 476 677
+	473 474 475 676 677
 }
 
 #edo
 kanagawa_area = {
-	537 538 539
+	534 535 537 538 539
 }
 
 edotama_area = {
-	510 534 535 678 679
+	509 510 678 679
 }
 
 #saitama pref
@@ -667,11 +671,11 @@ saitama_area = {
 }
 
 chichibu_area = {
-	509 513 516
+	
 }
 
 iruma_area = {
-	511 512 524
+	511 512 513 516 524
 }
 
 kodama_area = {
@@ -715,7 +719,7 @@ aizu_area = {
 }
 
 iwaki_area = {
-	542 544 545 655 656 657
+	544 545 656 657
 }
 
 soma_area = {
@@ -723,29 +727,29 @@ soma_area = {
 }
 
 iwashiro_area = {
-	543 547 548 551 552
+	542 543 547 548 655
 }
 
 #miyagi pref
 watari_area = {
-	576 577 578 579
+	551 552 576 578 579
 }
 
 sendai_area = {
-	580 581 582 583
+	577 580 581
 }
 
 senboku_area = {
-	584 586 587 592 594
+	582 583 584 586 587
 }
 
 oshika_area = {
-	590 591 671
+	590 591 592 594 671
 }
 
 #aomori pref
 nambu_area = {
-	606 663
+	606 663 664 665
 }
 
 tsugaru_area = {
@@ -756,15 +760,11 @@ tsugaru_area = {
 #iwate pref
 
 iwate_area = {
-	601 602 664 665 666
+	598 601 602 603 666
 }
 
 hiraizumi_area = {
-	595 596 600
-}
-
-isawa_area = {
-	597 598 603
+	595 597 596 600
 }
 
 hei_area = {
@@ -773,11 +773,11 @@ hei_area = {
 
 #akita pref
 yoneshiro_area = {
-	574 575 604 658
+	573 574 575 604 658
 }
 
 omono_area = {
-	569 570 571 572 573
+	569 570 571 572
 }
 
 #yamagata pref

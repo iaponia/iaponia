@@ -32,8 +32,8 @@ trade_goods = rice
 }
 
 1615.1.1 = {
-	add_core = OSK
-	owner = OSK
-	controller = OSK
+	add_core = KSI
+	owner = KSI
+	controller = KSI
 	remove_core = DTE
 }

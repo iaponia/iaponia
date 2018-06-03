@@ -9,7 +9,7 @@ add_core = KSI
 owner = KSI
 controller = KSI
 
-culture = oshu_c
+culture = rikuzen_c
 religion = shinto
 capital = "Kamianetai"
 is_city = yes
@@ -28,8 +28,8 @@ trade_goods = dyes
 }
 
 1615.1.1 = {
-	add_core = HNB
-	owner = HNB
-	controller = HNB
+	add_core = OSK
+	owner = OSK
+	controller = OSK
 	remove_core = DTE
 }

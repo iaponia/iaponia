@@ -10,12 +10,12 @@ guiTypes = {
 		name = "development_value_vertical_position_not_exploitable"
 		position = { x=0 y=68 }
 	}
-	
+
 	positionType = {
 		name = "development_value_vertical_position_exploitable"
 		position = { x=0 y=62 }
 	}
-	
+
 	windowType = {
 		name = "province_estate_entry"
 		position = { x=0 y=0 }
@@ -134,12 +134,6 @@ guiTypes = {
 			spriteType = "GFX_provinceview_foreign_bg_large"
 			position = { x= -2 y = -81}
 		}
-
-
-
-
-
-
 
 		iconType =
 		{
@@ -303,8 +297,6 @@ guiTypes = {
 #			}
 
 
-
-
 			instantTextBoxType = {
 				name = "area_name"
 				position = { x = 100 y = 0}
@@ -407,14 +399,14 @@ guiTypes = {
 				buttonText = ""
 				buttonFont = "vic_18"
 				Orientation = "UPPER_LEFT"
-			}	
-			
-			
+			}
+
+
 			guiButtonType =
 			{
 				name ="tax_base_exploit_button"
 				position = { x= 83 y = 78 }
-				quadTextureSprite ="GFX_exploit_button"	
+				quadTextureSprite ="GFX_exploit_button"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -461,14 +453,14 @@ guiTypes = {
 			{
 				name ="prod_base_exploit_button"
 				position = { x= 165 y = 78 }
-				quadTextureSprite ="GFX_exploit_button"	
+				quadTextureSprite ="GFX_exploit_button"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = ""
 				buttonFont = "vic_18"
 				Orientation = "UPPER_LEFT"
-			}					
+			}
 			iconType =
 			{
 				name ="mp_base_icon"
@@ -506,14 +498,14 @@ guiTypes = {
 			{
 				name ="mp_base_exploit_button"
 				position = { x= 247 y = 78 }
-				quadTextureSprite ="GFX_exploit_button"	
+				quadTextureSprite ="GFX_exploit_button"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = ""
 				buttonFont = "vic_18"
 				Orientation = "UPPER_LEFT"
-			}				
+			}
 			iconType = {
 				name ="development_icon"
 				spriteType = "GFX_development_icon"
@@ -2478,14 +2470,14 @@ guiTypes = {
 				quadTextureSprite = "GFX_make_state_button"
 				position = { x = 372 y = 6 }
 			}
-			
+
 			iconType =
 			{
 				name = "supply_depots"
 				spriteType = "GFX_supply_depots_icon"
 				position = { x = 306 y = 8 }
 			}
-			
+
 
 			iconType =
 			{
@@ -2746,7 +2738,7 @@ guiTypes = {
 				name = "pasha_bg"
 				spriteType = "GFX_patriarchy_slot"
 				position = { x = 12 y = 419 }
-			}			
+			}
 
 			guiButtonType = {
 				name ="add_pasha_button"
@@ -2771,7 +2763,7 @@ guiTypes = {
 				buttonText = "CREATE_JANISSARIES_BUTTON"
 
 				position = { x = 283 y = 427 }
-			}			
+			}
 		}
 
 		## State Window
@@ -5626,10 +5618,10 @@ guiTypes = {
 			text = "2000¤"
 		}
 
-		
-		
-		
-		
+
+
+
+
 		iconType = {
 			name = "navy_banner"
 			position = { x = 4 y = 97 }

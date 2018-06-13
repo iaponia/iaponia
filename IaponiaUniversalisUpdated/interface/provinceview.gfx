@@ -512,8 +512,8 @@ spriteTypes = {
 		name = "GFX_pasha_icon"
 		texturefile = "gfx/interface/pasha_icon.dds"
 		noOfFrames = 2
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_amount_of_banners"
 		texturefile = "gfx/interface/ideas_EU4/amount_of_banners.dds"
@@ -938,9 +938,15 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_resource_transparent"
+		texturefile = "gfx//interface//resource_transparent.dds"
+		loadType = "INGAME"
+	}
+
+	spriteType = {
 		name = "GFX_resource_icon_transparent"
 		texturefile = "gfx//interface//resources.tga"
-		noOfFrames = 22
+		noOfFrames = 31
 		loadType = "INGAME"
 
 		allwaystransparent = yes
@@ -1263,7 +1269,7 @@ spriteTypes = {
 		name = "GFX_in_state_icon"
 		texturefile = "gfx/interface/in_state_icon.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_supply_depots_icon"
 		texturefile = "gfx/interface/supply_depots_icon.dds"

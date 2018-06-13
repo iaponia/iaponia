@@ -17,6 +17,7 @@
  late_sengoku_monarchy_desc: ""
  daimyo_monarchy: "Daimyo"
  daimyo_monarchy_desc: ""
+
  rice: "Rice"
  sake: "Sake"
  hemp: "Hemp"
@@ -469,6 +470,7 @@
  building_toll_roads: "Toll Roads"
  building_post_roads: "Post Roads"
  building_highways: "Highways"
+ building_shrine: "Shrine" # needed until/unless the ones below replace it
  building_shrine_shinto: "Shrine"
  building_shrine_catholic: "Mission"
  building_shrine_jodoshinshu: "Shrine"

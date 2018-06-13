@@ -801,7 +801,7 @@
  # EST_VAL_DHIMMI_NOBLES:0 "Ennobled Dhimmi: §Y$VAL$%§!"
  # NEW_WORLD_MISSION:0 "Establish New World Missions"
  # EST_VAL_NEW_WORLD_MISSION:0 "Mission to the New World: §Y$VAL$%§!"
- # COMISSION_MERCHANT_SHIPS_FOR_WAR:0 "Draft Ships for War"
+ COMISSION_MERCHANT_SHIPS_FOR_WAR:0 "Draft Transports for War"
  # LIGHTEN_DHIMMI_TAX_BURDEN:0 "Lighten Dhimmi Tax Burden"
  # EST_VAL_LIGHTEN_DHIMMI_TAX_BURDEN:0 "Eased Tax Burden: §Y$VAL$%§!"
  # GRANT_NEW_WORLD_CHARTER:0 "Grant New World Charter"

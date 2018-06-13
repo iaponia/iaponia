@@ -564,7 +564,12 @@ guiTypes = {
 		}
 
 
-		### SELECT ADVISOR
+		#####
+		### SELECT ADVISOR SUB WINDOW
+		### This is the window that opens when you're looking at
+		### available advisors.
+		#####
+
 		windowType = {
 			name = "court_select"
 			backGround=""
@@ -597,8 +602,6 @@ guiTypes = {
 				text = "SELECT_ADVISOR"
 				format = center
 			}
-
-
 
 			instantTextBoxType = {
 				name = "no_advisors_label"
@@ -644,8 +647,9 @@ guiTypes = {
 		}
 	}
 
-	################################################################################################
-	### --- Personality item
+	#####
+	### Personality item
+	#####
 	windowType = {
 		name = "countrycourtview_personalityitem"
 		backGround =""
@@ -682,6 +686,11 @@ guiTypes = {
 	################################################################################################
 	### --- Ability list item
 	### advisors as shown in main screen
+
+	###
+	# This is the entirety of the (invisible) window containing all the
+	# advisor portraits, names, modifiers, cost etc.
+	###
 	windowType = {
 		name = "countrycourtview_abilitylistitem"
 		backGround =""
@@ -692,6 +701,10 @@ guiTypes = {
 		horizontalBorder = ""
 		Orientation = "UPPER_LEFT"
 
+		###
+		# As the name states, this is how the advisor's name will be displayed.
+		# It's very boring, do not touch.
+		###
 		instantTextBoxType = {
 			name = "advisor_name"
 			position = { x = 136 y = 0 }
@@ -705,10 +718,13 @@ guiTypes = {
 			fixedsize = yes
 		}
 
+		###
+		# Below are specified the relative position of the text and icons
+		# showing the modifiers and cost associated with the advisor.
 		listboxType = {
 			name = "advisor_modifier_listbox"
 			backGround = ""
-			position = { x=82 y=25 }
+			position = { x=85 y=25 }
 			size = { x=100 y=100 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -719,7 +735,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "advisor_cost"
-			position = { x=82 y=80 }
+			position = { x=85 y=80 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -729,6 +745,9 @@ guiTypes = {
 			format = left
 		}
 
+		###
+		# Only shows how long the advisor's been in your court. Very boring.
+		###
 		instantTextBoxType = {
 			name = "advisor_activefor"
 			position = { x = 261 y = 80 }
@@ -741,6 +760,9 @@ guiTypes = {
 			format = right
 		}
 
+		###
+		# This is the position of the advisor portraits.
+		###
 		guiButtonType =
 		{
 			name ="advisor_button"
@@ -752,9 +774,6 @@ guiTypes = {
 			delayedTooltipText = ""
 			hint_tag = "hint_advisor"
 		}
-
-
-
 
 		iconType ={
 			name ="advisor_indicator_religion"
@@ -779,12 +798,8 @@ guiTypes = {
 			position = { x= -18 y = 39 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
-		}		
-		
+		}
 
-
-		
-		
 		guiButtonType = {
 			name = "advisor_sack"
 			position = { x=326 y = -1 }
@@ -876,8 +891,11 @@ guiTypes = {
 		}
 	}
 
-	################################################################################################
-	### --- Advisor modifiers list item
+	##########
+	### Advisor modifiers list item
+	##########
+	###
+	# I have no idea what this does. Seemingly nothing.
 	windowType = {
 		name = "advisor_modifier_item"
 		backGround =""
@@ -888,6 +906,9 @@ guiTypes = {
 		horizontalBorder = ""
 		Orientation = "UPPER_LEFT"
 
+		###
+		# This affects the text in the modifier description, not the icon.
+		###
 		instantTextBoxType = {
 			name = "advisor_desc"
 			position = { x = 30 y = 5 }
@@ -951,7 +972,7 @@ guiTypes = {
 		}
 
 
-		
+
 		iconType ={
 			name ="advisor_indicator_religion"
 			spriteType = "GFX_advisor_indicator_religion"
@@ -975,10 +996,10 @@ guiTypes = {
 			position = { x= -42 y = 37 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
-		}		
-		
-		
-		
+		}
+
+
+
 
 		instantTextBoxType = {
 			name = "name"

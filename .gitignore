@@ -14,6 +14,9 @@
 /IaponiaUniversalisUpdated/.DS_Store
 /IaponiaUniversalisUpdated/gfx/.DS_Store
 /IaponiaUniversalisUpdated/common/.DS_Store
+/IaponiaUniversalisUpdated/common/countries/.DS_Store
+/IaponiaUniversalisUpdated/common/on_actions/.DS_Store
+/IaponiaUniversalisUpdated/common/religions/.DS_Store
 /IaponiaUniversalisUpdated/interface/.DS_Store
 /IaponiaUniversalisUpdated/localisation/.DS_Store
 /IaponiaUniversalisUpdated/map/.DS_Store
@@ -23,6 +26,7 @@
 /IaponiaUniversalisUpdated/decisions/.DS_Store
 /IaponiaUniversalisUpdated/events/.DS_Store
 /IaponiaUniversalisUpdated/history/.DS_Store
+
 
 # Annoying DS-files in graphics mod
 /IaponiaUniversalisGFX/.DS_Store

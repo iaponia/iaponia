@@ -724,7 +724,7 @@ guiTypes = {
 		listboxType = {
 			name = "advisor_modifier_listbox"
 			backGround = ""
-			position = { x=85 y=25 }
+			position = { x=92 y=28 }
 			size = { x=100 y=100 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -735,7 +735,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "advisor_cost"
-			position = { x=85 y=80 }
+			position = { x=92 y=82 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -820,9 +820,12 @@ guiTypes = {
 			buttonFont = "vic_18"
 		}
 
+		###
+		# Moves the number next to the adm/dip/mil icon.
+		###
 		instantTextBoxType = {
 			name = "advisor_ability_skill"
-			position = { x = 100 y = 0 }
+			position = { x = 109 y = 0 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
@@ -834,6 +837,9 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
+		###
+		# Moves the adm/dip/mil icon next to advisor portrait.
+		###
 		iconType =
 		{
 			name ="advisor_skill_icon"
@@ -841,7 +847,7 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			position = { x= 80 y = 0 }
+			position = { x= 89 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -907,7 +913,7 @@ guiTypes = {
 		Orientation = "UPPER_LEFT"
 
 		###
-		# This affects the text in the modifier description, not the icon.
+		# This affects the TEXT in the modifier description, not the ICON.
 		###
 		instantTextBoxType = {
 			name = "advisor_desc"
@@ -923,6 +929,9 @@ guiTypes = {
 			fixedsize = no
 		}
 
+		###
+		# This affects the ICON in the modifier description, not the TEXT.
+		###
 		iconType =
 		{
 			name ="advisor_modifier_icon"
@@ -950,8 +959,6 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 
-
-
 		iconType =
 		{
 			name ="banner"
@@ -970,8 +977,6 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 		}
-
-
 
 		iconType ={
 			name ="advisor_indicator_religion"
@@ -997,9 +1002,6 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}
-
-
-
 
 		instantTextBoxType = {
 			name = "name"

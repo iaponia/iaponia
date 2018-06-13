@@ -1,8 +1,11 @@
 guiTypes = {
 
+	#####
+	# Unknown effect
+	#####
 	windowType = {
 		name = "blessings_window"
-		position = { x=-315 y=-370}	
+		position = { x=-315 y=-370}
 		size = { x=750 y=750 }
 		moveable = 1
 		dontRender = ""
@@ -10,24 +13,30 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 		Orientation = "CENTER"
-		
+
 		upsound = hre
 		downsound = ""
-	
+
 #		iconType =
 #		{
 #			name ="hre_bg_extended"
 #			spriteType = "GFX_hre_bg_extended"
 #			position = { x= 0 y = 0 }
 #		}
-		
+
+		#####
+		## Moves all plessings and holy sites.
+		#####
 		iconType =
 		{
 			name ="copts_bg"
 			spriteType = "GFX_copts_bg"
 			position = { x= 66 y = 18 }
 		}
-		
+
+		#####
+		## Position of "Shinto" header
+		#####
 		instantTextBoxType = {
 			name = "header_label"
 			position = { x = 76 y = 58 }
@@ -35,12 +44,15 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_29"
 			borderSize = {x = 4 y = 4}
-			text = "SEVEN BLESSINGS TO YOU"	
+			text = "SEVEN BLESSINGS TO YOU"
 			maxWidth = 584
 			maxHeight = 32
 			alwaystransparent = yes
 		}
-		
+
+		#####
+		## Moves the "Honors" (or Blessings) label.
+		#####
 		instantTextBoxType = {
 			name = "blessings_label"
 			position = { x = 76 y = 66 }
@@ -48,12 +60,15 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_22s"
 			borderSize = {x = 4 y = 40}
-			text = "PATRIARCHAL_BLESSINGS"	
+			text = "PATRIARCHAL_BLESSINGS"
 			maxWidth = 584
 			maxHeight = 32
 			alwaystransparent = yes
 		}
-		
+
+		#####
+		## Moves the blessing/honors icons themselves.
+		#####
 		OverlappingElementsBoxType = {
 			name = "blessings"
 			position = { x = 146 y = 166 }
@@ -62,7 +77,10 @@ guiTypes = {
 			format = center
 			spacing = 60
 		}
-		
+
+		#####
+		## Moves the Holy Sites-label.
+		#####
 		instantTextBoxType = {
 			name = "holy_site_label"
 			position = { x = 76 y = 188 }
@@ -70,12 +88,15 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_22s"
 			borderSize = {x = 4 y = 40}
-			text = "HOLY_SITES"	
+			text = "HOLY_SITES"
 			maxWidth = 584
 			maxHeight = 32
 			alwaystransparent = yes
 		}
-		
+
+		#####
+		## Moves the number showing number of controlled holy sites.
+		#####
 		instantTextBoxType = {
 			name = "holy_site_num"
 			position = { x = 476 y = 188 }
@@ -83,28 +104,34 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_22s"
 			borderSize = {x = 4 y = 40}
-			text = "3/5"	
+			text = "3/5"
 			maxWidth = 132
 			maxHeight = 32
 			alwaystransparent = yes
 		}
-			
+
+		#####
+		## Moves and resizes the list of holy sites.
+		#####
 		listboxType =  {
 			name ="holy_site_listbox"
 			position = { x = 110 y = 242 }
 			backGround=""
-			size = { x = 498 y = 480}
+			size = { x = 498 y = 430}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 10 y = 10}
 		}
-			
+
+		#####
+		## Moves the close button.
+		#####
 		guiButtonType = {
 			name = "close_button"
 			position = { x=296 y =660}
-			quadTextureSprite ="button_type_1"	
+			quadTextureSprite ="button_type_1"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -113,10 +140,13 @@ guiTypes = {
 			clicksound = close_window
 			shortcut = "ESCAPE"
 		}
-		
+
+		#####
+		## Moves the blessing selection window
+		####
 		windowType = {
 			name = "blessing_selection"
-			position = { x = 0 y = 0 }	
+			position = { x = 0 y = 0 }
 			size = { x=750 y=750 }
 			moveable = 1
 			dontRender = ""
@@ -124,14 +154,20 @@ guiTypes = {
 			verticalBorder= ""
 			fullScreen = no
 			Orientation = "UPPER_LEFT"
-			
+
+			#####
+			## Moves the entire list of blessings/honors.
+			#####
 			iconType =
 			{
 				name ="copts_list_bg"
 				spriteType = "GFX_copts_list_bg"
 				position = { x= 66 y = 18 }
 			}
-			
+
+			#####
+			## Moves the 'Pick honors' label.
+			#####
 			instantTextBoxType = {
 				name = "label"
 				position = { x = 76 y = 66 }
@@ -139,27 +175,33 @@ guiTypes = {
 				textureFile = ""
 				font = "vic_22s"
 				borderSize = {x = 4 y = 40}
-				text = "PICK_BLESSING"	
+				text = "PICK_BLESSING"
 				maxWidth = 584
 				maxHeight = 32
 			}
-			
+
+			#####
+			## Resizes/moves the list of available blessings.
+			#####
 			listboxType =  {
 				name ="blessing_listbox"
 				position = { x = 115 y = 128 }
 				backGround=""
-				size = { x = 498 y = 580}
+				size = { x = 498 y = 540}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 10 y = 10}
 			}
-			
+
+			#####
+			## Moves the cancel-button in the blessing selection screen.
+			####
 			guiButtonType = {
 				name = "cancel_button"
 				position = { x=296 y =660}
-				quadTextureSprite ="button_type_1"	
+				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -173,10 +215,13 @@ guiTypes = {
 
 	######dont do drugs m'kay######
 
+	#####
+	## Unknown effect
+	#####
 	windowType = {
 		name = "holy_site_entry"
 		backGround=""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x = 490 y = 76 }
 		moveable = 0
 		dontRender = ""
@@ -186,71 +231,71 @@ guiTypes = {
 
 		iconType = {
 			name = "copts_site_title_banner"
-			spriteType ="GFX_copts_site_title_banner"	
+			spriteType ="GFX_copts_site_title_banner"
 			position = { x = 180 y = 5 }
-		}		
-		
+		}
+
 		iconType = {
 			name = "cross_icon" #well, it's the shinto torii now
-			spriteType ="GFX_province_view_religion"	
+			spriteType ="GFX_province_view_religion"
 			position = { x = -4 y = 16 }
 			frame = 10
 		}
-		
+
 		iconType = {
 			name = "site_icon"
-			spriteType = "GFX_holy_site_default"	
+			spriteType = "GFX_holy_site_default"
 			position = { x = 42 y = 6 }
 			frame = 1
 		}
-		
+
 		instantTextBoxType= {
 			position = { x = 218 y = 7}
 			name = "title"
 			font = "vic_22s"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 188
 			maxHeight = 20
-			text = ""	
+			text = ""
 			format = left
 		}
-		
+
 		instantTextBoxType= {
 			position = { x = 218 y = 32}
 			name = "control"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 188
 			maxHeight = 20
-			text = "Controlled by Polandball"	
+			text = "Controlled by Polandball"
 			format = left
 		}
-		
+
 		instantTextBoxType= {
 			position = { x = 218 y = 52}
 			name = "religion"
 			font = "vic_18"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 188
 			maxHeight = 20
-			text = "Pastafarian"	
+			text = "Pastafarian"
 			format = left
 		}
-		
+
 		iconType = {
 			name = "control_matches_icon"
-			spriteType ="GFX_enacted_reform_icon"	
+			spriteType ="GFX_enacted_reform_icon"
 			position = { x = 186 y = 34 }
 			frame = 1
 		}
-		
+
 		iconType = {
 			name = "religion_matches_icon"
-			spriteType ="GFX_enacted_reform_icon"	
+			spriteType ="GFX_enacted_reform_icon"
 			position = { x = 186 y = 54 }
 			frame = 1
 		}
-		
+
 		guiButtonType = {
 			name = "goto_button"
 			position = { x=400 y = 43}
@@ -258,7 +303,7 @@ guiTypes = {
 			buttonText = "GOTO"
 			buttonFont = "vic_18"
 		}
-		
+
 		guiButtonType =
 		{
 			name ="countryshield"
@@ -268,16 +313,16 @@ guiTypes = {
 			clicksound = click
 		}
 	}
-	
+
 	windowType = {
 		name = "blessingitem"
 		backGround =""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=24 y=24 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
-		
+
 		iconType =
 		{
 			name = "blessing_icon_slot"
@@ -292,7 +337,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_copts_blessing_select"
 			buttonFont = "vic_18"
 		}
-		
+
 		iconType =
 		{
 			name = "blessing_icon"
@@ -302,22 +347,22 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-	
+
 	windowType = {
 		name = "blessing_entry"
 		backGround =""
-		position = { x=0 y=0 }	
+		position = { x=0 y=0 }
 		size = { x=490 y=92 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = ""
-		
+
 		iconType = {
 			name = "copts_blessing_title_banner"
-			spriteType ="GFX_copts_blessing_title_banner"	
+			spriteType ="GFX_copts_blessing_title_banner"
 			position = { x = -5 y = 5 }
-		}	
-		
+		}
+
 		iconType =
 		{
 			name = "blessing_icon"
@@ -325,29 +370,29 @@ guiTypes = {
 			position = { x = 0 y = 32 }
 			Orientation = "UPPER_LEFT"
 		}
-		
+
 		instantTextBoxType = {
 			position = { x = 28 y = 7}
 			name = "title"
 			font = "vic_22s"
-			borderSize = {x = 0 y = 0}	
+			borderSize = {x = 0 y = 0}
 			maxWidth = 364
 			maxHeight = 20
-			text = "Da Blessing"	
+			text = "Da Blessing"
 			format = left
 		}
-		
+
 		instantTextBoxType = {
 			name = "mod_desc"
 			position = { x = 64 y = 32 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
-			text = "Morale of goats: +1000%"	
+			text = "Morale of goats: +1000%"
 			maxWidth = 320
 			maxHeight = 60
 		}
-		
+
 		guiButtonType = {
 			name = "select_button"
 			position = { x=410 y = 4}

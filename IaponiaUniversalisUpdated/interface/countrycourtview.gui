@@ -767,7 +767,7 @@ guiTypes = {
 		{
 			name ="advisor_button"
 			quadTextureSprite= "GFX_advisor_noAdvisorType"
-			position = { x= 3 y = 3 }
+			position = { x= 5 y = 14 }
 			Orientation = "UPPER_LEFT"
 			tooltip = ""
 			tooltipText =""
@@ -778,14 +778,14 @@ guiTypes = {
 		iconType ={
 			name ="advisor_indicator_religion"
 			spriteType = "GFX_advisor_indicator_religion"
-			position = { x= -18 y = 5 }
+			position = { x= -17 y = 16 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType ={
 			name ="advisor_indicator_religion_icon"
 			spriteType = "GFX_province_view_religion"
-			position = { x= -13 y = 10 }
+			position = { x= -12 y = 21 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.9
 			allwaystransparent = yes
@@ -795,7 +795,7 @@ guiTypes = {
 		iconType ={
 			name ="advisor_indicator_culture"
 			spriteType = "GFX_advisor_indicator_culture"
-			position = { x= -18 y = 39 }
+			position = { x= -17 y = 50 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 		}

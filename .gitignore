@@ -10,3 +10,26 @@
 !/IaponiaUniversalisGFX.mod
 !.gitignore
 
+# Annoying DS-files in main mod
+/IaponiaUniversalisUpdated/.DS_Store
+/IaponiaUniversalisUpdated/gfx/.DS_Store
+/IaponiaUniversalisUpdated/common/.DS_Store
+/IaponiaUniversalisUpdated/interface/.DS_Store
+/IaponiaUniversalisUpdated/localisation/.DS_Store
+/IaponiaUniversalisUpdated/map/.DS_Store
+/IaponiaUniversalisUpdated/missions/.DS_Store
+/IaponiaUniversalisUpdated/music/.DS_Store
+/IaponiaUniversalisUpdated/customizable_localization/.DS_Store
+/IaponiaUniversalisUpdated/decisions/.DS_Store
+/IaponiaUniversalisUpdated/events/.DS_Store
+/IaponiaUniversalisUpdated/history/.DS_Store
+
+# Annoying DS-files in graphics mod
+/IaponiaUniversalisGFX/.DS_Store
+/IaponiaUniversalisGFX/gfx/.DS_Store
+/IaponiaUniversalisGFX/gfx/entities/.DS_Store
+/IaponiaUniversalisGFX/gfx/models/.DS_Store
+/IaponiaUniversalisGFX/gfx/models/Units/.DS_Store
+/IaponiaUniversalisGFX/gfx/models/Units/animation/.DS_Store
+/IaponiaUniversalisGFX/interface/.DS_Store
+/IaponiaUniversalisGFX/interface/assets/.DS_Store

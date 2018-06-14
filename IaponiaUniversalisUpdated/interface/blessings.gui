@@ -115,9 +115,9 @@ guiTypes = {
 		#####
 		listboxType =  {
 			name ="holy_site_listbox"
-			position = { x = 110 y = 242 }
+			position = { x = 110 y = 247 }
 			backGround=""
-			size = { x = 498 y = 430}
+			size = { x = 498 y = 385}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1
@@ -185,9 +185,9 @@ guiTypes = {
 			#####
 			listboxType =  {
 				name ="blessing_listbox"
-				position = { x = 115 y = 128 }
+				position = { x = 115 y = 140 }
 				backGround=""
-				size = { x = 498 y = 540}
+				size = { x = 498 y = 500}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1

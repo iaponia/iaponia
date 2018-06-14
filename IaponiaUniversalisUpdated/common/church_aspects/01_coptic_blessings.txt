@@ -1,7 +1,7 @@
 confucian_education = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		global_missionary_strength = 0.02
 	}
 	ai_will_do = {
@@ -30,7 +30,7 @@ confucian_education = {
 encourage_national_study = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		global_unrest = -1
 	}
 	ai_will_do = {
@@ -41,7 +41,7 @@ encourage_national_study = {
 familial_ties_to_priesthood = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		legitimacy = 1
 	}
 	ai_will_do = {
@@ -58,7 +58,7 @@ familial_ties_to_priesthood = {
 formalize_warrior_codes = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		land_morale = 0.1
 	}
 	ai_will_do = {
@@ -69,7 +69,7 @@ formalize_warrior_codes = {
 recruit_warrior_monks = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		infantry_power = 0.1
 	}
 	ai_will_do = {
@@ -80,7 +80,7 @@ recruit_warrior_monks = {
 organize_festivals = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		stability_cost_modifier = -0.15
 	}
 	ai_will_do = {
@@ -97,7 +97,7 @@ organize_festivals = {
 maintain_pilgrimage_routes = {
 	is_blessing = yes
 
-	effect = {
+	modifier = {
 		religious_unity = 0.15
 	}
 	ai_will_do = {

@@ -1,5 +1,5 @@
 organize_dioceses_aspect = {
-	effect = { 
+	modifier = {
 		development_cost = -0.15
 	}
 	ai_will_do = {
@@ -8,7 +8,7 @@ organize_dioceses_aspect = {
 }
 
 found_seminaries_aspect = {
-	effect = { 
+	modifier = {
 		global_missionary_strength = 0.01
 	}
 	ai_will_do = {
@@ -21,7 +21,7 @@ found_seminaries_aspect = {
 }
 
 establish_hospitals_aspect = {
-	effect = {
+	modifier = {
 		manpower_recovery_speed = 0.1
 	}
 	ai_will_do = {
@@ -39,7 +39,7 @@ establish_hospitals_aspect = {
 }
 
 encourage_dialectics_aspect = {
-	effect = {
+	modifier = {
 		religious_unity = 0.15
 	}
 	ai_will_do = {
@@ -52,7 +52,7 @@ encourage_dialectics_aspect = {
 }
 
 patronize_iconography_aspect = {
-	effect = { 
+	modifier = {
 		prestige = 1
 	}
 	ai_will_do = {
@@ -65,7 +65,7 @@ patronize_iconography_aspect = {
 }
 
 grant_trading_rights_aspect = {
-	effect = { 
+	modifier = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	ai_will_do = {
@@ -82,7 +82,7 @@ grant_trading_rights_aspect = {
 }
 
 import_printing_presses_aspect = {
-	effect = {
+	modifier = {
 		idea_cost = -0.1
 	}
 	ai_will_do = {
@@ -91,7 +91,7 @@ import_printing_presses_aspect = {
 }
 
 request_armaments_aspect = {
-	effect = { 
+	modifier = {
 		fire_damage = 0.1
 	}
 	ai_will_do = {

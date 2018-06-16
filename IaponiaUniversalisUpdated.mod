@@ -1,4 +1,4 @@
-name="Iaponia Universalis 2.1"
+name="Iaponia Universalis 2.2"
 path="mod/IaponiaUniversalisUpdated"
 disallow_random_new_world = yes
 replace_path="missions"
@@ -51,4 +51,4 @@ tags={
 	"mapOverhaul"
 }
 picture="iaponia.png"
-supported_version="1.24.*.*"
+supported_version="1.25.*.*"

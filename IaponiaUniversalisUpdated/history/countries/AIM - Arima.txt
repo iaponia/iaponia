@@ -4,13 +4,13 @@ primary_culture = shimabara_c
 religion = shinto
 technology_group = kyushu
 capital = 698	# Shimabara
-	
-1467.6.15 = { 
+
+1467.6.15 = {
 	monarch = {
 		name = "Ujizumi"
 		dynasty = "Arima"
 		birth_date = 1430.1.1
-		death_date = 1480.1.1
+		# death_date = 1480.1.1
 		adm = 4
 		dip = 4
 		mil = 4
@@ -29,12 +29,12 @@ capital = 698	# Shimabara
 	add_heir_personality = brave_personality
 }
 
-1493.6.9 = { 
+1493.6.9 = {
 	monarch = {
 		name = "Takazumi"
 		dynasty = "Arima"
 		birth_date = 1450.1.1
-		death_date = 1500.1.1
+		# death_date = 1500.1.1
 		adm = 5
 		dip = 5
 		mil = 6
@@ -42,7 +42,7 @@ capital = 698	# Shimabara
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
 }
-	
+
 1493.6.9 = {
 	heir = {
 		name = "Sumikane"
@@ -56,12 +56,12 @@ capital = 698	# Shimabara
 	}
 }
 
-1511.9.25 = { 
+1511.9.25 = {
 	monarch = {
 		name = "Sumikane"
 		dynasty = "Arima"
 		birth_date = 1470.1.1
-		death_date = 1520.1.1
+		# death_date = 1520.1.1
 		adm = 4
 		dip = 4
 		mil = 4
@@ -81,13 +81,13 @@ capital = 698	# Shimabara
 	add_heir_personality = stern_personality
 	add_heir_personality = mercantile_personality
 }
-	
-1523.8.25 = { 
+
+1523.8.25 = {
 	monarch = {
 		name = "Haruzumi"
 		dynasty = "Arima"
 		birth_date = 1483.1.1
-		death_date = 1566.1.1
+		# death_date = 1566.1.1
 		adm = 6
 		dip = 7
 		mil = 6
@@ -122,13 +122,13 @@ capital = 698	# Shimabara
 1536.4.7 = {
 	government = sengoku_monarchy
 }
-	
-1554.3.1 = { 
+
+1554.3.1 = {
 	monarch = {
 		name = "Yoshisada"
 		dynasty = "Arima"
 		birth_date = 1521.1.1
-		death_date = 1577.1.1
+		# death_date = 1577.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -157,13 +157,13 @@ capital = 698	# Shimabara
 	add_heir_personality = pious_personality
 	add_heir_personality = zealot_personality
 }
-	
-1582.6.21 = { 
+
+1582.6.21 = {
 	monarch = {
 		name = "Harunobu"
 		dynasty = "Arima"
 		birth_date = 1567.1.1
-		death_date = 1612.6.5
+		# death_date = 1612.6.5
 		adm = 4
 		dip = 5
 		mil = 6
@@ -196,8 +196,8 @@ capital = 698	# Shimabara
 	add_ruler_personality = zealot_personality
 	add_queen_personality = pious_personality
 }
-	
-1600.9.13 = { 
+
+1600.9.13 = {
 	heir = {
 		name = "Naozumi"
 		dynasty = "Arima"
@@ -218,7 +218,7 @@ capital = 698	# Shimabara
 	add_heir_personality = connected_personality
 	add_heir_personality = zealot_personality
 }
-	
+
 1615.1.1 = {
 	monarch = {
 		name = "Haruzumi"

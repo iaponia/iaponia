@@ -5,12 +5,12 @@ religion = shinto
 technology_group = saigoku
 capital = 332	# Azai
 
-1523.8.25 = { 
+1523.8.25 = {
 	monarch = {
 		name = "Sukemasa"
 		dynasty = "Azai"
 		birth_date = 1491.1.1
-		death_date = 1542.1.21
+		# death_date = 1542.1.21
 		adm = 7
 		dip = 6
 		mil = 6
@@ -44,12 +44,12 @@ capital = 332	# Azai
 	add_heir_personality = artistic_personality
 }
 
-1546.5.19 = { 
+1546.5.19 = {
 	monarch = {
 		name = "Hisamasa"
 		dynasty = "Azai"
 		birth_date = 1526.1.1
-		death_date = 1573.9.26
+		# death_date = 1573.9.26
 		adm = 4
 		dip = 5
 		mil = 2
@@ -96,12 +96,12 @@ capital = 332	# Azai
 	}
 }
 
-1569.10.10 = { 
+1569.10.10 = {
 	monarch = {
 		name = "Nagamasa"
 		dynasty = "Azai"
 		birth_date = 1545.1.1
-		death_date = 1573.9.26
+		# death_date = 1573.9.26
 		adm = 4
 		dip = 5
 		mil = 8

@@ -4,13 +4,13 @@ primary_culture = hida_c
 religion = shinto
 technology_group = togoku
 capital = 386	# Araki
-	
-1493.6.9 = { 
+
+1493.6.9 = {
 	monarch = {
 		name = "Mototsuna"
 		dynasty = "Anegakoji"
 		birth_date = 1441.1.1
-		death_date = 1504.6.5
+		# death_date = 1504.6.5
 		adm = 3
 		dip = 5
 		mil = 2
@@ -32,13 +32,13 @@ capital = 386	# Araki
 	add_heir_personality = gregarious_personality
 	add_heir_personality = artistic_personality
 }
-	
-1511.9.25 = { 
+
+1511.9.25 = {
 	monarch = {
 		name = "Naritsugu"
 		dynasty = "Anegakoji"
 		birth_date = 1470.1.1
-		death_date = 1518.7.7
+		# death_date = 1518.7.7
 		adm = 3
 		dip = 4
 		mil = 2
@@ -60,12 +60,12 @@ capital = 386	# Araki
 	add_heir_personality = lenient_personality
 }
 
-1523.8.25 = { 
+1523.8.25 = {
 	monarch = {
 		name = "Naritoshi"
 		dynasty = "Anegakoji"
 		birth_date = 1505.1.1
-		death_date = 1527.1.1
+		# death_date = 1527.1.1
 		adm = 2
 		dip = 2
 		mil = 1
@@ -74,12 +74,12 @@ capital = 386	# Araki
 	add_ruler_personality = lenient_personality
 }
 
-1536.4.7 = { 
+1536.4.7 = {
 	monarch = {
 		name = "Naoyori"
 		dynasty = "Anegakoji"
 		birth_date = 1497.1.1
-		death_date = 1554.1.1
+		# death_date = 1554.1.1
 		adm = 5
 		dip = 4
 		mil = 5
@@ -90,12 +90,12 @@ capital = 386	# Araki
 	government = sengoku_monarchy
 }
 
-1569.10.10 = { 
+1569.10.10 = {
 	monarch = {
 		name = "Yoshiyori"
 		dynasty = "Anegakoji"
 		birth_date = 1520.1.1
-		death_date = 1572.12.16
+		# death_date = 1572.12.16
 		adm = 5
 		dip = 6
 		mil = 3
@@ -122,12 +122,12 @@ capital = 386	# Araki
 	add_heir_personality = humble_personality
 }
 
-1582.6.21 = { 
+1582.6.21 = {
 	monarch = {
 		name = "Yoritsuna"
 		dynasty = "Anegakoji"
 		birth_date = 1540.1.1
-		death_date = 1587.6.1
+		# death_date = 1587.6.1
 		adm = 5
 		dip = 6
 		mil = 5

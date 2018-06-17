@@ -4,13 +4,13 @@ primary_culture = aki_c
 religion = shinto
 technology_group = saigoku
 capital = 125	# Saeki
-	
-1467.6.15 = { 
+
+1467.6.15 = {
 	monarch = {
 		name = "Mototsuna"
 		dynasty = "Takeda"
 		birth_date = 1441.6.20
-		death_date = 1505.3.30
+		# death_date = 1505.3.30
 		adm = 3
 		dip = 3
 		mil = 5
@@ -34,12 +34,12 @@ capital = 125	# Saeki
 	add_heir_personality = equestrian_personality
 }
 
-1511.9.25 = { 
+1511.9.25 = {
 	monarch = {
 		name = "Motoshige"
 		dynasty = "Takeda"
 		birth_date = 1467.1.1
-		death_date = 1517.11.5
+		# death_date = 1517.11.5
 		adm = 4
 		dip = 4
 		mil = 6
@@ -74,12 +74,12 @@ capital = 125	# Saeki
 	add_heir_personality = centralizer_personality
 }
 
-1523.8.25 = { 
+1523.8.25 = {
 	monarch = {
 		name = "Mitsukazu"
 		dynasty = "Takeda"
 		birth_date = 1503.1.1
-		death_date = 1540.6.9
+		# death_date = 1540.6.9
 		adm = 5
 		dip = 3
 		mil = 6

@@ -4,13 +4,13 @@ primary_culture = yamato_c
 religion = shinto
 technology_group = saigoku
 capital = 321	# Uda
-	
-1467.6.15 = { 
+
+1467.6.15 = {
 	monarch = {
 		name = "Norizane"
 		dynasty = "Akiyama"
 		birth_date = 1425.1.1
-		death_date = 1470.1.1
+		# death_date = 1470.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -28,12 +28,12 @@ capital = 321	# Uda
 	}
 }
 
-1493.6.9 = { 
+1493.6.9 = {
 	monarch = {
 		name = "Kunikata"
 		dynasty = "Akiyama"
 		birth_date = 1470.1.1
-		death_date = 1525.1.1
+		# death_date = 1525.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -54,12 +54,12 @@ capital = 321	# Uda
 	}
 }
 
-1536.4.7 = { 
+1536.4.7 = {
 	monarch = {
 		name = "Munetami"
 		dynasty = "Akiyama"
 		birth_date = 1495.1.1
-		death_date = 1559.1.1
+		# death_date = 1559.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -77,12 +77,12 @@ capital = 321	# Uda
 	}
 }
 
-1569.10.10 = { 
+1569.10.10 = {
 	monarch = {
 		name = "Naokuni"
 		dynasty = "Akiyama"
 		birth_date = 1540.1.1
-		death_date = 1615.1.1
+		# death_date = 1615.1.1
 		adm = 3
 		dip = 3
 		mil = 3

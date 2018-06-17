@@ -1620,10 +1620,8 @@ castle_palace = {
 	cost = 1000
 	time = 60
 	trigger = {
-		AND = {
-			is_capital = yes
-			has_building = citadel
-		}
+		is_capital = yes
+		has_building = citadel
 	}
 	modifier = {
 		fort_level = 3
@@ -1645,11 +1643,9 @@ satellite_forts = {
 	cost = 500
 	time = 48
 	trigger = {
-		AND = {
-			is_capital = yes
-			has_building = castle_palace
-			has_building = outer_wards
-		}
+		is_capital = yes
+		has_building = castle_palace
+		has_building = outer_wards
 	}
 	modifier = {
 		local_defensiveness = 0.20
@@ -1667,11 +1663,9 @@ western_quarter = {
 	cost = 800
 	time = 40
 	trigger = {
-		AND = {
-			western_trade_i = 100
-			has_province_modifier = center_of_trade_modifier
-			has_port = yes
-		}
+		western_trade_i = 100
+		has_province_modifier = center_of_trade_modifier
+		has_port = yes
 	}
 	modifier = {
 		technology_cost = -0.1
@@ -1711,10 +1705,8 @@ ninjutsu_school = {
 	cost = 750
 	time = 36
 	trigger = {
-		AND = {
-			is_capital = no
-			is_state = yes
-		}
+		is_capital = no
+		is_state = yes
 	}
 	modifier = {
 		global_spy_defence = 0.15

@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 9	# Kagoshima
 
-1536.4.7 = { 
+1536.4.7 = {
 	monarch = {
 		name = "Takahisa"
 		dynasty = "Shimazu"
@@ -38,7 +38,7 @@ capital = 9	# Kagoshima
 	government = shugo_daimyo_monarchy
 }
 
-1569.10.10 = { 
+1569.10.10 = {
 	monarch = {
 		name = "Yoshihisa"
 		dynasty = "Shimazu"
@@ -50,7 +50,7 @@ capital = 9	# Kagoshima
 	}
 	heir = {
 		name = "Yoshihiro"
-		monarch_name "Yoshihiro"
+		monarch_name = "Yoshihiro"
 		dynasty = "Shimazu"
 		birth_date = 1536.8.21
 		death_date = 1619.8.20
@@ -90,8 +90,8 @@ capital = 9	# Kagoshima
 		personality = skilled_tactician_personality
 	}
 }
-	
-1600.9.13 = { 
+
+1600.9.13 = {
 	monarch = {
 		name = "Yoshihiro"
 		dynasty = "Shimazu"

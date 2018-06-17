@@ -5,7 +5,7 @@ religion = shinto
 technology_group = kyushu
 capital = 92	# Shimoagata
 
-1467.6.15 = { 
+1467.6.15 = {
 	monarch = {
 		name = "Shigemoto"
 		dynasty = "So"
@@ -15,7 +15,6 @@ capital = 92	# Shimoagata
 		dip = 4
 		mil = 5
 		}
-	}
 	heir = {
 		name = "Kimori"
 		monarch_name = "Kimori"
@@ -29,7 +28,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1493.6.9 = { 
+1493.6.9 = {
 	monarch = {
 		name = "Kimori"
 		dynasty = "So"
@@ -65,7 +64,7 @@ capital = 92	# Shimoagata
 	government = sengoku_monarchy
 }
 
-1536.4.7 = { 
+1536.4.7 = {
 	monarch = {
 		name = "Haruyasu"
 		dynasty = "So"
@@ -88,7 +87,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1554.3.1 = { 
+1554.3.1 = {
 	monarch = {
 		name = "Yoshishige"
 		dynasty = "So"
@@ -114,7 +113,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1600.9.13 = { 
+1600.9.13 = {
 	monarch = {
 		name = "Yoshitoshi"
 		dynasty = "So"

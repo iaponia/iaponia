@@ -4,8 +4,8 @@ primary_culture = bishu_c
 religion = shinto
 technology_group = saigoku
 capital = 206	# Tsu
-	
-1493.6.9 = { 
+
+1493.6.9 = {
 	monarch = {
 		name = "Munenori"
 		dynasty = "Shimizu"
@@ -24,7 +24,7 @@ capital = 206	# Tsu
 1546.5.19 = {
 	heir = {
 		name = "Muneharu"
-		monarch_name "Muneharu"
+		monarch_name = "Muneharu"
 		dynasty = "Shimizu"
 		birth_date = 1537.1.1
 		death_date = 1582.6.23
@@ -38,8 +38,8 @@ capital = 206	# Tsu
 	add_heir_personality = artistic_personality
 	add_heir_personality = humble_personality
 }
-	
-1554.3.1 = { 
+
+1554.3.1 = {
 	monarch = {
 		name = "Muneharu"
 		dynasty = "Shimizu"

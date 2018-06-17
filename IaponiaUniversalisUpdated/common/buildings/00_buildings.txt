@@ -201,7 +201,7 @@ training_grounds = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 250
+			FROM = { treasury = 250 }
 		}
 	}
 }
@@ -255,7 +255,7 @@ barracks = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 500
+			FROM = { treasury = 500 }
 		}
 	}
 }
@@ -288,7 +288,7 @@ arsenal = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 800
+			FROM = { treasury = 800 }
 		}
 	}
 
@@ -445,7 +445,7 @@ marketplace = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 200
+			FROM = { treasury = 200 }
 		}
 	}
 }
@@ -524,7 +524,7 @@ merchant_guild = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 400
+			FROM = { treasury = 400 }
 		}
 	}
 }
@@ -596,7 +596,7 @@ workshop = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 600
+			FROM = { treasury = 600 }
 		}
 	}
 }
@@ -676,7 +676,7 @@ toll_roads = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 300
+			FROM = { treasury = 300 }
 		}
 	}
 }
@@ -753,7 +753,7 @@ post_roads = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 400
+			FROM = { treasury = 400 }
 		}
 	}
 }
@@ -839,7 +839,7 @@ highways = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 600
+			FROM = { treasury = 600 }
 		}
 	}
 }
@@ -917,7 +917,7 @@ shrine = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 200
+			FROM = { treasury = 200 }
 		}
 	}
 }
@@ -992,7 +992,7 @@ temple = {
 		}
 		modifier = {
 			factor = 1.25
-			treasury = 400
+			FROM = { treasury = 400 }
 		}
 	}
 }

@@ -26,15 +26,15 @@ historical_units = {
 	advanced_kyushu_cavalry
 }
 
-monarch_names = { 
+monarch_names = {
 	"Suketsugu #0" = 50
 	"Suketoki #0" = 50
 	"Suketsune #0" = 50
 	"Sukenaga #0" = 50
-	"Sukeaki #0" = 50	
-	"Sukemitsu #0" = 50	
-	"Sukemune #0" = 50	
-	"Sadasuke #0" = 50	
+	"Sukeaki #0" = 50
+	"Sukemitsu #0" = 50
+	"Sukemune #0" = 50
+	"Sadasuke #0" = 50
 	"Sukemochi #0" = 50
 	"Ujisuke #0" = 50
 	"Sukeyori #0" = 50
@@ -46,7 +46,7 @@ monarch_names = {
 	"Tadasuke #0" = 50
 	"Yoshisuke #0" = 50
 	"Yositaka #0" = 30
-	"Sukeyoshi #0" = 50	
+	"Sukeyoshi #0" = 50
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -78,7 +78,7 @@ leader_names = {
     Ito Ito Ito Ito Ito Ito Ito Ito Ito Ito
 	Aratake Aratake Aratake Aratake Aratake Mera Mera Mera Mera Mera
 	Sadohara Sadohara Sadohara Sadohara Sadohara Kiwaki Kiwaki Kiwaki Kiwaki Kiwaki
-	Nagakura Nagakura Nagakura Nagakura Nagakura Kawasaki Kawasaki Kawasaki Kawasaki Kawasaki	
+	Nagakura Nagakura Nagakura Nagakura Nagakura Kawasaki Kawasaki Kawasaki Kawasaki Kawasaki
 	Yamada Yamada Yamada Yamada Yamada Inazu Inazu Inazu Inazu Inazu
 	Kitahara Kitahara Kitahara Kitahara Kitahara Yudi Yudi Yudi Yudi Yudi
 	Tsuchimochi Tsuchimochi Tsuchimochi Tsuchimochi Tsuchimochi Mitai Mitai Mitai Mitai Mitai
@@ -89,10 +89,10 @@ leader_names = {
 ship_names = {
 	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
 	"Hitachi Maru"
-	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"
@@ -103,9 +103,9 @@ ship_names = {
 }
 
 army_names = {
-	"Ito Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei"  "$PROVINCE$ Dan" 
+	"Ito Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei"  "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Ito Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai" 
+	"Ito Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

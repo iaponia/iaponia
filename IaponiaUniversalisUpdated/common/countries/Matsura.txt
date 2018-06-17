@@ -71,14 +71,14 @@ leader_names = {
 	Eriguchi Eriguchi Eriguchi Eriguchi Eriguchi Enjoji Enjoji Enjoji Enjoji Enjoji
 	Narimatsu Narimatsu Narimatsu Narimatsu Narimatsu Hyakutake Hyakutake Hyakutake Hyakutake Hyakutake
 	Oda Oda Oda Oda Oda Kinoshita Kinoshita Kinoshita Kinoshita Kinoshita
-	Egami Egami Egami Egami Egami Shigyo Shigyo Shigyo Shigyo Shigyo 
+	Egami Egami Egami Egami Egami Shigyo Shigyo Shigyo Shigyo Shigyo
 	Takagi Takagi Takagi Takagi Takagi Kumashiro Kumashiro Kumashiro Kumashiro Kumashiro
 	Ogawa Ogawa Ogawa Ogawa Ogawa Notomi Notomi Notomi Notomi Notomi
 	Baba Baba Baba Baba Baba Hata Hata Hata Hata Hata
 	So So So So So Uku Uku Uku Uku Uku
 	Matsuura Matsuura Matsuura Matsuura Matsuura Koteda Koteda Koteda Koteda Koteda
 	Sagawa Sagawa Sagawa Sagawa Sagawa Hidaka Hidaka Hidaka Hidaka Hidaka
-	Omura Omura Omura Omura Omura Arima Arima Arima Arima Arima 
+	Omura Omura Omura Omura Omura Arima Arima Arima Arima Arima
 	Tomonaga Tomonaga Tomonaga Tomonaga Tomonaga Hirai Hirai Hirai Hirai Hirai
 	Chidiwa Chidiwa Chidiwa Chidiwa Chidwa Fukuda Fukuda Fukuda Fukuda Fukuda
 	Yasutomi Yasutomi Yasutomi Yasutomi Yasutomi Saigo Saigo Saigo Saigo Saigo
@@ -88,10 +88,10 @@ leader_names = {
 ship_names = {
 	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
 	"Hitachi Maru"
-	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

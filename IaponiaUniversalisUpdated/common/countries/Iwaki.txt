@@ -67,7 +67,7 @@ monarch_names = { # Most Monarchs were named with -taka
 leader_names = {
     Satake Satake Satake Satake Satake Satake Satake Satake Satake Satake
 	Okamoto Okamoto Okamoto Okamoto Okamoto Umezu Umezu Umezu Umezu Umezu
-	Edo Edo Edo Edo Edo Onuki Onuki Onuki Onuki Onuki 
+	Edo Edo Edo Edo Edo Onuki Onuki Onuki Onuki Onuki
 	Kuruma Kuruma Kuruma Kuruma Kuruma Makabe Makabe Makabe Makabe Makabe
 	Aisu Aisu Aisu Aisu Aisu Wada Wada Wada Wada Wada
 	Oda Oda Oda Oda Oda Sugenoya Sugenoya Sugenoya Sugenoya Sugenoya
@@ -80,16 +80,16 @@ leader_names = {
 	Nasu Nasu Nasu Nasu Nasu Otawara Otawara Otawara Otawara Otawara
 	Ozeki Ozeki Ozeki Ozeki Ozeki Fukuhara Fukuhara Fukuhara Fukuhara Fukuhara
 	Iwaki Iwaki Iwaki Iwaki Iwaki Otsuka Otsuka Otsuka Otsuka Otsuka
-	
+
 }
 
 ship_names = {
 	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
 	"Hitachi Maru"
-	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

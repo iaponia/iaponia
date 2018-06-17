@@ -66,7 +66,7 @@ monarch_names = { #Most Monarchs were named with "nori"
 leader_names = {
     Araki Araki Araki Araki Araki Araki Araki Araki Araki Araki
 	Ikeda Ikeda Ikeda Ikeda Ikeda Nakagawa Nakagawa Nakagawa Nakagawa Nakagawa
-	Inatsugi Inatsugi Inatsugi Inatsugi Inatsugi Kimura Kimura Kimura Kimura Kimura 
+	Inatsugi Inatsugi Inatsugi Inatsugi Inatsugi Kimura Kimura Kimura Kimura Kimura
 	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Miyoshi Miyoshi Miyoshi Miyoshi Miyoshi
 	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Yusa Yusa Yusa Yusa Yusa
 	Yasumi Yasumi Yasumi Yasumi Yasumi Takayama Takayama Takayama Takayama Takayama
@@ -74,7 +74,7 @@ leader_names = {
 	Kizawa Kizawa Kizawa Kizawa Kizawa Nonagase Nonagase Nonagase Nonagase Nonagase
 	Yukawa Yukawa Yukawa Yukawa Yukawa Oyama Oyama Oyama Oyama Oyama
 	Matsunaga Matsunaga Matsunaga Matsunaga Matsunaga Yuki Yuki Yuki Yuki Yuki
-	Tsutsui Tsutsui Tsutsui Tsutsui Tsutsui Oka Oka Oka Oka Oka 
+	Tsutsui Tsutsui Tsutsui Tsutsui Tsutsui Oka Oka Oka Oka Oka
 	Ido Ido Ido Ido Ido Yagyu Yagyu Yagyu Yagyu Yagyu
 	Ochi Ochi Ochi Ochi Ochi Tochi Tochi Tochi Tochi Tochi
 	Matsukura Matsukura Matsukura Matsukura Matsukura Mori Mori Mori Mori Mori
@@ -88,10 +88,10 @@ leader_names = {
 ship_names = {
 	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
 	"Hitachi Maru"
-	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"
@@ -102,9 +102,9 @@ ship_names = {
 }
 
 army_names = {
-	"Yukawa Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei"  "$PROVINCE$ Dan" 
+	"Yukawa Gun" "$PROVINCE$ Gun" "$PROVINCE$ Zei"  "$PROVINCE$ Dan"
 }
 
 fleet_names = {
-	"Yukawa Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai" 
+	"Yukawa Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

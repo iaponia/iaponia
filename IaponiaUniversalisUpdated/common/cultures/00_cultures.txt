@@ -282,7 +282,7 @@ tokai_c = {
 	}
 	sagami_c = { #Izu #Sagami #Kamakura
 		primary = HJO
-		dynasty_names = { Hojo Tame Daidoji Tominaga Shimizu Ando Nakayama Haga Kasahara Nakayama Ashikaga Matsuda  }
+		dynasty_names = { Hojo Tame Daidoji Tominaga Shimizu Ando Haga Kasahara Nakayama Ashikaga Matsuda  }
 	}
 }
 

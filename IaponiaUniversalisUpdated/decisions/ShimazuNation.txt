@@ -87,7 +87,6 @@ country_decisions = {
 					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = SMZ
-				add_permanent_claim = SMZ
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

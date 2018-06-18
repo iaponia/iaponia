@@ -11,7 +11,6 @@ country_decisions = {
 			tag = SOG
 			NOT = { exists = OGS }
 			}
-		}
 		effect = {
 			change_tag = OGS
 			add_permanent_claim = 442

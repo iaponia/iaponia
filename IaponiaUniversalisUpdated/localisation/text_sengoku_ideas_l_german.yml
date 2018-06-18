@@ -1364,7 +1364,7 @@
  AKZ_ideas_start:0 "Akizuki Traditions"
  AKZ_ideas_bonus:0 "Akizuki Ambition"
  ancient_clan:0 "Ancient Roots"
- ancient_clan_desc:0 "We are one of the oldest clans of note in Kyushu; older than almost all the Shugo and second only to the Kikuchi.
+ # ancient_clan_desc:0 "We are one of the oldest clans of note in Kyushu; older than almost all the Shugo and second only to the Kikuchi.
  chikuzen_spirit:0 "Rebel Spirit"
  chikuzen_spirit_desc:0 "We are notoriously difficult to subjugate; regardless of who demands our subservience, we will always bide our time and break free eventually."
  akizuki_castle:0 "Castles of Akizuki"

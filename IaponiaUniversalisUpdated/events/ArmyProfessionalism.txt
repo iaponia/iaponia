@@ -46,7 +46,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_country_flag = had_living_of_the_land
@@ -59,9 +59,9 @@ country_event = {
 			}
 		}
 	}
-	
+
 	is_triggered_only = yes
-	
+
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -121,10 +121,10 @@ country_event = {
 				factor = 0
 				culture = FROM
 			}
-			modifier = {
-				factor = 5
-				government = steppe_horde
-			}
+#			modifier = {
+#				factor = 5
+#				government = steppe_horde
+#			}
 		}
 		add_army_professionalism = -0.05
 		add_prestige = -10
@@ -217,7 +217,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_neighbor_country = {
@@ -237,11 +237,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 
 	option = {
 		name = army_professionalism_events.4.a #We must pay the elite troops
@@ -298,7 +298,7 @@ country_event = {
 			NOT = { has_province_modifier = soldiers_stimulating_local_economy }
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -328,7 +328,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 		modifier = {
@@ -336,7 +336,7 @@ country_event = {
 			had_recent_war = 20 #20 year since last war
 		}
 	}
-	
+
 
 	option = {
 		name = army_professionalism_events.5.a #They must not be allowed other occupations on the side.
@@ -384,7 +384,7 @@ country_event = {
 			army_professionalism = ROOT
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_neighbor_country = {
@@ -401,11 +401,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 
 	option = {
 		name = army_professionalism_events.6.a #
@@ -448,7 +448,7 @@ country_event = {
 	title = army_professionalism_events.7.t
 	desc = army_professionalism_events.7.d
 	picture = HEIR_AND_FOREIGN_ADVISOR_eventPicture
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -476,11 +476,11 @@ country_event = {
 		army_professionalism = 0.6
 		NOT = { has_country_modifier = wargames }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 
 	option = {
 		name = army_professionalism_events.8.a #
@@ -523,11 +523,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_neighbor_country = {
@@ -539,7 +539,7 @@ country_event = {
 				}
 				save_event_target_as = enemy_country
 			}
-			
+
 		}
 	}
 
@@ -570,11 +570,11 @@ country_event = {
 		has_dlc = "Cradle of Civilization"
 		is_at_war = yes
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 
 	option = {
 		name = army_professionalism_events.10.a #
@@ -609,11 +609,11 @@ country_event = {
 		has_dlc = "Cradle of Civilization"
 		is_at_war = yes
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_country = {
@@ -645,11 +645,11 @@ country_event = {
 		has_dlc = "Cradle of Civilization"
 		army_professionalism = 0.5
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 
 	option = {
 		name = army_professionalism_events.12.a #
@@ -679,11 +679,11 @@ country_event = {
 		army_professionalism = 0.5
 		NOT = { has_country_modifier = integration_of_local_militias }
 	}
-	
+
 	mean_time_to_happen = {
 		months = 500
 	}
-	
+
 
 	option = {
 		name = army_professionalism_events.13.a #
@@ -721,9 +721,9 @@ province_event = {
 			army_professionalism = 0.4
 		}
 	}
-	
+
 	is_mtth_scaled_to_size = 1
-	
+
 	mean_time_to_happen = {
 		months = 600
 		modifier = {
@@ -739,7 +739,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 
 	option = {
 		name = army_professionalism_events.14.a #
@@ -772,9 +772,9 @@ province_event = {
 			army_professionalism = 0.4
 		}
 	}
-	
+
 	is_mtth_scaled_to_size = 1
-	
+
 	mean_time_to_happen = {
 		months = 700
 		modifier = {
@@ -790,7 +790,7 @@ province_event = {
 			}
 		}
 	}
-	
+
 
 	option = {
 		name = army_professionalism_events.15.a #
@@ -821,8 +821,8 @@ country_event = {
 			is_state = yes
 		}
 	}
-	
-	
+
+
 	mean_time_to_happen = {
 		months = 700
 		modifier = {
@@ -830,7 +830,7 @@ country_event = {
 			NOT = { army_professionalism = 0.2 }
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
@@ -894,8 +894,8 @@ country_event = {
 		has_country_modifier = gunpowder_core
 		mil_tech = 19
 	}
-	
-	
+
+
 	mean_time_to_happen = {
 		months = 12
 	}
@@ -904,7 +904,7 @@ country_event = {
 		name = army_professionalism_events.17.a #
 		if = {
 			limit = {
-				had_country_flag = { flag = gunpowder_core_activated days = 3650 } 
+				had_country_flag = { flag = gunpowder_core_activated days = 3650 }
 			}
 			add_army_professionalism = 0.025
 		}

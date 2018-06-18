@@ -8,9 +8,8 @@ country_decisions = {
 		allow = {
 			is_subject = no
 			is_at_war = no
-			AND = {
-				tag = SOG
-				NOT = { exists = OGS }
+			tag = SOG
+			NOT = { exists = OGS }
 			}
 		}
 		effect = {

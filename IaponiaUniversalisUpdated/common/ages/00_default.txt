@@ -192,7 +192,7 @@ age_of_reformation = {
 		obj_religious_reform = {
 			OR = {
 				religion = catholic
-				religion = mahayana
+				# religion = mahayana
 				full_idea_group = shinto_ideas
 				full_idea_group = pagan_ideas
 			}

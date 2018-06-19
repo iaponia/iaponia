@@ -99,16 +99,3 @@ imperial_ambition = {
 #	navy_tradition = 0.25
 #	recover_navy_morale_speed = 0.1
 #}
-
-
-# Japanese missions
-japanese_cot_dominated = {
-	trade_efficiency = 0.1
-}
-integrating_ainu = {
-	local_unrest = -2
-	local_tax_modifier = 0.1
-}
-jap_three_mountains = {
-	prestige = 1
-}

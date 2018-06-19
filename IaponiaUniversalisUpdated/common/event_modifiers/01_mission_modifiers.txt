@@ -348,18 +348,6 @@ prussian_rhine = {
 #	recover_navy_morale_speed = 0.1
 #}
 
-# Hungarian missions
-
-hun_moldavia_mod = {
-	local_defensiveness = 0.25
-	local_hostile_movement_speed = -0.25
-}
-
-hun_constantinople = {
-	legitimacy = 1
-	prestige = 1
-	tolerance_heretic = 2
-}
 
 # Japanese missions
 japanese_cot_dominated = {

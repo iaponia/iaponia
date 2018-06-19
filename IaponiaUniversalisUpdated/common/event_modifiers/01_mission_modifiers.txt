@@ -166,59 +166,6 @@ ottoman_naval_dominance = {
 	ship_durability = 0.05
 }
 
-# Russian missions
-
-russian_integration = {
-	diplomatic_reputation = 3
-}
-
-ruthenian_integration = {
-	local_autonomy = -0.1
-}
-
-convert_the_steppes = {
-	local_missionary_strength = 0.02
-	local_unrest = -2
-}
-
-baltic_ambition_new = {
-	trade_efficiency = 0.15
-	global_sailors_modifier = 0.33
-}
-
-conquest_of_finland = {
-	land_morale = 0.1
-	land_attrition = -0.2
-}
-
-russian_pacific_port = {
-	local_sailors_modifier = 1
-	local_ship_cost = -0.1
-}
-
-siberian_fur_production = {
-	trade_goods_size_modifier = 0.2
-}
-
-controlling_the_steppes = {
-	tolerance_own = 2
-}
-
-# Polish missions
-
-integrating_mazovia = {
-	diplomatic_reputation = 2
-}
-integration_of_lithuania = {
-	global_autonomy = -0.05
-}
-teutons_pacified = {
-	discipline = 0.05
-}
-silesia_conquered = {
-	manpower_recovery_speed = 0.2
-}
-
 #Byzantine
 
 theme_of_sicily = {

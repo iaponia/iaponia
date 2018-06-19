@@ -4,32 +4,32 @@
  ### when hovering over them.
  # Mercantilism = 100
  absolute_mercantilism:0 "Absolute Mercantilism"
- desc_absolute_mercantilism:0 "PLACEHOLDER"
+ # desc_absolute_mercantilism:0 "PLACEHOLDER"
  # Mercantilism = 87.5
  much_mercantilism:0 "Much Mercantilism"
- desc_much_mercantilism:0 "PLACEHOLDER"
+ # desc_much_mercantilism:0 "PLACEHOLDER"
  # Mercantilism = 75
  high_mercantilism:0 "High Mercantilism"
- desc_high_mercantilism:0 "PLACEHOLDER"
+ # desc_high_mercantilism:0 "PLACEHOLDER"
  # Mercantilism = 62.5
  more_mercantilism:0 "More Mercantilism"
- desc_more_mercantilism:0 "PLACEHOLDER"
+ # desc_more_mercantilism:0 "PLACEHOLDER"
  # Mercantilism = 50
  average_mercantilism:0 "Average Mercantilism"
- desc_average_mercantilism:0 "PLACEHOLDER"
+ # desc_average_mercantilism:0 "PLACEHOLDER"
  # Mercantilism = 37.5
  less_mercantilism:0 "Less Mencantilism"
- desc_less_mercantilism:0 "PLACEHOLDER"
+ # desc_less_mercantilism:0 "PLACEHOLDER"
  # Mercantilism = 25
  low_mercantilism:0 "Low Mercantilism"
- desc_low_mercantilism:0 "PLACEHOLDER"
+ # desc_low_mercantilism:0 "PLACEHOLDER"
  # Mercantilism = 12.5
  little_mercantilism:0 "Little Mercantilism"
- desc_little_mercantilism:0 "PLACEHOLDER"
+ # desc_little_mercantilism:0 "PLACEHOLDER"
  # Mercantilism = 0
  no_mercantilism:0 "No Mercantilism"
- desc_no_mercantilism:0 "PLACEHOLDER"
- 
+ # desc_no_mercantilism:0 "PLACEHOLDER"
+
  LORD: "Lord"
  LADY: "Lady"
  DOMAIN: "Domain"

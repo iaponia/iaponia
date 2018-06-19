@@ -380,10 +380,11 @@ age_of_absolutism = {
 			has_unified_culture_group = yes
 		}
 		obj_hegemony = {
-			OR = {
+			# OR = {
 				government_rank = 4
-				government_rank = 5
-			}
+				# government_rank = 4 translates to "at least RANK_4" in-game
+				# government_rank = 5
+			# }
 		}
 		obj_disc_army = {
 			has_global_modifier_value = {

@@ -371,38 +371,6 @@ por_erudite_explorers = {
 	province_trade_power_modifier = 0.25
 }
 
-# Spanish Missions (CAS, SPA)
-
-spa_hispaniola_discovered = {
-	range = 0.25
-}
-
-spa_rb_morale = {
-	land_morale = 0.05
-	naval_morale = 0.05
-}
-
-spa_rb_culture_shift = {
-	local_culture_conversion_cost = -0.2
-}
-
-spa_rb_gold_rush = {
-	trade_goods_size_modifier = 0.5
-}
-
-spa_rb_christian_iberia = {
-	tolerance_own = 2
-}
-
-spa_rb_italian_ambition_mod = {
-	galley_power = 0.15
-	naval_maintenance_modifier = -0.15
-}
-
-spa_rb_overseas_trade = {
-	global_tariffs = 0.25
-}
-
 # Dutch Missions
 
 ned_brazil_mod = {

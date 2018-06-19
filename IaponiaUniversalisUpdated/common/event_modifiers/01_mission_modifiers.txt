@@ -348,18 +348,6 @@ prussian_rhine = {
 #	recover_navy_morale_speed = 0.1
 #}
 
-# Burgundian missions
-
-bur_diplo_mod = {
-	diplomatic_reputation = 2
-}
-
-bur_arles_mod = {
-	prestige = 2
-	legitimacy = 1
-	promote_culture_cost = -0.25
-}
-
 # Arabian missions
 
 ara_gen_goods_mod = {

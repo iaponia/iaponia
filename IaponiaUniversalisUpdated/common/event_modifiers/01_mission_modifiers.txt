@@ -393,26 +393,6 @@ por_erudite_explorers = {
 #	recover_navy_morale_speed = 0.1
 #}
 
-# Mughal missions
-
-mug_hindustan_mod = {
-	manpower_recovery_speed = 0.2
-	global_manpower_modifier = 0.1
-}
-
-mug_gujarat_mod = {
-	trade_steering = 0.2
-	trade_efficiency = 0.1
-}
-
-mug_malwa_mod = {
-	trade_goods_size_modifier = 0.25
-}
-
-mug_south_bengal_mod = {
-	supply_limit_modifier = 0.25
-}
-
 # African misions
 africa_slave_trade_mission = {
 	trade_efficiency = 0.1

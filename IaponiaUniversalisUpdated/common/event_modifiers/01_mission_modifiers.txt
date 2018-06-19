@@ -393,19 +393,6 @@ por_erudite_explorers = {
 #	recover_navy_morale_speed = 0.1
 #}
 
-# African misions
-africa_slave_trade_mission = {
-	trade_efficiency = 0.1
-}
-
-african_abolitionists = {
-	global_unrest = -3
-}
-wealth_of_africa_modifier = {
-	inflation_reduction = 0.1
-	production_efficiency = 0.1
-}
-
 # Generic European missions
 
 gen_eur_trade_node_mod = {

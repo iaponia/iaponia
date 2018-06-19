@@ -371,35 +371,6 @@ por_erudite_explorers = {
 	province_trade_power_modifier = 0.25
 }
 
-# Orissan Missions
-
-ori_coastal_trade = {
-	trade_efficiency = 0.15
-}
-
-ori_diamonds_golconda = {
-	prestige = 1
-}
-
-solanki_fortress = {
-	local_defensiveness = 0.5
-	supply_limit_modifier = 0.25
-}
-
-# Timurid Missions
-
-tim_mountain_reconquest = {
-	land_attrition = -0.2
-}
-
-tim_heartland_reconquest = {
-	core_creation = -0.2
-}
-
-tim_steppe_reconquest = {
-	shock_damage = 0.15
-}
-
 # Chinese missions
 conquest_of_beijing = {
 	manpower_recovery_speed = 0.2

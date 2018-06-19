@@ -371,11 +371,6 @@ por_erudite_explorers = {
 	province_trade_power_modifier = 0.25
 }
 
-# Genoese missions
-black_sea_ambition = {
-	global_ship_cost = -0.33
-}
-
 # Scottish Missions
 
 college_of_justice = {

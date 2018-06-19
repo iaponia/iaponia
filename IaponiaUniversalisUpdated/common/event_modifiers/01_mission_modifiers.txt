@@ -393,50 +393,6 @@ por_erudite_explorers = {
 #	recover_navy_morale_speed = 0.1
 #}
 
-# Generic European missions
-
-gen_eur_trade_node_mod = {
-	trade_efficiency = 0.15
-}
-
-gen_eur_defender = {
-	land_morale = 0.05
-	global_heretic_missionary_strength = 0.01
-}
-
-gen_asia_holding_mod = {
-	global_foreign_trade_power = 0.2
-}
-
-gen_america_holding_mod = {
-	global_colonial_growth = 20
-	colonist_placement_chance = 0.02
-	global_tariffs = 0.15
-}
-
-gen_indian_holding_mod = {
-	trade_efficiency = 0.25
-	trade_steering = 0.1
-}
-
-gen_hre_diplomacy_mod = {
-	diplomats = 1
-	improve_relation_modifier = 0.25
-}
-
-gen_hre_emperor_mod = {
-	diplomatic_reputation = 3
-}
-
-gen_hre_imperial_ban_mod = {
-	imperial_authority_value = 0.1
-}
-
-eng_rb_imperial_ban_mod = {
-	prestige_decay = -0.02
-	imperial_authority_value = 0.1
-}
-
 # Asian missions
 spice_trade_controlled = {
 	trade_efficiency = 0.1

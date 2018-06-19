@@ -371,13 +371,6 @@ por_erudite_explorers = {
 	province_trade_power_modifier = 0.25
 }
 
-# Korean missions
-
-three_koreas_mod = {
-	local_tax_modifier = 0.1
-	cs_only_local_development_cost = -0.1
-}
-
 # Orissan Missions
 
 ori_coastal_trade = {

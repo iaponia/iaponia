@@ -372,26 +372,26 @@ por_erudite_explorers = {
 }
 
 # Daimyo missions
-improved_han = {
-	local_development_cost = -0.1
-}
-supported_kabuki = {
-	advisor_cost = -0.15
-}
-cherry_blossoms = {
-	legitimacy = 1
-}
-strengthened_shinobi = {
-	spy_offence = 0.33
-	global_spy_defence = 0.33
-}
-strengthened_bushido = {
-	discipline = 0.015
-}
-divine_wind_modifier = {
-	navy_tradition = 0.25
-	recover_navy_morale_speed = 0.1
-}
+#improved_han = {
+#	local_development_cost = -0.1
+#}
+#supported_kabuki = {
+#	advisor_cost = -0.15
+#}
+#cherry_blossoms = {
+#	legitimacy = 1
+#}
+#strengthened_shinobi = {
+#	spy_offence = 0.33
+#	global_spy_defence = 0.33
+#}
+#strengthened_bushido = {
+#	discipline = 0.015
+#}
+#divine_wind_modifier = {
+#	navy_tradition = 0.25
+#	recover_navy_morale_speed = 0.1
+#}
 
 # Mughal missions
 

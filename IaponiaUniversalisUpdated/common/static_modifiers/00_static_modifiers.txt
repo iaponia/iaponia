@@ -309,7 +309,7 @@ non_core = {
 }
 
 march_bonus = {
-	
+
 }
 
 same_culture_group = {
@@ -413,8 +413,8 @@ local_autonomy_multiplicative = {
 	local_tax_modifier = -1.0
 	local_production_efficiency = -1.0
 	province_trade_power_modifier = -0.5
-	land_forcelimit_modifier = -1.0 # Misleading, only used to avoid errors when applying effect of Estates in code. 
-	naval_forcelimit_modifier = -1.0 # Misleading, only used to avoid errors when applying effect of Estates in code. 
+	land_forcelimit_modifier = -1.0 # Misleading, only used to avoid errors when applying effect of Estates in code.
+	naval_forcelimit_modifier = -1.0 # Misleading, only used to avoid errors when applying effect of Estates in code.
 }
 
 local_autonomy = {
@@ -504,7 +504,7 @@ base_values = {
 ai_nation = {
 	diplomats = 1 							# ai has to reserve a diplomat for short term action so it gets an extra to put it on equal footing with player
 	free_leader_pool = 1					# ai needs to have enough pool for 1 general & 1 admiral
-	sailors_recovery_speed = 0.25		
+	sailors_recovery_speed = 0.25
 }
 
 
@@ -544,7 +544,7 @@ negative_stability = {
 	yearly_absolutism = 1
 	yearly_corruption = 0.1
 	inflation_reduction = 0.25
-	army_tradition = 0.5 
+	army_tradition = 0.5
 	devastation = -0.05
 }
 
@@ -645,7 +645,7 @@ war_exhaustion = {
 	stability_cost_modifier = 0.03
 	global_regiment_cost = 0.0125
 	global_ship_cost = 0.0125
-	reinforce_speed = 0.025	
+	reinforce_speed = 0.025
 	global_regiment_recruit_speed = 0.05
 	global_ship_recruit_speed = 0.05
 	manpower_recovery_speed = -0.0125
@@ -928,7 +928,7 @@ curia_controller = {
 }
 
 religious_unity = {
-	
+
 }
 
 inverse_religious_unity = {
@@ -1209,7 +1209,7 @@ regiment_drill_modifier = { # Used by individual regiments
 }
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
-	
+
 }
 
 ########################################
@@ -1413,66 +1413,66 @@ native_policy_hostile = {
 ########################################
 # Shogun Interactions
 ########################################
-
-overlord_daimyo_at_peace = {
-	stability_cost_modifier = -0.02
-	legitimacy = 0.1
-}
-
-overlord_daimyo_at_peace_max = {
-	legitimacy = 1
-}
-
-overlord_daimyo_at_peace_min = {
-	stability_cost_modifier = -0.2
-}
-
-overlord_daimyo_same_isolationism = {
-	prestige = 0.1
-}
-
-overlord_daimyo_different_isolationism = { # This one gets merged into overlord_daimyo_same_isolationism in the code.
-	prestige = -0.05
-}
-
-overlord_daimyo_isolationism_max = {
-	prestige = 1
-}
-
-overlord_daimyo_isolationism_min = {
-	prestige = -1
-}
-
-overlord_sankin_kotai = {
-	diplomatic_reputation = 3
-}
-
-subject_sankin_kotai = {
-	diplomatic_upkeep = -1
-}
-
-overlord_expel_ronin = {
-	# Left for modders/future changes
-}
-
-subject_expel_ronin = {
-	liberty_desire = -5
-}
-
-overlord_sword_hunt = { # Unlike the others, this one counts per subject
-	land_forcelimit = 0.5
-	global_manpower = 0.250
-}
-
-subject_sword_hunt = {
-	land_forcelimit = -2
-	global_manpower = -1.000
-}
-
-supply_depot_area = {
-	supply_limit_modifier = 0.5
-}
-
+#
+#overlord_daimyo_at_peace = {
+#	stability_cost_modifier = -0.02
+#	legitimacy = 0.1
+#}
+#
+#overlord_daimyo_at_peace_max = {
+#	legitimacy = 1
+#}
+#
+#overlord_daimyo_at_peace_min = {
+#	stability_cost_modifier = -0.2
+#}
+#
+#overlord_daimyo_same_isolationism = {
+#	prestige = 0.1
+#}
+#
+#overlord_daimyo_different_isolationism = { # This one gets merged into overlord_daimyo_same_isolationism in the code.
+#	prestige = -0.05
+#}
+#
+#overlord_daimyo_isolationism_max = {
+#	prestige = 1
+#}
+#
+#overlord_daimyo_isolationism_min = {
+#	prestige = -1
+#}
+#
+#overlord_sankin_kotai = {
+#	diplomatic_reputation = 3
+#}
+#
+#subject_sankin_kotai = {
+#	diplomatic_upkeep = -1
+#}
+#
+#overlord_expel_ronin = {
+#	# Left for modders/future changes
+#}
+#
+#subject_expel_ronin = {
+#	liberty_desire = -5
+#}
+#
+#overlord_sword_hunt = { # Unlike the others, this one counts per subject
+#	land_forcelimit = 0.5
+#	global_manpower = 0.250
+#}
+#
+#subject_sword_hunt = {
+#	land_forcelimit = -2
+#	global_manpower = -1.000
+#}
+#
+#supply_depot_area = {
+#	supply_limit_modifier = 0.5
+#}
+#
 ########################################
 # Government Interacions
 ########################################

@@ -203,9 +203,7 @@ age_of_reformation = {
 		obj_foreign_trade = {
 			calc_true_if = {
 				all_owned_province = {
-					OR = {
-						has_province_modifier = center_of_trade_modifier
-					}
+					has_province_modifier = center_of_trade_modifier
 					controlled_by = owner
 					is_core = ROOT
 				}

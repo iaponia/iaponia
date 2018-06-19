@@ -122,7 +122,6 @@ kansai_region = {
 		ikeda_area
 		suma_area
 		yamatogawa_area
-		kinan_area
 		shima_area
 		gamo_area
 		wakasa_area

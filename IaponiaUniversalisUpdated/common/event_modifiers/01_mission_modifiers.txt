@@ -371,33 +371,6 @@ por_erudite_explorers = {
 	province_trade_power_modifier = 0.25
 }
 
-# Irish Missions
-trinity_college = {
-	technology_cost = -0.05
-	idea_cost = -0.05
-}
-irish_new_world = {
-	global_colonial_growth = 15
-	colonist_placement_chance = 0.05
-}
-high_king_of_ireland = {
-	prestige = 1
-	legitimacy = 1
-}
-
-beyond_the_pale_modifier = {
-	army_tradition = 0.5
-}
-
-ire_recruiting_from_clans = {
-	local_manpower_modifier = 0.25
-}
-
-irish_potatoes = {
-	development_cost = -0.1
-	production_efficiency = 0.1
-}
-
 # French missions
 fra_to_india = {
 	range = 0.2

@@ -371,28 +371,6 @@ por_erudite_explorers = {
 	province_trade_power_modifier = 0.25
 }
 
-# Dutch Missions
-
-ned_brazil_mod = {
-	global_tariffs = 0.1
-	colonist_placement_chance = 0.03
-}
-
-ned_ceylon_mod = {
-	trade_steering = 0.2
-	ship_power_propagation = 0.2
-}
-
-ned_zeelandia_mod = {
-	local_defensiveness = 0.25
-	province_trade_power_modifier = 0.5
-}
-
-ned_lowlands_victory = {
-	land_morale = 0.1
-	recover_army_morale_speed = 0.15
-}
-
 # Irish Missions
 trinity_college = {
 	technology_cost = -0.05

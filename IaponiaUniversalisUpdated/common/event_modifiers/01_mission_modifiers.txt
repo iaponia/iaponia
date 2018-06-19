@@ -371,12 +371,6 @@ por_erudite_explorers = {
 	province_trade_power_modifier = 0.25
 }
 
-# Chinese missions
-conquest_of_beijing = {
-	manpower_recovery_speed = 0.2
-	land_maintenance_modifier = -0.15
-}
-
 # Daimyo missions
 improved_han = {
 	local_development_cost = -0.1

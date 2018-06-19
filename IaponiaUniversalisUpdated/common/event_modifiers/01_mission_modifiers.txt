@@ -371,34 +371,6 @@ por_erudite_explorers = {
 	province_trade_power_modifier = 0.25
 }
 
-# French missions
-fra_to_india = {
-	range = 0.2
-	global_colonial_growth = 15
-}
-
-french_callais = {
-	province_trade_power_modifier = 0.25
-}
-french_tariffs = {
-	global_tariffs = 0.2
-}
-fra_into_germany = {
-	ae_impact = -0.20
-}
-
-# Omani missions
-
-oma_buildforces_mod = {
-	land_morale = 0.05
-	recover_army_morale_speed = 0.1
-}
-
-oma_maritime_mod = {
-	global_ship_trade_power = 0.25
-	trade_efficiency = 0.15
-}
-
 # Korean missions
 
 three_koreas_mod = {

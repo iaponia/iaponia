@@ -348,23 +348,6 @@ prussian_rhine = {
 #	recover_navy_morale_speed = 0.1
 #}
 
-# Arabian missions
-
-ara_gen_goods_mod = {
-	global_trade_goods_size_modifier = 0.15
-}
-
-# Mamluk missions
-yemeni_trade_modifier = {
-	trade_efficiency = 0.1
-}
-bedouins_pacified = {
-	global_unrest = -2
-}
-beyliks_subjugated = {
-	land_morale = 0.1
-}
-
 # Bohemian missions
 
 boh_hussite_revolt = {

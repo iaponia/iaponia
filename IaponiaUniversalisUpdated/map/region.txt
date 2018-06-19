@@ -53,6 +53,7 @@ shikoku_region = {
 		nakamura_area
 		miyoshi_area
 		imabari_area
+		sogo_area
 	}
 }
 

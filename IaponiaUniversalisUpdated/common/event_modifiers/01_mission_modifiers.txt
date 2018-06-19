@@ -348,14 +348,6 @@ prussian_rhine = {
 #	recover_navy_morale_speed = 0.1
 #}
 
-# Asian missions
-spice_trade_controlled = {
-	trade_efficiency = 0.1
-}
-silk_road_modifier = {
-	trade_steering = 0.20
-}
-
 # Burgundian missions
 
 bur_diplo_mod = {

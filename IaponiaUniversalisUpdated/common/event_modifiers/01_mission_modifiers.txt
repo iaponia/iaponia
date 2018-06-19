@@ -291,26 +291,6 @@ per_pearl_of_khorasan = {
 	local_development_cost = -0.1
 }
 
-# Swedish missions
-consolidated_sweden = {
-	legitimacy = 1
-}
-norway_subjugated_swe = {
-	manpower_recovery_speed = 0.1
-}
-swe_pommerania_conquered = {
-	land_morale = 0.1
-}
-
-# Danish missions
-denmark_norway_united = {
-	global_autonomy = -0.05
-}
-
-united_scandinavia = {
-	legitimacy = 1
-}
-
 # Prussian missions
 
 prussian_ambition = {

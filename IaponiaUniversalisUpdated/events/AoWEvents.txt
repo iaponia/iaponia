@@ -960,10 +960,7 @@ province_event = {
 
 	trigger = {
 		religion = owner
-		NOT = { religion = confucianism }
-		NOT = { religion = buddhism }
-		NOT = { religion = mahayana }
-		NOT = { religion = vajrayana }
+		NOT = { religion = jodoshinshu }
 		has_siege = no
 		controlled_by = owner
 		any_neighbor_province = {

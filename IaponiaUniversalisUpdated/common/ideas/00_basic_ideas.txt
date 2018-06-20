@@ -114,7 +114,7 @@ buddhist_ideas = {
 
 	trigger = {
 		AND = {
-			religion = mahayana
+			religion = jodoshinshu
 			NOT = { has_idea_group = pluralist_ideas }
 		}
 	}

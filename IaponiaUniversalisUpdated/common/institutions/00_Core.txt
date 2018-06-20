@@ -771,7 +771,7 @@ gunsmithing_i = {
 			AND = {
 				base_production = 6
 				OR = {
-				religion = mahayana
+				religion = jodoshinshu
 				religion = catholic
 				}
 			}
@@ -846,7 +846,7 @@ gunsmithing_i = {
 				owner = {
 					OR = {
 						religion = catholic
-						religion = mahayana
+						religion = jodoshinshu
 					}
 				}
 			}

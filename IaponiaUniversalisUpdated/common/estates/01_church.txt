@@ -147,32 +147,12 @@ estate_church =
 		loyalty = 15
 	}
 
+# If we want to add more custom names
+# Just add more of these clauses.
 	custom_name = {
 		desc = estate_monasteries
 		trigger = {
-			OR = {
-				religion = buddhism #Theravada
-				religion = mahayana
-				religion = vajrayana
-			}
-		}
-	}
-	custom_name = {
-		desc = estate_brahmins
-		trigger = {
-			religion = hinduism
-		}
-	}
-	custom_name = {
-		desc = estate_ulema
-		trigger = {
-			religion_group = muslim
-		}
-	}
-	custom_name = {
-		desc = estate_tlamacazqueh
-		trigger = {
-			religion = nahuatl
+			religion = jodoshinshu
 		}
 	}
 

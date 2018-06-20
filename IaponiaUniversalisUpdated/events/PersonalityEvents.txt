@@ -6,644 +6,167 @@
 
 namespace = personality_events
 
-# The many Interests of [Root.Monarch.GetName]
-### scholar_personality doesn't exist in IU.
-#country_event = {
-#	id = personality_events.1
-#	title = "personality_events.1.t"
-#	desc = "personality_events.1.d"
-#	picture = ENLIGHTENMENT_eventPicture
-#
-#	trigger = {
-#		has_dlc = "Rights of Man"
-#		ruler_has_personality = scholar_personality
-#		NOT = { has_ruler_flag = scholar_better_guns }
-#		NOT = { has_ruler_flag = scholar_better_boats }
-#		NOT = { has_ruler_flag = scholar_alchemy }
-#		NOT = { has_ruler_flag = scholar_mediocrity }
-#		NOT = { has_ruler_flag = scholar_new_law_collection }
-#		NOT = { has_ruler_flag = scholar_theology }
-#		NOT = { has_ruler_flag = scholar_international_law }
-#	}
-#
-#	mean_time_to_happen = {
-#		months = 1000
-#	}
-#
-#	option = {
-#		name = "personality_events.1.a" #Science
-#		custom_tooltip = personality_events.1.a.tt
-#		hidden_effect = {
-#			random_list = {
-#				20 = { set_ruler_flag = scholar_better_guns } #Better Guns
-#				15 = {  set_ruler_flag = scholar_better_boats } #Better Boats
-#				15 = {  set_ruler_flag = scholar_alchemy  } #Alchemy
-#				50 = {  set_ruler_flag = scholar_mediocrity  } #Mediocrity
-#			}
-#		}
-#	}
-#	option = {
-#		name = "personality_events.1.b" #Law
-#		custom_tooltip = personality_events.1.a.tt
-#		hidden_effect = {
-#			random_list = {
-#				20 = { set_ruler_flag = scholar_new_law_collection } #Creating New Law Collection
-#				20 = {  set_ruler_flag = scholar_theology } #Hosting theological debate
-#				10 = {  set_ruler_flag = scholar_international_law } #International Law
-#				50 = {  set_ruler_flag = scholar_mediocrity } #Mediocrity
-#			}
-#		}
-#	}
-#
-#	option = {
-#		name = "personality_events.1.c" #This is a waste of time
-#		add_prestige = -5
-#	}
-#}
-
-# Science -> Better Guns
-### scholar_personality doesn't exist in IU.
-#country_event = {
-#	id = personality_events.3
-#	title = "personality_events.3.t"
-#	desc = "personality_events.3.d"
-#	picture = ENLIGHTENMENT_eventPicture
-#
-#	trigger = {
-#		has_dlc = "Rights of Man"
-#		ruler_has_personality = scholar_personality
-#		has_ruler_flag = scholar_better_guns
-#	}
-#
-#	mean_time_to_happen = {
-#		months = 90
-#	}
-#
-#	option = {
-#		name = "personality_events.3.a" #
-#		clr_ruler_flag = scholar_better_guns
-#		add_years_of_income = -0.1
-#		add_ruler_modifier = {
-#			name = gun_designer_ruler
-#			duration = -1
-#		}
-#	}
-#
-#}
-
-# Science -> Alchemy
-### scholar_personality doesn't exist in IU.
-#country_event = {
-#	id = personality_events.4
-#	title = "personality_events.4.t"
-#	desc = "personality_events.4.d"
-#	picture = ENLIGHTENMENT_eventPicture
-#
-#	trigger = {
-#		has_dlc = "Rights of Man"
-#		ruler_has_personality = scholar_personality
-#		has_ruler_flag = scholar_alchemy
-#	}
-#
-#	mean_time_to_happen = {
-#		months = 90
-#	}
-#
-#	option = {
-#		name = "personality_events.4.a" #
-#		ai_chance = { factor = 100 }
-#		clr_ruler_flag = scholar_alchemy
-#		add_years_of_income = -0.1
-#		add_dip_power = 75
-#	}
-#	option = {
-#		name = "personality_events.4.b" #
-#		ai_chance = { factor = 0 }
-#		trigger = { NOT = { has_country_flag = tried_to_alchemy } }
-#		add_years_of_income = -0.5
-#		custom_tooltip = personality_events.4.b.tt
-#		hidden_effect = {
-#			random_list = {
-#				15 = {
-#					country_event = { id = personality_events.9 days = 730 }
-#					set_country_flag = tried_to_alchemy
-#				}
-#				75 = { clr_ruler_flag = scholar_alchemy }
-#			}
-#		}
-#	}
-#
-#}
-
-# Science -> Mediocrity
-# scholar_personality doesn't exist in IU.
-#country_event = {
-#	id = personality_events.5
-#	title = "personality_events.5.t"
-#	desc = "personality_events.5.d"
-#	picture = ENLIGHTENMENT_eventPicture
-#
-#	trigger = {
-#		has_dlc = "Rights of Man"
-#		ruler_has_personality = scholar_personality
-#		has_ruler_flag = scholar_mediocrity
-#	}
-#
-#	mean_time_to_happen = {
-#		months = 90
-#	}
-#
-#	immediate = {
-#		hidden_effect = {
-#			if = {
-#				limit = {
-#					NOT = { ruler_has_personality = well_connected_personality }
-#				}
-#				random_list = {
-#					50 = { }
-#					50 = { set_ruler_flag = getting_well_connected }
-#				}
-#			}
-#		}
-#	}
-#
-#	option = {
-#		name = "personality_events.5.a"
-#		clr_ruler_flag = scholar_mediocrity
-#		add_years_of_income = -0.1
-#		add_prestige = 10
-#		add_dip_power = 20
-#	}
-#	option = {
-#		name = "personality_events.5.b"
-#		trigger = { has_ruler_flag = getting_well_connected }
-#		clr_ruler_flag = scholar_mediocrity
-#		add_years_of_income = -0.1
-#		remove_ruler_personality = scholar_personality
-#		add_ruler_personality = well_connected_personality
-#		clr_ruler_flag = getting_well_connected
-#	}
-#}
-
-# Law -> New Laws
-# Ex: Fatawa-e-Alamgiri
-# scholar_personality doesn't exist in IU.
-#country_event = {
-#	id = personality_events.6
-#	title = "personality_events.6.t"
-#	desc = "personality_events.6.d"
-#	picture = ECONOMICALLY_TALLANTED_RULER_eventPicture
-#
-#	trigger = {
-#		has_dlc = "Rights of Man"
-#		ruler_has_personality = scholar_personality
-#		has_ruler_flag = scholar_new_law_collection
-#	}
-#
-#	mean_time_to_happen = {
-#		months = 90
-#	}
-#
-#	immediate = {
-#		hidden_effect = {
-#			if = {
-#				limit = {
-#					NOT = { ruler_has_personality = lawgiver_personality }
-#				}
-#				random_list = {
-#					50 = { }
-#					50 = { set_ruler_flag = can_get_lawgiver_personality }
-#				}
-#			}
-#		}
-#	}
-#
-#	option = {
-#		name = "personality_events.6.a"
-#		clr_ruler_flag = scholar_new_law_collection
-#		add_years_of_income = -0.1
-#		add_prestige = 15
-#		add_adm_power = 75
-#	}
-#	option = {
-#		name = "personality_events.6.b"
-#		trigger = { has_ruler_flag = can_get_lawgiver_personality }
-#		clr_ruler_flag = scholar_new_law_collection
-#		add_years_of_income = -0.1
-#		add_ruler_personality = lawgiver_personality
-#		remove_ruler_personality = scholar_personality
-#	}
-#
-#}
-
-# Law -> Theology
-# Valladolid Debate, Ibadat Khana, etc
-### scholar_personality doesn't exist in IU.
-#country_event = {
-#	id = personality_events.7
-#	title = "personality_events.7.t"
-#	desc = "personality_events.7.d"
-#	picture = ECONOMICALLY_TALLANTED_RULER_eventPicture
-#
-#	trigger = {
-#		has_dlc = "Rights of Man"
-#		ruler_has_personality = scholar_personality
-#		has_ruler_flag = scholar_theology
-#	}
-#
-#	immediate = {
-#		hidden_effect = {
-#			if = {
-#				limit = {
-#					NOT = { ruler_has_personality = tolerant_personality }
-#				}
-#				random_list = {
-#					75 = {  }
-#					25 = { set_ruler_flag = gaining_tolerance }
-#				}
-#			}
-#		}
-#	}
-#
-#	mean_time_to_happen = {
-#		months = 90
-#	}
-#
-#	option = {
-#		name = "personality_events.7.a"
-#		clr_ruler_flag = scholar_theology
-#		add_years_of_income = -0.1
-#		add_adm_power = 75
-#		add_legitimacy = 15
-#		add_devotion = 7
-#		add_horde_unity = 15
-#		add_republican_tradition = 7
-#	}
-#
-#	option = {
-#		name = "personality_events.7.b"
-#		trigger = { has_ruler_flag = gaining_tolerance }
-#		clr_ruler_flag = scholar_theology
-#		clr_ruler_flag = gaining_tolerance
-#		add_years_of_income = -0.1
-#		add_ruler_personality = tolerant_personality
-#		remove_ruler_personality = scholar_personality
-#	}
-#}
-
-# Law -> International Law
-# De Iure Belli ac Pacis
-### scholar_personality doesn't exist in IU.
-#country_event = {
-#	id = personality_events.8
-#	title = "personality_events.8.t"
-#	desc = "personality_events.8.d"
-#	picture = ECONOMICALLY_TALLANTED_RULER_eventPicture
-#
-#	trigger = {
-#		has_dlc = "Rights of Man"
-#		ruler_has_personality = scholar_personality
-#		has_ruler_flag = scholar_international_law
-#	}
-#
-#	mean_time_to_happen = {
-#		months = 90
-#	}
-#
-#	option = {
-#		name = "personality_events.8.a"
-#		clr_ruler_flag = scholar_international_law
-#		add_dip_power = 100
-#		hidden_effect = {
-#			every_known_country = {
-#				limit = {
-#					religion_group = ROOT
-#				}
-#				add_opinion = {
-#					who = ROOT
-#					modifier = opinion_international_law
-#				}
-#			}
-#		}
-#	}
-#}
-
-# Mana Potion
-### Not sure if we have ruler_flag scholar_alchemy, leaving this in.
+#Faith of X
+### zealot_personality does exist in IU. Leaving this in.
 country_event = {
-	id = personality_events.9
-	title = "personality_events.9.t"
-	desc = "personality_events.9.d"
-	picture = ECONOMICALLY_TALLANTED_RULER_eventPicture
-
-	is_triggered_only = yes
+	id = personality_events.26
+	title = "personality_events.26.t"
+	desc = "personality_events.26.d"
+	picture = COPTIC_CITY_eventPicture
 
 	trigger = {
 		has_dlc = "Rights of Man"
-		has_ruler_flag = scholar_alchemy
-	}
-
-	immediate = {
-		hidden_effect = {
-			clr_ruler_flag = scholar_alchemy
-			random_list = {
-				33 = { set_country_flag = adm_mana_potion }
-				33 = { set_country_flag = dip_mana_potion }
-				33 = { set_country_flag = mil_mana_potion }
+		ruler_has_personality = zealot_personality
+		any_neighbor_country = {
+			is_enemy = ROOT
+			NOT = { religion = ROOT }
+			any_owned_province = {
+				NOT = { is_claim = ROOT }
+				any_neighbor_province = {
+					owned_by = ROOT
+				}
+			}
+		}
+		OR = {
+			NOT = { has_dlc = "The Cossacks" }
+			AND = {
+				has_estate = estate_church
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 60
+				}
+				estate_influence = {
+					estate = estate_church
+					influence = 40
+				}
 			}
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_province = {
+				limit = {
+					owner = {
+						is_enemy = ROOT
+						NOT = { religion = ROOT }
+					}
+					NOT = { is_claim = ROOT }
+					any_neighbor_province = {
+						owned_by = ROOT
+					}
+				}
+				every_province = {
+					limit = {
+						area = PREV
+						NOT = { is_claim = ROOT }
+						owner = {
+							is_enemy = ROOT
+							NOT = { religion = ROOT }
+						}
+					}
+					set_province_flag = zealot_claim
+				}
+			}
+		}
+	}
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
 	option = {
-		name = "personality_events.9.a" #Drink it!
-		if = {
-			limit = { has_country_flag = adm_mana_potion }
-			clr_country_flag = adm_mana_potion
-			add_adm_power = 100
+		name = "personality_events.26.a"
+		every_province = {
+			limit = {
+				has_province_flag = zealot_claim
+			}
+			add_claim = ROOT
+			clr_province_flag = zealot_claim
+			owner = {
+				add_casus_belli = {
+					target = ROOT
+					type = cb_insult
+					months = 12
+				}
+			}
+		}
+		every_neighbor_country = {
+			limit = {
+				NOT = { religion = ROOT }
+			}
+			add_opinion= {
+				who = ROOT
+				modifier = zealot_reputation_opinion
+			}
 		}
 		if = {
-			limit = { has_country_flag = dip_mana_potion }
-			clr_country_flag = dip_mana_potion
-			add_dip_power = 100
+			limit = {
+				has_dlc = "The Cossacks"
+				has_estate = estate_church
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 10
+			}
 		}
 		if = {
-			limit = { has_country_flag = mil_mana_potion }
-			clr_country_flag = mil_mana_potion
-			add_mil_power = 100
+			limit = {
+				has_dlc = "The Cossacks"
+				has_estate = estate_dhimmi
+			}
+			add_estate_loyalty = {
+				estate = estate_dhimmi
+				loyalty = -10
+			}
+		}
+	}
+	option = {
+		name = "personality_events.26.b"
+		add_prestige = 10
+		if = {
+			limit = {
+				has_dlc = "The Cossacks"
+				has_estate = estate_dhimmi
+			}
+			add_estate_loyalty = {
+				estate = estate_dhimmi
+				loyalty = 10
+			}
 		}
 	}
 }
 
-#Local Feud
-### just_personality doesn't exist in IU.
-#country_event = {
-#	id = personality_events.10
-#	title = "personality_events.10.t"
-#	desc = "personality_events.10.d"
-#	picture = FEUDALISM_eventPicture
-#
-#	trigger = {
-#		has_dlc = "Rights of Man"
-#		ruler_has_personality = just_personality
-#		NOT = { has_country_modifier = just_settlement_modifier }
-#		any_owned_province = {
-#			is_state = yes
-#			has_estate = no
-#			local_autonomy = 50
-#			is_core = ROOT
-#			controlled_by = owner
-#			NOT = { has_province_modifier = increasing_local_authority }
-#		}
-#	}
-#
-#	is_triggered_only = yes
-#
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#
-#	option = {
-#		name = "personality_events.10.a" #Try to settle the issue justly.
-#		ai_chance = {
-#			factor = 40
-#		}
-#		if = {
-#			limit = {
-#				has_dlc = "The Cossacks"
-#				has_estate = estate_nobles
-#			}
-#			add_estate_loyalty = {
-#				estate = estate_nobles
-#				loyalty = 10
-#			}
-#		}
-#		add_prestige = 10
-#		add_ruler_modifier = {
-#			name = "just_settlement_modifier"
-#			duration = 1825
-#		}
-#	}
-#	option = {
-#		name = "personality_events.10.b" #We must exploit this situation!
-#		trigger = { NOT = { ruler_has_personality = greedy_personality } }
-#		ai_chance = {
-#			factor = 40
-#		}
-#		random_owned_province = {
-#			limit = {
-#				local_autonomy = 50
-#				is_core = ROOT
-#				is_state = yes
-#				has_estate = no
-#				controlled_by = owner
-#				NOT = { has_province_modifier = increasing_local_authority }
-#			}
-#			area = {
-#				limit = {
-#					is_capital = no
-#					owned_by = ROOT
-#				}
-#				custom_tooltip = personality_events.10.b.tt
-#				hidden_effect = {
-#					add_local_autonomy = -15
-#					add_province_modifier = {
-#						name = "increasing_local_authority"
-#						duration = 10950
-#					}
-#				}
-#			}
-#		}
-#		random_list = {
-#			20 = {
-#				remove_ruler_personality = just_personality
-#				add_ruler_personality = greedy_personality
-#			}
-#			80 = { }
-#		}
-#	}
-#
-#}
+### pious_personality does exist in IU. Leaving this in.
+country_event = {
+	id = personality_events.27
+	title = "personality_events.27.t"
+	desc = "personality_events.27.d"
+	picture = COPTIC_CITY_eventPicture
 
-#A righteous King
-### righteous_personality doesn't exist in IU.
-#country_event = {
-#	id = personality_events.11
-#	title = "personality_events.11.t"
-#	desc = "personality_events.11.d"
-#	picture = ENLIGHTENMENT_eventPicture
-#
-#	trigger = {
-#		has_dlc = "Rights of Man"
-#		ruler_has_personality = righteous_personality
-#		num_of_cities = 2
-#		government = monarchy
-#		any_owned_province = {
-#			NOT = { has_province_modifier = chastised_governor }
-#			NOT = { has_province_modifier = defended_governor }
-#			is_core = ROOT
-#			is_state = yes
-#		}
-#	}
-#
-#	is_triggered_only = yes
-#
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#
-#	option = {
-#		name = "personality_events.11.a" #Chastise the Governor
-#		ai_chance = {
-#			factor = 40
-#		}
-#		add_legitimacy = 10
-#		random_owned_province = {
-#			limit = {
-#				is_capital = no
-#				NOT = { has_province_modifier = chastised_governor }
-#				NOT = { has_province_modifier = defended_governor }
-#				is_core = ROOT
-#				is_state = yes
-#			}
-#			area = {
-#				limit = {
-#					is_capital = no
-#					owned_by = ROOT
-#					NOT = { has_province_modifier = chastised_governor }
-#					NOT = { has_province_modifier = defended_governor }
-#				}
-#				custom_tooltip = personality_events.11.a.tt
-#				hidden_effect = {
-#					add_province_modifier = {
-#						name = "chastised_governor"
-#						duration = 10950
-#					}
-#				}
-#			}
-#		}
-#	}
-#	option = {
-#		name = "personality_events.11.b" #Attempt to defend the governor
-#		trigger = { NOT = { ruler_has_personality = greedy_personality } }
-#		ai_chance = {
-#			factor = 40
-#			modifier = {
-#				factor = 0
-#				OR = {
-#					ruler_has_personality = malevolent_personality
-#					ruler_has_personality = obsessive_perfectionist_personality
-#					ruler_has_personality = loose_lips_personality
-#					ruler_has_personality = craven_personality
-#					ruler_has_personality = naive_personality
-#					ruler_has_personality = cruel_personality
-#					ruler_has_personality = sinner_personality
-#					ruler_has_personality = drunkard_personality
-#					ruler_has_personality = infertile_personality
-#					ruler_has_personality = embezzler_personality
-#					ruler_has_personality = babbling_buffoon_personality
-#				}
-#			}
-#		}
-#		random_owned_province = {
-#			limit = {
-#				is_capital = no
-#				NOT = { has_province_modifier = chastised_governor }
-#				NOT = { has_province_modifier = defended_governor }
-#				is_core = ROOT
-#				is_state = yes
-#			}
-#			area = {
-#				limit = {
-#					is_capital = no
-#					owned_by = ROOT
-#					NOT = { has_province_modifier = chastised_governor }
-#					NOT = { has_province_modifier = defended_governor }
-#				}
-#				custom_tooltip = personality_events.11.b.tt
-#				hidden_effect = {
-#					add_province_modifier = {
-#						name = "defended_governor"
-#						duration = 10950
-#					}
-#				}
-#			}
-#		}
-#		random_list = {
-#			10 = {
-#				remove_ruler_personality = righteous_personality
-#				add_ruler_personality = greedy_personality
-#			}
-#			100 = {
-#				add_prestige = 10
-#			}
-#		}
-#	}
-#	option = {
-#		name = "personality_events.11.c" #Avoid making a decision
-#		ai_chance = {
-#			factor = 20
-#
-#		}
-#		add_legitimacy = -10
-#	}
-#}
+	trigger = {
+		has_dlc = "Rights of Man"
+		ruler_has_personality = pious_personality
+		at_war_with_religious_enemy = yes
+	}
 
-#A Righteous Republican Ruler
-### righteous_personality doesn't exist in IU.
-#country_event = {
-#	id = personality_events.12
-#	title = "personality_events.12.t"
-#	desc = "personality_events.12.d"
-#	picture = ENLIGHTENMENT_eventPicture
-#
-#	trigger = {
-#		has_dlc = "Rights of Man"
-#		ruler_has_personality = righteous_personality
-#		government = republic
-#		mercantilism = 2
-#		NOT = { has_country_modifier = true_republican_virtues_modifier }
-#		NOT = { mercantilism = 98 }
-#	}
-#
-#	is_triggered_only = yes
-#
-#	mean_time_to_happen = {
-#		days = 1
-#	}
-#
-#	option = {
-#		name = "personality_events.12.a" #The Republic Comes Before Family
-#		add_country_modifier = {
-#			name = "true_republican_virtues_modifier"
-#			duration = 3650
-#		}
-#		add_mercantilism = -2
-#	}
-#	option = {
-#		name = "personality_events.12.b" #
-#		trigger = {
-#			OR = {
-#				NOT = { government = merchant_republic }
-#				NOT = { num_of_cities = 2 }
-#				AND = {
-#					government = merchant_republic
-#					NOT = {
-#						any_owned_province = {
-#							is_capital = no
-#							province_trade_power = 10
-#						}
-#					}
-#				}
-#			}
-#		}
-#		add_corruption = 2
-#		add_mercantilism = 2
-#	}
-#	option = {
-#		name = "personality_events.12.c" #
-#		add_prestige = -10
-#	}
-#}
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "personality_events.27.a"
+		add_years_of_income = 0.25
+	}
+	option = {
+		name = "personality_events.28.b"
+		add_yearly_manpower = 0.5
+	}
+}
 
 #Tolerant rulers are nearly always criticized for being naive and misplacing their trust.
 # tolerant_personality does exist in IU. Leaving this in.
@@ -825,6 +348,920 @@ country_event = {
 
 }
 
+# Mana Potion
+### Not sure if we have ruler_flag scholar_alchemy, leaving this in.
+country_event = {
+	id = personality_events.9
+	title = "personality_events.9.t"
+	desc = "personality_events.9.d"
+	picture = ECONOMICALLY_TALLANTED_RULER_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+		has_ruler_flag = scholar_alchemy
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_ruler_flag = scholar_alchemy
+			random_list = {
+				33 = { set_country_flag = adm_mana_potion }
+				33 = { set_country_flag = dip_mana_potion }
+				33 = { set_country_flag = mil_mana_potion }
+			}
+		}
+	}
+
+	option = {
+		name = "personality_events.9.a" #Drink it!
+		if = {
+			limit = { has_country_flag = adm_mana_potion }
+			clr_country_flag = adm_mana_potion
+			add_adm_power = 100
+		}
+		if = {
+			limit = { has_country_flag = dip_mana_potion }
+			clr_country_flag = dip_mana_potion
+			add_dip_power = 100
+		}
+		if = {
+			limit = { has_country_flag = mil_mana_potion }
+			clr_country_flag = mil_mana_potion
+			add_mil_power = 100
+		}
+	}
+}
+
+#School of [Root.Capital.GetCapitalName]
+### architectural_visionary_personality doesn't exist in IU, but architect_personality
+### does. Changing to architect_personality.
+country_event = {
+	id = personality_events.32
+	title = "personality_events.32.t"
+	desc = "personality_events.32.d"
+	picture = ARTWORK_eventPicture
+
+	trigger = {
+		has_dlc = "Rights of Man"
+		ruler_has_personality = architect_personality
+		OR = {
+			ai = no
+			years_of_income = 1
+		}
+		has_institution = feudalism_i
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = monumental_architecture
+			}
+		}
+	}
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "personality_events.32.a"
+		add_years_of_income = -1
+		capital_scope = {
+			add_permanent_province_modifier = {
+				name = "monumental_architecture"
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "personality_events.32.b"
+		add_prestige = 10
+		every_known_country = {
+			limit = {
+				religion_group = ROOT
+				NOT = { war_with = ROOT }
+				culture_group = ROOT
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_school_of_capital
+			}
+		}
+	}
+}
+
+#Throwing the greatest party
+### drunkard_personality doesn't exist in IU.
+### Changed to drunk_personality which does exist.
+country_event = {
+	id = personality_events.49
+	title = "personality_events.49.t"
+	desc = "personality_events.49.d"
+	picture = KING_DOING_GREAT_eventPicture
+
+	trigger = {
+		ruler_has_personality = drunk_personality
+		has_dlc = "Rights of Man"
+		any_neighbor_country = {
+			NOT = { is_rival = ROOT }
+			NOT = { is_enemy = ROOT }
+		}
+
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_neighbor_country = {
+				limit = {
+					NOT = { is_rival = ROOT }
+					NOT = { is_enemy = ROOT }
+				}
+				save_event_target_as = invitee_1
+			}
+			random_neighbor_country = {
+				limit = {
+					NOT = { is_rival = ROOT }
+					NOT = { is_enemy = ROOT }
+					NOT = { event_target:invitee_1 = { TAG = PREV } }
+				}
+				save_event_target_as = invitee_2
+			}
+			random_neighbor_country = {
+				limit = {
+					NOT = { is_rival = ROOT }
+					NOT = { is_enemy = ROOT }
+					NOT = { event_target:invitee_1 = { TAG = PREV } }
+					NOT = { event_target:invitee_2 = { TAG = PREV } }
+				}
+				save_event_target_as = invitee_3
+			}
+		}
+	}
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "personality_events.49.a"
+
+		event_target:invitee_1 = {
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_grateful_for_invitation
+			}
+		}
+	}
+	option = {
+		trigger = { has_saved_event_target = invitee_2 }
+
+		name = "personality_events.49.b"
+
+		event_target:invitee_2 = {
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_grateful_for_invitation
+			}
+		}
+	}
+	option = {
+		trigger = { has_saved_event_target = invitee_3 }
+
+		name = "personality_events.49.c"
+
+		event_target:invitee_3 = {
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_grateful_for_invitation
+			}
+		}
+	}
+	option = {
+		name = "personality_events.49.e"
+		custom_tooltip = personality_events.49.e.tooltip
+
+	}
+}
+
+#Make example of lazy peasants
+### cruel_personality does exist in IU, so we'll leave this in.
+country_event = {
+	id = personality_events.51
+	title = "personality_events.51.t"
+	desc = "personality_events.51.d"
+	picture = BORDER_TENSION_eventPicture
+
+	trigger = {
+		ruler_has_personality = cruel_personality
+		has_dlc = "Rights of Man"
+		any_owned_province = {
+			NOT = { has_province_modifier = cruel_overlord }
+			is_state = yes
+			is_capital = no
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					NOT = { has_province_modifier = cruel_overlord }
+					is_state = yes
+					is_capital = no
+				}
+				save_event_target_as = lazy_province
+			}
+		}
+	}
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "personality_events.51.a"
+
+		event_target:lazy_province = {
+
+			add_base_production = 2
+
+			add_province_modifier = {
+				name = cruel_overlord
+				duration = 3650
+			}
+		}
+	}
+	option = {
+		name = "personality_events.51.b"
+		custom_tooltip = personality_events.51.b.tooltip
+	}
+}
+
+#Escape assassination
+### craven_personality does exist in IU, leaving this in.
+country_event = {
+	id = personality_events.53
+	title = "personality_events.53.t"
+	desc = "personality_events.53.d"
+	picture = ASSASSINATION_eventPicture
+
+	trigger = {
+		ruler_has_personality = craven_personality
+		has_dlc = "Rights of Man"
+		any_known_country = {
+			NOT = { reverse_has_opinion = { who = ROOT value = 0 } }
+		 	NOT = { ROOT = { has_casus_belli = { type = cb_insult target = PREV } } }
+		}
+	}
+
+	#Finding a country
+	immediate = {
+		hidden_effect = {
+			random_neighbor_country = {
+				limit = {
+					NOT = { reverse_has_opinion = { who = ROOT value = 0 } }
+		 			NOT = { ROOT = { has_casus_belli = { type = cb_insult target = PREV } } }
+				}
+				save_event_target_as = assassination_nation
+			}
+
+			if = {
+				limit = { NOT = { has_saved_event_target = assassination_nation } }
+				random_known_country = {
+					limit = {
+						NOT = { reverse_has_opinion = { who = ROOT value = 0 } }
+		 				NOT = { ROOT = { has_casus_belli = { type = cb_insult target = PREV } } }
+					}
+					save_event_target_as = assassination_nation
+				}
+			}
+		}
+	}
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "personality_events.53.a"
+
+		add_casus_belli = {
+			target = event_target:assassination_nation
+			type = cb_insult
+			months = 36
+		}
+	}
+}
+
+#############################################
+#############################################
+#####   ALL EVENTS BELOW ARE DISABLED   #####
+#####   DUE TO REQUIRING PERSONALITY    #####
+##### TRAITS NOT IN IAPONIA UNIVERSALIS #####
+#############################################
+#############################################
+
+
+# The many Interests of [Root.Monarch.GetName]
+### scholar_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.1
+#	title = "personality_events.1.t"
+#	desc = "personality_events.1.d"
+#	picture = ENLIGHTENMENT_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = scholar_personality
+#		NOT = { has_ruler_flag = scholar_better_guns }
+#		NOT = { has_ruler_flag = scholar_better_boats }
+#		NOT = { has_ruler_flag = scholar_alchemy }
+#		NOT = { has_ruler_flag = scholar_mediocrity }
+#		NOT = { has_ruler_flag = scholar_new_law_collection }
+#		NOT = { has_ruler_flag = scholar_theology }
+#		NOT = { has_ruler_flag = scholar_international_law }
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 1000
+#	}
+#
+#	option = {
+#		name = "personality_events.1.a" #Science
+#		custom_tooltip = personality_events.1.a.tt
+#		hidden_effect = {
+#			random_list = {
+#				20 = { set_ruler_flag = scholar_better_guns } #Better Guns
+#				15 = {  set_ruler_flag = scholar_better_boats } #Better Boats
+#				15 = {  set_ruler_flag = scholar_alchemy  } #Alchemy
+#				50 = {  set_ruler_flag = scholar_mediocrity  } #Mediocrity
+#			}
+#		}
+#	}
+#	option = {
+#		name = "personality_events.1.b" #Law
+#		custom_tooltip = personality_events.1.a.tt
+#		hidden_effect = {
+#			random_list = {
+#				20 = { set_ruler_flag = scholar_new_law_collection } #Creating New Law Collection
+#				20 = {  set_ruler_flag = scholar_theology } #Hosting theological debate
+#				10 = {  set_ruler_flag = scholar_international_law } #International Law
+#				50 = {  set_ruler_flag = scholar_mediocrity } #Mediocrity
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "personality_events.1.c" #This is a waste of time
+#		add_prestige = -5
+#	}
+#}
+
+# Science -> Better Guns
+### scholar_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.3
+#	title = "personality_events.3.t"
+#	desc = "personality_events.3.d"
+#	picture = ENLIGHTENMENT_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = scholar_personality
+#		has_ruler_flag = scholar_better_guns
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 90
+#	}
+#
+#	option = {
+#		name = "personality_events.3.a" #
+#		clr_ruler_flag = scholar_better_guns
+#		add_years_of_income = -0.1
+#		add_ruler_modifier = {
+#			name = gun_designer_ruler
+#			duration = -1
+#		}
+#	}
+#
+#}
+#
+# Science -> Alchemy
+### scholar_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.4
+#	title = "personality_events.4.t"
+#	desc = "personality_events.4.d"
+#	picture = ENLIGHTENMENT_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = scholar_personality
+#		has_ruler_flag = scholar_alchemy
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 90
+#	}
+#
+#	option = {
+#		name = "personality_events.4.a" #
+#		ai_chance = { factor = 100 }
+#		clr_ruler_flag = scholar_alchemy
+#		add_years_of_income = -0.1
+#		add_dip_power = 75
+#	}
+#	option = {
+#		name = "personality_events.4.b" #
+#		ai_chance = { factor = 0 }
+#		trigger = { NOT = { has_country_flag = tried_to_alchemy } }
+#		add_years_of_income = -0.5
+#		custom_tooltip = personality_events.4.b.tt
+#		hidden_effect = {
+#			random_list = {
+#				15 = {
+#					country_event = { id = personality_events.9 days = 730 }
+#					set_country_flag = tried_to_alchemy
+#				}
+#				75 = { clr_ruler_flag = scholar_alchemy }
+#			}
+#		}
+#	}
+#
+#}
+#
+# Science -> Mediocrity
+# scholar_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.5
+#	title = "personality_events.5.t"
+#	desc = "personality_events.5.d"
+#	picture = ENLIGHTENMENT_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = scholar_personality
+#		has_ruler_flag = scholar_mediocrity
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 90
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			if = {
+#				limit = {
+#					NOT = { ruler_has_personality = well_connected_personality }
+#				}
+#				random_list = {
+#					50 = { }
+#					50 = { set_ruler_flag = getting_well_connected }
+#				}
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "personality_events.5.a"
+#		clr_ruler_flag = scholar_mediocrity
+#		add_years_of_income = -0.1
+#		add_prestige = 10
+#		add_dip_power = 20
+#	}
+#	option = {
+#		name = "personality_events.5.b"
+#		trigger = { has_ruler_flag = getting_well_connected }
+#		clr_ruler_flag = scholar_mediocrity
+#		add_years_of_income = -0.1
+#		remove_ruler_personality = scholar_personality
+#		add_ruler_personality = well_connected_personality
+#		clr_ruler_flag = getting_well_connected
+#	}
+#}
+#
+# Law -> New Laws
+# Ex: Fatawa-e-Alamgiri
+# scholar_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.6
+#	title = "personality_events.6.t"
+#	desc = "personality_events.6.d"
+#	picture = ECONOMICALLY_TALLANTED_RULER_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = scholar_personality
+#		has_ruler_flag = scholar_new_law_collection
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 90
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			if = {
+#				limit = {
+#					NOT = { ruler_has_personality = lawgiver_personality }
+#				}
+#				random_list = {
+#					50 = { }
+#					50 = { set_ruler_flag = can_get_lawgiver_personality }
+#				}
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "personality_events.6.a"
+#		clr_ruler_flag = scholar_new_law_collection
+#		add_years_of_income = -0.1
+#		add_prestige = 15
+#		add_adm_power = 75
+#	}
+#	option = {
+#		name = "personality_events.6.b"
+#		trigger = { has_ruler_flag = can_get_lawgiver_personality }
+#		clr_ruler_flag = scholar_new_law_collection
+#		add_years_of_income = -0.1
+#		add_ruler_personality = lawgiver_personality
+#		remove_ruler_personality = scholar_personality
+#	}
+#
+#}
+#
+# Law -> Theology
+# Valladolid Debate, Ibadat Khana, etc
+### scholar_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.7
+#	title = "personality_events.7.t"
+#	desc = "personality_events.7.d"
+#	picture = ECONOMICALLY_TALLANTED_RULER_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = scholar_personality
+#		has_ruler_flag = scholar_theology
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			if = {
+#				limit = {
+#					NOT = { ruler_has_personality = tolerant_personality }
+#				}
+#				random_list = {
+#					75 = {  }
+#					25 = { set_ruler_flag = gaining_tolerance }
+#				}
+#			}
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 90
+#	}
+#
+#	option = {
+#		name = "personality_events.7.a"
+#		clr_ruler_flag = scholar_theology
+#		add_years_of_income = -0.1
+#		add_adm_power = 75
+#		add_legitimacy = 15
+#		add_devotion = 7
+#		add_horde_unity = 15
+#		add_republican_tradition = 7
+#	}
+#
+#	option = {
+#		name = "personality_events.7.b"
+#		trigger = { has_ruler_flag = gaining_tolerance }
+#		clr_ruler_flag = scholar_theology
+#		clr_ruler_flag = gaining_tolerance
+#		add_years_of_income = -0.1
+#		add_ruler_personality = tolerant_personality
+#		remove_ruler_personality = scholar_personality
+#	}
+#}
+#
+# Law -> International Law
+# De Iure Belli ac Pacis
+### scholar_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.8
+#	title = "personality_events.8.t"
+#	desc = "personality_events.8.d"
+#	picture = ECONOMICALLY_TALLANTED_RULER_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = scholar_personality
+#		has_ruler_flag = scholar_international_law
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 90
+#	}
+#
+#	option = {
+#		name = "personality_events.8.a"
+#		clr_ruler_flag = scholar_international_law
+#		add_dip_power = 100
+#		hidden_effect = {
+#			every_known_country = {
+#				limit = {
+#					religion_group = ROOT
+#				}
+#				add_opinion = {
+#					who = ROOT
+#					modifier = opinion_international_law
+#				}
+#			}
+#		}
+#	}
+#}
+#
+#Local Feud
+### just_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.10
+#	title = "personality_events.10.t"
+#	desc = "personality_events.10.d"
+#	picture = FEUDALISM_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = just_personality
+#		NOT = { has_country_modifier = just_settlement_modifier }
+#		any_owned_province = {
+#			is_state = yes
+#			has_estate = no
+#			local_autonomy = 50
+#			is_core = ROOT
+#			controlled_by = owner
+#			NOT = { has_province_modifier = increasing_local_authority }
+#		}
+#	}
+#
+#	is_triggered_only = yes
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "personality_events.10.a" #Try to settle the issue justly.
+#		ai_chance = {
+#			factor = 40
+#		}
+#		if = {
+#			limit = {
+#				has_dlc = "The Cossacks"
+#				has_estate = estate_nobles
+#			}
+#			add_estate_loyalty = {
+#				estate = estate_nobles
+#				loyalty = 10
+#			}
+#		}
+#		add_prestige = 10
+#		add_ruler_modifier = {
+#			name = "just_settlement_modifier"
+#			duration = 1825
+#		}
+#	}
+#	option = {
+#		name = "personality_events.10.b" #We must exploit this situation!
+#		trigger = { NOT = { ruler_has_personality = greedy_personality } }
+#		ai_chance = {
+#			factor = 40
+#		}
+#		random_owned_province = {
+#			limit = {
+#				local_autonomy = 50
+#				is_core = ROOT
+#				is_state = yes
+#				has_estate = no
+#				controlled_by = owner
+#				NOT = { has_province_modifier = increasing_local_authority }
+#			}
+#			area = {
+#				limit = {
+#					is_capital = no
+#					owned_by = ROOT
+#				}
+#				custom_tooltip = personality_events.10.b.tt
+#				hidden_effect = {
+#					add_local_autonomy = -15
+#					add_province_modifier = {
+#						name = "increasing_local_authority"
+#						duration = 10950
+#					}
+#				}
+#			}
+#		}
+#		random_list = {
+#			20 = {
+#				remove_ruler_personality = just_personality
+#				add_ruler_personality = greedy_personality
+#			}
+#			80 = { }
+#		}
+#	}
+#
+#}
+#
+#A righteous King
+### righteous_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.11
+#	title = "personality_events.11.t"
+#	desc = "personality_events.11.d"
+#	picture = ENLIGHTENMENT_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = righteous_personality
+#		num_of_cities = 2
+#		government = monarchy
+#		any_owned_province = {
+#			NOT = { has_province_modifier = chastised_governor }
+#			NOT = { has_province_modifier = defended_governor }
+#			is_core = ROOT
+#			is_state = yes
+#		}
+#	}
+#
+#	is_triggered_only = yes
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "personality_events.11.a" #Chastise the Governor
+#		ai_chance = {
+#			factor = 40
+#		}
+#		add_legitimacy = 10
+#		random_owned_province = {
+#			limit = {
+#				is_capital = no
+#				NOT = { has_province_modifier = chastised_governor }
+#				NOT = { has_province_modifier = defended_governor }
+#				is_core = ROOT
+#				is_state = yes
+#			}
+#			area = {
+#				limit = {
+#					is_capital = no
+#					owned_by = ROOT
+#					NOT = { has_province_modifier = chastised_governor }
+#					NOT = { has_province_modifier = defended_governor }
+#				}
+#				custom_tooltip = personality_events.11.a.tt
+#				hidden_effect = {
+#					add_province_modifier = {
+#						name = "chastised_governor"
+#						duration = 10950
+#					}
+#				}
+#			}
+#		}
+#	}
+#	option = {
+#		name = "personality_events.11.b" #Attempt to defend the governor
+#		trigger = { NOT = { ruler_has_personality = greedy_personality } }
+#		ai_chance = {
+#			factor = 40
+#			modifier = {
+#				factor = 0
+#				OR = {
+#					ruler_has_personality = malevolent_personality
+#					ruler_has_personality = obsessive_perfectionist_personality
+#					ruler_has_personality = loose_lips_personality
+#					ruler_has_personality = craven_personality
+#					ruler_has_personality = naive_personality
+#					ruler_has_personality = cruel_personality
+#					ruler_has_personality = sinner_personality
+#					ruler_has_personality = drunkard_personality
+#					ruler_has_personality = infertile_personality
+#					ruler_has_personality = embezzler_personality
+#					ruler_has_personality = babbling_buffoon_personality
+#				}
+#			}
+#		}
+#		random_owned_province = {
+#			limit = {
+#				is_capital = no
+#				NOT = { has_province_modifier = chastised_governor }
+#				NOT = { has_province_modifier = defended_governor }
+#				is_core = ROOT
+#				is_state = yes
+#			}
+#			area = {
+#				limit = {
+#					is_capital = no
+#					owned_by = ROOT
+#					NOT = { has_province_modifier = chastised_governor }
+#					NOT = { has_province_modifier = defended_governor }
+#				}
+#				custom_tooltip = personality_events.11.b.tt
+#				hidden_effect = {
+#					add_province_modifier = {
+#						name = "defended_governor"
+#						duration = 10950
+#					}
+#				}
+#			}
+#		}
+#		random_list = {
+#			10 = {
+#				remove_ruler_personality = righteous_personality
+#				add_ruler_personality = greedy_personality
+#			}
+#			100 = {
+#				add_prestige = 10
+#			}
+#		}
+#	}
+#	option = {
+#		name = "personality_events.11.c" #Avoid making a decision
+#		ai_chance = {
+#			factor = 20
+#
+#		}
+#		add_legitimacy = -10
+#	}
+#}
+#
+#A Righteous Republican Ruler
+### righteous_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.12
+#	title = "personality_events.12.t"
+#	desc = "personality_events.12.d"
+#	picture = ENLIGHTENMENT_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = righteous_personality
+#		government = republic
+#		mercantilism = 2
+#		NOT = { has_country_modifier = true_republican_virtues_modifier }
+#		NOT = { mercantilism = 98 }
+#	}
+#
+#	is_triggered_only = yes
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "personality_events.12.a" #The Republic Comes Before Family
+#		add_country_modifier = {
+#			name = "true_republican_virtues_modifier"
+#			duration = 3650
+#		}
+#		add_mercantilism = -2
+#	}
+#	option = {
+#		name = "personality_events.12.b" #
+#		trigger = {
+#			OR = {
+#				NOT = { government = merchant_republic }
+#				NOT = { num_of_cities = 2 }
+#				AND = {
+#					government = merchant_republic
+#					NOT = {
+#						any_owned_province = {
+#							is_capital = no
+#							province_trade_power = 10
+#						}
+#					}
+#				}
+#			}
+#		}
+#		add_corruption = 2
+#		add_mercantilism = 2
+#	}
+#	option = {
+#		name = "personality_events.12.c" #
+#		add_prestige = -10
+#	}
+#}
+#
 #Be kind or risk loosing your personality
 #Choice likely very dependent on which area this is triggering for
 ### kind_hearted_personality doesn't exist in IU.
@@ -920,7 +1357,7 @@ country_event = {
 #	}
 #
 #}
-
+#
 #Heresiarch? (very loosely inspired by Menochio)
 #Free thinker - Risk taking
 ### free_thinker_personality doesn't exist in IU.
@@ -1011,7 +1448,7 @@ country_event = {
 #		set_ruler_flag = free_thinker_swap_no
 #	}
 #}
-
+#
 #The Contact Network of X
 ### well_connected_personality doesn't exist in IU.
 #country_event = {
@@ -1183,7 +1620,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 #Don't Panic
 ### calm_personality doesn't exist in IU.
 #country_event = {
@@ -1209,7 +1646,7 @@ country_event = {
 #		add_stability = 1
 #	}
 #}
-
+#
 #Careful Maneuvering
 ### careful_personality doesn't exist in IU.
 #country_event = {
@@ -1281,7 +1718,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 #New Cipher
 ### secretive_personality doesn't exist in IU.
 #country_event = {
@@ -1314,7 +1751,7 @@ country_event = {
 #		add_prestige = 10
 #	}
 #}
-
+#
 #Friends in Low Places
 ### intricate_web_weaver_personality doesn't exist in IU.
 #country_event = {
@@ -1391,7 +1828,7 @@ country_event = {
 #		add_dip_power = 25
 #	}
 #}
-
+#
 #Twin Birth
 ### fertile_personality doesn't exist in IU.
 #country_event = {
@@ -1432,7 +1869,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 #Twin Birth
 ### fertile_personality doesn't exist in IU.
 #country_event = {
@@ -1472,7 +1909,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 #Advice for X
 # well_advised_personality doesn't exist in IU.
 #country_event = {
@@ -1616,7 +2053,7 @@ country_event = {
 #		set_ruler_flag = well_advised_tutored_heir #Shouldn't repeat for same heir regardless.
 #	}
 #}
-
+#
 #Learning from the mistakes of others
 #For Theocracies and Republics who have shorter ruler lifespans
 ### well_advised_personality doesn't exist in IU.
@@ -1796,315 +2233,154 @@ country_event = {
 #		add_war_exhaustion = -2
 #	}
 #}
-
-#Faith of X
-### zealot_personality does exist in IU. Leaving this in.
-country_event = {
-	id = personality_events.26
-	title = "personality_events.26.t"
-	desc = "personality_events.26.d"
-	picture = COPTIC_CITY_eventPicture
-
-	trigger = {
-		has_dlc = "Rights of Man"
-		ruler_has_personality = zealot_personality
-		any_neighbor_country = {
-			is_enemy = ROOT
-			NOT = { religion = ROOT }
-			any_owned_province = {
-				NOT = { is_claim = ROOT }
-				any_neighbor_province = {
-					owned_by = ROOT
-				}
-			}
-		}
-		OR = {
-			NOT = { has_dlc = "The Cossacks" }
-			AND = {
-				has_estate = estate_church
-				estate_loyalty = {
-					estate = estate_church
-					loyalty = 60
-				}
-				estate_influence = {
-					estate = estate_church
-					influence = 40
-				}
-			}
-		}
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_province = {
-				limit = {
-					owner = {
-						is_enemy = ROOT
-						NOT = { religion = ROOT }
-					}
-					NOT = { is_claim = ROOT }
-					any_neighbor_province = {
-						owned_by = ROOT
-					}
-				}
-				every_province = {
-					limit = {
-						area = PREV
-						NOT = { is_claim = ROOT }
-						owner = {
-							is_enemy = ROOT
-							NOT = { religion = ROOT }
-						}
-					}
-					set_province_flag = zealot_claim
-				}
-			}
-		}
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "personality_events.26.a"
-		every_province = {
-			limit = {
-				has_province_flag = zealot_claim
-			}
-			add_claim = ROOT
-			clr_province_flag = zealot_claim
-			owner = {
-				add_casus_belli = {
-					target = ROOT
-					type = cb_insult
-					months = 12
-				}
-			}
-		}
-		every_neighbor_country = {
-			limit = {
-				NOT = { religion = ROOT }
-			}
-			add_opinion= {
-				who = ROOT
-				modifier = zealot_reputation_opinion
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_dhimmi
-			}
-			add_estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = -10
-			}
-		}
-	}
-	option = {
-		name = "personality_events.26.b"
-		add_prestige = 10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_dhimmi
-			}
-			add_estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = 10
-			}
-		}
-	}
-}
-
-### pious_personality does exist in IU. Leaving this in.
-country_event = {
-	id = personality_events.27
-	title = "personality_events.27.t"
-	desc = "personality_events.27.d"
-	picture = COPTIC_CITY_eventPicture
-
-	trigger = {
-		has_dlc = "Rights of Man"
-		ruler_has_personality = pious_personality
-		at_war_with_religious_enemy = yes
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "personality_events.27.a"
-		add_years_of_income = 0.25
-	}
-	option = {
-		name = "personality_events.28.b"
-		add_yearly_manpower = 0.5
-	}
-}
-
+#
 #Princes making careers in benevolent overlord country.
-country_event = {
-	id = personality_events.28
-	title = "personality_events.28.t"
-	desc = "personality_events.28.d"
-	picture = MILITARISTICALLY_TALENTED_RULER_eventPicture
-
-	trigger = {
-		has_dlc = "Rights of Man"
-		ruler_has_personality = benevolent_personality
-		any_subject_country = {
-			is_colonial_nation = no
-			has_opinion = {
-				who = ROOT
-				value = 150 #Or they're not regarding you as that Benevolent
-			}
-		}
-	}
-
-	immediate = {
-		hidden_effect = {
-			set_variable = { which = happy_subjects value = 0 }
-			every_subject_country = {
-				limit = {
-					is_colonial_nation = no
-					has_opinion = {
-						who = ROOT
-						value = 150 #Or they're not regarding you as that Benevolent
-					}
-				}
-				ROOT = {
-					change_variable = { which = happy_subjects value = 1 }
-				}
-			}
-		}
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "personality_events.28.a"
-		add_meritocracy_effect = yes
-		if = {
-			limit = {
-				NOT = {
-					check_variable = { which = happy_subjects value = 3 }
-				}
-			}
-			add_prestige = 10
-			define_advisor = {
-				type = envoy_a
-				skill = 2
-				discount = yes
-			}
-		}
-		if = {
-			limit = {
-				check_variable = { which = happy_subjects value = 3 }
-				NOT = {
-					check_variable = { which = happy_subjects value = 4 }
-				}
-			}
-			add_prestige = 10
-			define_advisor = {
-				type = envoy_a
-				skill = 3
-				discount = yes
-			}
-		}
-		if = {
-			limit = {
-				check_variable = { which = happy_subjects value = 4 }
-				NOT = {
-					check_variable = { which = happy_subjects value = 5 }
-				}
-			}
-			add_prestige = 15
-			define_advisor = {
-				type = envoy_a
-				skill = 3
-				discount = yes
-			}
-			define_advisor = {
-				type = censor_a
-				skill = 2
-				discount = yes
-			}
-		}
-		if = {
-			limit = { check_variable = { which = happy_subjects value = 5 } }
-			add_prestige = 15
-			define_advisor = {
-				type = envoy_a
-				skill = 3
-				discount = yes
-			}
-			define_advisor = {
-				type = censor_a
-				skill = 3
-				discount = yes
-			}
-		}
-	}
-	option = {
-		name = "personality_events.28.b"
-		if = {
-			limit = {
-				NOT = {
-					check_variable = { which = happy_subjects value = 3 }
-				}
-			}
-			add_prestige = 10
-			create_general = 50
-		}
-		if = {
-			limit = {
-				check_variable = { which = happy_subjects value = 3 }
-				NOT = {
-					check_variable = { which = happy_subjects value = 4 }
-				}
-			}
-			add_prestige = 10
-			create_general = 60
-		}
-		if = {
-			limit = {
-				check_variable = { which = happy_subjects value = 4 }
-				NOT = {
-					check_variable = { which = happy_subjects value = 5 }
-				}
-			}
-			add_prestige = 15
-			create_general = 80
-		}
-		if = {
-			limit = { check_variable = { which = happy_subjects value = 5 } }
-			add_prestige = 15
-			create_general = 100
-		}
-	}
-}
-
+### benevolent_personality doesn't exist in IU.
+#country_event = {
+#	id = personality_events.28
+#	title = "personality_events.28.t"
+#	desc = "personality_events.28.d"
+#	picture = MILITARISTICALLY_TALENTED_RULER_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Rights of Man"
+#		ruler_has_personality = benevolent_personality
+#		any_subject_country = {
+#			is_colonial_nation = no
+#			has_opinion = {
+#				who = ROOT
+#				value = 150 #Or they're not regarding you as that Benevolent
+#			}
+#		}
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			set_variable = { which = happy_subjects value = 0 }
+#			every_subject_country = {
+#				limit = {
+#					is_colonial_nation = no
+#					has_opinion = {
+#						who = ROOT
+#						value = 150 #Or they're not regarding you as that Benevolent
+#					}
+#				}
+#				ROOT = {
+#					change_variable = { which = happy_subjects value = 1 }
+#				}
+#			}
+#		}
+#	}
+#
+#	is_triggered_only = yes
+#
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = "personality_events.28.a"
+#		add_meritocracy_effect = yes
+#		if = {
+#			limit = {
+#				NOT = {
+#					check_variable = { which = happy_subjects value = 3 }
+#				}
+#			}
+#			add_prestige = 10
+#			define_advisor = {
+#				type = envoy_a
+#				skill = 2
+#				discount = yes
+#			}
+#		}
+#		if = {
+#			limit = {
+#				check_variable = { which = happy_subjects value = 3 }
+#				NOT = {
+#					check_variable = { which = happy_subjects value = 4 }
+#				}
+#			}
+#			add_prestige = 10
+#			define_advisor = {
+#				type = envoy_a
+#				skill = 3
+#				discount = yes
+#			}
+#		}
+#		if = {
+#			limit = {
+#				check_variable = { which = happy_subjects value = 4 }
+#				NOT = {
+#					check_variable = { which = happy_subjects value = 5 }
+#				}
+#			}
+#			add_prestige = 15
+#			define_advisor = {
+#				type = envoy_a
+#				skill = 3
+#				discount = yes
+#			}
+#			define_advisor = {
+#				type = censor_a
+#				skill = 2
+#				discount = yes
+#			}
+#		}
+#		if = {
+#			limit = { check_variable = { which = happy_subjects value = 5 } }
+#			add_prestige = 15
+#			define_advisor = {
+#				type = envoy_a
+#				skill = 3
+#				discount = yes
+#			}
+#			define_advisor = {
+#				type = censor_a
+#				skill = 3
+#				discount = yes
+#			}
+#		}
+#	}
+#	option = {
+#		name = "personality_events.28.b"
+#		if = {
+#			limit = {
+#				NOT = {
+#					check_variable = { which = happy_subjects value = 3 }
+#				}
+#			}
+#			add_prestige = 10
+#			create_general = 50
+#		}
+#		if = {
+#			limit = {
+#				check_variable = { which = happy_subjects value = 3 }
+#				NOT = {
+#					check_variable = { which = happy_subjects value = 4 }
+#				}
+#			}
+#			add_prestige = 10
+#			create_general = 60
+#		}
+#		if = {
+#			limit = {
+#				check_variable = { which = happy_subjects value = 4 }
+#				NOT = {
+#					check_variable = { which = happy_subjects value = 5 }
+#				}
+#			}
+#			add_prestige = 15
+#			create_general = 80
+#		}
+#		if = {
+#			limit = { check_variable = { which = happy_subjects value = 5 } }
+#			add_prestige = 15
+#			create_general = 100
+#		}
+#	}
+#}
+#
 #Legal Reform
 ### lawgiver_personality doesn't exist in IU.
 #country_event = {
@@ -2204,7 +2480,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 #Keeping to the Code
 ### incorruptible_personality doesn't exist in IU.
 #country_event = {
@@ -2237,64 +2513,6 @@ country_event = {
 #		}
 #	}
 #}
-
-#School of [Root.Capital.GetCapitalName]
-### architectural_visionary_personality doesn't exist in IU, but architect_personality
-### does. Changing to architect_personality.
-country_event = {
-	id = personality_events.32
-	title = "personality_events.32.t"
-	desc = "personality_events.32.d"
-	picture = ARTWORK_eventPicture
-
-	trigger = {
-		has_dlc = "Rights of Man"
-		ruler_has_personality = architect_personality
-		OR = {
-			ai = no
-			years_of_income = 1
-		}
-		has_institution = feudalism_i
-		NOT = {
-			any_owned_province = {
-				has_province_modifier = monumental_architecture
-			}
-		}
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "personality_events.32.a"
-		add_years_of_income = -1
-		capital_scope = {
-			add_permanent_province_modifier = {
-				name = "monumental_architecture"
-				duration = 3650
-			}
-		}
-	}
-	option = {
-		name = "personality_events.32.b"
-		add_prestige = 10
-		every_known_country = {
-			limit = {
-				religion_group = ROOT
-				NOT = { war_with = ROOT }
-				culture_group = ROOT
-			}
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_school_of_capital
-			}
-		}
-	}
-}
-
 #The Lure of Easy Money
 #AKA the good and bad sides of Tax Farming
 ### entrepreneur_personality and greedy_personality don't exist in game.
@@ -2381,7 +2599,7 @@ country_event = {
 #		add_prestige = -10
 #	}
 #}
-
+#
 #Economics of a [Root.Monarch.GetTitle]
 ### industrious_personality doesn't exist in IU.
 #country_event = {
@@ -2467,7 +2685,7 @@ country_event = {
 #		add_prestige = -5
 #	}
 #}
-
+#
 #The Lure of New Worlds
 ### expansionist_personality doesn't exist in IU.
 #country_event = {
@@ -2507,7 +2725,7 @@ country_event = {
 #		create_explorer = 50
 #	}
 #}
-
+#
 #Government Intervention
 ### charismatic_negotiator_personality doesn't exist in IU.
 #country_event = {
@@ -2541,7 +2759,7 @@ country_event = {
 #		add_prestige = -5
 #	}
 #}
-
+#
 #Fear and Awe
 ### conqueror_personality doesn't exist in IU.
 #country_event = {
@@ -2579,7 +2797,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 #Tactical book
 ### tactical_genius_personality doesn't exist in IU.
 #country_event = {
@@ -2620,7 +2838,7 @@ country_event = {
 #		add_mil_power = 25
 #	}
 #}
-
+#
 # All peace and no play
 ### bold_fighter_personality doesn't exist in IU.
 #country_event = {
@@ -2658,7 +2876,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 # A Strict Etiquette
 ### strict_personality doesn't exist in IU.
 #country_event = {
@@ -2696,7 +2914,7 @@ country_event = {
 #		add_prestige = -10
 #	}
 #}
-
+#
 # The Power of Rhetoric
 ### inspiring_leader_personality doesn't exist in IU.
 #country_event = {
@@ -2723,7 +2941,7 @@ country_event = {
 #		add_war_exhaustion = -5
 #	}
 #}
-
+#
 #Hire advisor to train your troops
 ### martial_educator_personality doesn't exist in IU.
 #country_event = {
@@ -2798,7 +3016,7 @@ country_event = {
 #
 #		hidden_effect = {
 #			define_advisor = {
-				type = army_reformer_a
+#				type = army_reformer_a
 #				skill = 2
 #				discount = yes
 #			}
@@ -2835,7 +3053,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 # A Down-to-Earth Sailor
 ### navigator_personality doesn't exist in IU.
 #country_event = {
@@ -2880,7 +3098,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 ### fierce_negotiator_personality doesn't exist in IU.
 #country_event = {
 #	id = personality_events.44
@@ -2909,7 +3127,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 #You make another country angry
 ### babbling_buffoon_personality doesn't exist in IU.
 #country_event = {
@@ -2975,7 +3193,7 @@ country_event = {
 #		}
 #	}
 #}
-
+#
 #Advisors offers to help you embezzle
 # Disabled - embezzler_personality does not exist in IU
 #country_event = {
@@ -3028,8 +3246,7 @@ country_event = {
 #		}
 #	}
 #}
-
-
+#
 #Get your lover as an advisor
 #country_event = {
 #	id = personality_events.48
@@ -3162,102 +3379,7 @@ country_event = {
 #		clr_country_flag = homosexual_ruler
 #	}
 #}
-
-#Throwing the greatest party
-### drunkard_personality doesn't exist in IU.
-### Changed to drunk_personality which does exist.
-country_event = {
-	id = personality_events.49
-	title = "personality_events.49.t"
-	desc = "personality_events.49.d"
-	picture = KING_DOING_GREAT_eventPicture
-
-	trigger = {
-		ruler_has_personality = drunk_personality
-		has_dlc = "Rights of Man"
-		any_neighbor_country = {
-			NOT = { is_rival = ROOT }
-			NOT = { is_enemy = ROOT }
-		}
-
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_neighbor_country = {
-				limit = {
-					NOT = { is_rival = ROOT }
-					NOT = { is_enemy = ROOT }
-				}
-				save_event_target_as = invitee_1
-			}
-			random_neighbor_country = {
-				limit = {
-					NOT = { is_rival = ROOT }
-					NOT = { is_enemy = ROOT }
-					NOT = { event_target:invitee_1 = { TAG = PREV } }
-				}
-				save_event_target_as = invitee_2
-			}
-			random_neighbor_country = {
-				limit = {
-					NOT = { is_rival = ROOT }
-					NOT = { is_enemy = ROOT }
-					NOT = { event_target:invitee_1 = { TAG = PREV } }
-					NOT = { event_target:invitee_2 = { TAG = PREV } }
-				}
-				save_event_target_as = invitee_3
-			}
-		}
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "personality_events.49.a"
-
-		event_target:invitee_1 = {
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_grateful_for_invitation
-			}
-		}
-	}
-	option = {
-		trigger = { has_saved_event_target = invitee_2 }
-
-		name = "personality_events.49.b"
-
-		event_target:invitee_2 = {
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_grateful_for_invitation
-			}
-		}
-	}
-	option = {
-		trigger = { has_saved_event_target = invitee_3 }
-
-		name = "personality_events.49.c"
-
-		event_target:invitee_3 = {
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_grateful_for_invitation
-			}
-		}
-	}
-	option = {
-		name = "personality_events.49.e"
-		custom_tooltip = personality_events.49.e.tooltip
-
-	}
-}
-
+#
 ### greedy_personality doesn't exist in IU.
 #country_event = {
 #	id = personality_events.50
@@ -3289,63 +3411,7 @@ country_event = {
 #		}
 #	}
 #}
-
-#Make example of lazy peasants
-### cruel_personality does exist in IU, so we'll leave this in.
-country_event = {
-	id = personality_events.51
-	title = "personality_events.51.t"
-	desc = "personality_events.51.d"
-	picture = BORDER_TENSION_eventPicture
-
-	trigger = {
-		ruler_has_personality = cruel_personality
-		has_dlc = "Rights of Man"
-		any_owned_province = {
-			NOT = { has_province_modifier = cruel_overlord }
-			is_state = yes
-			is_capital = no
-		}
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					NOT = { has_province_modifier = cruel_overlord }
-					is_state = yes
-					is_capital = no
-				}
-				save_event_target_as = lazy_province
-			}
-		}
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "personality_events.51.a"
-
-		event_target:lazy_province = {
-
-			add_base_production = 2
-
-			add_province_modifier = {
-				name = cruel_overlord
-				duration = 3650
-			}
-		}
-	}
-	option = {
-		name = "personality_events.51.b"
-		custom_tooltip = personality_events.51.b.tooltip
-	}
-}
-
+#
 #Cheaper advisors
 ### naive_personality doesn't exist in IU.
 #country_event = {
@@ -3375,65 +3441,7 @@ country_event = {
 #		}
 #	}
 #}
-
-#Escape assassination
-### craven_personality does exist in IU, leaving this in.
-country_event = {
-	id = personality_events.53
-	title = "personality_events.53.t"
-	desc = "personality_events.53.d"
-	picture = ASSASSINATION_eventPicture
-
-	trigger = {
-		ruler_has_personality = craven_personality
-		has_dlc = "Rights of Man"
-		any_known_country = {
-			NOT = { reverse_has_opinion = { who = ROOT value = 0 } }
-		 	NOT = { ROOT = { has_casus_belli = { type = cb_insult target = PREV } } }
-		}
-	}
-
-	#Finding a country
-	immediate = {
-		hidden_effect = {
-			random_neighbor_country = {
-				limit = {
-					NOT = { reverse_has_opinion = { who = ROOT value = 0 } }
-		 			NOT = { ROOT = { has_casus_belli = { type = cb_insult target = PREV } } }
-				}
-				save_event_target_as = assassination_nation
-			}
-
-			if = {
-				limit = { NOT = { has_saved_event_target = assassination_nation } }
-				random_known_country = {
-					limit = {
-						NOT = { reverse_has_opinion = { who = ROOT value = 0 } }
-		 				NOT = { ROOT = { has_casus_belli = { type = cb_insult target = PREV } } }
-					}
-					save_event_target_as = assassination_nation
-				}
-			}
-		}
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "personality_events.53.a"
-
-		add_casus_belli = {
-			target = event_target:assassination_nation
-			type = cb_insult
-			months = 36
-		}
-	}
-}
-
+#
 # An Accidental Compliment
 ### loose_lips_personality doesn't exist in IU.
 #country_event = {
@@ -3524,7 +3532,7 @@ country_event = {
 #		add_prestige = -5
 #	}
 #}
-
+#
 # Advising an Advisor
 ### malevolent_personality doesn't exist in IU.
 #country_event = {
@@ -3557,7 +3565,7 @@ country_event = {
 #		remove_advisor_adm_effect = yes
 #	}
 #}
-
+#
 #Female general (ruler)
 ### bold_fighter_personality, tactical_genius_personality and
 ### inspiring_leader_personality doesn't exist in IU.
@@ -3635,7 +3643,7 @@ country_event = {
 #		custom_tooltip = personality_events.57.b.tooltip
 #	}
 #}
-
+#
 #Female general (heir)
 ### bold_fighter_personality, tactical_genius_personality and
 ### inspiring_leader_personality doesn't exist in IU.

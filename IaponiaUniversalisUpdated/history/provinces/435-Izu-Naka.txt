@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = HAK
+add_core = HJO
 owner = HAK
 controller = HAK
 
@@ -21,7 +22,6 @@ base_manpower = 1
 trade_goods = gold
 
 1493.6.9 = {
-    add_core = HJO
     controller = HJO
     owner = HJO
 	remove_core = HAK

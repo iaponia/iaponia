@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = TGS
+add_core = HGJ
 owner = TGS
 controller = TGS
 
@@ -23,7 +24,6 @@ base_manpower = 3
 trade_goods = pilgrimage_site
 
 1493.6.9 = {
-    add_core = HGJ
     controller = HGJ
     owner = HGJ
 	remove_core = TGS

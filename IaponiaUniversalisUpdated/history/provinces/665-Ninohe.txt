@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = NNB
+add_core = SNB
 owner = NNB
 controller = NNB
 
@@ -26,4 +27,8 @@ trade_goods = lacquerware
 	temple = yes
 	barracks = yes
 	arsenal = yes
+}
+
+1615.1.1 = {
+	remove_core = SNB
 }

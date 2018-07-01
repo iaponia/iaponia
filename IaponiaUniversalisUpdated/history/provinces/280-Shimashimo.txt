@@ -43,11 +43,8 @@ trade_goods = rice
 }
 
 1582.6.21 = {
-    add_core = IKE
-    controller = IKE
-    owner = IKE
-	remove_core = MYI
-	remove_core = AAI
+    controller = TKY
+    owner = TKY
 	religion = catholic
 }
 
@@ -56,7 +53,6 @@ trade_goods = rice
     controller = TOY
     owner = TOY
 	remove_core = TKY
-	remove_core = IKE
 }
 
 1615.1.1 = {

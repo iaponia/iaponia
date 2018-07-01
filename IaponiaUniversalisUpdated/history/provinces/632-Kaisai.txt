@@ -23,6 +23,10 @@ base_manpower = 5
 
 trade_goods = rice
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
     controller = KOD
     owner = KOD
@@ -58,4 +62,5 @@ trade_goods = rice
     controller = OMO
     owner = OMO
 	remove_core = FUK
+	religion = shinto
 }

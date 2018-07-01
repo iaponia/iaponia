@@ -9,6 +9,7 @@ discovered_by = ainu
 add_core = SBA
 add_core = KOD
 add_core = SHB
+add_core = HSB
 owner = SBA
 controller = SBA
 
@@ -24,6 +25,10 @@ base_manpower = 3
 
 trade_goods = cloth
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
     controller = KOD
     owner = KOD
@@ -36,6 +41,7 @@ trade_goods = cloth
     controller = ODA
     owner = ODA
 	remove_core = KOD
+	remove_core = HSB
 }
 
 1582.6.21 = {
@@ -58,4 +64,5 @@ trade_goods = cloth
     controller = OMO
     owner = OMO
 	remove_core = FUK
+	religion = shinto
 }

@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = SBA
+add_core = HCH
 add_core = IOD
 add_core = KOD
 owner = SBA
@@ -42,6 +43,7 @@ trade_goods = paper
     controller = KOD
     owner = KOD
 	remove_core = ODA
+	remove_core = HCH
 }
 
 1600.9.13 = {

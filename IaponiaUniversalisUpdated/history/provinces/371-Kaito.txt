@@ -24,6 +24,10 @@ base_manpower = 2
 
 trade_goods = pottery
 
+1493.6.9 = {
+	religion = jodoshinshu
+}
+
 1511.9.25 = {
     controller = KOD
     owner = KOD
@@ -61,4 +65,5 @@ trade_goods = pottery
     controller = OMO
     owner = OMO
 	remove_core = FUK
+	religion = shinto
 }

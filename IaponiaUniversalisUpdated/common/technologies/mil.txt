@@ -189,6 +189,7 @@ technology = {
 	supply_limit = 0.5
 	land_morale = 0.5
 	artillery_fire = 1
+	artillery_shock = 0.15
 	arsenal = yes
 	castle = yes
 	outer_wall = yes
@@ -207,7 +208,6 @@ technology = {
 	infantry_shock = 0.15
 	cavalry_fire = 0.1
 	cavalry_shock = 0.3
-	artillery_shock = 0.15
 	maneuver_value = 0.25
 
 	enable = late_off_kanto_infantry

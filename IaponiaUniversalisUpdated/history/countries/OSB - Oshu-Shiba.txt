@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = oshu_c
 religion = shinto
 technology_group = tohoku
 capital = 602	# Shiba
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {
@@ -112,7 +113,6 @@ capital = 602	# Shiba
 		name = "Akitaka"
 		dynasty = "Shiba"
 		birth_date = 1476.1.1
-		death_date = 1549.1.1
 		adm = 6
 		dip = 7
 		mil = 5

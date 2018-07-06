@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = noto_c
 religion = shinto
 technology_group = togoku
 capital = 377	# Noto
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {

@@ -2,8 +2,9 @@ government = kokujin_monarchy
 government_rank = 1
 primary_culture = iwafune_c
 religion = shinto
-technology_group = togoku
+technology_group = saigoku
 capital = 559
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -11,8 +12,9 @@ capital = 559
 		dynasty = "Mizoguchi"
 		birth_date = 1548.1.1
 		death_date = 1610.11.13
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 4
 	}
+	government = late_sengoku_monarchy
 }

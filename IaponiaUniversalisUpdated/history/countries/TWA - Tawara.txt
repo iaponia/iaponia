@@ -4,3 +4,21 @@ primary_culture = bungo_c
 religion = shinto
 technology_group = kyushu
 capital = 42
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Chikataka"
+		dynasty = "Tawara"
+		birth_date = 1570.1.1
+		death_date = 1600.11.9
+		adm = 5
+		dip = 4
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = craven_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

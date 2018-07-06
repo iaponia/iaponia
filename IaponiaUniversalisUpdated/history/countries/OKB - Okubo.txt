@@ -4,3 +4,22 @@ primary_culture = totomi_c
 religion = shinto
 technology_group = togoku
 capital = 414
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Tadayo"
+		dynasty = "Okubo"
+		birth_date = 1532.1.1
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = frugal_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	primary_culture = sagami_c
+}

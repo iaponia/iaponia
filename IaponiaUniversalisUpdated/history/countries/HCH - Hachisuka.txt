@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = awa_c
+primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
 capital = 153
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -19,4 +20,22 @@ capital = 153
 	add_ruler_personality = equestrian_personality
 	add_ruler_personality = architect_personality
 	add_ruler_personality = tolerant_personality
+	primary_culture = awa_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Masakatsu"
+		dynasty = "Hachisuka"
+		birth_date = 1526.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = humble_personality
+	add_ruler_personality = immortal_personality
 }

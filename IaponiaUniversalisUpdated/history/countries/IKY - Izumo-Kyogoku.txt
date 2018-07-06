@@ -4,6 +4,7 @@ primary_culture = unpaku_c
 religion = shinto
 technology_group = saigoku
 capital = 198
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {

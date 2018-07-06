@@ -1,16 +1,68 @@
-government = shugo_monarchy
-government_rank = 2
+government = kokujin_monarchy
+government_rank = 1
 primary_culture = suwa_c
 religion = shinto
 technology_group = togoku
 capital = 438	# Ina
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
-		name = "Masahide"
+		name = "Ienaga"
 		dynasty = "Ogasawara"
-		birth_date = 1425.1.1
-		death_date = 1493.1.30
+		birth_date = 1430.1.1
+		death_date = 1480.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Sadatomo"
+		dynasty = "Ogasawara"
+		birth_date = 1450.1.1
+		death_date = 1511.9.15
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1493.6.9 = {
+	monarch = {
+		name = "Sadatomo"
+		dynasty = "Ogasawara"
+		birth_date = 1450.1.1
+		death_date = 1511.9.15
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Sadatada"
+		dynasty = "Ogasawara"
+		birth_date = 1480.1.1
+		death_date = 1550.8.7
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1511.9.25 = {
+	monarch = {
+		name = "Sadatada"
+		dynasty = "Ogasawara"
+		birth_date = 1480.1.1
+		death_date = 1550.8.7
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Nagamune"
+		dynasty = "Ogasawara"
+		birth_date = 1500.1.1
+		death_date = 1542.10.28
 		adm = 3
 		dip = 3
 		mil = 3

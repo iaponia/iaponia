@@ -4,6 +4,7 @@ primary_culture = seishu_c
 religion = shinto
 technology_group = saigoku
 capital = 352
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {

@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = buzen_c
+primary_culture = harima_c
 religion = shinto
 technology_group = kyushu
 capital = 74
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -14,11 +15,76 @@ capital = 74
 		adm = 8
 		dip = 7
 		mil = 8
+		leader = {
+			name = "Yoshitaka Kuroda"
+			type = general
+			fire = 5
+			shock = 5
+			manuever = 4
+			siege = 6
+			death_date = 1604.4.19
+			personality = skilled_tactician_personality
+		}
+	}
+	queen = {
+        country_of_origin = KRD
+        name = "Teru"
+        dynasty = "Kushizaki" 
+        birth_date = 1553.1.1
+        death_date = 1627.10.5
+        female = yes
+        adm = 6
+        dip = 5
+        mil = 2
+    }
+	heir = {
+		name = "Nagamasa"
+		dynasty = "Kuroda"
+		birth_date = 1568.12.3
+		death_date = 1623.8.9
+		claim = 95
+		adm = 7
+		dip = 4
+		mil = 6
+	}
+	leader = {
+		name = "Mototsugu Goto"
+		type = general
+		fire = 5
+		shock = 5
+		manuever = 2
+		siege = 0
+		death_date = 1614.12.31
+		personality = inspirational_leader_personality
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = pious_personality
 	add_ruler_personality = cunning_personality
 	add_ruler_personality = architect_personality
 	add_ruler_personality = frugal_personality
+	add_queen_personality = pious_personality
+	add_heir_personality = stern_personality
 	government = late_sengoku_monarchy
+	religion = catholic
+	primary_culture = buzen_c
+	add_accepted_culture = bungo_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshitaka"
+		dynasty = "Kuroda"
+		birth_date = 1546.12.22
+		adm = 8
+		dip = 7
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = pious_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = frugal_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	remove_accepted_culture = bungo_c
 }

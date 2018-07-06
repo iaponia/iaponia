@@ -4,6 +4,7 @@ primary_culture = ezo_c
 religion = shinto
 technology_group = tohoku
 capital = 607
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -11,9 +12,30 @@ capital = 607
 		dynasty = "Matsumae"
 		birth_date = 1548.10.4
 		death_date = 1616.11.20
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 6
+		mil = 4
 	}
 	government = late_sengoku_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = tolerant_personality
+}
+
+1600.9.13 = {
+	monarch = {
+		name = "Yoshihiro"
+		dynasty = "Matsumae"
+		birth_date = 1548.10.4
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+	government = daimyo_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = immortal_personality
 }

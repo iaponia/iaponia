@@ -9,6 +9,7 @@ discovered_by = ainu
 add_core = KGK
 add_core = AZI
 add_core = ISH
+add_core = TOD
 owner = KGK
 controller = KGK
 
@@ -38,6 +39,7 @@ trade_goods = lacquerware
     controller = AKC
     owner = AKC
 	remove_core = AZI
+	remove_core = TOD
 }
 
 1600.9.13 = {

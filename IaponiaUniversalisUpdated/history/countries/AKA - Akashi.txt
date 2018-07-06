@@ -1,6 +1,67 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = bizen_c
-religion = shinto
+religion = catholic
 technology_group = saigoku
-capital = 212
+capital = 213
+mercantilism = 50
+
+1569.10.10 = {
+	monarch = {
+		name = "Teruzumi"
+		dynasty = "Akashi"
+		birth_date = 1569.1.1
+		death_date = 1618.1.1
+		adm = 6
+		dip = 4
+		mil = 7
+		leader = { 
+			name = "Teruzumi Akashi"	
+			type = general	
+			fire = 3	
+			shock = 5	
+			manuever = 4	
+			siege = 0
+			death_date = 1618.1.1
+			personality = unflinching_leader_personality
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = brave_personality
+	government = sengoku_monarchy
+}
+
+1582.6.21 = {
+	queen = {
+        country_of_origin = UKT
+        name = "Monica"
+        dynasty = "Ukita" 
+        birth_date = 1572.1.1
+        death_date = 1618.1.1
+        female = yes
+        adm = 4
+        dip = 4
+        mil = 4
+    }
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Teruzumi"
+		dynasty = "Akashi"
+		birth_date = 1569.1.1
+		adm = 6
+		dip = 4
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

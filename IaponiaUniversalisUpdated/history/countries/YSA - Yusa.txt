@@ -4,6 +4,7 @@ primary_culture = kawachi_c
 religion = shinto
 technology_group = saigoku
 capital = 302	# Wakae
+mercantilism = 50
 
 1511.9.25 = {
 	monarch = {
@@ -59,9 +60,9 @@ capital = 302	# Wakae
 		dynasty = "Yusa"
 		birth_date = 1524.1.1
 		death_date = 1574.5.2
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 6
+		mil = 4
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = cunning_personality
@@ -84,4 +85,5 @@ capital = 302	# Wakae
 	add_ruler_personality = gregarious_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	religion = jodoshinshu
 }

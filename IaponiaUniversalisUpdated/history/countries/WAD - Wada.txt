@@ -1,6 +1,51 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = sesshu_c
-religion = shinto
+religion = catholic
 technology_group = saigoku
 capital = 260
+mercantilism = 50
+
+1569.10.10 = {
+	monarch = {
+		name = "Koremasa"
+		dynasty = "Wada"
+		birth_date = 1536.1.1
+		death_date = 1571.9.17
+		adm = 5
+		dip = 5
+		mil = 6
+		leader = {
+			name = "Koremasa Wada"
+			type = general
+			fire = 3
+			shock = 2
+			manuever = 2
+			siege = 1
+			death_date = 1571.9.17
+			personality = frontline_leader_personality
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = xenophilic_personality
+	add_ruler_personality = connected_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Koremasa"
+		dynasty = "Wada"
+		birth_date = 1536.1.1
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = xenophilic_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = immortal_personality
+}

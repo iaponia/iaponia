@@ -4,6 +4,7 @@ primary_culture = musashi_c
 religion = shinto
 technology_group = togoku
 capital = 522
+mercantilism = 50
 
 1536.4.7 = {
 	monarch = {
@@ -15,4 +16,26 @@ capital = 522
 		dip = 6
 		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = honorable_personality
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Sukemasa"
+		dynasty = "Ota"
+		birth_date = 1522.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

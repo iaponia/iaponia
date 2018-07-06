@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = kuma_c
-religion = shinto
-technology_group = kyushu
+primary_culture = sesshu_c
+religion = catholic
+technology_group = saigoku
 capital = 25
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -14,6 +15,37 @@ capital = 25
 		adm = 6
 		dip = 7
 		mil = 6
+		leader = {
+			name = "Yukinaga Konishi"
+			type = general
+			fire = 4
+			shock = 3
+			manuever = 3
+			siege = 2
+			death_date = 1600.11.6
+			personality = rapid_mobilizer_personality
+		}
+	}
+	queen = {
+        country_of_origin = KNH
+        name = "Julia"
+        dynasty = "Konishi" 
+        birth_date = 1570.1.1
+        death_date = 1600.11.6
+        female = yes
+        adm = 3
+        dip = 3
+        mil = 3
+    }
+	heir = {
+		name = "Hidesada"
+		dynasty = "Konishi"
+		birth_date = 1585.1.1
+		death_date = 1600.11.6
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = mercantile_personality
@@ -21,4 +53,23 @@ capital = 25
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = gracious_personality
 	government = late_sengoku_monarchy
+	primary_culture = kuma_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yukinaga"
+		dynasty = "Konishi"
+		birth_date = 1555.1.1
+		adm = 6
+		dip = 7
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

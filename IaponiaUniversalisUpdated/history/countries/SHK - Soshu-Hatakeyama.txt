@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = kawachi_c
 religion = shinto
 technology_group = saigoku
 capital = 306	# Furuichi
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -22,7 +23,6 @@ capital = 306	# Furuichi
 			manuever = 0
 			siege = 2
 			death_date = 1491.1.21
-			personality = siege_master_personality
 		}
 	}
 	clear_scripted_personalities = yes

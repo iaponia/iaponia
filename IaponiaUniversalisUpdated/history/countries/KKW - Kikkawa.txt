@@ -4,6 +4,7 @@ primary_culture = aki_c
 religion = shinto
 technology_group = saigoku
 capital = 132
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -36,8 +37,56 @@ capital = 132
 		dynasty = "Kikkawa"
 		birth_date = 1508.1.1
 		death_date = 1550.11.5
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 2
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = reckless_personality
+	add_ruler_personality = dishonorable_personality
+}
+
+1600.9.13 = {
+	monarch = {
+		name = "Hiroie"
+		dynasty = "Kikkawa"
+		birth_date = 1561.12.7
+		death_date = 1625.10.22
+		adm = 4
+		dip = 3
+		mil = 5
+		leader = {
+			name = "Hiroie Kikkawa"
+			type = general
+			fire = 2
+			shock = 3
+			manuever = 3
+			siege = 0
+			death_date = 1625.10.22
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = lenient_personality
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Motoharu"
+		dynasty = "Kikkawa"
+		birth_date = 1530.1.1
+		adm = 6
+		dip = 5
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

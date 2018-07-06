@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = kozuke_c
 religion = shinto
 technology_group = togoku
-capital = 352 # Ano
+capital = 438
+mercantilism = 50
 	
 1511.9.25 = {
 	monarch = {
@@ -14,5 +15,48 @@ capital = 352 # Ano
 		adm = 5
 		dip = 5
 		mil = 8
+		leader = {
+			name = "Narimasa Nagano"
+			type = general
+			fire = 5
+			shock = 5
+			manuever = 0
+			siege = 0
+			death_date = 1561.12.28
+			personality = skilled_tactician_personality
+		}
 	}
+	heir = {
+		name = "Morimasa"
+		dynasty = "Nagano"
+		birth_date = 1544.1.1
+		death_date = 1566.11.10
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = architect_personality
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Narimasa"
+		dynasty = "Nagano"
+		birth_date = 1491.1.1
+		adm = 5
+		dip = 5
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

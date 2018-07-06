@@ -62,7 +62,7 @@ monarch_names = { # Most Monarchs were named with "masa"
 leader_names = {
     Ishida Ishida Ishida Ishida Ishida Ishida Ishida Ishida Ishida Ishida
 	Shima Shima Shima Shima Shima Otani Otani Otani Otani Otani
-	Gamo Gamo Gamo Gamo Gamo Maeno Maeno Maeno Maeno
+	Gamo Gamo Gamo Gamo Gamo Maeno Maeno Maeno Maeno 
 	Toda Toda Toda Toda Toda Mori Mori Mori Mori Mori
 	Natsuka Natsuka Natsuka Natsuka Natsuka Hiratsuka Hiratsuka Hiratsuka Hiratsuka Hiratsuka
 	Ukita Ukita Ukita Ukita Ukita Akashi Akashi Akashi Akashi Akashi
@@ -78,10 +78,10 @@ leader_names = {
 ship_names = {
 	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
 	"Hitachi Maru"
-	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = tsugaru_c
 religion = shinto
 technology_group = tohoku
 capital = 605	# Tsugaru
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -81,17 +82,17 @@ capital = 605	# Tsugaru
 		birth_date = 1550.1.18
 		death_date = 1608.1.22
 		adm = 6
-		dip = 6
-		mil = 8
+		dip = 7
+		mil = 7
 		leader = {
 			name = "Tamenobu Oura"
 			type = general
 			fire = 3
 			shock = 3
-			manuever = 3
-			siege = 3
+			manuever = 4
+			siege = 4
 			death_date = 1608.1.22
-			personality = siege_master_personality
+			personality = skilled_tactician_personality
 		}
 	}
 	clear_scripted_personalities = yes
@@ -100,25 +101,4 @@ capital = 605	# Tsugaru
 	add_ruler_personality = connected_personality
 	add_ruler_personality = ambitious_personality
 	government = sengoku_monarchy
-}
-
-1600.9.13 = {
-	government = late_sengoku_monarchy
-}
-
-1615.1.1 = {
-	monarch = {
-		name = "Tamenobu"
-		dynasty = "Oura"
-		birth_date = 1550.1.18
-		adm = 6
-		dip = 6
-		mil = 8
-	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = cunning_personality
-	add_ruler_personality = tolerant_personality
-	add_ruler_personality = connected_personality
-	add_ruler_personality = ambitious_personality
-	add_ruler_personality = immortal_personality
 }

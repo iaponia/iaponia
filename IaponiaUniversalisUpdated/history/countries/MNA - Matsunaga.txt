@@ -1,9 +1,9 @@
 government = kokujin_monarchy
-government_rank = 2
-primary_culture = yamato_c
-religion = shinto
+government_rank = 1
+primary_culture = tanshu_c
 technology_group = saigoku
 capital = 309	# Heguri
+mercantilism = 50
 	
 1554.3.1 = { 
 	monarch = {
@@ -14,13 +14,44 @@ capital = 309	# Heguri
 		adm = 6
 		dip = 7
 		mil = 6
+		leader = {
+			name = "Hisahide Matsunaga"
+			type = general
+			fire = 3
+			shock = 3
+			manuever = 4
+			siege = 4
+			death_date = 1577.11.19
+			personality = siege_master_personality
+		}
 	}
+	heir = {
+		name = "Hisamichi"
+		dynasty = "Matsunaga"
+		birth_date = 1543.2.11
+		death_date = 1577.11.19
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	queen = {
+        country_of_origin = MYI
+        name = "Nyobo"
+        dynasty = "Miyoshi" 
+        birth_date = 1525.1.1
+        death_date = 1570.1.1
+        female = yes
+        adm = 2
+        dip = 2
+        mil = 2
+    }
 	clear_scripted_personalities = yes
 	add_ruler_personality = cunning_personality
 	add_ruler_personality = pious_personality
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = dishonorable_personality
 	government = sengoku_monarchy
+	primary_culture = yamato_c
 }
 
 1615.1.1 = {

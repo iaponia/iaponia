@@ -4,6 +4,7 @@ primary_culture = suwa_c
 religion = shinto
 technology_group = togoku
 capital = 619	# Kiso
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {
@@ -84,9 +85,9 @@ capital = 619	# Kiso
 		birth_date = 1540.1.1
 		death_date = 1595.4.26
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 5
 	}
 }
 
@@ -96,10 +97,21 @@ capital = 619	# Kiso
 		dynasty = "Kiso"
 		birth_date = 1540.1.1
 		death_date = 1595.4.26
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 4
+		dip = 4
+		mil = 5
 	}
+	queen = {
+        country_of_origin = TKD
+        name = "Mari"
+        dynasty = "Takeda" 
+        birth_date = 1550.1.1
+        death_date = 1647.8.7
+        female = yes
+        adm = 2
+        dip = 2
+        mil = 2
+    }
 	heir = {
 		name = "Yoshitoshi"
 		monarch_name = "Yoshitoshi"
@@ -111,4 +123,28 @@ capital = 619	# Kiso
 		dip = 3
 		mil = 3
 	}
+	government = late_sengoku_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = honest_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = dishonorable_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshimasa"
+		dynasty = "Kiso"
+		birth_date = 1540.1.1
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	government = daimyo_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = honest_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = dishonorable_personality
+	add_ruler_personality = immortal_personality
 }

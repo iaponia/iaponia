@@ -1,6 +1,18 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = biwa_c
-religion = shinto
-technology_group = saigoku
-capital = 334
+primary_culture = boso_c
+religion = nichirenshu
+technology_group = togoku
+capital = 472
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Sadataka"
+		dynasty = "Sakai"
+		birth_date = 1450.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

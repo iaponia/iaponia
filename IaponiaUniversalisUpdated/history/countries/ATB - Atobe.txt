@@ -4,13 +4,14 @@ primary_culture = kai_c
 religion = shinto
 technology_group = togoku
 capital = 449	# Yamanashi
+mercantilism = 50
 
 1536.4.7 = {
 	monarch = {
 		name = "Katsusuke"
 		dynasty = "Atobe"
 		birth_date = 1529.1.1
-		# death_date = 1582.4.3
+		death_date = 1582.4.3
 		adm = 2
 		dip = 2
 		mil = 4

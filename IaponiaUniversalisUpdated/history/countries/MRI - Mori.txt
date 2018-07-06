@@ -4,6 +4,7 @@ primary_culture = aki_c
 religion = shinto
 technology_group = saigoku
 capital = 130	# Takata
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -63,6 +64,8 @@ capital = 130	# Takata
 		dip = 4
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_heir_personality = drunk_personality
 }
 
 1511.9.25 = {
@@ -75,6 +78,8 @@ capital = 130	# Takata
 		dip = 4
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = drunk_personality
 }
 
 1523.8.25 = {
@@ -97,6 +102,17 @@ capital = 130	# Takata
 			personality = skilled_tactician_personality
 		}
 	}
+	queen = {
+        country_of_origin = KKW
+        name = "Myokyu"
+        dynasty = "Kikkawa" 
+        birth_date = 1499.1.1
+        death_date = 1546.1.2
+        female = yes
+        adm = 5
+        dip = 4
+        mil = 3
+    }
 	heir = {
 		name = "Takamoto"
 		monarch_name = "Takamoto"
@@ -113,6 +129,7 @@ capital = 130	# Takata
 	add_ruler_personality = brave_personality
 	add_ruler_personality = stern_personality
 	add_ruler_personality = eloquent_personality
+	add_queen_personality = gracious_personality
 	add_heir_personality = conscientious_personality
 	add_heir_personality = gracious_personality
 	add_heir_personality = upstanding_personality
@@ -124,8 +141,8 @@ capital = 130	# Takata
 	leader = {
 		name = "Motoharu Kikkawa"
 		type = general
-		fire = 6
-		shock = 6
+		fire = 5
+		shock = 5
 		manuever = 3
 		siege = 3
 		death_date = 1586.12.25
@@ -134,13 +151,27 @@ capital = 130	# Takata
 	leader = {
 		name = "Takakage Kobayakawa"
 		type = admiral
-		fire = 4
-		shock = 4
+		fire = 3
+		shock = 3
 		manuever = 4
 		siege = 4
 		death_date = 1597.7.26
 		personality = calm_commander_personality
 	}
+}
+
+1554.3.1 = {
+	leader = {
+		name = "Takeyoshi Murakami"
+		type = admiral
+		fire = 4
+		shock = 3
+		manuever = 5
+		siege = 2
+		death_date = 1604.1.1
+		personality = famous_pirate_personality
+	}
+	add_accepted_culture = bishu_c
 }
 
 1569.10.10 = {
@@ -164,6 +195,8 @@ capital = 130	# Takata
 	add_heir_personality = upstanding_personality
 	add_heir_personality = disorganized_personality
 	add_heir_personality = lenient_personality
+	add_accepted_culture = choshu_c
+	add_accepted_culture = iwami_c
 }
 
 1582.6.21 = {
@@ -198,8 +231,8 @@ capital = 130	# Takata
 	leader = {
 		name = "Motoharu Kikkawa"
 		type = general
-		fire = 6
-		shock = 6
+		fire = 5
+		shock = 5
 		manuever = 3
 		siege = 3
 		death_date = 1586.12.25
@@ -208,13 +241,24 @@ capital = 130	# Takata
 	leader = {
 		name = "Takakage Kobayakawa"
 		type = admiral
-		fire = 4
-		shock = 4
+		fire = 3
+		shock = 3
 		manuever = 4
 		siege = 4
 		death_date = 1597.7.26
 		personality = calm_commander_personality
 	}
+	leader = {
+		name = "Takeyoshi Murakami"
+		type = admiral
+		fire = 4
+		shock = 3
+		manuever = 5
+		siege = 2
+		death_date = 1604.1.1
+		personality = famous_pirate_personality
+	}
+	add_accepted_culture = unpaku_c
 }
 
 1615.1.1 = {
@@ -233,4 +277,8 @@ capital = 130	# Takata
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	remove_accepted_culture = bishu_c
+	remove_accepted_culture = choshu_c
+	remove_accepted_culture = iwami_c
+	remove_accepted_culture = unpaku_c
 }

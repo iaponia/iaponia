@@ -73,13 +73,13 @@ leader_names = {
 	Hosokawa Hosokawa Hosokawa Hosokawa Hosokawa Tsutsui Tsutsui Tsutsui Tsutsui Tsutsui
 	Inatomi Inatomi Inatomi Inatomi Inatomi Matsui Matsui Matsui Matsui Matsui
 	Shima Shima Shima Shima Shima Ido Ido Ido Ido Ido
-	Mori Mori Mori Mori Mori Chosokabe Chosokabe Chosokabe Chosokabe Chosokabe
+	Mori Mori Mori Mori Mori Chosokabe Chosokabe Chosokabe Chosokabe Chosokabe 
 }
 
 ship_names = {
 	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
 	"Hitachi Maru"
-	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
 	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"

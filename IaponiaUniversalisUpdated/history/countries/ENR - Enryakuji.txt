@@ -1,5 +1,36 @@
 government = theocratic_government
 primary_culture = omi_c
-religion = mahayana
+religion = shinto
 technology_group = saigoku
-capital = 327	# Shiga
+capital = 327
+government_rank = 1
+mercantilism = 50
+
+1569.10.10 = {
+	monarch = {
+		name = "Oin"
+		dynasty = "Yamato"
+		birth_date = 1530.1.1
+		death_date = 1590.1.1
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = zealot_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Oin"
+		dynasty = "Yamato"
+		birth_date = 1530.1.1
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = immortal_personality
+	religion = jodoshinshu
+}

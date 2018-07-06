@@ -3,4 +3,40 @@ government_rank = 1
 primary_culture = mikawa_c
 religion = shinto
 technology_group = togoku
-capital = 412
+capital = 407
+mercantilism = 50
+
+1554.3.1 = {
+	monarch = {
+		name = "Tadakatsu"
+		dynasty = "Honda"
+		birth_date = 1548.3.17
+		death_date = 1610.12.3
+		adm = 3
+		dip = 3
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = strong_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = honorable_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Tadakatsu"
+		dynasty = "Honda"
+		birth_date = 1548.3.17
+		adm = 3
+		dip = 3
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = strong_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = immortal_personality
+	primary_culture = boso_c
+}

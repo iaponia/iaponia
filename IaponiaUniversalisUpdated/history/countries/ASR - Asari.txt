@@ -4,13 +4,14 @@ primary_culture = akita_c
 religion = shinto
 technology_group = tohoku
 capital = 604	# Kazuno
-
-1467.6.15 = {
+mercantilism = 50
+	
+1467.6.15 = { 
 	monarch = {
 		name = "Noriaki"
 		dynasty = "Asari"
 		birth_date = 1450.1.1
-		# death_date = 1518.1.1
+		death_date = 1518.1.1
 		adm = 5
 		dip = 4
 		mil = 5
@@ -30,13 +31,13 @@ capital = 604	# Kazuno
 		mil = 4
 	}
 }
-
-1523.8.25 = {
+	
+1523.8.25 = { 
 	monarch = {
 		name = "Noriyori"
 		dynasty = "Asari"
 		birth_date = 1480.1.1
-		# death_date = 1550.7.31
+		death_date = 1550.7.31
 		adm = 5
 		dip = 4
 		mil = 4
@@ -53,13 +54,13 @@ capital = 604	# Kazuno
 		mil = 4
 	}
 }
-
-1554.3.1 = {
+	
+1554.3.1 = { 
 	monarch = {
 		name = "Norisuke"
 		dynasty = "Asari"
 		birth_date = 1510.1.1
-		# death_date = 1562.1.1
+		death_date = 1562.1.1
 		adm = 3
 		dip = 3
 		mil = 4

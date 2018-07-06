@@ -4,6 +4,7 @@ primary_culture = kii_c
 religion = shinto
 technology_group = saigoku
 capital = 239	# Hidaka
+mercantilism = 50
 	
 1536.4.7 = {
 	monarch = {
@@ -60,4 +61,18 @@ capital = 239	# Hidaka
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Naoharu"
+		monarch_name = "Naoharu"
+		birth_date = 1540.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

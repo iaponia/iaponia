@@ -7,6 +7,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = ASK
+add_core = ENR
 owner = ASK
 controller = ASK
 
@@ -23,10 +24,14 @@ base_manpower = 3
 
 trade_goods = pilgrimage_site
 
+add_permanent_province_modifier = {
+	name = shinto_holy_site
+	duration = -1
+}
+
 1569.10.10 = {
-    add_core = ODA
-    controller = ODA
-    owner = ODA
+    controller = ENR
+    owner = ENR
 }
 
 1582.6.21 = {
@@ -34,7 +39,7 @@ trade_goods = pilgrimage_site
     controller = AKC
     owner = AKC
 	remove_core = ASK
-	remove_core = ODA
+	remove_core = ENR
 }
 
 1600.9.13 = {

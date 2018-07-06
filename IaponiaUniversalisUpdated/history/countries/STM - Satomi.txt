@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = boso_c
-religion = shinto
+religion = nichirenshu
 technology_group = togoku
 capital = 459	# Asai
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -65,6 +66,16 @@ capital = 459	# Asai
 		adm = 5
 		dip = 5
 		mil = 7
+		leader = {
+			name = "Yoshitaka Satomi"
+			type = general
+			fire = 2
+			shock = 5
+			manuever = 2
+			siege = 3
+			death_date = 1574.6.19
+			personality = unflinching_leader_personality
+		}
 	}
 	heir = {
 		name = "Yoshihiro"
@@ -77,12 +88,23 @@ capital = 459	# Asai
 		dip = 3
 		mil = 3
 	}
+	leader = {
+		name = "Tokitada Masaki"
+		type = admiral
+		fire = 3
+		shock = 3
+		manuever = 2
+		siege = 2
+		death_date = 1576.1.1
+		personality = sea_king_personality
+	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = stern_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = nautical_personality
 	add_ruler_personality = ambitious_personality
 	government = sengoku_monarchy
+	capital = 463
 }
 
 1569.10.10 = { 
@@ -119,6 +141,7 @@ capital = 459	# Asai
 		mil = 3
 	}
 	government = late_sengoku_monarchy
+	capital = 459
 }
 
 1600.9.13 = { 

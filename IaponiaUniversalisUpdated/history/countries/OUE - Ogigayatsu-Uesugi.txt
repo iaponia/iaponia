@@ -1,9 +1,11 @@
 government = shugo_monarchy
-government_rank = 4
+government_rank = 1
 primary_culture = musashi_c
+add_accepted_culture = sagami_c
 religion = shinto
 technology_group = togoku
 capital = 512	# Iruma
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {
@@ -49,6 +51,7 @@ capital = 512	# Iruma
 	add_heir_personality = reckless_personality
 	add_heir_personality = brave_personality
 	add_heir_personality = proud_personality
+	remove_accepted_culture = sagami_c
 }
 
 1523.8.25 = { 
@@ -82,4 +85,21 @@ capital = 512	# Iruma
 	add_ruler_personality = reckless_personality
 	add_ruler_personality = gregarious_personality
 	add_ruler_personality = ambitious_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Tomosada"
+		dynasty = "Uesugi"
+		birth_date = 1525.1.1
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = reckless_personality
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

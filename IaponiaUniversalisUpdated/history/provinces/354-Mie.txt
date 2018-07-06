@@ -47,19 +47,12 @@ trade_goods = pottery
 }
 
 1582.6.21 = {
-    add_core = KOD
-    owner = KOD
-    controller = KOD
+    add_core = TAK
+    owner = TAK
+    controller = TAK
 	remove_core = RKK
 	remove_core = ODA
 	remove_core = SKI
-}
-
-1600.9.13 = {
-	add_core = TAK
-    owner = TAK
-    controller = TAK
-	remove_core = KOD
 }
 
 1615.1.1 = {
@@ -67,5 +60,4 @@ trade_goods = pottery
     owner = TOD
     controller = TOD
 	remove_core = TAK
-	religion = shinto
 }

@@ -1,6 +1,39 @@
-government = kokujin_monarchy
+government = merchant_republic
 government_rank = 1
-primary_culture = biwa_c
+primary_culture = chikuzen_c
 religion = shinto
-technology_group = saigoku
-capital = 334
+technology_group = kyushu
+capital = 64
+mercantilism = 50
+
+1554.3.1 = {
+	monarch = {
+		name = "Kozen"
+		dynasty = "Suetsugu"
+		birth_date = 1520.1.1
+		death_date = 1580.1.1
+		adm = 5
+		dip = 6
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = erudite_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Kozen"
+		dynasty = "Suetsugu"
+		birth_date = 1520.1.1
+		adm = 5
+		dip = 6
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = connected_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = immortal_personality
+}

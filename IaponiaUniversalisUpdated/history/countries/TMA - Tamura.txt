@@ -4,6 +4,7 @@ primary_culture = iwashiro_c
 religion = shinto
 technology_group = tohoku
 capital = 547	# Adachi
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -81,4 +82,19 @@ capital = 547	# Adachi
 		mil = 3
 	}
 	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshiaki"
+		dynasty = "Tamura"
+		birth_date = 1470.1.1
+		death_date = 1561.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

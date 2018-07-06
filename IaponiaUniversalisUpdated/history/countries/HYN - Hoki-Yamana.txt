@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = hoki_c
 religion = shinto
 technology_group = saigoku
 capital = 186	# Kawamura
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {
@@ -51,4 +52,21 @@ capital = 186	# Kawamura
 		mil = 4
 	}
 	government = shugo_daimyo_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Suketoyo"
+		dynasty = "Yamana"
+		birth_date = 1511.1.1
+		adm = 6
+		dip = 5
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = disorganized_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

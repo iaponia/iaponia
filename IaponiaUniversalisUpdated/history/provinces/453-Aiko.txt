@@ -40,9 +40,7 @@ trade_goods = tea
 }
 
 1615.1.1 = {
-	add_core = SMR
-    controller = SMR
-    owner = SMR
+    controller = OKB
+    owner = OKB
 	remove_core = TKG
-	remove_core = OKB
 }

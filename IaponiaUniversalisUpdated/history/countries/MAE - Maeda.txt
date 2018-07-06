@@ -4,6 +4,7 @@ primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
 capital = 371	# Kaito
+mercantilism = 50
 
 1582.6.21 = {
 	monarch = {
@@ -14,7 +15,28 @@ capital = 371	# Kaito
 		adm = 8
 		dip = 6
 		mil = 7
+		leader = {
+			name = "Toshiie Maeda"
+			type = general
+			fire = 3
+			shock = 5
+			manuever = 4
+			siege = 2
+			death_date = 1599.4.27
+			personality = inspirational_leader_personality
+		}
 	}
+	queen = {
+        country_of_origin = MAE
+        name = "Matsu"
+        dynasty = "Maeda" 
+        birth_date = 1547.6.25
+        death_date = 1617.1.1
+        female = yes
+        adm = 6
+        dip = 7
+        mil = 5
+    }
 	heir = {
 		name = "Toshinaga"
 		monarch_name = "Toshinaga"
@@ -35,7 +57,10 @@ capital = 371	# Kaito
 	add_heir_personality = mercantile_personality
 	add_heir_personality = architect_personality
 	add_heir_personality = humble_personality
+	add_queen_personality = erudite_personality
 	government = late_sengoku_monarchy
+	primary_culture = noto_c
+	capital = 377
 }
 
 1600.9.13 = {
@@ -48,6 +73,17 @@ capital = 371	# Kaito
 		dip = 6
 		mil = 4
 	}
+	queen = {
+        country_of_origin = ODA
+        name = "Ei"
+        dynasty = "Oda" 
+        birth_date = 1574.1.1
+        death_date = 1623.3.24
+        female = yes
+        adm = 3
+        dip = 5
+        mil = 2
+    }
 	heir = {
 		name = "Toshitsune"
 		monarch_name = "Toshitsune"
@@ -67,6 +103,7 @@ capital = 371	# Kaito
 	add_heir_personality = gracious_personality
 	add_heir_personality = xenophilic_personality
 	add_heir_personality = artistic_personality
+	primary_culture = kaga_c
 }
 
 1615.1.1 = {
@@ -85,4 +122,5 @@ capital = 371	# Kaito
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	religion = jodoshinshu
 }

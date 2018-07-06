@@ -4,6 +4,7 @@ primary_culture = shimabara_c
 religion = shinto
 technology_group = kyushu
 capital = 89	# Goto
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -88,6 +89,10 @@ capital = 89	# Goto
 		dip = 4
 		mil = 3
 	}
+}
+
+1582.6.21 = {
+	religion = catholic
 }
 
 1600.9.13 = {

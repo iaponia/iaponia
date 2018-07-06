@@ -1,9 +1,11 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = biwa_c
+add_accepted_culture = mino_c
 religion = shinto
 technology_group = saigoku
 capital = 334
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -14,6 +16,35 @@ capital = 334
 		adm = 8
 		dip = 6
 		mil = 4
+		leader = {
+			name = "Mitsunari Ishida"
+			type = general
+			fire = 2
+			shock = 2
+			manuever = 6
+			siege = 0
+			death_date = 1600.11.6
+			personality = local_recruiter_personality
+		}
+	}
+	heir = {
+		name = "Shigeie"
+		dynasty = "Ishida"
+		birth_date = 1583.1.1
+		death_date = 1686.4.30
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+	leader = {
+		name = "Sakon Shima"
+		type = general
+		fire = 5
+		shock = 5
+		manuever = 2
+		siege = 0
+		death_date = 1600.10.21
+		personality = artillery_commander_personality
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = conscientious_personality
@@ -21,4 +52,23 @@ capital = 334
 	add_ruler_personality = upstanding_personality
 	add_ruler_personality = honest_personality
 	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Mitsunari"
+		dynasty = "Ishida"
+		birth_date = 1560.1.1
+		adm = 8
+		dip = 6
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = honest_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	remove_accepted_culture = mino_c
 }

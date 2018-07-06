@@ -4,3 +4,22 @@ primary_culture = mino_c
 religion = shinto
 technology_group = saigoku
 capital = 359
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = ""
+		dynasty = "Takenaka"
+		birth_date = 1544.9.7
+		adm = 4
+		dip = 5
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = honest_personality
+	add_ruler_personality = sickly_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

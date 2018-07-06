@@ -4,13 +4,14 @@ primary_culture = aki_c
 religion = shinto
 technology_group = saigoku
 capital = 125	# Saeki
-
-1467.6.15 = {
+mercantilism = 50
+	
+1467.6.15 = { 
 	monarch = {
 		name = "Mototsuna"
 		dynasty = "Takeda"
 		birth_date = 1441.6.20
-		# death_date = 1505.3.30
+		death_date = 1505.3.30
 		adm = 3
 		dip = 3
 		mil = 5
@@ -34,12 +35,12 @@ capital = 125	# Saeki
 	add_heir_personality = equestrian_personality
 }
 
-1511.9.25 = {
+1511.9.25 = { 
 	monarch = {
 		name = "Motoshige"
 		dynasty = "Takeda"
 		birth_date = 1467.1.1
-		# death_date = 1517.11.5
+		death_date = 1517.11.5
 		adm = 4
 		dip = 4
 		mil = 6
@@ -74,12 +75,12 @@ capital = 125	# Saeki
 	add_heir_personality = centralizer_personality
 }
 
-1523.8.25 = {
+1523.8.25 = { 
 	monarch = {
 		name = "Mitsukazu"
 		dynasty = "Takeda"
 		birth_date = 1503.1.1
-		# death_date = 1540.6.9
+		death_date = 1540.6.9
 		adm = 5
 		dip = 3
 		mil = 6
@@ -117,4 +118,38 @@ capital = 125	# Saeki
 	add_ruler_personality = strong_personality
 	add_ruler_personality = centralizer_personality
 	add_heir_personality = craven_personality
+}
+
+1600.9.13 = {
+	monarch = {
+		name = "Ekei"
+		dynasty = "Ankokuji"
+		birth_date = 1539.1.1
+		death_date = 1600.11.6
+		adm = 4
+		dip = 6
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = cynical_personality
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Motoshige"
+		dynasty = "Takeda"
+		birth_date = 1467.1.1
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = strong_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

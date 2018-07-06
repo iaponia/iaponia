@@ -3,4 +3,45 @@ government_rank = 1
 primary_culture = mino_c
 religion = shinto
 technology_group = saigoku
-capital = 334
+capital = 405
+mercantilism = 50
+
+1600.9.13 = {
+	monarch = {
+		name = "Sadamichi"
+		dynasty = "Inaba"
+		birth_date = 1546.1.1
+		death_date = 1603.10.17
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Norimichi"
+		dynasty = "Inaba"
+		birth_date = 1566.1.1
+		death_date = 1626.12.27
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshimichi"
+		dynasty = "Inaba"
+		birth_date = 1515.1.1
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

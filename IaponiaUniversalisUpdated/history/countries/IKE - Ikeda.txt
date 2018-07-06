@@ -3,9 +3,10 @@ government_rank = 1
 primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
-capital = 260
+capital = 369
+mercantilism = 50
 	
-1582.6.21 = {
+1536.4.7 = {
 	monarch = {
 		name = "Tsuneoki"
 		dynasty = "Ikeda"
@@ -14,7 +15,23 @@ capital = 260
 		adm = 5
 		dip = 5
 		mil = 6
+		leader = {
+			name = "Tsuneoki Ikeda"
+			type = general
+			fire = 3
+			shock = 3
+			manuever = 2
+			siege = 2
+			death_date = 1584.5.18
+		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = conscientious_personality
+}
+
+1582.6.21 = {
 	heir = {
 		name = "Terumasa"
 		monarch_name = "Terumasa"
@@ -35,6 +52,8 @@ capital = 260
 	add_heir_personality = honest_personality
 	add_heir_personality = ambitious_personality
 	government = late_sengoku_monarchy
+	capital = 260
+	primary_culture = sesshu_c
 }
 	
 1600.9.13 = { 
@@ -46,7 +65,27 @@ capital = 260
 		adm = 7
 		dip = 6
 		mil = 5
+		leader = {
+			name = "Terumasa Ikeda"
+			type = general
+			fire = 2
+			shock = 2
+			manuever = 4
+			siege = 0
+			death_date = 1613.3.16
+		}
 	}
+	queen = {
+        country_of_origin = TKG
+        name = "Toku"
+        dynasty = "Tokugawa" 
+        birth_date = 1565.1.1
+        death_date = 1615.3.3
+        female = yes
+        adm = 5
+        dip = 5
+        mil = 4
+    }
 	heir = {
 		name = "Toshitaka"
 		monarch_name = "Toshitaka"
@@ -63,6 +102,9 @@ capital = 260
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = honest_personality
 	add_ruler_personality = ambitious_personality
+	add_queen_personality = cruel_personality
+	primary_culture = mikawa_c
+	capital = 408
 }
 
 1615.1.1 = {
@@ -70,7 +112,6 @@ capital = 260
 		name = "Terumasa"
 		dynasty = "Ikeda"
 		birth_date = 1565.1.31
-		death_date = 1613.3.16
 		adm = 7
 		dip = 6
 		mil = 5
@@ -82,4 +123,6 @@ capital = 260
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	primary_culture = inaba_c
+	capital = 182
 }

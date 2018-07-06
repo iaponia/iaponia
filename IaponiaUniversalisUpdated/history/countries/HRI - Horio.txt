@@ -2,8 +2,9 @@ government = kokujin_monarchy
 government_rank = 1
 primary_culture = totomi_c
 religion = shinto
-technology_group = togoku
+technology_group = saigoku
 capital = 426
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -15,10 +16,38 @@ capital = 426
 		dip = 5
 		mil = 6
 	}
+	heir = {
+		name = "Tadauji"
+		dynasty = "Horio"
+		birth_date = 1578.1.1
+		death_date = 1604.8.4
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = strong_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = gracious_personality
 	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshiharu"
+		dynasty = "Horio"
+		birth_date = 1542.1.1
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

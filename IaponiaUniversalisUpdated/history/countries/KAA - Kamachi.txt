@@ -4,3 +4,22 @@ primary_culture = chikugo_c
 religion = shinto
 technology_group = kyushu
 capital = 59
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Akimori"
+		dynasty = "Kamachi"
+		birth_date = 1520.1.1
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+	government = daimyo_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = immortal_personality 
+}

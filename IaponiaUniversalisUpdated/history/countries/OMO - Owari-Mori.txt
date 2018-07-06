@@ -1,9 +1,11 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = mino_c
+add_accepted_culture = suwa_c
 religion = shinto
 technology_group = saigoku
 capital = 400
+mercantilism = 50
 
 1582.6.21 = {
 	monarch = {
@@ -14,10 +16,66 @@ capital = 400
 		adm = 3
 		dip = 2
 		mil = 6
+		leader = {
+			name = "Nagayoshi Mori"
+			type = general
+			fire = 0
+			shock = 4
+			manuever = 2
+			siege = 2
+			death_date = 1584.5.18
+			personality = frontline_leader_personality
+		}
 	}
+	queen = {
+        country_of_origin = IKE
+        name = "Sen"
+        dynasty = "Ikeda" 
+        birth_date = 1558.1.1
+        death_date = 1618.1.1
+        female = yes
+        adm = 4
+        dip = 3
+        mil = 5
+    }
 	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = reckless_personality
 	add_ruler_personality = swordsman_personality
+	add_queen_personality = innovator_personality
 	government = late_sengoku_monarchy
+}
+
+1600.9.13 = {
+	monarch = {
+		name = "Tadamasa"
+		dynasty = "Mori"
+		birth_date = 1570.1.1
+		death_date = 1634.7.31
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cruel_personality
+	primary_culture = suwa_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshinari"
+		dynasty = "Mori"
+		birth_date = 1523.1.1
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	primary_culture = owari_c
 }

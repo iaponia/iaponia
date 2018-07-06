@@ -2,15 +2,16 @@ government = kokujin_monarchy
 government_rank = 1
 primary_culture = kai_c
 religion = shinto
-technology_group = togoku
+technology_group = saigoku
 capital = 449
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
 		name = "Nagamasa"
 		dynasty = "Asano"
 		birth_date = 1547.1.1
-		# death_date = 1611.5.29
+		death_date = 1611.5.29
 		adm = 6
 		dip = 6
 		mil = 4
@@ -21,4 +22,23 @@ capital = 449
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = centralizer_personality
 	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Nagamasa"
+		dynasty = "Asano"
+		birth_date = 1547.1.1
+		adm = 6
+		dip = 6
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = immortal_personality
+	primary_culture = bishu_c
+	government = daimyo_monarchy
 }

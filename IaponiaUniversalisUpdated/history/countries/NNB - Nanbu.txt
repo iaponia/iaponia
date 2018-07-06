@@ -1,9 +1,74 @@
 government = kokujin_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = rikugo_c
+add_accepted_culture = tsugaru_c
 religion = shinto
 technology_group = tohoku
 capital = 663	# Sannohe
+mercantilism = 50
+
+1467.6.15 = {
+	monarch = {
+		name = "Tokimasa"
+		dynasty = "Nanbu"
+		birth_date = 1410.1.1
+		death_date = 1473.4.2
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+	heir = "Michitsugu"
+		dynasty = "Nanbu"
+		birth_date = 1452.1.1
+		death_date = 1490.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1493.6.9 = {
+	monarch = {
+		name = "Nobutoki"
+		dynasty = "Nanbu"
+		birth_date = 1442.1.1
+		death_date = 1502.1.11
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1511.9.25 = {
+	monarch = {
+		name = "Yasunobu"
+		dynasty = "Nanbu"
+		birth_date = 1493.1.1
+		death_date = 1541.1.1
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = connected_personality
+	add_ruler_personality = legislator_personality
+}
+
+1523.8.25 = {
+	heir = {
+		name = "Harumasa"
+		dynasty = "Nanbu"
+		birth_date = 1517.1.1
+		death_date = 1582.1.27
+		adm = 5
+		dip = 6
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = connected_personality
+	add_ruler_personality = legislator_personality
+	add_heir_personality = brave_personality
+}
 
 1546.5.19 = { 
 	monarch = {
@@ -14,6 +79,16 @@ capital = 663	# Sannohe
 		adm = 5
 		dip = 6
 		mil = 8
+		leader = {
+			name = "Harumasa Nanbu"
+			type = general
+			fire = 2
+			shock = 4
+			manuever = 3
+			siege = 3
+			death_date = 1582.1.27
+			personality = horse_lord_personality
+		}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
@@ -50,6 +125,8 @@ capital = 663	# Sannohe
 	monarch = {
 		name = "Nobunao"
 		dynasty = "Nanbu"
+		birth_date = 1546.4.1
+		death_date = 1599.11.22
 		adm = 6
 		dip = 6
 		mil = 6
@@ -72,6 +149,7 @@ capital = 663	# Sannohe
 	add_ruler_personality = frugal_personality
 	add_heir_personality = centralizer_personality
 	add_heir_personality = legislator_personality
+	remove_accepted_culture = tsugaru_c
 }
 
 1600.9.13 = { 
@@ -87,6 +165,7 @@ capital = 663	# Sannohe
 	clear_scripted_personalities = yes
 	add_ruler_personality = centralizer_personality
 	add_ruler_personality = legislator_personality
+	add_accepted_culture = oshu_c
 	government = late_sengoku_monarchy
 }
 
@@ -104,5 +183,7 @@ capital = 663	# Sannohe
 	add_ruler_personality = pious_personality
 	add_ruler_personality = connected_personality
 	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	remove_accepted_culture = oshu_c
 	government = daimyo_monarchy
 }

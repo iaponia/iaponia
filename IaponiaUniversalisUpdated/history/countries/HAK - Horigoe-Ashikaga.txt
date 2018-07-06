@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 4
+government_rank = 1
 primary_culture = sagami_c
 religion = shinto
 technology_group = togoku
 capital = 434	# Tagata
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -27,4 +28,17 @@ capital = 434	# Tagata
 		dip = 1
 		mil = 1
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Masatomi"
+		dynasty = "Ashikaga"
+		birth_date = 1435.8.6
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

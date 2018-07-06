@@ -2,8 +2,9 @@ government = kokujin_monarchy
 government_rank = 1
 primary_culture = hida_c
 religion = shinto
-technology_group = togoku
+technology_group = saigoku
 capital = 394
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {

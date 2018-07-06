@@ -38,8 +38,8 @@ trade_goods = seaweed
 }
 
 1615.1.1 = {
-	add_core = SNJ
-	controller = SNJ
-    owner = SNJ
+	add_core = IUM
+	controller = IUM
+    owner = IUM
 	remove_core = TOD
 }

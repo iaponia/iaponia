@@ -1,6 +1,35 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = biwa_c
+primary_culture = chikuzen_c
 religion = shinto
-technology_group = saigoku
-capital = 334
+technology_group = kyushu
+capital = 61
+mercantilism = 50
+
+1554.3.1 = {
+	monarch = {
+		name = "Takatane"
+		dynasty = "Harada"
+		birth_date = 1531.1.1
+		death_date = 1584.1.1
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = brave_personality
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Takatane"
+		dynasty = "Harada"
+		birth_date = 1531.1.1
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+	add_ruler_personality = brave_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

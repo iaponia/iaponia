@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = bizen_c
 religion = shinto
 technology_group = saigoku
 capital = 214	# Wake
+mercantilism = 50
 	
 1511.9.25 = {
 	monarch = {
@@ -124,4 +125,5 @@ capital = 214	# Wake
 	add_ruler_personality = connected_personality
 	add_ruler_personality = proud_personality
 	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

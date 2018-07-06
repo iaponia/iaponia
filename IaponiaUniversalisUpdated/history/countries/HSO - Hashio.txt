@@ -4,6 +4,7 @@ primary_culture = yamato_c
 religion = shinto
 technology_group = saigoku
 capital = 312	# Katsuge
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {

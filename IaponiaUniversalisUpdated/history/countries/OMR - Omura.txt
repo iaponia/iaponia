@@ -4,6 +4,7 @@ primary_culture = shimabara_c
 religion = shinto
 technology_group = kyushu
 capital = 48	# Sonoki
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -129,6 +130,7 @@ capital = 48	# Sonoki
 	add_heir_personality = pious_personality
 	add_heir_personality = zealot_personality
 	add_heir_personality = draconian_personality
+	religion = catholic
 }
 	
 1600.9.13 = {

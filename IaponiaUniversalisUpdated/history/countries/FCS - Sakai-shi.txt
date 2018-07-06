@@ -1,6 +1,34 @@
-government = kokujin_monarchy
+government = merchant_republic
 government_rank = 1
-primary_culture = biwa_c
-religion = shinto
+primary_culture = sesshu_c
+religion = nichirenshu
 technology_group = saigoku
-capital = 334
+capital = 387
+mercantilism = 50
+
+1493.6.9 = {
+	monarch = {
+		name = "Merchant Council"
+		adm = 5
+		dip = 6
+		mil = 3
+		regent = yes
+	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Sokyu"
+		dynasty = "Imai"
+		birth_date = 1520.1.1
+		adm = 6
+		dip = 8
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = immortal_personality
+}

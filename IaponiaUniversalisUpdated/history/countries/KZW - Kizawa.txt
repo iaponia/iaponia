@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = yamato_c
+primary_culture = kawachi_c
 religion = shinto
 technology_group = saigoku
 capital = 309	# Heguri
+mercantilism = 50
 	
 1536.4.7 = { 
 	monarch = {
@@ -11,9 +12,31 @@ capital = 309	# Heguri
 		dynasty = "Kizawa"
 		birth_date = 1493.1.1
 		death_date = 1542.4.2
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 4
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = architect_personality
 	government = sengoku_monarchy
+	primary_culture = yamato_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Nagamasa"
+		dynasty = "Kizawa"
+		birth_date = 1493.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	primary_culture = kawachi_c
+	religion = jodoshinshu
 }

@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = mikawa_c
 religion = shinto
 technology_group = togoku
 capital = 412	# Nukata
+mercantilism = 50
 	
 1569.10.10 = { 
 	monarch = {
@@ -18,9 +19,9 @@ capital = 412	# Nukata
 			name = "Ieyasu Tokugawa"
 			type = general
 			fire = 4
-			shock = 3
+			shock = 4
 			manuever = 3
-			siege = 4
+			siege = 3
 			death_date = 1616.5.22
 			personality = artillery_commander_personality
 		}
@@ -30,13 +31,14 @@ capital = 412	# Nukata
 	add_ruler_personality = strong_personality
 	add_ruler_personality = proud_personality
 	add_ruler_personality = draconian_personality
+	add_accepted_culture = totomi_c
 	government = sengoku_monarchy
 	leader = {
 		name = "Tadatsugu Sakai"
 		type = general
 		fire = 3
 		shock = 3
-		manuever = 3
+		manuever = 4
 		siege = 2
 		death_date = 1596.12.17
 		personality = shrewd_quartermaster_personality
@@ -65,11 +67,12 @@ capital = 412	# Nukata
 	add_heir_personality = reckless_personality
 	add_heir_personality = retrograde_personality
 	government = late_sengoku_monarchy
+	add_accepted_culture = sunshu_c
 	leader = {
 		name = "Naomasa Ii"
 		type = general
-		fire = 4
-		shock = 4
+		fire = 5
+		shock = 5
 		manuever = 2
 		siege = 0
 		death_date = 1602.3.24
@@ -79,12 +82,22 @@ capital = 412	# Nukata
 		name = "Tadakatsu Honda"
 		type = general
 		fire = 3
-		shock = 5
-		manuever = 2
+		shock = 6
+		manuever = 3
 		siege = 0
 		death_date = 1610.12.3
 		personality = unflinching_leader_personality
 	}
+}
+
+1600.9.13 = {
+	primary_culture = musashi_c
+	remove_accepted_culture = totomi_c
+	remove_accepted_culture = sunshu_c
+	add_accepted_culture = sagami_c
+	add_accepted_culture = kozuke_c
+	add_accepted_culture = boso_c
+	add_accepted_culture = shimosa_c
 }
 
 1615.1.1 = {
@@ -92,7 +105,6 @@ capital = 412	# Nukata
 		name = "Ieyasu"
 		dynasty = "Tokugawa"
 		birth_date = 1543.1.31
-		death_date = 1616.5.22
 		adm = 7
 		dip = 8
 		mil = 7
@@ -103,5 +115,9 @@ capital = 412	# Nukata
 	add_ruler_personality = proud_personality
 	add_ruler_personality = draconian_personality
 	add_ruler_personality = immortal_personality
+	remove_accepted_culture = sagami_c
+	remove_accepted_culture = kozuke_c
+	remove_accepted_culture = boso_c
+	remove_accepted_culture = shimosa_c
 	government = daimyo_monarchy
 }

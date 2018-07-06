@@ -4,6 +4,7 @@ primary_culture = iwami_c
 religion = shinto
 technology_group = saigoku
 capital = 122	# Mino
+mercantilism = 50
 	
 1493.6.9 = { 
 	monarch = {

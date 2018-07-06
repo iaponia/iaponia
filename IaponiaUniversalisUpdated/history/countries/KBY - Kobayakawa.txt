@@ -4,6 +4,7 @@ primary_culture = aki_c
 religion = shinto
 technology_group = saigoku
 capital = 129
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -51,10 +52,43 @@ capital = 129
 		adm = 2
 		dip = 2
 		mil = 4
+		leader = {
+			name = "Hideaki Kobyakawa"
+			type = general
+			fire = 0
+			shock = 3
+			manuever = 2
+			siege = 2
+			death_date = 1602.12.1
+		}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
 	add_ruler_personality = dishonorable_personality
 	add_ruler_personality = proud_personality
 	government = late_sengoku_monarchy
+	primary_culture = chikuzen_c
+	add_accepted_culture = akizuki_c
+	capital = 66
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Takakage"
+		dynasty = "Kobayakawa"
+		birth_date = 1533.1.1
+		adm = 7
+		dip = 8
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = legislator_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = cautious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	primary_culture = bishu_c
+	remove_accepted_culture = akizuki_c
+	capital = 164
 }

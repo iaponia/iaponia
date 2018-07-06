@@ -1,16 +1,17 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = unpaku_c
 religion = shinto
 technology_group = saigoku
 capital = 195	# Nogi
-
-1467.6.15 = {
+mercantilism = 50
+	
+1467.6.15 = { 
 	monarch = {
 		name = "Kiyosada"
 		dynasty = "Amago"
 		birth_date = 1410.1.1
-		# death_date = 1488.1.4
+		death_date = 1488.1.4
 		adm = 5
 		dip = 4
 		mil = 5
@@ -22,28 +23,28 @@ capital = 195	# Nogi
 		birth_date = 1458.12.25
 		death_date = 1541.11.30
 		claim = 90
-		adm = 7
+		adm = 6
 		dip = 8
-		mil = 7
+		mil = 8
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = stern_personality
 	add_ruler_personality = conscientious_personality
 	add_heir_personality = ambitious_personality
-	add_heir_personality = centralizer_personality
+	add_heir_personality = honest_personality
 	add_heir_personality = gracious_personality
 	add_heir_personality = cunning_personality
 }
-
-1493.6.9 = {
+	
+1493.6.9 = { 
 	monarch = {
 		name = "Tsunehisa"
 		dynasty = "Amago"
 		birth_date = 1458.12.25
-		# death_date = 1541.11.30
-		adm = 7
+		death_date = 1541.11.30
+		adm = 6
 		dip = 8
-		mil = 7
+		mil = 8
 		leader = {
 			name = "Tsunehisa Amago"
 			type = general
@@ -68,7 +69,7 @@ capital = 195	# Nogi
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = ambitious_personality
-	add_ruler_personality = centralizer_personality
+	add_ruler_personality = honest_personality
 	add_ruler_personality = gracious_personality
 	add_ruler_personality = cunning_personality
 	add_heir_personality = artistic_personality
@@ -84,7 +85,7 @@ capital = 195	# Nogi
 		personality = inspirational_leader_personality
 	}
 }
-
+	
 1511.9.25 = {
 	leader = {
 		name = "Kunihisa Amago"
@@ -96,7 +97,7 @@ capital = 195	# Nogi
 		death_date = 1554.11.25
 	}
 }
-
+	
 1523.8.25 = {
 	heir = {
 		name = "Haruhisa"
@@ -111,7 +112,7 @@ capital = 195	# Nogi
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = ambitious_personality
-	add_ruler_personality = centralizer_personality
+	add_ruler_personality = honest_personality
 	add_ruler_personality = gracious_personality
 	add_ruler_personality = cunning_personality
 	add_heir_personality = stern_personality
@@ -136,19 +137,21 @@ capital = 195	# Nogi
 		name = "Tsunemitsu Honjo"
 		type = general
 		fire = 2
-		shock = 5
+		shock = 4
 		manuever = 2
 		siege = 1
 		death_date = 1562.12.1
 	}
+	add_accepted_culture = hoki_c
+	add_accepted_culture = bishu_c
 }
-
-1546.5.19 = {
+	
+1546.5.19 = { 
 	monarch = {
 		name = "Haruhisa"
 		dynasty = "Amago"
 		birth_date = 1514.3.8
-		# death_date = 1561.1.9
+		death_date = 1561.1.9
 		adm = 6
 		dip = 5
 		mil = 7
@@ -195,12 +198,12 @@ capital = 195	# Nogi
 	government = sengoku_monarchy
 }
 
-1569.10.10 = {
+1569.10.10 = { 
 	monarch = {
 		name = "Katsuhisa"
 		dynasty = "Amago"
 		birth_date = 1553.1.1
-		# death_date = 1578.8.6
+		death_date = 1578.8.6
 		adm = 2
 		dip = 4
 		mil = 5
@@ -214,7 +217,7 @@ capital = 195	# Nogi
 		fire = 2
 		shock = 6
 		manuever = 6
-		siege = 4
+		siege = 6
 		death_date = 1578.8.6
 		personality = inspirational_leader_personality
 	}
@@ -225,16 +228,18 @@ capital = 195	# Nogi
 		name = "Tsunehisa"
 		dynasty = "Amago"
 		birth_date = 1458.12.25
-		# death_date = 1541.11.30
-		adm = 7
+		adm = 6
 		dip = 8
-		mil = 7
+		mil = 8
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = ambitious_personality
-	add_ruler_personality = centralizer_personality
+	add_ruler_personality = honest_personality
 	add_ruler_personality = gracious_personality
 	add_ruler_personality = cunning_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	remove_accepted_culture = hoki_c
+	remove_accepted_culture = bishu_c
+	capital = 195
 }

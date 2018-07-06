@@ -8,6 +8,7 @@ discovered_by = ainu
 add_core = SBA
 add_core = KOD
 add_core = MAE
+add_core = YMC
 owner = SBA
 controller = SBA
 
@@ -51,6 +52,7 @@ trade_goods = pottery
 	add_core = KOD
 	remove_core = MAE
 	remove_core = ODA
+	remove_core = YMC
 }
 
 1600.9.13 = {

@@ -4,6 +4,7 @@ primary_culture = shonai_c
 religion = shinto
 technology_group = tohoku
 capital = 571	# Ogachi
+mercantilism = 50
 
 1467.6.15 = {	
 	monarch = {
@@ -101,8 +102,8 @@ capital = 571	# Ogachi
 	leader = {
 		name = "Yasumichi Onodera"
 		type = general
-		fire = 3
-		shock = 3
+		fire = 2
+		shock = 2
 		manuever = 2
 		siege = 0
 		death_date = 1605.1.1
@@ -127,4 +128,5 @@ capital = 571	# Ogachi
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	primary_culture = mogami_c
 }

@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = iga_c
 religion = shinto
 technology_group = saigoku
 capital = 326	# Ahai
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {

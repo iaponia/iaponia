@@ -1,9 +1,11 @@
 government = shugo_monarchy
-government_rank = 4
+government_rank = 1
 primary_culture = owari_c
+add_accepted_culture = totomi_c
 religion = shinto
 technology_group = saigoku
 capital = 367	# Kasugai
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -25,6 +27,15 @@ capital = 367	# Kasugai
 		adm = 6
 		dip = 4
 		mil = 5
+	}
+	leader = {
+		name = "Toshimitsu Kai"
+		type = general
+		fire = 2
+		shock = 2
+		manuever = 0
+		siege = 0
+		death_date = 1583.1.1
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = lenient_personality
@@ -61,6 +72,10 @@ capital = 367	# Kasugai
 	add_ruler_personality = upstanding_personality
 	add_ruler_personality = frugal_personality
 	government = shugo_daimyo_monarchy
+}
+
+1511.9.25 = {
+	primary_culture = totomi_c
 }
 
 1523.8.25 = {

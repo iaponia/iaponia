@@ -4,6 +4,7 @@ primary_culture = bishu_c
 religion = shinto
 technology_group = saigoku
 capital = 202	# Shitsuki
+mercantilism = 50
 	
 1493.6.9 = {
 	monarch = {
@@ -45,6 +46,16 @@ capital = 202	# Shitsuki
 		adm = 4
 		dip = 5
 		mil = 7
+		leader = {
+			name = "Iechika Mimura"
+			type = general
+			fire = 0
+			shock = 5
+			manuever = 3
+			siege = 3
+			death_date = 1566.2.24
+			personality = inspirational_leader_personality
+		}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality

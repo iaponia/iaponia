@@ -4,8 +4,9 @@ primary_culture = kuma_c
 religion = shinto
 technology_group = kyushu
 capital = 23	# Kuma
+mercantilism = 50
 
-1467.6.15 = {
+1467.6.15 = { 
 	monarch = {
 		name = "Nagatsugu"
 		dynasty = "Sagara"
@@ -42,8 +43,8 @@ capital = 23	# Kuma
 	add_ruler_personality = equestrian_personality
 	add_ruler_personality = brave_personality
 }
-
-1493.6.9 = {
+	
+1493.6.9 = { 
 	monarch = {
 		name = "Tametsugu"
 		dynasty = "Sagara"
@@ -66,12 +67,12 @@ capital = 23	# Kuma
 	}
 }
 
-1511.9.25 = {
+1511.9.25 = { 
 	monarch = {
 		name = "Nagatsune"
 		dynasty = "Sagara"
 		birth_date = 1469.1.1
-		death_date = 1518.6.18
+		death_date = 1518.6.18	
 		adm = 5
 		dip = 5
 		mil = 5
@@ -99,8 +100,8 @@ capital = 23	# Kuma
 		mil = 3
 	}
 }
-
-1523.8.25 = {
+	
+1523.8.25 = { 
 	monarch = {
 		name = "Nagamasa"
 		dynasty = "Sagara"
@@ -112,7 +113,7 @@ capital = 23	# Kuma
 	}
 }
 
-1536.4.7 = {
+1536.4.7 = { 
 	monarch = {
 		name = "Yoshishige"
 		dynasty = "Sagara"
@@ -144,7 +145,7 @@ capital = 23	# Kuma
 	add_heir_personality = mercantile_personality
 	government = sengoku_monarchy
 }
-
+	
 1546.5.19 = { 
 	monarch = {
 		name = "Haruhiro"
@@ -155,6 +156,7 @@ capital = 23	# Kuma
 		dip = 6
 		mil = 6
 		}
+	}
 	heir = {
 		name = "Yoshihi"
 		monarch_name = "Yoshihi"
@@ -176,8 +178,8 @@ capital = 23	# Kuma
 	add_heir_personality = centralizer_personality
 	add_heir_personality = ambitious_personality
 }
-
-1569.10.10 = {
+	
+1569.10.10 = { 
 	monarch = {
 		name = "Yoshihi"
 		dynasty = "Sagara"
@@ -205,7 +207,7 @@ capital = 23	# Kuma
 	government = late_sengoku_monarchy
 }
 
-1582.6.21 = {
+1582.6.21 = { 
 	monarch = {
 		name = "Tadafusa"
 		dynasty = "Sagara"
@@ -216,8 +218,8 @@ capital = 23	# Kuma
 		mil = 4
 	}
 }
-
-1600.9.13 = {
+	
+1600.9.13 = { 
 	monarch = {
 		name = "Yorifusa"
 		dynasty = "Sagara"

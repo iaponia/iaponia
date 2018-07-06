@@ -1,6 +1,19 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = biwa_c
+primary_culture = harima_c
 religion = shinto
 technology_group = saigoku
-capital = 334
+capital = 250
+mercantilism = 50
+
+1600.9.13 = {
+	monarch = {
+		name = "Iesada"
+		dynasty = "Kinoshita"
+		birth_date = 1543.1.1
+		death_date = 1603.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

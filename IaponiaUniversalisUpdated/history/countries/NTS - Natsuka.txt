@@ -1,6 +1,23 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = biwa_c
+primary_culture = omi_c
 religion = shinto
 technology_group = saigoku
-capital = 334
+capital = 338
+mercantilism = 50
+
+1600.9.13 = {
+	monarch = {
+		name = "Masaie"
+		dynasty = "Natsuka"
+		birth_date = 1562.1.1
+		death_date = 1600.11.8
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = erudite_personality
+	government = late_sengoku_monarchy
+}

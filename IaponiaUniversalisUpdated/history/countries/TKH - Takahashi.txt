@@ -4,3 +4,23 @@ primary_culture = chikugo_c
 religion = shinto
 technology_group = kyushu
 capital = 83
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Shigetane"
+		dynasty = "Takahashi"
+		birth_date = 1548.1.1
+		death_date = 1586.9.10
+		adm = 4
+		dip = 4
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = immortal_personality
+	primary_culture = chikuzen_c
+}

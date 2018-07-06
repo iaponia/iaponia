@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
 capital = 367	# Kasugai
+mercantilism = 50
 	
 1493.6.9 = { 
 	monarch = {

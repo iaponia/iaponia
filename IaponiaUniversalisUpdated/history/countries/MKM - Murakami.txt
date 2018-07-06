@@ -4,6 +4,7 @@ primary_culture = shinano_c
 religion = shinto
 technology_group = togoku
 capital = 441	# Chiisagata
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -68,6 +69,16 @@ capital = 441	# Chiisagata
 		adm = 4
 		dip = 4
 		mil = 7
+		leader = {
+			name = "Yoshikiyo Murakami"
+			type = general
+			fire = 3
+			shock = 4
+			manuever = 2
+			siege = 0
+			death_date = 1573.2.3
+			personality = unflinching_leader_personality
+		}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = strong_personality

@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = echizen_c
+primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
 capital = 271
+mercantilism = 50
 
 1582.6.21 = {
 	monarch = {
@@ -15,12 +16,34 @@ capital = 271
 		dip = 6
 		mil = 4
 	}
+	heir = {
+		name = "Nagashige"
+		dynasty = "Niwa"
+		birth_date = 1571.5.11
+		death_date = 1637.4.30
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+	queen = {
+		country_of_origin = ODA
+        name = "Katsu"
+        dynasty = "Oda" 
+        birth_date = 1530.1.1
+        death_date = 1590.1.1
+        female = yes
+        adm = 3
+        dip = 3
+        mil = 3
+	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = frugal_personality
 	add_ruler_personality = humble_personality
+	add_heir_personality = architect_personality
 	government = late_sengoku_monarchy
+	primary_culture = echizen_c
 }
 
 1600.9.13 = {
@@ -36,4 +59,23 @@ capital = 271
 	clear_scripted_personalities = yes
 	add_ruler_personality = architect_personality
 	add_ruler_personality = honorable_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Nagahide"
+		dynasty = "Niwa"
+		birth_date = 1535.10.16
+		adm = 7
+		dip = 6
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = frugal_personality
+	add_ruler_personality = humble_personality
+	add_ruler_personality = immortal_personality
+	religion = jodoshinshu
+	government = daimyo_monarchy
 }

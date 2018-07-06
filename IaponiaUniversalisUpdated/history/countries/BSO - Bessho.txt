@@ -4,6 +4,7 @@ primary_culture = harima_c
 religion = shinto
 technology_group = saigoku
 capital = 256	# Mino
+mercantilism = 50
 	
 1523.8.25 = { 
 	monarch = {
@@ -71,6 +72,16 @@ capital = 256	# Mino
 		adm = 4
 		dip = 4
 		mil = 7
+		leader = {
+			name = "Nagaharu Bessho"
+			type = general
+			fire = 2
+			shock = 4
+			manuever = 2
+			siege = 2
+			death_date = 1580.2.2
+			personality = inspirational_leader_personality
+		}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality

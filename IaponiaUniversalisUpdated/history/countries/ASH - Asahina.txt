@@ -1,6 +1,24 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = sunshu_c
+primary_culture = totomi_c
 religion = shinto
 technology_group = togoku
-capital = 427	# Udo
+capital = 415
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Yasutomo"
+		dynasty = "Asahina"
+		birth_date = 1538.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = honorable_personality
+	primary_culture = sunshu_c
+	religion = nichirenshu
+}

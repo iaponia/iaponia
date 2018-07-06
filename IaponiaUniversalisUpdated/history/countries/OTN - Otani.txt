@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = echizen_c
+primary_culture = omi_c
 religion = shinto
 technology_group = saigoku
 capital = 391
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -14,6 +15,25 @@ capital = 391
 		adm = 4
 		dip = 5
 		mil = 7
+		leader = {
+			name = "Yoshitsugu Otani"
+			type = general
+			fire = 5
+			shock = 5
+			manuever = 3
+			siege = 2
+			death_date = 1600.10.21
+			personality = skilled_tactician_personality
+		}
+	}
+	heir = {
+		name = "Yoshiharu"
+		dynasty = "Otani"
+		birth_date = 1581.1.1
+		death_date = 1614.1.1
+		adm = 2
+		dip = 3
+		mil = 5
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = cunning_personality
@@ -21,4 +41,5 @@ capital = 391
 	add_ruler_personality = connected_personality
 	add_ruler_personality = sickly_personality
 	government = late_sengoku_monarchy
+	primary_culture = echizen_c
 }

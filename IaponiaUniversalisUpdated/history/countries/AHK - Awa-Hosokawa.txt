@@ -1,23 +1,21 @@
 government = shugo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = awa_c
 religion = shinto
 technology_group = saigoku
 capital = 153	# Itano
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
-		name = "Shigeyuki"
+		name = "Shigeyuki" 
 		dynasty = "Hosokawa"
 		birth_date = 1434.1.1
-		# death_date = 1511.10.3
+		death_date = 1511.10.3
 		adm = 3
 		dip = 4
 		mil = 3
 	}
-}
-
-1467.6.15 = {
 	heir = {
 		name = "Masayuki"
 		monarch_name = "Masayuki"
@@ -33,17 +31,14 @@ capital = 153	# Itano
 
 1493.6.9 = {
 	monarch = {
-		name = "Yoshiharu"
+		name = "Yoshiharu" 
 		dynasty = "Hosokawa"
 		birth_date = 1461.1.1
-		# death_date = 1497.1.1
+		death_date = 1497.1.1
 		adm = 3
 		dip = 4
 		mil = 3
 	}
-}
-
-1493.6.9 = {
 	heir = {
 		name = "Yukimochi"
 		monarch_name = "Yukimochi"

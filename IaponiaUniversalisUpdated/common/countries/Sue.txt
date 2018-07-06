@@ -73,8 +73,8 @@ leader_names = {
 	Iida Iida Iida Iida Iida Toida Toida Toida Toida Toida
 	Reizei Reizei Reizei Reizei Reizei Amano Amano Amano Amano Amano
 	Niho Niho Niho Niho Niho Hironaka Hironaka Hironaka Hironaka Hironaka
-	Era Era Era Era Era Miyagawa Miyagawa Miyagawa Miyagawa Miyagawa
-	Nogami Nogami Nogami Nogami Nogami Sada Sada Sada Sada Sada
+	Era Era Era Era Era Miyagawa Miyagawa Miyagawa Miyagawa Miyagawa 
+	Nogami Nogami Nogami Nogami Nogami Sada Sada Sada Sada Sada 
 	Kii Kii Kii Kii Kii Kii Aso Aso Aso Aso Aso
 	Yoshimi Yoshimi Yoshimi Yoshimi Yoshimi Matsuda Matsuda Matsuda Matsuda Matsuda
 	Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kobayakawa Kikkawa Kikkawa Kikkawa Kikkawa Kikkawa
@@ -85,10 +85,10 @@ leader_names = {
 ship_names = {
 	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
 	"Hitachi Maru"
-	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

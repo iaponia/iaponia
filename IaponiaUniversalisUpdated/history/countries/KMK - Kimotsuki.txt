@@ -4,6 +4,7 @@ primary_culture = sasshu_c
 religion = shinto
 technology_group = kyushu
 capital = 17	# Kimotsuki
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {
@@ -70,9 +71,9 @@ capital = 17	# Kimotsuki
 		dynasty = "Kimotsuki"
 		birth_date = 1511.1.1
 		death_date = 1566.12.26
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 5
+		mil = 5
 	}
 	heir = {
 		name = "Yoshikane"
@@ -85,4 +86,23 @@ capital = 17	# Kimotsuki
 		dip = 3
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = ambitious_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Kanetsugu"
+		dynasty = "Kimotsuki"
+		birth_date = 1511.1.1
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

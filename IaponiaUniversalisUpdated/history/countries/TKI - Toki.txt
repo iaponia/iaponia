@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = mino_c
 religion = shinto
 technology_group = saigoku
 capital = 362	# Atsumi
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {
@@ -14,6 +15,15 @@ capital = 362	# Atsumi
 		adm = 6
 		dip = 6
 		mil = 6
+		leader = {
+			name = "Shigeyori Toki"
+			type = general
+			fire = 3
+			shock = 3
+			manuever = 2
+			siege = 2
+			death_date = 1479.5.5
+		}
 	}
 	heir = {
 		name = "Masafusa"
@@ -87,7 +97,6 @@ capital = 362	# Atsumi
 		name = "Shigeyori"
 		dynasty = "Toki"
 		birth_date = 1442.1.1
-		death_date = 1479.5.5
 		adm = 6
 		dip = 6
 		mil = 6

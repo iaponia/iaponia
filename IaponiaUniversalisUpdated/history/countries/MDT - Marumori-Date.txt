@@ -4,6 +4,7 @@ primary_culture = okitama_c
 religion = shinto
 technology_group = tohoku
 capital = 579
+mercantilism = 50
 
 1546.5.19 = {
 	monarch = {

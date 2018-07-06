@@ -1,9 +1,11 @@
 government = shugo_monarchy
-government_rank = 5
+government_rank = 1
 primary_culture = kozuke_c
+add_accepted_culture = musashi_c
 religion = shinto
 technology_group = togoku
 capital = 501	# Tako
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -82,6 +84,10 @@ capital = 501	# Tako
 	add_ruler_personality = disorganized_personality
 }
 
+1554.3.1 = {
+	remove_accepted_culture = musashi_c
+}
+
 1569.10.10 = {
 	monarch = {
 		name = "Masatora"
@@ -94,9 +100,9 @@ capital = 501	# Tako
 		leader = {
 			name = "Masatora Uesugi"
 			type = general
-			fire = 0
+			fire = 2
 			shock = 6
-			manuever = 3
+			manuever = 5
 			siege = 3
 			death_date = 1578.4.30
 			personality = inspirational_leader_personality
@@ -107,10 +113,14 @@ capital = 501	# Tako
 	add_ruler_personality = pious_personality
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = drunk_personality
+	capital = 553
+	primary_culture = esshu_c
+	add_accepted_culture = iwafune_c
+	add_accepted_culture = shinano_c
 	leader = {
 		name = "Kageie Kakizaki"
 		type = general
-		fire = 0
+		fire = 1
 		shock = 5
 		manuever = 3
 		siege = 2
@@ -123,7 +133,7 @@ capital = 501	# Tako
 		fire = 3
 		shock = 3
 		manuever = 3
-		siege = 0
+		siege = 1
 		death_date = 1604.7.22
 		personality = frontline_leader_personality
 	}
@@ -170,7 +180,7 @@ capital = 501	# Tako
 	leader = {
 		name = "Kanetsugu Naoe"
 		type = general
-		fire = 3
+		fire = 4
 		shock = 3
 		manuever = 4
 		siege = 1
@@ -196,4 +206,7 @@ capital = 501	# Tako
 	add_ruler_personality = drunk_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	primary_culture = kozuke_c
+	remove_accepted_culture = iwafune_c
+	remove_accepted_culture = shinano_c
 }

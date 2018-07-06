@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = akita_c
 religion = shinto
 technology_group = tohoku
 capital = 574	# Akita
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {

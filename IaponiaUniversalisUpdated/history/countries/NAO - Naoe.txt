@@ -3,4 +3,23 @@ government_rank = 1
 primary_culture = esshu_c
 religion = shinto
 technology_group = togoku
-capital = 553
+capital = 557
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Kanetsugu"
+		dynasty = "Naoe"
+		birth_date = 1559.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

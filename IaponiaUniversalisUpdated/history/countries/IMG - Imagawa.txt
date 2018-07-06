@@ -1,9 +1,10 @@
 government = shugo_daimyo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = sunshu_c
 religion = shinto
 technology_group = togoku
 capital = 427	# Udo
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -25,10 +26,22 @@ capital = 427	# Udo
 			personality = rapid_mobilizer_personality
 		}
 	}
+	queen = {
+        country_of_origin = HJO
+        name = "Kitagawa"
+        dynasty = "Ise" 
+        birth_date = 1445.1.1
+        death_date = 1529.7.11
+        female = yes
+        adm = 5
+        dip = 5
+        mil = 3
+    }
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
 	add_ruler_personality = equestrian_personality
 	add_ruler_personality = ambitious_personality
+	add_queen_personality = gracious_personality
 }
 	
 1493.6.9 = { 
@@ -41,11 +54,23 @@ capital = 427	# Udo
 		dip = 7
 		mil = 7
 	}
+	queen = {
+        country_of_origin = IMG
+        name = "Jukeini"
+        dynasty = "Nakamikado" 
+        birth_date = 1490.1.1
+        death_date = 1568.4.11
+        female = yes
+        adm = 7
+        dip = 6
+        mil = 4
+    }
 	clear_scripted_personalities = yes
 	add_ruler_personality = legislator_personality
 	add_ruler_personality = architect_personality
 	add_ruler_personality = artistic_personality
 	add_ruler_personality = ambitious_personality
+	add_queen_personality = legislator_personality
 }
 
 1523.8.25 = {
@@ -60,6 +85,7 @@ capital = 427	# Udo
 		dip = 3
 		mil = 2
 	}
+	add_accepted_culture = totomi_c
 }
 	
 1536.4.7 = { 
@@ -72,6 +98,17 @@ capital = 427	# Udo
 		dip = 8
 		mil = 7
 	}
+	queen = {
+        country_of_origin = HJO
+        name = "Jokeiin"
+        dynasty = "Takeda" 
+        birth_date = 1519.1.1
+        death_date = 1550.7.5
+        female = yes
+        adm = 3
+        dip = 3
+        mil = 3
+    }
 	clear_scripted_personalities = yes
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = eloquent_personality
@@ -102,6 +139,28 @@ capital = 427	# Udo
 		dip = 2
 		mil = 1
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = elitist_personality
+	add_heir_personality = connected_personality
+	add_heir_personality = artistic_personality
+	add_heir_personality = profligate_personality
+	add_heir_personality = craven_personality
+	add_accepted_culture = mikawa_c
+}
+
+1554.3.1 = {
+	leader = {
+		name = "Yasutomo Asahina"
+		type = general
+		fire = 1
+		shock = 4
+		manuever = 2
+		siege = 1
+		death_date = 1582.1.1
+	}
 }
 	
 1569.10.10 = { 
@@ -109,11 +168,30 @@ capital = 427	# Udo
 		name = "Ujizane"
 		dynasty = "Imagawa"
 		birth_date = 1538.1.1
-		death_date = 1615.1.27
+		death_date = 1614.1.27
 		adm = 2
 		dip = 2
 		mil = 1
 	}
+	queen = {
+        country_of_origin = HJO
+        name = "Hayakawa"
+        dynasty = "Hojo" 
+        birth_date = 1540.1.1
+        death_date = 1613.4.5
+        female = yes
+        adm = 6
+        dip = 6
+        mil = 4
+    }
+	clear_scripted_personalities = yes
+	add_ruler_personality = connected_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = profligate_personality
+	add_ruler_personality = craven_personality
+	add_queen_personality = honorable_personality
+	remove_accepted_culture = totomi_c
+	remove_accepted_culture = mikawa_c
 }
 
 1615.1.1 = {

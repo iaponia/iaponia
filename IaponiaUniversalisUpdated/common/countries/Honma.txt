@@ -31,7 +31,7 @@ monarch_names = { #Most of Monarchs ware named with "kore"
 	"Ariyasu #0" = 50
 	"Yasutaka #0" = 50
 	"Noriyasu #0" = 50
-	"Yasutoshi #0" = 50
+	"Yasutoshi #0" = 50	
 	"Toku #0" = -5
 	"Sen #0" = -5
 	"Tama #0" = -5
@@ -72,20 +72,20 @@ leader_names = {
 	Shibata Shibata Shibata Shibata Shibata Kamiizumi Kamiizumi Kamiizumi Kamiizumi Kamiizumi
 	Irobe Irobe Irobe Irobe Irobe Higuchi Higuchi Higuchi Higuchi Higuchi
 	Takanashi Takanashi Takanashi Takanashi Takanashi Murakami Murakami Murakami Murakami Murakami
-	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Jinbo Jinbo Jinbo Jinbo Jinbo
+	Hatakeyama Hatakeyama Hatakeyama Hatakeyama Hatakeyama Jinbo Jinbo Jinbo Jinbo Jinbo 
 	Shiina Shiina Shiina Shiina Shiina Nagano Nagano Nagano Nagano Nagano
 	Numata Numata Numata Numata Numata Wada Wada Wada Wada Wada
-	Obata Obata Obata Obata Obata Yokoze Yokoze Yokoze Yokoze Yokoze
+	Obata Obata Obata Obata Obata Yokoze Yokoze Yokoze Yokoze Yokoze 
 
 }
 
 ship_names = {
 	"Mutsu Maru" "Dewa Maru" "Shimotsuke Maru"
 	"Hitachi Maru"
-	"Kazusa Maru" "Shimousa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
+	"Kazusa Maru" "Shimousa Maru" "Awa Maru" "Musashi Maru" "Kozuke Maru" "Izu Maru" "Echigo Maru" "Ettchu Maru"
 	"Kaga Maru" "Noto Maru" "Suruga Maru" "Totomi Maru" "Joshu Maru" "Enshu Maru" "Bushu Maru" "Esshu Maru"
 	"Mikawa Maru" "Ushu Maru" "Soushu Maru" "Boushu Maru" "Kai Maru" "Shinshu Maru" "Koshu Maru"
-	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru"
+	"Owari Maru" "Bishu Maru" "Mino Maru" "Echizen Maru" "Ise Maru" "Shima Maru" "Omi Maru" 
 	"Goushu Maru" "Yamashiro Maru" "Wakasa Maru" "Tanba Maru" "Tango Maru" "Yamato Maru" "Kii Maru"
 	"Kishu Maru" "Iga Maru" "Awa Maru" "Sanuki Maru" "Tosa Maru"
 	"Iyo Maru" "Harima Maru" "Banshu Maru"

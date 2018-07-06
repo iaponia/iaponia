@@ -4,6 +4,7 @@ primary_culture = tsugaru_c
 religion = shinto
 technology_group = tohoku
 capital = 661	# Kita-Tsugaru
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {

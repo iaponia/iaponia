@@ -1,6 +1,25 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = choshu_c
-religion = shinto
+religion = catholic
 technology_group = saigoku
 capital = 108
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Okimori"
+		dynasty = "Naito"
+		birth_date = 1495.1.1
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = pious_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = gracious_personality 
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

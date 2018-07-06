@@ -4,6 +4,7 @@ primary_culture = awa_c
 religion = shinto
 technology_group = saigoku
 capital = 147
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -11,9 +12,35 @@ capital = 147
 		dynasty = "Ikoma"
 		birth_date = 1526.1.1
 		death_date = 1603.3.25
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Kazumasa"
+		dynasty = "Ikoma"
+		birth_date = 1555.1.1
+		death_date = 1610.5.11
+		claim = 90
 		adm = 4
 		dip = 4
 		mil = 4
 	}
 	government = late_sengoku_monarchy
+	add_ruler_personality = conscientious_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Chikamasa"
+		dynasty = "Ikoma"
+		birth_date = 1526.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	government = daimyo_monarchy
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = immortal_personality
+	capital = 142
 }

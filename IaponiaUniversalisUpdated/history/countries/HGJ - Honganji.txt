@@ -1,8 +1,12 @@
 government = theocratic_government
-primary_culture = kaga_c
-religion = mahayana
+primary_culture = sesshu_c
+add_accepted_culture = kaga_c
+add_accepted_culture = seishu_c
+religion = jodoshinshu
 technology_group = saigoku
-capital = 381	# Nomi
+capital = 684
+mercantilism = 50
+government_rank = 1
 	
 1467.6.15 = { 
 	monarch = {
@@ -25,6 +29,10 @@ capital = 381	# Nomi
 		dip = 4
 		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = connected_personality
 }
 	
 1511.9.25 = { 
@@ -49,6 +57,9 @@ capital = 381	# Nomi
 		dip = 6
 		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = connected_personality
 }
 
 1546.5.19 = {
@@ -64,6 +75,8 @@ capital = 381	# Nomi
 		mil = 6
 	}
 	clear_scripted_personalities = yes
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = connected_personality
 	add_heir_personality = innovator_personality
 	add_heir_personality = architect_personality
 	add_heir_personality = gregarious_personality
@@ -79,6 +92,16 @@ capital = 381	# Nomi
 		adm = 7
 		dip = 8
 		mil = 6
+	}
+	leader = {
+		name = "Nakayuki Shimozuma"
+		type = general
+		fire = 6
+		shock = 4
+		manuever = 2
+		siege = 0
+		death_date = 1626.1.1
+		personality = skilled_marksman_personality
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = innovator_personality
@@ -102,4 +125,6 @@ capital = 381	# Nomi
 	add_ruler_personality = gregarious_personality
 	add_ruler_personality = zealot_personality
 	add_ruler_personality = immortal_personality
+	remove_accepted_culture = kaga_c
+	remove_accepted_culture = seishu_c
 }

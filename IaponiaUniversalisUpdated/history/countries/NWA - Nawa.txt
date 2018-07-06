@@ -1,6 +1,75 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = biwa_c
+primary_culture = kuma_c
 religion = shinto
-technology_group = saigoku
-capital = 334
+technology_group = kyushu
+capital = 25
+mercantilism = 50
+
+1467.6.15 = {
+	monarch = {
+		name = "Akitada"
+		dynasty = "Nawa"
+		birth_date = 1450.1.1
+		death_date = 1520.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1493.6.9 = {
+	heir = {
+		name = "Takeaki"
+		dynasty = "Nawa"
+		birth_date = 1480.1.1
+		death_date = 1546.7.9
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = mercantile_personality
+}
+
+1523.8.25 = {
+	monarch = {
+		name = "Takeaki"
+		dynasty = "Nawa"
+		birth_date = 1480.1.1
+		death_date = 1546.7.9
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Yukiaki"
+		dynasty = "Nawa"
+		birth_date = 1510.1.1
+		death_date = 1562.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Takeaki"
+		dynasty = "Nawa"
+		birth_date = 1480.1.1
+		death_date = 1546.7.9
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	government = daimyo_monarchy
+	primary_culture = sasshu_c
+}

@@ -4,6 +4,7 @@ primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
 capital = 370	# Aichi
+mercantilism = 50
 
 1493.6.9 = {
 	monarch = {
@@ -131,7 +132,7 @@ capital = 370	# Aichi
 		type = general
 		fire = 0
 		shock = 6
-		manuever = 2
+		manuever = 4
 		siege = 2
 		death_date = 1583.6.14
 		personality = horse_lord_personality
@@ -168,4 +169,22 @@ capital = 370	# Aichi
 		dip = 3
 		mil = 4
 	}
+	queen = {
+		country_of_origin = KBK
+		name = "Chiyome"
+		dynasty = "Kitabatake"
+		birth_date = 1560.1.1
+		death_date = 1600.1.1
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	religion = catholic
+	clear_scripted_personalities = yes
+	add_ruler_personality = cautious_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = lenient_personality
+	government = late_sengoku_monarchy
 }

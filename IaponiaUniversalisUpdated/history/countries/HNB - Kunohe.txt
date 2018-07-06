@@ -1,68 +1,23 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = rikugo_c
 religion = shinto
 technology_group = tohoku
-capital = 606	# Nukanobu
+capital = 663
+mercantilism = 50
 	
-1467.6.15 = { 
+1615.1.1 = {
 	monarch = {
-		name = "Nobunaga"
-		dynasty = "Nanbu"
-		birth_date = 1435.1.1
-		death_date = 1490.1.1
-		adm = 3
-		dip = 3
+		name = "Nobuchika"
+		dynasty = "Kita"
+		birth_date = 1523.1.1
+		death_date = 1613.10.1
+		adm = 6
+		dip = 5
 		mil = 3
 	}
-	heir = {
-		name = "Haruyoshi"
-		monarch_name = "Haruyoshi"
-		dynasty = "Nanbu"
-		birth_date = 1460.1.1
-		death_date = 1520.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1493.6.9 = { 
-	monarch = {
-		name = "Haruyoshi"
-		dynasty = "Nanbu"
-		birth_date = 1460.1.1
-		death_date = 1520.1.1
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-
-1511.9.25 = {
-	heir = {
-		name = "Yoshitsugu"
-		monarch_name = "Yoshitsugu"
-		dynasty = "Nanbu"
-		birth_date = 1510.1.1
-		death_date = 1539.1.1
-		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-}
-	
-1523.8.25 = { 
-	monarch = {
-		name = "Yoshitsugu"
-		dynasty = "Nanbu"
-		birth_date = 1510.1.1
-		death_date = 1539.1.1
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-	government = sengoku_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = immortal_personality
+	primary_culture = oshu_c
 }

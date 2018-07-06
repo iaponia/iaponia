@@ -8,6 +8,7 @@ discovered_by = ainu
 
 add_core = HSK
 add_core = HTN
+add_core = MNA
 owner = HSK
 controller = HSK
 
@@ -39,6 +40,7 @@ trade_goods = lacquerware
 	owner = HTN
     controller = HTN
 	remove_core = MYI
+	remove_core = MNA
 }
 
 1582.6.21 = {

@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = mikawa_c
-religion = shinto
-technology_group = togoku
+religion = catholic
+technology_group = saigoku
 capital = 412
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -21,4 +22,22 @@ capital = 412
 	add_ruler_personality = pious_personality
 	add_ruler_personality = gracious_personality
 	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshimasa"
+		dynasty = "Tanaka"
+		birth_date = 1548.1.1
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

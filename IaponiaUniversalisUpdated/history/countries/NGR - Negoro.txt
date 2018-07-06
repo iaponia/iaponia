@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = kii_c
-religion = shinto
+religion = jodoshinshu
 technology_group = saigoku
 capital = 238	# Naga
+mercantilism = 50
 
 1523.8.25 = {
 	monarch = {
@@ -15,7 +16,7 @@ capital = 238	# Naga
 		dip = 5
 		mil = 6
 	}
-	government = sengoku_monarch
+	government = sengoku_monarchy
 	clear_scripted_personalities = yes
 	add_ruler_personality = erudite_personality
 	add_ruler_personality = innovator_personality

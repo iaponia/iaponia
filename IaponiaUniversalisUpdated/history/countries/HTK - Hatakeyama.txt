@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 4
-primary_culture = kawachi_c
+government_rank = 1
+primary_culture = kii_c
 religion = shinto
 technology_group = saigoku
 capital = 306	# Furuichi
+mercantilism = 50
 
 1546.5.19 = {
 	monarch = {
@@ -14,6 +15,16 @@ capital = 306	# Furuichi
 		adm = 5
 		dip = 5
 		mil = 6
+		leader = {
+			name = "Takamasa Hatakeyama"
+			type = general
+			fire = 3
+			shock = 3
+			manuever = 3
+			siege = 3
+			death_date = 1576.11.5
+			personality = skilled_marksman_personality
+		}
 	}
 	heir = {
 		name = "Akitaka" 
@@ -30,6 +41,8 @@ capital = 306	# Furuichi
 	add_ruler_personality = brave_personality
 	add_ruler_personality = strong_personality
 	add_ruler_personality = upstanding_personality
+	add_ruler_personality = honest_personality
+	add_accepted_culture = kawachi_c
 	government = sengoku_monarchy
 }
 
@@ -46,6 +59,9 @@ capital = 306	# Furuichi
 	add_ruler_personality = brave_personality
 	add_ruler_personality = strong_personality
 	add_ruler_personality = upstanding_personality
+	add_ruler_personality = honest_personality
 	add_ruler_personality = immortal_personality
+	primary_culture = kawachi_c
 	government = daimyo_monarchy
+	religion = catholic
 }

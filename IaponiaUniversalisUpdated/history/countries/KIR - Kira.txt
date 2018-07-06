@@ -4,3 +4,47 @@ primary_culture = mikawa_c
 religion = shinto
 technology_group = togoku
 capital = 374	# Hazu
+mercantilism = 50
+
+1493.6.9 = {
+	monarch = {
+		name = "Yoshinobu"
+		dynasty = "Kira"
+		birth_date = 1450.1.1
+		death_date = 1520.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1511.9.25 = {
+	monarch = {
+		name = "Yoshitaka"
+		dynasty = "Kira"
+		birth_date = 1503.1.1
+		death_date = 1540.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Light"
+		dynasty = "Yagami"
+		birth_date = 1500.1.1
+		adm = 7
+		dip = 8
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = eloquent_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = arbitrary_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	religion = jodoshinshu
+}

@@ -4,6 +4,7 @@ primary_culture = chikuzen_c
 religion = shinto
 technology_group = kyushu
 capital = 59
+mercantilism = 50
 
 1523.8.25 = {
 	monarch = {
@@ -27,11 +28,64 @@ capital = 59
 		adm = 5
 		dip = 5
 		mil = 8
+		leader = {
+			name = "Muneshige Tachibana"
+			type = general
+			fire = 5
+			shock = 5
+			manuever = 4
+			siege = 2
+			death_date = 1643.11.15
+			personality = unflinching_leader_personality
+		}
+	}
+	queen = {
+        country_of_origin = TCB
+        name = "Ginchiyo"
+        dynasty = "Tachibana" 
+        birth_date = 1569.9.23
+        death_date = 1602.11.30
+        female = yes
+        adm = 4
+        dip = 4
+        mil = 7
+    }
+	leader = {
+		name = "Ginchiyo Tachibana"
+		type = general
+		female = yes
+		fire = 4
+		shock = 4
+		manuever = 3
+		siege = 1
+		death_date = 1602.11.30
+		personality = inspirational_leader_personality
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = stern_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = humble_personality
+	add_queen_personality = stern_personality
 	government = late_sengoku_monarchy
+	primary_culture = chikugo_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Akitsura"
+		dynasty = "Tachibana"
+		birth_date = 1513.4.22
+		adm = 5
+		dip = 5
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	primary_culture = chikuzen_c
 }

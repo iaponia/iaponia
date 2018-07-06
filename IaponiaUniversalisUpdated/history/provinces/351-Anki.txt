@@ -66,5 +66,4 @@ trade_goods = rice
     owner = TOD
     controller = TOD
 	remove_core = TAK
-	religion = shinto
 }

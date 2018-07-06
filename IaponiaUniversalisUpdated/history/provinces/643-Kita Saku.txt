@@ -6,6 +6,7 @@ discovered_by = tohoku
 discovered_by = ainu
 
 add_core = UNO
+add_core = SNA
 owner = UNO
 controller = UNO
 
@@ -32,6 +33,7 @@ trade_goods = grain
     owner = TAK
     controller = TAK
 	remove_core = TKD
+	remove_core = SNA
 }
 
 1600.9.13 = {

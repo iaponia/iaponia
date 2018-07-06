@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = shimanto_c
 religion = shinto
 technology_group = saigoku
 capital = 107	# Hata
+mercantilism = 50
 	
 1467.6.15 = {
 	monarch = {
@@ -61,7 +62,27 @@ capital = 107	# Hata
 		adm = 4
 		dip = 4
 		mil = 6
+		leader = {
+			name = "Fusamoto Ichijo"
+			type = general
+			fire = 1
+			shock = 3
+			manuever = 2
+			siege = 2
+			death_date = 1549.5.9
+		}
 	}
+	queen = {
+        country_of_origin = OTM
+        name = "Haruko"
+        dynasty = "Otomo" 
+        birth_date = 1525.1.1
+        death_date = 1580.1.1
+        female = yes
+        adm = 4
+        dip = 5
+        mil = 3
+    }
 	heir = {
 		name = "Kanesada"
 		monarch_name = "Kanesada"
@@ -93,10 +114,33 @@ capital = 107	# Hata
 		dip = 1
 		mil = 3
 	}
+	leader = {
+		name = "Sosan Doi"
+		type = general
+		fire = 3
+		shock = 3
+		manuever = 0
+		siege = 1
+		death_date = 1572.1.1
+	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = drunk_personality
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = profligate_personality
+}
+
+1569.10.10 = {
+	queen = {
+        country_of_origin = OTM
+        name = "Ichi"
+        dynasty = "Otomo" 
+        birth_date = 1540.1.1
+        death_date = 1585.1.1
+        female = yes
+        adm = 3
+        dip = 4
+        mil = 1
+    }
 }
 
 1615.1.1 = {
@@ -114,5 +158,6 @@ capital = 107	# Hata
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = connected_personality
 	add_ruler_personality = immortal_personality
+	religion = catholic
 	government = daimyo_monarchy
 }

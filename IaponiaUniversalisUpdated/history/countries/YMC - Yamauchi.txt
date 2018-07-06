@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = sunshu_c
+primary_culture = owari_c
 religion = shinto
-technology_group = togoku
+technology_group = saigoku
 capital = 427
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -14,11 +15,63 @@ capital = 427
 		adm = 6
 		dip = 5
 		mil = 6
+		leader = {
+			name = "Mitsuhide Akechi"
+			type = general
+			fire = 4
+			shock = 3
+			manuever = 3
+			siege = 0
+			death_date = 1605.11.1
+			personality = skilled_marksman_personality
+		}
+	}
+	queen = {
+        country_of_origin = YMC
+        name = "Chiyo"
+        dynasty = "Yamauchi" 
+        birth_date = 1557.1.1
+        death_date = 1617.12.31
+        female = yes
+        adm = 7
+        dip = 6
+        mil = 3
+    }
+	heir = {
+		name = "Tadayoshi"
+		dynasty = "Yamauchi"
+		birth_date = 1592.1.1
+		death_date = 1665.11.24
+		adm = 7
+		dip = 5
+		mil = 4
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = cautious_personality
 	add_ruler_personality = humble_personality
 	add_ruler_personality = centralizer_personality
+	add_queen_personality = frugal_personality
+	add_heir_personality = mercantile_personality
 	government = late_sengoku_monarchy
+	primary_culture = totomi_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Kazutoyo"
+		dynasty = "Yamauchi"
+		birth_date = 1546.1.1
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = cautious_personality
+	add_ruler_personality = humble_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	primary_culture = tosa_c
 }

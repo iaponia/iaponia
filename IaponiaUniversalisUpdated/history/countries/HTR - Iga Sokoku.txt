@@ -1,6 +1,36 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = iga_c
-religion = shinto
+religion = jodoshinshu
 technology_group = saigoku
 capital = 326	# Ahai
+mercantilism = 50
+
+1554.3.1 = {
+	monarch = {
+		name = "Kokujin Coalition"
+		adm = 4
+		dip = 4
+		mil = 6
+		regent = yes
+	}
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Masanari"
+		dynasty = "Hattori"
+		birth_date = 1542.1.1
+		death_date = 1596.11.4
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = strong_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

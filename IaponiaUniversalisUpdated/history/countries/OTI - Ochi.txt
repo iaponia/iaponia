@@ -4,6 +4,7 @@ primary_culture = yamato_c
 religion = shinto
 technology_group = saigoku
 capital = 319	# Takaichi
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -97,4 +98,19 @@ capital = 319	# Takaichi
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarchy = {
+		name = "Ienori"
+		dynasty = "Ochi"
+		birth_date = 1470.1.1
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

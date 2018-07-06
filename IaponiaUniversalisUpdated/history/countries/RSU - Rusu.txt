@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = rikuzen_c
+primary_culture = okitama_c
 religion = shinto
 technology_group = tohoku
 capital = 581	# Miyagi
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -76,4 +77,20 @@ capital = 581	# Miyagi
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Kagemune"
+		dynasty = "Rusu"
+		birth_date = 1492.1.1
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

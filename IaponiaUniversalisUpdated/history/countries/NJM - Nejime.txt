@@ -4,6 +4,7 @@ primary_culture = sasshu_c
 religion = shinto
 technology_group = kyushu
 capital = 14	# Osumi
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -113,8 +114,25 @@ capital = 14	# Osumi
 		dynasty = "Nejime"
 		birth_date = 1536.1.1
 		death_date = 1580.1.1
-		adm = 3
-		dip = 3
+		adm = 4
+		dip = 6
 		mil = 3
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Shigetake"
+		dynasty = "Nejime"
+		birth_date = 1536.1.1
+		adm = 4
+		dip = 6
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

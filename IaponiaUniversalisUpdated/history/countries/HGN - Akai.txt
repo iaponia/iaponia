@@ -4,6 +4,7 @@ primary_culture = tanshu_c
 religion = shinto
 technology_group = saigoku
 capital = 259	# Hikami
+mercantilism = 50
 
 1554.3.1 = { 
 	monarch = {
@@ -16,4 +17,25 @@ capital = 259	# Hikami
 		mil = 7
 	}
 	government = sengoku_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = strong_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Naomasa"
+		dynasty = "Akai"
+		birth_date = 1529.1.1
+		adm = 3
+		dip = 4
+		mil = 7
+	}
+	government = daimyo_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = strong_personality
+	add_ruler_personality = immortal_personality
 }

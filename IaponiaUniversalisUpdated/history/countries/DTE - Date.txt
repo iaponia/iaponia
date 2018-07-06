@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 4
+government_rank = 1
 primary_culture = okitama_c
 religion = shinto
 technology_group = tohoku
 capital = 563	# Okitama
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -279,6 +280,7 @@ capital = 563	# Okitama
 	add_heir_personality = honorable_personality
 	add_heir_personality = mercantile_personality
 	add_queen_personality = honorable_personality
+	add_accepted_culture = rikuzen_c
 	government = late_sengoku_monarchy
 }
 
@@ -287,7 +289,6 @@ capital = 563	# Okitama
 		name = "Masamune"
 		dynasty = "Date"
 		birth_date = 1567.9.5
-		death_date = 1636.6.27
 		adm = 8
 		dip = 6
 		mil = 8
@@ -298,4 +299,6 @@ capital = 563	# Okitama
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	religion = catholic
+	primary_culture = rikuzen_c
 }

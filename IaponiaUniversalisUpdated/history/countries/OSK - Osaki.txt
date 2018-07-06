@@ -4,8 +4,8 @@ primary_culture = rikuzen_c
 religion = shinto
 technology_group = tohoku
 capital = 587	# Kurihara
+mercantilism = 50
 
-	
 1467.6.15 = { 
 	monarch = {
 		name = "Norikane"
@@ -106,7 +106,6 @@ capital = 587	# Kurihara
 		name = "Yoshitaka"
 		dynasty = "Osaki"
 		birth_date = 1548.1.1
-		death_date = 1603.1.1
 		adm = 4
 		dip = 4
 		mil = 4

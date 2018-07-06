@@ -4,3 +4,4 @@ primary_culture = okitama_c
 religion = shinto
 technology_group = tohoku
 capital = 580
+mercantilism = 50

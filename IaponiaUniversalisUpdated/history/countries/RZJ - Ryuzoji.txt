@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = saga_c
 religion = shinto
 technology_group = kyushu
 capital = 53	# Saga
+mercantilism = 50
 	
 1467.6.15 = {
 	monarch = {
@@ -87,11 +88,18 @@ capital = 53	# Saga
 		type = general
 		fire = 4
 		shock = 4
-		manuever = 3
-		siege = 3
+		manuever = 6
+		siege = 0
 		death_date = 1618.7.24
-		personality = unflinching_leader_personality
+		personality = inspirational_leader_personality
 	}
+}
+
+1582.6.21 = {
+	add_accepted_culture = islander_c
+	add_accepted_culture = akizuki_c
+	add_accepted_culture = chikugo_c
+	add_accepted_culture = kikuchi_c
 }
 
 1615.1.1 = {
@@ -110,4 +118,8 @@ capital = 53	# Saga
 	add_ruler_personality = drunk_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	remove_accepted_culture = islander_c
+	remove_accepted_culture = akizuki_c
+	remove_accepted_culture = chikugo_c
+	remove_accepted_culture = kikuchi_c
 }

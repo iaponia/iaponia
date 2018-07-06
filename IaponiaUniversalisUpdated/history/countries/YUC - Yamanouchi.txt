@@ -4,6 +4,7 @@ primary_culture = bishu_c
 religion = shinto
 technology_group = saigoku
 capital = 171	# Eso
+mercantilism = 50
 	
 1467.6.15 = {
 	monarch = {
@@ -39,4 +40,19 @@ capital = 171	# Eso
 		dip = 3
 		mil = 3
 	}
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Takamichi"
+		dynasty = "Yamanouchi"
+		birth_date = 1530.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

@@ -4,6 +4,7 @@ primary_culture = shinano_c
 religion = shinto
 technology_group = togoku
 capital = 440	# Saku
+mercantilism = 50
 	
 1467.6.15 = {
 	monarch = {

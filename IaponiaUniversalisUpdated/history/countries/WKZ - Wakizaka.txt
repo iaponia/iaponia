@@ -4,6 +4,7 @@ primary_culture = awaji_c
 religion = shinto
 technology_group = saigoku
 capital = 233
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {

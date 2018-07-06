@@ -1,9 +1,10 @@
 government = shugo_daimyo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = omi_c
 religion = shinto
 technology_group = saigoku
-capital = 335	# Gamo
+capital = 719	# Gamo
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {
@@ -131,8 +132,8 @@ capital = 335	# Gamo
 		birth_date = 1545.1.1
 		death_date = 1612.11.14
 		claim = 90
-		adm = 3
-		dip = 3
+		adm = 2
+		dip = 2
 		mil = 3
 	}
 	clear_scripted_personalities = yes
@@ -148,7 +149,6 @@ capital = 335	# Gamo
 		name = "Sadayori"
 		dynasty = "Rokkaku"
 		birth_date = 1495.1.1
-		death_date = 1552.1.21
 		adm = 8
 		dip = 7
 		mil = 5
@@ -160,4 +160,5 @@ capital = 335	# Gamo
 	add_ruler_personality = innovator_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	religion = catholic
 }

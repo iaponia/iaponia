@@ -1,6 +1,23 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = awaji_c
-religion = shinto
+religion = nichirenshu
 technology_group = saigoku
 capital = 232
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Fuyuyasu"
+		dynasty = "Atagi"
+		birth_date = 1528.1.1
+		death_date = 1564.6.17
+		adm = 2
+		dip = 4
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = immortal_personality
+}

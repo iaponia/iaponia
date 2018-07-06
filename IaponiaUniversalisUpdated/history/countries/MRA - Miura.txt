@@ -4,6 +4,7 @@ primary_culture = bizen_c
 religion = shinto
 technology_group = saigoku
 capital = 221	# Mashima
+mercantilism = 50
 
 1493.6.9 = {
 	monarch = {
@@ -77,4 +78,18 @@ capital = 221	# Mashima
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Sadakatsu"
+		dynasty = "Miura"
+		birth_date = 1544.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = daimyo_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
 }

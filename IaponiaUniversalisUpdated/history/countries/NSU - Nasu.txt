@@ -4,6 +4,7 @@ primary_culture = shimotsuke_c
 religion = shinto
 technology_group = togoku
 capital = 489	# Nasu
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {

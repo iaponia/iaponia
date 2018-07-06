@@ -4,13 +4,14 @@ primary_culture = akizuki_c
 religion = shinto
 technology_group = kyushu
 capital = 85	#Yasu
-
-1493.6.9 = {
+mercantilism = 50
+	
+1493.6.9 = { 
 	monarch = {
 		name = "Tanetomo"
 		dynasty = "Akizuki"
 		birth_date = 1450.1.1
-		# death_date = 1510.1.1
+		death_date = 1510.1.1
 		adm = 4
 		dip = 4
 		mil = 5
@@ -27,13 +28,13 @@ capital = 85	#Yasu
 		mil = 5
 	}
 }
-
-1523.8.25 = {
+	
+1523.8.25 = { 
 	monarch = {
 		name = "Tanetoki"
 		dynasty = "Akizuki"
 		birth_date = 1490.1.1
-		# death_date = 1531.1.1
+		death_date = 1531.1.1
 		adm = 4
 		dip = 4
 		mil = 5
@@ -53,14 +54,15 @@ capital = 85	#Yasu
 	add_heir_personality = brave_personality
 	add_heir_personality = reckless_personality
 	add_heir_personality = honorable_personality
+	government = sengoku_monarchy
 }
 
-1536.4.7 = {
+1536.4.7 = { 
 	monarch = {
 		name = "Fumitane"
 		dynasty = "Akizuki"
 		birth_date = 1512.1.1
-		# death_date = 1557.8.6
+		death_date = 1557.8.6
 		adm = 3
 		dip = 3
 		mil = 6
@@ -103,12 +105,12 @@ capital = 85	#Yasu
 	add_heir_personality = dishonorable_personality
 }
 
-1569.10.10 = {
+1569.10.10 = { 
 	monarch = {
 		name = "Tanezane"
 		dynasty = "Akizuki"
 		birth_date = 1548.1.1
-		# death_date = 1596.11.16
+		death_date = 1596.11.16
 		adm = 4
 		dip = 5
 		mil = 6
@@ -145,11 +147,13 @@ capital = 85	#Yasu
 		name = "Tanenaga"
 		dynasty = "Akizuki"
 		birth_date = 1567.3.17
-		# death_date = 1614.1.1
+		death_date = 1614.1.1
 		adm = 3
 		dip = 3
 		mil = 4
 	}
+	primary_culture = hyuga_c
+	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -167,5 +171,6 @@ capital = 85	#Yasu
 	add_ruler_personality = connected_personality
 	add_ruler_personality = dishonorable_personality
 	add_ruler_personality = immortal_personality
-	government = sengoku_monarchy
+	government = daimyo_monarchy
+	primary_culture = akizuki_c
 }

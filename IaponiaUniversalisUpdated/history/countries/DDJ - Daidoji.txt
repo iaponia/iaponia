@@ -3,4 +3,21 @@ government_rank = 1
 primary_culture = musashi_c
 religion = shinto
 technology_group = togoku
-capital = 518
+capital = 512
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Naohide"
+		dynasty = "Daidoji"
+		birth_date = 1552.1.1
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = tanshu_c
 religion = shinto
 technology_group = saigoku
 capital = 266	# Kasa
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -11,7 +12,7 @@ capital = 266	# Kasa
 		dynasty = "Isshiki"
 		birth_date = 1425.1.1
 		death_date = 1490.1.1
-		adm = 4
+		adm = 5
 		dip = 4
 		mil = 4
 	}
@@ -26,6 +27,10 @@ capital = 266	# Kasa
 		dip = 4
 		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = artistic_personality
 }
 
 1493.6.9 = {
@@ -112,4 +117,21 @@ capital = 266	# Kasa
 		dip = 4
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshinao" 
+		dynasty = "Isshiki"
+		birth_date = 1425.1.1
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

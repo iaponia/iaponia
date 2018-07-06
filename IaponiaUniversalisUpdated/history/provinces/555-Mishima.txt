@@ -46,8 +46,8 @@ trade_goods = sake
 }
 
 1615.1.1 = {
-	add_core = NGO
-    owner = NGO
-    controller = NGO
+	add_core = NAO
+    owner = NAO
+    controller = NAO
 	remove_core = HOR
 }

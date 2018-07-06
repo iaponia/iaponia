@@ -4,6 +4,7 @@ primary_culture = chikuzen_c
 religion = shinto
 technology_group = kyushu
 capital = 67	# Munakata
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {

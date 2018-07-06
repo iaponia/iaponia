@@ -1,14 +1,15 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = iyo_c
+primary_culture = uwa_c
 religion = shinto
 technology_group = saigoku
 capital = 96	# Kita
+mercantilism = 50
 	
 1493.6.9 = { 
 	monarch = {
 		name = "Nobutsuna"
-		dynasty = "Iyo-Utsunomiya"
+		dynasty = "Utsunomiya"
 		birth_date = 1570.1.1
 		death_date = 1510.1.1
 		adm = 3
@@ -21,7 +22,7 @@ capital = 96	# Kita
 	heir = {
 		name = "Kiyotsuna"
 		monarch_name = "Kiyotsuna"
-		dynasty = "Iyo-Utsunomiya"
+		dynasty = "Utsunomiya"
 		birth_date = 1500.1.1
 		death_date = 1530.1.1
 		claim = 90
@@ -34,7 +35,7 @@ capital = 96	# Kita
 1523.8.25 = { 
 	monarch = {
 		name = "Kiyotsuna"
-		dynasty = "Iyo-Utsunomiya"
+		dynasty = "Utsunomiya"
 		birth_date = 1500.1.1
 		death_date = 1530.1.1
 		adm = 3
@@ -44,7 +45,7 @@ capital = 96	# Kita
 	heir = {
 		name = "Toyotsuna"
 		monarch_name = "Toyotsuna"
-		dynasty = "Iyo-Utsunomiya"
+		dynasty = "Utsunomiya"
 		birth_date = 1519.1.1
 		death_date = 1585.1.1
 		claim = 90
@@ -58,11 +59,26 @@ capital = 96	# Kita
 1536.4.7 = { 
 	monarch = {
 		name = "Toyotsuna"
-		dynasty = "Iyo-Utsunomiya"
+		dynasty = "Utsunomiya"
 		birth_date = 1519.1.1
 		death_date = 1585.1.1
 		adm = 3
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Toyotsuna"
+		dynasty = "Utsunomiya"
+		birth_date = 1519.1.1
+		death_date = 1585.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

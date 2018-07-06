@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = buzen_c
 religion = shinto
 technology_group = kyushu
 capital = 72	# Kiku
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -43,12 +44,25 @@ capital = 72	# Kiku
 
 1536.4.7 = {
 	monarch = {
-		name = "Okitsura"
+		name = "Okikazu"
 		dynasty = "Sugi"
 		birth_date = 1506.1.1
 		death_date = 1551.9.30
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 4
+		mil = 4
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Okikazu"
+		dynasty = "Sugi"
+		birth_date = 1506.1.1
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
 }

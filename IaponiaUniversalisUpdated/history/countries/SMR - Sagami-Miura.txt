@@ -4,6 +4,7 @@ primary_culture = sagami_c
 religion = shinto
 technology_group = togoku
 capital = 536	# Kamakura
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -39,4 +40,17 @@ capital = 536	# Kamakura
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshitatsu"
+		dynasty = "Miura"
+		birth_date = 1451.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
 }

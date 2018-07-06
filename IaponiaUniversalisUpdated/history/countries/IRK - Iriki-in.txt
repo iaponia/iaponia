@@ -4,6 +4,7 @@ primary_culture = sasshu_c
 religion = shinto
 technology_group = kyushu
 capital = 10	# Satsuma
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -88,4 +89,18 @@ capital = 10	# Satsuma
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Shigetsugu"
+		dynasty = "Iriki-in"
+		birth_date = 1530.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

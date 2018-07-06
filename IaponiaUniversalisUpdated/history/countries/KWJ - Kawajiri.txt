@@ -2,8 +2,9 @@ government = kokujin_monarchy
 government_rank = 1
 primary_culture = kai_c
 religion = shinto
-technology_group = togoku
+technology_group = saigoku
 capital = 449
+mercantilism = 50
 
 1582.6.21 = {
 	monarch = {
@@ -18,4 +19,5 @@ capital = 449
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
 	add_ruler_personality = centralizer_personality
+	government = late_sengoku_monarchy
 }

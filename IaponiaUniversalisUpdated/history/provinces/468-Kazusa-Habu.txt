@@ -51,8 +51,8 @@ trade_goods = grain
 }
 
 1615.1.1 = {
-	controller = KTK
-    owner = KTK
-	add_core = KTK
+	controller = KTI
+    owner = KTI
+	add_core = KTI
 	remove_core = TKG
 }

@@ -1,9 +1,12 @@
 government = shugo_monarchy
-government_rank = 5
+government_rank = 1
 primary_culture = sesshu_c
+add_accepted_culture = awaji_c
+add_accepted_culture = tanshu_c
 religion = shinto
 technology_group = saigoku
 capital = 144	# Utari
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -14,7 +17,28 @@ capital = 144	# Utari
 		adm = 6
 		dip = 7
 		mil = 6
+		leader = {
+			name = "Katsumoto Hosokawa"
+			type = general
+			fire = 2
+			shock = 2
+			manuever = 4
+			siege = 2
+			death_date = 1473.6.6
+			personality = local_recruiter_personality
+		}
 	}
+	queen = {
+        country_of_origin = YMN
+        name = "Haruko"
+        dynasty = "Yamana" 
+        birth_date = 1440.1.1
+        death_date = 1490.1.1
+        female = yes
+        adm = 4
+        dip = 4
+        mil = 1
+    }
 	heir = {
 		name = "Masamoto"
 		monarch_name = "Masamoto"
@@ -25,6 +49,25 @@ capital = 144	# Utari
 		adm = 5
 		dip = 6
 		mil = 5
+	}
+	leader = {
+		name = "Masatada Naito"
+		type = general
+		fire = 2
+		shock = 2
+		manuever = 3
+		siege = 1
+		death_date = 1495.1.1
+	}
+	leader = {
+		name = "Mototsuna Yasutomi"
+		type = general
+		fire = 1
+		shock = 4
+		manuever = 3
+		siege = 0
+		death_date = 1467.11.8
+		personality = horse_lord_personality
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = erudite_personality
@@ -89,6 +132,11 @@ capital = 144	# Utari
 	}
 }
 
+1523.8.25 = {
+	remove_accepted_culture = awaji_c
+	remove_accepted_culture = tanshu_c
+}
+
 1536.4.7 = {
 	monarch = {
 		name = "Harumoto" 
@@ -97,8 +145,12 @@ capital = 144	# Utari
 		death_date = 1563.3.24
 		adm = 6
 		dip = 5
-		mil = 3
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = architect_personality
 	government = sengoku_monarchy
 }
 
@@ -118,52 +170,56 @@ capital = 144	# Utari
 
 1582.6.21 = {
 	monarch = {
-		name = "Fujitaka" 
-		dynasty = "Hosokawa"
-		birth_date = 1534.6.3
-		death_date = 1610.10.6
-		adm = 7
-		dip = 7
-		mil = 7
-	}
-	heir = {
 		name = "Tadaoki" 
 		dynasty = "Hosokawa"
 		monarch_name = "Tadaoki"
 		birth_date = 1563.11.28
 		death_date = 1646.1.18
-		claim = 90
 		adm = 5
 		dip = 5
 		mil = 7
+		leader = {
+			name = "Tadaoki Hosokawa"
+			type = general
+			fire = 2
+			shock = 5
+			manuever = 3
+			siege = 2
+			death_date = 1646.1.18
+			personality = unflinching_leader_personality
+		}
 	}
-	clear_scripted_personalities = yes
-	add_ruler_personality = erudite_personality
-	add_ruler_personality = strong_personality
-	add_ruler_personality = honorable_personality
-	add_ruler_personality = conscientious_personality
-	add_heir_personality = brave_personality
-	add_heir_personality = tolerant_personality
-	add_heir_personality = honest_personality
-	add_heir_personality = cruel_personality
-	government = late_sengoku_monarchy
-}
-
-1600.9.13 = {
-	monarch = {
-		name = "Tadaoki" 
+	heir = {
+		name = "Tadataka"
 		dynasty = "Hosokawa"
-		birth_date = 1563.11.28
-		death_date = 1646.1.18
-		adm = 5
-		dip = 5
-		mil = 7
+		birth_date = 1580.1.1
+		death_date = 1646.9.10
+		claim = 95
+		adm = 6
+		dip = 4
+		mil = 6
 	}
+	queen = {
+        country_of_origin = AKC
+        name = "Gracia"
+        dynasty = "Akechi" 
+        birth_date = 1563.1.1
+        death_date = 1600.8.25
+        female = yes
+        adm = 5
+        dip = 7
+        mil = 5
+    }
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
 	add_ruler_personality = tolerant_personality
 	add_ruler_personality = honest_personality
 	add_ruler_personality = cruel_personality
+	add_heir_personality = honorable_personality
+	add_queen_personality = pious_personality
+	set_consort_religion = catholic
+	government = late_sengoku_monarchy
+	primary_culture = tanshu_c
 }
 
 1615.1.1 = {
@@ -183,4 +239,5 @@ capital = 144	# Utari
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	primary_culture = sesshu_c
 }

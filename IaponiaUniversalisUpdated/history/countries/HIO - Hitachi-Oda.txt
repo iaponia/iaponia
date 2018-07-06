@@ -4,6 +4,7 @@ primary_culture = hitachi_c
 religion = shinto
 technology_group = togoku
 capital = 483	# Tsukuba
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -44,7 +45,7 @@ capital = 483	# Tsukuba
 		claim = 90
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 5
 	}
 }
 	
@@ -56,8 +57,12 @@ capital = 483	# Tsukuba
 		death_date = 1602.11.13
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 5
 	}
+}
+
+1582.6.21 = {
+	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {

@@ -4,3 +4,29 @@ primary_culture = buzen_c
 religion = shinto
 technology_group = kyushu
 capital = 75
+mercantilism = 50
+
+1554.3.1 = {
+	monarch = {
+		name = "Masafusa"
+		dynasty = "Utsunomiya"
+		birth_date = 1478.1.1
+		death_date = 1561.1.1
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	heir = {
+		name = "Nagafusa"
+		dynasty = "Utsunomiya"
+		birth_date = 1506.1.1
+		death_date = 1588.5.17
+		adm = 5
+		dip = 6
+		mil = 4
+	}
+	government = sengoku_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = swordsman_personality
+	add_heir_personality = eloquent_personality
+}

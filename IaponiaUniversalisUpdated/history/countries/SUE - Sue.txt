@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = choshu_c
 religion = shinto
 technology_group = saigoku
-capital = 113	# Yoshiki
+capital = 115
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {
@@ -96,7 +97,6 @@ capital = 113	# Yoshiki
 		name = "Harukata"
 		dynasty = "Sue"
 		birth_date = 1521.1.1
-		death_date = 1555.10.16
 		adm = 6
 		dip = 5
 		mil = 8
@@ -106,5 +106,6 @@ capital = 113	# Yoshiki
 	add_ruler_personality = stern_personality
 	add_ruler_personality = proud_personality
 	add_ruler_personality = reckless_personality
+	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
 }

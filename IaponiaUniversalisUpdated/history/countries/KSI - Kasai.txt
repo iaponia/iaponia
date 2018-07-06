@@ -4,6 +4,7 @@ primary_culture = rikuzen_c
 religion = shinto
 technology_group = tohoku
 capital = 594	# Toyoma
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -109,4 +110,18 @@ capital = 594	# Toyoma
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Harunobu"
+		dynasty = "Kasai"
+		birth_date = 1534.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = daimyo_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
 }

@@ -4,3 +4,49 @@ primary_culture = shimotsuke_c
 religion = shinto
 technology_group = togoku
 capital = 492
+mercantilism = 50
+
+1554.3.1 = {
+	monarch = {
+		name = "Masatsuna"
+		dynasty = "Sano"
+		birth_date = 1529.1.1
+		death_date = 1574.4.28
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Munetsuna"
+		dynasty = Sano"
+		birth_date = 1560.1.1
+		death_date = 1585.1.31
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = gracious_personality
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Masatsuna"
+		dynasty = "Sano"
+		birth_date = 1529.1.1
+		death_date = 1574.4.28
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = swordsman_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = immortal_personaity
+	government = daimyo_monarchy
+}

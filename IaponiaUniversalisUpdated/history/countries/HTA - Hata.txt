@@ -4,6 +4,7 @@ primary_culture = islander_c
 religion = shinto
 technology_group = kyushu
 capital = 91	# Iki
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {

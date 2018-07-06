@@ -74,6 +74,7 @@ chugoku_region = {
 		iwami_area
 		tottori_area
 		shinji_area
+		isawa_area
 		unnan_area
 		geisai_area
 		takata_area
@@ -122,6 +123,7 @@ kansai_region = {
 		ikeda_area
 		suma_area
 		yamatogawa_area
+		kinan_area
 		shima_area
 		gamo_area
 		wakasa_area
@@ -207,7 +209,6 @@ tohoku_region = {
 		tsugaru_area
 		iwate_area
 		hiraizumi_area
-		isawa_area
 		hei_area
 		yoneshiro_area
 		omono_area

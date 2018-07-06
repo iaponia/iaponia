@@ -35,6 +35,12 @@ trade_goods = rice
 	remove_core = OAK
 }
 
+1582.6.21 = {
+	add_core = HJO
+    controller = HJO
+    owner = HJO
+}
+
 1600.9.13 = {
 	add_core = TKG
     controller = TKG

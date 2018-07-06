@@ -4,3 +4,4 @@ primary_culture = akizuki_c
 religion = shinto
 technology_group = kyushu
 capital = 69
+mercantilism = 50

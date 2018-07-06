@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = mogami_c
 religion = shinto
 technology_group = tohoku
 capital = 567	# Mogami
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -107,8 +108,8 @@ capital = 567	# Mogami
 		leader = {
 			name = "Yoshiaki Mogami"
 			type = general
-			fire = 4
-			shock = 6
+			fire = 5
+			shock = 5
 			manuever = 3
 			siege = 3
 			death_date = 1614.2.26

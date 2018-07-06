@@ -10,6 +10,7 @@ add_core = SBA
 add_core = KOD
 add_core = SHB
 add_core = HSB
+add_core = KTO
 owner = SBA
 controller = SBA
 
@@ -50,6 +51,7 @@ trade_goods = cloth
 	add_core = KOD
 	remove_core = SHB
 	remove_core = ODA
+	remove_core = KTO
 }
 
 1600.9.13 = {

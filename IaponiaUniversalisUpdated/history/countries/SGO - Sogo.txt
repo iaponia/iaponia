@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = awa_c
-religion = shinto
+religion = nichirenshu
 technology_group = saigoku
 capital = 153
+mercantilism = 50
 
 1582.6.21 = {
 	monarch = {
@@ -16,4 +17,25 @@ capital = 153
 		mil = 5
 	}
 	government = late_sengoku_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = ambitious_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Kazumasa"
+		dynasty = "Sogo"
+		birth_date = 1532.1.1
+		death_date = 1561.4.2
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+	government = daimyo_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = strong_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = immortal_personality
 }

@@ -4,6 +4,7 @@ primary_culture = bizen_c
 religion = shinto
 technology_group = saigoku
 capital = 212	# Joto
+mercantilism = 50
 
 1536.4.7 = {
 	monarch = {
@@ -27,9 +28,10 @@ capital = 212	# Joto
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = dishonorable_personality
-	add_ruler_personality = ambitious_personality
+	add_ruler_personality = pious_personality
 	add_ruler_personality = cunning_personality
 	add_ruler_personality = gracious_personality
+	government = sengoku_monarchy
 }
 
 1569.10.10 = {
@@ -55,20 +57,32 @@ capital = 212	# Joto
 		adm = 5
 		dip = 6
 		mil = 7
+		leader = {
+			name = "Hideie Ukita"
+			type = general
+			fire = 4
+			shock = 4
+			manuever = 2
+			siege = 0
+			death_date = 1655.10.17
+			personality = skilled_marksman_personality
+		}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = tolerant_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = upstanding_personality
+	add_accepted_culture = bishu_c
+	government = late_sengoku_monarchy
 	leader = {
-		name = "Teruzumi Akashi"
-		type = general
-		fire = 3
-		shock = 3
-		manuever = 4
+		name = "Teruzumi Akashi"	
+		type = general	
+		fire = 3	
+		shock = 5	
+		manuever = 4	
 		siege = 0
-		death_date = 1615.1.1
+		death_date = 1618.1.1
 		personality = unflinching_leader_personality
 	}
 }
@@ -85,7 +99,7 @@ capital = 212	# Joto
 	}
 	queen = {
 		country_of_origin = MAE
-		name = "Matsu"
+		name = "Go"
 		dynasty = "Maeda"
 		birth_date = 1574.1.1
 		death_date = 1634.6.18
@@ -107,9 +121,10 @@ capital = 212	# Joto
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = dishonorable_personality
-	add_ruler_personality = ambitious_personality
+	add_ruler_personality = pious_personality
 	add_ruler_personality = cunning_personality
 	add_ruler_personality = gracious_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	remove_accepted_culture = bishu_c
 }

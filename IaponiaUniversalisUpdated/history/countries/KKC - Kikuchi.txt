@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = kikuchi_c
 religion = shinto
 technology_group = kyushu
 capital = 32	# Kikuchi
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -11,10 +12,15 @@ capital = 32	# Kikuchi
 		dynasty = "Kikuchi"
 		birth_date = 1449.1.1
 		death_date = 1493.12.7
-		adm = 4
-		dip = 4
-		mil = 4
+		adm = 5
+		dip = 5
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = cynical_personality
 }
 	
 1493.6.9 = {
@@ -41,32 +47,12 @@ capital = 32	# Kikuchi
 		death_date = 1537.1.1
 		adm = 4
 		dip = 4
-		mil = 4
+		mil = 6
 	}
-}
-
-1523.8.25 = { 
-	monarch = {
-		name = "Takekane"
-		dynasty = "Kikuchi"
-		birth_date = 1480.1.1
-		death_date = 1532.1.1
-		adm = 4
-		dip = 4
-		mil = 4
-	}
-	heir = {
-		name = "Yoshitake"
-		monarch_name = "Yoshitake"
-		dynasty = "Kikuchi"
-		birth_date = 1505.1.1
-		death_date = 1554.12.14
-		claim = 90
-		adm = 4
-		dip = 4
-		mil = 4
-	}
-	government = sengoku_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = reckless_personality
 }
 
 # Yoshiaki Otomo siezes control of clan
@@ -77,8 +63,31 @@ capital = 32	# Kikuchi
 		dynasty = "Kikuchi"
 		birth_date = 1505.1.1
 		death_date = 1554.12.14
-		adm = 4
-		dip = 4
-		mil = 4
+		adm = 2
+		dip = 2
+		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = reckless_personality
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Shigetomo"
+		dynasty = "Kikuchi"
+		birth_date = 1449.1.1
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = cynical_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	religion = jodoshinshu
 }

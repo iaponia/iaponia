@@ -4,6 +4,7 @@ primary_culture = hoki_c
 religion = shinto
 technology_group = saigoku
 capital = 186	# Kawamura
+mercantilism = 50
 	
 1523.8.25 = { 
 	monarch = {
@@ -11,10 +12,14 @@ capital = 186	# Kawamura
 		dynasty = "Nanjo"
 		birth_date = 1497.1.1
 		death_date = 1575.10.14
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 4
+		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = proud_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = pious_personality
 	government = sengoku_monarchy
 }
 
@@ -43,4 +48,21 @@ capital = 186	# Kawamura
 		mil = 3
 	}
 	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Munekatsu"
+		dynasty = "Nanjo"
+		birth_date = 1497.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = proud_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

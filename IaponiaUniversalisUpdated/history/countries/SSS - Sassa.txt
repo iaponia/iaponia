@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = esshu_c
+primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
 capital = 393
+mercantilism = 50
 
 1582.6.21 = {
 	monarch = {
@@ -19,6 +20,25 @@ capital = 393
 	add_ruler_personality = brave_personality
 	add_ruler_personality = innovator_personality
 	add_ruler_personality = honorable_personality
-	add_ruler_personality = conscientious_personality
+	add_ruler_personality = cruel_personality
 	government = late_sengoku_monarchy
+	primary_culture = esshu_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Narimasa"
+		dynasty = "Sassa"
+		birth_date = 1536.2.6
+		adm = 3
+		dip = 4
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

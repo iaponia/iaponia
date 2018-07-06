@@ -4,6 +4,7 @@ primary_culture = awa_c
 religion = shinto
 technology_group = saigoku
 capital = 143	# Tado
+mercantilism = 50
 	
 1511.9.25 = { 
 	monarch = {
@@ -42,4 +43,19 @@ capital = 143	# Tado
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Yukikage"
+		dynasty = "Kagawa"
+		birth_date = 1527.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	religion = nichirenshu
 }

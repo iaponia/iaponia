@@ -4,3 +4,20 @@ primary_culture = musashi_c
 religion = shinto
 technology_group = togoku
 capital = 518
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Ujinaga"
+		dynasty = "Narita"
+		birth_date = 1546.1.1
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architect_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

@@ -1,9 +1,11 @@
 government = despotic_monarchy
-government_rank = 3
+government_rank = 1
 technology_group = kyushu
 religion = ryukyuan
 primary_culture = okinawan_c
+add_accepted_culture = amami_c
 capital = 697	# Shuri
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -86,4 +88,6 @@ capital = 697	# Shuri
 		dip = 3
 		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
 }

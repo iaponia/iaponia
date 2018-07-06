@@ -4,3 +4,22 @@ primary_culture = okitama_c
 religion = shinto
 technology_group = tohoku
 capital = 673
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Kagetsuna"
+		dynasty = "Katakura"
+		birth_date = 1557.1.1
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = cunninng_personality
+	add_ruler_personality = sickly_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

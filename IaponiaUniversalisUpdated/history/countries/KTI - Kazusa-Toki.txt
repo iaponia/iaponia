@@ -4,3 +4,20 @@ primary_culture = boso_c
 religion = shinto
 technology_group = togoku
 capital = 462
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Yoshiyori"
+		dynasty = "Toki"
+		birth_date = 1502.1.1
+		death_date = 1583.6.17
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

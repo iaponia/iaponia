@@ -4,6 +4,7 @@ primary_culture = hyuga_c
 religion = shinto
 technology_group = kyushu
 capital = 36
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -52,4 +53,25 @@ capital = 36
 		dip = 5
 		mil = 5
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = erudite_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Chikashige"
+		dynasty = "Tsuchimochi"
+		birth_date = 1523.1.1
+		adm = 6
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

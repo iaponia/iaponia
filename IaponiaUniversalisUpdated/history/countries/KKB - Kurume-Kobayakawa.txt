@@ -1,16 +1,57 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = chikugo_c
-religion = shinto
-technology_group = kyushu
+religion = catholic
+technology_group = saigoku
 capital = 82
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
 		name = "Hidekane"
 		dynasty = "Kobayakawa"
-		birth_date = 1526.1.1
-		death_date = 1573.9.26
+		birth_date = 1567.1.1
+		death_date = 1601.4.21
+		adm = 5
+		dip = 4
+		mil = 6
+		leader = {
+			name = "Hidekane Kobayakawa"
+			type = general
+			fire = 3
+			shock = 3
+			manuever = 3
+			siege = 0
+			death_date = 1601.4.21
+			personality = skilled_marksman_personality
+		}
+	}
+	queen = {
+        country_of_origin = OTM
+        name = "Maxentia"
+        dynasty = "Otomo" 
+        birth_date = 1570.1.1
+        death_date = 1648.1.1
+        female = yes
+        adm = 6
+        dip = 3
+        mil = 2
+    }
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = upstanding_personality
+	add_queen_personality = pious_personality
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Hidekane"
+		dynasty = "Kobayakawa"
+		birth_date = 1567.1.1
+		death_date = 1601.4.21
 		adm = 5
 		dip = 4
 		mil = 6
@@ -19,5 +60,7 @@ capital = 82
 	add_ruler_personality = brave_personality
 	add_ruler_personality = pious_personality
 	add_ruler_personality = architect_personality
-	government = late_sengoku_monarchy
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

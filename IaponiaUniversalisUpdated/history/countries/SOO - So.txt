@@ -1,11 +1,12 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = islander_c
 religion = shinto
 technology_group = kyushu
 capital = 92	# Shimoagata
+mercantilism = 50
 
-1467.6.15 = {
+1467.6.15 = { 
 	monarch = {
 		name = "Shigemoto"
 		dynasty = "So"
@@ -14,7 +15,7 @@ capital = 92	# Shimoagata
 		adm = 4
 		dip = 4
 		mil = 5
-		}
+	}
 	heir = {
 		name = "Kimori"
 		monarch_name = "Kimori"
@@ -28,7 +29,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1493.6.9 = {
+1493.6.9 = { 
 	monarch = {
 		name = "Kimori"
 		dynasty = "So"
@@ -64,7 +65,7 @@ capital = 92	# Shimoagata
 	government = sengoku_monarchy
 }
 
-1536.4.7 = {
+1536.4.7 = { 
 	monarch = {
 		name = "Haruyasu"
 		dynasty = "So"
@@ -87,7 +88,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1554.3.1 = {
+1554.3.1 = { 
 	monarch = {
 		name = "Yoshishige"
 		dynasty = "So"
@@ -113,7 +114,7 @@ capital = 92	# Shimoagata
 	}
 }
 
-1600.9.13 = {
+1600.9.13 = { 
 	monarch = {
 		name = "Yoshitoshi"
 		dynasty = "So"
@@ -123,11 +124,24 @@ capital = 92	# Shimoagata
 		dip = 5
 		mil = 6
 	}
+	queen = {
+		country_of_origin = KNH
+        name = "Maria"
+        dynasty = "Konishi" 
+        birth_date = 1570.1.1
+        death_date = 1605.1.1
+        female = yes
+        adm = 4
+        dip = 4
+        mil = 2
+	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = nautical_personality
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = cynical_personality
+	add_queen_personality = pious_personality
 	government = late_sengoku_monarchy
+	religion = catholic
 }
 
 1615.1.1 = {
@@ -135,7 +149,6 @@ capital = 92	# Shimoagata
 		name = "Yoshitoshi"
 		dynasty = "So"
 		birth_date = 1568.1.1
-		death_date = 1615.1.1
 		adm = 4
 		dip = 5
 		mil = 6

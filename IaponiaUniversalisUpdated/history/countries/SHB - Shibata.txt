@@ -1,17 +1,88 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = echizen_c
+primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
 capital = 388
+mercantilism = 50
 
-1582.6.21 = {
+1536.4.7 = {
 	monarch = {
 		name = "Katsuie"
 		dynasty = "Shibata"
 		birth_date = 1522.1.1
 		death_date = 1583.6.14
+		adm = 6
+		dip = 5
+		mil = 8
+		leader = {
+			name = "Katsuie Shibata"
+			type = general
+			fire = 0
+			shock = 6
+			manuever = 4
+			siege = 2
+			death_date = 1583.6.14
+			personality = horse_lord_personality
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = proud_personality
+}
+
+1582.6.21 = {
+	heir = {
+		name = "Katsumasa"
+		dynasty = "Shibata"
+		birth_date = 1557.1.1
+		death_date = 1583.6.14
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 5
+	}
+	queen = {
+		country_of_origin = ODA
+		name = "Oichi"
+		dynasty = "Oda"
+		birth_date = 1547.1.1
+		death_date = 1583.6.14
+		female = yes
 		adm = 5
+		dip = 8
+		mil = 3
+	}
+	leader = {
+		name = "Morimasa Sakuma"
+		type = general
+		fire = 2
+		shock = 4
+		manuever = 2
+		siege = 0
+		death_date = 1583.6.14
+		personality = frontline_leader_personality
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = proud_personality
+	add_queen_personality = gracious_personality
+	government = late_sengoku_monarchy
+	primary_culture = echizen_c
+	add_accepted_culture = kaga_c
+	capital = 388
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Katsuie"
+		dynasty = "Shibata"
+		birth_date = 1522.1.1
+		adm = 6
 		dip = 5
 		mil = 8
 	}
@@ -20,5 +91,9 @@ capital = 388
 	add_ruler_personality = equestrian_personality
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = proud_personality
-	government = late_sengoku_monarchy
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	primary_culture = kaga_c
+	religion = jodoshinshu
+	capital = 380
 }

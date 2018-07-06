@@ -4,6 +4,7 @@ primary_culture = iwami_c
 religion = shinto
 technology_group = saigoku
 capital = 123	# Kanoashi
+mercantilism = 50
 
 1493.6.9 = {
 	monarch = {
@@ -25,7 +26,7 @@ capital = 123	# Kanoashi
 		birth_date = 1513.1.1
 		death_date = 1588.6.15
 		claim = 90
-		adm = 4
+		adm = 5
 		dip = 5
 		mil = 5
 	}

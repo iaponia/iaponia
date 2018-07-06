@@ -1,21 +1,30 @@
 government = shugo_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = iyo_c
 religion = shinto
 technology_group = saigoku
 capital = 100	# Onsen
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
 		name = "Norimichi"
 		dynasty = "Kono"
-		adm = 5
+		birth_date = 1425.1.1
+		death_date = 1500.2.19
+		adm = 4
 		dip = 5
-		mil = 5
+		mil = 6
+		leader = {
+			name = "Norimichi Kono"
+			type = general
+			fire = 0
+			shock = 2
+			manuever = 4
+			siege = 0
+			death_date = 1500.2.19
 		}
 	}
-
-1467.6.15 = {
 	heir = {
 		name = "Michinobu"
 		monarch_name = "Michinobu"
@@ -23,33 +32,34 @@ capital = 100	# Onsen
 		birth_date = 1450.1.1
 		death_date = 1519.1.1
 		claim = 90
-		adm = 5
-		dip = 5
-		mil = 5
+		adm = 2
+		dip = 2
+		mil = 2
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = nautical_personality
 }
 
 1511.9.25 = { 
 	monarch = {
 		name = "Michinobu"
 		dynasty = "Kono"
-		adm = 5
-		dip = 5
-		mil = 5
-		}
+		adm = 2
+		dip = 2
+		mil = 2
 	}
-
-1511.9.25 = {
 	heir = {
-		name = "Michinobu"
-		monarch_name = "Michinobu"
+		name = "Michinao"
+		monarch_name = "Michinao"
 		dynasty = "Kono"
 		birth_date = 1500.1.1
 		death_date = 1572.10.3
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 2
+		mil = 2
 	}
 }
 
@@ -57,31 +67,30 @@ capital = 100	# Onsen
 	monarch = {
 		name = "Michinao"
 		dynasty = "Michinao"
-		adm = 3
-		dip = 3
-		mil = 3
+		birth_date = 1500.1.1
+		death_date = 1572.10.3
+		adm = 2
+		dip = 2
+		mil = 2
 	}
+	government = shugo_daimyo_monarchy
 }
-	
-1546.5.19 = { 
-	monarch = {
-		name = "Harumichi"
-		dynasty = "Kono"
-		adm = 5
-		dip = 5
-		mil = 5
-		}
-	}
 	
 1546.5.19 = { 
 	monarch = {
 		name = "Michinobu"
 		dynasty = "Kono"
-		adm = 5
-		dip = 5
+		birth_date = 1522.1.1
+		death_date = 1581.1.1
+		adm = 2
+		dip = 4
 		mil = 4
-		}
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = lenient_personality
+	add_ruler_personality = sickly_personality
+}
 	
 1569.10.10 = {
 	heir = {
@@ -91,18 +100,63 @@ capital = 100	# Onsen
 		birth_date = 1564.1.1
 		death_date = 1587.8.17
 		claim = 90
-		adm = 3
-		dip = 3
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	government = sengoku_monarchy
+}
+
+1582.6.21 = {
+	monarch = {
+		name = "Michinobu"
+		dynasty = "Kono"
+		birth_date = 1564.1.1
+		death_date = 1587.8.17
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Michinori"
+		monarch_name = "Michinori"
+		dynasty = "Kono"
+		birth_date = 1580.1.1
+		death_date = 1601.1.1
+		claim = 90
+		adm = 1
+		dip = 1
 		mil = 3
 	}
 }
 
-1569.10.10 = { 
+1600.9.13 = {
 	monarch = {
-		name = "Michinao"
+		name = "Michinori"
 		dynasty = "Kono"
-		adm = 5
-		dip = 5
-		mil = 5
-		}
+		birth_date = 1580.1.1
+		death_date = 1601.1.1
+		claim = 90
+		adm = 1
+		dip = 1
+		mil = 3
 	}
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	name = "Norimichi"
+		dynasty = "Kono"
+		birth_date = 1425.1.1
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = brave_personality
+	add_ruler_personality = honorable_personality
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

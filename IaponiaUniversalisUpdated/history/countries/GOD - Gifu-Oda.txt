@@ -4,6 +4,7 @@ primary_culture = mino_c
 religion = shinto
 technology_group = saigoku
 capital = 362
+mercantilism = 50
 
 1582.6.21 = {
 	monarch = {
@@ -14,6 +15,15 @@ capital = 362
 		adm = 4
 		dip = 5
 		mil = 6
+		leader = {
+			name = "Nobutaka Oda"
+			type = general
+			fire = 2
+			shock = 3
+			manuever = 3
+			siege = 0
+			death_date = 1583.6.21
+		}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = tolerant_personality

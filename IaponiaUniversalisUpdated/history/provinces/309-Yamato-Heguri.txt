@@ -37,4 +37,5 @@ trade_goods = pottery
     controller = TTI
     owner = TTI
 	remove_core = MSH
+	religion = catholic
 }

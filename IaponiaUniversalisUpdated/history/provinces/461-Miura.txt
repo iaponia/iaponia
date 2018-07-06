@@ -47,7 +47,9 @@ trade_goods = fish
 }
 
 1615.1.1 = {
-    controller = OKB
-    owner = OKB
+	add_core = SMR
+    controller = SMR
+    owner = SMR
 	remove_core = TKG
+	remove_core = OKB
 }

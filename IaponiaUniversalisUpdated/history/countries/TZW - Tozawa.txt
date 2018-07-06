@@ -4,6 +4,7 @@ primary_culture = shonai_c
 religion = shinto
 technology_group = tohoku
 capital = 572	# Yamamoto
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {

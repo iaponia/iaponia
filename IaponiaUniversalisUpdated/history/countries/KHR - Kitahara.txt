@@ -4,6 +4,7 @@ primary_culture = hyuga_c
 religion = shinto
 technology_group = kyushu
 capital = 634	# Nishi Morokata
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {

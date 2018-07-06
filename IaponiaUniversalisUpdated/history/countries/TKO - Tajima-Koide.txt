@@ -1,6 +1,20 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = biwa_c
+primary_culture = inaba_c
 religion = shinto
 technology_group = saigoku
-capital = 334
+capital = 182
+mercantilism = 50
+
+1600.9.13 = {
+	monarch = {
+		name = "Yoshimasa"
+		dynasty = "Koide"
+		birth_date = 1565.1.1
+		death_date = 1613.4.19
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = late_sengoku_monarchy
+}

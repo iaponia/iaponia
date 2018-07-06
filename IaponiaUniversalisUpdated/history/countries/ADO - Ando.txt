@@ -1,16 +1,17 @@
 government = shugo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = akita_c
 religion = shinto
 technology_group = tohoku
 capital = 575	# Hiyama
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
 		name = "Masasue"
 		dynasty = "Ando"
 		birth_date = 1440.1.1
-		# death_date = 1488.9.15
+		death_date = 1488.9.15
 		adm = 4
 		dip = 4
 		mil = 4
@@ -36,7 +37,7 @@ capital = 575	# Hiyama
 		name = "Tadasue"
 		dynasty = "Ando"
 		birth_date = 1465.1.1
-		# death_date = 1511.8.19
+		death_date = 1511.8.19
 		adm = 4
 		dip = 3
 		mil = 3
@@ -63,7 +64,7 @@ capital = 575	# Hiyama
 		name = "Hirosue"
 		dynasty = "Ando"
 		birth_date = 1490.1.1
-		# death_date = 1547.2.27
+		death_date = 1547.2.27
 		adm = 4
 		dip = 5
 		mil = 4
@@ -84,6 +85,7 @@ capital = 575	# Hiyama
 	add_ruler_personality = connected_personality
 	add_heir_personality = eloquent_personality
 	add_heir_personality = mercantile_personality
+	government = shugo_daimyo_monarchy
 }
 
 1554.3.1 = {
@@ -91,12 +93,12 @@ capital = 575	# Hiyama
 		name = "Chikasue"
 		dynasty = "Ando"
 		birth_date = 1539.1.1
-		# death_date = 1587.10.2
+		death_date = 1587.10.2
 		adm = 6
 		dip = 6
 		mil = 4
 		leader = {
-			name = "Chikasue Arima"
+			name = "Chikasue Ando"
 			type = general
 			fire = 2
 			shock = 2
@@ -109,6 +111,10 @@ capital = 575	# Hiyama
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = conscientious_personality
+}
+
+1569.10.10 = {
+	government = sengoku_monarchy
 }
 
 1582.6.21 = {
@@ -135,7 +141,7 @@ capital = 575	# Hiyama
 		name = "Sanesue"
 		dynasty = "Ando"
 		birth_date = 1576.1.1
-		# death_date = 1660.1.11
+		death_date = 1660.1.11
 		adm = 3
 		dip = 2
 		mil = 4
@@ -155,6 +161,7 @@ capital = 575	# Hiyama
 	add_ruler_personality = reckless_personality
 	add_heir_personality = conscientious_personality
 	add_heir_personality = honorable_personality
+	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {

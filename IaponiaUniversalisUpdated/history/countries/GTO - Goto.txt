@@ -4,6 +4,7 @@ primary_culture = bizen_c
 religion = shinto
 technology_group = saigoku
 capital = 219	# Katsuta
+mercantilism = 50
 	
 1511.9.25 = { 
 	monarch = {
@@ -61,5 +62,6 @@ capital = 219	# Katsuta
 	add_ruler_personality = strong_personality
 	add_ruler_personality = tolerant_personality
 	add_ruler_personality = immortal_personality
+	religion = catholic
 	government = daimyo_monarchy
 }

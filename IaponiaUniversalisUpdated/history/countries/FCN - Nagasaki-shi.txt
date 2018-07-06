@@ -1,6 +1,41 @@
-government = kokujin_monarchy
+government = merchant_republic
 government_rank = 1
-primary_culture = biwa_c
-religion = shinto
-technology_group = saigoku
-capital = 334
+primary_culture = shimabara_c
+religion = catholic
+technology_group = kyushu
+capital = 48
+mercantilism = 50
+
+1582.6.21 = {
+	monarch = {
+		name = "Francisco"
+		dynasty = "Cabral"
+		birth_date = 1529.1.1
+		death_date = 1609.1.1
+		adm = 5
+		dip = 6
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = pious_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = proud_personality
+	add_ruler_personality = ambitious_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Cosme"
+		dynasty = "de Torres"
+		birth_date = 1510.1.1
+		adm = 6
+		dip = 8
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = pious_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = upstanding_personality
+	add_ruler_personality = humble_personality
+	add_ruler_personality = immortal_personality
+}

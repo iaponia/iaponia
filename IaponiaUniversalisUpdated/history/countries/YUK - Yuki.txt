@@ -4,6 +4,7 @@ primary_culture = shimosa_c
 religion = shinto
 technology_group = togoku
 capital = 525
+mercantilism = 50
 
 1493.6.9 = {
 	monarch = {
@@ -27,8 +28,26 @@ capital = 525
 		dynasty = "Yuki"
 		birth_date = 1533.9.18
 		death_date = 1614.8.25
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 5
+		mil = 5
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Judai"
+		dynasty = "Yuki"
+		birth_date = 1500.1.1
+		adm = 5
+		dip = 7
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = gracious_personality
+	add_ruler_personality = honest_personality
+	add_ruler_personality = gregarious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

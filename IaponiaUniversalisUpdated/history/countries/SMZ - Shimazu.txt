@@ -1,11 +1,12 @@
 government = shugo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = sasshu_c
 religion = shinto
 technology_group = kyushu
 capital = 9	# Kagoshima
+mercantilism = 50
 
-1536.4.7 = {
+1536.4.7 = { 
 	monarch = {
 		name = "Takahisa"
 		dynasty = "Shimazu"
@@ -14,6 +15,16 @@ capital = 9	# Kagoshima
 		adm = 6
 		dip = 6
 		mil = 6
+		leader = {
+			name = "Takahisa Shimazu"
+			type = general
+			fire = 4
+			shock = 3
+			manuever = 3
+			siege = 2
+			death_date = 1571.7.15
+			personality = skilled_marksman_personality
+		}
 	}
 	heir = {
 		name = "Yoshihisa"
@@ -35,10 +46,10 @@ capital = 9	# Kagoshima
 	add_heir_personality = connected_personality
 	add_heir_personality = innovator_personality
 	add_heir_personality = ambitious_personality
-	government = shugo_daimyo_monarchy
+	government = sengoku_monarchy
 }
 
-1569.10.10 = {
+1569.10.10 = { 
 	monarch = {
 		name = "Yoshihisa"
 		dynasty = "Shimazu"
@@ -50,7 +61,7 @@ capital = 9	# Kagoshima
 	}
 	heir = {
 		name = "Yoshihiro"
-		monarch_name = "Yoshihiro"
+		monarch_name "Yoshihiro"
 		dynasty = "Shimazu"
 		birth_date = 1536.8.21
 		death_date = 1619.8.20
@@ -58,16 +69,6 @@ capital = 9	# Kagoshima
 		adm = 6
 		dip = 6
 		mil = 8
-		leader = {
-			name = "Yoshihiro Shimazu"
-			type = general
-			fire = 6
-			shock = 6
-			manuever = 4
-			siege = 2
-			death_date = 1619.8.20
-			personality = skilled_marksman_personality
-		}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = conscientious_personality
@@ -78,7 +79,6 @@ capital = 9	# Kagoshima
 	add_heir_personality = brave_personality
 	add_heir_personality = pious_personality
 	add_heir_personality = proud_personality
-	government = sengoku_monarchy
 	leader = {
 		name = "Iehisa Shimazu"
 		type = general
@@ -89,9 +89,25 @@ capital = 9	# Kagoshima
 		death_date = 1587.7.10
 		personality = skilled_tactician_personality
 	}
+	leader = {
+		name = "Yoshihiro Shimazu"
+		type = general
+		fire = 6
+		shock = 6
+		manuever = 6
+		siege = 0
+		death_date = 1619.8.20
+		personality = skilled_marksman_personality
+	}
 }
 
-1600.9.13 = {
+1582.6.21 = {
+	add_accepted_culture = hyuga_c
+	add_accepted_culture = kuma_c
+	government = late_sengoku_monarchy
+}
+	
+1600.9.13 = { 
 	monarch = {
 		name = "Yoshihiro"
 		dynasty = "Shimazu"
@@ -105,8 +121,8 @@ capital = 9	# Kagoshima
 			type = general
 			fire = 6
 			shock = 6
-			manuever = 4
-			siege = 2
+			manuever = 6
+			siege = 0
 			death_date = 1619.8.20
 			personality = skilled_marksman_personality
 		}
@@ -128,7 +144,7 @@ capital = 9	# Kagoshima
 	add_ruler_personality = pious_personality
 	add_ruler_personality = proud_personality
 	add_heir_personality = stern_personality
-	government = late_sengoku_monarchy
+	remove_accepted_culture = kuma_c
 }
 
 1615.1.1 = {
@@ -145,5 +161,7 @@ capital = 9	# Kagoshima
 	add_ruler_personality = connected_personality
 	add_ruler_personality = innovator_personality
 	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	remove_accepted_culture = hyuga_c
 }

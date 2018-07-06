@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = kikuchi_c
-religion = shinto
-technology_group = kyushu
+primary_culture = owari_c
+religion = nichirenshu
+technology_group = saigoku
 capital = 28
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -14,11 +15,52 @@ capital = 28
 		adm = 5
 		dip = 3
 		mil = 7
+		leader = {
+			name = "Kiyomasa Kato"
+			type = general
+			fire = 2
+			shock = 6
+			manuever = 4
+			siege = 4
+			death_date = 1611.8.2
+			personality = horse_lord_personality
+		}
 	}
+	queen = {
+        country_of_origin = TKG
+        name = "Shojoin"
+        dynasty = "Mizuno" 
+        birth_date = 1582.1.1
+        death_date = 1656.11.3
+        female = yes
+        adm = 4
+        dip = 5
+        mil = 3
+    }
 	clear_scripted_personalities = yes
 	add_ruler_personality = strong_personality
 	add_ruler_personality = stern_personality
 	add_ruler_personality = zealot_personality
 	add_ruler_personality = cruel_personality
+	add_queen_personality = humble_personality
 	government = late_sengoku_monarchy
+	primary_culture = kikuchi_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Kiyomasa"
+		dynasty = "Kato"
+		birth_date = 1562.7.25
+		adm = 5
+		dip = 3
+		mil = 7
+	}
+	government = daimyo_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = stern_personality
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = cruel_personality
+	add_ruler_personality = immortal_personality
 }

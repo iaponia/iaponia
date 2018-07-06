@@ -4,6 +4,7 @@ primary_culture = esshu_c
 religion = shinto
 technology_group = togoku
 capital = 393	# Niikawa
+mercantilism = 50
 	
 1493.6.9 = { 
 	monarch = {
@@ -11,6 +12,18 @@ capital = 393	# Niikawa
 		dynasty = "Jinbo"
 		birth_date = 1472.1.1
 		death_date = 1521.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1511.9.25 = {
+	heir = {
+		name = "Nagamoto"
+		dynasty = "Jinbo"
+		birth_date = 1503.1.1
+		death_date = 1572.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -30,3 +43,14 @@ capital = 393	# Niikawa
 	government = sengoku_monarchy
 }
 
+1536.4.7 = {
+	heir = {
+		name = "Nagazumi"
+		dynasty = "Jinbo"
+		birth_date = 1533.1.1
+		death_date = 1590.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

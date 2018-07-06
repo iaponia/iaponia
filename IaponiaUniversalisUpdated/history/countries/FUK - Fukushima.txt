@@ -4,6 +4,7 @@ primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
 capital = 367
+mercantilism = 50
 
 1600.9.13 = {
 	monarch = {
@@ -14,6 +15,16 @@ capital = 367
 		adm = 3
 		dip = 3
 		mil = 6
+		leader = {
+			name = "Masanori Fukushima"
+			type = general
+			fire = 0
+			shock = 4
+			manuever = 2
+			siege = 2
+			death_date = 1624.8.26
+			personality = horse_lord_personality
+		}
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = equestrian_personality
@@ -21,4 +32,23 @@ capital = 367
 	add_ruler_personality = tolerant_personality
 	add_ruler_personality = draconian_personality
 	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Masanori"
+		dynasty = "Fukushima"
+		birth_date = 1561.1.1
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = draconian_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	primary_culture = bishu_c
 }

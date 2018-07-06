@@ -7,6 +7,7 @@ discovered_by = ainu
 
 add_core = TKI
 add_core = INB
+add_core = STO
 owner = TKI
 controller = TKI
 

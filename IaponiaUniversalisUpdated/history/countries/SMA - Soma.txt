@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = iwaki_c
 religion = shinto
 technology_group = tohoku
 capital = 549	# Namekata
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -63,9 +64,9 @@ capital = 549	# Namekata
 		birth_date = 1529.1.1
 		death_date = 1601.11.1
 		claim = 90
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 5
+		mil = 6
 	}
 	government = sengoku_monarchy
 	clear_scripted_personalities = yes
@@ -127,5 +128,6 @@ capital = 549	# Namekata
 	add_ruler_personality = proud_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = domineering_personality
+	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
 }

@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = shimosa_c
 religion = shinto
 technology_group = togoku
 capital = 532	# Sashima
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -112,4 +113,18 @@ capital = 532	# Sashima
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Haruuji"
+		dynasty = "Ashikaga"
+		birth_date = 1508.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = daimyo_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = immortal_personality
 }

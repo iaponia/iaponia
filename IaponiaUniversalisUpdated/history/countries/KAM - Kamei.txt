@@ -1,6 +1,42 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = biwa_c
+primary_culture = unpaku_c
 religion = shinto
 technology_group = saigoku
-capital = 334
+capital = 182
+mercantilism = 50
+
+1600.9.13 = {
+	monarch = {
+		name = "Korenori"
+		dynasty = "Kamei"
+		birth_date = 1557.1.1
+		death_date = 1612.2.27
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = nautical_personality
+	primary_culture = inaba_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Korenori"
+		dynasty = "Kamei"
+		birth_date = 1557.1.1
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = ambitious_personality
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = immortal_personality
+	primary_culture = inaba_c
+	capital = 133
+}

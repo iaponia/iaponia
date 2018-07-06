@@ -4,6 +4,7 @@ primary_culture = shimanto_c
 religion = shinto
 technology_group = saigoku
 capital = 163	# Takaoka
+mercantilism = 50
 
 1523.8.25 = {
 	monarch = {

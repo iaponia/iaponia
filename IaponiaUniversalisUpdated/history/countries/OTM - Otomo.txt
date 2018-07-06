@@ -1,9 +1,11 @@
 government = shugo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = bungo_c
+add_accepted_culture = chikugo_c
 religion = shinto
 technology_group = kyushu
 capital = 40	# Oita
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -151,8 +153,8 @@ capital = 40	# Oita
 	leader = {
 		name = "Akitsura Tachibana"
 		type = general
-		fire = 4
-		shock = 6
+		fire = 6
+		shock = 4
 		manuever = 2
 		siege = 2
 		death_date = 1585.11.2
@@ -201,6 +203,7 @@ capital = 40	# Oita
 		personality = calm_commander_personality
 	}
 	clear_scripted_personalities = yes
+	add_accepted_culture = kikuchi_c
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = pious_personality
 	add_ruler_personality = gracious_personality
@@ -231,11 +234,13 @@ capital = 40	# Oita
 	add_heir_personality = honest_personality
 	add_heir_personality = drunk_personality
 	government = sengoku_monarchy
+	add_accepted_culture = chikuzen_c
+	add_accepted_culture = buzen_c
 	leader = {
 		name = "Akitsura Tachibana"
 		type = general
-		fire = 4
-		shock = 6
+		fire = 6
+		shock = 4
 		manuever = 2
 		siege = 2
 		death_date = 1585.11.2
@@ -264,6 +269,7 @@ capital = 40	# Oita
 		death_date = 1660.1.1
 		personality = skilled_marksman_personality
 	}
+	religion = catholic
 }
 	
 1600.9.13 = { 
@@ -296,6 +302,10 @@ capital = 40	# Oita
 	add_heir_personality = conscientious_personality
 	add_heir_personality = equestrian_personality
 	government = late_sengoku_monarchy
+	remove_accepted_culture = chikugo_c
+	remove_accepted_culture = chikuzen_c
+	remove_accepted_culture = kikuchi_c
+	remove_accepted_culture = buzen_c
 }
 
 1615.1.1 = {
@@ -303,7 +313,6 @@ capital = 40	# Oita
 		name = "Yoshishige"
 		dynasty = "Otomo"
 		birth_date = 1530.1.31
-		death_date = 1587.6.11
 		adm = 7
 		dip = 8
 		mil = 5

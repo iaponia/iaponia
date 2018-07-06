@@ -1,10 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = hyuga_c
 religion = shinto
 technology_group = kyushu
 capital = 20	# Hyuga-Naka
-
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -89,6 +89,15 @@ capital = 20	# Hyuga-Naka
 		dip = 4
 		mil = 4
 	}
+	leader = {
+		name = "Sukeyasu Ito"
+		type = general
+		fire = 2
+		shock = 3
+		manuever = 3
+		siege = 0
+		death_date = 1572.6.14
+	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = pious_personality
 	add_ruler_personality = centralizer_personality
@@ -104,10 +113,17 @@ capital = 20	# Hyuga-Naka
 		birth_date = 1559.2.22
 		death_date = 1600.11.16
 		claim = 90
-		adm = 6
+		adm = 5
 		dip = 6
 		mil = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = pious_personality
+	add_ruler_personality = centralizer_personality
+	add_ruler_personality = elitist_personality
+	add_ruler_personality = profligate_personality
+	add_heir_personality = equestrian_personality
+	add_heir_personality = conscientious_personality
 }
 
 1600.9.13 = {
@@ -116,11 +132,14 @@ capital = 20	# Hyuga-Naka
 		dynasty = "Ito"
 		birth_date = 1559.2.22
 		death_date = 1600.11.16
-		adm = 6
+		adm = 5
 		dip = 6
 		mil = 6
 	}
 	government = late_sengoku_monarchy
+	clear_scripted_personalities = yes
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = conscientious_personality
 }
 
 1615.1.1 = {
@@ -128,7 +147,6 @@ capital = 20	# Hyuga-Naka
 		name = "Yoshisuke"
 		dynasty = "Ito"
 		birth_date = 1512.1.1
-		death_date = 1585.8.29
 		adm = 7
 		dip = 6
 		mil = 6

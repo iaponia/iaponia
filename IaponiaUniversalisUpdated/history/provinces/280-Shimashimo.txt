@@ -8,6 +8,7 @@ discovered_by = ainu
 
 add_core = HSK
 add_core = YKS
+add_core = TKY
 owner = HSK
 controller = HSK
 
@@ -35,16 +36,16 @@ trade_goods = rice
 }
 
 1569.10.10 = {
-    add_core = AAI
+    add_core = WAD
 	add_core = TKY
-    controller = AAI
-	remove_core = WAD
-    owner = AAI
+    controller = WAD
+    owner = WAD
 }
 
 1582.6.21 = {
     controller = TKY
     owner = TKY
+	remove_core = WAD
 	religion = catholic
 }
 

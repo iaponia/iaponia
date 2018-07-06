@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = seishu_c
 religion = shinto
 technology_group = saigoku
 capital = 343	# Ise-Taki
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -68,9 +69,9 @@ capital = 343	# Ise-Taki
 		dynasty = "Kitabatake"
 		birth_date = 1503.1.1
 		death_date = 1563.10.4
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 4
+		mil = 4
 	}
 	government = sengoku_monarchy
 }
@@ -103,6 +104,15 @@ capital = 343	# Ise-Taki
 		adm = 5
 		dip = 5
 		mil = 6
+		leader = {
+			name = "Tomonori Kitabatake"
+			type = general
+			fire = 2
+			shock = 4
+			manuever = 2
+			siege = 0
+			death_date = 1576.12.15
+		}
 	}
 	heir = {
 		name = "Tomofusa"

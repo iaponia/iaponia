@@ -4,6 +4,7 @@ primary_culture = omi_c
 religion = shinto
 technology_group = saigoku 
 capital = 335
+mercantilism = 50
 
 1582.6.21 = {
 	monarch = {
@@ -14,12 +15,34 @@ capital = 335
 		adm = 7
 		dip = 7
 		mil = 8
+		leader = {
+			name = "Ujisato Gamo"
+			type = general
+			fire = 5
+			shock = 5
+			manuever = 4
+			siege = 4
+			death_date = 1595.3.17
+			personality = frontline_leader_personality
+		}
 	}
+	queen = {
+        country_of_origin = ODA
+        name = "Fuyu"
+        dynasty = "Oda" 
+        birth_date = 1561.1.1
+        death_date = 1641.1.1
+        female = yes
+        adm = 5
+        dip = 7
+        mil = 3
+    }
 	clear_scripted_personalities = yes
 	add_ruler_personality = stern_personality
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = erudite_personality
 	add_ruler_personality = pious_personality
+	add_queen_personality = honorable_personality
 	government = late_sengoku_monarchy
 }
 
@@ -37,4 +60,26 @@ capital = 335
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = lenient_personality
+	religion = catholic
+	primary_culture = shimotsuke_c
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Ujisato"
+		dynasty = "Gamo"
+		birth_date = 1556.1.1
+		death_date = 1595.3.17
+		adm = 7
+		dip = 7
+		mil = 8
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = stern_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = pious_personality
+	add_ruler_personality = immortal_personality
+	primary_culture = okitama_c
+	government = daimyo_monarchy
 }

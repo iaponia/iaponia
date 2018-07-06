@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = bishu_c
-religion = shinto
+religion = nichirenshu
 technology_group = saigoku
 capital = 206	# Tsu
+mercantilism = 50
 	
 1493.6.9 = { 
 	monarch = {
@@ -62,4 +63,18 @@ capital = 206	# Tsu
 		dip = 3
 		mil = 3
 	}
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Hisataka"
+		dynasty = "Ishikawa"
+		birth_date = 1518.1.1
+		death_date = 1575.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

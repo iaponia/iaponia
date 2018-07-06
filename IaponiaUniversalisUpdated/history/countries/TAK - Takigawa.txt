@@ -1,11 +1,68 @@
 government = kokujin_monarchy
 government_rank = 1
-primary_culture = kozuke_c
+primary_culture = owari_c
 religion = shinto
 technology_group = saigoku
 capital = 356
+mercantilism = 50
 
 1582.6.21 = {
+	monarch = {
+		name = "Kazumasu"
+		dynasty = "Takigawa"
+		birth_date = 1525.1.1
+		death_date = 1586.10.21
+		adm = 6
+		dip = 5
+		mil = 4
+		leader = {
+			name = "Kazumasu Takigawa"
+			type = general
+			fire = 4
+			shock = 2
+			manuever = 4
+			siege = 2
+			death_date = 1586.10.21
+			personality = skilled_marksman_personality
+		}
+	}
+	heir = {
+		name = "Katsutoshi"
+		dynasty = "Takigawa"
+		birth_date = 1543.1.1
+		death_date = 1610.3.21
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = cunning_personality
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = craven_personality
+	government = late_sengoku_monarchy
+	primary_culture = seishu_c
+	add_accepted_culture = kozuke_c
+	add_accepted_culture = shinano_c
+	add_accepted_culture = iga_c
+}
+
+1600.9.13 = {
+	monarch = {
+		name = "Katsutoshi"
+		dynasty = "Takigawa"
+		birth_date = 1543.1.1
+		death_date = 1610.3.21
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	remove_accepted_culture = kozuke_c
+	remove_accepted_culture = shinano_c
+	remove_accepted_culture = iga_c
+}
+
+1615.1.1 = {
 	monarch = {
 		name = "Kazumasu"
 		dynasty = "Takigawa"
@@ -18,6 +75,8 @@ capital = 356
 	clear_scripted_personalities = yes
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = cunning_personality
+	add_ruler_personality = nautical_personality
 	add_ruler_personality = craven_personality
-	government = late_sengoku_monarchy
+	government = daimyo_monarchy
+	religion = jodoshinshu
 }

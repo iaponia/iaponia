@@ -1,9 +1,10 @@
 government = kokujin_monarchy
 government_rank = 1
 primary_culture = sasshu_c
-religion = shinto
+religion = nichirenshu
 technology_group = kyushu
 capital = 94	# Tanegashima
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {

@@ -27,9 +27,9 @@ trade_goods = lumber
 }
 
 1615.1.1 = {
-	add_core = SNJ
-	owner = SNJ
-	controller = SNJ
+	add_core = IUM
+	owner = IUM
+	controller = IUM
 	remove_core = ATK
 	remove_core = KNO
 }

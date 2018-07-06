@@ -4,6 +4,7 @@ primary_culture = iwashiro_c
 religion = shinto
 technology_group = tohoku
 capital = 548
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {

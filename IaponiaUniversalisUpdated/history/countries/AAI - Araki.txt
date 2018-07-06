@@ -4,21 +4,50 @@ primary_culture = sesshu_c
 religion = shinto
 technology_group = saigoku
 capital = 260
+mercantilism = 50
 
 1536.4.7 = {
 	monarch = {
 		name = "Murashige"
 		dynasty = "Araki"
 		birth_date = 1535.1.1
-		# death_date = 1586.6.20
+		death_date = 1586.6.20
+		adm = 6
+		dip = 5
+		mil = 6
+		leader = { 
+			name = "Murashige Araki"	
+			type = general	
+			fire = 3	
+			shock = 3	
+			manuever = 3	
+			siege = 3
+			death_date = 1586.6.20
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strong_personality
+	add_ruler_personality = architect_personality
+	add_ruler_personality = artistic_personality
+	add_ruler_personality = dishonorable_personality
+	government = sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Murashige"
+		dynasty = "Araki"
+		birth_date = 1535.1.1
 		adm = 6
 		dip = 5
 		mil = 6
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = equestrian_personality
+	add_ruler_personality = strong_personality
 	add_ruler_personality = architect_personality
 	add_ruler_personality = artistic_personality
 	add_ruler_personality = dishonorable_personality
-	government = sengoku_monarchy
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+	religion = jodoshinshu
 }

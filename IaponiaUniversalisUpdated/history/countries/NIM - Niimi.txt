@@ -4,6 +4,7 @@ primary_culture = bishu_c
 religion = shinto
 technology_group = saigoku
 capital = 200	# Tetta
+mercantilism = 50
 	
 1467.6.15 = {
 	monarch = {

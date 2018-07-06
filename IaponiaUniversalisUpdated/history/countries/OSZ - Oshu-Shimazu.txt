@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 3
+government_rank = 1
 primary_culture = sasshu_c
 religion = shinto
 technology_group = kyushu
 capital = 9	# Kagoshima
+mercantilism = 50
 
 1467.6.15 = { 
 	monarch = {

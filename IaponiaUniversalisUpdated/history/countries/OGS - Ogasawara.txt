@@ -1,9 +1,10 @@
 government = shugo_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = suwa_c
 religion = shinto
 technology_group = togoku
 capital = 437	# Tsukama
+mercantilism = 50
 	
 1467.6.15 = { 
 	monarch = {
@@ -114,5 +115,6 @@ capital = 437	# Tsukama
 	add_ruler_personality = gregarious_personality
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = centralizer_personality
+	add_ruler_personality = immortal_personality
 	government = sengoku_monarchy
 }

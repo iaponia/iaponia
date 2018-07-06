@@ -4,6 +4,7 @@ primary_culture = iyo_c
 religion = shinto
 technology_group = saigoku
 capital = 106
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -52,7 +53,44 @@ capital = 106
 		dip = 6
 		mil = 6
 	}
+	heir = {
+		name = "Motoyoshi"
+		dynasty = "Murakami"
+		birth_date = 1553.1.1
+		death_date = 1600.10.24
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	leader = {
+		name = "Takeyoshi Murakami"
+		type = admiral
+		fire = 4
+		shock = 3
+		manuever = 5
+		siege = 2
+		death_date = 1604.1.1
+		personality = famous_pirate_personality
+	}
+	clear_scripted_personalities = yes
 	add_ruler_personality = nautical_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = mercantile_personality
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Takeyoshi"
+		dynasty = "Murakami"
+		birth_date = 1533.1.1
+		adm = 3
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = mercantile_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

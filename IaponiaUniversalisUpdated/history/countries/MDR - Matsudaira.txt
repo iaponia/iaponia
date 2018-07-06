@@ -1,9 +1,10 @@
 government = kokujin_monarchy
-government_rank = 2
+government_rank = 1
 primary_culture = mikawa_c
 religion = shinto
 technology_group = togoku
 capital = 412	# Nukata
+mercantilism = 50
 
 1493.6.9 = { 
 	monarch = {
@@ -68,6 +69,16 @@ capital = 412	# Nukata
 		adm = 7
 		dip = 7
 		mil = 7
+		leader = {
+			name = "Kiyoyasu Matsudaira"
+			type = general
+			fire = 3
+			shock = 4
+			manuever = 3
+			siege = 2
+			death_date = 1535.12.29
+			personality = local_recruiter_personality
+		}
 	}
 	government = sengoku_monarchy
 	clear_scripted_personalities = yes
@@ -117,12 +128,34 @@ capital = 412	# Nukata
 		adm = 8
 		dip = 8
 		mil = 7
+		leader = {
+			name = "Motoyasu Matsudaira"
+			type = general
+			fire = 4
+			shock = 3
+			manuever = 3
+			siege = 4
+			death_date = 1616.5.22
+			personality = artillery_commander_personality
+		}
 	}
+	queen = {
+        country_of_origin = IMG
+        name = "Sena"
+        dynasty = "Imagawa" 
+        birth_date = 1540.1.1
+        death_date = 1579.9.19
+        female = yes
+        adm = 3
+        dip = 4
+        mil = 3
+    }
 	clear_scripted_personalities = yes
 	add_ruler_personality = stern_personality
 	add_ruler_personality = strong_personality
 	add_ruler_personality = proud_personality
 	add_ruler_personality = draconian_personality
+	add_queen_personality = domineering_personality
 }
 
 1615.1.1 = {
@@ -130,7 +163,6 @@ capital = 412	# Nukata
 		name = "Kiyoyasu"
 		dynasty = "Matsudaira"
 		birth_date = 1511.9.28
-		death_date = 1535.12.29
 		adm = 7
 		dip = 7
 		mil = 7
@@ -140,4 +172,6 @@ capital = 412	# Nukata
 	add_ruler_personality = architect_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = ambitious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

@@ -4,6 +4,7 @@ primary_culture = kozuke_c
 religion = shinto
 technology_group = togoku
 capital = 495
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {
@@ -40,4 +41,16 @@ capital = 495
 		mil = 3
 	}
 	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
+	monarch = {
+		name = "Akimitsu"
+		dynasty = "Numata"
+		birth_date = 1503.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	government = daimyo_monarchy
 }

@@ -4,6 +4,7 @@ primary_culture = hida_c
 religion = shinto
 technology_group = togoku
 capital = 396	# Mashita
+mercantilism = 50
 	
 1511.9.25 = { 
 	monarch = {

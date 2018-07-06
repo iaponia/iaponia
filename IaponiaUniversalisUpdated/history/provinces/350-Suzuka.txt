@@ -69,5 +69,4 @@ trade_goods = paper
     owner = TOD
     controller = TOD
 	remove_core = TAK
-	religion = shinto
 }

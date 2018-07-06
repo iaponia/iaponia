@@ -4,6 +4,7 @@ primary_culture = kii_c
 religion = shinto
 technology_group = saigoku
 capital = 617	# Muro
+mercantilism = 50
 
 1536.4.7 = { 
 	monarch = {

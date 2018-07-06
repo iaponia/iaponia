@@ -62,5 +62,4 @@ trade_goods = seaweed
     owner = TOD
     controller = TOD
 	remove_core = TAK
-	religion = shinto
 }

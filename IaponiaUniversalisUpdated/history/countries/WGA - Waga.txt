@@ -4,6 +4,7 @@ primary_culture = oshu_c
 religion = shinto
 technology_group = tohoku
 capital = 598	# Waga
+mercantilism = 50
 
 1467.6.15 = {
 	monarch = {

@@ -4,3 +4,22 @@ primary_culture = totomi_c
 religion = shinto
 technology_group = togoku
 capital = 421
+mercantilism = 50
+
+1615.1.1 = {
+	monarch = {
+		name = "Naomasa"
+		dynasty = "Ii"
+		birth_date = 1561.4.4
+		adm = 6
+		dip = 6
+		mil = 7
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = equestrian_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = conscientious_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
+}

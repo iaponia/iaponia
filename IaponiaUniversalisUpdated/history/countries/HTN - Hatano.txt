@@ -4,6 +4,7 @@ primary_culture = tanshu_c
 religion = shinto
 technology_group = saigoku
 capital = 258	# Taki
+mercantilism = 50
 	
 1523.8.25 = { 
 	monarch = {

@@ -4,8 +4,47 @@ primary_culture = seishu_c
 religion = shinto
 technology_group = saigoku
 capital = 346
+mercantilism = 50
 
 1582.6.21 = {
+	monarch = {
+		name = "Yoshitaka"
+		dynasty = "Kuki"
+		birth_date = 1542.1.1
+		death_date = 1600.11.17
+		adm = 4
+		dip = 6
+		mil = 7
+	}
+	heir = {
+		name = "Moritaka"
+		dynasty = "Kuki"
+		birth_date = 1573.1.1
+		death_date = 1632.9.28
+		adm = 3
+		dip = 5
+		mil = 6
+	}
+	leader = {
+		name = "Yoshitaka Kuki"
+		type = admiral
+		fire = 4
+		shock = 3
+		manuever = 2
+		siege = 3
+		death_date = 1632.9.28
+		personality = iron_ships_personality
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = nautical_personality
+	add_ruler_personality = brave_personality
+	add_ruler_personality = innovator_personality
+	add_ruler_personality = erudite_personality
+	add_heir_personality = nautical_personality
+	government = late_sengoku_monarchy
+}
+
+1615.1.1 = {
 	monarch = {
 		name = "Yoshitaka"
 		dynasty = "Kuki"
@@ -19,5 +58,7 @@ capital = 346
 	add_ruler_personality = nautical_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = innovator_personality
-	government = late_sengoku_monarchy
+	add_ruler_personality = erudite_personality
+	add_ruler_personality = immortal_personality
+	government = daimyo_monarchy
 }

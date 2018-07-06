@@ -4,13 +4,14 @@ primary_culture = aso_c
 religion = shinto
 technology_group = kyushu
 capital = 30	# Aso
-
-1467.6.15 = {
+mercantilism = 50
+	
+1467.6.15 = { 
 	monarch = {
 		name = "Koretada"
 		dynasty = "Aso"
 		birth_date = 1415.1.1
-		# death_date = 1485.1.1
+		death_date = 1485.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -29,13 +30,13 @@ capital = 30	# Aso
 	clear_scripted_personalities = yes
 	add_heir_personality = centralizer_personality
 }
-
-1493.6.9 = {
+	
+1493.6.9 = { 
 	monarch = {
 		name = "Korenori"
 		dynasty = "Aso"
 		birth_date = 1451.1.1
-		# death_date = 1537.1.1
+		death_date = 1537.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -57,12 +58,12 @@ capital = 30	# Aso
 	add_heir_personality = domineering_personality
 }
 
-1511.9.25 = {
+1511.9.25 = { 
 	monarch = {
 		name = "Koretoyo"
 		dynasty = "Aso"
 		birth_date = 1493.1.1
-		# death_date = 1559.12.5
+		death_date = 1559.12.5
 		adm = 5
 		dip = 6
 		mil = 5
@@ -106,13 +107,13 @@ capital = 30	# Aso
 	}
 	government = sengoku_monarchy
 }
-
-1569.10.10 = {
+	
+1569.10.10 = { 
 	monarch = {
 		name = "Koremasa"
 		dynasty = "Aso"
 		birth_date = 1520.1.1
-		# death_date = 1583.12.1
+		death_date = 1583.12.1
 		adm = 5
 		dip = 5
 		mil = 4
@@ -131,7 +132,7 @@ capital = 30	# Aso
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = gregarious_personality
 }
-
+	
 1615.1.1 = {
 	monarch = {
 		name = "Koretoyo"

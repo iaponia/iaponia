@@ -4,6 +4,7 @@ primary_culture = iwafune_c
 religion = shinto
 technology_group = togoku
 capital = 558	# Nutari
+mercantilism = 50
 	
 1511.9.25 = { 
 	monarch = {
@@ -51,4 +52,5 @@ capital = 558	# Nutari
 	add_ruler_personality = dishonorable_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
+	religion = jodoshinshu
 }

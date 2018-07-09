@@ -8,7 +8,7 @@ mercantilism = 50
 
 1615.1.1 = {
 	monarch = {
-		name = ""
+		name = "Shigeharu"
 		dynasty = "Takenaka"
 		birth_date = 1544.9.7
 		adm = 4

@@ -9,6 +9,7 @@ discovered_by = ainu
 add_core = OUC
 add_core = IWY
 add_core = MST
+add_core = YSM
 owner = IWY
 controller = IWY
 
@@ -36,7 +37,6 @@ trade_goods = rice
 }
 
 1554.3.1 = {
-    add_core = YSM
     controller = YSM
     owner = YSM
 }

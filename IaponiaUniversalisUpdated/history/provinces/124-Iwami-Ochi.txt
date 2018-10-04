@@ -7,6 +7,7 @@ discovered_by = ainu
 
 add_core = OUC
 add_core = IWY
+add_core = MST
 owner = IWY
 controller = IWY
 
@@ -45,6 +46,10 @@ trade_goods = lumber
 
 1582.6.21 = {
 	remove_core = AMA
+}
+
+1600.9.13 = {
+	remove_core = MST
 }
 
 1615.1.1 = {

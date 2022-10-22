@@ -158,3 +158,8 @@ birthplace_of_kokudaka_system = {
 birthplace_of_rangaku = {
 	local_development_cost = -0.1
 }
+
+#harmony
+harmonized_nichirenshu = {}
+harmonized_jodoshinshu = {}
+harmonized_ainu_group = {}

@@ -4,7 +4,7 @@ graphical_culture = asiangfx
 
 color = { 109  166  23 }
 
-preferred_religion = mahayana
+preferred_religion = shinto
 
 historical_idea_groups = {
 	administrative_ideas

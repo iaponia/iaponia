@@ -91,5 +91,5 @@ army_names = {
 }
 
 fleet_names = {
-	Natsuka Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
+	"Natsuka Suigun" "$PROVINCE$ Suigun" "$PROVINCE$ Sendan" "$PROVINCE$ Tai"
 }

@@ -53,7 +53,7 @@ categories =  {
 		sound_type = plains
 
 		movement_cost = 1
-		combat_width = 0.1
+		# combat_width = 0.1
 		local_development_cost = -0.1
 		supply_limit = 10
 		allowed_num_of_buildings = 3
@@ -76,7 +76,7 @@ categories =  {
 		sound_type = forest
 
 		movement_cost = 1.2
-		combat_width = -0.2
+		#combat_width = -0.2
 		supply_limit = 5
 		allowed_num_of_buildings = 1
 		local_development_cost = 0.05
@@ -124,7 +124,7 @@ categories =  {
 		sound_type = forest
 
 		movement_cost = 1.1
-		combat_width = -0.1
+		# combat_width = -0.1
 		allowed_num_of_buildings = 1
 		nation_designer_cost_multiplier = 1
 		supply_limit = 7
@@ -146,7 +146,7 @@ categories =  {
 
 		movement_cost = 1.5
 		defence = 2
-		combat_width = -0.1
+		# combat_width = -0.1
 		local_defensiveness = 0.25
 		local_development_cost = 0.3
 		nation_designer_cost_multiplier = 0.75
@@ -255,7 +255,7 @@ categories =  {
 		allowed_num_of_buildings = 2
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 7
-		combat_width = -0.1
+		# combat_width = -0.1
 
 		terrain_override = {
 		1 2 3 62 67 68 72 89 90 91 92 93 94 695 697 703 704 705 709 715 718

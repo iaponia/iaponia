@@ -183,7 +183,7 @@ kanto_region = {
 		kanagawa_area
 		edotama_area
 		saitama_area
-		chichibu_area
+		#chichibu_area
 		iruma_area
 		kodama_area
 		utsunomiya_area

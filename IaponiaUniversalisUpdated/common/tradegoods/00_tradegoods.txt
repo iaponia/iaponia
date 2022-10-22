@@ -185,6 +185,17 @@ horses = {
 	}
 }
 
+#remove later
+slaves = {
+	color = { 0.10 0.30 0.80 }
+	modifier = {
+		shock_damage = 0.1
+	}
+	province = {
+		local_manpower_modifier = 0.10
+	}
+}
+
 firearms = {
 	color = { 0.15 0.10 0.25 }
 	modifier = {

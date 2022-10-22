@@ -164,7 +164,7 @@ pagan_ideas = {
 			NOT = { has_idea_group = westernized_ideas }
 			OR = {
 				religion = ainu
-				religion = ryukyu
+				religion = ryukyuan
 			}
 		}
 	}
@@ -267,7 +267,7 @@ aristocratic_ideas = {
 
 	trigger = {
 		AND = {
-			government = monarchy
+			has_government_attribute = enables_aristocratic_idea_group
 			NOT = { has_idea_group = meritocratic_ideas }
 		}
 	}
@@ -312,7 +312,7 @@ ecclesiocratic_ideas = {
 
 	trigger = {
 		AND = {
-			NOT = { government = monarchy }
+			NOT = { has_government_attribute = enables_aristocratic_idea_group }
 			NOT = { has_idea_group = meritocratic_ideas }
 			NOT = { has_idea_group = pluralist_ideas }
 		}
@@ -465,7 +465,7 @@ expansion_ideas = {
 		province_warscore_cost = -0.2
 	}
 	expansion_five = {
-		max_states = 5
+		governing_capacity_modifier = 0.20
 	}
 	expansion_six = {
 		state_maintenance_modifier = -0.25
@@ -758,7 +758,7 @@ offensive_ideas = {
 		land_attrition = -0.1
 	}
 	offensive_seven = {
-		artillery_bonus_vs_fort = 1
+		artillery_levels_available_vs_fort = 1
 	}
 
 	ai_will_do = {

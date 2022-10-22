@@ -58,8 +58,10 @@ default_monarchy = {
 		5 = LADY
 	}
 	
+	government_reform = monarchy_mechanic
+
 	trigger = {
-		government = monarchy
+		has_reform = monarchy_mechanic
 	}
 }
 
@@ -88,8 +90,10 @@ default_republic = {
 		5 = LADY
 	}
 	
+	government_reform = republic_mechanic
+
 	trigger = {
-		government = republic
+		has_reform = republic_mechanic
 	}
 }
 
@@ -118,7 +122,9 @@ default_theocracy = {
 		5 = LADY
 	}
 	
+	government_reform = theocracy_mechanic
+
 	trigger = {
-		government = theocracy
+		has_reform = theocracy_mechanic
 	}
 }

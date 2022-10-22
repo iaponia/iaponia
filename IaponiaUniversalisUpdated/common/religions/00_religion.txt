@@ -4,6 +4,7 @@
 
 christian = {
 
+	crusade_name = CRUSADE
 	center_of_religion = 683 # Kyoto
 
 	shinto = {
@@ -190,6 +191,9 @@ christian = {
 				allow = {
 					always = yes
 				}
+				visible = {
+					always = yes
+				}
 				ai_will_do = {
 					factor = 1
 					modifier = {
@@ -204,6 +208,9 @@ christian = {
 				land_maintenance_modifier = -0.1
 				
 				allow = {
+					always = yes
+				}
+				visible = {
 					always = yes
 				}
 				ai_will_do = {
@@ -226,6 +233,9 @@ christian = {
 				allow = {
 					always = yes
 				}
+				visible = {
+					always = yes
+				}
 				ai_will_do = {
 					factor = 1
 				}
@@ -235,6 +245,9 @@ christian = {
 				missionaries = 1
 				global_missionary_strength = 0.01
 				allow = {
+					always = yes
+				}
+				visible = {
 					always = yes
 				}
 				ai_will_do = {
@@ -268,7 +281,7 @@ christian_group = {
 	
 	ai_will_propagate_through_trade = yes
 	
-	harmonized_modifier = harmonized_christian_group
+	harmonized_modifier = harmonized_christian
 	
 	crusade_name = LIBERATION
 	

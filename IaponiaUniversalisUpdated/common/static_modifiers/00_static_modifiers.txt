@@ -147,7 +147,7 @@ tropical = {
 	supply_limit_modifier = -0.3
 	local_hostile_attrition = 2
 
-	cs_only_local_development_cost = 0.15
+	local_development_cost = 0.1
 
 	picture = "climate_tropical"
 }
@@ -158,7 +158,7 @@ arctic = {
 	local_hostile_attrition = 1
 
 	allowed_num_of_buildings = -1
-	cs_only_local_development_cost = 0.5
+	local_development_cost = 0.5
 
 	picture = "climate_arctic"
 }
@@ -168,7 +168,7 @@ arid = {
 	supply_limit_modifier = -0.2
 	local_hostile_attrition = 1
 
-	cs_only_local_development_cost = 0.15
+	local_development_cost = 0.1
 
 	picture = "climate_arid"
 }
@@ -207,12 +207,35 @@ severe_winter = {
 	picture = "winter_severe"
 }
 
-blockaded = {
-	ship_recruit_speed = 0.5
-	trade_goods_size_modifier = -0.5
-	province_trade_power_modifier = -0.75
-	local_monthly_devastation = 0.1
+mild_monsoon = {
+	local_hostile_attrition = 0.5
+	local_hostile_movement_speed = -0.20
+	local_friendly_movement_speed = -0.20
 
+	picture = "monsoon_mild"
+}
+
+normal_monsoon = {
+	local_hostile_attrition = 1
+	local_hostile_movement_speed = -0.25
+	local_friendly_movement_speed = -0.25
+
+	picture = "monsoon_normal"
+}
+
+severe_monsoon = {
+	local_hostile_attrition = 1.5
+	local_hostile_movement_speed = -0.50
+	local_friendly_movement_speed = -0.50
+
+	picture = "monsoon_severe"
+}
+
+blockaded = {
+	regiment_recruit_speed = 0.2
+	ship_recruit_speed = 0.2
+	local_monthly_devastation = 0.25
+	province_trade_power_modifier = -0.5
 }
 
 no_adjacent_controlled = {
@@ -230,6 +253,10 @@ provincial_production_size = {
 
 knowledge_sharing = {
 	institution_growth = 12
+}
+
+cardinals_spread_institution = {
+	institution_growth = 20
 }
 
 manpower = {
@@ -317,6 +344,31 @@ core = {
 }
 
 non_core = {
+	local_missionary_strength = -0.02
+}
+
+colonial_core = {
+	local_tax_modifier = 0.75				#90% more in a core
+	local_manpower_modifier = 0.75			#75% more in a core
+	local_sailors_modifier = 0.75
+	local_missionary_strength = -0.02
+	min_local_autonomy = 50
+	local_governing_cost = -0.5
+}
+
+territory_core = {
+	local_tax_modifier = 0.75				#90% more in a core
+	local_manpower_modifier = 0.75			#75% more in a core
+	local_sailors_modifier = 0.75
+	local_missionary_strength = -0.02
+	min_local_autonomy = 90
+	local_governing_cost = -0.75
+}
+
+territory_non_core = {
+	local_missionary_strength = -0.02
+	min_local_autonomy = 90
+	local_governing_cost = -0.75
 }
 
 march_bonus = {
@@ -458,7 +510,16 @@ local_autonomy_multiplicative = {
 local_autonomy = {
 }
 
+local_autonomy_trade_company_multiplicative = {
+	local_manpower_modifier = -1.0
+	local_sailors_modifier = -1.0
+	local_tax_modifier = -1.0
+	local_production_efficiency = -0.5
+	land_forcelimit_modifier = -1.0
+}
 
+local_autonomy_trade_company = {
+}
 
 recent_uprising = {
 	local_unrest = -100
@@ -777,6 +838,10 @@ defender_of_faith = {
 	trade_efficiency = 0.1
 }
 
+defender_of_faith_refused_cta = {
+	diplomatic_reputation = -1
+}
+
 emperor = {
 	spy_offence = 0.1					#minor bonus on spies.
 	advisor_pool = 1
@@ -811,6 +876,10 @@ occupied_imperial = {
 	legitimacy = -0.5
 }
 
+emperor_revoked_reform =  {
+	diplomatic_reputation = -3
+}
+
 num_of_marriages = {
 	legitimacy = 0.10
 	heir_chance = 0.05
@@ -818,10 +887,34 @@ num_of_marriages = {
 }
 
 num_of_provinces = {
-
+	
 }
 
-# Multiplied by Development
+# Multiplied by the amount of papal influence
+papal_influence = {
+}
+
+# Multiplied by the amount of Church Power
+church_power = {
+}
+
+# Multiplied by the amount of Fervor
+fervor = {
+}
+
+# Multiplied by the amount of Karma
+karma = {
+}
+
+# Multiplied by the amount of positive karma
+positive_karma = {
+}
+
+# Multiplied by the amount of negative karma
+negative_karma = {
+}
+
+# Multiplied by Development/COUNTRY_DEVELOPMENT_SCALE
 country_development = {
 	horde_unity = -3
 	yearly_tribal_allegiance = -3
@@ -843,14 +936,15 @@ legitimacy = {
 	reduced_liberty_desire = 10
 	vassal_income = 0.5
 	max_absolutism = 20
+	nobles_loyalty_modifier = 0.1
 }
 
 #Multiplied by current Horde Unity - 50
 horde_unity = {
 	global_unrest = -4
 	discipline = 0.10
+	#nomadic_tribes_loyalty_modifier = 0.05	#New Change
 }
-
 
 # Multiplied by current Devotion - 50
 devotion = {
@@ -1018,6 +1112,9 @@ inverse_republican_tradition = {
 	state_maintenance_modifier = 1.5
 }
 
+########################################
+# Curia-related modifiers
+########################################
 
 curia_controller = {
 	diplomats = 1							#1 extra diplomat as curia controller
@@ -1038,6 +1135,7 @@ bought_indulgence = {
 religious_unity = {
 	church_loyalty_modifier = 0.05
 	brahmins_hindu_loyalty_modifier = 0.05
+	yearly_harmony = 1
 }
 
 inverse_religious_unity = {
@@ -1072,6 +1170,10 @@ production_leader = {
 	trade_goods_size_modifier = 0.10
 }
 
+
+trade_company_bonus = {
+	trade_goods_size_modifier = 1.0
+}
 
 bonus_from_merchant_republics = {
 	trade_goods_size_modifier = 0.5
@@ -1132,7 +1234,7 @@ absolutism = {
 	devotion = -0.5
 	development_cost = 0.1
 	stability_cost_modifier = 0.25
-	possible_mercenaries = -0.5
+	mercenary_cost = 0.25
 	state_maintenance_modifier = 0.5
 }
 
@@ -1366,64 +1468,6 @@ drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
 	yearly_army_professionalism = 0.01
 }
 
-########################################
-# Regiment Types Modifiers
-########################################
-regiment_drill_modifier = { # Used by individual regiments
-	shock_damage = 0.25
-	fire_damage = 0.25
-	fire_damage_received = -0.25
-	shock_damage_received = -0.25
-	land_morale = 0.05
-	recover_army_morale_speed = 0.05
-}
-
-army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
-
-}
-
-########################################
-# Harmony
-########################################
-
-high_harmony = {
-	advisor_cost = -0.25
-}
-
-low_harmony = {
-	legitimacy = -1
-	prestige = -1
-	global_unrest = 2
-	stability_cost_modifier = 0.25
-}
-
-########################################
-# Religious Schools
-########################################
-jesuit_scholar_modifier = {
-	religion_sub_modifier = yes
-	religion = yes
-	is_scholar_modifier = yes
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	merchants = 1
-}
-
-franciscan_scholar_modifier = {
-	religion_sub_modifier = yes
-	religion = yes
-	is_scholar_modifier = yes
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	missionaries = 1
-}
-
-dominican_scholar_modifier = {
-	religion_sub_modifier = yes
-	religion = yes
-	is_scholar_modifier = yes
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	diplomats = 1
-}
-
 ##################################################################################################
 # Scripted and used from Diplomatic System
 ##################################################################################################
@@ -1582,68 +1626,83 @@ native_policy_hostile = {
 }
 
 ########################################
+# Harmony
+########################################
+
+high_harmony = {
+	advisor_cost = -0.25
+}
+
+low_harmony = {
+	legitimacy = -1
+	prestige = -1
+	global_unrest = 2
+	stability_cost_modifier = 0.25
+}
+
+########################################
 # Shogun Interactions
 ########################################
-#
-#overlord_daimyo_at_peace = {
-#	stability_cost_modifier = -0.02
-#	legitimacy = 0.1
-#}
-#
-#overlord_daimyo_at_peace_max = {
-#	legitimacy = 1
-#}
-#
-#overlord_daimyo_at_peace_min = {
-#	stability_cost_modifier = -0.2
-#}
-#
-#overlord_daimyo_same_isolationism = {
-#	prestige = 0.1
-#}
-#
-#overlord_daimyo_different_isolationism = { # This one gets merged into overlord_daimyo_same_isolationism in the code.
-#	prestige = -0.05
-#}
-#
-#overlord_daimyo_isolationism_max = {
-#	prestige = 1
-#}
-#
-#overlord_daimyo_isolationism_min = {
-#	prestige = -1
-#}
-#
-#overlord_sankin_kotai = {
-#	diplomatic_reputation = 3
-#}
-#
-#subject_sankin_kotai = {
-#	diplomatic_upkeep = -1
-#}
-#
-#overlord_expel_ronin = {
-#	# Left for modders/future changes
-#}
-#
-#subject_expel_ronin = {
-#	liberty_desire = -5
-#}
-#
-#overlord_sword_hunt = { # Unlike the others, this one counts per subject
-#	land_forcelimit = 0.5
-#	global_manpower = 0.250
-#}
-#
-#subject_sword_hunt = {
-#	land_forcelimit = -2
-#	global_manpower = -1.000
-#}
-#
-#supply_depot_area = {
-#	supply_limit_modifier = 0.5
-#}
-#
+
+overlord_daimyo_at_peace = {
+	stability_cost_modifier = -0.02
+	legitimacy = 0.1
+}
+
+overlord_daimyo_at_peace_max = {
+	legitimacy = 1
+}
+
+overlord_daimyo_at_peace_min = {
+	stability_cost_modifier = -0.2
+}
+
+overlord_daimyo_same_isolationism = {
+	prestige = 0.1
+}
+
+overlord_daimyo_different_isolationism = { # This one gets merged into overlord_daimyo_same_isolationism in the code.
+	prestige = -0.05
+}
+
+overlord_daimyo_isolationism_max = {
+	prestige = 1
+}
+
+overlord_daimyo_isolationism_min = {
+	prestige = -1
+}
+
+overlord_sankin_kotai = {
+	diplomatic_reputation = 3
+}
+
+subject_sankin_kotai = {
+	diplomatic_upkeep = -1
+}
+
+overlord_expel_ronin = {
+	# Left for modders/future changes
+}
+
+subject_expel_ronin = {
+	liberty_desire = -5
+}
+
+overlord_sword_hunt = { # Unlike the others, this one counts per subject
+	land_forcelimit = 0.5
+	global_manpower = 0.250
+}
+
+subject_sword_hunt = {
+	land_forcelimit = -2
+	global_manpower = -1.000
+}
+
+supply_depot_area = {
+	supply_limit_modifier = 0.5
+}
+
 ########################################
 # Government Interacions
 ########################################
@@ -1675,6 +1734,101 @@ seize_clerical_holdings_modifier = {
 
 invite_minorities_modifier = {
 	local_development_cost = -0.2
+}
+
+########################################
+# Religious Schools
+########################################
+jesuit_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	merchants = 1
+}
+
+franciscan_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	missionaries = 1
+}
+
+dominican_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	diplomats = 1
+}
+
+########################################
+# Regiment Types Modifiers
+########################################
+regiment_drill_modifier = { # Used by individual regiments
+	shock_damage = 0.25
+	fire_damage = 0.25
+	fire_damage_received = -0.25
+	shock_damage_received = -0.25
+	land_morale = 0.05
+	recover_army_morale_speed = 0.05
+}
+
+army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
+
+}
+
+janissary_regiment = {
+	fire_damage_received = -0.1
+	shock_damage_received = -0.1
+	reinforce_cost_modifier = 1.0
+	drill_gain_modifier = 1.0
+}
+
+cawa_regiment = {
+	shock_damage_received = -0.15
+	land_attrition = -0.25
+	reinforce_cost_modifier = 0.25
+	reinforce_speed = -0.25
+}
+
+hussars_regiment = {
+	cavalry_shock = 1
+	morale_damage = 0.5
+	reinforce_speed = -0.5
+}
+
+marine_regiment = {
+    shock_damage_received = 0.1
+    regiment_disembark_speed = 2 
+}
+
+banner_regiment = {
+	discipline = 0.05
+	land_maintenance_modifier = -0.5
+	reinforce_speed = -0.5
+	regiment_manpower_usage = -0.75
+}
+
+streltsy_regiment = {
+    fire_damage = 0.1
+}
+
+cossacks_regiment = {
+    shock_damage = 0.1
+}
+
+carolean_regiment = {
+	morale_damage = 0.05
+	drill_decay_modifier = -0.25
+}
+
+revolutionary_guard_regiment = {
+	fire_damage_received = -0.1
+	shock_damage_received = -0.1
+	drill_gain_modifier = 1.0
+	drill_decay_modifier = -0.5
 }
 
 innovativeness = {

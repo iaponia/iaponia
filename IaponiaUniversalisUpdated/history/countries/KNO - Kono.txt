@@ -146,7 +146,8 @@ mercantilism = 50
 }
 
 1615.1.1 = {
-	name = "Norimichi"
+	monarch = {
+		name = "Norimichi"
 		dynasty = "Kono"
 		birth_date = 1425.1.1
 		adm = 4

@@ -35,7 +35,7 @@ mercantilism = 50
 
 1582.6.21 = {
 	heir = {
-		name = Nobutsuna"
+		name = "Nobutsuna"
 		dynasty = "Kutsuki"
 		birth_date = 1582.1.1
 		death_date = 1662.6.16

@@ -17,7 +17,8 @@ mercantilism = 50
 		dip = 5
 		mil = 3
 	}
-	heir = "Michitsugu"
+	heir = {
+		name = "Michitsugu"
 		dynasty = "Nanbu"
 		birth_date = 1452.1.1
 		death_date = 1490.1.1

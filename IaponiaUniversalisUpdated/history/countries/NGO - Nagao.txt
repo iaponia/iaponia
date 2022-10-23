@@ -95,5 +95,5 @@ mercantilism = 50
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
-	remove_culture = iwafune_c
+	remove_accepted_culture = iwafune_c
 }

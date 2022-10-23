@@ -172,7 +172,6 @@ mercantilism = 50
 	monarch = {
 		name = "Tadaoki" 
 		dynasty = "Hosokawa"
-		monarch_name = "Tadaoki"
 		birth_date = 1563.11.28
 		death_date = 1646.1.18
 		adm = 5

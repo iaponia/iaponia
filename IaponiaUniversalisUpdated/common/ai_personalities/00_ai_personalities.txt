@@ -115,10 +115,10 @@ ai_militarist = {
 			factor = 0
 			has_regency = yes
 		}
-		modifier = {
-			factor = 0.5
-			government = republic
-		}
+		# modifier = {
+		# 	factor = 0.5
+		# 	government = republic
+		# }
 		modifier = {
 			factor = 0.5
 			NOT = { mil = 1 }
@@ -252,25 +252,31 @@ ai_balanced = {
 		modifier = {
 			factor = 0.5
 			NOT = {
-				adm = 1
-				dip = 1
-				mil = 1
+				OR = {
+					adm = 1
+					dip = 1
+					mil = 1
+				}
 			}
 		}
 		modifier = {
 			factor = 0.5
 			NOT = {
-				adm = 2
-				dip = 2
-				mil = 2
+				OR = {
+					adm = 2
+					dip = 2
+					mil = 2
+				}
 			}
 		}
 		modifier = {
 			factor = 0.5
 			NOT = {
-				adm = 3
-				dip = 3
-				mil = 3
+				OR = {
+					adm = 3
+					dip = 3
+					mil = 3
+				}
 			}
 		}
 		modifier = {

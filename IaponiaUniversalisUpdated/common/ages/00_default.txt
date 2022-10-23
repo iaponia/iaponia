@@ -74,7 +74,7 @@ age_of_discovery = {
 			}
 		}
 		ab_force_march = {
-			rule = {
+			modifier = {
 				force_march_free = yes
 			}
 			ai_will_do = {
@@ -129,7 +129,7 @@ age_of_discovery = {
 			}
 		}
 		ab_no_distance_for_core = {
-			rule = {
+			modifier = {
 				ignore_coring_distance = yes
 			}
 			ai_will_do = {
@@ -155,7 +155,7 @@ age_of_discovery = {
 		}
 		ab_transfer_vassal_wargoal =
 		{
-			rule = {
+			modifier = {
 				can_transfer_vassal_wargoal = yes
 				can_chain_claim = yes
 			}
@@ -203,7 +203,11 @@ age_of_reformation = {
 		obj_foreign_trade = {
 			calc_true_if = {
 				all_owned_province = {
-					has_province_modifier = center_of_trade_modifier
+					OR = {
+						province_has_center_of_trade_of_level = 1
+						province_has_center_of_trade_of_level = 2
+						province_has_center_of_trade_of_level = 3
+					}
 					controlled_by = owner
 					is_core = ROOT
 				}
@@ -213,8 +217,8 @@ age_of_reformation = {
 		}
 		obj_gekokujo = {
 			OR = {
-				government = sengoku_monarchy
-				government = late_sengoku_monarchy
+				# government = sengoku_monarchy
+				# government = late_sengoku_monarchy
 			}
 		}
 		obj_great_samurai = {
@@ -249,7 +253,7 @@ age_of_reformation = {
 			}
 		}
 		ab_force_march_2 = {
-			rule = {
+			modifier = {
 				force_march_free = yes
 			}
 			ai_will_do = {
@@ -416,7 +420,7 @@ age_of_absolutism = {
 			}
 		}
 		ab_force_march_3 = {
-			rule = {
+			modifier = {
 				force_march_free = yes
 			}
 			ai_will_do = {
@@ -480,7 +484,7 @@ age_of_absolutism = {
 		}
 		ab_russia_boost = {
 			modifier = {
-				max_states = 15
+				governing_capacity_modifier = 0.33
 			}
 			ai_will_do = {
 				factor = 10
@@ -488,7 +492,7 @@ age_of_absolutism = {
 		}
 		ab_napoleonic_warfare = {
 			modifier = {
-				artillery_bonus_vs_fort = 3
+				artillery_levels_available_vs_fort = 3
 			}
 			ai_will_do = {
 				factor = 10

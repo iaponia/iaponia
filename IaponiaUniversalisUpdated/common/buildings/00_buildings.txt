@@ -8,7 +8,7 @@
 # cost = x #==> cost in $ to build (subject to other modifiers)
 # time = x #==> number of months to build.
 # modifier = m # a modifier on the province that the building gives
-# trigger = t # an and trigger that needs to be fullfilled to build and keep the building
+# build_trigger = t # an and trigger that needs to be fullfilled to build and keep the building
 # one_per_country = yes/no # if yes, only one of these can exist in a country
 # manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
 # onmap = yes/no # show as a sprite on the map
@@ -110,7 +110,7 @@ citadel = {
 outer_wall = {
 	cost = 300
 	time = 24
-	trigger = {
+	build_trigger = {
 		OR = {
 			has_building = fort
 			has_building = castle
@@ -132,7 +132,7 @@ outer_wards = {
 	cost = 400
 	time = 36
 	make_obsolete = outer_wall
-	trigger = {
+	build_trigger = {
 		OR = {
 			has_building = castle
 			has_building = citadel
@@ -302,7 +302,7 @@ arsenal = {
 shipyard = {
 	cost = 150
 	time = 12
-	trigger = {
+	build_trigger = {
 		has_port = yes
 	}
 	modifier = {
@@ -319,7 +319,7 @@ drydock = {
 	cost = 300
 	time = 24
 	make_obsolete = shipyard
-	trigger = {
+	build_trigger = {
 		has_port = yes
 	}
 	modifier = {
@@ -335,7 +335,7 @@ drydock = {
 wharf = {
 	cost = 400
 	time = 30
-	trigger = {
+	build_trigger = {
 		has_port = yes
 	}
 	modifier = {
@@ -1619,7 +1619,7 @@ brewery = {
 castle_palace = {
 	cost = 1000
 	time = 60
-	trigger = {
+	build_trigger = {
 		is_capital = yes
 		has_building = citadel
 	}
@@ -1642,7 +1642,7 @@ castle_palace = {
 satellite_forts = {
 	cost = 500
 	time = 48
-	trigger = {
+	build_trigger = {
 		is_capital = yes
 		has_building = castle_palace
 		has_building = outer_wards
@@ -1662,9 +1662,12 @@ satellite_forts = {
 western_quarter = {
 	cost = 800
 	time = 40
-	trigger = {
+	build_trigger = {
 		western_trade_i = 100
-		has_province_modifier = center_of_trade_modifier
+		OR = {
+				province_has_center_of_trade_of_level = 2
+				province_has_center_of_trade_of_level = 3
+			}
 		has_port = yes
 	}
 	modifier = {
@@ -1686,7 +1689,7 @@ western_quarter = {
 family_temple = {
 	cost = 1000
 	time = 48
-	trigger = {
+	build_trigger = {
 		is_capital = yes
 	}
 	modifier = {
@@ -1704,7 +1707,7 @@ family_temple = {
 ninjutsu_school = {
 	cost = 750
 	time = 36
-	trigger = {
+	build_trigger = {
 		is_capital = no
 		is_state = yes
 	}
@@ -1723,7 +1726,7 @@ ninjutsu_school = {
 mint = {
 	cost = 750
 	time = 36
-	trigger = {
+	build_trigger = {
 		development = 20
 	}
 	modifier = {
@@ -1741,10 +1744,10 @@ mint = {
 charter_guild = {
 	cost = 1000
 	time = 48
-	trigger = {
+	build_trigger = {
 		OR = {
-			has_province_modifier = center_of_trade_modifier
-			has_province_modifier = inland_center_of_trade_modifier
+			province_has_center_of_trade_of_level = 2
+			province_has_center_of_trade_of_level = 3
 		}
 	}
 	modifier = {

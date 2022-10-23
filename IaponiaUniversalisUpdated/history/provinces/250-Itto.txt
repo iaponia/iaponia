@@ -20,10 +20,7 @@ fortified_mansion = yes
 training_grounds = yes
 shrine = yes
 
-add_permanent_province_modifier = {
-	name = center_of_trade_modifier
-	duration = -1
-}
+center_of_trade = 1
 
 base_tax = 6
 base_production = 6

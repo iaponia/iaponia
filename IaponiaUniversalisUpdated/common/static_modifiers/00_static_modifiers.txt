@@ -232,10 +232,10 @@ severe_monsoon = {
 }
 
 blockaded = {
-	regiment_recruit_speed = 0.2
-	ship_recruit_speed = 0.2
-	local_monthly_devastation = 0.25
-	province_trade_power_modifier = -0.5
+	ship_recruit_speed = 0.5
+	trade_goods_size_modifier = -0.5
+	province_trade_power_modifier = -0.75
+	local_monthly_devastation = 0.1
 }
 
 no_adjacent_controlled = {
@@ -838,10 +838,6 @@ defender_of_faith = {
 	trade_efficiency = 0.1
 }
 
-defender_of_faith_refused_cta = {
-	diplomatic_reputation = -1
-}
-
 emperor = {
 	spy_offence = 0.1					#minor bonus on spies.
 	advisor_pool = 1
@@ -887,7 +883,7 @@ num_of_marriages = {
 }
 
 num_of_provinces = {
-	
+
 }
 
 # Multiplied by the amount of papal influence
@@ -936,15 +932,14 @@ legitimacy = {
 	reduced_liberty_desire = 10
 	vassal_income = 0.5
 	max_absolutism = 20
-	nobles_loyalty_modifier = 0.1
 }
 
 #Multiplied by current Horde Unity - 50
 horde_unity = {
 	global_unrest = -4
 	discipline = 0.10
-	#nomadic_tribes_loyalty_modifier = 0.05	#New Change
 }
+
 
 # Multiplied by current Devotion - 50
 devotion = {
@@ -1135,7 +1130,6 @@ bought_indulgence = {
 religious_unity = {
 	church_loyalty_modifier = 0.05
 	brahmins_hindu_loyalty_modifier = 0.05
-	yearly_harmony = 1
 }
 
 inverse_religious_unity = {
@@ -1234,7 +1228,7 @@ absolutism = {
 	devotion = -0.5
 	development_cost = 0.1
 	stability_cost_modifier = 0.25
-	mercenary_cost = 0.25
+	mercenary_manpower = -0.25
 	state_maintenance_modifier = 0.5
 }
 
@@ -1468,6 +1462,33 @@ drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
 	yearly_army_professionalism = 0.01
 }
 
+########################################
+# Religious Schools
+########################################
+jesuit_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	merchants = 1
+}
+
+franciscan_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	missionaries = 1
+}
+
+dominican_scholar_modifier = {
+	religion_sub_modifier = yes
+	religion = yes
+	is_scholar_modifier = yes
+	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	diplomats = 1
+}
+
 ##################################################################################################
 # Scripted and used from Diplomatic System
 ##################################################################################################
@@ -1639,7 +1660,6 @@ low_harmony = {
 	global_unrest = 2
 	stability_cost_modifier = 0.25
 }
-
 ########################################
 # Shogun Interactions
 ########################################
@@ -1736,32 +1756,6 @@ invite_minorities_modifier = {
 	local_development_cost = -0.2
 }
 
-########################################
-# Religious Schools
-########################################
-jesuit_scholar_modifier = {
-	religion_sub_modifier = yes
-	religion = yes
-	is_scholar_modifier = yes
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	merchants = 1
-}
-
-franciscan_scholar_modifier = {
-	religion_sub_modifier = yes
-	religion = yes
-	is_scholar_modifier = yes
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	missionaries = 1
-}
-
-dominican_scholar_modifier = {
-	religion_sub_modifier = yes
-	religion = yes
-	is_scholar_modifier = yes
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	diplomats = 1
-}
 
 ########################################
 # Regiment Types Modifiers
@@ -1776,7 +1770,6 @@ regiment_drill_modifier = { # Used by individual regiments
 }
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
-
 }
 
 janissary_regiment = {

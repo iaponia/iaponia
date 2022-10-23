@@ -249,19 +249,6 @@ remove_non_electors_emperors_from_empire_effect = {
 	}
 }
 
-abolish_slavery_effect = {
-	custom_tooltip = abolished_slavery_act_tooltip
-	hidden_effect = {
-		every_owned_province = {
-			limit = {
-				trade_goods = slaves
-			}
-			change_trade_goods = unknown
-			remove_building = tradecompany
-		}
-	}
-}
-
 
 add_vassalise_cb_effect = {
 	add_casus_belli = {

@@ -14,7 +14,7 @@ culture = aki_c
 religion = shinto
 capital = "Kanayama"
 is_city = yes
-training_ground = yes
+training_grounds = yes
 marketplace = yes
 
 base_tax = 4

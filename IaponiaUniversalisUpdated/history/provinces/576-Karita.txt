@@ -35,7 +35,7 @@ trade_goods = rice
 }
 
 1582.6.21 = {
-	aresnal = yes
+	arsenal = yes
 }
 
 1554.3.1 = {

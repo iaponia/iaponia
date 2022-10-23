@@ -14,7 +14,7 @@ culture = mikawa_c
 religion = shinto
 capital = "Nishio"
 is_city = yes
-traning_grounds = yes
+training_grounds = yes
 shipyard = yes
 
 base_tax = 4 

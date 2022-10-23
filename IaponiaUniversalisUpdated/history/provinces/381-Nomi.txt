@@ -28,7 +28,7 @@ trade_goods = pilgrimage_site
     owner = HGJ
 	remove_core = TGS
 	religion = jodoshinshu
-	training_ground = yes
+	training_grounds = yes
 }
 
 1546.5.19 = {

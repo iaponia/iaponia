@@ -14,7 +14,7 @@ culture = tanshu_c
 religion = shinto
 capital = "Itai"
 is_city = yes
-training_ground = yes
+training_grounds = yes
 
 base_tax = 3
 base_production = 3

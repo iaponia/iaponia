@@ -33,7 +33,7 @@ trade_goods = dyes
 }
 
 1546.5.19 = {
-	merhcant_guild = yes
+	merchant_guild = yes
 	workshop = yes
 }
 

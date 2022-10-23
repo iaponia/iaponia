@@ -14,7 +14,7 @@ culture = chikugo_c
 religion = shinto
 capital = "Kurume"
 is_city = yes
-training_grouds = yes
+training_grounds = yes
 shrine = yes
 
 base_tax = 5

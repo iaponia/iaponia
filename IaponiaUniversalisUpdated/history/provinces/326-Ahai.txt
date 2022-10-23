@@ -16,7 +16,7 @@ religion = shinto
 capital = "Ueno"
 is_city = yes
 fortified_mansion = yes
-training_ground = yes
+training_grounds = yes
 marketplace = yes
 
 base_tax = 4

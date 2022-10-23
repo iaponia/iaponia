@@ -129,7 +129,7 @@ mercantilism = 50
 			death_date = 1583.4.27
 		}
 	}
-	monarch = {
+	heir = {
 		name = "Yoshioki"
 		dynasty = "Daihoji"
 		birth_date = 1554.1.1

@@ -96,7 +96,6 @@ mercantilism = 50
 1615.1.1 = {
 	monarch = {
 		name = "Nagaharu"
-		monarch_name = "Nagaharu"
 		dynasty = "Bessho"
 		birth_date = 1558.1.1
 		claim = 90

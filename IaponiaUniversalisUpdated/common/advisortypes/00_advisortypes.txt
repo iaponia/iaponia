@@ -50,7 +50,7 @@ theologian_a = {
 	global_missionary_strength = 0.02
 	idea_cost = -0.05
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -75,7 +75,7 @@ monk_a = {
 	global_missionary_strength = 0.02
 	stability_cost_modifier = -0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -99,7 +99,7 @@ architect_a = {
 	build_cost = -0.1
 	fort_maintenance_modifier = -0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -118,7 +118,7 @@ treasurer_a = {
 	global_tax_modifier = 0.1
 	inflation_reduction = 0.05
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -138,7 +138,7 @@ logistician_a = {
 	reinforce_speed = 0.25
 	merc_maintenance_modifier = -0.15
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -159,7 +159,7 @@ magistrate_a = {
 	production_efficiency = 0.1
 	global_unrest = -1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -178,7 +178,7 @@ clan_historian_a = {
 	prestige = 1
 	fabricate_claims_cost = -0.15
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -197,7 +197,7 @@ clan_elder_a = {
 	core_creation = -0.1
 	state_maintenance_modifier = -0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -216,7 +216,7 @@ censor_a = {
 	yearly_corruption = -0.05
 	religious_unity = 0.20
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -235,7 +235,7 @@ economist_a = {
 	global_trade_goods_size_modifier = 0.1
 	development_cost = -0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -255,7 +255,7 @@ bureaucratic_reformer_a = {
 	adm_tech_cost_modifier = -0.1
 	global_autonomy = -0.05
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -278,7 +278,7 @@ ninja_a = {
 	spy_offence = 0.2
 	global_spy_defence = 0.2
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -298,7 +298,7 @@ merchant_a = {
 	trade_efficiency = 0.1
 	trade_steering = 0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -317,7 +317,7 @@ tea_master_a = {
 	embracement_cost = -0.1
 	global_institution_spread = 0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -336,7 +336,7 @@ poet_a = {
 	ae_impact = -0.1
 	culture_conversion_cost = -0.15
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -355,7 +355,7 @@ councillor_a = {
 	diplomatic_upkeep = 1
 	unjustified_demands = -0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -374,7 +374,7 @@ envoy_a = {
 	improve_relation_modifier = 0.15
 	prestige_decay = -0.01
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -393,7 +393,7 @@ imperial_courtier_a = {
 	diplomatic_reputation = 1
 	war_exhaustion_cost = -0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -413,7 +413,7 @@ naval_commander_a = {
 	naval_morale = 0.1
 	privateer_efficiency = 0.15
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -437,7 +437,7 @@ navigator_a = {
 	ship_durability = 0.05
 	global_ship_cost = -0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -461,7 +461,7 @@ naval_reformer_a = {
 	dip_tech_cost_modifier = -0.1
 	navy_tradition_decay = -0.01
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -489,7 +489,7 @@ vanguard_commander_a = {
 	shock_damage_received = -0.1
 	recover_army_morale_speed = 0.05
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -509,7 +509,7 @@ ashigaru_commander_a = {
 	global_manpower_modifier = 0.15
 	land_maintenance_modifier = -0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -529,7 +529,7 @@ teppo_commander_a = {
 	fire_damage = 0.1
 	garrison_size = 0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -549,7 +549,7 @@ cavalry_commander_a = {
 	cavalry_flanking = 0.25
 	cavalry_cost = -0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -568,7 +568,7 @@ blademaster_a = {
 	possible_mercenaries = 0.2
 	global_regiment_recruit_speed = -0.2
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -588,7 +588,7 @@ siege_master_a = {
 	siege_ability = 0.15
 	land_attrition = -0.15
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -607,7 +607,7 @@ military_engineer_a = {
 	defensiveness = 0.15
 	hostile_attrition = 1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -626,7 +626,7 @@ commandant_a = {
 	discipline = 0.05
 	manpower_recovery_speed = 0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -645,7 +645,7 @@ army_organizer_a = {
 	land_morale = 0.1
 	land_forcelimit_modifier = 0.1
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
@@ -665,7 +665,7 @@ army_reformer_a = {
 	mil_tech_cost_modifier = -0.1
 	army_tradition_decay = -0.01
 
-	skill_scaled_modifier = {}
+	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1

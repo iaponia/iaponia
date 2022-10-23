@@ -156,7 +156,6 @@ mercantilism = 50
 		dip = 6
 		mil = 6
 		}
-	}
 	heir = {
 		name = "Yoshihi"
 		monarch_name = "Yoshihi"

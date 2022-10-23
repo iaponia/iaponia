@@ -61,7 +61,6 @@ mercantilism = 50
 	}
 	heir = {
 		name = "Yoshihiro"
-		monarch_name "Yoshihiro"
 		dynasty = "Shimazu"
 		birth_date = 1536.8.21
 		death_date = 1619.8.20

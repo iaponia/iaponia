@@ -18,7 +18,7 @@ mercantilism = 50
 	}
 	heir = {
 		name = "Munetsuna"
-		dynasty = Sano"
+		dynasty = "Sano"
 		birth_date = 1560.1.1
 		death_date = 1585.1.31
 		claim = 95
@@ -47,6 +47,6 @@ mercantilism = 50
 	add_ruler_personality = swordsman_personality
 	add_ruler_personality = brave_personality
 	add_ruler_personality = gracious_personality
-	add_ruler_personality = immortal_personaity
+	add_ruler_personality = immortal_personality
 	government = daimyo_monarchy
 }

@@ -933,7 +933,7 @@ aristocratic_organization = {
 	}	
 	
 	global_tax_modifier = 0.1
-	max_states = 5
+	governing_capacity_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1.2

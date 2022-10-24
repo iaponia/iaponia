@@ -5,15 +5,15 @@ estate_church_build_temple_in_y = {
 		adm_tech = 4
 		any_owned_province = {
 			is_state_core = root
-			NOT = { has_building = cathedral }
+			NOT = { has_building = temple }
 			OR = {
 				AND = {
-					NOT = { has_building = temple }
+					NOT = { has_building = shrine }
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { adm_tech = 19 }
-					has_building = temple
+					ROOT = { adm_tech = 9 }
+					has_building = shrine
 				}
 			}
 		}
@@ -26,15 +26,15 @@ estate_church_build_temple_in_y = {
 				any_owned_province = {
 					is_state_core = root
 					base_tax = 4
-					NOT = { has_building = cathedral }
+					NOT = { has_building = temple }
 					OR = {
 						AND = {
-							NOT = { has_building = temple }
+							NOT = { has_building = shrine }
 							num_free_building_slots = 1
 						}
 						AND = {
-							ROOT = { adm_tech = 19 }
-							has_building = temple
+							ROOT = { adm_tech = 9 }
+							has_building = shrine
 						}
 					}
 				}
@@ -45,15 +45,15 @@ estate_church_build_temple_in_y = {
 			any_owned_province = {
 				is_state_core = root
 				base_tax = 7
-				NOT = { has_building = cathedral }
+				NOT = { has_building = temple }
 				OR = {
 					AND = {
-						NOT = { has_building = temple }
+						NOT = { has_building = shrine }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { adm_tech = 19 }
-						has_building = temple
+						ROOT = { adm_tech = 9 }
+						has_building = shrine
 					}
 				}
 			}

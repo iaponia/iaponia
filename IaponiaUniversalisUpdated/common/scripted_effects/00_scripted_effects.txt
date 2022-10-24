@@ -3243,23 +3243,6 @@ enable_admirals_army_professionalism = {
 }
 
 make_ruler_to_legendary_pirate = {
-	if = {
-		limit = {
-			has_dlc = "Rights of Man"
-			NOT = { num_of_ruler_traits = { amount = 3 } }
-		}
-		add_ruler_personality = legendary_pirate_personality
-		custom_tooltip = legendary_pirate_personality_at
-	}
-	else = {
-		custom_tooltip = legendary_pirate_personality_bt
-	}
-	set_ruler_flag = historical_pirate
-	random_list = {
-		1 = { trigger = { NOT = { ADM = 6 } } change_adm = 1 }
-		1 = { trigger = { NOT = { DIP = 6 } } change_dip = 1 }
-		1 = { trigger = { NOT = { MIL = 6 } } change_mil = 1 }
-	}
 }
 
 add_influence_to_random_faction = {

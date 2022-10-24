@@ -4,3 +4,5 @@ Iaponia Universalis is a total conversion mod to Sengoku Period Japan, with over
 
 This is the latest development version and may have some issues, you can get the latest stable version from
 [the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1099840449&searchtext=iaponia).
+
+We discuss development and testing in our [discord server](https://discord.gg/FAfHBW4n).

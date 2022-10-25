@@ -13,7 +13,6 @@
 #######################################
 
 feudalism_i = {
-	penalty = 0.25
 	bonus = {
 		free_leader_pool = 1
 	}
@@ -154,7 +153,6 @@ feudalism_i = {
 #######################################
 
 higashiyama_culture_i = {
-	penalty = 0.25
 
 	bonus = {
 		advisor_cost = -0.1
@@ -270,9 +268,9 @@ higashiyama_culture_i = {
 				owner = {
 					adm_tech = 4
 					OR = {
-						has_advisor = imperial_courtier_a
-						has_advisor = tea_master_a
-						has_advisor = poet_a
+						advisor = imperial_courtier_a
+						advisor = tea_master_a
+						advisor = poet_a
 					}
 				}
 			}
@@ -332,7 +330,6 @@ higashiyama_culture_i = {
 # Militarized Aristocracy
 #######################################
 militarized_aristocracy_i = {
-	penalty = 0.25
 
 	bonus = {
 		army_tradition = 0.5
@@ -518,7 +515,6 @@ militarized_aristocracy_i = {
 # Western Trade
 #######################################
 western_trade_i = {
-	penalty = 0.25
 
 	bonus = {
 		idea_cost = -0.05
@@ -567,12 +563,18 @@ western_trade_i = {
 				development = 20
 				is_capital = yes
 				is_year = 1550
-				has_province_modifier = center_of_trade_modifier
+				OR = {
+					province_has_center_of_trade_of_level = 2
+					province_has_center_of_trade_of_level = 3
+				}
 			}
 			AND = {
 				religion = catholic
 				is_year = 1540
-				has_province_modifier = center_of_trade_modifier
+				OR = {
+					province_has_center_of_trade_of_level = 2
+					province_has_center_of_trade_of_level = 3
+				}
 			}
 		}
 	}
@@ -676,15 +678,15 @@ western_trade_i = {
 			scale = yes
 			potential = {
 				OR = {
-					has_province_modifier = inland_center_of_trade_modifier
-					has_province_modifier = center_of_trade_modifier
+					province_has_center_of_trade_of_level = 2
+					province_has_center_of_trade_of_level = 3
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_center_of_trade_spread
 				OR = {
-					has_province_modifier = inland_center_of_trade_modifier
-					has_province_modifier = center_of_trade_modifier
+					province_has_center_of_trade_of_level = 2
+					province_has_center_of_trade_of_level = 3
 				}
 			}
 		}
@@ -730,7 +732,6 @@ western_trade_i = {
 # Gunsmithing
 #######################################
 gunsmithing_i = {
-	penalty = 0.25
 
 	bonus = {
 		infantry_power = 0.1
@@ -894,7 +895,6 @@ gunsmithing_i = {
 # Momoyama Culture
 #######################################
 momoyama_culture_i = {
-	penalty = 0.25
 
 	bonus = {
 		development_cost = -0.1
@@ -937,8 +937,8 @@ momoyama_culture_i = {
 		is_state = yes
 		development = 30
 		OR = {
-			has_province_modifier = center_of_trade_modifier
-			has_province_modifier = inland_center_of_trade_modifier
+			province_has_center_of_trade_of_level = 2
+			province_has_center_of_trade_of_level = 3
 		}
 	}
 	start_chance = 10		#in 100 for when a province can_start
@@ -1059,9 +1059,9 @@ momoyama_culture_i = {
 				owner = {
 					adm_tech = 15
 					OR = {
-						has_advisor = imperial_courtier_a
-						has_advisor = tea_master_a
-						has_advisor = poet_a
+						advisor = imperial_courtier_a
+						advisor = tea_master_a
+						advisor = poet_a
 					}
 				}
 			}
@@ -1112,7 +1112,6 @@ momoyama_culture_i = {
 # Kokudaka System
 #######################################
 kokudaka_system_i = {
-	penalty = 0.25
 
 	bonus = {
 		global_tax_modifier = 0.1
@@ -1184,8 +1183,8 @@ kokudaka_system_i = {
 				is_capital = yes
 				owner = {
 					OR = {
-						has_advisor = clan_elder_a
-						has_advisor = magistrate_a
+						advisor = clan_elder_a
+						advisor = magistrate_a
 					}
 					adm_tech = 16
 				}
@@ -1233,7 +1232,6 @@ kokudaka_system_i = {
 # Rangaku
 #######################################
 rangaku_i = {
-	penalty = 0.25
 
 	bonus = {
 		manpower_recovery_speed = 0.1

@@ -565,7 +565,7 @@ blademaster_a = {
 	monarch_power = MIL
 
 	# Bonus
-	possible_mercenaries = 0.2
+	merc_maintenance_modifier = -0.2
 	global_regiment_recruit_speed = -0.2
 
 	# skill_scaled_modifier = {}

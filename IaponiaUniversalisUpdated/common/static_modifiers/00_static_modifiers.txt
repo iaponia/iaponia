@@ -645,6 +645,10 @@ positive_stability = {
 	stability_cost_modifier = 1
 }
 
+privateering = {
+	pr_captains_influence = 0.1
+}
+
 negative_stability = {
 	global_unrest = -3
 	yearly_absolutism = 1
@@ -836,6 +840,10 @@ defender_of_faith = {
 	discipline = 0.05
 	development_cost = -0.1
 	trade_efficiency = 0.1
+}
+
+defender_of_faith_refused_cta = {
+	diplomatic_reputation = -1
 }
 
 emperor = {

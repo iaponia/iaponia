@@ -3,6 +3,9 @@ REB = "countries/Rebels.txt"
 PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
 
+#currently forced by game?
+PAP = "countries/Papal.txt"
+
 #Daimyos
 AMA = "countries/Amago.txt"
 ASA = "countries/Asakura.txt"

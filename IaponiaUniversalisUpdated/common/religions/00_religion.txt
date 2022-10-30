@@ -398,6 +398,8 @@ christian_group = {
 	catholic = {
 		color = { 0.8 0.8 0 }
 		icon = 1
+		
+
 
 		allowed_conversion = {
 			shinto
@@ -437,6 +439,69 @@ christian_group = {
 		heretic = { CALVINIST }
 
 		date = 1546.10.31
+	}
+
+	#placeholder since some papacy mechanics are required by the base game
+	nofaith = {
+		color = { 144 204 144 }
+		icon = 1
+		country = {
+		}
+		
+		country_as_secondary = {
+		}
+		
+		hre_religion = yes
+		
+		on_convert = {
+		}
+		
+		heretic = { BOGOMILIST }
+		
+		papacy = {
+			papal_tag = PAP
+			election_cost = 5
+			seat_of_papacy = 683 # kyoto
+			
+			
+			#Council of Trent Positions
+			harsh = {
+			}
+			neutral = {
+			}
+			concilatory = {
+			}
+			
+			#Council of Trent Concessions
+			concessions = {
+				first_concession = {
+					harsh = {
+					}	
+					concilatory = {
+					}
+				}
+				second_concession = {
+					harsh = {
+					}	
+					concilatory = {
+					}
+				}
+				third_concession = {
+					harsh = {
+					}	
+					concilatory = {
+					}
+				}
+				fourth_concession = {
+					harsh = {
+					}	
+					concilatory = {
+					}
+				}
+			}
+			
+
+		}
 	}
 }
 

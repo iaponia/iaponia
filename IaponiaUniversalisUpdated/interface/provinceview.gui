@@ -297,6 +297,7 @@ guiTypes = {
 #			}
 
 
+
 			instantTextBoxType = {
 				name = "area_name"
 				position = { x = 100 y = 0}
@@ -2848,7 +2849,7 @@ guiTypes = {
 
 				position = { x = 283 y = 427 }
 			}
-		}
+		
 
 		## State Window
 		windowType = {
@@ -5036,6 +5037,7 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 
+
 #		iconType =
 #		{
 #			name ="native_building_divider"
@@ -6781,6 +6783,13 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
+		iconType =
+		{
+			name ="trade_company_icon"
+			spriteType = "GFX_subject_trade_company_icon"
+			position = { x= 160 y = 15 }
+			scale = 0.75
+		}
 
 		instantTextBoxType = {
 			name = "development"
@@ -6941,5 +6950,6 @@ guiTypes = {
 				clicksound = close_window
 			}
 		}
+}
 
 

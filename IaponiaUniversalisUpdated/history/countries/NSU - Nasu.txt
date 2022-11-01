@@ -74,7 +74,6 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	government = sengoku_monarchy
 }
 
 1546.5.19 = { 
@@ -139,7 +138,6 @@ mercantilism = 50
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
 	add_ruler_personality = strong_personality
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -155,5 +153,4 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = strong_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

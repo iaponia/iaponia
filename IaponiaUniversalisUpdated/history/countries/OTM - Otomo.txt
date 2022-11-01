@@ -136,7 +136,6 @@ mercantilism = 50
 	add_ruler_personality = connected_personality
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = arbitrary_personality
-	government = shugo_daimyo_monarchy
 }
 	
 1536.4.7 = {
@@ -234,7 +233,6 @@ mercantilism = 50
 	add_heir_personality = connected_personality
 	add_heir_personality = honest_personality
 	add_heir_personality = drunk_personality
-	government = sengoku_monarchy
 	add_accepted_culture = chikuzen_c
 	add_accepted_culture = buzen_c
 	leader = {
@@ -302,7 +300,6 @@ mercantilism = 50
 	add_heir_personality = honorable_personality
 	add_heir_personality = conscientious_personality
 	add_heir_personality = equestrian_personality
-	government = late_sengoku_monarchy
 	remove_accepted_culture = chikugo_c
 	remove_accepted_culture = chikuzen_c
 	remove_accepted_culture = kikuchi_c
@@ -324,5 +321,4 @@ mercantilism = 50
 	add_ruler_personality = gracious_personality
 	add_ruler_personality = sickly_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

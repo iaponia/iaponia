@@ -72,7 +72,6 @@ mercantilism = 50
 	add_ruler_personality = proud_personality
 	add_ruler_personality = upstanding_personality
 	add_ruler_personality = frugal_personality
-	government = shugo_daimyo_monarchy
 }
 
 1511.9.25 = {
@@ -105,5 +104,4 @@ mercantilism = 50
 	add_ruler_personality = upstanding_personality
 	add_ruler_personality = frugal_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

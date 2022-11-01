@@ -46,7 +46,6 @@ mercantilism = 50
 	add_heir_personality = brave_personality
 	add_heir_personality = connected_personality
 	add_heir_personality = sickly_personality
-	government = sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -64,5 +63,4 @@ mercantilism = 50
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = ambitious_personality
-	government = daimyo_monarchy
 }

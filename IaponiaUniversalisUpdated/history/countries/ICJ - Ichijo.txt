@@ -34,7 +34,6 @@ mercantilism = 50
 	add_ruler_personality = erudite_personality
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = connected_personality
-	government = shugo_daimyo_monarchy
 }
 
 1511.9.25 = {
@@ -102,7 +101,6 @@ mercantilism = 50
 	add_heir_personality = drunk_personality
 	add_heir_personality = cruel_personality
 	add_heir_personality = profligate_personality
-	government = sengoku_monarchy
 }
 
 1554.3.1 = { 
@@ -160,5 +158,4 @@ mercantilism = 50
 	add_ruler_personality = connected_personality
 	add_ruler_personality = immortal_personality
 	religion = catholic
-	government = daimyo_monarchy
 }

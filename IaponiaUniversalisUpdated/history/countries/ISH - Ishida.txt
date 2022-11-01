@@ -52,7 +52,6 @@ mercantilism = 50
 	add_ruler_personality = tolerant_personality
 	add_ruler_personality = upstanding_personality
 	add_ruler_personality = honest_personality
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -70,6 +69,5 @@ mercantilism = 50
 	add_ruler_personality = upstanding_personality
 	add_ruler_personality = honest_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	remove_accepted_culture = mino_c
 }

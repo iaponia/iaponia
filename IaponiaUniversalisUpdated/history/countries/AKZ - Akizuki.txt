@@ -55,7 +55,6 @@ mercantilism = 50
 	add_heir_personality = brave_personality
 	add_heir_personality = reckless_personality
 	add_heir_personality = honorable_personality
-	government = sengoku_monarchy
 }
 
 1536.4.7 = { 
@@ -81,7 +80,6 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = reckless_personality
 	add_ruler_personality = honorable_personality
-	government = sengoku_monarchy
 }
 
 1554.3.1 = {
@@ -154,7 +152,6 @@ mercantilism = 50
 		mil = 4
 	}
 	primary_culture = hyuga_c
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -172,6 +169,5 @@ mercantilism = 50
 	add_ruler_personality = connected_personality
 	add_ruler_personality = dishonorable_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = akizuki_c
 }

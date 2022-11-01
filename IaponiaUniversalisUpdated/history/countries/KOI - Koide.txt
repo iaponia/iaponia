@@ -17,7 +17,6 @@ mercantilism = 50
 		dip = 5
 		mil = 3
 	}
-	government = late_sengoku_monarchy
 	clear_scripted_personalities = yes
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = frugal_personality
@@ -32,7 +31,6 @@ mercantilism = 50
 		dip = 5
 		mil = 3
 	}
-	government = daimyo_monarchy
 	clear_scripted_personalities = yes
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = frugal_personality

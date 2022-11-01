@@ -86,7 +86,6 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	government = sengoku_monarchy
 }
 
 1569.10.10 = { 
@@ -122,7 +121,6 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	government = daimyo_monarchy
 	clear_scripted_personalities = yes
 	add_ruler_personality = immortal_personality
 }

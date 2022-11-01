@@ -18,7 +18,6 @@ mercantilism = 50
 		mil = 3
 	}
 	primary_culture = esshu_c
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -37,5 +36,4 @@ mercantilism = 50
 	add_ruler_personality = humble_personality
 	add_ruler_personality = immortal_personality
 	capital = 554
-	government = daimyo_monarchy
 }

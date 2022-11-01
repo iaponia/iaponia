@@ -98,7 +98,6 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	government = sengoku_monarchy
 }
 
 1546.5.19 = {

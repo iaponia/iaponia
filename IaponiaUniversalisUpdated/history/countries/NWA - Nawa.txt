@@ -56,7 +56,6 @@ mercantilism = 50
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = mercantile_personality
-	government = sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -71,6 +70,5 @@ mercantilism = 50
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = mercantile_personality
-	government = daimyo_monarchy
 	primary_culture = sasshu_c
 }

@@ -58,7 +58,6 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = connected_personality
 	add_ruler_personality = reckless_personality
-	government = shugo_daimyo_monarchy
 }
 
 1536.4.7 = {
@@ -87,5 +86,4 @@ mercantilism = 50
 	add_ruler_personality = dishonorable_personality
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

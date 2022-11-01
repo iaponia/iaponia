@@ -52,7 +52,6 @@ mercantilism = 50
 	add_heir_personality = conscientious_personality
 	add_heir_personality = honest_personality
 	add_heir_personality = ambitious_personality
-	government = late_sengoku_monarchy
 	capital = 260
 	primary_culture = sesshu_c
 }
@@ -123,7 +122,6 @@ mercantilism = 50
 	add_ruler_personality = honest_personality
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = inaba_c
 	capital = 182
 }

@@ -21,5 +21,4 @@ mercantilism = 50
 	add_ruler_personality = tolerant_personality
 	add_ruler_personality = erudite_personality
 	add_ruler_personality = artistic_personality
-	government = late_sengoku_monarchy
 }

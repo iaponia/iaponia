@@ -41,7 +41,6 @@ mercantilism = 50
 	add_ruler_personality = cunning_personality
 	add_ruler_personality = nautical_personality
 	add_ruler_personality = craven_personality
-	government = late_sengoku_monarchy
 	primary_culture = seishu_c
 	add_accepted_culture = kozuke_c
 	add_accepted_culture = shinano_c
@@ -78,6 +77,5 @@ mercantilism = 50
 	add_ruler_personality = cunning_personality
 	add_ruler_personality = nautical_personality
 	add_ruler_personality = craven_personality
-	government = daimyo_monarchy
 	religion = jodoshinshu
 }

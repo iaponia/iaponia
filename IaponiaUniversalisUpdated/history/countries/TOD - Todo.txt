@@ -41,7 +41,6 @@ mercantilism = 50
 	add_ruler_personality = architect_personality
 	add_ruler_personality = cynical_personality
 	add_ruler_personality = ambitious_personality
-	government = late_sengoku_monarchy
 	primary_culture = uwa_c
 }
 
@@ -60,7 +59,6 @@ mercantilism = 50
 	add_ruler_personality = cynical_personality
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = seishu_c
 	religion = jodoshinshu
 }

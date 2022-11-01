@@ -31,7 +31,6 @@ mercantilism = 50
 	add_ruler_personality = cunning_personality
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = gregarious_personality
-	government = sengoku_monarchy
 }
 
 1536.4.7 = {
@@ -85,6 +84,5 @@ mercantilism = 50
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = gregarious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	religion = jodoshinshu
 }

@@ -44,7 +44,6 @@ mercantilism = 50
 	add_ruler_personality = zealot_personality
 	add_ruler_personality = cruel_personality
 	add_queen_personality = humble_personality
-	government = late_sengoku_monarchy
 	primary_culture = kikuchi_c
 }
 
@@ -57,7 +56,6 @@ mercantilism = 50
 		dip = 3
 		mil = 7
 	}
-	government = daimyo_monarchy
 	clear_scripted_personalities = yes
 	add_ruler_personality = strong_personality
 	add_ruler_personality = stern_personality

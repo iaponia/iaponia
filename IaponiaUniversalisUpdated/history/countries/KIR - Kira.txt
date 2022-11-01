@@ -46,6 +46,5 @@ mercantilism = 50
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = arbitrary_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	religion = jodoshinshu
 }

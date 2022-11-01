@@ -44,7 +44,6 @@ mercantilism = 50
 	add_ruler_personality = upstanding_personality
 	add_ruler_personality = honest_personality
 	add_accepted_culture = kawachi_c
-	government = sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -63,6 +62,5 @@ mercantilism = 50
 	add_ruler_personality = honest_personality
 	add_ruler_personality = immortal_personality
 	primary_culture = kawachi_c
-	government = daimyo_monarchy
 	religion = catholic
 }

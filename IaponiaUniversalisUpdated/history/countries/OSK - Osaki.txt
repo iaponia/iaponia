@@ -56,7 +56,6 @@ mercantilism = 50
 }
 
 1511.9.25 = {
-	government = shugo_daimyo_monarchy
 }
 
 1536.4.7 = {
@@ -87,7 +86,6 @@ mercantilism = 50
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = humble_personality
-	government = sengoku_monarchy
 }
 
 1582.6.21 = { 
@@ -113,5 +111,4 @@ mercantilism = 50
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

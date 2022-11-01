@@ -53,7 +53,6 @@ mercantilism = 50
 	add_ruler_personality = pious_personality
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = gracious_personality
-	government = late_sengoku_monarchy
 	primary_culture = kuma_c
 }
 
@@ -72,5 +71,4 @@ mercantilism = 50
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = gracious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

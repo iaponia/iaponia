@@ -21,6 +21,5 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = frugal_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = sagami_c
 }

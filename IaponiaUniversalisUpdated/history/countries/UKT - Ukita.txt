@@ -32,7 +32,6 @@ mercantilism = 50
 	add_ruler_personality = pious_personality
 	add_ruler_personality = cunning_personality
 	add_ruler_personality = gracious_personality
-	government = sengoku_monarchy
 }
 
 1569.10.10 = {
@@ -75,7 +74,6 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = upstanding_personality
 	add_accepted_culture = bishu_c
-	government = late_sengoku_monarchy
 	leader = {
 		name = "Teruzumi Akashi"	
 		type = general	
@@ -126,6 +124,5 @@ mercantilism = 50
 	add_ruler_personality = cunning_personality
 	add_ruler_personality = gracious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	remove_accepted_culture = bishu_c
 }

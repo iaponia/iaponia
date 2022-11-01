@@ -75,7 +75,6 @@ mercantilism = 50
 	add_heir_personality = mercantile_personality
 	add_heir_personality = elitist_personality
 	add_heir_personality = ambitious_personality
-	government = sengoku_monarchy
 }
 
 1536.4.7 = { 
@@ -201,7 +200,6 @@ mercantilism = 50
 	add_ruler_personality = elitist_personality
 	add_ruler_personality = tolerant_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	remove_accepted_culture = awaji_c
 	remove_accepted_culture = sesshu_c
 }

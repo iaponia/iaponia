@@ -46,7 +46,6 @@ mercantilism = 50
 }
 
 1523.8.25 = {
-	government = sengoku_monarchy
 }
 
 1536.4.7 = {

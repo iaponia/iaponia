@@ -115,7 +115,6 @@ mercantilism = 50
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = erudite_personality
 	add_ruler_personality = elitist_personality
-	government = sengoku_monarchy
 	leader = {
 		name = "Sessai Taigen"
 		type = general
@@ -210,5 +209,4 @@ mercantilism = 50
 	add_ruler_personality = erudite_personality
 	add_ruler_personality = elitist_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

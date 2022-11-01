@@ -72,7 +72,6 @@ mercantilism = 50
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
 	add_ruler_personality = equestrian_personality
-	government = sengoku_monarchy
 }
 
 1536.4.7 = {
@@ -102,5 +101,4 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = equestrian_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

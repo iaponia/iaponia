@@ -89,8 +89,7 @@ mercantilism = 50
 		adm = 2
 		dip = 2
 		mil = 3
-	}
-	government = shugo_daimyo_monarchy	
+	}	
 }
 
 1536.4.7 = {

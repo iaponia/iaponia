@@ -52,7 +52,6 @@ mercantilism = 50
 		dip = 4
 		mil = 4
 	}
-	government = shugo_daimyo_monarchy
 }
 
 1615.1.1 = {
@@ -69,5 +68,4 @@ mercantilism = 50
 	add_ruler_personality = disorganized_personality
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

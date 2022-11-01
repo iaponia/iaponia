@@ -35,7 +35,6 @@ mercantilism = 50
 }
 
 1523.8.25 = {
-	government = sengoku_monarchy
 }
 
 1536.4.7 = {
@@ -128,6 +127,5 @@ mercantilism = 50
 	add_ruler_personality = architect_personality
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = mogami_c
 }

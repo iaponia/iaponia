@@ -65,7 +65,6 @@ mercantilism = 50
 	add_ruler_personality = frugal_personality
 	add_queen_personality = pious_personality
 	add_heir_personality = stern_personality
-	government = late_sengoku_monarchy
 	religion = catholic
 	primary_culture = buzen_c
 	add_accepted_culture = bungo_c
@@ -86,6 +85,5 @@ mercantilism = 50
 	add_ruler_personality = architect_personality
 	add_ruler_personality = frugal_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	remove_accepted_culture = bungo_c
 }

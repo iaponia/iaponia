@@ -55,7 +55,6 @@ mercantilism = 50
 	add_heir_personality = conscientious_personality
 	add_heir_personality = architect_personality
 	add_heir_personality = pious_personality
-	government = sengoku_monarchy
 }
 
 1511.9.25 = {capital = 451 } #Odawara
@@ -220,7 +219,6 @@ mercantilism = 50
 	add_heir_personality = brave_personality
 	add_heir_personality = retrograde_personality
 	add_heir_personality = reckless_personality
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -238,7 +236,6 @@ mercantilism = 50
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	remove_accepted_culture = musashi_c
 	remove_accepted_culture = kozuke_c
 	remove_accepted_culture = shimosa_c

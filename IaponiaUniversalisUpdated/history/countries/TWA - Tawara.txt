@@ -21,5 +21,4 @@ mercantilism = 50
 	add_ruler_personality = zealot_personality
 	add_ruler_personality = craven_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

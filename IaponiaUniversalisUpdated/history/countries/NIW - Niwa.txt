@@ -43,7 +43,6 @@ mercantilism = 50
 	add_ruler_personality = frugal_personality
 	add_ruler_personality = humble_personality
 	add_heir_personality = architect_personality
-	government = late_sengoku_monarchy
 	primary_culture = echizen_c
 }
 
@@ -78,5 +77,4 @@ mercantilism = 50
 	add_ruler_personality = humble_personality
 	add_ruler_personality = immortal_personality
 	religion = jodoshinshu
-	government = daimyo_monarchy
 }

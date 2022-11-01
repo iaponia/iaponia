@@ -21,5 +21,4 @@ mercantilism = 50
 	add_ruler_personality = equestrian_personality
 	add_ruler_personality = nautical_personality
 	add_ruler_personality = dishonorable_personality
-	government = late_sengoku_monarchy
 }

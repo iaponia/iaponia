@@ -84,7 +84,6 @@ mercantilism = 50
 	add_heir_personality = equestrian_personality
 	add_heir_personality = swordsman_personality
 	add_heir_personality = drunk_personality
-	government = shugo_daimyo_monarchy
 }
 	
 1546.5.19 = { 
@@ -117,5 +116,4 @@ mercantilism = 50
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = centralizer_personality
 	add_ruler_personality = immortal_personality
-	government = sengoku_monarchy
 }

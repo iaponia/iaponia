@@ -62,7 +62,6 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = drunk_personality
-	government = sengoku_monarchy
 }
 
 1569.10.10 = {
@@ -83,7 +82,6 @@ mercantilism = 50
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = drunk_personality
 	add_heir_personality = lenient_personality
-	government = late_sengoku_monarchy
 	leader = {
 		name = "Naoshige Nabeshima"
 		type = general
@@ -118,7 +116,6 @@ mercantilism = 50
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = drunk_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	remove_accepted_culture = islander_c
 	remove_accepted_culture = akizuki_c
 	remove_accepted_culture = chikugo_c

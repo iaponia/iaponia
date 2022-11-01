@@ -22,7 +22,6 @@ mercantilism = 50
 	add_ruler_personality = innovator_personality
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = cruel_personality
-	government = late_sengoku_monarchy
 	primary_culture = esshu_c
 }
 
@@ -41,5 +40,4 @@ mercantilism = 50
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

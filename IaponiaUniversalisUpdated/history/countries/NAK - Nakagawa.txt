@@ -20,7 +20,6 @@ mercantilism = 50
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
 	add_ruler_personality = architect_personality
-	government = late_sengoku_monarchy
 	primary_culture = bungo_c
 }
 
@@ -37,6 +36,5 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = architect_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = sesshu_c
 }

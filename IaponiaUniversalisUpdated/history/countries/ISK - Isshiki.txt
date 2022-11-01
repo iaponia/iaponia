@@ -67,7 +67,6 @@ mercantilism = 50
 		dip = 4
 		mil = 3
 	}
-	government = shugo_daimyo_monarchy
 }
 
 1523.8.25 = {
@@ -105,7 +104,6 @@ mercantilism = 50
 		dip = 4
 		mil = 3
 	}
-	government = sengoku_monarchy
 }
 
 1569.10.10 = {
@@ -134,5 +132,4 @@ mercantilism = 50
 	add_ruler_personality = lenient_personality
 	add_ruler_personality = artistic_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

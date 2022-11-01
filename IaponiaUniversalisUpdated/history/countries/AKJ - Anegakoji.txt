@@ -89,7 +89,6 @@ mercantilism = 50
 	clear_scripted_personalities = yes
 	add_ruler_personality = architect_personality
 	add_ruler_personality = ambitious_personality
-	government = sengoku_monarchy
 	capital = 394
 }
 
@@ -169,5 +168,4 @@ mercantilism = 50
 	add_ruler_personality = connected_personality
 	add_ruler_personality = humble_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

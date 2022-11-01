@@ -90,7 +90,6 @@ mercantilism = 50
 	primary_culture = sesshu_c
 	add_accepted_culture = harima_c
 	add_accepted_culture = inaba_c
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -113,6 +112,5 @@ mercantilism = 50
 	primary_culture = kawachi_c
 	remove_accepted_culture = harima_c
 	remove_accepted_culture = inaba_c
-	government = daimyo_monarchy
 	capital = 293
 }

@@ -127,7 +127,6 @@ mercantilism = 50
 	add_heir_personality = xenophilic_personality
 	add_heir_personality = centralizer_personality
 	add_heir_personality = zealot_personality
-	government = shugo_daimyo_monarchy
 }
 
 1546.5.19 = { 

@@ -66,7 +66,6 @@ mercantilism = 50
 	add_heir_personality = lenient_personality
 	add_heir_personality = humble_personality
 	add_heir_personality = disorganized_personality
-	government = shugo_daimyo_monarchy
 }
 
 1536.4.7 = {
@@ -138,7 +137,6 @@ mercantilism = 50
 		death_date = 1604.7.22
 		personality = frontline_leader_personality
 	}
-	government = sengoku_monarchy
 }
 
 1582.6.21 = {
@@ -188,7 +186,6 @@ mercantilism = 50
 		death_date = 1620.1.23
 		personality = skilled_marksman_personality
 	}
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -206,7 +203,6 @@ mercantilism = 50
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = drunk_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = kozuke_c
 	remove_accepted_culture = iwafune_c
 	remove_accepted_culture = shinano_c

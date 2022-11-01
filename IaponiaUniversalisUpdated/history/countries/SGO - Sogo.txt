@@ -17,7 +17,6 @@ mercantilism = 50
 		dip = 4
 		mil = 5
 	}
-	government = late_sengoku_monarchy
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
 	add_ruler_personality = ambitious_personality
@@ -33,7 +32,6 @@ mercantilism = 50
 		dip = 5
 		mil = 7
 	}
-	government = daimyo_monarchy
 	clear_scripted_personalities = yes
 	add_ruler_personality = brave_personality
 	add_ruler_personality = strong_personality

@@ -27,7 +27,6 @@ mercantilism = 50
 		dip = 4
 		mil = 4
 	}
-	government = late_sengoku_monarchy
 	add_ruler_personality = conscientious_personality
 }
 
@@ -40,7 +39,6 @@ mercantilism = 50
 		dip = 4
 		mil = 5
 	}
-	government = daimyo_monarchy
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = immortal_personality
 	capital = 142

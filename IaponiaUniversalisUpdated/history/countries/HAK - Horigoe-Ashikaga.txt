@@ -41,5 +41,4 @@ mercantilism = 50
 		mil = 3
 	}
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

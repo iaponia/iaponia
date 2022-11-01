@@ -51,7 +51,6 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	government = shugo_daimyo_monarchy
 }
 
 1511.9.25 = { 
@@ -99,5 +98,4 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	government = sengoku_monarchy
 }

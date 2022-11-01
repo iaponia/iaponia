@@ -44,7 +44,6 @@ mercantilism = 50
 	add_ruler_personality = erudite_personality
 	add_ruler_personality = pious_personality
 	add_queen_personality = honorable_personality
-	government = late_sengoku_monarchy
 }
 
 1600.9.13 = {
@@ -82,5 +81,4 @@ mercantilism = 50
 	add_ruler_personality = pious_personality
 	add_ruler_personality = immortal_personality
 	primary_culture = okitama_c
-	government = daimyo_monarchy
 }

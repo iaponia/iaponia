@@ -54,7 +54,6 @@ mercantilism = 50
 	add_ruler_personality = centralizer_personality
 	add_queen_personality = frugal_personality
 	add_heir_personality = mercantile_personality
-	government = late_sengoku_monarchy
 	primary_culture = totomi_c
 }
 
@@ -73,6 +72,5 @@ mercantilism = 50
 	add_ruler_personality = humble_personality
 	add_ruler_personality = centralizer_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = tosa_c
 }

@@ -20,7 +20,6 @@ mercantilism = 50
 }
 
 1523.8.25 = {
-	government = sengoku_monarchy
 }
 
 1546.5.19 = {
@@ -72,7 +71,6 @@ mercantilism = 50
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = frugal_personality
 	add_ruler_personality = humble_personality
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -91,6 +89,5 @@ mercantilism = 50
 	add_ruler_personality = artistic_personality
 	add_ruler_personality = humble_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	religion = nichirenshu
 }

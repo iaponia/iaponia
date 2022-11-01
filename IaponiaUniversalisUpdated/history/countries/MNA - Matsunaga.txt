@@ -51,7 +51,6 @@ mercantilism = 50
 	add_ruler_personality = pious_personality
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = dishonorable_personality
-	government = sengoku_monarchy
 	primary_culture = yamato_c
 }
 
@@ -70,5 +69,4 @@ mercantilism = 50
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = dishonorable_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

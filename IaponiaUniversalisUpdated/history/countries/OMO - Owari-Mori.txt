@@ -45,7 +45,6 @@ mercantilism = 50
 	add_ruler_personality = reckless_personality
 	add_ruler_personality = swordsman_personality
 	add_queen_personality = innovator_personality
-	government = late_sengoku_monarchy
 }
 
 1600.9.13 = {
@@ -77,6 +76,5 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = swordsman_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = owari_c
 }

@@ -92,7 +92,6 @@ mercantilism = 50
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = retrograde_personality
-	government = shugo_daimyo_monarchy
 }
 
 1546.5.19 = { 
@@ -194,5 +193,4 @@ mercantilism = 50
 	add_ruler_personality = pious_personality
 	add_ruler_personality = artistic_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

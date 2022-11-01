@@ -17,7 +17,6 @@ mercantilism = 50
 		dip = 5
 		mil = 6
 	}
-	government = sengoku_monarchy
 	clear_scripted_personalities = yes
 	add_ruler_personality = erudite_personality
 	add_ruler_personality = innovator_personality

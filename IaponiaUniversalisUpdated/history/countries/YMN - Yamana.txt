@@ -120,7 +120,6 @@ mercantilism = 50
 	add_ruler_personality = architect_personality
 	add_ruler_personality = disorganized_personality
 	add_ruler_personality = ambitious_personality
-	government = shugo_daimyo_monarchy
 	add_accepted_culture = hoki_c
 }
 
@@ -153,6 +152,5 @@ mercantilism = 50
 	add_ruler_personality = upstanding_personality
 	add_ruler_personality = proud_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	remove_accepted_culture = hoki_c
 }

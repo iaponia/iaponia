@@ -29,7 +29,6 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	government = shugo_daimyo_monarchy
 }
 
 1511.9.25 = {
@@ -104,7 +103,6 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = nautical_personality
 	add_ruler_personality = ambitious_personality
-	government = sengoku_monarchy
 	capital = 463
 }
 
@@ -141,7 +139,6 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	government = late_sengoku_monarchy
 	capital = 459
 }
 
@@ -172,5 +169,4 @@ mercantilism = 50
 	add_ruler_personality = nautical_personality
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

@@ -69,7 +69,6 @@ mercantilism = 50
 	add_ruler_personality = equestrian_personality
 	add_ruler_personality = swordsman_personality
 	add_ruler_personality = artistic_personality
-	government = sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -87,5 +86,4 @@ mercantilism = 50
 	add_ruler_personality = swordsman_personality
 	add_ruler_personality = artistic_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

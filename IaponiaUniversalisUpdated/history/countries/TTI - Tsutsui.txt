@@ -77,7 +77,6 @@ mercantilism = 50
 	clear_scripted_personalities = yes
 	add_heir_personality = pious_personality
 	add_heir_personality = stern_personality
-	government = sengoku_monarchy
 }
 
 1536.4.7 = { 
@@ -146,7 +145,6 @@ mercantilism = 50
 		dip = 2
 		mil = 3
 	}
-	government = late_sengoku_monarchy
 	religion = catholic
 }
 
@@ -165,5 +163,4 @@ mercantilism = 50
 	add_ruler_personality = artistic_personality
 	add_ruler_personality = pious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

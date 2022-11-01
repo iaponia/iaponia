@@ -31,7 +31,6 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	government = sengoku_monarchy
 }
 	
 1554.3.1 = { 
@@ -57,6 +56,5 @@ mercantilism = 50
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	religion = nichirenshu
 }

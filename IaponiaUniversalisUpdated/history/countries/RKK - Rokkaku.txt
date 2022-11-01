@@ -100,7 +100,6 @@ mercantilism = 50
 	add_heir_personality = equestrian_personality
 	add_heir_personality = swordsman_personality
 	add_heir_personality = lenient_personality
-	government = sengoku_monarchy
 }
 
 1536.4.7 = {
@@ -160,6 +159,5 @@ mercantilism = 50
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = innovator_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	religion = catholic
 }

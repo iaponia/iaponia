@@ -18,7 +18,6 @@ mercantilism = 50
 		dip = 3
 		mil = 4
 	}
-	government = sengoku_monarchy
 }
 
 1554.3.1 = {
@@ -45,5 +44,4 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	government = late_sengoku_monarchy
 }

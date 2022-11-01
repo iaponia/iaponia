@@ -20,7 +20,6 @@ mercantilism = 50
 	clear_scripted_personalities = yes
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = architect_personality
-	government = sengoku_monarchy
 	primary_culture = yamato_c
 }
 
@@ -37,7 +36,6 @@ mercantilism = 50
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = architect_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = kawachi_c
 	religion = jodoshinshu
 }

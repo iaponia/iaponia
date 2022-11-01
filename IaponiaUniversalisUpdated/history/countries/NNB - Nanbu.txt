@@ -97,7 +97,6 @@ mercantilism = 50
 	add_ruler_personality = pious_personality
 	add_ruler_personality = connected_personality
 	add_ruler_personality = ambitious_personality
-	government = sengoku_monarchy
 }
 
 1569.10.10 = {
@@ -168,7 +167,6 @@ mercantilism = 50
 	add_ruler_personality = centralizer_personality
 	add_ruler_personality = legislator_personality
 	add_accepted_culture = oshu_c
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -187,5 +185,4 @@ mercantilism = 50
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
 	remove_accepted_culture = oshu_c
-	government = daimyo_monarchy
 }

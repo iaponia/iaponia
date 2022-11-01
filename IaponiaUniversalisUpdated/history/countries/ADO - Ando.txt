@@ -86,7 +86,6 @@ mercantilism = 50
 	add_ruler_personality = connected_personality
 	add_heir_personality = eloquent_personality
 	add_heir_personality = mercantile_personality
-	government = shugo_daimyo_monarchy
 }
 
 1554.3.1 = {
@@ -115,7 +114,6 @@ mercantilism = 50
 }
 
 1569.10.10 = {
-	government = sengoku_monarchy
 }
 
 1582.6.21 = {
@@ -162,7 +160,6 @@ mercantilism = 50
 	add_ruler_personality = reckless_personality
 	add_heir_personality = conscientious_personality
 	add_heir_personality = honorable_personality
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -179,5 +176,4 @@ mercantilism = 50
 	add_ruler_personality = mercantile_personality
 	add_ruler_personality = conscientious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

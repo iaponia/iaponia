@@ -135,7 +135,6 @@ mercantilism = 50
 	add_heir_personality = gracious_personality
 	add_heir_personality = upstanding_personality
 	add_heir_personality = artistic_personality
-	government = sengoku_monarchy
 }
 
 1546.5.19 = {
@@ -228,7 +227,6 @@ mercantilism = 50
 	add_ruler_personality = lenient_personality
 	add_heir_personality = brave_personality
 	add_heir_personality = drunk_personality
-	government = late_sengoku_monarchy
 	leader = {
 		name = "Motoharu Kikkawa"
 		type = general
@@ -277,7 +275,6 @@ mercantilism = 50
 	add_ruler_personality = stern_personality
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	remove_accepted_culture = bishu_c
 	remove_accepted_culture = choshu_c
 	remove_accepted_culture = iwami_c

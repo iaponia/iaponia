@@ -41,7 +41,6 @@ mercantilism = 50
 	add_ruler_personality = brave_personality
 	add_ruler_personality = connected_personality
 	add_ruler_personality = zealot_personality
-	government = sengoku_monarchy
 }
 
 1546.5.19 = {
@@ -60,11 +59,9 @@ mercantilism = 50
 	add_ruler_personality = connected_personality
 	add_ruler_personality = zealot_personality
 	add_heir_personality = innovator_personality
-	government = sengoku_monarchy
 }
 
 1569.10.10 = {
-	government = late_sengoku_monarchy
 }
 
 1615.1.1 = {
@@ -82,5 +79,4 @@ mercantilism = 50
 	add_ruler_personality = connected_personality
 	add_ruler_personality = zealot_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

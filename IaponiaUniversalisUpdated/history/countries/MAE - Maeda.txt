@@ -59,7 +59,6 @@ mercantilism = 50
 	add_heir_personality = architect_personality
 	add_heir_personality = humble_personality
 	add_queen_personality = erudite_personality
-	government = late_sengoku_monarchy
 	primary_culture = noto_c
 	capital = 377
 }
@@ -122,6 +121,5 @@ mercantilism = 50
 	add_ruler_personality = swordsman_personality
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	religion = jodoshinshu
 }

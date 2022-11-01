@@ -58,7 +58,6 @@ mercantilism = 50
 		mil = 4
 	}
 	capital = 683
-	government = late_sengoku_monarchy
 	primary_culture = yamashiro_c
 	add_accepted_culture = tanshu_c
 	add_accepted_culture = omi_c
@@ -101,7 +100,6 @@ mercantilism = 50
 	add_ruler_personality = erudite_personality
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 	primary_culture = mino_c
 	remove_accepted_culture = tanshu_c
 	remove_accepted_culture = omi_c

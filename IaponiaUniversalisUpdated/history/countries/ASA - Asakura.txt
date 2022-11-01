@@ -51,7 +51,6 @@ mercantilism = 50
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = centralizer_personality
 	add_ruler_personality = innovator_personality
-	government = shugo_daimyo_monarchy
 	leader = {
 		name = "Norikage Asakura"
 		type = general
@@ -201,5 +200,4 @@ mercantilism = 50
 	add_ruler_personality = honorable_personality
 	add_ruler_personality = pious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

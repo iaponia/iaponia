@@ -35,7 +35,6 @@ mercantilism = 50
 	add_heir_personality = brave_personality
 	add_heir_personality = eloquent_personality
 	add_heir_personality = ambitious_personality
-	government = sengoku_monarchy
 }
 	
 1536.4.7 = { 
@@ -104,5 +103,4 @@ mercantilism = 50
 	add_ruler_personality = eloquent_personality
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
-	government = daimyo_monarchy
 }

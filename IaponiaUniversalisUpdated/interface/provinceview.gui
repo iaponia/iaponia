@@ -764,14 +764,6 @@ guiTypes = {
 				position = { x = 140 y = 328 }
 			}
 
-
-			guiButtonType = {
-				name ="migrate_button"
-				quadTextureSprite = "GFX_migrate_province"
-				position = { x = 60 y = 328 }
-				frame = 1
-			}
-
 			### CLAIMS
 			instantTextBoxType = {
 				name = "claims_title"
@@ -1765,93 +1757,6 @@ guiTypes = {
 					maxWidth = 180
 					maxHeight = 32
 					text = "Army force limit: xx/xx"
-				}
-			}
-
-			### BUILD MERC VIEW
-			windowType = {
-				name = "build_merc_view"
-				backGround=""
-				position = { x= 28 y=137 }
-				size = { x=1024 y=100 }
-				moveable = 0
-				dontRender = ""
-				horizontalBorder= ""
-				verticalBorder= ""
-				fullScreen = no
-
-				iconType =
-				{
-					name ="background"
-					spriteType = "GFX_build_unit_bg"
-					position = { x= -14 y = -37 }
-					Orientation = "UPPER_LEFT"
-				}
-
-				guiButtonType = {
-					name = "back_button"
-					position = { x=175 y =408}
-					quadTextureSprite ="GFX_province_back_button"
-					tooltip = ""
-					tooltipText =""
-					delayedTooltipText = ""
-					buttonText = "PW_BACK"
-					buttonFont = "vic_18"
-					shortcut = "ESCAPE"
-					clicksound = back_click
-				}
-
-				instantTextBoxType = {
-					name = "label_merc"
-					position = { x = 15 y = -27 }
-					textureFile = ""
-					font = "vic_18"
-					borderSize = {x = 4 y = 4}
-					text = "PW_MERCENARY_REGIMENTS"
-					maxWidth = 250
-					maxHeight = 20
-					format = left
-					fixedsize = yes
-				}
-
-
-				iconType = {
-					name ="icon_fire"
-					spriteType = "GFX_icon_fire"
-					position = { x= 304 y = -30 }
-				}
-				iconType = {
-					name ="icon_shock"
-					spriteType = "GFX_icon_shock"
-					position = { x= 341 y = -30 }
-				}
-				iconType = {
-					name ="icon_morale"
-					spriteType = "GFX_icon_morale"
-					position = { x= 377 y = -30 }
-				}
-
-				instantTextBoxType = {
-					name = "label_buildq"
-					position = { x = 15 y = 191 }
-					textureFile = ""
-					font = "vic_18"
-					borderSize = {x = 4 y = 4}
-					text = "Build Queue has x"
-					maxWidth = 250
-					maxHeight = 20
-					format = left
-					fixedsize = yes
-				}
-				listboxType = {
-					name = "buildqueue"
-					position = { x = 0 y = 223 }
-					backGround=""
-					size = { x=433 y = 171}
-					horizontal = 0
-					spacing = 0
-					scrollbartype = "standardlistbox_slider"
-					borderSize = {x = 0 y = 0}
 				}
 			}
 

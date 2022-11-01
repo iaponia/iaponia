@@ -849,8 +849,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_button_colonize"
 		texturefile = "gfx//interface//button_colonize.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 
 		clicksound = click
 	}
@@ -890,8 +888,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_province_back_button"
 		texturefile = "gfx//interface//backbutton.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 
 	}
@@ -997,7 +993,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_resource_icon_transparent"
 		texturefile = "gfx//interface//resources.tga"
-		noOfFrames = 31
+		noOfFrames = 22
 		loadType = "INGAME"
 
 		alwaystransparent = yes
@@ -1123,8 +1119,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_closebutton"
 		texturefile = "gfx//interface//closebutton.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 
 	}
@@ -1147,8 +1141,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_build_army"
 		texturefile = "gfx//interface//button_army.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 
 	}
@@ -1156,8 +1148,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_build_merc"
 		texturefile = "gfx//interface//button_merc.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 
 	}
@@ -1165,8 +1155,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_build_navy"
 		texturefile = "gfx//interface//button_navy.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 
 	}

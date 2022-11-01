@@ -1,4 +1,5 @@
-government = theocratic_government
+government = monarchy
+add_government_reform = autocracy_reform
 primary_culture = omi_c
 religion = shinto
 technology_group = saigoku

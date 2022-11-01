@@ -1,4 +1,5 @@
-government = theocratic_government
+government = monarchy
+add_government_reform = autocracy_reform
 primary_culture = sesshu_c
 add_accepted_culture = kaga_c
 add_accepted_culture = seishu_c

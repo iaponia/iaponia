@@ -714,7 +714,7 @@ meritocratic_offensive = {
 		full_idea_group = offensive_ideas
 	}	
 	
-	possible_mercenaries = 0.25
+	mercenary_manpower = 0.5
 	mercenary_cost = -0.25
 	
 	ai_will_do = {
@@ -950,7 +950,7 @@ expansion_traditional = {
 	}	
 	
 	cavalry_cost = -0.1
-	possible_mercenaries = 0.25
+	mercenary_manpower = 0.5
 	
 	ai_will_do = {
 		factor = 1

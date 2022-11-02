@@ -80,7 +80,7 @@ shinto_ideas = {
 		devotion = 1
 	}
 	shinto_three = {
-		religious_conversion_resistance = 0.5
+		global_religious_conversion_resistance = 0.5
 	}
 	shinto_four = {
 		tolerance_own = 1
@@ -173,7 +173,7 @@ pagan_ideas = {
 		tolerance_own = 1
 	}
 	pagan_two = {
-		religious_conversion_resistance = 0.5
+		global_religious_conversion_resistance = 0.5
 	}
 	pagan_three = {
 		religious_unity = 0.2
@@ -328,7 +328,7 @@ ecclesiocratic_ideas = {
 		merc_maintenance_modifier = -0.25
 	}
 	ecclesiocratic_four = {
-		possible_mercenaries = 0.25
+		mercenary_manpower = 0.5
 	}
 	ecclesiocratic_five = {
 		advisor_cost = -0.1
@@ -952,7 +952,7 @@ organization_ideas = {
 		mil_tech_cost_modifier  = -0.1
 	}
 	organization_two = {
-		possible_mercenaries = 0.25
+		mercenary_manpower = 0.5
 	}
 	organization_three = {
 		movement_speed = 0.15

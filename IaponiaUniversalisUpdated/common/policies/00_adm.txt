@@ -223,7 +223,7 @@ shinto_mercantilist = {
 		full_idea_group = mercantilist_ideas
 	}
 
-	religious_conversion_resistance = 0.25
+	global_religious_conversion_resistance = 0.25
 	global_trade_power = 0.1
 	
 	ai_will_do = {

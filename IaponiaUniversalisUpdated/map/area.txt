@@ -574,7 +574,7 @@ fuwa_area = {
 	404 405 406
 }
 
-sekigahara_area = {
+tokuyama_area = {
 	358 359 360 361 700
 }
 

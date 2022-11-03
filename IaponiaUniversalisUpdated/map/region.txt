@@ -135,7 +135,7 @@ kansai_region = {
 		chuno_area
 		minonobi_area
 		fuwa_area
-		sekigahara_area
+		tokuyama_area
 	}
 }
 

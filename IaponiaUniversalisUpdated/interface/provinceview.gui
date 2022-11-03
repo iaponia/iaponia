@@ -2387,13 +2387,7 @@ guiTypes = {
 				maxWidth = 300
 				maxHeight = 20
 				format = left
-			}
-
-			guiButtonType =
-			{
-				name = "make_state"
-				quadTextureSprite = "GFX_make_state_button"
-				position = { x = 372 y = 6 }
+	
 			}
 
 			iconType =
@@ -2756,7 +2750,6 @@ guiTypes = {
 			}
 		
 
-		## State Window
 		windowType = {
 				name = "investment_offset"
 			backGround=""
@@ -4543,12 +4536,12 @@ guiTypes = {
 
 	positionType = {
 		name = "building_close_button_natives"
-		position = { x = 382 y = -10 }
+		position = { x = 382 y = 200 }
 	}
 
 	positionType = {
 		name = "building_close_button_natives_large"
-		position = { x = 382 y = -112 }
+		position = { x = 382 y = 140 }
 	}
 
 	positionType = {
@@ -4787,7 +4780,7 @@ guiTypes = {
 
 	positionType = {
 		name = "building_start"
-		position = { x = 41 y = 162 }
+		position = { x = 41 y = 47 }
 	}
 
 	positionType = {

@@ -39,6 +39,11 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
+	spriteType = {
+		name = "GFX_checkbox_settlement_growth"
+		texturefile = "gfx//interface//checkbox_settlement_growth.dds"
+		noOfFrames = 4
+	}		
 	### ICONS
 
 	spriteType = {
@@ -69,7 +74,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_leader_types"
 		texturefile = "gfx//interface//leader_types.tga"
-		noOfFrames = 6
+		noOfFrames = 7
 	}
 
 	spriteType = {
@@ -96,20 +101,29 @@ spriteTypes = {
 		name = "GFX_building_to_unit"
 		texturefile = "gfx//interface//building_to_unit.dds"
 	}
+	spriteType = {
+		name = "GFX_flagship_16"
+		texturefile = "gfx//interface//flagship_16.dds"
+	}
+
+	spriteType = {
+		name = "GFX_minority_expulsion_outliner_icon"
+		texturefile = "gfx//interface//minority_expulsion_outliner_icon.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_stars_small"
 		texturefile = "gfx//interface//dots.tga"
 		noOfFrames = 13
 		#transparencecheck = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_dots_offensive"
 		texturefile = "gfx//interface//dots_offensive.tga"
 		noOfFrames = 13
 		#transparencecheck = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_dots_offensive_no_transp"
@@ -121,7 +135,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//dots_defensive.tga"
 		noOfFrames = 13
 		#transparencecheck = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_dots_defensive_no_transp"
@@ -594,6 +608,12 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 
+	spriteType = {
+		name = "GFX_small_shield_overlay_great_power_transparent"
+		texturefile = "gfx/interface/small_shield_overlay_great_power_transparent.dds"
+		alwaystransparent = yes
+	}
+
 	progressbartype = {
 		name = "GFX_difficulty_progressbar"
 		color = { 0.0 0.5 0.0 }
@@ -684,6 +704,16 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress.lua"
 	}
 
+	progressbartype = {
+		name = "GFX_provinceView_revolution_progressbar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\unitpanel_progressbar_w10_h39_yellow_v.dds"
+		textureFile2 = "gfx\\interface\\unitpanel_progressbar_w10_h39_black_v.dds"
+		size = { x = 78 y = 9 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
 	progressbartype = {
 		name = "GFX_provinceView_religious_progressbar"
 		color = { 1.0 0.0 0.0 }
@@ -831,112 +861,124 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_diplomacy_view_diplochance_bar_frame_short"
 		texturefile = "gfx/interface/diplomacy_view_diplochance_bar_frame_short.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_war_overview_progress_frame"
 		texturefile = "gfx/interface/war_overview_progress_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_treasure_fleet_progress_frame"
 		texturefile = "gfx/interface/treasure_fleet_progress_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_treasure_fleet_progress_frame2"
 		texturefile = "gfx/interface/treasure_fleet_progress_frame2.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_technologyView_progress_frame_long"
 		texturefile = "gfx/interface/technologyView_progress_frame_long.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_ideaView_unique_progress_frame_long"
 		texturefile = "gfx/interface/ideaView_unique_progress_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_ideaView_progress_frame_long"
 		texturefile = "gfx/interface/ideaView_progress_frame_long.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_ideaView_progress_frame_short"
 		texturefile = "gfx/interface/ideaView_progress_frame_short.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_country_economy_view_topBanner"
 		texturefile = "gfx/interface/country_economy_view_topBanner.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_country_ideas_view_topGold"
 		texturefile = "gfx/interface/country_ideas_view_topGold.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_country_diplomacy_view_topGold"
 		texturefile = "gfx/interface/country_diplomacy_view_topGold.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_country_diplomacy_view_top_gold"
+		texturefile = "gfx/interface/country_diplomacy_view_top_gold.dds"
+		alwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_country_diplomacy_view_bottom_gold"
+		texturefile = "gfx/interface/country_diplomacy_view_bottom_gold.dds"
+		alwaystransparent = yes
 	}
 
 
 	spriteType = {
 		name = "GFX_economy_linechart_frame"
 		texturefile = "gfx/interface/economy_linechart_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_provinceView_morale_frame_long"
 		texturefile = "gfx/interface/provinceView_morale_frame_long.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_provinceView_morale_frame_medium"
 		texturefile = "gfx/interface/provinceView_morale_frame_medium.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_provinceView_morale_frame"
 		texturefile = "gfx/interface/provinceView_morale_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 
 	spriteType = {
 		name = "GFX_progress_bar_frame"
 		texturefile = "gfx/interface/progress_bar_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_religion_frame"
 		texturefile = "gfx/interface/religion_frame.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_can_convert_religion"
 		texturefile = "gfx//interface//provinceview_convert_religion.tga"
 		transparencecheck = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 
@@ -1142,6 +1184,11 @@ spriteTypes = {
 		name = "GFX_sort_160"
 		texturefile = "gfx/interface/sort_160.dds"
 	}
+		
+	textSpriteType = {
+		name = "GFX_sort_127"
+		texturefile = "gfx/interface/macro_states_sort/sort_button_127.dds"
+	}
 
 	spriteType = {
 		name = "GFX_sort_trader02"
@@ -1230,13 +1277,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_provinceView_chart_overlay"
 		texturefile = "gfx/interface/provinceView_chart_overlay.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
 		name = "GFX_chart_35_overlay"
 		texturefile = "gfx/interface/chart_35_overlay.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	spriteType = {
 		name = "GFX_square_close"
@@ -1250,7 +1297,7 @@ spriteTypes = {
 		textureFile2 = "gfx\\interface\\small_trade_flags_mask.dds"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_trade_flags.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1261,7 +1308,7 @@ spriteTypes = {
 		textureFile2 = "gfx\\interface\\flag_small_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_flag_smallest.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1272,7 +1319,7 @@ spriteTypes = {
 		textureFile2 = "gfx\\interface\\flag_smallest_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_flag_smallest.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1283,7 +1330,7 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/small_shield_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_mini.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1294,7 +1341,7 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/small_navy_flag_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_mini.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1305,7 +1352,7 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/small_navy_flag_mask_flip.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_mini.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1313,10 +1360,10 @@ spriteTypes = {
 	maskedShieldType = {
 		name = "GFX_shield_small_claim"
 		textureFile1 = "gfx/interface/small_shield_overlay_claim.dds"
-		textureFile2 = "gfx/interface/small_shield_mask_claims.tga"
+		textureFile2 = "gfx/interface/small_shield_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_mini.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1324,10 +1371,10 @@ spriteTypes = {
 	maskedShieldType = {
 		name = "GFX_shield_small_permanent_claim"
 		textureFile1 = "gfx/interface/small_shield_overlay_permanent_claim.dds"
-		textureFile2 = "gfx/interface/small_shield_mask_claims.tga"
+		textureFile2 = "gfx/interface/small_shield_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_mini.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1338,7 +1385,7 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/small_shield_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_mini.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1350,7 +1397,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/maskedflag.lua"
 		transparencecheck = yes
 		textureFile3 = "gfx//interface//client_state_symbols_large.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1362,7 +1409,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/maskedflag.lua"
 		transparencecheck = yes
 		textureFile3 = "gfx//interface//client_state_symbols_large.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1383,7 +1430,7 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/shield_medium_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_small.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1394,7 +1441,7 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/shield_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_medium.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1411,7 +1458,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/maskedflag.lua"
 		transparencecheck = yes
 		textureFile3 = "gfx//interface//client_state_symbols_large.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1423,7 +1470,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/maskedflag.lua"
 		transparencecheck = yes
 		textureFile3 = "gfx//interface//client_state_symbols_small.dds"
-		noOfFrames = 120
+		noOfFrames = 121
 		overlay_frames_per_row = 32
 		overlay_rows = 4
 	}
@@ -1433,7 +1480,7 @@ spriteTypes = {
 		texturefile = "gfx//interface//shield_thin_glow.dds"
 
 		effectFile = "gfx/FX/buttonstate.lua"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -1572,6 +1619,11 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_button_straight_152_32"
 		texturefile = "gfx/interface/button_straight_152_32.dds"
+	}	
+
+	textSpriteType = {
+		name = "GFX_button_straight_152_32_glow"
+		texturefile = "gfx/interface/button_straight_152_32_glow.dds"
 	}
 
 	textSpriteType = {
@@ -1585,7 +1637,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_button_straight_255_32_glow"
 		texturefile = "gfx/interface/button_straight_255_32_glow.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	textSpriteType = {
 		name = "GFX_button_straight_213_29"
@@ -1602,7 +1654,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_button_straight_300_32_glow"
 		texturefile = "gfx/interface/button_straight_300_32_glow.dds"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	textSpriteType = {
@@ -1631,6 +1683,11 @@ spriteTypes = {
 		name = "GFX_standard_button_105"
 		texturefile = "gfx/interface/standard_button_105.dds"
 	}
+	spriteType = {
+		name = "GFX_mic_button_105"
+		texturefile = "gfx/interface/mic_button.dds"
+		noOfFrames = 2
+	}
 	textSpriteType = {
 		name = "GFX_standard_button_88"
 		texturefile = "gfx/interface/standard_button_88.dds"
@@ -1647,9 +1704,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "GFX_list_button"
 		texturefile = "gfx//interface//list_button.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-
 	}
 	spriteType = {
 		name = "GFX_list_button_relation"
@@ -1657,7 +1711,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_list_button_rivals"
-		texturefile = "gfx//interface//list_button_rivals.dds"
+		texturefile = "gfx/interface/rivals/list_button_rivals.dds"
 	}
 	textSpriteType = {
 		name = "GFX_list_button_220"
@@ -1764,6 +1818,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_default_fallback_texture"
 		texturefile = "gfx/interface/default_fallback_texture.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_transparent"
+		texturefile = "gfx/interface/resource_transparent.dds"
+	}
+	
+	textSpriteType = {
+		name = "GFX_sort_211"
+		texturefile = "gfx/interface/macro_states_sort/sort_button_211.dds"
+	}	
+	
+		textSpriteType = {
+		name = "GFX_sort_180"
+		texturefile = "gfx/interface/macro_states_sort/sort_button_180.dds"
 	}
 
 }

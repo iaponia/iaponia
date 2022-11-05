@@ -12,13 +12,13 @@ country_event = {
 		is_lesser_in_union = no
 		has_regency = no
 		government = monarchy
-		NOT = { government = elective_monarchy }
-		NOT = { government = ottoman_government }
+		NOT = { has_reform = elective_monarchy }
 		any_owned_province = {
 			num_free_building_slots = 1
-			NOT = { has_building = cathedral }
+			NOT = { has_building = shrine }
 			NOT = { has_building = temple }
 		}
+		has_government_attribute = heir
 	}
 
 	mean_time_to_happen = {
@@ -27,22 +27,22 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA9451"
-		kill_heir = yes
+		kill_heir = {}
 		random_owned_province = {
 			limit = {
 				NOT = {
 					has_building = temple
 				}
-				NOT = { has_building = cathedral }
+				NOT = { has_building = shrine }
 				num_free_building_slots = 1
 			}
-			add_building = temple
+			add_building = shrine
 		}
 	}
 
 	option = {
 		name = "EVTOPTB9451"
-		kill_heir = yes
+		kill_heir = { allow_new_heir = no }
 		define_heir = {
 			dynasty = ROOT
 			claim = 30
@@ -67,8 +67,7 @@ country_event = {
 		}
 		has_regency = no
 		government = monarchy
-		NOT = { government = elective_monarchy }
-		NOT = { government = ottoman_government }
+		NOT = { has_reform = elective_monarchy }
 	}
 
 	mean_time_to_happen = {
@@ -90,7 +89,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTB9452"
-		kill_heir = yes
+		kill_heir = {}
 	}
 }
 
@@ -116,11 +115,11 @@ country_event = {
 		}
 		government = monarchy
 		heir_age = 4
-		NOT = { government = elective_monarchy }
+		NOT = { has_reform = elective_monarchy }
 	}
 
 	mean_time_to_happen = {
-		months = 25
+		months = 50
 	}
 
 	option = {
@@ -144,13 +143,14 @@ country_event = {
 
 	trigger = {
 		government = monarchy
-		NOT = { government = ottoman_government }
 		is_month = 3
 		NOT = { is_month = 6 }
 		has_heir = no
 		is_female = no
 		is_lesser_in_union = no
 		has_regency = no
+		has_government_attribute = queen
+		has_government_attribute = heir
 		OR = {
 			NOT = { has_dlc = "Rights of Man" }
 			has_consort = no
@@ -212,6 +212,8 @@ country_event = {
 			}
 			define_consort = {
 				country_of_origin = event_target:bargaining_chip_country
+				culture = event_target:bargaining_chip_country
+				religion = event_target:bargaining_chip_country
 			}
 		}
 	}
@@ -229,7 +231,7 @@ country_event = {
 		is_lesser_in_union = no
 		government = monarchy
 		has_regency = no
-		NOT = { government = ottoman_government }
+		has_government_attribute = heir
 	}
 
 	mean_time_to_happen = {
@@ -281,7 +283,7 @@ country_event = {
 		government = monarchy
 		has_regency = no
 		is_lesser_in_union = no
-		NOT = { government = elective_monarchy }
+		NOT = { has_reform = elective_monarchy }
 	}
 
 	mean_time_to_happen = {
@@ -291,7 +293,7 @@ country_event = {
 		name = "EVTOPTA9456"
 		add_years_of_income = -0.2
 		random_list = {
-			50 = { kill_heir = yes }
+			50 = { kill_heir = {} }
 			50 = {
 				add_legitimacy = 5
 				add_horde_unity = 5
@@ -302,7 +304,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB9456"
 		random_list = {
-			75 = { kill_heir = yes}
+			75 = { kill_heir = {}}
 			25 = {
 				add_legitimacy = 30
 				add_horde_unity = 30
@@ -324,8 +326,8 @@ country_event = {
 		government = monarchy
 		religion_group = christian
 		has_regency = no
-		NOT = { government = ottoman_government }
-		NOT = { government = elective_monarchy }
+		NOT = { has_reform = elective_monarchy }
+		has_government_attribute = heir
 	}
 
 	mean_time_to_happen = {
@@ -341,9 +343,9 @@ country_event = {
 		define_heir = {
 			claim = 20
 			dynasty = ROOT
-			adm = 1
-			dip = 1
-			mil = 1
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
 			male = yes
 			no_consort_with_heir = yes
 		}
@@ -370,19 +372,19 @@ country_event = {
 		has_heir = yes
 		heir_age = 15
 		is_lesser_in_union = no
-		NOT = { government = elective_monarchy }
+		NOT = { has_reform = elective_monarchy }
 	}
 	mean_time_to_happen = {
 		months = 2700
 	}
 	option = {
 		name = "EVTOPTA9459"
-		kill_heir = yes
+		kill_heir = {}
 		add_stability = -1
 	}
 	option = {
 		name = "EVTOPTB9459"
-		kill_heir = yes
+		kill_heir = {}
 		add_prestige = -10
 	}
 }
@@ -452,14 +454,10 @@ country_event = {
 	picture = DEATH_OF_HEIR_eventPicture
 
 	trigger = {
-		stability = 3
-		NOT = {
-			overextension_percentage = 0.05
-			is_lesser_in_union = yes
-		}
+		NOT = { stability = -1 }
+		is_lesser_in_union = no
 		government = monarchy
-		legitimacy_or_horde_unity = 100
-		NOT = { government = ottoman_government }
+		NOT = { legitimacy_or_horde_unity = 50 }
 		has_regency = yes
 		has_consort_regency = no
 		has_heir = yes
@@ -471,27 +469,15 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA9468"
-		kill_heir = yes
+		kill_heir = { allow_new_heir = no }
 		define_ruler = {
-			adm = 0
-			dip = 0
-			mil = 0
 		}
-		add_stability = -3
-		add_legitimacy = -90
-		add_horde_unity = -90
-		add_country_modifier = {
-			name = "plutocracy_modifier"
-			duration = 7300
-		}
-		add_country_modifier = {
-			name = "centralization_modifier"
-			duration = 3650
-		}
+		add_stability = -1
 	}
 	option = {
 		name = "EVTOPTB9468"
-		add_stability = -1
+		add_stability = -2
+		add_heir_claim = 30
 	}
 }
 
@@ -500,28 +486,46 @@ country_event = {
 	id = 9470
 	title = "EVTNAME9470"
 	desc = "EVTDESC9470"
-	picture = NEW_HEIR_eventPicture
+	picture = DIPLOMACY_eventPicture
 
 	trigger = {
-		religion_group = christian
+		religion = catholic
 		government = monarchy
-		NOT = { government = elective_monarchy }
-		NOT = { government = ottoman_government }
+		NOT = { has_reform = elective_monarchy }
 		has_regency = no
 		is_lesser_in_union = no
 		num_of_royal_marriages = 4
+		has_government_attribute = heir
+		has_states_general_mechanic = no
 		any_country = {
 			religion_group = christian
 			government = monarchy
-			NOT = { government = elective_monarchy }
-			NOT = { government = ottoman_government }
+			NOT = { has_reform = elective_monarchy }
 			marriage_with = ROOT
 			NOT = { dynasty = ROOT }
 			has_heir = no
+			has_government_attribute = heir
+			has_states_general_mechanic = no
 			is_lesser_in_union = no
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_country = {
+				limit = {
+					government = monarchy
+					marriage_with = ROOT
+					NOT = { dynasty = ROOT }
+					has_heir = no
+					is_lesser_in_union = no
+					has_government_attribute = heir
+					has_states_general_mechanic = no
+				}
+				save_event_target_as = marriage_policy_paid_off_here
+			}
+		}
+	}
 	mean_time_to_happen = {
 		months = 1500
 		modifier = {
@@ -535,34 +539,15 @@ country_event = {
 		trigger = {
 			NOT = { dynasty = "von Habsburg" }
 		}
-		random_country = {
-			limit = {
-				government = monarchy
-				marriage_with = ROOT
-				NOT = { dynasty = ROOT }
-				has_heir = no
-				is_lesser_in_union = no
-			}
-			define_heir = {
+		event_target:marriage_policy_paid_off_here = {
+			define_heir = { #Generated immediately, rather than in the followup event, so that the actual heir matches the tooltip for ROOT.
 				dynasty = ROOT
+				age = 14
 			}
-		}
-	}
-	option = {
-		name = "EVTOPTB9470"
-		trigger = {
-			dynasty = "von Habsburg"
-		}
-		random_country = {
-			limit = {
-				government = monarchy
-				marriage_with = ROOT
-				NOT = { dynasty = ROOT }
-				has_heir = no
-				is_lesser_in_union = no
-			}
-			define_heir = {
-				dynasty = ROOT
+			hidden_effect = {
+				country_event = { id = dynastic_events.8 }
+				set_heir_culture = FROM
+				set_heir_religion = FROM
 			}
 		}
 	}
@@ -616,7 +601,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA9476"
+		name = "EVTOPTA9477"
 		random_list = {
 			10 = {
 				add_stability_or_adm_power = yes
@@ -641,12 +626,13 @@ country_event = {
 	trigger = {
 		prestige = 30
 		government = monarchy
-		NOT = { government = ottoman_government }
 		is_lesser_in_union = no
 		is_at_war = no
 		has_regency = no
 		has_heir = no
 		is_female = no
+		has_government_attribute = queen
+		has_government_attribute = heir
 		OR = {
 			NOT = { num_of_royal_marriages = 2 }
 			AND = {
@@ -660,6 +646,7 @@ country_event = {
 			is_lesser_in_union = no
 			alliance_with = ROOT
 			ai = yes
+			NOT = { marriage_with = root }
 		}
 	}
 
@@ -676,6 +663,7 @@ country_event = {
 				is_lesser_in_union = no
 				alliance_with = ROOT
 				ai = yes
+				NOT = { marriage_with = root }
 			}
 			create_marriage = ROOT
 		}
@@ -705,6 +693,7 @@ country_event = {
 			is_lesser_in_union = no
 			government = monarchy
 			religion_group = ROOT
+			NOT = { marriage_with = ROOT }
 		}
 		government = monarchy
 		is_lesser_in_union = no
@@ -720,6 +709,7 @@ country_event = {
 			limit = {
 				has_country_modifier = sought_after_bachelor
 				religion_group = ROOT
+				NOT = { marriage_with = ROOT }
 			}
 			random_list = {
 				20 = { country_event = { id = 9486 } }
@@ -754,6 +744,8 @@ country_event = {
 			}
 			define_consort = {
 				country_of_origin = FROM
+				culture = FROM
+				religion = FROM
 			}
 		}
 		create_marriage = FROM
@@ -784,6 +776,8 @@ country_event = {
 			}
 			define_consort = {
 				country_of_origin = FROM
+				culture = FROM
+				religion = FROM
 			}
 		}
 		create_marriage = FROM
@@ -806,7 +800,7 @@ country_event = {
 
 	trigger = {
 		government = monarchy
-		NOT = { government = elective_monarchy }
+		NOT = { has_reform = elective_monarchy }
 		has_heir = yes
 		is_heir_leader = yes
 		heir_age = 20
@@ -831,7 +825,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTB9488"
-		kill_heir = yes
+		kill_heir = {}
 		add_war_exhaustion = -2
 	}
 }
@@ -873,12 +867,18 @@ country_event = {
 	trigger = {
 		is_lesser_in_union = no
 		government = monarchy
-		NOT = { government = ottoman_government }
-		NOT = { government = elective_monarchy }
+		NOT = { has_reform = elective_monarchy }
 		has_heir = no
 		is_female = no
 		has_regency = no
 		num_of_royal_marriages = 1
+		has_government_attribute = heir
+		if = {
+			limit = {
+				has_dlc = "Rights of Man"
+			}
+			has_consort = yes
+		}
 		NOT = {
 			has_country_modifier = a_woman_scorned
 		}
@@ -920,10 +920,10 @@ country_event = {
 		has_heir = no
 		ruler_age = 40
 		government = monarchy
-		religion_group = christian
-		NOT = { government = ottoman_government }
-		NOT = { government = elective_monarchy }
+		religion = catholic
+		NOT = { has_reform = elective_monarchy }
 		is_lesser_in_union = no
+		has_government_attribute = heir
 	}
 
 	mean_time_to_happen = {
@@ -975,16 +975,20 @@ country_event = {
 		has_heir = no
 		ruler_age = 20
 		government = monarchy
-		NOT = { government = ottoman_government }
-		NOT = { government = elective_monarchy }
+		NOT = { has_reform = elective_monarchy }
 		is_lesser_in_union = no
 		NOT = {
 			has_country_modifier = dyn_newborn_daughter
 		}
+		has_government_attribute = heir
+		OR = {
+			has_regency = no 
+			has_consort_regency = yes
+		}
 	}
 
 	mean_time_to_happen = {
-		months = 500
+		months = 600
 	}
 
 	option = {
@@ -1018,8 +1022,8 @@ country_event = {
 		has_heir = no
 		ruler_age = 40
 		government = monarchy
-		NOT = { government = elective_monarchy }
-		NOT = { government = ottoman_government }
+		NOT = { has_reform = elective_monarchy }
+		has_government_attribute = heir
 		is_lesser_in_union = no
 		NOT = { has_ruler_flag = talented_daughter_happened }
 	}
@@ -1061,9 +1065,9 @@ country_event = {
 		define_heir = {
 			dynasty = ROOT
 			age = 13
-			adm = 3
-			dip = 3
-			mil = 3
+			change_adm = 3
+			change_dip = 3
+			change_mil = 3
 			claim = 50
 			female = yes
 			no_consort_with_heir = yes

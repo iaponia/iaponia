@@ -560,9 +560,6 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		uses_devotion = yes
-		NOT = {
-			religion_group = muslim
-		}
 	}
 
 	is_triggered_only = yes

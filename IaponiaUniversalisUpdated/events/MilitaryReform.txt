@@ -23,7 +23,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			advisor = army_refomer_a
+			advisor = army_reformer_a
 		}
 		modifier = {
 			factor = 1.1

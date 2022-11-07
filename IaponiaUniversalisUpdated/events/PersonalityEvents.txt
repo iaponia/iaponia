@@ -13,10 +13,10 @@ country_event = {
 	title = "personality_events.26.t"
 	desc = "personality_events.26.d"
 	picture = COPTIC_CITY_eventPicture
-
+	
 	trigger = {
 		has_dlc = "Rights of Man"
-		ruler_has_personality = zealot_personality
+		ruler_has_personality_ancestor = { key = zealot }
 		any_neighbor_country = {
 			is_enemy = ROOT
 			NOT = { religion = ROOT }
@@ -27,22 +27,17 @@ country_event = {
 				}
 			}
 		}
-		OR = {
-			NOT = { has_dlc = "The Cossacks" }
-			AND = {
-				has_estate = estate_church
-				estate_loyalty = {
-					estate = estate_church
-					loyalty = 60
-				}
-				estate_influence = {
-					estate = estate_church
-					influence = 40
-				}
-			}
+		has_estate = estate_church
+		estate_loyalty = {
+			estate = estate_church
+			loyalty = 60
+		}
+		estate_influence = {
+			estate = estate_church
+			influence = 40
 		}
 	}
-
+	
 	immediate = {
 		hidden_effect = {
 			random_province = {
@@ -70,9 +65,9 @@ country_event = {
 			}
 		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -102,40 +97,13 @@ country_event = {
 				modifier = zealot_reputation_opinion
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_dhimmi
-			}
-			add_estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = -10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
+		reduce_estate_dhimmi_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_events.26.b"
 		add_prestige = 10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_dhimmi
-			}
-			add_estate_loyalty = {
-				estate = estate_dhimmi
-				loyalty = 10
-			}
-		}
+		add_estate_dhimmi_loyalty_effect = yes
 	}
 }
 
@@ -148,7 +116,7 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Rights of Man"
-		ruler_has_personality = pious_personality
+		ruler_has_personality_ancestor = { key = pious }
 		at_war_with_religious_enemy = yes
 	}
 
@@ -186,31 +154,31 @@ country_event = {
 		NOT = { has_ruler_modifier = tolerance_backlash }
 		OR = {
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = treasurer_a
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = architect_a
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = monk_a
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = theologian_a
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = magistrate_a
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = envoy_a
 			}
 			employed_advisor = {
-				home_religion = heretic
+				religion = heretic
 				type = economist_a
 			}
 		}
@@ -1929,16 +1897,26 @@ country_event = {
 #		OR = { #A well advised monarch without advisors is not that well advised.
 #			AND = {
 #				OR = {
-#					advisor = theologian_a
-#					advisor = monk_a
-#					advisor = architect_a
-#					advisor = treasurer_a
-#					advisor = logistician_a
-#					advisor = magistrate_a
-#					advisor = clan_historian_a
-#					advisor = clan_elder_a
-#					advisor = censor_a
-#					advisor = economist_a
+#					advisor = theologian_a
+
+#					advisor = monk_a
+
+#					advisor = architect_a
+
+#					advisor = treasurer_a
+
+#					advisor = logistician_a
+
+#					advisor = magistrate_a
+
+#					advisor = clan_historian_a
+
+#					advisor = clan_elder_a
+
+#					advisor = censor_a
+
+#					advisor = economist_a
+
 #					advisor = bureaucratic_reformer_a
 #				}
 #				NOT = { heir_adm = 5 }
@@ -1991,11 +1969,15 @@ country_event = {
 #				advisor = architect_a
 #				advisor = treasurer_a
 #				advisor = logistician_a
-#				advisor = magistrate_a
-#				advisor = clan_historian_a
+#				advisor = magistrate_a
+
+#				advisor = clan_historian_a
+
 #				advisor = clan_elder_a
-#				advisor = censor_a
-#				advisor = economist_a
+#				advisor = censor_a
+
+#				advisor = economist_a
+
 #				advisor = bureaucratic_reformer_a
 #			}
 #			NOT = { heir_adm = 5 }
@@ -2076,11 +2058,15 @@ country_event = {
 #					advisor = architect_a
 #					advisor = treasurer_a
 #					advisor = logistician_a
-#					advisor = magistrate_a
-#					advisor = clan_historian_a
+#					advisor = magistrate_a
+
+#					advisor = clan_historian_a
+
 #					advisor = clan_elder_a
-#					advisor = censor_a
-#					advisor = economist_a
+#					advisor = censor_a
+
+#					advisor = economist_a
+
 #					advisor = bureaucratic_reformer_a
 #				}
 #				NOT = { adm = 5 }
@@ -2132,11 +2118,15 @@ country_event = {
 #				advisor = architect_a
 #				advisor = treasurer_a
 #				advisor = logistician_a
-#				advisor = magistrate_a
-#				advisor = clan_historian_a
+#				advisor = magistrate_a
+
+#				advisor = clan_historian_a
+
 #				advisor = clan_elder_a
-#				advisor = censor_a
-#				advisor = economist_a
+#				advisor = censor_a
+
+#				advisor = economist_a
+
 #				advisor = bureaucratic_reformer_a
 #			}
 #			NOT = { adm = 5 }

@@ -19,7 +19,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA748"
 		add_war_exhaustion = 1
-		add_manpower = -0.05
+		add_yearly_manpower = -0.5
 	}
 }
 
@@ -241,11 +241,11 @@ country_event = {
 	option = {
 		name = "EVTOPTA754"
 		if = {
-			limit = { NOT = { government = steppe_horde } }
+			limit = { NOT = { has_reform = steppe_horde } }
 			add_legitimacy = -15
 		}
 		if = {
-			limit = { government = steppe_horde }
+			limit = { has_reform = steppe_horde }
 			add_horde_unity = -15
 		}
 	}

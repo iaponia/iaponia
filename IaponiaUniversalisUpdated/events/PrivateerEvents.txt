@@ -18,7 +18,7 @@ province_event = {
 		months = 5000
 		modifier = {
 			factor = 0.8
-			owner = { government = merchant_republic }
+			owner = { has_government_attribute = is_merchant_republic }
 		}
 		modifier = {
 			factor = 0.8
@@ -48,142 +48,6 @@ province_event = {
 	}
 }
 
-## Invalid Letter of Marque? - colonial governor has issued letter for rivateer
-# Version of the event that hits another nation, not the overlord
-country_event = {
-	id = privateers.2
-	title = "privateers.2.t"
-	desc = "privateers.2.d"
-	picture = DEBATE_REPUBLICAN_eventPicture
-
-	trigger = {
-		NOT = { government = colonial_government }
-		any_active_trade_node = {
-			any_privateering_country = {
-				government = colonial_government
-				NOT = {
-					colonial_parent = { tag = ROOT }
-				}
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 480
-	}
-
-	immediate = {
-		random_active_trade_node = {
-			limit = {
-				privateer_power = { share = 1 }
-			}
-			random_privateering_country = {
-				limit = {
-					government = colonial_government
-				}
-				set_country_flag = invalid_letter_marque
-			}
-		}
-	}
-
-	option = {
-		name = "privateers.2.a"
-		random_country = {
-			limit = {
-				has_country_flag = invalid_letter_marque
-			}
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_insulted
-			}
-			clr_country_flag = invalid_letter_marque
-		}
-	}
-
-	option = {
-		name = "privateers.2.b"
-		random_country = {
-			limit = {
-				has_country_flag = invalid_letter_marque
-			}
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_pleased
-			}
-			clr_country_flag = invalid_letter_marque
-		}
-		add_prestige = -10
-	}
-}
-
-## Invalid Letter of Marque? - colonial governor has issued letter for rivateer
-# Version of the event that hits the overlord, not another nation
-country_event = {
-	id = privateers.3
-	title = "privateers.3.t"
-	desc = "privateers.3.d"
-	picture = DEBATE_REPUBLICAN_eventPicture
-
-	trigger = {
-		NOT = { government = colonial_government }
-		any_active_trade_node = {
-			any_privateering_country = {
-				government = colonial_government
-				colonial_parent = { tag = ROOT }
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 480
-	}
-
-	immediate = {
-		random_active_trade_node = {
-			limit = {
-				privateer_power = { share = 1 }
-			}
-			random_privateering_country = {
-				limit = {
-					government = colonial_government
-					colonial_parent = { tag = ROOT }
-				}
-				set_country_flag = invalid_letter_marque
-			}
-		}
-	}
-
-	option = {
-		name = "privateers.3.a"
-		random_country = {
-			limit = {
-				has_country_flag = invalid_letter_marque
-			}
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_insulted
-			}
-			add_liberty_desire = 10
-			clr_country_flag = invalid_letter_marque
-		}
-	}
-
-	option = {
-		name = "privateers.3.b"
-		random_country = {
-			limit = {
-				has_country_flag = invalid_letter_marque
-			}
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_pleased
-			}
-			clr_country_flag = invalid_letter_marque
-		}
-		add_prestige = -10
-	}
-}
-
 # A Reckless Privateer
 country_event = {
 	id = privateers.4
@@ -193,6 +57,8 @@ country_event = {
 
 	trigger = {
 		has_privateers = yes
+		NOT = { has_country_modifier = reckless_privateer }
+		NOT = { has_country_modifier = curtailed_privateer }
 	}
 
 	mean_time_to_happen = {
@@ -245,75 +111,6 @@ country_event = {
 			name = "rogue_privateer"
 			duration = 1825
 		}
-	}
-}
-
-# Oceans Beyond Privateering - privateer wishes to become explorer
-country_event = {
-	id = privateers.6
-	title = "privateers.6.t"
-	desc = "privateers.6.d"
-	picture = SHIP_SAILING_eventPicture
-
-	trigger = {
-		has_privateers = yes
-		NOT = { has_country_flag = funded_explorer_privateer }
-		any_trade_node = {
-			privateer_power = {
-				country = ROOT
-				share = 10
-			}
-			is_overseas = yes
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 720
-		modifier = {
-			factor = 0.7
-			has_idea_group = exploration_ideas
-		}
-	}
-
-	# Fund expedition
-	option = {
-		name = "privateers.6.a"
-		add_treasury = -100
-		set_country_flag = funded_explorer_privateer
-		if = {
-			limit = {
-				is_year = 1570
-				NOT = { is_year = 1600 }
-				OR = {
-					tag = ENG
-					tag = GBR
-				}
-			}
-			define_explorer = {
-				name = "Francis Drake"
-				fire = 3
-				shock = 3
-				manuever = 5
-				siege = 0
-			}
-		}
-		if = {
-			limit = {
-				NOT = {
-					OR = {
-						tag = ENG
-						tag = GBR
-					}
-				}
-			}
-			create_explorer = 5
-		}
-	}
-
-	# Tell the privateer to stay where he is
-	option = {
-		name = "privateers.6.b"
-		add_prestige = -5
 	}
 }
 
@@ -452,10 +249,10 @@ country_event = {
 #	picture = DEBATE_REPUBLICAN_eventPicture
 #
 #	trigger = {
-#		government = merchant_republic
+#		has_government_attribute = is_merchant_republic
 #		any_active_trade_node = {
 #			any_trade_node_member_country = {
-#				government = merchant_republic
+#				has_government_attribute = is_merchant_republic
 #			}
 #		}
 #	}
@@ -473,7 +270,7 @@ country_event = {
 #		}
 #		random_active_trade_node = {
 #			random_trade_node_member_country = {
-#				limit = { government = merchant_republic }
+#				limit = { has_government_attribute = is_merchant_republic }
 #				add_opinion = {
 #					who = ROOT
 #					modifier = opinion_insulted
@@ -557,6 +354,8 @@ country_event = {
 				share = 10
 			}
 		}
+		NOT = { has_country_modifier = merchants_prepare_war }
+		NOT = { has_country_modifier = merchants_ignored }
 	}
 
 	mean_time_to_happen = {

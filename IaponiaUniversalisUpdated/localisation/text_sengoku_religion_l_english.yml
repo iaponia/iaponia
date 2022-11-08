@@ -63,7 +63,7 @@
  METROPOLITAN_EMPTY: "No Monshu"
  STATE_PATRIARCH_ALREADY_MAX_AUTH: "We have already attained Enlightenment."
  ORTHIC_NOT_CURR: "The '$NAME|Y$' is already being studied!"
- ORTHIC_NO_AUTH: "You need $VAL|Y$ Englightenment to study a chapter, but you only have $CURR|Y$."
+ ORTHIC_NO_AUTH: "You need $VAL|Y$ Enlightenment to study a chapter, but you only have $CURR|Y$."
  ORTHIC_DO_IT: "Studying the $NAME|Y$ will cost $COST|R$ Enlightenment, but give ($EFFECT$) until $UNTIL|Y$."
  CONFIRMICON: "Confirm Study"
  NO_ICON_COMMISSIONED: "You are currently not studying a chapter of the Lotus Sutra."

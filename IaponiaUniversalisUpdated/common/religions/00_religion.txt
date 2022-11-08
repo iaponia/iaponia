@@ -162,7 +162,7 @@ christian = {
 	
 	nichirenshu = {
 		color = { 204 76 76 }
-		icon = 23
+		icon = 22
 		
 		allowed_conversion = {
 			catholic

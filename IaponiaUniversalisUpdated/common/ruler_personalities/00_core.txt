@@ -3657,7 +3657,7 @@ frugal_personality = {
 	}
 
 	global_tax_modifier = 0.1
-	possible_mercenaries = -0.25
+	mercenary_manpower = -0.25
 	nation_designer_cost = 2
 }
 

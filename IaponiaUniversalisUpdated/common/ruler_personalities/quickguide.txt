@@ -1,0 +1,297 @@
+### ALL RULER PERSONAILITIES ###
+# honorable_personality adm
+# gracious_personality adm dip
+# stern_personality adm mil
+# conscientious_personality dip
+# pious_personality adm
+# tolerant_personality adm
+# eloquent_personality dip
+# erudite_personality adm
+# brave_personality mil
+# strong_personality mil
+# legislator_personality adm dip
+# connected_personality adm mil
+# mercantile_personality adm dip
+# cautious_personality dip mil
+# nautical_personality dip
+# cunning_personality dip mil
+# innovator_personality mil
+# equestrian_personality mil
+# architect_personality adm mil
+#bad!
+# dishonorable_personality adm
+# cruel_personality adm dip
+# lenient_personality adm mil
+# profligate_personality adm dip
+# cynical_personality adm
+# zealot_personality adm
+# domineering_personality dip
+# retrograde_personality adm
+# craven_personality mil
+# sickly_personality mil
+# arbitrary_personality adm dip
+# draconian_personality adm dip
+# reckless_personality dip mil
+# disorganized_personality mil
+# drunk_personality dip mil
+#neutral!
+# gregarious_personality neu
+# elitist_personality neu
+# proud_personality neu
+# humble_personality adm- dip+
+# frugal_personality adm+ mil-
+# artistic_personality adm+ mil-
+# centralizer_personality neu
+# honest_personality neu
+# upstanding_personality adm+ dip-
+# swordsman_personality neu
+# xenophilic_personality neu
+# ambitious_personality adm+ dip-
+
+# honorable_personality = {
+# 	prestige = 1
+# 	yearly_corruption = -0.05
+# 	nation_designer_cost = 5
+# }
+# gracious_personality = {
+# 	global_unrest = -1
+# 	diplomatic_reputation = 1
+# 	nation_designer_cost = 5
+# }
+# stern_personality = {
+# 	discipline = 0.05
+# 	stability_cost_modifier = -0.1
+# 	nation_designer_cost = 5
+# }
+# conscientious_personality = {
+# 	global_trade_goods_size_modifier = 0.1
+# 	global_tax_modifier = 0.1
+# 	nation_designer_cost = 5
+# }
+# pious_personality = {
+# 	tolerance_own = 1
+# 	global_missionary_strength = 0.01
+# 	nation_designer_cost = 5
+# }
+# tolerant_personality = {
+# 	tolerance_heretic = 1
+# 	religious_unity = 0.1
+# 	nation_designer_cost = 5
+# }
+# eloquent_personality = {
+# 	ae_impact = -0.1
+# 	improve_relation_modifier = 0.1
+# 	nation_designer_cost = 5
+# }
+# erudite_personality = {
+# 	technology_cost = -0.05
+# 	idea_cost = -0.05
+# 	nation_designer_cost = 5
+# }
+# brave_personality = {
+# 	land_morale = 0.1
+# 	prestige_from_land = 0.5
+# 	nation_designer_cost = 5
+# }
+# strong_personality = {
+# 	leader_land_shock = 1
+# 	heir_chance = 0.25
+# 	nation_designer_cost = 5
+# }
+# legislator_personality = {
+# 	years_of_nationalism = -5
+# 	reduced_liberty_desire = 5
+# 	nation_designer_cost = 5
+# }
+# connected_personality = {
+# 	advisor_cost = -0.1
+# 	merc_maintenance_modifier = -0.25
+# 	nation_designer_cost = 5
+# }
+# mercantile_personality = {
+# 	trade_efficiency = 0.1
+# 	development_cost = -0.1
+# 	nation_designer_cost = 5
+# }
+# cautious_personality = {
+# 	land_attrition = -0.15
+# 	global_spy_defence = 0.25
+# 	nation_designer_cost = 5
+# }
+# nautical_personality = {
+# 	navy_tradition = 1
+# 	ship_durability = 0.05
+# 	nation_designer_cost = 5
+# }
+# cunning_personality = {
+# 	leader_land_manuever = 1
+# 	spy_offence = 0.2
+# 	nation_designer_cost = 5
+# }
+# innovator_personality = {
+# 	infantry_power = 0.1
+# 	land_maintenance_modifier = -0.1
+# 	nation_designer_cost = 5
+# }
+# equestrian_personality = {
+# 	cavalry_power = 0.1
+# 	army_tradition_decay = -0.01
+# 	nation_designer_cost = 5
+# }
+# architect_personality = {
+# 	build_cost = -0.1
+# 	defensiveness = 0.1
+# 	nation_designer_cost = 5
+# }
+# ###############################################
+# # Bad
+# ###############################################
+
+# dishonorable_personality = {
+# 	prestige = -1
+# 	yearly_corruption = 0.05
+# 	nation_designer_cost = -5
+# }
+# cruel_personality = {
+# 	global_unrest = 1
+# 	diplomatic_reputation = -1
+# 	nation_designer_cost = -5
+# }
+# lenient_personality = {
+# 	discipline = -0.05
+# 	stability_cost_modifier = 0.1
+# 	nation_designer_cost = -5
+# }
+# profligate_personality = {
+# 	global_trade_goods_size_modifier = -0.1
+# 	global_tax_modifier = -0.1
+# 	nation_designer_cost = -5
+# }
+# cynical_personality = {
+# 	tolerance_own = -1
+# 	global_missionary_strength = -0.01
+# 	nation_designer_cost = -5
+# }
+# zealot_personality = {
+# 	tolerance_heretic = -1
+# 	religious_unity = -0.1
+# 	nation_designer_cost = -5
+# }
+# domineering_personality = {
+# 	ae_impact = 0.1
+# 	improve_relation_modifier = -0.1
+# 	nation_designer_cost = -5
+# }
+# retrograde_personality = {
+# 	technology_cost = 0.05
+# 	idea_cost = 0.05
+# 	nation_designer_cost = -5
+# }
+# craven_personality = {
+# 	land_morale = -0.1
+# 	prestige_from_land = -0.5
+# 	nation_designer_cost = -5
+# }
+# sickly_personality = {
+# 	shock_damage = -0.1
+# 	heir_chance = -0.25
+# 	nation_designer_cost = -5
+# }
+# arbitrary_personality = {
+# 	years_of_nationalism = 5
+# 	reduced_liberty_desire = -5
+# 	nation_designer_cost = -5
+# }
+# draconian_personality = {
+# 	trade_efficiency = -0.1
+# 	development_cost = 0.1
+# 	nation_designer_cost = -5
+# }
+# reckless_personality = {
+# 	shock_damage_received = 0.1
+# 	global_spy_defence = -0.25
+# 	nation_designer_cost = -5
+# }
+# disorganized_personality = {
+# 	army_tradition_decay = 0.01
+# 	land_maintenance_modifier = 0.1
+# 	nation_designer_cost = -5
+# }
+# drunk_personality = {
+# 	discipline = -0.05
+# 	diplomatic_reputation = -1
+# 	nation_designer_cost = -10
+# }
+# ###############################################
+# # Neutral
+# ###############################################
+
+# gregarious_personality = {
+# 	diplomatic_upkeep = 1
+# 	global_spy_defence = -0.25
+# 	nation_designer_cost = 2
+# }
+# elitist_personality = {
+# 	advisor_pool = 1
+# 	advisor_cost = 0.1
+# 	nation_designer_cost = 2
+# }
+# proud_personality = {
+# 	prestige = 1
+# 	build_cost = 0.1
+# 	nation_designer_cost = 2
+# }
+# humble_personality = {
+# 	diplomatic_reputation = 1
+# 	global_tax_modifier = -0.1
+# 	nation_designer_cost = 2
+# }
+# frugal_personality = {
+# 	global_tax_modifier = 0.1
+# 	mercenary_manpower = -0.25
+# 	nation_designer_cost = 2
+# }
+# artistic_personality = {
+# 	idea_cost = -0.1
+# 	army_tradition_decay = 0.01
+# 	nation_designer_cost = 2
+# }
+# centralizer_personality = {
+# 	global_autonomy = -0.05
+# 	global_unrest = 1
+# 	nation_designer_cost = 2
+# }
+# honest_personality = {
+# 	unjustified_demands = -0.25
+# 	improve_relation_modifier = -0.1
+# 	nation_designer_cost = 2
+# }
+# upstanding_personality = {
+# 	tolerance_own = 1
+# 	spy_offence = -0.2
+# 	nation_designer_cost = 2
+# }
+# swordsman_personality = {
+# 	army_tradition = 1
+# 	leader_land_fire = -1
+# 	nation_designer_cost = 2
+# }
+# xenophilic_personality = {
+# 	technology_cost = -0.1
+# 	prestige = -1
+# 	nation_designer_cost = 2
+# }
+# ambitious_personality = {
+# 	core_creation = -0.1
+# 	ae_impact = 0.1
+# 	nation_designer_cost = 2
+# }
+# ###############################################
+# # Immortal
+# ###############################################
+
+# immortal_personality = {
+# 	immortal = 1 # dummy modifier only used to get the right icon
+# 	nation_designer_cost = 800
+# 	static = yes # Makes nation_designer_cost not scale with age etc.
+# }

@@ -30,7 +30,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "button_defender_of_faith"
-		texturefile = "gfx//interface//button_defender_of_faith.tga"
+		texturefile = "gfx/interface/defender_of_the_faith/dotf_gray.dds"
 		#effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
@@ -52,12 +52,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unit_types_strip_mil_view"
 		texturefile = "gfx//interface//unit_types_strip.tga"
-		noOfFrames = 9
+		noOfFrames = 10
 		loadType = "INGAME"
 
 		effectFile = "gfx/FX/buttonstate.lua"
 		transparencecheck = no
-		#allwaystransparent = yes
+		#alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -68,7 +68,7 @@ spriteTypes = {
 
 		effectFile = "gfx/FX/buttonstate.lua"
 		transparencecheck = no
-		#allwaystransparent = yes
+		#alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -341,6 +341,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_execute_decision"
 		texturefile = "gfx//interface//execute_decision.tga"
+		transparencecheck = yes 
+	}
+	
+	spriteType = {
+		name = "GFX_revoke_decision"
+		texturefile = "gfx//interface//revoke_decision.dds"
 		transparencecheck = yes
 	}
 
@@ -379,6 +385,17 @@ spriteTypes = {
 
 		transparencecheck = yes
 	}
+
+	spriteType = {
+		name = "GFX_government_reform_banner"
+		texturefile = "gfx//interface//government_reform_banner.dds"
+		noOfFrames = 1
+		loadType = "INGAME"
+		
+		transparencecheck = yes
+	}
+	
+	
 
 	spriteType = {
 		name = "GFX_advisor_noAdvisorType"

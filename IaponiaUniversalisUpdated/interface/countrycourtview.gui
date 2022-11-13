@@ -81,6 +81,16 @@ guiTypes = {
 			clicksound = back_click
 		}
 
+		guiButtonType = {
+			name = "extend_regency_button"
+			position = { x= 440	y = 139 }
+			quadTextureSprite ="GFX_abdicate_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}			
 		instantTextBoxType = {
 			name = "monarch_title"
 			position = { x = 35 y = 118 }
@@ -174,7 +184,7 @@ guiTypes = {
 		listboxType =
 		{
 			name ="monarch_ruler_personality_list"
-			position = { x=160 y =128}
+			position = { x=140 y =128}
 			backGround=""
 			size = { x=300 y =300}
 			Orientation = "UPPER_LEFT"
@@ -320,9 +330,9 @@ guiTypes = {
 		listboxType =
 		{
 			name ="monarch_heir_personality_list"
-			position = { x=160 y =191}
+			position = { x=140 y =191}
 			backGround=""
-			size = { x=220 y =100}
+			size = { x=300 y =100}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
@@ -353,6 +363,16 @@ guiTypes = {
 		}
 
 
+		guiButtonType = {
+			name = "assign_heir_button"
+			position = { x= 486	y = 203 }
+			quadTextureSprite ="GFX_assign_heir_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}	
 
 		### Queen ###
 
@@ -465,9 +485,9 @@ guiTypes = {
 		listboxType =
 		{
 			name ="monarch_queen_personality_list"
-			position = { x=160 y =254}
+			position = { x=140 y =254}
 			backGround=""
-			size = { x=220 y =100}
+			size = { x=300 y =100}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
@@ -487,7 +507,7 @@ guiTypes = {
 			spacing = 2.5
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 
@@ -788,7 +808,7 @@ guiTypes = {
 			position = { x= -12 y = 21 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.9
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 17
 		}
 
@@ -991,7 +1011,7 @@ guiTypes = {
 			position = { x= -37 y = 8 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.9
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 17
 		}
 

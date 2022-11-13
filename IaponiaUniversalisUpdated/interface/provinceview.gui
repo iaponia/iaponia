@@ -6612,7 +6612,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 48 y = -2}
+			position = { x = 60 y = -2}
 			textureFile = ""
 			font = "vic_22s"
 			borderSize = {x = 2 y = 2}

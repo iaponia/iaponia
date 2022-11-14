@@ -11,14 +11,14 @@ spriteTypes = {
 		name = "GFX_outliner_elector"
 		texturefile = "gfx//interface//outliner_elector.dds"
 		loadType = "INGAME"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 	
 		spriteType = {
 		name = "GFX_outliner_free_city"
 		texturefile = "gfx//interface//outliner_free_city.dds"
 		loadType = "INGAME"
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -33,6 +33,12 @@ spriteTypes = {
 		texturefile = "gfx//interface//join_league_button.dds"
 		loadType = "INGAME"
 		noOfFrames = 3		
+	}
+
+	spriteType = {
+		name = "GFX_join_empire_button"
+		texturefile = "gfx//interface//join_empire_button.dds"
+		loadType = "INGAME"
 	}
 
 	spriteType = {
@@ -56,7 +62,13 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_hre_bg"
-		texturefile = "gfx//interface//hre_bg.tga"
+		texturefile = "gfx//interface//hre_bg.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_hre_no_dlc_bg"
+		texturefile = "gfx/interface/hre_no_dlc_bg.dds"
 		loadType = "INGAME"
 	}
 	
@@ -75,6 +87,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_copts_blessing_title_banner"
 		texturefile = "gfx//interface//copts_blessing_title_banner.dds"
+		loadType = "INGAME"
+	}		
+
+	spriteType = {
+		name = "GFX_estate_privilege_entry"
+		texturefile = "gfx/interface/estate_interface/estate_privilege_entry.dds"
 		loadType = "INGAME"
 	}		
 	

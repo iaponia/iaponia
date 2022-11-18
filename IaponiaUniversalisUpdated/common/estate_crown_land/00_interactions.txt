@@ -243,19 +243,6 @@ interaction = {
 		if = {
 			limit = {
 				OR = {
-					has_estate_privilege = estate_brahmins_statutory_rights
-					AND = {
-						religion = hinduism
-						has_estate = estate_brahmins
-					}
-				}
-				has_estate = estate_brahmins
-			}
-			NOT = { has_estate_privilege = estate_brahmins_statutory_rights }
-		}
-		else_if = {
-			limit = {
-				OR = {
 					has_estate_privilege = estate_nobles_statutory_rights
 					AND = {
 						has_estate = estate_nobles
@@ -370,21 +357,6 @@ interaction = {
 			# This check is needed to prevent collision with day-1 event theocracy.1
 			uses_devotion = yes
 			has_heir = no
-		}
-		modifier = {
-			factor = 0
-			# This is a hack for countries with enclaves that can be hard to get to, to kill the rebels
-			OR = {
-				tag = TEU
-				tag = KOL
-				# Add more as necessary
-			}
-			NOT = {
-				estate_loyalty = {
-					estate = all
-					loyalty = 50
-				}
-			}
 		}
 		modifier = {
 			factor = 0.2

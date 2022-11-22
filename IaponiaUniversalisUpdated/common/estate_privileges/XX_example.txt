@@ -20,3 +20,232 @@
 # 	on_cooldown_expires = { effects }			#Effect executed once the specified cooldown_years timer has run down
 #	ai_will_do									#If above ESTATE_PRIVILEGE_GRANT_THRESHOLD define, AI will try to apply. If below ESTATE_PRIVILEGE_REVOKE_THRESHOLD, AI will try to revoke.
 # }
+
+
+
+# estate_burghers_orthodox_tolerance = {
+# 	icon = privilege_tolerance_heretics
+# 	max_absolutism = -5
+# 	loyalty = 0.05
+# 	influence = 0.05
+# 	is_valid = {
+# 		religion_group = christian
+# 		NOT = { religion = orthodox }
+# 		NOT = { religion = coptic }
+# 		#has_unlocked_estate_privilege = { estate_privilege = estate_burghers_orthodox_tolerance }
+# 	}
+# 	can_select = {
+# 		religion_group = christian
+# 		NOT = { religion = orthodox }
+# 		NOT = { religion = coptic }
+# 		any_owned_province = {
+# 			OR = {
+# 				religion = orthodox
+# 				religion = coptic
+# 			}
+# 		}
+# 	}
+# 	on_granted = {
+# 		if = {
+# 			limit = { has_estate_privilege = estate_church_anti_heresy_act }
+# 			remove_estate_privilege = estate_church_anti_heresy_act
+# 			add_estate_loyalty = {
+# 				estate = estate_church
+# 				loyalty = -20
+# 			}
+# 		}
+# 		custom_tooltip = estate_burghers_orthodox_tolerance_effect_tooltip
+# 		hidden_effect = {
+# 			set_country_flag = burghers_tolerates_orthodoxy
+# 		}
+# 	}
+# 	on_granted_province = {
+# 		if = {
+# 			limit = {
+# 				OR = {
+# 					religion = orthodox
+# 					religion = coptic
+# 				}
+# 			}
+# 			add_province_modifier = {
+# 				name = estate_burghers_guaranteed_autonomy_mod
+# 				duration = -1
+# 			}
+# 		}
+# 		else_if = {
+# 			limit = {
+# 				has_province_modifier = estate_burghers_guaranteed_autonomy_mod
+# 			}
+# 			remove_province_modifier = estate_burghers_guaranteed_autonomy_mod
+# 		}
+# 	}
+# 	on_revoked = {
+# 		custom_tooltip = estate_burghers_orthodox_tolerance_revoke_effect_tooltip
+# 		hidden_effect = {
+# 			clr_country_flag = burghers_tolerates_orthodoxy
+# 		}
+# 	}
+# 	on_revoked_province = {
+# 		if = {
+# 			limit = {
+# 				has_province_modifier = estate_burghers_guaranteed_autonomy_mod
+# 			}
+# 			remove_province_modifier = estate_burghers_guaranteed_autonomy_mod
+# 		}
+# 	}
+# 	on_invalid = {
+# 		custom_tooltip = estate_burghers_orthodox_tolerance_revoke_effect_tooltip
+# 		hidden_effect = {
+# 			clr_country_flag = burghers_tolerates_orthodoxy
+# 		}
+# 	}
+# 	on_invalid_province = {
+# 		if = {
+# 			limit = {
+# 				has_province_modifier = estate_burghers_guaranteed_autonomy_mod
+# 			}
+# 			remove_province_modifier = estate_burghers_guaranteed_autonomy_mod
+# 		}
+# 	}
+# 	penalties = {
+# 		church_loyalty_modifier = -0.1
+# 	}
+# 	benefits = {
+# 	}
+# 	ai_will_do = {
+# 		factor = 1000
+# 		modifier = {
+# 			factor = 0
+# 			NOT = {
+# 				any_owned_province = {
+# 					OR = {
+# 						religion = orthodox
+# 						religion = coptic
+# 					}
+# 				}
+# 			}
+# 		}
+# 		modifier = {
+# 			factor = 0
+# 			government = theocracy
+# 		}
+# 		modifier = {
+# 			factor = 0
+# 			is_subject = yes
+# 			overlord = {
+# 				religion = ROOT
+# 				has_idea_group = religious_ideas
+# 			}
+# 		}
+# 	}
+# }
+
+# estate_nobles_monopoly_of_metals = {
+# 	icon = privilege_monopoly_of_goods_iron
+# 	max_absolutism = -10
+# 	loyalty = 0.1
+# 	is_valid = {
+# 		has_dlc = "Emperor"
+# 		any_owned_province = {
+# 			OR = {
+# 				trade_goods = iron
+# 				trade_goods = copper
+# 			}
+# 		}
+# 	}
+# 	can_select = {
+# 		custom_trigger_tooltip = {
+# 			tooltip = unavailable_during_revolution_disaster
+# 			NOT = { has_disaster = revolution }
+# 			NOT = {
+# 				has_disaster_progress = {
+# 					disaster = revolution
+# 					value = 1
+# 				}
+# 			}
+# 			NOT = { has_disaster = french_revolution }
+# 			NOT = {
+# 				has_disaster_progress = {
+# 					disaster = french_revolution
+# 					value = 1
+# 				}
+# 			}
+# 		}
+# 	}
+# 	on_granted = {
+# 		if = {
+# 			limit = {
+# 				OR = {
+# 					iron = 1
+# 					copper = 1
+# 				}
+# 			}
+# 			add_mercantilism = 1
+# 		}
+# 		add_years_of_owned_provinces_production_income = {
+# 			years = 8
+# 			trigger = {
+# 				OR = {
+# 					trade_goods = iron
+# 					trade_goods = copper
+# 				}
+# 			}
+# 			custom_tooltip = MONOPOLY_INCOME_IRON_DESC
+# 		}
+# 		custom_tooltip = estate_nobles_monopoly_of_metals_effect_tooltip
+# 	}
+# 	on_granted_province = {
+# 		if = {
+# 			limit = {
+# 				OR = {
+# 					trade_goods = iron
+# 					trade_goods = copper
+# 				}
+# 			}
+# 			add_province_modifier = {
+# 				name = estate_nobles_monopoly_of_metals_mod
+# 				duration = -1
+# 			}
+# 		}
+# 		else_if = {
+# 			limit = {
+# 				has_province_modifier = estate_nobles_monopoly_of_metals_mod
+# 			}
+# 			remove_province_modifier = estate_nobles_monopoly_of_metals_mod
+# 		}
+# 	}
+# 	on_revoked = {
+# 		custom_tooltip = estate_nobles_monopoly_of_metals_revoke_tooltip
+# 	}
+# 	on_revoked_province = {
+# 		if = {
+# 			limit = {
+# 				has_province_modifier = estate_nobles_monopoly_of_metals_mod
+# 			}
+# 			remove_province_modifier = estate_nobles_monopoly_of_metals_mod
+# 		}
+# 	}
+# 	on_invalid = {
+# 		custom_tooltip = estate_nobles_monopoly_of_metals_revoke_tooltip
+# 	}
+# 	on_invalid_province = {
+# 		if = {
+# 			limit = {
+# 				has_province_modifier = estate_nobles_monopoly_of_metals_mod
+# 			}
+# 			remove_province_modifier = estate_nobles_monopoly_of_metals_mod
+# 		}
+# 	}
+# 	penalties = {
+# 	}
+# 	benefits = {
+# 	}
+
+# 	cooldown_years = 10
+# 	on_cooldown_expires = {
+# 		country_event = { id = monopoly_privileges.5 }
+# 	}
+# 	ai_will_do = {
+# 		factor = 0
+# 	}
+# }

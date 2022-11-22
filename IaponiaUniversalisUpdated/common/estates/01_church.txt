@@ -149,7 +149,6 @@ estate_church = {
 		estate_church_monopoly_of_wine
 		estate_church_monopoly_of_slaves
 		estate_church_statutory_rights
-		estate_church_yakobs_churches
 		estate_church_one_faith_one_culture
 		estate_church_religious_diplomats
 		estate_church_heir_shrine
@@ -158,11 +157,6 @@ estate_church = {
 		estate_church_scholar_connections
 		estate_church_integrated_school
 		estate_church_anti_heresy_act
-		estate_church_lands_of_riga
-		estate_church_bishopric_of_dorpat
-		estate_church_bishopric_of_osel_wiek
-		estate_church_bishopric_of_courland
-		estate_church_bishopric_of_reval
 	}
 
 	agendas = {

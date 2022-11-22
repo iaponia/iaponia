@@ -7,7 +7,6 @@ estate_nomadic_tribes = {
 		NOT = { has_government_attribute = disables_estate_nomadic_tribes }
 		NOT = { has_country_flag = disables_estate_nomadic_tribes_flag }
 		OR = { 
-			has_country_modifier = enable_estate_nomadic_tribes_modifier 
 			has_government_attribute = enables_estate_nomadic_tribes
 			has_country_flag = enables_estate_nomadic_tribes_flag
 			AND = {

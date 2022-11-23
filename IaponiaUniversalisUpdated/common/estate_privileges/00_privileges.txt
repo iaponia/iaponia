@@ -581,18 +581,6 @@ estate_nobles_levies = {
 	is_valid = {
 	}
 	can_select = {
-		if = {
-			limit = {
-				has_estate = estate_maratha
-			}
-			NOT = { has_estate_privilege = estate_maratha_levies }
-		}
-		if = {
-			limit = {
-				has_estate = estate_maratha
-			}
-			NOT = { has_estate_privilege = estate_maratha_levies_for_muslims }
-		}
 	}
 	modifier_by_land_ownership = {
 		global_tax_modifier = -0.10
@@ -625,7 +613,10 @@ estate_nobles_levies = {
 		}
 		modifier = {
 			factor = 1.5
-			has_idea_group = quantity_ideas
+			OR = {
+				has_idea_group = aristocratic_ideas
+				has_idea_group = westernized_ideas
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -682,8 +673,6 @@ estate_nobles_advisors = {
 		stability_cost_modifier = 0.1
 	}
 	can_select = { 
-		NOT = { has_estate_privilege = estate_maratha_advisor }
-		NOT = { has_estate_privilege = estate_rajput_advisor }
 	}
 	benefits = {
 		mil_advisor_cost = -0.25
@@ -1216,45 +1205,6 @@ estate_burghers_commercial_board_of_advice = {
 	}
 }
 
-estate_burghers_new_world_charter = {
-	icon = privilege_grant_new_world_charter
-	max_absolutism = -5
-	loyalty = 0.05
-	influence = 0.05
-	is_valid = {
-		OR = {
-			num_of_colonists = 1
-			num_of_colonies = 1
-		}
-	}
-	penalties = {
-		global_tariffs = -0.10
-	}
-	benefits = {
-		global_colonial_growth = 10
-		colonist_placement_chance = 0.05
-	}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 10
-			OR = {
-				tag = POR
-				tag = CAS
-				tag = SPA
-				tag = ENG
-				tag = GBR
-				tag = SCO
-				tag = FRA
-			}
-		}
-		modifier = {
-			factor = 0
-			is_absolutism_active = yes
-		}
-	}
-}
-
 estate_burghers_indebted_to_burghers = {
 	icon = privilege_give_money
 	max_absolutism = -5
@@ -1441,34 +1391,6 @@ estate_burghers_patronage_of_the_arts = {
 	}
 	ai_will_do = {
 		factor = 0
-	}
-}
-
-estate_nomadic_tribes_primacy_to_the_bannermen = {
-	icon = privilege_royal_authority
-	max_absolutism = -5
-	influence = 0.1
-	is_valid = {
-		OR = {
-			primary_culture = manchu
-			primary_culture = manchu_new
-		}
-	}
-	penalties = {
-		amount_of_banners = -0.25
-	}
-	benefits = {
-		land_morale = 0.1
-	}
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 10
-			OR = {
-				tag = MCH
-				tag = MJZ
-			}
-		}
 	}
 }
 
@@ -1739,7 +1661,7 @@ estate_church_for_the_faith = {
 			has_dlc = "Emperor"
 			has_dlc = "Lions of the North"
 		}
-		NOT = { religion = confucianism }
+		NOT = { religion = ryukyuan }
 		OR = {
 			has_country_flag = improved_expansionist_zealotry
 			any_known_country = {
@@ -2040,69 +1962,6 @@ estate_church_influence_temples = {
 	}
 }
 
-estate_burghers_tropical_nation = {
-	icon = privilege_grant_new_world_charter
-	loyalty = 0.1
-	influence = 0.1
-	is_valid = {
-		OR = {
-			has_estate_privilege = estate_burghers_tropical_nation
-			technology_group = chinese
-			technology_group = indian
-		}
-	}
-	can_select = {
-		capital_scope = {
-			has_climate = tropical
-		}
-	}
-	on_granted = {
-		custom_tooltip = estate_burghers_tropical_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				has_climate = tropical
-			}
-			add_province_modifier = {
-				name = estate_burghers_tropical_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_burghers_tropical_mod
-			}
-			remove_province_modifier = estate_burghers_tropical_mod
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_burghers_tropical_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_tropical_mod
-			}
-			remove_province_modifier = estate_burghers_tropical_mod
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_burghers_tropical_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_burghers_tropical_mod
-			}
-			remove_province_modifier = estate_burghers_tropical_mod
-		}
-	}
-	ai_will_do = {
-		factor = 1000
-	}
-}
-
 estate_nobles_command_of_the_military = {
 	icon = privilege_promote_purbias
 	land_share = 10
@@ -2328,11 +2187,7 @@ estate_church_one_faith_one_culture = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { religion = confucianism }
-		}
-		modifier = {
-			factor = 0
-			NOT = { religion = confucianism }
+			NOT = { religion = ryukyuan }
 		}
 		modifier = {
 			factor = 100
@@ -2347,43 +2202,6 @@ estate_church_one_faith_one_culture = {
 	}
 }
 
-estate_nobles_neighbor_raids = {
-	icon = privilege_demand_more_troops
-	max_absolutism = -10
-	influence = 0.2
-	loyalty = 0
-	is_valid = {
-		NOT = { has_country_modifier = the_abolish_slavery_act }
-		has_dlc = "Origins"
-		OR = {
-			technology_group = east_african
-			technology_group = central_african
-			technology_group = sub_saharan
-			has_reform = steppe_horde
-			has_reform = great_mongol_state_reform
-		}
-	}
-	can_select = {
-		NOT = { has_country_modifier = the_abolish_slavery_act }
-	}
-	on_granted = {
-		enable_capital_slave_raid = yes
-	}
-	on_revoked = {
-		disable_capital_slave_raid = yes
-	}
-	on_invalid = {
-		disable_capital_slave_raid = yes
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
-
 ###FETISHIST PRIVILEGES###
 #Privilege to enable cults for heirs
 estate_church_heir_shrine = {
@@ -2392,7 +2210,7 @@ estate_church_heir_shrine = {
 	influence = 0.2
 	loyalty = 0.05
 	is_valid = {
-		religion = shamanism
+		religion = ainu
 		has_dlc = "Rights of Man"
 		NOT = { has_country_flag = heir_cult_through_missions }
 		has_government_attribute = heir
@@ -2443,7 +2261,7 @@ estate_church_embrace_singluar_cult = {
 	influence = 0.25
 	loyalty = 0.05
 	is_valid = {
-		religion = shamanism
+		religion = ainu
 		has_dlc = "Rights of Man"
 	}
 	can_select = {
@@ -2525,7 +2343,7 @@ estate_church_scholar_connections = {
 	influence = 0.1
 	loyalty = 0.05
 	is_valid = {
-		religion_group = muslim
+		religion = catholic
 		has_dlc = "Cradle of Civilization"
 	}
 	can_select = {
@@ -2559,7 +2377,7 @@ estate_church_integrated_school = {
 	influence = 0.1
 	loyalty = 0
 	is_valid = {
-		religion_group = muslim
+		religion = catholic
 		has_dlc = "Cradle of Civilization"
 	}
 	can_select = {

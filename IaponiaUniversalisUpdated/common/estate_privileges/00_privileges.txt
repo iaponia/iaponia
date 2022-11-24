@@ -816,48 +816,21 @@ estate_church_clerical_ministers = {
 				limit = {
 					has_dlc = "Common Sense"
 				}
-				NOT = { religion = protestant }
-				NOT = { religion = buddhism }
-				NOT = { religion = vajrayana }
-				NOT = { religion = mahayana }
-			}
-			if = {
-				limit = {
-					has_dlc = "Emperor"
-				}
-				NOT = { religion = hussite }
-			}
-			if = {
-				limit = {
-					has_dlc = "Wealth of Nations"
-				}
-				NOT = { religion = reformed }
-			}
-			if = {
-				limit = {
-					has_dlc = "Cradle of Civilization"
-				}
-				NOT = { religion_group = muslim }
+				NOT = { religion = catholic }
+				NOT = { religion = jodoshinshu }
 			}
 			if = {
 				limit = {
 					has_dlc = "Mandate of Heaven"
 				}
-				NOT = { religion = confucianism }
+				NOT = { religion = ryukyuan }
 			}
 			if = {
 				limit = {
 					has_dlc = "Third Rome"
 				}
-				NOT = { religion = orthodox }
+				NOT = { religion = nichirenshu }
 			}
-			if = {
-				limit = {
-					has_dlc = "Origins"
-				}
-				NOT = { religion = jewish }
-			}
-			NOT = { religion = anglican }
 		}
 		modifier = {
 			missionary_maintenance_cost = -0.2
@@ -866,11 +839,7 @@ estate_church_clerical_ministers = {
 	conditional_modifier = {
 		trigger = {
 			has_dlc = "Common Sense"
-			OR = {
-				religion = buddhism
-				religion = vajrayana
-				religion = mahayana
-			}
+			religion = jodoshinshu
 		}
 		modifier = {
 			yearly_karma_decay = 0.05
@@ -879,52 +848,25 @@ estate_church_clerical_ministers = {
 	conditional_modifier = {
 		trigger = {
 			has_dlc = "Common Sense"
-			religion = protestant
+			religion = catholic
 		}
 		modifier = {
-			church_power_modifier = 0.1
+			church_power_modifier = 0.2
 		}
 	}
-	conditional_modifier = {
-		trigger = {
-			has_dlc = "Emperor"
-			religion = hussite
-		}
-		modifier = {
-			church_power_modifier = 0.1
-		}
-	}
-	conditional_modifier = {
-		trigger = {
-			has_dlc = "Origins"
-			religion = jewish
-		}
-		modifier = {
-			church_power_modifier = 0.1
-		}
-	}
-	conditional_modifier = {
-		trigger = {
-			has_dlc = "Wealth of Nations"
-			religion = reformed
-		}
-		modifier = {
-			monthly_fervor_increase = 0.5
-		}
-	}
-	conditional_modifier = {
-		trigger = {
-			has_dlc = "Cradle of Civilization"
-			religion_group = muslim
-		}
-		modifier = {
-			monthly_piety = 0.001
-		}
-	}
+	# conditional_modifier = {
+	# 	trigger = {
+	# 		has_dlc = "Wealth of Nations"
+	# 		religion = reformed
+	# 	}
+	# 	modifier = {
+	# 		monthly_fervor_increase = 0.5
+	# 	}
+	# }
 	conditional_modifier = {
 		trigger = {
 			has_dlc = "Mandate of Heaven"
-			religion = confucianism
+			religion = ryukyuan
 		}
 		modifier = {
 			yearly_harmony = 0.25
@@ -933,18 +875,10 @@ estate_church_clerical_ministers = {
 	conditional_modifier = {
 		trigger = {
 			has_dlc = "Third Rome"
-			religion = orthodox
+			religion = nichirenshu
 		}
 		modifier = {
 			yearly_patriarch_authority = 0.005
-		}
-	}
-	conditional_modifier = {
-		trigger = {
-			religion = anglican
-		}
-		modifier = {
-			church_power_modifier = 0.1
 		}
 	}
 	conditional_modifier = {
@@ -967,16 +901,12 @@ estate_church_clerical_ministers = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {
-				religion = protestant
-				religion = anglican
-			}
-			religion = protestant
+			religion = catholic
 			num_of_aspects = 3
 		}
 		modifier = {
 			factor = 10
-			religion = orthodox
+			religion = nichirenshu
 			has_dlc = "Third Rome"
 		}
 	}
@@ -1007,7 +937,7 @@ estate_church_inwards_perfection = {
 	loyalty = 0.1
 	influence = 0.2
 	is_valid = {
-		religion = ainu
+		religion = ryukyuan
 	}
 	can_select = {
 		NOT = { has_estate_privilege = estate_church_for_the_faith }
@@ -1815,85 +1745,6 @@ estate_church_statutory_rights = {
 	cooldown_years = 20
 }
 
-estate_church_brahmins_at_court = {
-	icon = privilege_seek_support_of_brahmins
-	can_select = {
-		if = {
-			limit = {
-				has_mission = mnd_khm_religion
-			}
-			mission_completed = mnd_khm_religion
-		}
-		else_if = {
-			limit = {
-				has_mission = mnd_khm_religion
-			}
-			mission_completed = mnd_siam_devaraja
-		}
-		else = {
-			has_estate_privilege = estate_church_brahmins_at_court
-		}
-		religion_group = eastern
-	}
-	is_valid = {
-		religion_group = eastern
-		OR = {
-			has_mission = mnd_khm_religion
-			has_mission = mnd_siam_devaraja
-			has_estate_privilege = estate_church_brahmins_at_court
-		}
-	}
-	on_granted = {
-		custom_tooltip = estate_brahmins_guaranteed_autonomy_effect_tooltip
-	}
-	on_granted_province = {
-		if = {
-			limit = {
-				religion_group = dharmic
-			}
-			add_province_modifier = {
-				name = estate_brahmins_guaranteed_autonomy_mod
-				duration = -1
-			}
-		}
-		else_if = {
-			limit = {
-				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-			}
-			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
-	}
-	on_revoked_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-			}
-			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
-	}
-	on_invalid_province = {
-		if = {
-			limit = {
-				has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-			}
-			remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-	ai_will_do = {
-		factor = 1000
-	}
-}
-
 estate_church_karma_temples = {
 	icon = privilege_build_jain_temple
 	max_absolutism = -5
@@ -1901,11 +1752,7 @@ estate_church_karma_temples = {
 	influence = 0.1
 	is_valid = {
 		has_dlc = "Common Sense"
-		OR = {
-			religion = buddhism
-			religion = mahayana
-			religion = vajrayana
-		}
+		religion = jodoshinshu
 	}
 	can_select = {
 	}
@@ -2671,9 +2518,7 @@ estate_church_anti_heresy_act = {
 		has_unlocked_estate_privilege = { estate_privilege = estate_church_anti_heresy_act }
 	}
 	can_select = {
-		religion_group = christian
-		NOT = { religion = orthodox }
-		NOT = { religion = coptic }
+		religion = catholic
 		any_owned_province = {
 			religion_group = ROOT
 			NOT = { religion = ROOT }
@@ -2733,16 +2578,17 @@ estate_nobles_religious_conscription = {
 				religion = ROOT
 			}
 			if = {
-				limit = { has_building = cathedral }
+				limit = { has_building = temple }
 				add_province_modifier = {
 					name = estate_nobles_religious_conscription_cathedral
 					duration = -1
 				}
 			}
 			else_if = {
-				limit = { has_building = temple }
+				limit = { has_building = shrine }
 				add_province_modifier = {
 					name = estate_nobles_religious_conscription_temple
+					#TODO: this localisation probably needs updating
 					duration = -1
 				}
 			}

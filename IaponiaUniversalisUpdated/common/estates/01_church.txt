@@ -143,7 +143,6 @@ estate_church = {
 		estate_church_for_the_faith
 		estate_church_karma_temples
 		estate_church_influence_temples
-		estate_church_brahmins_at_court
 		estate_church_statutory_rights
 		estate_church_one_faith_one_culture
 		estate_church_religious_diplomats

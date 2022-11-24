@@ -164,13 +164,11 @@ estate_burghers = {
 		estate_burghers_admirals
 		estate_burghers_patronage_of_the_arts
 		estate_burghers_commercial_board_of_advice
-		estate_burghers_new_world_charter
 		estate_burghers_indebted_to_burghers
 		estate_burghers_free_enterprise
 		estate_burghers_exclusive_trade_rights
 		estate_burghers_control_over_monetary_policy
 		estate_burghers_private_trade_fleets
-		estate_burghers_tropical_nation
 		estate_burghers_enforced_interfaith_dialogue
 		estate_burghers_statutory_rights
 		estate_burghers_control_over_the_mint

@@ -1,0 +1,28 @@
+organize_dioceses_aspect_modifier = {
+
+}
+
+found_seminaries_aspect_modifier = {
+
+}
+
+establish_hospitals_aspect_modifier = {
+
+}
+
+encourage_dialectics_aspect_modifier = {
+
+}
+
+patronize_iconography_aspect_modifier = {
+
+}
+
+grant_trading_rights_aspect_modifier = {
+
+}
+
+import_printing_presses_aspect_modifier = {
+
+}
+

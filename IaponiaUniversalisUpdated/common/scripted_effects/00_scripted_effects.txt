@@ -2746,6 +2746,39 @@ select_biggest_country_of_region = {
 	}
 }
 
+on_culture_demoted_effect = {
+}
+
+clr_catholic_aspects_buffs = {
+	if = {
+		limit = { NOT = { has_church_aspect = organize_dioceses_aspect } }
+		remove_country_modifier = organize_dioceses_aspect_modifier
+	}
+	if = {
+		limit = { NOT = { has_church_aspect = found_seminaries_aspect } }
+		remove_country_modifier = found_seminaries_aspect_modifier
+	}
+	if = {
+		limit = { NOT = { has_church_aspect = establish_hospitals_aspect } }
+		remove_country_modifier = establish_hospitals_aspect_modifier
+	}
+	if = {
+		limit = { NOT = { has_church_aspect = encourage_dialectics_aspect } }
+		remove_country_modifier = encourage_dialectics_aspect_modifier
+	}
+	if = {
+		limit = { NOT = { has_church_aspect = patronize_iconography_aspect } }
+		remove_country_modifier = patronize_iconography_aspect_modifier
+	}
+	if = {
+		limit = { NOT = { has_church_aspect = grant_trading_rights_aspect } }
+		remove_country_modifier = grant_trading_rights_aspect_modifier
+	}
+	if = {
+		limit = { NOT = { has_church_aspect = import_printing_presses_aspect } }
+		remove_country_modifier = import_printing_presses_aspect_modifier
+	}
+}
 
 #Credits for that script goes to Stiopa
 for = {

@@ -2778,6 +2778,10 @@ clr_kirishitan_aspects_buffs = {
 		limit = { NOT = { has_church_aspect = import_printing_presses_aspect } }
 		remove_country_modifier = import_printing_presses_aspect_modifier
 	}
+	if = {
+		limit = { NOT = { has_church_aspect = request_armaments_aspect } }
+		remove_country_modifier = request_armaments_aspect_modifier
+	}
 }
 
 #Credits for that script goes to Stiopa

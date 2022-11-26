@@ -161,6 +161,16 @@ import_printing_presses_aspect = {
 }
 
 request_armaments_aspect = {
+	cost = 100
+	effect = {
+		hidden_effect = { 
+			clr_kirishitan_aspects_buffs = yes
+			add_country_modifier = {
+				name = request_armaments_aspect_modifier
+				duration = 3650
+			}
+		}
+	}
 	modifier = {
 		fire_damage = 0.1
 	}

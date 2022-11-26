@@ -26,3 +26,6 @@ import_printing_presses_aspect_modifier = {
 
 }
 
+request_armaments_aspect_modifier = {
+
+}

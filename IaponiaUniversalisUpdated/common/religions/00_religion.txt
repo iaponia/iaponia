@@ -437,7 +437,7 @@ christian_group = {
 		}
 
 		heretic = { CALVINIST }
-
+		aspects_name = PROTESTANT_ASPECTS
 		date = 1546.10.31
 	}
 

@@ -317,7 +317,7 @@ christian_group = {
 
 			invite_scholar_modifier_display = jesuit_scholar_modifier
 
-			picture = "GFX_icon_catholic_school_jesuit"
+			picture = "GFX_icon_kirishitan_school_jesuit"
 
 			merchants = 1
 		}
@@ -353,7 +353,7 @@ christian_group = {
 
 			invite_scholar_modifier_display = franciscan_scholar_modifier
 
-			picture = "GFX_icon_catholic_school_franciscan"
+			picture = "GFX_icon_kirishitan_school_franciscan"
 
 			missionaries = 1
 		}
@@ -389,7 +389,7 @@ christian_group = {
 
 			invite_scholar_modifier_display = dominican_scholar_modifier
 
-			picture = "GFX_icon_catholic_school_dominican"
+			picture = "GFX_icon_kirishitan_school_dominican"
 
 			diplomats = 1
 		}

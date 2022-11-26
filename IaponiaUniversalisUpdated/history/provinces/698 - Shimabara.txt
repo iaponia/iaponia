@@ -29,7 +29,7 @@ center_of_trade = 1
 
 1569.10.10 = {
 	temple = yes
-	religion = catholic
+	religion = kirishitan
 }
 
 base_tax = 4

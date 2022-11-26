@@ -38,5 +38,5 @@ trade_goods = metal
     owner = OTM
 	remove_core = NAK
 	remove_core = SHG
-	religion = catholic
+	religion = kirishitan
 }

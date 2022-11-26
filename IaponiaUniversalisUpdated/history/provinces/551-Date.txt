@@ -35,5 +35,5 @@ trade_goods = rice
 	controller = GAM
 	remove_core = UES
 	remove_core = HNJ
-	religion = catholic
+	religion = kirishitan
 }

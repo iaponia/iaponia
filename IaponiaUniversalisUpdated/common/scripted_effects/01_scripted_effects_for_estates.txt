@@ -1606,7 +1606,7 @@ on_province_tax_building_built_estate_privileges_effect = {
 	if = {
 		limit = {
 			FROM = {
-				religion = catholic
+				religion = kirishitan
 				has_estate_privilege = estate_church_influence_temples
 			}
 		}
@@ -1684,7 +1684,7 @@ on_province_tax_building_destroyed_estate_privileges_effect = {
 	if = {
 		limit = {
 			FROM = {
-				religion = catholic
+				religion = kirishitan
 				has_estate_privilege = estate_church_influence_temples
 			}
 		}
@@ -2627,7 +2627,7 @@ spawn_rebels_from_unhappy_estate = {
 						hussite =      { PREV = { spawn_rebels = { type = hussite_rebels size = $size$ as_if_faction = yes } } }
 						animism =       { PREV = { spawn_rebels = { type = animism_rebels size = $size$ as_if_faction = yes } } }
 						buddhism =      { PREV = { spawn_rebels = { type = buddhism_rebels size = $size$ as_if_faction = yes } } }
-						catholic =      { PREV = { spawn_rebels = { type = catholic_rebels size = $size$ as_if_faction = yes } } }
+						kirishitan =      { PREV = { spawn_rebels = { type = kirishitan_rebels size = $size$ as_if_faction = yes } } }
 						confucianism =  { PREV = { spawn_rebels = { type = confucianism_rebels size = $size$ as_if_faction = yes } } }
 						coptic =        { PREV = { spawn_rebels = { type = coptic_rebels size = $size$ as_if_faction = yes } } }
 						hinduism =      { PREV = { spawn_rebels = { type = hinduism_rebels size = $size$ as_if_faction = yes } } }

@@ -37,7 +37,7 @@ trade_goods = bamboo
 }
 
 1582.6.21 = {
-	religion = catholic
+	religion = kirishitan
 }
 
 1600.9.13 = {

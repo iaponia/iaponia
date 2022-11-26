@@ -52,5 +52,5 @@ trade_goods = rice
     controller = TKY
     owner = TKY
 	remove_core = HKN
-	religion = catholic
+	religion = kirishitan
 }

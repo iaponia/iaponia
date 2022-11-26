@@ -36,7 +36,7 @@ trade_goods = pottery
 
 1569.10.10 = {
 	academy = yes
-	religion = catholic
+	religion = kirishitan
 }
 
 1582.6.21 = {

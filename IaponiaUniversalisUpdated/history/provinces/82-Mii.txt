@@ -40,7 +40,7 @@ trade_goods = lacquerware
     add_core = RZJ
     controller = RZJ
     owner = RZJ
-	religion = catholic
+	religion = kirishitan
 }
 
 1600.9.13 = {

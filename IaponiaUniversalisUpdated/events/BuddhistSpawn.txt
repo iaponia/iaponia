@@ -43,7 +43,7 @@ country_event = {
 			}
 		}
 		capital_scope = { change_religion = jodoshinshu }
-		#set_country_flag = accepted_catholics
+		#set_country_flag = accepted_kirishitans
 	}
 }
 

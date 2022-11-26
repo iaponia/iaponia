@@ -29,7 +29,7 @@ base_manpower = 3
 }
 
 1615.1.1 = {
-	religion = catholic
+	religion = kirishitan
 }
 
 center_of_trade = 1

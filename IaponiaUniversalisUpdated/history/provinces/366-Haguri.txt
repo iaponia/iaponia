@@ -58,5 +58,5 @@ trade_goods = paper
     controller = ODA
     owner = ODA
 	remove_core = FUK
-	religion = catholic
+	religion = kirishitan
 }

@@ -38,7 +38,7 @@ center_of_trade = 1
 1554.3.1 = {
 	add_core = SUE
 	wharf = yes
-	religion = catholic
+	religion = kirishitan
 }
 
 1569.10.10 = {

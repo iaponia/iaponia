@@ -111,7 +111,7 @@ mercantilism = 50
 	add_ruler_personality = humble_personality
 	add_queen_personality = pious_personality
 	primary_culture = omi_c
-	religion = catholic
+	religion = kirishitan
 }
 
 1615.1.1 = {

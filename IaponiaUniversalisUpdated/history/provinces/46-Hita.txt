@@ -37,5 +37,5 @@ trade_goods = lumber
     owner = SHG
 	remove_core = KRD
 	remove_core = OTM
-	religion = catholic
+	religion = kirishitan
 }

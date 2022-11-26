@@ -12,7 +12,7 @@ christian = {
 		icon = 10
 
 		allowed_conversion = {
-			catholic
+			kirishitan
 			nichirenshu
 			jodoshinshu
 		}
@@ -59,7 +59,7 @@ christian = {
 		icon = 25
 
 		allowed_conversion = {
-			catholic
+			kirishitan
 			shinto
 			nichirenshu
 		}
@@ -165,7 +165,7 @@ christian = {
 		icon = 22
 		
 		allowed_conversion = {
-			catholic
+			kirishitan
 			shinto
 			jodoshinshu
 		}
@@ -295,7 +295,7 @@ christian_group = {
 				church_power = 200
 				if = {
 					limit = {
-						NOT = { religion = catholic }
+						NOT = { religion = kirishitan }
 					}
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
@@ -331,7 +331,7 @@ christian_group = {
 				church_power = 200
 				if = {
 					limit = {
-						NOT = { religion = catholic }
+						NOT = { religion = kirishitan }
 					}
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
@@ -367,7 +367,7 @@ christian_group = {
 				church_power = 200
 				if = {
 					limit = {
-						NOT = { religion = catholic }
+						NOT = { religion = kirishitan }
 					}
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
@@ -395,7 +395,7 @@ christian_group = {
 		}
 	}
 	
-	catholic = {
+	kirishitan = {
 		color = { 0.8 0.8 0 }
 		icon = 1
 		
@@ -427,7 +427,7 @@ christian_group = {
 		}
 
 		on_convert = {
-			change_religion = catholic
+			change_religion = kirishitan
 			add_stability = -1
 			add_prestige = -50
 			add_country_modifier = {

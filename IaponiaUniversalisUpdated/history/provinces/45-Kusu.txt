@@ -32,5 +32,5 @@ trade_goods = bamboo
     owner = SHG
 	remove_core = KRD
 	remove_core = OTM
-	religion = catholic
+	religion = kirishitan
 }

@@ -296,6 +296,6 @@ mercantilism = 50
 	add_ruler_personality = tolerant_personality
 	add_ruler_personality = ambitious_personality
 	add_ruler_personality = immortal_personality
-	religion = catholic
+	religion = kirishitan
 	primary_culture = rikuzen_c
 }

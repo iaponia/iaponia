@@ -268,7 +268,7 @@ mercantilism = 50
 		death_date = 1660.1.1
 		personality = skilled_marksman_personality
 	}
-	religion = catholic
+	religion = kirishitan
 }
 	
 1600.9.13 = { 

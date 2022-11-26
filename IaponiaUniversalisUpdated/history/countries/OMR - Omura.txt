@@ -130,7 +130,7 @@ mercantilism = 50
 	add_heir_personality = pious_personality
 	add_heir_personality = zealot_personality
 	add_heir_personality = draconian_personality
-	religion = catholic
+	religion = kirishitan
 }
 	
 1600.9.13 = {

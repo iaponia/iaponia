@@ -511,7 +511,7 @@ can_have_center_of_reformation_trigger = { #Province Scope
 	#continent = europe
 	OR = {
 		religion = protestant
-		religion = catholic
+		religion = kirishitan
 		religion = reformed
 	}
 	#NOT = { province_id = 118 }
@@ -1467,14 +1467,14 @@ has_completed_idea_group_of_category = {
 
 has_religion_of_increased_opinion_for_scope = {
 	OR = {
-		AND = { religion = catholic $who$ = { has_country_flag = has_increased_catholic_opinion } }
+		AND = { religion = kirishitan $who$ = { has_country_flag = has_increased_kirishitan_opinion } }
 		AND = { religion = shinto $who$ = { has_country_flag = has_increased_shinto_opinion } }
 	}
 }
 
 reverse_has_religion_of_increased_opinion_for_scope = {
 	OR = {
-		AND = { $who$ = { religion = catholic } has_country_flag = has_increased_catholic_opinion }
+		AND = { $who$ = { religion = kirishitan } has_country_flag = has_increased_kirishitan_opinion }
 		AND = { $who$ = { religion = anglican } has_country_flag = has_increased_anglican_opinion }
 		AND = { $who$ = { religion = hussite } has_country_flag = has_increased_hussite_opinion }
 		AND = { $who$ = { religion = protestant } has_country_flag = has_increased_protestant_opinion }
@@ -1770,7 +1770,7 @@ province_is_or_accepts_culture = {
 secondary_religion_group = {
 	[[christian]
 		OR = {
-			secondary_religion = catholic
+			secondary_religion = kirishitan
 			secondary_religion = hussite
 			secondary_religion = coptic
 			secondary_religion = orthodox

@@ -57,5 +57,5 @@ trade_goods = fish
     owner = NTO
 	remove_core = MRI
 	remove_core = CMO
-	religion = catholic
+	religion = kirishitan
 }

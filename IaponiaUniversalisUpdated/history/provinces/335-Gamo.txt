@@ -61,5 +61,5 @@ trade_goods = lacquerware
 	owner = RKK
 	controller = RKK
 	remove_core = NTS
-	religion = catholic
+	religion = kirishitan
 }

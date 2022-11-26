@@ -131,5 +131,5 @@ mercantilism = 50
 	add_ruler_personality = connected_personality
 	add_ruler_personality = cynical_personality
 	add_ruler_personality = immortal_personality
-	religion = catholic
+	religion = kirishitan
 }

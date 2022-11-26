@@ -848,7 +848,7 @@ country_event = {
 		has_heir = no
 		ruler_age = 40
 		government = monarchy
-		religion = catholic
+		religion = kirishitan
 		NOT = { has_reform = elective_monarchy }
 		is_lesser_in_union = no
 		has_government_attribute = heir

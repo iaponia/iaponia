@@ -1,17 +1,17 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_icon_catholic_school_jesuit"
-		texturefile = "gfx/interface/icon_catholic_school_jesuit.dds"
+		name = "GFX_icon_kirishitan_school_jesuit"
+		texturefile = "gfx/interface/icon_kirishitan_school_jesuit.dds"
 	}
 
 	spriteType = {
-		name = "GFX_icon_catholic_school_franciscan"
-		texturefile = "gfx/interface/icon_catholic_school_franciscan.dds"
+		name = "GFX_icon_kirishitan_school_franciscan"
+		texturefile = "gfx/interface/icon_kirishitan_school_franciscan.dds"
 	}
 
 	spriteType = {
-		name = "GFX_icon_catholic_school_dominican"
-		texturefile = "gfx/interface/icon_catholic_school_dominican.dds"
+		name = "GFX_icon_kirishitan_school_dominican"
+		texturefile = "gfx/interface/icon_kirishitan_school_dominican.dds"
 	}
 
 }

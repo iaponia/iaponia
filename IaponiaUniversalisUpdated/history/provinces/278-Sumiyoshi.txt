@@ -48,7 +48,7 @@ trade_goods = pilgrimage_site
     controller = TOY
     owner = TOY
 	remove_core = HSB
-	religion = catholic
+	religion = kirishitan
 }
 
 1615.1.1 = {

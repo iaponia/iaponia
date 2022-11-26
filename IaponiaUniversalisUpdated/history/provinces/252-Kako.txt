@@ -55,7 +55,7 @@ trade_goods = rice
     owner = HKN
 	remove_core = HSB
 	remove_core = BSO
-	religion = catholic
+	religion = kirishitan
 }
 
 1615.1.1 = {

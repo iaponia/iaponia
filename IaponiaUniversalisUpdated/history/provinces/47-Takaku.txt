@@ -29,7 +29,7 @@ trade_goods = horses
 
 1569.10.10 = {
 	barracks = yes
-	religion = catholic
+	religion = kirishitan
 }
 
 1582.6.21 = {

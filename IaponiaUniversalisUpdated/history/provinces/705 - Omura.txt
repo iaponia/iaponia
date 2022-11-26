@@ -40,7 +40,7 @@ trade_goods = lacquerware
 	remove_core = AIM
 	shrine = yes
 	arsenal = yes
-	religion = catholic
+	religion = kirishitan
 }
 
 1582.6.21 = {

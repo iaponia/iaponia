@@ -569,7 +569,7 @@ western_trade_i = {
 				}
 			}
 			AND = {
-				religion = catholic
+				religion = kirishitan
 				is_year = 1540
 				OR = {
 					province_has_center_of_trade_of_level = 2
@@ -652,8 +652,8 @@ western_trade_i = {
 			factor = 0.5
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_catholic
-				religion = catholic
+				tooltip = tooltip_kirishitan
+				religion = kirishitan
 			}
 		}
 		modifier = {
@@ -773,7 +773,7 @@ gunsmithing_i = {
 				base_production = 6
 				OR = {
 				religion = jodoshinshu
-				religion = catholic
+				religion = kirishitan
 				}
 			}
 		}
@@ -846,7 +846,7 @@ gunsmithing_i = {
 				tooltip = tooltip_owner_cath_maha
 				owner = {
 					OR = {
-						religion = catholic
+						religion = kirishitan
 						religion = jodoshinshu
 					}
 				}
@@ -1072,7 +1072,7 @@ momoyama_culture_i = {
 				tooltip = tooltip_owner_cath_shin
 				owner = {
 					OR = {
-						religion = catholic
+						religion = kirishitan
 						religion = shinto
 					}
 				}
@@ -1309,8 +1309,8 @@ rangaku_i = {
 			factor = 0.5
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_catholic
-				religion = catholic
+				tooltip = tooltip_kirishitan
+				religion = kirishitan
 			}
 		}
 		modifier = {

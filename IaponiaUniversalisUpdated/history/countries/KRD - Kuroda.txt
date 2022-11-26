@@ -65,7 +65,7 @@ mercantilism = 50
 	add_ruler_personality = frugal_personality
 	add_queen_personality = pious_personality
 	add_heir_personality = stern_personality
-	religion = catholic
+	religion = kirishitan
 	primary_culture = buzen_c
 	add_accepted_culture = bungo_c
 }

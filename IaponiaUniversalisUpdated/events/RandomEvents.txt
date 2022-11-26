@@ -1396,7 +1396,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		religion = catholic
+		religion = kirishitan
 	}
 
 	mean_time_to_happen = {
@@ -4560,7 +4560,7 @@ country_event = {
 
 	trigger = {
 		stability = 0
-		religion = catholic
+		religion = kirishitan
 		is_at_war = no
 		num_of_cities = 2
 	}
@@ -6191,7 +6191,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		religion = catholic
+		religion = kirishitan
 		NOT = {
 			stability = 3
 		}
@@ -7503,7 +7503,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		religion = catholic
+		religion = kirishitan
 		NOT = {
 			has_country_flag = maid_of_province
 		}

@@ -63,6 +63,6 @@ trade_goods = sake
 	add_core = NAK
     controller = NAK
     owner = NAK
-	religion = catholic
+	religion = kirishitan
 	remove_core = TOY
 }

@@ -64,6 +64,6 @@ trade_goods = grain
 	add_core = WAD
 	owner = WAD
 	controller = WAD
-	religion = catholic
+	religion = kirishitan
 	remove_core = TOY
 }

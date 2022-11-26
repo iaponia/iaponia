@@ -51,5 +51,5 @@ trade_goods = mainland_trade
 }
 
 1615.1.1 = {
-	religion = catholic
+	religion = kirishitan
 }

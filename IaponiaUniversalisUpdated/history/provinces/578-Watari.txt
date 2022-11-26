@@ -40,5 +40,5 @@ trade_goods = seaweed
 	owner = GAM
 	controller = GAM
 	remove_core = DTE
-	religion = catholic
+	religion = kirishitan
 }

@@ -45,5 +45,5 @@ trade_goods = fish
 }
 
 1615.1.1 = {
-	religion = catholic
+	religion = kirishitan
 }

@@ -28,5 +28,5 @@ trade_goods = gold
 }
 
 1615.1.1 = {
-	religion = catholic
+	religion = kirishitan
 }

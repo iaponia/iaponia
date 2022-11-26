@@ -49,5 +49,5 @@ trade_goods = rice
 	owner = GAM
 	controller = GAM
 	remove_core = DTE
-	religion = catholic
+	religion = kirishitan
 }

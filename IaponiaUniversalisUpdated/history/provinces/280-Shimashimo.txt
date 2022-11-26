@@ -46,7 +46,7 @@ trade_goods = rice
     controller = TKY
     owner = TKY
 	remove_core = WAD
-	religion = catholic
+	religion = kirishitan
 }
 
 1600.9.13 = {

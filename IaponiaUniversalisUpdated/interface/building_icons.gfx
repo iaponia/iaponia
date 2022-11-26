@@ -156,7 +156,7 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_shrine_catholic"
+		name = "GFX_shrine_kirishitan"
 		texturefile = "gfx//interface//buildings//order//shrine_catholic.tga"
 		loadType = "INGAME"
 	}
@@ -171,7 +171,7 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_temple_catholic"
+		name = "GFX_temple_kirishitan"
 		texturefile = "gfx//interface//buildings//order//temple_catholic.tga"
 		loadType = "INGAME"
 	}

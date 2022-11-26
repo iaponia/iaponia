@@ -42,5 +42,5 @@ trade_goods = salt
     owner = NTO
 	remove_core = MRI
 	remove_core = CMO
-	religion = catholic
+	religion = kirishitan
 }

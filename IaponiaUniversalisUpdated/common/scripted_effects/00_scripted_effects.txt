@@ -1812,7 +1812,7 @@ spawn_country_religious_rebels = {
 			hussite =               { PREV = { spawn_rebels = { type = hussite_rebels size = $size$ } } }
 			animism =               { PREV = { spawn_rebels = { type = animism_rebels size = $size$ } } }
 			buddhism =              { PREV = { spawn_rebels = { type = buddhism_rebels size = $size$ } } }
-			catholic =              { PREV = { spawn_rebels = { type = catholic_rebels size = $size$ } } }
+			kirishitan =              { PREV = { spawn_rebels = { type = kirishitan_rebels size = $size$ } } }
 			confucianism =          { PREV = { spawn_rebels = { type = confucianism_rebels size = $size$ } } }
 			coptic =                { PREV = { spawn_rebels = { type = coptic_rebels size = $size$ } } }
 			hinduism =              { PREV = { spawn_rebels = { type = hinduism_rebels size = $size$ } } }
@@ -1848,7 +1848,7 @@ spawn_province_religious_rebels = {
 		hussite =               { spawn_rebels = { type = hussite_rebels size = $size$ } }
 		animism =               { spawn_rebels = { type = animism_rebels size = $size$ } }
 		buddhism =              { spawn_rebels = { type = buddhism_rebels size = $size$ } }
-		catholic =              { spawn_rebels = { type = catholic_rebels size = $size$ } }
+		kirishitan =              { spawn_rebels = { type = kirishitan_rebels size = $size$ } }
 		confucianism =          { spawn_rebels = { type = confucianism_rebels size = $size$ } }
 		coptic =                { spawn_rebels = { type = coptic_rebels size = $size$ } }
 		hinduism =              { spawn_rebels = { type = hinduism_rebels size = $size$ } }
@@ -2749,7 +2749,7 @@ select_biggest_country_of_region = {
 on_culture_demoted_effect = {
 }
 
-clr_catholic_aspects_buffs = {
+clr_kirishitan_aspects_buffs = {
 	if = {
 		limit = { NOT = { has_church_aspect = organize_dioceses_aspect } }
 		remove_country_modifier = organize_dioceses_aspect_modifier

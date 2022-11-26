@@ -180,7 +180,7 @@ mercantilism = 50
 		dip = 3
 		mil = 3
 	}
-	religion = catholic
+	religion = kirishitan
 	clear_scripted_personalities = yes
 	add_ruler_personality = cautious_personality
 	add_ruler_personality = swordsman_personality

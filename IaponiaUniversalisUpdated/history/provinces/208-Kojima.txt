@@ -53,5 +53,5 @@ trade_goods = fish
     owner = AKA
     controller = AKA
 	remove_core = UKT
-	religion = catholic
+	religion = kirishitan
 }

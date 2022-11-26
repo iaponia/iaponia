@@ -57,5 +57,5 @@ center_of_trade = 1
     controller = TTI
     owner = TTI
 	remove_core = MSH
-	religion = catholic
+	religion = kirishitan
 }

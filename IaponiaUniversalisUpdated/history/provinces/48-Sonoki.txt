@@ -42,7 +42,7 @@ trade_goods = mainland_trade
 	remove_core = AIM
 	temple = yes
 	academy = yes
-	religion = catholic
+	religion = kirishitan
 }
 
 1582.6.21 = {

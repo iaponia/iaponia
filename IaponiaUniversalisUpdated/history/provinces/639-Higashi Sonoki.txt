@@ -31,7 +31,7 @@ trade_goods = pottery
     controller = OMR
     add_core = OMR
 	remove_core = AIM
-	religion = catholic
+	religion = kirishitan
 }
 
 1582.6.21 = {

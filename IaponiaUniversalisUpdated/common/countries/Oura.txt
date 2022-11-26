@@ -4,7 +4,7 @@ graphical_culture = asiangfx
 
 color = { 137  207  240 }
 
-preferred_religion = catholic
+preferred_religion = kirishitan
 
 historical_idea_groups = {
 	diplomatic_ideas

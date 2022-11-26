@@ -62,5 +62,5 @@ mercantilism = 50
 	add_ruler_personality = strong_personality
 	add_ruler_personality = tolerant_personality
 	add_ruler_personality = immortal_personality
-	religion = catholic
+	religion = kirishitan
 }

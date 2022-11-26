@@ -1007,11 +1007,11 @@ defined_text = {
 			religion = orthodox
         }
     }
-	#Catholics (Papacy & The Reformation)
+	#kirishitans (Papacy & The Reformation)
 	text = {
-        localisation_key = string_start_religion_catholic
+        localisation_key = string_start_religion_kirishitan
         trigger = {
-			religion = catholic
+			religion = kirishitan
         }
     }
 	#Protestant (The Reformation)
@@ -1214,19 +1214,19 @@ defined_text = {
 
 #Tordesillas
 defined_text = {
-	name = start_religion_catholic_tordesillas
+	name = start_religion_kirishitan_tordesillas
 	random = no
 	text = {
-        localisation_key = string_catholic_tordesillas #Has to end with \n
+        localisation_key = string_kirishitan_tordesillas #Has to end with \n
         trigger = {
-			religion = catholic
+			religion = kirishitan
 			has_dlc = "El Dorado"
         }
     }
 	text = {
-        localisation_key = string_catholic_tordesillas_no #\n
+        localisation_key = string_kirishitan_tordesillas_no #\n
         trigger = {
-			religion = catholic
+			religion = kirishitan
 			NOT = { has_dlc = "El Dorado" }
         }
     }

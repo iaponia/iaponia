@@ -39,5 +39,5 @@ trade_goods = cloth
 	remove_core = TKH
 	remove_core = RZJ
 	remove_core = OTM
-	religion = catholic
+	religion = kirishitan
 }

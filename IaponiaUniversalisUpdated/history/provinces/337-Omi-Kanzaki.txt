@@ -50,5 +50,5 @@ trade_goods = rice
 	owner = RKK
 	controller = RKK
 	remove_core = NTS
-	religion = catholic
+	religion = kirishitan
 }

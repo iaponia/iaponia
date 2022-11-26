@@ -32,5 +32,5 @@ trade_goods = sake
 }
 
 1582.6.21 = {
-	religion = catholic
+	religion = kirishitan
 }

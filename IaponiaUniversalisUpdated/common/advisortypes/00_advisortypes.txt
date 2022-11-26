@@ -57,7 +57,7 @@ theologian_a = {
 		modifier = {
 			factor = 0
 			NOT = {
-				religion = catholic
+				religion = kirishitan
 			}
 		}
 	}
@@ -81,7 +81,7 @@ monk_a = {
 		factor = 1
 		modifier = {
 			factor = 0
-			religion = catholic
+			religion = kirishitan
 		}
 	}
 

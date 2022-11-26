@@ -38,5 +38,5 @@ trade_goods = fish
 	owner = ICJ
 	controller = ICJ
 	remove_core = CSK
-	religion = catholic
+	religion = kirishitan
 }

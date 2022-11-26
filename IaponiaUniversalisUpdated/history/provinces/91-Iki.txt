@@ -40,5 +40,5 @@ trade_goods = fish
     controller = SOO
     owner = SOO
 	remove_core = MTA
-	religion = catholic
+	religion = kirishitan
 }

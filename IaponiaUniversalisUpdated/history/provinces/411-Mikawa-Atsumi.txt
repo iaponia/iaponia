@@ -54,5 +54,5 @@ trade_goods = seaweed
     controller = TNK
     owner = TNK
 	remove_core = IKE
-	religion = catholic
+	religion = kirishitan
 }

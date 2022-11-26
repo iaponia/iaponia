@@ -71,5 +71,5 @@ trade_goods = rice
     controller = HTK
     owner = HTK
 	remove_core = TOY
-	religion = catholic
+	religion = kirishitan
 }

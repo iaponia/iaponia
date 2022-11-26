@@ -5,7 +5,7 @@
 # 		is_free_or_tributary_trigger = yes
 # 		NOT = { has_country_flag = had_religious_turmoil } 
 # 		OR = {
-# 			religion = catholic
+# 			religion = kirishitan
 # 			religion = protestant
 # 			religion = reformed
 # 		}
@@ -25,7 +25,7 @@
 # 		any_owned_province = {
 # 			has_owner_religion = no
 # 			OR = {
-# 				religion = catholic
+# 				religion = kirishitan
 # 				religion = protestant
 # 				religion = reformed
 # 			}
@@ -87,7 +87,7 @@
 # 						any_owned_province = {
 # 							has_owner_religion = no
 # 							OR = {
-# 								religion = catholic
+# 								religion = kirishitan
 # 								religion = protestant
 # 								religion = reformed
 # 							}

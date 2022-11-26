@@ -816,7 +816,7 @@ estate_church_clerical_ministers = {
 				limit = {
 					has_dlc = "Common Sense"
 				}
-				NOT = { religion = catholic }
+				NOT = { religion = kirishitan }
 				NOT = { religion = jodoshinshu }
 			}
 			if = {
@@ -848,7 +848,7 @@ estate_church_clerical_ministers = {
 	conditional_modifier = {
 		trigger = {
 			has_dlc = "Common Sense"
-			religion = catholic
+			religion = kirishitan
 		}
 		modifier = {
 			church_power_modifier = 0.2
@@ -901,7 +901,7 @@ estate_church_clerical_ministers = {
 		}
 		modifier = {
 			factor = 0.5
-			religion = catholic
+			religion = kirishitan
 			num_of_aspects = 3
 		}
 		modifier = {
@@ -1792,10 +1792,10 @@ estate_church_influence_temples = {
 	loyalty = 0.1
 	influence = 0.1
 	is_valid = {
-		religion = catholic
+		religion = kirishitan
 	}
 	can_select = {
-		religion = catholic
+		religion = kirishitan
 	}
 	on_granted = {
 		custom_tooltip = estate_church_influence_temples_tt
@@ -2190,7 +2190,7 @@ estate_church_scholar_connections = {
 	influence = 0.1
 	loyalty = 0.05
 	is_valid = {
-		religion = catholic
+		religion = kirishitan
 		has_dlc = "Cradle of Civilization"
 	}
 	can_select = {
@@ -2224,7 +2224,7 @@ estate_church_integrated_school = {
 	influence = 0.1
 	loyalty = 0
 	is_valid = {
-		religion = catholic
+		religion = kirishitan
 		has_dlc = "Cradle of Civilization"
 	}
 	can_select = {
@@ -2518,7 +2518,7 @@ estate_church_anti_heresy_act = {
 		has_unlocked_estate_privilege = { estate_privilege = estate_church_anti_heresy_act }
 	}
 	can_select = {
-		religion = catholic
+		religion = kirishitan
 		any_owned_province = {
 			religion_group = ROOT
 			NOT = { religion = ROOT }

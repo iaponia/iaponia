@@ -44,5 +44,5 @@ trade_goods = pottery
 	controller = MTA
     owner = MTA
 	remove_core = NBS
-	religion = catholic
+	religion = kirishitan
 }

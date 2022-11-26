@@ -145,7 +145,7 @@ mercantilism = 50
 		dip = 2
 		mil = 3
 	}
-	religion = catholic
+	religion = kirishitan
 }
 
 1615.1.1 = {

@@ -47,7 +47,7 @@ trade_goods = rice
 	add_core = TKY
     controller = WAD
     owner = WAD
-	religion = catholic
+	religion = kirishitan
 	arsenal = yes
 }
 

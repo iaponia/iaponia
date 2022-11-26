@@ -234,7 +234,7 @@ mercantilism = 50
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = tolerant_personality
-	religion = catholic
+	religion = kirishitan
 	primary_culture = mino_c
 	remove_accepted_culture = omi_c
 }

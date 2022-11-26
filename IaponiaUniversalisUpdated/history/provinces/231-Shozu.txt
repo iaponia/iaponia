@@ -44,7 +44,7 @@ trade_goods = fish
     owner = IKM
 	add_core = IKM
 	remove_core = SGO
-	religion = catholic
+	religion = kirishitan
 }
 
 1615.1.1 = {

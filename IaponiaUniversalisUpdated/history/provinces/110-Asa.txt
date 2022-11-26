@@ -55,5 +55,5 @@ trade_goods = paper
     owner = NTO
 	remove_core = MRI
 	remove_core = CMO
-	religion = catholic
+	religion = kirishitan
 }

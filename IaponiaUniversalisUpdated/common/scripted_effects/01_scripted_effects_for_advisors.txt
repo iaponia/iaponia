@@ -18,7 +18,7 @@ erase_advisor_flags_effect = { #Goes into the after = {} effect after check_if_n
 		theravada_advisor = { clr_country_flag = theravada_advisor }
 		mahayana_advisor = { clr_country_flag = mahayana_advisor }
 		vajrayana_advisor = { clr_country_flag = vajrayana_advisor }
-		catholic_advisor = { clr_country_flag = catholic_advisor }
+		kirishitan_advisor = { clr_country_flag = kirishitan_advisor }
 		hinduism_advisor = { clr_country_flag = hinduism_advisor }
 		ibadi_advisor = { clr_country_flag = ibadi_advisor }
 		shia_advisor = { clr_country_flag = shia_advisor }
@@ -60,7 +60,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			if = {
 				limit = {
 					OR = {
-						religion = catholic
+						religion = kirishitan
 						religion = reformed
 					}
 					is_religion_enabled = protestant
@@ -74,7 +74,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			}
 			else_if = {
 				limit = {
-					religion = catholic
+					religion = kirishitan
 					NOT = { is_religion_enabled = protestant }
 				}
 				define_advisor = {
@@ -92,7 +92,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 					type = $advisor_type_if_not_state$
 					skill = $skill$
 					discount = $discount$
-					religion = catholic
+					religion = kirishitan
 				}
 			}
 			else_if = {
@@ -129,7 +129,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			if = {
 				limit = {
 					OR = {
-						religion = catholic
+						religion = kirishitan
 						religion = protestant
 					}
 					is_religion_enabled = reformed
@@ -143,7 +143,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			}
 			else_if = {
 				limit = {
-					religion = catholic
+					religion = kirishitan
 					NOT = { is_religion_enabled = reformed }
 				}
 				define_advisor = {
@@ -161,7 +161,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 					type = $advisor_type_if_not_state$
 					skill = $skill$
 					discount = $discount$
-					religion = catholic
+					religion = kirishitan
 				}
 			}
 			else_if = {
@@ -233,7 +233,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 					type = $advisor_type_if_not_state$
 					skill = $skill$
 					discount = $discount$
-					religion = catholic
+					religion = kirishitan
 				}
 			}
 			else_if = {
@@ -418,18 +418,18 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 				discount = $discount$
 			}
 		}
-		catholic_advisor = {
+		kirishitan_advisor = {
 			if = {
 				limit = {
 					any_province = {
-						religion = catholic
+						religion = kirishitan
 						has_discovered = ROOT
 					}
 				}
 				define_advisor = {
 					type = $advisor_type_if_not_state$
 					skill = $skill$
-					religion = catholic
+					religion = kirishitan
 					discount = $discount$
 				}
 			}

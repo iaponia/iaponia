@@ -220,7 +220,7 @@ country_event = {
 	option = {
 		name = theocracy.1.d		# A Papal Protege
 		trigger = {
-			religion = catholic
+			religion = kirishitan
 		}
 		if = {
 			limit = {

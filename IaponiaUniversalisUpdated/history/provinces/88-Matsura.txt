@@ -57,5 +57,5 @@ trade_goods = mainland_trade
 	controller = MTA
     owner = MTA
 	remove_core = NBS
-	religion = catholic
+	religion = kirishitan
 }

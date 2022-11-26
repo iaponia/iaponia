@@ -39,5 +39,5 @@ center_of_trade = 1
 	academy = yes
 	temple = yes
 	dockyard = yes
-	religion = catholic
+	religion = kirishitan
 }

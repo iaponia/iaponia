@@ -215,7 +215,7 @@ mercantilism = 50
 	add_ruler_personality = cruel_personality
 	add_heir_personality = honorable_personality
 	add_queen_personality = pious_personality
-	set_consort_religion = catholic
+	set_consort_religion = kirishitan
 	primary_culture = tanshu_c
 }
 

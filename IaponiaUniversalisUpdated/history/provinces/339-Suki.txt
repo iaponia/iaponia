@@ -53,5 +53,5 @@ trade_goods = metal
     controller = KGK
 	remove_core = MRI
 	remove_core = KKW
-	religion = catholic
+	religion = kirishitan
 }

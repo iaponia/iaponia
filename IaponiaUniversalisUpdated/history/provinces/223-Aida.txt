@@ -56,5 +56,5 @@ trade_goods = grain
 	owner = GTO
     controller = GTO
 	remove_core = UKT
-	religion = catholic
+	religion = kirishitan
 }

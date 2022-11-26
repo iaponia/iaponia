@@ -65,5 +65,5 @@ trade_goods = dyes
     controller = ODA
     owner = ODA
 	remove_core = TKN
-	religion = catholic
+	religion = kirishitan
 }

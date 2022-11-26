@@ -42,5 +42,5 @@ trade_goods = lumber
 	owner = GAM
 	controller = GAM
 	remove_core = DTE
-	religion = catholic
+	religion = kirishitan
 }

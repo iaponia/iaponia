@@ -55,5 +55,5 @@ trade_goods = tea
     controller = TNK
     owner = TNK
 	remove_core = IKE
-	religion = catholic
+	religion = kirishitan
 }

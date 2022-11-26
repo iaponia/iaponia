@@ -16,7 +16,7 @@ christian_ideas = {
 
 	trigger = {
 		AND = {
-			religion = catholic
+			religion = kirishitan
 			NOT = { has_idea_group = pluralist_ideas }
 			NOT = { has_idea_group = traditional_ideas }
 		}
@@ -560,7 +560,7 @@ mercantilist_ideas = {
 
 	trigger = {
 		AND = {
-			NOT = { religion = catholic }
+			NOT = { religion = kirishitan }
 			NOT = { has_idea_group = meritocratic_ideas }
 			NOT = { has_idea_group = trade_ideas }
 			NOT = { has_idea_group = westernized_ideas }

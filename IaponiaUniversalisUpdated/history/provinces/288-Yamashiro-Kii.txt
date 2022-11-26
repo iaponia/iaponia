@@ -49,7 +49,7 @@ trade_goods = pottery
     owner = TKG
 	remove_core = AKC
 	castle = yes
-	religion = catholic
+	religion = kirishitan
 }
 
 1615.1.1 = {

@@ -407,30 +407,10 @@ enact_revolution_effect = {
 
 #province scope
 add_half_industrialization_effect = {
-	if = {
-		limit = {
-			is_institution_enabled = industrialization
-			NOT = { industrialization = 100 }
-		}
-		add_institution_embracement = {
-			which = industrialization
-			value = 50
-		}
-	}
 }
 
 #province scope
 add_quarter_industrialization_effect = {
-	if = {
-		limit = {
-			is_institution_enabled = industrialization
-			NOT = { industrialization = 100 }
-		}
-		add_institution_embracement = {
-			which = industrialization
-			value = 25
-		}
-	}
 }
 
 #province scope, chooses which random monarch point bonus to give for agendas
@@ -1014,42 +994,7 @@ set_great_project_tier_3 = {
 
 #Country effect
 create_colony_mission_reward = {
-	if = {
-		limit = {
-			$province$ = {
-				is_empty = yes
-			}
-		}
-		$province$ = {
-			add_siberian_construction = 400
-		}
-		if = {
-			limit = {
-				has_age_ability = ab_colony_boost_development
-			}
-			$province$ = {
-				add_base_tax = 1
-				add_base_production = 1
-				add_base_manpower = 1
-			}
-		}
-	}
-	else_if = {
-		limit = {
-			owns = $province$
-		}
-		$province$ = {
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-		}
-	}
-	else_if = {
-		limit = {
-			NOT = { is_permanent_claim = $province$ }
-		}
-		add_permanent_claim = $province$
-	}
+	
 }
 
 #Provine effect
@@ -1848,7 +1793,7 @@ spawn_province_religious_rebels = {
 		hussite =               { spawn_rebels = { type = hussite_rebels size = $size$ } }
 		animism =               { spawn_rebels = { type = animism_rebels size = $size$ } }
 		buddhism =              { spawn_rebels = { type = buddhism_rebels size = $size$ } }
-		kirishitan =              { spawn_rebels = { type = kirishitan_rebels size = $size$ } }
+		kirishitan =            { spawn_rebels = { type = kirishitan_rebels size = $size$ } }
 		confucianism =          { spawn_rebels = { type = confucianism_rebels size = $size$ } }
 		coptic =                { spawn_rebels = { type = coptic_rebels size = $size$ } }
 		hinduism =              { spawn_rebels = { type = hinduism_rebels size = $size$ } }

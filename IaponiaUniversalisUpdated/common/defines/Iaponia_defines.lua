@@ -45,6 +45,7 @@ NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 10
 NDefines.NCountry.STARTING_ARMY_SIZE = 0.5
 NDefines.NCountry.STARTING_ARMY_SIZE_AT_WAR = 0.75
 NDefines.NCountry.STARTING_FLEET_SIZE = 0.6
+-- the following were outdated due to change in number of techs
 -- NDefines.NCountry.REBEL_ARTILLERY_INCREASE_LEVEL_1_TECH = 12
 -- NDefines.NCountry.REBEL_ARTILLERY_INCREASE_LEVEL_1_SIZE = 0.05
 -- NDefines.NCountry.REBEL_ARTILLERY_INCREASE_LEVEL_2_TECH = 18

@@ -4,9 +4,9 @@ bookmark =
 	desc = "MEIO_DESC"
 	date = 1493.6.9
 	
+	country = HSK
 	country = HJO
 	country = HGJ
-	country = HSK
 	country = BHY
 	country = ASA
 	country = RKK

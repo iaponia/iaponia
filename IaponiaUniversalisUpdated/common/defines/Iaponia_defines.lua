@@ -1,13 +1,13 @@
 NDefines.NGame.START_DATE = "1493.6.9"
-NDefines.NGame.END_DATE = "1853.7.8" #TODO: change to "1704.1.1" planned but may be too early
+NDefines.NGame.END_DATE = "1853.7.8" --TODO: change to "1704.1.1" planned but may be too early
 NDefines.NGame.GREAT_POWER_FRENZY_START = "1800.1.1"
 NDefines.NGame.AGE_USHER_IN_TIME = 60
 
 NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 10
 
 NDefines.NCountry.MONARCH_MAX_SKILL = 8
-NDefines.NCountry.CULTURAL_UNION_MIN_DEV = 500 #TODO return to 1000?
-NDefines.NCountry.CULTURAL_UNION_MIN_RANK = 5 #TODO return to 3?
+NDefines.NCountry.CULTURAL_UNION_MIN_DEV = 500 --TODO return to 1000?
+NDefines.NCountry.CULTURAL_UNION_MIN_RANK = 5 --TODO return to 3?
 NDefines.NCountry.PRESTIGE_GAIN_FOR_GOV_RANK_2 = 10
 NDefines.NCountry.PRESTIGE_GAIN_FOR_GOV_RANK_3 = 15
 NDefines.NCountry.MIN_PRESTIGE_FOR_GOV_RANK_2 = 30
@@ -25,7 +25,7 @@ NDefines.NCountry.MAX_ACTIVE_POLICIES = 3
 NDefines.NCountry.BASE_FREE_POLICIES = 0
 NDefines.NCountry.LEGITIMACY_DYNASTY_CHANGE = 50
 NDefines.NCountry.POWER_MAX = 1500
-NDefines.NCountry.FREE_IDEA_GROUP_COST  = 4 #TODO 10?
+NDefines.NCountry.FREE_IDEA_GROUP_COST  = 4 --TODO 10?
 NDefines.NCountry.PS_BUY_IDEA = 300
 NDefines.NCountry.PS_PROMOTE_MERCANTILISM = 0
 NDefines.NCountry.PROMOTE_MERCANTILISM_INCREASE = 0
@@ -38,7 +38,7 @@ NDefines.NCountry.BREAK_MARRIAGE_PRESTIGE_PENALTY = -25
 NDefines.NCountry.BREAK_MARRIAGE_STABILITY_PENALTY = 0
 NDefines.NCountry.CLAIM_LOSE = 10
 NDefines.NCountry.CORE_LOSE = 25
-NDefines.NCountry.CORE_LOSE_CULTURE_GROUP = 50 #TODO hmm
+NDefines.NCountry.CORE_LOSE_CULTURE_GROUP = 50 --TODO hmm
 NDefines.NCountry.MAX_EXTRA_PERSONALITIES = 3
 NDefines.NCountry.FIRST_EXTRA_PERSONALITY = 10
 NDefines.NCountry.YEARS_PER_EXTRA_PERSONALITY = 10

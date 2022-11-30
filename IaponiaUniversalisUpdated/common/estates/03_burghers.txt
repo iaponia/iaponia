@@ -193,17 +193,6 @@ estate_burghers = {
 		estate_burghers_bigger_fleet_than_rival
 		estate_burghers_improve_dip_rep
 		estate_burghers_get_cash
-		estate_burghers_discover_X_in_america
-		estate_burghers_colonise_X
-		estate_burghers_colonise_more_X
-		estate_burghers_colonial_nation
-		estate_burghers_expand_trade_company
-		estate_burghers_trade_post_in_india
-		estate_burghers_trade_post_in_malacca
-		estate_burghers_trade_post_in_china
-		estate_burghers_silk_trade
-		estate_burghers_spice_trade
-		estate_burghers_tea_trade
 		estate_burghers_reduce_corruption
 		estate_burghers_protect_against_piracy
 		estate_burghers_hire_advisor

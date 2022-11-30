@@ -168,7 +168,6 @@ estate_church = {
 		estate_church_root_out_heresy
 		estate_church_crush_religious_revolts
 		estate_church_protect_brethren
-		estate_church_propagate_religion
 		estate_church_relations_with_dotf
 		estate_church_hire_advisor
 		estate_church_fire_advisor

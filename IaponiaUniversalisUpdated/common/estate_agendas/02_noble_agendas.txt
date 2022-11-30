@@ -1117,10 +1117,8 @@ estate_nobles_crush_revolts = {
 		NOT = {
 			OR = {
 				has_spawned_rebels = noble_rebels
-				has_spawned_rebels = polish_noble_rebels
 				#Clergy agenda covers heretic rebels
 				has_spawned_rebels = heretic_rebels
-				has_spawned_rebels = lollard_rebels
 			}
 		}
 	}
@@ -2354,39 +2352,8 @@ estate_nobles_annex_subject = {
 	}
 	fail_if = {
 		OR = {
-			AND = {
-				event_target:agenda_country = {
-					NOT = { num_of_cities = 1 }
-				}
-				if = { 
-					limit = { 	
-						event_target:agenda_country = { 
-							capital_scope = { 
-								NOT = { 
-									OR = {
-										continent = north_america 
-										continent = south_america 
-									}
-								}
-							}
-						}
-					}
-					NOT = {
-						event_target:agenda_province = {
-							owned_by = root
-						}
-					}
-				}
-				else = {
-					NOT = {
-						event_target:agenda_province = {
-							OR = {
-								owner = { is_colonial_nation_of = ROOT }
-								owned_by = root
-							}
-						}
-					}
-				}
+			event_target:agenda_country = {
+				NOT = { num_of_cities = 1 }
 			}
 			event_target:agenda_country = {
 				num_of_cities = 1

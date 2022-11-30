@@ -531,3 +531,41 @@ defined_text = {
         }
     }
 }
+
+#If you want to refer to the ruler by name but are not sure whether there may be a regency
+#Ex: [King James] / [the Regency Council]
+defined_text = {
+	name = GetRulerTitleAndNameOrRegency
+
+	text = {
+		localisation_key = string_ruler_title_and_name
+		trigger = {
+			has_regency = no
+		}
+	}
+	text = {
+		localisation_key = string_regency_council_no_cap
+		trigger = {
+			has_regency = yes
+		}
+	}
+}
+
+#If you want to refer to the ruler by name but are not sure whether there may be a regency
+#Ex: [King James] / [The Regency Council]
+defined_text = {
+	name = GetRulerTitleAndNameOrRegencyCap
+
+	text = {
+		localisation_key = string_ruler_title_and_name
+		trigger = {
+			has_regency = no
+		}
+	}
+	text = {
+		localisation_key = string_regency_council
+		trigger = {
+			has_regency = yes
+		}
+	}
+}

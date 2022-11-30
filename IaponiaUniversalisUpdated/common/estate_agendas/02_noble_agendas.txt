@@ -2798,4 +2798,62 @@ estate_nobles_improve_prestige = {
     }
 }
 
+estate_nobles_guarantee_succession = {
+	can_select = {
+		has_heir = no
+		has_government_attribute = heir
+		NOT = {has_country_modifier = nobles_searching_for_heir}
+		
+	}
+	selection_weight = {
+		factor = 1 #TODO: Change to 1!
+		modifier = {
+			factor = 2
+			ruler_age = 40
+		}
+		modifier = {
+			factor = 1.5
+			ruler_age = 50
+		}
+		modifier = {
+			factor = 1.5
+			ruler_age = 60
+		}
+	}
+	immediate_effect = {
+		add_country_modifier = {
+			name = nobles_searching_for_heir
+			duration = 7300
+		}
+	}
+	task_requirements = {
+		has_heir = yes
+	}
+    task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		remove_country_modifier = nobles_searching_for_heir
 
+    }
+	invalid_trigger = {
+		NOT = {has_government_attribute = heir}
+	}
+	fail_if = {
+		#TODO: it should auto-fail if the current ruler dies.
+		#How to check this?
+	}
+	on_invalid = {
+		remove_country_modifier = nobles_searching_for_heir
+	}
+    failing_effect = {
+        add_estate_loyalty_modifier = {
+            estate = estate_nobles
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+		remove_country_modifier = nobles_searching_for_heir
+    }
+}

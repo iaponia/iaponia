@@ -163,3 +163,7 @@ birthplace_of_rangaku = {
 harmonized_nichirenshu = {}
 harmonized_jodoshinshu = {}
 harmonized_ainu_group = {}
+
+nobles_searching_for_heir = {
+	heir_chance = 0.5
+}

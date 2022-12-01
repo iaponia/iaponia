@@ -805,7 +805,6 @@ navy_tradition = {
 	blockade_efficiency = 1
 	sailors_recovery_speed = 0.2
 	burghers_loyalty_modifier = 0.05
-	vaisyas_loyalty_modifier = 0.05
 }
 
 positive_piety = { #As of 1.23 Legalism
@@ -955,7 +954,6 @@ devotion = {
 	prestige = 2
 	global_tax_modifier = 0.50
 	church_loyalty_modifier = 0.1
-	brahmins_hindu_loyalty_modifier = 0.1
 	reform_progress_growth = 0.5
 }
 
@@ -1075,7 +1073,6 @@ republican_tradition = {
 	rr_jacobins_influence = 0.1
 	reform_progress_growth = 1.0
 	burghers_loyalty_modifier = 0.05
-	vaisyas_loyalty_modifier = 0.05
 }
 
 inverse_republican_tradition = {

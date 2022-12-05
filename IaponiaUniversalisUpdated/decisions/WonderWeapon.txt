@@ -1,0 +1,44 @@
+country_decisions = {
+	grant_tonbogiri = {
+		potential = {
+			any_owned_province = {
+				has_great_project = {
+					type = tonbogiri_wonder
+					tier = 0
+				}	
+			}
+		}
+		allow = {
+			any_owned_province = {
+				has_great_project = {
+					type = tonbogiri_wonder
+					tier = 2
+				}	
+			}
+		}
+		effect = {
+			# if = {
+			# 	limit = {
+			# 		any_owned_province = {	
+			# 			has_great_project = {
+			# 				type = tonbogiri_wonder
+			# 				tier = 2
+			# 			}
+			# 		}
+			# 	}
+			# 	any_owned_province = {
+			# 		add_great_project_tier = {
+			# 			type = tonbogiri_wonder
+			# 			tier = -1
+			# 		}
+			# 	}
+			# }
+			destroy_great_project = {
+				type = tonbogiri_wonder
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -97,6 +97,19 @@ skilled_tactician_personality = {
 	discipline = 0.1
 }
 
+tonbogiri_general_personality = {
+	allow = {
+		is_admiral = no
+		any_owned_province = {
+			has_great_project = {
+				type = tonbogiri_wonder
+				tier = 3
+			}
+		}
+	}
+	shock_damage = 0.3
+}
+
 ###############################################
 # Admiral personalities
 ###############################################

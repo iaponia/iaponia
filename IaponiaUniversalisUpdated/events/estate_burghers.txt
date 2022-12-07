@@ -13,9 +13,8 @@ country_event = {
 	title = burghers_estate_events.1.t
 	desc = burghers_estate_events.1.d
 	picture = BURGHER_ESTATE_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		NOT = {
 			has_estate_influence_modifier = {
@@ -38,7 +37,7 @@ country_event = {
 	}
 
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -61,17 +60,17 @@ country_event = {
 	title = burghers_estate_events.2.t
 	desc = burghers_estate_events.2.d
 	picture = BURGHER_ESTATE_eventPicture
-
+	goto = robber_baron_province
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		has_estate = estate_nobles
 		estate_influence = {
 			estate = estate_nobles
 			influence = 25
 		}
-		any_owned_province = {
-			has_estate = estate_nobles
+		estate_territory = { 
+			estate = estate_burghers
+			territory = 1
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -85,12 +84,30 @@ country_event = {
 				modifier = EST_VAL_BURGHERS_DEFEATED_ROBBER_BARONS
 			}
 		}
+		any_owned_province = {
+			is_territory = no
+			is_capital = no
+			is_city = yes
+		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_territory = no
+					is_capital = no
+					is_city = yes
+				}
+				save_event_target_as = robber_baron_province
+			}
+		}
 	}
 
 	option = {
@@ -130,10 +147,7 @@ country_event = {
 				}
 			}
 		}
-		random_owned_province = {
-			limit = {
-				has_estate = estate_nobles
-			}
+		event_target:robber_baron_province = {
 			add_base_tax = 1
 		}
 		add_estate_loyalty = {
@@ -194,10 +208,7 @@ country_event = {
 				}
 			}
 		}
-		random_owned_province = {
-			limit = {
-				has_estate = estate_nobles
-			}
+		event_target:robber_baron_province = {
 			add_base_production = 1
 		}
 		add_estate_loyalty = {
@@ -229,9 +240,8 @@ country_event = {
 	title = burghers_estate_events.3.t
 	desc = burghers_estate_events.3.d
 	picture = BURGHER_ESTATE_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		NOT = {
 			has_estate_influence_modifier = {
@@ -252,13 +262,13 @@ country_event = {
 			}
 		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
-	}
-
+	} 
+	
 	option = {
 		name = burghers_estate_events.3.a #Ok
 		add_estate_influence_modifier = {
@@ -276,22 +286,21 @@ country_event = {
 	title = burghers_estate_events.4.t
 	desc = burghers_estate_events.4.d
 	picture = BURGHER_ESTATE_eventPicture
-
+	
+	is_triggered_only = yes
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		any_owned_province = {
 			is_overseas = no
 			has_seat_in_parliament = no
 			OR = {
 				development = 10
-				has_province_modifier = important_natural_harbor
-				has_province_modifier = center_of_trade_modifier
-				has_province_modifier = inland_center_of_trade_modifier
+				province_has_center_of_trade_of_level = 1
 			}
-			NOT = { has_estate = yes }
 			is_capital = no
 			is_territory = no
+			is_city = yes
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -300,9 +309,7 @@ country_event = {
 			}
 		}
 	}
-
-	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -314,33 +321,44 @@ country_event = {
 			any_owned_province = {
 				is_overseas = no
 				is_capital = no
-				NOT = { has_estate = yes }
 				has_seat_in_parliament = no
 				OR = {
 					development = 10
-					has_province_modifier = important_natural_harbor
-					has_province_modifier = center_of_trade_modifier
-					has_province_modifier = inland_center_of_trade_modifier
+					province_has_center_of_trade_of_level = 1
 				}
+				has_river_estuary_trigger = yes
+				is_city = yes
 			}
 		}
 	}
-
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_overseas = no
+					has_seat_in_parliament = no
+					OR = {
+						development = 10
+						province_has_center_of_trade_of_level = 1
+					}
+					is_capital = no
+					is_territory = no
+					is_city = yes
+				}
+				save_event_target_as = growing_city
+			}
+		}
+	}
+	
 	option = {
 		name = burghers_estate_events.4.a #Ok
+		give_estate_land_share_medium = { estate = estate_burghers }
 		add_estate_loyalty = {
 			estate = estate_burghers
 			loyalty = 15
 		}
-		random_owned_province = {
-			limit = {
-				development = 10
-				NOT = { has_estate = yes }
-				is_capital = no
-				has_seat_in_parliament = no
-				is_territory = no
-			}
-			set_estate = estate_burghers
+		event_target:growing_city = {
 			add_base_tax = 2
 		}
 	}
@@ -366,12 +384,21 @@ country_event = {
 	title = burghers_estate_events.5.t
 	desc = burghers_estate_events.5.d
 	picture = BURGHER_ESTATE_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
+		estate_territory = {
+			estate = estate_burghers
+			territory = 1
+		}
 		any_owned_province = {
-			has_estate = estate_burghers
+			OR = {
+				owner = { government = republic }
+				development = 10
+				province_trade_power = 5
+			}
+			is_capital = no
+			is_city = yes
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -386,70 +413,53 @@ country_event = {
 			}
 		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
 			factor = 2.0
 			inflation = 5 #Rising Prices
 		}
-	}
-
+	} 
+	
 	immediate = {
 		hidden_effect = {
-			random_owned_province = {
+			while = {
 				limit = {
-					has_estate = estate_burghers
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = bread_revolt_vs_burghers
+							value = estate
+							estate = estate_burghers
+						}
+					}
+					any_owned_province = {
+						OR = {
+							owner = { government = republic }
+							development = 10
+							province_trade_power = 5
+						}
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = bread_revolt_vs_burghers }
+					}
+					check_reducing_estate_revolt_size_more_trigger = {
+						FLAG = bread_revolt_vs_burghers
+					}
 				}
-				set_province_flag = bread_revolt_vs_burghers
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					NOT = { has_province_flag = bread_revolt_vs_burghers }
-					owner = { num_of_cities = 12 }
-				}
-				set_province_flag = bread_revolt_vs_burghers
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					NOT = { has_province_flag = bread_revolt_vs_burghers }
-					owner = { num_of_cities = 18 }
-				}
-				set_province_flag = bread_revolt_vs_burghers
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					NOT = { has_province_flag = bread_revolt_vs_burghers }
-					owner = { num_of_cities = 24 }
-				}
-				random = {
-					set_province_flag = bread_revolt_vs_burghers
-				}
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					NOT = { has_province_flag = bread_revolt_vs_burghers }
-					owner = { num_of_cities = 28 }
-				}
-				random = {
-					chance = 75
-					set_province_flag = bread_revolt_vs_burghers
-				}
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					NOT = { has_province_flag = bread_revolt_vs_burghers }
-					owner = { num_of_cities = 32 }
-				}
-				random = {
-					chance = 75
+				random_owned_province = {
+					limit = {
+						OR = {
+							owner = { government = republic }
+							development = 10
+							province_trade_power = 5
+						}
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = bread_revolt_vs_burghers }
+					}
 					set_province_flag = bread_revolt_vs_burghers
 				}
 			}
@@ -586,9 +596,8 @@ country_event = {
 	title = burghers_estate_events.6.t
 	desc = burghers_estate_events.6.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		estate_influence = {
 			estate = estate_burghers
@@ -611,13 +620,13 @@ country_event = {
 			}
 		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
-	}
-
+	} 
+	
 	option = {
 		name = burghers_estate_events.6.a #The Clergy cannot do whatever they please!
 		ai_chance = {
@@ -742,16 +751,20 @@ country_event = {
 	title = burghers_estate_events.7.t
 	desc = burghers_estate_events.7.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		estate_influence = {
 			estate = estate_burghers
 			influence = 70
 		}
 		any_owned_province = {
-			has_estate = estate_burghers
+			OR = {
+				development = 15
+				province_trade_power = 8
+			}
+			is_city = yes
+			is_capital = no
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -766,13 +779,50 @@ country_event = {
 			}
 		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
 	}
 
+	immediate = {
+		hidden_effect = {
+			while = {
+				limit = {
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = extended_burgher_privileges
+							value = estate
+							estate = estate_burghers
+						}
+					}
+					any_owned_province = {
+						OR = {
+							development = 15
+							province_trade_power = 8
+						}
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = extended_burgher_privileges }
+					}
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							development = 15
+							province_trade_power = 8
+						}
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = extended_burgher_privileges }
+					}
+					set_province_flag = extended_burgher_privileges
+				}
+			}
+		}
+	}
+	
 	option = {
 		name = burghers_estate_events.7.a #
 		ai_chance = {
@@ -792,8 +842,11 @@ country_event = {
 			duration = 5475
 		}
 		every_owned_province = {
-			limit = { has_estate = estate_burghers }
+			limit = {
+				has_province_flag = extended_burgher_privileges
+			}
 			add_local_autonomy = 33
+			clr_province_flag = extended_burgher_privileges
 		}
 	}
 	option = {
@@ -837,9 +890,8 @@ country_event = {
 	title = burghers_estate_events.8.t
 	desc = burghers_estate_events.8.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		num_of_trade_embargos = 1
 		NOT = {
@@ -855,13 +907,13 @@ country_event = {
 			}
 		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
-	}
-
+	} 
+	
 	option = {
 		name = burghers_estate_events.8.a #We must support the $ESTATE_BURGHERS$
 		ai_chance = {
@@ -943,14 +995,14 @@ country_event = {
 	title = burghers_estate_events.9.t
 	desc = burghers_estate_events.9.d
 	picture = BURGHER_ESTATE_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		dip_tech = 5
 		num_of_cities = 8
-		any_owned_province = {
-			has_estate = estate_burghers
+		estate_territory = { 
+			estate = estate_burghers
+			territory = 1
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -968,25 +1020,43 @@ country_event = {
 				has_province_modifier = conflict_within_city
 			}
 		}
+		any_owned_province = {
+			OR = {
+				owner = { government = republic }
+				development = 10
+				province_trade_power = 5
+			}
+			is_capital = no
+		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
 	}
-
+	
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					has_estate = estate_burghers
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
+					is_capital = no
 				}
 				set_province_flag = putting_out_system
 			}
 			random_owned_province = {
 				limit = {
-					has_estate = estate_burghers
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
+					is_capital = no
 					NOT = { has_province_flag = putting_out_system }
 					owner = { num_of_cities = 12 }
 				}
@@ -994,7 +1064,12 @@ country_event = {
 			}
 			random_owned_province = {
 				limit = {
-					has_estate = estate_burghers
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
+					is_capital = no
 					NOT = { has_province_flag = putting_out_system }
 					owner = { num_of_cities = 18 }
 				}
@@ -1005,7 +1080,12 @@ country_event = {
 			}
 			random_owned_province = {
 				limit = {
-					has_estate = estate_burghers
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
+					is_capital = no
 					NOT = { has_province_flag = putting_out_system }
 					owner = { num_of_cities = 24 }
 				}
@@ -1016,7 +1096,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = burghers_estate_events.9.a #Support the Capitalists
 		ai_chance = {
@@ -1094,9 +1174,8 @@ country_event = {
 	title = burghers_estate_events.10.t
 	desc = burghers_estate_events.10.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		estate_influence = {
 			estate = estate_burghers
@@ -1115,13 +1194,13 @@ country_event = {
 			}
 		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
 	}
-
+	
 	option = {
 		name = burghers_estate_events.10.a # "We must not stand in the way of these new men."
 		ai_chance = {
@@ -1176,6 +1255,7 @@ country_event = {
 				loyalty = -20
 			}
 		}
+		add_meritocracy_effect = yes
 	}
 	option = {
 		name = burghers_estate_events.10.b #"We must protect the ancient rights of the other Estates."
@@ -1209,7 +1289,7 @@ country_event = {
 			duration = 5475
 		}
 		add_estate_loyalty = {
-			estate = estate_burghers
+			estate = estate_burghers	
 			loyalty = -20
 		}
 		if = {
@@ -1229,6 +1309,7 @@ country_event = {
 			}
 			add_adm_power = -75
 		}
+		reduce_meritocracy_effect = yes
 	}
 }
 
@@ -1239,12 +1320,12 @@ country_event = {
 	title = burghers_estate_events.11.t
 	desc = burghers_estate_events.11.d
 	picture = BURGHER_ESTATE_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
-		any_owned_province = {
-			has_estate = estate_burghers
+		estate_territory = { 
+			estate = estate_burghers
+			territory = 1
 		}
 		estate_influence = {
 			estate = estate_burghers
@@ -1263,10 +1344,19 @@ country_event = {
 				}
 			}
 		}
+		any_owned_province = {
+			OR = {
+				owner = { government = republic }
+				development = 10
+				province_trade_power = 5
+			}
+			is_capital = no
+			is_city = yes
+		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	immediate = {
 		hidden_effect = {
 			random_list = {
@@ -1275,11 +1365,11 @@ country_event = {
 			}
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		days = 1
 	}
-
+	
 	option = {
 		name = burghers_estate_events.11.a #
 		trigger_switch = {
@@ -1287,7 +1377,13 @@ country_event = {
 			growing_trade_influence = {
 				random_owned_province = {
 					limit = {
-						has_estate = estate_burghers
+						OR = {
+							owner = { government = republic }
+							development = 10
+							province_trade_power = 5
+						}
+						is_capital = no
+						is_city = yes
 					}
 					add_trade_modifier = {
 						who = root
@@ -1301,7 +1397,12 @@ country_event = {
 			growing_cities = {
 				random_owned_province = {
 					limit = {
-						has_estate = estate_burghers
+						OR = {
+							owner = { government = republic }
+							development = 10
+							province_trade_power = 5
+						}
+						is_city = yes
 					}
 					add_base_production = 1
 				}
@@ -1318,9 +1419,8 @@ country_event = {
 	title = burghers_estate_events.12.t
 	desc = burghers_estate_events.12.d
 	picture = BURGHER_ESTATE_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		NOT = {
 			has_estate_influence_modifier = {
@@ -1335,14 +1435,14 @@ country_event = {
 			}
 		}
 	}
-
+	
 	is_triggered_only = yes
-
-
+	
+	
 	mean_time_to_happen = {
 		days = 1
 	}
-
+	
 	option = {
 		name = burghers_estate_events.12.a #Compensate the Traders.
 		ai_chance = {
@@ -1418,12 +1518,12 @@ country_event = {
 	title = burghers_estate_events.13.t
 	desc = burghers_estate_events.13.d
 	picture = BURGHER_ESTATE_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
-		any_owned_province = {
-			has_estate = estate_burghers
+		estate_territory = { 
+			estate = estate_burghers
+			territory = 1
 		}
 		NOT = {
 			has_estate_influence_modifier = {
@@ -1437,47 +1537,80 @@ country_event = {
 				modifier = EST_VAL_SUPPORTED_CITY_GROWTH
 			}
 		}
+		any_owned_province = {
+			OR = {
+				owner = { government = republic }
+				development = 10
+				province_trade_power = 5
+			}
+			is_city = yes
+		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					has_estate = estate_burghers
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
+					is_city = yes
 				}
 				set_province_flag = urbanisation
 			}
 			random_owned_province = {
 				limit = {
-					has_estate = estate_burghers
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
 					NOT = { has_province_flag = urbanisation }
 					owner = { num_of_cities = 8 }
+					is_city = yes
 				}
 				set_province_flag = urbanisation
 			}
 			random_owned_province = {
 				limit = {
-					has_estate = estate_burghers
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
 					NOT = { has_province_flag = urbanisation }
 					owner = { num_of_cities = 14 }
+					is_city = yes
 				}
 				set_province_flag = urbanisation
 			}
 			random_owned_province = {
 				limit = {
-					has_estate = estate_burghers
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
 					NOT = { has_province_flag = urbanisation }
 					owner = { num_of_cities = 18 }
+					is_city = yes
 				}
 				set_province_flag = urbanisation
 			}
 			random_owned_province = {
 				limit = {
-					has_estate = estate_burghers
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
 					NOT = { has_province_flag = urbanisation }
 					owner = { num_of_cities = 22 }
+					is_city = yes
 				}
 				random = {
 					chance = 75
@@ -1486,9 +1619,14 @@ country_event = {
 			}
 			random_owned_province = {
 				limit = {
-					has_estate = estate_burghers
+					OR = {
+						owner = { government = republic }
+						development = 10
+						province_trade_power = 5
+					}
 					NOT = { has_province_flag = urbanisation }
 					owner = { num_of_cities = 28 }
+					is_city = yes
 				}
 				random = {
 					chance = 75
@@ -1497,11 +1635,11 @@ country_event = {
 			}
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		days = 1
 	}
-
+	
 	option = {
 		name = burghers_estate_events.13.a #
 		ai_chance = {
@@ -1576,9 +1714,8 @@ country_event = {
 	title = burghers_estate_events.14.t
 	desc = burghers_estate_events.14.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		estate_influence = {
 			estate = estate_burghers
@@ -1598,9 +1735,9 @@ country_event = {
 		}
 		mercantilism = 15
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -1608,7 +1745,7 @@ country_event = {
 			dip_tech = 20
 		}
 	}
-
+	
 	option = {
 		name = burghers_estate_events.14.a #
 		ai_chance = {
@@ -1656,9 +1793,8 @@ country_event = {
 	title = burghers_estate_events.15.t
 	desc = burghers_estate_events.15.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-
+	
 	trigger = {
-		has_dlc = "The Cossacks"
 		has_estate = estate_burghers
 		NOT = {
 			estate_loyalty = {
@@ -1666,115 +1802,65 @@ country_event = {
 				loyalty = 30
 			}
 		}
+		estate_territory = { 
+			estate = estate_burghers
+			territory = 10
+		}
 		any_owned_province = {
-			has_estate = estate_burghers
+			OR = {
+				owner = { government = republic }
+				development = 10
+				province_trade_power = 5
+			}
+			is_capital = no
+			is_city = yes
 		}
 	}
-
+	
 	is_triggered_only = yes
-
+	
 	immediate = {
 		hidden_effect = {
-			random_owned_province = {
-				limit = { has_estate = estate_burghers }
-				set_province_flag = city_protests
-			}
-			random_owned_province = {
+			while = {
 				limit = {
-					has_estate = estate_burghers
-					NOT = { has_province_flag = city_protests }
-				}
-				set_province_flag = city_protests
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					NOT = { has_province_flag = city_protests }
-				}
-				set_province_flag = city_protests
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					NOT = { has_province_flag = city_protests }
-				}
-				set_province_flag = city_protests
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					NOT = { has_province_flag = city_protests }
-				}
-				set_province_flag = city_protests
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					owner = {
-						num_of_owned_provinces_with = {
-							has_estate = estate_church
-							value = 15
+					NOT = { 
+						development_in_provinces = {
+							has_province_flag = city_protests
+							value = estate
+							estate = estate_burghers
 						}
 					}
-					NOT = { has_province_flag = city_protests }
-				}
-				set_province_flag = city_protests
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					owner = {
-						num_of_owned_provinces_with = {
-							has_estate = estate_church
-							value = 15
+					any_owned_province = {
+						OR = {
+							owner = { government = republic }
+							development = 10
+							province_trade_power = 5
 						}
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = city_protests }
 					}
-					NOT = { has_province_flag = city_protests }
+					check_reducing_estate_revolt_size_trigger = {
+						FLAG = city_protests
+					}
 				}
-				set_province_flag = city_protests
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					owner = {
-						num_of_owned_provinces_with = {
-							has_estate = estate_church
-							value = 20
+				random_owned_province = {
+					limit = {
+						OR = {
+							owner = { government = republic }
+							development = 10
+							province_trade_power = 5
 						}
+						is_capital = no
+						is_city = yes
+						NOT = { has_province_flag = city_protests }
 					}
-					NOT = { has_province_flag = city_protests }
+					set_province_flag = city_protests
 				}
-				set_province_flag = city_protests
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					owner = {
-						num_of_owned_provinces_with = {
-							has_estate = estate_church
-							value = 20
-						}
-					}
-					NOT = { has_province_flag = city_protests }
-				}
-				set_province_flag = city_protests
-			}
-			random_owned_province = {
-				limit = {
-					has_estate = estate_burghers
-					owner = {
-						num_of_owned_provinces_with = {
-							has_estate = estate_church
-							value = 20
-						}
-					}
-					NOT = { has_province_flag = city_protests }
-				}
-				set_province_flag = city_protests
 			}
 		}
 	}
-
+	
 	mean_time_to_happen = {
 		days = 1
 		modifier = {
@@ -1787,7 +1873,7 @@ country_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = burghers_estate_events.15.a #
 		ai_chance = {
@@ -1829,10 +1915,11 @@ province_event = {
 	title = burghers_estate_events.16.t
 	desc = burghers_estate_events.16.d
 	picture = BURGHER_ESTATE_UPSET_eventPicture
-
+	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = burghers_estate_events.16.a #Ok.
 	}
 }
+

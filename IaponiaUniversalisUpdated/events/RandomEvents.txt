@@ -820,7 +820,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		advisor = trader
+		advisor = merchant_a
 		NOT = {
 			has_country_modifier = rush_of_merchants
 		}
@@ -868,9 +868,9 @@ country_event = {
 		ai_chance = { factor = 100 }
 		highlight = yes
 		trigger = {
-			ruler_has_personality = charismatic_negotiator_personality
+			ruler_has_personality = mercantile_personality
 		}
-		required_personality = charismatic_negotiator_personality
+		required_personality = mercantile_personality
 		add_country_modifier = {
 			name = "monetary_benefits"
 			duration = 3650
@@ -881,9 +881,9 @@ country_event = {
 		ai_chance = { factor = 100 }
 		highlight = yes
 		trigger = {
-			ruler_has_personality = navigator_personality
+			ruler_has_personality = nautical_personality
 		}
-		required_personality = navigator_personality
+		required_personality = nautical_personality
 		add_country_modifier = {
 			name = rush_of_merchants
 			duration = 3650
@@ -1880,8 +1880,8 @@ country_event = {
 	option = {
 		name = "personality_options.5054.a"		#
 		highlight = yes
-		trigger = { ruler_has_personality = righteous_personality }
-		required_personality = righteous_personality
+		trigger = { ruler_has_personality = conscientious_personality }
+		required_personality = conscientious_personality
 		add_legitimacy = -10
 		add_republican_tradition = -5
 		add_horde_unity = -10

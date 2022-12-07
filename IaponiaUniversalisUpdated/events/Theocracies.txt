@@ -9,14 +9,29 @@ namespace = theocracy
 country_event = {
 	id = theocracy.1
 	title = theocracy.1.t
-	desc = theocracy.1.desc
+	desc = {
+		desc = theocracy.1.desc
+		trigger = {
+			OR = {
+				is_subject = no
+				overlord = {
+					OR = {
+						NOT = { government = monarchy }
+						NOT = { has_government_attribute = heir }
+					}
+				}
+			}
+		}
+	}
 	picture = RELIGION_eventPicture
 
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { government = papal_government }
+		NOT = { has_reform = papacy_reform }
 		NOT = { has_country_flag = in_theocracy_heir_selection }
+		NOT = { has_country_flag = is_selecting_stat_bonus_for_heir }
+		has_government_attribute = heir
 	}
 
 	immediate = {
@@ -30,19 +45,65 @@ country_event = {
 			clr_country_flag = theo_local_preacher_flag
 			clr_country_flag = theo_papal_protege_flag
 			clr_country_flag = theo_imam_khatib_flag
+			clr_country_flag = theo_influential_reformer_flag
+			
+			#Local Noble,etc:
+			if = {
+				limit = {
+					has_estate = estate_nobles
+					any_owned_province = {
+						is_capital = no
+						is_state = yes
+					}
+				}
+				random_owned_province = {
+					limit = { 
+						is_capital = no
+						is_state = yes
+					}
+					save_event_target_as = noble_province
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_burghers
+					any_owned_province = {
+						is_capital = no
+						is_state = yes
+					}
+				}
+				random_owned_province = {
+					limit = { 
+						is_capital = no
+						is_state = yes
+					}
+					save_event_target_as = burgher_province
+				}
+			}
+			if = {
+				limit = {
+					has_estate = estate_church
+					any_owned_province = {
+						is_capital = no
+						is_state = yes
+					}
+				}
+				random_owned_province = {
+					limit = { 
+						is_capital = no
+						is_state = yes
+					}
+					save_event_target_as = church_province
+				}
+			}
 		}
 	}
 
 	option = {
 		name = theocracy.1.a		# A Local Noble
-		set_country_flag = theo_local_noble_flag # USED IN DEVOTION.TXT
-		define_heir = {
-			age = 35
-			hidden = yes
-		}
+		trigger = { NOT = { has_country_flag = KOL_secondogeniture_of_BAV } }
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
@@ -52,7 +113,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -60,12 +120,115 @@ country_event = {
 				loyalty = -15
 			}
 		}
+		set_country_flag = theo_local_noble_flag # USED IN DEVOTION.TXT
+		if = {
+			limit = { has_government_attribute = can_see_theocratic_heir_stats }
+			if = {
+				limit = {
+					has_saved_event_target = noble_province
+					NOT = {
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+				}
+				define_heir = {
+					age = 35
+					culture = event_target:noble_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_saved_event_target = noble_province
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					female = yes
+					culture = event_target:noble_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_saved_event_target = noble_province
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					female = yes
+				}
+			}
+			else = {
+				define_heir = {
+					age = 35
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_saved_event_target = noble_province
+					NOT = {
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+				}
+				define_heir = {
+					age = 35
+					hidden = yes
+					culture = event_target:noble_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_saved_event_target = noble_province
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					hidden = yes
+					female = yes
+					culture = event_target:noble_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_saved_event_target = noble_province
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					hidden = yes
+					female = yes
+				}
+			}
+			else = {
+				define_heir = {
+					age = 35
+					hidden = yes
+				}
+			}
+		}
 		add_devotion = -5
 		add_prestige = 10
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
-
 	option = {
 		name = theocracy.1.b		# A Foreign Noble
 		trigger = {
@@ -77,7 +240,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 			}
 			add_estate_loyalty = {
@@ -87,14 +249,13 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
 				estate = estate_church
 				loyalty = -10
 			}
-		}		
+		}	
 		set_country_flag = theo_foreign_noble_flag # USED IN DEVOTION.TXT
 		random_neighbor_country = { 
 			limit = {
@@ -102,26 +263,70 @@ country_event = {
 				has_regency = no
 				religion = ROOT
 			}
-			ROOT = { 
-				define_heir = { 
-					dynasty = PREV 
-					age = 35
-					hidden = yes
-
-				} 
-			} 
+			ROOT = {
+				if = {
+					limit = { has_government_attribute = can_see_theocratic_heir_stats }
+					if = {
+						limit = {
+							NOT = {
+								has_global_modifier_value = {
+									which = female_advisor_chance
+									value = 1
+								}
+							}
+						}
+						define_heir = { 
+							dynasty = PREV 
+							age = 35
+							culture = PREV
+						} 
+					}
+					else = {
+						define_heir = { 
+							dynasty = PREV 
+							age = 35
+							culture = PREV
+							female = yes
+						} 
+					}
+				}
+				else = {
+					if = {
+						limit = {
+							NOT = {
+								has_global_modifier_value = {
+									which = female_advisor_chance
+									value = 1
+								}
+							}
+						}
+						define_heir = { 
+							dynasty = PREV 
+							age = 35
+							culture = PREV
+							hidden = yes
+						} 
+					}
+					else = {
+						define_heir = { 
+							dynasty = PREV 
+							age = 35
+							culture = PREV
+							female = yes
+							hidden = yes
+						} 
+					}
+				}
+			}
 			add_opinion = { who = ROOT modifier = opinion_theocracy_noble }
 		}
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
-
 	option = {
 		name = theocracy.1.c		# A Merchant's Son
-		set_country_flag = theo_merchants_son_flag # USED IN DEVOTION.TXT
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 			}
 			add_estate_loyalty = {
@@ -131,7 +336,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -139,22 +343,118 @@ country_event = {
 				loyalty = -15
 			}
 		}
-		define_heir = {
-			age = 35
-			hidden = yes
+		set_country_flag = theo_merchants_son_flag # USED IN DEVOTION.TXT
+		
+		if = {
+			limit = { has_government_attribute = can_see_theocratic_heir_stats }
+			if = {
+				limit = {
+					has_saved_event_target = burgher_province
+					NOT = {
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+				}
+				define_heir = {
+					age = 35
+					culture = event_target:burgher_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_saved_event_target = burgher_province
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					female = yes
+					culture = event_target:burgher_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					female = yes
+				}
+			}
+			else = {
+				define_heir = {
+					age = 35
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_saved_event_target = burgher_province
+					NOT = {
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+				}
+				define_heir = {
+					age = 35
+					hidden = yes
+					culture = event_target:burgher_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_saved_event_target = burgher_province
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					hidden = yes
+					female = yes
+					culture = event_target:burgher_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					female = yes
+					hidden = yes
+				}
+			}
+			else = {
+				define_heir = {
+					age = 35
+					hidden = yes
+				}
+			}
 		}
 		add_years_of_income = 0.35
 		add_devotion = -5
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
-
 	option = {
 		name = theocracy.1.e		# A Talented Theologian
-		set_country_flag = theo_talented_theologian_flag # USED IN DEVOTION.TXT
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 			}
 			add_estate_loyalty = {
@@ -164,180 +464,329 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
+				has_estate = estate_burghers
 			}
 			add_estate_loyalty = {
 				estate = estate_burghers
 				loyalty = -15
 			}
 		}
-		define_heir = {
-			age = 35
-			hidden = yes
+		set_country_flag = theo_talented_theologian_flag # USED IN DEVOTION.TXT
+		if = {
+			limit = { has_government_attribute = can_see_theocratic_heir_stats }
+			if = {
+				limit = {
+					has_saved_event_target = church_province
+					NOT = {
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+				}
+				define_heir = {
+					age = 35
+					culture = event_target:church_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_saved_event_target = church_province
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					female = yes
+					culture = event_target:church_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					female = yes
+				}
+			}
+			else = {
+				define_heir = {
+					age = 35
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_saved_event_target = church_province
+					NOT = {
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+				}
+				define_heir = {
+					age = 35
+					hidden = yes
+					culture = event_target:church_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_saved_event_target = church_province
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					hidden = yes
+					female = yes
+					culture = event_target:church_province
+				}
+			}
+			else_if = {
+				limit = {
+					has_global_modifier_value = {
+						which = female_advisor_chance
+						value = 1
+					}
+				}
+				define_heir = {
+					age = 35
+					female = yes
+					hidden = yes
+				}
+			}
+			else = {
+				define_heir = {
+					age = 35
+					hidden = yes
+				}
+			}
 		}
 		add_devotion = 5
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
 	option = {
-		name = theocracy.1.f		# A Local Preacher
+		name = theocracy.1.j		# Let the Lottery decide!
 		trigger = {
-			NOT = {
-				religion_group = muslim
+			NOT = { has_country_flag = KOL_secondogeniture_of_BAV }
+		}
+		random_list = {
+			1 = {
+				custom_tooltip = theocracy.1.j.a
+				set_country_flag = theo_local_noble_flag # USED IN DEVOTION.TXT
+				if = {
+					limit = {
+						has_saved_event_target = noble_province
+						NOT = {
+							has_global_modifier_value = {
+								which = female_advisor_chance
+								value = 1
+							}
+						}
+					}
+					define_heir = {
+						age = 35
+						hidden = yes
+						culture = event_target:noble_province
+					}
+				}
+				else_if = {
+					limit = {
+						has_saved_event_target = noble_province
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+					define_heir = {
+						age = 35
+						hidden = yes
+						female = yes
+						culture = event_target:noble_province
+					}
+				}
+				else_if = {
+					limit = {
+						has_saved_event_target = noble_province
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+					define_heir = {
+						age = 35
+						hidden = yes
+						female = yes
+					}
+				}
+				else = {
+					define_heir = {
+						age = 35
+						hidden = yes
+					}
+				}
+			}
+			1 = {
+				custom_tooltip = theocracy.1.j.b
+				set_country_flag = theo_foreign_noble_flag # USED IN DEVOTION.TXT
+				random_neighbor_country = { 
+					limit = {
+						government = monarchy
+						has_regency = no
+						religion = ROOT
+					}
+					ROOT = { 
+						if = {
+							limit = {
+								NOT = {
+									has_global_modifier_value = {
+										which = female_advisor_chance
+										value = 1
+									}
+								}
+							}
+							define_heir = { 
+								dynasty = PREV 
+								age = 35
+								culture = PREV
+								hidden = yes
+							} 
+						}
+						else = {
+							define_heir = { 
+								dynasty = PREV 
+								age = 35
+								culture = PREV
+								female = yes
+								hidden = yes
+							} 
+						}
+					}
+					add_opinion = { who = ROOT modifier = opinion_theocracy_noble }
+				}
+			}
+			1 = {
+				custom_tooltip = theocracy.1.j.c
+				set_country_flag = theo_merchants_son_flag # USED IN DEVOTION.TXT
+				if = {
+					limit = {
+						has_saved_event_target = burgher_province
+						NOT = {
+							has_global_modifier_value = {
+								which = female_advisor_chance
+								value = 1
+							}
+						}
+					}
+					define_heir = {
+						age = 35
+						hidden = yes
+						culture = event_target:burgher_province
+					}
+				}
+				else_if = {
+					limit = {
+						has_saved_event_target = burgher_province
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+					define_heir = {
+						age = 35
+						hidden = yes
+						female = yes
+						culture = event_target:burgher_province
+					}
+				}
+				else_if = {
+					limit = {
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+					define_heir = {
+						age = 35
+						female = yes
+						hidden = yes
+					}
+				}
+				else = {
+					define_heir = {
+						age = 35
+						hidden = yes
+					}
+				}
+			}
+			1 = {
+				custom_tooltip = theocracy.1.j.d
+				set_country_flag = theo_talented_theologian_flag # USED IN DEVOTION.TXT
+				if = {
+					limit = {
+						has_saved_event_target = church_province
+						NOT = {
+							has_global_modifier_value = {
+								which = female_advisor_chance
+								value = 1
+							}
+						}
+					}
+					define_heir = {
+						age = 35
+						hidden = yes
+						culture = event_target:church_province
+					}
+				}
+				else_if = {
+					limit = {
+						has_saved_event_target = church_province
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+					define_heir = {
+						age = 35
+						hidden = yes
+						female = yes
+						culture = event_target:church_province
+					}
+				}
+				else_if = {
+					limit = {
+						has_global_modifier_value = {
+							which = female_advisor_chance
+							value = 1
+						}
+					}
+					define_heir = {
+						age = 35
+						female = yes
+						hidden = yes
+					}
+				}
+				else = {
+					define_heir = {
+						age = 35
+						hidden = yes
+					}
+				}
 			}
 		}
-		set_country_flag = theo_local_preacher_flag # USED IN DEVOTION.TXT
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -15
-			}
-		}		
-		define_heir = {
-			age = 35
-			hidden = yes
-		}
-		add_devotion = 10
-		add_prestige = -5
-		clr_country_flag = in_theocracy_heir_selection
-		custom_tooltip = theocracy.1.tt
-	}
-	option = {
-		name = theocracy.1.d		# A Papal Protege
-		trigger = {
-			religion = kirishitan
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
-		set_country_flag = theo_papal_protege_flag # USED IN DEVOTION.TXT
-		define_heir = {
-			age = 35
-			hidden = yes
-		}
-		add_papal_influence = 10
-		clr_country_flag = in_theocracy_heir_selection
-		custom_tooltip = theocracy.1.tt
-	}
-	option = {
-		name = theocracy.1.g		# A Local Imam Khatib
-		trigger = {
-			religion_group = muslim
-		}
-		set_country_flag = theo_imam_khatib_flag # USED IN DEVOTION.TXT
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 15
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -15
-			}
-		}		
-		define_heir = {
-			age = 35
-			hidden = yes
-		}
-		add_devotion = 10
-		add_prestige = -10
-		clr_country_flag = in_theocracy_heir_selection
-		custom_tooltip = theocracy.1.tt
-	}
-	option = {
-		name = theocracy.1.h		# An Influential Reformer
-		trigger = {
-			OR = {
-				religion = reformed
-				religion = protestant
-			}
-		}
-		set_country_flag = theo_influential_reformer_flag # USED IN DEVOTION.TXT
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}		
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
-		define_heir = {
-			age = 35
-			hidden = yes
-		}
-		if = { 
-			limit = { religion = reformed }
-			add_fervor = 10
-		}
-		if = { 
-			limit = { religion = protestant }
-			add_church_power = 10
-		}
-		add_prestige = -10
+		add_devotion = 5
 		clr_country_flag = in_theocracy_heir_selection
 		custom_tooltip = theocracy.1.tt
 	}
@@ -352,11 +801,15 @@ country_event = {
 
 	trigger = {
 		NOT = { has_country_flag = religious_restrictions }
-		government = theocratic_government
+		government = theocracy
 		any_owned_province = { has_owner_religion = no }
 		NOT = { any_owned_province = { has_missionary = yes } }
 		NOT = { has_country_modifier = religious_tolerance }
 		NOT = { has_country_modifier = religious_intolerance }
+		employed_advisor = {
+			religion = root
+		}
+		NOT = { has_reform = papacy_reform }
 	}
 
 	mean_time_to_happen = {
@@ -368,7 +821,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			has_idea = divine_supremacy
+			advisor = theologian_a
+		}
+		modifier = {
+			factor = 0.9
+			theologian_a = 3
 		}
 	}
 
@@ -377,7 +834,6 @@ country_event = {
 		ai_chance = { factor = 55 }
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				has_estate = estate_dhimmi
 			}
@@ -388,7 +844,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_dhimmi
 			}
 			add_estate_loyalty = {
@@ -408,7 +863,6 @@ country_event = {
 		set_country_flag = religious_restrictions
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				has_estate = estate_dhimmi
 			}
@@ -419,7 +873,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_dhimmi
 			}
 			add_estate_loyalty = {
@@ -446,7 +899,7 @@ country_event = {
 
 	trigger = {
 		NOT = { has_country_flag = problematic_relations }
-		government = theocratic_government
+		government = theocracy
 		any_neighbor_country = {
 			NOT = { has_opinion = { who = ROOT value = -50 } }
 			NOT = { religion = ROOT }
@@ -462,7 +915,11 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			has_idea = divine_supremacy
+			advisor = theologian_a
+		}
+		modifier = {
+			factor = 0.9
+			theologian_a = 3
 		}
 		modifier = {
 			factor = 0.9

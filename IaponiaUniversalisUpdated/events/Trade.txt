@@ -680,33 +680,3 @@ country_event = {
 		add_dip_power = -25
 	}
 }
-
-#######################################
-#		SLAVES	NO MORE!      #
-#######################################
-
-province_event = {
-	id = 9520
-	title = "EVTNAME9520"
-	desc = "EVTDESC9520"
-	picture = TRADEGOODS_eventPicture
-
-	trigger = {
-		owner = { has_country_modifier = the_abolish_slavery_act }
-		trade_goods = slaves
-	}
-
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = "EVTOPTA9520"
-		change_trade_goods = unknown
-		remove_building = tradecompany
-		if = {
-			limit = { has_province_modifier = slave_entrepot }
-			remove_province_modifier = slave_entrepot
-		}
-	}
-}

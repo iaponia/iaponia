@@ -1,0 +1,20 @@
+### 
+#Ex: "Archdiocese of Hosokawa"
+defined_text = {
+    name = GetChurchRank
+
+    text = {
+        localisation_key = church_rank_diocese
+        trigger = {
+			not = {
+                government_rank = 5
+            }
+        }
+    }
+    text = {
+        localisation_key = church_rank_archdiocese
+        trigger = {
+			government_rank = 5
+        }
+    }
+}

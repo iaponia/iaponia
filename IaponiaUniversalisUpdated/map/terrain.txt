@@ -96,7 +96,7 @@ categories =  {
 		color = { 113 176 151 }
 
 		type = hills
-		sound_type = mountain
+		sound_type = mountains
 
 		movement_cost = 1.25
 		defence = 1
@@ -142,7 +142,7 @@ categories =  {
 		color = { 105 24 4 }
 
 		type = mountains
-		sound_type = mountain
+		sound_type = mountains
 
 		movement_cost = 1.5
 		defence = 2
@@ -285,7 +285,7 @@ categories =  {
 		color = { 176 129 21 }
 
 		type = hills
-		sound_type = mountain
+		sound_type = mountains
 
 		supply_limit = 5
 		movement_cost = 1.3

@@ -1771,54 +1771,20 @@ secondary_religion_group = {
 	[[christian]
 		OR = {
 			secondary_religion = kirishitan
-			secondary_religion = hussite
-			secondary_religion = coptic
-			secondary_religion = orthodox
-			secondary_religion = protestant
-			secondary_religion = reformed
-			secondary_religion = anglican
-		}
-	]
-	[[muslim]
-		OR = {
-			secondary_religion = sunni
-			secondary_religion = shiite
-			secondary_religion = ibadi
 		}
 	]
 	[[eastern]
 		OR = {
-			secondary_religion = buddhism
-			secondary_religion = vajrayana
-			secondary_religion = mahayana
-			secondary_religion = confucianism
+			secondary_religion = nichirenshu
+			secondary_religion = jodoshinshu
 			secondary_religion = shinto
-		}
-	]
-	[[dharmic]
-		OR = {
-			secondary_religion = hinduism
-			secondary_religion = sikhism
 		}
 	]
 	[[pagan]
 		OR = {
-			secondary_religion = animism
-			secondary_religion = shamanism
-			secondary_religion = totemism
-			secondary_religion = inti
-			secondary_religion = nahuatl
-			secondary_religion = mesoamerican_religion
-			secondary_religion = norse_pagan_reformed
-			secondary_religion = tengri_pagan_reformed
-			secondary_religion = dreamtime
+			secondary_religion = ryukyuan
+			secondary_religion = ainu
 		}
-	]
-	[[jewish_group]
-		secondary_religion = jewish
-	]
-	[[zoroastrian_group]
-		secondary_religion = zoroastrian
 	]
 }
 

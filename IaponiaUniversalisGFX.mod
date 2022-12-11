@@ -3,8 +3,8 @@ path="mod/IaponiaUniversalisGFX"
 tags={
 	"Graphics"
 	"Units"
-        "Japan"
-        "JapanNations"
+    "Japan"
+    "JapanNations"
 }
 picture="IaponiaUniversalisGFX.jpg"
-supported_version="1.22.*.*"
+supported_version="1.34.*.*"

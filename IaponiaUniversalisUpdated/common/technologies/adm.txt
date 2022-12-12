@@ -126,6 +126,7 @@ technology = {
 	# Tech 14
 	year = 1575
 	
+	rice_exchange = yes
 	administrative_efficiency = 0.25
 	development_cost_modifier = 0.1
 }

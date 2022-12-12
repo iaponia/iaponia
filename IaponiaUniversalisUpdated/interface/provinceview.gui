@@ -6421,6 +6421,22 @@ guiTypes = {
 			text = "2000¤"
 		}
 
+		checkboxType = {
+			name = "build_rice_exchange"
+			position = { x = 61 y = 420 }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+
+		instantTextBoxType={
+			name = "rice_exchange_cost"
+			position = {x = 61 y = 470 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"
+		}
+
 		iconType = {
 			name = "unique_banner"
 			position = { x = 356 y = 0 }

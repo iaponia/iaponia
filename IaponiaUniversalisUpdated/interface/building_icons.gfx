@@ -105,6 +105,12 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//manufactories//granary.tga"
 		loadType = "INGAME"
 	}
+	#TODO: change this
+	spriteType = {
+		name = "GFX_rice_exchange"
+		texturefile = "gfx//interface//buildings//manufactories//granary.tga"
+		loadType = "INGAME"
+	}
 	spriteType = {
 		name = "GFX_gunsmith"
 		texturefile = "gfx//interface//buildings//manufactories//gunsmith.tga"

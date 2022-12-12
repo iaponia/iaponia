@@ -1194,6 +1194,58 @@ granary = {
 	}
 }
 
+rice_exchange = {
+	manufactory = {
+		rice
+	}
+	onmap = yes
+	show_separate = yes
+
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}
+
 gunsmith = {
 	manufactory = {
 		firearms

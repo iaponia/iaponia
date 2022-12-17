@@ -104,7 +104,7 @@ shinto_cult = {
 	sprite = 11
 	
 	core_creation = -0.1
-	tolerance_heretic = 2
+	tolerance_heathen = 2
 	
 	allow  = {
 		has_unlocked_cult = shinto_cult

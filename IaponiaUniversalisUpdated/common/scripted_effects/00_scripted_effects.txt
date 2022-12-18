@@ -1679,7 +1679,7 @@ enable_cult_for_heirs = {
 				has_heir = yes
 			}
 			country_event = {
-				id = fetishist_flavor.600
+				id = ainu_flavor.600
 			}
 		}
 	}
@@ -1700,7 +1700,7 @@ enable_cult_for_heirs_mission = {
 				has_heir = yes
 			}
 			country_event = {
-				id = fetishist_flavor.600
+				id = ainu_flavor.600
 			}
 		}
 	}
@@ -1710,18 +1710,18 @@ enable_cult_for_heirs_mission = {
 remove_heir_cult = {
 	trigger_switch = {
 		on_trigger = has_country_modifier
-		junior_yemoja_cult =                   { remove_country_modifier = junior_yemoja_cult }
-		junior_roog_cult =                     { remove_country_modifier = junior_roog_cult }
-		junior_nyame_cult =                    { remove_country_modifier = junior_nyame_cult }
+		junior_kimun_cult =                   { remove_country_modifier = junior_kimun_cult }
+		junior_fuchi_cult =                     { remove_country_modifier = junior_fuchi_cult }
+		junior_repun_cult =                    { remove_country_modifier = junior_repun_cult }
 		junior_cwezi_cult =                    { remove_country_modifier = junior_cwezi_cult }
 		junior_central_african_ancestor_cult = { remove_country_modifier = junior_central_african_ancestor_cult }
 		junior_mwari_cult =                    { remove_country_modifier = junior_mwari_cult }
 		junior_enkai_cult =                    { remove_country_modifier = junior_enkai_cult }
 		junior_waaq_cult =                     { remove_country_modifier = junior_waaq_cult }
 		junior_zanahary_cult =                 { remove_country_modifier = junior_zanahary_cult }
-		junior_christianity_cult =             { remove_country_modifier = junior_christianity_cult }
-		junior_islam_cult =                    { remove_country_modifier = junior_islam_cult }
-		junior_buddhism_cult =                 { remove_country_modifier = junior_buddhism_cult }
+		junior_kirishitan_cult =             { remove_country_modifier = junior_kirishitan_cult }
+		junior_shinto_cult =                    { remove_country_modifier = junior_shinto_cult }
+		junior_buddhadharma_cult =                 { remove_country_modifier = junior_buddhadharma_cult }
 		junior_dharmic_cult =                  { remove_country_modifier = junior_dharmic_cult }
 		junior_south_central_american_cult =   { remove_country_modifier = junior_south_central_american_cult }
 		junior_norse_cult =                    { remove_country_modifier = junior_norse_cult }
@@ -1740,12 +1740,6 @@ disable_cult_for_heirs = {
 
 #Country effect
 unlock_cult_through_selection = {
-	custom_tooltip = unlock_cult_through_selection_tt
-	hidden_effect = {
-		country_event = {
-			id = fetishist_flavor.601
-		}
-	}
 }
 
 #Province effect
@@ -2205,90 +2199,35 @@ clear_previous_primary_cults = {
 	hidden_effect = {
 		trigger_switch = {
 			on_trigger = has_country_flag
-			has_yemoja_cult_as_primary_cult = {
-				clr_country_flag = has_yemoja_cult_as_primary_cult
-				remove_country_modifier = junior_yemoja_cult
-				remove_country_modifier = primary_yemoja_cult
+			has_kimun_cult_as_primary_cult = {
+				clr_country_flag = has_kimun_cult_as_primary_cult
+				remove_country_modifier = junior_kimun_cult
+				remove_country_modifier = primary_kimun_cult
 			}
-			has_roog_cult_as_primary_cult = {
-				clr_country_flag = has_roog_cult_as_primary_cult
-				remove_country_modifier = junior_roog_cult
-				remove_country_modifier = primary_roog_cult
+			has_fuchi_cult_as_primary_cult = {
+				clr_country_flag = has_fuchi_cult_as_primary_cult
+				remove_country_modifier = junior_fuchi_cult
+				remove_country_modifier = primary_fuchi_cult
 			}
-			has_nyame_cult_as_primary_cult = {
-				clr_country_flag = has_nyame_cult_as_primary_cult
-				remove_country_modifier = junior_nyame_cult
-				remove_country_modifier = primary_nyame_cult
+			has_repun_cult_as_primary_cult = {
+				clr_country_flag = has_repun_cult_as_primary_cult
+				remove_country_modifier = junior_repun_cult
+				remove_country_modifier = primary_repun_cult
 			}
-			has_cwezi_cult_as_primary_cult = {
-				clr_country_flag = has_cwezi_cult_as_primary_cult
-				remove_country_modifier = junior_cwezi_cult
-				remove_country_modifier = primary_cwezi_cult
+			has_kirishitan_cult_as_primary_cult = {
+				clr_country_flag = has_kirishitan_cult_as_primary_cult
+				remove_country_modifier = junior_kirishitan_cult
+				remove_country_modifier = primary_kirishitan_cult
 			}
-			has_central_african_ancestor_cult_as_primary_cult = {
-				clr_country_flag = has_central_african_ancestor_cult_as_primary_cult
-				remove_country_modifier = junior_central_african_ancestor_cult
-				remove_country_modifier = primary_central_african_ancestor_cult
+			has_shinto_cult_as_primary_cult = {
+				clr_country_flag = has_shinto_cult_as_primary_cult
+				remove_country_modifier = junior_shinto_cult
+				remove_country_modifier = primary_shinto_cult
 			}
-			has_mwari_cult_as_primary_cult = {
-				clr_country_flag = has_mwari_cult_as_primary_cult
-				remove_country_modifier = junior_mwari_cult
-				remove_country_modifier = primary_mwari_cult
-			}
-			has_enkai_cult_as_primary_cult = {
-				clr_country_flag = has_enkai_cult_as_primary_cult
-				remove_country_modifier = junior_enkai_cult
-				remove_country_modifier = primary_enkai_cult
-			}
-			has_waaq_cult_as_primary_cult = {
-				clr_country_flag = has_waaq_cult_as_primary_cult
-				remove_country_modifier = junior_waaq_cult
-				remove_country_modifier = primary_waaq_cult
-			}
-			has_zanahary_cult_as_primary_cult = {
-				clr_country_flag = has_zanahary_cult_as_primary_cult
-				remove_country_modifier = junior_zanahary_cult
-				remove_country_modifier = primary_zanahary_cult
-			}
-			has_christianity_cult_as_primary_cult = {
-				clr_country_flag = has_christianity_cult_as_primary_cult
-				remove_country_modifier = junior_christianity_cult
-				remove_country_modifier = primary_christianity_cult
-			}
-			has_islam_cult_as_primary_cult = {
-				clr_country_flag = has_islam_cult_as_primary_cult
-				remove_country_modifier = junior_islam_cult
-				remove_country_modifier = primary_islam_cult
-			}
-			has_buddhism_cult_as_primary_cult = {
-				clr_country_flag = has_buddhism_cult_as_primary_cult
-				remove_country_modifier = junior_buddhism_cult
-				remove_country_modifier = primary_buddhism_cult
-			}
-			has_dharmic_cult_as_primary_cult = {
-				clr_country_flag = has_dharmic_cult_as_primary_cult
-				remove_country_modifier = junior_dharmic_cult
-				remove_country_modifier = primary_dharmic_cult
-			}
-			has_south_central_american_cult_as_primary_cult = {
-				clr_country_flag = has_south_central_american_cult_as_primary_cult
-				remove_country_modifier = junior_south_central_american_cult
-				remove_country_modifier = primary_south_central_american_cult
-			}
-			has_norse_cult_as_primary_cult = {
-				clr_country_flag = has_norse_cult_as_primary_cult
-				remove_country_modifier = junior_norse_cult
-				remove_country_modifier = primary_norse_cult
-			}
-			has_jewish_cult_as_primary_cult = {
-				clr_country_flag = has_jewish_cult_as_primary_cult
-				remove_country_modifier = junior_jewish_cult
-				remove_country_modifier = primary_jewish_cult
-			}
-			has_zoroastrian_cult_as_primary_cult = {
-				clr_country_flag = has_zoroastrian_cult_as_primary_cult
-				remove_country_modifier = junior_zoroastrian_cult
-				remove_country_modifier = primary_zoroastrian_cult
+			has_buddhadharma_cult_as_primary_cult = {
+				clr_country_flag = has_buddhadharma_cult_as_primary_cult
+				remove_country_modifier = junior_buddhadharma_cult
+				remove_country_modifier = primary_buddhadharma_cult
 			}
 		}
 	}
@@ -2299,56 +2238,23 @@ clear_primary_cult_bonus = {
 	hidden_effect = {
 		trigger_switch = {
 			on_trigger = has_country_modifier
-			primary_yemoja_cult = {
-				remove_country_modifier = primary_yemoja_cult
+			primary_kimun_cult = {
+				remove_country_modifier = primary_kimun_cult
 			}
-			primary_roog_cult = {
-				remove_country_modifier = primary_roog_cult
+			primary_fuchi_cult = {
+				remove_country_modifier = primary_fuchi_cult
 			}
-			primary_nyame_cult = {
-				remove_country_modifier = primary_nyame_cult
+			primary_repun_cult = {
+				remove_country_modifier = primary_repun_cult
 			}
-			primary_cwezi_cult = {
-				remove_country_modifier = primary_cwezi_cult
+			primary_kirishitan_cult = {
+				remove_country_modifier = primary_kirishitan_cult
 			}
-			primary_central_african_ancestor_cult = {
-				remove_country_modifier = primary_central_african_ancestor_cult
+			primary_shinto_cult = {
+				remove_country_modifier = primary_shinto_cult
 			}
-			primary_mwari_cult = {
-				remove_country_modifier = primary_mwari_cult
-			}
-			primary_enkai_cult = {
-				remove_country_modifier = primary_enkai_cult
-			}
-			primary_waaq_cult = {
-				remove_country_modifier = primary_waaq_cult
-			}
-			primary_zanahary_cult = {
-				remove_country_modifier = primary_zanahary_cult
-			}
-			primary_christianity_cult = {
-				remove_country_modifier = primary_christianity_cult
-			}
-			primary_islam_cult = {
-				remove_country_modifier = primary_islam_cult
-			}
-			primary_buddhism_cult = {
-				remove_country_modifier = primary_buddhism_cult
-			}
-			primary_dharmic_cult = {
-				remove_country_modifier = primary_dharmic_cult
-			}
-			primary_south_central_american_cult = {
-				remove_country_modifier = primary_south_central_american_cult
-			}
-			primary_norse_cult = {
-				remove_country_modifier = primary_norse_cult
-			}
-			primary_jewish_cult = {
-				remove_country_modifier = primary_jewish_cult
-			}
-			primary_zoroastrian_cult = {
-				remove_country_modifier = primary_zoroastrian_cult
+			primary_buddhadharma_cult = {
+				remove_country_modifier = primary_buddhadharma_cult
 			}
 		}
 	}
@@ -2360,7 +2266,7 @@ enable_primary_cult = {
 	hidden_effect = {
 		set_country_flag = uses_primary_cult
 		country_event = {
-			id = fetishist_flavor.602
+			id = ainu_flavor.602
 		}
 	}
 }

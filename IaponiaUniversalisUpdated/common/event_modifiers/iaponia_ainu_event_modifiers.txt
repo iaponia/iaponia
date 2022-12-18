@@ -1,0 +1,71 @@
+junior_kimun_cult = {
+	land_morale = 0.05
+	fire_damage = 0.05
+	religion = yes
+}
+
+junior_fuchi_cult = {
+	diplomatic_reputation = 0.5
+	global_unrest = -1
+	religion = yes
+}
+
+junior_repun_cult = {
+	global_own_trade_power = 0.1
+	global_trade_goods_size_modifier = 0.05
+	religion = yes
+}
+
+junior_kirishitan_cult = {
+	development_cost = -0.1
+	idea_cost = -0.05
+	religion = yes
+}
+
+junior_buddhadharma_cult = {
+	improve_relation_modifier = 0.125
+	global_missionary_strength = 0.01
+	religion = yes
+}
+
+junior_shinto_cult = {
+	core_creation = -0.05
+	tolerance_heathen = 1
+	religion = yes
+}
+
+primary_kimun_cult = {
+	land_morale = 0.1
+	fire_damage = 0.1
+	religion = yes
+}
+
+primary_fuchi_cult = {
+	diplomatic_reputation = 1
+	global_unrest = -2
+	religion = yes
+}
+
+primary_repun_cult = {
+	global_own_trade_power = 0.2
+	global_trade_goods_size_modifier = 0.1
+	religion = yes
+}
+
+primary_kirishitan_cult = {
+	development_cost = -0.2
+	idea_cost = -0.1
+	religion = yes
+}
+
+primary_buddhadharma_cult = {
+	improve_relation_modifier = 0.25
+	global_missionary_strength = 0.02
+	religion = yes
+}
+
+primary_shinto_cult = {
+	core_creation = -0.10
+	tolerance_heathen = 2
+	religion = yes
+}

@@ -4,6 +4,9 @@ government_rank = 1
 primary_culture = ainu_c
 religion = ainu
 technology_group = ainu
+unlock_cult = kimun_cult
+unlock_cult = fuchi_cult
+unlock_cult = repun_cult
 capital = 615
 mercantilism = 50
 

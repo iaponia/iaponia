@@ -1,0 +1,85 @@
+country_decisions = {
+	swap_primary_cult = {
+		potential = {
+			has_country_flag = uses_primary_cult
+			has_country_flag = has_selected_a_primary_cult
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = swap_primary_cult_tt
+				NOT = { has_country_modifier = swapped_primary_cult }
+			}
+			stability = 0
+		}
+		effect = {
+			add_stability = -1
+			add_country_modifier = {
+				name = swapped_primary_cult
+				duration = 18250
+			}
+			country_event = {
+				id = ainu_flavor.602
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	switch_active_cult_decision = {
+		potential = {
+			religion = ainu
+			OR = {
+				has_country_flag = enabled_cult_switching_mission
+				has_country_flag = enabled_cult_switching
+			}
+			NOT = { has_country_flag = swaps_cult_flag }
+			has_dlc = "Rights of Man"
+		}
+		allow = {
+			if = {
+				limit = {
+					government = republic
+				}
+				republican_tradition = 12
+			}
+			else = {
+				legitimacy_equivalent = 25
+			}
+			has_regency = no
+			custom_trigger_tooltip = {
+				tooltip = decision_once_every_twenty_years
+				OR = {
+					NOT = { has_country_flag = switched_active_cult_cooldown }
+					had_country_flag = {
+						flag = switched_active_cult_cooldown
+						days = 7300
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = has_adopted_any_cult
+				OR = {
+					has_adopted_cult = kimun_cult
+					has_adopted_cult = fuchi_cult
+					has_adopted_cult = repun_cult
+					has_adopted_cult = kirishitan_cult
+					has_adopted_cult = buddhadharma_cult
+					has_adopted_cult = shinto_cult
+				}
+			}
+		}
+		effect = {
+			reduce_legitimacy_large_effect = yes
+			set_country_flag = swaps_cult_flag
+			clr_country_flag = switched_active_cult_cooldown
+			set_country_flag = switched_active_cult_cooldown
+			country_event = {
+				id = ainu_flavor.603
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

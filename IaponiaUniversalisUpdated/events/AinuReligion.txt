@@ -1,0 +1,498 @@
+##############################
+# Fetishist Flavor Events    #
+#                            #
+# Written by Milla Isaksson  #
+# & Mathilda Bjarnehed		 #
+# & Henrik Lohmander	     #
+##############################
+
+namespace = ainu_flavor
+
+#Discovering Kimun/Bear cult
+#TODO: find better event pictures for all except buddha
+country_event = {
+	id = ainu_flavor.1
+	title = ainu_flavor.1.t
+	desc = ainu_flavor.1.d
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = ainu_flavor.1.a
+		unlock_cult = kimun_cult 
+	}
+}
+
+#Discovering Fuchi/Owl cult
+country_event = {
+	id = ainu_flavor.2
+	title = ainu_flavor.2.t
+	desc = ainu_flavor.2.d
+	picture = TRIBES_MEETING_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = ainu_flavor.2.a
+		unlock_cult = fuchi_cult 
+	}
+}
+
+#Discovering Repun/Crab cult
+country_event = {
+	id = ainu_flavor.3
+	title = ainu_flavor.3.t
+	desc = ainu_flavor.3.d
+	picture = TRIBES_MEETING_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = ainu_flavor.3.a
+		unlock_cult = repun_cult
+	}
+}
+
+#Unlocking Christianity
+country_event = {
+	id = ainu_flavor.4
+	title = ainu_flavor.4.t
+	desc = ainu_flavor.4.d
+	picture = POPE_PREACHING_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = ainu_flavor.4.a
+		unlock_cult = kirishitan_cult 
+	}
+}
+
+#Unlocking Buddhism
+country_event = {
+	id = ainu_flavor.5
+	title = ainu_flavor.5.t
+	desc = ainu_flavor.5.d
+	picture = BUDDHA_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = ainu_flavor.5.a
+		unlock_cult = buddhadharma_cult 
+	}
+}
+
+#Unlocking Shinto
+country_event = {
+	id = ainu_flavor.6
+	title = ainu_flavor.6.t
+	desc = ainu_flavor.6.d
+	picture = BUDDHA_eventPicture
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_dlc = "Rights of Man"
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = ainu_flavor.6.a
+		unlock_cult = shinto_cult 
+	}
+}
+
+##############################
+# More Fetishist Flavor Events
+#                            
+# Written by Ogulcan Yildirim
+##############################
+
+# Heir can choose a new cult for them
+country_event = {
+	id = ainu_flavor.600
+	title = ainu_flavor.600.t
+	desc = ainu_flavor.600.desc
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		religion = ainu
+		has_dlc = "Rights of Man"
+		has_country_flag = enabled_cult_for_heirs
+		num_of_unlocked_cults = 1
+	}
+
+	option = {
+		name = ainu_flavor.600.a
+		trigger = {
+			has_unlocked_cult = kimun_cult
+		}
+		add_country_modifier = {
+			name = junior_kimun_cult
+			duration = -1
+			desc = UNTIL_HEIR_SUCCESSION_OR_DEATH
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_militarist
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = ainu_flavor.600.b
+		trigger = {
+			has_unlocked_cult = fuchi_cult
+		}
+		add_country_modifier = {
+			name = junior_fuchi_cult
+			duration = -1
+			desc = UNTIL_HEIR_SUCCESSION_OR_DEATH
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_balanced
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = ainu_flavor.600.c
+		trigger = {
+			has_unlocked_cult = repun_cult
+		}
+		add_country_modifier = {
+			name = junior_repun_cult
+			duration = -1
+			desc = UNTIL_HEIR_SUCCESSION_OR_DEATH
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_capitalist
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = ainu_flavor.600.d
+		trigger = {
+			has_unlocked_cult = kirishitan_cult
+		}
+		add_country_modifier = {
+			name = junior_kirishitan_cult
+			duration = -1
+			desc = UNTIL_HEIR_SUCCESSION_OR_DEATH
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_capitalist
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = ainu_flavor.600.e
+		trigger = {
+			has_unlocked_cult = buddhadharma_cult
+		}
+		add_country_modifier = {
+			name = junior_buddhadharma_cult
+			duration = -1
+			desc = UNTIL_HEIR_SUCCESSION_OR_DEATH
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_balanced
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = ainu_flavor.600.f
+		trigger = {
+			has_unlocked_cult = shinto_cult
+		}
+		add_country_modifier = {
+			name = junior_shinto_cult
+			duration = -1
+			desc = UNTIL_HEIR_SUCCESSION_OR_DEATH
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_militarist
+				factor = 2
+			}
+		}
+	}
+}
+
+#Select a primary cult
+country_event = {
+	id = ainu_flavor.602
+	title = ainu_flavor.602.t
+	desc = ainu_flavor.602.desc
+	picture = FETISHIST_FIRE_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		religion = ainu
+		has_dlc = "Rights of Man"
+	}
+
+	immediate = {
+		hidden_effect = { clr_country_flag = has_selected_a_primary_cult }
+	}
+
+	option = {	#Select Kimun/Bear
+		name = ainu_flavor.602.a
+		trigger = {
+			has_unlocked_cult = kimun_cult
+			NOT = { has_primary_cult = { cult = kimun_cult } }
+		}
+		clear_previous_primary_cults = yes
+		select_primary_cult = {
+			cult = kimun_cult
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_militarist
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = ainu_flavor.602.b
+		trigger = {
+			has_unlocked_cult = fuchi_cult
+			NOT = { has_primary_cult = { cult = fuchi_cult } }
+		}
+		clear_previous_primary_cults = yes
+		select_primary_cult = {
+			cult = fuchi_cult
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_balanced
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = ainu_flavor.602.c
+		trigger = {
+			has_unlocked_cult = repun_cult
+			NOT = { has_primary_cult = { cult = repun_cult } }
+		}
+		clear_previous_primary_cults = yes
+		select_primary_cult = {
+			cult = repun_cult
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_capitalist
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = ainu_flavor.602.d
+		trigger = {
+			has_unlocked_cult = kirishitan_cult
+			NOT = { has_primary_cult = { cult = kirishitan_cult } }
+		}
+		clear_previous_primary_cults = yes
+		select_primary_cult = {
+			cult = kirishitan_cult
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_capitalist
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = ainu_flavor.602.e
+		trigger = {
+			has_unlocked_cult = buddhadharma_cult
+			NOT = { has_primary_cult = { cult = buddhadharma_cult } }
+		}
+		clear_previous_primary_cults = yes
+		select_primary_cult = {
+			cult = buddhadharma_cult
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_balanced
+				factor = 2
+			}
+		}
+	}
+
+	option = {
+		name = ainu_flavor.602.f
+		trigger = {
+			has_unlocked_cult = shinto_cult
+			NOT = { has_primary_cult = { cult = shinto_cult } }
+		}
+		clear_previous_primary_cults = yes
+		select_primary_cult = {
+			cult = shinto_cult
+		}
+
+		ai_chance = {
+			factor = 10
+			modifier = {
+				personality = ai_militarist
+				factor = 2
+			}
+		}
+	}
+
+	after = {
+		set_country_flag = has_selected_a_primary_cult
+	}
+}
+
+#Switch your active cult
+country_event = {
+	id = ainu_flavor.603
+	title = "ainu_flavor.603.t"
+	desc = "ainu_flavor.603.desc"
+	picture = PRAYING_eventPicture
+	
+	is_triggered_only = yes
+
+	option = { name = ainu_flavor.603.a
+		trigger = {
+			has_unlocked_cult = kimun_cult
+			NOT = { has_adopted_cult = kimun_cult }
+		}
+		change_cult = kimun_cult
+	}
+
+	option = { name = ainu_flavor.603.b
+		trigger = {
+			has_unlocked_cult = fuchi_cult
+			NOT = { has_adopted_cult = fuchi_cult }
+		}
+		change_cult = fuchi_cult
+	}
+
+	option = { name = ainu_flavor.603.c
+		trigger = {
+			has_unlocked_cult = repun_cult
+			NOT = { has_adopted_cult = repun_cult }
+		}
+		change_cult = repun_cult
+	}
+
+	option = { name = ainu_flavor.603.d
+		trigger = {
+			has_unlocked_cult = kirishitan_cult
+			NOT = { has_adopted_cult = kirishitan_cult }
+		}
+		change_cult = kirishitan_cult
+	}
+
+	option = { name = ainu_flavor.603.e
+		trigger = {
+			has_unlocked_cult = buddhadharma_cult
+			NOT = { has_adopted_cult = buddhadharma_cult }
+		}
+		change_cult = buddhadharma_cult
+	}
+
+	option = { name = ainu_flavor.603.f
+		trigger = {
+			has_unlocked_cult = shinto_cult
+			NOT = { has_adopted_cult = shinto_cult }
+		}
+		change_cult = shinto_cult
+	}
+	
+	option = {
+		name = ainu_flavor.603.r
+	}
+	
+	after = {
+		clr_country_flag = swaps_cult_flag
+	}
+}

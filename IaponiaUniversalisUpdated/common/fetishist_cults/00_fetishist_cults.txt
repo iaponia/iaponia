@@ -7,6 +7,16 @@ kimun_cult = {
 			has_unlocked_cult = kimun_cult
 			technology_group = ainu
 		}
+		religion = ainu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = kimun_cult
+				}
+			}
+		}
 	}
 	sprite = 6
 
@@ -27,6 +37,16 @@ fuchi_cult = {
 		OR = {
 			has_unlocked_cult = fuchi_cult
 			technology_group = ainu
+		}
+		religion = ainu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = fuchi_cult
+				}
+			}
 		}
 	}
 	sprite = 8
@@ -49,6 +69,16 @@ repun_cult = {
 			has_unlocked_cult = repun_cult
 			technology_group = ainu
 		}
+		religion = ainu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = repun_cult
+				}
+			}
+		}
 	}
 	sprite = 1
 
@@ -64,14 +94,24 @@ repun_cult = {
 
 #Syncretic Cults
 
-christianity_cult = {
+kirishitan_cult = {
 	sprite = 10
 	
 	development_cost = -0.2
 	idea_cost = -0.1
 	
 	allow  = {
-		has_unlocked_cult = christianity_cult
+		has_unlocked_cult = kirishitan_cult
+		religion = ainu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = kirishitan_cult
+				}
+			}
+		}
 	}
 	ai_will_do = {
 		factor = 3
@@ -82,14 +122,24 @@ christianity_cult = {
 	}
 }
 
-buddhism_cult = {
+buddhadharma_cult = {
 	sprite = 13
 	
 	improve_relation_modifier = 0.25
 	global_missionary_strength = 0.02
 	
 	allow  = {
-		has_unlocked_cult = buddhism_cult
+		has_unlocked_cult = buddhadharma_cult
+		religion = ainu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = buddhadharma_cult
+				}
+			}
+		}
 	}
 	ai_will_do = {
 		factor = 3
@@ -101,6 +151,7 @@ buddhism_cult = {
 }
 
 shinto_cult = {
+	#TODO: add reformed shinto
 	sprite = 11
 	
 	core_creation = -0.1
@@ -108,6 +159,16 @@ shinto_cult = {
 	
 	allow  = {
 		has_unlocked_cult = shinto_cult
+		religion = ainu
+		OR = {
+			NOT = { has_country_flag = uses_primary_cult }
+			AND = {
+				has_country_flag = uses_primary_cult
+				has_primary_cult = {
+					cult = shinto_cult
+				}
+			}
+		}
 	}
 	ai_will_do = {
 		factor = 3

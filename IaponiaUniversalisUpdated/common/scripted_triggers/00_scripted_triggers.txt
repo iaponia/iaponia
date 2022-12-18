@@ -1580,23 +1580,12 @@ mal_will_never_accept_offer = {
 
 has_any_heir_cult_active = {
 	OR = {
-		has_country_modifier = junior_yemoja_cult
-		has_country_modifier = junior_roog_cult
-		has_country_modifier = junior_nyame_cult
-		has_country_modifier = junior_cwezi_cult
-		has_country_modifier = junior_central_african_ancestor_cult
-		has_country_modifier = junior_mwari_cult
-		has_country_modifier = junior_enkai_cult
-		has_country_modifier = junior_waaq_cult
-		has_country_modifier = junior_zanahary_cult
-		has_country_modifier = junior_christianity_cult
-		has_country_modifier = junior_islam_cult
-		has_country_modifier = junior_buddhism_cult
-		has_country_modifier = junior_dharmic_cult
-		has_country_modifier = junior_south_central_american_cult
-		has_country_modifier = junior_norse_cult
-		has_country_modifier = junior_jewish_cult
-		has_country_modifier = junior_zoroastrian_cult
+		has_country_modifier = junior_kimun_cult
+		has_country_modifier = junior_fuchi_cult
+		has_country_modifier = junior_repun_cult
+		has_country_modifier = junior_kirishitan_cult
+		has_country_modifier = junior_buddhadharma_cult
+		has_country_modifier = junior_shinto_cult
 	}
 }
 
@@ -1855,7 +1844,7 @@ province_is_buddhist_or_accepts_buddhism = {
 		}
 		custom_trigger_tooltip = {
 			tooltip = province_is_buddhist_or_accepts_buddhism_ft
-			owner = { has_adopted_cult = buddhism_cult }
+			owner = { has_adopted_cult = buddhadharma_cult }
 			has_owner_religion = yes
 		}
 		#For the case the province has a religion which the player has already harmonized with and cannot convert
@@ -1939,7 +1928,7 @@ province_is_buddhist_or_accepts_buddhism_or_is_dharmic = {
 		}
 		custom_trigger_tooltip = {
 			tooltip = province_is_buddhist_or_accepts_buddhism_ft
-			owner = { has_adopted_cult = buddhism_cult }
+			owner = { has_adopted_cult = buddhadharma_cult }
 			has_owner_religion = yes
 		}
 		#For the case the province has a religion which the player has already harmonized with and cannot convert

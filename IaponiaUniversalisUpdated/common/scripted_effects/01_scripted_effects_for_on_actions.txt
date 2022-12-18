@@ -17,7 +17,7 @@ battle_cult_spreading_effect = {
 				has_unlocked_cult = kimun_cult
 			}
 		}
-		ROOT = { country_event = { id = fetishist_flavor.1 } }
+		ROOT = { country_event = { id = ainu_flavor.1 } }
 	}
 	if = {
 		limit = {
@@ -30,7 +30,7 @@ battle_cult_spreading_effect = {
 				has_unlocked_cult = kimun_cult
 			}
 		}
-		FROM = { country_event = { id = fetishist_flavor.1 } }
+		FROM = { country_event = { id = ainu_flavor.1 } }
 	}
 	#Fuchi / Owl
 	if = {
@@ -44,7 +44,7 @@ battle_cult_spreading_effect = {
 				has_unlocked_cult = fuchi_cult
 			}
 		}
-		ROOT = { country_event = { id = fetishist_flavor.2 } }
+		ROOT = { country_event = { id = ainu_flavor.2 } }
 	}
 	if = {
 		limit = {
@@ -57,7 +57,7 @@ battle_cult_spreading_effect = {
 				has_unlocked_cult = fuchi_cult
 			}
 		}
-		FROM = { country_event = { id = fetishist_flavor.2 } }
+		FROM = { country_event = { id = ainu_flavor.2 } }
 	}
 	#Repun / Crab
 	if = {
@@ -71,7 +71,7 @@ battle_cult_spreading_effect = {
 				has_unlocked_cult = repun_cult
 			}
 		}
-		ROOT = { country_event = { id = fetishist_flavor.3 } }
+		ROOT = { country_event = { id = ainu_flavor.3 } }
 	}
 	if = {
 		limit = {
@@ -84,73 +84,73 @@ battle_cult_spreading_effect = {
 				has_unlocked_cult = repun_cult
 			}
 		}
-		FROM = { country_event = { id = fetishist_flavor.3 } }
+		FROM = { country_event = { id = ainu_flavor.3 } }
 	}
 	
 	#Christianity
 	if = {
 		limit = {
 			ROOT = {
-				NOT = { has_unlocked_cult = christianity_cult }
+				NOT = { has_unlocked_cult = kirishitan_cult }
 				religion = ainu
 			}
 			FROM = {
 				OR = {
 					religion = kirishitan
-					has_unlocked_cult = christianity_cult
+					has_unlocked_cult = kirishitan_cult
 				}
 			}
 		}
-		ROOT = { country_event = { id = fetishist_flavor.400 } }
+		ROOT = { country_event = { id = ainu_flavor.4 } }
 	}
 	if = {
 		limit = {
 			FROM = {
-				NOT = { has_unlocked_cult = christianity_cult }
+				NOT = { has_unlocked_cult = kirishitan_cult }
 				religion = ainu
 			}
 			ROOT = {
 				OR = {
-					has_unlocked_cult = christianity_cult
+					has_unlocked_cult = kirishitan_cult
 					religion = kirishitan
 				}
 			}
 		}
-		FROM = { country_event = { id = fetishist_flavor.400 } }
+		FROM = { country_event = { id = ainu_flavor.4 } }
 	}
 
 	#Buddhism
 	if = {
 		limit = {
 			ROOT = {
-				NOT = { has_unlocked_cult = buddhism_cult }
+				NOT = { has_unlocked_cult = buddhadharma_cult }
 				religion = ainu
 			}
 			FROM = {
 				OR = {
 					religion = jodoshinshu
 					religion = nichirenshu
-					has_unlocked_cult = buddhism_cult
+					has_unlocked_cult = buddhadharma_cult
 				}
 			}
 		}
-		ROOT = { country_event = { id = fetishist_flavor.402 } }
+		ROOT = { country_event = { id = ainu_flavor.5 } }
 	}
 	if = {
 		limit = {
 			FROM = {
-				NOT = { has_unlocked_cult = buddhism_cult }
+				NOT = { has_unlocked_cult = buddhadharma_cult }
 				religion = ainu
 			}
 			ROOT = {
 				OR = {
-					has_unlocked_cult = buddhism_cult
+					has_unlocked_cult = buddhadharma_cult
 					religion = jodoshinshu
 					religion = nichirenshu
 				}
 			}
 		}
-		FROM = { country_event = { id = fetishist_flavor.402 } }
+		FROM = { country_event = { id = ainu_flavor.5 } }
 	}
 	#Shinto Cult
 	if = {
@@ -166,7 +166,7 @@ battle_cult_spreading_effect = {
 				}
 			}
 		}
-		ROOT = { country_event = { id = fetishist_flavor.403 } }
+		ROOT = { country_event = { id = ainu_flavor.6 } }
 	}
 	if = {
 		limit = {
@@ -181,7 +181,7 @@ battle_cult_spreading_effect = {
 				}
 			}
 		}
-		FROM = { country_event = { id = fetishist_flavor.403 } }
+		FROM = { country_event = { id = ainu_flavor.6 } }
 	}
 }
 

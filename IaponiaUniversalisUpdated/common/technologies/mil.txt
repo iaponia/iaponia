@@ -134,7 +134,7 @@ technology = {
 	year = 1530
 
 	barracks = yes
-	fort = yes
+	main_keep = yes
 	land_morale = 0.5
 
 	enable = def_kanto_infantry

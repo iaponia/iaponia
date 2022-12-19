@@ -50,7 +50,7 @@ trade_goods = lacquerware
     owner = MRI
 	remove_core = AMA
 	remove_core = OUC
-	fort = yes
+	main_keep = yes
 	marketplace = yes
 	tea_house = yes
 }

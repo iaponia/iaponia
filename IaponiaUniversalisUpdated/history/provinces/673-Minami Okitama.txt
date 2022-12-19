@@ -37,7 +37,7 @@ trade_goods = cloth
 }
 
 1582.6.21 = {
-	fort = yes
+	main_keep = yes
 	barracks = yes
 	arsenal = yes
 }

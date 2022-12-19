@@ -46,7 +46,7 @@ trade_goods = lacquerware
     owner = TKG
     controller = TKG
 	remove_core = IMG
-	fort = yes
+	main_keep = yes
 	merchant_guild = yes
 	workshop = yes
 }

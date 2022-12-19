@@ -35,7 +35,7 @@ center_of_trade = 1
 	owner = NNB
 	controller = NNB
 	remove_core = OSB
-	fort = yes
+	main_keep = yes
 	temple = yes
 	merchant_guild = yes
 }

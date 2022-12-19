@@ -57,5 +57,5 @@ trade_goods = rice
 	religion = kirishitan
 	shrine = yes
 	merchant_guild = yes
-	fort = yes
+	main_keep = yes
 }

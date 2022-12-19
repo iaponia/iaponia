@@ -44,7 +44,7 @@ center_of_trade = 1
 }
 
 1582.6.21 = {
-	fort = yes
+	main_keep = yes
 	wharf = yes
 	temple = yes
 	merchant_guild = yes

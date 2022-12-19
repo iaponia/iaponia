@@ -54,12 +54,13 @@ layered_enclosures = {
 	}
 }
 
-fort = {
+main_keep = {
 	cost = 600
 	time = 36
 	make_obsolete = layered_enclosures
 	modifier = {
 		fort_level = 4
+		land_forcelimit = 2
 	}
 
 	onmap = yes
@@ -73,7 +74,7 @@ fort = {
 castle = {
 	cost = 900
 	time = 36
-	make_obsolete = fort
+	make_obsolete = main_keep
 	modifier = {
 		fort_level = 6
 		local_defensiveness = 0.05
@@ -113,7 +114,7 @@ outer_wall = {
 	time = 24
 	build_trigger = {
 		OR = {
-			has_building = fort
+			has_building = main_keep
 			has_building = castle
 			has_building = citadel
 			has_building = castle_palace

@@ -40,6 +40,6 @@ trade_goods = paper
 }
 
 1582.6.21 = {
-	fort = yes
+	main_keep = yes
 	temple = yes
 }

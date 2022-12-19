@@ -29,7 +29,7 @@ trade_goods = pottery
 }
 
 1569.10.10 = {
-	fort = yes
+	main_keep = yes
 	barracks = yes
 	arsenal = yes
 }

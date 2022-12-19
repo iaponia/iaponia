@@ -71,7 +71,7 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_fort"
+		name = "GFX_main_keep"
 		texturefile = "gfx//interface//buildings//fort//fort.tga"
 		loadType = "INGAME"
 	}

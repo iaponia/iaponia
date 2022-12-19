@@ -37,7 +37,7 @@ trade_goods = paper
 	owner = CBA
 	controller = CBA
 	remove_core = OAK
-	fort = yes
+	main_keep = yes
 	merchant_guild = yes
 	drydock = yes
 }

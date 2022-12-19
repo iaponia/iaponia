@@ -45,7 +45,7 @@ trade_goods = rice
     add_core = UES
 	controller = UES
     owner = UES
-	fort = yes
+	main_keep = yes
 	arsenal = yes
 }
 

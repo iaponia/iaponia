@@ -36,7 +36,7 @@ trade_goods = grain
 }
 
 1569.10.10 = {
-	fort = yes
+	main_keep = yes
 	outer_wall = yes
 	arsenal = yes
 	barracks = yes

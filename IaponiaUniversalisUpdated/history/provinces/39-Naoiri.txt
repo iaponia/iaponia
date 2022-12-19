@@ -28,7 +28,7 @@ trade_goods = bamboo
 }
 
 1554.3.1 = {
-	fort = yes
+	main_keep = yes
 	barracks = yes
 }
 

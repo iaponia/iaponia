@@ -41,7 +41,7 @@ trade_goods = pottery
 	add_core = YSM
     controller = MRI
     owner = MRI
-	fort = yes
+	main_keep = yes
 }
 
 1582.6.21 = {

@@ -30,7 +30,7 @@ trade_goods = rice
     controller = STO
     owner = STO
 	remove_core = TKI
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1569.10.10 = {

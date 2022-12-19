@@ -31,7 +31,7 @@ trade_goods = lacquerware
     controller = IMG
     add_core = IMG
 	remove_core = SBA
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1569.10.10 = {

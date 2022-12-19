@@ -27,7 +27,7 @@ trade_goods = gold
     controller = HNM
     owner = HNM
 	remove_core = EGU
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1554.3.1 = {

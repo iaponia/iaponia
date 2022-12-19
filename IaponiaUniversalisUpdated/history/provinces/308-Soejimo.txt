@@ -25,7 +25,7 @@ base_manpower = 4
 trade_goods = paper
 
 1523.8.25 = {
-	garrison_b = yes
+	layered_enclosures = yes
 	marketplace = yes
 }
 

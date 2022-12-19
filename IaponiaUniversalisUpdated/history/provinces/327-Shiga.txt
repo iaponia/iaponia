@@ -30,7 +30,7 @@ trade_goods = pilgrimage_site
 }
 
 1511.9.25 = {
-	garrison_b = yes
+	layered_enclosures = yes
 	marketplace = yes
 	training_grounds = yes
 }

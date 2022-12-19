@@ -38,7 +38,7 @@ trade_goods = pottery
     owner = URA
     controller = URA
 	remove_core = AKM
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1582.6.21 = {

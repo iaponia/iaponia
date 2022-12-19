@@ -34,7 +34,7 @@ trade_goods = grain
     owner = URA
     controller = URA
 	remove_core = AKM
-	garrison_b = yes
+	layered_enclosures = yes
 	training_grounds = yes
 }
 

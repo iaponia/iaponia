@@ -29,7 +29,7 @@ trade_goods = paper
 	add_core = OAK
 	owner = OAK
 	controller = OAK
-	garrison_b = yes
+	layered_enclosures = yes
 	workshop = yes
 }
 

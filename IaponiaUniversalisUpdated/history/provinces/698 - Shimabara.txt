@@ -19,7 +19,7 @@ shrine = yes
 center_of_trade = 1
 
 1536.4.7 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1554.3.1 = {

@@ -28,7 +28,7 @@ trade_goods = pilgrimage_site
 1511.9.25 = {
     owner = SII
     controller = SII
-	garrison_b = yes
+	layered_enclosures = yes
 	remove_core = BHY
 }
 

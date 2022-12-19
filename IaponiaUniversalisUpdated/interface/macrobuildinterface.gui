@@ -980,13 +980,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_garrison_b"
+			name = "build_layered_enclosures"
 			position = { x = 73 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "garrison_b_cost"
+			name = "layered_enclosures_cost"
 			position = {x = 73 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -996,7 +996,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "fortified_mansion_to_garrison_b_arrow"
+			name = "fortified_mansion_to_layered_enclosures_arrow"
 			position = { x = 65 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}
@@ -1018,7 +1018,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "garrison_b_to_fort_arrow"
+			name = "layered_enclosures_to_fort_arrow"
 			position = { x = 117 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}

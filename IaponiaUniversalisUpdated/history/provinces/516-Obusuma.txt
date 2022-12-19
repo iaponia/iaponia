@@ -24,7 +24,7 @@ base_manpower = 4
 trade_goods = sake
 
 1511.9.25 = {
-	garrison_b = yes
+	layered_enclosures = yes
 	shrine = yes
 }
 

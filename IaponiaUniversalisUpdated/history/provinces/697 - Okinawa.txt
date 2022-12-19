@@ -27,7 +27,7 @@ trade_goods = mainland_trade
 center_of_trade = 1
 
 1523.8.25 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1554.3.1 = {

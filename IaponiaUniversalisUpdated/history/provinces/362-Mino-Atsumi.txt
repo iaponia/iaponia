@@ -15,7 +15,7 @@ culture = mino_c
 religion = nichirenshu
 capital = "Inabayama"
 is_city = yes
-garrison_b = yes
+layered_enclosures = yes
 shrine = yes
 marketplace = yes
 

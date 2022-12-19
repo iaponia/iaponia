@@ -29,7 +29,7 @@ trade_goods = lumber
     controller = STO
     owner = STO
 	remove_core = TKI
-	garrison_b = yes
+	layered_enclosures = yes
 	barracks = yes
 	workshop = yes
 }

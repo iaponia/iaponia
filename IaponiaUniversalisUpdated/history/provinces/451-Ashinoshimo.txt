@@ -15,7 +15,7 @@ culture = sagami_c
 religion = shinto
 capital = "Odawara"
 is_city = yes
-garrison_b = yes
+layered_enclosures = yes
 training_grounds = yes
 
 base_tax = 7

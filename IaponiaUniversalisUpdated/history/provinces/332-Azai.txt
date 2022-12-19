@@ -28,7 +28,7 @@ trade_goods = sake
     controller = AZI
     owner = AZI
 	remove_core = KGK
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1554.3.1 = {

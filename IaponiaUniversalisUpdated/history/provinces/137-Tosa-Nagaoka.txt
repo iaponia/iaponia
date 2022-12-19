@@ -31,7 +31,7 @@ trade_goods = paper
 }
 
 1546.5.19 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1569.10.10 = {

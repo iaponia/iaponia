@@ -29,7 +29,7 @@ trade_goods = lacquerware
 }
 
 1523.8.25 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1546.5.19 = {

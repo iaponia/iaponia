@@ -31,7 +31,7 @@ trade_goods = tea
 1511.9.25 = {
     controller = BHY
     owner = BHY
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1536.4.7 = {

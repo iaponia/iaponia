@@ -33,7 +33,7 @@ trade_goods = mainland_trade
 }
 
 1554.3.1 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1615.1.1 = {

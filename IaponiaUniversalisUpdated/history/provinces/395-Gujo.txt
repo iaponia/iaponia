@@ -28,7 +28,7 @@ trade_goods = cloth
     controller = STO
     owner = STO
 	remove_core = TKI
-	garrison_b = yes
+	layered_enclosures = yes
 	barracks = yes
 	arsenal = yes
 }

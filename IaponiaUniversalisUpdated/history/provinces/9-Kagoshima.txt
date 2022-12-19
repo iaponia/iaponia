@@ -37,7 +37,7 @@ trade_goods = cloth
     owner = SMZ
     controller = SMZ
 	remove_core = OSZ
-	garrison_b = yes
+	layered_enclosures = yes
 	wharf = yes
 	arsenal = yes
 }

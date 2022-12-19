@@ -436,8 +436,8 @@ militarized_aristocracy_i = {
 			factor = 0.5
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_has_garrison_b
-				has_building = garrison_b
+				tooltip = tooltip_has_layered_enclosures
+				has_building = layered_enclosures
 			}
 		}
 		modifier = {

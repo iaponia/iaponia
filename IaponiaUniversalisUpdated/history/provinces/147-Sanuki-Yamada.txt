@@ -33,7 +33,7 @@ trade_goods = grain
 	add_core = MYI
     controller = MYI
     owner = MYI
-	garrison_b = yes
+	layered_enclosures = yes
 	barracks = yes
 	arsenal = yes
 }

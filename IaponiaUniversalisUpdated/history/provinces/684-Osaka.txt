@@ -33,7 +33,7 @@ center_of_trade = 1
 	remove_core = HSK
 	religion = jodoshinshu
 	reformation_center = jodoshinshu
-	garrison_b = yes
+	layered_enclosures = yes
 	training_grounds = yes
 	temple = yes
 }

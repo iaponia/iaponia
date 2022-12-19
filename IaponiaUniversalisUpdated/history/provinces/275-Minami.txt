@@ -29,7 +29,7 @@ trade_goods = mainland_trade
     controller = MYI
     owner = MYI
 	remove_core = HSK
-	garrison_b = yes
+	layered_enclosures = yes
 	barracks = yes
 }
 

@@ -37,12 +37,13 @@ fortified_mansion = {
 	}
 }
 
-garrison_b = {
+layered_enclosures = {
 	cost = 300
 	time = 24
 	make_obsolete = fortified_mansion
 	modifier = {
 		fort_level = 2
+		land_forcelimit = 1
 	}
 
 	onmap = yes
@@ -56,7 +57,7 @@ garrison_b = {
 fort = {
 	cost = 600
 	time = 36
-	make_obsolete = garrison_b
+	make_obsolete = layered_enclosures
 	modifier = {
 		fort_level = 4
 	}

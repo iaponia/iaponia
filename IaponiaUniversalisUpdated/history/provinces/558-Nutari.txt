@@ -33,7 +33,7 @@ trade_goods = rice
     controller = HNJ
     owner = HNJ
 	remove_core = EGU
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1536.4.7 = {

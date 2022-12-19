@@ -29,7 +29,7 @@ trade_goods = fish
 }
 
 1523.8.25 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1554.3.1 = {

@@ -25,7 +25,7 @@ training_grounds = yes
 trade_goods = lacquerware
 
 1511.9.25 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1554.3.1 = {

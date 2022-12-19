@@ -25,7 +25,7 @@ base_manpower = 4
 trade_goods = mainland_trade
 
 1493.6.9 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1554.3.1 = {

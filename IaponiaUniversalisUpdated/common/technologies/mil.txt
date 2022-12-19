@@ -75,7 +75,7 @@ technology = {
 	infantry_shock = 0.15
 	cavalry_shock = 0.15
 
-	garrison_b = yes
+	layered_enclosures = yes
 
 	enable = early_off_kansai_infantry
 	enable = early_def_kansai_infantry

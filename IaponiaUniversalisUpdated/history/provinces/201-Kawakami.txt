@@ -33,7 +33,7 @@ trade_goods = metal
     add_core = AMA
     owner = AMA
     controller = AMA
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1554.3.1 = {

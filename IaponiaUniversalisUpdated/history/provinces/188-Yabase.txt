@@ -30,7 +30,7 @@ trade_goods = seaweed
     add_core = AMA
 	remove_core = HYN
 	training_grounds = yes
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1569.10.10 = {

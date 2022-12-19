@@ -33,7 +33,7 @@ trade_goods = paper
     controller = BHY
     owner = BHY
 	shrine = yes
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1536.4.7 = {

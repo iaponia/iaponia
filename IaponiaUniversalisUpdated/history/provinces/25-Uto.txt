@@ -28,7 +28,7 @@ trade_goods = rice
 }
 
 1511.9.25 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1536.4.7 = {

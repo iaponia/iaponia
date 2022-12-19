@@ -27,7 +27,7 @@ trade_goods = horses
 center_of_trade = 1
 
 1523.8.25 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1600.9.13 = {

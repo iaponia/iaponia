@@ -23,7 +23,7 @@ base_manpower = 3
 trade_goods = cloth
 
 1536.4.7 = {
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1582.6.21 = {

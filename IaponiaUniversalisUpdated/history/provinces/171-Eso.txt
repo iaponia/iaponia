@@ -34,7 +34,7 @@ trade_goods = lumber
     add_core = AMA
 	controller = AMA
     owner = AMA
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1554.3.1 = {

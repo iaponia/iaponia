@@ -25,7 +25,7 @@ base_manpower = 3
 trade_goods = metal
 
 1523.8.25 = {
-	garrison_b = yes
+	layered_enclosures = yes
 	workshop = yes
 }
 

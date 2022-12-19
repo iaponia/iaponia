@@ -34,7 +34,7 @@ trade_goods = lacquerware
     owner = AKJ
     add_core = AKJ
 	remove_core = MKI
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1569.10.10 = {

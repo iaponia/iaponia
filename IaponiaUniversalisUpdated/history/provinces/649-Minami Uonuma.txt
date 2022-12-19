@@ -28,7 +28,7 @@ trade_goods = cloth
     controller = UNG
     owner = UNG
 	remove_core = EGU
-	garrison_b = yes
+	layered_enclosures = yes
 }
 
 1536.4.7 = {

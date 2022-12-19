@@ -34,7 +34,7 @@ trade_goods = lacquerware
 	controller = AMA
     owner = AMA
     add_core = AMA
-	garrison_b = yes
+	layered_enclosures = yes
 	barracks = yes
 	shrine = yes
 }

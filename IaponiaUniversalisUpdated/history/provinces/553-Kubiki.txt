@@ -15,7 +15,7 @@ culture = esshu_c
 religion = shinto
 capital = "Naoetsu"
 is_city = yes
-garrison_b = yes
+layered_enclosures = yes
 shrine = yes
 
 base_tax = 6

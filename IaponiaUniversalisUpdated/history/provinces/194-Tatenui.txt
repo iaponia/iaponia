@@ -35,7 +35,7 @@ trade_goods = rice
 	controller = AMA
     owner = AMA
 	remove_core = IKY
-	garrison_b = yes
+	layered_enclosures = yes
 	shrine = yes
 }
 

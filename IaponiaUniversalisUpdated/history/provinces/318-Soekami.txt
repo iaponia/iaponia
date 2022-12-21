@@ -19,7 +19,7 @@ base_production = 7
 base_manpower = 5
 shrine_town = yes
 workshop = yes
-marketplace = yes
+merchant_guild = yes
 tea_house = yes
 
 trade_goods = pilgrimage_site
@@ -27,7 +27,7 @@ trade_goods = pilgrimage_site
 center_of_trade = 1
 
 1554.3.1 = {
-	merchant_guild = yes
+	free_market = yes
 	magistrate = yes
 	academy = yes
 }

@@ -15,7 +15,7 @@ religion = shinto
 capital = "Usuki"
 is_city = yes
 shipyard = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 4

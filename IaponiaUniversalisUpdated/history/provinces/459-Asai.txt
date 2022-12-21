@@ -15,7 +15,7 @@ capital = "Shirahama"
 is_city = yes
 fortified_mansion = yes
 shipyard = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 6
 base_production = 4
@@ -41,6 +41,6 @@ center_of_trade = 1
 }
 
 1569.10.10 = {
-	merchant_guild = yes
+	free_market = yes
 	drydock = yes
 }

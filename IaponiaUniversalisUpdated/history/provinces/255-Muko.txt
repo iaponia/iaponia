@@ -29,7 +29,7 @@ trade_goods = sake
 }
 
 1523.8.25 = {
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1554.3.1 = {

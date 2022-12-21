@@ -15,7 +15,7 @@ religion = shinto
 capital = "Nuta"
 is_city = yes
 shipyard = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 5
@@ -32,7 +32,7 @@ trade_goods = fish
 }
 
 1546.5.19 = {
-	merchant_guild = yes
+	free_market = yes
 	drydock = yes
 	wharf = yes
 	barracks = yes

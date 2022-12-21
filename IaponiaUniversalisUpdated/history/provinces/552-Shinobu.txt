@@ -26,12 +26,12 @@ trade_goods = sake
 center_of_trade = 1
 
 1523.8.25 = {
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1569.10.10 = {
 	shrine_town = yes
-	merchant_guild = yes
+	free_market = yes
 }
 
 1582.6.21 = {

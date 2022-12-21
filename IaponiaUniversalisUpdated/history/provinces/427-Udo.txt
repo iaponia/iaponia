@@ -15,7 +15,7 @@ religion = shinto
 capital = "Ejiri"
 is_city = yes
 shrine_town = yes
-marketplace = yes
+merchant_guild = yes
 shipyard = yes
 workshop = yes
 tea_house = yes
@@ -32,7 +32,7 @@ center_of_trade = 1
     add_core = TKD
     owner = TKD
     controller = TKD
-	merchant_guild = yes
+	free_market = yes
 	drydock = yes
 }
 

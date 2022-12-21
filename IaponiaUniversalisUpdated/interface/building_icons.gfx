@@ -46,12 +46,12 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_marketplace"
+		name = "GFX_merchant_guild"
 		texturefile = "gfx//interface//buildings//economic//marketplace.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_merchant_guild"
+		name = "GFX_free_market"
 		texturefile = "gfx//interface//buildings//economic//merchant_guild.tga"
 		loadType = "INGAME"
 	}

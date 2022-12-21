@@ -14,7 +14,7 @@ religion = shinto
 capital = "Wakamatsu"
 is_city = yes
 barracks = yes
-marketplace = yes
+merchant_guild = yes
 shrine = yes
 
 base_tax = 4

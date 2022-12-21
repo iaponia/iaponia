@@ -15,7 +15,7 @@ culture = sesshu_c
 religion = shinto
 capital = "Noda"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 shipyard = yes
 
 base_tax = 5

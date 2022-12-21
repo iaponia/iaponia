@@ -45,7 +45,7 @@ trade_goods = sake
 	main_keep = yes
 	training_grounds = yes
 	shrine_town = yes
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1600.9.13 = {

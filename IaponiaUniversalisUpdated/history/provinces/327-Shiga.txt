@@ -31,7 +31,7 @@ trade_goods = pilgrimage_site
 
 1511.9.25 = {
 	layered_enclosures = yes
-	marketplace = yes
+	merchant_guild = yes
 	barracks = yes
 }
 

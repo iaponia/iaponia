@@ -16,7 +16,7 @@ capital = "Utsunomiya"
 is_city = yes
 fortified_mansion = yes
 shrine_town = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 6
 base_production = 6
@@ -39,7 +39,7 @@ trade_goods = lacquerware
 	add_core = GAM
 	owner = GAM
 	controller = GAM
-	merchant_guild = yes
+	free_market = yes
 	tea_house = yes
 	remove_core = UMY
 }

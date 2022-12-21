@@ -16,7 +16,7 @@ capital = "Tsuchizaki"
 is_city = yes
 magistrate = yes
 wharf = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 3
 base_production = 4
@@ -30,6 +30,6 @@ center_of_trade = 1
     owner = ADO
     controller = ADO
 	remove_core = MNO
-	merchant_guild = yes
+	free_market = yes
 	shipyard = yes
 }

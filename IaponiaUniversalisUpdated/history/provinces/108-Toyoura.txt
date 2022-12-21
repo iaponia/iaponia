@@ -16,7 +16,7 @@ capital = "Kushisaki"
 is_city = yes
 fortified_mansion = yes
 barracks = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 4
 base_production = 4

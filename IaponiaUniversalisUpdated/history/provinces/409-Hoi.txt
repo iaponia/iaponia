@@ -27,7 +27,7 @@ trade_goods = paper
 	controller = MDR
     owner = MDR
 	remove_core = AHK
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1546.5.19 = {

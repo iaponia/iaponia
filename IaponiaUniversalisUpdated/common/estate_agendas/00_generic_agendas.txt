@@ -1235,7 +1235,7 @@ estate_burghers_build_trade_building_in_y = {
 			NOT = { has_building = stock_exchange }
 			OR = {
 				AND = {
-					NOT = { has_building = marketplace }
+					NOT = { has_building = merchant_guild }
 					NOT = { has_building = trade_depot }
 					num_free_building_slots = 1
 				}
@@ -1244,7 +1244,7 @@ estate_burghers_build_trade_building_in_y = {
 					NOT = { has_building = trade_depot }
 					OR = {
 						num_free_building_slots = 1
-						has_building = marketplace
+						has_building = merchant_guild
 					}
 				}
 				AND = {
@@ -1271,7 +1271,7 @@ estate_burghers_build_trade_building_in_y = {
 					NOT = { has_building = stock_exchange }
 					OR = {
 						AND = {
-							NOT = { has_building = marketplace }
+							NOT = { has_building = merchant_guild }
 							NOT = { has_building = trade_depot }
 							num_free_building_slots = 1
 						}
@@ -1280,7 +1280,7 @@ estate_burghers_build_trade_building_in_y = {
 							NOT = { has_building = trade_depot }
 							OR = {
 								num_free_building_slots = 1
-								has_building = marketplace
+								has_building = merchant_guild
 							}
 						}
 						AND = {
@@ -1305,7 +1305,7 @@ estate_burghers_build_trade_building_in_y = {
 				NOT = { has_building = stock_exchange }
 				OR = {
 					AND = {
-						NOT = { has_building = marketplace }
+						NOT = { has_building = merchant_guild }
 						NOT = { has_building = trade_depot }
 						num_free_building_slots = 1
 					}
@@ -1314,7 +1314,7 @@ estate_burghers_build_trade_building_in_y = {
 						NOT = { has_building = trade_depot }
 						OR = {
 							num_free_building_slots = 1
-							has_building = marketplace
+							has_building = merchant_guild
 						}
 					}
 					AND = {
@@ -1350,7 +1350,7 @@ estate_burghers_build_trade_building_in_y = {
 				NOT = { has_building = stock_exchange }
 				OR = {
 					AND = {
-						NOT = { has_building = marketplace }
+						NOT = { has_building = merchant_guild }
 						NOT = { has_building = trade_depot }
 						num_free_building_slots = 1
 					}
@@ -1359,7 +1359,7 @@ estate_burghers_build_trade_building_in_y = {
 						NOT = { has_building = trade_depot }
 						OR = {
 							num_free_building_slots = 1
-							has_building = marketplace
+							has_building = merchant_guild
 						}
 					}
 					AND = {
@@ -1383,7 +1383,7 @@ estate_burghers_build_trade_building_in_y = {
 				NOT = { has_building = stock_exchange }
 				OR = {
 					AND = {
-						NOT = { has_building = marketplace }
+						NOT = { has_building = merchant_guild }
 						NOT = { has_building = trade_depot }
 						num_free_building_slots = 1
 					}
@@ -1392,7 +1392,7 @@ estate_burghers_build_trade_building_in_y = {
 						NOT = { has_building = trade_depot }
 						OR = {
 							num_free_building_slots = 1
-							has_building = marketplace
+							has_building = merchant_guild
 						}
 					}
 					AND = {
@@ -1416,7 +1416,7 @@ estate_burghers_build_trade_building_in_y = {
 				NOT = { has_building = stock_exchange }
 				OR = {
 					AND = {
-						NOT = { has_building = marketplace }
+						NOT = { has_building = merchant_guild }
 						NOT = { has_building = trade_depot }
 						num_free_building_slots = 1
 					}
@@ -1425,7 +1425,7 @@ estate_burghers_build_trade_building_in_y = {
 						NOT = { has_building = trade_depot }
 						OR = {
 							num_free_building_slots = 1
-							has_building = marketplace
+							has_building = merchant_guild
 						}
 					}
 					AND = {
@@ -1453,7 +1453,7 @@ estate_burghers_build_trade_building_in_y = {
 			}
 			else_if = {
 				limit = {
-					has_building = marketplace
+					has_building = merchant_guild
 				}
 				ROOT = {
 					set_variable = {
@@ -1509,7 +1509,7 @@ estate_burghers_build_trade_building_in_y = {
 		else = {
 			event_target:agenda_province = {
 				OR = {
-					has_building = marketplace
+					has_building = merchant_guild
 					has_building = trade_depot
 					has_building = stock_exchange
 				}

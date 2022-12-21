@@ -16,7 +16,7 @@ religion = shinto
 capital = "Hyogo"
 is_city = yes
 wharf = yes
-marketplace = yes
+merchant_guild = yes
 shrine = yes
 
 base_tax = 5
@@ -38,7 +38,7 @@ trade_goods = salt
     add_core = MYI
     controller = MYI
     owner = MYI
-	merchant_guild = yes
+	free_market = yes
 	remove_core = HSK
 }
 

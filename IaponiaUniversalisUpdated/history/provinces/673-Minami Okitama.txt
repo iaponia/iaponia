@@ -27,13 +27,13 @@ trade_goods = cloth
 
 1523.8.25 = {
 	layered_enclosures = yes
-	marketplace = yes
+	merchant_guild = yes
 	workshop = yes
 }
 
 1546.5.19 = {
 	shrine_town = yes
-	merchant_guild = yes
+	free_market = yes
 }
 
 1582.6.21 = {

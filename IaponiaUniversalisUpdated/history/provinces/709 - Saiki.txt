@@ -23,7 +23,7 @@ base_manpower = 3
 trade_goods = sake
 
 1511.9.25 = {
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1569.10.10 = {

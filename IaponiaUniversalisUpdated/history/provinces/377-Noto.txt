@@ -17,7 +17,7 @@ is_city = yes
 layered_enclosures = yes
 tea_house = yes
 shrine = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 7 
 base_production = 7
@@ -27,7 +27,7 @@ trade_goods = lacquerware
 
 1536.4.7 = {
 	academy = yes
-	merchant_guild = yes
+	free_market = yes
 	shrine_town = yes
 }
 

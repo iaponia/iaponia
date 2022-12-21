@@ -15,7 +15,7 @@ religion = shinto
 capital = "Hitoyoshi"
 is_city = yes
 fortified_mansion = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 4
 base_production = 4
@@ -28,7 +28,7 @@ trade_goods = tea
 }
 
 1546.5.19 = {
-	merchant_guild = yes
+	free_market = yes
 }
 
 1569.10.10 = {

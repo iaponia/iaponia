@@ -16,7 +16,7 @@ capital = "Naka"
 is_city = yes
 barracks = yes
 shipyard = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 4
@@ -36,5 +36,5 @@ trade_goods = sake
 1569.10.10 = {
 	shrine_town = yes
 	drydock = yes
-	merchant_guild = yes
+	free_market = yes
 }

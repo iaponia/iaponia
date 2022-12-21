@@ -16,7 +16,7 @@ religion = shinto
 capital = "Takaya"
 is_city = yes
 fortified_mansion = yes
-marketplace = yes
+merchant_guild = yes
 barracks = yes
 
 base_tax = 6

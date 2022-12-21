@@ -14,7 +14,7 @@ culture = omi_c
 religion = shinto
 capital = "Seta"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 5
@@ -35,7 +35,7 @@ trade_goods = paper
 	add_core = ODA
     controller = ODA
     owner = ODA
-	merchant_guild = yes
+	free_market = yes
 }
 
 1582.6.21 = {

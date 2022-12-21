@@ -41,7 +41,7 @@ center_of_trade = 1
 	main_keep = yes
 	training_grounds = yes
 	arsenal = yes
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1582.6.21 = {
@@ -56,7 +56,7 @@ center_of_trade = 1
     controller = MAE
     owner = MAE
 	workshop = yes
-	merchant_guild = yes
+	free_market = yes
 	remove_core = SHB
 }
 

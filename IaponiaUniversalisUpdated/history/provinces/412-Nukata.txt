@@ -17,7 +17,7 @@ capital = "Okazaki"
 is_city = yes
 fortified_mansion = yes
 barracks = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 6
 base_production = 6
@@ -47,7 +47,7 @@ trade_goods = lacquerware
     controller = TKG
 	remove_core = IMG
 	main_keep = yes
-	merchant_guild = yes
+	free_market = yes
 	workshop = yes
 }
 

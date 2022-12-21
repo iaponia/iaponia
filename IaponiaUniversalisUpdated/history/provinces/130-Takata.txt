@@ -51,7 +51,7 @@ trade_goods = lacquerware
 	remove_core = AMA
 	remove_core = OUC
 	main_keep = yes
-	marketplace = yes
+	merchant_guild = yes
 	tea_house = yes
 }
 

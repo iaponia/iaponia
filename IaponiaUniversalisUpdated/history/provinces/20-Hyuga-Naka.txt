@@ -15,7 +15,7 @@ religion = shinto
 capital = "Sadowara"
 is_city = yes
 fortified_mansion = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 5

@@ -17,7 +17,7 @@ religion = shinto
 capital = "Kannoji"
 is_city = yes
 layered_enclosures = yes
-marketplace = yes
+merchant_guild = yes
 shrine = yes
 tea_house = yes
 
@@ -31,7 +31,7 @@ center_of_trade = 1
 
 1511.9.25 = {
 	shrine_town = yes
-	merchant_guild = yes
+	free_market = yes
 }
 
 1546.5.19 = {

@@ -17,7 +17,7 @@ is_city = yes
 fortified_mansion = yes
 shipyard = yes
 wharf = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 6
 base_production = 5
@@ -38,7 +38,7 @@ trade_goods = paper
 	controller = CBA
 	remove_core = OAK
 	main_keep = yes
-	merchant_guild = yes
+	free_market = yes
 	drydock = yes
 }
 

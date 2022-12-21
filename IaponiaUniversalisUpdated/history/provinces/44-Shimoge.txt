@@ -48,6 +48,6 @@ trade_goods = bamboo
 	remove_core = OTM
 	remove_core = KUM
 	shrine = yes
-	marketplace = yes
+	merchant_guild = yes
 	training_grounds = yes
 }

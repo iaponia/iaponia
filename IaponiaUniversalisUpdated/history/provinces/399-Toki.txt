@@ -15,7 +15,7 @@ religion = shinto
 capital = "Tsumagi"
 is_city = yes
 workshop = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 5
@@ -28,7 +28,7 @@ trade_goods = pottery
     controller = STO
     owner = STO
 	remove_core = TKI
-	merchant_guild = yes
+	free_market = yes
 	shrine = yes
 }
 

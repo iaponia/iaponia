@@ -359,13 +359,14 @@ wharf = {
 # Economic Chain
 ###
 
-marketplace = {
+merchant_guild = {
 	cost = 75
 	time = 8
 
 	modifier = {
-		province_trade_power_modifier = 0.4
-		local_tax_modifier = 0.1
+		province_trade_power_modifier = 0.5
+		local_production_efficiency = 0.25
+		local_autonomy = 0.025
 	}
 
 	ai_will_do = {
@@ -437,14 +438,15 @@ marketplace = {
 	}
 }
 
-merchant_guild = {
+free_market = {
 	cost = 250
 	time = 20
-	make_obsolete = marketplace
+	make_obsolete = merchant_guild
 
 	modifier = {
-		province_trade_power_modifier = 0.75
-		local_tax_modifier = 0.25
+		province_trade_power_modifier = 1.0
+		local_production_efficiency = 0.5
+		local_autonomy = 0.05
 	}
 
 	ai_will_do = {

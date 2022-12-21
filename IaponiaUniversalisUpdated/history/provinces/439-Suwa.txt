@@ -14,7 +14,7 @@ religion = shinto
 capital = "Takei"
 is_city = yes
 shrine_town = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 5
@@ -28,7 +28,7 @@ center_of_trade = 1
 	add_core = TKD
     controller = TKD
     owner = TKD
-	merchant_guild = yes
+	free_market = yes
 	workshop = yes
 	tea_house = yes
 }

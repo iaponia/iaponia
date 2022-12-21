@@ -17,7 +17,7 @@ culture = iwami_c
 religion = shinto
 capital = "Takatsu"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 barracks = yes
 
 base_tax = 4
@@ -47,7 +47,7 @@ trade_goods = rice
     owner = MRI
 	remove_core = OUC
 	training_grounds = yes
-	merchant_guild = yes
+	free_market = yes
 	shrine = yes
 }
 

@@ -15,7 +15,7 @@ capital = "Odaka"
 is_city = yes
 fortified_mansion = yes
 barracks = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 4
@@ -35,5 +35,5 @@ center_of_trade = 1
 	training_grounds = yes
 	arsenal = yes
 	shrine_town = yes
-	merchant_guild = yes
+	free_market = yes
 }

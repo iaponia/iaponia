@@ -14,7 +14,7 @@ culture = hyuga_c
 religion = shinto
 capital = "Aburatsu"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 
 center_of_trade = 1
 
@@ -46,7 +46,7 @@ trade_goods = mainland_trade
 1582.6.21 = {
     controller = SMZ
     owner = SMZ
-	merchant_guild = yes
+	free_market = yes
 }
 
 1600.9.13 = {

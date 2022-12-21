@@ -15,7 +15,7 @@ religion = shinto
 capital = "Yamabe"
 is_city = yes
 barracks = yes
-marketplace = yes
+merchant_guild = yes
 workshop = yes
 
 base_tax = 4
@@ -33,7 +33,7 @@ trade_goods = cloth
 1569.10.10 = {
 	training_grounds = yes
 	arsenal = yes
-	merchant_guild = yes
+	free_market = yes
 }
 
 1582.6.21 = {

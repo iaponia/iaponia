@@ -15,7 +15,7 @@ culture = choshu_c
 religion = shinto
 capital = "Shikiyama"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 5

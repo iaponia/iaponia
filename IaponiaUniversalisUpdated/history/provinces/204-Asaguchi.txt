@@ -26,7 +26,7 @@ trade_goods = seaweed
     owner = SHX
     controller = SHX
 	remove_core = BHK
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1554.3.1 = {

@@ -620,16 +620,16 @@ western_trade_i = {
 			factor = 0.25
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_has_marketplace
-				has_building = marketplace
+				tooltip = tooltip_has_merchant_guild
+				has_building = merchant_guild
 			}
 		}
 		modifier = {
 			factor = 0.25
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_has_merchant_guild
-				has_building = merchant_guild
+				tooltip = tooltip_has_free_market
+				has_building = free_market
 			}
 		}
 		modifier = {

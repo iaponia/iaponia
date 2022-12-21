@@ -34,7 +34,7 @@ trade_goods = sake
 	add_core = ICJ
     controller = ICJ
     owner = ICJ
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1582.6.21 = {
@@ -43,7 +43,7 @@ trade_goods = sake
     controller = CSK
 	training_grounds = yes
 	arsenal = yes
-	merchant_guild = yes
+	free_market = yes
 	remove_core = TNO
 }
 

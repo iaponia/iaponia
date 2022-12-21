@@ -29,7 +29,7 @@ trade_goods = rice
 	remove_core = TGS
 	religion = jodoshinshu
 	shrine = yes
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1546.5.19 = {

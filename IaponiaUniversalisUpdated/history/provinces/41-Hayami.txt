@@ -27,7 +27,7 @@ trade_goods = fish
 
 1511.9.25 = {
 	layered_enclosures = yes
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1569.10.10 = {

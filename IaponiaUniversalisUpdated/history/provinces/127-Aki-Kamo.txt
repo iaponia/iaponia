@@ -32,7 +32,7 @@ trade_goods = sake
 1523.8.25 = {
 	training_grounds = yes
 	wharf = yes
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1569.10.10 = {

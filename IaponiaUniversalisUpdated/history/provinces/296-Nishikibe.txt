@@ -43,7 +43,7 @@ trade_goods = bamboo
     add_core = HTK
     owner = HTK
     controller = HTK
-	marketplace = yes
+	merchant_guild = yes
 	arsenal = yes
 }
 

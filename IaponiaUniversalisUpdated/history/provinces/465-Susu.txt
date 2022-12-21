@@ -13,7 +13,7 @@ culture = boso_c
 religion = shinto
 capital = "Sanuki"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 4
 base_production = 3

@@ -16,7 +16,7 @@ religion = shinto
 capital = "Otawa"
 is_city = yes
 barracks = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 5
@@ -46,7 +46,7 @@ trade_goods = lacquerware
 	remove_core = RKK
 	remove_core = ODA
 	arsenal = yes
-	merchant_guild = yes
+	free_market = yes
 }
 
 1600.9.13 = {

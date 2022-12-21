@@ -23,7 +23,7 @@ base_manpower = 2
 trade_goods = fish
 
 1493.6.9 = {
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1546.5.19 = {

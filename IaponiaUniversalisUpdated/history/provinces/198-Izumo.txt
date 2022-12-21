@@ -34,7 +34,7 @@ trade_goods = lacquerware
     controller = AMA
     owner = AMA
 	remove_core = IKY
-	marketplace = yes
+	merchant_guild = yes
 	shipyard = yes
 }
 

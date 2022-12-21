@@ -28,7 +28,7 @@ trade_goods = tea
     owner = KIR
 	remove_core = AHK
 	religion = jodoshinshu
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1523.8.25 = {

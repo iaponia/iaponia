@@ -14,7 +14,7 @@ culture = shimabara_c
 religion = shinto
 capital = "Nagasaki"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 6
 base_production = 6
@@ -49,6 +49,6 @@ trade_goods = mainland_trade
     owner = FCN
     controller = FCN
 	remove_core = OMR
-	merchant_guild = yes
+	free_market = yes
 	dockyard = yes
 }

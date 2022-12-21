@@ -15,7 +15,7 @@ religion = shinto
 capital = "Irako"
 is_city = yes
 shrine = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 5
 base_production = 5

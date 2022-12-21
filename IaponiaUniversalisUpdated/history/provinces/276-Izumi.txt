@@ -27,7 +27,7 @@ trade_goods = paper
     controller = MYI
     owner = MYI
 	remove_core = HSK
-	marketplace = yes
+	merchant_guild = yes
 	barracks = yes
 }
 

@@ -27,7 +27,7 @@ trade_goods = bamboo
     owner = STO
 	add_core = STO
 	remove_core = TKI
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1569.10.10 = {

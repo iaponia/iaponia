@@ -1927,7 +1927,7 @@ add_latest_building = {
 			add_building = trade_depot
 		}
 		else = {
-			add_building = marketplace
+			add_building = merchant_guild
 		}
 	]
 	[[government]
@@ -2029,7 +2029,7 @@ upgrade_building = {
 			add_building = stock_exchange
 		}
 		else_if = {
-			limit = { has_building = marketplace }
+			limit = { has_building = merchant_guild }
 			add_building = trade_depot
 		}
 	]

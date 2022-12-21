@@ -17,7 +17,7 @@ culture = bizen_c
 religion = shinto
 capital = "Ushimado"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 wharf = yes
 shipyard = yes
 
@@ -48,7 +48,7 @@ center_of_trade = 1
     owner = UKT
     controller = UKT
 	remove_core = URA
-	merchant_guild = yes
+	free_market = yes
 	drydock = yes
 }
 

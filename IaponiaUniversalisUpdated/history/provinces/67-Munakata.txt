@@ -25,7 +25,7 @@ base_manpower = 3
 trade_goods = rice
 
 1493.6.9 = {
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1523.8.25 = {

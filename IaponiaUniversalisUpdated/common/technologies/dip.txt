@@ -38,7 +38,7 @@ technology = {
 	year = 1476
 
 	naval_maintenance = 0.1
-	marketplace = yes 
+	merchant_guild = yes 
 }
 
 technology = {
@@ -139,7 +139,7 @@ technology = {
 	# Tech 14
 	year = 1575
 	
-	merchant_guild = yes
+	free_market = yes
 	charter_guild = yes
 }
 

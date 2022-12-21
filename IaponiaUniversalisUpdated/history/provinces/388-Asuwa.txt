@@ -16,7 +16,7 @@ religion = shinto
 capital = "Ichijodani"
 is_city = yes
 fortified_mansion = yes
-marketplace = yes
+merchant_guild = yes
 shrine = yes
 tea_house = yes
 
@@ -37,7 +37,7 @@ center_of_trade = 1
 
 1546.5.19 = {
 	shrine_town = yes
-	merchant_guild = yes
+	free_market = yes
 	workshop = yes
 }
 

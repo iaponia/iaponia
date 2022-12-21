@@ -15,7 +15,7 @@ culture = seishu_c
 religion = shinto
 capital = "Chikusa"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 shipyard = yes
 
 base_tax = 5

@@ -26,7 +26,7 @@ base_manpower = 4
 trade_goods = pilgrimage_site
 
 1493.6.9 = {
-	marketplace = yes
+	merchant_guild = yes
 	barracks = yes
 }
 

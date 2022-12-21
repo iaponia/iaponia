@@ -15,7 +15,7 @@ religion = nichirenshu
 capital = "Tosadomari"
 is_city = yes
 fortified_mansion = yes
-marketplace = yes
+merchant_guild = yes
 shrine = yes
 
 base_tax = 6

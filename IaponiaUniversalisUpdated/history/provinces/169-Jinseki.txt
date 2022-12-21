@@ -14,7 +14,7 @@ culture = bishu_c
 religion = shinto
 capital = "Koya"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 4
 base_production = 4

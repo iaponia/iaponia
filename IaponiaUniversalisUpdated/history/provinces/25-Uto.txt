@@ -24,7 +24,7 @@ base_manpower = 3
 trade_goods = rice
 
 1493.6.9 = {
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1511.9.25 = {
@@ -56,6 +56,6 @@ trade_goods = rice
 	remove_core = NWA
 	religion = kirishitan
 	shrine = yes
-	merchant_guild = yes
+	free_market = yes
 	main_keep = yes
 }

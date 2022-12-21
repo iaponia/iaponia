@@ -16,7 +16,7 @@ religion = shinto
 capital = "Tomisaki"
 is_city = yes
 shrine = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 6
 base_production = 4

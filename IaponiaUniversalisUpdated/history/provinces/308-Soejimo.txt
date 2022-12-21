@@ -26,7 +26,7 @@ trade_goods = paper
 
 1523.8.25 = {
 	layered_enclosures = yes
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1554.3.1 = {

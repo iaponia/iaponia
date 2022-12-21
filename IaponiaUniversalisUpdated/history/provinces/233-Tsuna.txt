@@ -27,7 +27,7 @@ trade_goods = horses
     add_core = MYI
     owner = MYI
     controller = MYI
-	marketplace = yes
+	merchant_guild = yes
 	wharf = yes
 }
 

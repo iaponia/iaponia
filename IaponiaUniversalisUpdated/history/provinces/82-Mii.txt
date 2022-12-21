@@ -22,7 +22,7 @@ base_production = 5
 base_manpower = 4
 
 1523.8.25 = {
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1554.3.1 = {

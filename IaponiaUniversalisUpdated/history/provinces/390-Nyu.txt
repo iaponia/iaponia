@@ -19,7 +19,7 @@ is_city = yes
 base_tax = 5
 base_production = 5
 base_manpower = 3
-marketplace = yes
+merchant_guild = yes
 workshop = yes
 
 trade_goods = pottery
@@ -37,7 +37,7 @@ trade_goods = pottery
     controller = SHB
     owner = SHB
 	remove_core = ASA
-	merchant_guild = yes
+	free_market = yes
 }
 
 1600.9.13 = {

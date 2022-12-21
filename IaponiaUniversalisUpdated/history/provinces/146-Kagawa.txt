@@ -14,7 +14,7 @@ culture = awa_c
 religion = nichirenshu
 capital = "Katsuga"
 is_city = yes
-marketplace = yes
+merchant_guild = yes
 shrine = yes
 
 base_tax = 5

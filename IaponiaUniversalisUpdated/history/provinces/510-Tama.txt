@@ -16,7 +16,7 @@ religion = shinto
 capital = "Katsunuma"
 is_city = yes
 shrine = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 4
 base_production = 3

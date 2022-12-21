@@ -503,13 +503,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_marketplace"
+			name = "build_merchant_guild"
 			position = { x = 9 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "marketplace_cost"
+			name = "merchant_guild_cost"
 			position = {x = 9 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -519,13 +519,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_merchant_guild"
+			name = "build_free_market"
 			position = { x = 61 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "merchant_guild_cost"
+			name = "free_market_cost"
 			position = {x = 61 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -535,7 +535,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "marketplace_to_merchant_guild_arrow"
+			name = "merchant_guild_to_free_market_arrow"
 			position = { x = 53 y = 41 }
 			spriteType = "GFX_building_upgrade_icon"
 		}

@@ -29,7 +29,7 @@ trade_goods = pottery
 	remove_core = TTI
 	training_grounds = yes
 	arsenal = yes
-	marketplace = yes
+	merchant_guild = yes
 }
 
 1615.1.1 = {

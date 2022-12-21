@@ -16,7 +16,7 @@ capital = "Komine"
 is_city = yes
 barracks = yes
 shrine = yes
-marketplace = yes
+merchant_guild = yes
 
 base_tax = 4
 base_production = 3
@@ -27,7 +27,7 @@ trade_goods = grain
 1569.10.10 = {
 	training_grounds = yes
 	shrine_town = yes
-	merchant_guild = yes
+	free_market = yes
 	tea_house = yes
 }
 

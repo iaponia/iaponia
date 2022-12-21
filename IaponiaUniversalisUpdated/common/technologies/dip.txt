@@ -81,7 +81,7 @@ technology  = {
 	year = 1521
 	
 	workshop = yes
-	post_roads = yes
+	highways = yes
 	range = 125
 }
 
@@ -148,7 +148,7 @@ technology = {
 	year = 1584
 	
 	trade_efficiency = 0.05
-	highways = yes
+	post_roads = yes
 	trade_range = 50
 	range = 125
 	num_accepted_cultures = 1

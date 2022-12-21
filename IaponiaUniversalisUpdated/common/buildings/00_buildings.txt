@@ -668,7 +668,7 @@ toll_roads = {
 	}
 }
 
-post_roads = {
+highways = {
 	cost = 100
 	time = 24
 	make_obsolete = toll_roads
@@ -747,10 +747,10 @@ post_roads = {
 	}
 }
 
-highways = {
+post_roads = {
 	cost = 250
 	time = 36
-	make_obsolete = post_roads
+	make_obsolete = highways
 
 	modifier = {
 		local_friendly_movement_speed = 0.5

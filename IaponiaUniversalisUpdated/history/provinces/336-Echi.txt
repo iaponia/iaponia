@@ -1,4 +1,4 @@
-post_roads = yes
+highways = yes
 hre = no
 discovered_by = kyushu
 discovered_by = saigoku

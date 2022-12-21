@@ -680,8 +680,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_obj_citadels"
-		texturefile = "gfx/interface/ages/obj_citadels.dds"
+		name = "GFX_obj_fortresses"
+		texturefile = "gfx/interface/ages/obj_fortresses.dds"
 	}
 
 	spriteType = {

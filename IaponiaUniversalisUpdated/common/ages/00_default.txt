@@ -397,8 +397,8 @@ age_of_absolutism = {
 				extra_shortcut = yes
 			}
 		}
-		obj_citadels = {
-			citadel = 3
+		obj_fortresses = {
+			fortress = 5
 		}
 	}
 

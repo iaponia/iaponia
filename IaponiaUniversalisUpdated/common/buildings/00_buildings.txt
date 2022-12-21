@@ -597,9 +597,9 @@ toll_roads = {
 	time = 12
 
 	modifier = {
-		local_friendly_movement_speed = 0.15
-		local_hostile_movement_speed = 0.15
-		local_tax_modifier = 0.05
+		local_friendly_movement_speed = 0.10
+		local_hostile_movement_speed = 0.10
+		local_tax_modifier = 0.10
 		allowed_num_of_buildings = 1
 	}
 
@@ -677,6 +677,8 @@ post_roads = {
 		local_friendly_movement_speed = 0.3
 		local_hostile_movement_speed = 0.3
 		local_tax_modifier = 0.1
+		local_autonomy = -0.025
+		supply_limit_modifier = 0.1
 		allowed_num_of_buildings = 1
 	}
 
@@ -753,8 +755,9 @@ highways = {
 	modifier = {
 		local_friendly_movement_speed = 0.5
 		local_hostile_movement_speed = 0.5
-		local_tax_modifier = 0.1
-		local_development_cost = -0.05
+		local_tax_modifier = 0.2
+		local_autonomy = -0.05
+		supply_limit_modifier = 0.2
 		allowed_num_of_buildings = 1
 	}
 

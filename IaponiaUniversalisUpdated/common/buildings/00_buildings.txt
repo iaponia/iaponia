@@ -144,8 +144,8 @@ training_grounds = {
 	cost = 75
 	time = 8
 	modifier = {
-		local_manpower_modifier = 0.4
-		regiment_recruit_speed = -0.1
+		local_manpower_modifier = 0.5
+		regiment_recruit_speed = -0.2
 	}
 
 	ai_will_do = {
@@ -198,8 +198,8 @@ barracks = {
 	time = 16
 	make_obsolete = training_grounds
 	modifier = {
-		local_manpower_modifier = 0.6
-		regiment_recruit_speed = -0.25
+		local_manpower_modifier = 1.0
+		regiment_recruit_speed = -0.4
 	}
 
 	ai_will_do = {

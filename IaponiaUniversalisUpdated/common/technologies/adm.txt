@@ -12,7 +12,7 @@ technology = {
 		sominrigaku = 0.25
 	}
 	
-	temple = yes
+	shrine = yes
 	may_support_rebels = yes
 }
 
@@ -107,7 +107,7 @@ technology = {
 		nanban_trade = 0.2
 	}
 	
-	highway = yes
+	highways = yes
 	production_efficiency = 0.05
 }
 
@@ -171,7 +171,7 @@ technology = {
 		kokudaka_system = 0.3
 	}
 	
-	post_stations = yes
+	post_roads = yes
 	production_efficiency = 0.05
 }
 

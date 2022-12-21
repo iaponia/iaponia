@@ -14,7 +14,7 @@ culture = uwa_c
 religion = shinto
 capital = "Kurose"
 is_city = yes
-shipyard = yes
+harbor = yes
 barracks = yes
 
 base_tax = 3

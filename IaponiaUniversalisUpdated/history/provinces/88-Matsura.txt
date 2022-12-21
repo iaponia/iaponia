@@ -14,7 +14,7 @@ religion = shinto
 capital = "Karatsu"
 is_city = yes
 fortified_mansion = yes
-shipyard = yes
+harbor = yes
 
 center_of_trade = 1
 

@@ -28,7 +28,7 @@ trade_goods = rice
     owner = ING
     controller = ING
 	remove_core = ISK
-	shipyard = yes
+	harbor = yes
 	religion = jodoshinshu
 }
 

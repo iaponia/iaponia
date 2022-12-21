@@ -16,7 +16,7 @@ religion = shinto
 capital = "Hikuma"
 is_city = yes
 fortified_mansion = yes
-shipyard = yes
+harbor = yes
 barracks = yes
 merchant_guild = yes
 

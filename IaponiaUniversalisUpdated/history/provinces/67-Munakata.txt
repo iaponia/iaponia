@@ -15,7 +15,7 @@ culture = chikuzen_c
 religion = shinto
 capital = "Hakusan"
 is_city = yes
-shipyard = yes
+harbor = yes
 shrine = yes
 
 base_tax = 5
@@ -37,7 +37,7 @@ trade_goods = rice
     controller = OTM
     owner = OTM
 	remove_core = OUC
-	drydock = yes
+	port_town = yes
 	shrine_town = yes
 }
 

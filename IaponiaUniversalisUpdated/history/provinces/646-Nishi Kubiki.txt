@@ -27,7 +27,7 @@ trade_goods = metal
     controller = NGO
     owner = NGO
 	remove_core = EGU
-	shipyard = yes
+	harbor = yes
 }
 
 1569.10.10 = {

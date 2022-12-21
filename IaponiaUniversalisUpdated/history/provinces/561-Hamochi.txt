@@ -14,7 +14,7 @@ culture = sado_c
 religion = nichirenshu
 capital = "Yoshioka"
 is_city = yes
-shipyard = yes
+harbor = yes
 merchant_guild = yes
 
 base_tax = 3

@@ -14,7 +14,7 @@ culture = choshu_c
 religion = shinto
 capital = "Aratakiyama"
 is_city = yes
-shipyard = yes
+harbor = yes
 wharf = yes
 
 base_tax = 5

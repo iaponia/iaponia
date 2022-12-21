@@ -15,7 +15,7 @@ culture = owari_c
 religion = shinto
 capital = "Daikoji"
 is_city = yes
-shipyard = yes
+harbor = yes
 barracks = yes
 
 base_tax = 3

@@ -19,7 +19,7 @@ capital = "Ushimado"
 is_city = yes
 merchant_guild = yes
 wharf = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 5
 base_production = 5
@@ -49,7 +49,7 @@ center_of_trade = 1
     controller = UKT
 	remove_core = URA
 	free_market = yes
-	drydock = yes
+	port_town = yes
 }
 
 1600.9.13 = {

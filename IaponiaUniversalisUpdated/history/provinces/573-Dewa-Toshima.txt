@@ -31,5 +31,5 @@ center_of_trade = 1
     controller = ADO
 	remove_core = MNO
 	free_market = yes
-	shipyard = yes
+	harbor = yes
 }

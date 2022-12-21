@@ -14,7 +14,7 @@ culture = totomi_c
 religion = shinto
 capital = "Yashiroyama"
 is_city = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 4
 base_production = 4

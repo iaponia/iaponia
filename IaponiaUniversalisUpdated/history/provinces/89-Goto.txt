@@ -9,7 +9,7 @@ add_core = UKU
 owner = UKU
 controller = UKU
 merchant_guild = yes
-shipyard = yes
+harbor = yes
 
 culture = shimabara_c
 religion = shinto

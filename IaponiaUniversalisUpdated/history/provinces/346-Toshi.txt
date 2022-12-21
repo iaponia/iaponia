@@ -16,7 +16,7 @@ capital = "Toba"
 is_city = yes
 fortified_mansion = yes
 wharf = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 4
 base_production = 4
@@ -29,7 +29,7 @@ center_of_trade = 1
 1546.5.19 = {
 	layered_enclosures = yes
 	merchant_guild = yes
-	drydock = yes
+	port_town = yes
 }
 
 1582.6.21 = {

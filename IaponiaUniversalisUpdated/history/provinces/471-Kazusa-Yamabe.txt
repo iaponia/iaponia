@@ -25,7 +25,7 @@ trade_goods = fish
     add_core = OAK
     controller = OAK
     owner = OAK
-	shipyard = yes
+	harbor = yes
 	shrine = yes
 }
 

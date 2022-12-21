@@ -15,7 +15,7 @@ culture = tsugaru_c
 religion = shinto
 capital = "Tanesato"
 is_city = yes
-shipyard = yes
+harbor = yes
 barracks = yes
 
 base_tax = 3

@@ -31,7 +31,7 @@ trade_goods = cloth
 center_of_trade = 1
 
 1493.6.9 = {
-	shipyard = yes
+	harbor = yes
 }
 
 1523.8.25 = {

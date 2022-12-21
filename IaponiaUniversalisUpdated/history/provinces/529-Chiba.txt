@@ -15,7 +15,7 @@ religion = nichirenshu
 capital = "Chiba"
 is_city = yes
 fortified_mansion = yes
-shipyard = yes
+harbor = yes
 wharf = yes
 merchant_guild = yes
 
@@ -39,7 +39,7 @@ trade_goods = paper
 	remove_core = OAK
 	main_keep = yes
 	free_market = yes
-	drydock = yes
+	port_town = yes
 }
 
 1582.6.21 = {

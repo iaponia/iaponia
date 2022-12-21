@@ -14,7 +14,7 @@ religion = shinto
 capital = "Tosaminato"
 is_city = yes
 fortified_mansion = yes
-shipyard = yes
+harbor = yes
 wharf = yes
 merchant_guild = yes
 
@@ -36,5 +36,5 @@ center_of_trade = 1
 	controller = MAT
 	remove_core = KKZ
 	free_market = yes
-	drydock = yes
+	port_town = yes
 }

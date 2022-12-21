@@ -13,7 +13,7 @@ culture = sasshu_c
 religion = shinto
 capital = "Nakanoshima"
 is_city = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 2
 base_production = 2

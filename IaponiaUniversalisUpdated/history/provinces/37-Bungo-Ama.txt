@@ -14,7 +14,7 @@ culture = bungo_c
 religion = shinto
 capital = "Usuki"
 is_city = yes
-shipyard = yes
+harbor = yes
 merchant_guild = yes
 
 base_tax = 5

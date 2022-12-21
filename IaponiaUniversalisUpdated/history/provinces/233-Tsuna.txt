@@ -14,7 +14,7 @@ culture = awaji_c
 religion = nichirenshu
 capital = "Yanagisawa"
 is_city = yes
-shipyard = yes
+harbor = yes
 barracks = yes
 
 base_tax = 4

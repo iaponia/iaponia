@@ -13,7 +13,7 @@ culture = islander_c
 religion = shinto
 capital = "Kanaishi"
 is_city = yes
-shipyard = yes
+harbor = yes
 wharf = yes
 
 base_tax = 3
@@ -21,11 +21,11 @@ base_production = 4
 base_manpower = 3
 
 1536.4.7 = {
-	drydock = yes
+	port_town = yes
 }
 
 1554.3.1 = {
-	drydock = yes
+	port_town = yes
 }
 
 1615.1.1 = {

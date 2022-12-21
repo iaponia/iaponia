@@ -23,7 +23,7 @@ base_manpower = 3
 trade_goods = seaweed
 
 1523.8.25 = {
-	shipyard = yes
+	harbor = yes
 }
 
 1615.1.1 = {

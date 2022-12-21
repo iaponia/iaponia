@@ -14,7 +14,7 @@ culture = hitachi_c
 religion = shinto
 capital = "Nakaminato"
 is_city = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 5
 base_production = 4

@@ -15,7 +15,7 @@ religion = shinto
 capital = "Nishio"
 is_city = yes
 barracks = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 4 
 base_production = 4
@@ -56,7 +56,7 @@ trade_goods = tea
     controller = TKG
 	remove_core = MDR
 	remove_core = IMG
-	drydock = yes
+	port_town = yes
 	wharf = yes
 }
 

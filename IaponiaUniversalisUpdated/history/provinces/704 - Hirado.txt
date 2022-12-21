@@ -14,7 +14,7 @@ religion = shinto
 capital = "Hirado"
 is_city = yes
 wharf = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 3
 base_production = 4
@@ -30,7 +30,7 @@ trade_goods = mainland_trade
 }
 
 1546.5.19 = {
-	drydock = yes
+	port_town = yes
 	free_market = yes
 }
 

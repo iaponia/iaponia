@@ -5934,13 +5934,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_shipyard"
+			name = "build_harbor"
 			position = { x = 9 y = 129 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "shipyard_cost"
+			name = "harbor_cost"
 			position = {x = 9 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -5950,13 +5950,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_drydock"
+			name = "build_port_town"
 			position = { x = 61 y = 129 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "drydock_cost"
+			name = "port_town_cost"
 			position = {x = 61 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -5966,7 +5966,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "shipyard_to_drydock_arrow"
+			name = "harbor_to_port_town_arrow"
 			position = { x = 53 y = 138 }
 			spriteType = "GFX_building_upgrade_icon"
 		}

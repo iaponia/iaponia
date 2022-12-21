@@ -14,7 +14,7 @@ culture = boso_c
 religion = shinto
 capital = "Honno"
 is_city = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 4
 base_production = 3

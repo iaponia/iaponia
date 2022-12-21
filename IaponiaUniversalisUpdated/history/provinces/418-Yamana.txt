@@ -14,7 +14,7 @@ culture = totomi_c
 religion = shinto
 capital = "Mamushizuka"
 is_city = yes
-shipyard = yes
+harbor = yes
 barracks = yes
 
 base_tax = 5

@@ -15,7 +15,7 @@ religion = shinto
 capital = "Naka"
 is_city = yes
 barracks = yes
-shipyard = yes
+harbor = yes
 merchant_guild = yes
 
 base_tax = 5
@@ -35,6 +35,6 @@ trade_goods = sake
 
 1569.10.10 = {
 	shrine_town = yes
-	drydock = yes
+	port_town = yes
 	free_market = yes
 }

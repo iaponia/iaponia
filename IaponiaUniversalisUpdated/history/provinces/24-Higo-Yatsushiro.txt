@@ -14,7 +14,7 @@ culture = kuma_c
 religion = shinto
 capital = "Yatushiro"
 is_city = yes
-shipyard = yes
+harbor = yes
 merchant_guild = yes
 
 center_of_trade = 1

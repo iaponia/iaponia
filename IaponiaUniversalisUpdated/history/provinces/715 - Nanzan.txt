@@ -14,7 +14,7 @@ culture = okinawan_c
 religion = ryukyuan
 capital = "Nansan"
 is_city = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 3
 base_production = 2

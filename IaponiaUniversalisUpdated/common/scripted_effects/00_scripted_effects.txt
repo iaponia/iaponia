@@ -1990,7 +1990,7 @@ add_latest_building = {
 			add_building = grand_shipyard
 		}
 		else = {
-			add_building = shipyard
+			add_building = harbor
 		}
 	]
 	[[coastal]
@@ -2071,7 +2071,7 @@ upgrade_building = {
 	]
 	[[navy_forcelimit]
 		if = {
-			limit = { has_building = shipyard }
+			limit = { has_building = harbor }
 			add_building = grand_shipyard
 		}
 	]

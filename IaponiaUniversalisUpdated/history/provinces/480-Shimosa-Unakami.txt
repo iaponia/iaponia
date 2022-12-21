@@ -14,7 +14,7 @@ religion = nichirenshu
 capital = "Choshi"
 is_city = yes
 merchant_guild = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 6
 base_production = 4
@@ -24,7 +24,7 @@ trade_goods = seaweed
 
 1546.5.19 = {
 	free_market = yes
-	drydock = yes
+	port_town = yes
 	wharf = yes
 }
 

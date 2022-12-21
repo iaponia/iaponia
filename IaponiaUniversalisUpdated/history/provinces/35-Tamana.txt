@@ -27,7 +27,7 @@ trade_goods = pottery
 }
 
 1511.9.25 = {
-	shipyard = yes
+	harbor = yes
 }
 
 1554.3.1 = {

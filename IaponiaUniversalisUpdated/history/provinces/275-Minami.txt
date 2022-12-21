@@ -16,7 +16,7 @@ capital = "Kishiwada"
 is_city = yes
 fortified_mansion = yes
 shrine = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 6
 base_production = 6

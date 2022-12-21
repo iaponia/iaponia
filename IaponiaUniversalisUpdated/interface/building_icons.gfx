@@ -132,12 +132,12 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_drydock"
+		name = "GFX_port_town"
 		texturefile = "gfx//interface//buildings//naval//drydock.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_shipyard"
+		name = "GFX_harbor"
 		texturefile = "gfx//interface//buildings//naval//shipyard.tga"
 		loadType = "INGAME"
 	}

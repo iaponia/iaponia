@@ -14,7 +14,7 @@ culture = aki_c
 religion = shinto
 capital = "Takagiyama"
 is_city = yes
-shipyard = yes
+harbor = yes
 wharf = yes
 
 base_tax = 4

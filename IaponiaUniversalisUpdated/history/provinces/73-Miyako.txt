@@ -25,7 +25,7 @@ trade_goods = seaweed
 
 1523.8.25 = {
 	barracks = yes
-	shipyard = yes
+	harbor = yes
 }
 
 1554.3.1 = {

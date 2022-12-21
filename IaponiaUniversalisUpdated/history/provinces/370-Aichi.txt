@@ -34,7 +34,7 @@ trade_goods = cloth
     controller = KOD
     owner = KOD
 	remove_core = SBA
-	shipyard = yes
+	harbor = yes
 }
 
 1569.10.10 = {

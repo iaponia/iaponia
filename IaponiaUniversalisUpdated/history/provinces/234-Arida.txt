@@ -29,7 +29,7 @@ trade_goods = tea
 	add_core = HTK
 	remove_core = BHY
 	training_grounds = yes
-	shipyard = yes
+	harbor = yes
 	workshop = yes
 }
 

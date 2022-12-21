@@ -36,7 +36,7 @@ trade_goods = fish
     owner = URA
     controller = URA
 	remove_core = AKM
-	shipyard = yes
+	harbor = yes
 }
 
 1569.10.10 = {

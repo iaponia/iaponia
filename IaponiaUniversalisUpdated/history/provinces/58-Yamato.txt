@@ -28,7 +28,7 @@ trade_goods = paper
 }
 
 1523.8.25 = {
-	shipyard = yes
+	harbor = yes
 }
 
 1554.3.1 = {

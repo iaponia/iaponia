@@ -17,7 +17,7 @@ religion = shinto
 capital = "Shibata"
 is_city = yes
 merchant_guild = yes
-shipyard = yes
+harbor = yes
 shrine = yes
 magistrate = yes
 
@@ -53,7 +53,7 @@ center_of_trade = 1
     owner = UES
     controller = UES
 	shrine_town = yes
-	drydock = yes
+	port_town = yes
 }
 
 1600.9.13 = {

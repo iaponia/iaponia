@@ -34,7 +34,7 @@ add_permanent_province_modifier = {
 
 1546.5.19 = {
 	free_market = yes
-	shipyard = yes
+	harbor = yes
 }
 
 1582.6.21 = {
@@ -42,7 +42,7 @@ add_permanent_province_modifier = {
     owner = KOD
     controller = KOD
 	remove_core = KBK
-	drydock = yes
+	port_town = yes
 }
 
 1600.9.13 = {

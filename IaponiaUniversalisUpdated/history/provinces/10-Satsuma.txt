@@ -18,7 +18,7 @@ is_city = yes
 base_tax = 4
 base_production = 4
 base_manpower = 2
-shipyard = yes
+harbor = yes
 
 trade_goods = seaweed
 

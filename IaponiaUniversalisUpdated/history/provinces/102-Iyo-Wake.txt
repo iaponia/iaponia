@@ -13,7 +13,7 @@ culture = iyo_c
 religion = shinto
 capital = "Yokoyama"
 is_city = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 3
 base_production = 3

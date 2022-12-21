@@ -15,7 +15,7 @@ culture = mikawa_c
 religion = shinto
 capital = "Katachihara"
 is_city = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 5
 base_production = 5

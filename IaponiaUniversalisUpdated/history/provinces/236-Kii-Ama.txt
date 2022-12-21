@@ -16,7 +16,7 @@ capital = "Saika"
 is_city = yes
 fortified_mansion = yes
 barracks = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 4
 base_production = 4
@@ -44,7 +44,7 @@ add_permanent_province_modifier = {
 	remove_core = BHY
 	training_grounds = yes
 	arsenal = yes
-	drydock = yes
+	port_town = yes
 }
 
 1569.10.10 = {

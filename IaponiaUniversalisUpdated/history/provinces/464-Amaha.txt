@@ -14,7 +14,7 @@ religion = shinto
 capital = "Kaneya"
 is_city = yes
 shrine = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 5
 base_production = 3

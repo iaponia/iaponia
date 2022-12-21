@@ -14,7 +14,7 @@ religion = nichirenshu
 capital = "Hyakushu"
 is_city = yes
 shrine = yes
-shipyard = yes
+harbor = yes
 barracks = yes
 
 base_tax = 5
@@ -35,5 +35,5 @@ trade_goods = paper
 	remove_core = OAK
 	training_grounds = yes
 	arsenal = yes
-	drydock = yes
+	port_town = yes
 }

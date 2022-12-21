@@ -15,7 +15,7 @@ religion = shinto
 capital = "Utoko"
 is_city = yes
 fortified_mansion = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 5
 base_production = 5

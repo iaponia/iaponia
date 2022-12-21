@@ -14,7 +14,7 @@ culture = awa_c
 religion = shinto
 capital = "Hiwasa"
 is_city = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 2
 base_production = 3

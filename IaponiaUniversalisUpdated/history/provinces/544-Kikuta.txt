@@ -14,7 +14,7 @@ religion = shinto
 capital = "Shiogama"
 is_city = yes
 barracks = yes
-shipyard = yes
+harbor = yes
 
 base_tax = 4
 base_production = 3

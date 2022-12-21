@@ -29,7 +29,7 @@ trade_goods = lacquerware
     add_core = HJO
 	remove_core = OUE
 	remove_core = OTA
-	shipyard = yes
+	harbor = yes
 }
 
 1600.9.13 = {

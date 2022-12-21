@@ -14,7 +14,7 @@ religion = nichirenshu
 capital = "Shirahama"
 is_city = yes
 fortified_mansion = yes
-shipyard = yes
+harbor = yes
 merchant_guild = yes
 
 base_tax = 6
@@ -42,5 +42,5 @@ center_of_trade = 1
 
 1569.10.10 = {
 	free_market = yes
-	drydock = yes
+	port_town = yes
 }

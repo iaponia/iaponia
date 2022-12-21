@@ -286,15 +286,16 @@ arsenal = {
 # Naval Chain
 ###
 
-shipyard = {
+harbor = {
 	cost = 150
 	time = 12
 	build_trigger = {
 		has_port = yes
 	}
 	modifier = {
-		ship_recruit_speed = -0.25
-		local_sailors_modifier = 0.25
+		province_trade_power_value = 1
+		blockade_force_required = 0.5
+		local_sailors_modifier = 0.5
 	}
 
 	ai_will_do = {
@@ -302,16 +303,18 @@ shipyard = {
 	}
 }
 
-drydock = {
+port_town = {
 	cost = 300
 	time = 24
-	make_obsolete = shipyard
+	make_obsolete = harbor
 	build_trigger = {
 		has_port = yes
 	}
 	modifier = {
-		ship_recruit_speed = -0.5
-		local_sailors_modifier = 0.5
+		province_trade_power_value = 2
+		blockade_force_required = 1.0
+		local_sailors_modifier = 1.0
+		local_autonomy = 0.025
 	}
 
 	ai_will_do = {

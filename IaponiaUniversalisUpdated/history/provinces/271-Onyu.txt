@@ -18,7 +18,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 2
 merchant_guild = yes
-shipyard = yes
+harbor = yes
 
 trade_goods = lacquerware
 

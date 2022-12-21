@@ -843,7 +843,8 @@ shrine = {
 	time = 8
 
 	modifier = {
-		local_tax_modifier = 0.3
+		local_tax_modifier = 0.4
+		local_governing_cost = -0.1
 		local_missionary_strength = 0.01
 	}
 
@@ -918,7 +919,8 @@ temple = {
 	make_obsolete = shrine
 
 	modifier = {
-		local_tax_modifier = 0.5
+		local_tax_modifier = 0.8
+		local_governing_cost = -0.1
 		local_missionary_strength = 0.03
 	}
 

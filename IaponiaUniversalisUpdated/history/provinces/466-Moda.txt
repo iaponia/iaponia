@@ -13,7 +13,7 @@ culture = boso_c
 religion = shinto
 capital = "Mariyatsu"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 4
@@ -34,7 +34,7 @@ trade_goods = rice
     controller = STM
     owner = STM
 	remove_core = OAK
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	temple = yes
 }

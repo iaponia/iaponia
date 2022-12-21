@@ -16,7 +16,7 @@ religion = shinto
 capital = "Tachibanayama"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 5
@@ -32,7 +32,7 @@ trade_goods = mainland_trade
     controller = TCB
     owner = TCB
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

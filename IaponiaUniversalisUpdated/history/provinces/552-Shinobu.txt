@@ -15,7 +15,7 @@ religion = shinto
 capital = "Fukushima"
 is_city = yes
 shrine = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -35,7 +35,7 @@ center_of_trade = 1
 }
 
 1582.6.21 = {
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

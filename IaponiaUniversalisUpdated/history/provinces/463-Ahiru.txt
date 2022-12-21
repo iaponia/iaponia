@@ -14,7 +14,7 @@ religion = shinto
 capital = "Kururi"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 4
@@ -36,7 +36,7 @@ trade_goods = bamboo
 	remove_core = OAK
 	main_keep = yes
 	stone_base = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

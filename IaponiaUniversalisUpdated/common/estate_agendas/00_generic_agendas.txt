@@ -226,7 +226,7 @@ estate_nobles_build_army_building_in_y = {
 			}
 			OR = {
 				AND = {
-					NOT = { has_building = barracks }
+					NOT = { has_building = training_grounds }
 					num_free_building_slots = 1
 				}
 				AND = {
@@ -238,7 +238,7 @@ estate_nobles_build_army_building_in_y = {
 					NOT = { has_building = training_fields }
 					ROOT = { mil_tech = 16 }
 					OR = {
-						has_building = barracks
+						has_building = training_grounds
 						num_free_building_slots = 1
 					}
 				}
@@ -267,7 +267,7 @@ estate_nobles_build_army_building_in_y = {
 					}
 					OR = {
 						AND = {
-							NOT = { has_building = barracks }
+							NOT = { has_building = training_grounds }
 							num_free_building_slots = 1
 						}
 						AND = {
@@ -279,7 +279,7 @@ estate_nobles_build_army_building_in_y = {
 							NOT = { has_building = training_fields }
 							ROOT = { mil_tech = 16 }
 							OR = {
-								has_building = barracks
+								has_building = training_grounds
 								num_free_building_slots = 1
 							}
 						}
@@ -306,7 +306,7 @@ estate_nobles_build_army_building_in_y = {
 				}
 				OR = {
 					AND = {
-						NOT = { has_building = barracks }
+						NOT = { has_building = training_grounds }
 						num_free_building_slots = 1
 					}
 					AND = {
@@ -318,7 +318,7 @@ estate_nobles_build_army_building_in_y = {
 						NOT = { has_building = training_fields }
 						ROOT = { mil_tech = 16 }
 						OR = {
-							has_building = barracks
+							has_building = training_grounds
 							num_free_building_slots = 1
 						}
 					}
@@ -354,7 +354,7 @@ estate_nobles_build_army_building_in_y = {
 				}
 				OR = {
 					AND = {
-						NOT = { has_building = barracks }
+						NOT = { has_building = training_grounds }
 						num_free_building_slots = 1
 					}
 					AND = {
@@ -366,7 +366,7 @@ estate_nobles_build_army_building_in_y = {
 						NOT = { has_building = training_fields }
 						ROOT = { mil_tech = 16 }
 						OR = {
-							has_building = barracks
+							has_building = training_grounds
 							num_free_building_slots = 1
 						}
 					}
@@ -392,7 +392,7 @@ estate_nobles_build_army_building_in_y = {
 				}
 				OR = {
 					AND = {
-						NOT = { has_building = barracks }
+						NOT = { has_building = training_grounds }
 						num_free_building_slots = 1
 					}
 					AND = {
@@ -404,7 +404,7 @@ estate_nobles_build_army_building_in_y = {
 						NOT = { has_building = training_fields }
 						ROOT = { mil_tech = 16 }
 						OR = {
-							has_building = barracks
+							has_building = training_grounds
 							num_free_building_slots = 1
 						}
 					}
@@ -430,7 +430,7 @@ estate_nobles_build_army_building_in_y = {
 				}
 				OR = {
 					AND = {
-						NOT = { has_building = barracks }
+						NOT = { has_building = training_grounds }
 						num_free_building_slots = 1
 					}
 					AND = {
@@ -442,7 +442,7 @@ estate_nobles_build_army_building_in_y = {
 						NOT = { has_building = training_fields }
 						ROOT = { mil_tech = 16 }
 						OR = {
-							has_building = barracks
+							has_building = training_grounds
 							num_free_building_slots = 1
 						}
 					}
@@ -465,7 +465,7 @@ estate_nobles_build_army_building_in_y = {
 					ROOT = { mil_tech = 16 }
 					OR = {
 						num_free_building_slots = 1
-						has_building = barracks
+						has_building = training_grounds
 					}
 				}
 				ROOT = {
@@ -477,7 +477,7 @@ estate_nobles_build_army_building_in_y = {
 			}
 			else_if = {
 				limit = {
-					NOT = { has_building = barracks }
+					NOT = { has_building = training_grounds }
 					NOT = { has_building = training_fields }
 					num_free_building_slots = 1
 				}
@@ -539,7 +539,7 @@ estate_nobles_build_army_building_in_y = {
 			}
 			event_target:agenda_province = {
 				OR = {
-					has_building = barracks
+					has_building = training_grounds
 					has_building = training_fields
 				}
 			}

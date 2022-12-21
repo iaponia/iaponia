@@ -15,7 +15,7 @@ religion = shinto
 capital = "Takatsuki"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 5
@@ -36,7 +36,7 @@ trade_goods = bamboo
 }
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

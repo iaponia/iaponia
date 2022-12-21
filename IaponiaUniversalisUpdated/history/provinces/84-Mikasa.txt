@@ -27,7 +27,7 @@ trade_goods = pilgrimage_site
 
 1493.6.9 = {
 	marketplace = yes
-	training_grounds = yes
+	barracks = yes
 }
 
 1554.3.1 = {
@@ -40,7 +40,7 @@ trade_goods = pilgrimage_site
     controller = OTM
     owner = OTM
 	remove_core = OUC
-	barracks = yes
+	training_grounds = yes
 }
 
 1600.9.13 = {

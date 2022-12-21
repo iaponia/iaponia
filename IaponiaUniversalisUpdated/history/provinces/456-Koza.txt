@@ -15,7 +15,7 @@ culture = sagami_c
 religion = shinto
 capital = "Oba"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 5
@@ -34,7 +34,7 @@ trade_goods = lacquerware
 
 1546.5.19 = {
 	arsenal = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1600.9.13 = {

@@ -17,7 +17,7 @@ capital = "Hikuma"
 is_city = yes
 fortified_mansion = yes
 shipyard = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 6
@@ -40,7 +40,7 @@ trade_goods = lacquerware
     controller = TKG
 	remove_core = IMG
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	shrine = yes
 }

@@ -13,7 +13,7 @@ culture = yamato_c
 religion = shinto
 capital = "Koriyama"
 is_city = yes
-training_grounds = yes
+barracks = yes
 workshop = yes
 
 base_tax = 5
@@ -27,7 +27,7 @@ trade_goods = pottery
     controller = MSH
     owner = MSH
 	remove_core = TTI
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	marketplace = yes
 }

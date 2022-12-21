@@ -18,7 +18,7 @@ is_city = yes
 base_tax = 5
 base_production = 4
 base_manpower = 5
-training_grounds = yes
+barracks = yes
 
 trade_goods = bamboo
 
@@ -33,7 +33,7 @@ trade_goods = bamboo
     add_core = IMG
     controller = IMG
     owner = IMG
-	barracks = yes
+	training_grounds = yes
 	shrine = yes
 }
 

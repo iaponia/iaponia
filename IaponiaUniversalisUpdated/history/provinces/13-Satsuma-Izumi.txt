@@ -15,7 +15,7 @@ religion = shinto
 capital = "Kimure"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 4
@@ -40,7 +40,7 @@ trade_goods = rice
 }
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	tea_house = yes
 }
 

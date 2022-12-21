@@ -22,7 +22,7 @@ base_manpower = 3
 trade_goods = bamboo
 
 1493.6.9 = {
-	training_grounds = yes
+	barracks = yes
 }
 
 1582.6.21 = {

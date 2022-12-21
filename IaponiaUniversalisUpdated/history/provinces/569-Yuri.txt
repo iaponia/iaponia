@@ -15,7 +15,7 @@ capital = "Honjo"
 is_city = yes
 workshop = yes
 shrine = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -24,7 +24,7 @@ base_manpower = 3
 trade_goods = rice
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	temple = yes
 	marketplace = yes
 }

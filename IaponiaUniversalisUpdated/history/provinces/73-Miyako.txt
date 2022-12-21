@@ -24,7 +24,7 @@ marketplace = yes
 trade_goods = seaweed
 
 1523.8.25 = {
-	training_grounds = yes
+	barracks = yes
 	shipyard = yes
 }
 

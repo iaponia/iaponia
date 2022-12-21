@@ -14,7 +14,7 @@ culture = totomi_c
 religion = shinto
 capital = "Yokochi"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 3
@@ -35,7 +35,7 @@ trade_goods = tea
     controller = TKG
 	remove_core = ASH
 	remove_core = IMG
-	barracks = yes
+	training_grounds = yes
 }
 
 1600.9.13 = {

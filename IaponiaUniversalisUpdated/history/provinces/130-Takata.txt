@@ -14,7 +14,7 @@ religion = shinto
 capital = "Yoshida Koriyama"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 center_of_trade = 1
 
@@ -35,7 +35,7 @@ trade_goods = lacquerware
     owner = AMA
     add_core = AMA
 	layered_enclosures = yes
-	barracks = yes
+	training_grounds = yes
 	shrine = yes
 }
 

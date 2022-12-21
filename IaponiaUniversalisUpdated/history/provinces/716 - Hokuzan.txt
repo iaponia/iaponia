@@ -14,7 +14,7 @@ culture = okinawan_c
 religion = ryukyuan
 capital = "Nachijin"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 2
 base_production = 3

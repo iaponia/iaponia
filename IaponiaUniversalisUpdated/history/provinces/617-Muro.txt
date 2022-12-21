@@ -14,7 +14,7 @@ culture = kii_c
 religion = shinto
 capital = "Tanabe"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 2
 base_production = 2

@@ -14,7 +14,7 @@ culture = aki_c
 religion = shinto
 capital = "Kagamiyama"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shipyard = yes
 
 base_tax = 4
@@ -30,7 +30,7 @@ trade_goods = sake
 }
 
 1523.8.25 = {
-	barracks = yes
+	training_grounds = yes
 	wharf = yes
 	marketplace = yes
 }

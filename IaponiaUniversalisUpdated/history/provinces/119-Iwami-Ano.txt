@@ -35,7 +35,7 @@ trade_goods = gold
     add_core = AMA
     controller = AMA
     owner = AMA
-	training_grounds = yes
+	barracks = yes
 	magistrate = yes
 	remove_core = OUC
 }

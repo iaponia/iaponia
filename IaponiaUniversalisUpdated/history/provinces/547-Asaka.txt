@@ -15,7 +15,7 @@ religion = shinto
 capital = "Moriyama"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 4
@@ -29,7 +29,7 @@ trade_goods = paper
 }
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	temple = yes
 }
 

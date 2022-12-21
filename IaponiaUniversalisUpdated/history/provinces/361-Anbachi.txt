@@ -28,7 +28,7 @@ trade_goods = sake
     owner = STO
 	add_core = STO
 	remove_core = TKI
-	training_grounds = yes
+	barracks = yes
 	workshop = yes
 }
 
@@ -36,7 +36,7 @@ trade_goods = sake
     add_core = ODA
     controller = ODA
     owner = ODA
-	barracks = yes
+	training_grounds = yes
 	remove_core = STO
 }
 

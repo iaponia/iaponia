@@ -16,7 +16,7 @@ culture = bizen_c
 religion = nichirenshu
 capital = "Tsuneyama"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 4
@@ -44,7 +44,7 @@ trade_goods = fish
     owner = UKT
     controller = UKT
 	remove_core = URA
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

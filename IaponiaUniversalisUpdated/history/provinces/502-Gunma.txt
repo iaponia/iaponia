@@ -20,7 +20,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 3
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 trade_goods = lacquerware
 
@@ -33,7 +33,7 @@ trade_goods = lacquerware
     owner = NGN
 	main_keep = yes
 	stone_base = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

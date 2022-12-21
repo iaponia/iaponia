@@ -14,7 +14,7 @@ religion = shinto
 capital = "Kumamoto"
 is_city = yes
 fortified_mansion = yes 
-training_grounds = yes
+barracks = yes
 
 base_tax = 6
 base_production = 6
@@ -51,7 +51,7 @@ trade_goods = paper
     owner = KTO
 	main_keep = yes
 	stone_base = yes
-	barracks = yes
+	training_grounds = yes
 	temple = yes
 	remove_core = RZJ
 	remove_core = OTM

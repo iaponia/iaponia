@@ -28,7 +28,7 @@ trade_goods = fish
 	owner = ASA
 	remove_core = SBA
 	religion = jodoshinshu
-	training_grounds = yes
+	barracks = yes
 }
 
 1511.9.25 = {
@@ -36,7 +36,7 @@ trade_goods = fish
 }
 
 1546.5.19 = {
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

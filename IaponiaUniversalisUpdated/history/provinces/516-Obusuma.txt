@@ -15,7 +15,7 @@ religion = shinto
 capital = "Hachigata"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 6
 base_production = 4
@@ -33,7 +33,7 @@ trade_goods = sake
     owner = UES
     controller = UES
 	remove_core = OUE
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	temple = yes
 }

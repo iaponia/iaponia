@@ -14,7 +14,7 @@ religion = shinto
 capital = "Kadoya"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 3
@@ -27,6 +27,6 @@ trade_goods = fur
 }
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }

@@ -14,7 +14,7 @@ culture = seishu_c
 religion = shinto
 capital = "Wagu"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shipyard = yes
 
 base_tax = 3

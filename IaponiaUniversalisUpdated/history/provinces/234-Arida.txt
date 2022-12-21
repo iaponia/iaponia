@@ -14,7 +14,7 @@ culture = kii_c
 religion = shinto
 capital = "Arida"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 4
@@ -28,7 +28,7 @@ trade_goods = tea
     controller = HTK
 	add_core = HTK
 	remove_core = BHY
-	barracks = yes
+	training_grounds = yes
 	shipyard = yes
 	workshop = yes
 }

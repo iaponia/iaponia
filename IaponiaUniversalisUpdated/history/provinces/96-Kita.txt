@@ -24,7 +24,7 @@ trade_goods = bamboo
 1493.6.9 = {
     controller = IUM
     owner = IUM
-	training_grounds = yes
+	barracks = yes
 }
 
 1569.10.10 = {

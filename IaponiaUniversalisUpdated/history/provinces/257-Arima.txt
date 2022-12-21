@@ -18,7 +18,7 @@ is_city = yes
 base_tax = 3
 base_production = 4
 base_manpower = 4
-training_grounds = yes
+barracks = yes
 
 trade_goods = lumber
 

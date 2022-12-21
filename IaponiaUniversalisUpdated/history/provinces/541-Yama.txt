@@ -13,7 +13,7 @@ culture = iwashiro_c
 religion = shinto
 capital = "Niita"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 4
@@ -23,7 +23,7 @@ base_manpower = 5
 trade_goods = pottery
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

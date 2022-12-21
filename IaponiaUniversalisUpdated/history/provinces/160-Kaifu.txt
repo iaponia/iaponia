@@ -26,7 +26,7 @@ trade_goods = fish
     controller = MYI
     owner = MYI
 	remove_core = AHK
-	training_grounds = yes
+	barracks = yes
 }
 
 1582.6.21 = {

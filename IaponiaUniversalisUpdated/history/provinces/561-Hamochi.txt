@@ -27,5 +27,5 @@ trade_goods = salt
     controller = HNM
     owner = HNM
 	remove_core = EGU
-	training_grounds = yes
+	barracks = yes
 }

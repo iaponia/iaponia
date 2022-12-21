@@ -34,12 +34,12 @@ center_of_trade = 1
 	reformation_center = jodoshinshu
 	layered_enclosures = yes
 	temple = yes
-	training_grounds = yes
+	barracks = yes
 }
 
 1546.5.19 = {
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	marketplace = yes
 }

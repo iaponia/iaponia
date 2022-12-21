@@ -15,7 +15,7 @@ culture = seishu_c
 religion = shinto
 capital = "Ujii"
 is_city = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 4
@@ -36,7 +36,7 @@ trade_goods = rice
 	add_core = RKK
     controller = RKK
     owner = RKK
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

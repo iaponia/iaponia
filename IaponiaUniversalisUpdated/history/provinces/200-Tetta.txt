@@ -31,7 +31,7 @@ trade_goods = lumber
     add_core = AMA
     owner = AMA
     controller = AMA
-	training_grounds = yes
+	barracks = yes
 }
 
 1554.3.1 = {

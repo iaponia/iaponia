@@ -18,13 +18,13 @@ is_city = yes
 base_tax = 4
 base_production = 4
 base_manpower = 4
-training_grounds = yes
+barracks = yes
 workshop = yes
 
 trade_goods = tea
 
 1511.9.25 = {
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

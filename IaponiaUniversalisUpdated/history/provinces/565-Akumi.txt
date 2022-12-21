@@ -13,7 +13,7 @@ culture = mogami_c
 religion = shinto
 capital = "Sakata"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 3
@@ -22,7 +22,7 @@ base_manpower = 4
 trade_goods = fish
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 }
 
 1600.9.13 = {

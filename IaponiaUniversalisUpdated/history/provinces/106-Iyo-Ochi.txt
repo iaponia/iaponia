@@ -26,13 +26,13 @@ center_of_trade = 1
 
 1493.6.9 = {
 	shrine = yes
-	training_grounds = yes
+	barracks = yes
 	wharf = yes
 }
 
 1546.5.19 = {
 	dockyard = yes
-	barracks = yes
+	training_grounds = yes
 	merchant_guild = yes
 	temple = yes
 }

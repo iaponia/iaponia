@@ -25,7 +25,7 @@ trade_goods = sake
     controller = KGW
     owner = KGW
 	remove_core = HSK
-	training_grounds = yes
+	barracks = yes
 }
 
 1546.5.19 = {

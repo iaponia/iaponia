@@ -15,7 +15,7 @@ religion = shinto
 capital = "Yoshida"
 is_city = yes
 temple = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -25,7 +25,7 @@ trade_goods = horses
 
 1536.4.7 = {
 	arsenal = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

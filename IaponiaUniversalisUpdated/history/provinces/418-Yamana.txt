@@ -15,7 +15,7 @@ religion = shinto
 capital = "Mamushizuka"
 is_city = yes
 shipyard = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 4

@@ -15,7 +15,7 @@ culture = esshu_c
 religion = shinto
 capital = "Tochio"
 is_city = yes
-training_grounds = yes
+barracks = yes
 workshop = yes
 
 base_tax = 3
@@ -36,7 +36,7 @@ trade_goods = rice
     remove_core = NGO
     owner = UES
     controller = UES
-	barracks = yes
+	training_grounds = yes
 }
 
 1600.9.13 = {

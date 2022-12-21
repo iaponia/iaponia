@@ -15,7 +15,7 @@ religion = shinto
 capital = "Kurose"
 is_city = yes
 shipyard = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 3

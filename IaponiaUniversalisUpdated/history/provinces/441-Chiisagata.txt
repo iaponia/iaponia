@@ -16,7 +16,7 @@ religion = shinto
 capital = "Shioda"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 4
@@ -39,7 +39,7 @@ trade_goods = grain
 	main_keep = yes
 	stone_base = yes
 	arsenal = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

@@ -14,7 +14,7 @@ culture = shimosa_c
 religion = nichirenshu
 capital = "Moriya"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 3
@@ -23,7 +23,7 @@ base_manpower = 4
 trade_goods = rice
 
 1554.3.1 = {
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

@@ -16,7 +16,7 @@ religion = nichirenshu
 capital = "Kannabe"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 5
@@ -39,7 +39,7 @@ trade_goods = rice
 }
 
 1554.3.1 = {
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

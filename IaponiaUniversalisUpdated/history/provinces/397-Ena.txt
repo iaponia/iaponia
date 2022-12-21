@@ -16,7 +16,7 @@ religion = shinto
 capital = "Iwamura"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -30,7 +30,7 @@ trade_goods = lumber
     owner = STO
 	remove_core = TKI
 	layered_enclosures = yes
-	barracks = yes
+	training_grounds = yes
 	workshop = yes
 }
 

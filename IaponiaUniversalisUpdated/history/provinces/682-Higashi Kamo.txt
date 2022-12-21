@@ -15,7 +15,7 @@ religion = shinto
 capital = "Matsudaira"
 is_city = yes
 shrine = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 3
@@ -35,7 +35,7 @@ trade_goods = rice
     add_core = IMG
     controller = IMG
     owner = IMG
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

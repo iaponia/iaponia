@@ -15,7 +15,7 @@ culture = omi_c
 religion = shinto
 capital = "Minakuchi"
 is_city = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 5
@@ -29,7 +29,7 @@ trade_goods = pottery
 }
 
 1546.5.19 = {
-	barracks = yes
+	training_grounds = yes
 	workshop = yes
 }
 

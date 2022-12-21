@@ -19,7 +19,7 @@ is_city = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
-training_grounds = yes
+barracks = yes
 
 trade_goods = gold
 
@@ -34,7 +34,7 @@ trade_goods = gold
 }
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	mine_network = yes
 }
 

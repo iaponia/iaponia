@@ -32,13 +32,13 @@ trade_goods = pilgrimage_site
 1511.9.25 = {
 	layered_enclosures = yes
 	marketplace = yes
-	training_grounds = yes
+	barracks = yes
 }
 
 1569.10.10 = {
     controller = ENR
     owner = ENR
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

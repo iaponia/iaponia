@@ -16,7 +16,7 @@ religion = shinto
 capital = "Yanagawa"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 6
@@ -32,7 +32,7 @@ add_permanent_province_modifier = {
 
 1511.9.25 = {
 	layered_enclosures = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

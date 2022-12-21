@@ -18,7 +18,7 @@ religion = shinto
 capital = "Takatsu"
 is_city = yes
 marketplace = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -46,7 +46,7 @@ trade_goods = rice
     controller = MRI
     owner = MRI
 	remove_core = OUC
-	barracks = yes
+	training_grounds = yes
 	merchant_guild = yes
 	shrine = yes
 }

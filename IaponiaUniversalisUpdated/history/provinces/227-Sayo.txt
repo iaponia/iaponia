@@ -15,7 +15,7 @@ culture = harima_c
 religion = shinto
 capital = "Kozuki"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -34,7 +34,7 @@ trade_goods = grain
 }
 
 1546.5.19 = {
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

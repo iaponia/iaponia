@@ -14,7 +14,7 @@ culture = kai_c
 religion = nichirenshu
 capital = "Koyama"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 5
@@ -24,7 +24,7 @@ base_manpower = 3
 trade_goods = lacquerware
 
 1536.4.7 = {
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

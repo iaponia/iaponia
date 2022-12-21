@@ -1963,7 +1963,7 @@ add_latest_building = {
 			add_building = training_fields
 		}
 		else = {
-			add_building = barracks
+			add_building = training_grounds
 		}
 	]
 	[[sailors]
@@ -2053,7 +2053,7 @@ upgrade_building = {
 	]
 	[[manpower]
 		if = {
-			limit = { has_building = barracks }
+			limit = { has_building = training_grounds }
 			add_building = training_fields
 		}
 	]

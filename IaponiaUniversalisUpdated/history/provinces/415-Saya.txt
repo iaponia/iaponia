@@ -16,7 +16,7 @@ religion = shinto
 capital = "Kakegawa"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 4
@@ -40,7 +40,7 @@ trade_goods = bamboo
 	remove_core = ASH
 	remove_core = IMG
 	arsenal = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1600.9.13 = {

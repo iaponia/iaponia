@@ -16,7 +16,7 @@ capital = "Kuji"
 is_city = yes
 workshop = yes
 shrine = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4

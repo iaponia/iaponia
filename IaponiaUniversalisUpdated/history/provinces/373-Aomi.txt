@@ -16,7 +16,7 @@ religion = shinto
 capital = "Honshoji"
 is_city = yes
 temple = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 3

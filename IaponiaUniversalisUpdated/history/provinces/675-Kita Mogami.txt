@@ -13,7 +13,7 @@ culture = mogami_c
 religion = shinto
 capital = "Nagatoro"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 3

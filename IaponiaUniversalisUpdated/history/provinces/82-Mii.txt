@@ -14,7 +14,7 @@ culture = chikugo_c
 religion = shinto
 capital = "Kurume"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 5
@@ -26,7 +26,7 @@ base_manpower = 4
 }
 
 1554.3.1 = {
-	barracks = yes
+	training_grounds = yes
 	temple = yes
 }
 

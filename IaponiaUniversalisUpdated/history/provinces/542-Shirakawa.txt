@@ -14,7 +14,7 @@ culture = iwashiro_c
 religion = shinto
 capital = "Komine"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 marketplace = yes
 
@@ -25,7 +25,7 @@ base_manpower = 3
 trade_goods = grain
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	temple = yes
 	merchant_guild = yes
 	tea_house = yes

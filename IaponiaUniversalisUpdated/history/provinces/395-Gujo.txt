@@ -16,7 +16,7 @@ religion = shinto
 capital = "Sasawagi"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 3
@@ -29,7 +29,7 @@ trade_goods = cloth
     owner = STO
 	remove_core = TKI
 	layered_enclosures = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

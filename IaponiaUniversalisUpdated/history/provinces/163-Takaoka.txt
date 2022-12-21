@@ -25,7 +25,7 @@ trade_goods = lumber
     controller = TNO
     owner = TNO
 	remove_core = HSK
-	training_grounds = yes
+	barracks = yes
 }
 
 1546.5.19 = {
@@ -39,7 +39,7 @@ trade_goods = lumber
     owner = CSK
     controller = CSK
 	workshop = yes
-	barracks = yes
+	training_grounds = yes
 	remove_core = TNO
 }
 

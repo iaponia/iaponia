@@ -14,7 +14,7 @@ culture = kozuke_c
 religion = shinto
 capital = "Nagurumi"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 2
 base_production = 2

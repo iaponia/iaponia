@@ -6093,13 +6093,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_training_grounds"
+			name = "build_barracks"
 			position = { x = 9 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "training_grounds_cost"
+			name = "barracks_cost"
 			position = {x = 9 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -6109,13 +6109,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_barracks"
+			name = "build_training_grounds"
 			position = { x = 61 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "barracks_cost"
+			name = "training_grounds_cost"
 			position = {x = 61 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -6125,7 +6125,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "training_grounds_to_barracks_arrow"
+			name = "barracks_to_training_grounds_arrow"
 			position = { x = 53 y = 235 }
 			spriteType = "GFX_building_upgrade_icon"
 		}

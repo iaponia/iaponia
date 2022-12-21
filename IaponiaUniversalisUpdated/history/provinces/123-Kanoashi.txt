@@ -15,7 +15,7 @@ culture = iwami_c
 religion = shinto
 capital = "Tsuwano"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 2

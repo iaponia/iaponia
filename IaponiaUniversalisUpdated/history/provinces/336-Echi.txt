@@ -24,7 +24,7 @@ shrine = yes
 trade_goods = cloth
 
 1511.9.25 = {
-	training_grounds = yes
+	barracks = yes
 	workshop = yes
 }
 

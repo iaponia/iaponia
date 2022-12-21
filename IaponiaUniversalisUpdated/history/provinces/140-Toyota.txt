@@ -14,7 +14,7 @@ culture = awa_c
 religion = shinto
 capital = "Shishinohana"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 2
@@ -33,7 +33,7 @@ trade_goods = seaweed
     add_core = MYI
     owner = MYI
     controller = MYI
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

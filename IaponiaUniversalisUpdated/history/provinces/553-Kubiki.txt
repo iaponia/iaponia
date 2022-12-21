@@ -30,11 +30,11 @@ center_of_trade = 1
     controller = NGO
     owner = NGO
 	remove_core = EGU
-	training_grounds = yes
+	barracks = yes
 }
 
 1536.4.7 = {
-	barracks = yes
+	training_grounds = yes
 	temple = yes
 }
 

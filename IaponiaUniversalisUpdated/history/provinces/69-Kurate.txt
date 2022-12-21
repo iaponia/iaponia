@@ -14,7 +14,7 @@ culture = akizuki_c
 religion = shinto
 capital = "Takatoriyama"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -26,7 +26,7 @@ trade_goods = rice
 	add_core = AKZ
 	controller = AKZ
 	owner = AKZ
-	barracks = yes
+	training_grounds = yes
 	workshop = yes
 }
 

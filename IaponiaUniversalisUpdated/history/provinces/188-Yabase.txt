@@ -29,7 +29,7 @@ trade_goods = seaweed
     owner = AMA
     add_core = AMA
 	remove_core = HYN
-	training_grounds = yes
+	barracks = yes
 	layered_enclosures = yes
 }
 

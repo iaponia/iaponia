@@ -15,7 +15,7 @@ culture = kawachi_c
 religion = shinto
 capital = "Yao"
 is_city = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 5

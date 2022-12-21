@@ -14,7 +14,7 @@ culture = boso_c
 religion = shinto
 capital = "Katsuura"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -34,7 +34,7 @@ trade_goods = seaweed
     controller = STM
     owner = STM
 	remove_core = OAK
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

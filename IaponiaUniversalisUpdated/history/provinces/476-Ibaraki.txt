@@ -15,7 +15,7 @@ religion = shinto
 capital = "Mito"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 5
@@ -31,7 +31,7 @@ trade_goods = pottery
 
 1546.5.19 = {
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 	workshop = yes
 }
 

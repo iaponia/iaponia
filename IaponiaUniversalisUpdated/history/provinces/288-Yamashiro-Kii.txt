@@ -25,12 +25,12 @@ trade_goods = pottery
 
 1523.8.25 = {
 	layered_enclosures = yes
-	training_grounds = yes 
+	barracks = yes 
 }
 
 1569.10.10 = {
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

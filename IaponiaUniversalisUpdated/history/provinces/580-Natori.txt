@@ -26,7 +26,7 @@ trade_goods = gold
 	owner = MDT
 	controller = MDT
 	shrine = yes
-	training_grounds = yes
+	barracks = yes
 }
 
 1554.3.1 = {

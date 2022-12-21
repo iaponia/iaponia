@@ -15,7 +15,7 @@ culture = mino_c
 religion = shinto
 capital = "Sagiyama"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 5
@@ -29,7 +29,7 @@ trade_goods = dyes
     owner = STO
 	remove_core = TKI
 	temple = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

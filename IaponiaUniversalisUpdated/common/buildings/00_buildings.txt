@@ -140,7 +140,7 @@ outer_wards = {
 # Army Chain
 ###
 
-training_grounds = {
+barracks = {
 	cost = 75
 	time = 8
 	modifier = {
@@ -193,10 +193,10 @@ training_grounds = {
 	}
 }
 
-barracks = {
+training_grounds = {
 	cost = 200
 	time = 16
-	make_obsolete = training_grounds
+	make_obsolete = barracks
 	modifier = {
 		local_manpower_modifier = 1.0
 		regiment_recruit_speed = -0.4

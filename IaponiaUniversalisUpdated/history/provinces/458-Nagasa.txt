@@ -25,7 +25,7 @@ trade_goods = bamboo
 	add_core = OAK
 	owner = OAK
 	controller = OAK
-	training_grounds = yes
+	barracks = yes
 }
 
 1546.5.19 = {

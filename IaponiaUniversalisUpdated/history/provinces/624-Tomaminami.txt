@@ -35,7 +35,7 @@ trade_goods = grain
     controller = URA
 	remove_core = AKM
 	layered_enclosures = yes
-	training_grounds = yes
+	barracks = yes
 }
 
 1536.4.7 = {
@@ -47,7 +47,7 @@ trade_goods = grain
 1569.10.10 = {
     owner = URA
     controller = URA
-	barracks = yes
+	training_grounds = yes
 	remove_core = AMA
 }
 

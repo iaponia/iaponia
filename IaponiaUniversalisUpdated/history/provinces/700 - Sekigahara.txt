@@ -16,7 +16,7 @@ religion = shinto
 capital = "Ogaki"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 4
@@ -39,7 +39,7 @@ trade_goods = rice
     owner = ODA
 	add_core = HSB
 	remove_core = STO
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

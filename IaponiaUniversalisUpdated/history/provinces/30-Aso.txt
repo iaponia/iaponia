@@ -24,7 +24,7 @@ base_manpower = 3
 trade_goods = pilgrimage_site
 
 1511.9.25 = {
-	training_grounds = yes
+	barracks = yes
 }
 
 1582.6.21 = {

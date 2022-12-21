@@ -18,7 +18,7 @@ is_city = yes
 base_tax = 4
 base_production = 2
 base_manpower = 2
-training_grounds = yes
+barracks = yes
 shipyard = yes
 
 trade_goods = fish
@@ -32,7 +32,7 @@ trade_goods = fish
     add_core = CSK
     controller = CSK
     owner = CSK
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

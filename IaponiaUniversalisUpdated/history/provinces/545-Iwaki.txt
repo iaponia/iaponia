@@ -15,7 +15,7 @@ capital = "Ishinomaki"
 is_city = yes
 shrine = yes
 workshop = yes 
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -25,6 +25,6 @@ trade_goods = metal
 
 1569.10.10 = {
 	temple = yes
-	barracks = yes
+	training_grounds = yes
 	wharf = yes
 }

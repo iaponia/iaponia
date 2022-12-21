@@ -16,7 +16,7 @@ culture = bishu_c
 religion = nichirenshu
 capital = "Hayashima"
 is_city = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 5
@@ -36,7 +36,7 @@ trade_goods = rice
     owner = MIM
     controller = MIM
 	add_core = MIM
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

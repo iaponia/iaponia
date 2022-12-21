@@ -17,7 +17,7 @@ religion = shinto
 capital = "Miki"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 5
@@ -37,7 +37,7 @@ trade_goods = lacquerware
 }
 
 1546.5.19 = {
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

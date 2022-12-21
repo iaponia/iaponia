@@ -17,7 +17,7 @@ religion = shinto
 capital = "Himeji"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 center_of_trade = 1
@@ -43,7 +43,7 @@ trade_goods = sake
     owner = HSB
 	remove_core = AKM
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 	temple = yes
 	marketplace = yes
 }

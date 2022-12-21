@@ -17,7 +17,7 @@ religion = shinto
 capital = "Arioka"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 5
@@ -43,7 +43,7 @@ trade_goods = cloth
     add_core = MYI
     controller = MYI
     owner = MYI
-	barracks = yes
+	training_grounds = yes
 	temple = yes
 	remove_core = HSK
 }

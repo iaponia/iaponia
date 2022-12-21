@@ -14,7 +14,7 @@ religion = shinto
 capital = "Iwadeyama"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 4
@@ -38,7 +38,7 @@ trade_goods = lacquerware
 	remove_core = OSK
 	main_keep = yes
 	temple = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

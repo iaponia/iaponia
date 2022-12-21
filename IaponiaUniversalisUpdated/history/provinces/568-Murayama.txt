@@ -14,7 +14,7 @@ religion = shinto
 capital = "Shimizu"
 is_city = yes
 workshop = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -23,7 +23,7 @@ base_manpower = 4
 trade_goods = rice
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	granary = yes
 }

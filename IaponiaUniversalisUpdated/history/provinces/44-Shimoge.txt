@@ -16,7 +16,7 @@ religion = shinto
 capital = "Nakatsu"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -49,5 +49,5 @@ trade_goods = bamboo
 	remove_core = KUM
 	shrine = yes
 	marketplace = yes
-	barracks = yes
+	training_grounds = yes
 }

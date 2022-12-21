@@ -15,7 +15,7 @@ religion = shinto
 capital = "Tsutsui"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 5
@@ -31,7 +31,7 @@ trade_goods = paper
 
 1554.3.1 = {
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 	tea_house = yes
 }
 

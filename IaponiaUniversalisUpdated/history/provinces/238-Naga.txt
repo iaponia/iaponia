@@ -16,7 +16,7 @@ capital = "Negoro"
 is_city = yes
 fortified_mansion = yes
 shrine = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -38,7 +38,7 @@ trade_goods = lacquerware
 	add_core = HTK
 	remove_core = BHY
 	trade_goods = firearms
-	barracks = yes
+	training_grounds = yes
 	workshop = yes
 	temple = yes 
 }

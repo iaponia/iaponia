@@ -29,7 +29,7 @@ trade_goods = pottery
     controller = KBK
     owner = KBK
 	remove_core = ISK
-	training_grounds = yes
+	barracks = yes
 	religion = jodoshinshu
 }
 

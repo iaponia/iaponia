@@ -11,13 +11,13 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_barracks"
-		texturefile = "gfx//interface//buildings//army//barracks.tga"
+		name = "GFX_training_grounds"
+		texturefile = "gfx//interface//buildings//army//training_grounds.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_training_grounds"
-		texturefile = "gfx//interface//buildings//army//training_grounds.tga"
+		name = "GFX_barracks"
+		texturefile = "gfx//interface//buildings//army//barracks.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {

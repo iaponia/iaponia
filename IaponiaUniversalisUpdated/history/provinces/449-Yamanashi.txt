@@ -28,13 +28,13 @@ center_of_trade = 1
 
 1536.4.7 = {
 	layered_enclosures = yes
-	training_grounds = yes
+	barracks = yes
 	merchant_guild = yes
 }
 
 1569.10.10 = {
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	temple = yes
 }

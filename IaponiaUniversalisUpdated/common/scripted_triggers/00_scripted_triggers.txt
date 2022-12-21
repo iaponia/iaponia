@@ -981,8 +981,8 @@ has_manpower_building_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = has_manpower_building_trigger_tt
 		OR = {
-			has_building = barracks
 			has_building = training_grounds
+			has_building = barracks
 		}
 	}
 }
@@ -1598,7 +1598,7 @@ gained_development_from_any_building = {
 		has_province_flag = built_dev_marketplace
 		has_province_flag = built_dev_workshop
 		has_province_flag = built_dev_temple
-		has_province_flag = built_dev_barracks
+		has_province_flag = built_dev_training_grounds
 		has_province_flag = built_dev_shipyard
 		has_province_flag = built_dev_courthouse
 		has_province_flag = built_dev_dock

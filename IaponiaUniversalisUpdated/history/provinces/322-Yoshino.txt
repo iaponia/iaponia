@@ -14,7 +14,7 @@ religion = shinto
 capital = "Yoshino"
 is_city = yes
 temple = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 2
 base_production = 2

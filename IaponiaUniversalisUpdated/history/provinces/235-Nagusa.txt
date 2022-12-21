@@ -14,7 +14,7 @@ culture = kii_c
 religion = shinto
 capital = "Ota"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 4
@@ -35,7 +35,7 @@ trade_goods = lacquerware
 	trade_goods = firearms
 	workshop = yes
 	arsenal = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

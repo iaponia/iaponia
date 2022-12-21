@@ -28,7 +28,7 @@ trade_goods = paper
     owner = MYI
 	remove_core = HSK
 	marketplace = yes
-	training_grounds = yes
+	barracks = yes
 }
 
 1582.6.21 = {

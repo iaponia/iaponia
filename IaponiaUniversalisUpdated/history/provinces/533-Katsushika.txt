@@ -14,7 +14,7 @@ culture = shimosa_c
 religion = shinto
 capital = "Konodai"
 is_city = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 4
@@ -35,7 +35,7 @@ trade_goods = rice
     controller = OTA
 	remove_core = OUE
 	remove_core = OAK
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

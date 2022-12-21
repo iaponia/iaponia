@@ -63,7 +63,7 @@ technology = {
 	# Tech 4
 	year = 1485
 
-	training_grounds = yes
+	barracks = yes
 	military_tactics = 0.25
 	supply_limit = 0.5
 }
@@ -133,7 +133,7 @@ technology = {
 
 	year = 1530
 
-	barracks = yes
+	training_grounds = yes
 	main_keep = yes
 	land_morale = 0.5
 

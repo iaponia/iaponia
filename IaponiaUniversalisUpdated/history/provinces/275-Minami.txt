@@ -30,7 +30,7 @@ trade_goods = mainland_trade
     owner = MYI
 	remove_core = HSK
 	layered_enclosures = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

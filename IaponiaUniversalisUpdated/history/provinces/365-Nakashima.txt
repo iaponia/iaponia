@@ -35,7 +35,7 @@ trade_goods = lacquerware
     controller = IOD
     owner = IOD
 	remove_core = SBA
-	training_grounds = yes
+	barracks = yes
 }
 
 1546.5.19 = {
@@ -50,7 +50,7 @@ trade_goods = lacquerware
 	remove_core = IOD
 	remove_core = KOD
 	workshop = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

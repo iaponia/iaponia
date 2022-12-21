@@ -16,7 +16,7 @@ religion = shinto
 capital = "Kawagoe"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 shrine = yes
 
@@ -42,7 +42,7 @@ center_of_trade = 1
 }
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	temple = yes
 	merchant_guild = yes

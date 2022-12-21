@@ -14,7 +14,7 @@ culture = awa_c
 religion = nichirenshu
 capital = "Marugame"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 4
@@ -40,7 +40,7 @@ trade_goods = paper
     add_core = CSK
     controller = CSK
     owner = CSK
-	barracks = yes
+	training_grounds = yes
 	remove_core = MYI
 	add_core = SGO
 }

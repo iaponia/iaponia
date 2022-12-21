@@ -16,7 +16,7 @@ religion = shinto
 capital = "Honjo"
 is_city = yes
 shrine = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 6
 base_production = 5

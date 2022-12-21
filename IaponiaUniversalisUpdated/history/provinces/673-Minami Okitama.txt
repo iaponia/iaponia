@@ -16,7 +16,7 @@ religion = shinto
 capital = "Yonezawa"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 5
@@ -38,7 +38,7 @@ trade_goods = cloth
 
 1582.6.21 = {
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

@@ -13,7 +13,7 @@ culture = iwashiro_c
 religion = shinto
 capital = "Wakamatsu"
 is_city = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 shrine = yes
 
@@ -24,7 +24,7 @@ base_manpower = 4
 trade_goods = gold
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

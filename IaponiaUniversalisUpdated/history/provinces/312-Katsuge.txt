@@ -14,7 +14,7 @@ culture = yamato_c
 religion = shinto
 capital = "Takada"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 5
@@ -38,7 +38,7 @@ trade_goods = bamboo
 	add_core = MNA
     controller = MYI
     owner = MYI
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	tea_house = yes
 }

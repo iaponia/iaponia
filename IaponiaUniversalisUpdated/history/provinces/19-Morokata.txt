@@ -13,7 +13,7 @@ culture = hyuga_c
 religion = shinto
 capital = "Miyakono"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 3

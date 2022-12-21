@@ -18,7 +18,7 @@ is_city = yes
 base_tax = 4
 base_production = 4
 base_manpower = 3
-training_grounds = yes
+barracks = yes
 
 trade_goods = tea
 
@@ -39,7 +39,7 @@ trade_goods = tea
     controller = MRI
     owner = MRI
 	shrine = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

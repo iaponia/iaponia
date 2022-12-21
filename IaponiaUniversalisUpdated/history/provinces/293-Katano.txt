@@ -16,7 +16,7 @@ religion = shinto
 capital = "Tsuda"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 5
@@ -45,7 +45,7 @@ trade_goods = tea
     add_core = HTK
     owner = HTK
     controller = HTK
-	barracks = yes
+	training_grounds = yes
 	workshop = yes
 }
 

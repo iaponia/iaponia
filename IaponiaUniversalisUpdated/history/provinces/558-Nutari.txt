@@ -16,7 +16,7 @@ religion = shinto
 capital = "Shibata"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 shipyard = yes
 
 base_tax = 5
@@ -37,7 +37,7 @@ trade_goods = rice
 }
 
 1536.4.7 = {
-	barracks = yes
+	training_grounds = yes
 	shrine = yes
 }
 

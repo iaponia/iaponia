@@ -14,7 +14,7 @@ culture = buzen_c
 religion = shinto
 capital = "Kawaradake"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 3

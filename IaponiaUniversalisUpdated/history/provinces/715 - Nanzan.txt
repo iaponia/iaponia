@@ -23,7 +23,7 @@ base_manpower = 2
 trade_goods = dyes
 
 1523.8.25 = {
-	training_grounds = yes
+	barracks = yes
 }
 
 1615.1.1 = {

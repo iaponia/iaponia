@@ -14,7 +14,7 @@ religion = shinto
 capital = "Oda"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 4
@@ -31,7 +31,7 @@ trade_goods = sake
     owner = STK
     controller = STK
     add_core = STK
-	barracks = yes
+	training_grounds = yes
 }
 
 1600.9.13 = {

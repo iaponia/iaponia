@@ -13,7 +13,7 @@ culture = seishu_c
 religion = shinto
 capital = "Haze"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4

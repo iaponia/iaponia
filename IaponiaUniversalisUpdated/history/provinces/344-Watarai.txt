@@ -18,7 +18,7 @@ base_tax = 6
 base_production = 4
 base_manpower = 4
 temple = yes
-training_grounds = yes
+barracks = yes
 workshop = yes
 
 trade_goods = pilgrimage_site

@@ -23,7 +23,7 @@ base_manpower = 3
 trade_goods = cloth
 
 1493.6.9 = {
-	training_grounds = yes
+	barracks = yes
 	academy = yes
 }
 
@@ -44,7 +44,7 @@ trade_goods = cloth
 
 1569.10.10 = {
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

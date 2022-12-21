@@ -14,7 +14,7 @@ culture = mikawa_c
 religion = shinto
 capital = "Nishio"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shipyard = yes
 
 base_tax = 4 
@@ -40,7 +40,7 @@ trade_goods = tea
 1546.5.19 = {
     owner = KOD
     controller = KOD
-	barracks = yes
+	training_grounds = yes
 }
 
 1554.3.1 = {

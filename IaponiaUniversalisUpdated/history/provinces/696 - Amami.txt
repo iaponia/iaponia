@@ -15,7 +15,7 @@ religion = ryukyuan
 capital = "Kasari"
 is_city = yes
 shrine = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 3

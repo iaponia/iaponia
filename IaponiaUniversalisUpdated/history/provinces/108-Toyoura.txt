@@ -15,7 +15,7 @@ religion = shinto
 capital = "Kushisaki"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 4

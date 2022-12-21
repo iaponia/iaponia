@@ -14,7 +14,7 @@ culture = omi_c
 religion = shinto
 capital = "Shigaraki"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 5

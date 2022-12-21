@@ -15,7 +15,7 @@ capital = "Yamagata"
 is_city = yes
 fortified_mansion = yes
 shrine = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 6
 base_production = 6
@@ -33,7 +33,7 @@ center_of_trade = 1
 	main_keep = yes
 	stone_base = yes
 	temple = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	workshop = yes
 }

@@ -29,7 +29,7 @@ trade_goods = bamboo
 1511.9.25 = {
     controller = BHY
     owner = BHY
-	training_grounds = yes
+	barracks = yes
 }
 
 1536.4.7 = {

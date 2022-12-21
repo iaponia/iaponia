@@ -14,7 +14,7 @@ culture = aki_c
 religion = shinto
 capital = "Kanayama"
 is_city = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 
 base_tax = 4
@@ -30,7 +30,7 @@ trade_goods = lacquerware
 }
 
 1511.9.25 = {
-	barracks = yes
+	training_grounds = yes
 }
 
 1523.8.25 = {

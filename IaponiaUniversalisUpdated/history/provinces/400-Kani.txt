@@ -16,7 +16,7 @@ culture = mino_c
 religion = shinto
 capital = "Akechiosayama"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 4
@@ -30,7 +30,7 @@ trade_goods = pottery
     controller = STO
     owner = STO
 	remove_core = TKI
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	workshop = yes
 }

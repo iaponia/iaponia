@@ -15,7 +15,7 @@ religion = shinto
 capital = "Oka"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 4
@@ -29,7 +29,7 @@ trade_goods = bamboo
 
 1554.3.1 = {
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

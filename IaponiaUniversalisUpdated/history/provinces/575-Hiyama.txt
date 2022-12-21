@@ -16,7 +16,7 @@ capital = "Hiyama"
 is_city = yes
 fortified_mansion = yes
 shrine = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 5
@@ -31,7 +31,7 @@ trade_goods = metal
 
 1554.3.1 = {
 	main_keep = yes
-	barracks = yes
+	training_grounds = yes
 	temple = yes
 	remove_core = MNO
 }

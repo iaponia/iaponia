@@ -14,7 +14,7 @@ culture = suwa_c
 religion = shinto
 capital = "Yamabe"
 is_city = yes
-training_grounds = yes
+barracks = yes
 marketplace = yes
 workshop = yes
 
@@ -31,7 +31,7 @@ trade_goods = cloth
 }
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	merchant_guild = yes
 }

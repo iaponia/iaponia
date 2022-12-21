@@ -17,7 +17,7 @@ is_city = yes
 base_tax = 4
 base_production = 3
 base_manpower = 3
-training_grounds = yes
+barracks = yes
 
 trade_goods = seaweed
 

@@ -14,7 +14,7 @@ culture = hitachi_c
 religion = shinto
 capital = "Tsuchiura"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 3
@@ -25,7 +25,7 @@ trade_goods = rice
 1546.5.19 = {
 	trade_goods = firearms
 	workshop = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

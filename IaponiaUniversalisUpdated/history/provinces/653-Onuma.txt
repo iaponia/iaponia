@@ -19,7 +19,7 @@ base_production = 2
 base_manpower = 3
 
 1523.8.25 = {
-	training_grounds = yes
+	barracks = yes
 }
 
 trade_goods = cloth

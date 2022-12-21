@@ -35,7 +35,7 @@ trade_goods = fish
 	merchant_guild = yes
 	drydock = yes
 	wharf = yes
-	training_grounds = yes
+	barracks = yes
 }
 
 1600.9.13 = {

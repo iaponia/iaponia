@@ -28,7 +28,7 @@ trade_goods = dyes
     controller = IMG
     add_core = IMG
 	remove_core = SBA
-	training_grounds = yes
+	barracks = yes
 }
 
 1569.10.10 = {

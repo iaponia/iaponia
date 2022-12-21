@@ -15,7 +15,7 @@ religion = shinto
 capital = "Kawakami"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 5
 base_production = 5
@@ -33,7 +33,7 @@ trade_goods = pottery
 
 1554.3.1 = {
 	arsenal = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

@@ -15,7 +15,7 @@ culture = mino_c
 religion = shinto
 capital = "Imasu"
 is_city = yes
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 base_tax = 4

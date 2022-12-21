@@ -14,7 +14,7 @@ culture = tosa_c
 religion = shinto
 capital = "Tsuno"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 center_of_trade = 1
 
@@ -41,7 +41,7 @@ trade_goods = sake
     add_core = CSK
     owner = CSK
     controller = CSK
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 	merchant_guild = yes
 	remove_core = TNO

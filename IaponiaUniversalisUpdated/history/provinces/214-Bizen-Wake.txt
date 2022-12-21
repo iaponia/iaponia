@@ -30,7 +30,7 @@ trade_goods = pottery
     owner = AKM
     controller = AKM
 	remove_core = YMN
-	training_grounds = yes
+	barracks = yes
 }
 
 1523.8.25 = {

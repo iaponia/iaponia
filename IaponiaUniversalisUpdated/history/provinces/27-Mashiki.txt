@@ -22,7 +22,7 @@ base_manpower = 2
 trade_goods = horses
 
 1511.9.25 = {
-	training_grounds = yes
+	barracks = yes
 }
 
 1582.6.21 = {

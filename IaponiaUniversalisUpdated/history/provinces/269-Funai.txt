@@ -19,7 +19,7 @@ is_city = yes
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-training_grounds = yes
+barracks = yes
 shrine = yes
 
 trade_goods = tea
@@ -34,7 +34,7 @@ trade_goods = tea
     add_core = MYI
     controller = MYI
     owner = MYI
-	barracks = yes
+	training_grounds = yes
 }
 
 1569.10.10 = {

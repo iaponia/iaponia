@@ -17,14 +17,14 @@ is_city = yes
 base_tax = 4
 base_production = 4
 base_manpower = 3
-training_grounds = yes
+barracks = yes
 shipyard = yes
 
 trade_goods = lacquerware
 
 1536.4.7 = {
 	wharf = yes
-	barracks = yes
+	training_grounds = yes
 }
 
 1582.6.21 = {

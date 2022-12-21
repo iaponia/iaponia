@@ -14,7 +14,7 @@ culture = shimotsuke_c
 religion = shinto
 capital = "Gion"
 is_city = yes
-training_grounds = yes
+barracks = yes
 workshop = yes
 
 base_tax = 4
@@ -32,7 +32,7 @@ trade_goods = rice
     owner = YUK
     controller = YUK
 	remove_core = KGA
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

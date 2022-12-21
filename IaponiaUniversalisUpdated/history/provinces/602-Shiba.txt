@@ -14,7 +14,7 @@ religion = shinto
 capital = "Kosuiji"
 is_city = yes
 temple = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 3
 base_production = 3
@@ -23,7 +23,7 @@ base_manpower = 2
 trade_goods = gold
 
 1569.10.10 = {
-	barracks = yes
+	training_grounds = yes
 }
 
 1600.9.13 = {

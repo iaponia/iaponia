@@ -15,7 +15,7 @@ religion = nichirenshu
 capital = "Sogo"
 is_city = yes
 fortified_mansion = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 4
 base_production = 3
@@ -34,7 +34,7 @@ trade_goods = grain
     controller = MYI
     owner = MYI
 	layered_enclosures = yes
-	barracks = yes
+	training_grounds = yes
 	arsenal = yes
 }
 

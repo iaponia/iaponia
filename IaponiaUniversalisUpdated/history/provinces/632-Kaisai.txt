@@ -31,7 +31,7 @@ trade_goods = rice
     controller = KOD
     owner = KOD
 	remove_core = SBA
-	training_grounds = yes
+	barracks = yes
 }
 
 1569.10.10 = {

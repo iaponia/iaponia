@@ -14,7 +14,7 @@ culture = awa_c
 religion = shinto
 capital = "Hikata"
 is_city = yes
-training_grounds = yes
+barracks = yes
 
 base_tax = 2
 base_production = 2
@@ -40,7 +40,7 @@ trade_goods = fish
     controller = SGO
     owner = SGO
 	remove_core = MYI
-	barracks = yes
+	training_grounds = yes
 }
 
 1600.9.13 = {

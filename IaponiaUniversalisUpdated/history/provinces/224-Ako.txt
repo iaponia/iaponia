@@ -33,7 +33,7 @@ trade_goods = fish
     add_core = URA
     owner = URA
     controller = URA
-	training_grounds = yes
+	barracks = yes
 }
 
 1569.10.10 = {

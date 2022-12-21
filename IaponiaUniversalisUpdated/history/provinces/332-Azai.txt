@@ -37,7 +37,7 @@ trade_goods = sake
 }
 
 1569.10.10 = {
-	castle = yes
+	fortress= yes
 }
 
 1582.6.21 = {

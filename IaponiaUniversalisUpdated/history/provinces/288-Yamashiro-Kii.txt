@@ -48,7 +48,7 @@ trade_goods = pottery
     controller = TKG
     owner = TKG
 	remove_core = AKC
-	castle = yes
+	fortress= yes
 	religion = kirishitan
 }
 

@@ -39,6 +39,6 @@ center_of_trade = 1
 }
 
 1600.9.13 = {
-	castle = yes
+	fortress= yes
 	outer_wards = yes
 }

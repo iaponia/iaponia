@@ -41,7 +41,7 @@ trade_goods = pottery
 	add_core = GAM
     controller = GAM
     owner = GAM
-	castle = yes
+	fortress= yes
 	academy = yes
 	remove_core = RKK
 }

@@ -452,8 +452,8 @@ militarized_aristocracy_i = {
 			factor = 0.5
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_has_castle
-				has_building = castle
+				tooltip = tooltip_has_fortress
+				has_building = fortress
 			}
 		}
 		modifier = {

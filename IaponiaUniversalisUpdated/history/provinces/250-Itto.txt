@@ -53,7 +53,7 @@ trade_goods = sake
     controller = HKN
     owner = HKN
 	remove_core = HSB
-	castle = yes
+	fortress= yes
 	outer_wall = yes
 	remove_core = KRD
 }

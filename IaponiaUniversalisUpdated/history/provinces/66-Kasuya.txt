@@ -44,7 +44,7 @@ trade_goods = mainland_trade
 }
 
 1582.6.21 = {
-	castle = yes
+	fortress= yes
 }
 
 1600.9.13 = {

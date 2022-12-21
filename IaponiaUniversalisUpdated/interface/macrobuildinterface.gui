@@ -1024,13 +1024,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_castle"
+			name = "build_fortress"
 			position = { x = 177 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "castle_cost"
+			name = "fortress_cost"
 			position = {x = 177 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1040,7 +1040,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "main_keep_to_castle_arrow"
+			name = "main_keep_to_fortress_arrow"
 			position = { x = 169 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}
@@ -1062,7 +1062,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "castle_to_citadel_arrow"
+			name = "fortress_to_citadel_arrow"
 			position = { x = 221 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}

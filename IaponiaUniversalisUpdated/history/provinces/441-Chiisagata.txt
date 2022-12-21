@@ -47,6 +47,6 @@ trade_goods = grain
     owner = SNA
     controller = SNA
 	remove_core = TKD
-	castle = yes
+	fortress= yes
 	outer_wards = yes
 }

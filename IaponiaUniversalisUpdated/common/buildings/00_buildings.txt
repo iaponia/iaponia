@@ -71,13 +71,13 @@ main_keep = {
 	}
 }
 
-castle = {
+fortress = {
 	cost = 900
 	time = 36
 	make_obsolete = main_keep
 	modifier = {
 		fort_level = 6
-		local_defensiveness = 0.05
+		land_forcelimit = 3
 	}
 
 	onmap = yes
@@ -91,7 +91,7 @@ castle = {
 citadel = {
 	cost = 1200
 	time = 48
-	make_obsolete = castle
+	make_obsolete = fortress
 	modifier = {
 		fort_level = 8
 		local_defensiveness = 0.1
@@ -115,7 +115,7 @@ outer_wall = {
 	build_trigger = {
 		OR = {
 			has_building = main_keep
-			has_building = castle
+			has_building = fortress
 			has_building = citadel
 			has_building = castle_palace
 		}
@@ -136,7 +136,7 @@ outer_wards = {
 	make_obsolete = outer_wall
 	build_trigger = {
 		OR = {
-			has_building = castle
+			has_building = fortress
 			has_building = citadel
 			has_building = castle_palace
 		}

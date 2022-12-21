@@ -18,7 +18,7 @@ is_city = yes
 base_tax = 2
 base_production = 3
 base_manpower = 1
-temple = yes
+shrine_town = yes
 workshop = yes
 
 trade_goods = pilgrimage_site

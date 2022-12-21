@@ -36,7 +36,7 @@ trade_goods = lumber
 }
 
 1569.10.10 = {
-	temple = yes
+	shrine_town = yes
 }
 
 1600.9.13 = {

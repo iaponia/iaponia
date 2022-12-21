@@ -27,7 +27,7 @@ trade_goods = pilgrimage_site
 1546.5.19 = {
 	training_grounds = yes
 	arsenal = yes
-	temple = yes
+	shrine_town = yes
 	wharf = yes
 }
 

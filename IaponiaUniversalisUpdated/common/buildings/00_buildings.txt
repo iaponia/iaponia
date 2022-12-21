@@ -913,7 +913,7 @@ shrine = {
 	}
 }
 
-temple = {
+shrine_town = {
 	cost = 250
 	time = 20
 	make_obsolete = shrine

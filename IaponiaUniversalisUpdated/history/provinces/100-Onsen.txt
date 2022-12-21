@@ -30,7 +30,7 @@ trade_goods = cloth
 1546.5.19 = {
 	layered_enclosures = yes
 	wharf = yes
-	temple = yes
+	shrine_town = yes
 }
 
 1600.9.13 = {

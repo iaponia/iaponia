@@ -167,17 +167,17 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_temple"
+		name = "GFX_shrine_town"
 		texturefile = "gfx//interface//buildings//order//temple_shinto.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_temple_kirishitan"
+		name = "GFX_shrine_town_kirishitan"
 		texturefile = "gfx//interface//buildings//order//temple_catholic.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_temple_mahayana"
+		name = "GFX_shrine_town_mahayana"
 		texturefile = "gfx//interface//buildings//order//temple_mahayana.tga"
 		loadType = "INGAME"
 	}

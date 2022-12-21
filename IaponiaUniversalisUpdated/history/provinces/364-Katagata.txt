@@ -28,7 +28,7 @@ trade_goods = dyes
     controller = STO
     owner = STO
 	remove_core = TKI
-	temple = yes
+	shrine_town = yes
 	training_grounds = yes
 }
 

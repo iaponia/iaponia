@@ -32,7 +32,7 @@ trade_goods = cloth
 }
 
 1546.5.19 = {
-	temple = yes
+	shrine_town = yes
 	merchant_guild = yes
 }
 

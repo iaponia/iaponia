@@ -19,7 +19,7 @@ is_city = yes
 base_tax = 6
 base_production = 6
 base_manpower = 4
-temple = yes
+shrine_town = yes
 tea_house = yes
 
 trade_goods = pilgrimage_site

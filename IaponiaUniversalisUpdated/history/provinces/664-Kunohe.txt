@@ -25,7 +25,7 @@ base_manpower = 2
 trade_goods = horses
 
 1546.5.19 = {
-	temple = yes
+	shrine_town = yes
 	ranch = yes
 }
 

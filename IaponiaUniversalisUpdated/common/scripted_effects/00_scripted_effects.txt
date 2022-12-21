@@ -1954,7 +1954,7 @@ add_latest_building = {
 			add_building = cathedral
 		}
 		else = {
-			add_building = temple
+			add_building = shrine_town
 		}
 	]
 	[[manpower]
@@ -2047,7 +2047,7 @@ upgrade_building = {
 	]
 	[[tax]
 		if = {
-			limit = { has_building = temple }
+			limit = { has_building = shrine_town }
 			add_building = cathedral
 		}
 	]

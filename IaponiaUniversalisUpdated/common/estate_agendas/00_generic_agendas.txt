@@ -1,11 +1,11 @@
 
 #Triggers: any province has the basic conditions, country has adm tech 4
-estate_church_build_temple_in_y = {
+estate_church_build_shrine_town_in_y = {
 	can_select = {
 		adm_tech = 4
 		any_owned_province = {
 			is_state_core = root
-			NOT = { has_building = temple }
+			NOT = { has_building = shrine_town }
 			OR = {
 				AND = {
 					NOT = { has_building = shrine }
@@ -26,7 +26,7 @@ estate_church_build_temple_in_y = {
 				any_owned_province = {
 					is_state_core = root
 					base_tax = 4
-					NOT = { has_building = temple }
+					NOT = { has_building = shrine_town }
 					OR = {
 						AND = {
 							NOT = { has_building = shrine }
@@ -45,7 +45,7 @@ estate_church_build_temple_in_y = {
 			any_owned_province = {
 				is_state_core = root
 				base_tax = 7
-				NOT = { has_building = temple }
+				NOT = { has_building = shrine_town }
 				OR = {
 					AND = {
 						NOT = { has_building = shrine }
@@ -67,7 +67,7 @@ estate_church_build_temple_in_y = {
 	}
 	pre_effect = {
 		set_variable = {
-			which = estate_church_build_temple_in_y_var
+			which = estate_church_build_shrine_town_in_y_var
 			value = 0
 		}
 		random_owned_province = {
@@ -76,12 +76,12 @@ estate_church_build_temple_in_y = {
 				NOT = { has_building = cathedral }
 				OR = {
 					AND = {
-						NOT = { has_building = temple }
+						NOT = { has_building = shrine_town }
 						num_free_building_slots = 1
 					}
 					AND = {
 						ROOT = { adm_tech = 19 }
-						has_building = temple
+						has_building = shrine_town
 					}
 				}
 			}
@@ -94,12 +94,12 @@ estate_church_build_temple_in_y = {
 				NOT = { has_building = cathedral }
 				OR = {
 					AND = {
-						NOT = { has_building = temple }
+						NOT = { has_building = shrine_town }
 						num_free_building_slots = 1
 					}
 					AND = {
 						ROOT = { adm_tech = 19 }
-						has_building = temple
+						has_building = shrine_town
 					}
 				}
 			}
@@ -112,12 +112,12 @@ estate_church_build_temple_in_y = {
 				NOT = { has_building = cathedral }
 				OR = {
 					AND = {
-						NOT = { has_building = temple }
+						NOT = { has_building = shrine_town }
 						num_free_building_slots = 1
 					}
 					AND = {
 						ROOT = { adm_tech = 19 }
-						has_building = temple
+						has_building = shrine_town
 					}
 				}
 			}
@@ -126,11 +126,11 @@ estate_church_build_temple_in_y = {
 		event_target:agenda_province = {
 			if = {
 				limit = {
-					NOT = { has_building = temple }
+					NOT = { has_building = shrine_town }
 				}
 				ROOT = {
 					set_variable = {
-						which = estate_church_build_temple_in_y_var
+						which = estate_church_build_shrine_town_in_y_var
 						value = 1
 					}
 				}
@@ -138,7 +138,7 @@ estate_church_build_temple_in_y = {
 			else = {
 				ROOT = {
 					set_variable = {
-						which = estate_church_build_temple_in_y_var
+						which = estate_church_build_shrine_town_in_y_var
 						value = 2
 					}
 				}
@@ -157,7 +157,7 @@ estate_church_build_temple_in_y = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_church_build_temple_in_y_var
+					which = estate_church_build_shrine_town_in_y_var
 					value = 2
 				}
 			}
@@ -168,7 +168,7 @@ estate_church_build_temple_in_y = {
 		else = {
 			event_target:agenda_province = {
 				OR = {
-					has_building = temple
+					has_building = shrine_town
 					has_building = cathedral
 				}
 			}

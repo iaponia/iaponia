@@ -14,7 +14,7 @@ culture = sunshu_c
 religion = nichirenshu
 capital = "Omiya"
 is_city = yes
-temple = yes
+shrine_town = yes
 workshop = yes
 
 base_tax = 4

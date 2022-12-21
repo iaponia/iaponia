@@ -31,7 +31,7 @@ trade_goods = paper
     controller = HGJ
     owner = HGJ
 	remove_core = BHY
-	temple = yes
+	shrine_town = yes
 	barracks = yes
 }
 

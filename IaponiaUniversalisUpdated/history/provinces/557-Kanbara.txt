@@ -52,7 +52,7 @@ center_of_trade = 1
     remove_core = NGO
     owner = UES
     controller = UES
-	temple = yes
+	shrine_town = yes
 	drydock = yes
 }
 

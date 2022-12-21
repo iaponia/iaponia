@@ -37,7 +37,7 @@ trade_goods = paper
 
 1569.10.10 = {
 	tea_house = yes
-	temple = yes
+	shrine_town = yes
 }
 
 center_of_trade = 1

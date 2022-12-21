@@ -666,7 +666,7 @@ on_province_religion_converted_estate_privileges_effect = {
 		else_if = {
 			limit = {
 				has_owner_religion = yes
-				has_building = temple
+				has_building = shrine_town
 				NOT = { has_province_modifier = estate_nobles_religious_conscription_temple }
 			}
 			add_province_modifier = {
@@ -682,7 +682,7 @@ on_province_religion_converted_estate_privileges_effect = {
 					has_province_modifier = estate_nobles_religious_conscription_cathedral
 				}
 			}
-			remove_province_modifier = estate_nobles_religious_conscription_temple
+			remove_province_modifier = estate_nobles_religious_conscription_shrine_town
 			remove_province_modifier = estate_nobles_religious_conscription_cathedral
 		}
 	}
@@ -980,16 +980,16 @@ on_province_owner_change_estate_privileges_effect = {
 				name = estate_nobles_religious_conscription_cathedral
 				duration = -1
 			}
-			remove_province_modifier = estate_nobles_religious_conscription_temple
+			remove_province_modifier = estate_nobles_religious_conscription_shrine_town
 		}
 		else_if = {
 			limit = {
 				has_owner_religion = yes
-				has_building = temple
-				NOT = { has_province_modifier = estate_nobles_religious_conscription_temple }
+				has_building = shrine_town
+				NOT = { has_province_modifier = estate_nobles_religious_conscription_shrine_town }
 			}
 			add_province_modifier = {
-				name = estate_nobles_religious_conscription_temple
+				name = estate_nobles_religious_conscription_shrine_town
 				duration = -1
 			}
 			remove_province_modifier = estate_nobles_religious_conscription_cathedral
@@ -997,11 +997,11 @@ on_province_owner_change_estate_privileges_effect = {
 		else_if = {
 			limit = {
 				OR = {
-					has_province_modifier = estate_nobles_religious_conscription_temple
+					has_province_modifier = estate_nobles_religious_conscription_shrine_town
 					has_province_modifier = estate_nobles_religious_conscription_cathedral
 				}
 			}
-			remove_province_modifier = estate_nobles_religious_conscription_temple
+			remove_province_modifier = estate_nobles_religious_conscription_shrine_town
 			remove_province_modifier = estate_nobles_religious_conscription_cathedral
 		}
 	}
@@ -1588,13 +1588,13 @@ on_province_tax_building_built_estate_privileges_effect = {
 					religion = mahayana
 					religion = vajrayana
 				}
-				has_estate_privilege = estate_church_karma_temples
+				has_estate_privilege = estate_church_karma_shrine_towns
 			}
 		}
 		FROM = {
 			if = {
 				limit = {
-					has_government_attribute = buffed_monastic_temples
+					has_government_attribute = buffed_monastic_shrine_towns
 				}
 				add_karma = 5
 			}
@@ -1607,7 +1607,7 @@ on_province_tax_building_built_estate_privileges_effect = {
 		limit = {
 			FROM = {
 				religion = kirishitan
-				has_estate_privilege = estate_church_influence_temples
+				has_estate_privilege = estate_church_influence_shrine_towns
 			}
 		}
 		FROM = {
@@ -1630,16 +1630,16 @@ on_province_tax_building_built_estate_privileges_effect = {
 				name = estate_nobles_religious_conscription_cathedral
 				duration = -1
 			}
-			remove_province_modifier = estate_nobles_religious_conscription_temple
+			remove_province_modifier = estate_nobles_religious_conscription_shrine_town
 		}
 		else_if = {
 			limit = {
 				has_owner_religion = yes
-				has_building = temple
-				NOT = { has_province_modifier = estate_nobles_religious_conscription_temple }
+				has_building = shrine_town
+				NOT = { has_province_modifier = estate_nobles_religious_conscription_shrine_town }
 			}
 			add_province_modifier = {
-				name = estate_nobles_religious_conscription_temple
+				name = estate_nobles_religious_conscription_shrine_town
 				duration = -1
 			}
 			remove_province_modifier = estate_nobles_religious_conscription_cathedral
@@ -1647,11 +1647,11 @@ on_province_tax_building_built_estate_privileges_effect = {
 		else_if = {
 			limit = {
 				OR = {
-					has_province_modifier = estate_nobles_religious_conscription_temple
+					has_province_modifier = estate_nobles_religious_conscription_shrine_town
 					has_province_modifier = estate_nobles_religious_conscription_cathedral
 				}
 			}
-			remove_province_modifier = estate_nobles_religious_conscription_temple
+			remove_province_modifier = estate_nobles_religious_conscription_shrine_town
 			remove_province_modifier = estate_nobles_religious_conscription_cathedral
 		}
 	}
@@ -1666,13 +1666,13 @@ on_province_tax_building_destroyed_estate_privileges_effect = {
 					religion = mahayana
 					religion = vajrayana
 				}
-				has_estate_privilege = estate_church_karma_temples
+				has_estate_privilege = estate_church_karma_shrine_towns
 			}
 		}
 		FROM = {
 			if = {
 				limit = {
-					has_government_attribute = buffed_monastic_temples
+					has_government_attribute = buffed_monastic_shrine_towns
 				}
 				add_karma = -5
 			}
@@ -1685,7 +1685,7 @@ on_province_tax_building_destroyed_estate_privileges_effect = {
 		limit = {
 			FROM = {
 				religion = kirishitan
-				has_estate_privilege = estate_church_influence_temples
+				has_estate_privilege = estate_church_influence_shrine_towns
 			}
 		}
 		FROM = {
@@ -1708,16 +1708,16 @@ on_province_tax_building_destroyed_estate_privileges_effect = {
 				name = estate_nobles_religious_conscription_cathedral
 				duration = -1
 			}
-			remove_province_modifier = estate_nobles_religious_conscription_temple
+			remove_province_modifier = estate_nobles_religious_conscription_shrine_town
 		}
 		else_if = {
 			limit = {
 				has_owner_religion = yes
-				has_building = temple
-				NOT = { has_province_modifier = estate_nobles_religious_conscription_temple }
+				has_building = shrine_town
+				NOT = { has_province_modifier = estate_nobles_religious_conscription_shrine_town }
 			}
 			add_province_modifier = {
-				name = estate_nobles_religious_conscription_temple
+				name = estate_nobles_religious_conscription_shrine_town
 				duration = -1
 			}
 			remove_province_modifier = estate_nobles_religious_conscription_cathedral
@@ -1725,11 +1725,11 @@ on_province_tax_building_destroyed_estate_privileges_effect = {
 		else_if = {
 			limit = {
 				OR = {
-					has_province_modifier = estate_nobles_religious_conscription_temple
+					has_province_modifier = estate_nobles_religious_conscription_shrine_town
 					has_province_modifier = estate_nobles_religious_conscription_cathedral
 				}
 			}
-			remove_province_modifier = estate_nobles_religious_conscription_temple
+			remove_province_modifier = estate_nobles_religious_conscription_shrine_town
 			remove_province_modifier = estate_nobles_religious_conscription_cathedral
 		}
 	}

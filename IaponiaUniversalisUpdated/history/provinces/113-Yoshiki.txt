@@ -32,7 +32,7 @@ center_of_trade = 1
 }
 
 1523.8.25 = {
-	temple = yes
+	shrine_town = yes
 }
 
 1554.3.1 = {

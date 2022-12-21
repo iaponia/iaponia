@@ -15,7 +15,7 @@ culture = mikawa_c
 religion = shinto
 capital = "Honshoji"
 is_city = yes
-temple = yes
+shrine_town = yes
 barracks = yes
 
 base_tax = 4

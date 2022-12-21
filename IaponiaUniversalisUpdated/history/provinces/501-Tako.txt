@@ -14,7 +14,7 @@ culture = kozuke_c
 religion = shinto
 capital = "Ichigosan"
 is_city = yes
-temple = yes
+shrine_town = yes
 
 base_tax = 3
 base_production = 3

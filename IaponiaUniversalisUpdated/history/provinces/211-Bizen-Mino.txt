@@ -45,7 +45,7 @@ trade_goods = metal
     owner = UKT
     controller = UKT
 	remove_core = URA
-	temple = yes
+	shrine_town = yes
 	workshop = yes
 }
 

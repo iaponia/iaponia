@@ -16,7 +16,7 @@ religion = shinto
 capital = "Dazaifu"
 is_city = yes
 shrine = yes
-temple = yes
+shrine_town = yes
 magistrate = yes
 
 base_tax = 5

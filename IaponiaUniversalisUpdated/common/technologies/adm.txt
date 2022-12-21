@@ -85,7 +85,7 @@ technology = {
 	# Tech 9
 	year = 1530
 	
-	temple = yes
+	shrine_town = yes
 	allowed_idea_groups = 3
 }
 

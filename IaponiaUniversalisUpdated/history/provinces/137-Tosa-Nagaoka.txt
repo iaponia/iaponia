@@ -41,5 +41,5 @@ trade_goods = paper
 
 1582.6.21 = {
 	main_keep = yes
-	temple = yes
+	shrine_town = yes
 }

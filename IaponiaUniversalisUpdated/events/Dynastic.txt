@@ -16,7 +16,7 @@ country_event = {
 		any_owned_province = {
 			num_free_building_slots = 1
 			NOT = { has_building = shrine }
-			NOT = { has_building = temple }
+			NOT = { has_building = shrine_town }
 		}
 		has_government_attribute = heir
 	}
@@ -31,7 +31,7 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				NOT = {
-					has_building = temple
+					has_building = shrine_town
 				}
 				NOT = { has_building = shrine }
 				num_free_building_slots = 1

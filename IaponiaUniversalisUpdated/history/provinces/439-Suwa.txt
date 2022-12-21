@@ -13,7 +13,7 @@ culture = suwa_c
 religion = shinto
 capital = "Takei"
 is_city = yes
-temple = yes
+shrine_town = yes
 marketplace = yes
 
 base_tax = 5

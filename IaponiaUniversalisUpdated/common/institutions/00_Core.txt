@@ -991,8 +991,8 @@ momoyama_culture_i = {
 			factor = 0.5
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_has_temple
-				has_building = temple
+				tooltip = tooltip_has_shrine_town
+				has_building = shrine_town
 			}
 		}
 		modifier = {

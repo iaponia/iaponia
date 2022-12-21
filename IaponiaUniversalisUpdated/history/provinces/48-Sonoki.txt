@@ -40,7 +40,7 @@ trade_goods = mainland_trade
     controller = OMR
     add_core = OMR
 	remove_core = AIM
-	temple = yes
+	shrine_town = yes
 	academy = yes
 	religion = kirishitan
 }

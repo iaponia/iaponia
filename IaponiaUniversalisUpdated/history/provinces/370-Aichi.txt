@@ -18,7 +18,7 @@ culture = owari_c
 religion = shinto
 capital = "Inabaji"
 is_city = yes
-temple = yes
+shrine_town = yes
 
 base_tax = 4
 base_production = 3

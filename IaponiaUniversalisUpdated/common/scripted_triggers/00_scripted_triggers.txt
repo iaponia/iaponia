@@ -954,7 +954,7 @@ has_tax_building_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = has_tax_building_trigger_tt
 		OR = {
-			has_building = temple
+			has_building = shrine_town
 			has_building = shrine
 		}
 	}
@@ -1597,7 +1597,7 @@ gained_development_from_any_building = {
 	OR = {
 		has_province_flag = built_dev_marketplace
 		has_province_flag = built_dev_workshop
-		has_province_flag = built_dev_temple
+		has_province_flag = built_dev_shrine_town
 		has_province_flag = built_dev_training_grounds
 		has_province_flag = built_dev_shipyard
 		has_province_flag = built_dev_courthouse

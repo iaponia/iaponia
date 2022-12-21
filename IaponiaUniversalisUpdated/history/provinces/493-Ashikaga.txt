@@ -15,7 +15,7 @@ culture = shimotsuke_c
 religion = shinto
 capital = "Ashikaga"
 is_city = yes
-temple = yes
+shrine_town = yes
 magistrate = yes
 
 base_tax = 5

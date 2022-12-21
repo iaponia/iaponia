@@ -29,7 +29,7 @@ trade_goods = pottery
     owner = HGJ
 	remove_core = TGS
 	religion = jodoshinshu
-	temple = yes
+	shrine_town = yes
 	marketplace = yes
 }
 

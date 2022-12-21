@@ -34,6 +34,6 @@ center_of_trade = 1
 	main_keep = yes
 	training_grounds = yes
 	arsenal = yes
-	temple = yes
+	shrine_town = yes
 	merchant_guild = yes
 }

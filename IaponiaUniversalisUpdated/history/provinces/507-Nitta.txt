@@ -28,7 +28,7 @@ trade_goods = grain
     add_core = HJO
     controller = HJO
     owner = HJO
-	temple = yes
+	shrine_town = yes
 	arsenal = yes
 }
 

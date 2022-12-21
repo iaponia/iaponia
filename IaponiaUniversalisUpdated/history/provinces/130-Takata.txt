@@ -56,5 +56,5 @@ trade_goods = lacquerware
 }
 
 1582.6.21 = {
-	temple = yes
+	shrine_town = yes
 }

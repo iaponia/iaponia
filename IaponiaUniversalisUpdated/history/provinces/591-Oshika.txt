@@ -13,7 +13,7 @@ culture = rikuzen_c
 religion = shinto
 capital = "Ishimaki"
 is_city = yes
-temple = yes
+shrine_town = yes
 
 base_tax = 5
 base_production = 4

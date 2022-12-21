@@ -15,7 +15,7 @@ religion = shinto
 capital = "Utsunomiya"
 is_city = yes
 fortified_mansion = yes
-temple = yes
+shrine_town = yes
 marketplace = yes
 
 base_tax = 6

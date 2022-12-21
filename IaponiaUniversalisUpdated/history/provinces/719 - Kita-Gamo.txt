@@ -30,7 +30,7 @@ trade_goods = seaweed
 center_of_trade = 1
 
 1511.9.25 = {
-	temple = yes
+	shrine_town = yes
 	merchant_guild = yes
 }
 

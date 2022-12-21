@@ -23,7 +23,7 @@ trade_goods = sake
 
 1536.4.7 = {
 	marketplace = yes
-	temple = yes
+	shrine_town = yes
 	workshop = yes
 }
 

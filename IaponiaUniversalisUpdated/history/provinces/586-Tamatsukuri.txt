@@ -37,7 +37,7 @@ trade_goods = lacquerware
 	controller = DTE
 	remove_core = OSK
 	main_keep = yes
-	temple = yes
+	shrine_town = yes
 	training_grounds = yes
 	arsenal = yes
 }

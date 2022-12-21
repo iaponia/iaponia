@@ -31,7 +31,7 @@ trade_goods = paper
 1546.5.19 = {
 	training_grounds = yes
 	arsenal = yes
-	temple = yes
+	shrine_town = yes
 }
 
 1615.1.1 = {

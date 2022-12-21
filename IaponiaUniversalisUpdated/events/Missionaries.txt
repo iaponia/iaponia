@@ -7,7 +7,7 @@ province_event = {
 
 	trigger = {
 		has_missionary = yes
-		NOT = { has_building = temple }
+		NOT = { has_building = shrine_town }
 		NOT = { has_province_modifier = missionary_falls_ill }
 		owner = { adm_power = 25 }
 	}

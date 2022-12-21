@@ -5869,13 +5869,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_temple"
+			name = "build_shrine_town"
 			position = { x = 259 y = 32 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "temple_cost"
+			name = "shrine_town_cost"
 			position = {x = 259 y = 82 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -5885,7 +5885,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "shrine_to_temple_arrow"
+			name = "shrine_to_shrine_town_arrow"
 			position = { x = 251 y = 41 }
 			spriteType = "GFX_building_upgrade_icon"
 		}

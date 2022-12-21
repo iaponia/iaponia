@@ -27,7 +27,7 @@ trade_goods = pilgrimage_site
     controller = ASA
 	owner = ASA
 	remove_core = SBA
-	temple = yes
+	shrine_town = yes
 	barracks = yes
 }
 

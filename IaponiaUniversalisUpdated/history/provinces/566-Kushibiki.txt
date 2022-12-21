@@ -26,7 +26,7 @@ trade_goods = pilgrimage_site
 	owner = MGM
 	controller = MGM
 	remove_core = DHJ
-	temple = yes
+	shrine_town = yes
 }
 
 1615.1.1 = {

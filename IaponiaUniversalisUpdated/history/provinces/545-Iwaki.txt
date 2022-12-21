@@ -24,7 +24,7 @@ base_manpower = 3
 trade_goods = metal
 
 1569.10.10 = {
-	temple = yes
+	shrine_town = yes
 	training_grounds = yes
 	wharf = yes
 }

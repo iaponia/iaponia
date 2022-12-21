@@ -38,7 +38,7 @@ trade_goods = dyes
 	remove_core = OUE
 	remove_core = NRT
 	main_keep = yes
-	outer_wall = yes
+	stone_base = yes
 	barracks = yes
 	arsenal = yes
 }

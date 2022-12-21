@@ -35,7 +35,7 @@ trade_goods = bamboo
     owner = STM
 	remove_core = OAK
 	main_keep = yes
-	outer_wall = yes
+	stone_base = yes
 	barracks = yes
 	arsenal = yes
 }

@@ -6323,13 +6323,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_outer_wall"
+			name = "build_stone_base"
 			position = { x = 269 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "outer_wall_cost"
+			name = "stone_base_cost"
 			position = {x = 269 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}

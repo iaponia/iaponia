@@ -614,7 +614,7 @@
  building_main_keep: "Main Keep"
  building_fortress: "Fortress"
  building_citadel: "Citadel"
- building_outer_wall: "Outer Wall"
+ building_stone_base: "Stone Base and Moats"
  building_outer_wards: "Outer Wards"
  building_training_grounds: "Training Grounds"
  building_barracks: "Barracks"

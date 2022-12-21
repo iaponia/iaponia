@@ -36,7 +36,7 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_outer_wall"
+		name = "GFX_stone_base"
 		texturefile = "gfx//interface//buildings//defense//outer_wall.tga"
 		loadType = "INGAME"
 	}

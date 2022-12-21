@@ -38,7 +38,7 @@ center_of_trade = 1
 
 1569.10.10 = {
 	main_keep = yes
-	outer_wall = yes
+	stone_base = yes
 	workshop = yes
 }
 

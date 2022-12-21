@@ -40,7 +40,7 @@ trade_goods = mainland_trade
     controller = OTM
     owner = OTM
 	remove_core = OUC
-	outer_wall = yes
+	stone_base = yes
 }
 
 1582.6.21 = {

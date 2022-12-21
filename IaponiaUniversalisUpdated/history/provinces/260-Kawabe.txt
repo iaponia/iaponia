@@ -52,7 +52,7 @@ trade_goods = cloth
     controller = AAI
     owner = AAI
 	main_keep = yes
-	outer_wall = yes
+	stone_base = yes
 	arsenal = yes
 	tea_house = yes
 }

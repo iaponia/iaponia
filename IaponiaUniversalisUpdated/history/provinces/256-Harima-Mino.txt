@@ -42,7 +42,7 @@ trade_goods = lacquerware
 
 1569.10.10 = {
 	main_keep = yes
-	outer_wall = yes
+	stone_base = yes
 }
 
 1582.6.21 = {

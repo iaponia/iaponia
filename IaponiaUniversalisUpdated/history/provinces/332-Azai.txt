@@ -33,7 +33,7 @@ trade_goods = sake
 
 1554.3.1 = {
 	main_keep = yes
-	outer_wall = yes
+	stone_base = yes
 }
 
 1569.10.10 = {

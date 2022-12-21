@@ -192,7 +192,7 @@ technology = {
 	artillery_shock = 0.15
 	arsenal = yes
 	fortress= yes
-	outer_wall = yes
+	stone_base = yes
 
 	enable = off_tohoku_cavalry
 	enable = def_tohoku_cavalry

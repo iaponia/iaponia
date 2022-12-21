@@ -54,7 +54,7 @@ trade_goods = sake
     owner = HKN
 	remove_core = HSB
 	fortress= yes
-	outer_wall = yes
+	stone_base = yes
 	remove_core = KRD
 }
 

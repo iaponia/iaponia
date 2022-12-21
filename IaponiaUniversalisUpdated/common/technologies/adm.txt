@@ -2,214 +2,240 @@ monarch_power = ADM
 
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
-	global_tax_modifier = 0.1
-	yearly_corruption = -0.05
+	production_efficiency = 0.2
 }
 
-# Pre-era techs
-technology = {
+technology = { 
 	# Tech 0
-	year = 1390
+	year = 1467
+	expects_institution = {
+		sominrigaku = 0.25
+	}
 	
-	tribal_kingdom = yes
-	tribal_federation = yes 
+	temple = yes
+	may_support_rebels = yes
 }
 
 technology = {
 	# Tech 1
-	year = 1420
+	year = 1500
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.1
+	}
 	
-	despotic_monarchy = yes	
-	theocratic_government = yes
-	merchant_republic = yes
-}
-
-technology = {
-	# Tech 2
-	year = 1450
-	
-	may_support_rebels = yes
-	# shugo_monarchy = yes
-	# kokujin_monarchy = yes
-}
-
-technology = {
-	# Tech 3
-	year = 1476
-	
-	shrine = yes
+	garden = yes
 	allowed_idea_groups = 1
 }
 
 technology = {
-	# Tech 4
-	year = 1485
+	# Tech 2
+	year = 1515
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.2
+	}
 	
-	may_force_march = yes
+	toll_roads = yes
 	production_efficiency = 0.05
 }
 
 technology = {
-	# Tech 5
-	year = 1494
+	# Tech 3
+	year = 1530
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.1
+	}
 	
-	# shugo_daimyo_monarchy = yes
-	governing_capacity = 50
-}
-
-technology = {
-	# Tech 6
-	year = 1503
-	
-	tea_house = yes
+	temple_complex = yes
 	allowed_idea_groups = 2
 }
 
 technology = {
-	# Tech 7
-	year = 1512
+	# Tech 4
+	year = 1540
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.2
+	}
 	
-	administrative_efficiency = 0.1
-	development_cost_modifier = 0.1
-}
-
-technology = {
-	# Tech 8
-	year = 1521
-	
-	production_efficiency = 0.05
+	magistrate = yes
 	governing_capacity = 50
 }
 
 technology = {
-	# Tech 9
-	year = 1530
+	# Tech 5
+	year = 1550
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.1
+	}
 	
-	temple = yes
+	irrigation = yes
 	allowed_idea_groups = 3
 }
 
 technology = {
-	# Tech 10
-	year = 1539
+	# Tech 6
+	year = 1560
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.3
+		nanban_trade = 0.1
+	}
 	
-	# sengoku_monarchy = yes
-	production_efficiency = 0.05
-}
-
-technology = {
-	# Tech 11
-	year = 1548
-	
-	mine_network = yes
-	granary = yes
-}
-
-technology = {
-	# Tech 12
-	year = 1557
-	
-	theater = yes
-	brewery = yes
+	governing_capacity = 50
 	allowed_idea_groups = 4
 }
 
 technology = {
-	# Tech 13
-	year = 1566
+	# Tech 7
+	year = 1570
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.3
+		nanban_trade = 0.2
+	}
 	
-	magistrate = yes
+	highway = yes
+	production_efficiency = 0.05
+}
+
+technology = {
+	# Tech 8
+	year = 1580
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.3
+		nanban_trade = 0.3
+	}
+	
+	shrine_town = yes
+}
+
+technology = {
+	# Tech 9
+	year = 1590
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.3
+		nanban_trade = 0.3
+		kokudaka_system = 0.1
+	}
+	
+	tea_retreat = yes
+	theater = yes
+	allowed_idea_groups = 5
+}
+
+technology = {
+	# Tech 10
+	year = 1600
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.3
+		nanban_trade = 0.3
+		kokudaka_system = 0.2
+	}
+	
+	governing_capacity = 50
+	administrative_efficiency = 0.1
+	development_cost_modifier = -0.1
+}
+
+technology = {
+	# Tech 11
+	year = 1615
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.3
+		nanban_trade = 0.3
+		kokudaka_system = 0.3
+	}
+	
+	post_stations = yes
+	production_efficiency = 0.05
+}
+
+technology = {
+	# Tech 12
+	year = 1630
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.3
+		nanban_trade = 0.3
+		kokudaka_system = 0.3
+		rangaku = 0.1
+	}
+	
 	governing_capacity = 100
+	allowed_idea_groups = 6
+}
+
+technology = {
+	# Tech 13
+	year = 1645
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.3
+		nanban_trade = 0.3
+		kokudaka_system = 0.3
+		rangaku = 0.3
+	}
+	
+	administrative_efficiency = 0.1
+	development_cost_modifier = -0.1
 }
 
 technology = {
 	# Tech 14
-	year = 1575
+	year = 1660
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.3
+		nanban_trade = 0.3
+		kokudaka_system = 0.3
+		rangaku = 0.5
+	}
 	
-	rice_exchange = yes
-	administrative_efficiency = 0.25
-	development_cost_modifier = 0.1
-}
-
-technology = {
-	# Tech 15
-	year = 1584
-	
-	academy = yes
-	allowed_idea_groups = 5
-	# late_sengoku_monarchy = yes
-}
-
-technology = {
-	# Tech 16
-	year = 1593
-	
-	family_temple = yes
-	governing_capacity = 150
-}
-
-technology = {
-	# Tech 17
-	year = 1602
-	
-	production_efficiency = 0.05
-}
-
-technology = {
-	# Tech 18
-	year = 1611
-	
-	allowed_idea_groups	= 6
-}
-
-technology = {
-	# Tech 19
-	year = 1620
-	
-	mint = yes
-	production_efficiency = 0.05
-}
-
-technology = {
-	# Tech 20
-	year = 1629
-	
-	# daimyo_monarchy = yes
-	governing_capacity = 150
-}
-
-technology = {
-	# Tech 21
-	year = 1644
-
-	administrative_efficiency = 0.15
-	development_cost_modifier = 0.1
-}
-
-technology = {
-	# Tech 22
-	year = 1659
-
-	production_efficiency = 0.05
-}
-
-technology = {
-	# Tech 23
-	year = 1674
-
-	production_efficiency = 0.05
-}
-
-technology = {
-	# Tech 24
-	year = 1689
-
 	governing_capacity = 250
 }
 
 technology = {
-	# Tech 25
-	year = 1704
-
+	# Tech 15
+	year = 1680
+	expects_institution = {
+		sominrigaku = 0.5
+		higashiyama_culture = 0.3
+		gekokujo = 0.3
+		gunsmithing = 0.3
+		nanban_trade = 0.3
+		kokudaka_system = 0.3
+		rangaku = 0.5
+	}
+	
 	production_efficiency = 0.05
 }

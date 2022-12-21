@@ -1046,28 +1046,6 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_citadel"
-			position = { x = 229 y = 323 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-
-		instantTextBoxType={
-			name = "citadel_cost"
-			position = {x = 229 y = 373 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"
-		}
-
-		iconType = {
-			name = "fortress_to_citadel_arrow"
-			position = { x = 221 y = 332 }
-			spriteType = "GFX_building_upgrade_icon"
-		}
-
-		checkboxType = {
 			name = "build_outer_wall"
 			position = { x = 294 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).

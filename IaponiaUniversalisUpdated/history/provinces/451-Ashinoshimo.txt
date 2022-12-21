@@ -46,10 +46,6 @@ center_of_trade = 1
 	arsenal = yes
 }
 
-1582.6.21 = {
-	citadel = yes
-}
-
 1600.9.13 = {
 	add_core = TKG
 	add_core = OKB

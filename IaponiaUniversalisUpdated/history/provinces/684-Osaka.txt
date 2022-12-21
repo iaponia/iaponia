@@ -63,7 +63,6 @@ center_of_trade = 1
     controller = TOY
     owner = TOY
 	remove_core = HSB
-	citadel = yes
 	outer_wards = yes
 }
 

@@ -88,23 +88,6 @@ fortress = {
 	}
 }
 
-citadel = {
-	cost = 1200
-	time = 48
-	make_obsolete = fortress
-	modifier = {
-		fort_level = 8
-		local_defensiveness = 0.1
-	}
-
-	onmap = yes
-	influencing_fort = yes
-
-	ai_will_do = {
-		factor = 3000
-	}
-}
-
 ###
 # Defense Chain
 ###
@@ -116,7 +99,6 @@ outer_wall = {
 		OR = {
 			has_building = main_keep
 			has_building = fortress
-			has_building = citadel
 			has_building = castle_palace
 		}
 	}
@@ -137,7 +119,6 @@ outer_wards = {
 	build_trigger = {
 		OR = {
 			has_building = fortress
-			has_building = citadel
 			has_building = castle_palace
 		}
 	}
@@ -1675,7 +1656,7 @@ castle_palace = {
 	time = 60
 	build_trigger = {
 		is_capital = yes
-		has_building = citadel
+		has_building = fortress
 	}
 	modifier = {
 		fort_level = 3

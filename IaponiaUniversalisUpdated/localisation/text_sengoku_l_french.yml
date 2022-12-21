@@ -633,6 +633,7 @@
  building_shrine_shinto: "Shrine"
  building_shrine_christian: "Mission"
  building_shrine_mahayana: "Shrine"
+ building_shrine_town: "Shrine Town"
  building_shrine_town_shinto: "Shrine Town"
  building_shrine_town_christian: "Church"
  building_shrine_town_mahayana: "Monastery"

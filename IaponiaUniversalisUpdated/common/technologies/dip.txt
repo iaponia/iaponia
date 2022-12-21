@@ -148,7 +148,7 @@ technology = {
 	year = 1584
 	
 	trade_efficiency = 0.05
-	post_roads = yes
+	post_stations = yes
 	trade_range = 50
 	range = 125
 	num_accepted_cultures = 1

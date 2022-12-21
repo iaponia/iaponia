@@ -171,7 +171,7 @@ technology = {
 		kokudaka_system = 0.3
 	}
 	
-	post_roads = yes
+	post_stations = yes
 	production_efficiency = 0.05
 }
 

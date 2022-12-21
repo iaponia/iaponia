@@ -749,7 +749,7 @@ highways = {
 	}
 }
 
-post_roads = {
+post_stations = {
 	cost = 250
 	time = 36
 	make_obsolete = highways

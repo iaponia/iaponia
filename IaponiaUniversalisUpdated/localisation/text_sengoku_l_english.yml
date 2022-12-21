@@ -524,7 +524,7 @@
  building_free_market: "Free Market"
  building_workshop: "Workshop"
  building_toll_roads: "Toll Roads"
- building_post_roads: "Post Roads"
+ building_post_stations: "Post Stations"
  building_highways: "Highways"
  building_shrine: "Shrine" # needed until/unless the ones below replace it
  building_shrine_shinto: "Shrine"

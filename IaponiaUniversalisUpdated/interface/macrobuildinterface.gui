@@ -771,13 +771,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_post_roads"
+			name = "build_post_stations"
 			position = { x = 354 y = 129 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "post_roads_cost"
+			name = "post_stations_cost"
 			position = {x = 354 y = 179 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -787,7 +787,7 @@ guiTypes = {
 		}
 
 		iconType = {
-			name = "highways_to_post_roads_arrow"
+			name = "highways_to_post_stations_arrow"
 			position = { x = 346 y = 138 }
 			spriteType = "GFX_building_upgrade_icon"
 		}

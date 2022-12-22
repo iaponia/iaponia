@@ -49,7 +49,6 @@ trade_goods = pottery
 	add_core = KNH
     controller = KNH
     owner = KNH
-	arsenal = yes
 	remove_core = NWA
 	remove_core = SGR
 	remove_core = SMZ

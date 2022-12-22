@@ -36,7 +36,6 @@ center_of_trade = 1
 	owner = NNB
 	controller = NNB
 	training_grounds = yes
-	arsenal = yes
 	shrine_town = yes
 	merchant_guild = yes
 }

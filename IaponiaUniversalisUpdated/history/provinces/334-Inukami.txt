@@ -31,7 +31,6 @@ trade_goods = lacquerware
     owner = AZI
 	remove_core = KGK
 	training_grounds = yes
-	arsenal = yes
 }
 
 1582.6.21 = {

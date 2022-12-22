@@ -34,7 +34,6 @@ center_of_trade = 1
 	stone_base = yes
 	shrine_town = yes
 	training_grounds = yes
-	arsenal = yes
 	workshop = yes
 }
 

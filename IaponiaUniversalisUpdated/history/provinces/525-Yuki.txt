@@ -28,7 +28,6 @@ trade_goods = cloth
     controller = YUK
     remove_core = KGA
 	training_grounds = yes
-	arsenal = yes
 }
 
 1600.9.13 = {

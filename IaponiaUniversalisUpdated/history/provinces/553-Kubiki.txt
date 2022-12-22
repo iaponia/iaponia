@@ -44,7 +44,6 @@ center_of_trade = 1
     owner = UES
     controller = UES
 	main_keep = yes
-	arsenal = yes
 }
 
 1582.6.21 = {

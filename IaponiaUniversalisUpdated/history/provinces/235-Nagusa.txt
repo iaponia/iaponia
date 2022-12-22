@@ -34,7 +34,6 @@ trade_goods = lacquerware
 	remove_core = BHY
 	trade_goods = firearms
 	workshop = yes
-	arsenal = yes
 	training_grounds = yes
 }
 

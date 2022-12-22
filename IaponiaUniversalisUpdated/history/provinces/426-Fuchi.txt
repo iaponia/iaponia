@@ -41,7 +41,6 @@ trade_goods = lacquerware
 	remove_core = IMG
 	main_keep = yes
 	training_grounds = yes
-	arsenal = yes
 	shrine = yes
 }
 

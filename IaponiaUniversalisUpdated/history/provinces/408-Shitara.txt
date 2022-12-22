@@ -43,7 +43,6 @@ trade_goods = bamboo
     owner = TKG
     controller = TKG
 	remove_core = IMG
-	arsenal = yes
 }
 
 1600.9.13 = {

@@ -44,7 +44,6 @@ trade_goods = rice
     owner = TKG
     controller = TKG
 	remove_core = IMG
-	arsenal = yes
 	shrine_town = yes
 }
 

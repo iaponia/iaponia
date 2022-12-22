@@ -48,7 +48,6 @@ trade_goods = rice
     controller = WAD
     owner = WAD
 	religion = kirishitan
-	arsenal = yes
 }
 
 1582.6.21 = {

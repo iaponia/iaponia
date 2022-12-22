@@ -27,7 +27,6 @@ trade_goods = rice
 	add_core = AKZ
     controller = AKZ
     owner = AKZ
-	arsenal = yes
 }
 
 1569.10.10 = {

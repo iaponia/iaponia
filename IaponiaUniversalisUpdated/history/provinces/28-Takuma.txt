@@ -36,7 +36,6 @@ trade_goods = paper
     controller = OTM
     owner = OTM
 	remove_core = KKC
-	arsenal = yes
 }
 
 1582.6.21 = {

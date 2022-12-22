@@ -31,7 +31,6 @@ base_manpower = 4
 }
 
 1569.10.10 = {
-	arsenal = yes
 }
 
 trade_goods = lacquerware

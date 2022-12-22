@@ -43,7 +43,6 @@ center_of_trade = 1
 
 1569.10.10 = {
 	training_grounds = yes
-	arsenal = yes
 	shrine_town = yes
 	free_market = yes
 }

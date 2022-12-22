@@ -24,7 +24,6 @@ base_manpower = 4
 trade_goods = horses
 
 1536.4.7 = {
-	arsenal = yes
 	training_grounds = yes
 }
 

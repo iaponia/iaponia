@@ -45,7 +45,6 @@ trade_goods = fish
     controller = UKT
 	remove_core = URA
 	training_grounds = yes
-	arsenal = yes
 }
 
 1615.1.1 = {

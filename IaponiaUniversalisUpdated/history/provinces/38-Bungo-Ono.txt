@@ -23,7 +23,6 @@ base_manpower = 3
 trade_goods = metal
 
 1554.3.1 = {
-	arsenal = yes
 	training_grounds = yes
 }
 

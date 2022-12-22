@@ -27,5 +27,4 @@ trade_goods = gold
     controller = ADO
 	remove_core = MNO
 	training_grounds = yes
-	arsenal = yes
 }

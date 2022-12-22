@@ -44,7 +44,6 @@ trade_goods = bamboo
     owner = HTK
     controller = HTK
 	merchant_guild = yes
-	arsenal = yes
 }
 
 1569.10.10 = {

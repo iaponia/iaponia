@@ -26,7 +26,6 @@ trade_goods = rice
 	trade_goods = firearms
 	workshop = yes
 	training_grounds = yes
-	arsenal = yes
 }
 
 1600.9.13 = {

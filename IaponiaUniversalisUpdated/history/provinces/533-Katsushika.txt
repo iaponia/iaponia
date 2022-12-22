@@ -36,7 +36,6 @@ trade_goods = rice
 	remove_core = OUE
 	remove_core = OAK
 	training_grounds = yes
-	arsenal = yes
 }
 
 1554.3.1 = {

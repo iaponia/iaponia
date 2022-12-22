@@ -35,7 +35,6 @@ trade_goods = grain
     owner = MYI
 	layered_enclosures = yes
 	training_grounds = yes
-	arsenal = yes
 }
 
 1582.6.21 = {

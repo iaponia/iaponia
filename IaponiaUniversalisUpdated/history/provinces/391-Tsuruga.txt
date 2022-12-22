@@ -44,7 +44,6 @@ trade_goods = fish
     controller = SHB
     owner = SHB
 	remove_core = ASA
-	arsenal = yes
 }
 
 1600.9.13 = {

@@ -31,7 +31,6 @@ trade_goods = horses
 }
 
 1569.10.10 = { 
-	arsenal = yes
 }
 
 1582.6.21 = {

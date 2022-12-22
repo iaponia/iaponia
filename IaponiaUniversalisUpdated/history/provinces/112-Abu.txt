@@ -32,7 +32,6 @@ trade_goods = pottery
 }
 
 1554.3.1 = {
-	arsenal = yes
 	training_grounds = yes
 }
 

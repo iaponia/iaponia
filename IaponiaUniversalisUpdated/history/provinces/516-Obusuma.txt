@@ -34,7 +34,6 @@ trade_goods = sake
     controller = UES
 	remove_core = OUE
 	training_grounds = yes
-	arsenal = yes
 	shrine_town = yes
 }
 

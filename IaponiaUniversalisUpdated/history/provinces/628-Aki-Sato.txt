@@ -46,7 +46,6 @@ trade_goods = lacquerware
 	remove_core = OUC
 	remove_core = AMA
 	remove_core = ATK
-	arsenal = yes
 }
 
 1615.1.1 = {

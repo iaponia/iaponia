@@ -35,7 +35,6 @@ trade_goods = lumber
     owner = HGN
     controller = HGN
 	training_grounds = yes
-	arsenal = yes
 }
 
 1582.6.21 = {

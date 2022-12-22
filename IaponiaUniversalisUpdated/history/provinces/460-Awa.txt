@@ -34,6 +34,5 @@ trade_goods = paper
 	controller = STM
 	remove_core = OAK
 	training_grounds = yes
-	arsenal = yes
 	port_town = yes
 }

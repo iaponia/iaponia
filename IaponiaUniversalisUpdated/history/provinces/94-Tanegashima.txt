@@ -35,7 +35,6 @@ trade_goods = mainland_trade
 	trade_goods = firearms
 	gunsmith = yes
 	workshop = yes
-	arsenal = yes
 }
 
 1569.10.10 = {

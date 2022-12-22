@@ -28,5 +28,4 @@ trade_goods = fur
 
 1569.10.10 = {
 	training_grounds = yes
-	arsenal = yes
 }

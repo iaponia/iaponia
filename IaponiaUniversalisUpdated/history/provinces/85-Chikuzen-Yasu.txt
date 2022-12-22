@@ -31,7 +31,6 @@ trade_goods = rice
 1554.3.1 = {
 	controller = AKZ
     owner = AKZ
-	arsenal = yes
 	training_grounds = yes
 }
 

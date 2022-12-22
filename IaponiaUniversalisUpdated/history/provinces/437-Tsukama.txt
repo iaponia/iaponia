@@ -32,7 +32,6 @@ trade_goods = cloth
 
 1569.10.10 = {
 	training_grounds = yes
-	arsenal = yes
 	free_market = yes
 }
 

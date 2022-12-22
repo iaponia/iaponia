@@ -29,7 +29,6 @@ trade_goods = grain
     controller = HJO
     owner = HJO
 	shrine_town = yes
-	arsenal = yes
 }
 
 1582.6.21 = {

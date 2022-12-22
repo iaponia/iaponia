@@ -34,7 +34,6 @@ trade_goods = lacquerware
 	main_keep = yes
 	stone_base = yes
 	training_grounds = yes
-	arsenal = yes
 }
 
 1569.10.10 = {

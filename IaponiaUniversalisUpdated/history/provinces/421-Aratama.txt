@@ -36,7 +36,6 @@ trade_goods = horses
     controller = TKG
 	remove_core = IMG
 	training_grounds = yes
-	arsenal = yes
 }
 
 1600.9.13 = {

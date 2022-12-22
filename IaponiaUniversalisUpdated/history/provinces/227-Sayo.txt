@@ -41,7 +41,6 @@ trade_goods = grain
 	owner = AKM
 	controller = AKM
 	remove_core = URA
-	arsenal = yes
 }
 
 1582.6.21 = {

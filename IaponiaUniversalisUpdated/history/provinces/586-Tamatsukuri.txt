@@ -39,7 +39,6 @@ trade_goods = lacquerware
 	main_keep = yes
 	shrine_town = yes
 	training_grounds = yes
-	arsenal = yes
 }
 
 1615.1.1 = {

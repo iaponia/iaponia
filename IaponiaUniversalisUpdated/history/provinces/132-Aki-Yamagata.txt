@@ -45,7 +45,6 @@ trade_goods = grain
     controller = MRI
     owner = MRI
 	training_grounds = yes
-	arsenal = yes
 }
 
 1615.1.1 = {

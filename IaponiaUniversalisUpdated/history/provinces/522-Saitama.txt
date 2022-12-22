@@ -40,7 +40,6 @@ trade_goods = dyes
 	main_keep = yes
 	stone_base = yes
 	training_grounds = yes
-	arsenal = yes
 }
 
 1554.3.1 = {

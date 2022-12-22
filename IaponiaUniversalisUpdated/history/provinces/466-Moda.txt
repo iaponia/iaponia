@@ -35,7 +35,6 @@ trade_goods = rice
     owner = STM
 	remove_core = OAK
 	training_grounds = yes
-	arsenal = yes
 	shrine_town = yes
 }
 

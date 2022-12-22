@@ -37,7 +37,6 @@ trade_goods = cloth
     controller = SMZ
 	remove_core = OSZ
 	layered_enclosures = yes
-	arsenal = yes
 }
 
 1569.10.10 = {

@@ -40,7 +40,6 @@ trade_goods = rice
 
 1554.3.1 = {
 	training_grounds = yes
-	arsenal = yes
 }
 
 1569.10.10 = {

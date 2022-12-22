@@ -46,7 +46,6 @@ trade_goods = cloth
     remove_core = NGO
     owner = UES
     controller = UES
-	arsenal = yes
 }
 
 1600.9.13 = {

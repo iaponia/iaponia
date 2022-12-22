@@ -39,7 +39,6 @@ trade_goods = bamboo
     controller = MYI
     owner = MYI
 	training_grounds = yes
-	arsenal = yes
 	garden = yes
 }
 

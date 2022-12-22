@@ -36,7 +36,6 @@ trade_goods = cloth
     owner = UES
     controller = UES
 	training_grounds = yes
-	arsenal = yes
 }
 
 1600.9.13 = {

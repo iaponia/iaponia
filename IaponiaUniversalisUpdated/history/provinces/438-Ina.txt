@@ -41,7 +41,6 @@ trade_goods = grain
 1569.10.10 = {
 	main_keep = yes
 	training_grounds = yes
-	arsenal = yes
 }
 
 1582.6.21 = {

@@ -48,7 +48,6 @@ trade_goods = paper
     owner = HTK
     controller = HTK
 	training_grounds = yes
-	arsenal = yes
 }
 
 1569.10.10 = {

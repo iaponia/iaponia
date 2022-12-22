@@ -39,7 +39,6 @@ trade_goods = bamboo
     controller = TKG
 	remove_core = ASH
 	remove_core = IMG
-	arsenal = yes
 	training_grounds = yes
 }
 

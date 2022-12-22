@@ -42,7 +42,6 @@ trade_goods = sake
     owner = CSK
     controller = CSK
 	training_grounds = yes
-	arsenal = yes
 	free_market = yes
 	remove_core = TNO
 }

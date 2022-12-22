@@ -40,7 +40,6 @@ trade_goods = rice
 	add_core = HSB
 	remove_core = STO
 	training_grounds = yes
-	arsenal = yes
 }
 
 1582.6.21 = {

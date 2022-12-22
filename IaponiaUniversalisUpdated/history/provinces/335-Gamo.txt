@@ -45,7 +45,6 @@ trade_goods = lacquerware
     owner = GAM
 	remove_core = RKK
 	remove_core = ODA
-	arsenal = yes
 	free_market = yes
 }
 

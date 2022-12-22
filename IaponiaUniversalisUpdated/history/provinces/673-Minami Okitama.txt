@@ -39,7 +39,6 @@ trade_goods = cloth
 1582.6.21 = {
 	main_keep = yes
 	training_grounds = yes
-	arsenal = yes
 }
 
 1600.9.13 = {

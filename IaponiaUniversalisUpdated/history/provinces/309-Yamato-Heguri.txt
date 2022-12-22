@@ -28,7 +28,6 @@ trade_goods = pottery
     owner = MSH
 	remove_core = TTI
 	training_grounds = yes
-	arsenal = yes
 	merchant_guild = yes
 }
 

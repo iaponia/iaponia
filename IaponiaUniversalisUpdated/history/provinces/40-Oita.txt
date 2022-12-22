@@ -30,7 +30,6 @@ center_of_trade = 1
 }
 
 1554.3.1 = {
-	arsenal = yes
 	free_market = yes
 }
 

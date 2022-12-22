@@ -28,7 +28,6 @@ trade_goods = tea
     owner = HJO
     controller = HJO
 	training_grounds = yes
-	arsenal = yes
 }
 
 1554.3.1 = {

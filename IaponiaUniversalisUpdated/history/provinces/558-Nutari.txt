@@ -46,7 +46,6 @@ trade_goods = rice
 	controller = UES
     owner = UES
 	main_keep = yes
-	arsenal = yes
 }
 
 1600.9.13 = {

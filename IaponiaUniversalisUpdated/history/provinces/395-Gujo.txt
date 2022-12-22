@@ -30,7 +30,6 @@ trade_goods = cloth
 	remove_core = TKI
 	layered_enclosures = yes
 	training_grounds = yes
-	arsenal = yes
 }
 
 1569.10.10 = {

@@ -28,7 +28,6 @@ trade_goods = tea
 
 1569.10.10 = {
 	training_grounds = yes
-	arsenal = yes
 }
 
 1582.6.21 = {

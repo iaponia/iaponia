@@ -36,7 +36,6 @@ trade_goods = pottery
 }
 
 1569.10.10 = {
-	arsenal = yes
 	shrine_town = yes
 }
 

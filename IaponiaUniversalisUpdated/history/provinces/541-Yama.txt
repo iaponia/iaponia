@@ -24,7 +24,6 @@ trade_goods = pottery
 
 1569.10.10 = {
 	training_grounds = yes
-	arsenal = yes
 }
 
 1600.9.13 = {

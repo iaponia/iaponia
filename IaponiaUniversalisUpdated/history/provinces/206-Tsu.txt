@@ -37,7 +37,6 @@ trade_goods = rice
     controller = MIM
 	add_core = MIM
 	training_grounds = yes
-	arsenal = yes
 }
 
 1569.10.10 = {

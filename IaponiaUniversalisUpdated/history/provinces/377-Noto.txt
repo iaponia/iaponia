@@ -26,7 +26,6 @@ base_manpower = 4
 trade_goods = lacquerware
 
 1536.4.7 = {
-	academy = yes
 	free_market = yes
 	shrine_town = yes
 }

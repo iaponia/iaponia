@@ -232,8 +232,8 @@ higashiyama_culture_i = {
 			factor = 0.25
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_has_tea_house
-				has_building = tea_house
+				tooltip = tooltip_has_tea_retreat
+				has_building = tea_retreat
 			}
 		}
 		modifier = {
@@ -959,8 +959,8 @@ momoyama_culture_i = {
 			factor = 0.25
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_has_tea_house
-				has_building = tea_house
+				tooltip = tooltip_has_tea_retreat
+				has_building = tea_retreat
 			}
 		}
 		modifier = {

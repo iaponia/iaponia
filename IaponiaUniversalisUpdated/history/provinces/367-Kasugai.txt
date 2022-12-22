@@ -59,7 +59,6 @@ center_of_trade = 1
     owner = KOD
 	remove_core = ODA
 	fortress= yes
-	academy = yes
 	religion = kirishitan
 }
 

@@ -41,7 +41,6 @@ trade_goods = mainland_trade
     add_core = OMR
 	remove_core = AIM
 	shrine_town = yes
-	academy = yes
 	religion = kirishitan
 }
 

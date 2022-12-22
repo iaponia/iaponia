@@ -35,10 +35,6 @@ center_of_trade = 1
 	free_market = yes
 }
 
-1569.10.10 = {
-	academy = yes
-}
-
 1582.6.21 = {
 	fortress= yes
 	shrine_town = yes

@@ -31,7 +31,6 @@ center_of_trade = 1
 
 1511.9.25 = {
 	layered_enclosures = yes
-	academy = yes
 }
 
 1554.3.1 = {

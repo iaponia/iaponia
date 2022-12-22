@@ -6170,13 +6170,13 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_tea_house"
+			name = "build_garden"
 			position = { x = 207 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "tea_house_cost"
+			name = "garden_cost"
 			position = {x = 207 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -6186,30 +6186,14 @@ guiTypes = {
 		}
 
 		checkboxType = {
-			name = "build_theater"
+			name = "build_tea_retreat"
 			position = { x = 259 y = 226 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 
 		instantTextBoxType={
-			name = "theater_cost"
+			name = "tea_retreat_cost"
 			position = {x = 259 y = 276 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 128
-			maxHeight = 18
-			text = "2000¤"
-		}
-
-		checkboxType = {
-			name = "build_academy"
-			position = { x = 311 y = 226 }
-			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
-		}
-
-		instantTextBoxType={
-			name = "academy_cost"
-			position = {x = 311 y = 276 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128

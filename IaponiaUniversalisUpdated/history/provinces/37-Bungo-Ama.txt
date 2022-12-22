@@ -32,7 +32,6 @@ trade_goods = rice
 	wharf = yes
 	shrine = yes
 	shrine_town = yes
-	academy = yes
 	garden = yes
 	magistrate = yes
 	religion = kirishitan

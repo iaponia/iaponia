@@ -36,7 +36,6 @@ center_of_trade = 1
 }
 
 1569.10.10 = {
-	academy = yes
 	shrine_town = yes
 	dockyard = yes
 	religion = kirishitan

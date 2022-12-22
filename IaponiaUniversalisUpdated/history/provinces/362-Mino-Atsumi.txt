@@ -43,7 +43,6 @@ center_of_trade = 1
     controller = ODA
     owner = ODA
 	remove_core = STO
-	academy = yes
 	artisan_workshop = yes
 }
 

@@ -51,7 +51,6 @@ center_of_trade = 1
     controller = AKC
     owner = AKC
 	fortress= yes
-	academy = yes
 	remove_core = RKK
 	remove_core = GAM
 	remove_core = ODA

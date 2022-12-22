@@ -721,7 +721,7 @@
  tooltip_has_free_market:0 "Province has Free Market"
  tooltip_has_wharf:0 "Province has Wharf"
  tooltip_has_arsenal:0 "Province has Arsenal"
- tooltip_has_tea_house:0 "Province has Tea House"
+ tooltip_has_tea_retreat: "Province has Tea Retreat"
  tooltip_has_theater:0 "Province has Theater"
  tooltip_has_academy:0 "Province has Academy"
  tooltip_has_shrine:0 "Province has Shrine"

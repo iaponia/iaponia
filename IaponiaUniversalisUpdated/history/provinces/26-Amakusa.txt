@@ -35,7 +35,6 @@ trade_goods = pottery
 }
 
 1569.10.10 = {
-	academy = yes
 	religion = kirishitan
 }
 

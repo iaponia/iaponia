@@ -17,8 +17,7 @@ is_city = yes
 shrine_town = yes
 merchant_guild = yes
 garden = yes
-theater = yes
-academy = yes
+tea_retreat = yes
 
 base_tax = 7
 base_production = 7

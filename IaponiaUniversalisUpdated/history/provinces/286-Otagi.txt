@@ -16,7 +16,6 @@ religion = nichirenshu
 capital = "Kitashirakawa"
 is_city = yes
 shrine_town = yes
-academy = yes
 
 base_tax = 5
 base_production = 4

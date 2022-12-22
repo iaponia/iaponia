@@ -1055,20 +1055,6 @@ tea_retreat = {
 	}
 }
 
-tea_house = {
-	cost = 200
-	time = 18
-
-	modifier = {
-		local_monthly_devastation = -0.25
-		local_institution_spread = 0.1
-	}
-
-	ai_will_do = {
-		factor = 1000
-	}
-}
-
 theater = {
 	cost = 200
 	time = 18
@@ -1091,68 +1077,6 @@ theater = {
 		modifier = {
 			factor = 0.95
 			NOT = { base_tax = 5 }
-		}
-	}
-}
-
-academy = {
-	cost = 300
-	time = 24
-
-	modifier = {
-		local_development_cost = -0.20
-		allowed_num_of_buildings = 1
-	}
-
-	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 2
-			is_capital = yes
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { development = 20 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { development = 10 }
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 10
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 20
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 30
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 40
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 50
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 60
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 70
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 80
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 90
 		}
 	}
 }
@@ -1721,17 +1645,17 @@ castle_palace = {
 satellite_forts = {
 	cost = 500
 	time = 48
-	build_trigger = {
-		is_capital = yes
-		has_building = castle_palace
-		has_building = outer_wards
+	manufactory = {
+		all
 	}
 	modifier = {
-		local_defensiveness = 0.20
+		local_defender_dice_roll_bonus = 1
+		fort_level = 1
+		local_defensiveness = 0.10
+		local_garrison_size = 0.10
 		local_hostile_attrition = 1
-		allowed_num_of_buildings = 1
 	}
-	one_per_country = yes
+	show_separate = yes
 
 	ai_will_do = {
 		factor = 1500

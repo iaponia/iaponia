@@ -15,7 +15,6 @@ capital = "Namioka"
 is_city = yes
 shrine = yes
 barracks = yes
-wharf = yes
 
 base_tax = 4
 base_production = 3

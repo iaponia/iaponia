@@ -28,7 +28,6 @@ trade_goods = sake
 
 1569.10.10 = {
 	shrine = yes
-	wharf = yes
 }
 
 1582.6.21 = {

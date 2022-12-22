@@ -33,7 +33,6 @@ trade_goods = mainland_trade
 	add_core = MTA
     controller = MTA
     owner = MTA
-	wharf = yes
 }
 
 1582.6.21 = {

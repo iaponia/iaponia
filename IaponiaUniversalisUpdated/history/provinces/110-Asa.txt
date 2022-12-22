@@ -15,7 +15,6 @@ religion = shinto
 capital = "Aratakiyama"
 is_city = yes
 harbor = yes
-wharf = yes
 
 base_tax = 5
 base_production = 5

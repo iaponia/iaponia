@@ -57,7 +57,6 @@ trade_goods = tea
 	remove_core = MDR
 	remove_core = IMG
 	port_town = yes
-	wharf = yes
 }
 
 1600.9.13 = {

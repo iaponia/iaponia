@@ -633,14 +633,6 @@ western_trade_i = {
 			}
 		}
 		modifier = {
-			factor = 0.25
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = tooltip_has_wharf
-				has_building = wharf
-			}
-		}
-		modifier = {
 			factor = 0.5
 			scale = yes
 			custom_trigger_tooltip = {

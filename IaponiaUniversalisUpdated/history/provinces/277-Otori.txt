@@ -21,7 +21,6 @@ base_tax = 9
 base_production = 9
 base_manpower = 4
 free_market = yes
-wharf = yes
 harbor = yes
 shrine = yes
 garden = yes

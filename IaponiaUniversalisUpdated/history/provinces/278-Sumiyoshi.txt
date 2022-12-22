@@ -15,7 +15,6 @@ culture = sesshu_c
 religion = shinto
 capital = "Sumiyoshi"
 is_city = yes
-wharf = yes
 harbor = yes
 
 base_tax = 4

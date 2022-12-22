@@ -37,7 +37,6 @@ center_of_trade = 1
     add_core = ASA
     owner = ASA
     controller = ASA
-	wharf = yes
 }
 
 1582.6.21 = {

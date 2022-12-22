@@ -15,7 +15,6 @@ religion = shinto
 capital = "Toba"
 is_city = yes
 fortified_mansion = yes
-wharf = yes
 harbor = yes
 
 base_tax = 4

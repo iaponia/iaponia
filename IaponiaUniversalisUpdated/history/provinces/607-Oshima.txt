@@ -15,7 +15,6 @@ capital = "Tosaminato"
 is_city = yes
 fortified_mansion = yes
 harbor = yes
-wharf = yes
 merchant_guild = yes
 
 base_tax = 2

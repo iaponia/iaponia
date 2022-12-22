@@ -13,7 +13,6 @@ culture = islander_c
 religion = shinto
 capital = "Hirado"
 is_city = yes
-wharf = yes
 harbor = yes
 
 base_tax = 3

@@ -42,7 +42,6 @@ center_of_trade = 1
     owner = TKG
 	remove_core = TKD
 	remove_core = IMG
-	wharf = yes
 }
 
 1615.1.1 = {

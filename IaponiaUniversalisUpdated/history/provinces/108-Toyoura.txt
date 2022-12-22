@@ -25,7 +25,6 @@ base_manpower = 3
 trade_goods = fish
 
 1493.6.9 = {
-	wharf = yes
 }
 
 1523.8.25 = {

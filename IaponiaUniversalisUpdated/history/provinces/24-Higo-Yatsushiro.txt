@@ -29,7 +29,6 @@ trade_goods = mainland_trade
     add_core = SGR
     controller = SGR
     owner = SGR
-	wharf = yes
 	garden = yes
 }
 

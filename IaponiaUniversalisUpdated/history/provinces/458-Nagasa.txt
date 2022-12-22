@@ -32,5 +32,4 @@ trade_goods = bamboo
 	owner = STM
 	controller = STM
 	remove_core = OAK
-	wharf = yes
 }

@@ -37,7 +37,6 @@ center_of_trade = 1
     controller = AMA
     owner = AMA
 	remove_core = IKY
-	wharf = yes
 }
 
 1546.5.19 = {

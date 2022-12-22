@@ -26,5 +26,4 @@ trade_goods = metal
 1569.10.10 = {
 	shrine_town = yes
 	training_grounds = yes
-	wharf = yes
 }

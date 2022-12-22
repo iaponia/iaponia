@@ -35,7 +35,6 @@ add_permanent_province_modifier = {
 	owner = DTE
 	controller = DTE
 	remove_core = KSI
-	wharf = yes
 	free_market = yes
 }
 

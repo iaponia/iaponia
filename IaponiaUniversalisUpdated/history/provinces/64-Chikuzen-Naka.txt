@@ -19,7 +19,6 @@ is_city = yes
 merchant_guild = yes
 free_market = yes
 shrine = yes
-wharf = yes
 garden = yes
 
 base_tax = 7

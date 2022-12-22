@@ -30,7 +30,6 @@ trade_goods = lacquerware
 	owner = AIM
     controller = AIM
     add_core = AIM
-	wharf = yes
 }
 
 1569.10.10 = {

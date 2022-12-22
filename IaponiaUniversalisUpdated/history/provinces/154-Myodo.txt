@@ -33,7 +33,6 @@ trade_goods = cloth
     controller = SGO
     owner = SGO
 	remove_core = MYI
-	wharf = yes
 }
 
 1600.9.13 = {

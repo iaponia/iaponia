@@ -16,7 +16,6 @@ capital = "Shuri"
 is_city = yes
 fortified_mansion = yes
 shrine = yes
-wharf = yes
 
 base_tax = 4
 base_production = 6

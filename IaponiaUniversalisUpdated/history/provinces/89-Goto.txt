@@ -23,7 +23,6 @@ base_manpower = 2
 trade_goods = mainland_trade
 
 1569.10.10 = {
-	wharf = yes
 	shrine = yes
 	religion = kirishitan
 }

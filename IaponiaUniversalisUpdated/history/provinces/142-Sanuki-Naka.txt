@@ -33,7 +33,6 @@ trade_goods = paper
     add_core = MYI
     owner = MYI
     controller = MYI
-	wharf = yes
 }
 
 1582.6.21 = {

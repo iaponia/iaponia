@@ -322,42 +322,6 @@ port_town = {
 	}
 }
 
-wharf = {
-	cost = 400
-	time = 30
-	build_trigger = {
-		has_port = yes
-	}
-	modifier = {
-		naval_forcelimit = 4
-		province_trade_power_value = 2
-	}
-
-	ai_will_do = {
-		factor = 800
-		modifier = {
-			owner = { navy_size_percentage = .75 }
-			factor = 1.5
-		}
-		modifier = {
-			owner = { navy_size_percentage = .90 }
-			factor = 1.5
-		}
-		modifier = {
-			owner = { navy_size_percentage = 1.00 }
-			factor = 1.5
-		}
-		modifier = {
-			owner = { navy_size_percentage = 1.10 }
-			factor = 1.5
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { province_trade_power = 10 }
-		}
-	}
-}
-
 ###
 # Economic Chain
 ###

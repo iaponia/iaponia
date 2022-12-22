@@ -27,7 +27,6 @@ center_of_trade = 1
 
 1511.9.25 = {
 	garden = yes
-	wharf = yes
 }
 
 1554.3.1 = {

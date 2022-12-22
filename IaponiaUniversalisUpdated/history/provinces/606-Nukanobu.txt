@@ -28,7 +28,6 @@ trade_goods = pilgrimage_site
 	training_grounds = yes
 	arsenal = yes
 	shrine_town = yes
-	wharf = yes
 }
 
 1615.1.1 = {

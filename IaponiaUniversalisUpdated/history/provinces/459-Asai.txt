@@ -37,7 +37,6 @@ center_of_trade = 1
 	controller = STM
 	remove_core = OAK
 	dockyard = yes
-	wharf = yes
 }
 
 1569.10.10 = {

@@ -16,7 +16,6 @@ culture = owari_c
 religion = shinto
 capital = "Tsushima"
 is_city = yes
-wharf = yes
 free_market = yes
 
 base_tax = 5

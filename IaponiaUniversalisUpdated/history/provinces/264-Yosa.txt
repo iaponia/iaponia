@@ -28,7 +28,6 @@ center_of_trade = 1
 1546.5.19 = {
 	trade_goods = firearms
 	workshop = yes
-	wharf = yes
 }
 
 1582.6.21 = {

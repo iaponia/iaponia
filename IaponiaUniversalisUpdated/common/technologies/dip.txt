@@ -92,7 +92,6 @@ technology = {
 	trade_range	= 50
 	naval_maintenance = 0.1
 	enable = sekibune
-	wharf = yes
 }
 
 technology = {

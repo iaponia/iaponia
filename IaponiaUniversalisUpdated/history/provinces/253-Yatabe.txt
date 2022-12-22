@@ -15,7 +15,6 @@ culture = sesshu_c
 religion = shinto
 capital = "Hyogo"
 is_city = yes
-wharf = yes
 merchant_guild = yes
 shrine = yes
 

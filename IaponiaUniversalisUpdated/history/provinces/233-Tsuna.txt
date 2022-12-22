@@ -28,7 +28,6 @@ trade_goods = horses
     owner = MYI
     controller = MYI
 	merchant_guild = yes
-	wharf = yes
 }
 
 1554.3.1 = {

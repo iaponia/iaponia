@@ -25,7 +25,6 @@ base_manpower = 3
 trade_goods = mainland_trade
 
 1523.8.25 = {
-	wharf = yes
 	harbor = yes
 }
 

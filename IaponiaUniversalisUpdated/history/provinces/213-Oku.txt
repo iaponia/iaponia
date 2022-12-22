@@ -18,7 +18,6 @@ religion = shinto
 capital = "Ushimado"
 is_city = yes
 merchant_guild = yes
-wharf = yes
 harbor = yes
 
 base_tax = 5

@@ -23,7 +23,6 @@ harbor = yes
 trade_goods = lacquerware
 
 1536.4.7 = {
-	wharf = yes
 	training_grounds = yes
 }
 

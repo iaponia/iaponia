@@ -18,7 +18,6 @@ is_city = yes
 fortified_mansion = yes
 merchant_guild = yes
 harbor = yes
-wharf = yes
 
 base_tax = 6
 base_production = 6

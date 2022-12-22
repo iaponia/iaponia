@@ -28,7 +28,6 @@ trade_goods = fish
     owner = TKD
     controller = TKD
 	port_town = yes
-	wharf = yes
 }
 
 1582.6.21 = {

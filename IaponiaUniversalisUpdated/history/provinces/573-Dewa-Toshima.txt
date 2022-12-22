@@ -15,7 +15,6 @@ religion = shinto
 capital = "Tsuchizaki"
 is_city = yes
 magistrate = yes
-wharf = yes
 merchant_guild = yes
 
 base_tax = 3

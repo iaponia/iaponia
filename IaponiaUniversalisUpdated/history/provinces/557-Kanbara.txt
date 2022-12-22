@@ -44,7 +44,6 @@ center_of_trade = 1
     owner = NGO
 	remove_core = EGU
 	free_market = yes
-	wharf = yes
 }
 
 1569.10.10 = {

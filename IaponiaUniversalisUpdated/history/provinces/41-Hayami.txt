@@ -16,7 +16,6 @@ religion = shinto
 capital = "Kitsuki"
 is_city = yes
 fortified_mansion = yes
-wharf = yes
 barracks = yes
 
 base_tax = 5

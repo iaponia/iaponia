@@ -99,7 +99,6 @@ stone_base = {
 		OR = {
 			has_building = main_keep
 			has_building = fortress
-			has_building = castle_palace
 		}
 	}
 	modifier = {
@@ -118,10 +117,7 @@ outer_wards = {
 	time = 36
 	make_obsolete = stone_base
 	build_trigger = {
-		OR = {
-			has_building = fortress
-			has_building = castle_palace
-		}
+		has_building = fortress
 	}
 	modifier = {
 		local_defensiveness = 0.1
@@ -245,41 +241,6 @@ training_grounds = {
 			FROM = { treasury = 500 }
 		}
 	}
-}
-
-arsenal = {
-	cost = 500
-	time = 30
-	modifier = {
-		land_forcelimit = 2
-		local_regiment_cost = -0.15
-	}
-
-	ai_will_do = {
-		factor = 1000
-		modifier = {
-			owner = { army_size_percentage = 0.75 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { army_size_percentage = 0.90 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { army_size_percentage = 1.00 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { army_size_percentage = 1.10 }
-			factor = 1.2
-		}
-		modifier = {
-			factor = 1.25
-			FROM = { treasury = 800 }
-		}
-	}
-
-
 }
 
 ###
@@ -958,33 +919,6 @@ shrine_town = {
 	}
 }
 
-magistrate = {
-	cost = 400
-	time = 30
-
-	modifier = {
-		local_state_maintenance_modifier = -0.5
-		local_autonomy = -0.2
-	}
-
-	ai_will_do = {
-		factor = 1500
-		modifier = {
-			factor = 0
-			nationalism = 1
-		}
-		modifier = {
-			factor = 0
-			is_state = no
-		}
-
-		modifier = {
-			factor = 0.1
-			NOT = { development = 10 }
-		}
-	}
-}
-
 ###
 # Civil Chain
 ###
@@ -1019,32 +953,6 @@ tea_retreat = {
 	}
 }
 
-theater = {
-	cost = 200
-	time = 18
-
-	modifier = {
-		tax_income = 1
-		local_unrest = -2
-	}
-
-	ai_will_do = {
-		factor = 900
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 15 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 10 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 5 }
-		}
-	}
-}
-
 ###
 # Manufactories
 ###
@@ -1063,58 +971,6 @@ granary = {
 		rice
 	}
 	onmap = yes
-
-	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0.95
-			local_autonomy = 10
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 20
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 30
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 40
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 50
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 60
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 70
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 80
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 90
-		}
-		modifier = {
-			NOT = { num_free_building_slots  = 3 }
-			factor = 1.5
-		}
-	}
-}
-
-rice_exchange = {
-	manufactory = {
-		rice
-	}
-	onmap = yes
-	show_separate = yes
 
 	ai_will_do = {
 		factor = 1000
@@ -1580,31 +1436,8 @@ brewery = {
 }
 
 ###
-# Uniques
+# Special Manufactories
 ###
-
-castle_palace = {
-	cost = 1000
-	time = 60
-	build_trigger = {
-		is_capital = yes
-		has_building = fortress
-	}
-	modifier = {
-		fort_level = 3
-		local_defensiveness = 0.1
-		legitimacy = 1
-		devotion = 1
-		allowed_num_of_buildings = 1
-	}
-	one_per_country = yes
-
-	onmap = yes
-
-	ai_will_do = {
-		factor = 3000
-	}
-}
 
 satellite_forts = {
 	cost = 500
@@ -1612,6 +1445,7 @@ satellite_forts = {
 	manufactory = {
 		all
 	}
+	onmap = yes
 	modifier = {
 		local_defender_dice_roll_bonus = 1
 		fort_level = 1
@@ -1626,105 +1460,223 @@ satellite_forts = {
 	}
 }
 
-western_quarter = {
-	cost = 800
-	time = 40
-	build_trigger = {
-		western_trade_i = 100
-		OR = {
-				province_has_center_of_trade_of_level = 2
-				province_has_center_of_trade_of_level = 3
-			}
-		has_port = yes
+magistrate = {
+	manufactory = {
+		all
 	}
+	onmap = yes
+	show_separate = yes
+
 	modifier = {
-		technology_cost = -0.1
-		province_trade_power_value = 8
-		allowed_num_of_buildings = 1
+		statewide_governing_cost = -0.25
+		local_governing_cost = -0.25
+		local_state_maintenance_modifier = -0.50
+		local_development_cost_modifier = -0.25
+		local_autonomy = -0.05
 	}
-	one_per_country = yes
 
 	ai_will_do = {
-		factor = 2500
+		factor = 1500
 		modifier = {
 			factor = 0
-			NOT = { province_trade_power = 10 }
+			nationalism = 1
+		}
+		modifier = {
+			factor = 0
+			is_state = no
+		}
+
+		modifier = {
+			factor = 0.1
+			NOT = { development = 10 }
 		}
 	}
 }
 
-family_temple = {
-	cost = 1000
-	time = 48
-	build_trigger = {
-		is_capital = yes
+theater = {
+	manufactory = {
+		all
 	}
+	onmap = yes
+	show_separate = yes
+
 	modifier = {
-		diplomatic_reputation = 1
-		prestige = 1
-		allowed_num_of_buildings = 1
+		local_culture_conversion_cost = -0.25
+		institution_growth = 3
+		local_unrest = -3
 	}
-	one_per_country = yes
 
 	ai_will_do = {
-		factor = 2500
+		factor = 900
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 15 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 10 }
+		}
+		modifier = {
+			factor = 0.95
+			NOT = { base_tax = 5 }
+		}
 	}
 }
 
-ninjutsu_school = {
-	cost = 750
-	time = 36
-	build_trigger = {
-		is_capital = no
-		is_state = yes
+temple_complex = {
+	manufactory = {
+		all
 	}
+	onmap = yes
+	show_separate = yes
+	
 	modifier = {
-		global_spy_defence = 0.15
-		spy_offence = 0.15
-		allowed_num_of_buildings = 1
+		local_missionary_strength = 0.02
+		local_missionary_maintenance_cost = -0.50
+		local_religious_conversion_resistance = 0.50
+		local_manpower = 0.50
 	}
-	one_per_country = yes
 
 	ai_will_do = {
-		factor = 2000
+		factor = 1000
+	}
+}
+
+rice_exchange = {
+	manufactory = {
+		all
+	}
+	onmap = yes
+	show_separate = yes
+
+	modifier = {
+		trade_goods_size_modifier = 0.10
+		local_center_of_trade_upgrade_cost = -0.25
+		local_prosperity_growth = 0.25
+	}
+
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}
+
+shipyard = {
+	manufactory = {
+		all
+	}
+	onmap = yes
+	show_separate = yes
+	
+	build_trigger = {
+		has_port = yes
+	}
+
+	modifier = {
+		naval_forcelimit = 10
+		local_ship_repair = 0.50
+		ship_recruit_speed = -0.50
+		local_ship_cost = -0.25
+		local_sailors = 100
+	}
+
+	ai_will_do = {
+		factor = 1000
+	}
+}
+
+arsenal = {
+	manufactory = {
+		all
+	}
+	onmap = yes
+	show_separate = yes
+
+	modifier = {
+		land_forcelimit = 3
+		trade_goods_size_modifier = 0.10
+		local_regiment_cost = -0.25
+		#TODO: special forces bonuses
+	}
+
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			owner = { army_size_percentage = 0.75 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 0.90 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.00 }
+			factor = 1.2
+		}
+		modifier = {
+			owner = { army_size_percentage = 1.10 }
+			factor = 1.2
+		}
+		modifier = {
+			factor = 1.25
+			FROM = { treasury = 800 }
+		}
 	}
 }
 
 mint = {
-	cost = 750
-	time = 36
-	build_trigger = {
-		development = 20
+	manufactory = {
+		all
 	}
+	onmap = yes
+	show_separate = yes
+	
 	modifier = {
-		inflation_reduction = 0.05
-		stability_cost_modifier = -0.1
-		allowed_num_of_buildings = 1
+		monthly_gold_inflation_modifier = -0.02
+		trade_goods_size_modifier = 0.10
+		local_gold_depletion_chance_modifier = -0.25
 	}
-	one_per_country = yes
 
 	ai_will_do = {
-		factor = 1500
-	}
-}
-
-charter_guild = {
-	cost = 1000
-	time = 48
-	build_trigger = {
-		OR = {
-			province_has_center_of_trade_of_level = 2
-			province_has_center_of_trade_of_level = 3
-		}
-	}
-	modifier = {
-		merchants = 1
-		trade_efficiency = 0.1
-		allowed_num_of_buildings = 1
-	}
-	one_per_country = yes
-
-	ai_will_do = {
-		factor = 2500
+		factor = 1000
 	}
 }

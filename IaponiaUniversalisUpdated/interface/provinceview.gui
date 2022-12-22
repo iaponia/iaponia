@@ -5913,7 +5913,7 @@ guiTypes = {
 		iconType = {
 			name = "navy_banner"
 			position = { x = 4 y = 97 }
-			spriteType = "GFX_banner_left_3"
+			spriteType = "GFX_banner_left_2"
 		}
 
 		instantTextBoxType={
@@ -6133,7 +6133,7 @@ guiTypes = {
 		iconType = {
 			name = "civil_banner"
 			position = { x = 179 y = 194 }
-			spriteType = "GFX_banner_right_3"
+			spriteType = "GFX_banner_right_2"
 		}
 
 		instantTextBoxType={

@@ -36,7 +36,7 @@ trade_goods = paper
 }
 
 1569.10.10 = {
-	tea_house = yes
+	garden = yes
 	shrine_town = yes
 }
 

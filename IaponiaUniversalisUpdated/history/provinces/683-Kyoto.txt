@@ -16,7 +16,7 @@ capital = "Kyoto"
 is_city = yes
 shrine_town = yes
 merchant_guild = yes
-tea_house = yes
+garden = yes
 theater = yes
 academy = yes
 

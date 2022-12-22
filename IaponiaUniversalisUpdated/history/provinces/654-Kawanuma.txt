@@ -33,7 +33,7 @@ trade_goods = gold
 	owner = UES
 	controller = UES
 	remove_core = ASN
-	tea_house = yes
+	garden = yes
 }
 
 1615.1.1 = {

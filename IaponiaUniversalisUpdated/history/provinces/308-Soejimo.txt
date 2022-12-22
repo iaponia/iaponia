@@ -32,7 +32,7 @@ trade_goods = paper
 1554.3.1 = {
 	main_keep = yes
 	training_grounds = yes
-	tea_house = yes
+	garden = yes
 }
 
 1600.9.13 = {

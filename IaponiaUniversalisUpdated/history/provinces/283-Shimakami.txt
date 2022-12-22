@@ -56,7 +56,7 @@ trade_goods = rice
     owner = TKY
 	remove_core = WAD
 	shrine_town = yes
-	tea_house = yes
+	garden = yes
 }
 
 1600.9.13 = {

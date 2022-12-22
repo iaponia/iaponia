@@ -34,7 +34,7 @@ trade_goods = sake
 
 1523.8.25 = {
 	layered_enclosures = yes
-	tea_house = yes
+	garden = yes
 }
 
 1582.6.21 = {

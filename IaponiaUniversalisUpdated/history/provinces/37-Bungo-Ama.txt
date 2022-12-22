@@ -33,7 +33,7 @@ trade_goods = rice
 	shrine = yes
 	shrine_town = yes
 	academy = yes
-	tea_house = yes
+	garden = yes
 	magistrate = yes
 	religion = kirishitan
 }

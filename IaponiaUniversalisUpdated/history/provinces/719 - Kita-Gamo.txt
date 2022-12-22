@@ -19,7 +19,7 @@ is_city = yes
 layered_enclosures = yes
 merchant_guild = yes
 shrine = yes
-tea_house = yes
+garden = yes
 
 base_tax = 8
 base_production = 6

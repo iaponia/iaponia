@@ -40,7 +40,7 @@ trade_goods = pottery
     owner = AKC
 	remove_core = ASK
 	shrine_town = yes
-	tea_house = yes
+	garden = yes
 }
 
 1600.9.13 = {

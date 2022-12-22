@@ -28,7 +28,7 @@ trade_goods = grain
 	training_grounds = yes
 	shrine_town = yes
 	free_market = yes
-	tea_house = yes
+	garden = yes
 }
 
 1600.9.13 = {

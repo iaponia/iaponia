@@ -52,7 +52,7 @@ trade_goods = lacquerware
 	remove_core = OUC
 	main_keep = yes
 	merchant_guild = yes
-	tea_house = yes
+	garden = yes
 }
 
 1582.6.21 = {

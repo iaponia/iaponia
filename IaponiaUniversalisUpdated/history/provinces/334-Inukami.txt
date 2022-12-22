@@ -47,5 +47,5 @@ trade_goods = lacquerware
     controller = ISH
     owner = ISH
 	remove_core = AKC
-	tea_house = yes
+	garden = yes
 }

@@ -16,7 +16,7 @@ capital = "Yamaguchi"
 is_city = yes
 merchant_guild = yes
 shrine = yes
-tea_house = yes
+garden = yes
 
 base_tax = 8
 base_production = 8

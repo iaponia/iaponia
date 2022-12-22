@@ -20,7 +20,7 @@ base_manpower = 5
 shrine_town = yes
 workshop = yes
 merchant_guild = yes
-tea_house = yes
+garden = yes
 
 trade_goods = pilgrimage_site
 

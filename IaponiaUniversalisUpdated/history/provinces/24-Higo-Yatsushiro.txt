@@ -30,7 +30,7 @@ trade_goods = mainland_trade
     controller = SGR
     owner = SGR
 	wharf = yes
-	tea_house = yes
+	garden = yes
 }
 
 1554.3.1 = {

@@ -32,7 +32,7 @@ add_permanent_province_modifier = {
     controller = ICJ
     owner = ICJ
 	remove_core = HSK
-	tea_house = yes
+	garden = yes
 }
 
 1546.5.19 = {

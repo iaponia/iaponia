@@ -40,7 +40,7 @@ center_of_trade = 1
     owner = URA
     controller = URA
 	remove_core = AKM
-	tea_house = yes
+	garden = yes
 }
 
 1569.10.10 = {

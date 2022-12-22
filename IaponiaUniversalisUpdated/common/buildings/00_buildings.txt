@@ -1025,6 +1025,36 @@ magistrate = {
 # Civil Chain
 ###
 
+garden = {
+	cost = 150
+	time = 12
+
+	modifier = {
+		local_institution_spread = 0.1
+		local_development_cost = -0.1
+		local_culture_conversion_cost = -0.1
+	}
+
+	ai_will_do = {
+		factor = 1000
+	}
+}
+
+tea_retreat = {
+	cost = 300
+	time = 24
+
+	modifier = {
+		local_institution_spread = 0.2
+		local_development_cost = -0.2
+		local_culture_conversion_cost = -0.2
+	}
+
+	ai_will_do = {
+		factor = 1000
+	}
+}
+
 tea_house = {
 	cost = 200
 	time = 18

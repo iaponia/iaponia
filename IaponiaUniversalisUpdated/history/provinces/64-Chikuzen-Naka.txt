@@ -20,7 +20,7 @@ merchant_guild = yes
 free_market = yes
 shrine = yes
 wharf = yes
-tea_house = yes
+garden = yes
 
 base_tax = 7
 base_production = 8

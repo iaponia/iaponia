@@ -41,7 +41,7 @@ center_of_trade = 1
     controller = KBK
     owner = KBK
 	layered_enclosures = yes
-	tea_house = yes
+	garden = yes
 	free_market = yes
 	port_town = yes
 }

@@ -18,7 +18,7 @@ is_city = yes
 fortified_mansion = yes
 merchant_guild = yes
 shrine = yes
-tea_house = yes
+garden = yes
 
 base_tax = 7 
 base_production = 7

@@ -24,7 +24,7 @@ free_market = yes
 wharf = yes
 harbor = yes
 shrine = yes
-tea_house = yes
+garden = yes
 
 trade_goods = mainland_trade
 

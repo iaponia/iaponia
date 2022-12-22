@@ -15,7 +15,7 @@ religion = shinto
 capital = "Nanao"
 is_city = yes
 layered_enclosures = yes
-tea_house = yes
+garden = yes
 shrine = yes
 merchant_guild = yes
 

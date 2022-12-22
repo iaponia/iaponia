@@ -26,6 +26,16 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
+		name = "GFX_garden"
+		texturefile = "gfx//interface//buildings//civil//tea_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_tea_retreat"
+		texturefile = "gfx//interface//buildings//civil//tea_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
 		name = "GFX_tea_house"
 		texturefile = "gfx//interface//buildings//civil//tea_house.tga"
 		loadType = "INGAME"

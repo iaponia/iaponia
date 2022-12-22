@@ -46,7 +46,7 @@ trade_goods = paper
 	add_core = HJO
 	owner = HJO
 	controller = HJO
-	tea_house = yes
+	garden = yes
 }
 
 1600.9.13 = {

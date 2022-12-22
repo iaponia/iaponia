@@ -198,7 +198,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_post_stations"
-		texturefile = "gfx//interface//buildings//road//post_roads.tga"
+		texturefile = "gfx//interface//buildings//road//post_stations.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {

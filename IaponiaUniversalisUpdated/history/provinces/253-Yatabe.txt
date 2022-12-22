@@ -30,7 +30,6 @@ trade_goods = salt
 }
 
 1523.8.25 = {
-	magistrate = yes
 }
 
 1554.3.1 = {

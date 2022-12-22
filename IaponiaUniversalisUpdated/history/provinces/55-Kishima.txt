@@ -26,7 +26,6 @@ trade_goods = pottery
     owner = RZJ
     controller = RZJ
     add_core = RZJ
-	magistrate = yes
 	workshop = yes
 }
 

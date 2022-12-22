@@ -44,7 +44,6 @@ add_permanent_province_modifier = {
     owner = AMA
 	remove_core = IKY
 	merchant_guild = yes
-	magistrate = yes
 }
 
 1546.5.19 = {

@@ -16,7 +16,6 @@ religion = shinto
 capital = "Ashikaga"
 is_city = yes
 shrine_town = yes
-magistrate = yes
 
 base_tax = 5
 base_production = 4

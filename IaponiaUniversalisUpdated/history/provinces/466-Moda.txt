@@ -26,7 +26,6 @@ trade_goods = rice
     add_core = OAK
     controller = OAK
     owner = OAK
-	magistrate = yes
 }
 
 1546.5.19 = {

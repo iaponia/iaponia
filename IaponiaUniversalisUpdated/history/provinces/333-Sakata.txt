@@ -36,7 +36,6 @@ trade_goods = pottery
 	trade_goods = firearms
 	gunsmith = yes
 	workshop = yes
-	magistrate = yes
 }
 
 1582.6.21 = {

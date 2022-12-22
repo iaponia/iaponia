@@ -34,7 +34,6 @@ center_of_trade = 1
 1523.8.25 = {
     owner = BSO
     controller = BSO
-	magistrate = yes
 	harbor = yes
 }
 

@@ -28,7 +28,6 @@ trade_goods = grain
     controller = MYI
     owner = MYI
 	remove_core = AHK
-	magistrate = yes
 	layered_enclosures = yes
 }
 

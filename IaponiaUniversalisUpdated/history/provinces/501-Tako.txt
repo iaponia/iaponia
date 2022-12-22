@@ -27,7 +27,6 @@ trade_goods = rice
     controller = HJO
     owner = HJO
 	add_core = TKD
-	magistrate = yes
 }
 
 1569.10.10 = {

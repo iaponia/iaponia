@@ -33,7 +33,6 @@ trade_goods = rice
     add_core = OTM
     controller = OTM
     owner = OTM
-	magistrate = yes
 	remove_core = KKC
 }
 

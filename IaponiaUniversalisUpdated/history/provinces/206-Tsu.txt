@@ -43,7 +43,6 @@ trade_goods = rice
 	add_core = MRI
     owner = MRI
     controller = MRI
-	magistrate = yes
 	add_core = KBY
 	remove_core = MIM
 	remove_core = IKW

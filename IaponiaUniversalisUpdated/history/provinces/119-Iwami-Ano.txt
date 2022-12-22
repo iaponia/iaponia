@@ -36,7 +36,6 @@ trade_goods = gold
     controller = AMA
     owner = AMA
 	barracks = yes
-	magistrate = yes
 	remove_core = OUC
 }
 

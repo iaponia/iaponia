@@ -35,7 +35,6 @@ center_of_trade = 1
 
 1523.8.25 = {
 	shrine_town = yes
-	magistrate = yes
 }
 
 1554.3.1 = {

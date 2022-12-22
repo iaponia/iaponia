@@ -32,6 +32,5 @@ trade_goods = rice
 	shrine = yes
 	shrine_town = yes
 	garden = yes
-	magistrate = yes
 	religion = kirishitan
 }

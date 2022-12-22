@@ -19,7 +19,6 @@ capital = "Iwakura"
 is_city = yes
 merchant_guild = yes
 shrine = yes
-magistrate = yes
 
 base_tax = 6
 base_production = 6

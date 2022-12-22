@@ -14,7 +14,6 @@ culture = akita_c
 religion = shinto
 capital = "Tsuchizaki"
 is_city = yes
-magistrate = yes
 merchant_guild = yes
 
 base_tax = 3

@@ -26,7 +26,6 @@ trade_goods = horses
 	add_core = NNB
 	owner = NNB
 	controller = NNB
-	magistrate = yes
 	shrine_town = yes
 }
 

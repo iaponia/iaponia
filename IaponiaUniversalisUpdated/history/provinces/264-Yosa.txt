@@ -35,7 +35,6 @@ center_of_trade = 1
     controller = HSK
     add_core = HSK
 	remove_core = ISK
-	magistrate = yes
 	free_market = yes
 }
 

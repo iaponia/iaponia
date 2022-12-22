@@ -28,7 +28,6 @@ center_of_trade = 1
 
 1554.3.1 = {
 	free_market = yes
-	magistrate = yes
 }
 
 1569.10.10 = {

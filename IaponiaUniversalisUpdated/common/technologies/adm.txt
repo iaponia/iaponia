@@ -8,9 +8,9 @@ ahead_of_time = {
 technology = { 
 	# Tech 0
 	year = 1467
-	expects_institution = {
-		sominrigaku = 0.25
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.25
+	# }
 	
 	shrine = yes
 	may_support_rebels = yes
@@ -19,10 +19,10 @@ technology = {
 technology = {
 	# Tech 1
 	year = 1500
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.1
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.1
+	# }
 	
 	garden = yes
 	allowed_idea_groups = 1
@@ -31,10 +31,10 @@ technology = {
 technology = {
 	# Tech 2
 	year = 1515
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.2
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.2
+	# }
 	
 	toll_roads = yes
 	production_efficiency = 0.05
@@ -43,11 +43,11 @@ technology = {
 technology = {
 	# Tech 3
 	year = 1530
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.1
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.1
+	# }
 	
 	temple_complex = yes
 	allowed_idea_groups = 2
@@ -56,11 +56,11 @@ technology = {
 technology = {
 	# Tech 4
 	year = 1540
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.2
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.2
+	# }
 	
 	magistrate = yes
 	governing_capacity = 50
@@ -69,12 +69,12 @@ technology = {
 technology = {
 	# Tech 5
 	year = 1550
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.1
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.1
+	# }
 	
 	shrine_town = yes
 	irrigation = yes
@@ -84,13 +84,13 @@ technology = {
 technology = {
 	# Tech 6
 	year = 1560
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.3
-		nanban_trade = 0.1
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.1
+	# }
 	
 	governing_capacity = 50
 	allowed_idea_groups = 4
@@ -99,13 +99,13 @@ technology = {
 technology = {
 	# Tech 7
 	year = 1570
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.3
-		nanban_trade = 0.2
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.2
+	# }
 	
 	highways = yes
 	production_efficiency = 0.05
@@ -114,13 +114,13 @@ technology = {
 technology = {
 	# Tech 8
 	year = 1580
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.3
-		nanban_trade = 0.3
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# }
 	
 	shrine_town = yes
 }
@@ -128,14 +128,14 @@ technology = {
 technology = {
 	# Tech 9
 	year = 1590
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.3
-		nanban_trade = 0.3
-		kokudaka_system = 0.1
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.1
+	# }
 	
 	tea_retreat = yes
 	theater = yes
@@ -145,14 +145,14 @@ technology = {
 technology = {
 	# Tech 10
 	year = 1600
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.3
-		nanban_trade = 0.3
-		kokudaka_system = 0.2
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.2
+	# }
 	
 	governing_capacity = 50
 	administrative_efficiency = 0.1
@@ -162,14 +162,14 @@ technology = {
 technology = {
 	# Tech 11
 	year = 1615
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.3
-		nanban_trade = 0.3
-		kokudaka_system = 0.3
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.3
+	# }
 	
 	post_stations = yes
 	production_efficiency = 0.05
@@ -178,15 +178,15 @@ technology = {
 technology = {
 	# Tech 12
 	year = 1630
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.3
-		nanban_trade = 0.3
-		kokudaka_system = 0.3
-		rangaku = 0.1
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.3
+	# 	rangaku = 0.1
+	# }
 	
 	governing_capacity = 100
 	allowed_idea_groups = 6
@@ -195,15 +195,15 @@ technology = {
 technology = {
 	# Tech 13
 	year = 1645
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.3
-		nanban_trade = 0.3
-		kokudaka_system = 0.3
-		rangaku = 0.3
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.3
+	# 	rangaku = 0.3
+	# }
 	
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
@@ -212,15 +212,15 @@ technology = {
 technology = {
 	# Tech 14
 	year = 1660
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.3
-		nanban_trade = 0.3
-		kokudaka_system = 0.3
-		rangaku = 0.5
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.3
+	# 	rangaku = 0.5
+	# }
 	
 	governing_capacity = 250
 }
@@ -228,15 +228,15 @@ technology = {
 technology = {
 	# Tech 15
 	year = 1680
-	expects_institution = {
-		sominrigaku = 0.5
-		higashiyama_culture = 0.3
-		gekokujo = 0.3
-		gunsmithing = 0.3
-		nanban_trade = 0.3
-		kokudaka_system = 0.3
-		rangaku = 0.5
-	}
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.3
+	# 	rangaku = 0.5
+	# }
 	
 	production_efficiency = 0.05
 }

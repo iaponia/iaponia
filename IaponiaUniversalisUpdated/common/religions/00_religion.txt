@@ -534,7 +534,7 @@ ryukyuan_group = {
 
 	ryukyuan = {
 		color = { 0.7 0.5 0 }
-		icon = 9
+		icon = 29
 		country = {
 			tolerance_heathen = 1
 			core_creation = -0.1

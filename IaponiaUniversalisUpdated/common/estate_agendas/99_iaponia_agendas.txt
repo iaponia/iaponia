@@ -18,9 +18,9 @@ estate_burghers_expand_highways_in_y = {
 		}
 	}
 	selection_weight = {
-		factor = 1000
+		factor = 1
 		modifier = {
-			factor = 665
+			factor = 1,5
 			always = yes
 		}
 	}

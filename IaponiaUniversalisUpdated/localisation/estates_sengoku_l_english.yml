@@ -1,0 +1,11 @@
+﻿l_english:
+ estate_nobles_guarantee_succession: "Guarantee Succession"
+ estate_nobles_guarantee_succession_desc: "The [Root.GetNobilityName] is becoming increasingly worried about the future of [Root.GetName], due to the inexistence of a clear heir to the [Root.GovernmentName] in the event of [Root.Monarch.GetRulerTitleAndNameOrRegencyCap]'s passing.\nHowever, the [Root.GetNobilityName] emphatically assure us that they are not worried about the [Root.Monarch.GetRulerTitleOrRegency]'s health."
+
+ nobles_searching_for_heir: "Nobles Searching for Heir"
+ desc_nobles_searching_for_heir: "The country's [Root.GetNobilityName] are scouring the [Root.GovernmentName] for promising youths of noble birth that could be adopted into the royal house."
+
+ estate_burghers_expand_highways_in_y: "Improve Road Infastructure"
+ estate_burghers_expand_highways_in_y_desc: "The [Root.GetBurghersName] in [agenda_province.GetCapitalName] report the dismal state of the roads linking their city, in the province of [agenda_province.GetName], to nearby provinces. Indeed, they point to the success of the neighboring [Root.GetBurghersName] residing in [envied_province.GetName], who have much less difficulty sending their goods to market."
+ agenda_road_business_booming: "Booming Business"
+ desc_agenda_road_business_booming: "The [Root.GetBurghersName] are investing in this location after their demand for improved infrastructure was met."

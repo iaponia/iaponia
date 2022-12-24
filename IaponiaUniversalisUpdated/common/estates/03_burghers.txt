@@ -181,7 +181,6 @@ estate_burghers = {
 		estate_burghers_build_trade_building_in_y
 		estate_burghers_build_port_building_in_y
 		estate_burghers_build_production_building_in_y
-		estate_burghers_build_university_in_y
 		estate_burghers_build_manufactory_in_y
 		estate_burghers_pay_off_loans
 		estate_burghers_restore_republican_tradition
@@ -197,6 +196,7 @@ estate_burghers = {
 		estate_burghers_protect_against_piracy
 		estate_burghers_hire_advisor
 		estate_burghers_fire_advisor
+		estate_burghers_expand_highways_in_y
 	}
 
 	influence_from_dev_modifier = 1.0

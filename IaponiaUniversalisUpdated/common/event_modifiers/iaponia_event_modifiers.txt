@@ -167,3 +167,8 @@ harmonized_ainu_group = {}
 nobles_searching_for_heir = {
 	heir_chance = 0.5
 }
+
+agenda_road_business_booming = {
+	development_cost = -0.10
+	local_prosperity_growth = 0.5
+}

@@ -127,7 +127,7 @@ estate_church_fire_advisor = {
 estate_church_convert_province_x = {
 	can_select = {
 		num_of_missionaries = 1
-		# NOT = { religion = confucianism }
+		NOT = { religion = ryukyuan }
 		# NOT = { religion = tengri_pagan_reformed }
 		any_owned_province = {
 			is_state_core = root

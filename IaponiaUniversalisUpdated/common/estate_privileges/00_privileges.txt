@@ -2570,7 +2570,7 @@ estate_nobles_religious_conscription = {
 				religion = ROOT
 			}
 			if = {
-				limit = { has_building = temple }
+				limit = { has_building = shrine_town }
 				add_province_modifier = {
 					name = estate_nobles_religious_conscription_cathedral
 					duration = -1

@@ -23,7 +23,7 @@ base_manpower = 2
 trade_goods = horses
 
 1536.4.7 = {
-	ranch = yes
+    irrigation = yes
 	training_grounds = yes
 }
 

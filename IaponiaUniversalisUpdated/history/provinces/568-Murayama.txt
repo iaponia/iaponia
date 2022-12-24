@@ -24,5 +24,5 @@ trade_goods = rice
 
 1569.10.10 = {
 	training_grounds = yes
-	granary = yes
+	irrigation = yes
 }

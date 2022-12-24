@@ -39,7 +39,7 @@ trade_goods = rice
     controller = ODA
     owner = ODA
 	remove_core = KOD
-	granary = yes
+	irrigation = yes
 }
 
 1582.6.21 = {

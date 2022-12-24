@@ -28,7 +28,7 @@ trade_goods = rice
     owner = HJO
     controller = HJO
 	remove_core = UES
-	granary = yes
+    irrigation = yes
 }
 
 1600.9.13 = {

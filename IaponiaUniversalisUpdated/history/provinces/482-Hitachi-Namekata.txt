@@ -25,7 +25,7 @@ trade_goods = rice
 	owner = STK
     controller = STK
     add_core = STK
-	granary = yes
+	irrigation = yes
 }
 
 1615.1.1 = {

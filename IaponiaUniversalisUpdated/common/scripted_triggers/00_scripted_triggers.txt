@@ -1019,10 +1019,10 @@ has_fort_building_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = has_fort_building_trigger_tt
 		OR = {
-			has_building = fort_15th
-			has_building = fort_16th
-			has_building = fort_17th
-			has_building = fort_18th
+			has_building = fortified_mansion
+			has_building = layered_enclosures
+			has_building = main_keep
+			has_building = fortress
 		}
 	}
 }
@@ -1031,8 +1031,8 @@ has_coast_defense_building_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = has_coast_defense_building_trigger_tt
 		OR = {
-			has_building = coastal_defence
-			has_building = naval_battery
+			has_building = harbor
+			has_building = port_town
 		}
 	}
 }
@@ -1631,30 +1631,14 @@ has_a_primary_cult_selected = {
 has_better_tech_than_westerns = {
 	custom_trigger_tooltip = {
 		tooltip = has_better_tech_than_westerns_tt
-		NOT = {
-			any_country = {
-				tech_difference = 1
-				technology_group = western
-			}
-		}
+		always = no
 	}
 }
 
 has_more_institutions_than_westerns = {
 	custom_trigger_tooltip = {
 		tooltip = has_more_institutions_than_westerns_tt
-		NOT = {
-			calc_true_if = {
-				all_country = {
-					institution_difference = {
-						who = ROOT
-						value = 1
-					}
-					technology_group = western
-				}
-				amount = 1
-			}
-		}
+		always = no
 	}
 }
 
@@ -2559,7 +2543,8 @@ num_of_issues_passed = {
 is_allowed_to_recruit_mercenaries = {
 	custom_trigger_tooltip = {
 		tooltip = is_allowed_to_recruit_mercenaries_tt
-		NOT = { has_country_modifier = dan_sca_refocus_on_personal_armies }
+		#NOT = { has_country_modifier = dan_sca_refocus_on_personal_armies }
+		always = yes
 	}
 }
 

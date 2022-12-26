@@ -25,6 +25,7 @@ country_event = {
 	trigger = {
 		stability = 0 #otherwise it ain't good governance
 	}
+
 	option = {
 		name = "EVTOPTA5008"		# Put into the treasury
 		ai_chance = {
@@ -8583,23 +8584,88 @@ country_event = {
 	trigger = {
 		is_at_war = yes
 		NOT = { army_tradition = 20 }
+		any_neighbor_country = {
+			same_continent = root
+			army_tradition = 50
+			NOT = { war_with = root }
+		}
 	}
 
 	mean_time_to_happen = {
 		days = 1
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_neighbor_country = {
+				limit = {
+					same_continent = root
+					army_tradition = 50
+					NOT = { war_with = root }
+				}
+				save_event_target_as = advisor_origin_country
+				root = {
+					set_saved_name = {
+						key = foreign_military_expert
+						type = advisor
+						scope = prev
+					}
+				}
+			}
+		}
+	}
+	after = {
+		clear_saved_name = foreign_military_expert
+	}
+	
 	option = {
 		name = "random_event.EVTOPTA11"
 		ai_chance = {
 			factor = 33
 			modifier = {
 				factor = 0.5
-				NOT = { treasury = 50 }
+				NOT = { years_of_income = 0.5 }
 			}
 		}
-		add_years_of_income = -0.25
-		create_general = 100
+		add_years_of_income = -0.15
+		add_army_tradition = 10
+		
+		if = {
+			limit = {
+				NOT = { monthly_income = 15 }
+			}
+			define_advisor = {
+				name = foreign_military_expert
+				type = army_reformer_a
+				religion = event_target:advisor_origin_country
+				culture = event_target:advisor_origin_country
+				skill = 1
+				discount = yes
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { monthly_income = 25 }
+			}
+			define_advisor = {
+				name = foreign_military_expert
+				type = army_reformer_a
+				religion = event_target:advisor_origin_country
+				culture = event_target:advisor_origin_country
+				skill = 2
+				discount = yes
+			}
+		}
+		else = {
+			define_advisor = {
+				name = foreign_military_expert
+				type = army_reformer_a
+				religion = event_target:advisor_origin_country
+				culture = event_target:advisor_origin_country
+				skill = 3
+				discount = yes
+			}
+		}
 	}
 	option = {
 		name = "random_event.EVTOPTB11"
@@ -8607,55 +8673,31 @@ country_event = {
 			factor = 33
 			modifier = {
 				factor = 0.5
-				NOT = { treasury = 25 }
+				NOT = { years_of_income = 0.25 }
 			}
 		}
-		add_years_of_income = -0.10
-		create_general = 50
+		add_years_of_income = -0.15
+
+		create_general = {
+			name = foreign_military_expert
+			tradition = 70
+		}
 	}
 	option = {
 		name = "random_event.EVTOPTC11"
+		if = {
+			limit = { years_of_income = 0.15 }
+			add_legitimacy = 10
+		}
+		else = {
+			add_legitimacy = 5
+		}
 		ai_chance = {
 			factor = 33
 		}
-		add_legitimacy = 5
 	}
 }
 
-# The White Elephant
-country_event = {
-	id = random_event.12
-	title = "random_event.EVTNAME12"
-	desc = "random_event.EVTDESC12"
-	picture = COURT_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		OR = {
-			culture_group = thai
-			culture_group = burman
-			culture_group = eastern_aryan
-			culture_group = hindusthani
-			culture_group = western_aryan
-			culture_group = dravidian
-			culture_group = central_indic
-		}
-		NOT = { primary_culture = tibetan }
-		NOT = {
-			stability = 3
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "random_event.EVTOPTA12"
-		add_stability_or_adm_power = yes
-	}
-}
 
 # Gaps in the Blockade
 country_event = {
@@ -8683,10 +8725,6 @@ country_event = {
 		modifier = {
 			factor = 2
 			has_country_modifier = hire_privateers
-		}
-		modifier = {
-			factor = 2
-			has_idea = naval_fighting_instruction
 		}
 	}
 
@@ -8723,6 +8761,7 @@ country_event = {
 
 	trigger = {
 		gold_income_percentage = 0.1
+		inflation = 1
 	}
 
 	mean_time_to_happen = {
@@ -8749,6 +8788,7 @@ country_event = {
 	title = "EVTNAME9472"
 	desc = "EVTDESC9472"
 	picture = MERCHANTS_TALKING_eventPicture
+	goto = benign_neglect_province
 
 	trigger = {
 		num_of_cities = 20
@@ -8760,12 +8800,21 @@ country_event = {
 		days = 1
 	}
 
-	option = {
-		name = "EVTOPTA9472"
+	immediate = {
+		hidden_effect = {
 		random_owned_province = {
 			limit = {
 				is_capital = no
+					is_city = yes
 			}
+				save_event_target_as = benign_neglect_province
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9472"
+		event_target:benign_neglect_province = {
 			add_province_modifier = {
 				name = "benign_neglect_trade"
 				duration = 1825
@@ -8775,10 +8824,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB9472"
-		random_owned_province = {
-			limit = {
-				is_capital = no
-			}
+		event_target:benign_neglect_province = {
 			add_province_modifier = {
 				name = "benign_neglect_tax"
 				duration = 1825
@@ -8788,16 +8834,13 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTC9472"
-		random_owned_province = {
-			limit = {
-				is_capital = no
-			}
+		event_target:benign_neglect_province = {
 			add_province_modifier = {
 				name = "benign_neglect_manpower"
 				duration = 1825
 			}
 
-		}
+	}	
 
 	}
 }
@@ -8809,31 +8852,39 @@ country_event = {
 	title = "EVTNAME3097"
 	desc = "EVTDESC3097"
 	picture = ANGRY_MOB_eventPicture
-
+	goto = jackals_and_vultures_province
+	
 	trigger = {
 		num_of_rebel_armies = 1
 		NOT = { religious_unity = 1.0 }
 		any_owned_province = {
-			has_owner_culture = no
-			has_owner_religion = no
+			unrest = 1
+			controlled_by = root
 		}
 	}
-
+	
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
+	}	
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					unrest = 1
+					controlled_by = root
+				}
+				save_event_target_as = jackals_and_vultures_province
+			}
+		}
 	}
 
 	option = {
 		name = "EVTOPTA3097" # Jackals! Vultures!
-
-		random_owned_province = {
-			limit = {
-				has_owner_culture = no
-				has_owner_religion = no
-			}
-
+		
+		event_target:jackals_and_vultures_province = {
 			add_unrest = 15
 		}
 	}
@@ -8845,6 +8896,7 @@ country_event = {
 	title = "EVTNAME5005"
 	desc = "EVTDESC5005"
 	picture = ANGRY_MOB_eventPicture
+	goto = revolt_5005_province
 
 	is_triggered_only = yes
 
@@ -8862,6 +8914,7 @@ country_event = {
 				limit = {
 					is_capital = no
 					unrest = 1
+					is_city = yes
 				}
 				save_event_target_as = revolt_5005_province
 			}
@@ -8901,6 +8954,7 @@ country_event = {
 	title = "EVTNAME5026"
 	desc = "EVTDESC5026"
 	picture = PLAGUE_eventPicture
+	goto = plague_province
 
 	trigger = {
 		grain = 1
@@ -8911,6 +8965,17 @@ country_event = {
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					trade_goods = grain
+					is_capital = no
+				}
+				save_event_target_as = plague_province
+			}
+		}
+	}
 
 	is_triggered_only = yes
 
@@ -8934,11 +8999,7 @@ country_event = {
 		ai_chance = {
 			factor = 45
 		}
-		random_owned_province = {
-			limit = {
-				trade_goods = grain
-				is_capital = no
-			}
+		event_target:plague_province = {
 			add_local_autonomy = 25
 			add_province_modifier = {
 				name = "plague"
@@ -8953,46 +9014,49 @@ country_event = {
 	title = "EVTNAME5037"
 	desc = "EVTDESC5037"
 	picture = FARMING_eventPicture
+	goto = province_in_question
 
 	trigger = {
 		grain = 1
 	}
-
-
+	
+	
 	is_triggered_only = yes
 
 	mean_time_to_happen = {
 		days = 1
 	}
 
-	option = {
-		name = "EVTOPTA5037"		# Invest in a bigger army
-		ai_chance = { factor = 55 }
-		random_owned_province = {
-			limit = {
-				trade_goods = grain
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					trade_goods = grain
+				}		
+				save_event_target_as = province_in_question
 			}
-			add_base_manpower = 1
 		}
 	}
+
 	option = {
 		name = "EVTOPTB5037"		#  Raise taxes
 		ai_chance = { factor = 45 }
-		random_owned_province = {
-			limit = {
-				trade_goods = grain
-			}
+		event_target:province_in_question = {
 			add_base_tax = 1
 		}
 	}
 	option = {
 		name = "EVTOPTC5037"		#  Invest in Infrastructure
 		ai_chance = { factor = 45 }
-		random_owned_province = {
-			limit = {
-				trade_goods = grain
-			}
+		event_target:province_in_question = {
 			add_base_production = 1
+		}
+	}
+	option = {
+		name = "EVTOPTA5037"		# Invest in a bigger army
+		ai_chance = { factor = 55 }
+		event_target:province_in_question = {	
+			add_base_manpower = 1
 		}
 	}
 }
@@ -9003,9 +9067,26 @@ country_event = {
 	title = "EVTNAME5063"
 	desc = "EVTDESC5063"
 	picture = COURT_eventPicture
+	goto = province_in_question
 
 	trigger = {
 		government = monarchy
+		any_owned_province = {
+			is_city = yes
+			is_capital = no
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_city = yes
+					is_capital = no
+				}
+				save_event_target_as = province_in_question
+			}
+		}
 	}
 
 	is_triggered_only = yes
@@ -9016,7 +9097,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA5063"		# Side with one family
-		random_owned_province = {
+		event_target:province_in_question = {
 			noble_rebels = 1
 		}
 	}
@@ -9024,8 +9105,7 @@ country_event = {
 		name = "EVTOPTB5063"		# Let them fight it out.
 		trigger = { num_of_cities = 2 }
 		ai_chance = { factor = 25 }
-		random_owned_province = {
-			limit = { is_capital = no }
+		event_target:province_in_question = {
 			add_local_autonomy = 25
 		}
 	}
@@ -9044,6 +9124,7 @@ country_event = {
 	picture = FEAST_eventPicture
 
 	trigger = {
+		is_month = 8
 	}
 
 	is_triggered_only = yes

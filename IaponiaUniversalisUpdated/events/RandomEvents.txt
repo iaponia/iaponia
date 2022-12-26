@@ -953,68 +953,6 @@ country_event = {
 #########################################################
 #		Rush of colonists								#
 #########################################################
-country_event = {
-	id = 5022
-	title = "EVTNAME5022"
-	desc = "EVTDESC5022"
-	picture = COLONIZATION_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		has_idea = quest_for_the_new_world
-		num_of_ports = 1
-		NOT =  { has_country_modifier = monetary_benefits }
-		colony = 1
-	}
-
-	mean_time_to_happen = {
-		days = 1
-
-		modifier = {
-			factor = 2.0
-			has_idea = colonial_ventures
-		}
-		modifier = {
-			factor = 2.0
-			luck = yes
-		}
-		modifier = {
-			factor = 0.66
-			offensive_ideas = 5
-		}
-	}
-
-	option = {
-		name = "EVTOPTA5022"		# Gain extra colonists
-		ai_chance = { factor = 45 }
-		add_country_modifier = {
-			name = "colonial_enthusiasm"
-			duration = 1825
-		}
-	}
-	option = {
-		name = "EVTOPTB5022"		# Receive monetary benefits
-		ai_chance = { factor = 55 }
-		add_country_modifier = {
-			name = "monetary_benefits"
-			duration = 1825
-		}
-	}
-	option = {
-		name = "personality_options.5022.c"		# Gain more extra colonists
-		highlight = yes
-		trigger = {
-			ruler_has_personality_ancestor = { key = expansionist }
-			NOT = { has_country_modifier = colonial_enthusiasm }
-		}
-		ai_chance = { factor = 100 }
-		add_country_modifier = {
-			name = "colonial_enthusiasm"
-			duration = 3650
-		}
-	}
-}
 
 #########################################################
 #		Rush of merchants								#
@@ -1150,9 +1088,8 @@ country_event = {
 		name = "personality_options.5024.c" # Nothing is really beyond my control!
 		highlight = yes
 		trigger = {
-			ruler_has_personality = charismatic_negotiator_personality
+			ruler_has_personality_ancestor = { key = charismatic_negotiator }
 		}
-		required_personality = charismatic_negotiator_personality
 		ai_chance = { factor = 100 }
 		add_dip_power = 50
 	}
@@ -1160,12 +1097,11 @@ country_event = {
 		name = "personality_options.5024.dd" # We are a diplomatic superpower!
 		highlight = yes
 		trigger = {
-			ruler_has_personality = charismatic_negotiator_personality
+			ruler_has_personality_ancestor = { key = charismatic_negotiator }
 			any_known_country = {
 				is_neighbor_of = ROOT
 			}
 		}
-		required_personality = charismatic_negotiator_personality
 		ai_chance = { factor = 100 }
 		add_dip_power = 25
 		every_country = {
@@ -1186,6 +1122,11 @@ country_event = {
 
 	trigger = {
 		imperial_courtier_a = 2
+		OR = {
+			is_at_war = no
+			war_score = 25
+		}
+		NOT = { num_of_rebel_controlled_provinces = 1 }
 	}
 
 	mean_time_to_happen = {
@@ -1224,13 +1165,11 @@ country_event = {
 		highlight = yes
 		trigger = {
 			OR = {
-				ruler_has_personality = charismatic_negotiator_personality
-				ruler_has_personality = silver_tongue_personality
+				ruler_has_personality_ancestor = { key = charismatic_negotiator }
+				ruler_has_personality_ancestor = { key = silver_tongue }
 			}
 			NOT = { has_country_modifier = excellent_diplomacy_modifier }
 		}
-		required_personality = charismatic_negotiator_personality
-		required_personality = silver_tongue_personality
 		ai_chance = {
 			factor = 100
 		}
@@ -1301,9 +1240,8 @@ country_event = {
 		ai_chance = { factor = 100 }
 		highlight = yes
 		trigger = {
-			ruler_has_personality = martial_educator_personality
+			ruler_has_personality_ancestor = { key = martial_educator }
 		}
-		required_personality = martial_educator_personality
 		add_army_tradition = 35
 	}
 	option = {
@@ -1312,12 +1250,10 @@ country_event = {
 		highlight = yes
 		trigger = {
 			OR = {
-				ruler_has_personality = tactical_genius_personality
-				ruler_has_personality = inspiring_leader_personality
+				ruler_has_personality_ancestor = { key = tactical_genius }
+				ruler_has_personality_ancestor = { key = inspiring_leader }
 			}
 		}
-		required_personality = tactical_genius_personality
-		required_personality = inspiring_leader_personality
 		add_mil_power = 75
 	}
 }
@@ -1338,6 +1274,7 @@ country_event = {
 		naval_reformer_a = 2
 		num_of_ports = 1
 		primitives = no
+		navy_size = 1
 	}
 
 	mean_time_to_happen = {
@@ -1372,27 +1309,25 @@ country_event = {
 			}
 		}
 		add_navy_tradition = 20
-		#add_yearly_sailors = 1
+		add_yearly_sailors = 1
 	}
 	option = {
 		name = "personality_options.5027.c"		# Let's go with a more ambitious program for our officers.
 		ai_chance = { factor = 100 }
 		highlight = yes
 		trigger = {
-			ruler_has_personality = navigator_personality
+			ruler_has_personality_ancestor = { key = navigator }
 		}
-		required_personality = navigator_personality
 		add_navy_tradition = 30
-		#add_yearly_sailors = 1.5
+		add_yearly_sailors = 1.5
 	}
 	option = {
 		name = "personality_options.5027.dd"		# Technology is the future
 		ai_chance = { factor = 100 }
 		highlight = yes
 		trigger = {
-			ruler_has_personality = expansionist_personality
+			ruler_has_personality_ancestor = { key = expansionist }
 		}
-		required_personality = expansionist_personality
 		add_dip_power = 75
 	}
 }
@@ -1441,9 +1376,20 @@ country_event = {
 	option = {
 		name = "EVTOPTB5040"		# Invest the money in our government
 		ai_chance = { factor = 30 }
+		if = {
+			limit = { 
+				OR = {
+					has_completed_all_reforms_trigger = yes
+					primitives = yes
+				}
+			}
 		add_adm_power = 25
 		add_dip_power = 25
 		add_mil_power = 25
+		}
+		else = {
+			add_reform_progress_small_effect = yes
+		}
 	}
 	option = {
 		name = "EVTOPTC5040"		# Let's fill our treasury while we have their support
@@ -1460,19 +1406,17 @@ country_event = {
 		name = "personality_options.5040.a"		# Root out the corruption in our government
 		highlight = yes
 		trigger = {
-			ruler_has_personality = incorruptible_personality
+			ruler_has_personality_ancestor = { key = incorruptible }
 			corruption = 1
 		}
-		required_personality = incorruptible_personality
 		add_corruption = -1
 	}
 	option = {
 		name = "personality_options.5040.b"		# Improve the Officer Curriculum
 		highlight = yes
 		trigger = {
-			ruler_has_personality = martial_educator_personality
+			ruler_has_personality_ancestor = { key = martial_educator }
 		}
-		required_personality = martial_educator_personality
 		add_army_tradition = 10
 
 	}
@@ -1485,7 +1429,6 @@ country_event = {
 				NOT = { war_with = ROOT }
 			}
 		}
-		required_personality = drunkard_personality
 		random_neighbor_country = {
 			limit = { NOT = { war_with = ROOT } }
 			add_opinion = {
@@ -1510,14 +1453,12 @@ country_event = {
 		trigger = {
 			ruler_has_personality = embezzler_personality
 		}
-		required_personality = embezzler_personality
 		add_years_of_income = 0.25
 	}
 	option = {
 		name = "personality_options.5040.e"		# This is perfect for a little project of mine...
 		highlight = yes
 		trigger = { ruler_has_personality = obsessive_perfectionist_personality }
-		required_personality = obsessive_perfectionist_personality
 		add_prestige = 10
 	}
 }
@@ -1579,14 +1520,30 @@ country_event = {
 				NOT = { years_of_income = 0.3 }
 			}
 		}
+		if = {
+			limit = { 
+				OR = {
+					government = native
+					has_completed_all_reforms_trigger = yes
+				}
+			}
 		add_years_of_income = -0.25
+	}
+		else = {
+			reduce_reform_progress_small_effect = yes
+		}
 	}
 	option = {
 		name = "personality_options.5045.a"		# The fault lies with others
 		highlight = yes
 		trigger = { ruler_has_personality = naive_personality }
-		required_personality = naive_personality
 		add_prestige = -10
+	}
+	option = {
+		name = "personality_options.5045.b"		# Overhaul the governmental policies.
+		highlight = yes
+		trigger = { ruler_has_personality = reformist_personality }
+		add_adm_power = -15
 	}
 }
 
@@ -1603,6 +1560,7 @@ country_event = {
 
 	trigger = {
 		religion = kirishitan
+		has_estate = estate_church
 	}
 
 	mean_time_to_happen = {
@@ -1632,26 +1590,16 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
 						estate = estate_church
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 		add_prestige = 10
 	}
 	option = {
@@ -1663,39 +1611,19 @@ country_event = {
 				NOT = { prestige = 0 }
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 		add_prestige = -15
 	}
 	option = {
 		name = "personality_options.5050.a"		# Attempt to lessen the impact
 		highlight = yes
-		trigger = { ruler_has_personality = zealot_personality }
-		required_personality = zealot_personality
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 5
-			}
-		}
+		trigger = { ruler_has_personality_ancestor = { key = zealot } }
+		add_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.5050.b"		# Attempt to lessen the impact
 		highlight = yes
-		trigger = { ruler_has_personality = pious_personality }
-		required_personality = pious_personality
+		trigger = { ruler_has_personality_ancestor = { key = pious } }
 		add_devotion = -5
 	}
 }
@@ -8355,143 +8283,6 @@ country_event = {
 	}
 }
 
-# A new champion of the joust
-country_event = {
-	id = random_event.6
-	title = "random_event.EVTNAME6"
-	desc = "random_event.EVTDESC6"
-	picture = THEATRE_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		NOT = {
-			is_year = 1500
-		}
-		OR = {
-			government = despotic_monarchy
-			government = feudal_monarchy
-			government = administrative_monarchy
-			government = constitutional_monarchy
-			government = enlightened_despotism
-			government = revolutionary_empire
-		}
-		is_lesser_in_union = no
-		religion_group = christian
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "random_event.EVTOPTA6"
-		ai_chance = {
-			factor = 5
-			modifier = {
-				factor = 0.5
-				NOT = { legitimacy = 70 }
-			}
-		}
-		create_general = 100
-		add_prestige = -25
-		add_legitimacy = -25
-	}
-	option = {
-		name = "random_event.EVTOPTB6"
-		ai_chance = {
-			factor = 5
-			modifier = {
-				factor = 1.5
-				NOT = { legitimacy = 70 }
-			}
-		}
-		add_legitimacy = 25
-	}
-}
-
-# A new flagship!
-country_event = {
-	id = random_event.7
-	title = "random_event.EVTNAME7"
-	desc = "random_event.EVTDESC7"
-	picture = SHIP_SAILING_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		naval_forcelimit = 90
-		num_of_ports = 1
-		any_owned_province = {
-			has_port = yes
-			is_core = ROOT
-			controlled_by = ROOT
-		}
-		primitives = no
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "random_event.EVTOPTA7"
-		ai_chance = {
-			factor = 33
-			modifier = {
-				factor = 0.5
-				NOT = { treasury = 100 }
-			}
-		}
-		add_treasury = -50
-		add_prestige = 5
-		random_owned_province = {
-			limit = {
-				has_port = yes
-				is_core = ROOT
-				controlled_by = ROOT
-			}
-			heavy_ship = ROOT
-		}
-	}
-	option = {
-		name = "random_event.EVTOPTB7"
-		ai_chance = {
-			factor = 33
-			modifier = {
-				factor = 0.5
-				NOT = { treasury = 50 }
-			}
-		}
-		add_treasury = -20
-		add_prestige = 2
-		random_owned_province = {
-			limit = {
-				has_port = yes
-				is_core = ROOT
-				controlled_by = ROOT
-			}
-			light_ship = ROOT
-		}
-	}
-	option = {
-		name = "random_event.EVTOPTC7"
-		ai_chance = {
-			factor = 33
-		}
-		add_treasury = -10
-		add_prestige = 1
-		random_owned_province = {
-			limit = {
-				has_port = yes
-				is_core = ROOT
-				controlled_by = ROOT
-			}
-			galley = ROOT
-		}
-	}
-}
-
 
 # We have a man inside!
 country_event = {
@@ -8503,16 +8294,35 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		any_rival_country = {
-			advisor = military_engineer_a
+		has_regency = no
+		is_at_war = yes
+		any_country = {
+			employed_advisor = {
+				type = fortification_expert
+				culture = root
+			}
 			war_with = ROOT
 		}
-		has_regency = no
 		NOT = {
 			has_ruler_modifier = inside_man
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_country = {
+				limit = {
+					employed_advisor = {
+						type = fortification_expert
+						culture = root
+					}
+					war_with = ROOT
+				}
+				save_event_target_as = enemy_country
+			}
+		}
+	}
+	
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -8542,6 +8352,7 @@ country_event = {
 			advisor = naval_reformer_a
 		}
 		primitives = no
+		num_ships_privateering = 1
 	}
 
 	mean_time_to_happen = {

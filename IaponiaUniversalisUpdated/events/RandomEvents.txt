@@ -1634,12 +1634,36 @@ country_event = {
 country_event = {
 	id = 5051
 	title = "EVTNAME5051"
+	desc = {
+		trigger = {
+			NOT = { has_estate = estate_burghers }
+		}
 	desc = "EVTDESC5051"
+	}
+	desc = {
+		trigger = {
+			OR = {
+				has_estate = estate_burghers
+			}
+		}
+		desc = event.5051.desc
+	}
 	picture = ANGRY_MOB_eventPicture
+	goto = uppity_artisans_province
 
 	is_triggered_only = yes
 
-	trigger = {	}
+	trigger = {
+		if = {
+			limit = { has_estate = estate_burghers }
+			NOT = {
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 30
+				}
+			}
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 1
@@ -1654,6 +1678,19 @@ country_event = {
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_core = ROOT
+					is_state = yes
+					is_in_capital_area = yes
+				}
+				save_event_target_as = uppity_artisans_province
+			}
+		}
+	}
+
 	option = {
 		name = "EVTOPTA5051"		# Execute the troublemakers.
 		ai_chance = {
@@ -1664,26 +1701,16 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
 						estate = estate_burghers
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -5
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 		if = {
 			limit = { NOT = { stability = -2 } }
 			add_adm_power = -100
@@ -1707,51 +1734,26 @@ country_event = {
 			}
 		}
 		add_years_of_income = -0.50
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
+		add_estate_burghers_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.5051.a"		# Crush Them!
 		highlight = yes
 		trigger = { ruler_has_personality = cruel_personality }
-		required_personality = cruel_personality
 		add_years_of_income = 0.1
-		random_owned_province = {
-			limit = {
-				is_core = ROOT
-				is_state = yes
-				is_in_capital_area = yes
-			}
-			spawn_rebels = {
+		event_target:uppity_artisans_province = {
+			spawn_small_scaled_rebels = {
 				type = anti_tax_rebels
-				size = 1
+				no_defined_leader = yes
 			}
 		}
 	}
 	option = {
 		name = "personality_options.5051.b"		#
 		highlight = yes
-		trigger = { ruler_has_personality = entrepreneur_personality }
-		required_personality = entrepreneur_personality
+		trigger = { ruler_has_personality_ancestor = { key = entrepreneur } }
 		add_prestige = -10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -2.5
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.5051.c"		# They just aren't good enough
@@ -1759,16 +1761,7 @@ country_event = {
 		trigger = { ruler_has_personality = obsessive_perfectionist_personality }
 		required_personality = obsessive_perfectionist_personality
 		add_prestige = -5
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -2.5
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 	}
 }
 
@@ -1783,7 +1776,14 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {	}
+	trigger = {
+		any_owned_province = {
+			is_core = ROOT
+			is_state = yes
+			is_in_capital_area = yes
+			is_capital = no
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 1
@@ -1800,6 +1800,20 @@ country_event = {
 			factor = 0.66
 			stability = 3
 			revolt_percentage = 0
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_core = ROOT
+					is_state = yes
+					is_in_capital_area = yes
+					is_capital = no
+				}
+				save_event_target_as = uppity_peasants_province
+			}
 		}
 	}
 
@@ -1835,20 +1849,21 @@ country_event = {
 	}
 	option = {
 		name = "personality_options.5051.a"		# Crush Them!
+		goto = uppity_peasants_province
 		highlight = yes
 		trigger = { ruler_has_personality = cruel_personality }
-		required_personality = cruel_personality
-		random_owned_province = {
-			limit = {
-				is_core = ROOT
-				is_state = yes
-				is_in_capital_area = yes
-			}
-			spawn_rebels = {
+		event_target:uppity_peasants_province = {
+			spawn_small_scaled_rebels = {
 				type = anti_tax_rebels
-				size = 1
+				no_defined_leader = yes
 			}
 		}
+	}
+	option = {
+		name = "personality_options.5051.d"		# Establish new reforms for the peasants
+		highlight = yes
+		trigger = { ruler_has_personality = legislator_personality }
+		add_adm_power = -25
 	}
 }
 
@@ -1858,13 +1873,22 @@ country_event = {
 country_event = {
 	id = 5053
 	title = "EVTNAME5053"
-	desc = "EVTDESC5053"
+	desc = event.5053.desc
 	picture = MERCHANTS_TALKING_eventPicture
 
 	is_triggered_only = yes
 
 	trigger = {
 		NOT = { mercantilism = 30 }
+		if = {
+			limit = { has_estate = estate_burghers }
+			NOT = {
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 30
+				}
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -1872,7 +1896,7 @@ country_event = {
 
 		modifier = {
 			factor = 2.0
-			government = merchant_republic
+			has_government_attribute = is_merchant_republic
 		}
 		modifier = {
 			factor = 0.5
@@ -1890,27 +1914,17 @@ country_event = {
 			factor = 55
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
 						estate = estate_burghers
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_dip_power = -50
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5053"		# Get rid of the troublemakers.
@@ -1920,19 +1934,9 @@ country_event = {
 	option = {
 		name = "personality_options.5053.a"		# Reduce trade investment.
 		highlight = yes
-		trigger = { ruler_has_personality = entrepreneur_personality }
-		required_personality = entrepreneur_personality
+		trigger = { ruler_has_personality_ancestor = { key = entrepreneur } }
 		add_dip_power = -25
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -5
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 	}
 }
 
@@ -2009,29 +2013,21 @@ country_event = {
 		add_republican_tradition = -10
 		add_horde_unity = -25
 		add_legitimacy = -25
-		reduce_mandate_effect = yes
+		reduce_mandate_large_effect = yes
 	}
 	option = {
 		name = "personality_options.5054.a"		#
 		highlight = yes
-		trigger = { ruler_has_personality = conscientious_personality }
-		required_personality = conscientious_personality
+		trigger = { ruler_has_personality_ancestor = { key = conscientious } }
 		add_legitimacy = -10
 		add_republican_tradition = -5
 		add_horde_unity = -10
-		if = {
-			limit = {
-				has_dlc = "Mandate of Heaven"
-				is_emperor_of_china = yes
-			}
-			add_mandate = -5
-		}
+		reduce_mandate_effect = yes
 	}
 	option = {
 		name = "personality_options.5054.b"		#
 		highlight = yes
-		trigger = { ruler_has_personality = just_personality }
-		required_personality = just_personality
+		trigger = { ruler_has_personality_ancestor = { key = just } }
 		random_list = {
 			50 = {
 				add_prestige = 5
@@ -2040,7 +2036,7 @@ country_event = {
 				add_republican_tradition = -10
 				add_horde_unity = -25
 				add_legitimacy = -25
-				reduce_mandate_effect = yes
+				reduce_mandate_large_effect = yes
 			}
 		}
 	}
@@ -2069,6 +2065,14 @@ country_event = {
 		modifier = {
 			factor = 0.5
 			luck = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { corruption = 0.5 }
+		}
+		modifier = {
+			factor = 2
+			corruption =4
 		}
 		modifier = {
 			factor = 0.66
@@ -2103,7 +2107,16 @@ country_event = {
 				corruption = 10
 			}
 		}
-		add_corruption = 1
+		if = {
+			limit = { 
+				has_completed_all_reforms_trigger = yes
+			}
+			add_corruption = 2
+		}
+		else = {
+			add_corruption = 1
+			reduce_reform_progress_small_effect = yes
+		}
 	}
 	option = {
 		name = "personality_options.5055.a"		# Deal with any visible signs of this
@@ -2111,14 +2124,12 @@ country_event = {
 		trigger = {
 			ruler_has_personality = embezzler_personality
 		}
-		required_personality = embezzler_personality
 		add_prestige = 5
 	}
 	option = {
 		name = "personality_options.5055.b"		# Replace certain high-ranking officials
 		highlight = yes
-		trigger = { ruler_has_personality = incorruptible_personality }
-		required_personality = incorruptible_personality
+		trigger = { ruler_has_personality_ancestor = { key = incorruptible } }
 		add_adm_power = -25
 	}
 }
@@ -2136,8 +2147,27 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		OR = {
+			has_regency = no
+			has_consort_regency = yes
+		}
 		any_neighbor_country = {
 			is_at_war = no
+			is_lesser_in_union = no
+			same_continent = root
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_neighbor_country = {
+				limit = {
+					is_at_war = no
+					is_lesser_in_union = no
+					same_continent = root
+				}
+				save_event_target_as = insulted_party
+			}
 		}
 	}
 
@@ -2153,8 +2183,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA5056" # We won't forget this.
 		ai_chance = { factor = 55 }
-		random_country = {
-			limit = { is_neighbor_of = ROOT  }
+		event_target:insulted_party = {
 			reverse_add_casus_belli = {
 				target = ROOT
 				type = cb_insult
@@ -2173,18 +2202,8 @@ country_event = {
 	option = {
 		name = "personality_options.5056.a" # Try to ease the tension.
 		highlight = yes
-		trigger = { ruler_has_personality = silver_tongue_personality }
-		required_personality = silver_tongue_personality
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
+		trigger = { ruler_has_personality_ancestor = { key = silver_tongue } }
+		add_estate_burghers_loyalty_effect = yes
 		add_prestige = 5
 		every_neighbor_country = {
 			limit = { is_at_war = no }
@@ -2205,6 +2224,21 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		has_estate = estate_nobles
+		OR = {
+			NOT = {
+				estate_influence = {
+					estate = estate_nobles
+					influence = 20
+				}
+			}
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 30
+				}
+			}
+		}
 		NOT = { has_country_modifier = disorder }
 	}
 
@@ -2222,12 +2256,9 @@ country_event = {
 		modifier = {
 			factor = 0.66
 			OR = {
-				government = merchant_republic
-				government = administrative_republic
-				government = constitutional_republic
-				government = papal_government
-				government = tribal_federation
-				government = tribal_democracy
+				has_government_attribute = is_merchant_republic
+				government = theocracy
+				has_reform = tribal_federation
 			}
 		}
 	}
@@ -2238,7 +2269,7 @@ country_event = {
 			factor = 55
 			modifier = {
 				factor = 1.5
-				prestige = 0.2
+				prestige = 20
 			}
 		}
 		add_prestige = -10
@@ -2253,26 +2284,14 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
-				NOT = {
-					estate_loyalty = {
+				estate_influence = {
 						estate = estate_nobles
-						loyalty = 40
+					influence = 80
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -5
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
 		add_country_modifier = {
 			name = "disorder"
 			duration = 3650
@@ -2282,13 +2301,13 @@ country_event = {
 		name = "personality_options.5058.a"		# Crush Them!
 		highlight = yes
 		trigger = { ruler_has_personality = cruel_personality }
-		required_personality = cruel_personality
 		add_prestige = 10
 		random_owned_province = {
 			limit = {
 				is_core = ROOT
 				is_state = yes
 				is_in_capital_area = yes
+				highest_supply_limit_in_area = yes
 			}
 			spawn_rebels = {
 				type = noble_rebels
@@ -2299,8 +2318,7 @@ country_event = {
 	option = {
 		name = "personality_options.5058.b"		# They never had those rights to begin with.
 		highlight = yes
-		trigger = { ruler_has_personality = lawgiver_personality }
-		required_personality = lawgiver_personality
+		trigger = { ruler_has_personality_ancestor = { key = legislator } }
 		add_prestige = -5
 		add_legitimacy = 5
 	}
@@ -2309,107 +2327,6 @@ country_event = {
 #########################################################
 #		Trading Company Disaster					 	#
 #########################################################
-country_event = {
-	id = 5059
-	title = "EVTNAME5059"
-	desc = "EVTDESC5059"
-	picture = MERCHANTS_TALKING_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		is_year = 1700
-		religion_group = christian
-		NOT = { has_country_modifier = trade_disaster }
-	}
-
-	mean_time_to_happen = {
-		days = 1
-
-		modifier = {
-			factor = 2.0
-			NOT = { trade_efficiency = 0.5 }
-		}
-		modifier = {
-			factor = 0.5
-			luck = yes
-		}
-		modifier = {
-			factor = 0.66
-			trade_efficiency = 0.6
-		}
-	}
-
-	option = {
-		name = "EVTOPTA5059"		# Cut down on our expenses
-		ai_chance = {
-			factor = 55
-			modifier = {
-				factor = 0
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-				NOT = {
-					estate_loyalty = {
-						estate = estate_burghers
-						loyalty = 40
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
-		add_country_modifier = {
-			name = "trade_disaster"
-			duration = 365
-		}
-	}
-	option = {
-		name = "EVTOPTB5059"		# This isn't anything we can't handle.
-		ai_chance = {
-			factor = 45
-			modifier = {
-				factor = 0.5
-				NOT = { years_of_income = 0.15 }
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
-		add_years_of_income = -0.1
-	}
-	option = {
-		name = "personality_options.5059.a"		# You win some, you lose some
-		highlight = yes
-		trigger = { ruler_has_personality = entrepreneur_personality }
-		required_personality = entrepreneur_personality
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
-		add_years_of_income = -0.05
-	}
-}
 
 #########################################################
 #			Meteor sighted							  	#
@@ -2422,7 +2339,9 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {}
+	trigger = {
+		NOT = { has_country_flag = no_more_comet_sighted_event }
+	}
 
 	mean_time_to_happen = {
 		days = 1
@@ -2430,7 +2349,7 @@ country_event = {
 		modifier = {
 			factor = 0.1
 			OR = {
-				ruler_has_personality = scholar_personality
+				ruler_has_personality_ancestor = { key = scholar }
 			}
 		}
 
@@ -2455,9 +2374,8 @@ country_event = {
 		}
 		highlight = yes
 		trigger = {
-			ruler_has_personality = scholar_personality
+			ruler_has_personality_ancestor = { key = scholar }
 		}
-		required_personality = scholar_personality
 		add_adm_power = 20
 	}
 
@@ -2569,6 +2487,7 @@ country_event = {
 		government = monarchy
 		NOT = { dip = 3 }
 		is_free_or_tributary_trigger = yes
+		has_estate = estate_nobles
 	}
 
 	mean_time_to_happen = {
@@ -2591,16 +2510,8 @@ country_event = {
 		}
 		add_legitimacy = -15
 		add_horde_unity = -15
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		reduce_mandate_effect = yes
+		add_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5065"		# Take control of the situation
@@ -2608,62 +2519,33 @@ country_event = {
 			factor = 45
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_adm_power = -50
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.5065.a"		# Take control of the situation
 		highlight = yes
 		trigger = { ruler_has_personality = cruel_personality }
-		required_personality = cruel_personality
 		add_legitimacy = 5
 		add_horde_unity = 5
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_mandate_effect = yes
+		add_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.5065.b"		# Settle the conflict
 		highlight = yes
-		trigger = { ruler_has_personality = just_personality }
-		required_personality = just_personality
+		trigger = { ruler_has_personality_ancestor = { key = just } }
 		add_adm_power = -25
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 	}
 }
 
@@ -2739,7 +2621,6 @@ country_event = {
 		trigger = {
 			ruler_has_personality = embezzler_personality
 		}
-		required_personality = embezzler_personality
 		add_years_of_income = 1
 	}
 }
@@ -2758,6 +2639,11 @@ country_event = {
 	trigger = {
 		NOT = {mercantilism = 50 }
 		NOT = { has_country_modifier = trade_income_increase }
+		OR = {
+			government = monarchy
+			government = republic
+			government = theocracy
+		}
 	}
 
 	mean_time_to_happen = {
@@ -2793,7 +2679,6 @@ country_event = {
 		trigger = {
 			ruler_has_personality = embezzler_personality
 		}
-		required_personality = embezzler_personality
 		add_years_of_income = 1.5
 	}
 }
@@ -2812,7 +2697,7 @@ country_event = {
 	trigger = {
 		OR = {
 			government = monarchy
-			government = noble_republic
+			has_reform = noble_elite_reform
 		}
 		NOT = {
 			has_country_modifier = tax_income_loss
@@ -2839,16 +2724,7 @@ country_event = {
 			name = "tax_income_loss"
 			duration = 7300
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5071"		# Refuse their demands.
@@ -2860,12 +2736,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
@@ -2878,36 +2753,17 @@ country_event = {
 			limit = { stability = -2 }
 			add_stability = -1
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.5071.a"		# Negotiate a better deal
 		highlight = yes
-		trigger = { ruler_has_personality = charismatic_negotiator_personality }
-		required_personality = charismatic_negotiator_personality
+		trigger = { ruler_has_personality_ancestor = { key = charismatic_negotiator } }
 		add_country_modifier = {
 			name = "tax_income_loss"
 			duration = 5475
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 	}
 }
 
@@ -2925,6 +2781,31 @@ country_event = {
 	trigger = {
 		is_lesser_in_union = no
 		NOT = { has_country_modifier = tax_income_boost }
+		OR = {
+			government = monarchy
+			government = republic
+			government = theocracy
+		}
+		OR = {
+			has_estate = estate_nobles
+		}
+		any_neighbor_country = {
+			NOT = { is_rival = ROOT }
+			NOT = { trade_embargo_by = ROOT }
+			NOT = { war_with = ROOT }
+			NOT = {
+				has_opinion_modifier = {
+					who = root
+					modifier = opinion_granted_privileges
+				}
+			}
+			NOT = {
+				has_opinion_modifier = {
+					who = root
+					modifier = opinion_not_grant_privileges
+				}
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -2940,6 +2821,31 @@ country_event = {
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_neighbor_country = {
+				limit = {
+					NOT = { is_rival = ROOT }
+					NOT = { trade_embargo_by = ROOT }
+					NOT = { war_with = ROOT }
+					NOT = {
+						has_opinion_modifier = {
+							who = root
+							modifier = opinion_granted_privileges
+						}
+					}
+					NOT = {
+						has_opinion_modifier = {
+							who = root
+							modifier = opinion_not_grant_privileges
+						}
+					}
+				}
+				save_event_target_as = neighbour_country
+			}
+		}
+	}
+
 	option = {
 		name = "EVTOPTA5072" # Grant privileges
 		ai_chance = {
@@ -2950,7 +2856,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				government = steppe_horde
+				has_reform = steppe_horde
 				NOT = { legitimacy_or_horde_unity = 50 }
 			}
 			modifier = {
@@ -2960,48 +2866,29 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
 						estate = estate_burghers
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		random_country = {
-			limit = { is_neighbor_of = ROOT }
+		event_target:neighbour_country = {
 			add_opinion = { who = ROOT modifier = opinion_granted_privileges }
 		}
 		add_legitimacy = -10
 		add_horde_unity = -10
 		add_republican_tradition = -5
 		add_devotion = -5
+		reduce_mandate_effect = yes
 		add_country_modifier = {
 			name = "tax_income_boost"
 			duration = 7300
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
+		reduce_estate_burghers_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5072" # Privileges have to be earned
@@ -3014,43 +2901,23 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
+		add_estate_burghers_loyalty_effect = yes
 		add_legitimacy = 10
 		add_devotion = 5
 		add_horde_unity = 5
 		add_republican_tradition = 5
-
-		random_country = {
-			limit = { is_neighbor_of = ROOT }
+		add_mandate_effect = yes
+		event_target:neighbour_country = {
 			add_opinion = { who = ROOT modifier = opinion_not_grant_privileges }
 		}
 	}
@@ -3064,7 +2931,7 @@ country_event = {
 	title = "EVTNAME5074"
 	desc = "EVTDESC5074"
 	picture = LAND_MILITARY_eventPicture
-
+	goto = cantonments_province
 	is_triggered_only = yes
 
 	trigger = {
@@ -3080,6 +2947,18 @@ country_event = {
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_city = yes
+					culture_group = root
+				}
+				save_event_target_as = cantonments_province
+			}
+		}
+	}
+
 	option = {
 		name = "EVTOPTA5074"		# Draft citizens
 		ai_chance = {
@@ -3089,7 +2968,7 @@ country_event = {
 				NOT = { treasury = 200 }
 			}
 		}
-		random_owned_province = {
+		event_target:cantonments_province = {
 			add_base_manpower = 1
 		}
 	}
@@ -3103,7 +2982,7 @@ country_event = {
 			}
 		}
 		add_treasury = -60
-		random_owned_province = {
+		event_target:cantonments_province = {
 			add_base_manpower = 2
 		}
 	}
@@ -3124,6 +3003,20 @@ country_event = {
 		government = monarchy
 		num_of_cities = 2
 		NOT = { has_country_modifier = old_rights_granted_to_nobility }
+		OR = {
+			has_estate = estate_nobles
+		}
+		if = {
+			limit = {
+				has_estate = estate_nobles
+			}
+			NOT = {
+				num_of_estate_privileges = {
+					estate = estate_nobles
+					value = 5
+				}
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -3144,20 +3037,19 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		add_country_modifier = {
-			name = "old_rights_granted_to_nobility"
-			duration = 3650
-		}
 		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
+			limit = { 
+				has_completed_all_reforms_trigger = yes
 			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
+			add_country_modifier = {
+				name = "old_rights_granted_to_nobility"
+				duration = 3650
 		}
+			}
+		else = {
+			reduce_reform_progress_small_effect = yes
+			}
+		add_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5075"		# Reject demands.
@@ -3169,12 +3061,11 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
@@ -3191,8 +3082,7 @@ country_event = {
 	option = {
 		name = "personality_options.5075.a"		# create a new set of rights
 		highlight = yes
-		trigger = { ruler_has_personality = lawgiver_personality }
-		required_personality = lawgiver_personality
+		trigger = { ruler_has_personality_ancestor = { key = legislator } }
 		add_adm_power = -25
 	}
 }
@@ -3215,6 +3105,9 @@ country_event = {
 			government = theocracy
 		}
 		is_lesser_in_union = no
+		any_owned_province = {
+			development = 10
+		}
 	}
 
 	mean_time_to_happen = {
@@ -3240,26 +3133,16 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
 						estate = estate_burghers
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 		if = {
 			limit = { NOT = { stability = -2 } }
 			add_adm_power = -100
@@ -3289,26 +3172,25 @@ country_event = {
 				NOT = { prestige = 25 }
 			}
 		}
+		add_estate_burghers_loyalty_effect = yes
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
+				has_completed_all_reforms_trigger = yes
 		}
 		add_legitimacy = -20
 		add_horde_unity = -20
 		add_republican_tradition = -10
 		add_devotion = -10
+		}
+		else = {
+			reduce_reform_progress_small_effect = yes
+		}
+		reduce_mandate_effect = yes
 	}
 	option = {
 		name = "personality_options.5075.a"		# create a new set of rights
 		highlight = yes
-		trigger = { ruler_has_personality = lawgiver_personality }
-		required_personality = lawgiver_personality
+		trigger = { ruler_has_personality_ancestor = { key = legislator } }
 		add_adm_power = -25
 	}
 }
@@ -3321,10 +3203,19 @@ country_event = {
 	title = "EVTNAME5077"
 	desc = "EVTDESC5077"
 	picture = REFORM_eventPicture
+	goto = troublesome_province
 
 	is_triggered_only = yes
 
-	trigger = { num_of_cities = 2 }
+	trigger = {
+		num_of_cities = 2
+		any_owned_province = {
+			is_capital = no
+			is_city = yes
+			is_state_core = root
+			is_in_capital_area = no
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 1
@@ -3334,19 +3225,51 @@ country_event = {
 			NOT = { stability = 0 }
 		}
 		modifier = {
+			factor = 0.5
+			luck = yes
+		}
+		modifier = {
 			factor = 0.8
 			stability = 1
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_capital = no
+					is_city = yes
+					is_state_core = root
+					is_in_capital_area = no
+				}
+				save_event_target_as = troublesome_province
+			}
 		}
 	}
 
 	option = {
 		name = "EVTOPTA5077"		# Let them handle it
 		ai_chance = { factor = 25 }
-		random_owned_province = {
-			limit = {
-				is_capital = no
+		event_target:troublesome_province = {
+			if = {
+				limit = {
+					NOT = {
+						ROOT = { num_of_cities = 20 }
+					}
+				}
+				add_local_autonomy = 15
 			}
-			add_local_autonomy = 15
+			else = {
+				area = {
+					limit = {
+						owned_by = root
+						is_capital = no
+						is_city = yes
+					}
+					add_local_autonomy = 15
+				}
+			}
 		}
 	}
 	option = {
@@ -3357,8 +3280,7 @@ country_event = {
 	option = {
 		name = "personality_options.5077.a"		#
 		highlight = yes
-		trigger = { ruler_has_personality = lawgiver_personality }
-		required_personality = lawgiver_personality
+		trigger = { ruler_has_personality_ancestor = { key = legislator } }
 		add_adm_power = -25
 	}
 }
@@ -3375,14 +3297,26 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {	}
+	trigger = {
+		has_estate = estate_burghers
+		NOT = {
+			num_of_estate_privileges = {
+				estate = estate_burghers
+				value = 3
+			}
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 1
 
 		modifier = {
 			factor = 1.25
-			NOT = { government = merchant_republic }
+			NOT = { has_government_attribute = is_merchant_republic }
+		}
+		modifier = {
+			factor = 0.5
+			luck = yes
 		}
 		modifier = {
 			factor = 0.66
@@ -3396,37 +3330,18 @@ country_event = {
 			factor = 55
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_adm_power = -50
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
+		add_estate_burghers_loyalty_effect = yes
+		reduce_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5082"		# Deny them privileges
@@ -3434,71 +3349,32 @@ country_event = {
 			factor = 45
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
 						estate = estate_burghers
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_dip_power = -50
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
+		add_estate_nobles_loyalty_effect = yes
 	}
 	option = {
-		name = "personality_options.5082.a"		#
+		name = "personality_options.5082.a"
 		highlight = yes
 		trigger = {
 			OR = {
-				ruler_has_personality = charismatic_negotiator_personality
-				ruler_has_personality = silver_tongue_personality
+				ruler_has_personality_ancestor = { key = charismatic_negotiator }
+				ruler_has_personality_ancestor = { key = silver_tongue }
 			}
 		}
-		required_personality = charismatic_negotiator_personality
-		required_personality = silver_tongue_personality
 		add_adm_power = -20
 		add_dip_power = -20
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 5
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 5
-			}
-		}
+		add_estate_burghers_loyalty_effect = yes
+		add_estate_nobles_loyalty_effect = yes
 	}
 }
 
@@ -3506,11 +3382,9 @@ country_event = {
 #		Italian engineer available						#
 #########################################################
 
-
 #########################################################
 #	Foreign drill instructor available					#
 #########################################################
-
 
 #########################################################
 #		Build a great palace							#
@@ -3561,6 +3435,7 @@ country_event = {
 		add_prestige = 10
 		add_legitimacy = 20
 		add_horde_unity = 20
+		add_mandate_effect = yes
 		add_years_of_income = -0.25
 	}
 	option = {
@@ -3584,22 +3459,22 @@ country_event = {
 		trigger = {
 			ruler_has_personality = obsessive_perfectionist_personality
 		}
-		required_personality = obsessive_perfectionist_personality
 		add_prestige = 15
 		add_legitimacy = 25
 		add_horde_unity = 25
+		add_mandate_large_effect = yes
 		add_years_of_income = -0.35
 	}
 	option = {
 		name = "personality_options.5085.b"		#Let ruler try out new construction techniques
 		highlight = yes
 		trigger = {
-			ruler_has_personality = architectural_visionary_personality
+			ruler_has_personality_ancestor = { key = architectural_visionary }
 		}
-		required_personality = architectural_visionary_personality
 		add_prestige = 10
 		add_legitimacy = 20
 		add_horde_unity = 20
+		add_mandate_large_effect = yes
 		add_years_of_income = -0.15
 	}
 }
@@ -3634,7 +3509,7 @@ country_event = {
 		modifier = {
 			factor = 2.0
 			has_idea = merchant_adventures
-			government = merchant_republic
+			has_government_attribute = is_merchant_republic
 		}
 		modifier = {
 			factor = 0.5
@@ -3646,32 +3521,31 @@ country_event = {
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_country = {
+				limit = {
+					is_neighbor_of = ROOT
+					NOT = { has_opinion = { who = ROOT value = 50 } }
+				}
+				save_event_target_as = harassing_merchants_nation
+			}
+		}
+	}
+
 	option = {
 		name = "EVTOPTA5088" # Escalate complaint.
 		ai_chance = {
 			factor = 55
 		}
-		random_country = {
-			limit = {
-				is_neighbor_of = ROOT
-				NOT = { has_opinion = { who = ROOT value = 50 } }
-			}
+		event_target:harassing_merchants_nation = {
 			reverse_add_casus_belli = {
 				target = ROOT
 				type = cb_insult
 				months = 12
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
+		add_estate_burghers_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5088" # Seek a diplomatic solution.
@@ -3679,39 +3553,24 @@ country_event = {
 			factor = 45
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
 						estate = estate_burghers
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		random_country = {
-			limit = {
-				is_neighbor_of = ROOT
-				NOT = { has_opinion = { who = ROOT value = 50 } }
-			}
+		event_target:harassing_merchants_nation = {
 			add_opinion = { who = ROOT modifier = opinion_diplomatic_solution }
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.5088.a"		#
 		highlight = yes
-		trigger = { ruler_has_personality = charismatic_negotiator_personality }
-		required_personality = charismatic_negotiator_personality
+		trigger = { ruler_has_personality_ancestor = { key = charismatic_negotiator } }
 		every_country = {
 			limit = {
 				is_neighbor_of = ROOT
@@ -3719,16 +3578,7 @@ country_event = {
 			}
 			add_opinion = { who = ROOT modifier = opinion_diplomatic_solution }
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 	}
 }
 
@@ -3740,11 +3590,19 @@ country_event = {
 	title = "EVTNAME5089"
 	desc = "EVTDESC5089"
 	picture = COURT_eventPicture
+	goto = uppity_peasants_province
 
 	is_triggered_only = yes
 
 	trigger = {
 		religion_group = christian
+		has_estate = estate_nobles
+		any_owned_province = {
+			NOT = { is_colony = yes }
+			NOT = { is_overseas = yes }
+			is_capital = no
+			is_state_core = root
+		}
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -3754,8 +3612,25 @@ country_event = {
 			NOT = { stability = 0 }
 		}
 		modifier = {
+			factor = 0.5
+			luck = yes
+		}
+		modifier = {
 			factor = 0.66
 			adm = 5
+		}
+	}
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					NOT = { is_colony = yes }
+					NOT = { is_overseas = yes }
+					is_capital = no
+					is_state_core = root
+				}
+				save_event_target_as = uppity_peasants_province
+			}
 		}
 	}
 
@@ -3769,27 +3644,17 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_prestige = -10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5089"		# Deny petition
@@ -3800,23 +3665,10 @@ country_event = {
 				is_at_war = no
 			}
 		}
-		random_owned_province = {
-			limit = {
-				NOT = { is_colony = yes }
-				NOT = { is_overseas = yes }
-			}
+		event_target:uppity_peasants_province = {
 			anti_tax_rebels = 1
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 	}
 }
 
@@ -3833,6 +3685,7 @@ country_event = {
 
 	trigger = {
 		government = monarchy
+		has_regency = no
 	}
 
 	mean_time_to_happen = {
@@ -3841,6 +3694,10 @@ country_event = {
 		modifier = {
 			factor = 2.0
 			treasury = 300
+		}
+		modifier = {
+			factor = 0.5
+			luck = yes
 		}
 	}
 
@@ -3854,16 +3711,7 @@ country_event = {
 			}
 		}
 		add_years_of_income = -0.5
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5090"		# Deny aid
@@ -3871,27 +3719,17 @@ country_event = {
 			factor = 45
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_adm_power = -50
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
 	}
 }
 
@@ -3908,6 +3746,11 @@ country_event = {
 
 	trigger = {
 		NOT = { adm = 3 }
+		any_neighbor_country = {
+			is_neighbor_of = ROOT
+			is_free_or_tributary_trigger = yes
+			NOT = { alliance_with = root }
+		}
 	}
 
 	mean_time_to_happen = {
@@ -3923,15 +3766,24 @@ country_event = {
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_neighbor_country = {
+				limit = {
+					is_neighbor_of = ROOT
+					is_free_or_tributary_trigger = yes
+					NOT = { alliance_with = root }
+				}
+				save_event_target_as = dissidents_in_here
+			}
+		}
+	}
+
 	option = {
 		name = "EVTOPTA5091"		# Support
 		ai_chance = { factor = 55 }
 		add_years_of_income = -0.1
-		random_country = {
-			limit = {
-				is_neighbor_of = ROOT
-				is_free_or_tributary_trigger = yes
-			}
+		event_target:dissidents_in_here = {
 			add_opinion = { who = ROOT modifier = opinion_supports_dissidents }
 		}
 	}
@@ -3965,6 +3817,10 @@ country_event = {
 			NOT = { trade_efficiency = 0.5 }
 		}
 		modifier = {
+			factor = 0.5
+			luck = yes
+		}
+		modifier = {
 			factor = 0.66
 			trade_efficiency = 0.6
 		}
@@ -3974,16 +3830,7 @@ country_event = {
 		name = "EVTOPTA5092"		# Impose new tariff
 		ai_chance = { factor = 70 }
 		add_mercantilism = 3
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
+		add_estate_burghers_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5092"		# Deny new tariff
@@ -3991,44 +3838,24 @@ country_event = {
 			factor = 30
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
 						estate = estate_burghers
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
+		reduce_estate_burghers_loyalty_effect = yes
 		add_dip_power = 33
 	}
 	option = {
 		name = "personality_options.5092.a"		#
 		highlight = yes
-		trigger = { ruler_has_personality = entrepreneur_personality }
-		required_personality = entrepreneur_personality
+		trigger = { ruler_has_personality_ancestor = { key = entrepreneur } }
 		add_mercantilism = 4
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
+		add_estate_burghers_loyalty_effect = yes
 	}
 }
 
@@ -4087,8 +3914,62 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		government = theocratic_government
-		advisor = envoy_a
+		government = theocracy
+		has_estate = estate_church
+		employed_advisor = {
+			religion = heretic
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			hidden_effect = {
+				random_list = {
+					1 = {
+						trigger = {
+							employed_advisor = {
+								category = ADM
+								religion = heretic
+							}
+						}
+						modifier = {
+							factor = 3
+							advisor = statesman
+						}
+						set_country_flag = advisor_events_adm
+					}
+					1 = {
+						trigger = {
+							employed_advisor = {
+								category = DIP
+								religion = heretic
+							}
+						}
+						set_country_flag = advisor_events_dip
+					}
+					1 = {
+						trigger = {
+							employed_advisor = {
+								category = MIL
+								religion = heretic
+							}
+						}
+						set_country_flag = advisor_events_mil
+					}
+				}
+			}
+		}
+	}
+
+	after = {
+		hidden_effect = {
+			trigger_switch = {
+				on_trigger = has_country_flag
+				advisor_events_adm = { clr_country_flag = advisor_events_adm }
+				advisor_events_dip = { clr_country_flag = advisor_events_dip }
+				advisor_events_mil = { clr_country_flag = advisor_events_mil }
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -4108,17 +3989,13 @@ country_event = {
 		name = "EVTOPTA5094"		# Fire him!
 		ai_chance = { factor = 40 }
 		reduce_meritocracy_effect = yes
-		remove_advisor = envoy_a
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
+		trigger_switch = {
+			on_trigger = has_country_flag
+			advisor_events_adm = { remove_advisor_by_category = ADM }
+			advisor_events_dip = { remove_advisor_by_category = DIP }
+			advisor_events_mil = { remove_advisor_by_category = MIL }
 			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5094"		# We have faith in him
@@ -4126,27 +4003,17 @@ country_event = {
 			factor = 60
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
 						estate = estate_church
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_prestige = -10
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 	}
 }
 
@@ -4228,29 +4095,9 @@ country_event = {
 		name = "EVTOPTA5097"		# Enforce serfdom
 		ai_chance = {
 			factor = 80
-			modifier = {
-				factor = 0.25
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-				NOT = {
-					estate_loyalty = {
-						estate = estate_burghers
-						loyalty = 40
-					}
-				}
-			}
 		}
+		add_estate_nobles_loyalty_effect = yes
 		add_adm_power = -35
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
 	}
 	option = {
 		name = "EVTOPTB5097"		# These things happen
@@ -4258,34 +4105,23 @@ country_event = {
 			factor = 20
 			modifier = {
 				factor = 0.25
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
 		add_legitimacy = -10
 		add_horde_unity = -10
 	}
 	option = {
 		name = "personality_options.5097.a"		# Attempt to mediate
 		highlight = yes
-		trigger = { ruler_has_personality = charismatic_negotiator_personality }
-		required_personality = charismatic_negotiator_personality
+		trigger = { ruler_has_personality_ancestor = { key = charismatic_negotiator } }
 		add_dip_power = -15
 	}
 }
@@ -4303,7 +4139,8 @@ country_event = {
 
 	trigger = {
 		NOT = { stability = -1 }
-		government = theocratic_government
+		government = theocracy
+		has_estate = estate_church
 	}
 
 	mean_time_to_happen = {
@@ -4321,28 +4158,18 @@ country_event = {
 			factor = 55
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
 						estate = estate_church
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_devotion = 10
 		add_stability_or_adm_power = yes
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB5098"		# Fine the sinners
@@ -4350,16 +4177,7 @@ country_event = {
 		add_devotion = -10
 		add_years_of_income = 0.75
 		add_corruption = 0.5
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.5098.a"		#
@@ -4367,26 +4185,15 @@ country_event = {
 		trigger = {
 			ruler_has_personality = embezzler_personality
 		}
-		required_personality = embezzler_personality
 		add_devotion = -15
 		add_years_of_income = 1
 		add_corruption = 1
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.5098.b"		#
 		highlight = yes
-		trigger = { ruler_has_personality = incorruptible_personality }
-		required_personality = incorruptible_personality
+		trigger = { ruler_has_personality_ancestor = { key = incorruptible } }
 		add_devotion = 15
 		add_stability_or_adm_power = yes
 		add_corruption = -2
@@ -4413,7 +4220,11 @@ country_event = {
 
 		modifier = {
 			factor = 2.0
-			government = merchant_republic
+			has_government_attribute = is_merchant_republic
+		}
+		modifier = {
+			factor = 2.0
+			luck = yes
 		}
 		modifier = {
 			factor = 0.66
@@ -4461,8 +4272,9 @@ country_event = {
 
 	trigger = {
 		navy_tradition = 10
-		NOT = { navy_tradition = 40 }
+		NOT = { navy_tradition = 35 }
 		army_tradition = 40
+		NOT = { navy_size_percentage = 1.25 }
 	}
 
 	mean_time_to_happen = {
@@ -4488,8 +4300,7 @@ country_event = {
 	option = {
 		name = "personality_options.6000.a"		# We must stop this deterioration
 		highlight = yes
-		trigger = { ruler_has_personality = navigator_personality }
-		required_personality = navigator_personality
+		trigger = { ruler_has_personality_ancestor = { key = nautical } }
 		add_navy_tradition = 5
 	}
 }
@@ -4506,9 +4317,11 @@ country_event = {
 	trigger = {
 		num_of_ports = 1
 		army_tradition = 10
-		NOT = { army_tradition = 40 }
+		NOT = { army_tradition = 35 }
 		navy_tradition = 40
 		primitives = no
+		navy_size = 1
+		NOT = { army_size_percentage = 1 }
 	}
 
 	mean_time_to_happen = {
@@ -4530,8 +4343,7 @@ country_event = {
 	option = {
 		name = "personality_options.6001.a"		# We must stop this deterioration
 		highlight = yes
-		trigger = { ruler_has_personality = strict_personality }
-		required_personality = strict_personality
+		trigger = { ruler_has_personality_ancestor = { key = strict } }
 		add_army_tradition = 5
 	}
 }
@@ -4552,6 +4364,19 @@ country_event = {
 		NOT = { overextension_percentage = 0.01 }
 		NOT = { num_of_rebel_armies = 1 }
 		adm = 3
+		has_regency = no
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					controlled_by = owner
+					is_city = yes
+				}
+				save_event_target_as = random_province
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -4560,6 +4385,10 @@ country_event = {
 		modifier = {
 			factor = 2.0
 			adm = 5
+		}
+		modifier = {
+			factor = 2.0
+			luck = yes
 		}
 		modifier = {
 			factor = 0.66
@@ -4582,8 +4411,8 @@ country_event = {
 	option = {
 		name = "EVTOPTB6015"		# Such nonsense, wasting money like that!
 		ai_chance = { factor = 70 }
-		random_owned_province = {
-			limit = { controlled_by = owner }
+		goto = random_province
+		event_target:random_province = {
 			add_base_tax = 1
 		}
 	}
@@ -4591,7 +4420,6 @@ country_event = {
 		name = "personality_options.6015.a"		# Arrange an Opulent Feast
 		highlight = yes
 		trigger = { ruler_has_personality = drunkard_personality }
-		required_personality = drunkard_personality
 		add_stability_or_adm_power = yes
 		random_neighbor_country = {
 			limit = {
@@ -4620,27 +4448,95 @@ country_event = {
 	title = "EVTNAME710"
 	desc = "EVTDESC710"
 	picture = DEBATE_REPUBLICAN_eventPicture
+	goto = bailiff_province
 
 	is_triggered_only = yes
 
 	trigger = {
 		stability = 0
+		NOT = { government = tribal }
+		NOT = { government = native }
+		any_owned_province = {
+			is_state = yes
+			is_core = ROOT
+			is_in_capital_area = yes
+			is_capital = no
+		}
 	}
 
 	mean_time_to_happen = {
 		days = 1
+		modifier = {
+			factor = 0.5
+			luck = yes
+		}		
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_state = yes
+					is_core = ROOT
+					is_in_capital_area = yes
+					is_capital = no
+				}
+				save_event_target_as = bailiff_province
+			}
+		}
 	}
 
 	option = {
 		name = "EVTOPTA710"
+		trigger = {
+			is_emperor_of_china = no
+			is_lesser_in_union = no
+			NOT = { government = republic }
+		}
 		ai_chance = {
 			factor = 55
 			modifier = {
+				factor = 0
+				NOT = { legitimacy_equivalent = 20 }
+			}
+			modifier = {
 				factor = 0.5
-				NOT = { prestige = 35 }
+				NOT = { legitimacy_equivalent = 60 }
+			}
+			modifier = {
+				factor = 1.5
+				legitimacy_equivalent = 100
 			}
 		}
-		add_prestige = -10
+		add_legitimacy = -10
+		add_devotion = -10
+	}
+	option = {
+		name = "EVTOPTC710"
+		trigger = {
+			OR = { 
+				government = republic
+				is_emperor_of_china = yes
+				is_lesser_in_union = yes
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+		add_meritocracy_effect = yes
+		if = {
+			limit = {
+				government = republic
+			}
+			add_republican_tradition = 5
+			add_corruption = -2
+		}
+		if = {
+			limit = {
+				is_lesser_in_union = yes
+			}
+			add_liberty_desire = 10
+		}
 	}
 	option = {
 		name = "EVTOPTB710"
@@ -4654,30 +4550,17 @@ country_event = {
 				factor = 1.5
 				stability = 2
 			}
-		}
-		if = {
-			limit = { NOT = { stability = -2 } }
-			add_adm_power = -100
-		}
-		if = {
-			limit = { stability = -2 }
-			add_stability = -1
-		}
+		}		
+		add_stability = -1
 	}
 	option = {
 		name = "personality_options.710.a"
 		highlight = yes
 		trigger = { ruler_has_personality = cruel_personality }
-		required_personality = cruel_personality
-		random_owned_province = {
-			limit = {
-				is_state = yes
-				is_core = ROOT
-				is_in_capital_area = yes
-			}
-			spawn_rebels = {
+		event_target:bailiff_province = {
+			spawn_small_scaled_rebels = {
 				type = anti_tax_rebels
-				size = 1
+				no_defined_leader = yes
 			}
 		}
 	}
@@ -4691,16 +4574,37 @@ country_event = {
 	picture = POPE_PREACHING_eventPicture
 
 	is_triggered_only = yes
+	goto = heresy_province
 
 	trigger = {
 		stability = 0
 		religion = kirishitan
 		is_at_war = no
 		num_of_cities = 2
+		any_owned_province = {
+			religion = kirishitan
+			is_state_core = root
+		}
 	}
 
 	mean_time_to_happen = {
 		days = 1
+		modifier = {
+			factor = 0.5
+			luck = yes
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					religion = catholic
+					is_state_core = root
+				}
+				save_event_target_as = heresy_province
+			}
+		}
 	}
 
 	option = {
@@ -4709,31 +4613,41 @@ country_event = {
 			factor = 45
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_church
 				NOT = {
 					estate_loyalty = {
 						estate = estate_church
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
+		reduce_estate_church_loyalty_effect = yes
 		add_prestige = -5
-		random_owned_province = {
-			add_province_modifier = {
-				name = "heresy"
-				duration = 3650
+		event_target:heresy_province = {
+			if = {
+				limit = {
+					NOT = {
+						ROOT = { num_of_cities = 20 }
+					}
+				}
+				add_province_modifier = {
+					name = "heresy"
+					duration = 1825
+				}
+			}
+			else = {
+				area = {
+					limit = {
+						owned_by = root
+						is_city = yes
+						religion = catholic
+					}
+					add_province_modifier = {
+						name = "heresy"
+						duration = 1825
+					}
+				}
 			}
 		}
 	}
@@ -4743,37 +4657,38 @@ country_event = {
 			factor = 65
 		}
 		add_dip_power = -30
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
-			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
-			}
-		}
+		add_estate_church_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.711.a"
 		highlight = yes
-		trigger = { ruler_has_personality = tolerant_personality }
-		required_personality = tolerant_personality
+		trigger = { ruler_has_personality_ancestor = { key = tolerant } }
 		add_prestige = 5
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_church
+		reduce_estate_church_loyalty_effect = yes
+		event_target:heresy_province = {
+			if = {
+				limit = {
+					NOT = {
+						ROOT = { num_of_cities = 20 }
+					}
+				}
+				add_province_modifier = {
+					name = "heresy"
+					duration = 1825
+				}
 			}
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = -10
-			}
-		}
-		random_owned_province = {
-			add_province_modifier = {
-				name = "heresy"
-				duration = 1825
+			else = {
+				area = {
+					limit = {
+						owned_by = root
+						is_city = yes
+						religion = catholic
+					}
+					add_province_modifier = {
+						name = "heresy"
+						duration = 1825
+					}
+				}
 			}
 		}
 	}
@@ -4831,10 +4746,14 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		stability = 0
+		stability = 1
 		is_at_war = no
+		is_bankrupt = no
+		NOT = { num_of_loans = 10 }
 		NOT = { war_exhaustion = 0.1 }
 		NOT = { had_recent_war = 10 }
+		NOT = { num_of_rebel_armies = 1 }
+		NOT = { num_of_rebel_controlled_provinces = 1 }
 	}
 
 	mean_time_to_happen = {
@@ -4883,9 +4802,8 @@ country_event = {
 		name = "personality_options.714.a"
 		highlight = yes
 		trigger = {
-			ruler_has_personality = martial_educator_personality
+			ruler_has_personality_ancestor = { key = martial_educator }
 		}
-		required_personality = martial_educator_personality
 		add_country_modifier = {
 			name = offensive_modifier
 			duration = 1825
@@ -4899,9 +4817,8 @@ country_event = {
 		name = "personality_options.714.b"
 		highlight = yes
 		trigger = {
-			ruler_has_personality = bold_fighter_personality
+			ruler_has_personality_ancestor = { key = bold_fighter }
 		}
-		required_personality = bold_fighter_personality
 		add_country_modifier = {
 			name = offensive_modifier
 			duration = 5475
@@ -4911,9 +4828,8 @@ country_event = {
 		name = "personality_options.714.c"
 		highlight = yes
 		trigger = {
-			ruler_has_personality = tactical_genius_personality
+			ruler_has_personality_ancestor = { key = tactical_genius }
 		}
-		required_personality = tactical_genius_personality
 		add_country_modifier = {
 			name = defensive_modifier
 			duration = 5475
@@ -4950,9 +4866,8 @@ country_event = {
 		name = "personality_options.715.a"
 		highlight = yes
 		trigger = {
-			ruler_has_personality = charismatic_negotiator_personality
+			ruler_has_personality_ancestor = { key = charismatic_negotiator }
 		}
-		required_personality = charismatic_negotiator_personality
 		add_prestige = -10
 	}
 }
@@ -4968,6 +4883,14 @@ country_event = {
 
 	trigger = {
 		stability = 1
+		OR = {
+			is_at_war = no
+			war_score = 30
+		}
+		NOT = { revolt_percentage = 0.1 }
+		NOT = { num_of_loans = 10 }
+		is_bankrupt = no
+		has_estate = estate_nobles
 	}
 
 	mean_time_to_happen = {
@@ -4988,17 +4911,17 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_stability = -1
+		reduce_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB716"
@@ -5010,16 +4933,7 @@ country_event = {
 			}
 		}
 		add_years_of_income = -0.75
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 	}
 }
 
@@ -5034,6 +4948,7 @@ country_event = {
 
 	trigger = {
 		stability = 0
+		inflation = 5
 	}
 
 	mean_time_to_happen = {
@@ -5046,7 +4961,7 @@ country_event = {
 			factor = 25
 		}
 		add_stability = -1
-		add_inflation = -1
+		add_inflation = -2
 		add_mandate_effect = yes
 	}
 	option = {
@@ -5064,8 +4979,7 @@ country_event = {
 	option = {
 		name = "personality_options.717.a"
 		highlight = yes
-		trigger = { ruler_has_personality = midas_touched_personality }
-		required_personality = midas_touched_personality
+		trigger = { ruler_has_personality_ancestor = { key = midas_touched } }
 		add_inflation = -1
 		add_mandate_effect = yes
 	}
@@ -5107,8 +5021,7 @@ country_event = {
 	option = {
 		name = "personality_options.718.a"
 		highlight = yes
-		trigger = { ruler_has_personality = kind_hearted_personality }
-		required_personality = kind_hearted_personality
+		trigger = { ruler_has_personality_ancestor = { key = kind_hearted } }
 		ai_chance = {
 			factor = 100
 		}
@@ -5144,27 +5057,17 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_stability = -1
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB719"
@@ -5176,22 +5079,12 @@ country_event = {
 			}
 		}
 		add_army_tradition = -20
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.719.a"
 		highlight = yes
-		trigger = { ruler_has_personality = martial_educator_personality }
-		required_personality = martial_educator_personality
+		trigger = { ruler_has_personality_ancestor = { key = martial_educator } }
 		ai_chance = {
 			factor = 100
 		}
@@ -5227,50 +5120,31 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_stability = -1
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
+		add_estate_burghers_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB720"
 		ai_chance = {
 			factor = 50
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 		add_navy_tradition = -20
 	}
 	option = {
 		name = "personality_options.720.a"
 		highlight = yes
-		trigger = { ruler_has_personality = navigator_personality }
-		required_personality = navigator_personality
+		trigger = { ruler_has_personality_ancestor = { key = nautical } }
 		ai_chance = {
 			factor = 50
 		}
@@ -5293,6 +5167,9 @@ country_event = {
 		government = monarchy
 		NOT = {	has_ruler_modifier = power_to_nobles	}
 		NOT = {	has_ruler_modifier = power_to_provinces	}
+		OR = {
+			has_estate = estate_nobles
+		}
 	}
 
 	mean_time_to_happen = {
@@ -5305,12 +5182,11 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 2
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
@@ -5319,16 +5195,7 @@ country_event = {
 			name = "power_to_nobles"
 			duration = 3650
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB722"
@@ -5336,12 +5203,11 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 2
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
 						estate = estate_burghers
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
@@ -5350,16 +5216,7 @@ country_event = {
 			name = "power_to_provinces"
 			duration = 3650
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
+		add_estate_burghers_loyalty_effect = yes
 	}
 	option = {
 		name = "personality_options.722.a"
@@ -5367,7 +5224,6 @@ country_event = {
 		trigger = {
 			ruler_has_personality = well_advised_personality
 		}
-		required_personality = well_advised_personality
 		ai_chance = {
 			factor = 100
 		}
@@ -5384,6 +5240,7 @@ country_event = {
 	title = "EVTNAME723"
 	desc = "EVTDESC723"
 	picture = ANGRY_MOB_eventPicture
+	goto = unruly_nobles_province
 
 	is_triggered_only = yes
 
@@ -5392,11 +5249,30 @@ country_event = {
 		any_owned_province = {
 			has_owner_culture = no
 			NOT = { local_autonomy = 0.5 }
+			is_city = yes
+			is_core = root
+		}
+		OR = {
+			has_estate = estate_nobles
 		}
 	}
 
 	mean_time_to_happen = {
 		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					has_owner_culture = no
+					NOT = { local_autonomy = 0.5 }
+					is_city = yes
+					is_core = root
+				}
+				save_event_target_as = unruly_nobles_province
+			}
+		}
 	}
 
 	option = {
@@ -5409,54 +5285,27 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		random_owned_province = {
-			limit = {
-				has_owner_culture = no
-				NOT = { local_autonomy = 0.5 }
-			}
+		event_target:unruly_nobles_province = {
 			noble_rebels = 2
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB723"
 		ai_chance = {
 			factor = 33
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
-		random_owned_province = {
-			limit = {
-				has_owner_culture = no
-				NOT = { local_autonomy = 0.5 }
-			}
+		add_estate_nobles_loyalty_effect = yes
+		event_target:unruly_nobles_province = {
 			add_province_modifier = {
 				name = "powerful_noble"
 				duration = 7300
@@ -5501,7 +5350,7 @@ country_event = {
 			NOT = { base_tax = 5 }
 			base_tax = 2
 			is_capital = no
-			is_overseas = no
+			is_in_capital_area = yes
 		}
 		NOT = { is_year = 1650 }
 	}
@@ -5511,6 +5360,20 @@ country_event = {
 		modifier = {
 			factor = 0.5
 			luck = yes
+		}		
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					NOT = { base_tax = 5 }
+					base_tax = 2
+					is_capital = no
+					is_in_capital_area = yes
+				}
+				save_event_target_as = rural_province
+			}
 		}
 	}
 
@@ -5520,55 +5383,31 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
-		random_owned_province = {
-			limit = {
-				NOT = { base_tax = 5 }
-				base_tax = 2
-				is_capital = no
-				is_overseas = no
-			}
+		goto = rural_province
+		event_target:rural_province = {
 			add_base_tax = -1
 			add_local_autonomy = 25
 		}
 		capital_scope = {
 			add_base_tax = 1
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
+		reduce_estate_nobles_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB725"
 		ai_chance = {
 			factor = 50
 		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
 		add_country_modifier = {
 			name = serfdom_modifier
 			duration = 7300
@@ -5577,18 +5416,12 @@ country_event = {
 	option = {
 		name = "personality_options.725.a"
 		highlight = yes
-		trigger = { ruler_has_personality = calm_personality }
-		required_personality = calm_personality
+		trigger = { ruler_has_personality_ancestor = { key = calm } }
 		ai_chance = {
 			factor = 100
 		}
-		random_owned_province = {
-			limit = {
-				NOT = { base_tax = 5 }
-				base_tax = 2
-				is_capital = no
-				is_overseas = no
-			}
+		goto = rural_province
+		event_target:rural_province = {
 			add_local_autonomy = 25
 		}
 		capital_scope = {
@@ -5646,7 +5479,6 @@ country_event = {
 		name = "personality_options.726.a" #Ruthles? Me?
 		highlight = yes
 		trigger = { ruler_has_personality = naive_personality }
-		required_personality = naive_personality
 		ai_chance = {
 			factor = 100
 		}
@@ -5655,8 +5487,7 @@ country_event = {
 	option = {
 		name = "personality_options.726.b"
 		highlight = yes
-		trigger = { ruler_has_personality = charismatic_negotiator_personality }
-		required_personality = charismatic_negotiator_personality
+		trigger = { ruler_has_personality_ancestor = { key = charismatic_negotiator } }
 		ai_chance = {
 			factor = 100
 		}
@@ -5675,9 +5506,38 @@ country_event = {
 
 	trigger = {
 		any_enemy_country = {
-			war_with = ROOT
+			OR = {
+				is_in_war = {
+					attackers = root
+					defender_leader = this
+				}
+				is_in_war = {
+					attacker_leader = this
+					defenders = root
+				}
+			}
 		}
 		war_exhaustion = 5
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_enemy_country = {
+				limit = {
+					OR = {
+						is_in_war = {
+							attackers = root
+							defender_leader = this
+						}
+						is_in_war = {
+							attacker_leader = this
+							defenders = root
+						}
+					}
+				}
+				save_event_target_as = enemy_country
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -5700,6 +5560,7 @@ country_event = {
 	title = "EVTNAME728"
 	desc = "EVTDESC728"
 	picture = DIPLOMACY_eventPicture
+	goto = claims_province
 
 	is_triggered_only = yes
 
@@ -5763,12 +5624,12 @@ country_event = {
 		}
 		modifier = {
 			factor = 1.15
-			ruler_has_personality = conqueror_personality
+			ruler_has_personality_ancestor = { key = conqueror }
 		}
 	}
 
-	option = {
-		name = "EVTOPTA728"
+	immediate = {
+		hidden_effect = {
 		random_rival_country = {
 			limit = {
 				any_owned_province = {
@@ -5799,9 +5660,17 @@ country_event = {
 						owned_by = ROOT
 					}
 				}
-				add_claim = ROOT
+					save_event_target_as = claims_province
+				}
 			}
 		}
+	}
+
+	option = {
+		name = "EVTOPTA728"
+		event_target:claims_province = {
+				add_claim = ROOT
+			}
 		add_prestige = 10
 	}
 }
@@ -5829,7 +5698,7 @@ country_event = {
 			factor = 50
 		}
 		capital_scope = { add_base_tax = 1 }
-		add_manpower = -0.05
+		add_yearly_manpower = -0.5
 	}
 	option = {
 		name = "EVTOPTB729"
@@ -5846,8 +5715,7 @@ country_event = {
 	option = {
 		name = "personality_options.729.a"
 		highlight = yes
-		trigger = { ruler_has_personality = architectural_visionary_personality }
-		required_personality = architectural_visionary_personality
+		trigger = { ruler_has_personality_ancestor = { key = architectural_visionary } }
 		ai_chance = {
 			factor = 100
 		}
@@ -5858,7 +5726,6 @@ country_event = {
 		name = "personality_options.729.b"
 		highlight = yes
 		trigger = { ruler_has_personality = obsessive_perfectionist_personality }
-		required_personality = obsessive_perfectionist_personality
 		ai_chance = {
 			factor = 100
 		}
@@ -5905,8 +5772,7 @@ country_event = {
 	option = {
 		name = "personality_options.730.a"
 		highlight = yes
-		trigger = { ruler_has_personality = scholar_personality }
-		required_personality = scholar_personality
+		trigger = { ruler_has_personality_ancestor = { key = scholar } }
 		ai_chance = {
 			factor = 100
 		}
@@ -5960,8 +5826,7 @@ country_event = {
 	option = {
 		name = "personality_options.730.a"
 		highlight = yes
-		trigger = { ruler_has_personality = scholar_personality }
-		required_personality = scholar_personality
+		trigger = { ruler_has_personality_ancestor = { key = scholar } }
 		ai_chance = {
 			factor = 100
 		}
@@ -6009,8 +5874,7 @@ country_event = {
 	option = {
 		name = "personality_options.730.a"
 		highlight = yes
-		trigger = { ruler_has_personality = scholar_personality }
-		required_personality = scholar_personality
+		trigger = { ruler_has_personality_ancestor = { key = scholar } }
 		ai_chance = {
 			factor = 100
 		}
@@ -6058,8 +5922,7 @@ country_event = {
 	option = {
 		name = "personality_options.730.a"
 		highlight = yes
-		trigger = { ruler_has_personality = scholar_personality }
-		required_personality = scholar_personality
+		trigger = { ruler_has_personality_ancestor = { key = scholar } }
 		ai_chance = {
 			factor = 100
 		}
@@ -6109,14 +5972,11 @@ country_event = {
 		highlight = yes
 		trigger = {
 			OR = {
-				ruler_has_personality = lawgiver_personality
-				ruler_has_personality = charismatic_negotiator_personality
-				ruler_has_personality = silver_tongue_personality
+				ruler_has_personality_ancestor = { key = legislator }
+				ruler_has_personality_ancestor = { key = charismatic_negotiator }
+				ruler_has_personality_ancestor = { key = silver_tongue }
 			}
 		}
-		required_personality = lawgiver_personality
-		required_personality = charismatic_negotiator_personality
-		required_personality = silver_tongue_personality
 		add_dip_power = -5
 	}
 	option = {
@@ -6125,20 +5985,17 @@ country_event = {
 		trigger = {
 			OR = {
 				ruler_has_personality = embezzler_personality
-				ruler_has_personality = fierce_negotiator_personality
+				ruler_has_personality_ancestor = { key = fierce_negotiator }
 			}
 		}
-		required_personality = embezzler_personality
-		required_personality = fierce_negotiator_personality
 		add_years_of_income = -0.1
 	}
 	option = {
 		name = "personality_options.734.c" #Blackmail
 		highlight = yes
 		trigger = {
-			ruler_has_personality = intricate_web_weaver_personality
+			ruler_has_personality_ancestor = { key = intricate_web_weaver }
 		}
-		required_personality = intricate_web_weaver_personality
 		add_prestige = -5
 	}
 }
@@ -6171,7 +6028,10 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA735"
-		add_manpower = -0.25
+		add_yearly_manpower = -1.5
+		ai_chance = {
+			factor = 1
+		}
 	}
 	option = {
 		name = "EVTOPTB735"
@@ -6186,14 +6046,11 @@ country_event = {
 			factor = 100
 		}
 		highlight = yes
-		required_personality = bold_fighter_personality
-		required_personality = martial_educator_personality
-		required_personality = strict_personality
 		trigger = {
 			OR = {
-				ruler_has_personality = bold_fighter_personality
-				ruler_has_personality = martial_educator_personality
-				ruler_has_personality = strict_personality
+				ruler_has_personality_ancestor = { key = bold_fighter }
+				ruler_has_personality_ancestor = { key = martial_educator }
+				ruler_has_personality_ancestor = { key = strict }
 			}
 		}
 		add_mil_power = -5
@@ -6207,6 +6064,7 @@ country_event = {
 	title = "EVTNAME737"
 	desc = "EVTDESC737"
 	picture = FORT_eventPicture
+	goto = local_fortification_expert_province
 
 	is_triggered_only = yes
 
@@ -6220,6 +6078,31 @@ country_event = {
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					is_overseas = no
+					is_capital = no
+					fort_level = 1
+					NOT = { has_province_modifier = "local_fortress" }
+				}
+				save_event_target_as = local_fortification_expert_province
+				root = {
+					set_saved_name = {
+						key = local_fortification_expert
+						type = advisor
+						scope = prev
+					}
+				}
+			}
+		}
+	}
+
+	after = {
+		clear_saved_name = local_fortification_expert
+	}
+	
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -6234,20 +6117,21 @@ country_event = {
 			}
 		}
 		add_meritocracy_effect = yes
-		create_advisor = military_engineer_a
+		define_advisor = {
+			type = military_engineer_a
+			name = local_fortification_expert
+			skill = 2
+			culture = event_target:local_fortification_expert_province
+			religion = event_target:local_fortification_expert_province
+			discount = yes
+		}
 	}
 	option = {
 		name = "EVTOPTB737"
 		ai_chance = {
 			factor = 65
 		}
-		random_owned_province = {
-			limit = {
-				is_overseas = no
-				is_capital = no
-				fort_level = 1
-				NOT = { has_province_modifier = local_fortress }
-			}
+		event_target:local_fortification_expert_province = {
 			add_province_modifier = {
 				name = "local_fortress"
 				duration = -1
@@ -6257,16 +6141,18 @@ country_event = {
 	option = {
 		name = "personality_options.737.b"
 		highlight = yes
-		trigger = { ruler_has_personality = well_connected_personality }
-		required_personality = well_connected_personality
+		trigger = { ruler_has_personality_ancestor = { key = well_connected } }
 		ai_chance = {
 			factor = 100
 		}
 		add_meritocracy_effect = yes
 		define_advisor = {
 			type = military_engineer_a
+			name = local_fortification_expert
+			culture = event_target:local_fortification_expert_province
+			religion = event_target:local_fortification_expert_province
 			discount = yes
-			skill = 2
+			skill = 3
 		}
 	}
 }
@@ -6309,8 +6195,7 @@ country_event = {
 	option = {
 		name = "personality_options.738.a"
 		highlight = yes
-		trigger = { ruler_has_personality = secretive_personality }
-		required_personality = secretive_personality
+		trigger = { ruler_has_personality_ancestor = { key = secretive } }
 		add_prestige = -5
 	}
 }
@@ -6353,6 +6238,7 @@ country_event = {
 	trigger = {
 		stability = 0
 		NOT = { has_country_modifier = smugglers_dominating }
+		NOT = { has_country_modifier = cooperation_with_merchant_class }
 	}
 
 	mean_time_to_happen = {
@@ -6387,8 +6273,7 @@ country_event = {
 	option = {
 		name = "personality_options.740.a"
 		highlight = yes
-		trigger = { ruler_has_personality = entrepreneur_personality }
-		required_personality = entrepreneur_personality
+		trigger = { ruler_has_personality_ancestor = { key = entrepreneur } }
 		ai_chance = {
 			factor = 100
 			modifier = {
@@ -6404,7 +6289,6 @@ country_event = {
 		trigger = {
 			ruler_has_personality = embezzler_personality
 		}
-		required_personality = embezzler_personality
 		ai_chance = {
 			factor = 100
 		}
@@ -6451,7 +6335,7 @@ country_event = {
 				war_exhaustion = 5
 			}
 		}
-		add_manpower = 0.15
+		add_yearly_manpower = 1.5
 		add_war_exhaustion = 1
 	}
 	option = {
@@ -6459,15 +6343,14 @@ country_event = {
 		ai_chance = {
 			factor = 2
 		}
-		add_manpower = 0.05
+		add_yearly_manpower = 0.5
 	}
 	option = {
 		name = "personality_options.742.a"
 		highlight = yes
 		trigger = {
-			ruler_has_personality = strict_personality
+			ruler_has_personality_ancestor = { key = strict }
 		}
-		required_personality = strict_personality
 		ai_chance = {
 			factor = 100
 		}
@@ -6477,13 +6360,12 @@ country_event = {
 		name = "personality_options.742.b"
 		highlight = yes
 		trigger = {
-			ruler_has_personality = inspiring_leader_personality
+			ruler_has_personality_ancestor = { key = inspiring_leader }
 		}
-		required_personality = inspiring_leader_personality
 		ai_chance = {
 			factor = 100
 		}
-		add_manpower = 0.12
+		add_yearly_manpower = 1.2
 	}
 }
 
@@ -6498,11 +6380,12 @@ country_event = {
 
 	trigger = {
 		government = monarchy
-		NOT = { government = steppe_horde }
+		NOT = { has_reform = steppe_horde }
 		has_regency = no
 		is_lesser_in_union = no
 		NOT = { legitimacy = 90 }
 		capital_scope = { continent = europe }
+		has_government_attribute = heir
 	}
 
 	mean_time_to_happen = {
@@ -6540,10 +6423,9 @@ country_event = {
 		add_prestige = 10
 	}
 	option = {
-		name = "EVTOPTB850"
+		name = "personality_options.850.a"
 		highlight = yes
-		trigger = { ruler_has_personality = well_connected_personality }
-		required_personality = well_connected_personality
+		trigger = { ruler_has_personality_ancestor = { key = well_connected } }
 		ai_chance = {
 			factor = 100
 		}
@@ -6598,8 +6480,7 @@ country_event = {
 	option = {
 		name = "personality_options.851.a"
 		highlight = yes
-		trigger = { ruler_has_personality = righteous_personality }
-		required_personality = righteous_personality
+		trigger = { ruler_has_personality_ancestor = { key = righteous } }
 		custom_tooltip = personality_options.851.a.tt
 		ai_chance = {
 			factor = 100
@@ -6649,8 +6530,7 @@ country_event = {
 	option = {
 		name = "personality_options.852.a"
 		highlight = yes
-		trigger = { ruler_has_personality = midas_touched_personality }
-		required_personality = midas_touched_personality
+		trigger = { ruler_has_personality_ancestor = { key = midas_touched } }
 		ai_chance = {
 			factor = 100
 		}
@@ -6659,8 +6539,7 @@ country_event = {
 	option = {
 		name = "personality_options.852.b"
 		highlight = yes
-		trigger = { ruler_has_personality = righteous_personality }
-		required_personality = righteous_personality
+		trigger = { ruler_has_personality_ancestor = { key = righteous } }
 		ai_chance = {
 			factor = 100
 		}
@@ -6701,14 +6580,13 @@ country_event = {
 	option = {
 		name = "personality_options.853.a"
 		highlight = yes
-		trigger = { ruler_has_personality = midas_touched_personality }
-		required_personality = midas_touched_personality
+		trigger = { ruler_has_personality_ancestor = { key = midas_touched } }
 		add_inflation = -2
 	}
 }
 
 
-# Stability (formerly cultural tradition) loss
+# Tech cost increase
 country_event = {
 	id = 855
 	title = "EVTNAME855"
@@ -6719,6 +6597,9 @@ country_event = {
 
 	trigger = {
 		is_at_war = yes
+		NOT = {
+			has_country_modifier = warriors_do_not_read_books
+		}
 	}
 
 	mean_time_to_happen = {
@@ -6727,18 +6608,20 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA855"
-		add_stability = -1
+		add_country_modifier = {
+			name = "warriors_do_not_read_books"
+			duration = 1825
+		}
 	}
 	option = {
 		name = "personality_options.855.a"
 		highlight = yes
-		trigger = { ruler_has_personality = strict_personality }
-		required_personality = strict_personality
+		trigger = { ruler_has_personality_ancestor = { key = strict } }
 		add_prestige = -5
 	}
 }
 
-# Infamy loss
+# Dip rep loss
 country_event = {
 	id = 857
 	title = "EVTNAME857"
@@ -6770,9 +6653,8 @@ country_event = {
 		name = "personality_options.857.a"
 		highlight = yes
 		trigger = {
-			ruler_has_personality = silver_tongue_personality
+			ruler_has_personality_ancestor = { key = silver_tongue }
 		}
-		required_personality = silver_tongue_personality
 		add_country_modifier = {
 			name = "competent_diplomacy"
 			duration = 3650
@@ -6780,7 +6662,7 @@ country_event = {
 	}
 }
 
-# Infamy gain
+# Dip rep gain
 country_event = {
 	id = 858
 	title = "EVTNAME858"
@@ -6853,8 +6735,7 @@ country_event = {
 	option = {
 		name = "personality_options.859.a"
 		highlight = yes
-		trigger = { ruler_has_personality = strict_personality }
-		required_personality = strict_personality
+		trigger = { ruler_has_personality_ancestor = { key = strict } }
 		ai_chance = {
 			factor = 100
 		}
@@ -6902,8 +6783,7 @@ country_event = {
 	option = {
 		name = "personality_options.860.a"
 		highlight = yes
-		trigger = { ruler_has_personality = inspiring_leader_personality }
-		required_personality = inspiring_leader_personality
+		trigger = { ruler_has_personality_ancestor = { key = inspiring_leader } }
 		ai_chance = {
 			factor = 100
 		}
@@ -6913,7 +6793,7 @@ country_event = {
 	}
 }
 
-# Gain spies or prestige
+# Gain spy power or prestige
 country_event = {
 	id = 861
 	title = "EVTNAME861"
@@ -6944,8 +6824,7 @@ country_event = {
 	option = {
 		name = "personality_options.861.a"
 		highlight = yes
-		trigger = { ruler_has_personality = intricate_web_weaver_personality }
-		required_personality = intricate_web_weaver_personality
+		trigger = { ruler_has_personality_ancestor = { key = intricate_web_weaver } }
 		ai_chance = {
 			factor = 100
 		}
@@ -6956,198 +6835,6 @@ country_event = {
 	}
 }
 
-# Colonists boost or Conquistador
-country_event = {
-	id = 862
-	title = "EVTNAME862"
-	desc = "EVTDESC862"
-	picture = COLONIZATION_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		has_idea = quest_for_the_new_world
-		capital_scope = { continent = europe }
-		any_owned_province = {
-			is_colony = yes
-			OR = {
-				continent = north_america
-				continent = south_america
-			}
-		}
-		NOT = { has_country_modifier = colonial_enthusiasm }
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "EVTOPTA862"
-		add_country_modifier = {
-			name = "colonial_enthusiasm"
-			duration = 1825
-		}
-	}
-	option = {
-		name = "EVTOPTB862"
-		create_conquistador = 25
-	}
-	option = {
-		name = "personality_options.862.a"
-		highlight = yes
-		trigger = { ruler_has_personality = expansionist_personality }
-		required_personality = expansionist_personality
-		ai_chance = {
-			factor = 100
-		}
-		create_conquistador = 25
-		add_country_modifier = {
-			name = "colonial_enthusiasm"
-			duration = 1825
-		}
-	}
-}
-
-# Loss of merchants
-country_event = {
-	id = 863
-	title = "EVTNAME863"
-	desc = "EVTDESC863"
-	picture = MERCHANTS_TALKING_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		num_of_merchants = 2
-		capital_scope = { continent = europe }
-		any_active_trade_node = {
-			continent = asia
-			has_merchant = PREV
-			NOT = {
-				has_trade_modifier = {
-					who = ROOT
-					name = merchant_recalled
-				}
-			}
-		}
-		any_active_trade_node = {
-			continent = europe
-			has_merchant = PREV
-			NOT = {
-				has_trade_modifier = {
-					who = ROOT
-					name = merchant_recalled
-				}
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "EVTOPTA863"
-		ai_chance = {
-			factor = 33
-		}
-		trigger = {
-			any_active_trade_node = {
-				continent = asia
-				has_merchant = PREV
-				NOT = {
-					has_trade_modifier = {
-						who = ROOT
-						name = merchant_recalled
-					}
-				}
-			}
-		}
-		random_active_trade_node = {
-			limit = {
-				continent = asia
-				has_merchant = PREV
-				NOT = {
-					has_trade_modifier = {
-						who = ROOT
-						name = merchant_recalled
-					}
-				}
-			}
-			add_trade_modifier = {
-				who = root
-				duration = 3650
-				power = -10
-				key = merchant_recalled
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB863"
-		ai_chance = {
-			factor = 33
-		}
-		trigger = {
-			any_active_trade_node = {
-				continent = europe
-				has_merchant = PREV
-				NOT = {
-					has_trade_modifier = {
-						who = ROOT
-						name = merchant_recalled
-					}
-				}
-			}
-		}
-		random_active_trade_node = {
-			limit = {
-				continent = europe
-				has_merchant = PREV
-				NOT = {
-					has_trade_modifier = {
-						who = ROOT
-						name = merchant_recalled
-					}
-				}
-			}
-			add_trade_modifier = {
-				who = root
-				duration = 3650
-				power = -10
-				key = merchant_recalled
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTC863"
-		ai_chance = {
-			factor = 33
-			modifier = {
-				factor = 1.5
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-				NOT = {
-					estate_loyalty = {
-						estate = estate_burghers
-						loyalty = 40
-					}
-				}
-			}
-		}
-		add_dip_power = -20
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = 10
-			}
-		}
-	}
-}
 
 # Relation boost with a random neighbour country
 country_event = {
@@ -7170,14 +6857,22 @@ country_event = {
 		days = 1
 	}
 
-	option = {
-		name = "EVTOPTA864"
+	immediate = {
+		hidden_effect = {
 		random_neighbor_country = {
 			limit = {
 				religion = ROOT
 				NOT = { war_with = ROOT }
 				NOT = { truce_with = ROOT }
 			}
+				save_event_target_as = neighbour_country
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA864"
+		event_target:neighbour_country = {
 			add_opinion = { who = ROOT modifier = opinion_improved_relations }
 		}
 	}
@@ -7185,14 +6880,8 @@ country_event = {
 	option = {
 		name = "personality_options.864.a"
 		highlight = yes
-		trigger = { ruler_has_personality = charismatic_negotiator_personality }
-		required_personality = charismatic_negotiator_personality
-		random_neighbor_country = {
-			limit = {
-				religion = ROOT
-				NOT = { war_with = ROOT }
-				NOT = { truce_with = ROOT }
-			}
+		trigger = { ruler_has_personality_ancestor = { key = charismatic_negotiator } }
+		event_target:neighbour_country = {
 			add_opinion = { who = ROOT modifier = opinion_improved_relations }
 		}
 		random_neighbor_country = {
@@ -7250,8 +6939,7 @@ country_event = {
 	option = {
 		name = "personality_options.866.a"
 		highlight = yes
-		trigger = { ruler_has_personality = scholar_personality }
-		required_personality = scholar_personality
+		trigger = { ruler_has_personality_ancestor = { key = scholar } }
 		ai_chance = {
 			factor = 100
 		}
@@ -7300,8 +6988,7 @@ country_event = {
 	option = {
 		name = "personality_options.867.a"
 		highlight = yes
-		trigger = { ruler_has_personality = scholar_personality }
-		required_personality = scholar_personality
+		trigger = { ruler_has_personality_ancestor = { key = scholar } }
 		ai_chance = {
 			factor = 100
 		}
@@ -7348,8 +7035,7 @@ country_event = {
 	option = {
 		name = "personality_options.867.a"
 		highlight = yes
-		trigger = { ruler_has_personality = scholar_personality }
-		required_personality = scholar_personality
+		trigger = { ruler_has_personality_ancestor = { key = scholar } }
 		ai_chance = {
 			factor = 100
 		}
@@ -7395,8 +7081,7 @@ country_event = {
 	option = {
 		name = "personality_options.867.a"
 		highlight = yes
-		trigger = { ruler_has_personality = scholar_personality }
-		required_personality = scholar_personality
+		trigger = { ruler_has_personality_ancestor = { key = scholar } }
 		ai_chance = {
 			factor = 100
 		}
@@ -7442,8 +7127,7 @@ country_event = {
 	option = {
 		name = "personality_options.867.a"
 		highlight = yes
-		trigger = { ruler_has_personality = scholar_personality }
-		required_personality = scholar_personality
+		trigger = { ruler_has_personality_ancestor = { key = scholar } }
 		ai_chance = {
 			factor = 100
 		}
@@ -7461,7 +7145,10 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {	}
+	trigger = {
+		has_estate = estate_nobles
+		crown_land_share = 5
+	}
 
 	mean_time_to_happen = {
 		days = 1
@@ -7477,37 +7164,45 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_dlc = "The Cossacks"
 				has_estate = estate_nobles
 				NOT = {
 					estate_loyalty = {
 						estate = estate_nobles
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
+			modifier = {
+				factor = 0.25
+				NOT = {
+					crown_land_share = 20
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					crown_land_share = 10
+				}
+			}
 		}
-		add_years_of_income = 0.25
+		add_years_of_income = 0.5
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = -10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 			}
-			add_estate_loyalty = {
+			change_estate_land_share = {
 				estate = estate_burghers
-				loyalty = 10
+				share = 5
 			}
 		}
+		else = {
+			change_estate_land_share = {
+				estate = all
+				share = 5
+			}
+		}
+		reduce_estate_nobles_loyalty_effect = yes
+		add_estate_burghers_loyalty_effect = yes
 	}
 	option = {
 		name = "EVTOPTB871"
@@ -7523,86 +7218,21 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_dlc = "The Cossacks"
 				has_estate = estate_burghers
 				NOT = {
 					estate_loyalty = {
 						estate = estate_burghers
-						loyalty = 40
+						loyalty = 30
 					}
 				}
 			}
 		}
 		add_stability_or_adm_power = yes
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_nobles
-			}
-			add_estate_loyalty = {
-				estate = estate_nobles
-				loyalty = 10
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "The Cossacks"
-				has_estate = estate_burghers
-			}
-			add_estate_loyalty = {
-				estate = estate_burghers
-				loyalty = -10
-			}
-		}
+		add_estate_nobles_loyalty_effect = yes
+		reduce_estate_burghers_loyalty_effect = yes
 	}
 }
 
-# A traveling minstrel
-country_event = {
-	id = 872
-	title = "EVTNAME872"
-	desc = "EVTDESC872"
-	picture = ADVISOR_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		any_known_country = {
-			exists = yes
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "EVTOPTA872"
-		add_stability_or_adm_power = yes
-	}
-	option = {
-		name = "EVTOPTB872"
-		add_prestige = 10
-		add_meritocracy_effect = yes
-		define_advisor = {
-			type = poet_a
-			skill = 2
-		}
-	}
-	option = {
-		name = "personality_options.872.a"
-		highlight = yes
-		trigger = { ruler_has_personality = well_connected_personality }
-		required_personality = well_connected_personality
-		add_prestige = 10
-		add_meritocracy_effect = yes
-		define_advisor = {
-			type = poet_a
-			skill = 2
-			discount = yes
-		}
-	}
-}
 
 # A bountiful harvest
 country_event = {
@@ -7672,7 +7302,7 @@ country_event = {
 		add_prestige = -5
 		add_legitimacy = -5
 		add_horde_unity = -5
-		create_general = -50
+		create_general = { tradition = 0 }
 	}
 	option = {
 		name = "EVTOPTB875"
@@ -7702,18 +7332,27 @@ country_event = {
 
 	is_triggered_only = yes
 
+	goto = capital
+	
 	trigger = {
 		is_year = 1480
 		capital_scope = {
 			continent = europe
 		}
 		NOT = { adm_tech = 20 }
+		NOT = { has_country_flag = has_competent_doctors }
 	}
 
 	mean_time_to_happen = {
 		days = 1
 	}
 
+	immediate = {
+		hidden_effect = {
+			capital_scope = { save_event_target_as = capital }
+		}
+	}
+	
 	option = {
 		name = "EVTOPTA877"
 		ai_chance = {
@@ -7763,61 +7402,76 @@ country_event = {
 
 	trigger = {
 		has_advisor = yes
+		has_regency = no
 	}
 
 	mean_time_to_happen = {
 		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			random_list = {
+				1 = {
+					trigger = {
+						employed_advisor = {
+							category = ADM
+						}
+					}
+					set_country_flag = advisor_events_adm
+				}
+				1 = {
+					trigger = {
+						employed_advisor = {
+							category = DIP
+						}
+					}
+					set_country_flag = advisor_events_dip
+				}
+				1 = {
+					trigger = {
+						employed_advisor = {
+							category = MIL
+						}
+					}
+					set_country_flag = advisor_events_mil
+				}
+			}
+		}
+	}
+	after = {
+		hidden_effect = {
+			trigger_switch = {
+				on_trigger = has_country_flag
+				advisor_events_adm = { clr_country_flag = advisor_events_adm }
+				advisor_events_dip = { clr_country_flag = advisor_events_dip }
+				advisor_events_mil = { clr_country_flag = advisor_events_mil }
+			}
+		}
 	}
 
 	option = {
 		name = "EVTOPTA878"
 		add_prestige = -10
-		random_list = {
-			33 = { add_adm_power = 25 }
-			33 = { add_dip_power = 25 }
-			33 = { add_mil_power = 25 }
+		trigger_switch = {
+			on_trigger = has_country_flag
+			advisor_events_adm = { add_adm_power = 25 }
+			advisor_events_dip = { add_dip_power = 25 }
+			advisor_events_mil = { add_mil_power = 25 }
 		}
 	}
 	option = {
 		name = "EVTOPTB878"
 		reduce_meritocracy_effect = yes
-		kill_advisor = random
-	}
-}
-
-# Privateers bring profits
-country_event = {
-	id = 879
-	title = "EVTNAME879"
-	desc = "EVTDESC879"
-	picture = NAVAL_MILITARY_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		has_country_modifier = hire_privateers
-		num_of_ports = 3
-		any_rival_country = {
-			gold = 1
-		}
-		NOT = {
-			gold = 1
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "EVTOPTA879"
-		add_years_of_income = 0.10
-		every_rival_country = {
-			limit = { gold = 1 }
-			add_opinion = { who = ROOT modifier = opinion_gold_privateers }
+		trigger_switch = {
+			on_trigger = has_country_flag
+			advisor_events_adm = { kill_advisor_by_category_effect = { ADM = yes } }
+			advisor_events_dip = { kill_advisor_by_category_effect = { DIP = yes } }
+			advisor_events_mil = { kill_advisor_by_category_effect = { MIL = yes } }
 		}
 	}
 }
+
 
 # Privateers captured
 country_event = {
@@ -7836,6 +7490,15 @@ country_event = {
 			has_country_modifier = hire_privateers
 		}
 	}
+	
+	immediate = {
+		hidden_effect = {
+			random_rival_country = {
+				limit = { has_country_modifier = hire_privateers }
+				save_event_target_as = rival_country
+			}
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 1
@@ -7846,7 +7509,9 @@ country_event = {
 		ai_chance = {
 			factor = 5
 		}
-		create_admiral = 50
+		create_admiral = {
+			tradition = 50
+		}
 	}
 	option = {
 		name = "EVTOPTB880"
@@ -7886,8 +7551,7 @@ country_event = {
 	option = {
 		name = "personality_options.806.a" #
 		highlight = yes
-		trigger = { ruler_has_personality = careful_personality }
-		required_personality = careful_personality
+		trigger = { ruler_has_personality_ancestor = { key = careful } } 
 		ai_chance = {
 			factor = 100
 		}
@@ -7895,6 +7559,7 @@ country_event = {
 			limit = {
 				is_capital = no
 				NOT = { local_autonomy = 90 }
+				is_city = yes
 			}
 			area = {
 				limit = {
@@ -7934,9 +7599,8 @@ country_event = {
 		name = "personality_options.836.a"
 		highlight = yes
 		trigger = {
-			ruler_has_personality = navigator_personality
+			ruler_has_personality_ancestor = { key = nautical }
 		}
-		required_personality = navigator_personality
 		add_dip_power = -25
 	}
 }
@@ -7965,10 +7629,9 @@ country_event = {
 		add_navy_tradition = -10
 	}
 	option = {
-		name = "EVTOPTB837A"
+		name = "personality_options.837.a"
 		highlight = yes
-		trigger = { ruler_has_personality = navigator_personality }
-		required_personality = navigator_personality
+		trigger = { ruler_has_personality_ancestor = { key = nautical } }
 		add_navy_tradition = -5
 	}
 }
@@ -7988,12 +7651,29 @@ country_event = {
 			has_idea_group = offensive_ideas
 			has_idea_group = defensive_ideas
 		}
+	}	
+	
+	immediate = {
+		check_if_non_state_advisor_effect = { #Hidden scripted effect, is used by scripted effect and must always be cleared in after = { } using erase_advisor_flags_effect.
+			chance_of_primary = 95 #Not percentages!
+			chance_of_tertiary = 3
+			chance_of_secondary = 10
+		}
 	}
 
 	option = {
 		name = "EVTOPTB838A"
-		create_advisor = navigator_a
+		generate_advisor_of_type_and_semi_random_religion_effect = {
+			advisor_type=navigator_a
+			advisor_type_if_not_state=navigator_a
+			skill=1
+			discount=yes
+		}
 		add_meritocracy_effect = yes
+	}
+	
+	after = {
+		erase_advisor_flags_effect = yes
 	}
 }
 
@@ -8001,162 +7681,6 @@ country_event = {
 
 namespace = random_event
 
-# Support for revolution overseas
-country_event = {
-	id = random_event.1
-	title = "random_event.EVTNAME1"
-	desc = "random_event.EVTDESC1"
-	picture = LAND_MILITARY_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		is_at_war = no
-		treasury = 100
-		any_known_country = {
-			OR = {
-				capital_scope = { continent = north_america }
-				capital_scope = { continent = south_america }
-			}
-			is_free_or_tributary_trigger = yes
-			any_known_country = {
-				war_with = PREV
-				is_enemy = ROOT
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "random_event.EVTOPTA1"
-		add_treasury = -100
-		random_known_country = {
-			limit = {
-				OR = {
-					capital_scope = { continent = north_america }
-					capital_scope = { continent = south_america }
-				}
-				any_known_country = {
-					war_with = PREV
-					is_enemy = ROOT
-				}
-			}
-			add_treasury = 100
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_sent_help
-				years = 20
-			}
-		}
-		random_rival_country = {
-			limit = {
-				capital_scope = { continent = europe }
-				any_known_country = {
-					OR = {
-						capital_scope = { continent = north_america }
-						capital_scope = { continent = south_america }
-					}
-					war_with = PREV
-				}
-			}
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_interfered_in_war
-				years = 20
-			}
-		}
-	}
-	option = {
-		name = "random_event.EVTOPTB1"
-		add_prestige = -10
-		random_known_country = {
-			limit = {
-				OR = {
-					capital_scope = { continent = north_america }
-					capital_scope = { continent = south_america }
-				}
-				any_known_country = {
-					war_with = PREV
-					is_enemy = ROOT
-				}
-			}
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_refused_send_help
-				years = 20
-			}
-		}
-		random_rival_country = {
-			limit = {
-				capital_scope = { continent = europe }
-				any_known_country = {
-					OR = {
-						capital_scope = { continent = north_america }
-						capital_scope = { continent = south_america }
-					}
-					war_with = PREV
-				}
-			}
-			add_opinion = {
-				who = ROOT
-				modifier = opinion_pleased
-				years = 20
-			}
-		}
-	}
-}
-
-# Culture ties weakened
-country_event = {
-	id = random_event.2
-	title = "random_event.EVTNAME2"
-	desc = "random_event.EVTDESC2"
-	picture = COLONIZATION_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		is_colonial_nation = yes
-		OR = {
-			primary_culture = scottish
-			primary_culture = english
-		}
-		any_owned_province = {
-			continent = north_america
-			OR = {
-				culture = scottish
-				culture = english
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "random_event.EVTOPTA2"
-		random_owned_province = {
-			limit = {
-				continent = north_america
-				OR = {
-					culture = scottish
-					culture = english
-				}
-			}
-			area = {
-				limit = {
-					owned_by = ROOT
-					NOT = { culture = american }
-				}
-				change_culture = american
-			}
-		}
-	}
-}
 
 # Traitor in Parliament
 country_event = {
@@ -8204,8 +7728,7 @@ country_event = {
 	option = {
 		name = "personality_options.random.3.a"
 		highlight = yes
-		trigger = { ruler_has_personality = secretive_personality }
-		required_personality = secretive_personality
+		trigger = { ruler_has_personality_ancestor = { key = secretive } }
 		ai_chance = {
 			factor = 100
 		}
@@ -8251,6 +7774,7 @@ country_event = {
 		add_prestige = 20
 		add_legitimacy = 20
 		add_horde_unity = 20
+		add_mandate_effect = yes
 	}
 	option = {
 		name = "random_event.EVTOPTB5"

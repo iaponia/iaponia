@@ -172,7 +172,6 @@ estate_nobles = {
 		estate_nobles_develop_x
 		estate_nobles_build_army_building_in_y
 		estate_nobles_build_fort_building_in_y
-		estate_nobles_build_university_in_y
 		estate_nobles_build_manufactory_in_y
 		estate_nobles_get_allies
 		estate_nobles_befriend_rival_of_rival

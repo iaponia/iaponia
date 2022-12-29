@@ -19,7 +19,6 @@ divorce_consort_effect = {
 	if = {
 		limit = {
 			religion = kirishitan
-			NOT = { exists = PAP }
 			has_foreign_consort = yes
 		}
 
@@ -46,13 +45,6 @@ divorce_consort_effect = {
 	#Local consort family expresses anger
 	if = {
 		limit = {
-			OR = {
-				NOT = { religion = catholic }
-				AND = {
-					religion = catholic
-					NOT = { exists = PAP }
-				}
-			}
 			has_foreign_consort = no
 			any_owned_province = {
 				has_province_modifier = domain_of_spouses_family
@@ -70,7 +62,7 @@ divorce_consort_effect = {
 
 	#Set aside first wife and select another
 	if = {
-		limit = { NOT = { religion_group = christian } }
+		limit = { NOT = { religion = kirishitan } }
 
 		custom_tooltip = divorce.a.tt
 
@@ -88,16 +80,7 @@ divorce_consort_effect = {
 	#Divorce
 	if = {
 		limit = {
-			OR = {
-				AND = {
-					religion_group = christian
-					NOT = { religion = catholic }
-				}
-				AND = {
-					religion = catholic
-					NOT = { exists = PAP }
-				}
-			}
+			religion = kirishitan
 		}
 
 		custom_tooltip = divorce.b.tt
@@ -111,30 +94,8 @@ divorce_consort_effect = {
 		}
 	}
 
-	#Papal dispensation
-	if = {
-		limit = {
-			religion = catholic 
-			exists = PAP
-		}
-
-		#How much influence will you spend?
-		country_event = { id = consort_events.201 }
-	}
-
-	#Prestige hit
-	if = {
-		limit = {
-			OR = {
-				NOT = { religion = catholic }
-				AND = {
-					NOT = { exists = PAP }
-					religion = catholic
-				}
-			}
-		}
-		add_prestige = -15
-	}
+	#Prestige hit: always, the pope is not involved
+	add_prestige = -15
 }
 
 save_origin_of_consort_effect = { #Used for all internal consorts.

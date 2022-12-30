@@ -107,12 +107,6 @@ country_decisions = {
 				}
 				add_permanent_claim = UES
 			}
-			chichibu_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-				}
-				add_permanent_claim = UES
-			}
 			edotama_area = {
 				limit = {
 					NOT = { owned_by = ROOT }

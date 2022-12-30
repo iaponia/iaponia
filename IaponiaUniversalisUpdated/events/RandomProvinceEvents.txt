@@ -11,22 +11,25 @@ province_event = {
 	title = "EVTNAME5057"
 	desc = "EVTDESC5057"
 	picture = FORT_eventPicture
+	goto = root
 
 	trigger = {
+		fort_level = 1
 		owner = {
 			mil = 4
 			mil_tech = 8
 			treasury = 100
 		}
-		fort_level = 1
 		NOT = { has_province_modifier = improved_fortifications }
 	}
 
+	is_mtth_scaled_to_size = 1
+
 	mean_time_to_happen = {
-		months = 5000 # Random Province Event
+		months = 600
 		
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			owner = {
 				military_engineer_a = 3
 			}
@@ -72,6 +75,7 @@ province_event = {
 	title = "EVTNAME5087"
 	desc = "EVTDESC5087"
 	picture = BATTLE_eventPicture
+	goto = claim_province
 
 	trigger = {
 		owner = { is_free_or_tributary_trigger = yes }
@@ -88,15 +92,49 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 2000 # Special Random Province Event
+		months = 600
 		
 		modifier = {
 			factor = 10
-			owner = { historical_friend_with = ROOT }
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+				NOT = { is_claim = ROOT }
+				NOT = { owned_by = PAP }
+				has_discovered = ROOT
+				is_capital = no
+				owner = {
+					NOT = { is_subject_of = ROOT }
+					OR = {
+						historical_friend_with = ROOT
+						alliance_with = root
+					}
+				}
+			}
 		}
 		modifier = {
-			factor = 0.5
-			owner = { historical_rival_with = ROOT }
+			factor = 0.9
+			any_neighbor_province = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+				NOT = { is_claim = ROOT }
+				NOT = { owned_by = PAP }
+				has_discovered = ROOT
+				is_capital = no
+				owner = {
+					NOT = { is_subject_of = ROOT }
+					OR = {
+						historical_rival_with = ROOT
+						is_rival = root
+						NOT = {
+							has_opinion = {
+								who = root
+								value = -100
+							}
+						}
+					}
+				}
+			}
 		}		
 		modifier = {
 			factor = 1.1
@@ -120,20 +158,27 @@ province_event = {
 		}		
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_neighbor_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+					has_discovered = ROOT
+					is_capital = no
+					NOT = { owner = { is_subject_of = ROOT } }
+				}
+				save_event_target_as = claim_province
+			}
+		}
+	}
+
 	is_mtth_scaled_to_size = 1
 
 	option = {
 		name = "EVTOPTA5087" # Press issue
-		ai_chance = { factor = 55 }
-		random_neighbor_province = {
-			limit = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-				NOT = { is_claim = ROOT }
-				has_discovered = ROOT
-				is_capital = no
-				NOT = { owner = { is_subject_of = ROOT } }
-			}
+		event_target:claim_province = {
 			add_claim = ROOT
 			owner = {
 				add_casus_belli = {	
@@ -147,11 +192,9 @@ province_event = {
 	}
 	option = {
 		name = "EVTOPTB5087" # Settle issue
-		ai_chance = { factor = 0 }
-		owner = { add_stability = -1 }
+		owner = { add_prestige = -5 }
 	}
 }
-
 
 
 #########################################################
@@ -166,6 +209,7 @@ province_event = {
 	title = "EVTNAME6032"
 	desc = "EVTDESC6032"
 	picture = COURT_eventPicture
+	goto = claim_province
 
 	trigger = {
 		owner = { religion = ROOT }
@@ -176,8 +220,14 @@ province_event = {
 			NOT = { is_claim = ROOT }
 			religion = ROOT
 			owner = {
-				religion_group = ROOT
+				#with our religious setup, it's okay to get claims on heathens too
+				#religion_group = ROOT
 				NOT = { religion = ROOT }
+				OR = {
+					NOT = { adm = 2 }
+					NOT = { dip = 2 }
+					NOT = { mil = 2	}
+				}
 			}
 			NOT = { owner = { is_subject_of = ROOT } }
 
@@ -185,19 +235,23 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 2000 # Special Random Province Event
+		months = 600
 		
 		modifier = {
 			factor = 10
 			owner = { historical_friend_with = ROOT }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.9
 			owner = { historical_rival_with = ROOT }
 		}		
 		modifier = {
 			factor = 1.2
 			owner = { NOT = { dip = 1 } }
+		}
+		modifier = {
+			factor = 2.0
+			owner = { luck = yes }
 		}
 		modifier = {
 			factor = 0.8
@@ -213,21 +267,35 @@ province_event = {
 
 	is_mtth_scaled_to_size = 1
 
+	immediate = {
+		hidden_effect = {
+			random_neighbor_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+					religion = ROOT
+					owner = {
+						#with our religious setup, it's okay to get claims on heathens too
+						#religion_group = ROOT
+						NOT = { religion = ROOT }
+						OR = {
+							NOT = { adm = 2 }
+							NOT = { dip = 2 }
+							NOT = { mil = 2	}
+						}
+					}
+					NOT = { owner = { is_subject_of = ROOT } }
+				}
+				save_event_target_as = claim_province
+			}
+		}
+	}
+
 	option = {
 		name = "EVTOPTA6032" # Press issue
 		ai_chance = { factor = 55 }
-		random_neighbor_province = {
-			limit = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-				NOT = { is_claim = ROOT }
-				religion = ROOT
-				owner = {
-					religion_group = ROOT
-					NOT = { religion = ROOT }
-				}
-				NOT = { owner = { is_subject_of = ROOT } }
-			}
+		event_target:claim_province = {
 			add_claim = ROOT
 			owner = {
 				add_casus_belli = {	
@@ -254,6 +322,7 @@ province_event = {
 	title = "EVTNAME6033"
 	desc = "EVTDESC6033"
 	picture = DIPLOMACY_eventPicture
+	goto = claim_province
 
 	trigger = {
 		owner = { culture_group = ROOT }
@@ -269,6 +338,7 @@ province_event = {
 				NOT = { culture_group = ROOT }
 				OR = {
 					NOT = { adm = 2 }
+					NOT = { dip = 2 }
 					NOT = { mil = 2	}
 				}
 			}
@@ -277,19 +347,27 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 2000 # Special Random Province Event
+		months = 600
 		
 		modifier = {
 			factor = 10
 			owner = { historical_friend_with = ROOT }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.9
 			owner = { historical_rival_with = ROOT }
 		}		
 		modifier = {
 			factor = 2.0
 			owner = { NOT = { dip = 1 } }
+		}
+		modifier = {
+			factor = 2.0
+			owner = { has_idea = pluralist_three }
+		}
+		modifier = {
+			factor = 2.0
+			owner = { luck = yes }
 		}
 		modifier = {
 			factor = 0.8
@@ -299,29 +377,38 @@ province_event = {
 		}
 	}
 
+	immediate = {
+		hidden_effect = {
+			random_neighbor_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
+					culture_group = ROOT
+					owner = {
+						NOT = { primary_culture = ROOT }
+						NOT = { accepted_culture = ROOT }
+						NOT = { culture_group = ROOT }
+						OR = {
+							NOT = { adm = 2 }
+							NOT = { dip = 2 }
+							NOT = { mil = 2	}
+						}
+					}
+					NOT = { owner = { is_subject_of = ROOT } }
+				}
+				save_event_target_as = claim_province
+			}
+		}
+	}
+
 	is_mtth_scaled_to_size = 1
 
 	option = {
 		name = "EVTOPTA6033" # Press issue
 		ai_chance = { factor = 55 }
-		random_neighbor_province = {
-			limit = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-				NOT = { is_claim = ROOT }
-				culture_group = ROOT
-				owner = {
-					NOT = { primary_culture = ROOT }
-					NOT = { accepted_culture = ROOT }
-					NOT = { culture_group = ROOT }
-					OR = {
-						NOT = { adm = 2 }
-						NOT = { mil = 2	}
-					}
-				}
-				NOT = { owner = { is_subject_of = ROOT } }
-			}
-			 add_claim = ROOT
+		event_target:claim_province = {
+			add_claim = ROOT
 			owner = {
 				add_casus_belli = {	
 					target = ROOT
@@ -344,6 +431,7 @@ province_event = {
 	title = "EVTNAME746"
 	desc = "EVTDESC746"
 	picture = DIPLOMACY_eventPicture
+	goto = root
 
 	trigger = {
 		always = no
@@ -369,6 +457,7 @@ province_event = {
 		controller = { 
 			NOT = { war_exhaustion = 5 }
 		}
+		is_city = yes
 	}
 
 	mean_time_to_happen = {
@@ -401,7 +490,6 @@ province_event = {
 
 	option = {
 		name = "EVTOPTA746"
-		controller = { country_event = { id = 747 } }
 	}
 }
 
@@ -410,16 +498,22 @@ province_event = {
 	title = "EVTNAME757"
 	desc = "EVTDESC757"
 	picture = ANGRY_MOB_eventPicture
+	goto = root
 	
 	trigger = {
 		owner = { NOT = { num_of_rebel_controlled_provinces = 3 } }
 		owner = { overextension_percentage = 1.01 }
 		owner = { war_exhaustion = 6 }
 		NOT = { controlled_by = REB }
+		is_city = yes
 	}
 
 	mean_time_to_happen = {
 		months = 240	
+		modifier = {
+			factor = 5.0
+			owner = { luck = yes }
+		}		
 		modifier = {
 			factor = 2.0
 			owner = {
@@ -480,13 +574,15 @@ province_event = {
 	title = "EVTNAME9471"
 	desc = "EVTDESC9471"
 	picture = LAND_MILITARY_eventPicture
+	goto = root
 	
 	trigger = {
 		is_capital = no
 		any_neighbor_province = {
 			NOT = { owned_by = ROOT }
 			owner = {
-				NOT = { has_casus_belli_against = ROOT }
+				NOT = { war_with = root }
+				NOT = { truce_with = root }
 				is_rival = ROOT
 				is_free_or_tributary_trigger = yes
 				NOT = { is_core = ROOT }
@@ -499,35 +595,43 @@ province_event = {
 		}
 	}
 	
+	is_mtth_scaled_to_size = 1
+	
 	mean_time_to_happen = {
-		months = 600
+		months = 800
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_neighbor_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					owner = {
+						NOT = { war_with = root }
+						NOT = { truce_with = root }
+						is_rival = ROOT
+						is_free_or_tributary_trigger = yes
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					OR = {
+						owner = { is_part_of_hre = no }
+						ROOT = { owner = { is_part_of_hre = no } }
+					}
+				}
+				owner = { save_event_target_as = neighbour_country }
+			}
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA9471"
-		random_neighbor_province = {
-			limit = {
-				NOT = { owned_by = ROOT }
-				owner = {
-					NOT = { is_core = ROOT }
-					NOT = { is_claim = ROOT }
-					NOT = { has_casus_belli_against = ROOT }
-					is_rival = ROOT
-					is_free_or_tributary_trigger = yes
-					is_lesser_in_union = no
-				}
-				OR = {
-					owner = { is_part_of_hre = no }
-					ROOT = { owner = { is_part_of_hre = no } }
-				}
+		event_target:neighbour_country = {
+			tooltip = {
+				add_claim = ROOT
 			}
-			owner = {
-				tooltip = {
-					add_claim = ROOT
-				}
-				hidden_effect = {
-					country_event = { id = 6436  }
-				}
+			hidden_effect = {
+				country_event = { id = 6436  }
 			}
 		}
 	}
@@ -539,6 +643,7 @@ country_event = {
 	title = "EVTNAME6436"
 	desc = "EVTDESC6436"
 	picture = LAND_MILITARY_eventPicture
+	goto = from
 	
 	is_triggered_only = yes	
 	

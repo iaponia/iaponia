@@ -7822,7 +7822,7 @@ country_event = {
 		is_at_war = yes
 		any_country = {
 			employed_advisor = {
-				type = fortification_expert
+				type = military_engineer_a
 				culture = root
 			}
 			war_with = ROOT
@@ -7837,7 +7837,7 @@ country_event = {
 			random_country = {
 				limit = {
 					employed_advisor = {
-						type = fortification_expert
+						type = military_engineer_a
 						culture = root
 					}
 					war_with = ROOT

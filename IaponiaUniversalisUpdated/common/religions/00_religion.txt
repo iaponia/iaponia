@@ -507,11 +507,10 @@ christian_group = {
 
 ainu_group = {
 
-	harmonized_modifier = harmonized_ainu_group
-
 	crusade_name = LIBERATION
 
 	ainu = {
+		harmonized_modifier = harmonized_kamuism
 		color = { 0.7 0.5 0.5 }
 		icon = 11
 		country = {

@@ -1416,6 +1416,13 @@ on_parliament_debate_succeeded = {
 # Harmonization events
 on_harmonized_christian = {}
 on_harmonized_shinto = {}
+on_harmonized_kamuism = {
+	on_harmonized_effect = yes
+	on_harmonized_religion_estate_privileges_effect = yes
+	events = {
+		ryukyu_faith.1
+	}
+}
 
 ## Unused vanilla faiths
 # on_harmonized_pagan = {}

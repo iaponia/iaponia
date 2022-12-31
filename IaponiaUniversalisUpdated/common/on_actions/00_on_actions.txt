@@ -1414,13 +1414,27 @@ on_parliament_debate_succeeded = {
 
 # country
 # Harmonization events
-on_harmonized_christian = {}
-on_harmonized_shinto = {}
 on_harmonized_kamuism = {
 	on_harmonized_effect = yes
 	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		ryukyu_faith.1
+	}
+}
+
+on_harmonized_kirishitan = {
+	on_harmonized_effect = yes
+	on_harmonized_religion_estate_privileges_effect = yes
+	events = {
+		ryukyu_faith.2
+	}
+}
+
+on_harmonized_japonic = {
+	on_harmonized_effect = yes
+	on_harmonized_religion_estate_privileges_effect = yes
+	events = {
+		ryukyu_faith.7
 	}
 }
 

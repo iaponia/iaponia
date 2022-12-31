@@ -300,7 +300,7 @@ country_event = {
 		has_regency = no
 		government = monarchy
 		NOT = { government = steppe_horde }
-		religion_group = christian
+		religion = kirishitan
 		num_of_cities = 2
 		NOT = {
 			legitimacy = 50

@@ -86,7 +86,7 @@ country_event = {
 		name = "ryukyu_faith.7.a"
 		tooltip = {
 			add_country_modifier = {
-				name = "harmonized_shinto"
+				name = "harmonized_japonic"
 				duration = -1
 			}
 		}

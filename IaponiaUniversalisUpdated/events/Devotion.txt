@@ -1257,7 +1257,7 @@ province_event = {
 		NOT = { has_province_modifier = add_unrest_5_modifier }
 		owner = {
 			government = theocracy
-			religion_group = christian
+			religion_group = christian_group
 			NOT = { has_reform = papacy_reform }
 		}
 	}

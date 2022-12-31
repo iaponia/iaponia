@@ -18,27 +18,27 @@ country_event = {
 
 	desc = {
 		trigger = {
-			religion_group = christian
+			religion_group = christian_group
 			NOT = { has_ruler_flag = widow_widower }
 		}
 		desc = consort_events.1.da #Monarch seems oblivious to offers so far.
 	}
 	desc = {
 		trigger = {
-			religion_group = christian
+			religion_group = christian_group
 			has_ruler_flag = widow_widower
 		}
 		desc = consort_events.1.db #Help Finding a Second wife.
 	}
 	desc = {
 		trigger = {
-			religion_group = christian
+			religion_group = christian_group
 		}
 		desc = consort_events.1.dc #No special reason
 	}
 	desc = {
 		trigger = {
-			NOT = { religion_group = christian }
+			NOT = { religion_group = christian_group }
 		}
 		desc = consort_events.1.dd #Base text for regions where multiple spouses are the norm.
 	}
@@ -2664,7 +2664,7 @@ country_event = {
 
 		modifier = {
 			factor = 0.5
-			religion_group = christian
+			religion_group = christian_group
 		}
 	}
 

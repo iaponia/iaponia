@@ -314,7 +314,7 @@ country_event = {
 		days = 1
 		modifier = {
 			factor = 0.5
-			NOT = { religion_group = christian }
+			NOT = { religion_group = christian_group }
 		}
 		modifier = {
 			factor = 1.2

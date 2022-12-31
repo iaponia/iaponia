@@ -160,11 +160,17 @@ birthplace_of_rangaku = {
 }
 
 #harmony
-harmonized_nichirenshu = {}
-harmonized_jodoshinshu = {}
 harmonized_kamuism = {
 	#TODO: just for testing hehe
 	infantry_shock = 4
+}
+harmonized_kirishitan = {
+	#TODO: just for testing hehe
+	trade_efficiency = 0.34
+}
+harmonized_japonic = {
+	#TODO: just for testing hehe
+	cavalry_cost = -0.64
 }
 
 nobles_searching_for_heir = {

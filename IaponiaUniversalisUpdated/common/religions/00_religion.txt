@@ -2,8 +2,8 @@
 
 # Uses all 'modifiers' possible thats exported as a Modifier.
 
-christian = {
-
+japonic = {
+	harmonized_modifier = harmonized_japonic
 	crusade_name = CRUSADE
 	center_of_religion = 683 # Kyoto
 
@@ -50,8 +50,6 @@ christian = {
 		heretic = { SHUGENDO }
 		
 		misguided_heretic = yes
-		
-		harmonized_modifier = harmonized_shinto
 	}
 	
 	jodoshinshu = {
@@ -153,8 +151,6 @@ christian = {
 		}
 
 		heretic = { TENDAI }
-		
-		harmonized_modifier = harmonized_jodoshinshu
 
 		uses_karma = yes
 		date = 1475.03.31
@@ -179,8 +175,6 @@ christian = {
 		}
 		
 		has_patriarchs = yes
-		
-		harmonized_modifier = harmonized_nichirenshu
 		
 		orthodox_icons = {
 
@@ -277,11 +271,10 @@ christian = {
 }
 
 christian_group = {
+	harmonized_modifier = harmonized_kirishitan
 	defender_of_faith = yes
 	
 	ai_will_propagate_through_trade = yes
-	
-	harmonized_modifier = harmonized_christian
 	
 	crusade_name = LIBERATION
 	
@@ -398,8 +391,6 @@ christian_group = {
 	kirishitan = {
 		color = { 0.8 0.8 0 }
 		icon = 1
-		
-
 
 		allowed_conversion = {
 			shinto
@@ -509,8 +500,8 @@ ainu_group = {
 
 	crusade_name = LIBERATION
 
+	harmonized_modifier = harmonized_kamuism
 	ainu = {
-		harmonized_modifier = harmonized_kamuism
 		color = { 0.7 0.5 0.5 }
 		icon = 11
 		country = {

@@ -182,7 +182,7 @@ pagan_ideas = {
 		num_accepted_cultures = 1
 	}
 	pagan_five = {
-		tolerance_heretic = 2
+		tolerance_heathen = 2
 	}
 	pagan_six = {
 		global_missionary_strength = 0.01
@@ -226,6 +226,7 @@ pluralist_ideas = {
 	}
 	pluralist_three = {
 		tolerance_heretic = 2
+		tolerance_heathen = 2
 	}
 	pluralist_four = {
 		num_accepted_cultures = 1

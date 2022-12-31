@@ -15,7 +15,7 @@ christian_influence = {
 		full_idea_group = influence_ideas
 	}
 	
-	tolerance_heretic = 2
+	tolerance_heathen = 2
 	
 	ai_will_do = {
 		factor = 1	
@@ -533,7 +533,7 @@ pagan_diplomatic = {
 		full_idea_group = diplomatic_ideas
 	}	
 	
-	tolerance_heretic = 1
+	tolerance_heathen = 1
 	global_institution_spread = 0.1
 	
 	ai_will_do = {

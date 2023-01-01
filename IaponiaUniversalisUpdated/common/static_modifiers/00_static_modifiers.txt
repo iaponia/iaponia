@@ -1112,7 +1112,7 @@ inverse_religious_unity = {
 	stability_cost_modifier = 1.0		#more expensive to recover stability
 	global_unrest = 3
 	church_power_modifier = -1
-	yearly_patriarch_authority = 0.05
+	yearly_patriarch_authority = -0.02
 	devotion = -1
 	yearly_corruption = 0.1
 }

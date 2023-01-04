@@ -15,10 +15,6 @@ technology = {
 	shrine = yes
 	may_support_rebels = yes
 
-	#placeholder
-	rice_exchange = yes
-	shipyard = yes
-	mint = yes
 }
 
 technology = {

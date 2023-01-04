@@ -629,6 +629,7 @@ positive_stability = {
 	global_tax_modifier = 0.05
 	interest = -0.5
 	stability_cost_modifier = 1
+	yearly_harmony = 0.25
 }
 
 privateering = {
@@ -645,6 +646,7 @@ negative_stability = {
 	global_tax_modifier = 0.1
 	interest = 1
 	global_autonomy = -0.05
+	yearly_harmony = 0.25
 }
 
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
@@ -1103,13 +1105,14 @@ bought_indulgence = {
 religious_unity = {
 	max_absolutism = 5
 	church_loyalty_modifier = 0.05
+	yearly_harmony = 1
 }
 
 inverse_religious_unity = {
 	stability_cost_modifier = 1.0		#more expensive to recover stability
 	global_unrest = 3
 	church_power_modifier = -1
-	yearly_patriarch_authority = 0.05
+	yearly_patriarch_authority = -0.02
 	devotion = -1
 	yearly_corruption = 0.1
 }

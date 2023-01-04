@@ -3595,7 +3595,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		religion_group = christian
+		religion_group = christian_group
 		has_estate = estate_nobles
 		any_owned_province = {
 			NOT = { is_colony = yes }
@@ -7822,7 +7822,7 @@ country_event = {
 		is_at_war = yes
 		any_country = {
 			employed_advisor = {
-				type = fortification_expert
+				type = military_engineer_a
 				culture = root
 			}
 			war_with = ROOT
@@ -7837,7 +7837,7 @@ country_event = {
 			random_country = {
 				limit = {
 					employed_advisor = {
-						type = fortification_expert
+						type = military_engineer_a
 						culture = root
 					}
 					war_with = ROOT

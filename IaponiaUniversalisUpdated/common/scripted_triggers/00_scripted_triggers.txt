@@ -1057,7 +1057,8 @@ valid_for_personal_unions_trigger = {
 	exists = yes
 	is_subject = no
 	government = monarchy
-	religion_group = christian
+	religion_group = christian_group
+	always = no
 }
 
 is_shadow_kingdom_eligible_trigger = {

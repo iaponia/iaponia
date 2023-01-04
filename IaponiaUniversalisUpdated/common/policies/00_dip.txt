@@ -460,6 +460,7 @@ pluralist_influence = {
 	}	
 	
 	tolerance_heretic = 1
+	tolerance_heathen = 1
 	improve_relation_modifier = 0.2
 	
 	ai_will_do = {

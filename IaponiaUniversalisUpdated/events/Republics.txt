@@ -290,7 +290,7 @@ country_event = {
 			NOT = { has_dlc = "Res Publica" }
 			NOT = { government = dutch_republic }
 		}
-		religion_group = christian
+		religion_group = christian_group
 		is_at_war = yes
 		war_exhaustion = 10
 	}

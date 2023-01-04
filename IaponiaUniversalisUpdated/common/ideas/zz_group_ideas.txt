@@ -50,7 +50,6 @@ theocracy_ideas = {
 
 	trigger = {
 		government = theocracy
-		religion_group = christian
 	}
 	free = yes
 

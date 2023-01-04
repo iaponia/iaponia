@@ -1,0 +1,2346 @@
+### ALL RULER PERSONAILITIES ###
+# honorable_personality
+# gracious_personality
+# stern_personality
+# conscientious_personality
+# pious_personality
+# tolerant_personality
+# eloquent_personality
+# erudite_personality
+# brave_personality
+# strong_personality
+# legislator_personality
+# connected_personality
+# mercantile_personality
+# cautious_personality
+# nautical_personality
+# cunning_personality
+# innovator_personality
+# equestrian_personality
+# architect_personality
+# dishonorable_personality
+# cruel_personality
+# lenient_personality
+# profligate_personality
+# cynical_personality
+# zealot_personality
+# domineering_personality
+# retrograde_personality
+# craven_personality
+# sickly_personality
+# arbitrary_personality
+# draconian_personality
+# reckless_personality
+# disorganized_personality
+# drunk_personality
+# gregarious_personality
+# elitist_personality
+# proud_personality
+# humble_personality
+# frugal_personality
+# artistic_personality
+# centralizer_personality
+# honest_personality
+# upstanding_personality
+# swordsman_personality
+# xenophilic_personality
+# ambitious_personality
+
+###############################################
+# Good
+###############################################
+
+ancestor_honorable_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = traditional_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = traditional_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = traditional_ideas
+			}
+		}
+	}
+
+	prestige = 1
+	yearly_corruption = -0.05
+	nation_designer_cost = 5
+}
+
+ancestor_gracious_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	global_unrest = -1
+	diplomatic_reputation = 1
+	nation_designer_cost = 5
+}
+
+ancestor_stern_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = organization_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = organization_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = organization_ideas
+			}
+		}
+	}
+
+	discipline = 0.05
+	stability_cost_modifier = -0.1
+	nation_designer_cost = 5
+}
+
+ancestor_conscientious_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = administrative_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = administrative_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = administrative_ideas
+			}
+		}
+	}
+
+	global_trade_goods_size_modifier = 0.1
+	global_tax_modifier = 0.1
+	nation_designer_cost = 5
+}
+
+ancestor_pious_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = shinto_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = buddhist_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = christian_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = pagan_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = shinto_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = buddhist_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = christian_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = pagan_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = shinto_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = buddhist_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = christian_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = pagan_ideas
+			}
+		}
+	}
+
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	nation_designer_cost = 5
+}
+
+ancestor_tolerant_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = pluralist_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = pluralist_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = pluralist_ideas
+			}
+		}
+	}
+
+	tolerance_heretic = 1
+	religious_unity = 0.1
+	nation_designer_cost = 5
+}
+
+ancestor_eloquent_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	ae_impact = -0.1
+	improve_relation_modifier = 0.1
+	nation_designer_cost = 5
+}
+
+ancestor_erudite_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = pluralist_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = trade_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = pluralist_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = trade_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = pluralist_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = trade_ideas
+			}
+		}
+	}
+
+	technology_cost = -0.05
+	idea_cost = -0.05
+	nation_designer_cost = 5
+}
+
+ancestor_brave_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = leadership_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = offensive_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = leadership_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = offensive_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = leadership_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = offensive_ideas
+			}
+		}
+	}
+
+	land_morale = 0.1
+	prestige_from_land = 0.5
+	nation_designer_cost = 5
+}
+
+ancestor_strong_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = leadership_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = leadership_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = leadership_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+		}
+	}
+
+	leader_land_shock = 1
+	heir_chance = 0.25
+	nation_designer_cost = 5
+}
+
+ancestor_legislator_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = ecclesiocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = meritocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = influence_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = ecclesiocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = meritocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = influence_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = ecclesiocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = meritocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = influence_ideas
+			}
+		}
+	}
+
+	years_of_nationalism = -5
+	reduced_liberty_desire = 5
+	nation_designer_cost = 5
+}
+
+ancestor_connected_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = ecclesiocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = meritocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = influence_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = ecclesiocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = meritocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = influence_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.25
+				ADM = 6
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 7
+			}
+			modifier = {
+				factor = 1.25
+				ADM = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = ecclesiocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = meritocratic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = influence_ideas
+			}
+		}
+	}
+
+	advisor_cost = -0.1
+	merc_maintenance_modifier = -0.25
+	nation_designer_cost = 5
+}
+
+ancestor_mercantile_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = trade_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = mercantilist_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = trade_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = mercantilist_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = trade_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = mercantilist_ideas
+			}
+		}
+	}
+
+	trade_efficiency = 0.1
+	development_cost = -0.1
+	nation_designer_cost = 5
+}
+
+ancestor_cautious_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = defensive_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = defensive_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = defensive_ideas
+			}
+		}
+	}
+
+	land_attrition = -0.15
+	global_spy_defence = 0.25
+	nation_designer_cost = 5
+}
+
+ancestor_nautical_personality = {
+	ruler_allow = {
+		allow = {
+			num_of_ports = 1
+		}
+
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = maritime_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		allow = {
+			num_of_ports = 1
+		}
+
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = maritime_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		allow = {
+			num_of_ports = 1
+		}
+
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = maritime_ideas
+			}
+		}
+	}
+
+	navy_tradition = 1
+	ship_durability = 0.05
+	nation_designer_cost = 5
+}
+
+ancestor_cunning_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				DIP = 6
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 7
+			}
+			modifier = {
+				factor = 1.25
+				DIP = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	leader_land_manuever = 1
+	spy_offence = 0.2
+	nation_designer_cost = 5
+}
+
+ancestor_innovator_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = westernized_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = organization_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = westernized_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = organization_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = westernized_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = organization_ideas
+			}
+		}
+	}
+
+	infantry_power = 0.1
+	land_maintenance_modifier = -0.1
+	nation_designer_cost = 5
+}
+
+ancestor_equestrian_personality = {
+	ruler_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = traditional_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = traditional_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = traditional_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = aristocratic_ideas
+			}
+		}
+	}
+
+	cavalry_power = 0.1
+	army_tradition_decay = -0.01
+	nation_designer_cost = 5
+}
+
+ancestor_architect_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = defensive_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = administrative_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = defensive_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = administrative_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.25
+				MIL = 6
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 7
+			}
+			modifier = {
+				factor = 1.25
+				MIL = 8
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = defensive_ideas
+			}
+			modifier = {
+				factor = 1.25
+				has_idea_group = administrative_ideas
+			}
+		}
+	}
+
+	build_cost = -0.1
+	defensiveness = 0.1
+	nation_designer_cost = 5
+}
+
+###############################################
+# Bad
+###############################################
+
+
+###############################################
+# Neutral
+###############################################
+
+ancestor_gregarious_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = diplomatic_ideas
+			}
+		}
+	}
+
+	diplomatic_upkeep = 1
+	global_spy_defence = -0.25
+	nation_designer_cost = 2
+}
+
+ancestor_elitist_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = meritocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = leadership_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = meritocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = leadership_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = meritocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = leadership_ideas
+			}
+		}
+	}
+
+	advisor_pool = 1
+	advisor_cost = 0.1
+	nation_designer_cost = 2
+}
+
+ancestor_proud_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = traditional_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = leadership_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = traditional_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = leadership_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = traditional_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = leadership_ideas
+			}
+		}
+	}
+
+	prestige = 1
+	build_cost = 0.1
+	nation_designer_cost = 2
+}
+
+ancestor_humble_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = diplomatic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = meritocratic_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = diplomatic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = meritocratic_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = diplomatic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = meritocratic_ideas
+			}
+		}
+	}
+
+	diplomatic_reputation = 1
+	global_tax_modifier = -0.1
+	nation_designer_cost = 2
+}
+
+ancestor_frugal_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = trade_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = mercantilist_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = organization_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = trade_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = mercantilist_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = organization_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = trade_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = mercantilist_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = organization_ideas
+			}
+		}
+	}
+
+	global_tax_modifier = 0.1
+	mercenary_manpower = -0.25
+	nation_designer_cost = 2
+}
+
+ancestor_artistic_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = pluralist_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = trade_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = pluralist_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = trade_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = aristocratic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = pluralist_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = trade_ideas
+			}
+		}
+	}
+
+	idea_cost = -0.1
+	army_tradition_decay = 0.01
+	nation_designer_cost = 2
+}
+
+ancestor_centralizer_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = influence_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = organization_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = expansion_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = influence_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = organization_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = expansion_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = administrative_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = influence_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = organization_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = expansion_ideas
+			}
+		}
+	}
+
+	global_autonomy = -0.05
+	global_unrest = 1
+	nation_designer_cost = 2
+}
+
+ancestor_honest_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = diplomatic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = influence_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = diplomatic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = influence_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = diplomatic_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = influence_ideas
+			}
+		}
+	}
+
+	unjustified_demands = -0.25
+	improve_relation_modifier = -0.1
+	nation_designer_cost = 2
+}
+
+ancestor_upstanding_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = shinto_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = christian_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = shinto_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = christian_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = shinto_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = christian_ideas
+			}
+		}
+	}
+
+	tolerance_own = 1
+	spy_offence = -0.2
+	nation_designer_cost = 2
+}
+
+ancestor_swordsman_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = traditional_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = leadership_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = traditional_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = leadership_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = traditional_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = leadership_ideas
+			}
+		}
+	}
+
+	army_tradition = 1
+	leader_land_fire = -1
+	nation_designer_cost = 2
+}
+
+ancestor_xenophilic_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = christian_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = pluralist_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = trade_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = westernized_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = christian_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = pluralist_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = trade_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = westernized_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = christian_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = pluralist_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = trade_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = westernized_ideas
+			}
+		}
+	}
+
+	technology_cost = -0.1
+	prestige = -1
+	nation_designer_cost = 2
+}
+
+ancestor_ambitious_personality = {
+	ruler_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = expansion_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = offensive_ideas
+			}
+		}
+	}
+
+	heir_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = expansion_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = offensive_ideas
+			}
+		}
+	}
+
+	consort_allow = {
+		chance = {
+			modifier = {
+				factor = 1.33
+				has_idea_group = expansion_ideas
+			}
+			modifier = {
+				factor = 1.33
+				has_idea_group = offensive_ideas
+			}
+		}
+	}
+
+	core_creation = -0.1
+	ae_impact = 0.1
+	nation_designer_cost = 2
+}
+
+###############################################
+# Immortal
+###############################################

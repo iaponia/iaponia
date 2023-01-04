@@ -354,14 +354,12 @@ country_event = {
 				}
 				1 = {
 					trigger = {
-						NOT = { religion_group = muslim }
 						has_consort = yes
 					}
 					set_country_flag = court_scandal_4
 				}
 				1 = {
 					trigger = {
-						NOT = { religion_group = muslim }
 						NOT = { has_dlc = "Rights of Man" }
 					}
 					set_country_flag = court_scandal_5
@@ -3506,11 +3504,6 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 
-		modifier = {
-			factor = 2.0
-			has_idea = merchant_adventures
-			has_government_attribute = is_merchant_republic
-		}
 		modifier = {
 			factor = 0.5
 			luck = yes

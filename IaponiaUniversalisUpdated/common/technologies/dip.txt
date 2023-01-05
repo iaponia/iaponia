@@ -197,7 +197,7 @@ technology = {
 	# 	kokudaka_system = 0.3
 	# }
 	
-	naval_morale = 0.3
+	naval_morale = 0.4
 }
 
 technology = {
@@ -248,7 +248,7 @@ technology = {
 	# 	rangaku = 0.5
 	# }
 	
-	naval_morale = 0.3
+	sea_repair = yes
 }
 
 technology = {
@@ -264,6 +264,6 @@ technology = {
 	# 	rangaku = 0.5
 	# }
 	
-	naval_morale = 0.5
+	naval_morale = 0.6
 	naval_engagement_width = 10
 }

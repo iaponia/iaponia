@@ -1231,7 +1231,6 @@ dockyard = {
 	manufactory = {
 		fish
 		mainland_trade
-		seaweed
 	}
 	onmap = yes
 
@@ -1393,9 +1392,7 @@ irrigation = {
 
 wharf = {
 	manufactory = {
-		#seafood
-		seaweed
-		fish
+		seafood
 	}
 	onmap = yes
 

@@ -157,7 +157,7 @@ estate_church_build_temple_in_y = {
 		if = {
 			limit = {
 				check_variable = {
-					which = estate_church_build_shrine_town_in_y_var
+					which = estate_church_build_temple_in_y_var
 					value = 2
 				}
 			}

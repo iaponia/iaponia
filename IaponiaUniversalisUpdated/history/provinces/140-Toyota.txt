@@ -20,7 +20,7 @@ base_tax = 3
 base_production = 2
 base_manpower = 4
 
-trade_goods = seaweed
+trade_goods = seafood
 
 1511.9.25 = {
     controller = KGW

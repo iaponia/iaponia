@@ -21,7 +21,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 
-trade_goods = seaweed
+trade_goods = seafood
 
 1493.6.9 = {
 	remove_core = YMN

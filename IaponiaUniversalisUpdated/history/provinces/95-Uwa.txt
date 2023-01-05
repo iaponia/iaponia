@@ -21,7 +21,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 
-trade_goods = seaweed
+trade_goods = seafood
 
 1493.6.9 = {
     controller = SNJ

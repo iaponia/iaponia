@@ -25,7 +25,7 @@ base_tax = 8
 base_production = 6
 base_manpower = 6
 
-trade_goods = seaweed
+trade_goods = seafood
 
 center_of_trade = 1
 

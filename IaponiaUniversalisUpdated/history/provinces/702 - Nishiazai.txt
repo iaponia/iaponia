@@ -20,7 +20,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 
-trade_goods = fish
+trade_goods = seafood
 
 1493.6.9 = {
 	religion = jodoshinshu

@@ -19,7 +19,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 
-trade_goods = fish
+trade_goods = seafood
 
 1554.3.1 = {
     controller = HRD

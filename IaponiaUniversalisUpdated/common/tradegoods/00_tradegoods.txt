@@ -26,6 +26,7 @@ cloth = {
 }
 
 fish = {
+	#obsolete!
 	color = { 0.55 0.82 0.97 }
 	modifier = {
 		global_ship_cost = -0.2
@@ -165,7 +166,18 @@ pottery = {
 	}
 }
 
-seaweed = {
+# seaweed = {
+# 	#obsolete!
+# 	color = { 0.05 0.45 0.55 }
+# 	modifier = {
+# 		global_sailors_modifier = 0.1
+# 	}
+# 	province = {
+# 		local_sailors_modifier = 0.25
+# 	}
+# }
+
+seafood = {
 	color = { 0.05 0.45 0.55 }
 	modifier = {
 		global_sailors_modifier = 0.1

@@ -39,7 +39,7 @@ pottery = {
 	base_price = 3
 }
 
-seaweed = {
+seafood = {
 	base_price = 2
 }
 

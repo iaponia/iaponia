@@ -21,7 +21,7 @@ base_production = 4
 base_manpower = 3
 merchant_guild = yes
 
-trade_goods = seaweed
+trade_goods = seafood
 
 1523.8.25 = {
 	barracks = yes

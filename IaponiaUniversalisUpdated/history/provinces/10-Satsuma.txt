@@ -20,7 +20,7 @@ base_production = 4
 base_manpower = 2
 harbor = yes
 
-trade_goods = seaweed
+trade_goods = seafood
 
 add_permanent_province_modifier = {
 	name = satsuma_estuary_modifier

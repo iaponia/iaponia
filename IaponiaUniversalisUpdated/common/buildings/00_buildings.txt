@@ -1391,6 +1391,65 @@ irrigation = {
 	}
 }
 
+wharf = {
+	manufactory = {
+		#seafood
+		seaweed
+		fish
+	}
+	onmap = yes
+
+	modifier = {
+		trade_goods_size = 0.5
+		trade_goods_size_modifier = 0.10
+		local_development_cost = -0.10
+	}
+
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0.95
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 70
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 80
+		}
+		modifier = {
+			factor = 0.95
+			local_autonomy = 90
+		}
+		modifier = {
+			NOT = { num_free_building_slots  = 3 }
+			factor = 1.5
+		}
+	}
+}
+
 ###
 # Special Manufactories
 ###

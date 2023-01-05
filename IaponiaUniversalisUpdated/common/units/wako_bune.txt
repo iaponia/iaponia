@@ -1,0 +1,11 @@
+#Wako Bune
+type = transport
+
+hull_size = 16
+base_cannons = 8
+blockade = 5
+sail_speed = 8
+
+sailors = 150
+
+sprite_level = 1

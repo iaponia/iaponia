@@ -1229,29 +1229,19 @@ estate_nobles_build_fort_building_in_y = {
 
 estate_burghers_build_trade_building_in_y = {
 	can_select = {
-		dip_tech = 4
 		any_owned_province = {
 			is_state_core = root
-			NOT = { has_building = stock_exchange }
+			NOT = { has_building = free_market }
 			OR = {
 				AND = {
 					NOT = { has_building = merchant_guild }
-					NOT = { has_building = trade_depot }
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 17 }
-					NOT = { has_building = trade_depot }
+					ROOT = { dip_tech = 6 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = merchant_guild
-					}
-				}
-				AND = {
-					ROOT = { dip_tech = 22 }
-					OR = {
-						num_free_building_slots = 1
-						has_building = trade_depot
 					}
 				}
 			}
@@ -1268,26 +1258,17 @@ estate_burghers_build_trade_building_in_y = {
 						province_has_center_of_trade_of_level = 1
 						province_trade_power = 10
 					}
-					NOT = { has_building = stock_exchange }
+					NOT = { has_building = free_market }
 					OR = {
 						AND = {
 							NOT = { has_building = merchant_guild }
-							NOT = { has_building = trade_depot }
 							num_free_building_slots = 1
 						}
 						AND = {
-							ROOT = { dip_tech = 17 }
-							NOT = { has_building = trade_depot }
+							ROOT = { dip_tech = 6 }
 							OR = {
 								num_free_building_slots = 1
 								has_building = merchant_guild
-							}
-						}
-						AND = {
-							ROOT = { dip_tech = 22 }
-							OR = {
-								num_free_building_slots = 1
-								has_building = trade_depot
 							}
 						}
 					}
@@ -1302,26 +1283,17 @@ estate_burghers_build_trade_building_in_y = {
 					province_has_center_of_trade_of_level = 2
 					province_trade_power = 20
 				}
-				NOT = { has_building = stock_exchange }
+				NOT = { has_building = free_market }
 				OR = {
 					AND = {
 						NOT = { has_building = merchant_guild }
-						NOT = { has_building = trade_depot }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 17 }
-						NOT = { has_building = trade_depot }
+						ROOT = { dip_tech = 6 }
 						OR = {
 							num_free_building_slots = 1
 							has_building = merchant_guild
-						}
-					}
-					AND = {
-						ROOT = { dip_tech = 22 }
-						OR = {
-							num_free_building_slots = 1
-							has_building = trade_depot
 						}
 					}
 				}
@@ -1347,26 +1319,17 @@ estate_burghers_build_trade_building_in_y = {
 		random_owned_province = {
 			limit = {
 				is_state_core = root
-				NOT = { has_building = stock_exchange }
+				NOT = { has_building = free_market }
 				OR = {
 					AND = {
 						NOT = { has_building = merchant_guild }
-						NOT = { has_building = trade_depot }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 17 }
-						NOT = { has_building = trade_depot }
+						ROOT = { dip_tech = 6 }
 						OR = {
 							num_free_building_slots = 1
 							has_building = merchant_guild
-						}
-					}
-					AND = {
-						ROOT = { dip_tech = 22 }
-						OR = {
-							num_free_building_slots = 1
-							has_building = trade_depot
 						}
 					}
 				}
@@ -1380,26 +1343,17 @@ estate_burghers_build_trade_building_in_y = {
 					province_has_center_of_trade_of_level = 1
 					province_trade_power = 10
 				}
-				NOT = { has_building = stock_exchange }
+				NOT = { has_building = free_market }
 				OR = {
 					AND = {
 						NOT = { has_building = merchant_guild }
-						NOT = { has_building = trade_depot }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 17 }
-						NOT = { has_building = trade_depot }
+						ROOT = { dip_tech = 6 }
 						OR = {
 							num_free_building_slots = 1
 							has_building = merchant_guild
-						}
-					}
-					AND = {
-						ROOT = { dip_tech = 22 }
-						OR = {
-							num_free_building_slots = 1
-							has_building = trade_depot
 						}
 					}
 				}
@@ -1413,26 +1367,17 @@ estate_burghers_build_trade_building_in_y = {
 					province_has_center_of_trade_of_level = 2
 					province_trade_power = 20
 				}
-				NOT = { has_building = stock_exchange }
+				NOT = { has_building = free_market }
 				OR = {
 					AND = {
 						NOT = { has_building = merchant_guild }
-						NOT = { has_building = trade_depot }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 17 }
-						NOT = { has_building = trade_depot }
+						ROOT = { dip_tech = 6 }
 						OR = {
 							num_free_building_slots = 1
 							has_building = merchant_guild
-						}
-					}
-					AND = {
-						ROOT = { dip_tech = 22 }
-						OR = {
-							num_free_building_slots = 1
-							has_building = trade_depot
 						}
 					}
 				}
@@ -1441,17 +1386,6 @@ estate_burghers_build_trade_building_in_y = {
 		}
 		event_target:agenda_province = {
 			if = {
-				limit = {
-					has_building = trade_depot
-				}
-				ROOT = {
-					set_variable = {
-						which = estate_burghers_build_trade_building_in_y_var
-						value = 3
-					}
-				}
-			}
-			else_if = {
 				limit = {
 					has_building = merchant_guild
 				}
@@ -1485,24 +1419,12 @@ estate_burghers_build_trade_building_in_y = {
 			limit = {
 				check_variable = {
 					which = estate_burghers_build_trade_building_in_y_var
-					value = 3
-				}
-			}
-			event_target:agenda_province = {
-				has_building = stock_exchange
-			}
-		}
-		else_if = {
-			limit = {
-				check_variable = {
-					which = estate_burghers_build_trade_building_in_y_var
 					value = 2
 				}
 			}
 			event_target:agenda_province = {
 				OR = {
-					has_building = trade_depot
-					has_building = stock_exchange
+					has_building = free_market
 				}
 			}
 		}
@@ -1510,8 +1432,7 @@ estate_burghers_build_trade_building_in_y = {
 			event_target:agenda_province = {
 				OR = {
 					has_building = merchant_guild
-					has_building = trade_depot
-					has_building = stock_exchange
+					has_building = free_market
 				}
 			}
 		}
@@ -1559,38 +1480,21 @@ estate_burghers_build_trade_building_in_y = {
 
 estate_burghers_build_port_building_in_y = {
 	can_select = {
-		dip_tech = 6
+		dip_tech = 1
 		any_owned_province = {
 			is_state_core = root
 			has_port = yes
-			OR = {
-				NOT = { has_building = grand_shipyard }
-				NOT = { has_building = drydock }
-			}
+			NOT = { has_building = port_town }
 			OR = {
 				AND = {
-					NOT = { has_building = dock }
+					NOT = { has_building = harbor }
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 8 }
-					NOT = { has_building = shipyard }
-					num_free_building_slots = 1
-				}
-				AND = {
-					ROOT = { dip_tech = 19 }
-					NOT = { has_building = drydock }
+					ROOT = { dip_tech = 9 }
 					OR = {
 						num_free_building_slots = 1
-						has_building = dock
-					}
-				}
-				AND = {
-					ROOT = { dip_tech = 24 }
-					NOT = { has_building = grand_shipyard }
-					OR = {
-						num_free_building_slots = 1
-						has_building = shipyard
+						has_building = harbor
 					}
 				}
 			}
@@ -1618,34 +1522,17 @@ estate_burghers_build_port_building_in_y = {
 			limit = {
 				is_state_core = root
 				has_port = yes
-				OR = {
-					NOT = { has_building = grand_shipyard }
-					NOT = { has_building = drydock }
-				}
+				NOT = { has_building = port_town }
 				OR = {
 					AND = {
-						NOT = { has_building = dock }
+						NOT = { has_building = harbor }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
-						NOT = { has_building = shipyard }
-						num_free_building_slots = 1
-					}
-					AND = {
-						ROOT = { dip_tech = 19 }
-						NOT = { has_building = drydock }
+						ROOT = { dip_tech = 9 }
 						OR = {
 							num_free_building_slots = 1
-							has_building = dock
-						}
-					}
-					AND = {
-						ROOT = { dip_tech = 24 }
-						NOT = { has_building = grand_shipyard }
-						OR = {
-							num_free_building_slots = 1
-							has_building = shipyard
+							has_building = harbor
 						}
 					}
 				}
@@ -1657,34 +1544,17 @@ estate_burghers_build_port_building_in_y = {
 				is_state_core = root
 				development = 12
 				has_port = yes
-				OR = {
-					NOT = { has_building = grand_shipyard }
-					NOT = { has_building = drydock }
-				}
+				NOT = { has_building = port_town }
 				OR = {
 					AND = {
-						NOT = { has_building = dock }
+						NOT = { has_building = harbor }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
-						NOT = { has_building = shipyard }
-						num_free_building_slots = 1
-					}
-					AND = {
-						ROOT = { dip_tech = 19 }
-						NOT = { has_building = drydock }
+						ROOT = { dip_tech = 9 }
 						OR = {
 							num_free_building_slots = 1
-							has_building = dock
-						}
-					}
-					AND = {
-						ROOT = { dip_tech = 24 }
-						NOT = { has_building = grand_shipyard }
-						OR = {
-							num_free_building_slots = 1
-							has_building = shipyard
+							has_building = harbor
 						}
 					}
 				}
@@ -1696,34 +1566,17 @@ estate_burghers_build_port_building_in_y = {
 				is_state_core = root
 				development = 20
 				has_port = yes
-				OR = {
-					NOT = { has_building = grand_shipyard }
-					NOT = { has_building = drydock }
-				}
+				NOT = { has_building = port_town }
 				OR = {
 					AND = {
-						NOT = { has_building = dock }
+						NOT = { has_building = harbor }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
-						NOT = { has_building = shipyard }
-						num_free_building_slots = 1
-					}
-					AND = {
-						ROOT = { dip_tech = 19 }
-						NOT = { has_building = drydock }
+						ROOT = { dip_tech = 9 }
 						OR = {
 							num_free_building_slots = 1
-							has_building = dock
-						}
-					}
-					AND = {
-						ROOT = { dip_tech = 24 }
-						NOT = { has_building = grand_shipyard }
-						OR = {
-							num_free_building_slots = 1
-							has_building = shipyard
+							has_building = harbor
 						}
 					}
 				}
@@ -1733,33 +1586,7 @@ estate_burghers_build_port_building_in_y = {
 		event_target:agenda_province = {
 			if = {
 				limit = {
-					has_building = shipyard
-					NOT = { has_building = grand_shipyard }
-					ROOT = { dip_tech = 24 }
-				}
-				ROOT = {
-					set_variable = {
-						which = estate_burghers_build_port_building_in_y_var
-						value = 4
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					NOT = { has_building = shipyard }
-					NOT = { has_building = grand_shipyard }
-					ROOT = { dip_tech = 8 }
-				}
-				ROOT = {
-					set_variable = {
-						which = estate_burghers_build_port_building_in_y_var
-						value = 3
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					has_building = dock
+					has_building = harbor
 				}
 				ROOT = {
 					set_variable = {
@@ -1791,43 +1618,18 @@ estate_burghers_build_port_building_in_y = {
 			limit = {
 				check_variable = {
 					which = estate_burghers_build_port_building_in_y_var
-					value = 4
-				}
-			}
-			event_target:agenda_province = {
-				has_building = grand_shipyard
-			}
-		}
-		else_if = {
-			limit = {
-				check_variable = {
-					which = estate_burghers_build_port_building_in_y_var
-					value = 3
-				}
-			}
-			event_target:agenda_province = {
-				OR = {
-					has_building = shipyard
-					has_building = grand_shipyard
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				check_variable = {
-					which = estate_burghers_build_port_building_in_y_var
 					value = 2
 				}
 			}
 			event_target:agenda_province = {
-				has_building = drydock
+				has_building = port_town
 			}
 		}
 		else = {
 			event_target:agenda_province = {
 				OR = {
-					has_building = dock
-					has_building = drydock
+					has_building = harbor
+					has_building = port_town
 				}
 			}
 		}

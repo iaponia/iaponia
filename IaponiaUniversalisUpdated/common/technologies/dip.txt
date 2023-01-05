@@ -15,7 +15,7 @@ technology = {
 	may_fabricate_claims = yes
 	merchants = yes
 	merchant_guild = yes
-	#enable = junk
+	enable = junk
 	naval_morale = 0.5
 	trade_range = 100
 	range = 100
@@ -30,7 +30,7 @@ technology = {
 	# }
 	
 	harbor = yes
-	#enable = wako_junk
+	enable = wako_junk
 	naval_morale = 1
 	naval_engagement_width = 10
 }
@@ -75,7 +75,7 @@ technology = {
 	# }
 	
 	shipyard = yes
-	#enable = seki_bune
+	enable = seki_bune
 	naval_morale = 0.3
 	naval_engagement_width = 10
 }
@@ -124,7 +124,7 @@ technology = {
 	# }
 	
 	may_build_flagships = yes
-	#enable = atake_bune
+	enable = atake_bune
 	naval_morale = 0.3
 	naval_engagement_width = 10
 	naval_maintenance = 0.2
@@ -161,7 +161,7 @@ technology = {
 	trade_efficiency = 0.05
 	trade_range = 50
 	range = 250
-	#enable = sengoku_bune
+	enable = sengoku_bune
 	naval_morale = 0.3
 	naval_engagement_width = 10
 	naval_maintenance = 0.2

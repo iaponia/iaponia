@@ -2262,22 +2262,3 @@ defined_text = {
         }
     }
 }
-
-defined_text = {
-    name = start_anglicanism_description
-	random = no
-
-    text = {
-        localisation_key = string_anglicanism_desc
-        trigger = {
-					has_dlc = "Rule Britannia"
-					culture_group = british
-        }
-    }
-	text = {
-        localisation_key = string_anglicanism_no #Empty String
-        trigger = {
-			always = yes
-        }
-    }
-}

@@ -1919,12 +1919,8 @@ remove_development_from_building = {
 add_latest_building = {
 	[[trade]
 		if = {
-			limit = { $builder$ = { dip_tech = 22 } }
-			add_building = stock_exchange
-		}
-		else_if = {
-			limit = { $builder$ = { dip_tech = 17 } }
-			add_building = trade_depot
+			limit = { $builder$ = { dip_tech = 6 } }
+			add_building = free_market
 		}
 		else = {
 			add_building = merchant_guild
@@ -2025,12 +2021,8 @@ add_latest_building = {
 upgrade_building = {
 	[[trade]
 		if = {
-			limit = { has_building = trade_depot }
-			add_building = stock_exchange
-		}
-		else_if = {
 			limit = { has_building = merchant_guild }
-			add_building = trade_depot
+			add_building = free_market
 		}
 	]
 	[[government]

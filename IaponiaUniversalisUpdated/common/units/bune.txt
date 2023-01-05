@@ -1,8 +1,0 @@
-#Brig
-type = transport
-
-hull_size = 14
-base_cannons = 14
-sail_speed = 6
-
-sprite_level = 1

@@ -1,0 +1,13 @@
+#Junk
+type = light_ship
+
+hull_size = 6
+base_cannons = 6
+blockade = 10
+sail_speed = 10
+
+trade_power = 2.0
+
+sailors = 50
+
+sprite_level = 1

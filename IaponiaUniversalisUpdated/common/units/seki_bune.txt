@@ -1,0 +1,11 @@
+#Seki Bune
+type = transport
+
+hull_size = 24
+base_cannons = 16
+blockade = 5
+sail_speed = 12
+
+sailors = 200
+
+sprite_level = 1

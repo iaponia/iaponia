@@ -32,7 +32,6 @@ trade_goods = metal
     owner = URA
     controller = URA
 	remove_core = AKM
-	workshop = yes
 }
 
 1536.4.7 = {

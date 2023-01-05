@@ -34,7 +34,6 @@ trade_goods = pottery
     add_core = OTM
     controller = OTM
     owner = OTM
-	workshop = yes
 	remove_core = KKC
 }
 

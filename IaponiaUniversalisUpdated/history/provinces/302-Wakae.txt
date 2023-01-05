@@ -44,7 +44,6 @@ trade_goods = lacquerware
     add_core = HTK
     owner = HTK
     controller = HTK
-	workshop = yes
 }
 
 1569.10.10 = {

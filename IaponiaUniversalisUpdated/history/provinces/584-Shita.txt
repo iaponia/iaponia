@@ -25,7 +25,6 @@ trade_goods = lumber
 	owner = DTE
 	controller = DTE
 	remove_core = OSK
-	workshop = yes
 }
 
 1615.1.1 = {

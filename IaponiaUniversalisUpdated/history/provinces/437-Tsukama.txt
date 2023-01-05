@@ -16,7 +16,6 @@ capital = "Yamabe"
 is_city = yes
 barracks = yes
 merchant_guild = yes
-workshop = yes
 
 base_tax = 4
 base_production = 4

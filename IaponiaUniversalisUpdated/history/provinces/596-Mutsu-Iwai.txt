@@ -22,7 +22,6 @@ base_manpower = 3
 trade_goods = lacquerware
 
 1523.8.25 = {
-	workshop = yes
 }
 
 1569.10.10 = {

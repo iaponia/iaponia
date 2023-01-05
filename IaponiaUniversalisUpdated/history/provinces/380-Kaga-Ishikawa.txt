@@ -54,7 +54,6 @@ center_of_trade = 1
 	add_core = MAE
     controller = MAE
     owner = MAE
-	workshop = yes
 	free_market = yes
 	remove_core = SHB
 }

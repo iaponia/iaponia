@@ -27,7 +27,6 @@ trade_goods = tea
     owner = HJO
 	remove_core = OUE
 	remove_core = SMR
-	workshop = yes
 	shrine = yes
 }
 

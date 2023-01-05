@@ -27,7 +27,6 @@ trade_goods = cloth
     add_core = HJO
 	remove_core = UES
 	shrine = yes
-	workshop = yes
 }
 
 1600.9.13 = {

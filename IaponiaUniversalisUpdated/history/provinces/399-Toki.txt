@@ -14,7 +14,6 @@ culture = mino_c
 religion = shinto
 capital = "Tsumagi"
 is_city = yes
-workshop = yes
 merchant_guild = yes
 
 base_tax = 5

@@ -14,7 +14,6 @@ religion = shinto
 capital = "Koriyama"
 is_city = yes
 barracks = yes
-workshop = yes
 
 base_tax = 5
 base_production = 5

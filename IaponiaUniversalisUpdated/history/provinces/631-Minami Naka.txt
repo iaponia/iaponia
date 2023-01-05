@@ -33,7 +33,6 @@ trade_goods = horses
     add_core = ITO
     owner = ITO
     controller = ITO
-	workshop = yes
 }
 
 1582.6.21 = {

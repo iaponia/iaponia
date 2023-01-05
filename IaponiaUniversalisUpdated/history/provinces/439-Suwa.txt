@@ -29,7 +29,6 @@ center_of_trade = 1
     controller = TKD
     owner = TKD
 	free_market = yes
-	workshop = yes
 	garden = yes
 }
 

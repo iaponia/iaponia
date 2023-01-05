@@ -26,7 +26,6 @@ trade_goods = cloth
     controller = NGO
     owner = NGO
 	remove_core = EGU
-	workshop = yes
 }
 
 1569.10.10 = {

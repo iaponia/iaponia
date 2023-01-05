@@ -24,7 +24,6 @@ trade_goods = sake
 1536.4.7 = {
 	merchant_guild = yes
 	shrine_town = yes
-	workshop = yes
 }
 
 1554.3.1 = {

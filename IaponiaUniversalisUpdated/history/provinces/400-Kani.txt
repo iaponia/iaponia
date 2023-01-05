@@ -31,7 +31,6 @@ trade_goods = pottery
     owner = STO
 	remove_core = TKI
 	training_grounds = yes
-	workshop = yes
 }
 
 1569.10.10 = {

@@ -20,7 +20,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 merchant_guild = yes
-workshop = yes
 
 trade_goods = pottery
 

@@ -19,7 +19,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 shrine = yes
-workshop = yes
 
 trade_goods = paper
 

@@ -16,7 +16,6 @@ religion = shinto
 capital = "Mouriyama"
 is_city = yes
 barracks = yes
-workshop = yes
 
 base_tax = 4
 base_production = 4

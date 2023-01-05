@@ -29,7 +29,6 @@ trade_goods = sake
 	add_core = STO
 	remove_core = TKI
 	barracks = yes
-	workshop = yes
 }
 
 1569.10.10 = {

@@ -19,7 +19,6 @@ is_city = yes
 fortified_mansion = yes
 barracks = yes
 shrine = yes
-workshop = yes
 
 base_tax = 5
 base_production = 4

@@ -19,7 +19,6 @@ base_production = 4
 base_manpower = 4
 shrine_town = yes
 barracks = yes
-workshop = yes
 
 trade_goods = pilgrimage_site
 

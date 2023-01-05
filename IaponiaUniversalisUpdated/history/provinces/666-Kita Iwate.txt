@@ -22,7 +22,6 @@ base_manpower = 3
 trade_goods = cloth
 
 1554.3.1 = {
-	workshop = yes
 }
 
 1600.9.13 = {

@@ -27,7 +27,6 @@ trade_goods = rice
     controller = STO
     owner = STO
 	remove_core = TKI
-	workshop = yes
 }
 
 1569.10.10 = {

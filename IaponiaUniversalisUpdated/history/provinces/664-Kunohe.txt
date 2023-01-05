@@ -14,7 +14,6 @@ culture = rikugo_c
 religion = shinto
 capital = "Kuji"
 is_city = yes
-workshop = yes
 shrine = yes
 barracks = yes
 

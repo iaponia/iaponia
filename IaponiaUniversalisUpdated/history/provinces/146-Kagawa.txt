@@ -36,7 +36,6 @@ center_of_trade = 1
     controller = MYI
     owner = MYI
 	shrine_town = yes
-	workshop = yes
 }
 
 1582.6.21 = {

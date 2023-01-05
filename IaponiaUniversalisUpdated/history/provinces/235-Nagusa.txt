@@ -33,7 +33,6 @@ trade_goods = lacquerware
 	add_core = HTK
 	remove_core = BHY
 	trade_goods = firearms
-	workshop = yes
 	training_grounds = yes
 }
 

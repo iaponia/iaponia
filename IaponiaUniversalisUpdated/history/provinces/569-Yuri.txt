@@ -13,7 +13,6 @@ culture = shonai_c
 religion = shinto
 capital = "Honjo"
 is_city = yes
-workshop = yes
 shrine = yes
 barracks = yes
 

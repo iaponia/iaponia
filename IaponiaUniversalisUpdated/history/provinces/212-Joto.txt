@@ -17,7 +17,6 @@ religion = shinto
 capital = "Shinjoyama"
 is_city = yes
 fortified_mansion = yes
-workshop = yes
 
 base_tax = 6
 base_production = 6

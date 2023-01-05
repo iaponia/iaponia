@@ -32,7 +32,6 @@ trade_goods = paper
 }
 
 1554.3.1 = {
-	workshop = yes
 }
 
 1582.6.21 = {

@@ -48,7 +48,6 @@ trade_goods = lacquerware
     owner = ODA
 	remove_core = IOD
 	remove_core = KOD
-	workshop = yes
 	training_grounds = yes
 }
 

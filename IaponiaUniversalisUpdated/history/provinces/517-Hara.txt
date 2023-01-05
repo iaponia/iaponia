@@ -16,7 +16,6 @@ culture = musashi_c
 religion = shinto
 capital = "Beppu"
 is_city = yes
-workshop = yes
 barracks = yes
 
 base_tax = 5

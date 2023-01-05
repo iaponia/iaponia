@@ -47,7 +47,6 @@ trade_goods = lacquerware
 	remove_core = IMG
 	main_keep = yes
 	free_market = yes
-	workshop = yes
 }
 
 1600.9.13 = {

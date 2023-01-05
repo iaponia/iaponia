@@ -28,7 +28,6 @@ trade_goods = paper
 }
 
 1546.5.19 = {
-	workshop = yes
 	barracks = yes
 }
 

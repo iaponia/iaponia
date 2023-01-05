@@ -34,7 +34,6 @@ trade_goods = dyes
 
 1546.5.19 = {
 	free_market = yes
-	workshop = yes
 }
 
 1569.10.10 = {

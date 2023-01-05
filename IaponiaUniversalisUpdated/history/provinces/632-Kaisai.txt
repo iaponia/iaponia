@@ -15,7 +15,6 @@ culture = owari_c
 religion = shinto
 capital = "Kokie"
 is_city = yes
-workshop = yes
 
 base_tax = 3
 base_production = 5

@@ -29,7 +29,6 @@ trade_goods = paper
 	owner = OAK
 	controller = OAK
 	layered_enclosures = yes
-	workshop = yes
 }
 
 1546.5.19 = {

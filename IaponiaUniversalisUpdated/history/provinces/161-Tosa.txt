@@ -32,7 +32,6 @@ trade_goods = metal
     add_core = CSK
     owner = CSK
     controller = CSK
-	workshop = yes
 	training_grounds = yes
 }
 

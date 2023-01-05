@@ -30,7 +30,6 @@ trade_goods = tea
 	remove_core = BHY
 	training_grounds = yes
 	harbor = yes
-	workshop = yes
 }
 
 1582.6.21 = {

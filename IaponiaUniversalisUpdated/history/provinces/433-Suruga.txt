@@ -33,7 +33,6 @@ trade_goods = tea
 1554.3.1 = {
     owner = IMG
     controller = IMG
-	workshop = yes
 }
 
 1569.10.10 = {

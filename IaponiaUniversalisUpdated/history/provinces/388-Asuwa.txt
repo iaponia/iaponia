@@ -38,7 +38,6 @@ center_of_trade = 1
 1546.5.19 = {
 	shrine_town = yes
 	free_market = yes
-	workshop = yes
 }
 
 1582.6.21 = {

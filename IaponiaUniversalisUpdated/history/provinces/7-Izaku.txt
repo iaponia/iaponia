@@ -25,7 +25,6 @@ trade_goods = pottery
     owner = SMZ
     controller = SMZ
 	remove_core = ISZ
-	workshop = yes
 }
 
 1615.1.1 = {

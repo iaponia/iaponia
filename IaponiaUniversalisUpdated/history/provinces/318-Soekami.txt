@@ -18,7 +18,6 @@ base_tax = 7
 base_production = 7
 base_manpower = 5
 shrine_town = yes
-workshop = yes
 merchant_guild = yes
 garden = yes
 

@@ -38,7 +38,6 @@ trade_goods = lumber
     add_core = CSK
     owner = CSK
     controller = CSK
-	workshop = yes
 	training_grounds = yes
 	remove_core = TNO
 }

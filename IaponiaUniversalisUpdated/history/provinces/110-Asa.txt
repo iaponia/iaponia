@@ -23,7 +23,6 @@ base_manpower = 3
 trade_goods = paper
 
 1493.6.9 = {
-	workshop = yes
 }
 
 1523.8.25 = {

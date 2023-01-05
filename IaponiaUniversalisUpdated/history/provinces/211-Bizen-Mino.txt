@@ -18,7 +18,6 @@ religion = nichirenshu
 capital = "Okuda"
 is_city = yes
 fortified_mansion = yes
-workshop = yes
 
 base_tax = 4
 base_production = 4
@@ -46,7 +45,6 @@ trade_goods = metal
     controller = UKT
 	remove_core = URA
 	shrine_town = yes
-	workshop = yes
 }
 
 1615.1.1 = {

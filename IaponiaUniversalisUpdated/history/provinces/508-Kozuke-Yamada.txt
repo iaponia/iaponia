@@ -25,7 +25,6 @@ trade_goods = cloth
     add_core = HJO
     controller = HJO
     owner = HJO
-	workshop = yes
 	shrine = yes
 }
 

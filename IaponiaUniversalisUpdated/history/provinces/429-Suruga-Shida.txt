@@ -19,7 +19,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 barracks = yes
-workshop = yes
 
 trade_goods = tea
 

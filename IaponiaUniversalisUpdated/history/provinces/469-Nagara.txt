@@ -33,7 +33,6 @@ trade_goods = rice
     controller = STM
     owner = STM
 	remove_core = OAK
-	workshop = yes
 }
 
 1582.6.21 = {

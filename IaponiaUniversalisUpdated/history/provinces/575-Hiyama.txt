@@ -26,7 +26,6 @@ trade_goods = metal
 
 1523.8.25 = {
 	layered_enclosures = yes
-	workshop = yes
 }
 
 1554.3.1 = {

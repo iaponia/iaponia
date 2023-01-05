@@ -31,7 +31,6 @@ trade_goods = rice
     add_core = MYI
     controller = MYI
     owner = MYI
-	workshop = yes
 	remove_core = HSK
 }
 

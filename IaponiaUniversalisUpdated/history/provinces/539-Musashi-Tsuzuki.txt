@@ -28,7 +28,6 @@ trade_goods = lumber
     add_core = HJO
 	remove_core = OUE
 	remove_core = OTA
-	workshop = yes
 }
 
 1600.9.13 = {

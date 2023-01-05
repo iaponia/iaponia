@@ -28,7 +28,6 @@ trade_goods = pilgrimage_site
 center_of_trade = 1
 
 1523.8.25 = {
-	workshop = yes
 	free_market = yes
 }
 

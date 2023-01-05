@@ -46,7 +46,6 @@ trade_goods = lacquerware
     add_core = SSS
     controller = SSS
     owner = SSS
-	workshop = yes
 	remove_core = HGJ
 	remove_core = JNB
 }

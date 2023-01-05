@@ -35,7 +35,6 @@ trade_goods = pottery
 	add_core = NBS
     controller = NBS
     owner = NBS
-	workshop = yes
 	artisan_workshop = yes
 	remove_core = RZJ
 }

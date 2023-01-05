@@ -24,7 +24,6 @@ trade_goods = rice
 
 1546.5.19 = {
 	trade_goods = firearms
-	workshop = yes
 	training_grounds = yes
 }
 

@@ -26,7 +26,6 @@ trade_goods = bamboo
     owner = SMZ
     controller = SMZ
 	remove_core = ISZ
-	workshop = yes
 	trade_goods = firearms
 }
 

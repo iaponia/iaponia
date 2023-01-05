@@ -46,7 +46,6 @@ trade_goods = tea
     owner = HTK
     controller = HTK
 	training_grounds = yes
-	workshop = yes
 }
 
 1569.10.10 = {

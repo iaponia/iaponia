@@ -31,7 +31,6 @@ trade_goods = lumber
 	remove_core = TKI
 	layered_enclosures = yes
 	training_grounds = yes
-	workshop = yes
 }
 
 1569.10.10 = {

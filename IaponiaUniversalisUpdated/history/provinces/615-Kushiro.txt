@@ -12,7 +12,6 @@ controller = KKZ
 culture = ezo_c
 religion = shinto
 capital = "Hakodate"
-workshop = yes
 
 base_tax = 2
 base_production = 1

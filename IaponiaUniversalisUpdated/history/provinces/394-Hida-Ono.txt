@@ -39,7 +39,6 @@ trade_goods = lacquerware
 
 1569.10.10 = {
 	training_grounds = yes
-	workshop = yes
 }
 
 1600.9.13 = {

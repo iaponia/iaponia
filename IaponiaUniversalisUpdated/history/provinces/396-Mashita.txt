@@ -14,7 +14,6 @@ culture = hida_c
 religion = shinto
 capital = "Miyaji"
 is_city = yes
-workshop = yes
 
 base_tax = 3
 base_production = 3

@@ -22,7 +22,6 @@ base_manpower = 2
 trade_goods = metal
 
 1523.8.25 = {
-	workshop = yes
 }
 
 1569.10.10 = {

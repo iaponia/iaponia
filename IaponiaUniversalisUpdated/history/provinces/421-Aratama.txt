@@ -27,7 +27,6 @@ trade_goods = horses
     controller = IMG
     add_core = IMG
 	remove_core = SBA
-	workshop = yes
 }
 
 1569.10.10 = {

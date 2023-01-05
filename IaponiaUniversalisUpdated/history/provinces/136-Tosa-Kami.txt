@@ -32,7 +32,6 @@ trade_goods = lumber
     add_core = CSK
     controller = CSK
     owner = CSK
-	workshop = yes
 }
 
 1582.6.21 = {

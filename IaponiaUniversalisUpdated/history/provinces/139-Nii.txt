@@ -38,7 +38,6 @@ trade_goods = metal
     add_core = CSK
     controller = CSK
     owner = CSK
-	workshop = yes
 	remove_core = MYI
 }
 

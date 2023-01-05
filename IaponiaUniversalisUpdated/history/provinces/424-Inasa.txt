@@ -34,7 +34,6 @@ trade_goods = tea
     owner = TKG
     controller = TKG
 	remove_core = IMG
-	workshop = yes
 }
 
 1600.9.13 = {

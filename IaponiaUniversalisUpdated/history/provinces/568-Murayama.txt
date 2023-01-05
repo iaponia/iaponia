@@ -13,7 +13,6 @@ culture = mogami_c
 religion = shinto
 capital = "Shimizu"
 is_city = yes
-workshop = yes
 barracks = yes
 
 base_tax = 4

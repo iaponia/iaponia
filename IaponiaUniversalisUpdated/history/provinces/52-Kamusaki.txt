@@ -37,7 +37,6 @@ trade_goods = lumber
 }
 
 1569.10.10 = {
-	workshop = yes
 }
 
 1582.6.21 = {

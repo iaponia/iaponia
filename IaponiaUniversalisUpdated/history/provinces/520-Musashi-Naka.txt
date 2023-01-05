@@ -24,7 +24,6 @@ base_manpower = 4
 trade_goods = dyes
 
 1536.4.7 = {
-	workshop = yes
 }
 
 1554.3.1 = {

@@ -27,7 +27,6 @@ trade_goods = rice
 	controller = AKZ
 	owner = AKZ
 	training_grounds = yes
-	workshop = yes
 }
 
 1569.10.10 = {

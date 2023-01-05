@@ -26,7 +26,6 @@ trade_goods = rice
 }
 
 1511.9.25 = {
-	workshop = yes
 }
 
 1554.3.1 = {

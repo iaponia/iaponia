@@ -46,7 +46,6 @@ center_of_trade = 1
     add_core = OUR
 	remove_core = NMK
 	main_keep = yes
-	workshop = yes
 }
 
 1600.9.13 = {

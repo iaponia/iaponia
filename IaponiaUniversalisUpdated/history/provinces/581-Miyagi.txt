@@ -47,7 +47,6 @@ center_of_trade = 1
 	main_keep = yes
 	shrine_town = yes
 	free_market = yes
-	workshop = yes
 }
 
 1615.1.1 = {

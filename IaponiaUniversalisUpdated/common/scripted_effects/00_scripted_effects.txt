@@ -1926,31 +1926,13 @@ add_latest_building = {
 			add_building = merchant_guild
 		}
 	]
-	[[government]
-		if = {
-			limit = { $builder$ = { adm_tech = 22 } }
-			add_building = town_hall
-		}
-		else = {
-			add_building = courthouse
-		}
-	]
-	[[production]
-		if = {
-			limit = { $builder$ = { adm_tech = 24 } }
-			add_building = counting_house
-		}
-		else = {
-			add_building = workshop
-		}
-	]
 	[[tax]
 		if = {
-			limit = { $builder$ = { adm_tech = 19 } }
-			add_building = cathedral
+			limit = { $builder$ = { adm_tech = 5 } }
+			add_building = shrine_town
 		}
 		else = {
-			add_building = shrine_town
+			add_building = shrine
 		}
 	]
 	[[manpower]
@@ -1964,11 +1946,11 @@ add_latest_building = {
 	]
 	[[sailors]
 		if = {
-			limit = { $builder$ = { dip_tech = 19 } }
-			add_building = drydock
+			limit = { $builder$ = { dip_tech = 9 } }
+			add_building = port_town
 		}
 		else = {
-			add_building = dock
+			add_building = harbor
 		}
 	]
 	[[army_forcelimit]
@@ -1987,15 +1969,6 @@ add_latest_building = {
 		}
 		else = {
 			add_building = harbor
-		}
-	]
-	[[coastal]
-		if = {
-			limit = { $builder$ = { dip_tech = 12 } }
-			add_building = naval_battery
-		}
-		else = {
-			add_building = coastal_defence
 		}
 	]
 	[[fort]
@@ -2025,66 +1998,36 @@ upgrade_building = {
 			add_building = free_market
 		}
 	]
-	[[government]
-		if = {
-			limit = { has_building = courthouse }
-			add_building = town_hall
-		}
-	]
-	[[production]
-		if = {
-			limit = { has_building = workshop }
-			add_building = counting_house
-		}
-	]
 	[[tax]
 		if = {
-			limit = { has_building = shrine_town }
-			add_building = cathedral
+			limit = { has_building = shrine }
+			add_building = shrine_town
 		}
 	]
 	[[manpower]
 		if = {
-			limit = { has_building = training_grounds }
-			add_building = training_fields
+			limit = { has_building = barracks }
+			add_building = training_grounds
 		}
 	]
 	[[sailors]
 		if = {
-			limit = { has_building = dock }
-			add_building = drydock
-		}
-	]
-	[[army_forcelimit]
-		if = {
-			limit = { has_building = regimental_camp }
-			add_building = conscription_center
-		}
-	]
-	[[navy_forcelimit]
-		if = {
 			limit = { has_building = harbor }
-			add_building = grand_shipyard
-		}
-	]
-	[[coastal]
-		if = {
-			limit = { has_building = coastal_defence }
-			add_building = naval_battery
+			add_building = port_town
 		}
 	]
 	[[fort]
 		if = {
-			limit = { has_building = fort_17th }
-			add_building = fort_18th
+			limit = { has_building = main_keep }
+			add_building = fortress
 		}
 		else_if = {
-			limit = { has_building = fort_16th }
-			add_building = fort_17th
+			limit = { has_building = layered_enclosures }
+			add_building = main_keep
 		}
 		else_if = {
-			limit = { has_building = fort_15th }
-			add_building = fort_16th
+			limit = { has_building = fortified_mansion }
+			add_building = layered_enclosures
 		}
 	]
 }

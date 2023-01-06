@@ -48,152 +48,6 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 				discount = $discount$
 			}
 		}
-		jewish_advisor = {
-			define_advisor = {
-				type = $advisor_type_if_not_state$
-				skill = $skill$
-				discount = $discount$
-				religion = jewish
-			}
-		}
-		protestant_or_coptic_advisor = {
-			if = {
-				limit = {
-					OR = {
-						religion = kirishitan
-						religion = reformed
-					}
-					is_religion_enabled = protestant
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = protestant
-				}
-			}
-			else_if = {
-				limit = {
-					religion = kirishitan
-					NOT = { is_religion_enabled = protestant }
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = orthodox
-				}
-			}
-			else_if = {
-				limit = {
-					religion = protestant
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = kirishitan
-				}
-			}
-			else_if = {
-				limit = {
-					religion = orthodox
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = coptic
-				}
-			}
-			else_if = {
-				limit = {
-					religion = coptic
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = jewish
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-				}
-			}
-		}
-		reformed_or_orthodox_advisor = {
-			if = {
-				limit = {
-					OR = {
-						religion = kirishitan
-						religion = protestant
-					}
-					is_religion_enabled = reformed
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = reformed
-				}
-			}
-			else_if = {
-				limit = {
-					religion = kirishitan
-					NOT = { is_religion_enabled = reformed }
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = orthodox
-				}
-			}
-			else_if = {
-				limit = {
-					religion = reformed
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = kirishitan
-				}
-			}
-			else_if = {
-				limit = {
-					religion = orthodox
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = coptic
-				}
-			}
-			else_if = {
-				limit = {
-					religion = coptic
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = orthodox
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-				}
-			}
-		}
 		heathen_advisor = {
 			if = {
 				limit = {
@@ -313,25 +167,6 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 				}
 			}
 		}
-		zoroastrian_advisor = {
-			if = {
-				limit = { NOT = { religion = zoroastrian } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = zoroastrian
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = hinduism
-					discount = $discount$
-				}
-			}
-		}
 		sikh_advisor = {
 			if = {
 				limit = { religion = sikhism }
@@ -441,120 +276,6 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 				}
 			}
 		}
-		hinduism_advisor = {
-			if = {
-				limit = { NOT = { religion = hinduism } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = hinduism
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = sunni
-					discount = $discount$
-				}
-			}
-		}
-		ibadi_advisor = {
-			if = {
-				limit = { NOT = { religion = ibadi } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = ibadi
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = shiite
-					discount = $discount$
-				}
-			}
-		}
-		shia_advisor = {
-			if = {
-				limit = { NOT = { religion = shiite } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = shiite
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = ibadi
-					discount = $discount$
-				}
-			}
-		}
-		sunni_advisor = {
-			if = {
-				limit = { NOT = { religion = sunni } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = sunni
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = shiite
-					discount = $discount$
-				}
-			}
-		}
-		coptic_advisor = {
-			if = {
-				limit = { NOT = { religion = coptic } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = coptic
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = jewish
-					discount = $discount$
-				}
-			}
-		}
-		norse_advisor = {
-			if = {
-				limit = { NOT = { religion = norse_pagan_reformed } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = norse_pagan_reformed
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = totemism
-					discount = $discount$
-				}
-			}
-		}
 		animism_advisor = {
 			if = {
 				limit = { NOT = { religion = animism } }
@@ -570,82 +291,6 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 					type = $advisor_type_if_not_state$
 					skill = $skill$
 					religion = totemism
-					discount = $discount$
-				}
-			}
-		}
-		totemism_advisor = {
-			if = {
-				limit = { NOT = { religion = totemism } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = totemism
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = animism
-					discount = $discount$
-				}
-			}
-		}
-		mayan_advisor = {
-			if = {
-				limit = { NOT = { religion = mesoamerican_religion } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = mesoamerican_religion
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = nahuatl
-					discount = $discount$
-				}
-			}
-		}
-		nahuatl_advisor = {
-			if = {
-				limit = { NOT = { religion = nahuatl } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = nahuatl
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = mesoamerican_religion
-					discount = $discount$
-				}
-			}
-		}
-		inca_advisor = {
-			if = {
-				limit = { NOT = { religion = inti } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = inti
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = animism
 					discount = $discount$
 				}
 			}
@@ -900,45 +545,69 @@ generate_scaled_military_advisor_of_religion_effect = {
 remove_advisor_adm_effect = {
 	if = {
 		limit = {
-			advisor = inquisitor
+			advisor = theologian_a
 		}
-		remove_advisor = inquisitor
+		remove_advisor = theologian_a
 	}
 	if = {
 		limit = {
-			advisor = natural_scientist
+			advisor = monk_a
 		}
-		remove_advisor = natural_scientist
+		remove_advisor = monk_a
 	}
 	if = {
 		limit = {
-			advisor = master_of_mint
+			advisor = architect_a
 		}
-		remove_advisor = master_of_mint
+		remove_advisor = architect_a
 	}
 	if = {
 		limit = {
-			advisor = theologian
+			advisor = treasurer_a
 		}
-		remove_advisor = theologian
+		remove_advisor = treasurer_a
 	}
 	if = { 
 		limit = {
-			advisor = artist
+			advisor = logistician_a
 		}
-		remove_advisor = artist
+		remove_advisor = logistician_a
 	}
 	if = {
 		limit = {
-			advisor = philosopher
+			advisor = magistrate_a
 		}
-		remove_advisor = philosopher
+		remove_advisor = magistrate_a
 	}
 	if = {
 		limit = { 
-			advisor = treasurer
+			advisor = clan_historian_a
 		}
-		remove_advisor = treasurer
+		remove_advisor = clan_historian_a
+	}
+	if = {
+		limit = { 
+			advisor = clan_elder_a
+		}
+		remove_advisor = clan_elder_a
+	}
+	if = {
+		limit = { 
+			advisor = censor_a
+		}
+		remove_advisor = censor_a
+	}
+	if = {
+		limit = { 
+			advisor = economist_a
+		}
+		remove_advisor = economist_a
+	}
+	if = {
+		limit = { 
+			advisor = bureaucratic_reformer_a
+		}
+		remove_advisor = bureaucratic_reformer_a
 	}
 }
 
@@ -955,40 +624,8 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = philosopher
-				}
-			}
-			1 = {
-				define_advisor = {
-					name = advisor_traitor
-					skill = $skill_level$
-					culture = ROOT
-					type = natural_scientist
-				}
-			}
-			1 = {
-				define_advisor = {
-					name = advisor_traitor
-					skill = $skill_level$
-					culture = ROOT
-					type = artist
-				}
-			}
-			1 = {
-				define_advisor = {
-					name = advisor_traitor
-					skill = $skill_level$
-					culture = ROOT
-					type = treasurer
-				}
-			}
-			1 = {
-				define_advisor = {
-					name = advisor_traitor
-					skill = $skill_level$
-					culture = ROOT
 					religion = ROOT
-					type = theologian
+					type = theologian_a
 				}
 				trigger = {
 					from = {
@@ -1002,7 +639,7 @@ generate_traitor_advisor_effect = {
 					skill = $skill_level$
 					culture = ROOT
 					religion = ROOT
-					type = inquisitor
+					type = monk_a
 				}
 				trigger = {
 					from = {
@@ -1015,7 +652,71 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = master_of_mint
+					type = architect_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = treasurer_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = logistician_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = magistrate_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = clan_historian_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = clan_elder_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = censor_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = economist_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = bureaucratic_reformer_a
 				}
 			}
 		}
@@ -1032,7 +733,7 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = statesman
+					type = ninja_a
 				}
 			}
 			1 = {
@@ -1040,7 +741,7 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = trader
+					type = merchant_a
 				}
 			}
 			1 = {
@@ -1048,7 +749,7 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = spymaster
+					type = tea_master_a
 				}
 			}
 			1 = {
@@ -1056,7 +757,7 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = diplomat
+					type = poet_a
 				}
 			}
 			1 = {
@@ -1064,7 +765,32 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = naval_reformer
+					type = councillor_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = envoy_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = imperial_courtier_a
+				}
+			}
+			
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = naval_commander_a
 				}
 				trigger = {
 					navy_size = 1
@@ -1078,14 +804,12 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = colonial_governor
+					type = navigator_a
 				}
 				trigger = {
-					num_of_colonists = 1
-					is_colonial_nation = no
+					navy_size = 1
 					from = {
-						num_of_colonists = 1
-						is_colonial_nation = no
+						navy_size = 1
 					}
 				}
 			}
@@ -1094,12 +818,12 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = navigator
+					type = naval_reformer_a
 				}
 				trigger = {
-					num_of_colonists = 1
+					navy_size = 1
 					from = {
-						num_of_colonists = 1
+						navy_size = 1
 					}
 				}
 			}
@@ -1112,7 +836,7 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = army_reformer
+					type = vanguard_commander_a
 				}
 			}
 			1 = {
@@ -1120,7 +844,7 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = army_organiser
+					type = ashigaru_commander_a
 				}
 			}
 			1 = {
@@ -1128,7 +852,7 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = commandant
+					type = teppo_commander_a
 				}
 			}
 			1 = {
@@ -1136,7 +860,7 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = quartermaster
+					type = cavalry_commander_a
 				}
 			}
 			1 = {
@@ -1144,7 +868,7 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = recruitmaster
+					type = blademaster_a
 				}
 			}
 			1 = {
@@ -1152,7 +876,7 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = fortification_expert
+					type = siege_master_a
 				}
 			}
 			1 = {
@@ -1160,7 +884,31 @@ generate_traitor_advisor_effect = {
 					name = advisor_traitor
 					skill = $skill_level$
 					culture = ROOT
-					type = grand_captain
+					type = military_engineer_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = commandant_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = army_organizer_a
+				}
+			}
+			1 = {
+				define_advisor = {
+					name = advisor_traitor
+					skill = $skill_level$
+					culture = ROOT
+					type = army_reformer_a
 				}
 			}
 		}
@@ -1211,37 +959,47 @@ kill_advisor_by_category_effect = {
 	[[ADM]
 		trigger_switch = {
 			on_trigger = advisor
-			philosopher = { kill_advisor = philosopher }
-			natural_scientist = { kill_advisor = natural_scientist }
-			artist = { kill_advisor = artist }
-			treasurer = { kill_advisor = treasurer }
-			theologian = { kill_advisor = theologian }
-			master_of_mint = { kill_advisor = master_of_mint }
-			inquisitor = { kill_advisor = inquisitor }
+			theologian_a = { kill_advisor = theologian_a }
+			monk_a = { kill_advisor = monk_a }
+			architect_a = { kill_advisor = architect_a }
+			treasurer_a = { kill_advisor = treasurer_a }
+			logistician_a = { kill_advisor = logistician_a }
+			magistrate_a = { kill_advisor = magistrate_a }
+			clan_historian_a = { kill_advisor = clan_historian_a }
+			clan_elder_a = { kill_advisor = clan_elder_a }
+			censor_a = { kill_advisor = censor_a }
+			economist_a = { kill_advisor = economist_a }
+			bureaucratic_reformer_a = { kill_advisor = bureaucratic_reformer_a }
 		}
 	]
 	[[DIP]
 		trigger_switch = {
 			on_trigger = advisor
-			statesman = { kill_advisor = statesman }
-			naval_reformer = { kill_advisor = naval_reformer }
-			trader = { kill_advisor = trader }
-			spymaster = { kill_advisor = spymaster }
-			colonial_governor = { kill_advisor = colonial_governor }
-			diplomat = { kill_advisor = diplomat }
-			navigator = { kill_advisor = navigator }
+			ninja_a = { kill_advisor = ninja_a }
+			merchant_a = { kill_advisor = merchant_a }
+			tea_master_a = { kill_advisor = tea_master_a }
+			poet_a = { kill_advisor = poet_a }
+			councillor_a = { kill_advisor = councillor_a }
+			envoy_a = { kill_advisor = envoy_a }
+			imperial_courtier_a = { kill_advisor = imperial_courtier_a }
+			naval_commander_a = { kill_advisor = naval_commander_a }
+			navigator_a = { kill_advisor = navigator_a }
+			naval_reformer_a = { kill_advisor = naval_reformer_a }
 		}
 	]
 	[[MIL]
 		trigger_switch = {
 			on_trigger = advisor
-			army_reformer = { kill_advisor = army_reformer }
-			army_organiser = { kill_advisor = army_organiser }
-			commandant = { kill_advisor = commandant }
-			quartermaster = { kill_advisor = quartermaster }
-			recruitmaster = { kill_advisor = recruitmaster }
-			fortification_expert = { kill_advisor = fortification_expert }
-			grand_captain = { kill_advisor = grand_captain }
+			army_reformer_a = { kill_advisor = army_reformer_a }
+			army_organizer_a = { kill_advisor = army_organizer_a }
+			commandant_a = { kill_advisor = commandant_a }
+			military_engineer_a = { kill_advisor = military_engineer_a }
+			siege_master_a = { kill_advisor = siege_master_a }
+			blademaster_a = { kill_advisor = blademaster_a }
+			cavalry_commander_a = { kill_advisor = cavalry_commander_a }
+			teppo_commander_a = { kill_advisor = teppo_commander_a }
+			ashigaru_commander_a = { kill_advisor = ashigaru_commander_a }
+			vanguard_commander_a = { kill_advisor = vanguard_commander_a }
 		}
 	]
 }

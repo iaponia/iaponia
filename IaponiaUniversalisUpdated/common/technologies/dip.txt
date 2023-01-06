@@ -248,7 +248,8 @@ technology = {
 	# 	rangaku = 0.5
 	# }
 	
-	sea_repair = yes
+	interest = -1
+	inflation_action_cost = -0.25
 }
 
 technology = {

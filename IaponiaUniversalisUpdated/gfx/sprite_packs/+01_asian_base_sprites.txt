@@ -1,0 +1,27 @@
+jap_base_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		always = no
+	}
+
+	sprite_infantry = {
+		0 = JAP_INFANTRY_1
+		1 = JAP_INFANTRY_2
+		2 = JAP_INFANTRY_3
+		3 = JAP_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = JAP_CAVALRY_1
+		1 = JAP_CAVALRY_2
+		2 = JAP_CAVALRY_3
+		3 = JAP_CAVALRY_4
+	}
+	
+	sprite_artillery = {
+		0 = JAP_ARTILLERY_1
+		1 = JAP_ARTILLERY_2
+		2 = JAP_ARTILLERY_3
+		3 = JAP_ARTILLERY_4
+	}
+}

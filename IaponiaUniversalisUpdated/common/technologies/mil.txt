@@ -204,7 +204,7 @@ technology = {
 	military_tactics = 0.25
 	supply_limit = 0.5
 	fortress = yes
-	outer_ward = yes
+	outer_wards = yes
 }
 
 technology = {

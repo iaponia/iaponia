@@ -1937,11 +1937,11 @@ add_latest_building = {
 	]
 	[[manpower]
 		if = {
-			limit = { $builder$ = { mil_tech = 16 } }
-			add_building = training_fields
+			limit = { $builder$ = { mil_tech = 9 } }
+			add_building = training_grounds
 		}
 		else = {
-			add_building = training_grounds
+			add_building = barracks
 		}
 	]
 	[[sailors]
@@ -1953,39 +1953,21 @@ add_latest_building = {
 			add_building = harbor
 		}
 	]
-	[[army_forcelimit]
-		if = {
-			limit = { $builder$ = { mil_tech = 22 } }
-			add_building = conscription_center
-		}
-		else = {
-			add_building = regimental_camp
-		}
-	]
-	[[navy_forcelimit]
-		if = {
-			limit = { $builder$ = { dip_tech = 24 } }
-			add_building = grand_shipyard
-		}
-		else = {
-			add_building = harbor
-		}
-	]
 	[[fort]
 		if = {
-			limit = { $builder$ = { mil_tech = 24 } }
-			add_building = fort_18th
+			limit = { $builder$ = { mil_tech = 11 } }
+			add_building = fortress
 		}
 		else_if = {
-			limit = { $builder$ = { mil_tech = 19 } }
-			add_building = fort_17th
+			limit = { $builder$ = { mil_tech = 7 } }
+			add_building = main_keep
 		}
 		else_if = {
-			limit = { $builder$ = { mil_tech = 14 } }
-			add_building = fort_16th
+			limit = { $builder$ = { mil_tech = 3 } }
+			add_building = layered_enclosures
 		}
 		else = {
-			add_building = fort_15th
+			add_building = fortified_mansion
 		}
 	]
 }

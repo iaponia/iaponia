@@ -2,361 +2,279 @@ monarch_power = MIL
 
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
-	army_tradition_from_battle = 0.25
-	land_morale = 0.1
+	yearly_army_professionalism = 0.01
 }
 
-# Pre-era techs
-technology = {
+technology = { 
 	# Tech 0
-	year = 1390
-
+	year = 1467
+	# expects_institution = {
+	# 	sominrigaku = 0.25
+	# }
+	
 	sprite_level = 1
-
-	infantry_fire		= 	0.25
-	infantry_shock 		= 	0.20
-	cavalry_shock  		= 	0.75
-	land_morale 		= 	1.5
+	
+	infantry_fire = 0.25
+	infantry_shock = 0.3
+	cavalry_fire = 0.75
+	cavalry_shock = 0.6
+	land_morale = 1
+	fortified_mansion = yes
 }
 
 technology = {
 	# Tech 1
-	year = 1420
-
-	infantry_shock		= 	0.1
-	infantry_fire 		= 	0.05
-
-	enable = early_kyushu_infantry
-	enable = early_kansai_infantry
-	enable = early_kanto_infantry
-	enable = early_tohoku_infantry
-	enable = early_ainu_infantry
-	enable = early_kyushu_cavalry
-	enable = early_kansai_cavalry
-	enable = early_kanto_cavalry
-	enable = early_tohoku_cavalry
-	enable = early_ainu_cavalry
+	year = 1500
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.1
+	# }
+	
+	infantry_shock = 0.1
+	land_morale = 0.5
+	barracks = yes
+	may_drill = yes
 }
 
 technology = {
 	# Tech 2
-	year = 1450
-
-	fortified_mansion = yes
-
-	infantry_shock		= 	0.1
-	cavalry_shock		= 	0.1
-
+	year = 1515
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.2
+	# }
+	
+	infantry_fire = 0.05
+	cavalry_fire = 0.15
 	combat_width = 4
+	military_tactics = 0.25
 }
-
-# The 30 big techs from here on
 
 technology = {
 	# Tech 3
-	year = 1476
-
-	land_morale = 0.5
+	year = 1530
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.1
+	# }
+	
+	infantry_fire = 0.15
+	infantry_shock = 0.1
+	supply_limit = 0.5
+	layered_enclosures = yes
 }
 
 technology = {
 	# Tech 4
-	year = 1485
-
-	barracks = yes
+	year = 1540
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.2
+	# }
+	
+	cavalry_shock = 0.2
+	combat_width = 2
 	military_tactics = 0.25
-	supply_limit = 0.5
+	maneuver_value = 0.25
 }
 
 technology = {
 	# Tech 5
-	year = 1494
-
-	infantry_shock = 0.15
-	cavalry_shock = 0.15
-
-	layered_enclosures = yes
-
-	enable = early_off_kansai_infantry
-	enable = early_def_kansai_infantry
-	enable = early_off_kanto_infantry
-	enable = early_def_kanto_infantry
-	enable = early_def_ainu_infantry
-	enable = early_def_ainu_cavalry
-
+	year = 1550
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.1
+	# }
+	
+	infantry_fire = 0.25
+	artillery_fire = 0.8
+	artillery_shock = 0.2
 	combat_width = 2
+	military_tactics = 0.25
 }
 
 technology = {
 	# Tech 6
-	year = 1503
-
-	military_tactics 	= 	0.25
-	infantry_shock		= 	0.25
-	infantry_fire 		= 	0.15
-
-	enable = early_off_kyushu_infantry
-	enable = early_def_kyushu_infantry
-	enable = early_off_tohoku_infantry
-	enable = early_def_tohoku_infantry
+	year = 1560
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.1
+	# }
+	
+	cavalry_shock = 0.5
+	land_morale = 0.5
+	maneuver_value = 0.5
 }
 
 technology = {
 	# Tech 7
-	year = 1512
-
-	cavalry_shock =	0.65
-	cavalry_fire = 0.4
-	maneuver_value = 0.25
-
-	enable = early_off_kanto_cavalry
-	enable = early_def_kansai_cavalry
-	enable = early_def_kyushu_cavalry
-
-	combat_width = 2
+	year = 1570
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.2
+	# }
+	
+	artillery_fire = 0.2
+	supply_limit = 0.5
+	main_keep = yes
+	stone_base = yes
+	arsenal = yes
 }
 
 technology = {
 	# Tech 8
-	year = 1521
-
-	infantry_fire = 0.15
+	year = 1580
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# }
+	
+	infantry_shock = 0.2
+	artillery_fire = 0.2
+	artillery_shock = 0.1
+	combat_width = 2
 	military_tactics = 0.25
-
-	enable = early_def_tohoku_cavalry
-	enable = off_kansai_infantry
-	enable = def_kansai_infantry
 }
 
 technology = {
 	# Tech 9
-
-	year = 1530
-
-	training_grounds = yes
-	main_keep = yes
+	year = 1590
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.1
+	# }
+	
 	land_morale = 0.5
-
-	enable = def_kanto_infantry
-	enable = off_kanto_infantry
-	enable = def_tohoku_infantry
-	enable = off_tohoku_infantry
-	enable = def_ainu_infantry
-	enable = def_ainu_cavalry
-
 	combat_width = 2
+	maneuver_value = 0.25
+	training_grounds = yes
 }
 
 technology = {
 	# Tech 10
-	year = 1539
-
-	maneuver_value = 0.25
-	cavalry_shock = 0.2
-	cavalry_fire = 0.1
-	military_tactics = 0.25
-	ranch = yes
-
-	enable = off_kanto_cavalry
-	enable = def_kanto_cavalry
+	year = 1600
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.2
+	# }
+	
+	infantry_fire = 0.3
+	infantry_shock = 0.1
+	cavalry_shock = 0.7
+	artillery_fire = 0.4
+	artillery_shock = 0.1
 }
 
 technology = {
 	# Tech 11
-	year = 1548
-
-	infantry_fire = 0.60
-	infantry_shock = 0.1
-	gunsmith = yes
+	year = 1615
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.3
+	# }
+	
+	infantry_fire = 0.5
+	cavalry_fire = 0.1
+	artillery_fire = 0.4
 	military_tactics = 0.25
-
-	enable = off_kyushu_infantry
-	enable = def_kyushu_infantry
-	enable = def_kyushu_cavalry
-	enable = off_kyushu_cavalry
-	enable = off_kansai_cavalry
-	enable = def_kansai_cavalry
-
-	combat_width = 2
+	supply_limit = 0.5
+	fortress = yes
+	outer_ward = yes
 }
 
 technology = {
 	# Tech 12
-	year = 1557
-
-	sprite_level = 2
-
-	supply_limit = 0.5
-	land_morale = 0.5
-	artillery_fire = 1
-	artillery_shock = 0.15
-	arsenal = yes
-	fortress= yes
-	stone_base = yes
-
-	enable = off_tohoku_cavalry
-	enable = def_tohoku_cavalry
-	enable = late_off_kansai_infantry
-	enable = late_def_kansai_infantry
-	enable = early_cannon
+	year = 1630
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.3
+	# 	rangaku = 0.1
+	# }
+	
+	infantry_shock = 0.2
+	cavalry_shock = 0.5
+	combat_width = 4
+	maneuver_value = 0.5
 }
 
 technology = {
 	# Tech 13
-	year = 1566
-
-	infantry_shock = 0.15
-	cavalry_fire = 0.1
-	cavalry_shock = 0.3
-	maneuver_value = 0.25
-
-	enable = late_off_kanto_infantry
-	enable = late_def_kanto_infantry
-	enable = late_off_kanto_cavalry
-	enable = late_def_kanto_cavalry
+	year = 1645
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.3
+	# 	rangaku = 0.3
+	# }
+	
+	artillery_fire = 0.25
+	land_morale = 0.5
 }
 
 technology = {
 	# Tech 14
-	year = 1575
-
-	land_morale = 0.5
-	infantry_fire = 0.2
-	military_tactics = 0.25
-
-	enable = late_off_tohoku_infantry
-	enable = late_def_tohoku_infantry
-	enable = late_off_tohoku_cavalry
-	enable = late_def_tohoku_cavalry
-	enable = late_off_kansai_cavalry
-	enable = late_def_kansai_cavalry
-	enable = late_def_ainu_infantry
-	enable = late_def_ainu_cavalry
-
-	combat_width = 2
+	year = 1660
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.3
+	# 	rangaku = 0.5
+	# }
+	
+	infantry_fire = 0.1
+	infantry_shock = 0.2
+	artillery_fire = 0.25
+	artillery_shock = 0.1
 }
 
 technology = {
 	# Tech 15
-	year = 1584
-
-	land_morale = 0.5
-	cavalry_fire = 0.1
-	infantry_shock = 0.2
-	artillery_fire = 0.6
-	outer_wards = yes
-
-	enable = late_off_kyushu_infantry
-	enable = late_def_kyushu_infantry
-	enable = late_off_kyushu_cavalry
-	enable = late_def_kyushu_cavalry
-	enable = cannon
-}
-
-technology = {
-	# Tech 16
-	year = 1593
-
+	year = 1680
+	# expects_institution = {
+	# 	sominrigaku = 0.5
+	# 	higashiyama_culture = 0.3
+	# 	gekokujo = 0.3
+	# 	gunsmithing = 0.3
+	# 	nanban_trade = 0.3
+	# 	kokudaka_system = 0.3
+	# 	rangaku = 0.5
+	# }
+	
+	military_tactics = 0.25
 	supply_limit = 0.5
-
-	enable = advanced_kansai_infantry
-	enable = advanced_kansai_cavalry
-
-	combat_width = 2
-}
-
-technology = {
-	# Tech 17
-	year = 1602
-
-	land_morale = 0.5
-	cavalry_shock = 0.25
-	infantry_fire = 0.2
-	infantry_shock = 0.05
-	military_tactics = 0.25
-
-	enable = advanced_kyushu_infantry
-	enable = advanced_kyushu_cavalry
-	enable = advanced_kanto_infantry
-	enable = advanced_kanto_cavalry
-	enable = advanced_ainu_infantry
-	enable = advanced_ainu_cavalry
-
-	combat_width = 2
-}
-
-technology = {
-	# Tech 18
-	year = 1611
-
-	maneuver_value = 0.25
-	cavalry_fire = 0.3
-	artillery_fire = 0.4
-	artillery_shock = 0.15
-	supply_limit = 0.5
-	castle_palace = yes
-	satellite_forts = yes
-
-	enable = advanced_tohoku_infantry
-	enable = advanced_tohoku_cavalry
-	enable = late_cannon
-
-	combat_width = 2
-}
-
-technology = {
-	# Tech 19
-	year = 1620
-
-	military_tactics = 0.25
-
-	infantry_shock = 0.2
-}
-
-technology = {
-	# Tech 20
-	year = 1629
-
-	land_morale = 0.5
-	artillery_fire = 0.4
-	artillery_shock = 0.25
-
-	enable = advanced_cannon
-}
-
-technology = {
-	# Tech 21
-	year = 1644
-
-	infantry_fire = 0.2
-	infantry_shock = 0.1
-}
-
-technology = {
-	# Tech 22
-	year = 1659
-
-	military_tactics = 0.25
-}
-
-technology = {
-	# Tech 23
-	year = 1674
-
-	cavalry_fire = 0.2
-	artillery_shock = 0.25
-}
-
-technology = {
-	# Tech 24
-	year = 1689
-
-	land_morale = 0.5
-}
-
-technology = {
-	# Tech 25
-	year = 1704
-
-	military_tactics = 0.25
 }

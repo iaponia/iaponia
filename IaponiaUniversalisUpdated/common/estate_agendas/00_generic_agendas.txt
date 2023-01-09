@@ -610,10 +610,10 @@ estate_nobles_build_fort_building_in_y = {
 		any_owned_province = {
 			OR = {
 				AND = {
-					NOT = { has_building = fort_15th }
-					NOT = { has_building = fort_16th }
-					NOT = { has_building = fort_17th }
-					NOT = { has_building = fort_18th }
+					NOT = { has_building = fortified_mansion }
+					NOT = { has_building = layered_enclosures }
+					NOT = { has_building = main_keep }
+					NOT = { has_building = fortress }
 					num_free_building_slots = 1
 					any_neighbor_province = {
 						owner = {
@@ -636,19 +636,19 @@ estate_nobles_build_fort_building_in_y = {
 						any_neighbor_province = {
 							owned_by = root
 							OR = {
-								has_building = fort_15th
-								has_building = fort_16th
-								has_building = fort_17th
-								has_building = fort_18th
+								has_building = fortified_mansion
+								has_building = layered_enclosures
+								has_building = main_keep
+								has_building = fortress
 							}
 						}
 					}
 				}
 				AND = {
-					NOT = { has_building = fort_15th }
-					NOT = { has_building = fort_16th }
-					NOT = { has_building = fort_17th }
-					NOT = { has_building = fort_18th }
+					NOT = { has_building = fortified_mansion }
+					NOT = { has_building = layered_enclosures }
+					NOT = { has_building = main_keep }
+					NOT = { has_building = fortress }
 					num_free_building_slots = 1
 					any_neighbor_province = {
 						owned_by = root
@@ -672,10 +672,10 @@ estate_nobles_build_fort_building_in_y = {
 								any_neighbor_province = {
 									owned_by = root
 									OR = {
-										has_building = fort_15th
-										has_building = fort_16th
-										has_building = fort_17th
-										has_building = fort_18th
+										has_building = fortified_mansion
+										has_building = layered_enclosures
+										has_building = main_keep
+										has_building = fortress
 									}
 								}
 							}
@@ -683,19 +683,19 @@ estate_nobles_build_fort_building_in_y = {
 					}
 				}
 				AND = {
-					has_building = fort_15th
-					ROOT = { mil_tech = 14 }
+					has_building = fortified_mansion
+					ROOT = { mil_tech = 4 }
 				}
 				AND = {
-					has_building = fort_16th
-					ROOT = { mil_tech = 19 }
+					has_building = layered_enclosures
+					ROOT = { mil_tech = 7 }
 				}
 				AND = {
-					has_building = fort_17th
-					ROOT = { mil_tech = 24 }
+					has_building = main_keep
+					ROOT = { mil_tech = 11 }
 				}
 			}
-			NOT = { has_building = fort_18th }
+			NOT = { has_building = fortress }
 		}
 	}
 	selection_weight = {
@@ -720,10 +720,10 @@ estate_nobles_build_fort_building_in_y = {
 			limit = {
 				OR = {
 					AND = {
-						NOT = { has_building = fort_15th }
-						NOT = { has_building = fort_16th }
-						NOT = { has_building = fort_17th }
-						NOT = { has_building = fort_18th }
+						NOT = { has_building = fortified_mansion }
+						NOT = { has_building = layered_enclosures }
+						NOT = { has_building = main_keep }
+						NOT = { has_building = fortress }
 						num_free_building_slots = 1
 						any_neighbor_province = {
 							owner = {
@@ -746,19 +746,19 @@ estate_nobles_build_fort_building_in_y = {
 							any_neighbor_province = {
 								owned_by = root
 								OR = {
-									has_building = fort_15th
-									has_building = fort_16th
-									has_building = fort_17th
-									has_building = fort_18th
+									has_building = fortified_mansion
+									has_building = layered_enclosures
+									has_building = main_keep
+									has_building = fortress
 								}
 							}
 						}
 					}
 					AND = {
-						NOT = { has_building = fort_15th }
-						NOT = { has_building = fort_16th }
-						NOT = { has_building = fort_17th }
-						NOT = { has_building = fort_18th }
+						NOT = { has_building = fortified_mansion }
+						NOT = { has_building = layered_enclosures }
+						NOT = { has_building = main_keep }
+						NOT = { has_building = fortress }
 						num_free_building_slots = 1
 						any_neighbor_province = {
 							owned_by = root
@@ -782,15 +782,110 @@ estate_nobles_build_fort_building_in_y = {
 									any_neighbor_province = {
 										owned_by = root
 										OR = {
-											has_building = fort_15th
-											has_building = fort_16th
-											has_building = fort_17th
-											has_building = fort_18th
+											has_building = fortified_mansion
+											has_building = layered_enclosures
+											has_building = main_keep
+											has_building = fortress
 										}
 									}
 								}
 							}
 						}
+					}
+					AND = {
+						has_building = fortified_mansion
+						ROOT = { mil_tech = 4 }
+					}
+					AND = {
+						has_building = layered_enclosures
+						ROOT = { mil_tech = 7 }
+					}
+					AND = {
+						has_building = main_keep
+						ROOT = { mil_tech = 11 }
+					}
+				}
+				NOT = { has_building = fortress }
+			}
+			save_event_target_as = agenda_province
+		}
+		random_owned_province = {
+			limit = {
+				OR = {
+					AND = {
+						NOT = { has_building = fortified_mansion }
+						NOT = { has_building = layered_enclosures }
+						NOT = { has_building = main_keep }
+						NOT = { has_building = fortress }
+						num_free_building_slots = 1
+						any_neighbor_province = {
+							owner = {
+								OR = {
+									is_rival = root
+									root = { is_rival = prev }
+									AND = {
+										is_subject_other_than_tributary_trigger = yes
+										overlord = {
+											OR = {
+												is_rival = root
+												root = { is_rival = prev }
+											}
+										}
+									}
+								}
+							}
+						}
+						NOT = {
+							any_neighbor_province = {
+								owned_by = root
+								OR = {
+									has_building = fortified_mansion
+									has_building = layered_enclosures
+									has_building = main_keep
+									has_building = fortress
+								}
+							}
+						}
+						has_terrain = hills
+					}
+					AND = {
+						NOT = { has_building = fortified_mansion }
+						NOT = { has_building = layered_enclosures }
+						NOT = { has_building = main_keep }
+						NOT = { has_building = fortress }
+						num_free_building_slots = 1
+						any_neighbor_province = {
+							owned_by = root
+							any_neighbor_province = {
+								owner = {
+									OR = {
+										is_rival = root
+										root = { is_rival = prev }
+										AND = {
+											is_subject_other_than_tributary_trigger = yes
+											overlord = {
+												OR = {
+													is_rival = root
+													root = { is_rival = prev }
+												}
+											}
+										}
+									}
+								}
+								NOT = {
+									any_neighbor_province = {
+										owned_by = root
+										OR = {
+											has_building = fortified_mansion
+											has_building = layered_enclosures
+											has_building = main_keep
+											has_building = fortress
+										}
+									}
+								}
+							}
+						}
+						has_terrain = hills
 					}
 					AND = {
 						has_building = fort_15th
@@ -839,105 +934,10 @@ estate_nobles_build_fort_building_in_y = {
 							any_neighbor_province = {
 								owned_by = root
 								OR = {
-									has_building = fort_15th
-									has_building = fort_16th
-									has_building = fort_17th
-									has_building = fort_18th
-								}
-							}
-						}
-						has_terrain = hills
-					}
-					AND = {
-						NOT = { has_building = fort_15th }
-						NOT = { has_building = fort_16th }
-						NOT = { has_building = fort_17th }
-						NOT = { has_building = fort_18th }
-						num_free_building_slots = 1
-						any_neighbor_province = {
-							owned_by = root
-							any_neighbor_province = {
-								owner = {
-									OR = {
-										is_rival = root
-										root = { is_rival = prev }
-										AND = {
-											is_subject_other_than_tributary_trigger = yes
-											overlord = {
-												OR = {
-													is_rival = root
-													root = { is_rival = prev }
-												}
-											}
-										}
-									}
-								}
-								NOT = {
-									any_neighbor_province = {
-										owned_by = root
-										OR = {
-											has_building = fort_15th
-											has_building = fort_16th
-											has_building = fort_17th
-											has_building = fort_18th
-										}
-									}
-								}
-							}
-						}
-						has_terrain = hills
-					}
-					AND = {
-						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
-					}
-					AND = {
-						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
-					}
-					AND = {
-						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
-					}
-				}
-				NOT = { has_building = fort_18th }
-			}
-			save_event_target_as = agenda_province
-		}
-		random_owned_province = {
-			limit = {
-				OR = {
-					AND = {
-						NOT = { has_building = fort_15th }
-						NOT = { has_building = fort_16th }
-						NOT = { has_building = fort_17th }
-						NOT = { has_building = fort_18th }
-						num_free_building_slots = 1
-						any_neighbor_province = {
-							owner = {
-								OR = {
-									is_rival = root
-									root = { is_rival = prev }
-									AND = {
-										is_subject_other_than_tributary_trigger = yes
-										overlord = {
-											OR = {
-												is_rival = root
-												root = { is_rival = prev }
-											}
-										}
-									}
-								}
-							}
-						}
-						NOT = {
-							any_neighbor_province = {
-								owned_by = root
-								OR = {
-									has_building = fort_15th
-									has_building = fort_16th
-									has_building = fort_17th
-									has_building = fort_18th
+									has_building = fortified_mansion
+									has_building = layered_enclosures
+									has_building = main_keep
+									has_building = fortress
 								}
 							}
 						}
@@ -971,10 +971,10 @@ estate_nobles_build_fort_building_in_y = {
 									any_neighbor_province = {
 										owned_by = root
 										OR = {
-											has_building = fort_15th
-											has_building = fort_16th
-											has_building = fort_17th
-											has_building = fort_18th
+											has_building = fortified_mansion
+											has_building = layered_enclosures
+											has_building = main_keep
+											has_building = fortress
 										}
 									}
 								}
@@ -1029,10 +1029,10 @@ estate_nobles_build_fort_building_in_y = {
 							any_neighbor_province = {
 								owned_by = root
 								OR = {
-									has_building = fort_15th
-									has_building = fort_16th
-									has_building = fort_17th
-									has_building = fort_18th
+									has_building = fortified_mansion
+									has_building = layered_enclosures
+									has_building = main_keep
+									has_building = fortress
 								}
 							}
 						}
@@ -1066,10 +1066,10 @@ estate_nobles_build_fort_building_in_y = {
 									any_neighbor_province = {
 										owned_by = root
 										OR = {
-											has_building = fort_15th
-											has_building = fort_16th
-											has_building = fort_17th
-											has_building = fort_18th
+											has_building = fortified_mansion
+											has_building = layered_enclosures
+											has_building = main_keep
+											has_building = fortress
 										}
 									}
 								}

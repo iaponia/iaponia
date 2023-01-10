@@ -20,6 +20,9 @@ technology = {
 	cavalry_shock = 0.6
 	land_morale = 1
 	fortified_mansion = yes
+	enable = samurai_retinue
+	enable = irregular_ashigaru
+	enable = jizamurai_conscripts
 }
 
 technology = {
@@ -48,6 +51,9 @@ technology = {
 	cavalry_fire = 0.15
 	combat_width = 4
 	military_tactics = 0.25
+	enable = mounted_samurai
+	enable = samurai_cavalry
+	enable = sohei_cavalry
 }
 
 technology = {
@@ -63,6 +69,9 @@ technology = {
 	infantry_shock = 0.1
 	supply_limit = 0.5
 	layered_enclosures = yes
+	enable = yari_ashigaru
+	enable = yumi_ashigaru
+	enable = ikko_ashigaru
 }
 
 technology = {
@@ -95,6 +104,8 @@ technology = {
 	artillery_shock = 0.2
 	combat_width = 2
 	military_tactics = 0.25
+	enable = samurai_teppo
+	enable = sohei_teppo
 }
 
 technology = {
@@ -111,6 +122,9 @@ technology = {
 	cavalry_shock = 0.5
 	land_morale = 0.5
 	maneuver_value = 0.5
+	enable = charge_samurai_cavalry
+	enable = reformed_sohei_cavalry
+	enable = nagamaki_samurai
 }
 
 technology = {
@@ -147,6 +161,11 @@ technology = {
 	artillery_shock = 0.1
 	combat_width = 2
 	military_tactics = 0.25
+	enable = jizamurai_regulars
+	enable = nagayari_ashigaru
+	enable = reformed_ikko_ashigaru
+	enable = massed_teppo_ashigaru
+	enable = drilled_teppo_ashigaru
 }
 
 technology = {
@@ -205,6 +224,9 @@ technology = {
 	supply_limit = 0.5
 	fortress = yes
 	outer_ward = yes
+	enable = standardized_ashigaru
+	enable = standardized_samurai
+	enable = standardized_artillery
 }
 
 technology = {

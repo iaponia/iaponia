@@ -1,9 +1,15 @@
 # country
 on_startup = {
+	events = {
+		christian_school_events.20 #Pick School
+	}
 }
 
 # country
 on_religion_change = {
+	events = {
+		christian_school_events.20 #Pick School
+	}
 }
 
 # country.
@@ -181,6 +187,9 @@ on_new_monarch = {
 			limit = { has_province_modifier = home_of_consort }
 			remove_province_modifier = home_of_consort
 		}
+	}
+	events = {
+		christian_school_events.20 #Pick School
 	}
 }
 
@@ -923,6 +932,9 @@ on_bi_yearly_pulse_2 = {
 }
 
 on_bi_yearly_pulse_3 = {
+	events = {
+		christian_school_events.20 #Pick School
+	}
 }
 
 on_bi_yearly_pulse_4 = {

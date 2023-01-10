@@ -223,11 +223,10 @@ technology = {
 	military_tactics = 0.25
 	supply_limit = 0.5
 	fortress = yes
-	outer_ward = yes
+	outer_wards = yes
 	enable = standardized_ashigaru
 	enable = standardized_samurai
 	enable = standardized_artillery
-}
 
 technology = {
 	# Tech 12

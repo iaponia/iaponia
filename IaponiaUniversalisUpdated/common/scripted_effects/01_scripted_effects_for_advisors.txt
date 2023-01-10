@@ -1,35 +1,20 @@
 #All are Country Scope unless otherwise stated.
 
 #Sets flags to use when generating advisors, must be used in immediate = { } and be followed by erase_advisor_flags_effect in after = {}
-check_if_non_state_advisor_effect = {}
+check_if_non_state_advisor_effect = {
+	#TODO: do this, borrowing from vanilla
+}
 
 erase_advisor_flags_effect = { #Goes into the after = {} effect after check_if_non_state_advisor_effect
 	trigger_switch = {
 		on_trigger = has_country_flag
 		state_religion_advisor = { clr_country_flag = state_religion_advisor }
-		jewish_advisor = { clr_country_flag = jewish_advisor }
-		protestant_or_coptic_advisor = { clr_country_flag = protestant_or_coptic_advisor }
-		reformed_or_orthodox_advisor = { clr_country_flag = reformed_or_orthodox_advisor }
-		heathen_advisor = { clr_country_flag = heathen_advisor }
-		zoroastrian_advisor = { clr_country_flag = zoroastrian_advisor }
-		sikh_advisor = { clr_country_flag = sikh_advisor }
-		confucian_advisor = { clr_country_flag = confucian_advisor }
+		ainu_advisor = { clr_country_flag = ainu_advisor }
 		shinto_advisor = { clr_country_flag = shinto_advisor }
-		theravada_advisor = { clr_country_flag = theravada_advisor }
-		mahayana_advisor = { clr_country_flag = mahayana_advisor }
-		vajrayana_advisor = { clr_country_flag = vajrayana_advisor }
+		ryukyuan_advisor = { clr_country_flag = ryukyuan_advisor }
+		ikko_advisor = { clr_country_flag = ikko_advisor }
+		hokke_advisor = { clr_country_flag = hokke_advisor }
 		kirishitan_advisor = { clr_country_flag = kirishitan_advisor }
-		hinduism_advisor = { clr_country_flag = hinduism_advisor }
-		ibadi_advisor = { clr_country_flag = ibadi_advisor }
-		shia_advisor = { clr_country_flag = shia_advisor }
-		sunni_advisor = { clr_country_flag = sunni_advisor }
-		coptic_advisor = { clr_country_flag = coptic_advisor }
-		norse_advisor = { clr_country_flag = norse_advisor }
-		animism_advisor = { clr_country_flag = animism_advisor }
-		totemism_advisor = { clr_country_flag = totemism_advisor }
-		inca_advisor = { clr_country_flag = inca_advisor }
-		nahuatl_advisor = { clr_country_flag = nahuatl_advisor }
-		mayan_advisor = { clr_country_flag = mayan_advisor }
 	}
 }
 
@@ -48,176 +33,12 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 				discount = $discount$
 			}
 		}
-		heathen_advisor = {
-			if = {
-				limit = {
-					religion_group = christian
-					capital_scope = { continent = europe }
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = jewish
-				}
-			}
-			else_if = {
-				limit = { religion_group = christian }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = sunni
-				}
-			}
-			else_if = {
-				limit = {
-					religion_group = muslim
-					capital_scope = {
-						OR = {
-							continent = europe
-							region = horn_of_africa_region
-							region = maghreb_region
-						}
-						NOT = { region = caucasia_region }
-						NOT = { region = anatolia_region }
-					}
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = kirishitan
-				}
-			}
-			else_if = {
-				limit = {
-					religion_group = muslim
-					capital_scope = {
-						OR = {
-							region = caucasia_region
-							region = anatolia_region
-						}
-					}
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = coptic
-				}
-			}
-			else_if = {
-				limit = { religion_group = muslim }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = zoroastrian
-					culture = parsi
-				}
-			}
-			else_if = {
-				limit = {
-					religion_group = eastern #Most likely won't come here but could.
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = animism
-				}
-			}
-			else_if = {
-				limit = { 
-					religion_group = dharmic
-					capital_scope = {
-						OR = {
-							region = persia_region
-							region = khorasan_region
-							region = west_india_region
-							region = hindusthan_region
-						}
-					}
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = shiite
-					culture = persian
-				}
-			}
-			else_if = {
-				limit = {
-					religion_group = dharmic #Most likely won't come here but could.
-				}
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-					religion = animism
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-				}
-			}
-		}
-		sikh_advisor = {
-			if = {
-				limit = { religion = sikhism }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = hinduism
-					discount = $discount$
-				}
-			}
-			else_if = {
-				limit = { is_religion_enabled = sikhism }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = sikhism
-					discount = $discount$
-				}
-			}
-			else_if = {
-				limit = { religion = hinduism }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = zoroastrian
-					culture = parsi
-					discount = $discount$
-				}
-			}
-			else_if = {
-				limit = { religion_group = muslim }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = hinduism
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					discount = $discount$
-				}
-			}
-		}
-		confucian_advisor = {
+		ryukyuan_advisor = {
 			define_advisor = {
 				type = $advisor_type_if_not_state$
 				skill = $skill$
-				religion = confucianism
+				religion = ryukyuan
+				culture = okinawan_c
 				discount = $discount$
 			}
 		}
@@ -229,27 +50,28 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 				discount = $discount$
 			}
 		}
-		theravada_advisor = {
+		ainu_advisor = {
 			define_advisor = {
 				type = $advisor_type_if_not_state$
 				skill = $skill$
-				religion = buddhism
+				religion = ainu
+				culture = ainu_c
 				discount = $discount$
 			}
 		}
-		mahayana_advisor = {
+		ikko_advisor = {
 			define_advisor = {
 				type = $advisor_type_if_not_state$
 				skill = $skill$
-				religion = mahayana
+				religion = jodoshinshu
 				discount = $discount$
 			}
 		}
-		vajrayana_advisor = {
+		hokke_advisor = {
 			define_advisor = {
 				type = $advisor_type_if_not_state$
 				skill = $skill$
-				religion = vajrayana
+				religion = nichirenshu
 				discount = $discount$
 			}
 		}
@@ -272,25 +94,6 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 				define_advisor = {
 					type = $advisor_type_if_not_state$
 					skill = $skill$
-					discount = $discount$
-				}
-			}
-		}
-		animism_advisor = {
-			if = {
-				limit = { NOT = { religion = animism } }
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = animism
-					discount = $discount$
-				}
-			}
-			else = {
-				define_advisor = {
-					type = $advisor_type_if_not_state$
-					skill = $skill$
-					religion = totemism
 					discount = $discount$
 				}
 			}

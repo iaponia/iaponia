@@ -1,0 +1,185 @@
+######################################################
+# Islam events (now adapted to Kirishitan)			 #
+# Relates to Piety, Religious Schools, Scholars		 #
+# and the Islamic world in the Early modern era		 #
+#                         							 #
+# Written by Henrik Lohmander						 #
+######################################################
+
+namespace = christian_school_events
+
+#Choosing Madhhab - New Country
+country_event = {
+	id = christian_school_events.20
+	title = christian_school_events.20.t
+	desc = christian_school_events.20.d
+	picture = MYSTIC_IN_PRAYER_eventPicture
+	
+	trigger = {
+		has_dlc = "Cradle of Civilization"
+		religion = kirishitan
+		has_religious_school = no
+	}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = christian_school_events.20.b #Hanafi
+		set_religious_school = {
+			group = christian_group
+			school = dominican_school
+		}
+	}
+	option = {
+		name = christian_school_events.20.b #Hanafi
+		set_religious_school = {
+			group = christian_group
+			school = franciscan_school
+		}
+	}
+	option = {
+		name = christian_school_events.20.b #Hanafi
+		set_religious_school = {
+			group = christian_group
+			school = jesuit_school
+		}
+	}
+}
+
+
+#Invite a Permanent Scholar
+country_event = {
+	id = christian_school_events.24
+	title = christian_school_events.24.t
+	desc = christian_school_events.24.d
+	picture = MYSTIC_IN_PRAYER_eventPicture
+	
+	is_triggered_only = yes
+
+	immediate = {
+		disallow_baseline_invite_scholar = yes
+	}
+
+	option = {
+		name = christian_school_events.24.a
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_hanafi_school }
+			NOT = { has_country_flag = privilege_can_always_invite_hanafi_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = hanafi_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = hanafi_school
+		}
+	}
+
+	option = {
+		name = christian_school_events.24.b
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_hanbali_school }
+			NOT = { has_country_flag = privilege_can_always_invite_hanbali_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = hanbali_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = hanbali_school
+		}
+	}
+
+	option = {
+		name = christian_school_events.24.c
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_maliki_school }
+			NOT = { has_country_flag = privilege_can_always_invite_maliki_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = maliki_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = maliki_school
+		}
+	}
+
+	option = {
+		name = christian_school_events.24.e
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_shafii_school }
+			NOT = { has_country_flag = privilege_can_always_invite_shafii_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = shafii_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = shafii_school
+		}
+	}
+
+	option = {
+		name = christian_school_events.24.f
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_ismaili_school }
+			NOT = { has_country_flag = privilege_can_always_invite_ismaili_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = ismaili_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = ismaili_school
+		}
+	}
+
+	option = {
+		name = christian_school_events.24.g
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_jafari_school }
+			NOT = { has_country_flag = privilege_can_always_invite_jafari_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = jafari_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = jafari_school
+		}
+	}
+
+	option = {
+		name = christian_school_events.24.h
+		trigger = {
+			NOT = { has_country_flag = can_always_invite_zaidi_school }
+			NOT = { has_country_flag = privilege_can_always_invite_zaidi_school }
+			NOT = {
+				religious_school = {
+					group = muslim
+					school = zaidi_school
+				}
+			}
+		}
+		allow_baseline_invite_scholar_privilege = {
+			religious_school = zaidi_school
+		}
+	}
+
+	after = {
+		clr_country_flag = swaps_scholar_flag
+	}
+}

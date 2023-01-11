@@ -2216,7 +2216,7 @@ estate_church_integrated_school = {
 	influence = 0.1
 	loyalty = 0
 	is_valid = {
-		religion = kirishitan
+		religion_group = christian_group
 		has_dlc = "Cradle of Civilization"
 	}
 	can_select = {

@@ -282,14 +282,16 @@ christian_group = {
 		jesuit_school = {
 			potential_invite_scholar = {
 				knows_of_scholar_country_capital_trigger = yes
+				has_country_flag = can_always_invite_jesuit_school
+				has_country_flag = privilege_can_always_invite_jesuit_school
 			}
 
 			can_invite_scholar = {
-				church_power = 200
 				if = {
 					limit = {
-						NOT = { religion = kirishitan }
+						NOT = {has_country_flag = no_scholar_power_cost }
 					}
+					church_power = 200
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
 				NOT = { has_country_modifier = jesuit_scholar_modifier }
@@ -302,7 +304,12 @@ christian_group = {
 			}
 
 			on_invite_scholar = {
-				add_church_power = -200
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_power_cost }
+					}
+					add_church_power = -200
+				}
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = jesuit_scholar_modifier duration = 7300 }
@@ -318,14 +325,16 @@ christian_group = {
 		franciscan_school = {
 			potential_invite_scholar = {
 				knows_of_scholar_country_capital_trigger = yes
+				has_country_flag = can_always_invite_franciscan_school
+				has_country_flag = privilege_can_always_invite_franciscan_school
 			}
 
 			can_invite_scholar = {
-				church_power = 200
 				if = {
 					limit = {
-						NOT = { religion = kirishitan }
+						NOT = {has_country_flag = no_scholar_power_cost }
 					}
+					church_power = 200
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
 				OR = {
@@ -338,7 +347,12 @@ christian_group = {
 			}
 
 			on_invite_scholar = {
-				add_church_power = -200
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_power_cost }
+					}
+					add_church_power = -200
+				}
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = franciscan_scholar_modifier duration = 7300 }
@@ -354,14 +368,16 @@ christian_group = {
 		dominican_school = {
 			potential_invite_scholar = {
 				knows_of_scholar_country_capital_trigger = yes
+				has_country_flag = can_always_invite_dominican_school
+				has_country_flag = privilege_can_always_invite_dominican_school
 			}
 
 			can_invite_scholar = {
-				church_power = 200
 				if = {
 					limit = {
-						NOT = { religion = kirishitan }
+						NOT = {has_country_flag = no_scholar_power_cost }
 					}
+					church_power = 200
 				}
 				reverse_has_opinion = { who = FROM value = 150 }
 				OR = {
@@ -374,7 +390,12 @@ christian_group = {
 			}
 
 			on_invite_scholar = {
-				add_church_power = -200
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_power_cost }
+					}
+					add_church_power = -200
+				}
 				clear_religious_scholar_modifiers_effect = yes
 				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
 				add_country_modifier = { name = dominican_scholar_modifier duration = 7300 }

@@ -227,6 +227,7 @@ technology = {
 	enable = standardized_ashigaru
 	enable = standardized_samurai
 	enable = standardized_artillery
+}
 
 technology = {
 	# Tech 12

@@ -226,7 +226,7 @@ technology = {
 	outer_wards = yes
 	enable = standardized_ashigaru
 	enable = standardized_samurai
-	enable = standardized_artillery
+	enable = standardized_taiho
 
 technology = {
 	# Tech 12

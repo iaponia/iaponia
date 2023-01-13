@@ -2,7 +2,34 @@
 
 #Sets flags to use when generating advisors, must be used in immediate = { } and be followed by erase_advisor_flags_effect in after = {}
 check_if_non_state_advisor_effect = {
-	#TODO: do this, borrowing from vanilla
+	if = {
+		limit = {
+			is_religion_enabled = kirishitan
+		}
+		random_list = {
+			$chance_of_secondary$ = { set_country_flag = ikko_advisor }
+			$chance_of_primary$ = { set_country_flag = state_religion_advisor }
+			$chance_of_secondary$ = { set_country_flag = hokke_advisor }
+			$chance_of_secondary$ = { set_country_flag = shinto_advisor }
+			$chance_of_secondary$ = { set_country_flag = kirishitan_advisor }
+			$chance_of_secondary$ = { set_country_flag = kirishitan_advisor }
+			$chance_of_tertiary$ = { set_country_flag = ainu_advisor }
+			$chance_of_tertiary$ = { set_country_flag = ryukyuan_advisor }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = {is_religion_enabled = kirishitan}
+		}
+		random_list = {
+			$chance_of_secondary$ = { set_country_flag = ikko_advisor }
+			$chance_of_primary$ = { set_country_flag = state_religion_advisor }
+			$chance_of_secondary$ = { set_country_flag = hokke_advisor }
+			$chance_of_secondary$ = { set_country_flag = shinto_advisor }
+			$chance_of_tertiary$ = { set_country_flag = ainu_advisor }
+			$chance_of_tertiary$ = { set_country_flag = ryukyuan_advisor }
+		}
+	}
 }
 
 erase_advisor_flags_effect = { #Goes into the after = {} effect after check_if_non_state_advisor_effect
@@ -269,75 +296,102 @@ generate_very_specific_scaling_advisor_effect = {
 
 pick_type_of_military_advisor = {
 	random_list = {
-		1 = { set_country_flag = generate_army_reformer }
-		1 = { set_country_flag = generate_army_organiser }
-		1 = { set_country_flag = generate_commandant }
-		1 = { set_country_flag = generate_quartermaster }
-		1 = { set_country_flag = generate_recruitmaster }
-		1 = { set_country_flag = generate_fortification_expert }
-		1 = { set_country_flag = generate_grand_captain }
+		1 = { set_country_flag = generate_vanguard_commander_a }
+		1 = { set_country_flag = generate_ashigaru_commander_a }
+		1 = { set_country_flag = generate_teppo_commander_a }
+		1 = { set_country_flag = generate_cavalry_commander_a }
+		1 = { set_country_flag = generate_blademaster_a }
+		1 = { set_country_flag = generate_siege_master_a }
+		1 = { set_country_flag = generate_military_engineer_a }
+		1 = { set_country_flag = generate_commandant_a }
+		1 = { set_country_flag = generate_army_organizer_a }
+		1 = { set_country_flag = generate_army_reformer_a }
 	}
 }
 
 clear_random_military_advisor_generation_flags = {
-	clr_country_flag = generate_army_reformer
-	clr_country_flag = generate_army_organiser
-	clr_country_flag = generate_commandant
-	clr_country_flag = generate_quartermaster
-	clr_country_flag = generate_recruitmaster
-	clr_country_flag = generate_fortification_expert
-	clr_country_flag = generate_grand_captain
+	clr_country_flag = generate_vanguard_commander_a
+	clr_country_flag = generate_ashigaru_commander_a
+	clr_country_flag = generate_teppo_commander_a
+	clr_country_flag = generate_cavalry_commander_a
+	clr_country_flag = generate_blademaster_a
+	clr_country_flag = generate_siege_master_a
+	clr_country_flag = generate_military_engineer_a
+	clr_country_flag = generate_commandant_a
+	clr_country_flag = generate_army_organizer_a
+	clr_country_flag = generate_army_reformer_a
 }
 
 #Needs you to have executed pick_type_of_military_advisor
 generate_scaled_military_advisor_of_religion_effect = {
 	trigger_switch = {
 		on_trigger = has_country_flag
-		generate_army_reformer = {
+		generate_vanguard_commander_a = {
 			generate_scaled_advisor_of_type_and_religion_effect = {
-				type = army_reformer
+				type = vanguard_commander_a
 				religion = $religion$
 				discount = $discount$
 			}
 		}
-		generate_army_organiser = {
+		generate_ashigaru_commander_a = {
 			generate_scaled_advisor_of_type_and_religion_effect = {
-				type = army_organiser
+				type = ashigaru_commander_a
 				religion = $religion$
 				discount = $discount$
 			}
 		}
-		generate_commandant = {
+		generate_teppo_commander_a = {
 			generate_scaled_advisor_of_type_and_religion_effect = {
-				type = commandant
+				type = teppo_commander_a
 				religion = $religion$
 				discount = $discount$
 			}
 		}
-		generate_quartermaster = {
+		generate_cavalry_commander_a = {
 			generate_scaled_advisor_of_type_and_religion_effect = {
-				type = quartermaster
+				type = cavalry_commander_a
 				religion = $religion$
 				discount = $discount$
 			}
 		}
-		generate_recruitmaster = {
+		generate_blademaster_a = {
 			generate_scaled_advisor_of_type_and_religion_effect = {
-				type = recruitmaster
+				type = blademaster_a
 				religion = $religion$
 				discount = $discount$
 			}
 		}
-		generate_fortification_expert = {
+		generate_siege_master_a = {
 			generate_scaled_advisor_of_type_and_religion_effect = {
-				type = fortification_expert
+				type = siege_master_a
 				religion = $religion$
 				discount = $discount$
 			}
 		}
-		generate_grand_captain = {
+		generate_military_engineer_a = {
 			generate_scaled_advisor_of_type_and_religion_effect = {
-				type = grand_captain
+				type = military_engineer_a
+				religion = $religion$
+				discount = $discount$
+			}
+		}
+		generate_commandant_a = {
+			generate_scaled_advisor_of_type_and_religion_effect = {
+				type = commandant_a
+				religion = $religion$
+				discount = $discount$
+			}
+		}
+		generate_army_organizer_a = {
+			generate_scaled_advisor_of_type_and_religion_effect = {
+				type = army_organizer_a
+				religion = $religion$
+				discount = $discount$
+			}
+		}
+		generate_army_reformer_a = {
+			generate_scaled_advisor_of_type_and_religion_effect = {
+				type = army_reformer_a
 				religion = $religion$
 				discount = $discount$
 			}

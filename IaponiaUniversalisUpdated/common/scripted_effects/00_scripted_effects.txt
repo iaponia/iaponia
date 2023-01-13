@@ -2200,17 +2200,18 @@ disable_primary_cult = {
 
 #Country effect
 disable_scholar_cost = {
-	custom_tooltip = disable_scholar_cost_tt
+	#TODO: change this localization
+	custom_tooltip = disable_scholar_power_cost_tt
 	hidden_effect = {
-		set_country_flag = no_scholar_adm_cost
+		set_country_flag = no_scholar_power_cost
 	}
 }
 
 #Country effect
 enable_scholar_cost = {
-	custom_tooltip = enable_scholar_cost_tt
+	custom_tooltip = enable_scholar_power_cost_tt
 	hidden_effect = {
-		clr_country_flag = no_scholar_adm_cost
+		clr_country_flag = no_scholar_power_cost
 	}
 }
 
@@ -2236,13 +2237,9 @@ allow_baseline_invite_scholar_privilege = {
 
 disallow_baseline_invite_scholar = {
 	hidden_effect = {
-		clr_country_flag = privilege_can_always_invite_hanafi_school
-		clr_country_flag = privilege_can_always_invite_hanbali_school
-		clr_country_flag = privilege_can_always_invite_maliki_school
-		clr_country_flag = privilege_can_always_invite_shafii_school
-		clr_country_flag = privilege_can_always_invite_ismaili_school
-		clr_country_flag = privilege_can_always_invite_jafari_school
-		clr_country_flag = privilege_can_always_invite_zaidi_school
+		clr_country_flag = privilege_can_always_invite_dominican_school
+		clr_country_flag = privilege_can_always_invite_franciscan_school
+		clr_country_flag = privilege_can_always_invite_jesuit_school
 	}
 }
 
@@ -2250,13 +2247,9 @@ disable_baseline_invite_scholar = {
 	custom_tooltip = disable_baseline_invite_scholar_tt
 	hidden_effect = {
 		clr_country_flag = enabled_baseline_invite_scholar
-		clr_country_flag = privilege_can_always_invite_hanafi_school
-		clr_country_flag = privilege_can_always_invite_hanbali_school
-		clr_country_flag = privilege_can_always_invite_maliki_school
-		clr_country_flag = privilege_can_always_invite_shafii_school
-		clr_country_flag = privilege_can_always_invite_ismaili_school
-		clr_country_flag = privilege_can_always_invite_jafari_school
-		clr_country_flag = privilege_can_always_invite_zaidi_school
+		clr_country_flag = privilege_can_always_invite_dominican_school
+		clr_country_flag = privilege_can_always_invite_franciscan_school
+		clr_country_flag = privilege_can_always_invite_jesuit_school
 	}
 }
 

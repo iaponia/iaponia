@@ -1,4 +1,4 @@
-#Standardized Ashigaru
+#Standardized Defensive Ashigaru
 
 type = infantry
 unit_type = chinese

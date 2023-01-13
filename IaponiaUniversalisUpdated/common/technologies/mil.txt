@@ -224,9 +224,12 @@ technology = {
 	supply_limit = 0.5
 	fortress = yes
 	outer_wards = yes
-	enable = standardized_ashigaru
-	enable = standardized_samurai
-	enable = standardized_taiho
+	enable = standardized_off_ashigaru
+	enable = standardized_def_ashigaru
+	enable = standardized_off_samurai
+	enable = standardized_def_samurai
+	enable = standardized_off_taiho
+	enable = standardized_def_taiho
 
 technology = {
 	# Tech 12

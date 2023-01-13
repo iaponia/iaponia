@@ -1,4 +1,4 @@
-#Standardized Samurai
+#Standardized Offensive Samurai
 
 type = cavalry
 unit_type = chinese

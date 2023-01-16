@@ -1093,52 +1093,52 @@ province_has_current_tech_fort_trigger = {
 		if = {
 			limit = {
 				owner = {
-					NOT = { mil_tech = 14 }
+					NOT = { mil_tech = 3 }
 				}
 			}
 			OR = {
-				has_building = fort_15th
-				has_building = fort_16th
-				has_building = fort_17th
-				has_building = fort_18th
+				has_building = fortified_mansion
+				has_building = layered_enclosures
+				has_building = main_keep
+				has_building = fortress
 			}
 		}
 		else_if = {
 			limit = {
 				owner = {
 					AND = {
-						mil_tech = 14
-						NOT = { mil_tech = 19 }
+						mil_tech = 3
+						NOT = { mil_tech = 7 }
 					}
 				}
 			}
 			OR = {
-				has_building = fort_16th
-				has_building = fort_17th
-				has_building = fort_18th
+				has_building = layered_enclosures
+				has_building = main_keep
+				has_building = fortress
 			}
 		}
 		else_if = {
 			limit = {
 				owner = {
 					AND = {
-						mil_tech = 19
-						NOT = { mil_tech = 24 }
+						mil_tech = 7
+						NOT = { mil_tech = 11 }
 					}
 				}
 			}
 			OR = {
-				has_building = fort_17th
-				has_building = fort_18th
+				has_building = main_keep
+				has_building = fortress
 			}
 		}
 		else_if = {
 			limit = {
 				owner = {
-					mil_tech = 24
+					mil_tech = 11
 				}
 			}
-			has_building = fort_18th
+			has_building = fortress
 		}
 	}
 }
@@ -1151,7 +1151,7 @@ province_has_current_tech_trade_trigger = {
 		if = {
 			limit = {
 				owner = {
-					NOT = { dip_tech = 17 }
+					NOT = { dip_tech = 6 }
 				}
 			}
 			has_building = merchant_guild
@@ -1160,20 +1160,11 @@ province_has_current_tech_trade_trigger = {
 			limit = {
 				owner = {
 					AND = {
-						dip_tech = 17
-						NOT = { dip_tech = 22 }
+						dip_tech = 6
 					}
 				}
 			}
-			has_building = trade_depot
-		}
-		else_if = {
-			limit = {
-				owner = {
-					dip_tech = 22
-				}
-			}
-			has_building = stock_exchange
+			has_building = free_market
 		}
 	}
 }
@@ -1336,7 +1327,6 @@ revolution_event_can_happen_trigger = {
 #country scope, used in election events to check whether generated rulers may be female
 republic_with_female_rulers_trigger = {
 	OR = {
-		has_active_policy = mandatory_service
 		has_country_modifier = sister_suffragettes
 		has_country_modifier = mary_inheritance_reforms
 		has_reform = democratic_values_reform

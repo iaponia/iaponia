@@ -8,24 +8,25 @@
 
 groups = {
 	kyushu = {
-		start_level = 2
+		start_level = 1
 		start_cost_modifier = 0
 	}
 	saigoku = {
-		start_level = 2
+		start_level = 1
 		start_cost_modifier = 0
 	}
 	togoku = {
-		start_level = 2
+		start_level = 1
 		start_cost_modifier = 0
 	}
 	tohoku = {
-		start_level = 2
+		start_level = 1
 		start_cost_modifier = 0
 	}
 	ainu = {
-		start_level = 1
-		start_cost_modifier = 0.25
+		start_level = 0
+		start_cost_modifier = 0
+		#was 0.25, but tech no longer works like this
 	}
 }
 

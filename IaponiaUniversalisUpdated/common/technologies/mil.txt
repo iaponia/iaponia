@@ -230,6 +230,7 @@ technology = {
 	enable = standardized_def_samurai
 	enable = standardized_off_taiho
 	enable = standardized_def_taiho
+}
 
 technology = {
 	# Tech 12

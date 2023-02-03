@@ -725,7 +725,7 @@ province_event = {
 		has_dlc = "Cradle of Civilization"
 		OR = {
 			has_building = gunsmith
-			has_building = ranch
+			has_building = arsenal
 		}
 		NOT = { has_province_modifier = thriving_weapons_industry }
 		owner = {

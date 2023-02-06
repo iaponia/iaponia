@@ -41,6 +41,7 @@ technology = {
 	# expects_institution = {
 	# 	sominrigaku = 0.5
 	# 	higashiyama_culture = 0.2
+	#	gekokujo = 0.1
 	# }
 	
 	may_slander_merchants = yes
@@ -57,7 +58,7 @@ technology = {
 	# expects_institution = {
 	# 	sominrigaku = 0.5
 	# 	higashiyama_culture = 0.3
-	# 	gekokujo = 0.1
+	# 	gekokujo = 0.2
 	# }
 	
 	may_study_technology = yes
@@ -71,7 +72,7 @@ technology = {
 	# expects_institution = {
 	# 	sominrigaku = 0.5
 	# 	higashiyama_culture = 0.3
-	# 	gekokujo = 0.2
+	# 	gekokujo = 0.3
 	# }
 	
 	shipyard = yes
@@ -103,7 +104,7 @@ technology = {
 	# 	sominrigaku = 0.5
 	# 	higashiyama_culture = 0.3
 	# 	gekokujo = 0.3
-	# 	gunsmithing = 0.3
+	# 	gunsmithing = 0.2
 	# 	nanban_trade = 0.1
 	# }
 	

@@ -45,6 +45,7 @@ technology = {
 	# expects_institution = {
 	# 	sominrigaku = 0.5
 	# 	higashiyama_culture = 0.2
+	#	gekokujo = 0.1
 	# }
 	
 	infantry_fire = 0.05
@@ -62,7 +63,7 @@ technology = {
 	# expects_institution = {
 	# 	sominrigaku = 0.5
 	# 	higashiyama_culture = 0.3
-	# 	gekokujo = 0.1
+	# 	gekokujo = 0.2
 	# }
 	
 	infantry_fire = 0.15
@@ -80,7 +81,7 @@ technology = {
 	# expects_institution = {
 	# 	sominrigaku = 0.5
 	# 	higashiyama_culture = 0.3
-	# 	gekokujo = 0.2
+	# 	gekokujo = 0.3
 	# }
 	
 	cavalry_shock = 0.2
@@ -115,7 +116,7 @@ technology = {
 	# 	sominrigaku = 0.5
 	# 	higashiyama_culture = 0.3
 	# 	gekokujo = 0.3
-	# 	gunsmithing = 0.3
+	# 	gunsmithing = 0.2
 	# 	nanban_trade = 0.1
 	# }
 	

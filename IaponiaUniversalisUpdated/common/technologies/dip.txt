@@ -250,8 +250,9 @@ technology = {
 	# 	rangaku = 0.5
 	# }
 	
-	interest = -1
-	inflation_action_cost = -0.25
+	#interest = -1
+	#inflation_action_cost = -0.25
+	#need modifiers that work - something not naval
 }
 
 technology = {

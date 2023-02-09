@@ -155,6 +155,7 @@ technology = {
 	# 	gekokujo = 0.3
 	# 	gunsmithing = 0.3
 	# 	nanban_trade = 0.3
+	#	kokudaka_system = 0.1
 	# }
 	
 	infantry_shock = 0.2
@@ -178,7 +179,7 @@ technology = {
 	# 	gekokujo = 0.3
 	# 	gunsmithing = 0.3
 	# 	nanban_trade = 0.3
-	# 	kokudaka_system = 0.1
+	# 	kokudaka_system = 0.2
 	# }
 	
 	land_morale = 0.5
@@ -196,7 +197,7 @@ technology = {
 	# 	gekokujo = 0.3
 	# 	gunsmithing = 0.3
 	# 	nanban_trade = 0.3
-	# 	kokudaka_system = 0.2
+	# 	kokudaka_system = 0.3
 	# }
 	
 	infantry_fire = 0.3

@@ -122,6 +122,7 @@ technology = {
 	# 	gekokujo = 0.3
 	# 	gunsmithing = 0.3
 	# 	nanban_trade = 0.3
+	#	kokudaka_system = 0.1
 	# }
 	
 	shrine_town = yes
@@ -136,7 +137,7 @@ technology = {
 	# 	gekokujo = 0.3
 	# 	gunsmithing = 0.3
 	# 	nanban_trade = 0.3
-	# 	kokudaka_system = 0.1
+	# 	kokudaka_system = 0.2
 	# }
 	
 	tea_retreat = yes
@@ -153,7 +154,7 @@ technology = {
 	# 	gekokujo = 0.3
 	# 	gunsmithing = 0.3
 	# 	nanban_trade = 0.3
-	# 	kokudaka_system = 0.2
+	# 	kokudaka_system = 0.3
 	# }
 	
 	governing_capacity = 50

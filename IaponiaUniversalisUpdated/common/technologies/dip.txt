@@ -140,6 +140,7 @@ technology = {
 	# 	gekokujo = 0.3
 	# 	gunsmithing = 0.3
 	# 	nanban_trade = 0.3
+	#	kokudaka_system = 0.1
 	# }
 	
 	rice_exchange = yes
@@ -155,7 +156,7 @@ technology = {
 	# 	gekokujo = 0.3
 	# 	gunsmithing = 0.3
 	# 	nanban_trade = 0.3
-	# 	kokudaka_system = 0.1
+	# 	kokudaka_system = 0.2
 	# }
 	
 	port_town = yes
@@ -177,7 +178,7 @@ technology = {
 	# 	gekokujo = 0.3
 	# 	gunsmithing = 0.3
 	# 	nanban_trade = 0.3
-	# 	kokudaka_system = 0.2
+	# 	kokudaka_system = 0.3
 	# }
 	
 	may_sabotage_reputation = yes

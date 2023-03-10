@@ -716,7 +716,6 @@ bankruptcy = {
 	prestige_decay = 0.05
 	global_institution_spread = -0.50
 	monthly_militarized_society = -0.5
-	yearly_absolutism = -2.0
 	technology_cost = 0.5
 	idea_cost = 0.5
 	imperial_mandate = -0.1

@@ -1051,7 +1051,6 @@ over_extension = {
 prestige = {
 	land_morale = 0.1
 	naval_morale = 0.1
-	monthly_splendor = 1
 	legitimacy = 1
 	devotion = 1
 	republican_tradition = 0.5

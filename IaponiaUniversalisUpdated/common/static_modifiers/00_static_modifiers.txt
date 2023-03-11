@@ -1131,7 +1131,7 @@ uncontested_cores = {
 
 
 num_objectives_fullfilled = {
-	monthly_splendor = 2
+	monthly_splendor = 1
 }
 
 production_leader = {

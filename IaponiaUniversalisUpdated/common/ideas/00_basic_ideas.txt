@@ -7,975 +7,738 @@
 # ROOT = country picking the idea
 # groups set to colonial=yes will be higher prioritized by the AI when spending power
 
-christian_ideas = {
+physiocratic_ideas = {
 	category = ADM
-
-	bonus = {
-		church_power_modifier = 0.10
-	}
-
-	trigger = {
-		AND = {
-			religion = kirishitan
-			NOT = { has_idea_group = pluralist_ideas }
-			NOT = { has_idea_group = traditional_ideas }
-		}
-	}
-
-	christian_one = {
-		global_missionary_strength = 0.02
-	}
-	christian_two = {
-		idea_cost = -0.1
-	}
-	christian_three = {
-		institution_spread_from_true_faith = 0.15
-	}
-	christian_four = {
-		missionaries = 1
-	}
-	christian_five = {
-		tolerance_own = 2
-	}
-	christian_six = {
-		religious_unity = 0.15
-	}
-	christian_seven = {
-		prestige = 1
-	}
-
-	ai_will_do = {
-		factor = 0.8
-		modifier = {
-			factor = 1.8
-			has_idea_group = trade_ideas
-		}
-		modifier = {
-			factor = 1.5
-			has_idea_group = westernized_ideas
-		}
-	}
-}
-
-
-shinto_ideas = {
-	category = ADM
-
-	bonus = {
-		culture_conversion_cost = -0.25
-	}
-
-	trigger = {
-		AND = {
-			religion = shinto
-			NOT = { has_idea_group = pluralist_ideas }
-		}
-	}
-
-	shinto_one = {
-		stability_cost_modifier = -0.25
-	}
-	shinto_two = {
-		legitimacy = 1
-		devotion = 1
-	}
-	shinto_three = {
-		global_religious_conversion_resistance = 0.5
-	}
-	shinto_four = {
-		tolerance_own = 1
-	}
-	shinto_five = {
-		war_exhaustion_cost = -0.2
-	}
-	shinto_six = {
-		missionaries = 1
-	}
-	shinto_seven = {
-		global_missionary_strength = 0.01
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.75
-			has_idea_group = mercantilist_ideas
-		}
-	}
-}
-
-
-buddhist_ideas = {
-	category = ADM
-
-	bonus = {
-		warscore_cost_vs_other_religion = -0.15
-	}
-
-	trigger = {
-		AND = {
-			religion = jodoshinshu
-			NOT = { has_idea_group = pluralist_ideas }
-		}
-	}
-
-	buddhist_one = {
-		missionaries = 1
-	}
-	buddhist_two = {
-		rebel_support_efficiency = 0.33
-	}
-	buddhist_three = {
-		tolerance_own = 2
-	}
-	buddhist_four = {
-		num_accepted_cultures = 1
-	}
-	buddhist_five = {
-		global_missionary_strength = 0.02
-	}
-	buddhist_six = {
-		devotion = 1
-		legitimacy = 1
-	}
-	buddhist_seven = {
-		cb_on_religious_enemies = yes
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			has_idea_group = ecclesiocratic_ideas
-		}
-	}
-}
-
-pagan_ideas = {
-	category = ADM
-
-	bonus = {
-		stability_cost_modifier = -0.2
-	}
-
-	trigger = {
-		AND = {
-			NOT = { has_idea_group = pluralist_ideas }
-			NOT = { has_idea_group = westernized_ideas }
-			OR = {
-				religion = ainu
-				religion = ryukyuan
-			}
-		}
-	}
-
-	pagan_one = {
-		tolerance_own = 1
-	}
-	pagan_two = {
-		global_religious_conversion_resistance = 0.5
-	}
-	pagan_three = {
-		religious_unity = 0.2
-	}
-	pagan_four = {
-		num_accepted_cultures = 1
-	}
-	pagan_five = {
-		tolerance_heathen = 2
-	}
-	pagan_six = {
-		global_missionary_strength = 0.01
-	}
-	pagan_seven = {
-		missionaries = 1
-	}
-
-	ai_will_do = {
-		factor = 1.25
-		modifier = {
-			factor = 1.2
-			has_idea_group = defensive_ideas
-		}
-	}
-}
-
-pluralist_ideas = {
-	category = ADM
-
-	bonus = {
-		core_creation = -0.1
-	}
-
-	trigger = {
-		AND = {
-			NOT = { has_idea_group = christian_ideas }
-			NOT = { has_idea_group = shinto_ideas }
-			NOT = { has_idea_group = buddhist_ideas }
-			NOT = { has_idea_group = pagan_ideas }
-			NOT = { has_idea_group = ecclesiocratic_ideas }
-			NOT = { has_idea_group = mercantilist_ideas }
-		}
-	}
-
-	pluralist_one = {
-		religious_unity = 0.25
-	}
-	pluralist_two = {
-		global_unrest = -1
-	}
-	pluralist_three = {
-		tolerance_heretic = 2
-		tolerance_heathen = 2
-	}
-	pluralist_four = {
-		num_accepted_cultures = 1
-	}
-	pluralist_five = {
-		idea_cost = -0.1
-	}
-	pluralist_six = {
-		years_of_nationalism = -5
-	}
-	pluralist_seven = {
-		stability_cost_modifier = -0.1
-	}
-
-	ai_will_do = {
-		factor = 0.75
-		modifier = {
-			factor = 0.8
-			has_idea_group = traditional_ideas
-		}
-		modifier = {
-			factor = 1.25
-			has_idea_group = trade_ideas
-		}
-		modifier = {
-			factor = 2
-			has_idea_group = meritocratic_ideas
-		}
-	}
-}
-
-
-aristocratic_ideas = {
-	category = ADM
-
-	bonus = {
-		army_tradition_decay = -0.01
-	}
-
-	trigger = {
-		AND = {
-			has_government_attribute = enables_aristocratic_idea_group
-			NOT = { has_idea_group = meritocratic_ideas }
-		}
-	}
-
-	aristocratic_one = {
-		global_manpower_modifier = 0.2
-	}
-	aristocratic_two = {
-		harsh_treatment_cost = -0.25
-	}
-	aristocratic_three = {
-		diplomatic_reputation = 1
-	}
-	aristocratic_four = {
-		vassal_forcelimit_bonus = 1
-	}
-	aristocratic_five = {
-		culture_conversion_cost = -0.15
-	}
-	aristocratic_six = {
-		reduced_liberty_desire = 10
-	}
-	aristocratic_seven = {
-		prestige_decay = -0.01
-	}
-
-	ai_will_do = {
-		factor = 0.75
-		modifier = {
-			factor = 2
-			has_idea_group = traditional_ideas
-		}
-	}
-}
-
-
-ecclesiocratic_ideas = {
-	category = ADM
-	bonus = {
-		technology_cost = -0.05
-	}
-
-	trigger = {
-		AND = {
-			NOT = { has_government_attribute = enables_aristocratic_idea_group }
-			NOT = { has_idea_group = meritocratic_ideas }
-			NOT = { has_idea_group = pluralist_ideas }
-		}
-	}
-
-	ecclesiocratic_one = {
-		mercenary_cost = -0.25
-	}
-	ecclesiocratic_two = {
-		war_exhaustion_cost = -0.2
-	}
-	ecclesiocratic_three = {
-		merc_maintenance_modifier = -0.25
-	}
-	ecclesiocratic_four = {
-		mercenary_manpower = 0.5
-	}
-	ecclesiocratic_five = {
-		advisor_cost = -0.1
-	}
-	ecclesiocratic_six = {
-		years_of_nationalism = -5
-	}
-	ecclesiocratic_seven = {
-		development_cost = -0.1
-	}
-
-	ai_will_do = {
-		factor = 0.9
-		modifier = {
-			factor = 1.8
-			has_idea_group = buddhist_ideas
-		}
-	}
-}
-
-
-meritocratic_ideas = {
-	category = ADM
-
-	bonus = {
-		embracement_cost = -0.1
-	}
-
-	trigger = {
-		AND = {
-			NOT = { has_idea_group = ecclesiocratic_ideas }
-			NOT = { has_idea_group = aristocratic_ideas }
-			NOT = { has_idea_group = mercantilist_ideas }
-			NOT = { has_idea_group = traditional_ideas }
-		}
-	}
-
-	meritocratic_one = {
-		merc_maintenance_modifier = -0.25
-	}
-	meritocratic_two = {
-		advisor_pool = 1
-	}
-	meritocratic_three = {
-		num_accepted_cultures = 1
-	}
-	meritocratic_four = {
-		global_tax_modifier = 0.1
-	}
-	meritocratic_five = {
-		advisor_cost = -0.25
-	}
-	meritocratic_six = {
-		free_leader_pool = 1
-	}
-	meritocratic_seven = {
-		global_institution_spread = 0.1
-	}
-
-	ai_will_do = {
-		factor = 0.7
-		modifier = {
-			factor = 1.5
-			has_idea_group = pluralist_ideas
-		}
-		modifier = {
-			factor = 1.2
-			has_idea_group = christian_ideas
-		}
-		modifier = {
-			factor = 1.1
-			has_idea_group = buddhist_ideas
-		}
-	}
-}
-
-
-administrative_ideas = {
-	category = ADM
-
+	
 	bonus = {
 		build_cost = -0.1
+		build_time = -0.25
 	}
-
-	administrative_one = {
-		adm_tech_cost_modifier = -0.1
+	
+	trigger = {
+		NOT = { has_idea_group = plutocratic_ideas }
 	}
-	administrative_two = {
-		inflation_reduction = 0.1
+	
+	physiocratic_one = {
+		defensiveness = 0.1
+		fort_maintenance_modifier = -0.1
 	}
-	administrative_three = {
-		yearly_corruption = -0.1
-	}
-	administrative_four = {
-		global_autonomy = -0.05
-	}
-	administrative_five = {
-		land_maintenance_modifier = -0.1
-	}
-	administrative_six = {
-		max_absolutism = 5
-	}
-	administrative_seven = {
+	
+	physiocratic_two = {
 		global_tax_modifier = 0.1
 	}
-
-	ai_will_do = {
-		factor = 1.1
-		modifier = {
-			factor = 0.6
-			has_idea_group = expansion_ideas
-		}
+	
+	physiocratic_three = {
+		global_autonomy = -0.05
 	}
-}
-
-
-expansion_ideas = {
-	category = ADM
-
-	bonus = {
-		administrative_efficiency = 0.05
+	
+	physiocratic_four = {
+		state_maintenance_modifier = -0.5
 	}
-
-	expansion_one = {
-		reinforce_cost_modifier = -0.2
+	
+	physiocratic_five = {
+		war_exhaustion = -0.05
+		global_monthly_devastation = -0.05
 	}
-	expansion_two = {
+	
+	physiocratic_six = {
 		core_creation = -0.2
 	}
-	expansion_three = {
-		war_exhaustion = -0.05
+	
+	physiocratic_seven = {
+		global_prosperity_growth = 0.25
 	}
-	expansion_four = {
-		province_warscore_cost = -0.2
-	}
-	expansion_five = {
-		governing_capacity_modifier = 0.20
-	}
-	expansion_six = {
-		state_maintenance_modifier = -0.25
-	}
-	expansion_seven = {
-		unjustified_demands = -0.33
-	}
-
-	ai_will_do = {
-		factor = 1.25
-		modifier = {
-			factor = 0.6
-			has_idea_group = administrative_ideas
-		}
-	}
-}
-
-
-
-
-trade_ideas = {
-	category = DIP
-
-	bonus = {
-		merchants = 1
-	}
-
-	trigger = {
-		AND = {
-			NOT = { has_idea_group = mercantilist_ideas }
-		}
-	}
-
-	trade_one = {
-		merchants = 1
-	}
-	trade_two = {
-		global_prov_trade_power_modifier = 0.2
-	}
-	trade_three = {
-		global_trade_goods_size_modifier = 0.1
-	}
-	trade_four = {
+	
+	physiocratic_eight = {
 		production_efficiency = 0.1
 	}
-	trade_five = {
-		development_cost = -0.2
-	}
-	trade_six = {
-		global_trade_power = 0.15
-	}
-	trade_seven = {
-		trade_efficiency = 0.1
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.3
-			has_idea_group = christian_ideas
-		}
-		modifier = {
-			factor = 1.1
-			has_idea_group = pluralist_ideas
-		}
-		modifier = {
-			factor = 1.1
-			has_idea_group = meritocratic_ideas
-		}
-		modifier = {
-			factor = 0.6
-			has_idea_group = traditional_ideas
-		}
-		modifier = {
-			factor = 0.8
-			has_idea_group = aristocratic_ideas
-		}
-		modifier = {
-			factor = 0.8
-			has_idea_group = pagan_ideas
-		}
-	}
-}
-
-
-mercantilist_ideas = {
-	category = DIP
-
-	bonus = {
-		merchants = 1
-	}
-
-	trigger = {
-		AND = {
-			NOT = { religion = kirishitan }
-			NOT = { has_idea_group = meritocratic_ideas }
-			NOT = { has_idea_group = trade_ideas }
-			NOT = { has_idea_group = westernized_ideas }
-		}
-	}
-
-	mercantilist_one = {
-		merchants = 1
-	}
-	mercantilist_two = {
-		trade_steering = 0.25
-	}
-	mercantilist_three = {
-		ship_power_propagation = 0.2
-	}
-	mercantilist_four = {
-		caravan_power = 0.25
-	}
-	mercantilist_five = {
-		trade_efficiency = 0.1
-	}
-	mercantilist_six = {
-		naval_forcelimit_modifier = 0.33
-	}
-	mercantilist_seven = {
-		embargo_efficiency = 0.25
-	}
-
-	ai_will_do = {
-		factor = 1.1
-		modifier = {
-			factor = 1.4
-			has_idea_group = aristocratic_ideas
-		}
-		modifier = {
-			factor = 1.1
-			has_idea_group = defensive_ideas
-		}
-		modifier = {
-			factor = 1.1
-			has_idea_group = shinto_ideas
-		}
-		modifier = {
-			factor = 0.7
-			has_idea_group = pluralist_ideas
-		}
-	}
-}
-
-
-maritime_ideas = {
-	category = DIP
-
-	bonus = {
-		privateer_efficiency = 0.15
-	}
-
-	maritime_one = {
-		leader_naval_shock = 1
-	}
-	maritime_two = {
-		naval_morale = 0.15
-	}
-	maritime_three = {
-		global_naval_engagement_modifier = 0.2
-	}
-	maritime_four = {
-		sailors_recovery_speed = 0.2
-	}
-	maritime_five = {
-		leader_naval_fire = 1
-	}
-	maritime_six = {
-		ship_durability = 0.05
-	}
-	maritime_seven = {
-		navy_tradition = 1
-	}
-
-	ai_will_do = {
-		factor = 0.7
-		modifier = {
-			factor = 0
-			NOT = { num_of_ports = 1 }
-		}
-	}
-}
-
-
-diplomatic_ideas = {
-	category = DIP
-
-	bonus = {
-		diplomatic_reputation = 1
-	}
-
-	diplomatic_one = {
-		fabricate_claims_cost = -0.25
-	}
-	diplomatic_two = {
-		diplomats = 1
-	}
-	diplomatic_three = {
-		improve_relation_modifier = 0.3
-	}
-	diplomatic_four = {
-		spy_offence = 0.33
-	}
-	diplomatic_five = {
-		diplomatic_upkeep = 1
-	}
-	diplomatic_six = {
-		global_spy_defence = 0.25
-	}
-	diplomatic_seven = {
-		ae_impact = -0.1
-	}
-
-	ai_will_do = {
-		factor = 1.2
-		modifier = {
-			factor = 0.6
-			has_idea_group = influence_ideas
-		}
-	}
-}
-
-
-influence_ideas = {
-	category = DIP
-
-	bonus = {
-		prestige_decay = -0.01
-	}
-
-	influence_one = {
-		dip_tech_cost_modifier = -0.1
-	}
-	influence_two = {
-		vassal_income = 0.25
-	}
-	influence_three = {
-		diplomatic_reputation = 1
-	}
-	influence_four = {
-		diplomats = 1
-	}
-	influence_five = {
-		reduced_liberty_desire = 10
-	}
-	influence_six = {
-		diplomatic_annexation_cost = -0.25
-	}
-	influence_seven = {
-		diplomatic_upkeep = 1
-	}
-
-	ai_will_do = {
-		factor = 0.9
-		modifier = {
-			factor = 0.6
-			has_idea_group = diplomatic_ideas
-		}
-	}
-}
-
-
-offensive_ideas = {
-	category = MIL
-
-	bonus = {
- 		artillery_power = 0.1
-	}
-
-	trigger = {
-		NOT = { has_idea_group = defensive_ideas }
-	}
-
-	offensive_one = {
-		army_tradition = 1
-	}
-	offensive_two = {
-		manpower_recovery_speed = 0.1
-	}
-	offensive_three = {
-		discipline = 0.05
-	}
-	offensive_four = {
-		land_maintenance_modifier = -0.1
-	}
-	offensive_five = {
-		siege_ability = 0.2
-	}
-	offensive_six = {
-		land_attrition = -0.1
-	}
-	offensive_seven = {
-		artillery_levels_available_vs_fort = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-
-defensive_ideas = {
-	category = MIL
-
-	bonus = {
-		fire_damage_received = -0.1
-	}
-
-	trigger = {
-		NOT = { has_idea_group = offensive_ideas }
-	}
-
-	defensive_one = {
-		defensiveness = 0.25
-	}
-	defensive_two = {
-		land_morale = 0.15
-	}
-	defensive_three = {
-		fort_maintenance_modifier = -0.2
-	}
-	defensive_four = {
-		merc_maintenance_modifier = -0.25
-	}
-	defensive_five = {
-		hostile_attrition = 1
-	}
-	defensive_six = {
-		recover_army_morale_speed = 0.1
-	}
-	defensive_seven = {
-		garrison_size = 0.2
-	}
-
-	ai_will_do = {
-		factor = 1.25
-	}
-}
-
-traditional_ideas = {
-	category = MIL
-
-	bonus = {
-		light_ship_power = 0.2
-	}
-
-	trigger = {
-		AND = {
-			NOT = { has_idea_group = christian_ideas }
-			NOT = { has_idea_group = meritocratic_ideas }
-			NOT = { has_idea_group = westernized_ideas }
-		}
-	}
-
-	traditional_one = {
-		mercenary_discipline = 0.05
-	}
-	traditional_two = {
-		cav_to_inf_ratio = 0.1
-	}
-	traditional_three = {
-		prestige_from_land = 1.0
-	}
-	traditional_four = {
-		cavalry_cost = -0.15
-	}
-	traditional_five = {
-		cavalry_power = 0.10
-	}
-	traditional_six = {
-		shock_damage = 0.1
-	}
-	traditional_seven = {
-		land_morale = 0.1
-	}
-
-	ai_will_do = {
-		factor = 1.1
-		modifier = {
-			factor = 1.5
-			has_idea_group = aristocratic_ideas
-		}
-	}
-}
-
-westernized_ideas = {
-	category = MIL
-
-	bonus = {
-		ship_durability = 0.05
-	}
-
-	trigger = {
-		NOT = { has_idea_group = traditional_ideas }
-		NOT = { has_idea_group = pagan_ideas }
-		NOT = { has_idea_group = mercantilist_ideas }
-	}
-
-	westernized_one = {
-		infantry_power = 0.1
-	}
-	westernized_two = {
-		shock_damage_received = -0.1
-	}
-	westernized_three = {
+	
+	physiocratic_nine = {
 		global_manpower_modifier = 0.25
 	}
-	westernized_four = {
-		discipline = 0.05
+	
+	physiocratic_ten = {
+		global_allowed_num_of_buildings = 1
 	}
-	westernized_five = {
+	
+	ai_will_do = {
+		factor = 
+		modifier = {
+			factor = 
+		}
+	}
+}
+
+plutocratic_ideas = {
+	category = ADM
+	
+	bonus = {
+		expand_infrastructure_cost = -0.25 #placeholder until dominion
+		center_of_trade_upgrade_cost = -0.25
+	}
+	
+	trigger = {
+		NOT = { has_idea_group = physiocratic_ideas }
+	}
+	
+	plutocratic_one = {
+		mercenary_discipline = 0.05
+		merc_maintenance_modifier = -0.25
+	}
+	
+	plutocratic_two = {
+		trade_efficiency = 0.1
+	}
+	
+	plutocratic_three = {
+		interest = -1
+	}
+	
+	plutocratic_four = {
+		development_cost = -0.15
+	}
+	
+	plutocratic_five = {
+		merchants = 1
+		advisor_pool = 1
+	}
+	
+	plutocratic_six = {
+		inflation_reduction = 0.1
+	}
+	
+	plutocratic_seven = {
+		merchants = 1
+	}
+	
+	plutocratic_eight = {
+		mercantilism_cost = -0.25
+	}
+	
+	plutocratic_nine = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	plutocratic_ten = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 
+		modifier = {
+			factor = 
+		}
+	}
+}
+
+patronage_ideas = {
+    category = ADM
+    
+    bonus = {
+        reform_progress_growth = 0.1
+        embracement_cost = -0.1
+    }
+    
+    trigger = {
+        
+    }
+    
+    patronage_one = {
+        idea_cost = -0.1
+        global_institution_spread = 0.1
+    }
+    
+    patronage_two = {
+        innovativeness_gain = 1
+    }
+    
+    patronage_three = {
+        advisor_cost = -0.25
+    }
+    
+    patronage_four = {
+        advisor_pool = 1
+    }
+    
+    patronage_five = {
+        diplomats = 1
+        diplomatic_upkeep = 1
+    }
+    
+    patronage_six = {
+        merchants = 1
+    }
+    
+    patronage_seven = {
+        great_project_upgrade_cost = -0.25
+    }
+    
+    patronage_eight = {
+        prestige = 1
+    }
+    
+    patronage_nine = {
+        technology_cost = -0.1
+    }
+    
+    patronage_ten = {
+        free_policy = 1
+    }
+    
+    ai_will_do = {
+        factor = 
+        modifier = {
+            factor = 
+        }
+    }
+}
+
+devotion_ideas = {
+	category = ADM
+	
+	bonus = {
+		land_morale = 0.1
+		warscore_cost_vs_other_religion = -0.25
+	}
+	
+	trigger = {
+		
+	}
+	
+	devotion_one = {
+		tolerance_own = 2
+		global_religious_conversion_resistance = 0.5
+	}
+	
+	devotion_two = {
+		religious_unity = 0.25
+	}
+	
+	devotion_three = {
+		global_missionary_strength = 0.02
+	}
+	
+	devotion_four = {
+		all_estate_loyalty_equilibrium = 0.1
+	}
+	
+	devotion_five = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.5
+	}
+	
+	devotion_six = {
+		yearly_corruption = -0.1
+	}
+	
+	devotion_seven = {
+		institution_spread_from_true_faith = 0.5
+	}
+	
+	devotion_eight = {
+		global_unrest = -2
+	}
+	
+	devotion_nine = {
+		relation_with_same_religion = 15
+	}
+	
+	devotion_ten = {
+		max_absolutism = 10
+	}
+	
+	ai_will_do = {
+		factor = 
+		modifier = {
+			factor = 
+		}
+	}
+}
+
+centralism_ideas = {
+	category = DIP
+	
+	bonus = {
+		unjustified_demands = -0.25
+		culture_conversion_cost = -0.25
+	}
+	
+	trigger = {
+		NOT = { has_idea_group = federationism_ideas }
+	}
+	
+	centralism_one = {
+		diplomatic_reputation = 1
+		improve_relation_modifier = 0.1
+	}
+	
+	centralism_two = {
+		province_warscore_cost = -0.2
+	}
+	
+	centralism_three = {
+		diplomats = 1
+	}
+	
+	centralism_four = {
+		monthly_reform_progress_modifier = 0.2
+	}
+	
+	centralism_five = {
+		capital_fort_level = 2 #placeholder until Dominion
+		liberty_desire_from_subject_development = -0.1
+	}
+	
+	centralism_six = {
+		governing_capacity_modifier = 0.2
+	}
+	
+	centralism_seven = {
+		diplomatic_upkeep = 1
+	}
+	
+	centralism_eight = {
+		years_of_nationalism = -5
+	}
+	
+	centralism_nine = {
+		global_autonomy = -0.05
+	}
+	
+	centralism_ten = {
+		max_absolutism = 10
+	}
+	
+	ai_will_do = {
+		factor = 
+		modifier = {
+			factor = 
+		}
+	}
+}
+
+federationism_ideas = {
+	category = DIP
+	
+	bonus = {
+		accept_vassalization_reasons = 20
+		diplomatic_annexation_cost = -0.2
+	}
+	
+	trigger = {
+		NOT = { has_idea_group = centralism_ideas }
+	}
+	
+	federationism_one = {
+		diplomats = 1
+		spy_offence = 0.25
+	}
+	
+	federationism_two = {
+		vassal_income = 0.25
+	}
+	
+	federationism_three = {
+		diplomatic_upkeep = 1
+	}
+	
+	federationism_four = {
+		reduced_liberty_desire = 10
+	}
+	
+	federationism_five = {
+		num_accepted_cultures = 1
+		advisor_cost = -0.1
+	}
+	
+	federationism_six = {
+		liberty_desire_from_subject_development = -0.2
+	}
+	
+	federationism_seven = {
+		diplomatic_reputation = 2
+	}
+	
+	federationism_eight = {
+		diplomats = 1
+	}
+	
+	federationism_nine = {
+		vassal_forcelimit_bonus = 0.5
+	}
+	
+	federationism_ten = {
+		improve_relation_modifier = 0.2
+	}
+	
+	ai_will_do = {
+		factor = 
+		modifier = {
+			factor = 
+		}
+	}
+}
+
+mercantile_ideas = {
+	category = DIP
+	
+	bonus = {
+		placed_merchant_power = 5
+		mercantilism_cost = -0.25
+	}
+	
+	trigger = {
+		
+	}
+	
+	mercantile_one = {
+		global_ship_trade_power = 0.5
+		ship_power_propagation = 0.25
+	}
+	mercantile_two = {
+		trade_range_modifier = 0.25
+	}
+	mercantile_three = {
+		merchants = 1
+	}
+	mercantile_four = {
+		trade_steering = 0.25
+	}
+	mercantile_five = {
+		privateer_efficiency = 0.5
+		naval_forcelimit_modifier = 0.25
+	}
+	mercantile_six = {
+		global_sailors_modifier = 0.5
+	}
+	mercantile_seven = {
+		global_institution_spread = 0.25
+	}
+	mercantile_eight = {
+		merchants = 1
+	}
+	mercantile_nine = {
+		naval_tradition_from_trade = 1
+	}
+	mercantile_ten = {
+		global_trade_power = 0.2
+	}
+	
+	ai_will_do = {
+		factor = 
+		modifier = {
+			factor = 
+		}
+	}
+}
+
+etiquette_ideas = {
+	category = DIP
+	
+	bonus = {
+		diplomatic_reputation = 1
+		diplomatic_upkeep = 1
+	}
+	
+	trigger = {
+		
+	}
+	
+	
+	etiquette_one = {
+		#relation_with_same_culture_group = 15#placeholder until Dominion
+		#relation_with_accepted_culture = 10
+	}
+	
+	etiquette_two = {
+		fabricate_claims_cost = -0.25
+	}
+	
+	etiquette_three = {
+		ae_impact = -0.2
+	}
+	
+	etiquette_four = {
+		monthly_favor_modifier = 0.5
+	}
+	
+	etiquette_five = {
+		spy_offence = 0.5
+		siege_ability = 0.1
+	}
+	
+	etiquette_six = {
+		global_spy_defence = 0.33
+	}
+	
+	etiquette_seven = {
+		num_accepted_cultures = 2
+	}
+	
+	etiquette_eight = {
+		improve_relation_modifier = 0.3
+	}
+	
+	etiquette_nine = {
+		rebel_support_efficiency = 1
+	}
+	
+	etiquette_ten = {
+		prestige = 1
+	}
+	
+	ai_will_do = {
+		factor = 
+		modifier = {
+			factor = 
+		}
+	}
+}
+
+mobilization_ideas = {
+	category = MIL
+	
+	bonus = {
+		land_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	trigger = {
+		NOT = { has_idea_group = fortification_ideas }
+	}
+	
+	mobilization_one = {
+		mercenary_cost = -0.1
+		mercenary_manpower = 0.25
+	}
+	
+	mobilization_two = {
 		global_regiment_cost = -0.1
 	}
-	westernized_six = {
-		fire_damage = 0.1
+	
+	mobilization_three = {
+		infantry_power = 0.1
 	}
-	westernized_seven = {
-		land_forcelimit_modifier  = 0.25
+	
+	mobilization_four = {
+		global_ship_cost = -0.1
 	}
-
+	
+	mobilization_five = {
+		cavalry_power = 0.1
+		cav_to_inf_ratio = 0.1
+	}
+	
+	mobilization_six = {
+		ship_durability = 0.1
+	}
+	
+	mobilization_seven = {
+		artillery_power = 0.1
+	}
+	
+	mobilization_eight = {
+		discipline = 0.05
+	}
+	
+	mobilization_nine = {
+		land_attrition = -0.1
+	}
+	
+	mobilization_ten = {
+		global_manpower_modifier = 0.25
+	}
+	
 	ai_will_do = {
-		factor = 0.9
+		factor = 
 		modifier = {
-			factor = 1.8
-			has_idea_group = christian_ideas
+			factor = 
 		}
+	}
+}
+
+fortification_ideas = {
+	category = MIL
+	
+	bonus = {
+		hostile_attrition = 1
+		max_hostile_attrition = 1
+	}
+	
+	trigger = {
+		NOT = { has_idea_group = mobilization_ideas }
+	}
+	
+	fortification_one = {
+		defensiveness = 0.1
+		garrison_size = 0.1
+	}
+	
+	fortification_two = {
+		fort_maintenance_modifier = -0.2
+	}
+	
+	fortification_three = {
+		land_morale = 0.1
+	}
+	
+	fortification_four = {
+		naval_morale = 0.1
+	}
+	 
+	fortification_five = {
+		shock_damage_received = -0.1
+		fire_damage_received = -0.1
+	}
+	
+	fortification_six = {
+		global_naval_engagement_modifier = 0.1
+	}
+	
+	fortification_seven = {
+		recover_army_morale_speed = 0.1
+	}
+	
+	fortification_eight = {
+		manpower_recovery_speed = 0.2
+	}
+	
+	fortification_nine = {
+		reinforce_speed = 0.25
+	}
+	
+	fortification_ten = {
+		global_supply_limit_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 
 		modifier = {
-			factor = 1.5
-			has_idea_group = trade_ideas
+			factor = 
 		}
+	}
+}
+
+logistical_ideas = {
+	category = MIL
+	
+	bonus = {
+		siege_blockade_progress = 1
+		artillery_levels_available_vs_fort = 1
+	}
+	
+	trigger = {
+		
+	}
+	
+	logistical_one = {
+		mercenary_cost = -0.1
+		merc_maintenance_modifier = -0.25
+	}
+	
+	logistical_two = {
+		naval_maintenance_modifier = -0.1
+	}
+	
+	logistical_three = {
+		land_maintenance_modifier = -0.1
+	}
+	
+	logistical_four = {
+		movement_speed = 0.2
+	}
+	
+	logistical_five = {
+		leader_land_manuever = 1
+		leader_naval_manuever = 1
+	}
+	
+	logistical_six = {
+		movement_speed_in_fleet_modifier = 1 
+	}
+	
+	logistical_seven = {
+		leader_siege = 1
+	}
+	
+	logistical_eight = {
+		land_attrition = -0.1
+	}
+	
+	logistical_nine = {
+		reinforce_cost_modifier = -0.25
+	}
+	
+	logistical_ten = {
+		siege_ability = 0.1
+	}
+	
+	ai_will_do = {
+		factor = 
 		modifier = {
-			factor = 1.1
-			has_idea_group = pluralist_ideas
+			factor = 
 		}
 	}
 }
 
 leadership_ideas = {
 	category = MIL
-
+	
 	bonus = {
-		free_leader_pool = 1
-	}
-
-	leadership_one = {
-		leader_land_shock = 1
-	}
-	leadership_two = {
 		army_tradition_decay = -0.01
-	}
-	leadership_three = {
-		leader_naval_manuever = 2
-	}
-	leadership_four = {
-		leader_land_fire = 1
-	}
-	leadership_five = {
 		navy_tradition_decay = -0.01
 	}
+	
+	trigger = {
+		
+	}
+	
+	leadership_one = {
+		mercenary_discipline = 0.05
+		leader_cost = -0.25
+	}
+	
+	leadership_two = {
+		leader_land_shock = 1
+	}
+	
+	leadership_three = {
+		leader_naval_shock = 1
+	}
+	
+	leadership_four = {
+		prestige_from_land = 1
+	}
+	
+	leadership_five = {
+		army_tradition_from_battle = 0.5
+		naval_tradition_from_battle = 0.5
+	}
+	
 	leadership_six = {
-		leader_land_manuever = 1
+		leader_land_fire = 1
 	}
+	
 	leadership_seven = {
-		leader_siege = 1
+		leader_naval_fire = 1
 	}
-
+	
+	leadership_eight = {
+		drill_gain_modifier = 0.5
+	}
+	
+	leadership_nine = {
+		special_unit_forcelimit = 0.1 #placeholder until special units are finalized
+	}
+	
+	leadership_ten = {
+		free_leader_pool = 1
+	}
+	
 	ai_will_do = {
-		factor = 1.25
+		factor = 
 		modifier = {
-			factor = 0.6
-			has_idea_group = organization_ideas
-		}
-	}
-}
-
-organization_ideas = {
-	category = MIL
-
-	bonus = {
-		land_forcelimit_modifier = 0.25
-	}
-
-	organization_one = {
-		mil_tech_cost_modifier  = -0.1
-	}
-	organization_two = {
-		mercenary_manpower = 0.5
-	}
-	organization_three = {
-		movement_speed = 0.15
-	}
-	organization_four = {
-		global_regiment_recruit_speed = -0.15
-	}
-	organization_five = {
-		global_ship_cost = -0.2
-	}
-	organization_six = {
-		reinforce_speed = 0.3
-	}
-	organization_seven = {
-		manpower_recovery_speed = 0.2
-	}
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0.6
-			has_idea_group = leadership_ideas
+			factor = 
 		}
 	}
 }

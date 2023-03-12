@@ -1199,7 +1199,6 @@ absolutism = {
 	development_cost_modifier = -0.25
 	culture_conversion_cost = -0.25
 	autonomy_change_time = -0.25
-	discipline = 0.05
 }
 
 low_army_professionalism = {
@@ -1769,6 +1768,7 @@ revolutionary_guard_regiment = {
 }
 
 innovativeness = {
+	discipline = 0.1
 	idea_cost = -0.25
 	embracement_cost = -0.25
 	global_institution_spread = 0.25

@@ -37,41 +37,41 @@ minamikyushu_c = {
 	}
 }
 
-kitakyushu_c = {
+nakakyushu_c = {
 	graphical_culture = asiangfx
 
 	bungo_c = { 
 		primary = OTM
 		dynasty_names = { Otomo Shiga Tawara Bekki Takita Yoshioka Yoshihiro Ichimada Usuki Saiki Tsunokuma Ouchi }
 	}
-	buzen_c = { 
-		primary = SGI
-		dynasty_names = { Sugi Sada Kaku Ustunomiya Nagano Tawara }
+	higo_c = { 
+		primary = SGR
+		dynasty_names = { Kikuchi Akaboshi Kumabe Jo Kanokogi Nawa Amakusa }
 	}
-	chikuzen_c = { 
-		primary = AKZ
-		dynasty_names = { Tachibana Takahashi Ando Yufu Ono Totoki Takano Munakata }
+	chikugo_c = { 
+		primary = KAA
+		dynasty_names = { Kamachi Oki Harano Tajiri Monjyujo Nishimuta }
 	}
 }
 
-nishikyushu_c = {
+kitakyushu_c = {
 	graphical_culture = asiangfx
 
 	hizen_c = { 
 		primary = RZJ
 		dynasty_names = { Shoni Ryuzoji Nabeshima Egami Kumashiro Oda Ogawa Baba Narimatsu Naritomi Notomi }
 	}
-	chikugo_c = { 
-		primary = KAA
-		dynasty_names = { Kamachi Oki Harano Tajiri Monjyujo Nishimuta }
-	}
-	higo_c = { 
-		primary = SGR
-		dynasty_names = { Kikuchi Akaboshi Kumabe Jo Kanokogi Nawa Amakusa }
-	}
 	tsushima_c = { 
 		primary = SOO
 		dynasty_names = { Kikuchi Akaboshi Kumabe Jo Kanokogi Nawa Amakusa }
+	}
+	chikuzen_c = { 
+		primary = AKZ
+		dynasty_names = { Tachibana Takahashi Ando Yufu Ono Totoki Takano Munakata }
+	}
+	buzen_c = { 
+		primary = SGI
+		dynasty_names = { Sugi Sada Kaku Ustunomiya Nagano Tawara }
 	}
 }
 

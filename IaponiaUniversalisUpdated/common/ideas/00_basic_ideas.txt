@@ -11,8 +11,7 @@ physiocratic_ideas = {
 	category = ADM
 	
 	bonus = {
-		build_cost = -0.1
-		build_time = -0.25
+		max_absolutism = 10
 	}
 	
 	trigger = {
@@ -20,8 +19,8 @@ physiocratic_ideas = {
 	}
 	
 	physiocratic_one = {
-		defensiveness = 0.1
-		fort_maintenance_modifier = -0.1
+		war_exhaustion_cost = -0.25
+		global_monthly_devastation = -0.25
 	}
 	
 	physiocratic_two = {
@@ -29,36 +28,38 @@ physiocratic_ideas = {
 	}
 	
 	physiocratic_three = {
-		global_autonomy = -0.05
-	}
-	
-	physiocratic_four = {
 		state_maintenance_modifier = -0.5
 	}
 	
+	physiocratic_four = {
+		build_cost = -0.1
+		build_time = -0.25
+	}
+	
 	physiocratic_five = {
-		war_exhaustion = -0.05
-		global_monthly_devastation = -0.05
+		core_creation = -0.15
 	}
 	
 	physiocratic_six = {
-		core_creation = -0.2
+		years_of_nationalism = -5
 	}
 	
 	physiocratic_seven = {
-		global_prosperity_growth = 0.25
+		global_unrest = -2
+		harsh_treatment_cost = -0.25
 	}
 	
 	physiocratic_eight = {
-		production_efficiency = 0.1
+		yearly_corruption = -0.1
 	}
 	
 	physiocratic_nine = {
-		global_manpower_modifier = 0.25
+		production_efficiency = 0.1
 	}
 	
 	physiocratic_ten = {
 		global_allowed_num_of_buildings = 1
+		global_prosperity_growth = 0.25
 	}
 	
 	ai_will_do = {
@@ -73,8 +74,7 @@ plutocratic_ideas = {
 	category = ADM
 	
 	bonus = {
-		expand_infrastructure_cost = -0.25 #placeholder until dominion
-		center_of_trade_upgrade_cost = -0.25
+		mercantilism_cost = -0.5
 	}
 	
 	trigger = {
@@ -82,12 +82,12 @@ plutocratic_ideas = {
 	}
 	
 	plutocratic_one = {
-		mercenary_discipline = 0.05
-		merc_maintenance_modifier = -0.25
+		global_prov_trade_power_modifier = 0.25
+		trade_steering = 0.25
 	}
 	
 	plutocratic_two = {
-		trade_efficiency = 0.1
+		monthly_reform_progress = 0.2
 	}
 	
 	plutocratic_three = {
@@ -95,32 +95,34 @@ plutocratic_ideas = {
 	}
 	
 	plutocratic_four = {
-		development_cost = -0.15
+		merchants = 1
+		placed_merchant_power = 5
 	}
 	
 	plutocratic_five = {
-		merchants = 1
-		advisor_pool = 1
+		center_of_trade_upgrade_cost = -0.25
 	}
 	
 	plutocratic_six = {
-		inflation_reduction = 0.1
+		trade_efficiency = 0.1
 	}
 	
 	plutocratic_seven = {
-		merchants = 1
+		inflation_reduction = 0.1
+		gold_depletion_chance_modifier = -0.25
 	}
 	
 	plutocratic_eight = {
-		mercantilism_cost = -0.25
-	}
-	
-	plutocratic_nine = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	
+	plutocratic_nine = {
+		development_cost = -0.1
+	}
+	
 	plutocratic_ten = {
-		global_prov_trade_power_modifier = 0.25
+		global_allowed_num_of_manufactories = 1
+		expand_infrastructure_cost_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -135,8 +137,7 @@ patronage_ideas = {
     category = ADM
     
     bonus = {
-        reform_progress_growth = 0.1
-        embracement_cost = -0.1
+		prestige = 1
     }
     
     trigger = {
@@ -145,44 +146,46 @@ patronage_ideas = {
     
     patronage_one = {
         idea_cost = -0.1
-        global_institution_spread = 0.1
+		global_institution_spread = 0.1
     }
     
     patronage_two = {
-        innovativeness_gain = 1
+        embracement_cost = -0.2
     }
     
     patronage_three = {
-        advisor_cost = -0.25
+		innovativeness_gain = 1
     }
     
     patronage_four = {
-        advisor_pool = 1
+		diplomats = 1
+		monthly_favor_modifier = 0.5
     }
     
     patronage_five = {
-        diplomats = 1
-        diplomatic_upkeep = 1
-    }
-    
-    patronage_six = {
-        merchants = 1
-    }
-    
-    patronage_seven = {
-        great_project_upgrade_cost = -0.25
-    }
-    
-    patronage_eight = {
-        prestige = 1
-    }
-    
-    patronage_nine = {
         technology_cost = -0.1
     }
     
-    patronage_ten = {
+    patronage_six = {
+        advisor_cost = -0.2
+    }
+    
+    patronage_seven = {
+        merchants = 1
+		advisor_pool = 1
+    }
+    
+    patronage_eight = {
         free_policy = 1
+    }
+    
+    patronage_nine = {
+        great_project_upgrade_cost = -0.25
+    }
+    
+    patronage_ten = {
+        all_estate_loyalty_equilibrium = 0.1
+		loyalty_change_on_revoked = 0.1
     }
     
     ai_will_do = {
@@ -197,8 +200,7 @@ devotion_ideas = {
 	category = ADM
 	
 	bonus = {
-		land_morale = 0.1
-		warscore_cost_vs_other_religion = -0.25
+		prestige_per_development_from_conversion = 0.2
 	}
 	
 	trigger = {
@@ -206,45 +208,47 @@ devotion_ideas = {
 	}
 	
 	devotion_one = {
-		tolerance_own = 2
-		global_religious_conversion_resistance = 0.5
+		relation_with_same_religion = 10
+		reduced_liberty_desire = 10
 	}
 	
 	devotion_two = {
-		religious_unity = 0.25
+		tolerance_own = 2
 	}
 	
 	devotion_three = {
-		global_missionary_strength = 0.02
+		stability_cost_modifier = -0.5
 	}
 	
 	devotion_four = {
-		all_estate_loyalty_equilibrium = 0.1
+		religious_unity = 0.25
+		global_religious_conversion_resistance = 0.25
 	}
 	
 	devotion_five = {
-		missionaries = 1
-		missionary_maintenance_cost = -0.5
+		global_missionary_strength = 0.02
 	}
 	
 	devotion_six = {
-		yearly_corruption = -0.1
+		manpower_in_true_faith_provinces = 0.15
 	}
 	
 	devotion_seven = {
-		institution_spread_from_true_faith = 0.5
+		advisor_pool = 1
+		same_religion_advisor_cost = -0.2
 	}
 	
 	devotion_eight = {
-		global_unrest = -2
+		warscore_cost_vs_other_religion = -0.25
 	}
 	
 	devotion_nine = {
-		relation_with_same_religion = 15
+		institution_spread_from_true_faith = 0.25
 	}
 	
 	devotion_ten = {
-		max_absolutism = 10
+		missionaries = 1
+		missionary_maintenance_cost = -0.5
 	}
 	
 	ai_will_do = {
@@ -259,8 +263,7 @@ centralism_ideas = {
 	category = DIP
 	
 	bonus = {
-		unjustified_demands = -0.25
-		culture_conversion_cost = -0.25
+		max_absolutism_effect = 0.25
 	}
 	
 	trigger = {
@@ -268,45 +271,47 @@ centralism_ideas = {
 	}
 	
 	centralism_one = {
-		diplomatic_reputation = 1
-		improve_relation_modifier = 0.1
+		diplomats = 1
+		unjustified_demands = -0.25
 	}
 	
 	centralism_two = {
-		province_warscore_cost = -0.2
+		max_absolutism = 10
 	}
 	
 	centralism_three = {
-		diplomats = 1
-	}
-	
-	centralism_four = {
-		monthly_reform_progress_modifier = 0.2
-	}
-	
-	centralism_five = {
-		capital_fort_level = 2 #placeholder until Dominion
-		liberty_desire_from_subject_development = -0.1
-	}
-	
-	centralism_six = {
-		governing_capacity_modifier = 0.2
-	}
-	
-	centralism_seven = {
-		diplomatic_upkeep = 1
-	}
-	
-	centralism_eight = {
-		years_of_nationalism = -5
-	}
-	
-	centralism_nine = {
 		global_autonomy = -0.05
 	}
 	
+	centralism_four = {
+		diplomatic_reputation = 1
+		diplomatic_upkeep = 1
+	}
+	
+	centralism_five = {
+		reform_progress_growth = 0.2
+	}
+	
+	centralism_six = {
+		culture_conversion_cost = -0.25
+	}
+	
+	centralism_seven = {
+		development_cost_in_primary_culture = -0.15
+		manpower_in_own_culture_provinces = 0.15
+	}
+	
+	centralism_eight = {
+		liberty_desire_from_subject_development = -0.25
+	}
+	
+	centralism_nine = {
+		yearly_absolutism = 0.5
+	}
+	
 	centralism_ten = {
-		max_absolutism = 10
+		province_warscore_cost = -0.2
+		governing_capacity_modifier = 0.2
 	}
 	
 	ai_will_do = {
@@ -321,8 +326,7 @@ federationism_ideas = {
 	category = DIP
 	
 	bonus = {
-		accept_vassalization_reasons = 20
-		diplomatic_annexation_cost = -0.2
+		accept_vassalization_reasons = 15
 	}
 	
 	trigger = {
@@ -331,44 +335,46 @@ federationism_ideas = {
 	
 	federationism_one = {
 		diplomats = 1
-		spy_offence = 0.25
-	}
-	
-	federationism_two = {
-		vassal_income = 0.25
-	}
-	
-	federationism_three = {
 		diplomatic_upkeep = 1
 	}
 	
-	federationism_four = {
-		reduced_liberty_desire = 10
+	federationism_two = {
+		improve_relation_modifier = 0.3
 	}
 	
-	federationism_five = {
-		num_accepted_cultures = 1
-		advisor_cost = -0.1
-	}
-	
-	federationism_six = {
-		liberty_desire_from_subject_development = -0.2
-	}
-	
-	federationism_seven = {
-		diplomatic_reputation = 2
-	}
-	
-	federationism_eight = {
-		diplomats = 1
-	}
-	
-	federationism_nine = {
+	federationism_three = {
 		vassal_forcelimit_bonus = 0.5
 	}
 	
+	federationism_four = {
+		all_estate_possible_privileges = 1
+		all_estate_loyalty_equilibrium = 0.1
+	}
+	
+	federationism_five = {
+		vassal_income = 0.25
+	}
+	
+	federationism_six = {
+		reduced_liberty_desire = 15
+	}
+	
+	federationism_seven = {
+		diplomatic_annexation_cost = -0.25
+		annexation_relations_impact = -0.25
+	}
+	
+	federationism_eight = {
+		diplomatic_reputation = 2
+	}
+	
+	federationism_nine = {
+		liberty_desire_from_subject_development = -0.15
+	}
+	
 	federationism_ten = {
-		improve_relation_modifier = 0.2
+		diplomats = 1
+		num_accepted_cultures = 1
 	}
 	
 	ai_will_do = {
@@ -383,8 +389,7 @@ mercantile_ideas = {
 	category = DIP
 	
 	bonus = {
-		placed_merchant_power = 5
-		mercantilism_cost = -0.25
+		trade_efficiency = 0.1
 	}
 	
 	trigger = {
@@ -392,36 +397,38 @@ mercantile_ideas = {
 	}
 	
 	mercantile_one = {
-		global_ship_trade_power = 0.5
-		ship_power_propagation = 0.25
+		merchants = 1
+		placed_merchant_power = 10
 	}
 	mercantile_two = {
-		trade_range_modifier = 0.25
-	}
-	mercantile_three = {
-		merchants = 1
-	}
-	mercantile_four = {
 		trade_steering = 0.25
 	}
-	mercantile_five = {
-		privateer_efficiency = 0.5
-		naval_forcelimit_modifier = 0.25
-	}
-	mercantile_six = {
-		global_sailors_modifier = 0.5
-	}
-	mercantile_seven = {
-		global_institution_spread = 0.25
-	}
-	mercantile_eight = {
-		merchants = 1
-	}
-	mercantile_nine = {
+	mercantile_three = {
 		naval_tradition_from_trade = 1
 	}
-	mercantile_ten = {
+	mercantile_four = {
+		global_ship_trade_power = 0.25
+		global_sailors_modifier = 0.25
+	}
+	mercantile_five = {
 		global_trade_power = 0.2
+	}
+	mercantile_six = {
+		global_naval_engagement_modifier = 0.1
+	}
+	mercantile_seven = {
+		privateer_efficiency = 0.5
+		blockade_efficiency = 0.5
+	}
+	mercantile_eight = {
+		siege_blockade_progress = 1
+	}
+	mercantile_nine = {
+		movement_speed_in_fleet_modifier = 1
+	}
+	mercantile_ten = {
+		merchants = 1
+		placed_merchant_power_modifier = 0.25
 	}
 	
 	ai_will_do = {
@@ -436,8 +443,7 @@ etiquette_ideas = {
 	category = DIP
 	
 	bonus = {
-		diplomatic_reputation = 1
-		diplomatic_upkeep = 1
+		prestige_decay = -0.01
 	}
 	
 	trigger = {
@@ -446,45 +452,47 @@ etiquette_ideas = {
 	
 	
 	etiquette_one = {
-		#relation_with_same_culture_group = 15#placeholder until Dominion
-		#relation_with_accepted_culture = 10
+		relation_with_same_culture_group = 10
+		relation_with_accepted_culture = 10
 	}
 	
 	etiquette_two = {
-		fabricate_claims_cost = -0.25
-	}
-	
-	etiquette_three = {
-		ae_impact = -0.2
-	}
-	
-	etiquette_four = {
 		monthly_favor_modifier = 0.5
 	}
 	
+	etiquette_three = {
+		fabricate_claims_cost = -0.25
+	}
+	
+	etiquette_four = {
+		improve_relation_modifier = 0.2
+		ae_impact = -0.2
+	}
+	
 	etiquette_five = {
+		diplomatic_reputation = 1
+	}
+	
+	etiquette_six = {
+		global_spy_defence = 0.25
+	}
+	
+	etiquette_seven = {
 		spy_offence = 0.5
 		siege_ability = 0.1
 	}
 	
-	etiquette_six = {
-		global_spy_defence = 0.33
-	}
-	
-	etiquette_seven = {
-		num_accepted_cultures = 2
-	}
-	
 	etiquette_eight = {
-		improve_relation_modifier = 0.3
-	}
-	
-	etiquette_nine = {
 		rebel_support_efficiency = 1
 	}
 	
+	etiquette_nine = {
+		num_accepted_cultures = 2
+	}
+	
 	etiquette_ten = {
-		prestige = 1
+		spy_action_cost_modifier = -0.25
+		unjustified_demands = -0.25
 	}
 	
 	ai_will_do = {
@@ -499,8 +507,7 @@ mobilization_ideas = {
 	category = MIL
 	
 	bonus = {
-		land_forcelimit_modifier = 0.25
-		naval_forcelimit_modifier = 0.25
+		special_unit_cost_modifier = -0.1
 	}
 	
 	trigger = {
@@ -508,33 +515,34 @@ mobilization_ideas = {
 	}
 	
 	mobilization_one = {
-		mercenary_cost = -0.1
-		mercenary_manpower = 0.25
-	}
-	
-	mobilization_two = {
+		infantry_power = 0.1
 		global_regiment_cost = -0.1
 	}
 	
-	mobilization_three = {
-		infantry_power = 0.1
-	}
-	
-	mobilization_four = {
+	mobilization_two = {
 		global_ship_cost = -0.1
 	}
 	
-	mobilization_five = {
+	mobilization_three = {
+		leader_land_shock = 1
+	}
+	
+	mobilization_four = {
 		cavalry_power = 0.1
 		cav_to_inf_ratio = 0.1
 	}
 	
+	mobilization_five = {
+		land_attrition = -0.1
+	}
+	
 	mobilization_six = {
-		ship_durability = 0.1
+		leader_land_fire = 1
 	}
 	
 	mobilization_seven = {
 		artillery_power = 0.1
+		siege_ability = 0.1
 	}
 	
 	mobilization_eight = {
@@ -542,11 +550,12 @@ mobilization_ideas = {
 	}
 	
 	mobilization_nine = {
-		land_attrition = -0.1
+		ship_durability = 0.1
 	}
 	
 	mobilization_ten = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.1
+		regiment_manpower_usage = -0.1
 	}
 	
 	ai_will_do = {
@@ -561,8 +570,7 @@ fortification_ideas = {
 	category = MIL
 	
 	bonus = {
-		hostile_attrition = 1
-		max_hostile_attrition = 1
+		defensiveness = 0.25
 	}
 	
 	trigger = {
@@ -570,33 +578,34 @@ fortification_ideas = {
 	}
 	
 	fortification_one = {
-		defensiveness = 0.1
-		garrison_size = 0.1
+		build_cost = -0.1
+		fort_maintenance_modifier = -0.1
 	}
 	
 	fortification_two = {
-		fort_maintenance_modifier = -0.2
+		morale_damage = 0.1
 	}
 	
 	fortification_three = {
-		land_morale = 0.1
+		reinforce_speed = 0.25
 	}
 	
 	fortification_four = {
+		land_morale = 0.1
 		naval_morale = 0.1
 	}
 	 
 	fortification_five = {
-		shock_damage_received = -0.1
-		fire_damage_received = -0.1
+		recover_army_morale_speed = 0.1
 	}
 	
 	fortification_six = {
-		global_naval_engagement_modifier = 0.1
+		recover_navy_morale_speed = 0.1
 	}
 	
 	fortification_seven = {
-		recover_army_morale_speed = 0.1
+		garrison_size = 0.25
+		garrison_damage = 0.25
 	}
 	
 	fortification_eight = {
@@ -604,11 +613,12 @@ fortification_ideas = {
 	}
 	
 	fortification_nine = {
-		reinforce_speed = 0.25
+		war_exhaustion = -0.05
 	}
 	
 	fortification_ten = {
-		global_supply_limit_modifier = 0.25
+		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	
 	ai_will_do = {
@@ -623,8 +633,7 @@ logistical_ideas = {
 	category = MIL
 	
 	bonus = {
-		siege_blockade_progress = 1
-		artillery_levels_available_vs_fort = 1
+		assault_fort_ability = 0.25
 	}
 	
 	trigger = {
@@ -632,45 +641,47 @@ logistical_ideas = {
 	}
 	
 	logistical_one = {
-		mercenary_cost = -0.1
+		mercenary_cost = -0.25
 		merc_maintenance_modifier = -0.25
 	}
 	
 	logistical_two = {
-		naval_maintenance_modifier = -0.1
-	}
-	
-	logistical_three = {
 		land_maintenance_modifier = -0.1
 	}
 	
-	logistical_four = {
-		movement_speed = 0.2
+	logistical_three = {
+		naval_maintenance_modifier = -0.1
 	}
 	
-	logistical_five = {
+	logistical_four = {
 		leader_land_manuever = 1
 		leader_naval_manuever = 1
 	}
 	
+	logistical_five = {
+		movement_speed = 0.1
+	}
+	
 	logistical_six = {
-		movement_speed_in_fleet_modifier = 1 
-	}
-	
-	logistical_seven = {
-		leader_siege = 1
-	}
-	
-	logistical_eight = {
-		land_attrition = -0.1
-	}
-	
-	logistical_nine = {
 		reinforce_cost_modifier = -0.25
 	}
 	
+	logistical_seven = {
+		land_forcelimit_modifier = 0.2
+		naval_forcelimit_modifier = 0.2
+	}
+	
+	logistical_eight = {
+		global_supply_limit_modifier = 0.25
+	}
+	
+	logistical_nine = {
+		leader_siege = 1
+	}
+	
 	logistical_ten = {
-		siege_ability = 0.1
+		artillery_level_modifier = 1
+		artillery_levels_available_vs_fort = 1
 	}
 	
 	ai_will_do = {
@@ -685,8 +696,7 @@ leadership_ideas = {
 	category = MIL
 	
 	bonus = {
-		army_tradition_decay = -0.01
-		navy_tradition_decay = -0.01
+		leader_cost = -0.25
 	}
 	
 	trigger = {
@@ -695,44 +705,46 @@ leadership_ideas = {
 	
 	leadership_one = {
 		mercenary_discipline = 0.05
-		leader_cost = -0.25
+		merc_leader_army_tradition = 0.5
 	}
 	
 	leadership_two = {
-		leader_land_shock = 1
+		morale_damage_received = -0.1
 	}
 	
 	leadership_three = {
-		leader_naval_shock = 1
+		drill_gain_modifier = 0.5
 	}
 	
 	leadership_four = {
-		prestige_from_land = 1
-	}
-	
-	leadership_five = {
 		army_tradition_from_battle = 0.5
 		naval_tradition_from_battle = 0.5
 	}
 	
+	leadership_five = {
+		sunk_ship_morale_hit_recieved = -0.25
+	}
+	
 	leadership_six = {
-		leader_land_fire = 1
+		navy_tradition = 0.5
 	}
 	
 	leadership_seven = {
-		leader_naval_fire = 1
+		free_leader_pool = 1
+		advisor_pool = 1
 	}
 	
 	leadership_eight = {
-		drill_gain_modifier = 0.5
+		army_tradition = 0.5
 	}
 	
 	leadership_nine = {
-		special_unit_forcelimit = 0.1 #placeholder until special units are finalized
+		special_unit_forcelimit = 0.1
 	}
 	
 	leadership_ten = {
-		free_leader_pool = 1
+		army_tradition_decay = -0.01
+		navy_tradition_decay = -0.01
 	}
 	
 	ai_will_do = {

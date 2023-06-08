@@ -1,1570 +1,335 @@
-christian_influence = {
+physiocratic_centralism = {
 
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = christian_ideas
-		has_idea_group = influence_ideas
-		OR = {
-			full_idea_group = christian_ideas
-			full_idea_group = influence_ideas
-		}		
+		has_idea_group = physiocratic_ideas
+		has_idea_group = centralism_ideas	
 	}
 	allow = {
-		full_idea_group = christian_ideas
-		full_idea_group = influence_ideas
+		full_idea_group = physiocratic_ideas
+		full_idea_group = centralism_ideas
 	}
 	
-	tolerance_heathen = 2
+	reduced_liberty_desire = 10
+	vassal_income = 0.2
 	
 	ai_will_do = {
-		factor = 1	
-		modifier = {
-			factor = 0
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}	
+		
 	}
 }
 
-christian_defensive = {
+physiocratic_federationism = {
 
 	monarch_power = ADM
 
-
 	potential = {
-		has_idea_group = christian_ideas
-		has_idea_group = defensive_ideas
-		OR = {
-			full_idea_group = christian_ideas
-			full_idea_group = defensive_ideas
-		}
+		has_idea_group = physiocratic_ideas
+		has_idea_group = federationism_ideas	
+	}
+	allow = {
+		full_idea_group = physiocratic_ideas
+		full_idea_group = federationism_ideas
 	}
 	
-	allow = {
-		full_idea_group = christian_ideas
-		full_idea_group = defensive_ideas
-	}
-
-	religious_unity = 0.2
-	land_forcelimit_modifier = 0.2
-
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = { army_size_percentage = 0.9 }
-		}			
-		modifier = {
-			factor = 1.5
-			army_size_percentage = 1.1
-		}
-		modifier = {
-			factor = 1.5
-			army_size_percentage = 1.5
-		}
-		modifier = {
-			factor = 1.5
-			army_size_percentage = 2
-		}
-		modifier = {
-			factor = 1.5
-			army_size_percentage = 2.5
-		}
-		modifier = {
-			factor = 0
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}	
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}	
-	}
-
-}
-
-christian_leadership = {
-	monarch_power = ADM
-
-
-	potential = {
-		has_idea_group = christian_ideas
-		has_idea_group = leadership_ideas
-		OR = {
-			full_idea_group = christian_ideas
-			full_idea_group = leadership_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = christian_ideas
-		full_idea_group = leadership_ideas
-	}
-
-	legitimacy = 1
+	years_of_nationalism = -5
+	development_cost = -0.1
 	
 	ai_will_do = {
-		factor = 0.75
-		modifier = {
-			factor = 0
-			legitimacy = 95
-		}		
-		modifier = {
-			factor = 1.5
-			NOT = { legitimacy = 80 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { legitimacy = 60 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { legitimacy = 40 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { legitimacy = 20 }
-		}
+		
 	}
 }
- 
-shinto_trade = {
+
+physiocratic_mercantile = {
+
 	monarch_power = ADM
 
-
 	potential = {
-		has_idea_group = shinto_ideas
-		has_idea_group = trade_ideas
-		OR = {
-			full_idea_group = shinto_ideas
-			full_idea_group = trade_ideas
-		}
+		has_idea_group = physiocratic_ideas
+		has_idea_group = mercantile_ideas	
+	}
+	allow = {
+		full_idea_group = physiocratic_ideas
+		full_idea_group = mercantile_ideas
 	}
 	
-	allow = {
-		full_idea_group = shinto_ideas
-		full_idea_group = trade_ideas
-	}
-
-	religious_unity = 0.2
 	global_trade_goods_size_modifier = 0.1
+	gold_depletion_chance_modifier = -0.25
 	
 	ai_will_do = {
-		factor = 0.75
-		modifier = {
-			factor = 0
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}
+		
 	}
-} 
+}
 
-shinto_mercantilist = {
+physiocratic_etiquette = {
+
 	monarch_power = ADM
 
-
 	potential = {
-		has_idea_group = shinto_ideas
-		has_idea_group = mercantilist_ideas
-		OR = {
-			full_idea_group = shinto_ideas
-			full_idea_group = mercantilist_ideas
-		}
+		has_idea_group = physiocratic_ideas
+		has_idea_group = etiquette_ideas	
+	}
+	allow = {
+		full_idea_group = physiocratic_ideas
+		full_idea_group = etiquette_ideas
 	}
 	
-	allow = {
-		full_idea_group = shinto_ideas
-		full_idea_group = mercantilist_ideas
+	monthly_reform_progress = 0.1
+	all_estate_loyalty_equilibrium = 0.1
+	
+	ai_will_do = {
+		
 	}
+}
 
-	global_religious_conversion_resistance = 0.25
+plutocratic_centralism = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = plutocratic_ideas
+		has_idea_group = centralism_ideas
+	}
+	allow = {
+		full_idea_group = plutocratic_ideas
+		full_idea_group = centralism_ideas
+	}
+	
+	production_efficiency = 0.1
+	build_cost = -0.1
+	
+	ai_will_do = {
+		
+	}
+}
+
+plutocratic_federationism = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = plutocratic_ideas
+		has_idea_group = federationism_ideas
+	}
+	allow = {
+		full_idea_group = plutocratic_ideas
+		full_idea_group = federationism_ideas
+	}
+	
+	merchants = 1
+	placed_merchant_power_modifier = 0.25
+	
+	ai_will_do = {
+		
+	}
+}
+
+plutocratic_mercantile = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = plutocratic_ideas
+		has_idea_group = mercantile_ideas
+	}
+	allow = {
+		full_idea_group = plutocratic_ideas
+		full_idea_group = mercantile_ideas
+	}
+	
+	production_efficiency = 0.1
+	global_institution_spread = 0.1
+	
+	ai_will_do = {
+		
+	}
+}
+
+plutocratic_etiquette = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = plutocratic_ideas
+		has_idea_group = etiquette_ideas
+	}
+	allow = {
+		full_idea_group = plutocratic_ideas
+		full_idea_group = etiquette_ideas
+	}
+	
+	diplomats = 1
+	interest = -0.5
+	
+	ai_will_do = {
+		
+	}
+}
+
+patronage_centralism = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = patronage_ideas
+		has_idea_group = centralism_ideas
+	}
+	allow = {
+		full_idea_group = patronage_ideas
+		full_idea_group = centralism_ideas
+	}
+	
+	diplomatic_reputation = 1
+	diplomatic_annexation_cost = -0.2
+	
+	ai_will_do = {
+		
+	}
+}
+
+patronage_federationism = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = patronage_ideas
+		has_idea_group = federationism_ideas
+	}
+	allow = {
+		full_idea_group = patronage_ideas
+		full_idea_group = federationism_ideas
+	}
+	
+	max_absolutism = 10
+	reform_progress_growth = 0.1
+	
+	ai_will_do = {
+		
+	}
+}
+
+patronage_mercantile = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = patronage_ideas
+		has_idea_group = mercantile_ideas
+	}
+	allow = {
+		full_idea_group = patronage_ideas
+		full_idea_group = mercantile_ideas
+	}
+	
+	development_cost = -0.1
+	center_of_trade_upgrade_cost = -0.25
+	
+	ai_will_do = {
+		
+	}
+}
+
+patronage_etiquette = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = patronage_ideas
+		has_idea_group = etiquette_ideas
+	}
+	allow = {
+		full_idea_group = patronage_ideas
+		full_idea_group = etiquette_ideas
+	}
+	
+	diplomatic_upkeep = 1
+	liberty_desire_from_subject_development = -0.15
+	
+	ai_will_do = {
+		
+	}
+}
+
+devotion_centralism = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = devotion_ideas
+		has_idea_group = centralism_ideas
+	}
+	allow = {
+		full_idea_group = devotion_ideas
+		full_idea_group = centralism_ideas
+	}
+	
+	global_missionary_strength = 0.01
+	improve_relation_modifier = 0.2
+	
+	ai_will_do = {
+		
+	}
+}
+
+devotion_federationism = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = devotion_ideas
+		has_idea_group = federationism_ideas
+	}
+	allow = {
+		full_idea_group = devotion_ideas
+		full_idea_group = federationism_ideas
+	}
+	
+	tolerance_own = 1
+	max_absolutism_effect = 0.25
+	
+	ai_will_do = {
+		
+	}
+}
+
+devotion_mercantile = {
+
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = devotion_ideas
+		has_idea_group = mercantile_ideas
+	}
+	allow = {
+		full_idea_group = devotion_ideas
+		full_idea_group = mercantile_ideas
+	}
+	
+	technology_cost = -0.1
 	global_trade_power = 0.1
 	
 	ai_will_do = {
-		factor = 1		
-		modifier = {
-			factor = 0
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}
-		modifier = {
-			factor = 0
-			NOT = { trade_income_percentage = 0.1 }
-		}			
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.2
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.3
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.4
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.5
-		}
+		
 	}
 }
 
-shinto_westernized = {
+devotion_etiquette = {
+
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = shinto_ideas
-		has_idea_group = westernized_ideas
-		OR = {
-			full_idea_group = shinto_ideas
-			full_idea_group = westernized_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = shinto_ideas
-		full_idea_group = westernized_ideas
-	}
-
-	global_missionary_strength = 0.01
-	culture_conversion_cost = -0.1
-
-	ai_will_do = {
-		factor = 0.9
-		modifier = {
-			factor = 0
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}
-	}
-}
-
-shinto_organization = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = shinto_ideas
-		has_idea_group = organization_ideas
-		OR = {
-			full_idea_group = shinto_ideas
-			full_idea_group = organization_ideas
-		}	
+		has_idea_group = devotion_ideas
+		has_idea_group = etiquette_ideas
 	}
 	allow = {
-		full_idea_group = shinto_ideas
-		full_idea_group = organization_ideas
+		full_idea_group = devotion_ideas
+		full_idea_group = etiquette_ideas
 	}
 	
-	religious_unity = 0.2
-	global_tax_modifier = 0.1
-	
-	ai_will_do = {
-		factor = 1.25	
-	}
-}
-
-buddhist_mercantilist = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = buddhist_ideas
-		has_idea_group = mercantilist_ideas
-		OR = {
-			full_idea_group = buddhist_ideas
-			full_idea_group = mercantilist_ideas
-		}	
-	}
-	allow = {
-		full_idea_group = buddhist_ideas
-		full_idea_group = mercantilist_ideas
-	}
-	
-	development_cost = -0.1
-	global_missionary_strength = 0.01
+	diplomats = 1
+	rebel_support_efficiency = 1
 	
 	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}
-	}
-}
-
-buddhist_traditional = {
-	monarch_power = ADM
-	potential = {
-		has_idea_group = buddhist_ideas
-		has_idea_group = traditional_ideas
-		OR = {
-			full_idea_group = buddhist_ideas
-			full_idea_group = traditional_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = buddhist_ideas
-		full_idea_group = traditional_ideas
-	}
-	
-	global_missionary_strength = 0.01
-	infantry_power = 0.1
-
-	ai_will_do = {
-		factor = 1.2
-		modifier = {
-			factor = 0
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}
-		modifier = {
-			factor = 1.5
-			infantry_fraction = 0.28
-		}
-		modifier = {
-			factor = 1.5
-			infantry_fraction = 0.38
-		}
-		modifier = {
-			factor = 1.5
-			infantry_fraction = 0.45
-		}
-	}
-}
-
-buddhist_leadership = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = buddhist_ideas
-		has_idea_group = leadership_ideas
-		OR = {
-			full_idea_group = buddhist_ideas
-			full_idea_group = leadership_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = buddhist_ideas
-		full_idea_group = leadership_ideas
-	}	
-	
-	global_autonomy = -0.05
-	reduced_liberty_desire = 10
-	
-	ai_will_do = {
-		factor = 0.6
-	}
-}
-
-buddhist_organization = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = buddhist_ideas
-		has_idea_group = organization_ideas
-		OR = {
-			full_idea_group = buddhist_ideas
-			full_idea_group = organization_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = buddhist_ideas
-		full_idea_group = organization_ideas
-	}	
-	
-	state_maintenance_modifier = -0.25
-	num_accepted_cultures = 1
-	
-	ai_will_do = {
-		factor = 1		
-	}
-}
-
-pagan_mercantilist = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = pagan_ideas
-		has_idea_group = mercantilist_ideas
-		OR = {
-			full_idea_group = pagan_ideas
-			full_idea_group = mercantilist_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = pagan_ideas
-		full_idea_group = mercantilist_ideas
-	}	
-	
-	development_cost = -0.1
-	global_trade_goods_size_modifier = 0.1
-	
-	ai_will_do = {
-		factor = 1.2
-	}
-	
-}
-
-pagan_diplomatic = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = pagan_ideas
-		has_idea_group = diplomatic_ideas
-		OR = {
-			full_idea_group = pagan_ideas
-			full_idea_group = diplomatic_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = pagan_ideas
-		full_idea_group = diplomatic_ideas
-	}	
-	
-	tolerance_heathen = 1
-	global_institution_spread = 0.1
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0.6
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}	
-	}
-}
-
-pagan_offensive = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = pagan_ideas
-		has_idea_group = offensive_ideas
-		OR = {
-			full_idea_group = pagan_ideas
-			full_idea_group = offensive_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = pagan_ideas
-		full_idea_group = offensive_ideas
-	}	
-	
-	global_missionary_strength = 0.01
-	culture_conversion_cost = -0.15 
-	
-	ai_will_do = {
-		factor = 1.2
-		modifier = {
-			factor = 0.6
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}
-	}
-}
-
-pagan_organization = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = pagan_ideas
-		has_idea_group = organization_ideas
-		OR = {
-			full_idea_group = pagan_ideas
-			full_idea_group = organization_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = pagan_ideas
-		full_idea_group = organization_ideas
-	}	
-	
-	num_accepted_cultures = 1
-	religious_unity = 0.15
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0.6
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}
-	}
-}
-
-pluralist_diplomatic = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = pluralist_ideas
-		has_idea_group = diplomatic_ideas
-		OR = {
-			full_idea_group = pluralist_ideas
-			full_idea_group = diplomatic_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = pluralist_ideas
-		full_idea_group = diplomatic_ideas
-	}	
-	
-	prestige = 1
-	diplomatic_reputation = 1
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-pluralist_defensive = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = pluralist_ideas
-		has_idea_group = defensive_ideas
-		OR = {
-			full_idea_group = pluralist_ideas
-			full_idea_group = defensive_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = pluralist_ideas
-		full_idea_group = defensive_ideas
-	}	
-	
-	religious_unity = 0.2
-	war_exhaustion_cost = -0.2
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}	
-	}
-}
-
-pluralist_traditional = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = pluralist_ideas
-		has_idea_group = traditional_ideas
-		OR = {
-			full_idea_group = pluralist_ideas
-			full_idea_group = traditional_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = pluralist_ideas
-		full_idea_group = traditional_ideas
-	}	
-	
-	religious_unity = 0.2
-	global_unrest = -1
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0
-			religious_unity = 1
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.8 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.6 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.4 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { religious_unity = 0.2 }
-		}
-	}
-}
-
-pluralist_leadership = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = pluralist_ideas
-		has_idea_group = leadership_ideas
-		OR = {
-			full_idea_group = pluralist_ideas
-			full_idea_group = leadership_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = pluralist_ideas
-		full_idea_group = leadership_ideas
-	}	
-	
-	num_accepted_cultures = 1
-	advisor_cost = -0.1
-	
-	ai_will_do = {
-		factor = 0.8
-	}
-}
-
-pluralist_organization = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = pluralist_ideas
-		has_idea_group = organization_ideas
-		OR = {
-			full_idea_group = pluralist_ideas
-			full_idea_group = organization_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = pluralist_ideas
-		full_idea_group = organization_ideas
-	}	
-	
-	global_tax_modifier = 0.1
-	yearly_corruption = -0.1
-	
-	ai_will_do = {
-		factor = 1.5
-	}
-}
-
-aristocratic_trade = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = aristocratic_ideas
-		has_idea_group = trade_ideas
-		OR = {
-			full_idea_group = aristocratic_ideas
-			full_idea_group = trade_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = aristocratic_ideas
-		full_idea_group = trade_ideas
-	}	
-	
-	production_efficiency = 0.1
-	legitimacy = 0.5
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0.6
-			NOT = { production_income_percentage = 0.1 }
-		}			
-		modifier = {
-			factor = 1.5
-			production_income_percentage = 0.2
-		}
-		modifier = {
-			factor = 1.5
-			production_income_percentage = 0.3
-		}
-		modifier = {
-			factor = 1.5
-			production_income_percentage = 0.4
-		}
-		modifier = {
-			factor = 1.5
-			production_income_percentage = 0.5
-		}
-		modifier = {
-			factor = 0
-			legitimacy = 95
-		}		
-		modifier = {
-			factor = 1.5
-			NOT = { legitimacy = 80 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { legitimacy = 60 }
-		}			
-		modifier = {
-			factor = 1.5
-			NOT = { legitimacy = 40 }
-		}
-		modifier = {
-			factor = 1.5
-			NOT = { legitimacy = 20 }
-		}
-	}
-}
-
-aristocratic_diplomatic = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = aristocratic_ideas
-		has_idea_group = diplomatic_ideas
-		OR = {
-			full_idea_group = aristocratic_ideas
-			full_idea_group = diplomatic_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = aristocratic_ideas
-		full_idea_group = diplomatic_ideas
-	}	
-	
-	prestige = 1
-	diplomatic_annexation_cost = -0.1
-	
-	ai_will_do = {
-		factor = 0.6
-	}
-}
-
-aristocratic_westernized = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = aristocratic_ideas
-		has_idea_group = westernized_ideas
-		OR = {
-			full_idea_group = aristocratic_ideas
-			full_idea_group = westernized_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = aristocratic_ideas
-		full_idea_group = westernized_ideas
-	}	
-	
-	global_institution_spread = 0.1
-	embracement_cost = -0.1
-	
-	ai_will_do = {
-		factor = 1.25
-	}
-}
-
-aristocratic_organization = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = aristocratic_ideas
-		has_idea_group = organization_ideas
-		OR = {
-			full_idea_group = aristocratic_ideas
-			full_idea_group = organization_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = aristocratic_ideas
-		full_idea_group = organization_ideas
-	}	
-	
-	global_tax_modifier = 0.1
-	governing_capacity_modifier = 0.1
-	
-	ai_will_do = {
-		factor = 1.2
-		modifier = {
-			factor = 0.75
-			NOT = { tax_income_percentage = 0.25 }
-		}			
-		modifier = {
-			factor = 1.5
-			tax_income_percentage = 0.45
-		}
-		modifier = {
-			factor = 1.5
-			tax_income_percentage = 0.7
-		}
-	}
-}
-
-ecclesiocratic_trade = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = ecclesiocratic_ideas
-		has_idea_group = trade_ideas
-		OR = {
-			full_idea_group = ecclesiocratic_ideas
-			full_idea_group = trade_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = ecclesiocratic_ideas
-		full_idea_group = trade_ideas
-	}	
-	
-	global_missionary_strength = 0.01
-	global_institution_spread = 0.1
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-ecclesiocratic_mercantilist = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = ecclesiocratic_ideas
-		has_idea_group = mercantilist_ideas
-		OR = {
-			full_idea_group = ecclesiocratic_ideas
-			full_idea_group = mercantilist_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = ecclesiocratic_ideas
-		full_idea_group = mercantilist_ideas
-	}	
-	
-	production_efficiency = 0.1
-	global_trade_goods_size_modifier = 0.1
-	
-	ai_will_do = {
-		factor = 1.2
-		modifier = {
-			factor = 0.6
-			NOT = { production_income_percentage = 0.1 }
-		}			
-		modifier = {
-			factor = 1.5
-			production_income_percentage = 0.2
-		}
-		modifier = {
-			factor = 1.5
-			production_income_percentage = 0.3
-		}
-		modifier = {
-			factor = 1.5
-			production_income_percentage = 0.4
-		}
-		modifier = {
-			factor = 1.5
-			production_income_percentage = 0.5
-		}
-	}
-}
-
-ecclesiocratic_offensive = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = ecclesiocratic_ideas
-		has_idea_group = offensive_ideas
-		OR = {
-			full_idea_group = ecclesiocratic_ideas
-			full_idea_group = offensive_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = ecclesiocratic_ideas
-		full_idea_group = offensive_ideas
-	}	
-	
-	global_unrest = -1
-	years_of_nationalism = -5
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-ecclesiocratic_traditional = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = ecclesiocratic_ideas
-		has_idea_group = traditional_ideas
-		OR = {
-			full_idea_group = ecclesiocratic_ideas
-			full_idea_group = traditional_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = ecclesiocratic_ideas
-		full_idea_group = traditional_ideas
-	}	
-	
-	stability_cost_modifier = -0.2
-	war_exhaustion_cost = -0.2
-	
-	ai_will_do = {
-		factor = 0.8
-	}
-}
-
-ecclesiocratic_westernized = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = ecclesiocratic_ideas
-		has_idea_group = westernized_ideas
-		OR = {
-			full_idea_group = ecclesiocratic_ideas
-			full_idea_group = westernized_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = ecclesiocratic_ideas
-		full_idea_group = westernized_ideas
-	}	
-	
-	idea_cost = -0.1
-	prestige = 1
-	
-	ai_will_do = {
-		factor = 1.2
-	}
-}
-
-ecclesiocratic_leadership = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = ecclesiocratic_ideas
-		has_idea_group = leadership_ideas
-		OR = {
-			full_idea_group = ecclesiocratic_ideas
-			full_idea_group = leadership_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = ecclesiocratic_ideas
-		full_idea_group = leadership_ideas
-	}	
-	
-	devotion = 1
-	
-	ai_will_do = {
-		factor = 0.8
-	}
-}
-
-meritocratic_trade = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = meritocratic_ideas
-		has_idea_group = trade_ideas
-		OR = {
-			full_idea_group = meritocratic_ideas
-			full_idea_group = trade_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = meritocratic_ideas
-		full_idea_group = trade_ideas
-	}	
-	
-	idea_cost = -0.1
-	merchants = 1 
-	
-	ai_will_do = {
-		factor = 1.2
-	}
-}
-
-meritocratic_influence = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = meritocratic_ideas
-		has_idea_group = influence_ideas
-		OR = {
-			full_idea_group = meritocratic_ideas
-			full_idea_group = influence_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = meritocratic_ideas
-		full_idea_group = influence_ideas
-	}	
-	
-	advisor_cost = -0.1
-	free_leader_pool = 1
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-meritocratic_leadership = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = meritocratic_ideas
-		has_idea_group = leadership_ideas
-		OR = {
-			full_idea_group = meritocratic_ideas
-			full_idea_group = leadership_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = meritocratic_ideas
-		full_idea_group = leadership_ideas
-	}	
-	
-	yearly_corruption = -0.1
-	num_accepted_cultures = 1
-	
-	ai_will_do = {
-		factor = 2
-	}
-}
-
-administrative_trade = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = trade_ideas
-		OR = {
-			full_idea_group = administrative_ideas
-			full_idea_group = trade_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = trade_ideas
-	}	
-	
-	trade_efficiency = 0.1
-	global_tax_modifier = 0.1
-	
-	ai_will_do = {
-		factor = 1.5
-		modifier = {
-			factor = 0
-			NOT = { trade_income_percentage = 0.1 }
-		}			
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.2
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.3
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.4
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.5
-		}
-	}
-}
-
-administrative_influence = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = influence_ideas
-		OR = {
-			full_idea_group = administrative_ideas
-			full_idea_group = influence_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = influence_ideas
-	}	
-	
-	vassal_income = 0.25
-	yearly_corruption = -0.1
-	
-	ai_will_do = {
-		factor = 0.75
-		modifier = {
-			factor = 0
-			NOT = { vassal = 1 }
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 2
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 3
-		}			
-		modifier = {
-			factor = 1.5
-			vassal = 4
-		}
-		modifier = {
-			factor = 1.5
-			vassal = 5
-		}		
-	}
-}
-
-administrative_offensive = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = offensive_ideas
-		OR = {
-			full_idea_group = administrative_ideas
-			full_idea_group = offensive_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = offensive_ideas
-	}	
-	
-	core_creation = -0.1
-	
-	ai_will_do = {
-		factor = 2	
-	}
-}
-
-administrative_traditional = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = traditional_ideas
-		OR = {
-			full_idea_group = administrative_ideas
-			full_idea_group = traditional_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = traditional_ideas
-	}	
-	
-	build_cost = -0.2
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0.1
-			is_at_war = yes
-		}
-	}
-}
-
-administrative_organization = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = administrative_ideas
-		has_idea_group = organization_ideas
-		OR = {
-			full_idea_group = administrative_ideas
-			full_idea_group = organization_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = administrative_ideas
-		full_idea_group = organization_ideas
-	}	
-	
-	production_efficiency = 0.1
-	land_attrition = -0.25
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-expansion_mercantilist = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = mercantilist_ideas
-		OR = {
-			full_idea_group = expansion_ideas
-			full_idea_group = mercantilist_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = mercantilist_ideas
-	}	
-	
-	merchants = 1
-	trade_efficiency = 0.1
-	
-	ai_will_do = {
-		factor = 1.5
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.2
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.3
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.4
-		}
-		modifier = {
-			factor = 1.5
-			trade_income_percentage = 0.5
-		}
-	}
-}
-
-expansion_defensive = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = defensive_ideas
-		OR = {
-			full_idea_group = expansion_ideas
-			full_idea_group = defensive_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = defensive_ideas
-	}	
-	
-	development_cost = -0.1
-	global_garrison_growth = 0.1
-	
-	ai_will_do = {
-		factor = 0.8
-		modifier = {
-			factor = 1.5
-			is_at_war = yes
-		}
-	}
-}
-
-expansion_leadership = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = leadership_ideas
-		OR = {
-			full_idea_group = expansion_ideas
-			full_idea_group = leadership_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = leadership_ideas
-	}	
-	
-	advisor_pool = 1
-	advisor_cost = -0.1
-	
-	ai_will_do = {
-		factor = 0.6
-	}
-}
-
-mercantilist_traditional = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = mercantilist_ideas
-		has_idea_group = traditional_ideas
-		OR = {
-			full_idea_group = mercantilist_ideas
-			full_idea_group = traditional_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = mercantilist_ideas
-		full_idea_group = traditional_ideas
-	}	
-	
-	global_tax_modifier = 0.1
-	vassal_income = 0.25
-	
-	ai_will_do = {
-		factor = 0.6
-		modifier = {
-			factor = 0.6
-			NOT = { tax_income_percentage = 0.1 }
-		}			
-		modifier = {
-			factor = 1.5
-			tax_income_percentage = 0.2
-		}
-		modifier = {
-			factor = 1.5
-			tax_income_percentage = 0.3
-		}
-		modifier = {
-			factor = 1.5
-			tax_income_percentage = 0.4
-		}
-		modifier = {
-			factor = 1.5
-			tax_income_percentage = 0.5
-		}
-	}
-}
-
-diplomatic_westernized = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = diplomatic_ideas
-		has_idea_group = westernized_ideas
-		OR = {
-			full_idea_group = diplomatic_ideas
-			full_idea_group = westernized_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = diplomatic_ideas
-		full_idea_group = westernized_ideas
-	}	
-	
-	diplomatic_reputation = 1
-	idea_cost = -0.1
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-influence_organization = {
-	monarch_power = ADM
-	
-	potential = {
-		has_idea_group = influence_ideas
-		has_idea_group = organization_ideas
-		OR = {
-			full_idea_group = influence_ideas
-			full_idea_group = organization_ideas
-		}
-	}
-	
-	allow = {
-		full_idea_group = influence_ideas
-		full_idea_group = organization_ideas
-	}	
-	
-	global_unrest = -1
-	state_maintenance_modifier = -0.25
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 2
-		}
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 4
-		}			
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 6
-		}
-		modifier = {
-			factor = 1.5
-			average_effective_unrest = 8
-		}
+		
 	}
 }

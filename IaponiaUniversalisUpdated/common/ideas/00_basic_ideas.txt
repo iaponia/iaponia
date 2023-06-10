@@ -11,7 +11,7 @@ physiocratic_ideas = {
 	category = ADM
 	
 	bonus = {
-		max_absolutism = 10
+		global_autonomy = -0.05
 	}
 	
 	trigger = {

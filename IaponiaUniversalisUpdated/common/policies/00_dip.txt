@@ -180,7 +180,7 @@ mercantile_mobilization = {
 	}
 	
 	leader_naval_manuever = 1
-	privateer_efficiency = 0.5
+	privateer_efficiency = 0.25
 	
 	ai_will_do = {
 		

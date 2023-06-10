@@ -75,7 +75,7 @@ physiocratic_etiquette = {
 	}
 	
 	monthly_reform_progress = 0.1
-	all_estate_loyalty_equilibrium = 0.1
+	loyalty_change_on_revoked = 0.1
 	
 	ai_will_do = {
 		

@@ -6,196 +6,42 @@
 
 # Note that ai_will_do calculates a priority.
 # An advisor may be chosen over another if its random priority exceeds it. RandomPriority(advisor) := rand[1, 2[ * Priority(advisor).
-#theologian_a
-#monk_a
-#architect_a
-#treasurer_a
-#logistician_a
 #magistrate_a
-#clan_historian_a
-#clan_elder_a
 #censor_a
-#economist_a
-#bureaucratic_reformer_a
-#ninja_a
-#merchant_a
+#civil_engineer_a
+#money_lender_a
+#doctor_a
+#scholar_a
+#monk_a
+#missionary_a
 #tea_master_a
-#poet_a
-#councillor_a
-#envoy_a
+#artist_a
+#pirate_lord_a
+#spymaster_a
+#clan_elder_a
+#chief_retainer_a
 #imperial_courtier_a
-#naval_commander_a
-#navigator_a
-#naval_reformer_a
-#vanguard_commander_a
-#ashigaru_commander_a
-#teppo_commander_a
-#cavalry_commander_a
-#blademaster_a
-#siege_master_a
+#diviner_a
+#military_inspector_a
 #military_engineer_a
-#commandant_a
-#army_organizer_a
-#army_reformer_a
+#infantry_commander_a
+#cavalry_commander_a
+#strategist_a
+#head_page_a
+#blademaster_a
+#warrior_monk_a
 
 ######################################################
 # Administrative Advisors
 ######################################################
 
 ######################################################
-theologian_a = {
-	monarch_power = ADM
-
-	# Bonus
-	global_missionary_strength = 0.02
-	idea_cost = -0.05
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-		modifier = {
-			factor = 0
-			NOT = {
-				religion = kirishitan
-			}
-		}
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-monk_a = {
-	monarch_power = ADM
-
-	# Bonus
-	global_missionary_strength = 0.02
-	stability_cost_modifier = -0.1
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-		modifier = {
-			factor = 0
-			religion = kirishitan
-		}
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-architect_a = {
-	monarch_power = ADM
-	allow_only_male = yes
-
-	# Bonus
-	build_cost = -0.1
-	fort_maintenance_modifier = -0.1
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-treasurer_a = {
+magistrate_a = {
 	monarch_power = ADM
 
 	# Bonus
 	global_tax_modifier = 0.1
-	inflation_reduction = 0.05
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-logistician_a = {
-	monarch_power = ADM
-	allow_only_male = yes
-
-	# Bonus
-	reinforce_speed = 0.25
-	merc_maintenance_modifier = -0.15
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-magistrate_a = {
-	monarch_power = ADM
-	allow_only_male = yes
-
-	# Bonus
-	production_efficiency = 0.1
-	global_unrest = -1
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-clan_historian_a = {
-	monarch_power = ADM
-
-	# Bonus
-	prestige = 1
-	fabricate_claims_cost = -0.15
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-clan_elder_a = {
-	monarch_power = ADM
-
-	# Bonus
-	core_creation = -0.1
-	state_maintenance_modifier = -0.1
+	stability_cost_modifier = -0.25
 
 	# skill_scaled_modifier = {}
 
@@ -214,45 +60,6 @@ censor_a = {
 
 	# Bonus
 	yearly_corruption = -0.05
-	religious_unity = 0.20
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-economist_a = {
-	monarch_power = ADM
-
-	# Bonus
-	global_trade_goods_size_modifier = 0.1
-	development_cost = -0.1
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-bureaucratic_reformer_a = {
-	monarch_power = ADM
-	allow_only_male = yes
-
-	# Bonus
-	adm_tech_cost_modifier = -0.1
 	global_autonomy = -0.05
 
 	# skill_scaled_modifier = {}
@@ -267,36 +74,13 @@ bureaucratic_reformer_a = {
 }
 
 ######################################################
-# Diplomatic Advisors
-######################################################
-
-######################################################
-ninja_a = {
-	monarch_power = DIP
-
-	# Bonus
-	spy_offence = 0.2
-	global_spy_defence = 0.2
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-merchant_a = {
-	monarch_power = DIP
+civil_engineer_a = {
+	monarch_power = ADM
 	allow_only_male = yes
 
 	# Bonus
-	trade_efficiency = 0.1
-	trade_steering = 0.1
+	development_cost = -0.1
+	production_efficiency = 0.1
 
 	# skill_scaled_modifier = {}
 
@@ -308,14 +92,116 @@ merchant_a = {
 		factor = 1
 	}
 }
+
+######################################################
+money_lender_a = {
+	monarch_power = ADM
+
+	# Bonus
+	interest = -1
+	inflation_reduction = 0.1
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+doctor_a = {
+	monarch_power = ADM
+	allow_only_male = yes
+
+	# Bonus
+	monarch_lifespan = 0.25
+	heir_chance = 0.5
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+scholar_a = {
+	monarch_power = ADM
+	allow_only_male = yes
+
+	# Bonus
+	global_institution_spread = 0.1
+	reform_progress_growth = 0.1
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+monk_a = {
+	monarch_power = ADM
+
+	# Bonus
+	tolerance_own = 1
+	religious_unity = 0.25
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+missionary_a = {
+	monarch_power = ADM
+
+	# Bonus
+	global_missionary_strength = 0.01
+	technology_cost = -0.1
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 0
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+# Diplomatic Advisors
+######################################################
 
 ######################################################
 tea_master_a = {
 	monarch_power = DIP
 
 	# Bonus
-	embracement_cost = -0.1
-	global_institution_spread = 0.1
+	diplomatic_reputation = 1
+	culture_conversion_cost = -0.25
 
 	# skill_scaled_modifier = {}
 
@@ -329,50 +215,92 @@ tea_master_a = {
 }
 
 ######################################################
-poet_a = {
+artist_a = {
 	monarch_power = DIP
 
 	# Bonus
-	ae_impact = -0.1
-	culture_conversion_cost = -0.15
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-councillor_a = {
-	monarch_power = DIP
-
-	# Bonus
-	diplomatic_upkeep = 1
-	unjustified_demands = -0.1
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-envoy_a = {
-	monarch_power = DIP
-
-	# Bonus
-	improve_relation_modifier = 0.15
+	prestige = 1
 	prestige_decay = -0.01
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+pirate_lord_a = {
+	monarch_power = DIP
+
+	# Bonus
+	naval_morale = 0.1
+	privateer_efficiency = 0.25
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			has_port = no
+		}
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+spymaster_a = {
+	monarch_power = DIP
+
+	# Bonus
+	spy_offence = 0.25
+	global_spy_defence = 0.25
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+clan_elder_a = {
+	monarch_power = DIP
+
+	# Bonus
+	improve_relation_modifier = 0.2
+	vassal_income = 0.2
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+chief_retainer_a = {
+	monarch_power = DIP
+
+	# Bonus
+	reduced_liberty_desire = 10
+	all_estate_loyalty_equilibrium = 0.1
 
 	# skill_scaled_modifier = {}
 
@@ -390,8 +318,8 @@ imperial_courtier_a = {
 	monarch_power = DIP
 
 	# Bonus
-	diplomatic_reputation = 1
-	war_exhaustion_cost = -0.1
+	ae_impact = -0.1
+	fabricate_claims_cost = -0.25
 
 	# skill_scaled_modifier = {}
 
@@ -405,70 +333,17 @@ imperial_courtier_a = {
 }
 
 ######################################################
-naval_commander_a = {
+diviner_a = {
 	monarch_power = DIP
-	allow_only_male = yes
 
 	# Bonus
-	naval_morale = 0.1
-	privateer_efficiency = 0.15
+	global_missionary_strength = 0.01
+	great_project_upgrade_cost = -0.25
 
 	# skill_scaled_modifier = {}
 
 	chance = {
-		factor = 1
-		modifier = {
-			factor = 0
-			has_port = no
-		}
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-navigator_a = {
-	monarch_power = DIP
-	allow_only_male = yes
-
-	# Bonus
-	ship_durability = 0.05
-	global_ship_cost = -0.1
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-		modifier = {
-			factor = 0
-			has_port = no
-		}
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-naval_reformer_a = {
-	monarch_power = DIP
-	allow_only_male = yes
-
-	# Bonus
-	dip_tech_cost_modifier = -0.1
-	navy_tradition_decay = -0.01
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-		modifier = {
-			factor = 0
-			has_port = no
-		}
+		factor = 0
 	}
 
 	ai_will_do = {
@@ -481,112 +356,12 @@ naval_reformer_a = {
 ######################################################
 
 ######################################################
-vanguard_commander_a = {
+military_inspector_a = {
 	monarch_power = MIL
-	allow_only_male = yes
 
 	# Bonus
-	shock_damage_received = -0.1
-	recover_army_morale_speed = 0.05
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-ashigaru_commander_a = {
-	monarch_power = MIL
-	allow_only_male = yes
-
-	# Bonus
-	global_manpower_modifier = 0.15
 	land_maintenance_modifier = -0.1
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-teppo_commander_a = {
-	monarch_power = MIL
-	allow_only_male = yes
-
-	# Bonus
-	fire_damage = 0.1
-	garrison_size = 0.1
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-cavalry_commander_a = {
-	monarch_power = MIL
-	allow_only_male = yes
-
-	# Bonus
-	cavalry_flanking = 0.25
-	cavalry_cost = -0.1
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-blademaster_a = {
-	monarch_power = MIL
-
-	# Bonus
-	merc_maintenance_modifier = -0.2
-	global_regiment_recruit_speed = -0.2
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-siege_master_a = {
-	monarch_power = MIL
-	allow_only_male = yes
-
-	# Bonus
-	siege_ability = 0.15
-	land_attrition = -0.15
+	reinforce_speed = 0.25
 
 	# skill_scaled_modifier = {}
 
@@ -604,8 +379,8 @@ military_engineer_a = {
 	monarch_power = MIL
 
 	# Bonus
-	defensiveness = 0.15
-	hostile_attrition = 1
+	siege_ability = 0.1
+	assault_fort_ability = 0.25
 
 	# skill_scaled_modifier = {}
 
@@ -619,30 +394,11 @@ military_engineer_a = {
 }
 
 ######################################################
-commandant_a = {
+infantry_commander_a = {
 	monarch_power = MIL
 
 	# Bonus
-	discipline = 0.05
-	manpower_recovery_speed = 0.1
-
-	# skill_scaled_modifier = {}
-
-	chance = {
-		factor = 1
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-######################################################
-army_organizer_a = {
-	monarch_power = MIL
-
-	# Bonus
-	land_morale = 0.1
+	global_manpower_modifier = 0.1
 	land_forcelimit_modifier = 0.1
 
 	# skill_scaled_modifier = {}
@@ -657,18 +413,93 @@ army_organizer_a = {
 }
 
 ######################################################
-army_reformer_a = {
+cavalry_commander_a = {
 	monarch_power = MIL
-	allow_only_male = yes
 
 	# Bonus
-	mil_tech_cost_modifier = -0.1
-	army_tradition_decay = -0.01
+	cavalry_power = 0.1
+	movement_speed = 0.1
 
 	# skill_scaled_modifier = {}
 
 	chance = {
 		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+strategist_a = {
+	monarch_power = MIL
+
+	# Bonus
+	discipline = 0.05
+	army_tradition_from_battle = 0.5
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+head_page_a = {
+	monarch_power = MIL
+
+	# Bonus
+	land_morale = 0.1
+	garrison_damage = 0.25
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+blademaster_a = {
+	monarch_power = MIL
+
+	# Bonus
+	drill_gain_modifier = 0.5
+	drill_decay_modifier = -0.5
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 1
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+######################################################
+warrior_monk_a = {
+	monarch_power = MIL
+
+	# Bonus
+	global_missionary_strength = 0.01
+	recover_army_morale_speed = 0.1
+
+	# skill_scaled_modifier = {}
+
+	chance = {
+		factor = 0
 	}
 
 	ai_will_do = {

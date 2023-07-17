@@ -7,19 +7,7 @@
 #Nation Designer Cost is set to match triggers for starting institutions.
 
 groups = {
-	kyushu = {
-		start_level = 1
-		start_cost_modifier = 0
-	}
-	saigoku = {
-		start_level = 1
-		start_cost_modifier = 0
-	}
-	togoku = {
-		start_level = 1
-		start_cost_modifier = 0
-	}
-	tohoku = {
+	japanese = {
 		start_level = 1
 		start_cost_modifier = 0
 	}

@@ -1,7 +1,7 @@
 #Samurai Cavalry
 
 type = cavalry
-unit_type = chinese
+unit_type = japanese
 
 maneuver = 2
 offensive_morale = 2

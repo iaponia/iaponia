@@ -1,6 +1,7 @@
 #Drilled Teppo Ashigaru
 
 type = artillery
+unit_type = japanese
 
 maneuver = 2
 offensive_morale = 2

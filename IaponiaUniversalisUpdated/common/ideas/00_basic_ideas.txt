@@ -63,10 +63,10 @@ physiocratic_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
 	}
 }
 
@@ -126,10 +126,10 @@ plutocratic_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
 	}
 }
 
@@ -189,11 +189,11 @@ patronage_ideas = {
     }
     
     ai_will_do = {
-        factor = 
-        modifier = {
-            factor = 
-        }
-    }
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
+	}
 }
 
 devotion_ideas = {
@@ -252,10 +252,10 @@ devotion_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
 	}
 }
 
@@ -315,10 +315,10 @@ centralism_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
 	}
 }
 
@@ -378,10 +378,10 @@ federationism_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
 	}
 }
 
@@ -432,10 +432,10 @@ mercantile_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
 	}
 }
 
@@ -496,10 +496,10 @@ etiquette_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
 	}
 }
 
@@ -559,10 +559,10 @@ mobilization_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
 	}
 }
 
@@ -622,10 +622,10 @@ fortification_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
 	}
 }
 
@@ -685,10 +685,10 @@ logistical_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
 	}
 }
 
@@ -748,9 +748,25 @@ leadership_ideas = {
 	}
 	
 	ai_will_do = {
-		factor = 
-		modifier = {
-			factor = 
-		}
+		factor = 1
+		#modifier = {
+		#	factor = 
+		#}
+	}
+}
+
+shinto_ideas = {
+	category = ADM
+
+	bonus = {
+		global_missionary_strength = 1
+	}
+}
+
+pagan_ideas = {
+	category = ADM
+
+	bonus = {
+		global_missionary_strength = 1
 	}
 }

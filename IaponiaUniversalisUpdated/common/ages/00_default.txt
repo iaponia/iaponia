@@ -16,7 +16,8 @@ age_of_discovery = {
 		increase_autonomy_command = -2
 		debase_currency = -1
 		execute_rebel_acceptance_command = -10
-		seat_in_parliament = -3
+		automatic_seat_in_parliament = -3
+		manual_seat_in_parliament = -3
 		war_exhaustion = -1
 	}
 
@@ -170,7 +171,7 @@ age_of_reformation = {
 	start = 1520
 
 	can_start = {
-		is_institution_enabled = militarized_aristocracy_i
+		is_institution_enabled = gekokujo_i
 	}
 
 	religious_conflicts = yes
@@ -184,7 +185,8 @@ age_of_reformation = {
 		increase_autonomy_command = -2
 		debase_currency = -1
 		execute_rebel_acceptance_command = -10
-		seat_in_parliament = -3
+		automatic_seat_in_parliament = -3
+		manual_seat_in_parliament = -3
 		war_exhaustion = -1
 	}
 
@@ -198,7 +200,10 @@ age_of_reformation = {
 			}
 		}
 		obj_convert_10_provinces = {
-			check_variable = { which = num_converted_religion value = 10 }
+			check_variable = { 
+				which = num_converted_religion 
+				value = 10 
+			}
 		}
 		obj_foreign_trade = {
 			calc_true_if = {
@@ -212,7 +217,7 @@ age_of_reformation = {
 					is_core = ROOT
 				}
 				amount = 4
-				has_institution = western_trade_i
+				has_institution = nanban_trade_i
 			}
 		}
 		obj_gekokujo = {
@@ -364,7 +369,8 @@ age_of_absolutism = {
 		increase_autonomy_command = -2
 		debase_currency = -1
 		execute_rebel_acceptance_command = -10
-		seat_in_parliament = -3
+		automatic_seat_in_parliament = -3
+		manual_seat_in_parliament = -3
 		war_exhaustion = -1
 	}
 

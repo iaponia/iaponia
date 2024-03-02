@@ -1,5 +1,4 @@
-bookmark =
-{
+bookmark = {
 	name = "COALITION_JAP"
 	desc = "COALITION_DESC"
 	date = 1569.10.10

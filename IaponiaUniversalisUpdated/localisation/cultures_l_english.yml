@@ -1,4 +1,17 @@
 ﻿l_english:
+
+ #Groups
+ kyushu_g:0 "Kyushuan"
+ saigoku_g:0 "Saigoku"
+ kinai_g:0 "Kinaian"
+ hokuriku_g:0 "Hokuriku"
+ chubu_g:0 "Chubu"
+ kanto_g:0 "Kanto"
+ tohoku_g:0 "Tohoku"
+ ryukyu_g:0 "Ryukyu"
+ ainu_g:0 "Ainu"
+
+ # Cultures
  minami_kyushu_c:0 "Minami Kyushu"
  naka_kyushu_c:0 "Naka Kyushu"
  higashi_kyushu_c:0 "Higashi Kyushu"

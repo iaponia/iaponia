@@ -5,7 +5,7 @@ primary_culture = choshu_c
 add_accepted_culture = buzen_c
 add_accepted_culture = chikuzen_c
 religion = shinto
-technology_group = saigoku
+technology_group = japanese_tech
 capital = 113	# Yoshiki
 mercantilism = 50
 	

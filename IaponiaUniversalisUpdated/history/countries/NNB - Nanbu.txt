@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = rikugo_c
 add_accepted_culture = tsugaru_c
 religion = shinto
-technology_group = tohoku
+technology_group = japanese_tech
 capital = 663	# Sannohe
 mercantilism = 50
 

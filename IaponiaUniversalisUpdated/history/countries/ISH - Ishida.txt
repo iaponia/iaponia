@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = biwa_c
 add_accepted_culture = mino_c
 religion = shinto
-technology_group = saigoku
+technology_group = japanese_tech
 capital = 334
 mercantilism = 50
 

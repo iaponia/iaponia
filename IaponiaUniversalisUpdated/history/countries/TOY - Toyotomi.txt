@@ -6,7 +6,7 @@ add_accepted_culture = kawachi_c
 add_accepted_culture = kii_c
 add_accepted_culture = tanshu_c
 religion = shinto
-technology_group = saigoku
+technology_group = japanese_tech
 capital = 684
 mercantilism = 50
 

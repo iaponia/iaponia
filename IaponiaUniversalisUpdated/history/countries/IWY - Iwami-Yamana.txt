@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = iwami_c
 religion = shinto
-technology_group = saigoku
+technology_group = japanese_tech
 capital = 120	# Nima
 mercantilism = 50
 

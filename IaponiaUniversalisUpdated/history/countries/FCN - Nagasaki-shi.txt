@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = shimabara_c
 religion = kirishitan
-technology_group = kyushu
+technology_group = japanese_tech
 capital = 48
 mercantilism = 50
 

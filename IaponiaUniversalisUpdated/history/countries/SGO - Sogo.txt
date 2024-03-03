@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = awa_c
 religion = nichirenshu
-technology_group = saigoku
+technology_group = japanese_tech
 capital = 153
 mercantilism = 50
 

@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
-technology_group = kyushu
+technology_group = japanese_tech
 religion = ryukyuan
 primary_culture = okinawan_c
 capital = 715	# Nanzan

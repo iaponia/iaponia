@@ -1,26 +1,51 @@
 ﻿l_english:
+ # For now same for most religions
+ LIBERATION:0 "Religious Liberation"
+ 
+ ### Japonic Group ###
  japonic: "Japanese"
+
+ # Harmonization
+ harmonized_japonic: "Harmonized with the Japanese Faiths"
+ desc_harmonized_japonic: "We have incorporated the Japanese faiths in our country and national ethos."
+ 
+ ## Shintoism ##
  shintoism_string: "Shinto-Buddhism"
  shinto: "Shinto-Buddhism"
  shinto_religion_desc: ""
+ 
+ # Blessings
+ confucian_education: "Encourage Neo-Confucianism"
+ encourage_national_study: "Encourage Kokugaku"
+ familial_ties_to_priesthood: "Maintain Familial Ties to the Priesthood"
+ formalize_warrior_codes: "Formalize the Warrior Ideals"
+ recruit_warrior_monks: "Recruit Warrior Monks"
+ organize_festivals: "Formalize the Organization of Festivals"
+ maintain_pilgrimage_routes: "Maintain the Pilgrimage Routes"
+ 
+ ## Jodoshinshu ##
  jodoshinshu_string: "Ikko-Shu Buddhism"
  jodoshinshu: "Ikko-Shu"
  jodoshinshu_religion_desc: ""
+
+ TENDAI:0 "Tendai" 
+
+ ## Nichirenshu ##
  nichirenshu_string: "Hokke-Shu Buddhism"
  nichirenshu: "Hokke-Shu"
  nichirenshu_religion_desc: ""
+
+ SHINGON:0 "Shingon"
+
+ ### Christian Group ###
  christian_group: "Christian"
  catholic_religion_desc: ""
- ainu_religion_string: "Ainu Paganism"
- ainu_group: "Ainu"
- ainu_religion_desc: ""
- kirishitan_string: "Christianity"
- kirishitan: "Catholic"
- kirishitan_religion_desc: "Catholicism is the name of a Christian tradition with its roots in the old Latin rite that recognizes the Pope as the head of Christendom.\nIn 1444 Catholicism is the dominant Christian Church in western and northern Europe but it will likely be broken up by Protestantism and Reformism during the reformation."
- ryukyuan_religion_string: "Ryukyuan Paganism"
- ryukyuan: "Ryukyuan"
- ryukyuan_group: "Ryukyuan"
- ryukyuan_religion_desc: ""
+
+ # Harmonization
+ harmonized_kirishitan: "Harmonized with the Catholic Faith"
+ desc_harmonized_kirishitan: "We have incorporated the Catholic faith in our country and national ethos."
+ 
+ # Religious Schools
  jesuit_school: "Jesuit Clergy"
  franciscan_school: "Franciscan Clergy"
  dominican_school: "Dominican Clergy"
@@ -33,6 +58,44 @@
  desc_jesuit_scholar_modifier: "We are currently hosting an ancillary mission of the Jesuit Order."
  desc_franciscan_scholar_modifier: "We are currently hosting an ancillary mission of the Franciscan Order."
  desc_dominican_scholar_modifier: "We are currently hosting an ancillary mission of the Dominican Order."
+
+ ## Kirishitan ##
+ kirishitan_string: "Christianity"
+ kirishitan: "Catholic"
+ kirishitan_religion_desc: "Catholicism is the name of a Christian tradition with its roots in the old Latin rite that recognizes the Pope as the head of Christendom.\nIn 1444 Catholicism is the dominant Christian Church in western and northern Europe but it will likely be broken up by Protestantism and Reformism during the reformation."
+
+ # Heretics
+ CALVINIST:0 "Calvinist"
+
+ #-------------------#
+ nofaith:0 "nofaith"
+
+ ### Ainu Group ###
+ 
+ # Harmonization
+ harmonized_kamuism: "Harmonized with the Ainu Faith"
+ desc_harmonized_kamuism: "We have incorporated the Ainu faith in our country and national ethos."
+
+ ## Ainu ##
+ ainu_religion_string: "Ainu Paganism"
+ ainu_group: "Ainu"
+ ainu_religion_desc: ""
+ 
+ # Heretics
+ CULTIST:0 "Cultist"
+ 
+ ### Ryukyuan Group ###
+
+ ## Ryukyuan ##
+ ryukyuan_religion_string: "Ryukyuan Paganism"
+ ryukyuan: "Ryukyuan"
+ ryukyuan_group: "Ryukyuan"
+ ryukyuan_religion_desc: ""
+ 
+ # Heretics
+ THREE_BUTTONS:0 "Three Buttons"
+
+ ### Unorganized ###
  organize_dioceses_aspect: "Organize Dioceses"
  found_seminaries_aspect: "Found Seminaries"
  establish_hospitals_aspect: "Establish Hospitals"
@@ -57,13 +120,7 @@
  HOLY_SITE_432_DESC: "Mount Fuji is the highest mountain in Japan, and one of its three Holy Mountains, with its base long considered sacred."
  HOLY_SITE_536_DESC: "Kamakura was once the center of Japan, and in it lies the Tsurugaoka Hachimangu, and is one of the largest and most important shrine-temples in the east."
  PATRIARCHAL_BLESSINGS: "Honors"
- confucian_education: "Encourage Neo-Confucianism"
- encourage_national_study: "Encourage Kokugaku"
- familial_ties_to_priesthood: "Maintain Familial Ties to the Priesthood"
- formalize_warrior_codes: "Formalize the Warrior Ideals"
- recruit_warrior_monks: "Recruit Warrior Monks"
- organize_festivals: "Formalize the Organization of Festivals"
- maintain_pilgrimage_routes: "Maintain the Pilgrimage Routes"
+
  kimun_cult: "Bear Cult"
  fuchi_cult: "Owl Cult"
  repun_cult: "Crab Cult"
@@ -134,13 +191,6 @@
  tooltip_buddhadharma_cult: "This cult has the following benefits when selected:\nImprove Relations: §G+25.0%§!\nMissionary Strength: §G+2.00%§!"
  tooltip_shinto_cult: "This cult has the following benefits when selected:\nCore Creation Cost: §G-10.0%§!\nTolerance of Heathens: §G+2.00§!"
  
- harmonized_kamuism: "Harmonized with the Ainu Faith"
- desc_harmonized_kamuism: "We have incorporated the Ainu faith in our country and national ethos."
- harmonized_japonic: "Harmonized with the Japanese Faiths"
- desc_harmonized_japonic: "We have incorporated the Japanese faiths in our country and national ethos."
- harmonized_kirishitan: "Harmonized with the Catholic Faith"
- desc_harmonized_kirishitan: "We have incorporated the Catholic faith in our country and national ethos."
-
  #TODO: fix these below
  ryukyu_faith.1.t: "Harmonization of Kamuism"
  ryukyu_faith.1.d: "Our efforts to integrate our Ainu subjects have now finally started to pay off. Our pagan subjects have begun to accept the ideals of Confucianism and our local officials have also integrated elements of the local religion and culture in our wider Confucian corpus of ideals. As local bureaucrats enter our administration the pagan customs have to some extent began to filter upwards. Even among prominent officials in [Root.Capital.GetCapitalName] a small altar can sometimes be found to a TODO!Bear? Crab??? Owl?????.\nPaganism has become one of the many religions of our Confucian [Root.GovernmentName]."

@@ -276,7 +276,7 @@ christian_group = {
 	
 	ai_will_propagate_through_trade = yes
 	
-	crusade_name = LIBERATION
+	crusade_name = CRUSADE
 	
 	religious_schools = {
 		jesuit_school = {

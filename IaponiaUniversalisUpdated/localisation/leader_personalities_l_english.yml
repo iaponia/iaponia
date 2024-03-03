@@ -1,0 +1,84 @@
+﻿l_english:
+ tonbogiri_general_personality:0 "Tonbogiri General"
+ desc_tonbogiri_general_personality:0 "TODO"
+ tonbogiri_general_personality_die_desc "TODO"
+
+ frontline_leader_personality: "Frontline Leader"
+ desc_frontline_leader_personality: "PLACEHOLDER"
+ frontline_leader_personality_die_desc: "PLACEHOLDER"
+
+ horse_lord_personality: "Horse Lord"
+ desc_horse_lord_personality: "PLACEHOLDER"
+ horse_lord_personality_die_desc: "PLACEHOLDER"
+
+ unflinching_leader_personality: "Unflinching Leader"
+ desc_unflinching_leader_personality: "PLACEHOLDER"
+ unflinching_leader_personality_die_desc: "PLACEHOLDER"
+
+ skilled_marksman_personality: "Skilled Marksman"
+ desc_skilled_marksman_personality: "PLACEHOLDER"
+ skilled_marksman_personality_die_desc: "PLACEHOLDER"
+
+ inspirational_leader_personality: "Inspirational Leader"
+ desc_inspirational_leader_personality: "PLACEHOLDER"
+ inspirational_leader_personality_die_desc: "PLACEHOLDER"
+
+ rapid_mobilizer_personality: "Rapid Mobilizer"
+ desc_rapid_mobilizer_personality: "PLACEHOLDER"
+ rapid_mobilizer_personality_die_desc: "PLACEHOLDER"
+
+ siege_master_personality: "Siege Master"
+ desc_siege_master_personality: "PLACEHOLDER"
+ siege_master_personality_die_desc: "PLACEHOLDER"
+
+ artillery_commander_personality: "Artillery Commander"
+ desc_artillery_commander_personality: "PLACEHOLDER"
+ artillery_commander_personality_die_desc: "PLACEHOLDER"
+
+ local_recruiter_personality: "Local Recruiter"
+ desc_local_recruiter_personality: "PLACEHOLDER"
+ local_recruiter_personality_die_desc: "PLACEHOLDER"
+
+ shrewd_quartermaster_personality: "Shrewd Quartermaster"
+ desc_shrewd_quartermaster_personality: "PLACEHOLDER"
+ shrewd_quartermaster_personality_die_desc: "PLACEHOLDER"
+
+ skilled_tactician_personality: "Skilled Tactician"
+ desc_skilled_tactician_personality: "PLACEHOLDER"
+ skilled_tactician_personality_die_desc: "PLACEHOLDER"
+
+ sea_king_personality: "Sea King"
+ desc_sea_king_personality: "PLACEHOLDER"
+ sea_king_personality_die_desc: "PLACEHOLDER"
+
+ famous_pirate_personality: "Famous Pirate"
+ desc_famous_pirate_personality: "PLACEHOLDER"
+ famous_pirate_personality_die_desc: "PLACEHOLDER"
+
+ accomplished_navigator_personality: "Accomplished Navigator"
+ desc_accomplished_navigator_personality: "PLACEHOLDER"
+ accomplished_navigator_personality_die_desc: "PLACEHOLDER"
+
+ skilled_boarder_personality: "Skilled Boarder"
+ desc_skilled_boarder_personality: "PLACEHOLDER"
+ skilled_boarder_personality_die_desc: "PLACEHOLDER"
+
+ pyromaniac_admiral_personality: "Pyromaniac Admiral"
+ desc_pyromaniac_admiral_personality: "PLACEHOLDER"
+ pyromaniac_admiral_personality_die_desc: "PLACEHOLDER"
+
+ calm_commander_personality: "Calm Commander"
+ desc_calm_commander_personality: "PLACEHOLDER"
+ calm_commander_personality_die_desc: "PLACEHOLDER"
+
+ logistics_officer_personality: "Logistics Officer"
+ desc_logistics_officer_personality: "PLACEHOLDER"
+ logistics_officer_personality_die_desc: "PLACEHOLDER"
+
+ iron_ships_personality: "Iron Ships"
+ desc_iron_ships_personality: "PLACEHOLDER"
+ iron_ships_personality_die_desc: "PLACEHOLDER"
+
+ hostile_trading_debuff_loc: "Hostile Trading"
+ inland_routes_debuff_loc: "Focus on Inland Routes"
+ establish_communities_debuff_loc: "Establishing Communities"

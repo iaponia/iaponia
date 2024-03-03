@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = owari_c
 religion = shinto
-technology_group = saigoku
+technology_group = japanese_tech
 capital = 371	# Kaito
 mercantilism = 50
 

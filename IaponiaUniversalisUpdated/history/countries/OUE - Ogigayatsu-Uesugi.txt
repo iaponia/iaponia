@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = musashi_c
 add_accepted_culture = sagami_c
 religion = shinto
-technology_group = togoku
+technology_group = japanese_tech
 capital = 512	# Iruma
 mercantilism = 50
 

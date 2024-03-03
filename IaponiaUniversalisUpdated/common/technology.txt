@@ -7,11 +7,11 @@
 #Nation Designer Cost is set to match triggers for starting institutions.
 
 groups = {
-	japanese = {
+	japanese_tech = {
 		start_level = 1
 		start_cost_modifier = 0
 	}
-	ainu = {
+	ainu_tech = {
 		start_level = 0
 		start_cost_modifier = 0
 		#was 0.25, but tech no longer works like this

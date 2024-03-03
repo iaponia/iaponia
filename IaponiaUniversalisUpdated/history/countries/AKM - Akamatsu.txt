@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = harima_c
 add_accepted_culture = bizen_c
 religion = shinto
-technology_group = saigoku
+technology_group = japanese_tech
 capital = 250	# Itto
 mercantilism = 50
 

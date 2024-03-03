@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = shimosa_c
 add_accepted_culture = boso_c
 religion = shinto
-technology_group = togoku
+technology_group = japanese_tech
 capital = 529	# Chiba
 mercantilism = 50
 	

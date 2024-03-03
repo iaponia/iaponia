@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = kozuke_c
 add_accepted_culture = musashi_c
 religion = shinto
-technology_group = togoku
+technology_group = japanese_tech
 capital = 501	# Tako
 mercantilism = 50
 

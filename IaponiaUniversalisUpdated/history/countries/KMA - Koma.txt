@@ -3,6 +3,6 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = yamashiro_c
 religion = jodoshinshu
-technology_group = saigoku
+technology_group = japanese_tech
 capital = 291	# Sagara
 mercantilism = 50

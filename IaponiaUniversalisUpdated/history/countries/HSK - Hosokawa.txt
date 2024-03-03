@@ -5,7 +5,7 @@ primary_culture = sesshu_c
 add_accepted_culture = awaji_c
 add_accepted_culture = tanshu_c
 religion = shinto
-technology_group = saigoku
+technology_group = japanese_tech
 capital = 144	# Utari
 mercantilism = 50
 

@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = okitama_c
 religion = shinto
-technology_group = tohoku
+technology_group = japanese_tech
 capital = 581	# Miyagi
 mercantilism = 50
 

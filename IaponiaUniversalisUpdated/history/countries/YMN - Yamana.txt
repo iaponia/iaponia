@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = inaba_c
 add_accepted_culture = bishu_c
 religion = shinto
-technology_group = saigoku
+technology_group = japanese_tech
 capital = 241	# Izushi
 mercantilism = 50
 

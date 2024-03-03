@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = bungo_c
 add_accepted_culture = chikugo_c
 religion = shinto
-technology_group = kyushu
+technology_group = japanese_tech
 capital = 40	# Oita
 mercantilism = 50
 	

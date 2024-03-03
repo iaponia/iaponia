@@ -26,6 +26,6 @@ ainu_tribal = {
 	trigger = {
 		#TODO
 		#government = tribal_kingdom
-		culture_group = hokkai_c
+		culture_group = ainu_g
 	}
 }

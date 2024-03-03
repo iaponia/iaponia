@@ -491,13 +491,13 @@ gunsmithing_i = {
 			scale = yes
 			potential = {
 				owner = {
-					has_institution = western_trade_i
+					has_institution = nanban_trade_i
 				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_global_trade_i_embraced
 				owner = {
-					has_institution = western_trade_i
+					has_institution = nanban_trade_i
 				}
 			}
 		}
@@ -647,7 +647,7 @@ nanban_trade_i = {
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_catholic
-				religion = catholic
+				religion = kirishitan
 			}
 		}
 		modifier = {
@@ -867,7 +867,7 @@ rangaku_i = {
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_catholic
-				religion = catholic
+				religion = kirishitan
 			}
 		}
 		modifier = {

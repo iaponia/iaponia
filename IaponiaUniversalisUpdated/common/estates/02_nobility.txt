@@ -119,22 +119,14 @@ estate_nobles = {
 		desc = estate_bushi
 		trigger = {
 			OR = {
-				culture_group = hayato_c
-				culture_group = kitakyushu_c
-				culture_group = hichiku_c
-				culture_group = sanyo_c
-				culture_group = sanin_c
-				culture_group = shikoku_c
-				culture_group = kinai_c
-				culture_group = kansai_c
-				culture_group = hokuriku_c
-				culture_group = tosan_c
-				culture_group = tokai_c
-				culture_group = kanto_c
-				culture_group = rikuchu_c
-				culture_group = dewa_c
-				culture_group = mutsu_c
-				#culture_group = hokkai_c
+				culture_group = kyushu_g
+				culture_group = saigoku_g
+				culture_group = kinai_g
+				culture_group = hokuriku_g
+				culture_group = chubu_g
+				culture_group = kanto_g
+				culture_group = tohoku_g
+				culture_group = ryukyu_g #Maybe?
 			}
 		}
 	}

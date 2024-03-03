@@ -49,8 +49,35 @@ estate_church_fire_advisor = {
 		modifier = {
 			factor = 0.5
 			employed_advisor = {
-				type = theologian_a
+				type = diviner_a
 				religion = root
+			}
+		}
+		modifier = {
+			factor = 2
+			advisor = diviner_a
+			NOT = {
+				employed_advisor = {
+					type = diviner_a
+					religion = root
+				}
+			}
+		}		
+		modifier = {
+			factor = 0.5
+			employed_advisor = {
+				type = missionary_a
+				religion = root
+			}
+		}
+		modifier = {
+			factor = 2
+			advisor = missionary_a
+			NOT = {
+				employed_advisor = {
+					type = missionary_a
+					religion = root
+				}
 			}
 		}
 		modifier = {
@@ -58,16 +85,6 @@ estate_church_fire_advisor = {
 			employed_advisor = {
 				type = monk_a
 				religion = root
-			}
-		}
-		modifier = {
-			factor = 2
-			advisor = theologian_a
-			NOT = {
-				employed_advisor = {
-					type = theologian_a
-					religion = root
-				}
 			}
 		}
 		modifier = {

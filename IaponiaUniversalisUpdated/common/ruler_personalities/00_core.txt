@@ -3141,7 +3141,7 @@ arrogant_personality = {
 		allow = {
 			NOT = { consort_has_personality = humble_personality }
 			NOT = { consort_has_personality = proud_personality }
-			NOT = { consort_has_personality = gracious_personality 
+			NOT = { consort_has_personality = gracious_personality}
 			NOT = { consort_has_personality = devout_personality }
 			NOT = { consort_has_personality = honest_personality }
 			NOT = { consort_has_personality = cautious_personality }

@@ -339,9 +339,9 @@ guiTypes = {
 		{
 			name ="idea_icon"
 			spriteType = "GFX_idea_empty"
-			position = { x= -40 y = -38 }
+			position = { x= -40 y = -32 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.65
+			scale = 0.56
 		}		
 	}	
 	
@@ -537,7 +537,7 @@ guiTypes = {
 			spriteType = "GFX_idea_empty"
 			position = { x= 4 y = -25 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.55
+			scale = 0.50
 			hint_tag = "hint_ideas"
 		}
 		
@@ -563,7 +563,7 @@ guiTypes = {
 			quadTextureSprite= "GFX_idea_empty"
 			position = { x= 4 y = -25 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.55
+			scale = 0.50
 			hint_tag = "hint_ideas"
 		}
 	}

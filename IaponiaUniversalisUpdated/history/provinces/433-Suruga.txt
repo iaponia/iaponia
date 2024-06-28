@@ -1,17 +1,17 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = IMG
 add_core = HJO
 owner = IMG
 controller = IMG
 
-culture = sunshu_c
+culture = minami_chubu_c
 religion = shinto
 capital = "Numatsu"
 is_city = yes

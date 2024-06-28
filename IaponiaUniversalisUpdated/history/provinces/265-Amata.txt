@@ -1,9 +1,6 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = HSK
 add_core = HTN
@@ -11,7 +8,7 @@ add_core = HGN
 owner = HSK
 controller = HSK
 
-culture = tanshu_c
+culture = kita_kinai_c
 religion = shinto
 capital = "Oniga"
 is_city = yes

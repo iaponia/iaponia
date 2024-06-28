@@ -1,16 +1,16 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = MNO
 add_core = ADO
 owner = MNO
 controller = MNO
 
-culture = akita_c
+culture = kita_tohoku_c
 religion = shinto
 capital = "Odate"
 is_city = yes

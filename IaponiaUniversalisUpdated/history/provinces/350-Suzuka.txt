@@ -1,16 +1,13 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = ISK
 add_core = SKI
 owner = ISK
 controller = ISK
 
-culture = seishu_c
+culture = higashi_kinai_c
 religion = shinto
 capital = "Suzuka"
 is_city = yes

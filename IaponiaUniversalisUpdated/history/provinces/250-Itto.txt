@@ -1,10 +1,7 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = AKM
 add_core = YMN
@@ -12,7 +9,7 @@ add_core = KRD
 owner = AKM
 controller = AKM
 
-culture = harima_c
+culture = minami_chugoku_c
 religion = shinto
 capital = "Himeji"
 is_city = yes

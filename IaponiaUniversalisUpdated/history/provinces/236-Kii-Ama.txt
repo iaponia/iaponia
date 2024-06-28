@@ -1,16 +1,13 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = BHY
 owner = BHY
 controller = BHY
 add_core = SZK
 
-culture = kii_c
+culture = minami_kinai_c
 religion = shinto
 capital = "Saika"
 is_city = yes

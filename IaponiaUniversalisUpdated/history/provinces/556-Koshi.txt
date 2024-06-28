@@ -1,9 +1,9 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = EGU
 add_core = NGO
@@ -11,7 +11,7 @@ add_core = NAO
 owner = EGU
 controller = EGU
 
-culture = esshu_c
+culture = kita_hokuriku_c
 religion = shinto
 capital = "Tochio"
 is_city = yes

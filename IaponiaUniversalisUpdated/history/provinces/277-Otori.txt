@@ -1,10 +1,7 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = HSK
 add_core = FCS
@@ -12,7 +9,7 @@ add_core = KNH
 owner = HSK
 controller = HSK
 
-culture = sesshu_c
+culture = nishi_kinai_c
 religion = nichirenshu
 capital = "Sakai"
 is_city = yes

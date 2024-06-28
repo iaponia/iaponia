@@ -1,17 +1,17 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = BHY
 add_core = JNB
 owner = BHY
 controller = BHY
 
-culture = kaga_c
+culture = nishi_hokuriku_c
 religion = shinto
 capital = "Tomisaki"
 is_city = yes

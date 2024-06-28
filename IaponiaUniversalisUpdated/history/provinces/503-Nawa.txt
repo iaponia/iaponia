@@ -1,17 +1,17 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = UES
 add_core = NGN
 owner = UES
 controller = UES
 
-culture = kozuke_c
+culture = nishi_kanto_c
 religion = shinto
 capital = "Asami"
 is_city = yes

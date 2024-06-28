@@ -1,16 +1,13 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = KGK
 add_core = AMA
 owner = KGK
 controller = KGK
 
-culture = unpaku_c
+culture = kita_chugoku_c
 religion = shinto
 capital = "Mizawa"
 is_city = yes

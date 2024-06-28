@@ -1,17 +1,14 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = ASK
 add_core = ENR
 owner = ASK
 controller = ASK
 
-culture = yamashiro_c
+culture = naka_kinai_c
 religion = nichirenshu
 capital = "Kitashirakawa"
 is_city = yes

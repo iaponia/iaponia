@@ -1,10 +1,10 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = SBA
 add_core = IOD
@@ -13,7 +13,7 @@ add_core = IKE
 owner = SBA
 controller = SBA
 
-culture = owari_c
+culture = nishi_chubu_c
 religion = shinto
 capital = "Kitatoyama"
 is_city = yes

@@ -1,17 +1,17 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = TGS
 add_core = HGJ
 owner = TGS
 controller = TGS
 
-culture = kaga_c
+culture = nishi_hokuriku_c
 religion = shinto
 capital = "Daishoji"
 is_city = yes

@@ -1,17 +1,17 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = OUE
 add_core = NGN
 owner = OUE
 controller = OUE
 
-culture = kozuke_c
+culture = nishi_kanto_c
 religion = shinto
 capital = "Aoyagi"
 is_city = yes

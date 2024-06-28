@@ -1,20 +1,20 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = IWK
 owner = IWK
 controller = IWK
 
-culture = iwaki_c
+culture = minami_tohoku_c
 religion = shinto
 capital = "Ishinomaki"
 is_city = yes
 shrine = yes
-workshop = yes 
+merchant_guild = yes 
 barracks = yes
 
 base_tax = 4

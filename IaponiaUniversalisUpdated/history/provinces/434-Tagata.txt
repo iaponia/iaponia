@@ -1,17 +1,17 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = HAK
 add_core = HJO
 owner = HAK
 controller = HAK
 
-culture = sagami_c
+culture = minami_kanto_c
 religion = shinto
 capital = "Kashiwakubo"
 is_city = yes

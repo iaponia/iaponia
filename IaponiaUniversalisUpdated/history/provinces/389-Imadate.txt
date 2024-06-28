@@ -1,16 +1,16 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = SBA
 add_core = ASA
 owner = SBA
 controller = SBA
 
-culture = echizen_c
+culture = nishi_hokuriku_c
 religion = shinto
 capital = "Mitsumine"
 is_city = yes

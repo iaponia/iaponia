@@ -1,16 +1,16 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = KTK
 add_core = SAK
 owner = KTK
 controller = KTK
 
-culture = boso_c
+culture = higashi_kanto_c
 religion = nichirenshu
 capital = "Togane"
 is_city = yes

@@ -1,17 +1,17 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = MKM
 add_core = SNA
 owner = MKM
 controller = MKM
 
-culture = shinano_c
+culture = higashi_chubu_c
 religion = shinto
 capital = "Shioda"
 is_city = yes

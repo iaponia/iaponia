@@ -1,10 +1,7 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = OUC
 add_core = IWY
@@ -12,7 +9,7 @@ add_core = MST
 owner = IWY
 controller = IWY
 
-culture = iwami_c
+culture = nishi_chugoku_c
 religion = shinto
 capital = "Misumi"
 is_city = yes

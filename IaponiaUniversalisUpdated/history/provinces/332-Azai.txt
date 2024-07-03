@@ -1,17 +1,14 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = KGK
 add_core = AZI
 owner = KGK
 controller = KGK
 
-culture = biwa_c
+culture = naka_kinai_c
 religion = shinto
 capital = "Isono"
 is_city = yes

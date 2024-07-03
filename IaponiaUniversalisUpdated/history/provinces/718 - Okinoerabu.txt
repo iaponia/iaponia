@@ -1,16 +1,13 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = RYU
 add_core = HKZ
 owner = RYU
 controller = RYU
 
-culture = amami_c
+culture = ryukyu_c
 religion = ryukyuan
 capital = "Wadomari"
 is_city = yes

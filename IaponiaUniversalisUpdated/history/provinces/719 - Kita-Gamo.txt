@@ -1,10 +1,10 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = RKK
 add_core = GAM
@@ -12,7 +12,7 @@ add_core = OTN
 owner = RKK
 controller = RKK
 
-culture = omi_c
+culture = naka_kinai_c
 religion = shinto
 capital = "Kannoji"
 is_city = yes

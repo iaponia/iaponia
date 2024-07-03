@@ -1,15 +1,12 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = OTM
 owner = OTM
 controller = OTM
 
-culture = bungo_c
+culture = naka_kyushu_c
 religion = shinto
 capital = "Kusu"
 is_city = yes

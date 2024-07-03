@@ -1,16 +1,13 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = OUC
 add_core = NTO
 owner = OUC
 controller = OUC
 
-culture = choshu_c
+culture = nishi_chugoku_c
 religion = shinto
 capital = "Fukawa"
 is_city = yes

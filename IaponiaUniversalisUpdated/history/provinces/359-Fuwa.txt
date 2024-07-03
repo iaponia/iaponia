@@ -1,17 +1,13 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
-
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 add_core = TKI
 add_core = TKN
 owner = TKI
 controller = TKI
 
-culture = mino_c
+culture = nishi_chubu_c
 religion = shinto
 capital = "Imasu"
 is_city = yes

@@ -1,16 +1,16 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = NNB
 add_core = SNB
 owner = NNB
 controller = NNB
 
-culture = rikugo_c
+culture = kita_tohoku_c
 religion = shinto
 capital = "Kuji"
 is_city = yes

@@ -1,17 +1,14 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
 
 add_core = OUC
 add_core = MNK
 owner = OUC
 controller = OUC
 
-culture = chikuzen_c
+culture = kita_kyushu_c
 religion = shinto
 capital = "Hakusan"
 is_city = yes

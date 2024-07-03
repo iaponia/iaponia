@@ -1,16 +1,16 @@
 highways = yes
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = IMG
 owner = IMG
 controller = IMG
 
-culture = sunshu_c
+culture = minami_chubu_c
 religion = nichirenshu
 capital = "Omiya"
 is_city = yes

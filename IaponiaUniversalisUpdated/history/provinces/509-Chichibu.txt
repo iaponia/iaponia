@@ -1,16 +1,16 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = UES
 add_core = DDJ
 owner = UES
 controller = UES
 
-culture = musashi_c
+culture = nishi_kanto_c
 religion = shinto
 capital = "Tenjinyama"
 is_city = yes

@@ -1,15 +1,15 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = OSB
 owner = OSB
 controller = OSB
 
-culture = oshu_c
+culture = naka_tohoku_c
 religion = shinto
 capital = "Kosuiji"
 is_city = yes

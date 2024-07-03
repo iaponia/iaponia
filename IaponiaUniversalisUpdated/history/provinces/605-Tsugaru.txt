@@ -1,9 +1,9 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = NMK
 add_core = OUR
@@ -11,7 +11,7 @@ add_core = NNB
 owner = NNB
 controller = NNB
 
-culture = tsugaru_c
+culture = kita_tohoku_c
 religion = shinto
 capital = "Oura"
 is_city = yes

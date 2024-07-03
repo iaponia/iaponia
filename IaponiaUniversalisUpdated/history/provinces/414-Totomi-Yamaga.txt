@@ -1,16 +1,16 @@
 hre = no
-discovered_by = kyushu
-discovered_by = saigoku
-discovered_by = togoku
-discovered_by = tohoku
-discovered_by = ainu
+discovered_by = japanese_tech
+discovered_by = ainu_tech
+
+
+
 
 add_core = SBA
 add_core = OKB
 owner = SBA
 controller = SBA
 
-culture = totomi_c
+culture = minami_chubu_c
 religion = shinto
 capital = "Takane"
 is_city = yes
